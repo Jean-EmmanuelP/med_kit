@@ -1,2 +1,4 @@
 articles
 .env
+.venv
+__pycache__
