@@ -1,5 +1,5 @@
 <script lang="ts">
-	  import "../app.css";
+	import '../app.css';
 	import Header from '$lib/components/Header.svelte';
 	import userProfile from '$lib/stores/user';
 	import { invalidate } from '$app/navigation';
@@ -26,7 +26,7 @@
 	let { data, children } = $props();
 	let { session, supabase, user } = $derived(data);
 	if (!$userProfile && user?.id) {
-			getUserProfile(supabase, user.id);
+		getUserProfile(supabase, user.id);
 	}
 	supabaseStore.set(supabase);
 	userProfile.set(user);
@@ -44,11 +44,13 @@
 </script>
 
 <svelte:head>
-  <!-- Charger le fichier de polices personnalisées -->
-  <link rel="stylesheet" href="/fonts.css" />
+	<!-- Charger le fichier de polices personnalisées -->
+	<link rel="stylesheet" href="/fonts.css" />
 </svelte:head>
 
-<div class="relative flex flex-col font-display">
+<div class="font-display relative flex flex-col">
 	<Header />
-	{@render children()}
+	<div class="mt-[15%] sm:mt-[3.5%]">
+		{@render children()}
+	</div>
 </div>

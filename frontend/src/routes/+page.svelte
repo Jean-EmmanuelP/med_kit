@@ -1,4 +1,3 @@
-<!-- /routes/+page.svelte -->
 <script>
 	import { i18n } from '$lib/i18n';
 	import userProfileStore from '$lib/stores/user';
@@ -6,6 +5,8 @@
   
 	let showModal = false;
 	let searchQuery = '';
+	let isPlaying = false;
+	let videoElement;
   
 	const disciplineOptions = [
 	  'Médecine Générale', 'Urgences', 'Médecine du Travail', 'Santé Publique', 'Médecine Interne',
@@ -34,14 +35,23 @@
 	function redirectToSignup() {
 	  goto('/signup');
 	}
+  
+	function togglePlay() {
+	  if (isPlaying) {
+		videoElement.pause();
+	  } else {
+		videoElement.play();
+	  }
+	  isPlaying = !isPlaying;
+	}
   </script>
   
   <main class="relative flex min-h-screen flex-col">
 	<!-- Hero Section avec vidéo -->
 	<div class="relative flex-auto">
 	  <video
+		bind:this={videoElement}
 		class="absolute inset-0 w-full h-full object-cover"
-		autoplay
 		loop
 		muted
 		playsinline
@@ -53,25 +63,48 @@
 	  <!-- Overlay sombre -->
 	  <div class="absolute inset-0 bg-black opacity-50"></div>
   
-	  <!-- Contenu -->
-	  <div class="relative z-10 flex flex-col items-center justify-center h-full px-4 py-12 text-center">
-		<div class="max-w-4xl space-y-6">
-		  <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold font-display tracking-tight text-white drop-shadow-lg">
-			Veille Médicale : Restez Informé
-		  </h1>
-		  <p class="text-lg md:text-xl font-light font-serif text-white drop-shadow-md">
-			Inscrivez-vous pour recevoir les derniers articles médicaux adaptés à vos domaines d’intérêt.
-		  </p>
+	  <!-- Bouton Play/Pause -->
+	  <button
+		on:click={togglePlay}
+		class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-20 text-white"
+		aria-label={isPlaying ? 'Pause' : 'Play'}
+	  >
+		{#if isPlaying}
+		  <!-- Icône Pause -->
+		  <svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+			<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 9v6m4-6v6"></path>
+		  </svg>
+		{:else}
+		  <!-- Icône Play -->
+		  <svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+			<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l10 7-10 7V5z"></path>
+		  </svg>
+		{/if}
+	  </button>
   
+	  <!-- Contenu -->
+	  <div class="absolute bottom-8 right-8 z-10 text-right text-white">
+		<h1 class="text-4xl md:text-5xl lg:text-6xl font-bold font-display tracking-tight drop-shadow-lg">
+		  Transforming your care
+		</h1>
+		<p class="text-lg md:text-xl font-light font-serif drop-shadow-md pl-4 mt-2">
+		  Learn how we drive innovation
+		</p>
+		<div class="mt-4 pl-4">
 		  {#if !$userProfileStore}
-			<div class="mt-4">
-			  <a
-				href="/signup"
-				class="inline-block rounded-full bg-white px-6 py-3 text-base md:text-lg font-medium font-sans-bold text-black hover:bg-gray-100 transition-colors duration-200"
-			  >
-				Créer un compte
-			  </a>
-			</div>
+			<a
+			  href="/signup"
+			  class="inline-block rounded-full border-2 border-white px-6 py-3 text-base md:text-lg font-medium font-sans-bold text-white hover:bg-white hover:text-black transition-colors duration-200"
+			>
+			  Créer un compte
+			</a>
+		  {:else}
+			<a
+			  href="/articles"
+			  class="inline-block rounded-full border-2 border-white px-6 py-3 text-base md:text-lg font-medium font-sans-bold text-white hover:bg-white hover:text-black transition-colors duration-200"
+			>
+			  Voir les récents articles
+			</a>
 		  {/if}
 		</div>
 	  </div>

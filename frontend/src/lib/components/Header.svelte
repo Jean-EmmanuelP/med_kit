@@ -40,7 +40,7 @@
 	});
   </script>
   
-  <header class="bg-white shadow-sm">
+  <header class="bg-white shadow-sm fixed z-[100] w-screen">
 	<nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
 	  <!-- Logo -->
 	  <div class="flex items-center">
