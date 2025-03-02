@@ -75,7 +75,7 @@
 
 <main class="relative flex min-h-screen flex-col">
 	<!-- Hero Section avec vidéo -->
-	<div class="relative flex-auto">
+	<div class="relative flex-auto md:max-h-[60vh] overflow-hidden">
 		<video
 			bind:this={videoElement}
 			class="absolute inset-0 h-full w-full object-cover"
@@ -88,7 +88,7 @@
 		</video>
 
 		<!-- Overlay sombre -->
-		<div class="absolute inset-0 bg-black opacity-70"></div>
+		<div class="absolute inset-0 bg-black opacity-25"></div>
 
 		<!-- Bouton Play/Pause -->
 		<button
@@ -134,7 +134,7 @@
 			<!-- Texte à gauche -->
 			<div class="flex flex-col md:gap-6 gap-2 max-w-[90%] text-white">
 				<h1
-					class="font-display text-4xl font-bold tracking-tight drop-shadow-lg md:text-5xl lg:text-6xl"
+					class="font-display font-thin text-4xl tracking-tight drop-shadow-lg md:text-5xl lg:text-6xl"
 				>
 					{$i18n.home.hero.title}
 				</h1>
