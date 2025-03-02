@@ -131,7 +131,6 @@
 		<div
 			class="absolute bottom-[10%] left-[4%] z-10 flex w-full transform flex-col space-y-6 md:left-[19%] md:flex-col"
 		>
-			<!-- Texte à gauche -->
 			<div class="flex flex-col md:gap-6 gap-2 max-w-[90%] text-white">
 				<h1
 					class="font-display font-thin text-4xl tracking-tight drop-shadow-lg md:text-5xl lg:text-6xl"
