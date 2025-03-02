@@ -1,6 +1,7 @@
 <script lang="ts">
 	import '../app.css';
 	import Header from '$lib/components/Header.svelte';
+	import Footer from '$lib/components/Footer.svelte';
 	import userProfile from '$lib/stores/user';
 	import { invalidate } from '$app/navigation';
 	import { supabaseStore } from '$lib/stores/supabase';
@@ -53,4 +54,5 @@
 	<div class="mt-[15%] sm:mt-[3.5%]">
 		{@render children()}
 	</div>
+	<Footer />
 </div>

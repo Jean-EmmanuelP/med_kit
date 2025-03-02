@@ -6,6 +6,12 @@
       "description": "Veille est un service qui notifie les médecins des dernières études scientifiques pertinentes, en fonction de leurs disciplines et de leurs préférences. Recevez des alertes personnalisées et restez à la pointe en seulement 5 minutes par jour.",
       "phrase1": "Trop d’études, pas assez de temps,",
       "phrase2": "Veille vous livre l’essentiel.",
+      "hero": {
+        "title": "Veille scientifique simple et efficace",
+        "subtitle": "5 minutes par jour maximum via newsletter",
+        "signup": "S'inscrire",
+        "viewArticles": "Voir les articles"
+      },
       "arguments": {
         "list": [
           "Choisissez vos disciplines, paramétrez vos alertes,",
@@ -78,13 +84,23 @@
     "header": {
       "myArticles": "Mes articles",
       "articles": "Les articles",
-      "account": "Compte"
+      "account": "Compte",
+      "login": "Se connecter",
+      "signup": "S'inscrire"
     },
     "articles": {
       "title": "Les articles"
     },
     "myArticles": {
       "title": "Mes articles"
+    },
+    "footer": {
+      "slogan": "Veille Médicale : L’essentiel de la science pour les médecins",
+      "myArticles": "Mes Articles",
+      "articles": "Les Articles",
+      "account": "Compte",
+      "login": "Se connecter",
+      "signup": "S'inscrire"
     }
   }
 }
