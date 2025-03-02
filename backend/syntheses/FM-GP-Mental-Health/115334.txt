@@ -1,0 +1,19 @@
+Date de publication : 2024-12-01
+
+# 📝 Diagnostic et prise en charge des troubles obsessionnels compulsifs chez l'enfant
+
+## 📌 Contexte & Problématique
+Le TOC, trouble chronique invalidant débutant souvent dans l'enfance, nécessite une prise en charge précoce. Des incertitudes persistent sur les stratégies thérapeutiques optimales selon les populations et contextes spécifiques.
+
+## 🧪 Méthodologie
+Revue systématique avec méta-analyses en réseau et par paires de 117 études (31 diagnostiques, 71 essais contrôlés randomisés, 15 autres) identifiées dans cinq bases de données jusqu'en mai 2024.
+
+## 📊 Résultats clés
+La sous-échelle CBCL-OCS présente une sensibilité et spécificité adéquates pour orienter vers une évaluation spécialisée (niveau de preuve modéré). L'EPR en présentiel ou par télésanté est supérieure à l'absence de traitement (niveau élevé). Les ISRS surpassent le placebo (niveau élevé). L'association EPR+ISRS est plus efficace que les ISRS seuls (niveau modéré) et équivalente à l'EPR seule (niveau élevé).
+
+## 🩺 Impact clinique
+L'EPR, en présentiel ou télésanté, constitue un traitement efficace du TOC pédiatrique, seule ou combinée aux ISRS. Le CBCL-OCS peut faciliter l'identification des patients nécessitant une évaluation diagnostique approfondie.
+
+## 📖 Référence
+Steele DW, Caputo EL, Kanaan G, et al. Diagnosis and Management of Obsessive Compulsive Disorders in Children. AHRQ Publication No. 25-EHC001. Rockville, MD: Agency for Healthcare Research and Quality; 2024.
+🔗 Lien PubMed : Lien PubMed non disponible

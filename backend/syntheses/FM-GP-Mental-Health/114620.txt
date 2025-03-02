@@ -1,0 +1,19 @@
+Date de publication : 2025-01-01
+
+# 📝 LUMINOTHÉRAPIE POUR LES TROUBLES DÉPRESSIFS NON SAISONNIERS : EFFICACITÉ COMME TRAITEMENT ADJUVANT
+
+## 📌 Contexte & Problématique
+L'efficacité de la luminothérapie (LT) est bien établie pour les troubles dépressifs saisonniers, mais son rôle dans les dépressions non saisonnières reste incertain. Cette revue évalue son efficacité comme traitement adjuvant.
+
+## 🧪 Méthodologie
+Revue systématique et méta-analyse de 11 essais cliniques randomisés (2000-2024) incluant 858 patients (75,6% de femmes). Comparaison entre luminothérapie adjuvante et traitement standard ou placebo (lumière rouge tamisée).
+
+## 📊 Résultats clés
+La luminothérapie a significativement amélioré les taux de rémission (40,7% vs 23,5%; RC=2,42; p<0,001) et de réponse (60,4% vs 38,6%; RC=2,34; p<0,001). Les bénéfices sont observés tant à court terme (<4 semaines) qu'à long terme (>4 semaines), avec un effet particulièrement marqué sur la réponse précoce (RC=3,65; p<0,001).
+
+## 🩺 Impact clinique
+La luminothérapie constitue un traitement adjuvant efficace pour les dépressions non saisonnières, avec un potentiel d'accélération de la réponse thérapeutique initiale. Cette option non pharmacologique pourrait enrichir l'arsenal thérapeutique des cliniciens.
+
+## 📖 Référence
+Menegaz de Almeida A, Aquino de Moraes FC, Cavalcanti Souza ME, et al. Bright Light Therapy for Nonseasonal Depressive Disorders: A Systematic Review and Meta-Analysis. JAMA Psychiatry. 2025;82(1):38-46.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamapsychiatry.2024.2871.

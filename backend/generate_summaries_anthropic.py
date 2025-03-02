@@ -1,6 +1,8 @@
 import os
 import time
 import argparse
+import re
+from datetime import datetime
 from dotenv import load_dotenv
 import anthropic
 
@@ -26,22 +28,52 @@ def read_article_file(filepath):
     abstract_start = content.find("=== Abstract ===")
     
     if pubmed_start == -1 or metadata_start == -1 or abstract_start == -1:
-        return None, None, None
+        return None, None, None, None
     
     pubmed_link = content[pubmed_start + len("=== Lien PubMed ===\n"):metadata_start].strip()
     metadata = content[metadata_start + len("=== Métadonnées ===\n"):abstract_start].strip()
     abstract = content[abstract_start + len("=== Abstract ===\n"):].strip()
     
     if abstract.strip().upper() == "N/A":
-        return None, None, None
+        return None, None, None, None
     
-    return pubmed_link, metadata, abstract
+    # Extract publication date
+    pub_date = extract_publication_date(metadata)
+    
+    return pubmed_link, metadata, abstract, pub_date
+
+def extract_publication_date(metadata):
+    """Extract the publication date from metadata using Anthropic."""
+    prompt = (
+        "Extract the publication date from the following metadata. "
+        "Look for a date in the format 'Month Day, Year' or 'Year Month Day' (e.g., 'Epub 2024 Feb 23' or '2024 Mar 7'). "
+        "If 'Epub' is present, use the date following it; otherwise, use the first date in the citation. "
+        "Return the date as a string in the format 'YYYY-MM-DD'. "
+        "If no date is found, return '1970-01-01'. "
+        f"Metadata:\n{metadata}"
+    )
+    
+    response = client.messages.create(
+        model=MODEL_NAME,
+        max_tokens=50,
+        temperature=0,
+        messages=[{"role": "user", "content": prompt}]
+    )
+    
+    date_str = response.content[0].text.strip()
+    # Validate the date format (YYYY-MM-DD)
+    try:
+        datetime.strptime(date_str, '%Y-%m-%d')
+    except ValueError:
+        date_str = '1970-01-01'
+    
+    return date_str
 
 def translate_to_french(text):
     """Traduit un texte en français avec Claude, en utilisant des termes médicaux."""
     response = client.messages.create(
         model=MODEL_NAME,
-        max_token=2000,
+        max_tokens=2000,
         temperature=0.5,
         system="Tu es un traducteur médical expert en français.",
         messages=[{"role": "user", "content": f"Traduis ce texte en français de manière claire et précise, en utilisant des termes médicaux appropriés. Ne modifie pas le contenu, juste la langue. Base-toi uniquement sur le texte fourni :\n{text}"}]
@@ -60,7 +92,7 @@ def generate_summary(metadata, abstract_fr):
     )
     response = client.messages.create(
         model=MODEL_NAME,
-        max_token=2000,
+        max_tokens=2000,
         temperature=0.5,
         system="Tu es un assistant médical pour médecins francophones.",
         messages=[{"role": "user", "content": prompt}]
@@ -105,7 +137,7 @@ def process_articles(test_mode=False):
             continue
         
         print(f"  Traitement : {filepath}")
-        pubmed_link, metadata, abstract = read_article_file(filepath)
+        pubmed_link, metadata, abstract, pub_date = read_article_file(filepath)
         
         if pubmed_link and metadata and abstract:
             print(f"    Traduction de l’abstract...")
@@ -125,11 +157,14 @@ def process_articles(test_mode=False):
                 )
                 response = client.messages.create(
                     model=MODEL_NAME,
+                    max_tokens=2000,
                     temperature=0.5,
                     messages=[{"role": "user", "content": correction_prompt}]
                 )
                 summary = response.content[0].text
             
+            # Prepend the publication date to the summary
+            summary = f"Date de publication : {pub_date}\n\n{summary}"
             summary += f"\n🔗 Lien PubMed : {pubmed_link}"
             
             output_discipline_dir = os.path.join(OUTPUT_DIR, discipline_folder)
