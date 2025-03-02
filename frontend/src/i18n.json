@@ -1,0 +1,90 @@
+{
+  "fr": {
+    "home": {
+      "title": "Veille",
+      "subtitle": "L'outil de veille scientifique conçu pour les médecins",
+      "description": "Veille est un service qui notifie les médecins des dernières études scientifiques pertinentes, en fonction de leurs disciplines et de leurs préférences. Recevez des alertes personnalisées et restez à la pointe en seulement 5 minutes par jour.",
+      "phrase1": "Trop d’études, pas assez de temps,",
+      "phrase2": "Veille vous livre l’essentiel.",
+      "arguments": {
+        "list": [
+          "Choisissez vos disciplines, paramétrez vos alertes,",
+          "Recevez un condensé clé des dernières études scientifiques avec accès direct aux sources",
+          "5 min par jour pour rester à la pointe."
+        ]
+      },
+      "createAccount": "Créez votre compte en quelques secondes",
+      "features_title": "Ce que nous offrons",
+      "features": [
+        {
+          "title": "Base de données complète",
+          "description": "Accédez à une vaste base d’articles scientifiques, triés et filtrés selon vos intérêts.",
+          "learn_more": "En savoir plus"
+        },
+        {
+          "title": "Système d’alertes email",
+          "description": "Recevez des notifications personnalisées sur les nouvelles études qui vous concernent.",
+          "learn_more": "En savoir plus"
+        },
+        {
+          "title": "Ressources basées sur l’évidence",
+          "description": "Consultez des études validées et pertinentes pour une pratique clinique éclairée.",
+          "learn_more": "En savoir plus"
+        }
+      ],
+      "recent_articles_title": "Articles récents",
+      "recent_articles_subtitle": "Voici les articles les plus souvent lus, dans toutes les spécialités, des 30 derniers jours.",
+      "recent_articles": [
+        {
+          "title": "Médicaments antiviraux pour le traitement de l’influenza non sévère",
+          "description": "Une méta-analyse systématique.",
+          "source": "JAMA Intern Med. 2025 Jan 13. doi: 10.1001/jamainternmed.2024.7193.",
+          "category": "Revue systématique",
+          "rating": 5,
+          "id": 1
+        },
+        {
+          "title": "Jeûne intermittent pour la gestion du poids et la santé métabolique",
+          "description": "Une revue systématique des résultats.",
+          "source": "Diabetes Obes Metab. 2024 Feb 1;22(2):932- doi: 10.1111/dom.16092.",
+          "category": "Revue systématique",
+          "rating": 4,
+          "id": 2
+        }
+      ]
+    },
+    "login": {
+      "title": "Inscription",
+      "loginTitle": "Connexion",
+      "firstName": "Prénom",
+      "lastName": "Nom",
+      "email": "Email",
+      "password": "Mot de passe",
+      "disciplines": "Disciplines",
+      "notifications": "Fréquence des notifications",
+      "notificationOptions": [
+        "Tous les jours",
+        "Tous les 2 jours",
+        "Tous les 3 jours",
+        "1 fois par semaine",
+        "Tous les 15 jours",
+        "1 fois par mois"
+      ],
+      "submit": "S'inscrire",
+      "forgotPassword": "Mot de passe oublié",
+      "success": "Merci ! À présent, vous recevrez l’essentiel adapté à vos besoins afin de rester à jour.",
+      "footer": "Recevez l’essentiel adapté à vos besoins"
+    },
+    "header": {
+      "myArticles": "Mes articles",
+      "articles": "Les articles",
+      "account": "Compte"
+    },
+    "articles": {
+      "title": "Les articles"
+    },
+    "myArticles": {
+      "title": "Mes articles"
+    }
+  }
+}

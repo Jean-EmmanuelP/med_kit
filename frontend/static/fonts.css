@@ -1,0 +1,35 @@
+/* /static/fonts.css */
+@font-face {
+    font-family: 'MayoClinicSans-Regular';
+    src: url('/fonts/MayoClinicSans-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'MayoClinicSans-Bold';
+    src: url('/fonts/MayoClinicSans-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'MayoClinicSerifDisplay-Bold';
+    src: url('/fonts/MayoClinicSerifDisplay-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'MayoClinicSerif-Bold';
+    src: url('/fonts/MayoClinicSerif-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  :root {
+    --font-sans: 'MayoClinicSans-Regular', Arial, sans-serif;
+    --font-sans-bold: 'MayoClinicSans-Bold', Arial, sans-serif;
+    --font-serif: 'MayoClinicSerif-Bold', 'Times New Roman', serif;
+    --font-display: 'MayoClinicSerifDisplay-Bold', 'Times New Roman', serif;
+  }
