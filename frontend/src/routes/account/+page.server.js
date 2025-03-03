@@ -1,90 +1,91 @@
-import { supabase } from '$lib/supabase';
-import { redirect } from '@sveltejs/kit';
-
+// account/+page.server.js
 export async function load({ locals }) {
-  const user = locals.user; // Remplacez par votre méthode d'authentification
+  const { session, user } = await locals.safeGetSession();
 
-  // Rediriger vers /login si l'utilisateur n'est pas connecté
-  if (!user) {
-    throw redirect(302, '/login');
+  console.log('Session in account:', session);
+  console.log('User in account:', user);
+
+  if (!session || !user) {
+    return { error: 'Vous devez être connecté pour accéder à cette page.' };
   }
 
-  // Récupérer les informations de l'utilisateur (fréquence des notifications et disciplines)
-  const { data: userData, error: userError } = await supabase
+  // Fetch user profile
+  const { data: userProfile, error: profileError } = await locals.supabase
     .from('user_profiles')
-    .select('notification_frequency, disciplines')
+    .select('id, first_name, last_name, notification_frequency, disciplines, date_of_birth, education, status, specialty')
     .eq('id', user.id)
     .single();
 
-  if (userError || !userData) {
-    return { userPreferences: null, disciplinesList: [], error: userError ? userError.message : 'Utilisateur non trouvé' };
+  if (profileError || !userProfile) {
+    console.error('Error fetching user profile:', profileError);
+    return { error: profileError ? profileError.message : 'Profil non trouvé.' };
   }
 
-  // Récupérer la liste complète des disciplines disponibles
-  const { data: disciplinesData, error: disciplinesError } = await supabase
+  // Fetch all disciplines
+  const { data: disciplinesList, error: disciplinesError } = await locals.supabase
     .from('disciplines')
     .select('name')
     .order('name', { ascending: true });
 
   if (disciplinesError) {
-    return { userPreferences: null, disciplinesList: [], error: disciplinesError.message };
+    console.error('Error fetching disciplines:', disciplinesError);
+    return { error: disciplinesError.message };
   }
 
   return {
-    userPreferences: {
-      notificationFrequency: userData.notification_frequency,
-      disciplines: userData.disciplines || []
-    },
-    disciplinesList: disciplinesData.map(d => d.name)
+    userPreferences: userProfile,
+    disciplinesList: disciplinesList.map(d => d.name),
+    userProfile // Pass the user profile to the client
   };
 }
 
 export const actions = {
+  updateDisciplines: async ({ request, locals }) => {
+    const { session, user } = await locals.safeGetSession();
+    if (!session || !user) {
+      return { success: false, error: 'Vous devez être connecté pour modifier vos disciplines.', action: 'updateDisciplines' };
+    }
+
+    const formData = await request.formData();
+    const disciplines = JSON.parse(formData.get('disciplines'));
+
+    // Update the user's disciplines and specialty (first discipline)
+    const specialty = disciplines.length > 0 ? disciplines[0] : null;
+    const { error } = await locals.supabase
+      .from('user_profiles')
+      .update({
+        disciplines,
+        specialty
+      })
+      .eq('id', user.id);
+
+    if (error) {
+      console.error('Error updating disciplines:', error);
+      return { success: false, error: error.message, action: 'updateDisciplines' };
+    }
+
+    return { success: true, updatedDisciplines: disciplines, action: 'updateDisciplines' };
+  },
+
   updateNotificationFrequency: async ({ request, locals }) => {
-    const user = locals.user;
-    if (!user) {
-      throw redirect(302, '/login');
+    const { session, user } = await locals.safeGetSession();
+    if (!session || !user) {
+      return { success: false, error: 'Vous devez être connecté pour modifier la fréquence des notifications.', action: 'updateNotificationFrequency' };
     }
 
     const formData = await request.formData();
     const notificationFrequency = formData.get('notificationFrequency');
 
-    if (!notificationFrequency) {
-      return { success: false, error: 'La fréquence des notifications est requise.', action: 'updateNotificationFrequency' };
-    }
-
-    // Mettre à jour la fréquence des notifications
-    const { error } = await supabase
+    const { error } = await locals.supabase
       .from('user_profiles')
       .update({ notification_frequency: notificationFrequency })
       .eq('id', user.id);
 
     if (error) {
+      console.error('Error updating notification frequency:', error);
       return { success: false, error: error.message, action: 'updateNotificationFrequency' };
     }
 
-    return { success: true, action: 'updateNotificationFrequency' };
-  },
-
-  updateDisciplines: async ({ request, locals }) => {
-    const user = locals.user;
-    if (!user) {
-      throw redirect(302, '/login');
-    }
-
-    const formData = await request.formData();
-    const selectedDisciplines = formData.getAll('disciplines'); // Récupère toutes les disciplines cochées
-
-    // Mettre à jour les disciplines
-    const { error } = await supabase
-      .from('user_profiles')
-      .update({ disciplines: selectedDisciplines })
-      .eq('id', user.id);
-
-    if (error) {
-      return { success: false, error: error.message, action: 'updateDisciplines' };
-    }
-
-    return { success: true, action: 'updateDisciplines', updatedDisciplines: selectedDisciplines };
+    return { success: true, updatedNotificationFrequency: notificationFrequency, action: 'updateNotificationFrequency' };
   }
 };
