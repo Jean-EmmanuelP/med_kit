@@ -16,7 +16,13 @@ const supabase: Handle = async ({ event, resolve }) => {
       setAll: (cookiesToSet) => {
         cookiesToSet.forEach(({ name, value, options }) => {
           console.log(`Cookie set: ${name}=${value}`);
-          event.cookies.set(name, value, { ...options, path: '/', httpOnly: true, secure: true, sameSite: 'strict' });
+          event.cookies.set(name, value, {
+            ...options,
+            path: '/',
+            httpOnly: true,
+            secure: process.env.NODE_ENV === 'production', // Only secure in production (HTTPS)
+            sameSite: 'lax', // Use 'lax' to allow cookies in redirect scenarios
+          });
         });
       },
     },

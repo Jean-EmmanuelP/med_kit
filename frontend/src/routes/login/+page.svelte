@@ -13,6 +13,35 @@
 	let errorMessage = '';
 	let successMessage = '';
 	let isLoading = false;
+  
+	async function ensureSession() {
+	  let attempts = 0;
+	  const maxAttempts = 5;
+	  const delay = 500;
+  
+	  while (attempts < maxAttempts) {
+		const { data: sessionData, error: sessionError } = await supabase.auth.getSession();
+		if (sessionError) {
+		  console.error('Session retrieval error:', sessionError);
+		}
+		if (sessionData.session) {
+		  return sessionData.session;
+		}
+  
+		// Try refreshing the session
+		const { data: refreshedSession, error: refreshError } = await supabase.auth.refreshSession();
+		if (refreshError) {
+		  console.error('Session refresh error:', refreshError);
+		}
+		if (refreshedSession?.session) {
+		  return refreshedSession.session;
+		}
+  
+		attempts++;
+		await new Promise(resolve => setTimeout(resolve, delay));
+	  }
+	  return null;
+	}
   </script>
   
   <main class="flex min-h-screen items-center justify-center bg-gradient-to-br from-blue-50 to-gray-100 px-4 py-12">
@@ -40,18 +69,18 @@
 			if (result.type === 'failure') {
 			  errorMessage = result.data?.error || 'Erreur lors de la connexion';
 			} else if (result.type === 'success') {
-			  const { data: sessionData, error: sessionError } = await supabase.auth.getSession();
-			  if (sessionError || !sessionData.session) {
+			  console.log('Login result:', result);
+			  const session = await ensureSession();
+			  if (!session) {
 				errorMessage = 'Erreur lors de la récupération de la session après connexion';
 				return;
 			  }
 			  userProfileStore.set(result.data?.profileData);
 			  successMessage = $i18n.login.successLogin;
-			  // Handle redirect after displaying the success message
 			  if (result.data?.redirectTo) {
 				setTimeout(() => {
 				  goto(result.data.redirectTo);
-				}, 1000); // 1-second delay to show the success message
+				}, 1000);
 			  }
 			}
 		  };
@@ -67,9 +96,9 @@
 		/>
 	  </form>
 	  <a href="/signup" class="hover:underline">
-		  <p class="text-center text-sm text-gray-500 mt-4">
-			{$i18n.login.needAccount}
-		  </p>
+		<p class="text-center text-sm text-gray-500 mt-4">
+		  {$i18n.login.needAccount}
+		</p>
 	  </a>
 	</div>
   </main>

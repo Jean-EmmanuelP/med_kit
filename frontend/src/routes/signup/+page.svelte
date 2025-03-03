@@ -21,6 +21,35 @@
   let errorMessage = '';
   let successMessage = '';
   let isLoading = false;
+
+  async function ensureSession() {
+    let attempts = 0;
+    const maxAttempts = 5;
+    const delay = 500;
+
+    while (attempts < maxAttempts) {
+      const { data: sessionData, error: sessionError } = await supabase.auth.getSession();
+      if (sessionError) {
+        console.error('Session retrieval error:', sessionError);
+      }
+      if (sessionData.session) {
+        return sessionData.session;
+      }
+
+      // Try refreshing the session
+      const { data: refreshedSession, error: refreshError } = await supabase.auth.refreshSession();
+      if (refreshError) {
+        console.error('Session refresh error:', refreshError);
+      }
+      if (refreshedSession?.session) {
+        return refreshedSession.session;
+      }
+
+      attempts++;
+      await new Promise(resolve => setTimeout(resolve, delay));
+    }
+    return null;
+  }
 </script>
 
 <main class="flex min-h-screen items-center justify-center bg-gradient-to-br from-blue-50 to-gray-100 px-4 py-12">
@@ -58,8 +87,8 @@
               }
             } else {
               // Immediate login
-              const { data: sessionData, error: sessionError } = await supabase.auth.getSession();
-              if (sessionError || !sessionData.session) {
+              const session = await ensureSession();
+              if (!session) {
                 errorMessage = 'Erreur lors de la récupération de la session après inscription';
                 return;
               }

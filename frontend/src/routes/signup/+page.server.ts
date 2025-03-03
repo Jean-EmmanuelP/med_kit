@@ -45,7 +45,6 @@ export const actions: Actions = {
     // Vérifier si l'utilisateur est connecté automatiquement
     const { session } = signUpData;
     if (!session) {
-      // Si aucune session n’est retournée, l’utilisateur doit confirmer son email
       console.log('Utilisateur inscrit, en attente de confirmation par email.');
       return { success: true, message: 'Inscription réussie. Veuillez vérifier votre email pour confirmer votre compte.', redirectTo: '/login' };
     }

@@ -51,11 +51,6 @@ export const actions: Actions = {
     }
 
     console.log('Utilisateur connecté avec succès :', JSON.stringify(profileData, null, 2));
-    // Return the profile data and a redirect flag instead of throwing redirect immediately
-    return {
-      success: true,
-      profileData,
-      redirectTo: '/articles'
-    };
+    return { success: true, profileData, redirectTo: '/articles' };
   },
 };
