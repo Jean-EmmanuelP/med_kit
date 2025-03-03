@@ -1,0 +1,19 @@
+Date de publication : 2025-02-03
+
+# 📝 Incitations financières pour la vaccination COVID-19 : effets directs et indirects
+
+## 📌 Contexte & Problématique
+Les incitations financières pour la vaccination COVID-19 montrent de petits effets positifs directs, mais leurs effets indirects (sur les personnes exposées socialement aux bénéficiaires) restent méconnus.
+
+## 🧪 Méthodologie
+Essai clinique randomisé par grappes d'adresses à Ravensburg (Allemagne) en novembre 2021 incluant 41 548 résidents adultes. Le groupe d'intervention recevait une lettre offrant 40€ pour se faire vacciner, contre une simple information dans le groupe témoin.
+
+## 📊 Résultats clés
+Parmi les participants (âge moyen 49,96 ans, 51,3% femmes), 796 (1,9%) ont été vaccinés. Les effets directs sur les vaccinations primaires étaient non significatifs. Pour les rappels, l'effet global était significativement négatif (-0,30 points de pourcentage; p=0,006), avec un effet indirect également négatif (-0,29 points de pourcentage; p=0,01).
+
+## 🩺 Impact clinique
+Les incitations financières n'ont pas augmenté la vaccination primaire et ont eu un effet négatif sur les rappels. Les cohabitants des bénéficiaires ont reporté leur vaccination, compromettant l'efficacité de cette stratégie.
+
+## 📖 Référence
+Ternovski J, Jilke S, Keppeler F, et al. Financial Incentives for COVID-19 Vaccination: A Cluster Randomized Clinical Trial. JAMA Netw Open. 2025;8(2):e2458542.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamanetworkopen.2024.58542.

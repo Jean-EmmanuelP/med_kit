@@ -1,0 +1,23 @@
+Date de publication : 2024-04-10
+
+# 📝 TEMPS DE BULLES DU VENTRICULE DROIT POUR IDENTIFIER LA DYSFONCTION VENTRICULAIRE DROITE
+
+## 📌 Contexte & Problématique
+Évaluation d'une nouvelle méthode échographique aux urgences - le "temps de bulles" du ventricule droit (VD) - pour détecter la dysfonction ventriculaire droite.
+
+## 🧪 Méthodologie
+Étude prospective sur 196 patients hémodynamiquement stables aux urgences. Mesure du temps de persistance des bulles dans le VD après injection de 10 mL de solution saline, comparée à une échocardiographie complète de référence dans les 36 heures.
+
+## 📊 Résultats clés
+- 35,2% des patients présentaient une dysfonction VD
+- Temps médian de bulles: 62 secondes (IIQ: 52-93) avec dysfonction VD vs 21 secondes (IIQ: 12-32) sans dysfonction
+- Seuil optimal: ≥40 secondes
+- Sensibilité: 0,97 (IC 95%: 0,93-1,00)
+- Spécificité: 0,87 (IC 95%: 0,82-0,93)
+
+## 🩺 Impact clinique
+Technique simple et performante pour le dépistage de la dysfonction VD aux urgences. Un temps <40 secondes exclut efficacement une dysfonction VD. Validation supplémentaire nécessaire dans des populations indifférenciées.
+
+## 📖 Référence
+Cohen A, Li T, Bielawa N, et al. Right Ventricular "Bubble Time" to Identify Patients With Right Ventricular Dysfunction. Ann Emerg Med. 2024;84(2):182-194.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.annemergmed.2024.02.005.

@@ -1,0 +1,23 @@
+Date de publication : 2024-12-01
+
+# 📝 Directives AGA 2024 pour la prise en charge pharmacologique de la colite ulcéreuse modérée à sévère
+
+## 📌 Contexte & Problématique
+Recommandations de l'Association Américaine de Gastroentérologie pour guider le traitement pharmacologique de la colite ulcéreuse (CU) modérée à sévère chez l'adulte.
+
+## 🧪 Méthodologie
+Panel multidisciplinaire utilisant le cadre GRADE pour formuler 14 recommandations basées sur les preuves.
+
+## 📊 Résultats clés
+- Recommandation forte pour infliximab, golimumab, védolizumab, tofacitinib, upadacitinib, ustékinumab, ozanimod, étrasimod, risankizumab et guselkumab
+- Préférence pour les médicaments à efficacité élevée chez patients naïfs
+- Chez patients pré-exposés aux anti-TNF : privilégier tofacitinib, upadacitinib ou ustékinumab
+- Déconseille monothérapie par thiopurine pour l'induction et méthotrexate en monothérapie
+- Recommande l'association anti-TNF + immunomodulateur
+
+## 🩺 Impact clinique
+Favorise l'utilisation précoce des thérapies avancées plutôt qu'une intensification progressive. Suggère l'arrêt des 5-ASA après intensification thérapeutique.
+
+## 📖 Référence
+Singh S, Loftus EV Jr, Limketkai BN, et al. AGA Living Clinical Practice Guideline on Pharmacological Management of Moderate-to-Severe Ulcerative Colitis. Gastroenterology. 2024;167(7):1307-1343.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1053/j.gastro.2024.10.001.

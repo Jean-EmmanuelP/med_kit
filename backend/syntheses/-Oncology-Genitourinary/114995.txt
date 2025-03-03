@@ -1,0 +1,19 @@
+Date de publication : 2024-11-23
+
+# 📝 Radiothérapie prostatique dans le cancer métastatique hormonosensible de novo
+
+## 📌 Contexte & Problématique
+L'étude PEACE-1 avait déjà montré les bénéfices de l'association suppression androgénique+docétaxel+abiratérone. Cette analyse évalue l'ajout de la radiothérapie prostatique chez ces patients métastatiques hormonosensibles de novo.
+
+## 🧪 Méthodologie
+Essai randomisé de phase 3 (plan factoriel 2×2) dans 77 hôpitaux européens. 1172 patients répartis en 4 groupes : traitement standard (TS) seul, TS+abiratérone, TS+radiothérapie, TS+abiratérone+radiothérapie. Suivi médian : 6,0 ans.
+
+## 📊 Résultats clés
+Chez les patients à faible volume métastatique traités par abiratérone, l'ajout de radiothérapie a amélioré la survie sans progression radiographique (7,5 ans vs 4,4 ans; HR=0,65; p=0,019). Cependant, la radiothérapie n'a pas amélioré la survie globale (7,5 ans vs 6,9 ans; HR=0,98; p=0,86). Profil de tolérance comparable : 58,8% d'événements indésirables graves avec radiothérapie vs 56,1% sans.
+
+## 🩺 Impact clinique
+La radiothérapie prostatique associée à l'abiratérone améliore la survie sans progression mais pas la survie globale dans les formes à faible volume métastatique. Elle réduit les complications génito-urinaires sans augmenter la toxicité globale.
+
+## 📖 Référence
+Bossi A, Foulon S, Maldonado X, et al. Lancet. 2024;404(10467):2065-2076.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S0140-6736(24)01865-8.

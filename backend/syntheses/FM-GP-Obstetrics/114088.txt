@@ -1,0 +1,19 @@
+Date de publication : 2024-09-17
+
+# 📝 Supplémentation en fer pendant la grossesse : revue systématique pour l'USPSTF
+
+## 📌 Contexte & Problématique
+L'USPSTF a jugé insuffisantes les preuves sur le dépistage et la supplémentation en fer pour l'anémie ferriprive gestationnelle en 2015. Cette revue actualise ces données.
+
+## 🧪 Méthodologie
+Analyse de 17 essais cliniques (N=24 023) via MEDLINE et Cochrane jusqu'en mai 2023. Évaluation des résultats maternels, fœtaux et des effets indésirables.
+
+## 📊 Résultats clés
+La supplémentation réduit significativement l'anémie ferriprive à terme (8,6% vs 19,8%; RR=0,40 [IC95%:0,26-0,61]) et la carence en fer (46% vs 70%; RR=0,47 [IC95%:0,33-0,67]). Aucune différence significative pour les complications obstétricales, néonatales ou périnatales. Effets indésirables limités aux troubles gastro-intestinaux transitoires.
+
+## 🩺 Impact clinique
+Malgré l'amélioration des paramètres hématologiques, les bénéfices cliniques restent non démontrés. Aucune étude n'évalue l'efficacité du dépistage systématique.
+
+## 📖 Référence
+Cantor AG, Holmes R, Bougatsos C, et al. JAMA. 2024;332(11):914-928.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jama.2024.13546.

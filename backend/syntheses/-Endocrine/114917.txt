@@ -1,0 +1,24 @@
+Date de publication : 2024-11-12
+
+# 📝 DE-INTENSIFICATION DU TRAITEMENT INSULINIQUE PAR SÉMAGLUTIDE HEBDOMADAIRE DANS LE DIABÈTE TYPE 2
+
+## 📌 Contexte & Problématique
+L'optimisation des schémas insuliniques chez les patients diabétiques de type 2 bien contrôlés reste un défi thérapeutique. Cette étude évalue le remplacement de l'insuline prandiale par le sémaglutide hebdomadaire.
+
+## 🧪 Méthodologie
+Essai monocentrique randomisé (2:1) incluant 60 adultes avec HbA1c ≤7,5% sous injections multiples quotidiennes (IMQ) d'insuline. Comparaison entre sémaglutide SC 1,0mg hebdomadaire + insuline dégludec versus poursuite des IMQ sur 26 semaines.
+
+## 📊 Résultats clés
+- 90% des patients sous sémaglutide vs 75% sous IMQ ont maintenu HbA1c ≤7,5% (p=0,18)
+- Variation HbA1c: -0,5% vs 0,0% (p=0,009)
+- Perte de poids: -8,9kg vs +1,5kg (p<0,001)
+- Réduction dose insuline: -56,0% vs +6,7% (p<0,001)
+- 97,5% des patients sous sémaglutide ont arrêté l'insuline prandiale
+- Fréquence d'hypoglycémie similaire entre les groupes
+
+## 🩺 Impact clinique
+Cette stratégie permet de simplifier le traitement, réduire significativement le poids et la charge insulinique tout en améliorant le contrôle glycémique chez les diabétiques de type 2 bien équilibrés.
+
+## 📖 Référence
+Rodriguez P, Breslaw N, Xiao H, et al. Diabetes Obes Metab. 2025;27(2):642-651.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1111/dom.16057.

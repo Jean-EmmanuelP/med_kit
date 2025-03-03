@@ -1,0 +1,19 @@
+Date de publication : 2024-12-13
+
+# 📝 CAMRELIZUMAB NÉOADJUVANT DANS LE CANCER DU SEIN TRIPLE NÉGATIF
+
+## 📌 Contexte & Problématique
+Le cancer du sein triple négatif précoce ou localement avancé bénéficie habituellement d'une chimiothérapie néoadjuvante. Le camrelizumab, un anticorps anti-PD-1, pourrait améliorer l'efficacité de ce traitement standard.
+
+## 🧪 Méthodologie
+Essai randomisé de phase 3 en double aveugle incluant 441 patientes chinoises. Groupe intervention (n=222): camrelizumab 200mg + chimiothérapie. Groupe contrôle (n=219): placebo + chimiothérapie. Protocole: nab-paclitaxel et carboplatine pendant 16 semaines, puis épirubicine et cyclophosphamide pendant 8 semaines.
+
+## 📊 Résultats clés
+Taux de réponse pathologique complète significativement supérieur dans le groupe camrelizumab: 56,8% vs 44,7% (différence: 12,2%, p=0,004). Événements indésirables de grade ≥3: 89,2% vs 83,1%. Événements indésirables graves: 34,7% vs 22,8%. Deux décès (0,9%) sont survenus dans le groupe camrelizumab.
+
+## 🩺 Impact clinique
+L'ajout du camrelizumab à la chimiothérapie néoadjuvante améliore significativement la réponse pathologique complète chez les patientes atteintes de cancer du sein triple négatif, avec une augmentation modérée mais notable des effets indésirables.
+
+## 📖 Référence
+Chen L, Li H, Zhang H, et al. Camrelizumab vs Placebo in Combination With Chemotherapy as Neoadjuvant Treatment in Patients With Early or Locally Advanced Triple-Negative Breast Cancer. JAMA. 2024;doi:10.1001/jama.2024.23560.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jama.2024.23560.

@@ -1,0 +1,19 @@
+Date de publication : 2024-05-16
+
+# 📝 Durée optimale du traitement par privation androgénique avec radiothérapie postopératoire pour cancer de la prostate
+
+## 📌 Contexte & Problématique
+La durée optimale du traitement par privation androgénique (TPA) associé à la radiothérapie postopératoire après prostatectomie radicale reste incertaine dans le cancer de la prostate.
+
+## 🧪 Méthodologie
+Essai RADICALS-HD comparant TPA courte durée (6 mois) versus longue durée (24 mois) avec radiothérapie postopératoire. 1523 patients (âge médian 65 ans) randomisés dans 138 centres. Critère principal : survie sans métastase. Suivi médian de 8,9 ans.
+
+## 📊 Résultats clés
+Le TPA longue durée a significativement amélioré la survie sans métastase (HR 0,773 [IC 95% 0,612-0,975]; p=0,029). Survie sans métastase à 10 ans : 71,9% (TPA courte) versus 78,1% (TPA longue). Toxicité grade ≥3 plus fréquente avec TPA longue durée (19% vs 14%, p=0,025).
+
+## 🩺 Impact clinique
+Un TPA de 24 mois devrait être proposé aux patients pouvant tolérer les effets indésirables prolongés, offrant un bénéfice significatif en survie sans métastase comparé au TPA de 6 mois.
+
+## 📖 Référence
+Parker CC, Kynaston H, Cook AD, et al. Lancet. 2024;403(10442):2416-2425.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S0140-6736(24)00549-X.

@@ -1,0 +1,19 @@
+Date de publication : 2024-11-14
+
+# 📝 Chimiothérapie hyperthermique intrapéritonéale pour le cancer de l'ovaire récidivant : essai CHIPOR
+
+## 📌 Contexte & Problématique
+L'efficacité de la chimiothérapie hyperthermique intrapéritonéale (CHIP) est établie dans le cancer de l'ovaire primaire, mais son rôle dans la maladie récidivante restait incertain.
+
+## 🧪 Méthodologie
+Essai multicentrique de phase 3 incluant 415 patientes avec première récidive de cancer épithélial de l'ovaire (≥6 mois après chimiothérapie platine). Randomisation 1:1 : chirurgie cytoréductive avec CHIP (cisplatine 75 mg/m², 41±1°C, 60 min) ou sans CHIP.
+
+## 📊 Résultats clés
+Suivi médian : 6,2 ans. Survie globale médiane significativement améliorée : 54,3 mois (CHIP) vs 45,8 mois (sans CHIP), HR=0,73 (p=0,024). Événements indésirables grade ≥3 : 49% (CHIP) vs 27% (sans CHIP), principalement anémie (23% vs 14%), troubles électrolytiques (14% vs 1%) et insuffisance rénale (10% vs 1%).
+
+## 🩺 Impact clinique
+La CHIP devrait être considérée lors du traitement des premières récidives tardives de cancer ovarien séreux/endométrioïde de haut grade, lorsqu'une chirurgie cytoréductive complète est possible dans des centres spécialisés.
+
+## 📖 Référence
+Classe JM, Meeus P, Hudry D, et al. Hyperthermic intraperitoneal chemotherapy for recurrent ovarian cancer (CHIPOR): a randomised, open-label, phase 3 trial. Lancet Oncol. 2024;25(12):1551-1562.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S1470-2045(24)00531-X.

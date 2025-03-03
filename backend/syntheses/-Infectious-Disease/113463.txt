@@ -1,0 +1,19 @@
+Date de publication : 2024-08-27
+
+# 📝 Perfusion continue vs intermittente d'antibiotiques β-lactamines dans le sepsis grave
+
+## 📌 Contexte & Problématique
+L'impact du mode d'administration des β-lactamines (continue vs intermittente) sur la mortalité des patients septiques reste incertain.
+
+## 🧪 Méthodologie
+Essai randomisé international, ouvert, incluant 7031 patients adultes septiques en soins intensifs (104 USI, 7 pays). Comparaison de pipéracilline-tazobactam ou méropénème administrés en perfusion continue (n=3498) versus intermittente (n=3533).
+
+## 📊 Résultats clés
+Mortalité à 90 jours: 24,9% (perfusion continue) vs 26,8% (perfusion intermittente); différence absolue -1,9% [IC 95%: -4,9% à 1,1%]; p=0,08. Guérison clinique significativement supérieure avec perfusion continue: 55,7% vs 50,0% (différence absolue: 5,7% [IC 95%: 2,4% à 9,1%]).
+
+## 🩺 Impact clinique
+Bien que la différence de mortalité n'atteigne pas la significativité statistique, la perfusion continue améliore significativement la guérison clinique et pourrait offrir un bénéfice clinique chez les patients septiques graves.
+
+## 📖 Référence
+Dulhunty JM, Brett SJ, De Waele JJ, et al. JAMA. 2024;332(8):629-637.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jama.2024.9779.

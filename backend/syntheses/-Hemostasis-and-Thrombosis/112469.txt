@@ -1,0 +1,19 @@
+Date de publication : 2024-02-01
+
+# 📝 Histoire naturelle des thromboses veineuses splanchniques associées au cancer
+
+## 📌 Contexte & Problématique
+Les thromboses veineuses splanchniques (TVSp) associées au cancer présentent des défis thérapeutiques importants. Cette étude vise à caractériser leur évolution naturelle selon le type de cancer et la composition du thrombus, ainsi que l'impact des anticoagulants.
+
+## 🧪 Méthodologie
+Étude de cohorte rétrospective incluant 298 patients atteints de TVSp isolée parmi 15 342 patients diagnostiqués avec un cancer entre 2011-2020 dans deux centres oncologiques au Texas. Analyse des événements thromboemboliques, hémorragiques et de la mortalité.
+
+## 📊 Résultats clés
+Les patients avec carcinome hépatocellulaire (CHC) présentaient la prévalence la plus élevée de TVSp (20%) et le taux d'anticoagulation le plus faible (2%). Pour les TVSp non tumorales sans CHC, l'anticoagulation améliorait la recanalisation (44% vs 15%, p=0,041) sans différence sur les TEV habituelles, les hémorragies ou la mortalité à 6 mois. Le thrombus tumoral était associé à une survie réduite.
+
+## 🩺 Impact clinique
+Les TVSp associées au cancer nécessitent une approche personnalisée. L'anticoagulation peut améliorer la recanalisation dans les thromboses non tumorales mais requiert une évaluation soigneuse des risques thrombotiques et hémorragiques.
+
+## 📖 Référence
+Shang H, Jiang JY, Guffey D, et al. Natural history of cancer-associated splanchnic vein thrombosis. J Thromb Haemost. 2024;22(5):1421-1432.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.jtha.2024.01.019.

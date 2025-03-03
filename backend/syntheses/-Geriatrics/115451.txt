@@ -1,0 +1,19 @@
+Date de publication : 2025-01-16
+
+# 📝 Prévention des fractures par administration peu fréquente de zolédronate chez les femmes de 50 à 60 ans
+
+## 📌 Contexte & Problématique
+Les effets du zolédronate sur la densité osseuse persistent au-delà de 5 ans. L'étude évalue si une administration peu fréquente préviendrait les fractures vertébrales chez les femmes en début de ménopause.
+
+## 🧪 Méthodologie
+Essai randomisé en double aveugle sur 10 ans incluant 1054 femmes (50-60 ans) avec scores T entre 0 et -2,5. Trois groupes : zolédronate à 0 et 5 ans, zolédronate à 0 an et placebo à 5 ans, ou placebo aux deux moments.
+
+## 📊 Résultats clés
+Nouvelles fractures morphométriques : 6,3% (zolédronate-zolédronate), 6,6% (zolédronate-placebo), 11,1% (placebo-placebo). Risque relatif : 0,56 (zolédronate-zolédronate vs placebo) et 0,59 (zolédronate-placebo vs placebo). Réduction significative des fractures de fragilité (RR 0,72) et ostéoporotiques majeures (RR 0,60).
+
+## 🩺 Impact clinique
+L'administration de zolédronate à l'inclusion et à 5 ans est efficace pour prévenir les fractures vertébrales chez les femmes en début de ménopause, même avec une densité osseuse quasi-normale.
+
+## 📖 Référence
+Bolland MJ, Nisa Z, Mellar A, et al. Fracture Prevention with Infrequent Zoledronate in Women 50 to 60 Years of Age. N Engl J Med. 2025;392(3):239-248.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2407031.

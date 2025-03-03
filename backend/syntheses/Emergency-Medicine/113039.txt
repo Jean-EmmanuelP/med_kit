@@ -1,0 +1,19 @@
+Date de publication : 2024-07-01
+
+# 📝 Suivi à 3 ans des antibiotiques oraux versus IV+oraux dans l'appendicite aiguë non compliquée
+
+## 📌 Contexte & Problématique
+L'efficacité à court terme des antibiotiques oraux seuls dans l'appendicite aiguë non compliquée est établie, mais les résultats à long terme manquent.
+
+## 🧪 Méthodologie
+Analyse secondaire de l'essai APPAC II comparant moxifloxacine orale (n=301) versus ertapénème IV + lévofloxacine/métronidazole oraux (n=298) chez 599 patients (âge moyen 36 ans) dans 9 hôpitaux finlandais. Suivi sur 3 ans.
+
+## 📊 Résultats clés
+Taux de succès thérapeutique à 3 ans : 63,4% (groupe oral) versus 65,2% (groupe IV+oral). Différence : -1,8 points (IC 95% unilatéral, -8,3 à ∞; p=0,14), dépassant la marge de non-infériorité. Aucune différence significative concernant les événements indésirables, qualité de vie, durée d'hospitalisation ou d'arrêt de travail.
+
+## 🩺 Impact clinique
+La non-infériorité des antibiotiques oraux seuls n'a pas été démontrée à 3 ans, avec un taux d'appendicectomie légèrement supérieur. Des études supplémentaires sont nécessaires pour valider cette approche thérapeutique.
+
+## 📖 Référence
+Selanne L, Haijanen J, Sippola S, et al. JAMA Surg. 2024;159(7):727-735.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamasurg.2023.5947.

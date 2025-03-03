@@ -1,0 +1,19 @@
+Date de publication : 2024-04-04
+
+# 📝 Faisabilité, sécurité et impact du vaccin antipaludique RTS,S/AS01(E) dans trois pays africains
+
+## 📌 Contexte & Problématique
+Le vaccin RTS,S/AS01E a été introduit au Ghana, Kenya et Malawi en 2019 via des programmes pilotes. L'étude visait à évaluer sa faisabilité, son impact et à vérifier les signaux de sécurité observés en phase 3 (méningite, paludisme cérébral, surmortalité féminine).
+
+## 🧪 Méthodologie
+Étude prospective randomisée en clusters (158 zones géographiques). Vaccination à 3 doses (5-9 mois) plus rappel (2 ans). Surveillance de la mortalité (1-59 mois), des hospitalisations pour paludisme grave et méningite dans 18 hôpitaux sentinelles.
+
+## 📊 Résultats clés
+652 673 enfants ont reçu au moins une dose (couverture: 73-79%). Aucun excès de méningite (RTI 0,63 [IC 95% 0,22-1,79]) ni de paludisme cérébral (RTI 1,03 [IC 95% 0,61-1,74]). Impact similaire sur la mortalité filles/garçons. Réduction de 32% des hospitalisations pour paludisme grave et de 9% de la mortalité toutes causes.
+
+## 🩺 Impact clinique
+Le vaccin peut être efficacement déployé par les programmes nationaux sans les risques identifiés en phase 3, avec un bénéfice substantiel sur le paludisme grave et la mortalité infantile.
+
+## 📖 Référence
+Asante KP, Mathanga DP, Milligan P, et al. Lancet. 2024;403(10437):1660-1670.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S0140-6736(24)00004-7.

@@ -1,0 +1,19 @@
+Date de publication : 2024-12-05
+
+# 📝 Efficacité des interventions post-partum sur la cicatrisation et la douleur périnéales
+
+## 📌 Contexte & Problématique
+Les traumatismes périnéaux lors de l'accouchement affectent significativement le post-partum. Cette revue évalue l'efficacité comparative des interventions visant la cicatrisation et le soulagement de la douleur périnéale.
+
+## 🧪 Méthodologie
+Revue systématique et méta-analyse selon les directives PRISMA incluant 19 études (1899 participantes). Recherches dans 11 bases de données. Qualité évaluée par RoB-1/RoB-2 et système GRADE.
+
+## 📊 Résultats clés
+Les interventions dans les 24h post-épisiotomie n'ont pas réduit la douleur. L'application de froid s'est révélée la plus efficace dès J2. La cicatrisation n'était pas améliorée les 3 premiers jours, mais significativement meilleure à J5 dans les groupes d'intervention. L'éducation périnéale a montré la plus forte réduction du score REEDA.
+
+## 🩺 Impact clinique
+Recommander l'application de froid à J2 post-traumatisme périnéal. Les interventions accélèrent la cicatrisation d'environ 2 jours. L'éducation périnéale constitue l'approche la plus efficace.
+
+## 📖 Référence
+Kurnaz D, Fiskin Siyahtas G, Demirgoz Bal M. Int J Nurs Stud. 2025;162:104976.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.ijnurstu.2024.104976.

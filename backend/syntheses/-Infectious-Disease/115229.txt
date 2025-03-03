@@ -1,0 +1,19 @@
+Date de publication : 2024-12-10
+
+# 📝 Vaccin RH5.1/Matrix-M contre le paludisme : résultats intermédiaires d'un essai de phase 2b
+
+## 📌 Contexte & Problématique
+Les vaccins actuels contre le paludisme (R21/Matrix-M, RTS,S/AS01) n'induisent pas d'immunité au stade sanguin. Le candidat vaccin RH5.1/Matrix-M cible spécifiquement ce stade de Plasmodium falciparum.
+
+## 🧪 Méthodologie
+Essai randomisé, contrôlé, en double aveugle chez 361 enfants (5-17 mois) au Burkina Faso. Deux cohortes ont reçu RH5.1/Matrix-M selon un schéma différé (0,1,5 mois) ou mensuel (0,1,2 mois), versus vaccin antirabique (ratio 2:1).
+
+## 📊 Résultats clés
+Le vaccin a montré un profil de sécurité favorable. Efficacité vaccinale de 55% (IC 95%: 20-75%; p=0,0071) avec le schéma différé et 40% (IC 95%: -3-65%; p=0,066) avec le schéma mensuel. Forte réponse immunitaire avec activité d'inhibition de croissance supérieure dans le schéma différé (79,0% vs 74,2%; p=0,016).
+
+## 🩺 Impact clinique
+Premier vaccin ciblant le stade sanguin du paludisme montrant une efficacité clinique significative. Le schéma à dose différée semble plus efficace, offrant une nouvelle approche complémentaire aux vaccins existants.
+
+## 📖 Référence
+Natama HM, Salkeld J, Some A, et al. Lancet Infect Dis. 2024 Dec 10:S1473-3099(24)00752-7.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S1473-3099(24)00752-7.

@@ -1,0 +1,19 @@
+Date de publication : 2024-12-20
+
+# 📝 Dihydroartémisinine-pipéraquine hebdomadaire vs sulfadoxine-pyriméthamine mensuelle pour la chimioprévention du paludisme chez les enfants drépanocytaires
+
+## 📌 Contexte & Problématique
+La chimioprévention du paludisme est essentielle chez les enfants drépanocytaires, mais l'efficacité des traitements standards est compromise par la résistance de P. falciparum aux antifolates et la faible observance.
+
+## 🧪 Méthodologie
+Essai randomisé (1:1) en double aveugle dans 4 hôpitaux (Ouganda, Malawi) comparant dihydroartémisinine-pipéraquine hebdomadaire versus sulfadoxine-pyriméthamine mensuelle chez 724 enfants drépanocytaires (6 mois-15 ans). Suivi médian: 14,7 mois.
+
+## 📊 Résultats clés
+Incidence du paludisme clinique: 8,8 vs 43,7 cas/100 personnes-années (IRR 0,20; p<0,0001). Hospitalisations pour paludisme: 10,4 vs 37,0 événements/100 personnes-années (IRR 0,29; p<0,0001). Transfusions sanguines: 52,1 vs 72,5 événements/100 personnes-années (IRR 0,70; p=0,006).
+
+## 🩺 Impact clinique
+La dihydroartémisinine-pipéraquine hebdomadaire est significativement plus efficace pour prévenir le paludisme chez les enfants drépanocytaires dans les zones à forte résistance aux antifolates, avec un profil de sécurité comparable.
+
+## 📖 Référence
+Idro R, Nkosi-Gondwe T, Opoka R, et al. Lancet Infect Dis. 2024 Dec 20:S1473-3099(24)00737-0.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S1473-3099(24)00737-0.

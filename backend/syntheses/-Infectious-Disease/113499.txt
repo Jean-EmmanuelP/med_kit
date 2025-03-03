@@ -1,0 +1,25 @@
+Date de publication : 2024-08-01
+
+# 📝 Traitement antipyrétique agressif dans le paludisme pédiatrique du SNC
+
+## 📌 Contexte & Problématique
+Un tiers des enfants survivant au paludisme avec atteinte neurologique développent des séquelles. La température maximale élevée et les convulsions sont des facteurs de risque identifiés.
+
+## 🧪 Méthodologie
+Essai clinique randomisé (n=256) en Zambie et au Malawi comparant deux approches antipyrétiques chez les enfants de 2-11 ans atteints de paludisme du SNC :
+- Groupe intervention : paracétamol (30mg/kg puis 15mg/kg) + ibuprofène (10mg/kg) toutes les 6h pendant 72h
+- Groupe contrôle : paracétamol (15mg/kg) uniquement si température ≥38,5°C
+
+## 📊 Résultats clés
+Le traitement antipyrétique agressif a significativement :
+- Réduit la température maximale (38,6°C vs 39,2°C; p<0,001)
+- Diminué les convulsions multiples/prolongées (8% vs 27%; OR=0,26)
+- Réduit les événements indésirables graves (12% vs 20%) et la mortalité (2% vs 8%)
+Sans impact sur la clairance parasitaire.
+
+## 🩺 Impact clinique
+L'approche antipyrétique combinée et systématique réduit significativement la fièvre et les convulsions chez les enfants atteints de paludisme cérébral, suggérant un protocole potentiellement bénéfique pour améliorer les résultats neurologiques.
+
+## 📖 Référence
+Birbeck GL, Seydel KB, Mwanza S, et al. JAMA Neurol. 2024;81(8):857-865.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamaneurol.2024.1677.

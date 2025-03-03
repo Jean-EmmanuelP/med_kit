@@ -1,0 +1,19 @@
+Date de publication : 2024-11-19
+
+# 📝 Effet du dénosumab sur le risque d'hypocalcémie selon le stade d'IRC
+
+## 📌 Contexte & Problématique
+Le traitement de l'ostéoporose chez les patients avec insuffisance rénale chronique (IRC) avancée reste peu documenté. Cette étude évalue le risque d'hypocalcémie nécessitant un traitement urgent sous dénosumab selon le stade d'IRC.
+
+## 🧪 Méthodologie
+Émulation d'essai ciblé utilisant les données Medicare (2012-2020) chez 361 453 patientes sous dénosumab, 829 044 sous bisphosphonates oraux et 160 413 sous bisphosphonates IV. Évaluation des soins d'urgence pour hypocalcémie durant les 12 premières semaines de traitement.
+
+## 📊 Résultats clés
+Le risque d'hypocalcémie augmente avec la sévérité de l'IRC sous dénosumab versus bisphosphonates oraux (p<0,001). Risque maximal chez les patientes dialysées (3,01% vs 0,00%; DR=3,01%) et IRC stades 4-5 non dialysées (0,57% vs 0,03%; DR=0,54%). Risque particulièrement élevé en présence de TMO-IRC (1,53% vs 0,02%; DR=1,51%).
+
+## 🩺 Impact clinique
+Surveillance calcémique renforcée nécessaire chez les patients sous dénosumab avec IRC avancée, particulièrement chez les dialysés et ceux avec troubles minéraux osseux associés.
+
+## 📖 Référence
+Bird ST, Gelperin K, Smith ER, et al. Ann Intern Med. 2025;178(1):29-38.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.7326/M24-0013.

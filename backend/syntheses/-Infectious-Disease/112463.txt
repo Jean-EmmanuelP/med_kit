@@ -1,0 +1,19 @@
+Date de publication : 2024-02-20
+
+# 📝 Comparaison de 3 stratégies optimisées pour l'administration du traitement préventif 3HP contre la tuberculose chez les personnes vivant avec le VIH en Ouganda
+
+## 📌 Contexte & Problématique
+Le schéma thérapeutique court isoniazide-rifapentine (3HP) est essentiel pour réduire la tuberculose chez les personnes vivant avec le VIH (PVVIH). L'étude évalue l'impact de différentes stratégies d'administration sur l'acceptation et l'achèvement du traitement.
+
+## 🧪 Méthodologie
+Essai randomisé monocentrique à Kampala (Ouganda) comparant trois stratégies : thérapie directement observée facilitée (DOT), thérapie auto-administrée facilitée (SAT), ou choix éclairé entre les deux. 1655 PVVIH ont été randomisées (1:1:1).
+
+## 📊 Résultats clés
+Taux d'acceptation et d'achèvement (≥11/12 doses en 16 semaines) : DOT 94% (IC 97,5% [91-96%]), SAT 92% (IC 97,5% [89-94%]), Choix 93% (IC 97,5% [91-96%]). Aucune différence significative entre les groupes. Seulement 0,8% d'événements indésirables ayant conduit à l'arrêt du traitement.
+
+## 🩺 Impact clinique
+Les trois stratégies facilitées permettent d'atteindre des taux élevés d'acceptation et d'achèvement du 3HP dans un contexte programmatique. Des études multicentriques sont nécessaires pour confirmer la généralisabilité de ces résultats.
+
+## 📖 Référence
+Semitala FC, Kadota JL, Musinguzi A, et al. PLoS Med. 2024;21(2):e1004356.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1371/journal.pmed.1004356.

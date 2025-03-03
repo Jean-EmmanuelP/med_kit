@@ -1,0 +1,19 @@
+Date de publication : 2024-03-07
+
+# 📝 Metformine pendant la grossesse et neurodéveloppement de l'enfant : méta-analyse
+
+## 📌 Contexte & Problématique
+Évaluation de l'impact de la metformine administrée pendant la grossesse sur le développement neurologique des enfants exposés in utero.
+
+## 🧪 Méthodologie
+Revue systématique et méta-analyse de 7 études (essais randomisés et études observationnelles) incluant 14 042 enfants dont 7 641 exposés à la metformine in utero. Suivi jusqu'à 14 ans. Évaluation du risque de biais par l'échelle Newcastle-Ottawa modifiée et l'outil Risk of Bias 2.
+
+## 📊 Résultats clés
+Aucune association entre exposition à la metformine et retard neurodéveloppemental dans la petite enfance (RR=1,09; IC95%:0,54-2,17) ou entre 3-5 ans (RR=0,90; IC95%:0,56-1,45). Pas de différence significative sur les scores moteurs (DM=0,30; IC95%:-1,15-1,74) ou cognitifs (DM=-0,45; IC95%:-1,45-0,55).
+
+## 🩺 Impact clinique
+Données rassurantes pour les cliniciens et patientes concernant l'utilisation de la metformine pendant la grossesse, sans effet délétère apparent sur le neurodéveloppement jusqu'à 14 ans.
+
+## 📖 Référence
+Gordon HG, Atkinson JA, Tong S, et al. Metformin in pregnancy and childhood neurodevelopmental outcomes: a systematic review and meta-analysis. Am J Obstet Gynecol. 2024;231(3):308-314.e6.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.ajog.2024.02.316.

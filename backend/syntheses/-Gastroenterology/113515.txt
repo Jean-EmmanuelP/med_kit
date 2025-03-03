@@ -1,0 +1,19 @@
+Date de publication : 2024-03-19
+
+# 📝 Score MAF-5 : Un nouvel outil de prédiction du risque de fibrose hépatique dans la dysfonction métabolique
+
+## 📌 Contexte & Problématique
+Besoin d'outils non invasifs pour améliorer le dépistage et l'orientation des patients à risque de maladie hépatique en soins primaires.
+
+## 🧪 Méthodologie
+Développement et validation du score MAF-5 (tour de taille, IMC, diabète, ASAT, plaquettes) sur 21 797 individus avec dysfonction métabolique. Comparaison avec FIB-4, NFS, LiverRisk et SAFE. Validation externe avec élastographie et biopsies hépatiques.
+
+## 📊 Résultats clés
+Classification des patients : 60,9% risque faible, 14,1% risque intermédiaire, 24,9% risque élevé. Prévalence de fibrose : 3,3%, 7,9% et 28,1% respectivement. AUROC du MAF-5 (0,81) supérieure au FIB-4 (0,61), particulièrement chez les jeunes (VPN 99%, ASC 0,86) et les personnes âgées (VPN 94%, ASC 0,75). Score MAF-5 >1 associé à un risque accru de mortalité (HR ajusté 1,59).
+
+## 🩺 Impact clinique
+Outil validé, indépendant de l'âge et économique pour identifier les patients à haut risque de fibrose hépatique en soins primaires, utilisant des variables facilement accessibles.
+
+## 📖 Référence
+van Kleef LA, Francque SM, Prieto-Ortiz JE, et al. Gastroenterology. 2024;167(2):357-367.e9.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1053/j.gastro.2024.03.017.

@@ -1,4 +1,3 @@
-<!-- /lib/components/Header.svelte -->
 <script>
 	import { i18n } from '$lib/i18n';
 	import { supabaseStore } from '$lib/stores/supabase';
@@ -23,11 +22,15 @@
 	  }
 	}
   
+	function toggleMobileMenu() {
+	  showMobileMenu = !showMobileMenu;
+	}
+  
 	function handleOutsideClick(event) {
 	  if (showAccountMenu && !event.target.closest('.account-menu')) {
 		showAccountMenu = false;
 	  }
-	  if (showMobileMenu && !event.target.closest('.mobile-menu')) {
+	  if (showMobileMenu && !event.target.closest('.mobile-menu') && !event.target.closest('.burger-button')) {
 		showMobileMenu = false;
 	  }
 	}
@@ -89,11 +92,17 @@
 			  <div
 				class="absolute right-0 mt-2 w-48 bg-white rounded-lg shadow-lg py-2 z-10 animate-fade-in"
 			  >
+				<a
+				  href="/account"
+				  class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100 transition-colors duration-200 font-sans"
+				>
+				  {$i18n.header.settings}
+				</a>
 				<button
 				  on:click={handleLogout}
 				  class="block w-full text-left px-4 py-2 text-sm text-gray-700 hover:bg-blue-100 transition-colors duration-200 font-sans"
 				>
-				  Déconnexion
+				  {$i18n.header.logout}
 				</button>
 			  </div>
 			{/if}
@@ -117,34 +126,16 @@
 				d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
 			  />
 			</svg>
-			Se connecter
+			{$i18n.header.login}
 		  </a>
 		{/if}
-		<!-- <button
-		  class="text-gray-700 hover:text-blue-600 transition-colors duration-200"
-		  aria-label="Rechercher"
-		>
-		  <svg
-			class="w-5 h-5"
-			fill="none"
-			stroke="currentColor"
-			viewBox="0 0 24 24"
-			xmlns="http://www.w3.org/2000/svg"
-		  >
-			<path
-			  stroke-linecap="round"
-			  stroke-linejoin="round"
-			  stroke-width="2"
-			  d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
-			/>
-		  </svg>
-		</button> -->
 	  </div>
   
+	  <!-- Burger Menu for Mobile -->
 	  <div class="md:hidden">
 		<button
-		  on:click={() => (showMobileMenu = !showMobileMenu)}
-		  class="focus:outline-none"
+		  on:click={toggleMobileMenu}
+		  class="focus:outline-none burger-button"
 		  aria-label="Toggle menu"
 		>
 		  <svg
@@ -158,13 +149,13 @@
 			  stroke-linecap="round"
 			  stroke-linejoin="round"
 			  stroke-width="2"
-			  d="M4 6h16M4 12h16M4 18h16"
+			  d={showMobileMenu ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16M4 18h16"}
 			/>
 		  </svg>
 		</button>
 		{#if showMobileMenu}
 		  <div
-			class="absolute top-16 left-0 w-full bg-white shadow-lg z-10 animate-fade-in mobile-menu"
+			class="absolute top-16 left-0 w-full bg-white shadow-lg z-[100] animate-fade-in mobile-menu"
 		  >
 			{#if $userProfileStore}
 			  <a
@@ -179,18 +170,24 @@
 			  >
 				{$i18n.header.articles}
 			  </a>
+			  <a
+				href="/account"
+				class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100 transition-colors duration-200 font-sans"
+			  >
+				{$i18n.header.settings}
+			  </a>
 			  <button
 				on:click={handleLogout}
 				class="block w-full text-left px-4 py-2 text-sm text-gray-700 hover:bg-blue-100 transition-colors duration-200 font-sans"
 			  >
-				Déconnexion
+				{$i18n.header.logout}
 			  </button>
 			{:else}
 			  <a
 				href="/login"
 				class="block px-4 py-2 text-sm text-gray-700 hover:bg-blue-100 transition-colors duration-200 font-sans"
 			  >
-				Se connecter
+				{$i18n.header.login}
 			  </a>
 			{/if}
 		  </div>

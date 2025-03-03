@@ -1,0 +1,19 @@
+Date de publication : 2024-11-16
+
+# 📝 Ablation par cathéter vs médicaments antiarythmiques pour la tachycardie ventriculaire
+
+## 📌 Contexte & Problématique
+La tachycardie ventriculaire chez les patients avec cardiomyopathie ischémique présente un risque élevé d'événements indésirables. L'efficacité comparative de l'ablation par cathéter versus les antiarythmiques en première intention restait incertaine.
+
+## 🧪 Méthodologie
+Essai randomisé international (n=416) comparant l'ablation par cathéter au traitement médicamenteux (sotalol/amiodarone) chez des patients post-infarctus avec tachycardie ventriculaire significative. Tous les patients étaient porteurs d'un DAI. Suivi médian de 4,3 ans.
+
+## 📊 Résultats clés
+Le critère composite principal (décès, orage rythmique, choc approprié du DAI ou TV soutenue) est survenu chez 50,7% des patients du groupe ablation contre 60,6% du groupe médicamenteux (HR 0,75; IC 95% 0,58-0,97; p=0,03). Événements indésirables : 12,3% groupe ablation vs 22,1% groupe médicamenteux.
+
+## 🩺 Impact clinique
+L'ablation par cathéter en stratégie initiale réduit significativement le risque d'événements cliniques majeurs par rapport aux antiarythmiques chez les patients avec cardiomyopathie ischémique et tachycardie ventriculaire.
+
+## 📖 Référence
+Sapp JL, Tang ASL, Parkash R, et al. Catheter Ablation or Antiarrhythmic Drugs for Ventricular Tachycardia. N Engl J Med. 2025;392(8):737-747.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2409501.

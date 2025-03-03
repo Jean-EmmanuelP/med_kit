@@ -1,0 +1,19 @@
+Date de publication : 2024-08-31
+
+# 📝 EFFICACITÉ ET SÉCURITÉ D'UNE NOUVELLE TRITHÉRAPIE À FAIBLE DOSE EN COMPRIMÉ UNIQUE POUR L'HYPERTENSION
+
+## 📌 Contexte & Problématique
+Les associations à dose fixe de plusieurs antihypertenseurs à faible dose constituent une approche prometteuse pour le traitement initial de l'hypertension. Cette étude évalue une nouvelle association fixe de telmisartan, amlodipine et indapamide.
+
+## 🧪 Méthodologie
+Essai randomisé, double aveugle, contrôlé versus placebo incluant 295 adultes hypertendus (PAS domicile 130-154 mmHg). Randomisation 2:2:1 entre GMRx2 à ¼ dose (telmisartan 10mg/amlodipine 1,25mg/indapamide 0,625mg), GMRx2 à ½ dose, ou placebo pendant 4 semaines.
+
+## 📊 Résultats clés
+Réduction de la PAS à domicile versus placebo : -7,3 mmHg (IC95% -4,5 à -10,2) pour GMRx2 ¼ dose et -8,2 mmHg (IC95% -5,2 à -11,3) pour GMRx2 ½ dose. Contrôle tensionnel clinique (<140/90 mmHg) : 65% (¼ dose), 70% (½ dose) vs 37% (placebo), p<0,001. Arrêt pour effets indésirables : 0% (¼ dose), 5,1% (½ dose), 1,6% (placebo).
+
+## 🩺 Impact clinique
+Cette trithérapie à faible dose en comprimé unique offre une réduction tensionnelle cliniquement significative avec un bon profil de tolérance, représentant une option intéressante pour l'initiation du traitement antihypertenseur.
+
+## 📖 Référence
+Rodgers A, Salam A, Schutte AE, et al. J Am Coll Cardiol. 2024;84(24):2393-2403.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.jacc.2024.08.025.

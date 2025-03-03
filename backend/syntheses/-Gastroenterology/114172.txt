@@ -1,0 +1,19 @@
+Date de publication : 2024-09-03
+
+# 📝 Performance comparative des tests immunochimiques fécaux : étude transversale
+
+## 📌 Contexte & Problématique
+Les tests immunochimiques fécaux (TIF) sont largement utilisés pour le dépistage du cancer colorectal, mais les données comparatives manquent pour guider le choix entre les différents tests disponibles.
+
+## 🧪 Méthodologie
+Étude transversale incluant 3761 patients (50-85 ans) dans trois centres universitaires américains. Cinq TIF (4 qualitatifs, 1 quantitatif) ont été réalisés avant coloscopie, utilisée comme référence standard pour détecter la néoplasie colorectale avancée (NCA).
+
+## 📊 Résultats clés
+La prévalence de NCA était de 8,5% (dont 0,2% de cancers). Les taux de positivité des TIF variaient considérablement (3,9% à 16,4%). La sensibilité pour la NCA oscillait entre 10,1% et 36,7%, la spécificité entre 85,5% et 96,6%. Les différences étaient statistiquement significatives entre la plupart des tests. La localisation distale des lésions améliorait la sensibilité.
+
+## 🩺 Impact clinique
+Les TIF présentent des performances diagnostiques très variables et ne devraient pas être considérés comme interchangeables dans la pratique clinique.
+
+## 📖 Référence
+Levy BT, Xu Y, Daly JM, et al. Comparative Performance of Common Fecal Immunochemical Tests: A Cross-Sectional Study. Ann Intern Med. 2024;177(10):1350-1360.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.7326/M24-0080.

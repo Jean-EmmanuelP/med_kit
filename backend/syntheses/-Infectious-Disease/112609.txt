@@ -1,0 +1,19 @@
+Date de publication : 2024-02-26
+
+# 📝 EFFET DE LA VACCINATION BCG CONTRE L'INFECTION À M. TUBERCULOSIS CHEZ LES PROFESSIONNELS DE SANTÉ BRÉSILIENS
+
+## 📌 Contexte & Problématique
+L'efficacité du BCG contre la tuberculose pulmonaire chez l'adulte reste incertaine. Cette étude évalue l'effet du BCG-Danemark sur la prévention de l'infection tuberculeuse chez les professionnels de santé brésiliens.
+
+## 🧪 Méthodologie
+Essai contrôlé randomisé (1:1) mené dans trois sites brésiliens, incluant 1985 professionnels de santé (âge médian 39 ans). Groupe intervention : injection intradermique de BCG-Danemark (n=996); groupe contrôle : placebo (n=989). Critère principal : conversion du test QuantiFERON-TB Gold Plus à 12 mois.
+
+## 📊 Résultats clés
+Une conversion du test QFT Plus est survenue chez 66 participants (3,3%) : 34 (3,4%) dans le groupe BCG contre 32 (3,2%) dans le groupe placebo (ratio de risque 1,09 [IC 95% 0,67-1,77]; p=0,791). Aucune différence significative entre les sites d'étude (p=0,897).
+
+## 🩺 Impact clinique
+La vaccination par BCG-Danemark n'a pas démontré d'efficacité pour réduire le risque d'infection tuberculeuse chez les professionnels de santé brésiliens, soulignant la nécessité de nouvelles stratégies préventives pour les populations à haut risque.
+
+## 📖 Référence
+Dos Santos PCP, Messina NL, de Oliveira RD, et al. Effect of BCG vaccination against Mycobacterium tuberculosis infection in adult Brazilian health-care workers: a nested clinical trial. Lancet Infect Dis. 2024;24(6):594-601.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S1473-3099(23)00818-6.

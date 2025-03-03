@@ -1,0 +1,19 @@
+Date de publication : 2024-06-07
+
+# 📝 Antagonistes des récepteurs des leucotriènes en association aux antihistaminiques pour l'urticaire : revue systématique et méta-analyse
+
+## 📌 Contexte & Problématique
+L'efficacité et la sécurité de l'ajout d'antileucotriènes aux antihistaminiques H1 (AH) dans la prise en charge de l'urticaire restent incertaines, nécessitant une évaluation systématique.
+
+## 🧪 Méthodologie
+Revue systématique et méta-analyse de 34 essais contrôlés randomisés incluant 3324 patients (enfants et adultes). Comparaison des antileucotriènes + AH versus AH seuls. Évaluation de l'activité de l'urticaire, du prurit, des papules, du sommeil, de la qualité de vie et des effets indésirables.
+
+## 📊 Résultats clés
+L'association antileucotriènes + AH réduit modestement l'activité de l'urticaire (différence moyenne -5,04; IC 95% -6,36 à -3,71; score UAS7) avec un niveau de certitude modéré. Améliorations similaires pour le prurit, les papules et la qualité de vie. Pas de différence significative concernant les effets indésirables globaux.
+
+## 🩺 Impact clinique
+L'ajout d'antagonistes des récepteurs des leucotriènes aux antihistaminiques apporte un bénéfice modeste sans augmentation significative des effets indésirables. Le risque d'effets neuropsychiatriques reste incertain et probablement faible.
+
+## 📖 Référence
+Rayner DG, Liu M, Chu AWL, et al. J Allergy Clin Immunol. 2024;154(4):996-1007.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.jaci.2024.05.026.

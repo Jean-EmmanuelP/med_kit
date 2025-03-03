@@ -1,0 +1,19 @@
+Date de publication : 2024-10-07
+
+# 📝 Nouvelles recommandations OMS pour le traitement de la trypanosomiase humaine africaine à rhodesiense
+
+## 📌 Contexte & Problématique
+La trypanosomiase humaine africaine à rhodesiense est une maladie tropicale négligée mortelle sans traitement. L'OMS a révisé ses directives thérapeutiques face aux limitations des traitements existants.
+
+## 🧪 Méthodologie
+Revue systématique de la littérature selon la méthodologie GRADE. Toutes les recommandations sont conditionnelles, basées sur des preuves de très faible niveau de certitude.
+
+## 📊 Résultats clés
+Le fexinidazole oral devient le traitement de première intention chez les patients ≥6 ans pesant ≥20 kg, remplaçant la suramine et le mélarsoprol. La ponction lombaire pour stadification n'est plus nécessaire. La pentamidine est recommandée comme traitement provisoire immédiat lorsque les traitements de première ligne sont indisponibles.
+
+## 🩺 Impact clinique
+Avancée significative dans la prise en charge, évitant les réactions potentiellement mortelles du mélarsoprol. Limitation: les jeunes enfants n'atteignant pas l'âge/poids minimum restent inéligibles au fexinidazole.
+
+## 📖 Référence
+Lindner AK, Lejon V, Barrett MP, et al. Lancet Infect Dis. 2025;25(2):e77-e85.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S1473-3099(24)00581-4.

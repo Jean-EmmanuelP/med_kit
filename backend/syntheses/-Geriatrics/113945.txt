@@ -1,0 +1,19 @@
+Date de publication : 2024-09-03
+
+# 📝 Antibiotiques oraux et risque de réactions cutanées médicamenteuses graves
+
+## 📌 Contexte & Problématique
+Les réactions cutanées médicamenteuses graves (RCM) sont potentiellement mortelles. Les antibiotiques sont des déclencheurs connus, mais les risques relatifs entre classes d'antibiotiques restaient mal caractérisés.
+
+## 🧪 Méthodologie
+Étude cas-témoins nichée en Ontario (Canada) chez 21 758 adultes ≥66 ans ayant présenté une RCM grave dans les 60 jours suivant une antibiothérapie orale (2002-2022), comparés à 87 025 témoins appariés.
+
+## 📊 Résultats clés
+Comparés aux macrolides, les risques relatifs étaient plus élevés pour les sulfamides (RCa 2,9; IC 95% 2,7-3,1) et les céphalosporines (RCa 2,6; IC 95% 2,5-2,8), suivis par la nitrofurantoïne (RCa 2,2), les pénicillines (RCa 1,4) et les fluoroquinolones (RCa 1,3). Parmi les patients hospitalisés, 9,6% ont nécessité des soins intensifs et 5,3% sont décédés.
+
+## 🩺 Impact clinique
+Les prescripteurs devraient privilégier les antibiotiques à moindre risque quand cliniquement approprié, les sulfamides et céphalosporines présentant les risques les plus élevés de RCM graves.
+
+## 📖 Référence
+Lee EY, Gomes T, Drucker AM, et al. Oral Antibiotics and Risk of Serious Cutaneous Adverse Drug Reactions. JAMA. 2024;332(9):730-737.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jama.2024.11437.

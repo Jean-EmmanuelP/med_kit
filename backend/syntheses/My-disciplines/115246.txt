@@ -1,0 +1,19 @@
+Date de publication : 2024-12-18
+
+# 📝 SBRT versus ARF pour le carcinome hépatocellulaire récidivant de petite taille : essai randomisé
+
+## 📌 Contexte & Problématique
+Comparaison de l'efficacité et de la sécurité de la radiothérapie stéréotaxique corporelle (SBRT) versus l'ablation par radiofréquence (ARF) dans le traitement du carcinome hépatocellulaire (CHC) récidivant de petite taille (≤5 cm).
+
+## 🧪 Méthodologie
+Essai randomisé ouvert incluant 166 patients (83 par groupe) atteints de CHC récidivant unique ≤5 cm, suivis pendant environ 43 mois.
+
+## 📊 Résultats clés
+La SBRT a démontré une meilleure survie sans progression locale que l'ARF (HR 0,45; IC 95% 0,24-0,87; p=0,014). Taux de SSPL à 2 ans: 92,7% avec SBRT vs 75,8% avec ARF. La survie sans progression, la survie globale et les taux d'événements indésirables étaient comparables entre les groupes.
+
+## 🩺 Impact clinique
+La SBRT représente une option thérapeutique supérieure à l'ARF pour le contrôle local des CHC récidivants uniques ≤5 cm, particulièrement pour les tumeurs ≤2 cm, avec un profil de sécurité similaire.
+
+## 📖 Référence
+Xi M, Yang Z, Hu L, et al. J Clin Oncol. 2024 Dec 18:JCO2401532. doi: 10.1200/JCO-24-01532.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO-24-01532.

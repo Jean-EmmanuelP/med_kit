@@ -1,0 +1,22 @@
+Date de publication : 2024-06-05
+
+# 📝 Interventions pour le prurit post-brûlure : revue systématique
+
+## 📌 Contexte & Problématique
+Le prurit post-brûlure est un symptôme fréquent et pénible. Diverses interventions existent, mais leur efficacité reste incertaine.
+
+## 🧪 Méthodologie
+Revue systématique Cochrane incluant 25 ECR (1166 participants) évaluant 21 interventions contre le prurit post-brûlure. Recherche exhaustive jusqu'en septembre 2022. Évaluation GRADE de la fiabilité des preuves.
+
+## 📊 Résultats clés
+- Crème de doxépine : réduction significative du prurit vs antihistaminiques (DM -2,60/10, preuves faibles)
+- Gabapentine : supérieure à la cétirizine (DM -2,40/10, preuves faibles) avec moins de somnolence
+- Pommade d'énalapril : efficacité modérée vs placebo (DM -0,70/4, preuves modérées)
+- Massothérapie : réduction du prurit (DMS -0,86) et de la douleur (DMS -1,32) vs soins standard
+
+## 🩺 Impact clinique
+Les agents neuromodulateurs et certaines thérapies topiques montrent une efficacité prometteuse. La massothérapie offre des bénéfices sur le prurit et la douleur. La plupart des études présentent un risque élevé de biais.
+
+## 📖 Référence
+Sinha S, Gabriel VA, Arora RK, et al. Interventions for postburn pruritus. Cochrane Database Syst Rev. 2024;6(6):CD013468.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1002/14651858.CD013468.pub2.

@@ -1,0 +1,19 @@
+Date de publication : 2024-06-26
+
+# 📝 Dépistage et prévention de la prééclampsie au premier trimestre en Asie : essai randomisé en grappes
+
+## 📌 Contexte & Problématique
+Évaluation de l'efficacité, l'acceptabilité et la sécurité d'une stratégie de dépistage et prévention de la prééclampsie prématurée au premier trimestre dans dix régions d'Asie.
+
+## 🧪 Méthodologie
+Essai randomisé en grappes à paliers échelonnés (2019-2022). Dépistage par test triple basé sur le théorème de Bayes. Femmes à haut risque (≥1/100) recevant de l'aspirine à faible dose de <16 à 36 semaines.
+
+## 📊 Résultats clés
+88% des femmes ont accepté le dépistage. 82,4% des femmes à haut risque ont reçu l'aspirine. Pas de différence significative globale dans l'incidence de prééclampsie prématurée (aOR 1,59 [0,91-2,77]). Chez les femmes à haut risque traitées : réduction de 41% de prééclampsie prématurée (aOR 0,59 [0,37-0,92]), 54% de prééclampsie <34 semaines, 55% d'accouchement prématuré spontané <34 semaines et 64% de mortalité périnatale.
+
+## 🩺 Impact clinique
+L'aspirine à faible dose réduit efficacement la prééclampsie prématurée chez les femmes à haut risque identifiées par dépistage, sans augmentation d'événements indésirables graves. Stratégie bien acceptée dans diverses populations asiatiques.
+
+## 📖 Référence
+Nguyen-Hoang L, Dinh LT, Tai AST, et al. Circulation. 2024;150(16):1223-1235.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1161/CIRCULATIONAHA.124.069907.

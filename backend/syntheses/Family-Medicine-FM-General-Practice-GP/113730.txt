@@ -1,0 +1,19 @@
+Date de publication : 2024-05-08
+
+# 📝 RÉGIME PERSONNALISÉ ASSISTÉ PAR IA VS RÉGIME FODMAP DANS LE SYNDROME DE L'INTESTIN IRRITABLE
+
+## 📌 Contexte & Problématique
+Étude comparant l'efficacité d'un régime personnalisé basé sur le microbiome assisté par intelligence artificielle (RP) versus régime pauvre en FODMAP dans la prise en charge du syndrome de l'intestin irritable (SII).
+
+## 🧪 Méthodologie
+Essai contrôlé randomisé multicentrique incluant 121 patients (70 groupe RP, 51 groupe FODMAP) sur 6 semaines. Critère principal : différence intra-individuelle de l'IBS-SSS entre les groupes.
+
+## 📊 Résultats clés
+Réduction similaire des scores IBS-SSS : -112,7 (RP) vs -99,9 (FODMAP) (p=0,29). Les deux régimes ont amélioré significativement les symptômes, l'anxiété et la qualité de vie (p<0,001). Le RP a été efficace dans tous les sous-types de SII, tandis que le FODMAP a montré des améliorations variables selon les sous-types. Le RP a induit des modifications significatives de la diversité du microbiome (p<0,05).
+
+## 🩺 Impact clinique
+Le régime personnalisé assisté par IA représente une alternative prometteuse au régime FODMAP, avec une efficacité comparable sur les symptômes et une action plus homogène sur tous les sous-types de SII.
+
+## 📖 Référence
+Tunali V, Arslan NC, Ermis BH, et al. Am J Gastroenterol. 2024;119(9):1901-1912.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.14309/ajg.0000000000002862.

@@ -1,0 +1,19 @@
+Date de publication : 2024-12-16
+
+# 📝 Monothérapie par aspirine versus clopidogrel après intervention coronarienne percutanée : suivi à 1 an de l'essai STOPDAPT-3
+
+## 📌 Contexte & Problématique
+Aucune étude n'avait comparé la monothérapie par aspirine à celle par inhibiteur P2Y12 après une courte bithérapie antiplaquettaire suivant une intervention coronarienne percutanée avec stents à élution médicamenteuse.
+
+## 🧪 Méthodologie
+Étude randomisée incluant 5833 patients (âge médian 73 ans, 74,6% avec syndrome coronarien aigu, 54,1% à risque hémorragique élevé). Comparaison entre monothérapie par aspirine après 1 mois de bithérapie (n=2920) versus monothérapie par clopidogrel après 1 mois de prasugrel (n=2913).
+
+## 📊 Résultats clés
+Maintien du traitement assigné à 1 an : 87,5% (aspirine) et 87,2% (clopidogrel). Taux d'événements cardiovasculaires identiques (4,5 pour 100 personnes-années dans les deux groupes; HR 1,00; IC 95% 0,77-1,30; p=0,97). Taux d'hémorragies similaires (2,0 vs 1,9; HR 1,02; IC 95% 0,69-1,52; p=0,92).
+
+## 🩺 Impact clinique
+Les deux stratégies de monothérapie offrent des profils d'efficacité et de sécurité équivalents après intervention coronarienne percutanée, permettant une flexibilité dans le choix du traitement antiplaquettaire au long cours.
+
+## 📖 Référence
+Watanabe H, Natsuaki M, Morimoto T, et al. Aspirin vs. clopidogrel monotherapy after percutaneous coronary intervention: 1-year follow-up of the STOPDAPT-3 trial. Eur Heart J. 2024;45(47):5042-5054.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1093/eurheartj/ehae617.

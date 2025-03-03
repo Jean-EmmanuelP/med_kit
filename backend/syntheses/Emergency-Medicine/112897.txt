@@ -1,0 +1,19 @@
+Date de publication : 2024-03-25
+
+# 📝 L'intuition clinique surpasse les outils standardisés pour le dépistage précoce de la septicémie aux urgences
+
+## 📌 Contexte & Problématique
+L'identification rapide de la septicémie aux urgences est cruciale pour initier un traitement précoce. Cette étude compare l'intuition clinique des médecins aux outils standardisés dans les premières minutes d'évaluation.
+
+## 🧪 Méthodologie
+Étude observationnelle prospective dans un service d'urgences universitaire (2020-2022) incluant 2 484 patients critiques. L'intuition clinique a été mesurée par échelle visuelle analogique (0-100) à 15 et 60 minutes, comparée aux scores SRIS, SOFA, qSOFA, MEWS et un modèle LASSO.
+
+## 📊 Résultats clés
+275 patients (11%) ont reçu un diagnostic de septicémie. À 15 minutes, l'intuition clinique (ASC 0,90; IC 95% 0,88-0,92) a significativement surpassé tous les autres outils, dont LASSO (ASC 0,84), qSOFA, SRIS, SOFA et MEWS (ASC 0,66-0,67). Les résultats restaient similaires à 60 minutes.
+
+## 🩺 Impact clinique
+L'intuition des médecins urgentistes dans les 15 premières minutes est supérieure aux outils standardisés pour identifier la septicémie, suggérant son intégration formelle dans les protocoles de triage et de prise en charge précoce.
+
+## 📖 Référence
+Knack SKS, Scott N, Driver BE, et al. Early Physician Gestalt Versus Usual Screening Tools for the Prediction of Sepsis in Critically Ill Emergency Patients. Ann Emerg Med. 2024;84(3):246-258.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.annemergmed.2024.02.009.

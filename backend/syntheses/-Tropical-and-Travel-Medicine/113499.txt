@@ -1,0 +1,19 @@
+Date de publication : 2024-08-01
+
+# 📝 Paracétamol et ibuprofène dans le paludisme pédiatrique du système nerveux central : essai clinique randomisé
+
+## 📌 Contexte & Problématique
+Un tiers des enfants survivant au paludisme avec atteinte neurologique développent des séquelles. La température élevée et les convulsions sont des facteurs de risque identifiés.
+
+## 🧪 Méthodologie
+Essai clinique randomisé en Zambie et au Malawi incluant 256 enfants (2-11 ans) atteints de paludisme du SNC. Groupe intervention : paracétamol (30 mg/kg puis 15 mg/kg) + ibuprofène (10 mg/kg) toutes les 6h pendant 72h. Groupe contrôle : paracétamol 15 mg/kg uniquement si température ≥38,5°C.
+
+## 📊 Résultats clés
+Le groupe intervention a présenté une température maximale inférieure (38,6°C vs 39,2°C, p<0,001) et moins de convulsions multiples/prolongées (8% vs 27%, OR 0,26). Événements indésirables graves : 12% vs 20%, dont décès : 2% vs 8%. Augmentation de la créatinine : 10% vs 6%.
+
+## 🩺 Impact clinique
+L'antipyrèse agressive réduit significativement la température maximale et les convulsions sans affecter la clairance parasitaire, suggérant un bénéfice potentiel pour réduire les séquelles neurologiques.
+
+## 📖 Référence
+Birbeck GL, Seydel KB, Mwanza S, et al. Acetaminophen and Ibuprofen in Pediatric Central Nervous System Malaria: A Randomized Clinical Trial. JAMA Neurol. 2024;81(8):857-865.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamaneurol.2024.1677.

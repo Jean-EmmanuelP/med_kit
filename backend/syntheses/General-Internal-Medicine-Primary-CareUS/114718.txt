@@ -1,0 +1,19 @@
+Date de publication : 2024-10-21
+
+# 📝 Lignes directrices 2024 pour la prévention primaire de l'AVC
+
+## 📌 Contexte & Problématique
+Mise à jour des recommandations de 2014 pour guider les cliniciens dans la prévention des AVC chez les personnes sans antécédents. Les AVC ischémiques et hémorragiques causent des handicaps majeurs mais sont largement évitables.
+
+## 🧪 Méthodologie
+Revue systématique de la littérature (mai-novembre 2023) incluant études humaines en anglais indexées dans MEDLINE, PubMed et Cochrane. Analyse des publications pertinentes de l'American Heart Association.
+
+## 📊 Résultats clés
+Les recommandations s'alignent sur les "8 éléments essentiels de la vie" de l'AHA. Introduction de recommandations spécifiques au sexe pour le dépistage et la prévention, absentes des directives 2014.
+
+## 🩺 Impact clinique
+Approche préventive tout au long de la vie avec stratégies actualisées pour les facteurs de risque communs. Nouvelles recommandations fondées sur des données probantes récentes de qualité.
+
+## 📖 Référence
+Bushnell C, Kernan WN, Sharrief AZ, et al. Stroke. 2024;55(12):e344-e424.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1161/STR.0000000000000475.

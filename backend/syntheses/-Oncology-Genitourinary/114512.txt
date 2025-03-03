@@ -1,0 +1,19 @@
+Date de publication : 2024-09-16
+
+# 📝 Darolutamide + ADT dans le cancer de prostate métastatique hormono-sensible : essai ARANOTE
+
+## 📌 Contexte & Problématique
+Le darolutamide associé au traitement par suppression androgénique (TSA) avec docétaxel a déjà montré des bénéfices en survie globale dans le cancer de prostate métastatique hormono-sensible (mHSPC). L'essai ARANOTE évalue l'efficacité du darolutamide + TSA sans chimiothérapie.
+
+## 🧪 Méthodologie
+Essai de phase III randomisé (2:1) comparant darolutamide 600 mg BID + TSA versus placebo + TSA. Critère principal : survie sans progression radiologique (rPFS).
+
+## 📊 Résultats clés
+669 patients inclus. Le darolutamide + TSA réduit de 46% le risque de progression radiologique ou décès (HR 0,54; IC 95% 0,41-0,71; p<0,0001). Bénéfices observés dans tous les sous-groupes. Délai jusqu'au cancer résistant à la castration significativement prolongé (HR 0,40; IC 95% 0,32-0,51). Profil de tolérance favorable avec moins d'interruptions de traitement (6,1% vs 9,0%).
+
+## 🩺 Impact clinique
+L'association darolutamide + TSA constitue une option thérapeutique efficace et bien tolérée pour les patients atteints de mHSPC, même sans chimiothérapie associée.
+
+## 📖 Référence
+Saad F, Vjaters E, Shore N, et al. J Clin Oncol. 2024;42(36):4271-4281.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO-24-01798.

@@ -1,0 +1,19 @@
+Date de publication : 2024-09-02
+
+# 📝 Plozasiran dans la chylomicronémie persistante et la réduction du risque de pancréatite
+
+## 📌 Contexte & Problématique
+La chylomicronémie persistante, trouble génétique ou multifactoriel, est associée à un risque de pancréatite aiguë récurrente. Le plozasiran, petit ARN interférent, réduit la production hépatique d'apolipoprotéine C-III et les triglycérides circulants.
+
+## 🧪 Méthodologie
+Essai randomisé de phase 3 sur 75 patients recevant du plozasiran (25mg ou 50mg) ou placebo par voie sous-cutanée tous les 3 mois pendant 12 mois. Critère principal : variation du taux de triglycérides à jeun à 10 mois.
+
+## 📊 Résultats clés
+À 10 mois, réduction médiane des triglycérides de 80% (25mg) et 78% (50mg) versus 17% (placebo) (p<0,001). Incidence de pancréatite aiguë significativement réduite avec plozasiran (rapport de cotes 0,17; IC95% 0,03-0,94; p=0,03). Profil de sécurité comparable entre groupes, avec hyperglycémie chez certains patients prédiabétiques/diabétiques.
+
+## 🩺 Impact clinique
+Le plozasiran représente une option thérapeutique prometteuse pour réduire significativement les triglycérides et le risque de pancréatite chez les patients atteints de chylomicronémie persistante.
+
+## 📖 Référence
+Watts GF, Rosenson RS, Hegele RA, et al. N Engl J Med. 2025;392(2):127-137.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2409368.

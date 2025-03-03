@@ -1,0 +1,19 @@
+Date de publication : 2024-12-01
+
+# 📝 Sevrage masqué avec intervention comportementale pour l'arrêt des agonistes des récepteurs aux benzodiazépines
+
+## 📌 Contexte & Problématique
+Les agonistes des récepteurs aux benzodiazépines (BZRA) sont déconseillés chez les personnes âgées. On ignore si un sevrage masqué combiné à une thérapie cognitivo-comportementale pour l'insomnie (TCC-I) augmentée améliore l'arrêt des BZRA.
+
+## 🧪 Méthodologie
+Essai clinique randomisé incluant 188 adultes ≥55 ans (âge moyen 69,8 ans) utilisant des BZRA pour l'insomnie. Comparaison entre sevrage masqué + TCC-I augmentée (MTcap, n=92) et sevrage non masqué + TCC-I standard (SGT, n=96).
+
+## 📊 Résultats clés
+Le groupe MTcap a obtenu un taux d'arrêt des BZRA significativement supérieur à 6 mois (73,4% vs 58,6%; RC=1,95; p=0,04) et à 1 semaine (88,4% vs 67,4%; RC=3,68; p=0,001). La sévérité de l'insomnie s'est améliorée sans différence significative entre les groupes.
+
+## 🩺 Impact clinique
+Un sevrage masqué combiné à des exercices ciblant les mécanismes placebo améliore significativement l'arrêt à long terme des BZRA chez les personnes âgées, sans aggravation de l'insomnie.
+
+## 📖 Référence
+Fung CH, Alessi C, Martin JL, et al. Masked Taper With Behavioral Intervention for Discontinuation of Benzodiazepine Receptor Agonists: A Randomized Clinical Trial. JAMA Intern Med. 2024;184(12):1448-1456.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamainternmed.2024.5020.

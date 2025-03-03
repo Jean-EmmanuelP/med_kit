@@ -1,0 +1,19 @@
+Date de publication : 2024-10-23
+
+# 📝 Chimiothérapie intensive versus standard dans le cancer du sein triple négatif à haut risque basée sur signature ARNm-ARNlnc
+
+## 📌 Contexte & Problématique
+Étude de l'efficacité d'une signature multigénique pour personnaliser la chimiothérapie adjuvante chez les patientes atteintes de cancer du sein triple négatif opérable.
+
+## 🧪 Méthodologie
+Essai randomisé de phase 3 incluant 504 patientes chinoises. Après stratification par risque, les patientes à haut risque ont reçu soit un traitement intensif (docétaxel+épirubicine+cyclophosphamide puis gemcitabine+cisplatine) soit standard (épirubicine+cyclophosphamide puis docétaxel).
+
+## 📊 Résultats clés
+Après 45,1 mois de suivi, la survie sans maladie à 3 ans était de 90,9% dans le groupe intensif contre 80,6% dans le groupe standard (HR 0,51; IC 95% 0,28-0,95; p=0,03). Les patientes à faible risque recevant le traitement standard ont obtenu une survie sans maladie à 3 ans de 90,1%.
+
+## 🩺 Impact clinique
+La chimiothérapie intensive améliore significativement la survie sans maladie chez les patientes à haut risque avec une toxicité acceptable (événements indésirables grade 3-4: 64% vs 51%). La signature multigénique permet une stratification efficace pour personnaliser le traitement.
+
+## 📖 Référence
+He M, Jiang YZ, Gong Y, et al. BMJ. 2024;387:e079603.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1136/bmj-2024-079603.

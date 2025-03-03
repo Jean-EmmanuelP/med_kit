@@ -1,0 +1,21 @@
+Date de publication : 2024-12-17
+
+# 📝 Guselkumab dans la colite ulcéreuse modérée à sévère : études QUASAR phase 3
+
+## 📌 Contexte & Problématique
+Le guselkumab, inhibiteur de la sous-unité p19 de l'interleukine-23, a été évalué dans la colite ulcéreuse modérée à sévère chez des patients en échec ou intolérants aux traitements conventionnels ou avancés.
+
+## 🧪 Méthodologie
+Deux études randomisées, double aveugle, contrôlées versus placebo. Induction : guselkumab 200 mg IV (semaines 0, 4, 8) versus placebo (randomisation 3:2). Entretien : répondeurs randomisés (1:1:1) pour recevoir guselkumab 200 mg SC/4 semaines, 100 mg SC/8 semaines ou placebo pendant 44 semaines.
+
+## 📊 Résultats clés
+Induction (n=701) : rémission clinique à S12 significativement supérieure avec guselkumab (23% vs 8% placebo; p<0,0001).
+Entretien (n=568) : rémission clinique à S44 supérieure avec guselkumab 200 mg/4 semaines (50%) et 100 mg/8 semaines (45%) versus placebo (19%; p<0,0001).
+Profil de sécurité favorable, comparable au placebo.
+
+## 🩺 Impact clinique
+Le guselkumab représente une option thérapeutique efficace et sûre pour l'induction et l'entretien de la rémission dans la colite ulcéreuse modérée à sévère.
+
+## 📖 Référence
+Rubin DT, Allegretti JR, Panes J, et al. Lancet. 2025;405(10472):33-49.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S0140-6736(24)01927-5.

@@ -1,0 +1,19 @@
+Date de publication : 2025-02-07
+
+# 📝 Efficacité et sécurité de l'obinutuzumab dans la néphrite lupique active
+
+## 📌 Contexte & Problématique
+L'obinutuzumab, anticorps monoclonal anti-CD20 humanisé, a montré des résultats prometteurs en phase 2 chez les patients atteints de néphrite lupique recevant un traitement standard.
+
+## 🧪 Méthodologie
+Essai randomisé de phase 3 comparant l'obinutuzumab (1000 mg à J1, S2, S24, S26, S52 ± S50) au placebo chez 271 adultes atteints de néphrite lupique active. Tous recevaient mycophénolate mofétil et prednisone. Critère principal : réponse rénale complète à S76.
+
+## 📊 Résultats clés
+Réponse rénale complète à S76 : 46,4% (obinutuzumab) vs 33,1% (placebo), différence +13,4% (p=0,02). Réponse avec prednisone ≤7,5mg/j : 42,7% vs 30,9% (p=0,04). Rapport protéine/créatinine <0,8 : 55,5% vs 41,9% (p=0,02). Plus d'événements indésirables graves avec l'obinutuzumab, principalement infections et COVID-19.
+
+## 🩺 Impact clinique
+L'obinutuzumab associé au traitement standard améliore significativement les réponses rénales complètes chez les adultes atteints de néphrite lupique active, offrant une option thérapeutique supplémentaire efficace.
+
+## 📖 Référence
+Furie RA, Rovin BH, Garg JP, et al. Efficacy and Safety of Obinutuzumab in Active Lupus Nephritis. N Engl J Med. 2025 Feb 7. doi: 10.1056/NEJMoa2410965.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2410965.

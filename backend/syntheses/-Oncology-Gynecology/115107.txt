@@ -1,0 +1,19 @@
+Date de publication : 2024-11-21
+
+# 📝 CHIP dans le cancer ovarien récidivant sensible au platine : pas de bénéfice sur la survie sans progression
+
+## 📌 Contexte & Problématique
+L'étude HORSE (MITO-18) évalue l'ajout de la chimiothérapie intrapéritonéale hyperthermique (CHIP) à la chirurgie cytoréductive secondaire (CCS) chez les patientes avec cancer ovarien épithélial récidivant sensible au platine (intervalle sans platine >6 mois).
+
+## 🧪 Méthodologie
+Essai randomisé multicentrique de phase III comparant CCS+CHIP versus CCS seule. La CHIP utilisait le cisplatine (75 mg/m²) pendant 60 minutes à 41,5°C. Les deux groupes recevaient une chimiothérapie postopératoire à base de platine.
+
+## 📊 Résultats clés
+167 patientes randomisées (82 CCS+CHIP, 85 CCS seule). Suivi médian: 83 mois. Survie sans progression médiane: 25 mois (CCS+CHIP) versus 23 mois (CCS seule). Survie après récidive à 5 ans: 75,9% (CCS+CHIP) versus 61,6% (CCS). Incidence d'événements indésirables similaire entre les groupes.
+
+## 🩺 Impact clinique
+L'ajout de la CHIP à une CCS complète ou quasi complète n'améliore pas la survie sans progression chez ces patientes.
+
+## 📖 Référence
+Fagotti A, Costantini B, Fanfani F, et al. J Clin Oncol. 2024 Nov 21:JCO2400686.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO.24.00686.

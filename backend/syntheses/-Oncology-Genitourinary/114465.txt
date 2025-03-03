@@ -1,0 +1,19 @@
+Date de publication : 2024-09-20
+
+# 📝 Nivolumab adjuvant dans le carcinome rénal localisé à haut risque après néphrectomie
+
+## 📌 Contexte & Problématique
+L'étude CheckMate 914 (partie B) évalue l'efficacité du nivolumab en monothérapie adjuvante versus placebo chez des patients atteints de carcinome à cellules rénales (CCR) localisé à haut risque de récidive après néphrectomie.
+
+## 🧪 Méthodologie
+Essai randomisé de phase III (2:1:1) comparant nivolumab (240 mg/2 semaines, 12 doses), placebo, ou nivolumab+ipilimumab pendant 24 semaines. Critère principal : survie sans maladie (SSM) évaluée par comité indépendant.
+
+## 📊 Résultats clés
+Avec un suivi médian de 27 mois, l'objectif principal n'a pas été atteint (HR=0,87; IC95%: 0,62-1,21; p=0,40). Taux de SSM à 18 mois: 78,4% (nivolumab) versus 75,4% (placebo). Événements indésirables grade 3-4: 17,2% (nivolumab) versus 15,0% (placebo).
+
+## 🩺 Impact clinique
+Le nivolumab en monothérapie adjuvante n'apporte pas de bénéfice significatif en SSM chez les patients atteints de CCR localisé à haut risque post-néphrectomie.
+
+## 📖 Référence
+Motzer RJ, Bex A, Russo P, et al. J Clin Oncol. 2025;43(2):189-200.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO.24.00773.

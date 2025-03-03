@@ -1,0 +1,19 @@
+Date de publication : 2024-03-07
+
+# 📝 Évaluation de la récurrence des réactions allergiques systémiques après vaccination COVID-19 à ARNm
+
+## 📌 Contexte & Problématique
+Les réactions allergiques systémiques (RAS) après vaccination COVID-19 à ARNm ont été initialement signalées à des taux élevés. Cette étude évalue la sécurité de la revaccination chez ces patients et explore les mécanismes sous-jacents.
+
+## 🧪 Méthodologie
+Essai randomisé, double aveugle, phase 2 incluant 18 participants (16-69 ans) ayant présenté une RAS après première dose. Design croisé 1:1 avec BNT162b2 (Comirnaty) et placebo, suivi d'un rappel en ouvert après 5 mois.
+
+## 📊 Résultats clés
+Seulement 2 participants sur 16 (12,5%; IC95%: 1,6-38,3%) ont présenté une récurrence de RAS après la seconde dose ou le rappel. Aucune RAS n'est survenue après placebo. Les réactions liées au stress d'immunisation (RLSI) étaient plus fréquentes, associées à des scores d'anxiété pré-dose élevés et des paresthésies.
+
+## 🩺 Impact clinique
+La revaccination des personnes ayant présenté une RAS initiale aux vaccins COVID-19 à ARNm apparaît sécuritaire. Des caractéristiques cliniques et biologiques permettent de différencier les véritables RAS des RLSI.
+
+## 📖 Référence
+Khalid MB, Zektser E, Chu E, et al. J Allergy Clin Immunol. 2024;153(6):1634-1646.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.jaci.2024.03.001.

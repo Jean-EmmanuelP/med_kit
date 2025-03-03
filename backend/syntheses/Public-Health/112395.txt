@@ -1,0 +1,19 @@
+Date de publication : 2024-02-05
+
+# 📝 Coût-efficacité des substituts de sel dans les établissements pour personnes âgées
+
+## 📌 Contexte & Problématique
+La substitution du sel est considérée comme une stratégie économiquement avantageuse pour réduire le sodium. L'essai DECIDE-Salt a évalué son rapport coût-efficacité dans des établissements de soins pour personnes âgées en Chine.
+
+## 🧪 Méthodologie
+Essai randomisé en grappes (2017-2020) incluant 1612 participants âgés (moyenne 71 ans) dans 48 établissements répartis en 4 groupes testant deux stratégies : substitution du sel et restriction progressive de l'approvisionnement en sel.
+
+## 📊 Résultats clés
+Le substitut de sel a réduit la pression artérielle systolique de 7,14 mmHg, la prévalence d'hypertension de 5,09%, et les événements cardiovasculaires majeurs de 2,27%. Économie moyenne de 25,95$ par participant sur deux ans, principalement due à la réduction des coûts de soins pour événements cardiovasculaires (72,88$ vs 111,18$).
+
+## 🩺 Impact clinique
+L'implémentation nationale dans les établissements pour personnes âgées en Chine pourrait éviter 48 101 événements cardiovasculaires, 107 857 cas d'hypertension et économiser 54 982 278$ sur deux ans.
+
+## 📖 Référence
+Lai X, Yuan Y, Wang H, et al. JAMA Netw Open. 2024;7(2):e2355564.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamanetworkopen.2023.55564.

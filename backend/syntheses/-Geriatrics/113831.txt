@@ -1,0 +1,19 @@
+Date de publication : 2024-07-11
+
+# 📝 Vaccin intranasal H3N2 M2SR chez les personnes âgées : sécurité et immunogénicité
+
+## 📌 Contexte & Problématique
+Les personnes âgées (≥65 ans) représentent 70-85% des décès liés à la grippe aux États-Unis. Les vaccins antigrippaux inactivés actuels montrent une efficacité limitée dans cette population. L'étude évalue un vaccin intranasal H3N2 M2-déficient à réplication unique (M2SR).
+
+## 🧪 Méthodologie
+Essai randomisé de phase 1b incluant 305 adultes (65-85 ans) répartis en 4 groupes : M2SR+placebo (n=89), M2SR+Fluzone HD (n=94), Fluzone HD+placebo (n=92), ou placebo seul (n=30). Évaluation de la sécurité et de l'immunogénicité.
+
+## 📊 Résultats clés
+Effets indésirables principaux : rhinorrhée (38-43%), congestion nasale (35-51%) pour M2SR. Événements indésirables liés au vaccin : 2-5% dans tous les groupes. La co-administration M2SR+Fluzone HD a induit une séroconversion chez 48% des participants contre 31% avec Fluzone HD seul (p=0,023), avec des réponses immunitaires muqueuses et cellulaires améliorées.
+
+## 🩺 Impact clinique
+Le vaccin H3N2 M2SR co-administré avec Fluzone HD est bien toléré et offre une immunogénicité supérieure au Fluzone HD seul, suggérant un potentiel d'amélioration de la protection vaccinale chez les personnes âgées.
+
+## 📖 Référence
+Eiden J, Fierro C, White A, et al. Lancet Infect Dis. 2024;24(10):1118-1129.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S1473-3099(24)00351-7.

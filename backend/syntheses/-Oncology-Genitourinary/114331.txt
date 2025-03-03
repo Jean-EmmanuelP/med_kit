@@ -1,0 +1,22 @@
+Date de publication : 2024-09-15
+
+# 📝 Durvalumab périopératoire avec chimiothérapie néoadjuvante dans le cancer de vessie opérable
+
+## 📌 Contexte & Problématique
+Le traitement standard du cancer de vessie infiltrant le muscle combine chimiothérapie néoadjuvante et cystectomie radicale. L'ajout d'immunothérapie pourrait améliorer les résultats cliniques.
+
+## 🧪 Méthodologie
+Essai randomisé de phase 3 (n=1063) comparant deux groupes : durvalumab + gemcitabine-cisplatine néoadjuvants puis cystectomie et durvalumab adjuvant versus gemcitabine-cisplatine néoadjuvants puis cystectomie seule.
+
+## 📊 Résultats clés
+Survie sans événement à 24 mois : 67,8% (groupe durvalumab) contre 59,8% (groupe comparateur) (HR=0,68; p<0,001).
+Survie globale à 24 mois : 82,2% versus 75,2% (HR=0,75; p=0,01).
+Taux de cystectomie radicale : 88,0% versus 83,2%.
+Événements indésirables grade 3-4 : similaires (40,6% vs 40,9%).
+
+## 🩺 Impact clinique
+L'ajout du durvalumab périopératoire à la chimiothérapie néoadjuvante améliore significativement la survie sans événement et la survie globale, sans augmenter la toxicité, constituant une avancée thérapeutique majeure pour les patients atteints de cancer de vessie infiltrant le muscle.
+
+## 📖 Référence
+Powles T, Catto JWF, Galsky MD, et al. N Engl J Med. 2024;391(19):1773-1786.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2408154.

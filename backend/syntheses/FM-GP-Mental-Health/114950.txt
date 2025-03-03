@@ -1,0 +1,19 @@
+Date de publication : 2024-11-04
+
+# 📝 Stimulation transcrânienne combinée pour la dépression : efficacité supérieure du traitement dual
+
+## 📌 Contexte & Problématique
+L'efficacité individuelle de la stimulation magnétique transcrânienne répétitive (SMTr) et de la stimulation transcrânienne à courant direct (STCD) contre la dépression est établie, mais leur effet combiné restait inexploré.
+
+## 🧪 Méthodologie
+Essai clinique randomisé en double aveugle (n=240) mené dans trois hôpitaux chinois (2021-2023). Quatre groupes comparés : STCD+SMTr actives, STCD factice+SMTr active, STCD active+SMTr factice, et double placebo. Traitement de 2 semaines (10 séances) avec évaluation par l'échelle HDRS-24.
+
+## 📊 Résultats clés
+Réduction significativement supérieure des scores HDRS-24 dans le groupe STCD+SMTr actives (18,33±5,39) comparé aux groupes SMTr seule (14,86±5,59), STCD seule (9,21±4,61) et placebo (10,77±5,67) (p<0,001; η²=0,31).
+
+## 🩺 Impact clinique
+La thérapie combinée STCD+SMTr offre une option thérapeutique plus efficace que les monothérapies pour les patients atteints de trouble dépressif majeur, avec un bon profil de sécurité.
+
+## 📖 Référence
+Zhou D, Li X, Wei S, et al. Transcranial Direct Current Stimulation Combined With Repetitive Transcranial Magnetic Stimulation for Depression: A Randomized Clinical Trial. JAMA Netw Open. 2024;7(11):e2444306.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamanetworkopen.2024.44306.

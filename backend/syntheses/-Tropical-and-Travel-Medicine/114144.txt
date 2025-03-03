@@ -1,0 +1,19 @@
+Date de publication : 2024-08-09
+
+# 📝 Utilité de trois biomarqueurs sériques pour la détection précoce d'envenimation systémique après morsures de vipères au Sri Lanka
+
+## 📌 Contexte & Problématique
+La détection précoce de l'envenimation systémique est cruciale pour administrer rapidement l'antivenin. Cette étude évalue l'utilité diagnostique de trois biomarqueurs sériques après morsures de vipères au Sri Lanka.
+
+## 🧪 Méthodologie
+Étude prospective incluant 237 patients mordus par des serpents (72 vipères de Russell, 80 vipères à nez retroussé, 31 serpents non venimeux, 54 non identifiés). Mesure à l'admission de trois biomarqueurs : phospholipase A2 sécrétoire (sPLA2), lipocaline associée à la gélatinase des neutrophiles (sNGAL) et clustérine (sClu).
+
+## 📊 Résultats clés
+L'activité médiane de sPLA2 était significativement plus élevée dans les envenimations systémiques (16 vs 11 nmol/min/mL). Pour les morsures de vipère de Russell, la sPLA2 était le meilleur prédicteur (AUC-ROC 0,90). Une activité >46 nmol/min/mL offrait une sensibilité de 67% et une spécificité de 100% pour les morsures de vipère de Russell.
+
+## 🩺 Impact clinique
+La sPLA2 constitue un biomarqueur prometteur pour la détection précoce d'envenimation systémique, particulièrement pour les morsures de vipère de Russell et les consultations précoces.
+
+## 📖 Référence
+Wedasingha S, Silva A, Fakes K, et al. Utility of Three Serum Biomarkers for Early Detection of Systemic Envenoming Following Viper Bites in Sri Lanka. Ann Emerg Med. 2024;84(6):619-627.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.annemergmed.2024.06.023.

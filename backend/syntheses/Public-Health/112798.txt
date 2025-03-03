@@ -1,0 +1,19 @@
+Date de publication : 2024-03-18
+
+# 📝 Vaccination des adultes atteints de cancer : Lignes directrices de l'ASCO
+
+## 📌 Contexte & Problématique
+Les patients atteints de cancer nécessitent des stratégies vaccinales spécifiques en raison de leur état immunitaire altéré. Cette directive vise à optimiser la vaccination chez les adultes atteints de tumeurs solides ou d'hémopathies malignes.
+
+## 🧪 Méthodologie
+Revue systématique de 102 publications (24 revues systématiques, 14 ECR, 64 études non randomisées) publiées entre 2013-2023. Évaluation par un panel d'experts de l'ASCO.
+
+## 📊 Résultats clés
+Les preuves les plus substantielles concernent les vaccins COVID-19. La vaccination doit être documentée dès la première consultation et adaptée selon les traitements reçus (greffe de cellules souches, thérapie CAR-T, traitements déplétifs en lymphocytes B).
+
+## 🩺 Impact clinique
+L'objectif principal est de limiter la gravité des infections. La vaccination des contacts domestiques renforce la protection du patient. Une coordination entre tous les soignants est essentielle. Les stratégies vaccinales diffèrent des recommandations pour la population générale.
+
+## 📖 Référence
+Kamboj M, Bohlke K, Baptiste DM, et al. Vaccination of Adults With Cancer: ASCO Guideline. J Clin Oncol. 2024;42(14):1699-1721.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO.24.00032.

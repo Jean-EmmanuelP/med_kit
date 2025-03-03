@@ -1,0 +1,19 @@
+Date de publication : 2024-06-10
+
+# 📝 Évaluation des outils de risque hémorragique chez les patients avec TEV non provoquée
+
+## 📌 Contexte & Problématique
+L'anticoagulation indéfinie est recommandée après une thromboembolie veineuse (TEV) non provoquée, sauf si risque hémorragique élevé. Cependant, l'évaluation standardisée de ce risque reste problématique.
+
+## 🧪 Méthodologie
+Étude PLATO-VTE: cohorte prospective de 514 patients ≥40 ans avec premier épisode de TEV non provoquée. Évaluation de 5 outils (RIETE, VTE-BLEED, CHAP, VTE-PREDICT, ABC-Bleeding) au diagnostic et après 3 mois. Suivi de 24 mois pour détecter les hémorragies cliniquement significatives.
+
+## 📊 Résultats clés
+38 patients (7,4%) ont présenté une hémorragie. Discrimination médiocre pour tous les outils: AUROC entre 0,50 (VTE-BLEED/VTE-PREDICT) et 0,58 (ABC-Bleeding). Proportion de patients classés "haut risque": 1,4% (RIETE) à 36,9% (VTE-BLEED). Incidence hémorragique dans les groupes à haut risque: 0% (RIETE) à 13,0% (ABC-Bleeding).
+
+## 🩺 Impact clinique
+Aucun des outils actuels n'offre une discrimination satisfaisante du risque hémorragique chez les patients avec TEV non provoquée, limitant leur utilité clinique pour guider les décisions d'anticoagulation prolongée.
+
+## 📖 Référence
+Guman NAM, Becking AL, Weijers SS, et al. J Thromb Haemost. 2024;22(9):2470-2481.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.jtha.2024.05.031.

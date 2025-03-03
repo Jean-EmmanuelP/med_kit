@@ -1,0 +1,19 @@
+Date de publication : 2024-09-14
+
+# 📝 Chimioradiothérapie préopératoire dans le cancer gastrique résécable
+
+## 📌 Contexte & Problématique
+La chimiothérapie périopératoire est le standard actuel pour le cancer gastrique résécable en Occident. L'intérêt d'ajouter une radiothérapie préopératoire restait à démontrer.
+
+## 🧪 Méthodologie
+Essai international de phase 3 randomisant 574 patients atteints d'adénocarcinome résécable gastrique ou de la jonction gastro-œsophagienne en deux groupes : chimioradiothérapie préopératoire plus chimiothérapie périopératoire versus chimiothérapie périopératoire seule.
+
+## 📊 Résultats clés
+Après un suivi médian de 67 mois, aucune différence significative de survie globale (46 vs 49 mois; HR=1,05; IC 95%: 0,83-1,31) ou de survie sans progression (31 vs 32 mois) n'a été observée. Le taux de réponse pathologique complète était supérieur dans le groupe chimioradiothérapie (17% vs 8%). Toxicité similaire entre les groupes.
+
+## 🩺 Impact clinique
+L'ajout d'une chimioradiothérapie préopératoire n'améliore pas la survie et ne devrait pas modifier le standard actuel de chimiothérapie périopératoire seule pour ces patients.
+
+## 📖 Référence
+Leong T, Smithers BM, Michael M, et al. Preoperative Chemoradiotherapy for Resectable Gastric Cancer. N Engl J Med. 2024;391(19):1810-1821.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2405195.

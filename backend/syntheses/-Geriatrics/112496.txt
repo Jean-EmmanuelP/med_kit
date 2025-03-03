@@ -1,0 +1,19 @@
+Date de publication : 2024-03-01
+
+# 📝 Recommandations européennes pour le diagnostic des troubles neurocognitifs par biomarqueurs
+
+## 📌 Contexte & Problématique
+L'arrivée des premiers médicaments modificateurs de la maladie d'Alzheimer nécessite des recommandations consensuelles sur l'utilisation des biomarqueurs diagnostiques dans les cliniques de la mémoire. Les directives existantes sont soit centrées sur la maladie, soit sur les biomarqueurs, mais rarement sur le patient.
+
+## 🧪 Méthodologie
+Un groupe de 22 experts issus de 11 sociétés scientifiques européennes a développé un algorithme diagnostique centré sur le patient. Après revue de la littérature, une procédure Delphi a identifié 11 syndromes cliniques basés sur l'anamnèse, l'examen clinique, la neuropsychologie, les analyses sanguines, l'imagerie structurelle et parfois l'EEG.
+
+## 📊 Résultats clés
+L'algorithme propose des tests de biomarqueurs de première et deuxième ligne, adaptés au profil clinique du patient et aux résultats des biomarqueurs précédents.
+
+## 🩺 Impact clinique
+Ces recommandations favoriseront l'harmonisation des pratiques diagnostiques des troubles neurocognitifs en Europe et guideront l'utilisation rationnelle des biomarqueurs.
+
+## 📖 Référence
+Frisoni GB, Festari C, Massa F, et al. European intersocietal recommendations for the biomarker-based diagnosis of neurocognitive disorders. Lancet Neurol. 2024;23(3):302-312.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S1474-4422(23)00447-7.

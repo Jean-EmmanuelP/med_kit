@@ -1,0 +1,22 @@
+Date de publication : 2024-02-13
+
+# 📝 CHIMIOTHÉRAPIE ADJUVANTE APRÈS NÉPHROURÉTÉRECTOMIE POUR CANCER UROTHÉLIAL DES VOIES SUPÉRIEURES : RÉSULTATS FINAUX DE L'ESSAI POUT
+
+## 📌 Contexte & Problématique
+L'essai POUT évalue l'efficacité de la chimiothérapie adjuvante après néphrourétérectomie radicale chez les patients atteints de cancer urothélial des voies urinaires supérieures (UTUC) avec envahissement musculaire ou ganglionnaire.
+
+## 🧪 Méthodologie
+Essai de phase III randomisé incluant 261 patients non métastatiques répartis entre chimiothérapie à base de platine (n=132) et surveillance (n=129). Suivi médian de 65 mois.
+
+## 📊 Résultats clés
+Survie sans maladie à 5 ans : 62% (chimiothérapie) vs 45% (surveillance), HR=0,55 (p=0,001).
+Survie globale à 5 ans : 66% vs 57%, HR=0,68 (p=0,049).
+Temps de survie moyen restreint supérieur de 18 mois dans le groupe chimiothérapie.
+Effets bénéfiques similaires avec carboplatine ou cisplatine.
+
+## 🩺 Impact clinique
+Ces résultats finaux confirment le bénéfice significatif de la chimiothérapie adjuvante, sans différence cliniquement significative dans la qualité de vie, justifiant son utilisation standard après néphrourétérectomie pour UTUC localement avancé.
+
+## 📖 Référence
+Birtle AJ, Jones R, Chester J, et al. J Clin Oncol. 2024;42(13):1466-1471.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO.23.01659.

@@ -1,0 +1,19 @@
+Date de publication : 2025-01-30
+
+# 📝 Atézolizumab adjuvant dans le cancer du sein triple négatif précoce : essai ALEXANDRA/IMpassion030
+
+## 📌 Contexte & Problématique
+Le cancer du sein triple négatif est un sous-type agressif avec risque élevé de progression métastatique. L'étude évalue si l'ajout d'immunothérapie à la chimiothérapie postopératoire améliore les résultats.
+
+## 🧪 Méthodologie
+Essai randomisé de phase 3 incluant 2199 patientes avec cancer du sein triple négatif stade II-III dans 31 pays. Randomisation (1:1) : chimiothérapie standard pendant 20 semaines avec ou sans atézolizumab pendant 1 an. Critère principal : survie sans maladie invasive.
+
+## 📊 Résultats clés
+Après suivi médian de 32 mois, 12,8% d'événements dans le groupe atézolizumab-chimiothérapie contre 11,4% avec chimiothérapie seule (HR=1,11; IC 95%, 0,87-1,42; P=0,38). Plus d'événements indésirables grade 3-4 avec l'atézolizumab (54% vs 44%), mais taux similaires d'événements mortels (0,8% vs 0,6%).
+
+## 🩺 Impact clinique
+L'ajout d'atézolizumab à la chimiothérapie adjuvante n'apporte aucun bénéfice pour les patientes atteintes de cancer du sein triple négatif à haut risque, tout en augmentant la toxicité.
+
+## 📖 Référence
+Ignatiadis M, Bailey A, McArthur H, et al. Adjuvant Atezolizumab for Early Triple-Negative Breast Cancer: The ALEXANDRA/IMpassion030 Randomized Clinical Trial. JAMA. 2025;doi:10.1001/jama.2024.26886.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jama.2024.26886.

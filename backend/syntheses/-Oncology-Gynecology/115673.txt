@@ -1,0 +1,19 @@
+Date de publication : 2025-01-28
+
+# 📝 Efficacité des interventions de réadaptation oncologique chez les femmes traitées pour cancers gynécologiques
+
+## 📌 Contexte & Problématique
+Évaluation de l'efficacité des interventions de réadaptation oncologique sur l'activité physique, l'alimentation, la détresse psychologique et la qualité de vie chez les femmes traitées pour cancers gynécologiques.
+
+## 🧪 Méthodologie
+Méta-analyse d'essais contrôlés randomisés. Recherche systématique dans 12 bases de données jusqu'au 31 mai 2024. Neuf ECR (418 patientes) inclus et analysés avec Review Manager 5.4.
+
+## 📊 Résultats clés
+Effets significatifs sur l'activité physique post-intervention et aux suivis à 6 et 12 mois. Amélioration de l'auto-efficacité en matière d'activité physique. Pas d'effet significatif sur la qualité de vie, l'alimentation, l'anxiété ou la dépression.
+
+## 🩺 Impact clinique
+Les interventions de réadaptation augmentent durablement l'activité physique chez ces patientes. Composantes efficaces identifiées: information sur les comportements sains, techniques de changement comportemental et gestion du stress.
+
+## 📖 Référence
+Zhang L, Cheung AT, Chen Y, et al. Effects of Cancer Rehabilitation Interventions for Women Treated for Gynaecological Cancers: A Meta-Analysis of Randomised Controlled Trials. J Clin Nurs. 2025;doi:10.1111/jocn.17673.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1111/jocn.17673.

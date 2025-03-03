@@ -1,0 +1,19 @@
+Date de publication : 2024-09-15
+
+# 📝 Trastuzumab Déruxtécan après Hormonothérapie dans le Cancer du Sein Métastatique
+
+## 📌 Contexte & Problématique
+Le pronostic du cancer du sein métastatique HR+/HER2-faible se détériore après progression sous hormonothérapie. Le trastuzumab déruxtécan a montré une efficacité dans les tumeurs HER2-faibles après chimiothérapie.
+
+## 🧪 Méthodologie
+Essai de phase 3, multicentrique, randomisé (1:1) comparant trastuzumab déruxtécan versus chimiothérapie chez 866 patients HR+ avec HER2-faible (n=713) ou ultra-faible (n=153) ayant reçu ≥1 ligne d'hormonothérapie sans chimiothérapie antérieure pour maladie métastatique.
+
+## 📊 Résultats clés
+Dans le groupe HER2-faible, la survie sans progression médiane était de 13,2 mois avec trastuzumab déruxtécan versus 8,1 mois avec chimiothérapie (HR=0,62; p<0,001). Résultats similaires dans la population HER2-ultra-faible. Événements indésirables grade ≥3 : 52,8% versus 44,4%. Pneumopathie interstitielle : 11,3% (3 décès) versus 0,2%.
+
+## 🩺 Impact clinique
+Le trastuzumab déruxtécan représente une option thérapeutique efficace après progression sous hormonothérapie, avant chimiothérapie conventionnelle, y compris pour les tumeurs HER2-ultra-faibles.
+
+## 📖 Référence
+Bardia A, Hu X, Dent R, et al. N Engl J Med. 2024;391(22):2110-2122.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2407086.

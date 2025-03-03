@@ -1,0 +1,19 @@
+Date de publication : 2025-01-13
+
+# 📝 Exercice supervisé chez les patientes avec cancer du sein métastatique : analyse coût-utilité
+
+## 📌 Contexte & Problématique
+L'impact économique des programmes d'exercice supervisé pour les patientes atteintes de cancer du sein métastatique (CSm) reste peu documenté, freinant leur implémentation clinique.
+
+## 🧪 Méthodologie
+Analyse coût-utilité menée parallèlement à l'essai PREFERABLE-EFFECT (8 centres, Europe/Australie) incluant 357 patientes avec CSm randomisées entre exercice supervisé (9 mois, 2 séances/semaine) et soins habituels. Perspective sociétale sur 9 mois.
+
+## 📊 Résultats clés
+Le groupe exercice a généré un gain de 0,013 QALY. Coûts du programme: 1696€/patiente (supervision individuelle) ou 609€ (supervision 1:4). Économies totales: 163€ (supervision individuelle) et 1249€ (supervision en groupe). Probabilité de rentabilité: 65% (individuel) et 91% (groupe) au seuil de 20000€/QALY.
+
+## 🩺 Impact clinique
+L'exercice supervisé améliore la qualité de vie des patientes CSm tout en réduisant les coûts, particulièrement en format groupe. Ces données soutiennent le remboursement de tels programmes.
+
+## 📖 Référence
+Schouten AEM, Hiensch AE, Frederix GWJ, et al. J Clin Oncol. 2025 Jan 13:JCO2401441.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO-24-01441.

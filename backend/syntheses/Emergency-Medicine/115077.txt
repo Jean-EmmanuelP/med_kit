@@ -1,0 +1,19 @@
+Date de publication : 2024-11-29
+
+# 📝 TRAITEMENT DES EXACERBATIONS ÉOSINOPHILIQUES D'ASTHME ET DE BPCO PAR BENRALIZUMAB
+
+## 📌 Contexte & Problématique
+L'inflammation éosinophilique est fréquente lors des exacerbations aiguës d'asthme et de BPCO. L'étude ABRA évalue l'efficacité du benralizumab (anticorps anti-récepteur IL-5α) seul ou associé à la prednisolone versus prednisolone seule dans ces exacerbations.
+
+## 🧪 Méthodologie
+Essai randomisé multicentrique de phase 2, double-aveugle, au Royaume-Uni. 158 adultes avec exacerbation d'asthme/BPCO et éosinophiles ≥300/µL répartis en 3 groupes : benralizumab+prednisolone, benralizumab seul, ou prednisolone seule. Critères principaux : échecs thérapeutiques à 90 jours et score symptomatique à J28.
+
+## 📊 Résultats clés
+Échecs thérapeutiques à 90 jours : 45% dans les groupes benralizumab combinés contre 74% avec prednisolone seule (OR 0,26 [IC 95% 0,13-0,56]; p=0,0005). Amélioration du score symptomatique à J28 de 49 mm (IC 95% 14-84; p=0,0065) en faveur du benralizumab. Hyperglycémie et infections sinusales uniquement observées avec la prednisolone.
+
+## 🩺 Impact clinique
+Le benralizumab représente une alternative thérapeutique efficace pour les exacerbations éosinophiliques d'asthme et de BPCO, avec une meilleure efficacité et un profil d'effets indésirables favorable par rapport à la corticothérapie conventionnelle.
+
+## 📖 Référence
+Ramakrishnan S, Russell REK, Mahmood HR, et al. Lancet Respir Med. 2025;13(1):59-68.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S2213-2600(24)00299-6.

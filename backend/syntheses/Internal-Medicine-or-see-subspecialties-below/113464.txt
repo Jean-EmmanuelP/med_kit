@@ -1,0 +1,19 @@
+Date de publication : 2024-08-27
+
+# 📝 Perfusions prolongées vs intermittentes d'antibiotiques β-lactamines dans le sepsis et choc septique
+
+## 📌 Contexte & Problématique
+L'efficacité des perfusions prolongées d'antibiotiques β-lactamines sur la mortalité des patients septiques reste incertaine. Cette méta-analyse évalue leur impact sur les résultats cliniques comparativement aux perfusions intermittentes.
+
+## 🧪 Méthodologie
+Revue systématique de 18 essais randomisés (9108 patients) comparant perfusions prolongées et intermittentes chez des adultes avec sepsis ou choc septique. Analyse bayésienne principale et fréquentiste secondaire. Critère principal : mortalité à 90 jours.
+
+## 📊 Résultats clés
+Les perfusions prolongées sont associées à une réduction significative de la mortalité à 90 jours (RR 0,86; IC 95% 0,72-0,98; certitude élevée), de la mortalité en USI (RR 0,84; IC 95% 0,70-0,97) et à une augmentation de la guérison clinique (RR 1,16; IC 95% 1,07-1,31).
+
+## 🩺 Impact clinique
+Les preuves de haute certitude suggèrent que les perfusions prolongées d'antibiotiques β-lactamines devraient être considérées comme standard de soins dans la prise en charge du sepsis et du choc septique.
+
+## 📖 Référence
+Abdul-Aziz MH, Hammond NE, Brett SJ, et al. JAMA. 2024;332(8):638-648.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jama.2024.9803.

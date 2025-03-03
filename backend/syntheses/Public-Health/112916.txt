@@ -1,0 +1,19 @@
+Date de publication : 2024-03-27
+
+# 📝 Augmentation du dépistage du cancer colorectal par SMS en médecine générale : l'essai SMARTscreen
+
+## 📌 Contexte & Problématique
+En Australie, malgré une forte incidence de cancer colorectal, le Programme national de dépistage (NBCSP) n'atteint que 40,9% de participation. L'approbation par les médecins généralistes est associée à une meilleure adhésion au dépistage.
+
+## 🧪 Méthodologie
+Essai contrôlé randomisé en grappes incluant 21 cabinets de médecine générale australiens. Le groupe intervention a reçu un SMS personnalisé avant réception du kit de dépistage, incluant message du médecin, vidéos motivationnelles et instructions. Le groupe témoin a reçu les soins habituels.
+
+## 📊 Résultats clés
+Participation au dépistage par test immunochimique fécal : 39,2% (1143/2914) dans le groupe intervention contre 23,0% (583/2537) dans le groupe témoin, soit une différence significative de 16,5% (IC 95% = 2,02-30,9).
+
+## 🩺 Impact clinique
+L'envoi de SMS multi-interventionnels par les cabinets médicaux augmente significativement la participation au dépistage du cancer colorectal, justifiant l'extension de cette approche à plus grande échelle.
+
+## 📖 Référence
+McIntosh JG, Jenkins M, Wood A, et al. Br J Gen Pract. 2024;74(741):e275-e282.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.3399/BJGP.2023.0230.

@@ -1,0 +1,19 @@
+Date de publication : 2024-10-25
+
+# 📝 Hémodiafiltration versus hémodialyse dans l'insuffisance rénale : méta-analyse de données individuelles
+
+## 📌 Contexte & Problématique
+L'hémodiafiltration à haute dose a montré une réduction de mortalité par rapport à l'hémodialyse conventionnelle. Cette méta-analyse visait à comparer leurs effets sur la mortalité et à explorer les relations dose-réponse avec le volume de convection.
+
+## 🧪 Méthodologie
+Méta-analyse de données individuelles incluant 5 essais contrôlés randomisés (n=4153 patients) comparant l'hémodiafiltration en ligne à l'hémodialyse. Suivi médian de 30 mois. Analyses en sous-groupes et dose-réponse réalisées.
+
+## 📊 Résultats clés
+Mortalité toutes causes: 23,3% sous hémodiafiltration contre 27,0% sous hémodialyse (HR 0,84 [IC 95% 0,74-0,95]). Relation dose-réponse observée: le risque de mortalité diminuait avec l'augmentation du volume de convection. Aucune différence d'effet entre les sous-groupes.
+
+## 🩺 Impact clinique
+L'hémodiafiltration en ligne réduit significativement la mortalité chez les patients insuffisants rénaux, avec un effet dose-dépendant. Elle peut être considérée comme une alternative supérieure à l'hémodialyse standard.
+
+## 📖 Référence
+Vernooij RWM, Hockham C, Strippoli G, et al. Haemodiafiltration versus haemodialysis for kidney failure: an individual patient data meta-analysis of randomised controlled trials. Lancet. 2024 Oct 25:S0140-6736(24)01859-2.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S0140-6736(24)01859-2.

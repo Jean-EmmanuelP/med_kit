@@ -1,0 +1,19 @@
+Date de publication : 2024-12-17
+
+# 📝 Dépistage systématique des symptômes chez les patients pédiatriques atteints de cancer : un essai clinique randomisé
+
+## 📌 Contexte & Problématique
+Les enfants atteints de cancer présentent fréquemment des symptômes très gênants. L'efficacité d'un dépistage systématique avec parcours de soins dédiés restait à démontrer.
+
+## 🧪 Méthodologie
+Essai randomisé en grappes incluant 445 patients (8-18 ans) nouvellement diagnostiqués d'un cancer dans 20 centres américains. Groupe intervention (n=221) : dépistage des symptômes trois fois/semaine avec alertes à l'équipe soignante et parcours de soins adaptés. Groupe contrôle (n=224) : soins habituels.
+
+## 📊 Résultats clés
+Score SSPedi moyen à 8 semaines significativement meilleur dans le groupe intervention (7,9 vs 11,4; différence ajustée -3,8 [IC95% -6,4 à -1,2]). Réduction significative pour 12/15 symptômes individuels. Pas de différence sur la fatigue ou la qualité de vie. Plus de visites aux urgences dans le groupe intervention (ratio 1,72 [IC95% 1,03-2,87]).
+
+## 🩺 Impact clinique
+Le dépistage systématique des symptômes améliore leur prise en charge globale mais augmente le recours aux urgences. L'intégration dans les soins de routine mérite d'être développée.
+
+## 📖 Référence
+Dupuis LL, Vettese E, Grimes AC, et al. JAMA. 2024;332(23):1981-1991.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jama.2024.19585.

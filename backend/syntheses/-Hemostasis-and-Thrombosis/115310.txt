@@ -1,0 +1,19 @@
+Date de publication : 2024-12-24
+
+# 📝 Anticoagulation chez les patients hospitalisés pour COVID-19 : méta-analyse prospective
+
+## 📌 Contexte & Problématique
+Les résultats des essais sur l'anticoagulation à dose élevée chez les patients COVID-19 hospitalisés sont contradictoires, nécessitant une analyse globale pour guider la pratique clinique.
+
+## 🧪 Méthodologie
+Méta-analyse prospective de 22 essais randomisés comparant différentes doses d'anticoagulation (thérapeutique, intermédiaire, prophylactique) chez des patients hospitalisés pour COVID-19. Critère principal : mortalité à 28 jours.
+
+## 📊 Résultats clés
+L'anticoagulation thérapeutique vs prophylactique a réduit la mortalité à 28 jours (OR 0,77 [IC 95% 0,64-0,93]; 11 essais, 6297 patients). Aucune différence significative entre dose intermédiaire vs prophylactique (OR 0,95 [IC 95% 0,76-1,19]). Les doses plus élevées ont réduit les événements thromboemboliques mais augmenté le risque hémorragique.
+
+## 🩺 Impact clinique
+L'anticoagulation thérapeutique apporte un bénéfice de survie, particulièrement chez les patients avec peu ou pas de besoins en oxygène, malgré un risque hémorragique accru. Le rapport bénéfice-risque doit être évalué individuellement.
+
+## 📖 Référence
+Vale CL, Godolphin PJ, Fisher DJ, et al. Ann Intern Med. 2025 Jan;178(1):59-69.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.7326/ANNALS-24-00800.

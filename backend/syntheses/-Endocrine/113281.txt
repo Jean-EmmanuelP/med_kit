@@ -1,0 +1,19 @@
+Date de publication : 2024-05-24
+
+# 📝 Sémaglutide et maladie rénale chronique dans le diabète de type 2
+
+## 📌 Contexte & Problématique
+Les patients diabétiques de type 2 avec maladie rénale chronique (MRC) présentent un risque élevé d'insuffisance rénale terminale et de mortalité cardiovasculaire. L'efficacité du sémaglutide sur ces complications restait à déterminer.
+
+## 🧪 Méthodologie
+Essai randomisé incluant 3533 patients diabétiques de type 2 avec MRC (DFGe 25-75 ml/min/1,73m² et albuminurie significative). Comparaison sémaglutide 1,0 mg SC hebdomadaire versus placebo. Suivi médian de 3,4 ans.
+
+## 📊 Résultats clés
+Réduction de 24% des événements rénaux majeurs avec sémaglutide (HR 0,76; IC 95% 0,66-0,88; p=0,0003). Diminution de 21% des décès cardiovasculaires (HR 0,71; IC 95% 0,56-0,89). Ralentissement du déclin du DFGe de 1,16 ml/min/1,73m²/an (p<0,001). Réduction de 20% de la mortalité toutes causes (HR 0,80; IC 95% 0,67-0,95; p=0,01).
+
+## 🩺 Impact clinique
+Le sémaglutide offre une protection rénale et cardiovasculaire significative chez les diabétiques de type 2 avec MRC, avec un profil de sécurité favorable (moins d'événements indésirables graves vs placebo: 49,6% vs 53,8%).
+
+## 📖 Référence
+Perkovic V, Tuttle KR, Rossing P, et al. Effects of Semaglutide on Chronic Kidney Disease in Patients with Type 2 Diabetes. N Engl J Med. 2024;391(2):109-121.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2403347.

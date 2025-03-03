@@ -1,0 +1,19 @@
+Date de publication : 2025-02-01
+
+# 📝 APIXABAN VERSUS ASPIRINE DANS LA FIBRILLATION ATRIALE INFRACLINIQUE CHEZ LES PATIENTS AVEC ANTÉCÉDENTS D'AVC/AIT
+
+## 📌 Contexte & Problématique
+La fibrillation atriale infraclinique augmente le risque d'AVC, mais le bénéfice de l'anticoagulation reste débattu. Cette analyse de sous-groupe d'ARTESiA évalue l'efficacité de l'apixaban chez les patients avec antécédents d'AVC/AIT.
+
+## 🧪 Méthodologie
+Essai randomisé contrôlé en double aveugle comparant apixaban 5mg bid versus aspirine 81mg/j chez 4012 adultes ≥55 ans avec fibrillation atriale infraclinique (6min-24h) et CHA₂DS₂-VASc ≥3. Sous-groupe de 346 patients (8,6%) avec antécédents d'AVC/AIT.
+
+## 📊 Résultats clés
+Chez les patients avec antécédents d'AVC/AIT, l'apixaban a réduit le taux annuel d'AVC/embolie systémique (1,20% vs 3,14%; HR 0,40 [0,17-0,95]) avec réduction du risque absolu de 7% à 3,5 ans. Le taux d'hémorragie majeure était de 2,26% vs 1,16% (HR 1,94 [0,77-4,87]), soit une augmentation du risque absolu de 3%.
+
+## 🩺 Impact clinique
+L'apixaban montre un bénéfice clinique net favorable pour la prévention secondaire des AVC chez les patients avec fibrillation atriale infraclinique et antécédents d'AVC/AIT, avec une réduction significative du risque d'événements thromboemboliques malgré une augmentation modérée du risque hémorragique.
+
+## 📖 Référence
+Shoamanesh A, Field TS, Coutts SB, et al. Lancet Neurol. 2025;24(2):140-151.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S1474-4422(24)00475-7.

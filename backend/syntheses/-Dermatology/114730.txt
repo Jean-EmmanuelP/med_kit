@@ -1,0 +1,19 @@
+Date de publication : 2024-10-28
+
+# 📝 Suivi pharmacologique thérapeutique proactif des biologiques dans les maladies inflammatoires chroniques
+
+## 📌 Contexte & Problématique
+Évaluation de l'efficacité et la sécurité du suivi pharmacologique thérapeutique proactif des biologiques chez les patients atteints de maladies inflammatoires chroniques intestinales, d'arthrites inflammatoires et de psoriasis.
+
+## 🧪 Méthodologie
+Méta-analyse de 10 essais randomisés (2383 patients) comparant le suivi proactif versus soins standard. Études identifiées via Medline, Embase, Central et CINAHL jusqu'en mai 2024. Qualité évaluée par GRADE.
+
+## 📊 Résultats clés
+Pour l'infliximab en entretien : augmentation probable du contrôle soutenu/rémission (RR 1,26 [IC 95% 1,14-1,40], soit 146 patients supplémentaires en rémission pour 1000 traités/an). Réduction possible de l'aggravation. Pour l'infliximab en induction et l'adalimumab en entretien : effets incertains sur les critères principaux.
+
+## 🩺 Impact clinique
+Le suivi pharmacologique thérapeutique proactif semble bénéfique uniquement pour l'infliximab en phase d'entretien, avec un impact significatif sur le maintien de la rémission.
+
+## 📖 Référence
+Zeraatkar D, Pitre TS, Kirsh S, et al. BMJ Med. 2024;3(1):e000998.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1136/bmjmed-2024-000998.

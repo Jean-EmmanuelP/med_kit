@@ -1,0 +1,19 @@
+Date de publication : 2024-05-28
+
+# 📝 Lithotripsie extracorporelle et endoscopie dans le traitement de la douleur de la pancréatite chronique
+
+## 📌 Contexte & Problématique
+La décompression endoscopique du canal pancréatique est utilisée pour traiter la douleur dans la pancréatite chronique, mais son efficacité n'avait jamais été validée par un essai contrôlé randomisé.
+
+## 🧪 Méthodologie
+Essai contrôlé randomisé indien (n=106) comparant la lithotripsie extracorporelle par ondes de choc (LEOC) + pancréatographie rétrograde endoscopique (PRE) versus procédures factices chez des patients avec pancréatite chronique calcifiante. Suivi de 24 semaines.
+
+## 📊 Résultats clés
+À 12 semaines, le groupe LEOC/PRE a montré une amélioration modeste de la douleur (différence -0,7 sur EVA; p=0,039), plus de jours sans douleur (+16,2 jours) et moins d'utilisation d'opioïdes (-5,4 jours). Ces bénéfices n'ont pas persisté à 24 semaines. Profil de sécurité comparable entre les groupes.
+
+## 🩺 Impact clinique
+La LEOC associée à la PRE offre un soulagement modeste et temporaire de la douleur chez les patients avec pancréatite chronique calcifiante, sans bénéfice durable à moyen terme.
+
+## 📖 Référence
+Talukdar R, Olesen SS, Unnisa M, et al. Ann Intern Med. 2024;177(6):749-758.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.7326/M24-0210.

@@ -1,0 +1,19 @@
+Date de publication : 2024-04-05
+
+# 📝 Interventions psychologiques pour la dépression et l'anxiété chez les patients cardiaques
+
+## 📌 Contexte & Problématique
+La dépression et l'anxiété touchent environ 40% des patients atteints de maladie coronarienne (MC), d'insuffisance cardiaque (IC) ou de fibrillation auriculaire (FA), impactant négativement leur pronostic. L'efficacité des interventions psychologiques reste incertaine dans ces populations.
+
+## 🧪 Méthodologie
+Revue systématique de 21 ECR (2591 participants) comparant des interventions psychologiques à l'absence d'intervention chez des adultes avec MC (16 études), IC (5 études) ou FA (aucune étude). Suivi minimum de 6 mois. Recherche dans CENTRAL, MEDLINE, Embase, PsycINFO et CINAHL jusqu'en juillet 2022.
+
+## 📊 Résultats clés
+Les interventions psychologiques montrent un effet modéré sur la réduction de la dépression (DMS -0,36; IC 95% -0,65 à -0,06) et de l'anxiété (DMS -0,57; IC 95% -0,96 à -0,18). Amélioration possible de la composante mentale de la qualité de vie (DMS 0,63; IC 95% 0,01 à 1,26). Peu ou pas d'effet sur la mortalité (RR 0,81; IC 95% 0,39 à 1,69) ou les événements cardiovasculaires majeurs.
+
+## 🩺 Impact clinique
+Les interventions psychologiques peuvent être bénéfiques pour réduire la dépression et l'anxiété chez les patients avec MC ou IC, mais n'influencent probablement pas les résultats cliniques cardiovasculaires ou la mortalité. Des recherches sur la FA sont nécessaires.
+
+## 📖 Référence
+Ski CF, Taylor RS, McGuigan K, et al. Cochrane Database Syst Rev. 2024;4(4):CD013508.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1002/14651858.CD013508.pub3.

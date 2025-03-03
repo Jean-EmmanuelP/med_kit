@@ -1,0 +1,22 @@
+Date de publication : 2024-11-21
+
+# 📝 TISLELIZUMAB PÉRIOPÉRATOIRE DANS LE CANCER PULMONAIRE NON À PETITES CELLULES RÉSÉCABLE
+
+## 📌 Contexte & Problématique
+L'étude RATIONALE-315 évalue l'ajout du tislelizumab (anti-PD-1) à la chimiothérapie néoadjuvante standard pour le cancer pulmonaire non à petites cellules (CPNPC) de stade II-IIIA résécable.
+
+## 🧪 Méthodologie
+Essai randomisé de phase 3 en double aveugle mené en Chine (n=453). Patients répartis entre tislelizumab 200mg IV (n=226) ou placebo (n=227) toutes les 3 semaines + chimiothérapie à base de platine, suivis de chirurgie puis traitement adjuvant.
+
+## 📊 Résultats clés
+Après suivi médian de 22 mois, le tislelizumab a significativement amélioré:
+- Survie sans événement: HR=0,56 (IC 95%: 0,40-0,79; p=0,0003)
+- Taux de réponse pathologique majeure: 56% vs 15% (différence: 41%; p<0,0001)
+- Mortalité: 14% vs 20%
+
+## 🩺 Impact clinique
+Le tislelizumab périopératoire associé à la chimiothérapie néoadjuvante démontre une efficacité significativement supérieure avec un profil de sécurité gérable pour les CPNPC résécables de stade II-IIIA.
+
+## 📖 Référence
+Yue D, Wang W, Liu H, et al. Lancet Respir Med. 2025;13(2):119-129.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S2213-2600(24)00269-8.

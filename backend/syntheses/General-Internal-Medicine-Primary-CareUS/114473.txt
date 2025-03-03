@@ -1,0 +1,19 @@
+Date de publication : 2024-12-01
+
+# 📝 INTERVENTION AUTOGUIDÉE POUR RÉDUIRE L'USAGE DES BENZODIAZÉPINES ET AMÉLIORER LE SOMMEIL CHEZ LES PERSONNES ÂGÉES
+
+## 📌 Contexte & Problématique
+Les agonistes des récepteurs aux benzodiazépines (BZRA) utilisés à long terme chez les personnes âgées présentent des risques. Les interventions autoguidées pourraient faciliter la transition vers des thérapies non-médicamenteuses.
+
+## 🧪 Méthodologie
+Essai clinique randomisé (YAWNS NB) comparant deux interventions par courrier (YAWNS-1/Sleepwell et YAWNS-2) au traitement habituel chez 565 adultes ≥65 ans (72,1±5,7 ans) utilisant des BZRA depuis 11,4±9,1 ans.
+
+## 📊 Résultats clés
+YAWNS-1 a obtenu le taux le plus élevé d'arrêt/réduction des BZRA (46,6% vs 34,8% pour YAWNS-2 et 20,3% pour le traitement habituel, p<0,001). YAWNS-1 a également amélioré l'adoption des techniques TCC-I (+3,1 vs +2,4, p=0,03), l'efficacité du sommeil (+4,1% vs -1,7%, p=0,001) et réduit la sévérité de l'insomnie (-2,0 vs +0,3, p<0,001).
+
+## 🩺 Impact clinique
+Cette intervention simple et évolutive réduit significativement l'usage des BZRA tout en améliorant le sommeil, offrant une approche populationnelle pour transformer la prise en charge de l'insomnie chez les personnes âgées.
+
+## 📖 Référence
+Gardner DM, Turner JP, Magalhaes S, et al. Patient Self-Guided Interventions to Reduce Sedative Use and Improve Sleep: The YAWNS NB Randomized Clinical Trial. JAMA Psychiatry. 2024;81(12):1187-1197.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamapsychiatry.2024.2731.

@@ -1,0 +1,19 @@
+Date de publication : 2024-06-04
+
+# 📝 Évérolimus adjuvant dans le cancer du sein HR+/HER2- à haut risque
+
+## 📌 Contexte & Problématique
+L'évérolimus (inhibiteur de mTOR) améliore la survie sans progression dans le cancer du sein métastatique HR+ combiné à l'hormonothérapie. Cette étude évalue son efficacité en adjuvant dans les cancers du sein HR+/HER2- à haut risque.
+
+## 🧪 Méthodologie
+Essai randomisé phase III (1:1) : hormonothérapie + évérolimus (10 mg/j pendant 1 an) versus hormonothérapie + placebo. Critère principal : survie sans maladie invasive (IDFS). 1792 patientes éligibles pour l'analyse.
+
+## 📊 Résultats clés
+Aucun bénéfice global en IDFS (HR=0,94; IC95%:0,77-1,14) ni en survie globale (HR=0,97; IC95%:0,75-1,26). Sous-groupe préménopausé (n=571) : amélioration de l'IDFS (HR=0,64; IC95%:0,44-0,94) et de la survie globale (HR=0,49; IC95%:0,28-0,86). Taux d'achèvement inférieur sous évérolimus (48% vs 73%) avec plus d'effets indésirables grades 3-4 (35% vs 7%).
+
+## 🩺 Impact clinique
+L'évérolimus adjuvant n'améliore pas les résultats globaux mais pourrait bénéficier spécifiquement aux patientes préménopausées après chimiothérapie, suggérant un intérêt ciblé de l'inhibition mTOR dans cette population.
+
+## 📖 Référence
+Chavez-MacGregor M, Miao J, Pusztai L, et al. J Clin Oncol. 2024;42(25):3012-3021.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO.23.02344.

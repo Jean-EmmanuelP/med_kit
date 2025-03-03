@@ -1,0 +1,19 @@
+Date de publication : 2025-01-02
+
+# 📝 Vaccin maternel RSVpreF contre le VRS : efficacité et sécurité dans l'essai MATISSE
+
+## 📌 Contexte & Problématique
+Évaluation finale de l'efficacité, l'immunogénicité et la sécurité du vaccin RSVpreF contre le virus respiratoire syncytial administré pendant la grossesse pour protéger les nourrissons.
+
+## 🧪 Méthodologie
+Essai de phase 3 randomisé, double aveugle, contrôlé par placebo. 7 420 femmes enceintes (24-36 semaines de gestation) ont reçu une dose unique de RSVpreF 120μg ou placebo. Suivi des infections respiratoires basses sévères chez 7 307 nourrissons pendant 180 jours.
+
+## 📊 Résultats clés
+Efficacité vaccinale de 82,4% (IC 95%, 57,5-93,9) à 90 jours et 70,0% (IC 95%, 50,6-82,5) à 180 jours contre les infections respiratoires basses sévères. Réponse immunitaire robuste chez les mères avec transfert efficace d'anticorps aux nouveau-nés, indépendamment de l'âge gestationnel et autres facteurs.
+
+## 🩺 Impact clinique
+Profil de sécurité favorable pour mères et nourrissons. Protection significative contre les infections VRS sévères jusqu'à 6 mois, confirmant l'intérêt de la vaccination maternelle pour réduire la morbidité infantile liée au VRS.
+
+## 📖 Référence
+Simoes EAF, Pahud BA, Madhi SA, et al. Obstet Gynecol. 2025;145(2):157-167.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1097/AOG.0000000000005816.

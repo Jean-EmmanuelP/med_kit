@@ -1,0 +1,19 @@
+Date de publication : 2025-01-06
+
+# 📝 Échelle mobile d'auto-évaluation cognitive pour le dépistage des troubles cognitifs liés à la maladie d'Alzheimer
+
+## 📌 Contexte & Problématique
+Absence d'outils de dépistage communautaire validés pour les troubles cognitifs, particulièrement chez les personnes peu éduquées. Développement d'une échelle numérique (CogSAS) pour dépister le trouble cognitif léger (TCL) et la maladie d'Alzheimer (MA).
+
+## 🧪 Méthodologie
+Conception par méthode Delphi. Phase 1 : optimisation sur 518 participants avec diagnostic clinique. Phase 2 : validation sur 754 participants (358 normaux, 396 avec TCL/démence). Phase 3 : test sur 83 participants avec diagnostic biologique (ATN).
+
+## 📊 Résultats clés
+Échelle à trois tâches évaluant mémoire et fonctions exécutives. Cohérence interne : 0,81. Fiabilité test-retest : 0,82. Pour diagnostic clinique : sensibilité 0,90, spécificité 0,67. Pour diagnostic biologique : sensibilité 1,00, spécificité 0,78.
+
+## 🩺 Impact clinique
+Outil fiable et valide pour le dépistage communautaire des troubles cognitifs, particulièrement efficace pour identifier les cas de TCL et démence dus à la MA confirmés biologiquement.
+
+## 📖 Référence
+Xie K, Huang J, Chen T, et al. Age Ageing. 2025;54(1):afae293.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1093/ageing/afae293.

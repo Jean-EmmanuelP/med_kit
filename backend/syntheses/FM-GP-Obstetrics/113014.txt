@@ -1,0 +1,19 @@
+Date de publication : 2024-04-24
+
+# 📝 EXPOSITION PRÉNATALE AUX OPIOÏDES ET RISQUE DE TROUBLES NEUROPSYCHIATRIQUES CHEZ L'ENFANT
+
+## 📌 Contexte & Problématique
+Étude visant à déterminer l'association entre l'exposition prénatale aux opioïdes et le développement de troubles neuropsychiatriques chez les enfants en Corée du Sud.
+
+## 🧪 Méthodologie
+Étude de cohorte nationale incluant 3 128 571 nourrissons (2 912 559 non exposés, 216 012 exposés aux opioïdes en prénatal) suivis de la naissance jusqu'à fin 2020. Analyse par appariement par score de propension et comparaison de fratries.
+
+## 📊 Résultats clés
+Risque modestement augmenté dans la cohorte appariée (HR=1,07 [IC 95% : 1,05-1,10]), mais non significatif dans la comparaison de fratries (HR=1,00 [0,93-1,07]). Risque plus élevé avec exposition au premier trimestre (HR=1,11), doses élevées (HR=1,15) et utilisation prolongée ≥60 jours (HR=1,95).
+
+## 🩺 Impact clinique
+L'utilisation d'opioïdes pendant la grossesse n'est pas associée à une augmentation cliniquement significative du risque de troubles neuropsychiatriques chez l'enfant. La prudence reste indiquée pour les doses élevées et les expositions prolongées.
+
+## 📖 Référence
+Kang J, Kim HJ, Kim T, et al. BMJ. 2024;385:e077664.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1136/bmj-2023-077664.

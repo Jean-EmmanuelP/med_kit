@@ -1,0 +1,23 @@
+Date de publication : 2025-02-01
+
+# 📝 Lignes directrices pour la prévention et le traitement de la réactivation du VHB chez les patients à risque
+
+## 📌 Contexte & Problématique
+La réactivation du virus de l'hépatite B (VHBr) peut survenir lors d'expositions immunomodulatrices. Cette mise à jour des recommandations vise à guider les cliniciens dans la prise en charge des patients à risque, en précisant quand utiliser la prophylaxie antivirale ou la surveillance seule.
+
+## 🧪 Méthodologie
+Utilisation du cadre GRADE pour évaluer les preuves. Revue systématique des études publiées depuis 2014. Les recommandations ont été élaborées selon le cadre "Evidence to Decision", tenant compte des bénéfices, risques, valeurs des patients et coûts.
+
+## 📊 Résultats clés
+Quatre recommandations principales : 
+- Prophylaxie antivirale fortement recommandée pour les patients à haut risque
+- Prophylaxie antivirale conditionnellement recommandée pour les risques modérés
+- Surveillance seule conditionnellement recommandée pour les risques faibles
+- Dépistage universel du VHB fortement recommandé (AgHBs, Ac anti-HBs, Ac anti-HBc totaux)
+
+## 🩺 Impact clinique
+La surveillance doit être effectuée tous les 1-3 mois avec évaluation de la charge virale et de l'ALAT. Le dépistage universel du VHB est maintenant recommandé pour tous les adultes ≥18 ans.
+
+## 📖 Référence
+Ali FS, Nguyen MH, Hernaez R, et al. AGA Clinical Practice Guideline on the Prevention and Treatment of Hepatitis B Virus Reactivation in At-Risk Individuals. Gastroenterology. 2025;168(2):267-284.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1053/j.gastro.2024.11.008.

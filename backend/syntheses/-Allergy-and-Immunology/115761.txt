@@ -1,0 +1,19 @@
+Date de publication : 2025-02-10
+
+# 📝 Sécurité des inhibiteurs de JAK dans les maladies inflammatoires à médiation immunitaire : revue systématique 2024
+
+## 📌 Contexte & Problématique
+Revue systématique évaluant la sécurité des inhibiteurs de Janus kinase (JAKi) dans les maladies inflammatoires à médiation immunitaire (IMID) pour actualiser le consensus d'experts 2024.
+
+## 🧪 Méthodologie
+Mise à jour de la revue de 2019 via MEDLINE, Embase et Cochrane. Inclusion d'essais randomisés, études d'extension à long terme, analyses groupées et études observationnelles sur tous les JAKi étudiés dans les IMID.
+
+## 📊 Résultats clés
+Sur 13 905 références examinées, 209 ont été retenues, comprenant 3 essais de sécurité, 83 ECR, 56 analyses intégrées et 37 études en vie réelle. Les profils de sécurité sont généralement cohérents entre molécules, avec des variations selon les caractéristiques des patients, posologies et traitements concomitants.
+
+## 🩺 Impact clinique
+Les données permettent une utilisation optimisée des JAKi en pratique clinique, via une évaluation individualisée du rapport bénéfice-risque pour chaque patient atteint d'IMID.
+
+## 📖 Référence
+Konzett V, Smolen JS, Nash P, et al. Ann Rheum Dis. 2025 Feb 10:S0003-4967(25)00080-9.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.ard.2025.01.024.

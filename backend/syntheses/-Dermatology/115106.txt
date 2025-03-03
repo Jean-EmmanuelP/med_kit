@@ -1,0 +1,19 @@
+Date de publication : 2024-11-08
+
+# 📝 AMLITÉLIMAB DANS LA DERMATITE ATOPIQUE MODÉRÉE À SÉVÈRE : EFFICACITÉ ET DURABILITÉ DE L'EFFET
+
+## 📌 Contexte & Problématique
+L'amlitélimab, anticorps monoclonal ciblant le ligand OX40, pourrait inhiber l'inflammation médiée par les lymphocytes T dans la dermatite atopique (DA) modérée à sévère.
+
+## 🧪 Méthodologie
+Essai de phase 2b randomisé en double aveugle incluant 390 patients. Quatre dosages d'amlitélimab SC (62,5-250mg ±dose de charge) versus placebo pendant 24 semaines, puis réallocation 3:1 (arrêt/poursuite) pendant 28 semaines supplémentaires pour les répondeurs.
+
+## 📊 Résultats clés
+Réduction significative de l'EASI versus placebo à S16 (p<0,001). Les réponses cliniques (IGA 0/1 et/ou EASI-75) à S24 ont persisté jusqu'à S52, même chez les patients ayant arrêté le traitement. 80% des répondeurs maintenaient leur amélioration malgré des taux sériques <4µg/mL plusieurs semaines avant S52.
+
+## 🩺 Impact clinique
+L'amlitélimab démontre un effet thérapeutique durable après arrêt du traitement et un bon profil de tolérance sur 52 semaines, suggérant un mécanisme d'action distinct des autres biothérapies dans la DA.
+
+## 📖 Référence
+Weidinger S, Blauvelt A, Papp KA, et al. J Allergy Clin Immunol. 2024 Nov 8:S0091-6749(24)01175-8.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.jaci.2024.10.031.

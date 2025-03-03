@@ -1,0 +1,19 @@
+Date de publication : 2024-08-01
+
+# 📝 Incidence du diabète après infection SARS-CoV-2 : impact de la vaccination COVID-19
+
+## 📌 Contexte & Problématique
+L'association entre COVID-19 et développement du diabète reste incertaine, particulièrement concernant l'effet de la vaccination et les différents sous-types de diabète.
+
+## 🧪 Méthodologie
+Étude de cohorte rétrospective sur 16 millions d'adultes anglais, analysant l'incidence du diabète jusqu'à 102 semaines après diagnostic de COVID-19, stratifiée par statut vaccinal et gravité de l'infection.
+
+## 📊 Résultats clés
+Risque accru de diabète de type 2 post-COVID-19 : aHR=4,30 (IC95% 4,06-4,55) aux semaines 1-4, persistant à 1,24 (1,14-1,35) aux semaines 53-102. Risque significativement plus élevé chez les non-vaccinés (aHR=8,76) que chez les vaccinés (aHR=1,66) et chez les patients hospitalisés (aHR=28,3) versus non-hospitalisés (aHR=1,95). Environ 60% des diabètes diagnostiqués persistent 4 mois après l'infection.
+
+## 🩺 Impact clinique
+Nécessité d'un dépistage systématique du diabète après COVID-19 sévère. La vaccination apparaît comme facteur protecteur significatif contre le risque de diabète post-COVID.
+
+## 📖 Référence
+Taylor K, Eastwood S, Walker V, et al. Lancet Diabetes Endocrinol. 2024;12(8):558-568.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S2213-8587(24)00159-1.

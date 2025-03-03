@@ -1,0 +1,23 @@
+Date de publication : 2024-07-24
+
+# 📝 NÉMOLIZUMAB DANS LA DERMATITE ATOPIQUE MODÉRÉE À SÉVÈRE : RÉSULTATS DES ESSAIS ARCADIA 1 ET 2
+
+## 📌 Contexte & Problématique
+Le némolizumab, antagoniste du récepteur IL-31, cible le prurit et l'inflammation dans la dermatite atopique. Les essais ARCADIA ont évalué son efficacité en association avec des traitements topiques chez des patients avec réponse inadéquate aux corticoïdes topiques.
+
+## 🧪 Méthodologie
+Deux essais de phase 3 identiques, randomisés, en double aveugle, incluant 1728 patients (≥12 ans) dans 22 pays. Némolizumab 30 mg SC (dose de charge 60 mg) ou placebo toutes les 4 semaines pendant 16 semaines, avec traitement topique concomitant. Critères principaux : succès EGI et réponse EASI-75.
+
+## 📊 Résultats clés
+À 16 semaines, le némolizumab a significativement surpassé le placebo pour :
+- Succès EGI : 36% vs 25% (ARCADIA 1) et 38% vs 26% (ARCADIA 2)
+- Réponse EASI-75 : 44% vs 29% (ARCADIA 1) et 42% vs 30% (ARCADIA 2)
+- Amélioration du prurit dès la semaine 1
+- Profil de sécurité comparable au placebo
+
+## 🩺 Impact clinique
+Le némolizumab associé aux traitements topiques offre une amélioration significative de l'inflammation cutanée et du prurit chez les patients atteints de dermatite atopique modérée à sévère, avec un soulagement rapide des symptômes.
+
+## 📖 Référence
+Silverberg JI, Wollenberg A, Reich A, et al. Lancet. 2024;404(10451):445-460.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S0140-6736(24)01203-0.

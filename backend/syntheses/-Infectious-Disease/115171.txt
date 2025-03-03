@@ -1,0 +1,19 @@
+Date de publication : 2024-11-25
+
+# 📝 SÉCURITÉ ET IMMUNOGÉNICITÉ DU VACCIN VRS ARNm-1345 CO-ADMINISTRÉ AVEC UN VACCIN GRIPPAL OU COVID-19
+
+## 📌 Contexte & Problématique
+La co-administration du vaccin VRS mRNA-1345 avec des vaccins contre la grippe ou le SARS-CoV-2 pourrait optimiser la couverture vaccinale chez les adultes âgés à risque de maladies respiratoires graves.
+
+## 🧪 Méthodologie
+Essai randomisé de phase 3 en deux parties chez des adultes ≥50 ans aux États-Unis. Partie A : co-administration mRNA-1345/vaccin grippal (SIIV4). Partie B : co-administration mRNA-1345/vaccin COVID-19 (mRNA-1273.214). Évaluation de la sécurité et de l'immunogénicité (non-infériorité).
+
+## 📊 Résultats clés
+Profils de réactogénicité similaires entre vaccins co-administrés et administrés seuls. Aucun événement indésirable grave lié aux vaccinations. Immunogénicité : GMR VRS-A de 0,81 (IC95% 0,67-0,97) pour mRNA-1345+SIIV4 vs mRNA-1345 seul, et 0,80 (IC95% 0,70-0,90) pour mRNA-1345+mRNA-1273.214 vs mRNA-1345 seul.
+
+## 🩺 Impact clinique
+La co-administration du vaccin VRS mRNA-1345 avec un vaccin grippal ou COVID-19 présente un profil de sécurité acceptable avec une immunogénicité généralement préservée, facilitant la mise en œuvre de stratégies vaccinales multiples chez les adultes âgés.
+
+## 📖 Référence
+Goswami J, Cardona JF, Hsu DC, et al. Lancet Infect Dis. 2024 Nov 25:S1473-3099(24)00589-9.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S1473-3099(24)00589-9.

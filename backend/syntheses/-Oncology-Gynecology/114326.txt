@@ -1,0 +1,19 @@
+Date de publication : 2024-09-14
+
+# 📝 Pembrolizumab avec chimioradiothérapie dans le cancer du col utérin localement avancé : résultats de survie globale
+
+## 📌 Contexte & Problématique
+L'étude ENGOT-cx11/GOG-3047/KEYNOTE-A18 avait précédemment démontré une amélioration de la survie sans progression avec l'ajout du pembrolizumab à la chimioradiothérapie chez les patientes atteintes d'un cancer du col utérin localement avancé. Cette analyse présente les résultats de survie globale.
+
+## 🧪 Méthodologie
+Essai randomisé de phase 3 incluant 1060 patientes avec cancer du col utérin à haut risque, nouvellement diagnostiqué. Randomisation 1:1 : pembrolizumab (n=529) ou placebo (n=531) avec chimioradiothérapie, puis traitement d'entretien. Suivi médian : 29,9 mois.
+
+## 📊 Résultats clés
+Survie globale à 36 mois : 82,6% (groupe pembrolizumab) vs 74,8% (groupe placebo). Hazard ratio pour le décès : 0,67 (IC 95% 0,50-0,90; p=0,0040). Événements indésirables de grade ≥3 : 78% vs 70%. Événements à médiation immunitaire : 39% vs 17%.
+
+## 🩺 Impact clinique
+L'ajout du pembrolizumab à la chimioradiothérapie améliore significativement la survie globale, établissant cette immuno-chimioradiothérapie comme nouveau standard de soins pour le cancer du col utérin localement avancé.
+
+## 📖 Référence
+Lorusso D, Xiang Y, Hasegawa K, et al. Lancet. 2024;404(10460):1321-1332.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S0140-6736(24)01808-7.

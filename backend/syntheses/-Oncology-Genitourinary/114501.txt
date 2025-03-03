@@ -1,0 +1,19 @@
+Date de publication : 2024-09-20
+
+# 📝 RÉCUPÉRATION DE LA TESTOSTÉRONE APRÈS SUPPRESSION ANDROGÉNIQUE ET RADIOTHÉRAPIE PROSTATIQUE
+
+## 📌 Contexte & Problématique
+La récupération de la testostérone (RT) après suppression androgénique (TSA) varie considérablement chez les patients traités pour cancer de la prostate. Cette étude évalue la cinétique de RT et l'impact de la période de castration efficace.
+
+## 🧪 Méthodologie
+Analyse poolée de données individuelles de 1444 patients issus de 5 essais randomisés du consortium MARCAP. Évaluation des délais de RT non-castrate (>1,7 nmol/l) et non-hypogonadique (>8,0 nmol/l) selon différentes durées de TSA.
+
+## 📊 Résultats clés
+Les délais de RT varient significativement selon la durée du TSA. Une testostérone de base élevée et un âge moins avancé favorisent la RT (p<0,001). La période de castration efficace optimale pour la survie sans métastase est de 10,6 mois pour les patients sous TSA de 6 mois et de 18 mois pour ceux sous TSA de 18 mois.
+
+## 🩺 Impact clinique
+La relation non linéaire entre période de castration efficace et survie sans métastase suggère qu'une période plus longue bénéficie aux patients recevant 6 mois de TSA.
+
+## 📖 Référence
+Ong WL, Romero T, Roy S, et al. Eur Urol. 2025;87(1):49-57.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.eururo.2024.09.009.

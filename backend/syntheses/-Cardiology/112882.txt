@@ -1,0 +1,19 @@
+Date de publication : 2024-04-07
+
+# 📝 Bêta-bloquants après infarctus du myocarde avec fraction d'éjection préservée
+
+## 📌 Contexte & Problématique
+Les bénéfices des bêta-bloquants post-infarctus ont été démontrés avant l'ère des techniques modernes de diagnostic, des interventions coronariennes percutanées et des thérapies médicamenteuses actuelles. Leur utilité chez les patients avec fraction d'éjection préservée reste incertaine.
+
+## 🧪 Méthodologie
+Essai clinique ouvert multicentrique (Suède, Estonie, Nouvelle-Zélande) randomisant 5020 patients post-infarctus avec fraction d'éjection ≥50% en deux groupes : traitement par bêta-bloquant (métoprolol/bisoprolol) versus absence de bêta-bloquant. Critère principal : décès toutes causes ou nouvel infarctus.
+
+## 📊 Résultats clés
+Après suivi médian de 3,5 ans, le critère principal est survenu chez 7,9% des patients sous bêta-bloquant contre 8,3% sans (HR 0,96; IC95% 0,79-1,16; p=0,64). Aucune différence significative pour les critères secondaires (mortalité, infarctus, hospitalisations pour fibrillation auriculaire ou insuffisance cardiaque) ni pour les événements indésirables.
+
+## 🩺 Impact clinique
+Chez les patients post-infarctus avec fraction d'éjection préservée ayant bénéficié d'une coronarographie précoce, les bêta-bloquants n'apportent pas de bénéfice clinique significatif, remettant en question leur prescription systématique dans cette population.
+
+## 📖 Référence
+Yndigegn T, Lindahl B, Mars K, et al. Beta-Blockers after Myocardial Infarction and Preserved Ejection Fraction. N Engl J Med. 2024;390(15):1372-1381.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2401479.

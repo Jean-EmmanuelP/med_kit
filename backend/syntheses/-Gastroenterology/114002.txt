@@ -1,0 +1,19 @@
+Date de publication : 2024-07-03
+
+# 📝 Zastaprazan versus ésoméprazole dans l'œsophagite érosive : étude randomisée de phase 3
+
+## 📌 Contexte & Problématique
+Le zastaprazan, nouvel inhibiteur acide compétitif du potassium, a été évalué face à l'ésoméprazole dans le traitement de l'œsophagite érosive (OE).
+
+## 🧪 Méthodologie
+Étude multicentrique randomisée en double aveugle incluant 300 patients avec OE confirmée. Comparaison: zastaprazan 20 mg versus ésoméprazole 40 mg quotidiennement pendant 8 semaines. Critère principal: taux de guérison endoscopique à 8 semaines.
+
+## 📊 Résultats clés
+Taux de guérison à 8 semaines: 97,92% (zastaprazan) contre 94,93% (ésoméprazole), p=0,178. À 4 semaines: 95,14% contre 87,68% (p=0,026), avantage significatif pour le zastaprazan. Profils de sécurité comparables. Augmentation des taux sériques de gastrine dans les deux groupes (p=0,047).
+
+## 🩺 Impact clinique
+Le zastaprazan 20 mg est non-inférieur à l'ésoméprazole 40 mg dans l'OE de faible grade, avec une cicatrisation potentiellement plus rapide à 4 semaines.
+
+## 📖 Référence
+Oh JH, Kim HS, Cheung DY, et al. Am J Gastroenterol. 2025;120(2):353-361.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.14309/ajg.0000000000002929.

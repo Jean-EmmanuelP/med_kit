@@ -1,0 +1,19 @@
+Date de publication : 2024-08-31
+
+# 📝 ICP chez les patients subissant un TAVI : résultats de l'étude NOTION-3
+
+## 📌 Contexte & Problématique
+Le bénéfice de l'intervention coronarienne percutanée (ICP) chez les patients avec coronaropathie stable et sténose aortique sévère candidats à un TAVI reste incertain.
+
+## 🧪 Méthodologie
+Essai randomisé international (n=455) comparant l'ICP (n=227) au traitement conservateur (n=228) chez des patients avec sténose aortique sévère symptomatique et au moins une sténose coronaire significative (FFR≤0,80 ou sténose ≥90%), tous bénéficiant d'un TAVI. Suivi médian de 2 ans.
+
+## 📊 Résultats clés
+Le critère composite principal (décès toutes causes, infarctus, revascularisation urgente) est survenu chez 26% des patients du groupe ICP contre 36% dans le groupe conservateur (HR=0,71; IC95%:0,51-0,99; p=0,04). Les événements hémorragiques étaient plus fréquents dans le groupe ICP (28% vs 20%; HR=1,51; IC95%:1,03-2,22).
+
+## 🩺 Impact clinique
+L'ICP réduit significativement le risque d'événements cardiaques majeurs chez les patients coronariens bénéficiant d'un TAVI, mais au prix d'un risque hémorragique accru, nécessitant une évaluation individualisée du rapport bénéfice-risque.
+
+## 📖 Référence
+Lonborg J, Jabbari R, Sabbah M, et al. PCI in Patients Undergoing Transcatheter Aortic-Valve Implantation. N Engl J Med. 2024;391(23):2189-2200.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2401513.

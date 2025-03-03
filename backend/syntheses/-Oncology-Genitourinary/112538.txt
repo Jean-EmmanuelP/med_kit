@@ -1,0 +1,21 @@
+Date de publication : 2024-03-07
+
+# 📝 Enfortumab Védotine-Pembrolizumab vs Chimiothérapie dans le Cancer Urothélial Avancé Non Traité
+
+## 📌 Contexte & Problématique
+Aucun traitement n'a démontré de supériorité par rapport à la chimiothérapie à base de platine pour la survie globale dans le carcinome urothélial localement avancé ou métastatique non prétraité.
+
+## 🧪 Méthodologie
+Essai randomisé de phase 3 (n=886) comparant l'enfortumab védotine (1,25 mg/kg IV J1, J8) plus pembrolizumab (200 mg IV J1) versus chimiothérapie à base de platine (gemcitabine + cisplatine/carboplatine). Critères principaux : survie sans progression et survie globale.
+
+## 📊 Résultats clés
+Survie sans progression médiane : 12,5 mois vs 6,3 mois (HR=0,45; IC 95%, 0,38-0,54; p<0,001).
+Survie globale médiane : 31,5 mois vs 16,1 mois (HR=0,47; IC 95%, 0,38-0,58; p<0,001).
+Événements indésirables grade ≥3 : 55,9% vs 69,5%.
+
+## 🩺 Impact clinique
+L'association enfortumab védotine-pembrolizumab représente une option thérapeutique supérieure à la chimiothérapie conventionnelle, avec une efficacité significativement améliorée et un profil de tolérance favorable pour les patients atteints de carcinome urothélial avancé non traité.
+
+## 📖 Référence
+Powles T, Valderrama BP, Gupta S, et al. Enfortumab Vedotin and Pembrolizumab in Untreated Advanced Urothelial Cancer. N Engl J Med. 2024;390(10):875-888.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2312117.

@@ -1,0 +1,19 @@
+Date de publication : 2024-02-28
+
+# 📝 Traitement du cancer du poumon non à petites cellules de stade IV avec altérations oncogéniques : mise à jour des recommandations ASCO 2023
+
+## 📌 Contexte & Problématique
+Actualisation des recommandations pour le traitement du cancer du poumon non à petites cellules (CPNPC) de stade IV avec altérations oncogéniques, dans le cadre des directives évolutives de l'ASCO.
+
+## 🧪 Méthodologie
+Revue systématique continue d'essais cliniques randomisés (février-octobre 2023). Évaluation par un comité multidisciplinaire d'experts (oncologues, pneumologues, méthodologistes, représentants de patients). Critères d'évaluation : efficacité et sécurité des traitements.
+
+## 📊 Résultats clés
+Huit nouveaux essais cliniques randomisés identifiés et intégrés. Consolidation de toutes les mises à jour précédentes en un document unique.
+
+## 🩺 Impact clinique
+Recommandations actualisées pour les traitements de première, deuxième et lignes ultérieures selon les altérations oncogéniques ciblables. Guide thérapeutique personnalisé basé sur les profils moléculaires des tumeurs.
+
+## 📖 Référence
+Jaiyesimi IA, Leighl NB, Ismaila N, et al. Therapy for Stage IV Non-Small Cell Lung Cancer With Driver Alterations: ASCO Living Guideline, Version 2023.3. J Clin Oncol. 2024;42(11):e1-e22.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO.23.02744.

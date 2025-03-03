@@ -1,0 +1,19 @@
+Date de publication : 2024-09-26
+
+# 📝 Traitement préventif intermittent du paludisme chez les femmes enceintes séropositives
+
+## 📌 Contexte & Problématique
+Les femmes enceintes séropositives constituent une population vulnérable face au paludisme en Afrique subsaharienne. La prophylaxie au cotrimoxazole, recommandée pour prévenir les infections opportunistes liées au VIH, est incompatible avec la sulfadoxine-pyriméthamine habituellement utilisée pour la prévention du paludisme gestationnel.
+
+## 🧪 Méthodologie
+Revue systématique de 14 essais contrôlés randomisés (4976 femmes enceintes séropositives) comparant différents schémas prophylactiques. Les auteurs ont évalué l'efficacité et la sécurité de médicaments antipaludiques (méfloquine, dihydroartémisinine/pipéraquine, sulfadoxine-pyriméthamine, azithromycine) associés ou non au cotrimoxazole.
+
+## 📊 Résultats clés
+L'association cotrimoxazole+antipaludique (méfloquine ou dihydroartémisinine/pipéraquine) réduit probablement la parasitémie maternelle périphérique à l'accouchement (RR 0,62; IC 95% 0,41-0,95) et le paludisme placentaire (RR 0,54; IC 95% 0,31-0,93). Aucune différence significative n'a été observée pour l'anémie maternelle, le faible poids de naissance, les pertes fœtales ou la mortalité néonatale.
+
+## 🩺 Impact clinique
+Ces résultats suggèrent un bénéfice parasitologique de l'ajout d'un antipaludique au cotrimoxazole chez les femmes enceintes séropositives, sans amélioration significative des issues cliniques maternelles et néonatales.
+
+## 📖 Référence
+Pons-Duran C, Wassenaar MJ, Yovo KE, et al. Intermittent preventive treatment regimens for malaria in HIV-positive pregnant women. Cochrane Database Syst Rev. 2024;9(9):CD006689.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1002/14651858.CD006689.pub3.

@@ -1,0 +1,24 @@
+Date de publication : 2025-01-22
+
+# 📝 Mise à jour des recommandations ASCO sur la chimiothérapie néoadjuvante dans le cancer ovarien avancé
+
+## 📌 Contexte & Problématique
+Actualisation des recommandations concernant la chimiothérapie néoadjuvante (CTNA) versus chirurgie cytoréductive primaire (CCP) pour les patientes atteintes de cancer épithélial ovarien (CEO) de stade III-IV.
+
+## 🧪 Méthodologie
+Revue systématique actualisée par un panel multidisciplinaire d'experts, basée sur 61 études.
+
+## 📊 Résultats clés
+- CCP recommandée si forte probabilité de cytoréduction complète
+- CTNA recommandée si faible probabilité de cytoréduction complète ou risque périopératoire élevé
+- Confirmation histologique obligatoire avant CTNA
+- Doublet platine-taxane recommandé pour la CTNA
+- Chirurgie d'intervalle après ≤4 cycles de CTNA si réponse ou stabilité
+- Chimiothérapie intrapéritonéale hyperthermique envisageable au stade III
+
+## 🩺 Impact clinique
+Stratification du traitement selon le profil chirurgical et le risque périopératoire. Importance des tests génétiques germinaux et somatiques au diagnostic pour guider les traitements d'entretien.
+
+## 📖 Référence
+Gaillard S, Lacchetti C, Armstrong DK, et al. Neoadjuvant Chemotherapy for Newly Diagnosed, Advanced Ovarian Cancer: ASCO Guideline Update. J Clin Oncol. 2025;JCO2402589.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO-24-02589.

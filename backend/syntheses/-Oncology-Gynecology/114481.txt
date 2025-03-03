@@ -1,0 +1,19 @@
+Date de publication : 2024-09-23
+
+# 📝 Interventions chirurgicales conservatrices de la fertilité pour la néoplasie trophoblastique gestationnelle non métastatique à faible risque
+
+## 📌 Contexte & Problématique
+La néoplasie trophoblastique gestationnelle non métastatique à faible risque (NTG-NM-FR) est habituellement traitée par chimiothérapie. Les interventions chirurgicales conservatrices de la fertilité pourraient réduire les effets indésirables et le nombre de cycles de chimiothérapie nécessaires.
+
+## 🧪 Méthodologie
+Revue systématique Cochrane incluant deux ECR (151 participantes) comparant le curetage utérin (avec ou sans chimiothérapie adjuvante) à la chimiothérapie primaire seule.
+
+## 📊 Résultats clés
+Les preuves sont très incertaines concernant l'efficacité du curetage utérin. Dans un ECR (89 participantes avec hCG <5000 UI/L), le taux de succès du traitement était similaire (RR 1,03; IC 95% 0,86-1,23) entre curetage+chimiothérapie adjuvante et chimiothérapie seule. Dans l'autre ECR, 50% des patientes du groupe curetage ont nécessité une chimiothérapie ultérieure.
+
+## 🩺 Impact clinique
+Les données actuelles sont insuffisantes pour recommander le curetage utérin comme alternative à la chimiothérapie. Des ECR plus importants sont nécessaires pour déterminer les bénéfices réels des interventions chirurgicales conservatrices dans cette population.
+
+## 📖 Référence
+Boonyapipat S, Nanthamongkolkul K, Saeaib N, et al. Cochrane Database Syst Rev. 2024;9(9):CD014755.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1002/14651858.CD014755.pub2.

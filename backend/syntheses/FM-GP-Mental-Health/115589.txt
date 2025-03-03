@@ -1,0 +1,19 @@
+Date de publication : 2025-01-02
+
+# 📝 RÉDUCTION DE LA STIGMATISATION EN SANTÉ MENTALE CHEZ LES JEUNES : MÉTA-ANALYSE DES INTERVENTIONS
+
+## 📌 Contexte & Problématique
+La stigmatisation constitue un obstacle majeur à la recherche d'aide en santé mentale chez les jeunes. Cette revue systématique évalue l'efficacité des interventions visant à réduire cette stigmatisation.
+
+## 🧪 Méthodologie
+Méta-analyse de 97 ECR (43 852 participants, âge moyen 18,7 ans, 59,2% de femmes) identifiés dans cinq bases de données jusqu'en février 2024. Analyse multivariée à trois niveaux avec calcul des différences moyennes standardisées (DMS).
+
+## 📊 Résultats clés
+Effets positifs significatifs à court terme sur les connaissances (DMS=0,66), attitudes (DMS=0,38), comportements (DMS=0,29) et stigmatisation générale (DMS=0,20). Amélioration des attitudes (DMS=0,18) et intentions (DMS=0,14) de recherche d'aide. Les interventions de contact social surpassent les approches éducatives pour modifier les comportements.
+
+## 🩺 Impact clinique
+Les interventions anti-stigmatisation montrent une efficacité à court terme chez les jeunes. Des études supplémentaires avec suivi prolongé sont nécessaires pour évaluer les effets durables et optimiser ces interventions.
+
+## 📖 Référence
+Crockett MA, Nunez D, Martinez P, et al. Interventions to Reduce Mental Health Stigma in Young People: A Systematic Review and Meta-Analysis. JAMA Netw Open. 2025;8(1):e2454730.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamanetworkopen.2024.54730.

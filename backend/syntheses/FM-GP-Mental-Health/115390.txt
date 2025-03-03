@@ -1,0 +1,19 @@
+Date de publication : 2025-01-02
+
+# 📝 Médicaments glutamatergiques dans les troubles obsessionnels-compulsifs : méta-analyse
+
+## 📌 Contexte & Problématique
+Les troubles obsessionnels-compulsifs et apparentés (TOCA) provoquent une détresse significative. Environ 60% des patients ne répondent pas adéquatement aux traitements standards, nécessitant de nouvelles approches thérapeutiques.
+
+## 🧪 Méthodologie
+Méta-analyse de 27 essais cliniques randomisés (1369 participants) comparant des médicaments glutamatergiques au placebo. Recherche systématique dans 5 bases de données jusqu'en octobre 2024. Critère principal : amélioration des symptômes mesurée par différence moyenne standardisée.
+
+## 📊 Résultats clés
+Les médicaments glutamatergiques ont montré une taille d'effet importante (d de Cohen = -0,80 [IC 95%, -1,13 à -0,47]) pour les TOCA. Pour le TOC spécifiquement (23 ECR), réduction moyenne significative des scores Y-BOCS de 4,17 points [IC 95%, -5,82 à -2,52].
+
+## 🩺 Impact clinique
+Les médicaments glutamatergiques représentent une option thérapeutique prometteuse, particulièrement pour le TOC. L'hétérogénéité élevée et le biais de publication potentiel imposent une interprétation prudente et des recherches supplémentaires.
+
+## 📖 Référence
+Coelho DRA, Yang C, Suriaga A, et al. JAMA Netw Open. 2025;8(1):e2452963.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamanetworkopen.2024.52963.

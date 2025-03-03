@@ -1,0 +1,19 @@
+Date de publication : 2025-02-04
+
+# 📝 Ténofovir et prévention de la transmission mère-enfant du VHB : alternative sans HBIG
+
+## 📌 Contexte & Problématique
+La prophylaxie standard contre la transmission mère-enfant (TME) du VHB chez les mères hautement virémiques associe ténofovir (TDF) à 28 semaines, vaccination et immunoglobuline anti-hépatite B (HBIG). L'HBIG reste indisponible dans certaines régions à ressources limitées.
+
+## 🧪 Méthodologie
+Essai clinique randomisé de non-infériorité mené en Chine (n=280 femmes enceintes, ADN VHB >200 000 UI/mL). Comparaison : TDF à 16 semaines + vaccination (groupe expérimental) versus TDF à 28 semaines + vaccination + HBIG (soins standards).
+
+## 📊 Résultats clés
+Taux de TME : 0,76% (1/131) dans le groupe expérimental contre 0% (0/142) dans le groupe standard. Différence : 0,76% (limite supérieure IC 90% : 1,74%), confirmant la non-infériorité. Malformations congénitales : 2,3% vs 6,3% respectivement.
+
+## 🩺 Impact clinique
+L'initiation précoce du TDF (16 semaines) avec vaccination sans HBIG constitue une alternative efficace aux soins standards pour prévenir la TME du VHB dans les zones sans accès à l'HBIG.
+
+## 📖 Référence
+Pan CQ, Dai E, Mo Z, et al. Tenofovir and Hepatitis B Virus Transmission During Pregnancy: A Randomized Clinical Trial. JAMA. 2025;333(5):390-399.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jama.2024.22952.

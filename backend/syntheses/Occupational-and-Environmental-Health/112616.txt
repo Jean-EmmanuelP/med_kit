@@ -1,0 +1,22 @@
+Date de publication : 2024-03-05
+
+# 📝 INTERVENTIONS NON MÉDICALES POUR FAVORISER LE RETOUR AU TRAVAIL DES PATIENTS ATTEINTS DE CANCER
+
+## 📌 Contexte & Problématique
+Les patients atteints de cancer ont 1,4 fois plus de risque d'être sans emploi. Cette revue systématique évalue l'efficacité des interventions non médicales facilitant leur retour au travail (RAT).
+
+## 🧪 Méthodologie
+Revue Cochrane incluant 15 essais contrôlés randomisés (1477 participants) évaluant des interventions psycho-éducatives, professionnelles, physiques ou multidisciplinaires. Critères principaux : taux de RAT et durée des arrêts maladie à 12 mois.
+
+## 📊 Résultats clés
+- Interventions physiques : augmentent probablement le RAT (RR 1,23 [1,08-1,39])
+- Interventions multidisciplinaires : augmentent probablement le RAT (RR 1,23 [1,09-1,33])
+- Interventions psycho-éducatives : peu ou pas d'effet sur le RAT (RR 1,09 [0,96-1,24])
+- Aucune intervention n'a montré d'effet significatif sur la qualité de vie
+
+## 🩺 Impact clinique
+Les programmes d'activité physique et les approches multidisciplinaires devraient être privilégiés pour favoriser le retour au travail des patients cancéreux, avec potentiellement 50 à 244 patients supplémentaires reprenant le travail pour 1000 patients traités.
+
+## 📖 Référence
+de Boer AG, Tamminga SJ, Boschman JS, et al. Cochrane Database Syst Rev. 2024;3(3):CD007569.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1002/14651858.CD007569.pub4.

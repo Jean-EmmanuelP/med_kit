@@ -1,0 +1,23 @@
+Date de publication : 2024-09-10
+
+# 📝 Thrombolyse après réversion du dabigatran dans l'AVC ischémique aigu
+
+## 📌 Contexte & Problématique
+La sécurité de la thrombolyse intraveineuse (TIV) après réversion du dabigatran par idarucizumab dans l'AVC ischémique aigu reste peu documentée.
+
+## 🧪 Méthodologie
+Étude basée sur un registre national, complétée par une revue systématique et méta-analyse de 13 cohortes et 1 série de cas (553 patients, âge moyen 75 ans, NIHSS médian 11).
+
+## 📊 Résultats clés
+Taux d'hémorragie intracrânienne symptomatique: 4% (IC 95% 1-9%)
+Toute hémorragie intracrânienne: 10% (IC 95% 5-16%)
+Mortalité à 3 mois: 18% (IC 95% 10-27%)
+Bons résultats fonctionnels (mRS 0-2) à 3 mois: 70% (IC 95% 57-81%)
+Pas de différence significative des complications hémorragiques versus TIV standard.
+
+## 🩺 Impact clinique
+La TIV après réversion du dabigatran par idarucizumab semble sûre et efficace, avec une probabilité plus élevée de bons résultats fonctionnels (RR 1,35; IC 95% 1,11-1,65).
+
+## 📖 Référence
+Theodorou A, Melanis K, Bakola E, et al. Neurology. 2024;103(7):e209862.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1212/WNL.0000000000209862.

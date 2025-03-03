@@ -1,0 +1,19 @@
+Date de publication : 2024-11-04
+
+# 📝 Stratégie optimale pour la procédure combinée chez les patients atteints de fibrillation atriale
+
+## 📌 Contexte & Problématique
+L'approche optimale pour combiner l'occlusion de l'appendice auriculaire gauche (OAAG) et l'ablation par cathéter (AC) chez les patients atteints de fibrillation atriale (FA) reste incertaine.
+
+## 🧪 Méthodologie
+Essai clinique randomisé multicentrique (14 centres chinois) comparant les stratégies "occlusion en premier" versus "ablation en premier" chez 194 patients avec FA non valvulaire. Suivi médian de 2,5 ans.
+
+## 📊 Résultats clés
+Le groupe "occlusion en premier" a présenté une meilleure survie sans événement thromboembolique (83,5% vs 71,1%; HR 0,53; p=0,04), des taux supérieurs d'absence de FA (77,3% vs 63,5%; p=0,04) et de tachyarythmie atriale (70,1% vs 55,7%; p=0,04). Le groupe "ablation en premier" a montré plus de fuites péri-dispositif (15,5% vs 5,2%; p=0,03) et de thrombus liés au dispositif (8,2% vs 1,0%; p=0,04).
+
+## 🩺 Impact clinique
+L'approche "occlusion en premier" devrait être privilégiée lors des procédures combinées OAAG-AC chez les patients atteints de FA, particulièrement chez les hommes et ceux avec des scores CHA₂DS₂-VASc élevés.
+
+## 📖 Référence
+Du X, Chu H, Yang B, et al. JAMA Netw Open. 2024;7(11):e2445084.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamanetworkopen.2024.45084.

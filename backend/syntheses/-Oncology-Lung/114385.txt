@@ -1,0 +1,19 @@
+Date de publication : 2024-09-09
+
+# 📝 Datopotamab Deruxtecan versus Docétaxel dans le CPNPC avancé : étude TROPION-Lung01
+
+## 📌 Contexte & Problématique
+Évaluation du datopotamab deruxtecan (Dato-DXd) comparé au docétaxel chez des patients atteints de cancer du poumon non à petites cellules (CPNPC) avancé/métastatique prétraité.
+
+## 🧪 Méthodologie
+Essai randomisé de phase III comparant Dato-DXd (6 mg/kg) versus docétaxel (75 mg/m²) toutes les 3 semaines. Critères principaux : survie sans progression (SSP) et survie globale (SG).
+
+## 📊 Résultats clés
+SSP médiane significativement améliorée avec Dato-DXd (4,4 vs 3,7 mois; HR=0,75; p=0,004). SG médiane non significativement différente (12,9 vs 11,8 mois; HR=0,94; p=0,530). Bénéfice marqué dans le sous-groupe non-épidermoïde (SSP: 5,5 vs 3,6 mois; HR=0,63). Événements indésirables grade ≥3 moins fréquents avec Dato-DXd (25,6% vs 42,1%).
+
+## 🩺 Impact clinique
+Le Dato-DXd représente une option thérapeutique prometteuse pour les CPNPC avancés, particulièrement pour les histologies non-épidermoïdes, avec un profil de tolérance favorable comparé au docétaxel.
+
+## 📖 Référence
+Ahn MJ, Tanaka K, Paz-Ares L, et al. J Clin Oncol. 2025;43(3):260-272.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO-24-01544.

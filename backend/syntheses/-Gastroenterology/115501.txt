@@ -1,0 +1,19 @@
+Date de publication : 2025-01-18
+
+# 📝 Traitement de l'appendicite non compliquée chez l'enfant : antibiotiques versus appendicectomie
+
+## 📌 Contexte & Problématique
+L'approche non chirurgicale de l'appendicite non compliquée gagne en popularité. Cette étude évalue si le traitement antibiotique est non-inférieur à l'appendicectomie chez l'enfant.
+
+## 🧪 Méthodologie
+Essai randomisé multicentrique de non-infériorité (marge 20%) incluant 936 enfants (5-16 ans) avec appendicite non perforée, répartis entre antibiotiques (n=477) ou appendicectomie (n=459). Suivi sur 12 mois dans 11 hôpitaux pédiatriques internationaux.
+
+## 📊 Résultats clés
+Échec thérapeutique : 34% (153/452) dans le groupe antibiotiques contre 7% (28/394) dans le groupe appendicectomie (différence 26,7%, IC 90% 22,4-30,9). Dans le groupe antibiotiques, 8% des appendicectomies secondaires révélaient une anatomopathologie normale. Aucun décès ni événement indésirable grave dans les deux groupes.
+
+## 🩺 Impact clinique
+L'antibiothérapie s'est avérée significativement inférieure à l'appendicectomie pour le traitement de l'appendicite non perforée chez l'enfant, avec un taux d'échec nettement plus élevé.
+
+## 📖 Référence
+St Peter SD, Noel-MacDonnell JR, Hall NJ, et al. Lancet. 2025;405(10474):233-240.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S0140-6736(24)02420-6.

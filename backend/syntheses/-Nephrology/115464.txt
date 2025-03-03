@@ -1,0 +1,19 @@
+Date de publication : 2025-02-01
+
+# 📝 ENTRAÎNEMENT AUX COMPÉTENCES D'ADAPTATION À LA DOULEUR CHEZ LES PATIENTS HÉMODIALYSÉS
+
+## 📌 Contexte & Problématique
+La douleur chronique affecte fréquemment les patients sous hémodialyse. Cette étude évalue l'efficacité d'un entraînement aux compétences d'adaptation à la douleur (PCST), une intervention cognitivo-comportementale.
+
+## 🧪 Méthodologie
+Essai clinique randomisé multicentrique incluant 643 adultes hémodialysés souffrant de douleur chronique. Intervention: 12 séances hebdomadaires par vidéoconférence/téléconférence, suivies de 12 semaines d'interactions vocales quotidiennes versus soins habituels. Suivi sur 36 semaines.
+
+## 📊 Résultats clés
+À 12 semaines, le groupe PCST montrait une réduction significative de l'interférence de la douleur (différence: -0,49; IC 95%: -0,85 à -0,12; p=0,009). L'effet persistait à 24 semaines mais s'atténuait à 36 semaines. Une amélioration cliniquement significative est survenue chez 50,9% des patients PCST contre 36,6% dans le groupe contrôle à 12 semaines (OR: 1,79; IC 95%: 1,28-2,49).
+
+## 🩺 Impact clinique
+Le PCST apporte des bénéfices modestes mais significatifs sur l'interférence de la douleur et améliore la qualité de vie, la dépression et l'anxiété chez les patients hémodialysés, avec une amélioration cliniquement significative pour une proportion substantielle de patients.
+
+## 📖 Référence
+Dember LM, Hsu JY, Mehrotra R, et al. JAMA Intern Med. 2025;185(2):197-207.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamainternmed.2024.7140.

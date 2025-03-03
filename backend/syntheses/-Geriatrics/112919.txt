@@ -1,0 +1,19 @@
+Date de publication : 2024-04-07
+
+# 📝 Sémaglutide dans l'insuffisance cardiaque à fraction d'éjection préservée liée à l'obésité
+
+## 📌 Contexte & Problématique
+Analyse groupée préspécifiée des essais STEP-HFpEF et STEP-HFpEF DM évaluant l'efficacité du sémaglutide chez les patients atteints d'insuffisance cardiaque à fraction d'éjection préservée (ICFEp) liée à l'obésité, avec ou sans diabète de type 2.
+
+## 🧪 Méthodologie
+Étude randomisée, double aveugle, contrôlée par placebo incluant 1145 patients (573 sémaglutide, 572 placebo) suivis pendant 52 semaines. Critères d'inclusion: FEVG ≥45%, IMC ≥30kg/m², symptômes NYHA II-IV. Critères primaires: évolution du score KCCQ-CSS et du poids corporel.
+
+## 📊 Résultats clés
+Amélioration significative du KCCQ-CSS: +7,5 points (IC 95%: 5,3-9,8; p<0,0001) et réduction du poids corporel: -8,4% (IC 95%: -9,2 à -7,5; p<0,0001) sous sémaglutide versus placebo. Amélioration significative du test de marche de 6 minutes (+17,1m) et réduction de la CRP (ratio: 0,64). Effets constants dans tous les sous-groupes. Moins d'événements indésirables graves (161 vs 301).
+
+## 🩺 Impact clinique
+Le sémaglutide améliore significativement les symptômes, les capacités fonctionnelles et réduit l'inflammation chez les patients obèses avec ICFEp, indépendamment de leurs caractéristiques démographiques et cliniques, avec un bon profil de tolérance.
+
+## 📖 Référence
+Butler J, Shah SJ, Petrie MC, et al. Lancet. 2024;403(10437):1635-1648.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S0140-6736(24)00469-0.

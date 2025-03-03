@@ -1,0 +1,19 @@
+Date de publication : 2024-02-29
+
+# 📝 Hystérectomie simple versus radicale dans le cancer du col utérin à faible risque
+
+## 📌 Contexte & Problématique
+L'hystérectomie radicale est le traitement standard du cancer du col utérin précoce, mais sa nécessité est questionnée pour les tumeurs à faible risque où l'infiltration paramétrique est rare.
+
+## 🧪 Méthodologie
+Essai multicentrique randomisé de non-infériorité comparant hystérectomie radicale versus simple avec évaluation ganglionnaire chez 700 patientes (350/groupe) avec cancer du col ≤2 cm à faible risque. Critère principal : récidive pelvienne à 3 ans.
+
+## 📊 Résultats clés
+Après suivi médian de 4,5 ans, l'incidence de récidive pelvienne à 3 ans était similaire : 2,17% (radicale) vs 2,52% (simple). L'hystérectomie simple a montré moins d'incontinence urinaire (4,7% vs 11,0%, p=0,003) et moins de rétention urinaire (0,6% vs 9,9%, p<0,001) au-delà de 4 semaines post-chirurgie.
+
+## 🩺 Impact clinique
+L'hystérectomie simple est non-inférieure à l'hystérectomie radicale pour les cancers du col à faible risque, avec significativement moins de complications urinaires, justifiant une approche chirurgicale moins invasive.
+
+## 📖 Référence
+Plante M, Kwon JS, Ferguson S, et al. Simple versus Radical Hysterectomy in Women with Low-Risk Cervical Cancer. N Engl J Med. 2024;390(9):819-829.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2308900.

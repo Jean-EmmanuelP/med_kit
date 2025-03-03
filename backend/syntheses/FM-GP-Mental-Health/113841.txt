@@ -1,0 +1,19 @@
+Date de publication : 2024-09-01
+
+# 📝 Stimulation Theta-Burst Intermittente Accélérée pour la Dépression Bipolaire Réfractaire
+
+## 📌 Contexte & Problématique
+La dépression bipolaire représente la majorité du temps de maladie dans le trouble bipolaire. L'efficacité de la stimulation theta-burst intermittente accélérée (aiTBS) est connue pour la dépression unipolaire mais restait à démontrer dans le trouble bipolaire réfractaire.
+
+## 🧪 Méthodologie
+Essai clinique randomisé (2022-2024) incluant 24 patients bipolaires avec dépression modérée à sévère résistante (≥2 échecs d'antidépresseurs, MADRS ≥20). Randomisation 1:1 pour aiTBS active vs simulée. Traitement: 10 sessions quotidiennes pendant 5 jours, ciblage personnalisé du cortex préfrontal dorsolatéral gauche par IRM fonctionnelle.
+
+## 📊 Résultats clés
+Réduction significative des scores MADRS dans le groupe aiTBS active (30,4 à 10,5) vs simulée (28,0 à 25,3) après traitement (différence: -14,75; IC 95%: -19,73 à -9,77; p<0,001; d de Cohen: -2,19). Tous les participants ont complété le traitement et le suivi à un mois.
+
+## 🩺 Impact clinique
+L'aiTBS démontre une efficacité supérieure au traitement simulé pour la dépression bipolaire réfractaire. Des études supplémentaires sont nécessaires pour évaluer la durabilité et comparer avec d'autres traitements.
+
+## 📖 Référence
+Sheline YI, Makhoul W, Batzdorf AS, et al. Accelerated Intermittent Theta-Burst Stimulation and Treatment-Refractory Bipolar Depression: A Randomized Clinical Trial. JAMA Psychiatry. 2024;81(9):936-941.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamapsychiatry.2024.1787.

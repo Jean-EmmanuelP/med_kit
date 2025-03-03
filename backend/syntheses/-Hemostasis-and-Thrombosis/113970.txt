@@ -1,0 +1,23 @@
+Date de publication : 2024-07-31
+
+# 📝 Risques hémorragiques et thromboemboliques lors de coloscopies sous anticoagulants ininterrompus ou interrompus
+
+## 📌 Contexte & Problématique
+La gestion des anticoagulants lors des coloscopies pose un dilemme clinique : risque hémorragique versus risque thromboembolique (TE). Cette revue évalue l'incidence de ces complications en pratique réelle.
+
+## 🧪 Méthodologie
+Revue systématique de 15 études (63 017 patients) via PubMed, Embase et Cochrane jusqu'au 15 mars 2024, analysant les taux d'hémorragies et de TE post-coloscopie.
+
+## 📊 Résultats clés
+- AOD ininterrompus vs interrompus : risque hémorragique de 3,60% vs 0,90%
+- Patients ≥65 ans sous AOD ininterrompus : risque hémorragique plus élevé (7,20% vs 2,00%)
+- Population asiatique : taux d'hémorragie plus élevé (7,20% sous AOD ininterrompus)
+- Warfarine : risque hémorragique supérieur chez les patients âgés
+- AOD ininterrompus : incidence TE la plus faible (0,08%)
+
+## 🩺 Impact clinique
+L'incidence globale des complications reste faible. Cependant, une vigilance particulière est nécessaire chez les patients âgés et asiatiques sous anticoagulants ininterrompus, qui présentent un risque hémorragique accru.
+
+## 📖 Référence
+Zhu YF, Ma JH, Qian H, et al. Thromb Res. 2024 Sep;241:109107.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.thromres.2024.109107.

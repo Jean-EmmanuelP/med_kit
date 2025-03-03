@@ -1,0 +1,19 @@
+Date de publication : 2024-10-25
+
+# 📝 Finérénone et résultats rénaux chez les patients insuffisants cardiaques
+
+## 📌 Contexte & Problématique
+Les effets néphroprotecteurs de la finérénone sont connus dans la maladie rénale chronique avec diabète de type 2, mais restent incertains chez les patients insuffisants cardiaques avec fraction d'éjection légèrement réduite ou préservée.
+
+## 🧪 Méthodologie
+Analyse préspécifiée de l'essai FINEARTS-HF (n=6001) évaluant l'impact de la finérénone sur plusieurs critères rénaux : diminution soutenue ≥50% du DFGe ou insuffisance rénale, pente du DFGe et modifications du rapport albumine/créatinine urinaire (RACU).
+
+## 📊 Résultats clés
+Après 2,6 ans de suivi, la finérénone n'a pas significativement modifié le critère composite rénal (HR:1,33; IC95%:0,94-1,89). Elle a entraîné une diminution initiale du DFGe (-2,9 mL/min/1,73m²) sans affecter la pente chronique. La finérénone a réduit le RACU de 30% (IC95%:25%-34%) et diminué le risque de microalbuminurie (-24%) et macroalbuminurie (-38%).
+
+## 🩺 Impact clinique
+Chez les patients insuffisants cardiaques à faible risque rénal, la finérénone n'améliore pas les critères composites rénaux mais réduit significativement l'albuminurie, suggérant un potentiel bénéfice sur certains marqueurs de fonction rénale.
+
+## 📖 Référence
+McCausland FR, Vaduganathan M, Claggett BL, et al. Finerenone and Kidney Outcomes in Patients With Heart Failure: The FINEARTS-HF Trial. J Am Coll Cardiol. 2025;85(2):159-168.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.jacc.2024.10.091.

@@ -1,0 +1,19 @@
+Date de publication : 2024-04-15
+
+# 📝 Prédiction des risques d'insuffisance rénale terminale et de mortalité dans la MRC modérée à sévère
+
+## 📌 Contexte & Problématique
+Nécessité d'améliorer la prédiction des risques d'insuffisance rénale terminale et de mortalité chez les patients atteints de MRC stade G3b-G4 (DFGe 15-44 mL/min/1,73m²).
+
+## 🧪 Méthodologie
+Étude de cohorte multinationale incluant 67 942 Canadiens, 17 528 Danois et 7 740 Écossais avec MRC G3b-G4. Développement d'un algorithme prédictif (KDpredict) comparé à l'équation de risque d'insuffisance rénale standard.
+
+## 📊 Résultats clés
+KDpredict surpasse l'équation standard avec un indice de précision à 5 ans de 27,8% vs 18,1% (Danemark) et 30,5% vs 14,2% (Écosse). Les taux observés étaient de 0,8-1,1/100 personnes-années pour l'insuffisance rénale et 10-12/100 personnes-années pour le décès.
+
+## 🩺 Impact clinique
+KDpredict permet une évaluation plus précise du risque combiné d'insuffisance rénale et de mortalité, potentiellement modifiant les décisions d'orientation en néphrologie. Applicable dans les dossiers médicaux électroniques.
+
+## 📖 Référence
+Liu P, Sawhney S, Heide-Jorgensen U, et al. BMJ. 2024;385:e078063.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1136/bmj-2023-078063.

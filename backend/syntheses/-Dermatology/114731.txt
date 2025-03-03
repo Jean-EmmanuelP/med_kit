@@ -1,0 +1,19 @@
+Date de publication : 2024-10-28
+
+# 📝 Suivi thérapeutique pharmacologique proactif des médicaments biologiques dans les maladies inflammatoires chroniques
+
+## 📌 Contexte & Problématique
+Le suivi thérapeutique pharmacologique (STP) proactif consiste à mesurer les concentrations sériques des médicaments biologiques indépendamment de l'activité de la maladie, puis à ajuster la posologie pour atteindre des concentrations cibles. Son utilité clinique reste controversée dans les maladies inflammatoires chroniques.
+
+## 🧪 Méthodologie
+Revue systématique et méta-analyse de 10 essais (2383 participants) comparant le STP proactif aux soins standard chez des patients atteints de maladies inflammatoires intestinales, d'arthrite inflammatoire ou de psoriasis.
+
+## 📊 Résultats clés
+Le STP proactif de l'infliximab en traitement d'entretien pourrait améliorer le contrôle durable de la maladie sans préjudice supplémentaire. Pour l'adalimumab en entretien, l'effet reste incertain. À l'induction, le STP proactif de l'infliximab semble avoir peu d'effet sur l'obtention d'une rémission.
+
+## 🩺 Impact clinique
+Recommandations faibles : en faveur du STP proactif pour l'infliximab en entretien; contre le STP pour l'adalimumab et autres biologiques en entretien; contre le STP pour tous les biologiques à l'induction. Une décision partagée médecin-patient est recommandée.
+
+## 📖 Référence
+Kawano-Dourado L, Kristianslund EK, Zeraatkar D, et al. BMJ. 2024;387:e079830.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1136/bmj-2024-079830.

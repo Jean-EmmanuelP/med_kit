@@ -1,0 +1,19 @@
+Date de publication : 2024-07-04
+
+# 📝 Mavorixafor dans le syndrome WHIM : essai de phase 3 randomisé
+
+## 📌 Contexte & Problématique
+Le syndrome WHIM (verrues, hypogammaglobulinémie, infections, myélokathexis) est une immunodéficience rare causée par des variants gain de fonction du CXCR4. Le mavorixafor est un antagoniste oral du CXCR4 évalué pour cette indication.
+
+## 🧪 Méthodologie
+Essai randomisé (1:1), double aveugle, contrôlé par placebo, incluant 31 patients ≥12 ans (mavorixafor n=14; placebo n=17) pendant 52 semaines. Critère principal : temps quotidien avec neutrophiles ≥0,5×10³/µL (TATANC).
+
+## 📊 Résultats clés
+TATANC moyen : 15,0h (mavorixafor) vs 2,8h (placebo), p<0,001. Taux d'infections annualisé réduit de 60% (1,7 vs 4,2; p=0,007). Score total d'infection diminué de 40% (7,4 vs 12,3). Diminution significative de la fréquence, sévérité et durée des infections.
+
+## 🩺 Impact clinique
+Traitement bien toléré sans effets indésirables graves liés au traitement. Le mavorixafor représente une option thérapeutique prometteuse pour améliorer les paramètres hématologiques et réduire le fardeau infectieux chez les patients atteints du syndrome WHIM.
+
+## 📖 Référence
+Badolato R, Alsina L, Azar A, et al. A phase 3 randomized trial of mavorixafor, a CXCR4 antagonist, for WHIM syndrome. Blood. 2024;144(1):35-45.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1182/blood.2023022658.

@@ -1,0 +1,21 @@
+Date de publication : 2024-10-28
+
+# 📝 Techniques périnéales pendant la deuxième phase du travail pour réduire les traumatismes périnéaux et complications post-partum
+
+## 📌 Contexte & Problématique
+Les traumatismes périnéaux lors des accouchements par voie basse contribuent significativement aux hémorragies post-partum (HPP), responsables de 27% des décès maternels mondiaux. Diverses techniques périnéales sont utilisées sans preuves comparatives solides.
+
+## 🧪 Méthodologie
+Revue systématique de 17 essais contrôlés randomisés incluant 13 695 participantes. Recherche dans quatre bases de données jusqu'en avril 2024. Évaluation des techniques périnéales pendant la deuxième phase du travail, avec analyse GRADE de la qualité des preuves.
+
+## 📊 Résultats clés
+- Mains libres vs mains sur périnée : peu de différence sur déchirures de 2e degré (RR 0,73) et HPP ≥500 mL (RR 1,16).
+- Compresse chaude : réduction significative des déchirures de 3e/4e degré (RR 0,46) et de la douleur périnéale (DM -0,81).
+- Vocalisation : possible réduction des déchirures de 2e degré (RR 0,56) et 3e degré (RR 0,13).
+
+## 🩺 Impact clinique
+La compresse chaude périnéale présente les preuves les plus solides pour réduire les déchirures sévères et la douleur post-partum. Les autres techniques montrent des bénéfices variables avec des niveaux de preuve faibles à modérés.
+
+## 📖 Référence
+Dwan K, Fox T, Lutje V, et al. Perineal techniques during the second stage of labour for reducing perineal trauma and postpartum complications. Cochrane Database Syst Rev. 2024;10(10):CD016148.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1002/14651858.CD016148.

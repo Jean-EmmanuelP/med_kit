@@ -1,0 +1,22 @@
+Date de publication : 2024-05-15
+
+# 📝 Recommandations sur les antiépileptiques pendant la grossesse : directives AAN, AES et SMFM
+
+## 📌 Contexte & Problématique
+Nécessité d'actualiser les recommandations sur l'utilisation des médicaments antiépileptiques (MAE) chez les personnes épileptiques en âge de procréer (PEAP) concernant les risques de malformations congénitales majeures (MCM) et le développement neurologique.
+
+## 🧪 Méthodologie
+Revue systématique jusqu'en août 2022 par un panel multidisciplinaire selon le processus de l'Académie Américaine de Neurologie (2017).
+
+## 📊 Résultats clés
+- Privilégier lamotrigine, lévétiracétam ou oxcarbazépine pour minimiser le risque de MCM
+- Éviter l'acide valproïque pour réduire les risques de MCM, défauts du tube neural et troubles neurodéveloppementaux
+- Éviter valproïque et topiramate pour prévenir le retard de croissance intra-utérin
+- Maintenir le contrôle des crises pendant la grossesse pour protéger mère et fœtus
+
+## 🩺 Impact clinique
+Prescrire ≥0,4 mg d'acide folique quotidiennement avant conception et pendant grossesse. Optimiser le traitement avant conception. Éviter de modifier un traitement efficace pendant la grossesse.
+
+## 📖 Référence
+Pack AM, Oskoui M, Williams Roberson S, et al. Neurology. 2024;102(11):e209279.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1212/WNL.0000000000209279.

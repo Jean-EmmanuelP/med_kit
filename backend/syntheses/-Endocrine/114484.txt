@@ -1,0 +1,24 @@
+Date de publication : 2024-10-02
+
+# 📝 Efficacité de la supplémentation en vitamine D sur le contrôle glycémique dans le diabète de type 2
+
+## 📌 Contexte & Problématique
+Évaluation des effets de la supplémentation en vitamine D sur le contrôle glycémique chez les patients diabétiques de type 2.
+
+## 🧪 Méthodologie
+Méta-analyse de 39 essais contrôlés randomisés (2982 patients). Évaluation des taux de 25(OH)D, glycémie à jeun, HbA1c, insuline à jeun et HOMA-IR.
+
+## 📊 Résultats clés
+Réductions significatives dans le groupe vitamine D:
+- Glycémie à jeun: -0,49 mmol/L [IC 95%: -0,69 à -0,28]
+- HbA1c: -0,30% [IC 95%: -0,43 à -0,18]
+- HOMA-IR: -0,39 [IC 95%: -0,64 à -0,14]
+- Insuline: -1,31 µUI/mL [IC 95%: -2,06 à -0,56]
+Effets optimisés avec: traitement court, forte dose, patients carencés, en surpoids ou HbA1c ≥8%.
+
+## 🩺 Impact clinique
+La vitamine D peut être recommandée comme traitement complémentaire du diabète de type 2, particulièrement chez les patients présentant une carence et un contrôle glycémique médiocre.
+
+## 📖 Référence
+Chen W, Liu L, Hu F. Efficacy of vitamin D supplementation on glycaemic control in type 2 diabetes. Diabetes Obes Metab. 2024;26(12):5713-5726.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1111/dom.15941.

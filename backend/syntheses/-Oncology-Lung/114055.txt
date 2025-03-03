@@ -1,0 +1,21 @@
+Date de publication : 2024-08-13
+
+# 📝 Traitement de première ligne du CPNPC avancé chez les personnes âgées : ICI + chimiothérapie vs chimiothérapie seule
+
+## 📌 Contexte & Problématique
+Le cancer du poumon touche principalement les personnes âgées (âge médian au diagnostic : 71 ans). Les inhibiteurs de points de contrôle immunitaires (ICI) ont transformé le traitement du CPNPC avancé, mais leur efficacité chez les personnes âgées reste questionnée en raison des modifications immunitaires liées à l'âge.
+
+## 🧪 Méthodologie
+Revue systématique Cochrane incluant 17 études (4276 participants). Comparaison de l'association ICI + chimiothérapie à base de platine versus chimiothérapie à base de platine seule (± bevacizumab) chez les patients ≥65 ans atteints de CPNPC avancé non prétraités.
+
+## 📊 Résultats clés
+- Patients ≥65 ans : amélioration de la survie globale (HR 0,78 [0,70-0,88]) et de la survie sans progression (HR 0,61 [0,54-0,68])
+- Patients 65-75 ans : bénéfice similaire mais augmentation des effets indésirables de grade ≥3 (RR 1,47 [1,02-2,13])
+- Patients ≥75 ans : absence de différence significative en survie globale (HR 0,90 [0,70-1,16])
+
+## 🩺 Impact clinique
+Le bénéfice de l'ajout d'ICI à la chimiothérapie est démontré chez les 65-75 ans mais reste incertain chez les plus de 75 ans. La balance bénéfice-risque doit être évaluée individuellement, particulièrement chez les patients très âgés.
+
+## 📖 Référence
+Orillard E, Adhikari A, Malouf RS, et al. Cochrane Database Syst Rev. 2024;8(8):CD015495.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1002/14651858.CD015495.

@@ -1,0 +1,19 @@
+Date de publication : 2024-09-14
+
+# 📝 Pembrolizumab périopératoire dans le CPNPC de stade précoce : résultats de survie globale de KEYNOTE-671
+
+## 📌 Contexte & Problématique
+L'essai KEYNOTE-671 avait précédemment montré une amélioration de la survie sans événement avec l'ajout du pembrolizumab périopératoire à la chimiothérapie néoadjuvante dans le CPNPC de stade précoce. Cette analyse présente les résultats de survie globale.
+
+## 🧪 Méthodologie
+Essai randomisé (1:1), en double aveugle, contrôlé par placebo, incluant 797 patients avec CPNPC résécable de stade II-IIIB(N2). Groupe expérimental : pembrolizumab (200mg IV/3 semaines) + chimiothérapie néoadjuvante, puis chirurgie et pembrolizumab adjuvant. Groupe contrôle : placebo + chimiothérapie néoadjuvante, puis chirurgie et placebo adjuvant.
+
+## 📊 Résultats clés
+Après 36,6 mois de suivi médian, la survie globale à 36 mois était de 71% dans le groupe pembrolizumab contre 64% dans le groupe placebo (HR 0,72; IC 95% 0,56-0,93; p=0,0052). La survie sans événement médiane était de 47,2 mois contre 18,3 mois (HR 0,59). Les événements indésirables de grade 3-5 liés au traitement concernaient 45% des patients sous pembrolizumab versus 38% sous placebo.
+
+## 🩺 Impact clinique
+Le bénéfice significatif en survie globale associé à un profil de sécurité gérable soutient l'utilisation du pembrolizumab périopératoire chez les patients atteints de CPNPC résécable à un stade précoce.
+
+## 📖 Référence
+Spicer JD, Garassino MC, Wakelee H, et al. Lancet. 2024;404(10459):1240-1252.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S0140-6736(24)01756-2.

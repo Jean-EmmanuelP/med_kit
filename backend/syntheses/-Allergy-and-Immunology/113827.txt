@@ -1,0 +1,19 @@
+Date de publication : 2023-12-18
+
+# 📝 Recommandations 2023 pour la prise en charge de la dermatite atopique
+
+## 📌 Contexte & Problématique
+Les recommandations pour la dermatite atopique (DA) nécessitaient une mise à jour depuis 2012 en raison de nouveaux traitements disponibles et de l'évolution des méthodologies d'évaluation des preuves cliniques.
+
+## 🧪 Méthodologie
+Un panel multidisciplinaire (dermatologues, allergologues, médecins généralistes, patients) a élaboré des recommandations selon la méthodologie GRADE. Des revues systématiques ont été réalisées et des groupes de discussion avec patients ont été organisés. Les recommandations ont été soumises à consultation publique.
+
+## 📊 Résultats clés
+Le panel a formulé 25 recommandations couvrant la prise en charge de la DA légère à sévère. Les directives traitent des thérapies topiques (hydratants, corticostéroïdes, inhibiteurs de calcineurine, crisaborole, inhibiteurs de JAK), des bains d'eau de Javel, des interventions alimentaires, de l'immunothérapie, des traitements systémiques (biologiques, immunosuppresseurs) et de la photothérapie.
+
+## 🩺 Impact clinique
+Ces recommandations offrent un cadre actualisé et fondé sur les preuves pour optimiser le contrôle de la DA. Des fiches d'information de 1-2 pages adaptées aux patients facilitent l'implémentation clinique.
+
+## 📖 Référence
+Chu DK, Schneider L, Asiniwasis RN, et al. Ann Allergy Asthma Immunol. 2024;132(3):274-312.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.anai.2023.11.009.

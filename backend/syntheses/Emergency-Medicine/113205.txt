@@ -1,0 +1,19 @@
+Date de publication : 2024-05-16
+
+# 📝 Andexanet dans l'hémorragie intracérébrale aiguë associée aux inhibiteurs du facteur Xa
+
+## 📌 Contexte & Problématique
+Les hémorragies intracérébrales sous inhibiteurs du facteur Xa présentent un risque d'expansion de l'hématome. L'andexanet alfa, agent neutralisant ces inhibiteurs, n'a pas été suffisamment évalué dans ce contexte.
+
+## 🧪 Méthodologie
+Étude randomisée (1:1) comparant l'andexanet aux soins habituels chez 530 patients avec hémorragie intracérébrale aiguë sous inhibiteurs du facteur Xa. Critère principal : efficacité hémostatique (expansion de l'hématome ≤35% à 12h).
+
+## 📊 Résultats clés
+L'efficacité hémostatique était supérieure avec l'andexanet (67,0% vs 53,1%, différence 13,4%, p=0,003). Réduction médiane de l'activité anti-facteur Xa : 94,5% vs 26,9% (p<0,001). Événements thrombotiques plus fréquents sous andexanet (10,3% vs 5,6%, p=0,048), notamment les AVC ischémiques (6,5% vs 1,5%).
+
+## 🩺 Impact clinique
+L'andexanet contrôle mieux l'expansion hémorragique mais augmente le risque thrombotique. La balance bénéfice-risque doit être évaluée individuellement, particulièrement chez les patients à risque thrombotique élevé.
+
+## 📖 Référence
+Connolly SJ, Sharma M, Cohen AT, et al. Andexanet for Factor Xa Inhibitor-Associated Acute Intracerebral Hemorrhage. N Engl J Med. 2024;390(19):1745-1755.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2313040.

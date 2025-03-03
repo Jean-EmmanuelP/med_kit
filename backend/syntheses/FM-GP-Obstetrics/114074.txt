@@ -1,0 +1,19 @@
+Date de publication : 2024-08-01
+
+# 📝 Traitement par PPC et réduction des complications hypertensives chez les femmes enceintes atteintes d'AOS
+
+## 📌 Contexte & Problématique
+L'apnée obstructive du sommeil (AOS) peut être aggravée par la grossesse et augmenter le risque de complications gestationnelles. L'efficacité de la pression positive continue (PPC) pour réduire ces complications reste incertaine.
+
+## 🧪 Méthodologie
+Revue systématique et méta-analyse de 6 études originales incluant 809 femmes enceintes (âge moyen: 31,4 ans; IMC moyen: 34,0). Recherche dans PubMed, Embase et Cochrane jusqu'en novembre 2023. Méta-analyses à effets aléatoires avec calcul des risques relatifs.
+
+## 📊 Résultats clés
+Le traitement par PPC a significativement réduit le risque d'hypertension gestationnelle (RR: 0,65; IC 95%: 0,47-0,89; p=0,008) et de prééclampsie (RR: 0,70; IC 95%: 0,50-0,98; p=0,04). Ni l'âge ni l'IMC n'ont influencé ces résultats.
+
+## 🩺 Impact clinique
+L'utilisation de la PPC chez les femmes enceintes souffrant d'AOS pourrait constituer une stratégie efficace pour prévenir les complications hypertensives gestationnelles, indépendamment de l'âge et de l'IMC.
+
+## 📖 Référence
+Lee YC, Chang YC, Tseng LW, et al. JAMA Netw Open. 2024;7(8):e2427557.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamanetworkopen.2024.27557.

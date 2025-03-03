@@ -1,0 +1,19 @@
+Date de publication : 2024-03-26
+
+# 📝 Pazopanib après métastasectomie dans le carcinome rénal métastatique : absence de bénéfice et signal de survie défavorable
+
+## 📌 Contexte & Problématique
+Les patients sans évidence de maladie (NED) après métastasectomie pour carcinome rénal métastatique (CCRm) présentent un risque élevé de récidive. Cette étude évalue l'efficacité du pazopanib comme traitement adjuvant.
+
+## 🧪 Méthodologie
+Essai randomisé, double-aveugle, contrôlé par placebo. 129 patients NED après métastasectomie ont reçu pazopanib 800 mg/jour ou placebo pendant 52 semaines. Objectif : améliorer la survie sans maladie (SSM) à 3 ans de 25% à 45%.
+
+## 📊 Résultats clés
+Après suivi médian de 60,5 mois, SSM à 3 ans : 27,4% (pazopanib) vs 21,9% (placebo), HR=0,90 (IC 95% 0,60-1,34; p=0,29). Survie globale à 3 ans : 81,9% (pazopanib) vs 91,4% (placebo), HR=2,55 (IC 95% 1,23-5,27; p=0,012). Détérioration de la qualité de vie sous pazopanib.
+
+## 🩺 Impact clinique
+Le pazopanib n'améliore pas la SSM après métastasectomie dans le CCRm et montre une tendance préoccupante vers une survie globale inférieure. Ce traitement adjuvant n'est pas recommandé dans ce contexte.
+
+## 📖 Référence
+Appleman LJ, Kim SE, Harris WB, et al. J Clin Oncol. 2024;42(17):2061-2070.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO.23.01544.

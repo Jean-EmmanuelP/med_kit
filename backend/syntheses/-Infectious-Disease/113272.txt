@@ -1,0 +1,19 @@
+Date de publication : 2024-05-17
+
+# 📝 Bédaquiline-prétomanide-moxifloxacine-pyrazinamide pour le traitement de la tuberculose pulmonaire sensible et résistante
+
+## 📌 Contexte & Problématique
+Évaluation du régime BPaMZ (bédaquiline, prétomanide, moxifloxacine, pyrazinamide) comme traitement potentiellement plus court pour la tuberculose sensible (DS-TB) et résistante (DR-TB) aux médicaments.
+
+## 🧪 Méthodologie
+Essai de phase 2c, multicentrique, partiellement randomisé dans 8 pays. Comparaison de BPaMZ 4 mois versus traitement standard HRZE 6 mois pour DS-TB, et évaluation de BPaMZ 6 mois pour DR-TB. Critère primaire : délai jusqu'à négativation de la culture à 8 semaines.
+
+## 📊 Résultats clés
+À 8 semaines, 84% des patients DS-TB sous BPaMZ étaient négatifs versus 47% sous HRZE (HR=2,93; p<0,0001). Temps médian de négativation : 6 semaines (BPaMZ) contre 11 semaines (HRZE). Résultats favorables à 52 semaines : 83% (BPaMZ 4 mois) versus 93% (HRZE). Événements hépatiques sévères : 7% (BPaMZ) contre 1% (HRZE).
+
+## 🩺 Impact clinique
+BPaMZ montre une efficacité bactériologique supérieure mais n'atteint pas la non-infériorité à 52 semaines en raison d'effets indésirables hépatiques graves. La toxicité hépatique limite son implémentation dans les contextes à ressources limitées malgré son potentiel pour raccourcir le traitement.
+
+## 📖 Référence
+Cevik M, Thompson LC, Upton C, et al. Lancet Infect Dis. 2024;24(9):1003-1014.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S1473-3099(24)00223-8.

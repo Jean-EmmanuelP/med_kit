@@ -1,0 +1,19 @@
+Date de publication : 2025-02-01
+
+# 📝 Mammographie annuelle versus moins fréquente chez les patientes ≥50 ans après cancer du sein
+
+## 📌 Contexte & Problématique
+La fréquence optimale de surveillance mammographique post-cancer du sein reste débattue. Cette étude évalue si une surveillance moins fréquente est non-inférieure à la surveillance annuelle chez les femmes ≥50 ans.
+
+## 🧪 Méthodologie
+Essai randomisé multicentrique (n=5235) comparant mammographie annuelle versus moins fréquente (tous les 2 ans après chirurgie conservatrice; tous les 3 ans après mastectomie) chez des femmes ≥50 ans, sans récidive 3 ans après chirurgie. Suivi médian: 5,7 ans.
+
+## 📊 Résultats clés
+Survie spécifique au cancer du sein à 5 ans: 98,1% (groupe annuel) vs 98,3% (groupe moins fréquent); HR=0,92 [0,64-1,32], démontrant la non-infériorité (p<0,0001). Survie sans récidive à 5 ans: 94,1% vs 94,5%. Survie globale: 94,7% vs 94,5%.
+
+## 🩺 Impact clinique
+Une surveillance mammographique moins fréquente est non-inférieure à la surveillance annuelle pour les patientes ≥50 ans après 3 ans post-diagnostic, offrant une option de suivi efficace tout en réduisant potentiellement les coûts et la charge du système de santé.
+
+## 📖 Référence
+Dunn JA, Donnelly P, Elbeltagi N, et al. Lancet. 2025;405(10476):396-407.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S0140-6736(24)02715-6.

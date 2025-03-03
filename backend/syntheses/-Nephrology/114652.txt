@@ -1,0 +1,22 @@
+Date de publication : 2024-10-09
+
+# 📝 Interventions pour l'infection à virus BK chez les receveurs de greffe rénale
+
+## 📌 Contexte & Problématique
+La néphropathie associée au virus BK (NAVBK) reste un défi majeur en transplantation rénale. La réduction de l'immunosuppression est le traitement principal, mais aucun antiviral spécifique n'est disponible.
+
+## 🧪 Méthodologie
+Revue systématique de 12 ECR (2669 participants) évaluant diverses interventions contre l'infection BK chez les greffés rénaux. Suivi de 3 mois à 5 ans.
+
+## 📊 Résultats clés
+- Dépistage intensif: prévient la perte du greffon (RR 0,00) et réduit la virémie à 12 mois (RR 0,06)
+- Fluoroquinolones: possible réduction de perte du greffon (RR 0,37) mais risque accru de tendinite (RR 5,66)
+- Cyclosporine vs tacrolimus: diminution probable de la virémie BK (RR 0,61) et du diabète post-transplantation (RR 0,41)
+- Évérolimus: pourrait réduire la NAVBK vs mycophénolate sodique (RR 0,06)
+
+## 🩺 Impact clinique
+Le dépistage intensif du virus BK offre les bénéfices les plus clairs. La cyclosporine pourrait être préférable au tacrolimus pour réduire la virémie BK. Les inhibiteurs de mTOR pourraient avoir un rôle dans la réduction de la NAVBK.
+
+## 📖 Référence
+Wajih Z, Karpe KM, Walters GD. Interventions for BK virus infection in kidney transplant recipients. Cochrane Database Syst Rev. 2024;10(10):CD013344.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1002/14651858.CD013344.pub2.

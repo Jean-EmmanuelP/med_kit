@@ -1,0 +1,22 @@
+Date de publication : 2025-02-12
+
+# 📝 Risque d'AVC et d'infarctus associé aux contraceptifs hormonaux modernes
+
+## 📌 Contexte & Problématique
+Évaluation de l'association entre contraceptifs hormonaux contemporains et risque d'AVC ischémique et d'infarctus du myocarde chez les femmes en âge de procréer.
+
+## 🧪 Méthodologie
+Étude de cohorte prospective nationale danoise incluant 2 025 691 femmes (15-49 ans) suivies sur 22 209 697 personnes-années entre 1996 et 2021, sans antécédents thrombotiques ou comorbidités significatives.
+
+## 📊 Résultats clés
+- Contraception orale combinée : RR ajusté 2,0 pour AVC et infarctus (+21 AVC et +10 infarctus/100 000 personnes-années)
+- Pilules progestatives : RR ajusté 1,6 pour AVC et 1,5 pour infarctus (+15 AVC/100 000 personnes-années)
+- Risque accru avec anneau vaginal (RR 2,4 pour AVC; 3,8 pour infarctus), patch et implant
+- DIU au lévonorgestrel : aucun risque accru significatif (RR 1,1)
+
+## 🩺 Impact clinique
+Malgré des risques absolus faibles, les contraceptifs hormonaux (sauf DIU au lévonorgestrel) augmentent le risque thrombotique artériel. Ces données doivent être intégrées dans l'évaluation bénéfice-risque lors de la prescription contraceptive.
+
+## 📖 Référence
+Yonis H, Lokkegaard E, Kragholm K, et al. BMJ. 2025;388:e082801.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1136/bmj-2024-082801.

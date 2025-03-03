@@ -1,0 +1,19 @@
+Date de publication : 2024-06-25
+
+# 📝 Nivolumab périopératoire dans le carcinome rénal : résultats de l'étude PROSPER ECOG-ACRIN EA8143
+
+## 📌 Contexte & Problématique
+L'étude évalue l'efficacité du nivolumab périopératoire (avant et après néphrectomie) versus chirurgie seule chez les patients atteints de carcinome rénal à haut risque, où la surveillance post-néphrectomie constitue le standard actuel.
+
+## 🧪 Méthodologie
+Essai randomisé de phase 3 incluant 819 patients (404 nivolumab+chirurgie, 415 chirurgie seule) dans 183 centres nord-américains. Patients avec carcinome rénal non traité (stade ≥T2 ou N+) éligibles à la néphrectomie. Le groupe expérimental recevait 480mg de nivolumab préopératoire puis 9 doses adjuvantes.
+
+## 📊 Résultats clés
+Après suivi médian de 30 mois, aucune différence significative de survie sans récidive entre les groupes (HR=0,94; IC 95% 0,74-1,21; p=0,32). Événements indésirables de grade 3-5 plus fréquents dans le groupe nivolumab (48% vs 24%), avec 2% de décès liés au traitement versus 1% dans le groupe contrôle.
+
+## 🩺 Impact clinique
+Le nivolumab périopératoire n'améliore pas la survie sans récidive comparé à la chirurgie seule suivie d'une surveillance. L'approche standard de traitement demeure inchangée pour les carcinomes rénaux à haut risque.
+
+## 📖 Référence
+Allaf ME, Kim SE, Master V, et al. Lancet Oncol. 2024;25(8):1038-1052.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S1470-2045(24)00211-0.

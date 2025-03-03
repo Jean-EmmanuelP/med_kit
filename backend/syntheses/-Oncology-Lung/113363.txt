@@ -1,0 +1,19 @@
+Date de publication : 2024-08-20
+
+# 📝 Ivonescimab plus chimiothérapie dans le cancer du poumon non à petites cellules avec variant EGFR
+
+## 📌 Contexte & Problématique
+Options thérapeutiques limitées pour les patients atteints de cancer du poumon non à petites cellules (CPNPC) ayant progressé sous inhibiteurs de tyrosine kinase de l'EGFR, particulièrement de 3ème génération.
+
+## 🧪 Méthodologie
+Essai randomisé phase 3, double aveugle, contrôlé par placebo, mené en Chine (55 sites). 322 patients randomisés : ivonescimab+chimiothérapie (n=161) vs placebo+chimiothérapie (n=161). Critère principal : survie sans progression.
+
+## 📊 Résultats clés
+Survie sans progression médiane : 7,1 mois (ivonescimab) vs 4,8 mois (placebo) [HR=0,46; p<0,001]. Bénéfice observé dans presque tous les sous-groupes, notamment chez les patients ayant progressé sous EGFR-TKI de 3ème génération (HR=0,48) et ceux avec métastases cérébrales (HR=0,40). Taux de réponse objective : 50,6% vs 35,4% (p=0,006).
+
+## 🩺 Impact clinique
+L'ivonescimab associé à la chimiothérapie améliore significativement la survie sans progression avec un profil de sécurité acceptable, offrant une option thérapeutique prometteuse pour les CPNPC prétraités par EGFR-TKI.
+
+## 📖 Référence
+Fang W, Zhao Y, Luo Y, et al. JAMA. 2024;332(7):561-570.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jama.2024.10613.

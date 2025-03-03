@@ -1,0 +1,19 @@
+Date de publication : 2024-09-19
+
+# 📝 Radiothérapie stéréotaxique vs hypofractionnée pour le CPNPC de stade I inopérable
+
+## 📌 Contexte & Problématique
+La radiothérapie stéréotaxique corporelle (SBRT) est couramment utilisée pour le cancer du poumon non à petites cellules (CPNPC) de stade I inopérable, mais son efficacité comparée à la radiothérapie conventionnelle hypofractionnée (RTC) reste à clarifier.
+
+## 🧪 Méthodologie
+Essai randomisé (2:1) dans 16 centres canadiens incluant 233 patients (âge moyen: 75,4 ans) avec CPNPC stade I (≤5 cm). Groupe SBRT (n=154): 48 Gy/4 fractions (tumeurs périphériques) ou 60 Gy/8 fractions (tumeurs centrales). Groupe RTC (n=79): 60 Gy/15 fractions.
+
+## 📊 Résultats clés
+Contrôle local à 3 ans: 87,6% (SBRT) vs 81,2% (RTC); HR=0,61; p=0,15. Aucune différence significative en survie sans événement (HR=1,02; p=0,87) ou survie globale (HR=1,18; p=0,40). Toxicité tardive grade ≥3: 11% (tumeurs centrales) et 1,8% (tumeurs périphériques) avec SBRT; 5% et 2% avec RTC respectivement.
+
+## 🩺 Impact clinique
+L'étude ne démontre pas de supériorité significative de la SBRT sur la RTC pour le contrôle local. Les deux approches présentent des profils de toxicité acceptables, même pour les tumeurs centrales, offrant des options thérapeutiques valables pour ces patients.
+
+## 📖 Référence
+Swaminath A, Parpia S, Wierzbicki M, et al. JAMA Oncol. 2024;10(11):1571-1575.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamaoncol.2024.3089.

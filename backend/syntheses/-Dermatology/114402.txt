@@ -1,0 +1,19 @@
+Date de publication : 2024-09-19
+
+# 📝 Antagonistes des récepteurs de l'interleukine et inhibiteurs du TNF dans la prévention des maladies cardiovasculaires athéroscléreuses
+
+## 📌 Contexte & Problématique
+L'inflammation chronique aggrave les maladies cardiovasculaires athéroscléreuses (MCVA). Cette revue évalue l'efficacité des antagonistes des récepteurs de l'interleukine (AR-IL) et des inhibiteurs du TNF dans la prévention primaire et secondaire des MCVA.
+
+## 🧪 Méthodologie
+Revue systématique de 58 ECR (22 053 participants) comparant les AR-IL-1 (anakinra, canakinumab), AR-IL-6 (tocilizumab) et inhibiteurs du TNF (étanercept, infliximab) au placebo ou soins habituels. Recherche exhaustive dans les bases Cochrane, MEDLINE, Embase et registres d'essais jusqu'en février 2024.
+
+## 📊 Résultats clés
+Niveau de preuve faible à très faible pour tous les critères. En prévention primaire, les AR-IL-1 pourraient réduire l'insuffisance cardiaque (RR 0,21; IC 95% 0,05-0,94). Les AR-IL-6 et inhibiteurs du TNF pourraient augmenter les événements indésirables (RR 1,13; IC 95% 1,04-1,23 et RR 1,13; IC 95% 1,01-1,25 respectivement).
+
+## 🩺 Impact clinique
+Les preuves actuelles sont insuffisantes pour recommander ces traitements dans la prévention des MCVA. Tous les essais présentent un risque élevé de biais, limitant la fiabilité des conclusions.
+
+## 📖 Référence
+Marti-Carvajal AJ, Gemmato-Valecillos MA, Monge Martin D, et al. Cochrane Database Syst Rev. 2024;9(9):CD014741.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1002/14651858.CD014741.pub2.

@@ -1,0 +1,21 @@
+Date de publication : 2024-05-19
+
+# 📝 Apixaban vs Aspirine selon le score CHA₂DS₂-VASc dans la fibrillation atriale infra-clinique
+
+## 📌 Contexte & Problématique
+L'étude ARTESiA a montré que l'apixaban réduit les AVC/embolies systémiques mais augmente les saignements majeurs dans la fibrillation atriale infra-clinique. Cette analyse évalue l'équilibre bénéfice-risque selon le score CHA₂DS₂-VASc.
+
+## 🧪 Méthodologie
+Analyse en sous-groupes de 4012 patients selon leur score CHA₂DS₂-VASc (<4, =4, >4), comparant les différences relatives et absolues d'AVC/ES et de saignements majeurs.
+
+## 📊 Résultats clés
+Pour CHA₂DS₂-VASc >4 (27% des patients) : apixaban prévient 1,28 AVC/ES pour 100 patients-années vs 0,68 saignements majeurs supplémentaires.
+Pour CHA₂DS₂-VASc <4 (39,4%) : bénéfice minime (0,12 AVC/ES évités) pour 0,33 saignements majeurs supplémentaires.
+Pour CHA₂DS₂-VASc =4 (33,6%) : équilibre bénéfice-risque neutre.
+
+## 🩺 Impact clinique
+L'apixaban est bénéfique chez les patients à haut risque (CHA₂DS₂-VASc >4), défavorable chez ceux à risque plus faible (<4). Pour le score =4, les préférences du patient doivent guider la décision.
+
+## 📖 Référence
+Lopes RD, Granger CB, Wojdyla DM, et al. J Am Coll Cardiol. 2024;84(4):354-364.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.jacc.2024.05.002.

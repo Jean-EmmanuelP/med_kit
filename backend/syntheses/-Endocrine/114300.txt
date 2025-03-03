@@ -1,0 +1,19 @@
+Date de publication : 2024-09-10
+
+# 📝 Insuline hebdomadaire efsitora alfa versus insuline quotidienne degludec dans le diabète de type 1
+
+## 📌 Contexte & Problématique
+L'insuline efsitora alfa est une nouvelle insuline basale hebdomadaire. Cette étude évalue son efficacité et sa sécurité comparées à l'insuline degludec quotidienne chez des adultes diabétiques de type 1.
+
+## 🧪 Méthodologie
+Essai randomisé (1:1) de 52 semaines, ouvert, de non-infériorité, dans 82 centres mondiaux. 692 adultes diabétiques de type 1 (HbA1c 7,0-10,0%) ont reçu efsitora hebdomadaire (n=343) ou degludec quotidienne (n=349), associées à l'insuline lispro. Critère principal : variation d'HbA1c à 26 semaines.
+
+## 📊 Résultats clés
+Réduction d'HbA1c similaire : -0,51% (efsitora) vs -0,56% (degludec), différence 0,052% (IC 95% -0,077 à 0,181), confirmant la non-infériorité. Taux d'hypoglycémie (niveau 2/3) plus élevés avec efsitora (14,03 vs 11,59 événements/année-patient, ratio 1,21, p=0,016). Hypoglycémie sévère plus fréquente avec efsitora (10% vs 3%).
+
+## 🩺 Impact clinique
+L'insuline efsitora hebdomadaire offre une efficacité comparable à la degludec quotidienne, mais avec un risque accru d'hypoglycémie. Une optimisation du schéma d'initiation et d'ajustement des doses semble nécessaire pour améliorer son profil de sécurité.
+
+## 📖 Référence
+Bergenstal RM, Weinstock RS, Mathieu C, et al. Lancet. 2024;404(10458):1132-1142.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S0140-6736(24)01804-X.

@@ -1,0 +1,19 @@
+Date de publication : 2025-01-16
+
+# 📝 ENDOSCOPIE DE SURVEILLANCE DANS LES MICI : COMPARAISON DES TECHNIQUES DE DÉTECTION DES NÉOPLASIES
+
+## 📌 Contexte & Problématique
+L'avantage de la chromoendoscopie HD dans la détection des néoplasies colorectales chez les patients atteints de MICI pourrait être dû au temps d'inspection plus long plutôt qu'au contraste amélioré.
+
+## 🧪 Méthodologie
+Essai contrôlé randomisé multicentrique (n=563) comparant trois techniques chez des patients MICI en surveillance : endoscopie à lumière blanche HD avec ré-inspection segmentaire, chromoendoscopie HD, et endoscopie à lumière blanche HD à passage unique (ratio 2:2:1).
+
+## 📊 Résultats clés
+Taux de détection des néoplasies : 10,3% pour la ré-inspection segmentaire vs 13,1% pour la chromoendoscopie (non-infériorité démontrée, Δ-2,8%, p<0,01) vs 6,1% pour le passage unique. Nombre de néoplasies détectées par 10 minutes similaire entre ré-inspection et chromoendoscopie (0,062 vs 0,058, p=0,83).
+
+## 🩺 Impact clinique
+La ré-inspection segmentaire en lumière blanche HD constitue une alternative efficace à la chromoendoscopie pour la surveillance des MICI, suggérant que le temps d'inspection est plus déterminant que la technique de coloration.
+
+## 📖 Référence
+Te Groen M, Wijnands AM, den Broeder N, et al. Gut. 2025 Jan 16:gutjnl-2024-333446.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1136/gutjnl-2024-333446.

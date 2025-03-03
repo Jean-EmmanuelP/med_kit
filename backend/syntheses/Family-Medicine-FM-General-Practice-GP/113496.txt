@@ -1,0 +1,23 @@
+Date de publication : 2024-09-01
+
+# 📝 Nirmatrelvir-Ritonavir pour les symptômes du COVID long : essai STOP-PASC
+
+## 📌 Contexte & Problématique
+Le COVID long (SPSC) nécessite des traitements efficaces. Cette étude évalue l'efficacité du nirmatrelvir-ritonavir sur les symptômes persistants post-COVID.
+
+## 🧪 Méthodologie
+Essai randomisé contrôlé (2:1) à Stanford comparant nirmatrelvir-ritonavir (NMV/r) versus placebo-ritonavir (PBO/r) pendant 15 jours chez 155 adultes avec SPSC persistant ≥3 mois. Âge médian: 43 ans; 59% de femmes; durée moyenne des symptômes: 17,5 mois; 153 participants vaccinés.
+
+## 📊 Résultats clés
+Aucune différence significative entre NMV/r et placebo à 10 semaines concernant:
+- Sévérité des 6 symptômes principaux (fatigue, brouillard cérébral, essoufflement, douleurs, symptômes GI et cardiovasculaires)
+- Scores d'impression globale de sévérité/changement
+- Mesures PROMIS (fatigue, dyspnée, fonction cognitive/physique)
+Profil de sécurité similaire entre les groupes.
+
+## 🩺 Impact clinique
+Un traitement de 15 jours par nirmatrelvir-ritonavir s'avère sûr mais inefficace pour améliorer les symptômes du COVID long chez des patients majoritairement vaccinés avec symptômes prolongés.
+
+## 📖 Référence
+Geng LN, Bonilla H, Hedlin H, et al. JAMA Intern Med. 2024;184(9):1024-1034.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamainternmed.2024.2007.

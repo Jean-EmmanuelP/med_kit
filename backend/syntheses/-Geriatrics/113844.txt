@@ -1,0 +1,19 @@
+Date de publication : 2024-07-12
+
+# 📝 Supplémentation en vitamine D et incidence des fractures chez les personnes âgées en bonne santé
+
+## 📌 Contexte & Problématique
+L'efficacité de la supplémentation en vitamine D pour prévenir les fractures chez les personnes âgées en bonne santé reste controversée malgré son rôle établi dans le métabolisme osseux.
+
+## 🧪 Méthodologie
+Méta-analyse de 7 essais contrôlés randomisés comparant la supplémentation en vitamine D versus placebo chez 71 899 personnes âgées de ≥60 ans sans pathologies osseuses. Recherche systématique dans PubMed, Embase et Cochrane jusqu'à novembre 2023.
+
+## 📊 Résultats clés
+Aucune différence significative dans l'incidence totale des fractures (RR 1,03; IC 95% 0,93-1,14; p=0,56). Risque accru de fractures de la hanche chez les femmes (164 vs 121 événements; RR 1,34; IC 95% 1,06-1,70; p=0,01). Pas de différence pour les fractures non vertébrales, ostéoporotiques ou les chutes.
+
+## 🩺 Impact clinique
+La supplémentation en vitamine D ne réduit pas le risque global de fractures et pourrait augmenter l'incidence des fractures de la hanche chez les femmes âgées. Il convient d'éviter les doses intermittentes élevées sans calcium chez les personnes âgées au statut vitaminique D inconnu.
+
+## 📖 Référence
+de Souza MM, Moraes Dantas RL, Leao Duraes V, et al. J Gen Intern Med. 2024;39(14):2829-2836.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1007/s11606-024-08933-1.

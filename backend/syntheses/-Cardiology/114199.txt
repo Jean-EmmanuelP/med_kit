@@ -1,0 +1,19 @@
+Date de publication : 2024-09-01
+
+# 📝 FINÉRÉNONE DANS L'INSUFFISANCE CARDIAQUE À FRACTION D'ÉJECTION LÉGÈREMENT RÉDUITE OU PRÉSERVÉE
+
+## 📌 Contexte & Problématique
+L'efficacité des antagonistes des minéralocorticoïdes n'est pas établie dans l'insuffisance cardiaque à fraction d'éjection légèrement réduite ou préservée (FEVG ≥40%). La finérénone, antagoniste non stéroïdien, nécessitait une évaluation dans cette population.
+
+## 🧪 Méthodologie
+Essai international randomisé en double aveugle comparant finérénone (20-40 mg/jour) versus placebo chez des patients avec FEVG ≥40%. Critère principal composite : événements d'aggravation de l'insuffisance cardiaque et décès cardiovasculaires.
+
+## 📊 Résultats clés
+Après 32 mois de suivi médian, le groupe finérénone a présenté moins d'événements du critère principal (1083 vs 1283; ratio 0,84; IC 95% 0,74-0,95; p=0,007). Les événements d'aggravation de l'insuffisance cardiaque étaient réduits (842 vs 1024; ratio 0,82; p=0,006). La mortalité cardiovasculaire était similaire (8,1% vs 8,7%). Plus d'hyperkaliémie mais moins d'hypokaliémie sous finérénone.
+
+## 🩺 Impact clinique
+La finérénone réduit significativement les événements d'aggravation de l'insuffisance cardiaque chez les patients avec FEVG ≥40%, offrant une nouvelle option thérapeutique pour cette population avec surveillance du potassium.
+
+## 📖 Référence
+Solomon SD, McMurray JJV, Vaduganathan M, et al. Finerenone in Heart Failure with Mildly Reduced or Preserved Ejection Fraction. N Engl J Med. 2024;391(16):1475-1485.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2407107.

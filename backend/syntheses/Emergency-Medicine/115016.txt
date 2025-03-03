@@ -1,0 +1,19 @@
+Date de publication : 2024-11-14
+
+# 📝 Consensus International 2024 sur la Réanimation Cardiopulmonaire : Synthèse des Recommandations
+
+## 📌 Contexte & Problématique
+Huitième résumé annuel du Consensus ILCOR sur la réanimation cardiopulmonaire et soins cardiovasculaires d'urgence, actualisant les données scientifiques récentes en réanimation.
+
+## 🧪 Méthodologie
+Analyse systématique des preuves par six groupes de travail spécialisés (support vital de base, avancé, pédiatrique, néonatal, éducation/implémentation/équipes, premiers secours). Évaluation selon critères GRADE avec délibérations consensuelles.
+
+## 📊 Résultats clés
+Recommandations basées sur les dernières preuves scientifiques publiées depuis la revue complète de 2020. Chaque recommandation est accompagnée de justifications détaillées et d'un cadre d'évaluation des preuves.
+
+## 🩺 Impact clinique
+Fournit aux cliniciens des recommandations actualisées pour optimiser les pratiques de réanimation. Identifie les lacunes prioritaires pour orienter les futures recherches dans chaque domaine de la réanimation.
+
+## 📖 Référence
+Greif R, Bray JE, Djarv T, et al. 2024 International Consensus on Cardiopulmonary Resuscitation and Emergency Cardiovascular Care Science With Treatment Recommendations. Circulation. 2024;150(24):e580-e687.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1161/CIR.0000000000001288.

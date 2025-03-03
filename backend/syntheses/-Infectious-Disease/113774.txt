@@ -1,0 +1,19 @@
+Date de publication : 2024-07-17
+
+# 📝 Séquelles post-aiguës du SARS-CoV-2 selon les variants (pré-Delta, Delta et Omicron)
+
+## 📌 Contexte & Problématique
+Les séquelles post-aiguës de l'infection par SARS-CoV-2 (PASC) affectent plusieurs systèmes organiques. L'évolution du risque et de la charge des PASC au cours de la pandémie restait incertaine.
+
+## 🧪 Méthodologie
+Étude rétrospective sur 441 583 vétérans américains infectés par SARS-CoV-2 (mars 2020-janvier 2022) et 4 748 504 témoins non infectés. Évaluation de l'incidence cumulée des PASC un an après l'infection.
+
+## 📊 Résultats clés
+Chez les non-vaccinés, l'incidence des PASC à un an était de 10,42/100 personnes (pré-Delta), 9,51/100 (Delta) et 7,76/100 (Omicron). Chez les vaccinés : 5,34/100 (Delta) et 3,50/100 (Omicron). La vaccination a réduit l'incidence des PASC de 4,18/100 personnes pendant Delta et 4,26/100 pendant Omicron. La diminution globale était attribuable à 28,11% aux effets liés à la période et 71,89% à la vaccination.
+
+## 🩺 Impact clinique
+Malgré une diminution progressive de l'incidence des PASC, le risque reste significatif même chez les vaccinés infectés pendant la période Omicron, justifiant une vigilance clinique continue.
+
+## 📖 Référence
+Xie Y, Choi T, Al-Aly Z. Postacute Sequelae of SARS-CoV-2 Infection in the Pre-Delta, Delta, and Omicron Eras. N Engl J Med. 2024;391(6):515-525.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2403211.

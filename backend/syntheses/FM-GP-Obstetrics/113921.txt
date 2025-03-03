@@ -1,0 +1,19 @@
+Date de publication : 2024-07-30
+
+# 📝 Supplémentation en vitamine D pendant la grossesse : impacts sur les résultats maternels et néonatals
+
+## 📌 Contexte & Problématique
+La vitamine D pendant la grossesse pourrait améliorer les résultats maternels et néonatals. Cette revue Cochrane évalue l'efficacité et la sécurité de cette supplémentation seule ou combinée.
+
+## 🧪 Méthodologie
+Revue systématique de 10 essais randomisés (après retrait de 20 études pour fiabilité insuffisante). Comparaison de la vitamine D seule ou combinée versus placebo/absence d'intervention. Évaluation GRADE des preuves.
+
+## 📊 Résultats clés
+Vitamine D seule (8 études, 2313 femmes) : réduction possible de l'hémorragie post-partum sévère (RR 0,68 [0,51-0,91]) et du faible poids de naissance (RR 0,69 [0,44-1,08]). Preuves très incertaines pour pré-éclampsie, diabète gestationnel et prématurité. Niveau de preuve faible à très faible pour tous les résultats.
+
+## 🩺 Impact clinique
+La supplémentation en vitamine D pourrait réduire l'hémorragie post-partum sévère et le faible poids de naissance, mais les preuves restent limitées. Les bénéfices sur d'autres complications obstétricales demeurent incertains.
+
+## 📖 Référence
+Palacios C, Kostiuk LL, Cuthbert A, et al. Vitamin D supplementation for women during pregnancy. Cochrane Database Syst Rev. 2024;7(7):CD008873.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1002/14651858.CD008873.pub5.

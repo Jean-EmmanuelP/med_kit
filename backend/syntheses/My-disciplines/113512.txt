@@ -1,0 +1,19 @@
+Date de publication : 2024-06-11
+
+# 📝 CHIMIOTHÉRAPIE TRIPLET NÉOADJUVANTE POUR LE CANCER DE L'ŒSOPHAGE LOCALEMENT AVANCÉ
+
+## 📌 Contexte & Problématique
+Le pronostic du carcinome épidermoïde de l'œsophage (CEO) localement avancé reste défavorable malgré les traitements néoadjuvants standards. Cette étude évalue si une intensification thérapeutique améliorerait les résultats.
+
+## 🧪 Méthodologie
+Essai randomisé de phase 3 incluant 601 patients japonais (20-75 ans) avec CEO localement avancé, comparant trois approches néoadjuvantes : chimiothérapie doublet (NeoCF), triplet (NeoCF+D), ou doublet plus radiothérapie (NeoCF+RT), suivies d'œsophagectomie.
+
+## 📊 Résultats clés
+Après suivi médian de 50,7 mois, la survie globale à 3 ans était significativement supérieure avec NeoCF+D vs NeoCF (72,1% contre 62,6%; HR 0,68; p=0,006). NeoCF+RT n'a pas montré d'amélioration significative (68,3%; HR 0,84; p=0,12). Neutropénie fébrile plus fréquente avec NeoCF+D (16%) qu'avec NeoCF (1%) ou NeoCF+RT (5%).
+
+## 🩺 Impact clinique
+La chimiothérapie triplet néoadjuvante suivie d'œsophagectomie représente potentiellement un nouveau standard pour les patients japonais atteints de CEO localement avancé avec bon état général.
+
+## 📖 Référence
+Kato K, Machida R, Ito Y, et al. Lancet. 2024;404(10447):55-66.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S0140-6736(24)00745-1.

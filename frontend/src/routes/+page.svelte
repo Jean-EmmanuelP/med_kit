@@ -75,7 +75,14 @@
 
 <main class="relative flex min-h-screen flex-col">
 	<!-- Hero Section avec vidéo -->
-	<div class="relative flex-auto md:max-h-[60vh] overflow-hidden">
+	<div class="relative flex-auto overflow-hidden bg-black md:max-h-[60vh]">
+		<!-- Fallback image behind the video -->
+		<img
+			src="/image/imagefromKaltura.png"
+			alt="Fallback image for hero section"
+			class="absolute inset-0 h-full w-full object-cover"
+		/>
+		<!-- Video -->
 		<video
 			bind:this={videoElement}
 			class="absolute inset-0 h-full w-full object-cover"
@@ -93,7 +100,7 @@
 		<!-- Bouton Play/Pause -->
 		<button
 			on:click={togglePlay}
-			class="absolute top-[10%] right-[1%] z-20 -translate-x-1/2 -translate-y-1/2 transform text-white"
+			class="absolute top-[10%] right-[1%] z-20 transform text-white"
 			aria-label={isPlaying ? 'Pause' : 'Play'}
 		>
 			{#if isPlaying}
@@ -122,7 +129,7 @@
 						stroke-linejoin="round"
 						stroke-width="1"
 						d="M9 5l10 7-10 7V5z"
-					></path>
+					/>
 				</svg>
 			{/if}
 		</button>
@@ -131,9 +138,9 @@
 		<div
 			class="absolute bottom-[10%] left-[4%] z-10 flex w-full transform flex-col space-y-6 md:left-[19%] md:flex-col"
 		>
-			<div class="flex flex-col md:gap-6 gap-2 max-w-[90%] text-white">
+			<div class="flex max-w-[90%] flex-col gap-2 text-white md:gap-6">
 				<h1
-					class="font-display font-thin text-4xl tracking-tight drop-shadow-lg md:text-5xl lg:text-6xl"
+					class="font-display text-4xl font-thin tracking-tight drop-shadow-lg md:text-5xl lg:text-6xl"
 				>
 					{$i18n.home.hero.title}
 				</h1>
@@ -142,12 +149,12 @@
 				</p>
 			</div>
 
-			<!-- Bouton en haut à droite -->
+			<!-- Bouton -->
 			<div>
 				{#if !$userProfileStore}
 					<a
 						href="/signup"
-						class="font-sans-bold inline-block w-[90%] text-center rounded-full border-2 border-white py-3 text-base font-medium text-white transition-colors duration-200 hover:bg-white hover:text-black md:w-fit md:px-6 md:text-lg"
+						class="font-sans-bold inline-block w-[90%] rounded-full border-2 border-white py-3 text-center text-base font-medium text-white transition-colors duration-200 hover:bg-white hover:text-black md:w-fit md:px-6 md:text-lg"
 					>
 						{$i18n.home.hero.signup}
 					</a>

@@ -1,0 +1,19 @@
+Date de publication : 2024-09-01
+
+# 📝 Stratégie invasive versus conservatrice chez les patients âgés avec infarctus du myocarde sans sus-décalage ST
+
+## 📌 Contexte & Problématique
+L'approche optimale (invasive ou conservatrice) pour les patients âgés avec NSTEMI reste incertaine, particulièrement chez les patients fragiles ou avec comorbidités.
+
+## 🧪 Méthodologie
+Essai randomisé multicentrique britannique incluant 1518 patients ≥75 ans avec NSTEMI (âge moyen 82 ans, 45% femmes, 32% fragiles). Comparaison entre stratégie conservatrice (traitement médical seul) et stratégie invasive (coronarographie et revascularisation plus traitement médical).
+
+## 📊 Résultats clés
+Sur 4,1 ans de suivi médian, le critère composite principal (décès cardiovasculaire ou infarctus non fatal) est survenu chez 25,6% des patients du groupe invasif contre 26,3% du groupe conservateur (HR 0,94; IC 95% 0,77-1,14; p=0,53). L'infarctus non fatal était moins fréquent dans le groupe invasif (11,7% vs 15,0%; HR 0,75; IC 95% 0,57-0,99). Complications procédurales <1%.
+
+## 🩺 Impact clinique
+Chez les personnes âgées avec NSTEMI, une stratégie invasive n'offre pas d'avantage significatif sur le critère composite par rapport à une approche conservatrice, malgré une réduction des infarctus non fatals.
+
+## 📖 Référence
+Kunadian V, Mossop H, Shields C, et al. Invasive Treatment Strategy for Older Patients with Myocardial Infarction. N Engl J Med. 2024;391(18):1673-1684.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2407791.

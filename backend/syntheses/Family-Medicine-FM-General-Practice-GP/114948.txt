@@ -1,0 +1,23 @@
+Date de publication : 2024-11-18
+
+# 📝 Efficacité du fézolinétant pour les symptômes vasomoteurs ménopausiques chez les patientes non éligibles à l'hormonothérapie
+
+## 📌 Contexte & Problématique
+Évaluation du fézolinétant, antagoniste non hormonal des récepteurs de la neurokinine 3, pour traiter les symptômes vasomoteurs modérés à sévères chez les femmes ménopausées non éligibles à l'hormonothérapie.
+
+## 🧪 Méthodologie
+Essai randomisé de phase 3b incluant 453 femmes (40-65 ans) dans 16 pays. Traitement: fézolinétant 45 mg/jour (n=227) versus placebo (n=226) pendant 24 semaines.
+
+## 📊 Résultats clés
+À 24 semaines, le fézolinétant a significativement réduit:
+- Fréquence des symptômes vasomoteurs (différence -1,93; IC 95% -2,64 à -1,22; p<0,001)
+- Sévérité des symptômes (-0,39; IC 95% -0,57 à -0,21; p<0,001)
+- Troubles du sommeil (score PROMIS SD-SF 8b: -2,5; IC 95% -3,9 à -1,1; p<0,001)
+Profil d'effets indésirables comparable au placebo (65,0% vs 61,1%).
+
+## 🩺 Impact clinique
+Le fézolinétant représente une alternative efficace et bien tolérée pour les patientes présentant des contre-indications à l'hormonothérapie ou refusant ce traitement.
+
+## 📖 Référence
+Schaudig K, Wang X, Bouchard C, et al. BMJ. 2024;387:e079525.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1136/bmj-2024-079525.

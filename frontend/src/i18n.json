@@ -86,7 +86,9 @@
       "articles": "Les articles",
       "account": "Compte",
       "login": "Se connecter",
-      "signup": "S'inscrire"
+      "signup": "S'inscrire",
+      "settings": "Paramètres",
+      "logout": "Déconnexion"
     },
     "articles": {
       "title": "Les articles"

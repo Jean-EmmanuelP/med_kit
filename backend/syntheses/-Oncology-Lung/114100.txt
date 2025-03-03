@@ -1,0 +1,19 @@
+Date de publication : 2024-08-16
+
+# 📝 Efficacité des inhibiteurs de point de contrôle immunitaire après échec des ITK-EGFR dans le CBNPC muté EGFR
+
+## 📌 Contexte & Problématique
+Les bénéfices des inhibiteurs de point de contrôle immunitaire (ICI) chez les patients avec CBNPC muté EGFR après progression sous ITK-EGFR restent controversés.
+
+## 🧪 Méthodologie
+Revue systématique et méta-analyse (simple, par paires et en réseau) de 32 essais cliniques (17 à bras unique, 15 randomisés) incluant 2886 patients et évaluant sept stratégies thérapeutiques à base d'ICI.
+
+## 📊 Résultats clés
+La monothérapie par ICI a réduit la survie sans progression comparée à la chimiothérapie (HR 1,73 [1,30-2,29]). L'association ICI-antiangiogénèse-chimiothérapie a montré la meilleure efficacité (HR 0,54 [0,44-0,67] vs chimiothérapie), suivie par ICI-chimiothérapie (HR 0,77 [0,67-0,88]). L'ICI-antiangio-chimio était supérieur à toutes les autres stratégies mais avec une toxicité accrue.
+
+## 🩺 Impact clinique
+L'association ICI-antiangiogénèse-chimiothérapie représente l'option thérapeutique optimale pour ces patients réfractaires, avec un profil de toxicité acceptable nécessitant une surveillance attentive. L'association ICI-chimiothérapie constitue une alternative efficace.
+
+## 📖 Référence
+Zhao Y, He Y, Wang W, et al. Lancet Oncol. 2024;25(10):1347-1356.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S1470-2045(24)00379-6.

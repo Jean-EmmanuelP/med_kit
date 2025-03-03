@@ -1,0 +1,22 @@
+Date de publication : 2024-12-01
+
+# 📝 Vitamine K2 dans la gestion des crampes nocturnes des jambes : un essai clinique randomisé
+
+## 📌 Contexte & Problématique
+Absence de traitement sûr et efficace pour les crampes nocturnes des jambes (CNJ), problème fréquent chez les personnes âgées.
+
+## 🧪 Méthodologie
+Essai randomisé multicentrique en double aveugle (Chine, 2022-2023) comparant vitamine K2 (ménaquinone 7, 180 µg/jour) versus placebo pendant 8 semaines chez 199 participants ≥65 ans (âge moyen 72,3 ans) souffrant de CNJ.
+
+## 📊 Résultats clés
+- Réduction significative de la fréquence hebdomadaire des crampes : 0,96 vs 3,63 (différence -2,67; p<0,001)
+- Diminution plus importante de la sévérité dans le groupe K2 (-2,55 vs -1,24 points)
+- Réduction supérieure de la durée des crampes (-0,90 vs -0,32 minutes)
+- Aucun événement indésirable lié à la vitamine K2
+
+## 🩺 Impact clinique
+La supplémentation en vitamine K2 réduit significativement la fréquence, l'intensité et la durée des CNJ chez les personnes âgées avec un excellent profil de sécurité.
+
+## 📖 Référence
+Tan J, Zhu R, Li Y, et al. Vitamin K2 in Managing Nocturnal Leg Cramps: A Randomized Clinical Trial. JAMA Intern Med. 2024;184(12):1443-1447.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamainternmed.2024.5726.

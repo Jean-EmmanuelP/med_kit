@@ -1,0 +1,19 @@
+Date de publication : 2024-05-09
+
+# 📝 Précision diagnostique de l'échographie pour le dépistage des anomalies fœtales structurelles
+
+## 📌 Contexte & Problématique
+L'échographie prénatale est essentielle pour dépister les anomalies fœtales. Traditionnellement réalisée au deuxième trimestre, l'échographie du premier trimestre gagne en popularité pour la détection précoce d'anomalies graves.
+
+## 🧪 Méthodologie
+Revue systématique incluant 87 études (7 057 859 fœtus dont 25 202 avec anomalies). Comparaison de l'approche à étape unique (échographie au 2e trimestre) versus approche à deux étapes (1er et 2e trimestres).
+
+## 📊 Résultats clés
+L'échographie du 1er trimestre présente une sensibilité de 37,5% pour toutes anomalies mais 91,3% pour les anomalies létales (spécificité: 99,9%). Le dépistage à deux étapes offre une sensibilité de 83,8% versus 50,5% pour l'approche unique, avec spécificités comparables (99,9% vs 99,8%).
+
+## 🩺 Impact clinique
+Le dépistage à deux étapes permet d'identifier 592 anomalies supplémentaires pour 100 000 fœtus, avec 88 faux positifs en moins comparé à l'approche unique. L'échographie précoce détecte efficacement les anomalies létales, permettant une prise en charge plus précoce.
+
+## 📖 Référence
+Buijtendijk MF, Bet BB, Leeflang MM, et al. Cochrane Database Syst Rev. 2024;5(5):CD014715.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1002/14651858.CD014715.pub2.

@@ -1,0 +1,19 @@
+Date de publication : 2024-02-03
+
+# 📝 Cathétérisation veineuse centrale guidée par échographie : quelle approche privilégier ?
+
+## 📌 Contexte & Problématique
+Plusieurs approches échoguidées existent pour la cathétérisation veineuse centrale (CVC) : veine jugulaire interne (VJI), sous-clavière supraclaviculaire (VSC-Supra) ou infraclaviculaire (VSC-Infra), axillaire proximale (VA-Proxi) ou distale (VA-Distale). Leur efficacité comparative reste débattue.
+
+## 🧪 Méthodologie
+Méta-analyse en réseau de 13 essais contrôlés randomisés (4418 participants) comparant 5 approches de CVC échoguidée. Recherche dans Embase, MEDLINE, CENTRAL et registres d'essais cliniques jusqu'en mai 2023.
+
+## 📊 Résultats clés
+L'approche VSC-Supra présente le meilleur taux de réussite au premier passage comparée aux autres approches (RR>1,21). Supérieure à la VJI (RR 1,22; IC95% 1,06-1,40), tandis que l'approche VA-Distale montre les résultats les moins favorables (RR 0,72; IC95% 0,59-0,87 vs VJI). Pas de différence significative concernant les ponctions artérielles.
+
+## 🩺 Impact clinique
+L'approche supraclaviculaire de la veine sous-clavière pourrait devenir l'approche de choix pour les CVC échoguidées, offrant le meilleur compromis entre succès technique et sécurité.
+
+## 📖 Référence
+Imai E, Kataoka Y, Watanabe J, et al. Am J Emerg Med. 2024;78:206-214.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.ajem.2024.01.043.

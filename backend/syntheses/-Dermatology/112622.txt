@@ -1,0 +1,23 @@
+Date de publication : 2024-03-11
+
+# 📝 Pansements hydrogel pour ulcères du pied diabétique : supériorité démontrée
+
+## 📌 Contexte & Problématique
+Évaluation comparative de l'efficacité des pansements hydrogel versus pansements conventionnels dans le traitement des ulcères du pied diabétique (UPD).
+
+## 🧪 Méthodologie
+Revue systématique et méta-analyse de 15 essais contrôlés randomisés (872 patients) identifiés dans six bases de données jusqu'en janvier 2023. Analyse par modèles à effets fixes/aléatoires avec calcul des rapports de cotes et différences moyennes.
+
+## 📊 Résultats clés
+Les pansements hydrogel ont démontré:
+- Amélioration significative du taux de guérison (OR 4,09; IC 95% 2,83-5,91)
+- Réduction du temps de cicatrisation (-11,38 jours; IC 95% -13,11 à -9,66)
+- Meilleure formation de tissu de granulation (DM -3,60; IC 95% -4,21 à -3,00)
+- Diminution des infections bactériennes (OR 0,10; IC 95% 0,05-0,18)
+
+## 🩺 Impact clinique
+Les pansements hydrogel constituent une option thérapeutique supérieure pour la prise en charge des UPD, avec des bénéfices significatifs sur la cicatrisation et la prévention des complications infectieuses.
+
+## 📖 Référence
+Zhao H, Wu Y, Xie Y, et al. Hydrogel dressings for diabetic foot ulcer: A systematic review and meta-analysis. Diabetes Obes Metab. 2024;26(6):2305-2317.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1111/dom.15544.

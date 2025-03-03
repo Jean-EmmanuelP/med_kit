@@ -1,0 +1,19 @@
+Date de publication : 2024-03-11
+
+# 📝 Biofeedback guidé par le mouvement thoracoabdominal pour traiter la distension abdominale
+
+## 📌 Contexte & Problématique
+La distension abdominale dans les troubles de l'interaction intestin-cerveau résulte d'une dyssynergie abdominophrénique. Cette étude évalue l'efficacité d'une technique de biofeedback basée sur les mouvements thoracoabdominaux.
+
+## 🧪 Méthodologie
+Essai randomisé contrôlé incluant 42 patients (36 femmes, 6 hommes) souffrant de distension abdominale post-prandiale. Le groupe biofeedback (n=19) a reçu une visualisation des mouvements thoracoabdominaux mesurés par pléthysmographie d'inductance, avec apprentissage de la mobilisation diaphragmatique. Le groupe contrôle a reçu un placebo. Trois séances sur 4 semaines, avec exercices quotidiens.
+
+## 📊 Résultats clés
+Le groupe biofeedback a montré une correction significative de la dyssynergie abdominophrénique : diminution de l'activité intercostale (82%), augmentation de l'activité abdominale antérieure (97%), réduction de la circonférence abdominale (108%) et diminution des scores de distension (66%). Aucun effet similaire dans le groupe placebo (p<0,002).
+
+## 🩺 Impact clinique
+Cette technique simple de biofeedback corrige efficacement la dyssynergie abdominophrénique et réduit la distension abdominale chez les patients avec troubles de l'interaction intestin-cerveau.
+
+## 📖 Référence
+Barba E, Livovsky DM, Accarino A, et al. Gastroenterology. 2024;167(3):538-546.e1.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1053/j.gastro.2024.03.005.

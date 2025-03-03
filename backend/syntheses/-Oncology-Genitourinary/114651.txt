@@ -1,0 +1,19 @@
+Date de publication : 2024-10-11
+
+# 📝 Nivolumab adjuvant dans le carcinome urothélial muscle-invasif à haut risque : efficacité étendue de CheckMate 274
+
+## 📌 Contexte & Problématique
+Le carcinome urothélial muscle-invasif (CUMI) présente un risque élevé de récidive après résection radicale. L'étude CheckMate 274 a évalué l'efficacité du nivolumab adjuvant dans cette indication.
+
+## 🧪 Méthodologie
+Essai de phase III randomisé, double aveugle, comparant nivolumab adjuvant versus placebo chez des patients avec CUMI à haut risque après résection. Analyse après un suivi médian de 36,1 mois, incluant données de survie globale et sous-analyse des tumeurs vésicales primaires.
+
+## 📊 Résultats clés
+Bénéfice confirmé en survie sans maladie avec nivolumab : HR=0,71 (IC95%:0,58-0,86) dans la population globale et HR=0,52 (IC95%:0,37-0,72) chez les PD-L1≥1%. Survie globale améliorée : HR=0,76 (IC95%:0,61-0,96) en population globale et HR=0,56 (IC95%:0,36-0,86) chez les PD-L1≥1%. Aucun nouveau signal de sécurité identifié.
+
+## 🩺 Impact clinique
+Ces résultats confirment le nivolumab adjuvant comme standard de soins pour le CUMI à haut risque après résection radicale, avec un bénéfice particulièrement marqué chez les patients PD-L1≥1%.
+
+## 📖 Référence
+Galsky MD, Witjes JA, Gschwend JE, et al. J Clin Oncol. 2025 Jan;43(1):15-21.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO.24.00340.

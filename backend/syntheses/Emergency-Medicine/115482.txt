@@ -1,0 +1,19 @@
+Date de publication : 2025-01-13
+
+# 📝 Traitement antiviral de la grippe non sévère : méta-analyse en réseau
+
+## 📌 Contexte & Problématique
+L'antiviral optimal pour traiter la grippe non sévère reste incertain, nécessitant une comparaison rigoureuse des options disponibles.
+
+## 🧪 Méthodologie
+Méta-analyse en réseau de 73 essais cliniques randomisés (34 332 participants) comparant différents antiviraux contre la grippe non sévère. Recherche systématique dans 7 bases de données jusqu'en septembre 2023.
+
+## 📊 Résultats clés
+Aucun antiviral n'a montré d'effet significatif sur la mortalité (haute certitude). Le baloxavir pourrait réduire l'hospitalisation chez les patients à haut risque (DR -1,6%, IC95% -2,0 à 0,4; faible certitude) et raccourcit probablement la durée des symptômes (-1,02 jour; certitude modérée) sans augmenter les effets indésirables (DR -3,2%; haute certitude). L'oseltamivir a peu d'effet sur l'hospitalisation mais augmente probablement les effets indésirables (DR 2,8%; certitude modérée).
+
+## 🩺 Impact clinique
+Le baloxavir apparaît comme l'option préférentielle pour la grippe non sévère, particulièrement chez les patients à haut risque, offrant un meilleur rapport bénéfice-risque que les autres antiviraux.
+
+## 📖 Référence
+Gao Y, Zhao Y, Liu M, et al. Antiviral Medications for Treatment of Nonsevere Influenza: A Systematic Review and Network Meta-Analysis. JAMA Intern Med. 2025;[Epub ahead of print].
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamainternmed.2024.7193.

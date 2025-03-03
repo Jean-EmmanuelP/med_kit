@@ -1,0 +1,19 @@
+Date de publication : 2024-06-23
+
+# 📝 Sémaglutide et classe NYHA dans l'ICFEp liée à l'obésité
+
+## 📌 Contexte & Problématique
+L'étude STEP-HFpEF a démontré les bénéfices du sémaglutide sur les symptômes et la fonction physique dans l'insuffisance cardiaque à fraction d'éjection préservée (ICFEp) liée à l'obésité. Cette analyse évalue spécifiquement son impact sur la classe fonctionnelle NYHA.
+
+## 🧪 Méthodologie
+Analyse préspécifiée de deux essais randomisés regroupant 1 145 patients avec ICFEp liée à l'obésité, recevant sémaglutide 2,4 mg hebdomadaire ou placebo pendant 52 semaines.
+
+## 📊 Résultats clés
+Plus de patients sous sémaglutide ont connu une amélioration de leur classe NYHA (32,6% vs 21,5%; OR: 2,20; p<0,001) et moins ont présenté une détérioration (2,09% vs 5,24%; OR: 0,36; p=0,003). L'amélioration du score KCCQ-CCS était plus marquée chez les patients NYHA III/IV (+10,5 points) que NYHA II (+6,0 points). La perte de poids était similaire dans toutes les classes NYHA (-8,3% à -8,4%).
+
+## 🩺 Impact clinique
+Le sémaglutide améliore significativement la classe fonctionnelle NYHA, avec des bénéfices particulièrement importants chez les patients les plus symptomatiques (NYHA III/IV), tout en réduisant constamment le poids et les biomarqueurs inflammatoires.
+
+## 📖 Référence
+Schou M, Petrie MC, Borlaug BA, et al. J Am Coll Cardiol. 2024;84(3):247-257.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.jacc.2024.04.038.

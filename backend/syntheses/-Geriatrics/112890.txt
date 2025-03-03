@@ -1,0 +1,19 @@
+Date de publication : 2024-04-06
+
+# 📝 Sémaglutide dans l'insuffisance cardiaque à fraction d'éjection préservée chez les patients obèses diabétiques
+
+## 📌 Contexte & Problématique
+L'obésité et le diabète de type 2 sont fréquents chez les patients avec insuffisance cardiaque à fraction d'éjection préservée (ICFEp). Aucun traitement n'est spécifiquement approuvé pour l'ICFEp liée à l'obésité chez les diabétiques.
+
+## 🧪 Méthodologie
+Étude randomisée sur 616 patients atteints d'ICFEp, d'obésité (IMC ≥30) et de diabète type 2, recevant sémaglutide 2,4 mg hebdomadaire ou placebo pendant 52 semaines. Critères primaires : variation du score KCCQ-CSS et du poids corporel.
+
+## 📊 Résultats clés
+Le sémaglutide a amélioré le KCCQ-CSS de 13,7 points contre 6,4 points sous placebo (différence: 7,3 points; p<0,001). Perte de poids de 9,8% versus 3,4% (différence: -6,4%; p<0,001). Amélioration significative de la distance de marche de 6 minutes (+14,3m; p=0,008) et réduction de la CRP (ratio: 0,67; p<0,001). Moins d'événements indésirables graves (17,7% vs 28,8%).
+
+## 🩺 Impact clinique
+Le sémaglutide réduit significativement les symptômes d'insuffisance cardiaque, les limitations physiques et le poids chez les patients atteints d'ICFEp liée à l'obésité avec diabète type 2.
+
+## 📖 Référence
+Kosiborod MN, Petrie MC, Borlaug BA, et al. N Engl J Med. 2024;390(15):1394-1407.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2313917.

@@ -1,0 +1,19 @@
+Date de publication : 2024-12-01
+
+# 📝 Lenvatinib plus ifosfamide et étoposide chez les jeunes patients avec ostéosarcome récidivant : essai clinique randomisé de phase 2
+
+## 📌 Contexte & Problématique
+L'ostéosarcome récidivant/réfractaire est souvent traité par ifosfamide-étoposide (IE). Cette étude évalue si l'ajout du lenvatinib (inhibiteur multikinase) améliore l'efficacité thérapeutique.
+
+## 🧪 Méthodologie
+Essai OLIE randomisé, ouvert, incluant 81 patients (2-25 ans) avec ostéosarcome de haut grade après 1-2 lignes de traitement. Comparaison entre lenvatinib+IE (n=40) versus IE seul (n=41). Critère principal : survie sans progression (SSP).
+
+## 📊 Résultats clés
+SSP médiane : 6,5 mois (LEN-IE) contre 5,5 mois (IE) (HR=0,54; p=0,04). Taux de SSP à 4 mois : 76,3% (LEN-IE) versus 66,0% (IE). Survie globale médiane : 11,9 mois (LEN-IE) contre 17,4 mois (IE) (HR=1,28; p=0,75). Événements indésirables grade ≥3 : 89,7% (LEN-IE) versus 79,5% (IE).
+
+## 🩺 Impact clinique
+Bien que n'atteignant pas la signification statistique préspécifiée, l'ajout du lenvatinib montre une tendance à l'amélioration de la SSP. Ces résultats informeront la conception de futurs essais pour cette pathologie rare.
+
+## 📖 Référence
+Gaspar N, Hung GY, Strauss SJ, et al. JAMA Oncol. 2024;10(12):1645-1653.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamaoncol.2024.4381.

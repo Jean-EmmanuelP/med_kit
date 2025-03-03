@@ -1,0 +1,19 @@
+Date de publication : 2024-09-10
+
+# 📝 Oxygénothérapie à long terme : 24h vs 15h par jour dans l'hypoxémie sévère
+
+## 📌 Contexte & Problématique
+L'oxygénothérapie à long terme (OLT) prolonge la survie dans l'hypoxémie sévère. Les recommandations actuelles préconisent 24h/jour d'utilisation, mais cette durée est contraignante et repose sur des comparaisons non randomisées.
+
+## 🧪 Méthodologie
+Essai multicentrique randomisé contrôlé incluant 241 patients avec hypoxémie chronique sévère au repos : 117 patients sous OLT 24h/jour versus 124 patients sous OLT 15h/jour. Critère principal : composite hospitalisation/décès à 1 an.
+
+## 📊 Résultats clés
+La durée médiane d'utilisation était de 24h (IIQ 21-24) dans le groupe 24h et 15h (IIQ 15-16) dans le groupe 15h. Le taux d'hospitalisation/décès était similaire : 124,7 vs 124,5 événements/100 personnes-années (HR 0,99; IC95% 0,72-1,36; p=0,007 pour non-supériorité). Aucune différence significative pour les hospitalisations, décès ou événements indésirables.
+
+## 🩺 Impact clinique
+L'OLT 15h/jour est aussi efficace que 24h/jour concernant le risque d'hospitalisation ou décès chez les patients avec hypoxémie sévère, offrant une flexibilité thérapeutique sans compromettre les résultats cliniques.
+
+## 📖 Référence
+Ekstrom M, Andersson A, Papadopoulos S, et al. Long-Term Oxygen Therapy for 24 or 15 Hours per Day in Severe Hypoxemia. N Engl J Med. 2024;391(11):977-988.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2402638.

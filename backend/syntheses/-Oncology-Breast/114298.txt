@@ -1,0 +1,23 @@
+Date de publication : 2024-10-01
+
+# 📝 Inhibiteurs de points de contrôle immunitaires néoadjuvants dans le cancer du sein précoce
+
+## 📌 Contexte & Problématique
+L'intégration optimale des inhibiteurs de points de contrôle immunitaires (ICI) à la chimiothérapie néoadjuvante dans le cancer du sein précoce reste débattue.
+
+## 🧪 Méthodologie
+Méta-analyse de 9 essais cliniques randomisés incluant 5114 patientes (2097 triple-négatifs, 1924 HR+/ERBB2-, 1115 ERBB2+). Évaluation de la réponse pathologique complète (pCR) et de la survie sans événement (EFS).
+
+## 📊 Résultats clés
+- Cancer triple-négatif : amélioration de la pCR >10% avec ICI, indépendamment du statut PD-L1
+- Tumeurs HR+/ERBB2- : bénéfice uniquement chez les PD-L1+ (+12,2%)
+- Tumeurs ERBB2+ : aucun bénéfice observé
+- EFS à 5 ans dans les cancers triple-négatifs avec pCR : 92,0% avec ICI vs 88,0% sans ICI
+- Incidence d'effets indésirables immuno-liés de grade ≥3 : 10,3%
+
+## 🩺 Impact clinique
+Les ICI néoadjuvants améliorent l'efficacité dans les cancers triple-négatifs et HR+/ERBB2- PD-L1+ avec un profil de sécurité acceptable. Aucun bénéfice observé avec les ICI adjuvants, suggérant une priorisation du traitement néoadjuvant.
+
+## 📖 Référence
+Villacampa G, Navarro V, Matikas A, et al. JAMA Oncol. 2024;10(10):1331-1341.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamaoncol.2024.3456.

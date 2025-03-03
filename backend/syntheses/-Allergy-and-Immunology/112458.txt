@@ -1,0 +1,19 @@
+Date de publication : 2024-02-25
+
+# 📝 Omalizumab pour le traitement des allergies alimentaires multiples
+
+## 📌 Contexte & Problématique
+Les allergies alimentaires multiples représentent un défi thérapeutique important, avec l'immunothérapie orale aux arachides comme seul traitement approuvé actuellement. L'omalizumab (anticorps monoclonal anti-IgE) pourrait offrir une alternative thérapeutique.
+
+## 🧪 Méthodologie
+Essai randomisé (2:1) incluant 180 patients (1-55 ans) allergiques aux arachides et à au moins deux autres aliments. Administration d'omalizumab ou placebo par voie sous-cutanée pendant 16-20 semaines. Critère principal : tolérance à 600 mg de protéines d'arachide sans symptômes limitants.
+
+## 📊 Résultats clés
+Population analysée : 177 enfants/adolescents. Critère principal atteint par 67% des patients sous omalizumab contre 7% sous placebo (p<0,001). Résultats similaires pour les noix de cajou (41% vs 3%), le lait (66% vs 10%) et l'œuf (67% vs 0%). Profil de sécurité comparable hormis plus de réactions au site d'injection sous omalizumab.
+
+## 🩺 Impact clinique
+L'omalizumab augmente significativement le seuil de réaction aux allergènes alimentaires multiples chez les enfants dès l'âge d'un an, offrant une option thérapeutique prometteuse pour les patients souffrant d'allergies alimentaires multiples.
+
+## 📖 Référence
+Wood RA, Togias A, Sicherer SH, et al. Omalizumab for the Treatment of Multiple Food Allergies. N Engl J Med. 2024;390(10):889-899.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2312382.

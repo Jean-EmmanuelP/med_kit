@@ -1,0 +1,23 @@
+Date de publication : 2025-01-30
+
+# 📝 Antidépresseurs versus placebo dans le trouble anxieux généralisé (TAG)
+
+## 📌 Contexte & Problématique
+Le TAG est une affection mentale caractérisée par une anxiété excessive, touchant deux fois plus de femmes que d'hommes. Les antidépresseurs, notamment ISRS et IRSN, sont couramment prescrits. Une mise à jour des données comparatives était nécessaire.
+
+## 🧪 Méthodologie
+Revue systématique de 37 ECR incluant 12 226 participants adultes avec TAG modéré à sévère. Durée des traitements: 4-28 semaines. Recherche dans 6 bases de données jusqu'en octobre 2022.
+
+## 📊 Résultats clés
+- Taux de réponse supérieur avec antidépresseurs vs placebo (RR 1,41 [1,29-1,55]; NNTB=7)
+- Acceptabilité globale similaire (RR 1,03 [0,93-1,14])
+- Moins d'abandons pour inefficacité avec antidépresseurs (RR 0,41 [0,33-0,50]; NNTB=27)
+- Plus d'abandons pour effets indésirables (RR 2,18 [1,81-2,61]; NNTH=17)
+- Preuves de haute certitude pour tous ces résultats
+
+## 🩺 Impact clinique
+Les antidépresseurs sont significativement plus efficaces que le placebo dans le TAG avec une acceptabilité globale comparable, malgré plus d'effets indésirables. Ces données robustes peuvent guider les décisions thérapeutiques.
+
+## 📖 Référence
+Kopcalic K, Arcaro J, Pinto A, et al. Cochrane Database Syst Rev. 2025;1(1):CD012942.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1002/14651858.CD012942.pub2.

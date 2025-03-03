@@ -1,0 +1,24 @@
+Date de publication : 2024-11-25
+
+# 📝 Effets des agonistes du GLP-1 sur les résultats rénaux et cardiovasculaires : méta-analyse d'essais contrôlés randomisés
+
+## 📌 Contexte & Problématique
+Les agonistes du GLP-1 réduisent les événements cardiovasculaires majeurs (MACE), mais leur impact sur les résultats rénaux cliniquement significatifs reste incertain.
+
+## 🧪 Méthodologie
+Méta-analyse de 11 essais contrôlés randomisés incluant 85 373 participants (67 769 diabétiques de type 2), comparant des agonistes du GLP-1 au placebo avec suivi ≥12 mois. Critères principaux : composite rénal (insuffisance rénale, réduction DFGe ≥50%, décès d'origine rénale) et MACE.
+
+## 📊 Résultats clés
+Chez les diabétiques de type 2, les agonistes du GLP-1 ont réduit :
+- Critère composite rénal : -18% (HR 0,82 [0,73-0,93])
+- Insuffisance rénale : -16% (HR 0,84 [0,72-0,99])
+- MACE : -13% (HR 0,87 [0,81-0,93])
+- Mortalité toutes causes : -12% (HR 0,88 [0,83-0,93])
+Résultats similaires en incluant l'essai SELECT (non-diabétiques).
+
+## 🩺 Impact clinique
+Les agonistes du GLP-1 réduisent significativement les événements rénaux cliniquement importants et cardiovasculaires, sans augmentation des événements indésirables graves, malgré un taux d'arrêt de traitement plus élevé pour effets indésirables.
+
+## 📖 Référence
+Badve SV, Bilal A, Lee MMY, et al. Lancet Diabetes Endocrinol. 2025;13(1):15-28.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S2213-8587(24)00271-7.

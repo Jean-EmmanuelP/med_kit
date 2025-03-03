@@ -1,0 +1,19 @@
+Date de publication : 2024-08-30
+
+# 📝 Sémaglutide et bénéfices cardiovasculaires dans le diabète de type 2 avec maladie rénale chronique : résultats de l'étude FLOW
+
+## 📌 Contexte & Problématique
+L'essai FLOW a démontré que le sémaglutide réduit les événements rénaux et cardiovasculaires chez les patients diabétiques de type 2 avec maladie rénale chronique (MRC). Cette analyse évalue l'impact cardiovasculaire selon la sévérité de la MRC.
+
+## 🧪 Méthodologie
+Étude randomisée comparant sémaglutide 1mg hebdomadaire versus placebo chez 3533 patients suivis pendant 3,4 ans. Analyse des événements cardiovasculaires et de la mortalité selon le DFGe, l'UACR et la classification KDIGO.
+
+## 📊 Résultats clés
+Le sémaglutide a réduit de 18% le critère composite (décès CV/IM/AVC) (HR 0,82 [0,68-0,98]; p=0,03) et de 20% la mortalité toutes causes (HR 0,80 [0,67-0,95]; p=0,01). Ces bénéfices étaient constants quelle que soit la sévérité de la MRC, sauf pour la mortalité toutes causes selon l'UACR (p-interaction=0,01).
+
+## 🩺 Impact clinique
+Le sémaglutide offre des bénéfices cardiovasculaires significatifs chez les patients diabétiques avec MRC, indépendamment de la sévérité de l'atteinte rénale, justifiant son utilisation dans cette population à haut risque.
+
+## 📖 Référence
+Mahaffey KW, Tuttle KR, Arici M, et al. Eur Heart J. 2024 Aug 30:ehae613.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1093/eurheartj/ehae613.

@@ -1,0 +1,19 @@
+Date de publication : 2024-08-06
+
+# 📝 Traitements anti-inflammatoires topiques pour l'eczéma : méta-analyse en réseau
+
+## 📌 Contexte & Problématique
+L'eczéma est la maladie cutanée la plus invalidante mondialement. Les traitements anti-inflammatoires topiques contrôlent les symptômes, mais leur efficacité et sécurité relatives restent incertaines.
+
+## 🧪 Méthodologie
+Méta-analyse en réseau de 291 ECR incluant 45 846 participants atteints d'eczéma. Interventions évaluées : corticostéroïdes topiques (CST), inhibiteurs de calcineurine (ICT), inhibiteurs de PDE-4, JAK et autres agents topiques.
+
+## 📊 Résultats clés
+Pour les symptômes rapportés par les patients, les plus efficaces étaient : tacrolimus 0,1% (OR 6,27), CST puissants (OR 5,99) et ruxolitinib 1,5% (OR 5,64). Pour les signes cliniques : CST puissants (OR 8,15), tacrolimus 0,1% (OR 8,06) et ruxolitinib 1,5% (OR 7,72). Les CST légers, roflumilast 0,15% et crisaborole 2% étaient moins efficaces.
+
+## 🩺 Impact clinique
+Les CST puissants/très puissants ont une efficacité comparable aux ICT puissants et aux inhibiteurs de JAK. Les résultats concernent principalement les effets à court terme et proviennent d'études majoritairement financées par l'industrie.
+
+## 📖 Référence
+Lax SJ, Van Vogt E, Candy B, et al. Topical anti-inflammatory treatments for eczema: network meta-analysis. Cochrane Database Syst Rev. 2024;8(8):CD015064.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1002/14651858.CD015064.pub2.

@@ -1,0 +1,19 @@
+Date de publication : 2024-06-10
+
+# 📝 Statines comme traitement adjuvant dans la COVID-19 : méta-analyse d'essais randomisés
+
+## 📌 Contexte & Problématique
+L'efficacité des statines comme traitement adjuvant chez les patients hospitalisés pour COVID-19 reste controversée, nécessitant une évaluation systématique des données probantes.
+
+## 🧪 Méthodologie
+Méta-analyse de 7 essais contrôlés randomisés incluant 4 262 patients (2 645 sous statines) identifiés via Medline, Embase, Cochrane et ClinicalTrials.gov jusqu'à avril 2024. Analyse par modèle à effets aléatoires.
+
+## 📊 Résultats clés
+Les statines ont significativement réduit la mortalité (RR 0,88 ; IC 95% 0,80-0,98 ; I²=0%) et amélioré la survie (HR 0,86 ; IC 95% 0,75-0,99 ; I²=0%). Le score OMS à 14 jours était également réduit (différence moyenne -0,27 ; IC 95% -0,54 à -0,01 ; I²=0%). Aucune différence significative pour la durée d'hospitalisation, les enzymes hépatiques et la CRP.
+
+## 🩺 Impact clinique
+Les statines représentent une option thérapeutique adjuvante potentiellement bénéfique pour réduire la mortalité chez les patients hospitalisés pour COVID-19.
+
+## 📖 Référence
+Florencio de Mesquita C, Rivera A, Araujo B, et al. Am J Med. 2024;137(10):966-973.e11.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.amjmed.2024.06.002.

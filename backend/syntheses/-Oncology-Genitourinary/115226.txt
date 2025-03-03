@@ -1,0 +1,19 @@
+Date de publication : 2024-12-13
+
+# 📝 Régime riche en oméga-3, pauvre en oméga-6 avec huile de poisson pour les hommes atteints de cancer de la prostate sous surveillance active
+
+## 📌 Contexte & Problématique
+Les hommes sous surveillance active (SA) pour cancer de prostate recherchent des interventions nutritionnelles pouvant prévenir la progression tumorale. Cette étude évalue l'effet d'un régime riche en oméga-3, pauvre en oméga-6 avec huile de poisson sur la prolifération cellulaire prostatique.
+
+## 🧪 Méthodologie
+Essai clinique randomisé de phase II sur 100 hommes avec cancer de prostate de grade 1-2 sous SA, comparant le régime avec huile de poisson versus groupe témoin. Biopsies prostatiques réalisées au début et après un an. Critère principal: variation de l'indice Ki-67.
+
+## 📊 Résultats clés
+L'indice Ki-67 a diminué de 15% dans le groupe intervention (1,34% à 1,14%) et augmenté de 24% dans le groupe témoin (1,23% à 1,52%), différence statistiquement significative (p=0,043). Aucune différence significative pour les critères secondaires (grade, longueur tumorale, score Decipher, PSA).
+
+## 🩺 Impact clinique
+Cette intervention nutritionnelle réduit significativement un biomarqueur de progression du cancer prostatique. Ces résultats justifient des essais de phase III chez les patients sous surveillance active.
+
+## 📖 Référence
+Aronson WJ, Grogan T, Liang P, et al. J Clin Oncol. 2024 Dec 13:JCO2400608.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO.24.00608.

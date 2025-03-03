@@ -1,0 +1,19 @@
+Date de publication : 2024-08-01
+
+# 📝 Auto-prélèvement HPV dans le dépistage du cancer du col : étude pilote randomisée en Estonie
+
+## 📌 Contexte & Problématique
+L'Estonie présente une incidence élevée de cancer du col utérin avec une faible participation au dépistage. Cette étude évalue l'impact de l'auto-prélèvement HPV sur l'adhésion au programme de dépistage.
+
+## 🧪 Méthodologie
+25 591 femmes ont été randomisées en deux groupes d'intervention : "opt-out" (envoi direct du dispositif) et "opt-in" (commande en ligne), comparés à un groupe témoin (30 102 femmes) recevant un rappel standard.
+
+## 📊 Résultats clés
+Participation significativement plus élevée dans le groupe opt-out (41,7%) et opt-in (34,1%) versus groupe témoin (29,0%). Dans le groupe opt-out, 19,8% ont choisi l'auto-prélèvement. 99% des utilisatrices ont trouvé le dispositif facile à utiliser.
+
+## 🩺 Impact clinique
+L'offre d'auto-prélèvement HPV augmente significativement la participation au dépistage. Les stratégies opt-in et opt-out montrent des effets variables selon l'âge, suggérant l'intérêt d'approches personnalisées.
+
+## 📖 Référence
+Hallik R, Innos K, Janes J, et al. HPV self-sampling in organized cervical cancer screening program: A randomized pilot study in Estonia in 2021. J Med Screen. 2024 Aug 1:9691413241268819.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1177/09691413241268819.

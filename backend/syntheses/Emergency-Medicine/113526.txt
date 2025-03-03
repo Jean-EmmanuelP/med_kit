@@ -1,0 +1,19 @@
+Date de publication : 2024-06-13
+
+# 📝 Ventilation non invasive pour la préoxygénation lors de l'intubation d'urgence
+
+## 📌 Contexte & Problématique
+L'hypoxémie pendant l'intubation trachéale chez les patients critiques augmente le risque d'arrêt cardiaque et de décès. L'efficacité comparative de la préoxygénation par ventilation non invasive versus masque à oxygène restait incertaine.
+
+## 🧪 Méthodologie
+Essai randomisé multicentrique dans 24 services d'urgence et soins intensifs américains. 1301 adultes critiques nécessitant une intubation ont été randomisés pour recevoir une préoxygénation par ventilation non invasive ou masque à oxygène.
+
+## 📊 Résultats clés
+L'hypoxémie (SpO₂<85%) est survenue chez 9,1% des patients du groupe ventilation non invasive contre 18,5% du groupe masque à oxygène (différence: -9,4%; p<0,001). Les arrêts cardiaques étaient moins fréquents dans le groupe ventilation non invasive (0,2% vs 1,1%). L'incidence d'inhalation était similaire (0,9% vs 1,4%).
+
+## 🩺 Impact clinique
+La préoxygénation par ventilation non invasive réduit significativement le risque d'hypoxémie et d'arrêt cardiaque pendant l'intubation des patients critiques, sans augmenter le risque d'inhalation.
+
+## 📖 Référence
+Gibbs KW, Semler MW, Driver BE, et al. Noninvasive Ventilation for Preoxygenation during Emergency Intubation. N Engl J Med. 2024;390(23):2165-2177.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2313680.

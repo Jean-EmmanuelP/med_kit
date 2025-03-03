@@ -1,0 +1,19 @@
+Date de publication : 2024-08-21
+
+# 📝 Comparaison des psychédéliques et de l'escitalopram dans le traitement des symptômes dépressifs
+
+## 📌 Contexte & Problématique
+Évaluation comparative de l'efficacité et de l'acceptabilité des psychédéliques oraux versus escitalopram chez les patients dépressifs, en tenant compte du biais potentiel lié à l'insu insuffisant.
+
+## 🧪 Méthodologie
+Revue systématique et méta-analyse en réseau bayésienne d'essais contrôlés randomisés. Critère principal : évolution sur l'échelle de Hamilton à 17 items. Distinction méthodologique des réponses placebo entre essais psychédéliques et antidépresseurs.
+
+## 📊 Résultats clés
+Réponse placebo significativement plus faible dans les essais psychédéliques (-3,90 points). Seule la psilocybine à forte dose était supérieure au placebo des essais d'antidépresseurs (différence moyenne: 6,45). La taille d'effet de la psilocybine a diminué de 0,88 à 0,31 après ajustement. Supériorité de la psilocybine versus escitalopram 10mg (+4,66) et 20mg (+4,69). Aucune différence significative concernant les arrêts de traitement ou événements indésirables graves.
+
+## 🩺 Impact clinique
+La psilocybine à forte dose montre une efficacité supérieure à l'escitalopram, mais avec une taille d'effet modeste après ajustement pour les biais méthodologiques. Profil de tolérance comparable entre traitements.
+
+## 📖 Référence
+Hsu TW, Tsai CK, Kao YC, et al. BMJ. 2024;386:e078607.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1136/bmj-2023-078607.

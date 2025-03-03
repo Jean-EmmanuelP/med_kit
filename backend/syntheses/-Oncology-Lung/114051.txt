@@ -1,0 +1,19 @@
+Date de publication : 2024-08-01
+
+# 📝 L'olanzapine améliore la prévention des nausées et vomissements dans les chimiothérapies modérément émétisantes
+
+## 📌 Contexte & Problématique
+L'efficacité de l'olanzapine dans les protocoles de chimiothérapie modérément émétisants (CME) restait insuffisamment évaluée, particulièrement en association avec les antagonistes des récepteurs de la neurokinine-1.
+
+## 🧪 Méthodologie
+Essai clinique randomisé de phase 3, multicentrique, incluant 560 patients adultes atteints de tumeurs solides recevant des chimiothérapies à base d'oxaliplatine, carboplatine ou irinotécan. Groupe expérimental : dexaméthasone, aprépitant, palonosétron + olanzapine 10 mg/jour (J1-J3); groupe contrôle : même protocole sans olanzapine.
+
+## 📊 Résultats clés
+Le taux de réponse complète était significativement supérieur dans le groupe olanzapine (91% vs 82%, p=0,005). Meilleur contrôle des nausées (96% vs 87%, p<0,001) et des NVIC (96% vs 91%, p=0,02). Réduction significative de l'utilisation des antiémétiques de secours (4% vs 11%, p=0,001). Somnolence de grade 1 chez 10% des patients sous olanzapine.
+
+## 🩺 Impact clinique
+L'olanzapine devrait être considérée comme standard de soins dans les protocoles CME contenant oxaliplatine, carboplatine ou irinotécan, améliorant significativement le contrôle des nausées et vomissements avec un profil de tolérance acceptable.
+
+## 📖 Référence
+Ostwal V, Ramaswamy A, Mandavkar S, et al. JAMA Netw Open. 2024;7(8):e2426076.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamanetworkopen.2024.26076.

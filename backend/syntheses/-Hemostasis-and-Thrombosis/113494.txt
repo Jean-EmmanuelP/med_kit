@@ -1,0 +1,19 @@
+Date de publication : 2024-04-26
+
+# 📝 Diagnostic de l'HTPC après embolie pulmonaire aiguë : données d'une cohorte longitudinale
+
+## 📌 Contexte & Problématique
+L'hypertension pulmonaire thromboembolique chronique (HTPC) est une complication grave de l'embolie pulmonaire (EP). Des études prospectives récentes montrent une incidence de 2,3% à 2 ans, mais sa prévalence en pratique réelle reste mal documentée.
+
+## 🧪 Méthodologie
+Analyse des données nationales allemandes de facturation et prescriptions (2010-2021) incluant 573 972 patients avec EP aiguë (âge médian 71 ans, 57,4% femmes).
+
+## 📊 Résultats clés
+La prévalence d'HTPC chez les patients avec antécédent d'EP a augmenté de 0,4% (2010) à 0,9% (2021). L'incidence cumulée était de 0,08% à 3 mois, 0,36% à 2 ans et 0,75% à 90 mois. 17,6% des diagnostics d'HTPC survenaient dans les 3 premiers mois post-EP. Les patients développant une HTPC présentaient plus souvent une dysfonction ventriculaire droite initiale (14,9% vs 8,3%, p<0,001).
+
+## 🩺 Impact clinique
+La faible incidence observée suggère une sous-détection de l'HTPC et un suivi post-EP insuffisant. Une meilleure application des recommandations de suivi est nécessaire.
+
+## 📖 Référence
+Hobohm L, Paschke LM, Farmakis IT, et al. J Thromb Haemost. 2024;22(8):2203-2210.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.jtha.2024.04.009.

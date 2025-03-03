@@ -1,0 +1,19 @@
+Date de publication : 2024-02-28
+
+# 📝 Traitement du CPNPC stade IV sans altérations motrices : mise à jour des recommandations ASCO 2023
+
+## 📌 Contexte & Problématique
+Actualisation des recommandations pour la prise en charge des patients atteints de cancer du poumon non à petites cellules (CPNPC) stade IV sans altérations motrices, nécessitant des directives thérapeutiques précises et actualisées.
+
+## 🧪 Méthodologie
+Revue systématique continue d'essais cliniques randomisés (ECR) par un comité d'experts multidisciplinaire. Dernière mise à jour couvrant février-octobre 2023, identifiant dix nouveaux ECR. Évaluation des critères d'efficacité et de sécurité.
+
+## 📊 Résultats clés
+Consolidation de toutes les mises à jour précédentes en un document unique. Recommandations actualisées basées sur les nouvelles données probantes des dix ECR récemment identifiés.
+
+## 🩺 Impact clinique
+Recommandations spécifiques pour les traitements de première, deuxième et lignes ultérieures chez les patients sans altérations motrices. Directive évolutive permettant une adaptation continue aux nouvelles preuves scientifiques.
+
+## 📖 Référence
+Jaiyesimi IA, Leighl NB, Ismaila N, et al. Therapy for Stage IV Non-Small Cell Lung Cancer Without Driver Alterations: ASCO Living Guideline, Version 2023.3. J Clin Oncol. 2024;42(11):e23-e43.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO.23.02746.

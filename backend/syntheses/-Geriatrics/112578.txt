@@ -1,0 +1,19 @@
+Date de publication : 2024-02-05
+
+# 📝 Stratégies de changement comportemental pour augmenter l'activité physique chez les seniors
+
+## 📌 Contexte & Problématique
+Les méthodes optimales pour maintenir durablement l'activité physique (AP) chez les personnes âgées insuffisamment actives restent peu documentées.
+
+## 🧪 Méthodologie
+Essai clinique randomisé factoriel 2×2 incluant 309 personnes âgées de 77,4 ans en moyenne (77,7% de femmes). Comparaison de stratégies de changement comportemental (SCC) intrapersonnelles (fixation d'objectifs) et interpersonnelles (partage entre pairs) combinées au Programme d'Exercices Otago et un moniteur d'AP. Mesure objective de l'AP à l'inclusion, 1 semaine, 6 mois et 12 mois post-intervention.
+
+## 📊 Résultats clés
+Les participants recevant des SCC interpersonnelles ont montré des augmentations significatives d'AP par rapport aux autres groupes: +27,1 min/jour à 1 semaine, +20,8 min/jour à 6 mois et +27,5 min/jour à 12 mois (p<0,001). Les SCC intrapersonnelles n'ont produit aucun changement significatif de l'AP.
+
+## 🩺 Impact clinique
+Les approches interpersonnelles (partage et apprentissage entre pairs) sont plus efficaces que les stratégies individuelles pour maintenir l'activité physique chez les seniors. Ces résultats devraient orienter les programmes d'intervention en pratique clinique.
+
+## 📖 Référence
+McMahon SK, Lewis BA, Guan W, et al. JAMA Netw Open. 2024;7(2):e240298.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamanetworkopen.2024.0298.

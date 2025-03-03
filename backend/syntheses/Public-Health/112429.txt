@@ -1,0 +1,19 @@
+Date de publication : 2024-02-23
+
+# 📝 Metformine et risque de cancer chez les patients obèses et/ou diabétiques : méta-analyse
+
+## 📌 Contexte & Problématique
+Évaluation de l'effet de la metformine sur l'incidence du cancer chez les patients en surpoids/obésité et/ou prédiabète/diabète, hypothèse fréquemment évoquée en pratique clinique.
+
+## 🧪 Méthodologie
+Méta-analyse d'essais contrôlés randomisés (≥24 semaines) comparant la metformine à d'autres interventions. Recherche dans MEDLINE, Embase et CENTRAL. Évaluation du risque de biais par l'outil RoB 2.0 et cadre GRADE.
+
+## 📊 Résultats clés
+27 essais inclus (10 717 patients sous metformine, 10 003 témoins). Nouveaux cas de cancer: 170 (metformine) vs 208 (témoins). Risque relatif: 1,07 (IC 95%: 0,87-1,31). Aucune différence significative dans les analyses en sous-groupes. Taille d'échantillon suffisante pour exclure un effet protecteur significatif.
+
+## 🩺 Impact clinique
+La metformine n'a pas démontré d'effet protecteur contre le cancer chez les patients obèses et/ou diabétiques. Ces résultats remettent en question cette propriété supposée du médicament.
+
+## 📖 Référence
+Mesquita LA, Spiazzi BF, Piccoli GF, et al. Does metformin reduce the risk of cancer in obesity and diabetes? A systematic review and meta-analysis. Diabetes Obes Metab. 2024;26(5):1929-1940.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1111/dom.15509.

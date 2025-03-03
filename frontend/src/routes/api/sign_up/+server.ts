@@ -37,7 +37,7 @@ export async function POST({ request, locals: { supabase, safeGetSession } }) {
     email,
     disciplines,
     notification_frequency,
-    article_ids: []
+    sent_article_ids: []
   };
 
   const { data: profileData, error: profileError } = await supabase

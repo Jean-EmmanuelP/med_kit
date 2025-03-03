@@ -1,0 +1,19 @@
+Date de publication : 2024-12-02
+
+# 📝 Cannabidiol pour l'anxiété liée aux examens d'imagerie chez les femmes atteintes d'un cancer du sein avancé
+
+## 📌 Contexte & Problématique
+L'anxiété liée aux examens d'imagerie est fréquente chez les patientes atteintes de cancer. Le cannabidiol (CBD) pourrait avoir des effets anxiolytiques sans risques neuropsychiatriques.
+
+## 🧪 Méthodologie
+Essai clinique randomisé en double aveugle incluant 50 femmes atteintes d'un cancer du sein avancé. Randomisation 1:1 : CBD oral 400 mg (n=25) versus placebo (n=25) dans les 48h précédant un examen d'imagerie. Évaluation par l'Échelle Visuelle Analogique d'Humeur (VAMS).
+
+## 📊 Résultats clés
+Le critère principal (différence de changement sur la sous-échelle "peur") n'était pas significatif (CBD: -19,1 vs placebo: -15,0; p=0,37). Cependant, 2-4h post-ingestion, les scores d'anxiété étaient significativement plus bas dans le groupe CBD (51,5 vs 58,0; p=0,02). Aucun effet toxique de grade 3-4 rapporté.
+
+## 🩺 Impact clinique
+Le CBD semble sûr chez les patientes atteintes de cancer du sein avancé avec anxiété clinique. Les résultats suggèrent un possible effet anxiolytique justifiant des études complémentaires.
+
+## 📖 Référence
+Nayak MM, Chai P, Catalano PJ, et al. Cannabidiol for Scan-Related Anxiety in Women With Advanced Breast Cancer: A Randomized Clinical Trial. JAMA Netw Open. 2024;7(12):e2450391.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamanetworkopen.2024.50391.

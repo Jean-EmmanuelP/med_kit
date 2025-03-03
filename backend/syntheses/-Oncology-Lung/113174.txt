@@ -1,0 +1,19 @@
+Date de publication : 2024-05-10
+
+# 📝 PLEURECTOMIE DÉCORTICATION ÉTENDUE VERSUS CHIMIOTHÉRAPIE SEULE DANS LE MÉSOTHÉLIOME PLEURAL
+
+## 📌 Contexte & Problématique
+L'efficacité de la pleurectomie décortication étendue pour le mésothéliome pleural n'avait jamais été évaluée dans un essai randomisé. Cette étude compare cette approche chirurgicale plus chimiothérapie versus chimiothérapie seule.
+
+## 🧪 Méthodologie
+Essai contrôlé randomisé de phase 3 (MARS 2) mené au Royaume-Uni dans 26 hôpitaux. 335 patients atteints de mésothéliome pleural résécable ont été randomisés (1:1) après deux cycles de chimiothérapie initiale. Groupe interventionnel : chirurgie (pleurectomie décortication) + chimiothérapie (n=169). Groupe contrôle : chimiothérapie seule (n=166).
+
+## 📊 Résultats clés
+Survie médiane plus courte dans le groupe chirurgie (19,3 mois vs 24,8 mois). Différence de survie moyenne à 2 ans : -1,9 mois (IC 95% -3,4 à -0,3; p=0,019). Événements indésirables graves : 318 dans le groupe chirurgie vs 169 dans le groupe chimiothérapie (ratio 3,6; IC 95% 2,3-5,5; p<0,0001).
+
+## 🩺 Impact clinique
+La pleurectomie décortication étendue est associée à une survie inférieure et davantage de complications que la chimiothérapie seule. Ces résultats remettent en question l'utilisation systématique de cette approche chirurgicale dans le mésothéliome pleural résécable.
+
+## 📖 Référence
+Lim E, Waller D, Lau K, et al. Lancet Respir Med. 2024;12(6):457-466.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S2213-2600(24)00119-X.

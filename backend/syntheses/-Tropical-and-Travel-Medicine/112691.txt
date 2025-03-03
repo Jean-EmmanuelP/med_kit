@@ -1,0 +1,19 @@
+Date de publication : 2024-03-14
+
+# 📝 Antibiotiques dans le traitement de la leptospirose : revue systématique Cochrane
+
+## 📌 Contexte & Problématique
+La leptospirose est une zoonose transmise par l'urine d'animaux infectés. Malgré l'usage courant d'antibiotiques, les preuves de leur efficacité restent insuffisantes pour établir des recommandations standardisées.
+
+## 🧪 Méthodologie
+Revue systématique de 9 essais cliniques randomisés (1019 participants) comparant différents antibiotiques entre eux ou versus placebo. Critères primaires : mortalité toutes causes et événements indésirables graves.
+
+## 📊 Résultats clés
+Pénicilline versus placebo : effet incertain sur la mortalité (RR 1,57; IC 95% 0,65-3,79). Comparaisons entre antibiotiques (pénicilline vs céphalosporines) : différences non significatives sur la mortalité (RR 1,38; IC 95% 0,47-4,04). Toutes les preuves sont de très faible certitude.
+
+## 🩺 Impact clinique
+Aucune conclusion ferme ne peut être établie sur l'efficacité des antibiotiques dans la leptospirose. Des essais de meilleure qualité sont nécessaires pour guider les décisions thérapeutiques en pratique clinique.
+
+## 📖 Référence
+Win TZ, Han SM, Edwards T, et al. Antibiotics for treatment of leptospirosis. Cochrane Database Syst Rev. 2024;3(3):CD014960.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1002/14651858.CD014960.pub2.

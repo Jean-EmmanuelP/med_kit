@@ -1,0 +1,19 @@
+Date de publication : 2024-09-09
+
+# 📝 Plinabulin plus docétaxel versus docétaxel seul dans le CPNPC après progression sous platine
+
+## 📌 Contexte & Problématique
+Besoin de traitements efficaces et tolérables en 2ème/3ème ligne pour le CPNPC avancé ou métastatique sans mutations conductrices après échec d'une chimiothérapie à base de platine.
+
+## 🧪 Méthodologie
+Essai de phase 3, international, randomisé (1:1), simple aveugle, comparant docétaxel (75 mg/m², J1) + plinabulin (30 mg/m², J1 et J8) versus docétaxel + placebo en cycles de 21 jours chez 559 patients EGFR sauvage. Critère principal : survie globale (SG).
+
+## 📊 Résultats clés
+SG médiane : 10,5 mois (groupe plinabulin) vs 9,4 mois (groupe témoin), HR=0,82 (p=0,0399). SG moyenne : 15,08 vs 12,77 mois (différence 2,31 mois, p=0,0332). Toxicités grade 3-4 plus fréquentes avec plinabulin : diarrhée (9% vs 1%), hypertension transitoire (18% vs 3%). Décès liés au traitement : 4% dans chaque groupe.
+
+## 🩺 Impact clinique
+L'association plinabulin-docétaxel améliore significativement la survie globale en 2ème/3ème ligne du CPNPC EGFR sauvage et représente une nouvelle option thérapeutique pour cette population.
+
+## 📖 Référence
+Han B, Feinstein T, Shi Y, et al. Lancet Respir Med. 2024;12(10):775-786.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S2213-2600(24)00178-4.

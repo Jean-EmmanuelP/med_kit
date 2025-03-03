@@ -1,0 +1,22 @@
+Date de publication : 2024-10-24
+
+# 📝 Durée d'anticoagulation pour thromboembolie veineuse pédiatrique : résultats à 2 ans de l'essai Kids-DOTT
+
+## 📌 Contexte & Problématique
+L'étude évalue si une anticoagulation de 6 semaines est non-inférieure à 3 mois pour la TEV provoquée chez les patients <21 ans, après des résultats favorables à 1 an.
+
+## 🧪 Méthodologie
+Essai randomisé multinational incluant 417 patients sans occlusion veineuse complète à 6 semaines, assignés à arrêter l'anticoagulation ou poursuivre jusqu'à 3 mois. Suivi de 2 ans évaluant récidives de TEV et saignements significatifs.
+
+## 📊 Résultats clés
+Incidences cumulées à 2 ans (6 semaines vs 3 mois) :
+- Récidives TEV : 1,7% vs 2,9%
+- Saignements significatifs : 1,1% vs 3,2%
+L'analyse bivariée confirme la non-infériorité du traitement de 6 semaines.
+
+## 🩺 Impact clinique
+Une anticoagulation de 6 semaines est suffisante pour la TEV provoquée pédiatrique, offrant un bénéfice clinique net comparable avec moins d'exposition aux anticoagulants.
+
+## 📖 Référence
+Goldenberg NA, Schulman S, Kittelson JM, et al. J Thromb Haemost. 2025;23(2):651-656.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.jtha.2024.09.038.

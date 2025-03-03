@@ -1,0 +1,19 @@
+Date de publication : 2024-12-09
+
+# 📝 Effet et sécurité du fer intraveineux versus oral dans l'anémie ferriprive gravidique
+
+## 📌 Contexte & Problématique
+L'anémie ferriprive pendant la grossesse est fréquente. Le fer intraveineux (IV) est de plus en plus utilisé, mais son impact sur les complications graves (hémorragie post-partum, transfusion) restait incertain.
+
+## 🧪 Méthodologie
+Revue systématique Cochrane incluant 13 ECR (3939 participantes) comparant fer IV versus oral chez des femmes enceintes anémiques (Hb<11g/dL). Évaluation des paramètres hématologiques, complications et événements indésirables.
+
+## 📊 Résultats clés
+Le fer IV, comparé au fer oral, augmente modérément l'hémoglobine à 3-6 semaines (DM +0,49g/dL [0,28-0,69]) et à l'accouchement (DM +0,55g/dL [0,33-0,77]). Il réduit le risque d'anémie prénatale (RR 0,81 [0,77-0,86]) et post-partum (RR 0,66 [0,59-0,73]). Aucune différence significative pour l'hémorragie post-partum (RR 1,44 [0,50-4,20]) ou les transfusions (RR 0,97 [0,58-1,60]).
+
+## 🩺 Impact clinique
+Le fer IV améliore davantage les paramètres hématologiques que le fer oral, sans augmenter les complications maternelles graves. Il représente une alternative efficace, particulièrement en cas d'intolérance ou non-observance du fer oral.
+
+## 📖 Référence
+Nicholson L, Axon E, Daru J, et al. Cochrane Database Syst Rev. 2024;12(12):CD016136.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1002/14651858.CD016136.

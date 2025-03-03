@@ -1,0 +1,19 @@
+Date de publication : 2025-01-22
+
+# 📝 Aggravation ambulatoire de l'insuffisance cardiaque dans l'amylose à transthyrétine : données de l'essai APOLLO-B
+
+## 📌 Contexte & Problématique
+L'aggravation ambulatoire de l'insuffisance cardiaque (IC) constitue un facteur pronostique défavorable. Cette étude évalue sa valeur pronostique spécifiquement dans l'amylose à transthyrétine avec cardiomyopathie et l'effet du patisiran.
+
+## 🧪 Méthodologie
+Analyse post-hoc de l'essai APOLLO-B examinant les associations entre l'aggravation ambulatoire de l'IC (définie par l'ajustement des diurétiques), la progression de la maladie et les événements cliniques sur 24 mois.
+
+## 📊 Résultats clés
+43,7% des patients ont présenté une aggravation ambulatoire de l'IC, associée à un risque accru de mortalité et d'événements cardiovasculaires (HR: 2,21; IC 95%: 1,58-3,08). Le patisiran a réduit ce risque de 30% (HR: 0,70; IC 95%: 0,51-0,96) sur 24 mois.
+
+## 🩺 Impact clinique
+L'aggravation ambulatoire de l'IC est fréquente et pronostique dans l'amylose à transthyrétine avec cardiomyopathie. Son inclusion comme critère d'évaluation pourrait enrichir les futurs essais cliniques dans cette pathologie.
+
+## 📖 Référence
+Fontana M, Maurer MS, Gillmore JD, et al. J Am Coll Cardiol. 2025;85(7):744-752.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.jacc.2024.10.097.

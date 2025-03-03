@@ -1,0 +1,21 @@
+Date de publication : 2024-11-05
+
+# 📝 Galantamine pour la démence d'Alzheimer et le trouble cognitif léger : méta-analyse Cochrane 2024
+
+## 📌 Contexte & Problématique
+La maladie d'Alzheimer, principale cause de démence, reste incurable. La galantamine est utilisée comme traitement symptomatique. Cette revue actualise celle de 2006 pour évaluer son efficacité et ses effets indésirables.
+
+## 🧪 Méthodologie
+Méta-analyse de 21 essais randomisés contrôlés (10 990 participants) comparant galantamine orale versus placebo. Durée moyenne des études : 24 semaines. Critères d'évaluation : fonction cognitive, globale, comportementale, activités quotidiennes et effets indésirables.
+
+## 📊 Résultats clés
+Pour l'Alzheimer (16-24 mg/jour, 6 mois) : amélioration significative de la cognition (ADAS-cog : DM -2,86), de l'incapacité fonctionnelle (DAD : DM 2,12) et des troubles comportementaux (NPI : DM -1,63). Mortalité réduite (1,3% vs 2,3%). Effets indésirables plus fréquents : nausées (20,9% vs 8,4%) et abandons (22,7% vs 17,2%).
+
+Pour le trouble cognitif léger : aucun bénéfice significatif à 2 ans.
+
+## 🩺 Impact clinique
+La galantamine offre des bénéfices cliniquement significatifs pour les patients Alzheimer avec un profil d'effets indésirables acceptable. Inefficace dans le trouble cognitif léger.
+
+## 📖 Référence
+Lim AWY, Schneider L, Loy C. Galantamine for dementia due to Alzheimer's disease and mild cognitive impairment. Cochrane Database Syst Rev. 2024;11(11):CD001747.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1002/14651858.CD001747.pub4.

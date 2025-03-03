@@ -1,0 +1,19 @@
+Date de publication : 2025-01-03
+
+# 📝 RISQUE HÉMORRAGIQUE DES AINS CHEZ LES PATIENTS SOUS ANTICOAGULANTS APRÈS TEV
+
+## 📌 Contexte & Problématique
+Le risque hémorragique lié à l'association AINS-anticoagulants après thromboembolie veineuse (TEV) est insuffisamment documenté malgré son importance clinique.
+
+## 🧪 Méthodologie
+Étude de cohorte nationale danoise incluant 51 794 patients sous anticoagulants oraux pour TEV (2012-2022). Analyse par régression de Cox à risques compétitifs.
+
+## 📊 Résultats clés
+Taux d'incidence hémorragique: 6,3/100 personnes-années avec AINS vs 3,5 sans AINS (NNH=36). Risques relatifs ajustés: 2,09 tous AINS confondus; 1,79 ibuprofène; 3,30 diclofénac; 4,10 naproxène. Risque accru d'hémorragies gastro-intestinales (HR=2,24), intracrâniennes (HR=3,22) et d'anémie hémorragique (HR=2,99).
+
+## 🩺 Impact clinique
+L'utilisation d'AINS double le risque hémorragique chez les patients sous anticoagulants pour TEV. Ce risque concerne plusieurs sites anatomiques, pas uniquement gastro-intestinal. Le naproxène présente le risque le plus élevé, suivi du diclofénac puis de l'ibuprofène.
+
+## 📖 Référence
+Petersen SR, Bonnesen K, Grove EL, et al. Eur Heart J. 2025;46(1):58-68.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1093/eurheartj/ehae736.

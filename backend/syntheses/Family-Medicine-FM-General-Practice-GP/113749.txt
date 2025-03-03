@@ -1,0 +1,19 @@
+Date de publication : 2024-07-08
+
+# 📝 Efficacité et sécurité des inhibiteurs SGLT2 avec ou sans agonistes GLP-1 chez les diabétiques de type 2
+
+## 📌 Contexte & Problématique
+Les inhibiteurs SGLT2 et agonistes GLP-1 améliorent les résultats cardiovasculaires et rénaux dans le diabète de type 2. Cette étude évalue si les bénéfices des inhibiteurs SGLT2 restent constants avec ou sans agonistes GLP-1.
+
+## 🧪 Méthodologie
+Méta-analyse collaborative de 12 essais randomisés contrôlés par placebo incluant 73 238 patients diabétiques, dont 4,2% sous agonistes GLP-1. Évaluation des événements cardiovasculaires majeurs, hospitalisations pour insuffisance cardiaque, progression de maladie rénale et sécurité.
+
+## 📊 Résultats clés
+Les inhibiteurs SGLT2 ont réduit les événements cardiovasculaires majeurs (HR 0,81 vs 0,90), les hospitalisations pour insuffisance cardiaque (HR 0,76 vs 0,78) et la progression rénale (HR 0,65 vs 0,67), indépendamment de l'utilisation d'agonistes GLP-1. Moins d'événements indésirables graves ont été observés sous inhibiteurs SGLT2 (RR 0,87 vs 0,91).
+
+## 🩺 Impact clinique
+Les bénéfices cardiovasculaires et rénaux des inhibiteurs SGLT2 sont constants, qu'ils soient utilisés seuls ou avec des agonistes GLP-1, suggérant des effets indépendants et soutenant leur utilisation combinée.
+
+## 📖 Référence
+Apperloo EM, Neuen BL, Fletcher RA, et al. Lancet Diabetes Endocrinol. 2024;12(8):545-557.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S2213-8587(24)00155-4.

@@ -1,0 +1,19 @@
+Date de publication : 2024-09-21
+
+# 📝 Transplantation hépatique versus chimiothérapie seule pour métastases hépatiques colorectales non résécables
+
+## 📌 Contexte & Problématique
+Les métastases hépatiques colorectales définitivement non résécables ont un pronostic défavorable. L'étude évalue si l'ajout d'une transplantation hépatique à la chimiothérapie améliore la survie globale.
+
+## 🧪 Méthodologie
+Essai randomisé multicentrique européen (TransMet) incluant 94 patients (18-65 ans, ECOG 0-1) avec métastases hépatiques colorectales non résécables, sans maladie extrahépatique. Randomisation (1:1) entre transplantation hépatique+chimiothérapie versus chimiothérapie seule.
+
+## 📊 Résultats clés
+Suivi médian: 59,3 mois. Survie globale à 5 ans (intention de traiter): 56,6% (transplantation+chimiothérapie) contre 12,6% (chimiothérapie seule), HR 0,37 (p=0,0003). En analyse per-protocole: 73,3% contre 9,3%. Événements indésirables graves: 80% des patients transplantés et 83% des patients sous chimiothérapie seule.
+
+## 🩺 Impact clinique
+La transplantation hépatique associée à la chimiothérapie améliore significativement la survie chez des patients sélectionnés avec métastases hépatiques colorectales non résécables, suggérant son intégration comme option thérapeutique standard.
+
+## 📖 Référence
+Adam R, Piedvache C, Chiche L, et al. Lancet. 2024;404(10458):1107-1118.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S0140-6736(24)01595-2.

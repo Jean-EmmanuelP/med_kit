@@ -1,0 +1,19 @@
+Date de publication : 2024-03-18
+
+# 📝 Vaccination des adultes atteints de cancer : Recommandations ASCO 2024
+
+## 📌 Contexte & Problématique
+Les patients cancéreux présentent un risque accru d'infections. Cette directive vise à optimiser leur protection vaccinale, considérée comme élément clé de leur prise en charge.
+
+## 🧪 Méthodologie
+Revue systématique de 102 publications (24 revues systématiques, 14 ECR, 64 études non randomisées) publiées entre 2013-2023. Un panel d'experts ASCO a formulé des recommandations basées sur ces données.
+
+## 📊 Résultats clés
+Les preuves les plus substantielles concernent les vaccins COVID-19. La directive recommande de documenter le statut vaccinal dès la première consultation et d'administrer les vaccins recommandés au moment opportun.
+
+## 🩺 Impact clinique
+Une revaccination est nécessaire après greffe de cellules souches, thérapie CAR-T ou traitement déplétif en lymphocytes B. La vaccination des contacts domestiques renforce la protection. Les stratégies vaccinales diffèrent des recommandations pour la population générale.
+
+## 📖 Référence
+Kamboj M, Bohlke K, Baptiste DM, et al. Vaccination of Adults With Cancer: ASCO Guideline. J Clin Oncol. 2024;42(14):1699-1721.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO.24.00032.

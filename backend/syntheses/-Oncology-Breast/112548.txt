@@ -1,0 +1,19 @@
+Date de publication : 2024-02-27
+
+# 📝 Prévention du syndrome main-pied lié à la capécitabine par diclofénac topique
+
+## 📌 Contexte & Problématique
+Le syndrome main-pied (SMP) constitue un effet secondaire limitant de la capécitabine. L'inhibition de la COX-2 par le célécoxib prévient le SMP, mais ses effets systémiques limitent son utilisation. Le diclofénac topique pourrait offrir une alternative avec moins d'effets indésirables.
+
+## 🧪 Méthodologie
+Essai randomisé en double aveugle, monocentrique, incluant 264 patients atteints de cancer du sein ou gastro-intestinal traités par capécitabine. Randomisation 1:1 entre diclofénac topique (n=131) et placebo (n=133) pendant 12 semaines. Critère principal: incidence du SMP grade 2-3.
+
+## 📊 Résultats clés
+SMP grade 2-3: 3,8% (diclofénac) vs 15,0% (placebo), différence absolue 11,2% (p=0,003). SMP tous grades: 6,1% vs 18,1%. Réductions de dose liées au SMP: 3,8% vs 13,5%.
+
+## 🩺 Impact clinique
+Le diclofénac topique réduit significativement l'incidence du SMP et les modifications de dose associées chez les patients sous capécitabine, offrant une stratégie préventive efficace et bien tolérée.
+
+## 📖 Référence
+Santhosh A, Sharma A, Bakhshi S, et al. J Clin Oncol. 2024;42(15):1821-1829.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO.23.01730.

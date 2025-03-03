@@ -1,0 +1,19 @@
+Date de publication : 2025-02-11
+
+# 📝 Risque de fibrillation atriale chez les femmes avec antécédents de troubles hypertensifs de la grossesse
+
+## 📌 Contexte & Problématique
+Les troubles hypertensifs de la grossesse (THG) sont associés à des maladies cardiovasculaires ultérieures. L'association spécifique entre THG et fibrillation atriale (FA) reste peu documentée.
+
+## 🧪 Méthodologie
+Étude de cohorte rétrospective incluant 771 521 femmes nullipares ayant accouché entre 2002 et 2017 en Ontario. Analyse par régression à risques concurrents selon le modèle de Cox pour évaluer l'association entre THG et FA incidente.
+
+## 📊 Résultats clés
+8% des femmes ont présenté un THG. Après 7 380 304 personnes-années de suivi, 2483 cas de FA (0,3%) ont été diagnostiqués. Les THG étaient associés à un risque accru de FA (HR ajusté: 1,45 [IC 95%: 1,28-1,64]). Relation dose-réponse observée: les formes sévères de THG et l'hypertension chronique préexistante augmentaient le risque de FA de 1,5 à 2,2 fois.
+
+## 🩺 Impact clinique
+Ces résultats soulignent l'importance d'intégrer les antécédents de THG dans la stratification du risque cardiovasculaire. Une surveillance accrue et des stratégies préventives ciblées sont nécessaires chez ces patientes.
+
+## 📖 Référence
+Johnston A, Petrcich W, Smith GN, et al. Circulation. 2025;151(7):460-473.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1161/CIRCULATIONAHA.124.072418.

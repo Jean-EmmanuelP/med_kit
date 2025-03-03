@@ -1,0 +1,19 @@
+Date de publication : 2024-06-27
+
+# 📝 Cellules souches mésenchymateuses clonales dans le traitement de la dermatite atopique modérée à sévère
+
+## 📌 Contexte & Problématique
+La dermatite atopique (DA) modérée à sévère reste difficile à traiter. Les cellules souches mésenchymateuses (CSM) présentent des propriétés immunomodulatrices potentiellement bénéfiques pour cette pathologie.
+
+## 🧪 Méthodologie
+Étude en deux phases : essai ouvert de phase 1 (20 patients) suivi d'un essai randomisé contrôlé de phase 2 (72 patients). Administration intraveineuse de CSM clonales allogéniques dérivées de moelle osseuse humaine (hcMSC) à 5×10^5 cellules/kg.
+
+## 📊 Résultats clés
+Phase 1 : bonne tolérance des hcMSC aux deux dosages testés. Phase 2 : taux de réponse EASI-50 significativement supérieur à 12 semaines dans le groupe hcMSC versus placebo (p=0,038). Pas de différence significative pour la qualité de vie et le prurit. Événements indésirables majoritairement légers à modérés.
+
+## 🩺 Impact clinique
+Les hcMSC représentent une option thérapeutique prometteuse pour la DA modérée à sévère avec un profil de sécurité acceptable. Des études à plus grande échelle sont nécessaires pour confirmer ces résultats préliminaires.
+
+## 📖 Référence
+Seo HM, Lew BL, Lee YW, et al. J Allergy Clin Immunol. 2024;154(4):965-973.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.jaci.2024.06.013.

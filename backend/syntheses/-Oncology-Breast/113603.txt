@@ -1,0 +1,19 @@
+Date de publication : 2024-05-21
+
+# 📝 Ribociclib + hormonothérapie vs chimiothérapie combinée dans le cancer du sein avancé RH+/HER2- agressif chez les femmes préménopausées
+
+## 📌 Contexte & Problématique
+Aucune comparaison directe n'existait entre inhibiteurs CDK4/6 + hormonothérapie et chimiothérapie combinée chez les patientes préménopausées avec cancer du sein avancé RH+/HER2- cliniquement agressif.
+
+## 🧪 Méthodologie
+Essai phase II randomisé incluant 222 femmes pré/périménopausées (n=112 ribociclib+létrozole/anastrozole+goséréline vs n=110 chimiothérapie combinée). 67,6% présentaient des métastases viscérales symptomatiques et 47,7% une crise viscérale.
+
+## 📊 Résultats clés
+SSP médiane significativement supérieure avec ribociclib+hormonothérapie : 21,8 mois vs 12,8 mois (HR=0,61; p=0,003). Taux de réponse similaires (66,1% vs 61,8%). Temps médian jusqu'à réponse : 4,9 vs 3,2 mois. Profil de tolérance favorable pour le ribociclib.
+
+## 🩺 Impact clinique
+Le ribociclib+hormonothérapie constitue une option de première ligne supérieure à la chimiothérapie combinée chez ces patientes, avec meilleure efficacité et tolérance, même en présence de maladie agressive.
+
+## 📖 Référence
+Lu YS, Mahidin EIBM, Azim H, et al. J Clin Oncol. 2024;42(23):2812-2821.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO.24.00144.

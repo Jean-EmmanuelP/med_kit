@@ -1,0 +1,19 @@
+Date de publication : 2025-01-16
+
+# 📝 Trastuzumab Emtansine améliore la survie dans le cancer du sein HER2+ avec maladie résiduelle
+
+## 📌 Contexte & Problématique
+Les patients avec cancer du sein HER2+ présentant une maladie résiduelle après traitement néoadjuvant ont un risque élevé de récidive. L'étude KATHERINE a évalué l'efficacité du trastuzumab emtansine (T-DM1) versus trastuzumab seul dans cette population.
+
+## 🧪 Méthodologie
+Essai randomisé de phase 3 comparant 14 cycles de T-DM1 versus trastuzumab chez des patients avec cancer du sein HER2+ présentant une maladie résiduelle après chimiothérapie néoadjuvante à base de taxane et trastuzumab.
+
+## 📊 Résultats clés
+Après 8,4 ans de suivi médian, le T-DM1 a maintenu l'amélioration de la survie sans maladie invasive (HR=0,54; IC95%:0,44-0,66) avec un taux à 7 ans de 80,8% versus 67,1% pour le trastuzumab. La survie globale était significativement améliorée (HR=0,66; IC95%:0,51-0,87; p=0,003), atteignant 89,1% à 7 ans versus 84,4% avec trastuzumab.
+
+## 🩺 Impact clinique
+Le T-DM1 représente un standard thérapeutique pour les patients HER2+ avec maladie résiduelle post-traitement néoadjuvant, offrant un bénéfice significatif en survie malgré plus d'effets indésirables de grade ≥3 (26,1% vs 15,7%).
+
+## 📖 Référence
+Geyer CE Jr, Untch M, Huang CS, et al. Survival with Trastuzumab Emtansine in Residual HER2-Positive Breast Cancer. N Engl J Med. 2025;392(3):249-257.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2406070.

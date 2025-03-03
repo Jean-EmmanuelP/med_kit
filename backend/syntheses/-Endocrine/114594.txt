@@ -1,0 +1,19 @@
+Date de publication : 2024-12-01
+
+# 📝 Réutilisation des seringues et aiguilles à insuline chez les patients diabétiques de type 2 : impact clinique
+
+## 📌 Contexte & Problématique
+Étude évaluant l'impact clinique et biologique de la réutilisation des seringues et aiguilles d'insuline chez les patients diabétiques de type 2.
+
+## 🧪 Méthodologie
+Essai clinique randomisé de 12 semaines comparant deux groupes de patients diabétiques de type 2 : non-réutilisation versus réutilisation (5 fois) des seringues/aiguilles. Évaluation du contrôle glycémique, douleur, complications cutanées, adhérence et contamination microbiologique.
+
+## 📊 Résultats clés
+71 participants (59% femmes, âge moyen 59,7±8,8 ans, diabète depuis 18 ans). Le groupe réutilisation a présenté une augmentation des lipohypertrophies/nodules (+0,16±0,08, P=0,040) sans détérioration du contrôle glycémique ni augmentation de la douleur. Aucune différence en contamination microbiologique. Meilleure adhérence dans le groupe réutilisation.
+
+## 🩺 Impact clinique
+La réutilisation des seringues/aiguilles n'affecte pas le contrôle glycémique à court terme mais augmente légèrement le risque de lipohypertrophies, sans impact sur la contamination ou la douleur.
+
+## 📖 Référence
+Berlanda G, Telo GH, Gossenheimer AN, et al. Diabetes Care. 2024;47(12):2146-2154.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.2337/dc24-0157.

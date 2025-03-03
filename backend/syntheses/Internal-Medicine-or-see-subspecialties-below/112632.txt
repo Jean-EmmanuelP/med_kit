@@ -1,0 +1,23 @@
+Date de publication : 2024-03-14
+
+# 📝 Iptacopan oral en monothérapie dans l'hémoglobinurie paroxystique nocturne
+
+## 📌 Contexte & Problématique
+L'anémie hémolytique persistante et l'absence de traitements oraux limitent la prise en charge de l'hémoglobinurie paroxystique nocturne (HPN). L'iptacopan, inhibiteur oral du facteur B, pourrait améliorer les taux d'hémoglobine chez ces patients.
+
+## 🧪 Méthodologie
+Deux essais de phase 3 sur 24 semaines chez des patients avec hémoglobine <10 g/dL : 
+- APPLY-PNH : randomisation entre iptacopan et poursuite anti-C5 chez patients prétraités
+- APPOINT-PNH : iptacopan chez patients naïfs d'inhibiteurs du complément avec LDH >1,5×LSN
+
+## 📊 Résultats clés
+APPLY-PNH : 85% des patients sous iptacopan ont augmenté leur hémoglobine ≥2 g/dL et 70% ont atteint ≥12 g/dL, contre 0% sous anti-C5. 95% sans transfusion sous iptacopan vs 40% sous anti-C5.
+APPOINT-PNH : 94% des patients ont augmenté leur hémoglobine ≥2 g/dL sans transfusion.
+Principal effet indésirable : céphalées.
+
+## 🩺 Impact clinique
+L'iptacopan oral améliore significativement les paramètres hématologiques, réduit les besoins transfusionnels et la fatigue, avec normalisation de la LDH chez les patients HPN, qu'ils soient prétraités ou naïfs d'inhibiteurs du complément.
+
+## 📖 Référence
+Peffault de Latour R, Roth A, Kulasekararaj AG, et al. Oral Iptacopan Monotherapy in Paroxysmal Nocturnal Hemoglobinuria. N Engl J Med. 2024;390(11):994-1008.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2308695.

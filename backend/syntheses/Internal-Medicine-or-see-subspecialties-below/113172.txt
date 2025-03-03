@@ -1,0 +1,19 @@
+Date de publication : 2024-05-13
+
+# 📝 Aficamten pour la cardiomyopathie hypertrophique obstructive symptomatique
+
+## 📌 Contexte & Problématique
+La cardiomyopathie hypertrophique obstructive (CMH) provoque une obstruction du ventricule gauche limitant l'effort. L'aficamten, inhibiteur sélectif oral de la myosine cardiaque, réduit l'hypercontractilité et les gradients intracardiaques.
+
+## 🧪 Méthodologie
+Essai randomisé de phase 3 comparant l'aficamten (5-20 mg) au placebo pendant 24 semaines chez 282 adultes (142 aficamten/140 placebo) avec CMH obstructive symptomatique. Critère principal : variation de la consommation maximale d'oxygène à l'effort.
+
+## 📊 Résultats clés
+À 24 semaines, l'augmentation moyenne de la consommation maximale d'oxygène était de +1,8 ml/kg/min avec aficamten contre 0,0 ml/kg/min sous placebo (différence: +1,7 ml/kg/min; p<0,001). Les 10 critères secondaires (scores KCCQ-CSS, classe NYHA, gradients de pression) étaient significativement améliorés. Profil de tolérance comparable au placebo.
+
+## 🩺 Impact clinique
+L'aficamten améliore significativement la capacité d'effort et les symptômes chez les patients avec CMH obstructive, offrant une nouvelle option thérapeutique pharmacologique efficace.
+
+## 📖 Référence
+Maron MS, Masri A, Nassif ME, et al. Aficamten for Symptomatic Obstructive Hypertrophic Cardiomyopathy. N Engl J Med. 2024;390(20):1849-1861.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2401424.

@@ -1,0 +1,19 @@
+Date de publication : 2024-08-14
+
+# 📝 Vaccin PfSPZ contre le paludisme : efficacité chez les adultes et femmes en âge de procréer au Mali
+
+## 📌 Contexte & Problématique
+Le paludisme à P. falciparum pendant la grossesse cause une mortalité maternelle, fœtale et infantile. Le vaccin PfSPZ (sporozoïtes atténués) a montré une efficacité préventive chez les adultes africains.
+
+## 🧪 Méthodologie
+Deux essais randomisés, double aveugle, contrôlés par placebo au Mali : phase 1 (MLSPZV3) chez 210 adultes (18-35 ans) et phase 2 (MLSPZV4) chez 300 femmes (18-38 ans) envisageant une grossesse. Trois doses de vaccin PfSPZ (9×10⁵ ou 1,8×10⁶) ou placebo selon différents schémas.
+
+## 📊 Résultats clés
+MLSPZV3 : Efficacité vaccinale non significative (27% [-18 à 55%] première année, 42% [-5 à 68%] deuxième année avec schéma 4 semaines). MLSPZV4 : Efficacité significative contre la parasitémie. Fausses couches similaires entre groupes (15% PfSPZ 9×10⁵, 21% PfSPZ 1,8×10⁶, 12% placebo). Événements indésirables majoritairement légers.
+
+## 🩺 Impact clinique
+Le vaccin PfSPZ présente un profil de sécurité acceptable chez les femmes en âge de procréer, sans augmentation des complications obstétricales, ouvrant des perspectives pour la prévention du paludisme gestationnel.
+
+## 📖 Référence
+Diawara H, Healy SA, Mwakingwe-Omari A, et al. Lancet Infect Dis. 2024;24(12):1366-1382.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S1473-3099(24)00360-8.

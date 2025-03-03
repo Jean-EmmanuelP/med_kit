@@ -107,7 +107,7 @@ def is_summary_valid(summary):
     return has_all_sections and is_french
 
 def process_articles(test_mode=False):
-    """Traite les articles : 5 en mode test, tous sinon."""
+    """Traite les articles : 5 en mode test, tous sinon. Évite les doublons."""
     if not os.path.exists(OUTPUT_DIR):
         os.makedirs(OUTPUT_DIR)
 
@@ -136,6 +136,13 @@ def process_articles(test_mode=False):
             print(f"Fichier introuvable : {filepath}, ignoré.")
             continue
         
+        # Vérifier si une synthèse existe déjà
+        output_discipline_dir = os.path.join(OUTPUT_DIR, discipline_folder)
+        output_filename = os.path.join(output_discipline_dir, os.path.basename(filepath))
+        if os.path.exists(output_filename):
+            print(f"Synthèse déjà existante pour {filepath}, ignoré.")
+            continue
+
         print(f"  Traitement : {filepath}")
         pubmed_link, metadata, abstract, pub_date = read_article_file(filepath)
         

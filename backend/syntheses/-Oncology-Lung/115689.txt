@@ -1,0 +1,21 @@
+Date de publication : 2025-01-09
+
+# 📝 Risque d'AVC ischémique après diagnostic de cancer : étude de cohorte appariée
+
+## 📌 Contexte & Problématique
+L'association entre cancer et AVC ischémique reste insuffisamment documentée, particulièrement chez les patients avec antécédents d'AVC. Cette étude évalue le risque comparatif d'AVC ischémique chez des individus avec et sans cancer.
+
+## 🧪 Méthodologie
+Étude de cohorte appariée (1:1) en Ontario incluant des adultes nouvellement diagnostiqués avec cancer versus témoins sans cancer. Deux cohortes distinctes : sans antécédent d'AVC (cohorte 1) et avec antécédent d'AVC (cohorte 2).
+
+## 📊 Résultats clés
+Cohorte 1 (sans antécédent d'AVC) : risque accru d'AVC à 1,5 an post-diagnostic (4,6 vs 3,5/1000 personnes-années; RRa=1,40; IC 95%:1,34-1,47).
+Cohorte 2 (avec antécédent d'AVC) : risque similaire à 1,5 an (RRa=1,00; IC 95%:0,88-1,14).
+Dans les deux cohortes : risque diminué entre 1,5-5 ans post-diagnostic.
+
+## 🩺 Impact clinique
+Surveillance neurologique accrue recommandée durant les 18 premiers mois après diagnostic de cancer, particulièrement chez les patients sans antécédent d'AVC. Le risque varie selon le site et le stade tumoral.
+
+## 📖 Référence
+Siegal DM, Cerasuolo JO, Carrier M, et al. Risk of ischemic stroke after cancer diagnosis: a population-based matched cohort study. J Thromb Haemost. 2025;S1538-7836(24)00778-5.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.jtha.2024.12.029.

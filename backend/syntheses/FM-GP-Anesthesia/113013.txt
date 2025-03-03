@@ -1,0 +1,19 @@
+Date de publication : 2024-04-30
+
+# 📝 Ticagrélor et protection des membres inférieurs chez les patients diabétiques athéroscléreux
+
+## 📌 Contexte & Problématique
+Les patients diabétiques de type 2 avec athérosclérose présentent un risque élevé d'événements affectant les membres inférieurs. Cette étude évalue l'effet du ticagrélor sur ces complications.
+
+## 🧪 Méthodologie
+Étude randomisée comparant ticagrélor versus placebo (en plus d'aspirine) chez 19 220 patients diabétiques suivis pendant 3 ans. 1 687 patients (8,8%) présentaient une artériopathie périphérique (AP) à l'inclusion.
+
+## 📊 Résultats clés
+Le ticagrélor a réduit significativement les événements affectant les membres (1,3% vs 1,6%; HR: 0,77; p=0,022), notamment la revascularisation (HR: 0,79; p=0,044) et l'ischémie aiguë de membre (HR: 0,24; p=0,009). Le bénéfice était similaire avec ou sans AP préexistante (Pinteraction=0,81).
+
+## 🩺 Impact clinique
+Le ticagrélor offre une protection significative contre les complications des membres inférieurs chez les diabétiques athéroscléreux, indépendamment de la présence d'AP, mais avec un risque hémorragique accru à considérer dans la balance bénéfice-risque.
+
+## 📖 Référence
+Bonaca MP, Bhatt DL, Simon T, et al. J Am Coll Cardiol. 2024;83(17):1627-1636.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.jacc.2024.03.377.

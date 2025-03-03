@@ -1,0 +1,19 @@
+Date de publication : 2024-11-27
+
+# 📝 Lénacapavir semestriel pour la prévention du VIH chez les hommes et personnes de genre divers
+
+## 📌 Contexte & Problématique
+L'efficacité du lénacapavir semestriel sous-cutané comme PrEP chez les hommes cisgenres, femmes/hommes transgenres et personnes non-binaires restait à démontrer, après son efficacité prouvée chez les femmes cisgenres.
+
+## 🧪 Méthodologie
+Essai randomisé de phase 3 (2:1) comparant le lénacapavir sous-cutané semestriel au F/TDF oral quotidien chez 3265 participants. L'efficacité a été évaluée versus l'incidence de fond dans la population dépistée et versus le groupe F/TDF.
+
+## 📊 Résultats clés
+Incidence VIH : 0,10/100 personnes-années (lénacapavir) contre 0,93/100 (F/TDF) et 2,37/100 (population dépistée). Réduction significative avec lénacapavir versus incidence de fond (ratio 0,04; p<0,001) et versus F/TDF (ratio 0,11; p=0,002). Arrêts pour réactions au site d'injection : 1,2% (lénacapavir).
+
+## 🩺 Impact clinique
+Le lénacapavir semestriel offre une alternative efficace et sûre au traitement oral quotidien pour la PrEP, avec une observance facilitée par l'administration biannuelle.
+
+## 📖 Référence
+Kelley CF, Acevedo-Quinones M, Agwu AL, et al. Twice-Yearly Lenacapavir for HIV Prevention in Men and Gender-Diverse Persons. N Engl J Med. 2024 Nov 27. doi: 10.1056/NEJMoa2411858.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2411858.

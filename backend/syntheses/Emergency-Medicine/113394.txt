@@ -1,0 +1,19 @@
+Date de publication : 2024-06-03
+
+# 📝 Interventions pour améliorer les indicateurs de performance aux urgences : revue systématique et méta-analyse
+
+## 📌 Contexte & Problématique
+L'engorgement des services d'urgence (SU) affecte la qualité des soins aigus via l'allongement des temps d'attente et l'augmentation des patients partis sans être vus (PSAV). Cette étude évalue l'efficacité des interventions visant à améliorer ces indicateurs.
+
+## 🧪 Méthodologie
+Revue systématique et méta-analyse d'ECR évaluant les interventions aux urgences ciblant trois indicateurs clés : délai avant prise en charge médicale (DAPM), délai avant orientation (DAO) et PSAV. Analyse selon modèle à effets aléatoires et évaluation GRADE.
+
+## 📊 Résultats clés
+Sur 1850 références, 20 ECR ont été inclus. Le médecin de liaison au triage réduit le DAO de 28 minutes (IC 95% 19-37) et diminue les PSAV (RR 0,76, IC 95% 0,66-0,88). Les tests au point d'intervention réduisent le DAO de 5-96 minutes mais augmentent légèrement le DAPM (+2 min).
+
+## 🩺 Impact clinique
+Les médecins de liaison au triage et les tests au point d'intervention constituent des stratégies efficaces pour atténuer l'engorgement des SU, à adapter selon le contexte local.
+
+## 📖 Référence
+Youssef E, Benabbas R, Choe B, et al. Acad Emerg Med. 2024;31(8):789-804.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1111/acem.14946.

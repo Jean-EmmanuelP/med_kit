@@ -1,0 +1,25 @@
+Date de publication : 2024-06-01
+
+# 📝 IRM dans le dépistage du cancer de la prostate : méta-analyse
+
+## 📌 Contexte & Problématique
+L'IRM prostatique est de plus en plus utilisée dans le dépistage précoce du cancer de la prostate. Cette méta-analyse évalue son efficacité diagnostique comparée aux stratégies basées uniquement sur le PSA.
+
+## 🧪 Méthodologie
+Analyse de 12 études incluant 80 114 hommes. Comparaison des parcours de dépistage intégrant l'IRM avec biopsie ciblée versus dépistage standard par PSA avec biopsie systématique.
+
+## 📊 Résultats clés
+Le parcours IRM (seuil PI-RADS ≥3) versus PSA seul montre :
+- Probabilité accrue de cancer significatif si test positif (OR 4,15)
+- Réduction des biopsies (OR 0,28)
+- Diminution des cancers non significatifs détectés (OR 0,34)
+- Détection similaire des cancers significatifs (OR 1,02)
+
+Un seuil PI-RADS ≥4 réduit davantage les biopsies (OR 0,19) et les cancers non significatifs (OR 0,23).
+
+## 🩺 Impact clinique
+L'intégration de l'IRM dans le dépistage du cancer prostatique permet de réduire les biopsies inutiles et le surdiagnostic tout en maintenant la détection des cancers cliniquement significatifs.
+
+## 📖 Référence
+Fazekas T, Shim SR, Basile G, et al. JAMA Oncol. 2024;10(6):745-754.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamaoncol.2024.0734.

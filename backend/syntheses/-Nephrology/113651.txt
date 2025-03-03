@@ -1,0 +1,19 @@
+Date de publication : 2024-07-02
+
+# 📝 IEC/ARA II dans l'IRC avancée : bénéfice sur la progression vers l'insuffisance rénale terminale
+
+## 📌 Contexte & Problématique
+L'utilité des IEC/ARA II chez les patients avec IRC avancée (DFGe <30 mL/min/1,73m²) reste incertaine concernant la progression vers l'insuffisance rénale terminale (IRTT) et la mortalité.
+
+## 🧪 Méthodologie
+Méta-analyse rétrospective de 18 essais contrôlés randomisés (1739 participants) comparant IEC/ARA II versus placebo/autres antihypertenseurs. Critères principaux : IRTT et décès. Suivi médian : 34 mois.
+
+## 📊 Résultats clés
+L'instauration d'IEC/ARA II a réduit significativement le risque d'IRTT (HR ajusté 0,66 [IC 95% 0,55-0,79]) sans effet significatif sur la mortalité (HR 0,86 [IC 0,58-1,28]). Aucune interaction significative avec l'âge, le DFGe, l'albuminurie ou le diabète.
+
+## 🩺 Impact clinique
+Les IEC/ARA II devraient être envisagés même en IRC avancée pour leur effet néphroprotecteur. L'absence de données sur l'hyperkaliémie et l'insuffisance rénale aiguë reste une limitation importante pour la pratique clinique.
+
+## 📖 Référence
+Ku E, Inker LA, Tighiouart H, et al. Ann Intern Med. 2024;177(7):953-963.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.7326/M23-3236.

@@ -1,0 +1,19 @@
+Date de publication : 2024-04-08
+
+# 📝 ÉCHOGRAPHIE INTRAVASCULAIRE VS ANGIOGRAPHIE DANS LES SYNDROMES CORONARIENS AIGUS
+
+## 📌 Contexte & Problématique
+Les bénéfices de l'échographie intravasculaire (IVUS) par rapport à l'angiographie seule lors d'interventions coronariennes percutanées (ICP) chez les patients avec syndrome coronarien aigu (SCA) restent insuffisamment documentés.
+
+## 🧪 Méthodologie
+Essai randomisé multicentrique en deux étapes incluant 3505 patients avec SCA dans 58 centres (Chine, Italie, Pakistan, Royaume-Uni). Randomisation entre ICP guidée par IVUS (n=1753) ou par angiographie seule (n=1752). Critère principal : échec du vaisseau cible à 1 an (composite de mort cardiaque, infarctus du myocarde du vaisseau cible, revascularisation cliniquement motivée).
+
+## 📊 Résultats clés
+Le critère principal est survenu chez 4,0% des patients du groupe IVUS contre 7,3% dans le groupe angiographie (HR 0,55 [IC 95% 0,41-0,74]; p=0,0001). Réduction principalement due à moins d'infarctus et de revascularisations du vaisseau cible. Pas de différence significative pour la mortalité toutes causes ou les thromboses de stent.
+
+## 🩺 Impact clinique
+L'IVUS améliore significativement les résultats cliniques à 1 an chez les patients avec SCA bénéficiant d'une ICP avec stents à élution médicamenteuse contemporains.
+
+## 📖 Référence
+Li X, Ge Z, Kan J, et al. Lancet. 2024;403(10439):1855-1865.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S0140-6736(24)00282-4.

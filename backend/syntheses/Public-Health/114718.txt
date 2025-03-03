@@ -1,0 +1,19 @@
+Date de publication : 2024-10-21
+
+# 📝 Lignes directrices 2024 pour la prévention primaire de l'AVC
+
+## 📌 Contexte & Problématique
+Mise à jour des directives de 2014 pour la prévention primaire de l'AVC. Document ressource pour les cliniciens guidant les stratégies préventives chez les individus sans antécédents d'AVC.
+
+## 🧪 Méthodologie
+Revue systématique de la littérature (mai-novembre 2023) incluant études sur participants humains publiées en anglais dans MEDLINE, PubMed et Bibliothèque Cochrane. Analyse des publications pertinentes de l'American Heart Association.
+
+## 📊 Résultats clés
+Les directives s'alignent sur les "8 Éléments Essentiels de la Vie" pour optimiser la santé cardiovasculaire et cérébrale. Introduction de recommandations spécifiques au sexe pour le dépistage et la prévention, absentes des directives 2014.
+
+## 🩺 Impact clinique
+Recommandations actualisées basées sur les preuves pour prévenir les AVC ischémiques et hémorragiques tout au long de la vie. Mise à jour des stratégies de gestion des facteurs de risque avec nouveaux sujets abordés.
+
+## 📖 Référence
+Bushnell C, Kernan WN, Sharrief AZ, et al. 2024 Guideline for the Primary Prevention of Stroke. Stroke. 2024;55(12):e344-e424.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1161/STR.0000000000000475.

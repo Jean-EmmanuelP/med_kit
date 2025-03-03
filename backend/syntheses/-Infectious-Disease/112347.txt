@@ -1,0 +1,19 @@
+Date de publication : 2024-02-15
+
+# 📝 Céfépime-Taniborbactam : Supériorité dans les infections urinaires compliquées
+
+## 📌 Contexte & Problématique
+Les Enterobacterales résistantes aux carbapénèmes et Pseudomonas aeruginosa multirésistant représentent des menaces mondiales. Le céfépime-taniborbactam est une association β-lactame/inhibiteur de β-lactamase développée pour contrer ces résistances.
+
+## 🧪 Méthodologie
+Essai randomisé phase 3, double aveugle, comparant céfépime-taniborbactam IV (2,5g/8h) au méropénème (1g/8h) pendant 7-14 jours chez 661 adultes hospitalisés avec infection urinaire compliquée (IUC) ou pyélonéphrite aiguë. Ratio 2:1.
+
+## 📊 Résultats clés
+Dans la population microITT (n=436), le succès composite (microbiologique et clinique) était de 70,6% sous céfépime-taniborbactam contre 58,0% sous méropénème (différence: +12,6%; IC95%: 3,1-22,2; p=0,009). Parmi ces patients, 57,8% présentaient une IUC, 42,2% une pyélonéphrite aiguë et 13,1% une bactériémie.
+
+## 🩺 Impact clinique
+Le céfépime-taniborbactam démontre une supériorité significative par rapport au méropénème avec un profil de sécurité comparable, offrant une option thérapeutique prometteuse contre les infections résistantes.
+
+## 📖 Référence
+Wagenlehner FM, Gasink LB, McGovern PC, et al. Cefepime-Taniborbactam in Complicated Urinary Tract Infection. N Engl J Med. 2024;390(7):611-622.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2304748.

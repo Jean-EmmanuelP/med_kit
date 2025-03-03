@@ -1,0 +1,19 @@
+Date de publication : 2024-08-22
+
+# 📝 Corticothérapie dans le syndrome néphrotique de l'enfant : mise à jour 2024
+
+## 📌 Contexte & Problématique
+Le syndrome néphrotique infantile présente un taux de récidive de 80%. Les corticostéroïdes réduisent la mortalité à 3% mais comportent des effets indésirables significatifs. Cette revue systématique évalue différents schémas thérapeutiques chez les enfants au premier épisode ou en cas de récidives.
+
+## 🧪 Méthodologie
+Analyse de 54 essais contrôlés randomisés incluant 4670 enfants (1-18 ans). Comparaison de différentes durées, doses et stratégies posologiques de corticostéroïdes. Évaluation selon l'approche GRADE.
+
+## 📊 Résultats clés
+Aucune différence significative dans les récidives fréquentes entre 2 mois et ≥3 mois de prednisone (RR 0,96, IC 95% 0,83-1,10) ou entre 3 mois et 5-7 mois (RR 0,99, IC 95% 0,74-1,33) lors du premier épisode. Pour les formes récidivantes, les doses plus faibles montrent une efficacité similaire aux schémas standard (RR 1,01, IC 95% 0,85-1,20).
+
+## 🩺 Impact clinique
+Un traitement de 2-3 mois est suffisant lors du premier épisode. Pour les formes récidivantes, des doses d'induction plus faibles ou des durées plus courtes semblent aussi efficaces que les schémas standard, sans différence d'effets indésirables.
+
+## 📖 Référence
+Hahn D, Samuel SM, Willis NS, et al. Corticosteroid therapy for nephrotic syndrome in children. Cochrane Database Syst Rev. 2024;8(8):CD001533.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1002/14651858.CD001533.pub7.

@@ -1,0 +1,19 @@
+Date de publication : 2024-08-14
+
+# 📝 Dupilumab dans la RSCaPN sévère : rapidité, maintien et durabilité de la réponse
+
+## 📌 Contexte & Problématique
+La rhinosinusite chronique avec polypes nasaux (RSCaPN) sévère affecte significativement la qualité de vie. Cette analyse post-hoc visait à caractériser la dynamique temporelle de la réponse au dupilumab sur 52 semaines.
+
+## 🧪 Méthodologie
+Analyse des données de SINUS-52 (NCT02898454) comparant dupilumab 300mg/2 semaines (n=150) versus placebo (n=153). La réponse était définie par une amélioration ≥1 point du Score de Polypes Nasaux (SPN), congestion nasale (CN), perte d'odorat (PO), et ≥8,9 points au SNOT-22.
+
+## 📊 Résultats clés
+À 16 semaines, réponse significativement supérieure avec dupilumab versus placebo : SPN (75,3% vs 39,2%), CN (60,0% vs 24,2%), PO (60,7% vs 15,7%), SNOT-22 (83,3% vs 66,0%). Parmi les répondeurs à S16, >80% maintenaient leur réponse à S52. Sur 52 semaines, réponse durable (≥80% des points temporels) : SPN (46,7% vs 2,6%), CN (46,7% vs 9,2%), PO (47,3% vs 3,9%), SNOT-22 (62,0% vs 21,6%).
+
+## 🩺 Impact clinique
+Le dupilumab induit des réponses cliniquement significatives dès 16 semaines chez la majorité des patients atteints de RSCaPN sévère, avec maintien et durabilité lors du traitement continu.
+
+## 📖 Référence
+Bachert C, Khan AH, Fokkens WJ, et al. Dupilumab response onset, maintenance, and durability in patients with severe CRSwNP. J Allergy Clin Immunol. 2024;154(6):1442-1449.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.jaci.2024.07.026.

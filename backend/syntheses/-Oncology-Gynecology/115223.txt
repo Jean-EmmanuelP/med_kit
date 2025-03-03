@@ -1,0 +1,19 @@
+Date de publication : 2024-12-12
+
+# 📝 Olaparib versus chimiothérapie non-platine dans le cancer ovarien récidivant sensible au platine : résultats finaux de survie globale de l'étude SOLO3
+
+## 📌 Contexte & Problématique
+L'essai SOLO3 avait précédemment démontré l'efficacité de l'olaparib sur le taux de réponse objective et la survie sans progression chez les patientes avec cancer ovarien récidivant sensible au platine et mutation BRCA. Les résultats finaux de survie globale étaient attendus.
+
+## 🧪 Méthodologie
+Essai de phase III randomisé (2:1) comparant l'olaparib (300 mg BID, n=178) à une chimiothérapie non-platine en monothérapie (n=88) chez 266 patientes. Analyse secondaire prédéfinie de survie globale et analyses post-hoc selon le nombre de lignes antérieures et les mutations de réversion BRCA.
+
+## 📊 Résultats clés
+Survie globale similaire entre les groupes (HR=1,07 [IC95%:0,76-1,49]; p=0,71; médiane 34,9 vs 32,9 mois). Bénéfice potentiel après deux lignes de chimiothérapie (HR=0,83; médiane 37,9 vs 28,8 mois), mais effet potentiellement délétère après ≥3 lignes (HR=1,33; médiane 29,9 vs 39,4 mois).
+
+## 🩺 Impact clinique
+Les mutations de réversion BRCA (3,5% des patientes sous olaparib) pourraient expliquer l'absence de bénéfice après plusieurs lignes. Le nombre de lignes antérieures pourrait guider la sélection des patientes pour l'olaparib.
+
+## 📖 Référence
+Scambia G, Villalobos Valencia R, Colombo N, et al. J Clin Oncol. 2024 Dec 12:JCO2400933.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO.24.00933.

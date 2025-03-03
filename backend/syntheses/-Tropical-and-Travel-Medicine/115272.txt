@@ -1,0 +1,19 @@
+Date de publication : 2024-12-19
+
+# 📝 Répulsifs spatiaux : efficacité contre le paludisme dans une zone à haute transmission au Kenya
+
+## 📌 Contexte & Problématique
+Les répulsifs spatiaux, qui libèrent des substances actives dans l'air pour perturber le contact homme-vecteur, représentent une option prometteuse contre le paludisme. Leur efficacité épidémiologique restait non concluante malgré des preuves entomologiques positives.
+
+## 🧪 Méthodologie
+Essai randomisé en grappes dans le comté de Busia (Kenya) évaluant l'efficacité d'un répulsif spatial à base de transfluthrine après distribution de moustiquaires imprégnées. Suivi de 24 mois (2021-2023) chez 3072 enfants (6 mois-10 ans) répartis en 58 grappes (29 intervention, 29 placebo).
+
+## 📊 Résultats clés
+Réduction significative du risque de primo-infection palustre de 33,4% (IC 95% 11,1-50,1; p=0,0058) et des infections nouvelles globales de 32,1% (15,9-45,2; p=0,0004). Aucun événement indésirable associé au répulsif.
+
+## 🩺 Impact clinique
+Première démonstration d'efficacité des répulsifs spatiaux dans un contexte africain à haute transmission, avec vecteurs résistants aux pyréthrinoïdes et couverture élevée de moustiquaires. Ces produits constituent une composante bénéfique additionnelle pour la prévention du paludisme.
+
+## 📖 Référence
+Ochomo EO, Gimnig JE, Awori Q, et al. Lancet. 2025;405(10473):147-156.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S0140-6736(24)02253-0.

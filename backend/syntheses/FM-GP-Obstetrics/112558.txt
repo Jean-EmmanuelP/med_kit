@@ -1,0 +1,19 @@
+Date de publication : 2024-02-09
+
+# 📝 Clampage différé du cordon et valeurs sanguines néonatales : une méta-analyse
+
+## 📌 Contexte & Problématique
+Le clampage différé du cordon ombilical présente des bénéfices pour les prématurés, mais son impact sur les nouveau-nés à terme reste à préciser. Les techniques de prélèvement sanguin influencent l'évaluation des biomarqueurs.
+
+## 🧪 Méthodologie
+Méta-analyse de 15 essais cliniques randomisés comparant clampage différé versus immédiat chez les nouveau-nés à terme nés par voie basse. Analyse distincte des prélèvements de sang du cordon et capillaires.
+
+## 📊 Résultats clés
+Dans le sang capillaire (2-72h post-partum), le clampage différé augmente l'hématocrite (SMD 0,67, IC 95% 0,37-0,97) et l'hémoglobine (SMD 0,76, IC 95% 0,56-0,97). Dans le sang du cordon, l'hématocrite est plus bas après clampage différé (SMD -0,3, IC 95% -0,53 à -0,07). Aucun effet sur la bilirubine quelle que soit la technique.
+
+## 🩺 Impact clinique
+Le moment et la technique de prélèvement sont déterminants pour évaluer les effets du clampage différé. Les valeurs d'hémoglobine et d'hématocrite augmentent jusqu'à 72h après la naissance avec cette pratique.
+
+## 📖 Référence
+Zemouri C, Mestdagh E, Stiers M, et al. Deferred cord clamping to improve neonatal blood values: A systematic review and meta-analysis. Int J Nurs Stud. 2024;153:104718.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.ijnurstu.2024.104718.

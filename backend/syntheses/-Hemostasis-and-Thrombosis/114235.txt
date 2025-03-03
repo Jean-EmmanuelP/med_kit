@@ -1,0 +1,20 @@
+Date de publication : 2024-08-08
+
+# 📝 Anticoagulation dans les thromboses veineuses splanchniques associées aux néoplasmes myéloprolifératifs
+
+## 📌 Contexte & Problématique
+La gestion de l'anticoagulation chez les patients atteints de néoplasmes myéloprolifératifs (NMP) avec thrombose veineuse splanchnique (TVS) nécessite d'équilibrer risques hémorragiques et thrombotiques.
+
+## 🧪 Méthodologie
+Revue systématique et méta-analyse de 9 études (443 patients) avec suivi médian de 3,5 ans. Analyse des taux d'événements pour 100 patients-années chez des patients avec NMP-TVS, avec ou sans anticoagulation.
+
+## 📊 Résultats clés
+Sous anticoagulation (364 patients) : hémorragies majeures 2,8/100 patients-années (IC 95% 1,5-5,1), thromboses veineuses récurrentes 1,4 (IC 95% 0,8-2,2), thromboses artérielles 1,4 (IC 95% 0,6-3,3).
+Sans anticoagulation (79 patients) : hémorragies majeures 3,2/100 patients-années (IC 95% 0,7-12,7), thromboses veineuses récurrentes 3,5 (IC 95% 1,8-6,4).
+
+## 🩺 Impact clinique
+Les patients NMP-TVS présentent des risques significatifs d'hémorragie et de récidive thrombotique, même sous anticoagulation. L'approche optimale d'anticoagulation reste à déterminer.
+
+## 📖 Référence
+Chrysafi P, Barnum K, Gerhard GM, et al. J Thromb Haemost. 2024;22(12):3479-3489.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.jtha.2024.06.029.

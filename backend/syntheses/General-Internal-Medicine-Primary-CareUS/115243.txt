@@ -1,0 +1,22 @@
+Date de publication : 2024-12-17
+
+# 📝 Cibles tensionnelles plus élevées pour les hypertendus âgés : mise à jour Cochrane 2024
+
+## 📌 Contexte & Problématique
+Les recommandations sur les cibles tensionnelles chez les personnes âgées hypertendues manquent de consensus (130-150 mmHg). Cette revue évalue si des cibles moins strictes sont appropriées chez les patients ≥65 ans.
+
+## 🧪 Méthodologie
+Revue systématique de 4 essais randomisés (16 732 participants, âge moyen 70,3 ans) comparant des cibles tensionnelles plus élevées (150-160/95-105 mmHg) à des cibles conventionnelles/agressives (<140/90 mmHg), avec suivi de 2-4 ans.
+
+## 📊 Résultats clés
+- Mortalité toutes causes : pas de différence significative (RR 1,14; IC 95% 0,95-1,37; faible certitude)
+- AVC : augmentation significative avec cibles plus élevées (RR 1,33; IC 95% 1,06-1,67; haute certitude)
+- Événements cardiovasculaires graves : augmentation avec cibles plus élevées (RR 1,25; IC 95% 1,09-1,45; certitude modérée)
+- Abandons dus aux effets indésirables : pas de différence (RR 0,99; IC 95% 0,74-1,33)
+
+## 🩺 Impact clinique
+Les cibles tensionnelles plus basses (<140/90 mmHg) réduisent significativement les AVC et événements cardiovasculaires chez les personnes âgées hypertendues, sans augmentation des effets indésirables, justifiant une approche thérapeutique plus intensive.
+
+## 📖 Référence
+Falk JM, Froentjes L, Kirkwood JE, et al. Higher blood pressure targets for hypertension in older adults. Cochrane Database Syst Rev. 2024;12(12):CD011575.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1002/14651858.CD011575.pub3.

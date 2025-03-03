@@ -1,0 +1,19 @@
+Date de publication : 2024-12-01
+
+# 📝 INTERVENTIONS DIRECTES POUR RÉDUIRE L'USAGE DES BENZODIAZÉPINES ET AMÉLIORER LE SOMMEIL CHEZ LES PERSONNES ÂGÉES
+
+## 📌 Contexte & Problématique
+Les agonistes des récepteurs aux benzodiazépines (BZRA) sont largement utilisés chez les personnes âgées malgré leurs risques. Des interventions directes pourraient faciliter la transition vers des approches non-pharmacologiques.
+
+## 🧪 Méthodologie
+Essai clinique randomisé (YAWNS NB) comparant deux interventions par courrier (YAWNS-1/Sleepwell et YAWNS-2) au traitement habituel chez 565 adultes ≥65 ans (âge moyen: 72,1 ans) utilisant des BZRA depuis 11,4 ans en moyenne.
+
+## 📊 Résultats clés
+YAWNS-1 a obtenu les meilleurs résultats: 46,6% des participants ont arrêté ou réduit leur dose de BZRA (vs 34,8% pour YAWNS-2 et 20,3% pour le groupe contrôle). YAWNS-1 a également amélioré l'adoption des techniques de TCC-I (+3,1 techniques), l'efficacité du sommeil (+4,1%), et réduit la sévérité de l'insomnie et la somnolence diurne.
+
+## 🩺 Impact clinique
+Cette intervention simple et évolutive offre une solution efficace pour réduire l'utilisation des BZRA tout en améliorant le sommeil chez les personnes âgées, sans nécessiter d'intervention clinique préalable.
+
+## 📖 Référence
+Gardner DM, Turner JP, Magalhaes S, et al. JAMA Psychiatry. 2024;81(12):1187-1197.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamapsychiatry.2024.2731.

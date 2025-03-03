@@ -1,0 +1,19 @@
+Date de publication : 2024-03-04
+
+# 📝 Stratégie invasive chez les patients âgés fragiles avec NSTEMI : analyse secondaire de l'essai MOSCA-FRAIL
+
+## 📌 Contexte & Problématique
+L'essai MOSCA-FRAIL avait initialement comparé les stratégies invasive et conservatrice chez les patients fragiles avec NSTEMI sans montrer de différence à 1 an. Cette analyse secondaire évalue les résultats lors d'un suivi prolongé.
+
+## 🧪 Méthodologie
+Étude randomisée incluant 167 patients ≥70 ans (moyenne 86 ans) avec fragilité (score ≥4) et NSTEMI, suivis jusqu'à janvier 2023 (suivi médian 1113 jours). Comparaison entre stratégie invasive systématique (n=84) et conservatrice (n=83).
+
+## 📊 Résultats clés
+Le temps de survie moyen restreint était similaire entre les groupes (3,13 vs 3,06 ans). Les courbes de mortalité se croisaient, montrant une tendance défavorable pour le groupe invasif la première année, puis un bénéfice tardif (HR=0,58; IC 95%:0,33-0,99; p=0,045). Les effets néfastes précoces étaient plus marqués chez les patients très fragiles (score >4).
+
+## 🩺 Impact clinique
+Chez les patients âgés fragiles avec NSTEMI, une stratégie invasive n'améliore pas les résultats globaux mais présente une distribution temporelle particulière des décès, suggérant un phénomène d'épuisement des patients susceptibles.
+
+## 📖 Référence
+Sanchis J, Bueno H, Garcia-Blas S, et al. JAMA Netw Open. 2024;7(3):e240809.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamanetworkopen.2024.0809.

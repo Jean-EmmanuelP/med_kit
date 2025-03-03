@@ -1,0 +1,19 @@
+Date de publication : 2024-05-26
+
+# 📝 Anti-inflammatoires comme traitement adjuvant de la cellulite : revue systématique et méta-analyse
+
+## 📌 Contexte & Problématique
+Les corticostéroïdes sont parfois recommandés comme traitement d'appoint de la cellulite, mais avec un faible niveau de preuve. Cette étude évalue si les anti-inflammatoires (AINS, corticostéroïdes) améliorent la réponse clinique et la guérison de la cellulite.
+
+## 🧪 Méthodologie
+Revue systématique et méta-analyse d'essais contrôlés randomisés comparant l'ajout d'anti-inflammatoires versus placebo/aucune intervention chez des patients traités par antibiotiques pour cellulite. Recherche dans Medline, Embase et Cochrane jusqu'en août 2023.
+
+## 📊 Résultats clés
+Cinq études (n=331) incluses, toutes chez des adultes. Les AINS oraux ont montré un bénéfice au jour 3 (RR 1,81; IC 95% 1,42-2,31), mais pas au jour 5. Aucune différence dans la guérison clinique jusqu'à 22 jours. Peu d'événements indésirables rapportés.
+
+## 🩺 Impact clinique
+Les AINS oraux peuvent accélérer la réponse clinique précoce (≤4 jours) mais sans bénéfice à long terme. Données insuffisantes concernant les corticostéroïdes. Interprétation prudente recommandée vu le nombre limité d'études.
+
+## 📖 Référence
+Hamill L, Keijzers G, Robertson S, et al. Anti-inflammatories as adjunct treatment for cellulitis: a systematic review and meta-analysis. CJEM. 2024;26(7):472-481.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1007/s43678-024-00718-z.

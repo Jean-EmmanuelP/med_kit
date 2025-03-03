@@ -1,0 +1,19 @@
+Date de publication : 2024-05-31
+
+# 📝 Sébétralstat oral pour le traitement à la demande des crises d'angiœdème héréditaire
+
+## 📌 Contexte & Problématique
+Les traitements actuels des crises d'angiœdème héréditaire nécessitent une administration parentérale, entraînant des retards ou une abstention thérapeutique.
+
+## 🧪 Méthodologie
+Essai de phase 3, double aveugle, croisé à trois voies, comparant deux doses orales de sébétralstat (300mg et 600mg) au placebo chez 136 patients ≥12 ans atteints d'angiœdème héréditaire de type 1 ou 2. Critère principal : délai jusqu'au début du soulagement des symptômes.
+
+## 📊 Résultats clés
+Délai médian jusqu'au soulagement : 1,61h (300mg), 1,79h (600mg) vs 6,72h (placebo), p<0,001. Résolution complète dans les 24h : 42,5% (300mg), 49,5% (600mg) vs 27,4% (placebo). Profils de sécurité similaires entre sébétralstat et placebo, sans événements indésirables graves.
+
+## 🩺 Impact clinique
+Le sébétralstat représente la première option orale efficace pour le traitement à la demande des crises d'angiœdème héréditaire, offrant un soulagement plus rapide et une meilleure résolution que le placebo, avec un bon profil de sécurité.
+
+## 📖 Référence
+Riedl MA, Farkas H, Aygoren-Pursun E, et al. Oral Sebetralstat for On-Demand Treatment of Hereditary Angioedema Attacks. N Engl J Med. 2024;391(1):32-43.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2314192.

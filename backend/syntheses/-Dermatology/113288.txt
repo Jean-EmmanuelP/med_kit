@@ -1,0 +1,19 @@
+Date de publication : 2024-05-22
+
+# 📝 Efficacité et sécurité du bimekizumab dans l'hidradénite suppurée modérée à sévère
+
+## 📌 Contexte & Problématique
+L'hidradénite suppurée modérée à sévère dispose d'options thérapeutiques limitées. Le bimekizumab, anticorps monoclonal inhibant sélectivement l'IL-17F et l'IL-17A, a été évalué comme nouvelle option thérapeutique.
+
+## 🧪 Méthodologie
+Deux essais de phase 3 (BE HEARD I et II) multicentriques, randomisés, en double aveugle, contrôlés par placebo sur 48 semaines. Patients adultes randomisés pour recevoir bimekizumab 320 mg SC selon différents schémas posologiques. Critère principal : réduction ≥50% du nombre d'abcès et nodules inflammatoires à 16 semaines (HiSCR50).
+
+## 📊 Résultats clés
+À 16 semaines, HiSCR50 significativement supérieur avec bimekizumab vs placebo : 48% vs 29% (BE HEARD I, p=0,0060) et 52% vs 32% (BE HEARD II, p=0,0032). Réponses maintenues ou améliorées jusqu'à 48 semaines. Événements indésirables graves : 8% (BE HEARD I) et 5% (BE HEARD II). Effets secondaires principaux : hidradénite, candidose orale.
+
+## 🩺 Impact clinique
+Le bimekizumab démontre une efficacité rapide et durable avec un profil de sécurité acceptable, offrant une nouvelle option thérapeutique prometteuse pour l'hidradénite suppurée modérée à sévère.
+
+## 📖 Référence
+Kimball AB, Jemec GBE, Sayed CJ, et al. Lancet. 2024;403(10443):2504-2519.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S0140-6736(24)00101-6.

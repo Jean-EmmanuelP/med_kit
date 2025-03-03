@@ -1,0 +1,19 @@
+Date de publication : 2024-08-21
+
+# 📝 Effets de la supplémentation prénatale et postnatale en prébiotiques sur les allergies infantiles
+
+## 📌 Contexte & Problématique
+Les prébiotiques pendant la grossesse et l'allaitement pourraient moduler le développement immunitaire fœtal et infantile. Cette étude évalue leur efficacité pour réduire le risque allergique chez les nourrissons prédisposés.
+
+## 🧪 Méthodologie
+Essai contrôlé randomisé en double aveugle incluant 652 femmes enceintes (329 groupe prébiotiques, 323 groupe placebo). Supplémentation en galacto-oligosaccharides/fructo-oligosaccharides (14,2g/jour) ou placebo depuis <21 semaines de gestation jusqu'à 6 mois post-partum. Critère principal : eczéma infantile à 1 an.
+
+## 📊 Résultats clés
+Aucune différence significative dans l'incidence d'eczéma à 1 an entre les groupes (prébiotiques: 31,5% vs placebo: 32,6%; RR ajusté: 0,98; IC 95%: 0,77-1,23; p=0,84). Pas de différence pour les critères secondaires (sensibilisation allergénique, allergie alimentaire, respiration sifflante).
+
+## 🩺 Impact clinique
+La supplémentation maternelle en prébiotiques pendant la grossesse et l'allaitement ne réduit pas le risque d'eczéma à 1 an chez les nourrissons à risque allergique.
+
+## 📖 Référence
+Palmer DJ, Cuthbert AR, Sullivan TR, et al. Effects of pregnancy and lactation prebiotics supplementation on infant allergic disease: A randomized controlled trial. J Allergy Clin Immunol. 2025;155(1):144-152.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.jaci.2024.08.009.

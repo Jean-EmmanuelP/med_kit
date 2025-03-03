@@ -1,0 +1,19 @@
+Date de publication : 2024-09-12
+
+# 📝 Datopotamab Deruxtecan dans le cancer du sein RH+/HER2- métastatique : résultats de TROPION-Breast01
+
+## 📌 Contexte & Problématique
+Évaluation du datopotamab deruxtecan (Dato-DXd), un conjugué anticorps-médicament ciblant l'antigène TROP2, comparé à la chimiothérapie standard chez des patients avec cancer du sein RH+/HER2- inopérable/métastatique après progression sous hormonothérapie.
+
+## 🧪 Méthodologie
+Essai randomisé de phase 3 (1:1) incluant 732 patients ayant reçu 1-2 lignes de chimiothérapie antérieures. Groupe expérimental : Dato-DXd (6 mg/kg/3 semaines); groupe contrôle : chimiothérapie au choix (éribuline/vinorelbine/capécitabine/gemcitabine).
+
+## 📊 Résultats clés
+Dato-DXd a significativement réduit le risque de progression/décès (HR=0,63; IC 95%: 0,52-0,76; p<0,0001). Tendance favorable pour la survie globale (HR=0,84; IC 95%: 0,62-1,14). Moins d'événements indésirables grade ≥3 avec Dato-DXd (20,8% vs 44,7%). Principaux effets secondaires: nausées (51,1%) et stomatite (50%) pour Dato-DXd; neutropénie (42,5%) pour la chimiothérapie.
+
+## 🩺 Impact clinique
+Dato-DXd représente une nouvelle option thérapeutique efficace avec un profil de tolérance favorable pour les patients atteints de cancer du sein RH+/HER2- métastatique après 1-2 lignes de chimiothérapie.
+
+## 📖 Référence
+Bardia A, Jhaveri K, Im SA, et al. J Clin Oncol. 2025;43(3):285-296.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO.24.00920.

@@ -1,0 +1,23 @@
+Date de publication : 2024-12-12
+
+# 📝 Thérapie endovasculaire pour l'occlusion vertébrobasilaire aiguë : méta-analyse VERITAS
+
+## 📌 Contexte & Problématique
+Les essais sur la thérapie endovasculaire pour l'occlusion vertébrobasilaire montrent des résultats inconstants. VERITAS vise à évaluer l'efficacité et la sécurité de cette approche via une méta-analyse de données individuelles.
+
+## 🧪 Méthodologie
+Méta-analyse de 4 essais randomisés (ATTENTION, BAOCHE, BASICS, BEST) incluant 988 patients (556 traités, 432 contrôles). Critère principal : état fonctionnel favorable à 90 jours (mRS 0-3).
+
+## 📊 Résultats clés
+- État fonctionnel favorable : 45% vs 30% (OR 2,41; IC 95% 1,78-3,26; p<0,0001)
+- Indépendance fonctionnelle (mRS 0-2) : 35% vs 21% (OR 2,52; p<0,0001)
+- Mortalité réduite : 36% vs 45% (p<0,0001)
+- Hémorragie intracrânienne symptomatique accrue : 5% vs <1% (p<0,0001)
+- Bénéfice plus important pour occlusions proximales et AVC modérés à sévères
+
+## 🩺 Impact clinique
+La thérapie endovasculaire offre un bénéfice robuste pour les occlusions vertébrobasilaires avec symptômes modérés à sévères, malgré l'augmentation du risque hémorragique.
+
+## 📖 Référence
+Nogueira RG, Jovin TG, Liu X, et al. Lancet. 2025;405(10472):61-69.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S0140-6736(24)01820-8.

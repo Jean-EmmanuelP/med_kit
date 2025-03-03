@@ -1,0 +1,19 @@
+Date de publication : 2024-08-15
+
+# 📝 Supplémentation orale quotidienne en fer pendant la grossesse : impacts sur les résultats maternels et infantiles
+
+## 📌 Contexte & Problématique
+L'anémie ferriprive est fréquente pendant la grossesse. Cette revue évalue l'efficacité de la supplémentation quotidienne en fer, seule ou combinée à l'acide folique, sur les résultats maternels et infantiles.
+
+## 🧪 Méthodologie
+Revue systématique de 57 essais randomisés (48 971 femmes). Recherche dans CENTRAL, MEDLINE, Embase, CINAHL et registres d'essais jusqu'au 18/01/2024. Évaluation selon l'approche GRADE.
+
+## 📊 Résultats clés
+La supplémentation en fer réduit l'anémie maternelle (4,0% vs 7,4%; RR 0,30) et l'anémie ferriprive à terme (5,0% vs 18,4%; RR 0,41). Elle diminue le risque de faible poids de naissance (5,2% vs 6,1%; RR 0,84). Aucun effet significatif sur la mortalité maternelle, les naissances prématurées ou la mortalité néonatale. L'association fer+acide folique réduit l'anémie maternelle à terme (12,1% vs 25,5%; RR 0,44).
+
+## 🩺 Impact clinique
+La supplémentation en fer améliore significativement le statut hématologique maternel et pourrait réduire le risque de faible poids de naissance, justifiant son utilisation systématique dans les soins prénataux.
+
+## 📖 Référence
+Finkelstein JL, Cuthbert A, Weeks J, et al. Daily oral iron supplementation during pregnancy. Cochrane Database Syst Rev. 2024;8(8):CD004736.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1002/14651858.CD004736.pub6.

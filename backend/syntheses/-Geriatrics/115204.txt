@@ -1,0 +1,19 @@
+Date de publication : 2024-12-05
+
+# 📝 Revascularisation complète vs artère coupable seule chez les personnes âgées avec STEMI
+
+## 📌 Contexte & Problématique
+Le bénéfice de la revascularisation complète (RC) par rapport à la revascularisation limitée à l'artère coupable (RLAC) reste incertain chez les personnes âgées présentant un STEMI, en raison de leur risque hémorragique plus élevé et de leurs comorbidités.
+
+## 🧪 Méthodologie
+Méta-analyse de 5 essais contrôlés randomisés (3513 patients âgés) comparant RC versus RLAC dans le STEMI. Critère principal : événements cardiovasculaires indésirables majeurs (MACE). Critères secondaires : hémorragies majeures et insuffisance rénale aiguë.
+
+## 📊 Résultats clés
+La RC était associée à un risque plus faible de MACE que la RLAC (HR 0,60; IC 95% 0,37-0,99; p=0,047). Bénéfice significatif chez les >65 ans mais non démontré chez les >75 ans. Aucune différence dans le risque d'hémorragie majeure ou d'insuffisance rénale aiguë entre les deux stratégies.
+
+## 🩺 Impact clinique
+Ces résultats suggèrent que la RC peut être bénéfique chez les personnes âgées avec STEMI sans augmenter les complications hémorragiques ou rénales, facilitant ainsi la prise de décision partagée entre cardiologues, gériatres et patients.
+
+## 📖 Référence
+Park DY, Hu JR, Frampton J, et al. J Am Geriatr Soc. 2024 Dec 5. doi: 10.1111/jgs.19295.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1111/jgs.19295.

@@ -1,0 +1,19 @@
+Date de publication : 2024-07-04
+
+# 📝 Tisotumab Védotine en Deuxième ou Troisième Ligne pour le Cancer du Col Utérin Récurrent
+
+## 📌 Contexte & Problématique
+Le cancer du col utérin récurrent présente un pronostic sombre avec des options thérapeutiques limitées après l'échec du traitement de première ligne.
+
+## 🧪 Méthodologie
+Essai de phase 3, multinational, ouvert, randomisant 502 patientes (1:1) entre tisotumab védotine (2,0 mg/kg toutes les 3 semaines) et chimiothérapie au choix de l'investigateur. Critère principal : survie globale.
+
+## 📊 Résultats clés
+Survie globale médiane significativement prolongée avec tisotumab védotine vs chimiothérapie (11,5 vs 9,5 mois; HR=0,70; p=0,004). Survie sans progression améliorée (4,2 vs 2,9 mois; HR=0,67; p<0,001). Taux de réponse objective supérieur (17,8% vs 5,2%; OR=4,0; p<0,001). Événements indésirables de grade ≥3 moins fréquents avec tisotumab védotine (52,0% vs 62,3%).
+
+## 🩺 Impact clinique
+Le tisotumab védotine représente une option thérapeutique plus efficace que la chimiothérapie conventionnelle en deuxième ou troisième ligne, avec un profil de tolérance acceptable (14,8% d'arrêts pour toxicité).
+
+## 📖 Référence
+Vergote I, Gonzalez-Martin A, Fujiwara K, et al. Tisotumab Vedotin as Second- or Third-Line Therapy for Recurrent Cervical Cancer. N Engl J Med. 2024;391(1):44-55.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2313811.

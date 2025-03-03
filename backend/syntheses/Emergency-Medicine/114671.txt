@@ -1,0 +1,19 @@
+Date de publication : 2024-11-01
+
+# 📝 Ténectéplase versus altéplase dans l'AVC ischémique aigu : essai ATTEST-2
+
+## 📌 Contexte & Problématique
+La ténectéplase, administrable en bolus unique, pourrait offrir des avantages par rapport à l'altéplase dans l'AVC ischémique aigu. L'étude ATTEST-2 évalue sa non-infériorité et potentielle supériorité.
+
+## 🧪 Méthodologie
+Essai randomisé, ouvert, multicentrique (39 centres britanniques) comparant ténectéplase (0,25 mg/kg) versus altéplase (0,9 mg/kg) chez 1777 patients avec AVC ischémique traités dans les 4,5h. Critère principal : score mRS à 90 jours.
+
+## 📊 Résultats clés
+La ténectéplase s'est avérée non-inférieure à l'altéplase (rapport de cotes 1,07; IC 95% 0,90-1,27; p<0,0001 pour non-infériorité), sans démontrer de supériorité (p=0,43). Profils de sécurité comparables : mortalité (8% vs 8%), hémorragie intracérébrale symptomatique (2% vs 2%), saignements extracrâniens significatifs (1% vs 1%).
+
+## 🩺 Impact clinique
+L'administration simplifiée de la ténectéplase, notamment lors des transferts interhospitaliers, justifie sa préférence sur l'altéplase dans la thrombolyse de l'AVC ischémique aigu.
+
+## 📖 Référence
+Muir KW, Ford GA, Ford I, et al. Lancet Neurol. 2024;23(11):1087-1096.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S1474-4422(24)00377-6.

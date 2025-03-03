@@ -1,0 +1,19 @@
+Date de publication : 2025-01-30
+
+# 📝 Thrombolyse pour AVC ischémique au-delà de 4,5 heures : méta-analyse d'essais cliniques randomisés
+
+## 📌 Contexte & Problématique
+Peu de patients victimes d'AVC sont éligibles à la thrombolyse intraveineuse (TIV) dans la fenêtre conventionnelle de 4,5 heures. L'efficacité et la sécurité au-delà de cette période restent incertaines.
+
+## 🧪 Méthodologie
+Méta-analyse de 8 essais cliniques randomisés (1742 patients) comparant la TIV aux soins standard chez des patients avec AVC ischémique >4,5h après le début des symptômes, sans thrombectomie mécanique.
+
+## 📊 Résultats clés
+La TIV a amélioré les résultats fonctionnels excellents (OR 1,43 [IC 95%, 1,17-1,75]) et bons (OR 1,36 [IC 95%, 1,12-1,66]) à 90 jours. Risque accru d'hémorragie intracérébrale symptomatique (OR 4,25 [IC 95%, 1,67-10,84]). Mortalité à 90 jours non significativement différente (OR 1,28 [IC 95%, 0,87-1,89]).
+
+## 🩺 Impact clinique
+La TIV tardive améliore les résultats fonctionnels malgré l'augmentation du risque hémorragique. La sélection par imagerie de perfusion et l'utilisation de ténectéplase pourraient offrir des avantages supplémentaires.
+
+## 📖 Référence
+Gunkan A, Ferreira MY, Vilardo M, et al. Stroke. 2025 Jan 30. doi: 10.1161/STROKEAHA.124.048536.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1161/STROKEAHA.124.048536.

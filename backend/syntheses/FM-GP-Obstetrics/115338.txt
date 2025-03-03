@@ -1,0 +1,19 @@
+Date de publication : 2025-02-11
+
+# 📝 Hypoglycémiants oraux vs insuline dans le diabète gestationnel : essai clinique randomisé
+
+## 📌 Contexte & Problématique
+L'efficacité d'une stratégie séquentielle d'hypoglycémiants oraux (metformine puis glyburide) comparée à l'insuline reste incertaine dans le diabète gestationnel insuffisamment contrôlé par mesures diététiques.
+
+## 🧪 Méthodologie
+Essai randomisé de non-infériorité (marge 8%) mené aux Pays-Bas (2016-2022) incluant 820 femmes (16-34 SA) réparties entre metformine (n=409) avec ajout séquentiel de glyburide si nécessaire, ou insuline (n=411). Critère principal : proportion de nouveau-nés macrosomes (>90e percentile).
+
+## 📊 Résultats clés
+79% des patientes sous agents oraux ont maintenu un contrôle glycémique sans insuline. Macrosomie : 23,9% (agents oraux) vs 19,9% (insuline), différence 4,0% (IC95% -1,7% à 9,8%), non-infériorité non atteinte. Hypoglycémie maternelle : 20,9% vs 10,9% (p<0,05). Autres critères secondaires similaires.
+
+## 🩺 Impact clinique
+La stratégie séquentielle d'hypoglycémiants oraux n'a pas démontré sa non-infériorité par rapport à l'insuline concernant la macrosomie néonatale et augmente le risque d'hypoglycémie maternelle.
+
+## 📖 Référence
+Rademaker D, de Wit L, Duijnhoven RG, et al. JAMA. 2025;333(6):470-478.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jama.2024.23410.

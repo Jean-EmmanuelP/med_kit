@@ -1,0 +1,19 @@
+Date de publication : 2024-11-12
+
+# 📝 Mise à jour 2024 AHA-AAP sur la réanimation après noyade
+
+## 📌 Contexte & Problématique
+La noyade, 3ème cause mondiale de décès traumatique non-intentionnel (7% des traumatismes fatals), cause environ 236 000 décès annuels. Aux États-Unis, on dénombre environ 4000 noyades mortelles et 8000 non mortelles chaque année. La noyade évolue typiquement d'un arrêt respiratoire initial vers un arrêt cardiaque.
+
+## 🧪 Méthodologie
+Analyse des revues systématiques 2021-2023 du Comité de Liaison International sur la Réanimation, avec recherches bibliographiques actualisées et directives antérieures par un comité d'experts AHA-AAP.
+
+## 📊 Résultats clés
+La réanimation doit cibler tant la restauration respiratoire que circulatoire. La ventilation de sauvetage peut débuter dans l'eau si effectuée par des sauveteurs formés, suivie de compressions thoraciques en environnement sécurisé.
+
+## 🩺 Impact clinique
+Priorité à la ventilation précoce tout en suivant les protocoles RCP standards une fois en sécurité, reconnaissant la difficulté de distinguer l'arrêt respiratoire de l'arrêt cardiaque.
+
+## 📖 Référence
+Dezfulian C, McCallin TE, Bierens J, et al. Circulation. 2024;150(23):e501-e516.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1161/CIR.0000000000001274.

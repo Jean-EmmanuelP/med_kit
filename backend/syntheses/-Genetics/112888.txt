@@ -1,0 +1,19 @@
+Date de publication : 2024-04-07
+
+# 📝 Olezarsen pour le syndrome de chylomicronémie familiale : réduction des triglycérides et des pancréatites aiguës
+
+## 📌 Contexte & Problématique
+Le syndrome de chylomicronémie familiale est un trouble génétique caractérisé par une hypertriglycéridémie sévère et des pancréatites aiguës. L'olezarsen agit en réduisant la synthèse hépatique d'apolipoprotéine C-III.
+
+## 🧪 Méthodologie
+Essai randomisé de phase 3, double aveugle, contrôlé par placebo, incluant 66 patients (22 recevant olezarsen 80 mg, 21 recevant 50 mg, 23 sous placebo) pendant 49 semaines. Critères primaires : variation des triglycérides à jeun à 6 mois.
+
+## 📊 Résultats clés
+À l'inclusion, le taux moyen de triglycérides était de 2630±1315 mg/dL. À 6 mois, réduction significative des triglycérides avec olezarsen 80 mg vs placebo (-43,5%, p<0,001), non significative avec 50 mg (-22,4%, p=0,08). Réduction marquée de l'apolipoprotéine C-III (-73,7% avec 80 mg). Après 53 semaines, 11 épisodes de pancréatite aiguë dans le groupe placebo contre 1 dans chaque groupe olezarsen (ratio 0,12; IC 95% 0,02-0,66).
+
+## 🩺 Impact clinique
+L'olezarsen représente une thérapie prometteuse pour réduire les triglycérides et prévenir les pancréatites aiguës chez les patients atteints de chylomicronémie familiale.
+
+## 📖 Référence
+Stroes ESG, Alexander VJ, Karwatowska-Prokopczuk E, et al. N Engl J Med. 2024;390(19):1781-1792.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2400201.
