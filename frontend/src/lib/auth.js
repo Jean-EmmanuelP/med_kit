@@ -24,7 +24,7 @@ export async function syncSession() {
 export async function getUserProfile(userId) {
   const { data: profile, error } = await supabase
     .from('user_profiles')
-    .select('id, first_name, last_name, notification_frequency, disciplines, date_of_birth, education, status, specialty')
+    .select('id, first_name, last_name, notification_frequency, disciplines, date_of_birth, status, specialty')
     .eq('id', userId)
     .single();
 

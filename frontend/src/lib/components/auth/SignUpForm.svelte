@@ -10,7 +10,6 @@
 	export let disciplines = [];
 	export let notificationFreq = 'tous_les_jours';
 	export let dateOfBirth = '';
-	export let education = '';
 	export let specialty = '';
 	export let status = '';
 	export let errorMessage = '';
@@ -136,18 +135,6 @@
 		type="date"
 		bind:value={dateOfBirth}
 		class="mt-1 w-full rounded-lg border border-gray-300 px-4 py-2 transition-all duration-200 focus:border-blue-500 focus:ring focus:ring-blue-200"
-	  />
-	</div>
-  
-	<div>
-	  <label for="education" class="block text-sm font-medium text-gray-700">{$i18n.login.education}</label>
-	  <input
-		id="education"
-		name="education"
-		type="text"
-		bind:value={education}
-		class="mt-1 w-full rounded-lg border border-gray-300 px-4 py-2 transition-all duration-200 focus:border-blue-500 focus:ring focus:ring-blue-200"
-		placeholder={$i18n.login.educationPlaceholder}
 	  />
 	</div>
   

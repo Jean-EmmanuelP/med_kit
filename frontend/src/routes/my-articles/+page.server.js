@@ -1,5 +1,5 @@
-// myArticles/+page.server.js
-import { supabase } from '$lib/supabase';
+// myArticles/+page.server.ts
+import { redirect } from '@sveltejs/kit';
 
 export async function load({ locals }) {
   const { session, user } = await locals.safeGetSession();
@@ -8,13 +8,13 @@ export async function load({ locals }) {
   console.log('User in myArticles:', user);
 
   if (!session || !user) {
-    return { articles: [], error: 'Vous devez être connecté pour voir vos articles enregistrés.' };
+    throw redirect(302, '/login');
   }
 
   // Fetch user profile to ensure userProfileStore can be populated client-side
-  const { data: userProfile, error: profileError } = await supabase
+  const { data: userProfile, error: profileError } = await locals.supabase
     .from('user_profiles')
-    .select('id, first_name, last_name, notification_frequency, disciplines, date_of_birth, education, status, specialty')
+    .select('id, first_name, last_name, notification_frequency, disciplines, date_of_birth, status, specialty')
     .eq('id', user.id)
     .single();
 
@@ -24,7 +24,7 @@ export async function load({ locals }) {
   }
 
   // Récupérer les articles enregistrés par l’utilisateur
-  const { data: savedData, error: savedError } = await supabase
+  const { data: savedData, error: savedError } = await locals.supabase
     .from('saved_articles')
     .select(`
       article_id,
@@ -52,41 +52,13 @@ export async function load({ locals }) {
   // Formater les articles
   const formattedArticles = savedData.map(entry => ({
     ...entry.articles,
-    disciplines: entry.articles.article_disciplines.map(ad => ad.disciplines.name)
+    disciplines: entry.articles.article_disciplines.map(ad => ad.disciplines.name),
   }));
 
   return {
     articles: formattedArticles,
-    userProfile // Pass the user profile to the client
+    userProfile,
+    session,
+    user,
   };
 }
-
-export const actions = {
-  removeSavedArticle: async ({ request, locals }) => {
-    const { session, user } = await locals.safeGetSession();
-
-    if (!session || !user) {
-      return { success: false, error: 'Vous devez être connecté.' };
-    }
-
-    const formData = await request.formData();
-    const articleId = formData.get('articleId');
-
-    if (!articleId) {
-      return { success: false, error: 'L’ID de l’article est requis.' };
-    }
-
-    const { error } = await supabase
-      .from('saved_articles')
-      .delete()
-      .eq('user_id', user.id)
-      .eq('article_id', parseInt(articleId));
-
-    if (error) {
-      console.error('Error removing saved article:', error);
-      return { success: false, error: error.message };
-    }
-
-    return { success: true };
-  }
-};

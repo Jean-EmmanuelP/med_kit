@@ -1,18 +1,41 @@
-import { createBrowserClient, createServerClient, isBrowser } from '@supabase/ssr'
-import { PUBLIC_SUPABASE_ANON_KEY, PUBLIC_SUPABASE_URL } from '$env/static/public'
-import type { LayoutLoad } from './$types'
+// +layout.ts
+import { createBrowserClient, createServerClient, isBrowser } from '@supabase/ssr';
+import { PUBLIC_SUPABASE_ANON_KEY, PUBLIC_SUPABASE_URL } from '$env/static/public';
+import type { LayoutLoad } from './$types';
 
 export const load: LayoutLoad = async ({ data, depends, fetch }) => {
-  /**
-   * Declare a dependency so the layout can be invalidated, for example, on
-   * session refresh.
-   */
-  depends('supabase:auth')
+  depends('supabase:auth');
+
+  // Helper functions for cookie management in the browser
+  const getAllCookies = () => {
+    const cookies = document.cookie.split(';').map((cookie) => {
+      const [name, value] = cookie.trim().split('=');
+      return { name, value };
+    });
+    return cookies;
+  };
+
+  const setAllCookies = (cookiesToSet) => {
+    cookiesToSet.forEach(({ name, value, options }) => {
+      let cookieString = `${name}=${value}`;
+      if (options) {
+        if (options.path) cookieString += `;path=${options.path}`;
+        if (options.expires) cookieString += `;expires=${options.expires.toUTCString()}`;
+        if (options.sameSite) cookieString += `;SameSite=${options.sameSite}`;
+        if (options.secure) cookieString += ';Secure';
+      }
+      document.cookie = cookieString;
+    });
+  };
 
   const supabase = isBrowser()
     ? createBrowserClient(PUBLIC_SUPABASE_URL, PUBLIC_SUPABASE_ANON_KEY, {
         global: {
           fetch,
+        },
+        cookies: {
+          getAll: getAllCookies,
+          setAll: setAllCookies,
         },
       })
     : createServerClient(PUBLIC_SUPABASE_URL, PUBLIC_SUPABASE_ANON_KEY, {
@@ -21,25 +44,17 @@ export const load: LayoutLoad = async ({ data, depends, fetch }) => {
         },
         cookies: {
           getAll() {
-            return data.cookies
+            return data.cookies;
           },
         },
-      })
+      });
 
-  /**
-   * It's fine to use `getSession` here, because on the client, `getSession` is
-   * safe, and on the server, it reads `session` from the `LayoutData`, which
-   * safely checked the session using `safeGetSession`.
-   */
-  const {
-    data: { session },
-  } = await supabase.auth.getSession()
-  // console.log("this is the current session: ", session)
+  // Use the session and user from the server-side data
+  const session = data.session;
+  const user = data.user;
 
-  const {
-    data: { user },
-  } = await supabase.auth.getUser()
-  // console.log("this is the current user: ", user)
+  console.log('Layout client session:', session);
+  console.log('Layout client user:', user);
 
-  return { session, supabase, user }
-}
+  return { session, supabase, user };
+};

@@ -9,7 +9,7 @@
 	}
 </script>
 
-<footer class="bg-blue-900 py-12 text-white">
+<footer class="bg-black py-12 text-white">
 	<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 		<div class="grid grid-cols-1 gap-8 md:grid-cols-3">
 			<!-- Slogan -->

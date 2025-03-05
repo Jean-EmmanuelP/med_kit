@@ -14,14 +14,14 @@
 	let status = $userProfileStore?.status || '';
 	let specialty = $userProfileStore?.specialty || '';
 	let profilePicture = $userProfileStore?.profile_picture || null;
-	let selectedDisciplines = data.userPreferences ? data.userPreferences.disciplines : [];
-	let selectedNotificationFreq = data.userPreferences
-		? data.userPreferences.notificationFrequency
-		: 'tous_les_jours';
-	let dateOfBirth = data.userPreferences ? data.userPreferences.date_of_birth : '';
-	let education = data.userPreferences ? data.userPreferences.education : '';
+	let selectedDisciplines = data.userPreferences?.disciplines || [];
+	let selectedNotificationFreq = data.userPreferences?.notificationFrequency || 'tous_les_jours';
+	let dateOfBirth = data.userPreferences?.date_of_birth || '';
 	let isDropdownOpen = false;
 	let isLoading = false;
+
+	// Trier les disciplines par ordre alphabétique
+	const sortedDisciplines = data.disciplinesList.sort((a, b) => a.localeCompare(b, 'fr', { sensitivity: 'base' }));
 
 	// Populate userProfileStore with data from the server
 	onMount(() => {
@@ -38,7 +38,6 @@
 		selectedDisciplines = data.userPreferences?.disciplines || [];
 		selectedNotificationFreq = data.userPreferences?.notificationFrequency || 'tous_les_jours';
 		dateOfBirth = data.userPreferences?.date_of_birth || '';
-		education = data.userPreferences?.education || '';
 	});
 
 	const notificationOptions = [
@@ -47,7 +46,7 @@
 		'tous_les_3_jours',
 		'1_fois_par_semaine',
 		'tous_les_15_jours',
-		'1_fois_par_mois'
+		'1_fois_par_mois',
 	];
 
 	const notificationDisplayOptions = {
@@ -56,7 +55,7 @@
 		tous_les_3_jours: $i18n.login.notificationOptions[2],
 		'1_fois_par_semaine': $i18n.login.notificationOptions[3],
 		tous_les_15_jours: $i18n.login.notificationOptions[4],
-		'1_fois_par_mois': $i18n.login.notificationOptions[5]
+		'1_fois_par_mois': $i18n.login.notificationOptions[5],
 	};
 
 	function toggleDiscipline(discipline) {
@@ -87,7 +86,6 @@
 					disciplines: selectedDisciplines,
 					notification_frequency: selectedNotificationFreq,
 					date_of_birth: dateOfBirth || null,
-					education: education || null
 				})
 				.eq('id', $userProfileStore.id);
 
@@ -102,7 +100,6 @@
 				disciplines: selectedDisciplines,
 				notification_frequency: selectedNotificationFreq,
 				date_of_birth: dateOfBirth,
-				education
 			});
 
 			alert('Modifications enregistrées avec succès.');
@@ -115,20 +112,20 @@
 	}
 </script>
 
-<div class="min-h-screen bg-white px-4 py-12">
+<div class="min-h-screen bg-gradient-to-br from-gray-50 to-white px-4 py-12">
 	<div class="mx-auto max-w-4xl">
-		<h1 class="mb-8 text-3xl font-bold text-black">Mon Compte</h1>
+		<h1 class="mb-8 text-4xl font-bold text-gray-900 animate-fade-in">Mon Compte</h1>
 
 		{#if data.error}
-			<p class="text-black">{data.error}</p>
+			<p class="text-gray-900">{data.error}</p>
 		{:else}
 			<!-- Section pour modifier les informations personnelles -->
 			<div class="mb-12">
-				<h2 class="mb-4 text-xl font-semibold text-black">Paramètres</h2>
-				<form on:submit|preventDefault={handleSubmit} class="space-y-6">
+				<h2 class="mb-6 text-2xl font-semibold text-gray-900 animate-fade-in-delayed">Paramètres</h2>
+				<form on:submit|preventDefault={handleSubmit} class="space-y-8">
 					<!-- Photo (not implemented for now) -->
 					<div>
-						<label for="profilePicture" class="mb-2 block text-sm font-medium text-black">
+						<label for="profilePicture" class="mb-2 block text-sm font-medium text-gray-900">
 							{$i18n.account.profilePicture}
 						</label>
 						<input
@@ -136,47 +133,47 @@
 							type="text"
 							value="Non implémenté"
 							disabled
-							class="mt-1 w-full rounded-lg border border-gray-400 bg-gray-200 px-4 py-2 text-black"
+							class="mt-1 w-full rounded-lg border border-gray-300 bg-gray-100 px-4 py-3 text-gray-900 transition-all duration-200"
 						/>
-						<p class="mt-1 text-sm text-black">
+						<p class="mt-1 text-sm text-gray-600">
 							La gestion des photos n’est pas encore implémentée.
 						</p>
 					</div>
 
 					<div>
-						<label for="firstName" class="mb-2 block text-sm font-medium text-black">
+						<label for="firstName" class="mb-2 block text-sm font-medium text-gray-900">
 							{$i18n.login.firstName}
 						</label>
 						<input
 							id="firstName"
 							type="text"
 							bind:value={firstName}
-							class="mt-1 w-full rounded-lg border border-gray-400 bg-white px-4 py-2 text-black transition-all duration-200 focus:border-black focus:ring focus:ring-gray-300"
+							class="mt-1 w-full rounded-lg border border-gray-300 bg-white px-4 py-3 text-gray-900 transition-all duration-200 focus:border-blue-500 focus:ring focus:ring-blue-200"
 							required
 						/>
 					</div>
 
 					<div>
-						<label for="lastName" class="mb-2 block text-sm font-medium text-black">
+						<label for="lastName" class="mb-2 block text-sm font-medium text-gray-900">
 							{$i18n.login.lastName}
 						</label>
 						<input
 							id="lastName"
 							type="text"
 							bind:value={lastName}
-							class="mt-1 w-full rounded-lg border border-gray-400 bg-white px-4 py-2 text-black transition-all duration-200 focus:border-black focus:ring focus:ring-gray-300"
+							class="mt-1 w-full rounded-lg border border-gray-300 bg-white px-4 py-3 text-gray-900 transition-all duration-200 focus:border-blue-500 focus:ring focus:ring-blue-200"
 							required
 						/>
 					</div>
 
 					<div>
-						<label for="status" class="mb-2 block text-sm font-medium text-black">
+						<label for="status" class="mb-2 block text-sm font-medium text-gray-900">
 							{$i18n.account.status}
 						</label>
 						<select
 							id="status"
 							bind:value={status}
-							class="mt-1 w-full rounded-lg border border-gray-400 bg-white px-4 py-2 text-black transition-all duration-200 focus:border-black focus:ring focus:ring-gray-300"
+							class="mt-1 w-full rounded-lg border border-gray-300 bg-white px-4 py-3 text-gray-900 transition-all duration-200 focus:border-blue-500 focus:ring focus:ring-blue-200"
 							required
 						>
 							<option value="" disabled>Choisissez un statut</option>
@@ -187,48 +184,35 @@
 					</div>
 
 					<div>
-						<label for="specialty" class="mb-2 block text-sm font-medium text-black">
+						<label for="specialty" class="mb-2 block text-sm font-medium text-gray-900">
 							{$i18n.account.specialty}
 						</label>
 						<input
 							id="specialty"
 							type="text"
 							bind:value={specialty}
-							class="mt-1 w-full rounded-lg border border-gray-400 bg-white px-4 py-2 text-black transition-all duration-200 focus:border-black focus:ring focus:ring-gray-300"
+							class="mt-1 w-full rounded-lg border border-gray-300 bg-white px-4 py-3 text-gray-900 transition-all duration-200 focus:border-blue-500 focus:ring focus:ring-blue-200"
 							placeholder="Ex: Médecine Générale, Diabétologie"
 						/>
 					</div>
 
 					<div>
-						<label for="dateOfBirth" class="mb-2 block text-sm font-medium text-black">
+						<label for="dateOfBirth" class="mb-2 block text-sm font-medium text-gray-900">
 							{$i18n.login.dateOfBirth}
 						</label>
 						<input
 							id="dateOfBirth"
 							type="date"
 							bind:value={dateOfBirth}
-							class="mt-1 w-full rounded-lg border border-gray-400 bg-white px-4 py-2 text-black transition-all duration-200 focus:border-black focus:ring focus:ring-gray-300"
+							class="mt-1 w-full rounded-lg border border-gray-300 bg-white px-4 py-3 text-gray-900 transition-all duration-200 focus:border-blue-500 focus:ring focus:ring-blue-200"
 						/>
 					</div>
 
-					<div>
-						<label for="education" class="mb-2 block text-sm font-medium text-black">
-							{$i18n.login.education}
-						</label>
-						<input
-							id="education"
-							type="text"
-							bind:value={education}
-							class="mt-1 w-full rounded-lg border border-gray-400 bg-white px-4 py-2 text-black transition-all duration-200 focus:border-black focus:ring focus:ring-gray-300"
-							placeholder="Ex: Doctorat en médecine, 2021"
-						/>
-					</div>
-
-					<!-- Section pour changer les disciplines -->
+					<!-- Section pour changer les disciplines (cases à cocher triées par ordre alphabétique) -->
 					<div class="mb-12">
-						<h3 class="mb-4 text-lg font-semibold text-black">Disciplines suivies</h3>
-						<div class="mb-4 grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3">
-							{#each data.disciplinesList as discipline}
+						<h3 class="mb-4 text-lg font-semibold text-gray-900">Disciplines suivies</h3>
+						<div class="mb-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-6 gap-y-2">
+							{#each sortedDisciplines as discipline}
 								<label class="flex items-center space-x-2">
 									<input
 										type="checkbox"
@@ -236,9 +220,9 @@
 										value={discipline}
 										checked={selectedDisciplines.includes(discipline)}
 										on:change={() => toggleDiscipline(discipline)}
-										class="h-4 w-4 rounded border-gray-400 text-black focus:ring-black"
+										class="h-4 w-4 rounded border-gray-400 text-blue-500 focus:ring-blue-500"
 									/>
-									<span class="text-black">{discipline}</span>
+									<span class="text-gray-900">{discipline}</span>
 								</label>
 							{/each}
 						</div>
@@ -246,12 +230,12 @@
 
 					<!-- Section pour changer la fréquence des notifications -->
 					<div class="mb-12">
-						<h3 class="mb-4 text-lg font-semibold text-black">Fréquence des notifications</h3>
+						<h3 class="mb-4 text-lg font-semibold text-gray-900">Fréquence des notifications</h3>
 						<div class="flex flex-col sm:flex-row sm:items-center sm:space-x-4">
 							<!-- On mobile, show a select dropdown -->
 							<select
 								bind:value={selectedNotificationFreq}
-								class="mb-3 w-full rounded border border-gray-400 bg-white px-3 py-2 text-black transition-all duration-200 focus:border-black focus:ring focus:ring-gray-300 sm:hidden"
+								class="mb-3 w-full rounded-lg border border-gray-300 bg-white px-4 py-3 text-gray-900 transition-all duration-200 focus:border-blue-500 focus:ring focus:ring-blue-200 sm:hidden"
 							>
 								{#each notificationOptions as option}
 									<option value={option}>
@@ -265,19 +249,19 @@
 								<button
 									type="button"
 									on:click={() => (isDropdownOpen = !isDropdownOpen)}
-									class="w-64 rounded border border-gray-400 bg-white px-3 py-2 text-left text-black transition-all duration-200 focus:border-black focus:ring focus:ring-gray-300"
+									class="w-64 rounded-lg border border-gray-300 bg-white px-4 py-3 text-left text-gray-900 transition-all duration-200 focus:border-blue-500 focus:ring focus:ring-blue-200"
 								>
 									{notificationDisplayOptions[selectedNotificationFreq]}
 								</button>
 								{#if isDropdownOpen}
 									<div
-										class="absolute z-10 mt-1 w-64 rounded border border-gray-400 bg-white shadow-lg"
+										class="absolute z-10 mt-1 w-64 rounded-lg border border-gray-300 bg-white shadow-lg"
 									>
 										{#each notificationOptions as option}
 											<button
 												type="button"
 												on:click={() => selectNotificationFreq(option)}
-												class="block w-full px-3 py-2 text-left text-black hover:bg-gray-200"
+												class="block w-full px-4 py-2 text-left text-gray-900 hover:bg-gray-100"
 											>
 												{notificationDisplayOptions[option]}
 											</button>
@@ -291,7 +275,7 @@
 					<button
 						type="submit"
 						disabled={isLoading}
-						class="relative rounded bg-black px-6 py-2 text-white transition-colors duration-200 hover:bg-gray-800 hover:text-white disabled:cursor-not-allowed disabled:bg-gray-600"
+						class="relative rounded-lg bg-black px-8 py-3 text-white transition-all duration-300 hover:bg-gray-800 disabled:cursor-not-allowed disabled:bg-gray-600"
 					>
 						{#if isLoading}
 							<svg
@@ -322,3 +306,23 @@
 		{/if}
 	</div>
 </div>
+
+<style>
+	/* Fade-in animation for title */
+	@keyframes fade-in {
+		0% { opacity: 0; transform: translateY(10px); }
+		100% { opacity: 1; transform: translateY(0); }
+	}
+	.animate-fade-in {
+		animation: fade-in 1s ease-out;
+	}
+
+	/* Delayed fade-in for subtitle and other elements */
+	@keyframes fade-in-delayed {
+		0% { opacity: 0; transform: translateY(10px); }
+		100% { opacity: 1; transform: translateY(0); }
+	}
+	.animate-fade-in-delayed {
+		animation: fade-in-delayed 1.2s ease-out;
+	}
+</style>

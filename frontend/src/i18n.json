@@ -2,101 +2,100 @@
   "fr": {
     "home": {
       "title": "Veille",
-      "subtitle": "l’outil de veille scientifique conçu pour les médecins",
-      "description": "veille notifie les médecins des dernières études pertinentes selon leurs disciplines et préférences. recevez vos alertes personnalisées et restez à jour en 5 min par jour.",
-      "phrase1": "Trop d’études, pas assez de temps",
+      "subtitle": "L’outil de veille scientifique conçu pour les médecins",
+      "description": "Veille notifie les médecins des dernières études pertinentes selon leurs disciplines et préférences. Recevez vos alertes personnalisées et restez à jour en 5 min par jour.",
+      "phrase1": "Trop d’études scientifiques, pas assez de temps pour les lire ?",
       "phrase2": "Veille vous livre l’essentiel",
       "hero": {
         "title": "Veille scientifique simple et efficace 🔍",
         "subtitle": "5 min/jour max via newsletter",
-        "signup": "s’inscrire",
-        "viewArticles": "🚀 ma veille",
-        "signupForVeille": "s’inscrire afin d’obtenir ma veille"
+        "signup": "S’inscrire",
+        "viewArticles": "🚀 Ma veille",
+        "signupForVeille": "S’inscrire afin d’obtenir ma veille"
       },
       "arguments": {
-        "cta": "5 min/jour pour rester a la pointe",
+        "cta": "3 min/jour pour rester à la pointe",
         "list": [
-          "choisissez vos disciplines",
-          "paramétrez vos alertes",
+          "Choisissez vos disciplines",
+          "Paramétrez vos alertes",
           "Recevez un condensé clé des dernières études scientifiques avec accès direct aux sources"
         ]
       },
-      "createAccount": "créez votre compte en quelques secondes ⏩"
+      "createAccount": "Créez votre compte en quelques secondes ⏩"
     },
     "account": {
-      "saveChanges": "enregistrer les modifications",
-      "profilePicture": "photo",
-      "status": "statut",
-      "specialty": "spécialité"
+      "saveChanges": "Enregistrer les modifications",
+      "profilePicture": "Photo",
+      "status": "Statut",
+      "specialty": "Spécialité"
     },
     "login": {
-      "title": "inscription",
-      "loginTitle": "connexion",
-      "firstName": "prénom",
-      "lastName": "nom",
-      "emailLabel": "email",
+      "title": "Inscription",
+      "loginTitle": "Connexion",
+      "firstName": "Prénom",
+      "lastName": "Nom",
+      "emailLabel": "Email",
       "loginButton": "Se connecter",
-      "emailPlaceholder": "email@exemple.com",
-      "passwordLabel": "mot de passe",
+      "emailPlaceholder": "Email@exemple.com",
+      "passwordLabel": "Mot de passe",
       "passwordPlaceholder": "********",
-      "disciplines": "disciplines",
-      "notifications": "fréquence des notifications",
-      "dateOfBirth": "date de naissance",
-      "education": "études",
-      "educationPlaceholder": "ex: doctorat en médecine, 2021",
-      "status": "statut",
+      "disciplines": "Disciplines",
+      "notifications": "Fréquence des notifications",
+      "dateOfBirth": "Date de naissance",
+      "status": "Statut",
       "statusOptions": [
         "Pr",
         "Dr",
         "Interne",
         "Étudiant"
       ],
-      "specialty": "spécialité",
-      "specialtyPlaceholder": "ex: médecine générale, diabétologie",
+      "specialty": "Spécialité",
+      "specialtyPlaceholder": "Ex: Médecine générale, diabétologie",
       "notificationOptions": [
-        "tous les jours",
-        "tous les 2 jours",
-        "tous les 3 jours",
+        "Tous les jours",
+        "Tous les 2 jours",
+        "Tous les 3 jours",
         "1 fois par semaine",
-        "tous les 15 jours",
+        "Tous les 15 jours",
         "1 fois par mois"
       ],
-      "notificationsPlaceholder": "choisissez une fréquence",
-      "submitSignup": "s’inscrire",
-      "submitLogin": "se connecter",
-      "loggingIn": "connexion en cours...",
-      "forgotPassword": "mot de passe oublié",
-      "successSignup": "inscription réussie ! un email de confirmation vous a été envoyé pour valider votre compte. vérifiez vos spams si vous ne le voyez pas. 🎉",
-      "successLogin": "connexion réussie ! redirection...",
-      "footer": "recevez l’essentiel adapté à vos besoins 📩",
-      "alreadyHaveAccount": "déjà un compte ? se connecter",
-      "needAccount": "pas encore de compte ? s'inscrire"
+      "notificationsPlaceholder": "Choisissez une fréquence",
+      "submitSignup": "S’inscrire",
+      "submitLogin": "Se connecter",
+      "loggingIn": "Connexion en cours...",
+      "forgotPassword": "Mot de passe oublié",
+      "successSignup": "Inscription réussie ! Un email de confirmation vous a été envoyé pour valider votre compte. Vérifiez vos spams si vous ne le voyez pas. 🎉",
+      "successLogin": "Connexion réussie ! Redirection...",
+      "footer": "Recevez l’essentiel adapté à vos besoins 📩",
+      "alreadyHaveAccount": "Déjà un compte ? Se connecter",
+      "needAccount": "Pas encore de compte ? S'inscrire"
     },
     "header": {
-      "myArticles": "mes favoris",
-      "articles": "l’actualité",
-      "account": "compte",
-      "login": "se connecter",
-      "signup": "s’inscrire",
-      "settings": "paramètres",
-      "logout": "déconnexion",
-      "searchPlaceholder": "rechercher un article"
+      "myArticles": "Mes favoris",
+      "articles": "L’actualité",
+      "myVeille": "Ma veille",
+      "account": "Compte",
+      "login": "Se connecter",
+      "signup": "S’inscrire",
+      "settings": "Paramètres",
+      "logout": "Déconnexion",
+      "searchPlaceholder": "Rechercher un article"
     },
     "articles": {
-      "title": "l’actualité 📖",
-      "feedbackPrompt": "qu’avez-vous pensé de cet article ?",
-      "pubmedLink": "lien pubmed"
+      "title": "L’actualité 📖",
+      "feedbackPrompt": "Qu’avez-vous pensé de cet article ?",
+      "pubmedLink": "Lien PubMed"
     },
     "myArticles": {
-      "title": "mes favoris 📚"
+      "title": "Mes favoris 📚"
     },
     "footer": {
-      "slogan": "veille médicale : l’essentiel de la science pour les médecins 🩺",
-      "myArticles": "mes favoris",
-      "articles": "l’actualité",
-      "account": "compte",
-      "login": "se connecter",
-      "signup": "s’inscrire"
+      "slogan": "Veille médicale : L’essentiel de la science pour les médecins 🩺",
+      "myArticles": "Mes favoris",
+      "articles": "L’actualité",
+      "account": "Compte",
+      "login": "Se connecter",
+      "signup": "S’inscrire"
     }
   }
 }

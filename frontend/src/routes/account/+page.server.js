@@ -1,4 +1,6 @@
-// account/+page.server.js
+// account/+page.server.ts
+import { redirect } from '@sveltejs/kit';
+
 export async function load({ locals }) {
   const { session, user } = await locals.safeGetSession();
 
@@ -6,13 +8,13 @@ export async function load({ locals }) {
   console.log('User in account:', user);
 
   if (!session || !user) {
-    return { error: 'Vous devez être connecté pour accéder à cette page.' };
+    throw redirect(302, '/login');
   }
 
   // Fetch user profile
   const { data: userProfile, error: profileError } = await locals.supabase
     .from('user_profiles')
-    .select('id, first_name, last_name, notification_frequency, disciplines, date_of_birth, education, status, specialty')
+    .select('id, first_name, last_name, notification_frequency, disciplines, date_of_birth, status, specialty')
     .eq('id', user.id)
     .single();
 
@@ -33,59 +35,14 @@ export async function load({ locals }) {
   }
 
   return {
-    userPreferences: userProfile,
+    userPreferences: {
+      disciplines: userProfile.disciplines || [],
+      notificationFrequency: userProfile.notification_frequency || 'tous_les_jours',
+      date_of_birth: userProfile.date_of_birth,
+    },
     disciplinesList: disciplinesList.map(d => d.name),
-    userProfile // Pass the user profile to the client
+    userProfile,
+    session,
+    user,
   };
 }
-
-export const actions = {
-  updateDisciplines: async ({ request, locals }) => {
-    const { session, user } = await locals.safeGetSession();
-    if (!session || !user) {
-      return { success: false, error: 'Vous devez être connecté pour modifier vos disciplines.', action: 'updateDisciplines' };
-    }
-
-    const formData = await request.formData();
-    const disciplines = JSON.parse(formData.get('disciplines'));
-
-    // Update the user's disciplines and specialty (first discipline)
-    const specialty = disciplines.length > 0 ? disciplines[0] : null;
-    const { error } = await locals.supabase
-      .from('user_profiles')
-      .update({
-        disciplines,
-        specialty
-      })
-      .eq('id', user.id);
-
-    if (error) {
-      console.error('Error updating disciplines:', error);
-      return { success: false, error: error.message, action: 'updateDisciplines' };
-    }
-
-    return { success: true, updatedDisciplines: disciplines, action: 'updateDisciplines' };
-  },
-
-  updateNotificationFrequency: async ({ request, locals }) => {
-    const { session, user } = await locals.safeGetSession();
-    if (!session || !user) {
-      return { success: false, error: 'Vous devez être connecté pour modifier la fréquence des notifications.', action: 'updateNotificationFrequency' };
-    }
-
-    const formData = await request.formData();
-    const notificationFrequency = formData.get('notificationFrequency');
-
-    const { error } = await locals.supabase
-      .from('user_profiles')
-      .update({ notification_frequency: notificationFrequency })
-      .eq('id', user.id);
-
-    if (error) {
-      console.error('Error updating notification frequency:', error);
-      return { success: false, error: error.message, action: 'updateNotificationFrequency' };
-    }
-
-    return { success: true, updatedNotificationFrequency: notificationFrequency, action: 'updateNotificationFrequency' };
-  }
-};

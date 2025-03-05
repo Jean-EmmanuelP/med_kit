@@ -54,7 +54,7 @@
 	  'Chirurgie thoracique',
 	  'Urologie',
 	  'Chirurgie vasculaire',
-	  'Médecine de la douleur'
+	  'Médecine de la douleur',
 	];
   
 	// Filtrer les articles selon la recherche et la discipline sélectionnée

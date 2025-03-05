@@ -1,3 +1,4 @@
+<!-- +layout.svelte -->
 <script lang="ts">
 	import '../app.css';
 	import Header from '$lib/components/Header.svelte';
@@ -6,9 +7,10 @@
 	import { invalidate } from '$app/navigation';
 	import { supabaseStore } from '$lib/stores/supabase';
 	import { onMount } from 'svelte';
+
 	const getUserProfile = async function (supabase: any, userId: string) {
 		try {
-			if (userId === undefined) {
+			if (!userId) {
 				return null;
 			}
 			const { data, error } = await supabase
@@ -24,23 +26,30 @@
 			return null;
 		}
 	};
+
 	let { data, children } = $props();
 	let { session, supabase, user } = $derived(data);
-	if (!$userProfile && user?.id) {
-		getUserProfile(supabase, user.id);
-	}
+
 	supabaseStore.set(supabase);
-	userProfile.set(user);
+
+	// Fetch user profile if user exists and userProfile is not set
+	$effect(() => {
+		if (user?.id && !$userProfile) {
+			getUserProfile(supabase, user.id);
+		}
+	});
 
 	onMount(() => {
-		console.log($userProfile);
-		const { data } = supabase.auth.onAuthStateChange((_, newSession) => {
+		console.log('User Profile on mount:', $userProfile);
+
+		const { data: subscription } = supabase.auth.onAuthStateChange((event, newSession) => {
+			console.log('Auth state changed:', event, newSession);
 			if (newSession?.expires_at !== session?.expires_at) {
 				invalidate('supabase:auth');
 			}
 		});
 
-		return () => data.subscription.unsubscribe();
+		return () => subscription.subscription.unsubscribe();
 	});
 </script>
 

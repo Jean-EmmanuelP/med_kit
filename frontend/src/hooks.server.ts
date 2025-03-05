@@ -5,7 +5,18 @@ import { sequence } from '@sveltejs/kit/hooks';
 
 import { PUBLIC_SUPABASE_ANON_KEY, PUBLIC_SUPABASE_URL } from '$env/static/public';
 
+// Log environment variables on the server
+console.log('Server-side PUBLIC_SUPABASE_URL:', PUBLIC_SUPABASE_URL);
+console.log('Server-side PUBLIC_SUPABASE_ANON_KEY:', PUBLIC_SUPABASE_ANON_KEY);
+console.log('Server-side NODE_ENV:', process.env.NODE_ENV);
+console.log('Full process.env:', process.env);
+
 const supabase: Handle = async ({ event, resolve }) => {
+  // Determine production environment based on hostname
+  const isProduction = !event.url.hostname.includes('localhost');
+  console.log('isProduction:', isProduction);
+  console.log('Request URL:', event.url.hostname);
+
   event.locals.supabase = createServerClient(PUBLIC_SUPABASE_URL, PUBLIC_SUPABASE_ANON_KEY, {
     cookies: {
       getAll: () => {
@@ -14,15 +25,18 @@ const supabase: Handle = async ({ event, resolve }) => {
         return cookies;
       },
       setAll: (cookiesToSet) => {
+        console.log('Cookies to set:', cookiesToSet);
         cookiesToSet.forEach(({ name, value, options }) => {
-          console.log(`Cookie set: ${name}=${value}`);
-          event.cookies.set(name, value, {
+          const cookieOptions = {
             ...options,
             path: '/',
-            httpOnly: true,
-            secure: process.env.NODE_ENV === 'production', // Only secure in production (HTTPS)
-            sameSite: 'lax', // Use 'lax' to allow cookies in redirect scenarios
-          });
+            httpOnly: true, // Revert to true for security
+            secure: isProduction,
+            sameSite: isProduction ? 'none' : 'lax',
+            domain: isProduction ? '.veillemedicale.fr' : 'localhost', // Use leading dot for production
+          };
+          console.log(`Setting cookie: ${name}=${value}, options:`, cookieOptions);
+          event.cookies.set(name, value, cookieOptions);
         });
       },
     },
@@ -35,12 +49,12 @@ const supabase: Handle = async ({ event, resolve }) => {
     } = await event.locals.supabase.auth.getSession();
 
     if (sessionError) {
-      console.error('Error getting session:', sessionError);
+      console.error('Server-side error getting session:', sessionError);
       return { session: null, user: null };
     }
 
     if (!session) {
-      console.log('No session found');
+      console.log('Server-side: No session found');
       return { session: null, user: null };
     }
 
@@ -50,12 +64,12 @@ const supabase: Handle = async ({ event, resolve }) => {
     } = await event.locals.supabase.auth.getUser();
 
     if (userError) {
-      console.error('Error getting user:', userError);
+      console.error('Server-side error getting user:', userError);
       return { session: null, user: null };
     }
 
-    console.log('Session retrieved:', session);
-    console.log('User retrieved:', user);
+    console.log('Server-side session retrieved:', session);
+    console.log('Server-side user retrieved:', user);
 
     return { session, user };
   };

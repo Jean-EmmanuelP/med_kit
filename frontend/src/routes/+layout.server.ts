@@ -1,12 +1,14 @@
+// +layout.server.ts
 import type { LayoutServerLoad } from './$types';
 
 export const load: LayoutServerLoad = async ({ locals: { safeGetSession }, cookies }) => {
-	const { session } = await safeGetSession();
-	const userProfileCookie = cookies.get('userProfile');
+  const { session, user } = await safeGetSession();
+  console.log('Layout server session:', session);
+  console.log('Layout server user:', user);
 
-	return {
-		session,
-		cookies: cookies.getAll(),
-		userInformation: userProfileCookie ? JSON.parse(userProfileCookie) : null
-	};
+  return {
+    session,
+    user,
+    cookies: cookies.getAll(),
+  };
 };
