@@ -58,6 +58,12 @@
 				>
 					{$i18n.header.myVeille}
 				</a>
+				<a
+					href="/articles"
+					class="font-sans text-base font-medium text-black transition-colors duration-200 hover:text-gray-700"
+				>
+					{$i18n.header.articles}
+				</a>
 				<div class="account-menu relative">
 					<button
 						onclick={() => (showAccountMenu = !showAccountMenu)}
@@ -156,6 +162,13 @@
 							class="block px-6 py-4 font-sans text-base text-black transition-colors duration-200 hover:bg-gray-100"
 						>
 							{$i18n.header.myVeille}
+						</a>
+						<a
+							href="/articles"
+							onclick={closeMobileMenu}
+							class="block px-6 py-4 font-sans text-base text-black transition-colors duration-200 hover:bg-gray-100"
+						>
+							{$i18n.header.articles}
 						</a>
 						<a
 							href="/account"
