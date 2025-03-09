@@ -1,12 +1,7 @@
-<!-- /routes/signup/+page.svelte -->
 <script>
   import { i18n } from '$lib/i18n';
-  import { goto } from '$app/navigation';
-  import { supabase } from '$lib/supabase';
-  import userProfileStore from '$lib/stores/user';
   import SignUpForm from '$lib/components/auth/SignUpForm.svelte';
   import MessageDisplay from '$lib/components/auth/MessageDisplay.svelte';
-  import { enhance } from '$app/forms';
 
   let firstName = '';
   let lastName = '';

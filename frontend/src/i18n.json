@@ -14,7 +14,7 @@
         "signupForVeille": "S’inscrire afin d’obtenir ma veille"
       },
       "arguments": {
-        "cta": "3 min/jour pour rester à la pointe",
+        "cta": "3 min/jour pour rester à la pointe de votre spécialité",
         "list": [
           "Choisissez vos disciplines",
           "Paramétrez vos alertes",
@@ -91,11 +91,25 @@
     },
     "footer": {
       "slogan": "Veille médicale : L’essentiel de la science pour les médecins 🩺",
-      "myArticles": "Mes favoris",
+      "myArticles": "Ma veille",
       "articles": "L’actualité",
       "account": "Compte",
       "login": "Se connecter",
       "signup": "S’inscrire"
+    },
+    "us": {
+      "title": "🏥 Qui sommes-nous ?",
+      "baptiste": {
+        "name": "🩺 Baptiste Mazas – Médecin & Co-Fondateur",
+        "photo": "https://media.licdn.com/dms/image/v2/D4E03AQFHqu-gquZhQg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1728660013124?e=2147483647&v=beta&t=_OaYKhbvEALv-PN2iHDsOimTPlgZ4KIIC1RcqsqsAps",
+        "description": "Je suis médecin spécialisé en diabétologie, nutrition, prévention cardiovasculaire et médecine du sport à Paris (AP-HP). Avec Veille, je veux lutter contre la désinformation et rendre l’information médicale et scientifique accessible à tous. Cet outil est conçu pour répondre à nos problématiques, alors partagez-nous vos retours et suggestions, on est à l’écoute ! À très vite ! Baptiste 💡😊"
+      },
+      "jeanemmanuel": {
+        "name": "👨‍💻 Jean-Emmanuel Perramant – Développeur Full Stack & Co-Fondateur",
+        "photo": "https://media.licdn.com/dms/image/v2/D4E03AQHykOxiPZvvVw/profile-displayphoto-shrink_800_800/B4EZVm.93yGgAg-/0/1741189537864?e=1747267200&v=beta&t=pf-AjfH_j2AUVLIoG7OiD4UlRd5vAhcBN8tbeN2kAIc",
+        "description": "Formé à l’école 42, je suis passionné par le développement web et logiciel. J’adore donner vie à des idées en créant des outils utiles et innovants, tout en explorant de nouvelles technologies. J’espère que Veille vous sera vraiment utile ! N’hésitez pas à nous écrire, on fera de notre mieux pour l’adapter à vos besoins💡😊"
+      },
+      "suggestion": "🎯 Veille évolue avec vous ! Partagez-nous vos suggestions pour en faire l’outil parfait pour votre quotidien : <a href=\"mailto:contact@veillemedicale.fr\">contact@veillemedicale.fr</a> 🚀"
     }
   }
 }

@@ -73,7 +73,7 @@
 	}
   
 	function goBack() {
-	  goto('/articles');
+	  goto('/ma-veille');
 	}
   
 	function resetFilters() {
@@ -185,7 +185,7 @@
 				  <a href={`/articles/${article.id}`} class="hover:underline">{article.title}</a>
 				</h2>
 				<p class="mt-2 text-sm text-black">
-				  Par {article.author} • Publié le {new Date(article.published_at).toLocaleDateString()} •
+				  Publié le {new Date(article.published_at).toLocaleDateString()} •
 				  Grade: <span class="inline-block border border-green-500 px-2 py-1 rounded text-black">{article.grade}</span> •
 				  {article.disciplines.join(' • ')}
 				</p>

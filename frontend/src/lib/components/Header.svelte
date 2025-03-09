@@ -1,29 +1,11 @@
-<!-- $lib/components/Header.svelte -->
 <script>
 	import { i18n } from '$lib/i18n';
 	import { supabaseStore } from '$lib/stores/supabase';
 	import userProfileStore from '$lib/stores/user';
-	import { goto } from '$app/navigation';
 	import { onMount } from 'svelte';
 
 	let showAccountMenu = $state(false);
 	let showMobileMenu = $state(false);
-
-	async function handleLogout() {
-		try {
-			const { error } = await $supabaseStore.auth.signOut();
-			if (error) {
-				console.error('Erreur lors de la déconnexion :', error);
-				return;
-			}
-			userProfileStore.set(null);
-			goto('/');
-		} catch (error) {
-			console.error('Erreur inattendue lors de la déconnexion :', error);
-		} finally {
-			showMobileMenu = false;
-		}
-	}
 
 	function toggleMobileMenu() {
 		showMobileMenu = !showMobileMenu;
@@ -58,23 +40,17 @@
 	<nav class="mx-auto flex max-w-7xl items-center justify-between px-4 py-6 sm:px-6 lg:px-8">
 		<!-- Logo -->
 		<div class="flex items-center">
-			<a href="/" class="font-sans-bold text-3xl font-bold text-black"> Veille </a>
+			<a href="/" class="font-sans text-3xl font-bold text-black">Veille</a>
 		</div>
 
 		<!-- Navigation -->
 		<div class="hidden items-center space-x-8 md:flex">
 			{#if $userProfileStore}
-				<!-- <a
-					href="/my-articles"
-					class="font-sans text-base font-medium text-black transition-colors duration-200 hover:text-gray-700"
-				>
-					{$i18n.header.myArticles}
-				</a> -->
 				<a
-					href="/articles"
+					href="/qui-sommes-nous"
 					class="font-sans text-base font-medium text-black transition-colors duration-200 hover:text-gray-700"
 				>
-					{$i18n.header.myArticles}
+					Qui sommes-nous ?
 				</a>
 				<a
 					href="/ma-veille"
@@ -113,12 +89,6 @@
 							>
 								{$i18n.header.settings}
 							</a>
-							<button
-								onclick={handleLogout}
-								class="block w-full px-4 py-3 text-left font-sans text-base text-black transition-colors duration-200 hover:bg-gray-100"
-							>
-								{$i18n.header.logout}
-							</button>
 						</div>
 					{/if}
 				</div>
@@ -173,19 +143,12 @@
 					class="animate-fade-in mobile-menu absolute top-20 left-0 z-[100] w-full bg-white shadow-lg"
 				>
 					{#if $userProfileStore}
-						<!-- <a
-							href="/my-articles"
-							onclick={closeMobileMenu}
-							class="block px-6 py-4 font-sans text-base text-black transition-colors duration-200 hover:bg-gray-100"
-						>
-							{$i18n.header.myArticles}
-						</a> -->
 						<a
-							href="/articles"
+							href="/qui-sommes-nous"
 							onclick={closeMobileMenu}
 							class="block px-6 py-4 font-sans text-base text-black transition-colors duration-200 hover:bg-gray-100"
 						>
-							{$i18n.header.myArticles}
+							Qui sommes-nous ?
 						</a>
 						<a
 							href="/ma-veille"
@@ -201,15 +164,6 @@
 						>
 							{$i18n.header.settings}
 						</a>
-						<button
-							onclick={() => {
-								handleLogout();
-								closeMobileMenu();
-							}}
-							class="block w-full px-6 py-4 text-left font-sans text-base text-black transition-colors duration-200 hover:bg-gray-100"
-						>
-							{$i18n.header.logout}
-						</button>
 					{:else}
 						<a
 							href="/login"

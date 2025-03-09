@@ -1,4 +1,3 @@
-<!-- account/+page.svelte -->
 <script>
 	import { i18n } from '$lib/i18n';
 	import { goto } from '$app/navigation';
@@ -6,22 +5,24 @@
 	import { supabase } from '$lib/supabase';
 	import { onMount } from 'svelte';
 
-	export let data;
-	export let form;
+	let { data, form } = $props();
 
 	let firstName = $userProfileStore?.first_name || '';
 	let lastName = $userProfileStore?.last_name || '';
 	let status = $userProfileStore?.status || '';
 	let specialty = $userProfileStore?.specialty || '';
 	let profilePicture = $userProfileStore?.profile_picture || null;
-	let selectedDisciplines = data.userPreferences?.disciplines || [];
+	let selectedDisciplines = $state(data.userPreferences?.disciplines || []); // Utilise $state pour réactivité
 	let selectedNotificationFreq = data.userPreferences?.notificationFrequency || 'tous_les_jours';
 	let dateOfBirth = data.userPreferences?.date_of_birth || '';
-	let isDropdownOpen = false;
+	let isSpecialtiesOpen = $state(false); // Nouvelle variable pour les spécialités
+	let isNotificationsOpen = $state(false); // Nouvelle variable pour les notifications
 	let isLoading = false;
 
 	// Trier les disciplines par ordre alphabétique
-	const sortedDisciplines = data.disciplinesList.sort((a, b) => a.localeCompare(b, 'fr', { sensitivity: 'base' }));
+	const sortedDisciplines = data.disciplinesList.sort((a, b) =>
+		a.localeCompare(b, 'fr', { sensitivity: 'base' })
+	);
 
 	// Populate userProfileStore with data from the server
 	onMount(() => {
@@ -46,7 +47,7 @@
 		'tous_les_3_jours',
 		'1_fois_par_semaine',
 		'tous_les_15_jours',
-		'1_fois_par_mois',
+		'1_fois_par_mois'
 	];
 
 	const notificationDisplayOptions = {
@@ -55,7 +56,7 @@
 		tous_les_3_jours: $i18n.login.notificationOptions[2],
 		'1_fois_par_semaine': $i18n.login.notificationOptions[3],
 		tous_les_15_jours: $i18n.login.notificationOptions[4],
-		'1_fois_par_mois': $i18n.login.notificationOptions[5],
+		'1_fois_par_mois': $i18n.login.notificationOptions[5]
 	};
 
 	function toggleDiscipline(discipline) {
@@ -68,7 +69,7 @@
 
 	function selectNotificationFreq(option) {
 		selectedNotificationFreq = option;
-		isDropdownOpen = false;
+		isNotificationsOpen = false; // Ferme uniquement le menu des notifications
 	}
 
 	async function handleSubmit() {
@@ -85,7 +86,7 @@
 					specialty,
 					disciplines: selectedDisciplines,
 					notification_frequency: selectedNotificationFreq,
-					date_of_birth: dateOfBirth || null,
+					date_of_birth: dateOfBirth || null
 				})
 				.eq('id', $userProfileStore.id);
 
@@ -99,7 +100,7 @@
 				specialty,
 				disciplines: selectedDisciplines,
 				notification_frequency: selectedNotificationFreq,
-				date_of_birth: dateOfBirth,
+				date_of_birth: dateOfBirth
 			});
 
 			alert('Modifications enregistrées avec succès.');
@@ -110,18 +111,42 @@
 			isLoading = false;
 		}
 	}
+
+	async function handleLogout() {
+		try {
+			const response = await fetch('/logout', {
+				method: 'POST',
+				headers: {
+					'Content-Type': 'application/json'
+				}
+			});
+
+			if (!response.ok) {
+				const { error } = await response.json();
+				console.error('Erreur lors de la déconnexion :', error);
+				return;
+			}
+
+			userProfileStore.set(null); // Réinitialiser l'état immédiatement
+			window.location.href = '/login'; // Recharge l'onglet et redirige vers /login
+		} catch (error) {
+			console.error('Erreur inattendue lors de la déconnexion :', error);
+		}
+	}
 </script>
 
 <div class="min-h-screen bg-gradient-to-br from-gray-50 to-white px-4 py-12">
 	<div class="mx-auto max-w-4xl">
-		<h1 class="mb-8 text-4xl font-bold text-gray-900 animate-fade-in">Mon Compte</h1>
+		<h1 class="animate-fade-in mb-8 text-4xl font-bold text-gray-900">Mon Compte</h1>
 
 		{#if data.error}
 			<p class="text-gray-900">{data.error}</p>
 		{:else}
 			<!-- Section pour modifier les informations personnelles -->
 			<div class="mb-12">
-				<h2 class="mb-6 text-2xl font-semibold text-gray-900 animate-fade-in-delayed">Paramètres</h2>
+				<h2 class="animate-fade-in-delayed mb-6 text-2xl font-semibold text-gray-900">
+					Paramètres
+				</h2>
 				<form on:submit|preventDefault={handleSubmit} class="space-y-8">
 					<!-- Photo (not implemented for now) -->
 					<div>
@@ -208,23 +233,60 @@
 						/>
 					</div>
 
-					<!-- Section pour changer les disciplines (cases à cocher triées par ordre alphabétique) -->
+					<!-- Section pour changer les spécialités (menu déroulant avec choix multiples) -->
 					<div class="mb-12">
-						<h3 class="mb-4 text-lg font-semibold text-gray-900">Disciplines suivies</h3>
-						<div class="mb-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-6 gap-y-2">
-							{#each sortedDisciplines as discipline}
-								<label class="flex items-center space-x-2">
-									<input
-										type="checkbox"
-										name="disciplines"
-										value={discipline}
-										checked={selectedDisciplines.includes(discipline)}
-										on:change={() => toggleDiscipline(discipline)}
-										class="h-4 w-4 rounded border-gray-400 text-blue-500 focus:ring-blue-500"
+						<h3 class="mb-4 text-lg font-semibold text-gray-900">
+							Spécialités que je souhaite suivre
+						</h3>
+						<div class="relative">
+							<button
+								type="button"
+								on:click={() => {
+									isSpecialtiesOpen = !isSpecialtiesOpen; // Ouvre/ferme uniquement les spécialités
+									isNotificationsOpen = false; // Ferme les notifications si ouvertes
+								}}
+								class="flex w-full items-center justify-between rounded-lg border border-gray-300 bg-white px-4 py-3 text-left text-gray-900 transition-all duration-200 focus:border-blue-500 focus:ring focus:ring-blue-200"
+							>
+								<span class="flex-1 truncate">
+									{selectedDisciplines.length > 0
+										? selectedDisciplines.slice(0, 2).join(', ') +
+											(selectedDisciplines.length > 2 ? ` +${selectedDisciplines.length - 2}` : '')
+										: 'Sélectionner des spécialités'}
+								</span>
+								<svg
+									class="ml-2 h-5 w-5"
+									fill="none"
+									stroke="currentColor"
+									viewBox="0 0 24 24"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										stroke-linecap="round"
+										stroke-linejoin="round"
+										stroke-width="2"
+										d="M19 9l-7 7-7-7"
 									/>
-									<span class="text-gray-900">{discipline}</span>
-								</label>
-							{/each}
+								</svg>
+							</button>
+							{#if isSpecialtiesOpen}
+								<div
+									class="absolute z-10 mt-1 max-h-60 w-full overflow-auto rounded-lg border border-gray-300 bg-white shadow-lg"
+								>
+									{#each sortedDisciplines as discipline}
+										<label
+											class="flex cursor-pointer items-center px-4 py-2 transition-colors duration-200 hover:bg-gray-100"
+										>
+											<input
+												type="checkbox"
+												checked={selectedDisciplines.includes(discipline)}
+												on:change={() => toggleDiscipline(discipline)}
+												class="mr-2 h-4 w-4 text-blue-500 focus:ring-blue-500"
+											/>
+											<span class="text-gray-900">{discipline}</span>
+										</label>
+									{/each}
+								</div>
+							{/if}
 						</div>
 					</div>
 
@@ -238,9 +300,7 @@
 								class="mb-3 w-full rounded-lg border border-gray-300 bg-white px-4 py-3 text-gray-900 transition-all duration-200 focus:border-blue-500 focus:ring focus:ring-blue-200 sm:hidden"
 							>
 								{#each notificationOptions as option}
-									<option value={option}>
-										{notificationDisplayOptions[option]}
-									</option>
+									<option value={option}>{notificationDisplayOptions[option]}</option>
 								{/each}
 							</select>
 
@@ -248,12 +308,15 @@
 							<div class="relative hidden sm:block">
 								<button
 									type="button"
-									on:click={() => (isDropdownOpen = !isDropdownOpen)}
+									on:click={() => {
+										isNotificationsOpen = !isNotificationsOpen; // Ouvre/ferme uniquement les notifications
+										isSpecialtiesOpen = false; // Ferme les spécialités si ouvertes
+									}}
 									class="w-64 rounded-lg border border-gray-300 bg-white px-4 py-3 text-left text-gray-900 transition-all duration-200 focus:border-blue-500 focus:ring focus:ring-blue-200"
 								>
 									{notificationDisplayOptions[selectedNotificationFreq]}
 								</button>
-								{#if isDropdownOpen}
+								{#if isNotificationsOpen}
 									<div
 										class="absolute z-10 mt-1 w-64 rounded-lg border border-gray-300 bg-white shadow-lg"
 									>
@@ -279,7 +342,7 @@
 					>
 						{#if isLoading}
 							<svg
-								class="absolute left-4 top-1/2 mr-2 h-5 w-5 -translate-y-1/2 transform animate-spin text-white"
+								class="absolute top-1/2 left-4 mr-2 h-5 w-5 -translate-y-1/2 transform animate-spin text-white"
 								viewBox="0 0 24 24"
 							>
 								<circle
@@ -304,14 +367,32 @@
 				</form>
 			</div>
 		{/if}
+
+		<!-- Bouton de déconnexion en bas -->
+		{#if $userProfileStore}
+			<div class="mt-12 text-center">
+				<button
+					on:click={handleLogout}
+					class="rounded-lg bg-red-600 px-6 py-3 text-white transition-colors duration-200 hover:bg-red-700"
+				>
+					{$i18n.header.logout}
+				</button>
+			</div>
+		{/if}
 	</div>
 </div>
 
 <style>
 	/* Fade-in animation for title */
 	@keyframes fade-in {
-		0% { opacity: 0; transform: translateY(10px); }
-		100% { opacity: 1; transform: translateY(0); }
+		0% {
+			opacity: 0;
+			transform: translateY(10px);
+		}
+		100% {
+			opacity: 1;
+			transform: translateY(0);
+		}
 	}
 	.animate-fade-in {
 		animation: fade-in 1s ease-out;
@@ -319,8 +400,14 @@
 
 	/* Delayed fade-in for subtitle and other elements */
 	@keyframes fade-in-delayed {
-		0% { opacity: 0; transform: translateY(10px); }
-		100% { opacity: 1; transform: translateY(0); }
+		0% {
+			opacity: 0;
+			transform: translateY(10px);
+		}
+		100% {
+			opacity: 1;
+			transform: translateY(0);
+		}
 	}
 	.animate-fade-in-delayed {
 		animation: fade-in-delayed 1.2s ease-out;

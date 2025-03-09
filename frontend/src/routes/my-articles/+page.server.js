@@ -32,7 +32,6 @@ export async function load({ locals }) {
         id,
         title,
         content,
-        author,
         published_at,
         link,
         grade,

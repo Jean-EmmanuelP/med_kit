@@ -66,7 +66,7 @@
 			<!-- CTA Button with Livana-inspired styling -->
 			<div class="mt-6">
 				<a
-					href={$userProfileStore ? '/articles' : '/signup'}
+					href={$userProfileStore ? '/ma-veille' : '/signup'}
 					on:click={handleVeilleClick}
 					class="inline-block w-[50vw] md:w-auto rounded-full bg-gradient-to-r from-blue-500 to-green-500 px-8 py-3 text-center text-base font-semibold text-white shadow-lg transition-all duration-300 hover:from-blue-600 hover:to-green-600 hover:shadow-xl md:px-10 md:py-4 md:text-lg"
 				>

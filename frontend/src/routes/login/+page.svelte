@@ -1,12 +1,8 @@
 <!-- /routes/login/+page.svelte -->
 <script>
 	import { i18n } from '$lib/i18n';
-	import { goto } from '$app/navigation';
 	import LoginForm from '$lib/components/auth/LoginForm.svelte';
 	import MessageDisplay from '$lib/components/auth/MessageDisplay.svelte';
-	import { enhance } from '$app/forms';
-	import { supabase } from '$lib/supabase';
-	import userProfileStore from '$lib/stores/user';
   
 	let email = '';
 	let password = '';

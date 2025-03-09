@@ -1,121 +1,154 @@
-// /ma-veille/+page.server.js
 export async function load({ locals }) {
-    const { session, user } = await locals.safeGetSession();
+	console.log('=== Starting load function for /ma-veille ===');
   
-    console.log('Session in ma-veille:', session);
-    console.log('User in ma-veille:', user);
+	const { session, user } = await locals.safeGetSession();
+	console.log('Session from safeGetSession:', session);
+	console.log('User from safeGetSession:', user);
   
-    if (!user) {
-      return {
-        recentArticles: [],
-        olderArticles: [],
-        error: 'Utilisateur non connecté.',
-      };
-    }
+	if (!user || !session) {
+	  console.log('No user or session found, returning empty data');
+	  return {
+		recentArticles: [],
+		olderArticles: [],
+		userDisciplines: [],
+		savedArticleIds: [],
+		error: 'Utilisateur non connecté.',
+	  };
+	}
   
-    // Étape 1 : Récupérer le profil de l'utilisateur pour obtenir sent_article_ids
-    const { data: userProfile, error: profileError } = await locals.supabase
-      .from('user_profiles')
-      .select('sent_article_ids')
-      .eq('id', user.id)
-      .single();
+	console.log('Fetching user profile for user ID:', user.id);
+	const { data: userProfile, error: profileError } = await locals.supabase
+	  .from('user_profiles')
+	  .select('disciplines, sent_article_ids')
+	  .eq('id', user.id)
+	  .single();
   
-    if (profileError || !userProfile) {
-      console.error('Erreur lors de la récupération du profil utilisateur:', profileError);
-      return {
-        recentArticles: [],
-        olderArticles: [],
-        error: profileError?.message || 'Profil utilisateur non trouvé.',
-      };
-    }
+	console.log('User profile data:', userProfile);
+	console.log('Profile error:', profileError);
   
-    const sentArticleIds = userProfile.sent_article_ids || [];
-    if (sentArticleIds.length === 0) {
-      return {
-        recentArticles: [],
-        olderArticles: [],
-        error: 'Aucun article envoyé à cet utilisateur.',
-      };
-    }
+	if (profileError || !userProfile) {
+	  console.error('Profile fetch failed:', profileError?.message);
+	  return {
+		recentArticles: [],
+		olderArticles: [],
+		userDisciplines: [],
+		savedArticleIds: [],
+		error: profileError?.message || 'Profil utilisateur non trouvé.',
+	  };
+	}
   
-    // Étape 2 : Trier les IDs pour obtenir les deux derniers (les plus récents) et les autres
-    const recentArticleIds = sentArticleIds.slice(-2); // Deux derniers IDs
-    const olderArticleIds = sentArticleIds.slice(0, -2); // Les autres IDs
+	const userDisciplines = userProfile.disciplines || [];
+	const sentArticleIds = userProfile.sent_article_ids || [];
+	console.log('User disciplines:', userDisciplines);
+	console.log('Sent article IDs:', sentArticleIds);
   
-    // Étape 3 : Récupérer les articles récents (deux derniers)
-    const { data: recentArticlesData, error: recentArticlesError } = await locals.supabase
-      .from('articles')
-      .select(`
-        id,
-        title,
-        content,
-        author,
-        published_at,
-        link,
-        grade,
-        article_disciplines (
-          discipline_id,
-          disciplines (name)
-        )
-      `)
-      .in('id', recentArticleIds)
-      .order('published_at', { ascending: false });
+	if (userDisciplines.length === 0) {
+	  console.log('No disciplines found for user');
+	  return {
+		recentArticles: [],
+		olderArticles: [],
+		userDisciplines: [],
+		savedArticleIds: [],
+		error: 'Aucune discipline choisie.',
+	  };
+	}
   
-    if (recentArticlesError) {
-      console.error('Erreur lors de la récupération des articles récents:', recentArticlesError);
-      return {
-        recentArticles: [],
-        olderArticles: [],
-        error: recentArticlesError.message,
-      };
-    }
+	if (sentArticleIds.length === 0) {
+	  console.log('No sent articles found for user');
+	  return {
+		recentArticles: [],
+		olderArticles: [],
+		userDisciplines,
+		savedArticleIds: [],
+		error: 'Aucun article envoyé.',
+	  };
+	}
   
-    // Formatter les articles récents
-    const recentArticles = recentArticlesData.map((article) => ({
-      ...article,
-      disciplines: article.article_disciplines.map((ad) => ad.disciplines.name),
-    }));
+	console.log('Fetching saved articles for user ID:', user.id);
+	const { data: savedArticlesData, error: savedArticlesError } = await locals.supabase
+	  .from('saved_articles')
+	  .select('article_id')
+	  .eq('user_id', user.id);
   
-    // Étape 4 : Récupérer les articles plus anciens (si nécessaire)
-    let olderArticles = [];
-    if (olderArticleIds.length > 0) {
-      const { data: olderArticlesData, error: olderArticlesError } = await locals.supabase
-        .from('articles')
-        .select(`
-          id,
-          title,
-          content,
-          author,
-          published_at,
-          link,
-          grade,
-          article_disciplines (
-            discipline_id,
-            disciplines (name)
-          )
-        `)
-        .in('id', olderArticleIds)
-        .order('published_at', { ascending: false });
+	console.log('Saved articles data:', savedArticlesData);
+	console.log('Saved articles error:', savedArticlesError);
   
-      if (olderArticlesError) {
-        console.error('Erreur lors de la récupération des articles plus anciens:', olderArticlesError);
-        return {
-          recentArticles,
-          olderArticles: [],
-          error: olderArticlesError.message,
-        };
-      }
+	const savedArticleIds = savedArticlesData?.map((saved) => saved.article_id) || [];
+	console.log('Mapped saved article IDs:', savedArticleIds);
   
-      olderArticles = olderArticlesData.map((article) => ({
-        ...article,
-        disciplines: article.article_disciplines.map((ad) => ad.disciplines.name),
-      }));
-    }
+	const recentArticleIds = sentArticleIds.slice(-2);
+	const olderArticleIds = sentArticleIds.slice(0, -2);
+	console.log('Recent article IDs:', recentArticleIds);
+	console.log('Older article IDs:', olderArticleIds);
   
-    return {
-      recentArticles,
-      olderArticles,
-      session,
-      user,
-    };
+	console.log('Fetching recent articles');
+	const { data: recentArticlesData, error: recentArticlesError } = await locals.supabase
+	  .from('articles')
+	  .select(`
+		id,
+		title,
+		content,
+		published_at,
+		link,
+		grade,
+		journal,
+		article_disciplines(discipline_id, disciplines(name))
+	  `)
+	  .in('id', recentArticleIds)
+	  .order('published_at', { ascending: false });
+  
+	console.log('Recent articles data:', recentArticlesData);
+	console.log('Recent articles error:', recentArticlesError);
+  
+	if (recentArticlesError || !recentArticlesData) {
+	  console.error('Recent articles fetch failed:', recentArticlesError?.message);
+	  return {
+		recentArticles: [],
+		olderArticles: [],
+		userDisciplines,
+		savedArticleIds,
+		error: recentArticlesError?.message || 'Erreur lors du chargement des articles récents.',
+	  };
+	}
+  
+	const recentArticles = recentArticlesData.map((article) => ({
+	  ...article,
+	  disciplines: article.article_disciplines?.map((ad) => ad.disciplines.name) || [],
+	  journal: article.journal,
+	}));
+	console.log('Processed recent articles:', recentArticles);
+  
+	let olderArticles = [];
+	if (olderArticleIds.length > 0) {
+	  console.log('Fetching older articles');
+	  const { data: olderArticlesData, error: olderArticlesError } = await locals.supabase
+		.from('articles')
+		.select(`
+		  id,
+		  title,
+		  content,
+		  published_at,
+		  link,
+		  grade,
+		  journal,
+		  article_disciplines(discipline_id, disciplines(name))
+		`)
+		.in('id', olderArticleIds)
+		.order('published_at', { ascending: false });
+  
+	  console.log('Older articles data:', olderArticlesData);
+	  console.log('Older articles error:', olderArticlesError);
+  
+	  if (!olderArticlesError && olderArticlesData) {
+		olderArticles = olderArticlesData.map((article) => ({
+		  ...article,
+		  disciplines: article.article_disciplines?.map((ad) => ad.disciplines.name) || [],
+		  journal: article.journal,
+		}));
+		console.log('Processed older articles:', olderArticles);
+	  }
+	}
+  
+	console.log('Returning data to client');
+	return { recentArticles, olderArticles, userDisciplines, savedArticleIds, session, user };
   }

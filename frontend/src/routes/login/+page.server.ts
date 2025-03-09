@@ -49,7 +49,7 @@ export const actions: Actions = {
     }
 
     console.log('User logged in successfully:', JSON.stringify(profileData, null, 2));
-    console.log('Throwing redirect to /articles');
-    throw redirect(302, '/articles');
+    console.log('Throwing redirect to /ma-veille');
+    throw redirect(302, '/ma-veille');
   },
 };
