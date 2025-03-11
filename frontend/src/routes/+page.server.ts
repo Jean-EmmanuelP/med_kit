@@ -47,7 +47,7 @@ export async function load({ locals }) {
         if (!articlesByDiscipline[disciplineName]) {
           articlesByDiscipline[disciplineName] = [];
         }
-        if (articlesByDiscipline[disciplineName].length < 10) {
+        if (articlesByDiscipline[disciplineName].length < 3) {
           articlesByDiscipline[disciplineName].push({
             ...article,
             disciplines: disciplineNames
