@@ -19,7 +19,7 @@
 	// Gestion du clic sur le bouton "Ma veille" ou "S'inscrire"
 	function handleVeilleClick(event) {
 		event.preventDefault();
-		if (!userProfileStore) {
+		if (!$userProfileStore) {
 			goto('/signup');
 		} else {
 			goto('/ma-veille');
@@ -170,11 +170,11 @@
 			</p>
 			<div class="mt-8">
 				<a
-					href={userProfileStore ? '/ma-veille' : '/signup'}
+					href={$userProfileStore ? '/ma-veille' : '/signup'}
 					on:click={handleVeilleClick}
 					class="inline-block w-[60vw] bg-gradient-to-r from-blue-500 to-teal-500 px-8 py-3 text-center text-base font-semibold text-white shadow-lg transition-all duration-300 hover:from-blue-600 hover:to-teal-600 hover:shadow-xl md:w-auto md:px-12 md:py-4 md:text-lg"
 				>
-					{userProfileStore
+					{$userProfileStore
 						? $i18n.home.hero?.viewArticles || 'Accéder à ma veille'
 						: $i18n.home.hero?.signupForVeille || 'S’inscrire maintenant'}
 				</a>
@@ -184,8 +184,19 @@
 
 	<!-- Partenaires -->
 	<div class="relative flex flex-col gap-6 overflow-hidden px-6 py-8 sm:mx-[19vw] sm:px-0">
-		<h2 class="mb-4 text-left text-2xl font-bold text-white">Nos Partenaires de confiance</h2>
+		<h2 class="mb-4 text-left text-2xl font-bold text-white">Nos partenaires de confiance</h2>
 		<div class="flex flex-wrap items-center justify-start gap-8">
+			<a
+				href="https://pubmed.ncbi.nlm.nih.gov/"
+				target="_blank"
+				class="flex flex-col items-center gap-2"
+			>
+				<img
+					src="https://cdn.ncbi.nlm.nih.gov/pubmed/277eb475-38df-4990-a0ee-0080b04e86fc/core/images/pubmed-logo-white.svg"
+					alt="PubMed"
+					class="h-10 w-auto"
+				/>
+			</a>
 			<a href="https://www.embase.com" target="_blank" class="flex items-center gap-2">
 				<EmbaseSvg />
 				<span class="text-lg font-medium text-white">Embase</span>
@@ -198,26 +209,15 @@
 				/>
 				<span class="text-lg font-medium text-white">Cochrane Library</span>
 			</a>
-			<a
-				href="https://pubmed.ncbi.nlm.nih.gov/"
-				target="_blank"
-				class="flex flex-col items-center gap-2"
-			>
-				<img
-					src="https://www.ncbi.nlm.nih.gov/coreutils/nwds/img/logos/AgencyLogo.svg"
-					alt="PubMed"
-					class="h-10 w-auto"
-				/>
-			</a>
-			<a href="" target="_blank">
+			<!-- <a href="" target="_blank">
 				<img
 					src="https://www.has-sante.fr/plugins/ModuleHAS2019/images/logo-has-mobile.png"
 					alt=""
 				/>
-			</a>
+			</a> -->
 		</div>
 		<div class="mt-4">
-			<p class="text-lg text-white">
+			<p class="text-lg text-white sm:max-w-[50vw]">
 				Nous sélectionnons pour vous les meilleurs articles médicaux provenant de ces plateformes
 				reconnues, classés par grades de recommandation, et nous vous les présentons sous un format
 				lisible et rapide.
@@ -227,48 +227,44 @@
 
 	<!-- Spécialités et Articles -->
 	<div class="relative flex flex-col gap-4 overflow-hidden px-6 py-8 sm:mx-[19vw] sm:px-0">
-		<h2 class="mb-4 text-left text-2xl font-bold text-white">Choisissez votre spécialité</h2>
-		<div class="marquee-container relative overflow-hidden whitespace-nowrap">
-			<div class="marquee-content animate-marquee inline-block">
-				{#each specialties as specialty (specialty)}
-					<button
-						on:click={() => selectSpecialty(specialty)}
-						class="mx-4 inline-block rounded-full bg-gray-800 px-6 py-3 text-lg font-medium text-white shadow-md transition-all hover:bg-gray-700 {selectedSpecialty ===
-						specialty
-							? 'bg-gray-600'
-							: ''}"
-					>
-						{specialty}
-					</button>
-				{/each}
-				{#each specialties as specialty (specialty)}
-					<button
-						on:click={() => selectSpecialty(specialty)}
-						class="mx-4 inline-block rounded-full bg-gray-800 px-6 py-3 text-lg font-medium text-white shadow-md transition-all hover:bg-gray-700 {selectedSpecialty ===
-						specialty
-							? 'bg-gray-600'
-							: ''}"
-						aria-hidden="true"
-					>
-						{specialty}
-					</button>
-				{/each}
-			</div>
-			<div
-				class="pointer-events-none absolute inset-0 bg-gradient-to-r from-black via-transparent to-black"
-			></div>
-		</div>
-
 		<div bind:this={articleSection} class="w-full py-12 text-white">
 			<div class="flex flex-col gap-6">
-				<h2 class="text-3xl font-bold">
-					Découvrez certains de nos articles sur {selectedSpecialty}
+				<h2 class="text-3xl font-bold">Découvrez certains de nos articles</h2>
+				<h2 class="mb-4 text-left text-2xl font-bold text-white">1. Choisissez votre spécialité</h2>
+				<div class="marquee-container relative overflow-hidden whitespace-nowrap">
+					<div class="marquee-content animate-marquee inline-block">
+						{#each specialties as specialty (specialty)}
+							<button
+								on:click={() => selectSpecialty(specialty)}
+								class="mx-4 inline-block rounded-full bg-gray-800 px-6 py-3 text-lg font-medium text-white shadow-md transition-all hover:bg-gray-700 {selectedSpecialty ===
+								specialty
+									? 'bg-gray-600'
+									: ''}"
+							>
+								{specialty}
+							</button>
+						{/each}
+						{#each specialties as specialty (specialty)}
+							<button
+								on:click={() => selectSpecialty(specialty)}
+								class="mx-4 inline-block rounded-full bg-gray-800 px-6 py-3 text-lg font-medium text-white shadow-md transition-all hover:bg-gray-700 {selectedSpecialty ===
+								specialty
+									? 'bg-gray-600'
+									: ''}"
+								aria-hidden="true"
+							>
+								{specialty}
+							</button>
+						{/each}
+					</div>
+					<div
+						class="pointer-events-none absolute inset-0 bg-gradient-to-r from-black via-transparent to-black"
+					></div>
+				</div>
+				<h2 class="mb-4 text-left text-2xl font-bold text-white">
+					2. Explorez : {selectedSpecialty}
 				</h2>
-				<h3>
-					Simplifier la science pour les médecins débordés : des articles clairs, pratiques et
-					accessibles en un clin d’œil.
-				</h3>
-				<div
+				<!-- <div
 					class="mb-8 flex flex-col items-start space-y-4 sm:flex-row sm:items-center sm:space-y-0 sm:space-x-4"
 				>
 					<form class="relative ml-1 w-full sm:w-[30vw]">
@@ -292,7 +288,7 @@
 							/>
 						</svg>
 					</form>
-				</div>
+				</div> -->
 
 				{#if articles.length === 0}
 					<p class="text-gray-400">Aucun article disponible pour {selectedSpecialty}.</p>
@@ -313,7 +309,9 @@
 								<div class="mt-2 flex items-center text-sm text-gray-400">
 									<span class="mr-1">{article.journal || 'Inconnu'}</span>
 								</div>
-								<h3 class="mt-4">Date : {formatDate(article.published_at)}</h3>
+								<h3 class="mt-2 text-xs text-gray-400">
+									Publié le {formatDate(article.published_at)}
+								</h3>
 							</li>
 						{/each}
 					</ul>
@@ -371,9 +369,14 @@
 					{formatTitle(immersiveArticle.title)}
 				</h2>
 				{#if immersiveArticle.grade}
-					<p class="mb-2 text-sm text-green-400">Grade : {immersiveArticle.grade}</p>
+					<p class="mb-2 text-sm text-green-400">
+						Grade de recommandation : {immersiveArticle.grade}
+					</p>
 				{/if}
-				<p class="mb-4 text-sm text-gray-400">
+				<div class="mt-2 flex flex-row items-center text-sm">
+					<span class="mr-1">{immersiveArticle.journal || 'Inconnu'}</span>
+				</div>
+				<p class="mt-2 text-sm text-gray-400 mb-4">
 					Publié le : {formatDate(immersiveArticle.published_at)}
 				</p>
 				{#each parseContent(immersiveArticle.content) as section}
@@ -390,7 +393,7 @@
 					</div>
 				{/each}
 				<!-- Bouton "Voir l'article ainsi que les recommandations IA" -->
-				{#if !userProfileStore}
+				<!-- {#if !$userProfileStore}
 					<div class="mt-6 flex justify-center">
 						<button
 							on:click={() => goto('/login')}
@@ -401,7 +404,7 @@
 							Voir l'article ainsi que les recommandations IA
 						</button>
 					</div>
-				{/if}
+				{/if} -->
 			</div>
 		</div>
 	{/if}
