@@ -134,6 +134,10 @@
 			<span class="text-lg text-gray-600">Date / {formattedDate}</span>
 		</div>
 		<h1 class="mb-4 text-3xl font-bold text-gray-800">{$i18n.header.myVeille}</h1>
+		<h2 class="max-w-3xl">
+			description de la page: voir ses articles favoris et specialites choisis. feature: section
+			nouvel article (article du jour) et en bas tout les articles selon le filtre quil a rempli.
+		</h2>
 
 		<div
 			class="mb-8 flex flex-col items-start space-y-4 sm:flex-row sm:items-center sm:space-y-0 sm:space-x-4"

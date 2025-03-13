@@ -13,17 +13,15 @@ export const actions: Actions = {
 		const last_name = formData.get('last_name')?.toString();
 		const email = formData.get('email')?.toString();
 		const password = formData.get('password')?.toString();
-		const disciplines = formData.getAll('disciplines') as string[];
+		const disciplines = formData.getAll('disciplines[]') as string[];
 		const notification_frequency = formData
 			.get('notification_frequency')
 			?.toString()
-			?.toLowerCase(); // Normalisation en minuscules
+			?.toLowerCase();
 		const date_of_birth = formData.get('date_of_birth')?.toString() || null;
-		const specialty = formData.get('specialty')?.toString() || null;
-		const status = formData.get('status')?.toString() || null;
 
-		// Validate required fields
-		if (!first_name || !last_name || !email || !password || !notification_frequency) {
+		// Validation des champs requis
+		if (!first_name || !email || !password || !notification_frequency) {
 			console.log('Validation failed: Missing required fields');
 			return fail(400, { error: 'Tous les champs obligatoires doivent être remplis.' });
 		}
@@ -66,13 +64,11 @@ export const actions: Actions = {
 		const newUserProfile = {
 			id: signUpData.user.id,
 			first_name,
-			last_name,
+			last_name: last_name || '',
 			email,
 			disciplines,
 			notification_frequency,
 			date_of_birth,
-			specialty,
-			status,
 			sent_article_ids: []
 		};
 
@@ -143,23 +139,20 @@ export const actions: Actions = {
 				)
 				.gte('published_at', new Date(Date.now() - 2 * 365 * 24 * 60 * 60 * 1000).toISOString()) // 2 dernières années
 				.order('published_at', { ascending: false })
-				.limit(1); // Limite à un seul article
+				.limit(1);
 
 			if (articlesError) {
 				console.error('Error fetching article:', JSON.stringify(articlesError, null, 2));
+			} else if (articles && articles.length > 0) {
+				selectedArticle = {
+					id: articles[0].id,
+					title: articles[0].title,
+					content: articles[0].content,
+					journal: articles[0].journal || 'Inconnu'
+				};
+				console.log('Selected article:', selectedArticle);
 			} else {
-				console.log('Fetched articles:', articles);
-				if (articles && articles.length > 0) {
-					selectedArticle = {
-						id: articles[0].id,
-						title: articles[0].title,
-						content: articles[0].content,
-						journal: articles[0].journal || 'Inconnu'
-					};
-					console.log('Selected article:', selectedArticle);
-				} else {
-					console.log('No article found for the user');
-				}
+				console.log('No article found for the user');
 			}
 		} catch (e) {
 			console.error('Exception in fetching article:', e);

@@ -2,10 +2,10 @@
   "fr": {
     "home": {
       "title": "Veille",
-      "subtitle": "L’outil de veille scientifique conçu pour les médecins",
+      "subtitle": "L'outil de veille scientifique conçu pour les médecins",
       "description": "Veille notifie les médecins des dernières études pertinentes selon leurs disciplines et préférences. Recevez vos alertes personnalisées et restez à jour en 5 min par jour.",
       "phrase1": "Trop d’études scientifiques, pas assez de temps pour les lire ?",
-      "phrase2": "Veille vous livre l’essentiel",
+      "phrase2": "Avec Veille, restez à la pointe de votre spécialité.",
       "hero": {
         "title": "Veille scientifique simple et efficace 🔍",
         "subtitle": "5 min/jour max via newsletter",
@@ -18,7 +18,7 @@
         "list": [
           "Choisissez vos disciplines",
           "Paramétrez vos alertes",
-          "Recevez un condensé clé des dernières études scientifiques avec accès direct aux sources"
+          "Recevez un résumé clair et concis des meilleures études récentes dans votre domaine, à votre rythme, avec un accès direct à l’article original."
         ]
       },
       "createAccount": "Créez votre compte en quelques secondes ⏩"

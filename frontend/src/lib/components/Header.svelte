@@ -64,7 +64,7 @@
 		<div class="flex items-center">
 			<a
 				href="/"
-				class="font-sans text-xl font-bold {lastScrollY > 0 ? 'text-black' : 'text-white'}"
+				class="font-sans text-3xl font-bold {lastScrollY > 0 ? 'text-black' : 'text-white'}"
 			>
 				Veille
 			</a>
@@ -115,9 +115,9 @@
 					</button>
 					{#if showAccountMenu}
 						<div
-							class="animate-fade-in absolute right-0 z-10 mt-2 w-48 rounded-md bg-white py-1 shadow-lg"
+							class="animate-fade-in absolute right-0 z-10 mt-2 w-48 rounded-md bg-black py-1 shadow-lg"
 						>
-							<a href="/account" class="block px-4 py-2 text-sm text-black hover:bg-gray-100">
+							<a href="/account" class="block px-4 py-2 text-sm text-black hover:bg-black/80">
 								{$i18n.header.settings}
 							</a>
 						</div>
@@ -154,7 +154,7 @@
 
 			{#if showMobileMenu}
 				<div
-					class="mobile-menu animate-fade-in absolute top-full left-0 z-50 w-full bg-white shadow-lg"
+					class="mobile-menu animate-fade-in absolute top-full left-0 z-50 w-full bg-black shadow-lg"
 				>
 					{#if $userProfileStore}
 						<a
