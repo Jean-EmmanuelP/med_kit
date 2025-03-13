@@ -1,3 +1,4 @@
+// /ma-veille/+page.server.ts
 export async function load({ locals }) {
 	console.log('=== Starting load function for /ma-veille ===');
   
