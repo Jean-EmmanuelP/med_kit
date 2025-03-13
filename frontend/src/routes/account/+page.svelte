@@ -4,24 +4,46 @@
 	import userProfileStore from '$lib/stores/user';
 	import { supabase } from '$lib/supabase';
 	import { onMount } from 'svelte';
+	import * as Select from '$lib/components/ui/select/index.js';
 
-	let { data, form } = $props();
+	// Récupération des props avec $props rune
+	const { data, form } = $props();
 
-	let firstName = $userProfileStore?.first_name || '';
-	let lastName = $userProfileStore?.last_name || '';
-	let status = $userProfileStore?.status || '';
-	let specialty = $userProfileStore?.specialty || '';
-	let profilePicture = $userProfileStore?.profile_picture || null;
-	let selectedDisciplines = $state(data.userPreferences?.disciplines || []); // Utilise $state pour réactivité
-	let selectedNotificationFreq = data.userPreferences?.notificationFrequency || 'tous_les_jours';
-	let dateOfBirth = data.userPreferences?.date_of_birth || '';
-	let isSpecialtiesOpen = $state(false); // Nouvelle variable pour les spécialités
-	let isNotificationsOpen = $state(false); // Nouvelle variable pour les notifications
-	let isLoading = false;
+	// Définir les variables réactives avec $state
+	let firstName = $state($userProfileStore?.first_name || '');
+	let lastName = $state($userProfileStore?.last_name || '');
+	let status = $state($userProfileStore?.status || '');
+	let specialty = $state($userProfileStore?.specialty || '');
+	let profilePicture = $state($userProfileStore?.profile_picture || null);
+	let selectedDisciplines = $state(data.userPreferences?.disciplines || []);
+	let selectedNotificationFreq = $state(
+		data.userPreferences?.notificationFrequency || 'tous_les_jours'
+	);
+	let dateOfBirth = $state(data.userPreferences?.date_of_birth || '');
+	let isLoading = $state(false);
 
 	// Trier les disciplines par ordre alphabétique
-	const sortedDisciplines = data.disciplinesList.sort((a, b) =>
-		a.localeCompare(b, 'fr', { sensitivity: 'base' })
+	const sortedDisciplines = $state(
+		data.disciplinesList.sort((a, b) => a.localeCompare(b, 'fr', { sensitivity: 'base' }))
+	);
+
+	// Compute the display label for the selected disciplines
+	const triggerDisciplineContent = $derived(
+		selectedDisciplines.length > 0
+			? selectedDisciplines.slice(0, 2).join(', ') +
+					(selectedDisciplines.length > 2 ? ` +${selectedDisciplines.length - 2}` : '')
+			: 'Sélectionner des spécialités'
+	);
+
+	// Compute the display label for the selected notification frequency
+	const triggerNotificationContent = $derived(
+		$i18n.login.notificationOptions[notificationOptions.indexOf(selectedNotificationFreq)] ||
+			'Choisir une fréquence'
+	);
+
+	// Compute the display label for the selected status
+	const triggerStatusContent = $derived(
+		$i18n.login.statusOptions.includes(status) ? status : 'Choisissez un statut'
 	);
 
 	// Populate userProfileStore with data from the server
@@ -29,8 +51,6 @@
 		if (data.userProfile) {
 			userProfileStore.set(data.userProfile);
 		}
-
-		// Update local state with userProfileStore values
 		firstName = $userProfileStore?.first_name || '';
 		lastName = $userProfileStore?.last_name || '';
 		status = $userProfileStore?.status || '';
@@ -65,11 +85,6 @@
 		} else {
 			selectedDisciplines = [...selectedDisciplines, discipline];
 		}
-	}
-
-	function selectNotificationFreq(option) {
-		selectedNotificationFreq = option;
-		isNotificationsOpen = false; // Ferme uniquement le menu des notifications
 	}
 
 	async function handleSubmit() {
@@ -127,224 +142,196 @@
 				return;
 			}
 
-			userProfileStore.set(null); // Réinitialiser l'état immédiatement
-			window.location.href = '/login'; // Recharge l'onglet et redirige vers /login
+			userProfileStore.set(null);
+			window.location.href = '/login';
 		} catch (error) {
 			console.error('Erreur inattendue lors de la déconnexion :', error);
 		}
 	}
 </script>
 
-<div class="min-h-screen bg-gradient-to-br from-gray-50 to-white px-4 py-12">
+<div class="min-h-screen bg-black px-4 py-12 text-white">
 	<div class="mx-auto max-w-4xl">
-		<h1 class="animate-fade-in mb-8 text-4xl font-bold text-gray-900">Mon Compte</h1>
+		<!-- En-tête -->
+		<h1 class="mb-8 text-4xl font-bold text-white">Mon compte</h1>
 
 		{#if data.error}
-			<p class="text-gray-900">{data.error}</p>
+			<p class="mb-6 text-red-500">{data.error}</p>
 		{:else}
 			<!-- Section pour modifier les informations personnelles -->
 			<div class="mb-12">
-				<h2 class="animate-fade-in-delayed mb-6 text-2xl font-semibold text-gray-900">
-					Paramètres
-				</h2>
+				<h2 class="mb-6 text-2xl font-semibold text-white">Vos informations</h2>
 				<form on:submit|preventDefault={handleSubmit} class="space-y-8">
-					<!-- Photo (not implemented for now) -->
-					<div>
-						<label for="profilePicture" class="mb-2 block text-sm font-medium text-gray-900">
-							{$i18n.account.profilePicture}
-						</label>
-						<input
-							id="profilePicture"
-							type="text"
-							value="Non implémenté"
-							disabled
-							class="mt-1 w-full rounded-lg border border-gray-300 bg-gray-100 px-4 py-3 text-gray-900 transition-all duration-200"
-						/>
-						<p class="mt-1 text-sm text-gray-600">
-							La gestion des photos n’est pas encore implémentée.
-						</p>
+					<!-- Nom et Prénom sur la même ligne pour web -->
+					<div class="flex flex-col space-y-6 sm:flex-row sm:space-y-0 sm:space-x-4">
+						<div class="w-full sm:w-1/2">
+							<label for="firstName" class="mb-2 block text-sm font-medium text-gray-300">
+								{$i18n.login.firstName}
+							</label>
+							<input
+								id="firstName"
+								type="text"
+								bind:value={firstName}
+								class="mt-1 w-full rounded-lg border border-gray-700 bg-gray-800 px-4 py-3 text-white transition-all duration-200 focus:border-teal-500 focus:ring focus:ring-teal-700"
+								required
+							/>
+						</div>
+						<div class="w-full sm:w-1/2">
+							<label for="lastName" class="mb-2 block text-sm font-medium text-gray-300">
+								{$i18n.login.lastName}
+							</label>
+							<input
+								id="lastName"
+								type="text"
+								bind:value={lastName}
+								class="mt-1 w-full rounded-lg border border-gray-700 bg-gray-800 px-4 py-3 text-white transition-all duration-200 focus:border-teal-500 focus:ring focus:ring-teal-700"
+								required
+							/>
+						</div>
 					</div>
 
-					<div>
-						<label for="firstName" class="mb-2 block text-sm font-medium text-gray-900">
-							{$i18n.login.firstName}
-						</label>
-						<input
-							id="firstName"
-							type="text"
-							bind:value={firstName}
-							class="mt-1 w-full rounded-lg border border-gray-300 bg-white px-4 py-3 text-gray-900 transition-all duration-200 focus:border-blue-500 focus:ring focus:ring-blue-200"
-							required
-						/>
+					<!-- Statut et Spécialité sur la même ligne pour web -->
+					<div class="flex flex-col space-y-6 sm:flex-row sm:space-y-0 sm:space-x-4">
+						<div class="w-full sm:w-1/2">
+							<label for="status" class="mb-2 block text-sm font-medium text-gray-300">
+								{$i18n.account.status}
+							</label>
+							<div class="relative w-full">
+								<Select.Root type="single" name="status" bind:value={status}>
+									<Select.Trigger
+										class="w-full rounded-lg border border-gray-700 bg-gray-800 px-4 py-3 text-sm font-medium text-white shadow-md transition-all duration-300 hover:bg-gray-700 focus:ring-2 focus:ring-teal-500 focus:outline-none"
+									>
+										{triggerStatusContent}
+									</Select.Trigger>
+									<Select.Content
+										class="scrollbar-thin scrollbar-thumb-teal-500 scrollbar-track-gray-800 max-h-60 overflow-y-auto rounded-lg border border-gray-700 bg-gray-900"
+									>
+										<Select.Group>
+											<Select.GroupHeading class="px-4 py-2 font-semibold text-gray-400"
+												>Statuts</Select.GroupHeading
+											>
+											{#each $i18n.login.statusOptions as option (option)}
+												<Select.Item
+													value={option}
+													label={option}
+													class="cursor-pointer px-4 py-2 text-white transition-all duration-200 hover:bg-teal-600 hover:text-white"
+												/>
+											{/each}
+										</Select.Group>
+									</Select.Content>
+								</Select.Root>
+							</div>
+						</div>
+						<div class="w-full sm:w-1/2">
+							<label for="specialty" class="mb-2 block text-sm font-medium text-gray-300">
+								{$i18n.account.specialty}
+							</label>
+							<input
+								id="specialty"
+								type="text"
+								bind:value={specialty}
+								class="mt-1 w-full rounded-lg border border-gray-700 bg-gray-800 px-4 py-3 text-white transition-all duration-200 focus:border-teal-500 focus:ring focus:ring-teal-700"
+								placeholder="Ex: Médecine Générale, Diabétologie"
+							/>
+						</div>
 					</div>
 
+					<!-- Date de naissance -->
 					<div>
-						<label for="lastName" class="mb-2 block text-sm font-medium text-gray-900">
-							{$i18n.login.lastName}
-						</label>
-						<input
-							id="lastName"
-							type="text"
-							bind:value={lastName}
-							class="mt-1 w-full rounded-lg border border-gray-300 bg-white px-4 py-3 text-gray-900 transition-all duration-200 focus:border-blue-500 focus:ring focus:ring-blue-200"
-							required
-						/>
-					</div>
-
-					<div>
-						<label for="status" class="mb-2 block text-sm font-medium text-gray-900">
-							{$i18n.account.status}
-						</label>
-						<select
-							id="status"
-							bind:value={status}
-							class="mt-1 w-full rounded-lg border border-gray-300 bg-white px-4 py-3 text-gray-900 transition-all duration-200 focus:border-blue-500 focus:ring focus:ring-blue-200"
-							required
-						>
-							<option value="" disabled>Choisissez un statut</option>
-							{#each $i18n.login.statusOptions as option}
-								<option value={option}>{option}</option>
-							{/each}
-						</select>
-					</div>
-
-					<div>
-						<label for="specialty" class="mb-2 block text-sm font-medium text-gray-900">
-							{$i18n.account.specialty}
-						</label>
-						<input
-							id="specialty"
-							type="text"
-							bind:value={specialty}
-							class="mt-1 w-full rounded-lg border border-gray-300 bg-white px-4 py-3 text-gray-900 transition-all duration-200 focus:border-blue-500 focus:ring focus:ring-blue-200"
-							placeholder="Ex: Médecine Générale, Diabétologie"
-						/>
-					</div>
-
-					<div>
-						<label for="dateOfBirth" class="mb-2 block text-sm font-medium text-gray-900">
+						<label for="dateOfBirth" class="mb-2 block text-sm font-medium text-gray-300">
 							{$i18n.login.dateOfBirth}
 						</label>
 						<input
 							id="dateOfBirth"
 							type="date"
 							bind:value={dateOfBirth}
-							class="mt-1 w-full rounded-lg border border-gray-300 bg-white px-4 py-3 text-gray-900 transition-all duration-200 focus:border-blue-500 focus:ring focus:ring-blue-200"
+							class="mt-1 w-full rounded-lg border border-gray-700 bg-gray-800 px-4 py-3 text-white transition-all duration-200 focus:border-teal-500 focus:ring focus:ring-teal-700"
 						/>
 					</div>
 
-					<!-- Section pour changer les spécialités (menu déroulant avec choix multiples) -->
-					<div class="mb-12">
-						<h3 class="mb-4 text-lg font-semibold text-gray-900">
-							Spécialités que je souhaite suivre
-						</h3>
-						<div class="relative">
-							<button
-								type="button"
-								on:click={() => {
-									isSpecialtiesOpen = !isSpecialtiesOpen; // Ouvre/ferme uniquement les spécialités
-									isNotificationsOpen = false; // Ferme les notifications si ouvertes
-								}}
-								class="flex w-full items-center justify-between rounded-lg border border-gray-300 bg-white px-4 py-3 text-left text-gray-900 transition-all duration-200 focus:border-blue-500 focus:ring focus:ring-blue-200"
+					<br />
+
+					<h2 class="mb-6 text-2xl font-semibold text-white">Vos préférences</h2>
+
+					<!-- Spécialités que je souhaite suivre -->
+					<div>
+						<label class="mb-2 block text-sm font-medium text-gray-300">
+							{$i18n.account.disciplinesToFollow}
+						</label>
+						<div class="relative w-full">
+							<Select.Root
+								type="multiple"
+								name="selectedDisciplines"
+								bind:value={selectedDisciplines}
 							>
-								<span class="flex-1 truncate">
-									{selectedDisciplines.length > 0
-										? selectedDisciplines.slice(0, 2).join(', ') +
-											(selectedDisciplines.length > 2 ? ` +${selectedDisciplines.length - 2}` : '')
-										: 'Sélectionner des spécialités'}
-								</span>
-								<svg
-									class="ml-2 h-5 w-5"
-									fill="none"
-									stroke="currentColor"
-									viewBox="0 0 24 24"
-									xmlns="http://www.w3.org/2000/svg"
+								<Select.Trigger
+									class="w-full rounded-lg border border-gray-700 bg-gray-800 px-4 py-3 text-sm font-medium text-white shadow-md transition-all duration-300 hover:bg-gray-700 focus:ring-2 focus:ring-teal-500 focus:outline-none"
 								>
-									<path
-										stroke-linecap="round"
-										stroke-linejoin="round"
-										stroke-width="2"
-										d="M19 9l-7 7-7-7"
-									/>
-								</svg>
-							</button>
-							{#if isSpecialtiesOpen}
-								<div
-									class="absolute z-10 mt-1 max-h-60 w-full overflow-auto rounded-lg border border-gray-300 bg-white shadow-lg"
+									{triggerDisciplineContent}
+								</Select.Trigger>
+								<Select.Content
+									class="scrollbar-thin scrollbar-thumb-teal-500 scrollbar-track-gray-800 max-h-60 overflow-y-auto rounded-lg border border-gray-700 bg-gray-900"
 								>
-									{#each sortedDisciplines as discipline}
-										<label
-											class="flex cursor-pointer items-center px-4 py-2 transition-colors duration-200 hover:bg-gray-100"
+									<Select.Group>
+										<Select.GroupHeading class="px-4 py-2 font-semibold text-gray-400"
+											>Spécialités</Select.GroupHeading
 										>
-											<input
-												type="checkbox"
-												checked={selectedDisciplines.includes(discipline)}
-												on:change={() => toggleDiscipline(discipline)}
-												class="mr-2 h-4 w-4 text-blue-500 focus:ring-blue-500"
+										{#each sortedDisciplines as discipline (discipline)}
+											<Select.Item
+												value={discipline}
+												label={discipline}
+												class="cursor-pointer px-4 py-2 text-white transition-all duration-200 hover:bg-teal-600 hover:text-white"
 											/>
-											<span class="text-gray-900">{discipline}</span>
-										</label>
-									{/each}
-								</div>
-							{/if}
+										{/each}
+									</Select.Group>
+								</Select.Content>
+							</Select.Root>
 						</div>
 					</div>
 
-					<!-- Section pour changer la fréquence des notifications -->
-					<div class="mb-12">
-						<h3 class="mb-4 text-lg font-semibold text-gray-900">Fréquence des notifications</h3>
-						<div class="flex flex-col sm:flex-row sm:items-center sm:space-x-4">
-							<!-- On mobile, show a select dropdown -->
-							<select
+					<!-- Fréquence des notifications -->
+					<div>
+						<label class="mb-2 block text-sm font-medium text-gray-300">
+							{$i18n.account.notificationFrequency}
+						</label>
+						<div class="relative w-full">
+							<Select.Root
+								type="single"
+								name="selectedNotificationFreq"
 								bind:value={selectedNotificationFreq}
-								class="mb-3 w-full rounded-lg border border-gray-300 bg-white px-4 py-3 text-gray-900 transition-all duration-200 focus:border-blue-500 focus:ring focus:ring-blue-200 sm:hidden"
 							>
-								{#each notificationOptions as option}
-									<option value={option}>{notificationDisplayOptions[option]}</option>
-								{/each}
-							</select>
-
-							<!-- On desktop, show a button with a dropdown menu -->
-							<div class="relative hidden sm:block">
-								<button
-									type="button"
-									on:click={() => {
-										isNotificationsOpen = !isNotificationsOpen; // Ouvre/ferme uniquement les notifications
-										isSpecialtiesOpen = false; // Ferme les spécialités si ouvertes
-									}}
-									class="w-64 rounded-lg border border-gray-300 bg-white px-4 py-3 text-left text-gray-900 transition-all duration-200 focus:border-blue-500 focus:ring focus:ring-blue-200"
+								<Select.Trigger
+									class="w-full rounded-lg border border-gray-700 bg-gray-800 px-4 py-3 text-sm font-medium text-white shadow-md transition-all duration-300 hover:bg-gray-700 focus:ring-2 focus:ring-teal-500 focus:outline-none"
 								>
-									{notificationDisplayOptions[selectedNotificationFreq]}
-								</button>
-								{#if isNotificationsOpen}
-									<div
-										class="absolute z-10 mt-1 w-64 rounded-lg border border-gray-300 bg-white shadow-lg"
-									>
-										{#each notificationOptions as option}
-											<button
-												type="button"
-												on:click={() => selectNotificationFreq(option)}
-												class="block w-full px-4 py-2 text-left text-gray-900 hover:bg-gray-100"
-											>
-												{notificationDisplayOptions[option]}
-											</button>
+									{triggerNotificationContent}
+								</Select.Trigger>
+								<Select.Content
+									class="scrollbar-thin scrollbar-thumb-teal-500 scrollbar-track-gray-800 max-h-60 overflow-y-auto rounded-lg border border-gray-700 bg-gray-900"
+								>
+									<Select.Group>
+										<Select.GroupHeading class="px-4 py-2 font-semibold text-gray-400"
+											>Fréquences</Select.GroupHeading
+										>
+										{#each notificationOptions as option (option)}
+											<Select.Item
+												value={option}
+												label={$i18n.login.notificationOptions[notificationOptions.indexOf(option)]}
+												class="cursor-pointer px-4 py-2 text-white transition-all duration-200 hover:bg-teal-600 hover:text-white"
+											/>
 										{/each}
-									</div>
-								{/if}
-							</div>
+									</Select.Group>
+								</Select.Content>
+							</Select.Root>
 						</div>
 					</div>
 
 					<button
 						type="submit"
 						disabled={isLoading}
-						class="relative rounded-lg bg-black px-8 py-3 text-white transition-all duration-300 hover:bg-gray-800 disabled:cursor-not-allowed disabled:bg-gray-600"
+						class="mt-6 flex w-full items-center justify-center rounded-lg bg-orange-600 px-8 py-3 text-white transition-all duration-300 hover:bg-orange-700 disabled:cursor-not-allowed disabled:bg-gray-600"
 					>
 						{#if isLoading}
-							<svg
-								class="absolute top-1/2 left-4 mr-2 h-5 w-5 -translate-y-1/2 transform animate-spin text-white"
-								viewBox="0 0 24 24"
-							>
+							<svg class="mr-2 h-5 w-5 animate-spin text-white" viewBox="0 0 24 24">
 								<circle
 									class="opacity-25"
 									cx="12"
@@ -359,7 +346,7 @@
 									d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
 								/>
 							</svg>
-							<span class="opacity-0">{$i18n.account.saveChanges}</span>
+							<span>{$i18n.account.saveChanges}</span>
 						{:else}
 							{$i18n.account.saveChanges}
 						{/if}
@@ -370,10 +357,11 @@
 
 		<!-- Bouton de déconnexion en bas -->
 		{#if $userProfileStore}
-			<div class="mt-12 text-center">
+			<div class="mt-12 text-left">
+				<h2 class="mb-4 text-2xl font-bold text-white">Se déconnecter</h2>
 				<button
 					on:click={handleLogout}
-					class="rounded-lg bg-red-600 px-6 py-3 text-white transition-colors duration-200 hover:bg-red-700"
+					class="rounded-lg bg-black px-6 py-3 text-white transition-colors duration-200 hover:bg-gray-800"
 				>
 					{$i18n.header.logout}
 				</button>
@@ -411,5 +399,25 @@
 	}
 	.animate-fade-in-delayed {
 		animation: fade-in-delayed 1.2s ease-out;
+	}
+
+	/* Custom scrollbar for the select dropdown */
+	.scrollbar-thin {
+		scrollbar-width: thin;
+		scrollbar-color: #14b8a6 #1f2937;
+	}
+
+	.scrollbar-thin::-webkit-scrollbar {
+		width: 8px;
+	}
+
+	.scrollbar-thin::-webkit-scrollbar-track {
+		background: #1f2937;
+	}
+
+	.scrollbar-thin::-webkit-scrollbar-thumb {
+		background-color: #14b8a6;
+		border-radius: 6px;
+		border: 2px solid #1f2937;
 	}
 </style>
