@@ -40,10 +40,11 @@
 				bind:successMessage
 				bind:isLoading
 			/>
-
-			<p class="mt-4 text-center text-sm text-gray-500">
-				{$i18n.login.alreadyHaveAccount}
-			</p>
+			<a href="/login">
+				<p class="mt-4 text-center text-sm text-gray-500">
+					{$i18n.login.alreadyHaveAccount}
+				</p>
+			</a>
 		</div>
 	</div>
 </main>

@@ -30,7 +30,7 @@
       "specialty": "Spécialité"
     },
     "login": {
-      "title": "Inscription",
+      "title": "S'inscrire",
       "loginTitle": "Connexion",
       "firstName": "Prénom",
       "lastName": "Nom",
@@ -71,7 +71,7 @@
       "needAccount": "Pas encore de compte ? S'inscrire"
     },
     "header": {
-      "myArticles": "Tous les articles",
+      "myArticles": "Tous les articles par spécialité",
       "articles": "Tous les articles",
       "myVeille": "Ma veille",
       "account": "Compte",

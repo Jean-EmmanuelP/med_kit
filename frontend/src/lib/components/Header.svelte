@@ -73,28 +73,28 @@
 		<div class="hidden items-center space-x-6 md:flex">
 			{#if $userProfileStore}
 				<a
-					href="/qui-sommes-nous"
-					class="font-sans text-sm font-medium {lastScrollY > 0
-						? 'text-black hover:text-gray-700'
-						: 'text-white hover:text-gray-300'} transition-colors duration-200"
-				>
-					Qui sommes-nous ?
-				</a>
-				<a
-					href="/ma-veille"
-					class="font-sans text-sm font-medium {lastScrollY > 0
-						? 'text-black hover:text-gray-700'
-						: 'text-white hover:text-gray-300'} transition-colors duration-200"
-				>
-					{$i18n.header.myVeille}
-				</a>
-				<a
 					href="/articles"
 					class="font-sans text-sm font-medium {lastScrollY > 0
 						? 'text-black hover:text-gray-700'
 						: 'text-white hover:text-gray-300'} transition-colors duration-200"
 				>
 					{$i18n.header.articles}
+				</a>
+				<a
+					href="/ma-veille"
+					class="rounded-sm px-4 font-sans text-sm font-medium {lastScrollY > 0
+						? 'text-black hover:text-gray-700'
+						: 'text-white hover:text-gray-300'} transition-colors duration-200"
+				>
+					{$i18n.header.myVeille}
+				</a>
+				<a
+					href="/qui-sommes-nous"
+					class="font-sans text-sm font-medium {lastScrollY > 0
+						? 'text-black hover:text-gray-700'
+						: 'text-white hover:text-gray-300'} transition-colors duration-200"
+				>
+					Qui sommes-nous ?
 				</a>
 				<div class="account-menu relative">
 					<button
@@ -158,11 +158,11 @@
 				>
 					{#if $userProfileStore}
 						<a
-							href="/qui-sommes-nous"
+							href="/articles"
 							onclick={closeMobileMenu}
 							class="block px-6 py-3 text-base hover:bg-gray-100"
 						>
-							Qui sommes-nous ?
+							{$i18n.header.articles}
 						</a>
 						<a
 							href="/ma-veille"
@@ -172,11 +172,11 @@
 							{$i18n.header.myVeille}
 						</a>
 						<a
-							href="/articles"
+							href="/qui-sommes-nous"
 							onclick={closeMobileMenu}
 							class="block px-6 py-3 text-base hover:bg-gray-100"
 						>
-							{$i18n.header.articles}
+							Qui sommes-nous ?
 						</a>
 						<a
 							href="/account"

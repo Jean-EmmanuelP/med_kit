@@ -221,10 +221,8 @@
 {#if showDisciplineModal}
 	<div class="bg-opacity-50 fixed inset-0 z-50 flex items-center justify-center bg-black">
 		<div class="mx-4 w-full max-w-md rounded-lg bg-white p-6">
-			<h2 class="mb-2 text-xl font-bold text-gray-900">
-				Quelles sont les disciplines sur lesquelles vous souhaitez faire de la veille ?
-			</h2>
-			<p class="mb-4 text-sm text-gray-600">Choisissez-en une ou plusieurs :</p>
+			<h2 class="mb-2 text-xl font-bold text-gray-900">Quelles disciplines voulez-vous suivre ?</h2>
+			<p class="mb-4 text-sm text-gray-600">(une ou plusieurs)</p>
 
 			<!-- Affichage des disciplines sélectionnées sous forme de bulles -->
 			{#if disciplines.length > 0}
