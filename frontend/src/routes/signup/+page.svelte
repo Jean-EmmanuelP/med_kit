@@ -30,7 +30,6 @@
 					<p class="font-medium text-blue-600">Inscription en cours...</p>
 				</div>
 			{/if}
-
 			<SignUpForm
 				bind:email
 				bind:password

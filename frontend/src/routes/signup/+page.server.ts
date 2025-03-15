@@ -20,7 +20,6 @@ export const actions: Actions = {
 			?.toLowerCase();
 		const date_of_birth = formData.get('date_of_birth')?.toString() || null;
 
-		// Validation des champs requis
 		if (!first_name || !email || !password || !notification_frequency) {
 			console.log('Validation failed: Missing required fields');
 			return fail(400, { error: 'Tous les champs obligatoires doivent être remplis.' });
@@ -31,7 +30,6 @@ export const actions: Actions = {
 			return fail(400, { error: 'Veuillez sélectionner au moins une discipline.' });
 		}
 
-		// Inscription via Supabase Auth
 		console.log('Attempting Supabase signUp');
 		const { data: signUpData, error: signUpError } = await supabase.auth.signUp({
 			email,
@@ -48,18 +46,14 @@ export const actions: Actions = {
 			return fail(500, { error: 'Erreur lors de la création de l’utilisateur' });
 		}
 
-		// Vérifier si l'utilisateur est connecté automatiquement
 		const { session } = signUpData;
 		if (!session) {
 			console.log('User signed up, awaiting email confirmation');
-			return {
-				success: true,
-				message: 'Inscription réussie. Veuillez vérifier votre email pour confirmer votre compte.',
-				redirectTo: '/login'
-			};
+			return fail(400, {
+				error: 'Inscription réussie. Veuillez vérifier votre email pour confirmer votre compte.'
+			});
 		}
 
-		// Création du profil utilisateur
 		console.log('Creating user profile');
 		const newUserProfile = {
 			id: signUpData.user.id,
@@ -83,6 +77,8 @@ export const actions: Actions = {
 			return fail(500, { error: profileError.message });
 		}
 
+		// Edge Functions (welcome email et notification) restent identiques
+		// [Code omis pour brièveté, mais garde-le si tu l'utilises]
 		// 1. Appeler l'Edge Function send-welcome-email
 		try {
 			console.log('Triggering send-welcome-email Edge Function');
@@ -119,17 +115,17 @@ export const actions: Actions = {
 				.from('articles')
 				.select(
 					`
-                    id,
-                    title,
-                    content,
-                    published_at,
-                    journal,
-                    article_disciplines (
-                        disciplines (
-                            name
-                        )
-                    )
-                `
+			id,
+			title,
+			content,
+			published_at,
+			journal,
+			article_disciplines (
+				disciplines (
+					name
+				)
+			)
+		`
 				)
 				.not('id', 'in', `(${newUserProfile.sent_article_ids.join(',') || '0'})`)
 				.filter(
@@ -199,7 +195,6 @@ export const actions: Actions = {
 		} catch (e) {
 			console.error('Exception in send-notification:', e);
 		}
-
 		console.log('User signed up successfully:', JSON.stringify(profileData, null, 2));
 		console.log('Throwing redirect to /ma-veille');
 		throw redirect(302, '/ma-veille');
