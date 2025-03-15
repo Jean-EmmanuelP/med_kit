@@ -1,0 +1,26 @@
+Date de publication : 2024-10-11
+
+# 📝 Efficacité de l'ICOPE dans l'amélioration de la capacité intrinsèque chez les personnes âgées
+
+## 📌 Contexte & Problématique
+Évaluation de l'efficacité des Soins intégrés pour les personnes âgées (ICOPE) sur l'amélioration de la capacité intrinsèque (CI) chez les aînés, incluant cognition, état psychologique, capacités sensorielles, vitalité et locomotion.
+
+## 🧪 Méthodologie
+Revue systématique et méta-analyse d'essais contrôlés randomisés (ECR) issus de 10 bases de données jusqu'au 2 janvier 2024.
+
+## 📊 Résultats clés
+L'ICOPE a démontré des effets significatifs sur:
+- Fonction cognitive (DMS = 0,36; IC 95%, 0,17-0,56; p<0,001)
+- Symptômes dépressifs (DMS = -0,70; IC 95%, -0,96 à -0,43; p<0,001)
+- Pas d'amélioration significative de la locomotion (DMS = 0,16; IC 95%, -0,03 à 0,34; p=0,098)
+La durée d'intervention influence l'hétérogénéité des résultats cognitifs.
+
+## 🩺 Impact clinique
+L'ICOPE représente une approche prometteuse pour améliorer la capacité intrinsèque des personnes âgées, particulièrement pour la cognition et la dépression, offrant une stratégie viable pour promouvoir un vieillissement en santé.
+
+## Revue
+J Clin Nurs
+
+## 📖 Référence
+2025 Mar;34(3):1013-1031. doi: 10.1111/jocn.17432. Epub 2024 Oct 11.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1111/jocn.17432.

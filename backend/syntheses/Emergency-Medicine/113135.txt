@@ -1,19 +1,22 @@
 Date de publication : 2024-05-09
 
-# 📝 THROMBECTOMIE POUR AVC AVEC INFARCTUS ÉTENDU DE TAILLE NON RESTREINTE
+# 📝 Thrombectomie pour AVC avec infarctus étendu de taille non restreinte
 
 ## 📌 Contexte & Problématique
-L'efficacité de la thrombectomie chez les patients présentant un AVC aigu avec infarctus étendu (score ASPECTS ≤5) restait à démontrer.
+L'efficacité de la thrombectomie chez les patients présentant un AVC (accident vasculaire cérébral) aigu avec infarctus étendu de taille non restreinte reste peu étudiée.
 
 ## 🧪 Méthodologie
-Essai randomisé (1:1) incluant 333 patients avec occlusion vasculaire cérébrale proximale antérieure et infarctus étendu dans les 6,5h après les symptômes. Comparaison entre thrombectomie+soins médicaux versus soins médicaux seuls. Critère principal : score de Rankin modifié à 90 jours.
+Essai randomisé comparant la thrombectomie endovasculaire plus soins médicaux versus soins médicaux seuls chez 333 patients avec occlusion vasculaire cérébrale proximale antérieure et infarctus étendu (ASPECTS ≤5) dans les 6,5 heures après l'apparition des symptômes. Critère principal : score de Rankin modifié à 90 jours.
 
 ## 📊 Résultats clés
-Score médian de Rankin à 90 jours : 4 (groupe thrombectomie) vs 6 (groupe contrôle), p<0,001. Mortalité à 90 jours : 36,1% vs 55,5% (RR ajusté 0,65). Hémorragie intracérébrale symptomatique : 9,6% vs 5,7% (RR ajusté 1,73). Essai arrêté prématurément.
+Score médian de Rankin à 90 jours : 4 (groupe thrombectomie) versus 6 (groupe témoin) (rapport de cotes 1,63; IC 95%, 1,29-2,06; p<0,001). Mortalité à 90 jours : 36,1% versus 55,5% (RR ajusté 0,65). Hémorragie intracérébrale symptomatique : 9,6% versus 5,7% (RR ajusté 1,73).
 
 ## 🩺 Impact clinique
-La thrombectomie améliore significativement les résultats fonctionnels et réduit la mortalité chez les patients avec infarctus étendu, malgré un risque accru d'hémorragie intracérébrale symptomatique.
+La thrombectomie améliore significativement les résultats fonctionnels et réduit la mortalité chez les patients avec infarctus étendu, malgré une augmentation des hémorragies intracérébrales symptomatiques.
+
+## Revue
+New England Journal of Medicine
 
 ## 📖 Référence
-Costalat V, Jovin TG, Albucher JF, et al. Trial of Thrombectomy for Stroke with a Large Infarct of Unrestricted Size. N Engl J Med. 2024;390(18):1677-1689.
+2024;390(18):1677-1689. doi:10.1056/NEJMoa2314063. NCT03811769.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2314063.

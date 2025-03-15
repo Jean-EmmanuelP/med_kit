@@ -1,19 +1,22 @@
 Date de publication : 2024-10-02
 
-# 📝 Interventions préventives dans la polykystose rénale autosomique dominante
+# 📝 Interventions pour prévenir la progression de la polykystose rénale autosomique dominante
 
 ## 📌 Contexte & Problématique
-La polykystose rénale autosomique dominante (PKRAD) est la principale cause héréditaire de maladie rénale. Une meilleure compréhension des mécanismes pathologiques a conduit au développement d'agents ciblant la progression de la maladie, mais leur efficacité reste à clarifier.
+La polykystose rénale autosomique dominante (PKRAD) est la principale cause héréditaire de maladie rénale. Une meilleure compréhension des mécanismes moléculaires a conduit au développement d'agents ciblant la pathogenèse, mais leur rôle reste incertain.
 
 ## 🧪 Méthodologie
-Revue systématique de 57 essais contrôlés randomisés (8016 participants) évaluant 18 interventions pharmacologiques. Les critères principaux incluaient la progression vers l'insuffisance rénale, le DFGe et le volume rénal total (VRT).
+Revue systématique de 57 essais contrôlés randomisés (8016 participants) évaluant 18 interventions pharmacologiques. Les critères d'évaluation incluaient les résultats SONG-PKD et les effets indésirables.
 
 ## 📊 Résultats clés
-Le tolvaptan préserve probablement le DFGe (DM +1,26 mL/min/1,73 m², IC 95% 0,73-1,78) et ralentit la croissance du VRT (DM -2,70 mL/cm, IC 95% -3,24 à -2,16) avec certitude modérée. Les analogues de la somatostatine diminuent probablement le VRT (DMS -0,33, IC 95% -0,51 à -0,16) mais augmentent possiblement les événements indésirables graves (RR 1,81, IC 95% 1,01-3,25).
+Le tolvaptan (antagoniste V2R) préserve probablement le débit de filtration glomérulaire estimé (DFGe) (DM 1,26 mL/min/1,73 m²) et ralentit la croissance du volume rénal total (VRT). Les analogues de la somatostatine diminuent probablement le VRT mais avec peu d'effet sur le DFGe et risque accru d'événements indésirables graves. Une cible basse de pression artérielle réduit l'augmentation du VRT.
 
 ## 🩺 Impact clinique
-Le tolvaptan est actuellement la seule intervention démontrant un ralentissement de la progression de la PKRAD. Les effets sur les critères cliniques majeurs comme l'insuffisance rénale terminale et la mortalité restent incertains pour toutes les interventions étudiées.
+Malgré de nombreuses interventions étudiées, seul le tolvaptan a démontré sa capacité à ralentir la progression de la PKRAD, évaluée par les changements du DFGe et du VRT, avec des effets secondaires notables (nycturie, fatigue, élévation des enzymes hépatiques).
+
+## Revue
+Cochrane Database of Systematic Reviews
 
 ## 📖 Référence
-St Pierre K, Cashmore BA, Bolignano D, et al. Cochrane Database Syst Rev. 2024;10(10):CD010294.
+2024 Oct 2;10(10):CD010294. doi: 10.1002/14651858.CD010294.pub3.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1002/14651858.CD010294.pub3.

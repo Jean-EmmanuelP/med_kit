@@ -1,0 +1,24 @@
+Date de publication : 2024-05-20
+
+# 📝 Transformations alimentaires et d'activité pour prévenir l'obésité chez les adolescents
+
+## 📌 Contexte & Problématique
+La prévalence du surpoids et de l'obésité chez les adolescents dépasse 25% dans plusieurs régions du monde, constituant une priorité de santé publique. Cette revue évalue l'efficacité des interventions préventives ciblant l'alimentation et/ou l'activité physique (AP).
+
+## 🧪 Méthodologie
+Revue systématique incluant 74 essais contrôlés randomisés (83 407 participants) comparant des interventions diététiques, d'activité ou combinées chez des adolescents (12-18 ans). Critères d'évaluation : IMC, score zIMC (IMC standardisé) et événements indésirables graves à court (<9 mois), moyen (9-15 mois) et long terme (≥15 mois).
+
+## 📊 Résultats clés
+- Interventions diététiques : effets incertains sur l'IMC et le zIMC (preuves de très faible à faible certitude)
+- Interventions d'activité : pas de réduction du zIMC à court terme (haute certitude), légère réduction de l'IMC à moyen et long terme (faible certitude)
+- Interventions combinées : pas de réduction de l'IMC à court terme (haute certitude), ni à moyen ou long terme (certitude modérée)
+
+## 🩺 Impact clinique
+Les interventions actuelles montrent des effets limités sur les mesures anthropométriques des adolescents. Les programmes scolaires (contexte principal des études) ne semblent pas suffisants pour contrer efficacement l'obésité adolescente.
+
+## Revue
+Cochrane Database of Systematic Reviews
+
+## 📖 Référence
+2024 May 20;5(5):CD015330. doi: 10.1002/14651858.CD015330.pub2.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1002/14651858.CD015330.pub2.

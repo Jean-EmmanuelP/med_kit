@@ -1,19 +1,22 @@
 Date de publication : 2025-02-05
 
-# 📝 Traitement endovasculaire des AVC avec occlusion de vaisseaux moyens ou distaux
+# 📝 Traitement endovasculaire des AVC avec occlusion des vaisseaux moyens ou distaux
 
 ## 📌 Contexte & Problématique
-L'efficacité du traitement endovasculaire (TEV) est établie pour les occlusions des gros vaisseaux cérébraux, mais son bénéfice reste incertain pour les occlusions des vaisseaux moyens ou distaux.
+Alors que le traitement endovasculaire (TEV) est établi pour les occlusions des gros vaisseaux cérébraux, son efficacité pour les vaisseaux moyens ou distaux reste incertaine.
 
 ## 🧪 Méthodologie
-Étude randomisée comparant TEV+traitement médical versus traitement médical seul chez 543 patients (44% femmes, âge médian 77 ans) avec occlusion isolée de vaisseaux moyens/distaux (M2-M4, A1-A3, P1-P3) dans les 24h post-AVC. Score NIHSS médian initial: 6. Évaluation principale: score de Rankin modifié à 90 jours.
+Étude randomisée comparant le TEV plus traitement médical optimal versus traitement médical seul chez 543 patients avec occlusions isolées des segments M2-M4 de l'artère cérébrale moyenne (ACM), A1-A3 de l'artère cérébrale antérieure, ou P1-P3 de l'artère cérébrale postérieure, dans les 24h suivant les symptômes. Critère principal : score de Rankin modifié à 90 jours.
 
 ## 📊 Résultats clés
-Aucune différence significative dans la distribution des scores de Rankin à 90 jours (rapport de cotes: 0,90; IC 95%: 0,67-1,22; p=0,50). Mortalité similaire (15,5% vs 14,0%). Hémorragies intracrâniennes symptomatiques: 5,9% vs 2,6%.
+Aucune différence significative dans la distribution des scores de Rankin modifié à 90 jours entre les deux groupes (rapport de cotes 0,90; IC95%: 0,67-1,22; p=0,50). Mortalité similaire (15,5% vs 14,0%) et taux d'hémorragie intracrânienne symptomatique comparables (5,9% vs 2,6%).
 
 ## 🩺 Impact clinique
-Le TEV n'apporte pas de bénéfice clinique par rapport au traitement médical seul pour les occlusions des vaisseaux moyens ou distaux, remettant en question son utilisation systématique dans cette indication.
+Le TEV n'apporte pas de bénéfice supplémentaire par rapport au traitement médical optimal seul pour les occlusions des vaisseaux moyens ou distaux, remettant en question son utilisation systématique dans ces indications.
+
+## Revue
+New England Journal of Medicine
 
 ## 📖 Référence
-Psychogios M, Brehm A, Ribo M, et al. Endovascular Treatment for Stroke Due to Occlusion of Medium or Distal Vessels. N Engl J Med. 2025 Feb 5. doi: 10.1056/NEJMoa2408954.
+2025 Feb 5. doi: 10.1056/NEJMoa2408954.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2408954.

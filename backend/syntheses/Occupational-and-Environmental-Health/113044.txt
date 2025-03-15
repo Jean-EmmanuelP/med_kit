@@ -1,23 +1,22 @@
 Date de publication : 2024-04-01
 
-# 📝 Coaching par des pairs pour réduire l'épuisement professionnel des médecins : essai clinique randomisé
+# 📝 Coaching par des pairs formés pour lutter contre l'épuisement professionnel des médecins
 
 ## 📌 Contexte & Problématique
-L'épuisement professionnel médical persiste malgré les interventions existantes, nécessitant des approches fondées sur des preuves.
+L'épuisement professionnel des médecins reste problématique malgré les interventions existantes, nécessitant des approches fondées sur des preuves.
 
 ## 🧪 Méthodologie
-Essai clinique randomisé (2021) impliquant 138 médecins du Mass General : 67 ont reçu 6 séances de coaching par des pairs formés sur 3 mois, 71 ont accédé aux ressources institutionnelles standard.
+Essai clinique randomisé impliquant 138 médecins de Mass General (2021) : 67 assignés à 6 séances de coaching par des pairs formés sur 3 mois, 71 au groupe contrôle avec ressources institutionnelles standard. Critère principal : épuisement professionnel mesuré par l'Indice de Satisfaction Professionnelle de Stanford.
 
 ## 📊 Résultats clés
-Après coaching, améliorations significatives versus groupe contrôle :
-- Épuisement professionnel : -21,6% vs +2,5% (p=0,001)
-- Désengagement interpersonnel : -30,1% vs +4,1% (p=0,001)
-- Accomplissement professionnel : +10,7% vs 0% (p=0,046)
-- Engagement au travail : +6,3% vs -2,2% (p=0,04)
+Après 3 mois, le groupe coaching a montré des améliorations significatives : diminution de 21,6% de l'épuisement global (vs +2,5% groupe contrôle), réduction de 30,1% du désengagement interpersonnel (vs +4,1%), augmentation de 10,7% de l'accomplissement professionnel (vs aucun changement) et hausse de 6,3% de l'engagement au travail (vs -2,2%).
 
 ## 🩺 Impact clinique
-Le coaching individualisé par des pairs formés constitue une stratégie efficace pour réduire l'épuisement professionnel des médecins tout en améliorant leur accomplissement et engagement professionnels.
+Le coaching individualisé par des pairs professionnellement formés constitue une stratégie efficace pour réduire l'épuisement professionnel des médecins tout en améliorant leur accomplissement professionnel et leur engagement.
+
+## Revue
+JAMA Network Open
 
 ## 📖 Référence
-Kiser SB, Sterns JD, Lai PY, et al. Physician Coaching by Professionally Trained Peers for Burnout and Well-Being: A Randomized Clinical Trial. JAMA Netw Open. 2024;7(4):e245645.
+2024;7(4):e245645. doi:10.1001/jamanetworkopen.2024.5645
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamanetworkopen.2024.5645.

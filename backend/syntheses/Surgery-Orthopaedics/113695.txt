@@ -1,0 +1,22 @@
+Date de publication : 2024-07-01
+
+# 📝 Fixation par plaque verrouillée augmentée versus non augmentée dans les fractures de l'humérus proximal
+
+## 📌 Contexte & Problématique
+Les fractures de l'humérus proximal représentent la troisième fracture la plus fréquente chez les personnes âgées. Les complications post-opératoires incluent perforation des vis, effondrement en varus et nécrose avasculaire. Cette revue systématique compare l'efficacité des techniques de fixation par plaque verrouillée avec ou sans augmentation (ciment/greffe osseuse).
+
+## 🧪 Méthodologie
+Revue systématique selon les directives PRISMA incluant 19 études dans la synthèse qualitative et 6 études comparatives dans la méta-analyse (120 patients avec augmentation par greffe osseuse, 179 avec augmentation par ciment, 336 sans augmentation).
+
+## 📊 Résultats clés
+Aucune différence significative dans les scores fonctionnels DASH (Disabilities of the Arm, Shoulder and Hand) et Constant-Murley entre les groupes. Le groupe avec augmentation par ciment présentait un taux de complications significativement plus faible que le groupe non augmenté.
+
+## 🩺 Impact clinique
+Bien que les résultats fonctionnels soient comparables, l'augmentation par ciment semble réduire les complications post-opératoires, suggérant un potentiel bénéfice dans certains cas complexes.
+
+## Revue
+Bone Joint J
+
+## 📖 Référence
+2024;106-B(7):646-655. doi:10.1302/0301-620X.106B7.BJJ-2023-1113.R1
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1302/0301-620X.106B7.BJJ-2023-1113.R1.

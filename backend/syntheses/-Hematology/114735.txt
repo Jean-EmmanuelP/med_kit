@@ -1,0 +1,25 @@
+Date de publication : 2024-10-24
+
+# 📝 Eltrombopag plus diacéréine vs eltrombopag seul dans la TIP
+
+## 📌 Contexte & Problématique
+Évaluation d'une stratégie thérapeutique pour les patients atteints de thrombocytopénie immune primaire (TIP) non-répondeurs à l'eltrombopag en monothérapie après 14 jours de traitement à dose complète.
+
+## 🧪 Méthodologie
+Essai randomisé de phase 2, multicentrique, ouvert. Patients (n=102) répartis en deux groupes : eltrombopag+diacéréine (n=50) vs eltrombopag seul (n=52).
+
+## 📊 Résultats clés
+Taux de réponse global significativement supérieur dans le groupe combiné vs monothérapie :
+- Jour 15 : 44% vs 13% (p=0,0009)
+- Jour 28 : 42% vs 12% (p=0,0006)
+Durée de réponse plus longue avec la bithérapie (p=0,0004).
+
+## 🩺 Impact clinique
+L'association eltrombopag+diacéréine offre une option thérapeutique efficace pour les patients TIP non-répondeurs à l'eltrombopag seul, avec un profil de tolérance acceptable, évitant potentiellement le recours à des alternatives moins favorables.
+
+## Revue
+Blood
+
+## 📖 Référence
+2024;144(17):1791-1799. doi:10.1182/blood.2024025067. #NCT04917679
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1182/blood.2024025067.

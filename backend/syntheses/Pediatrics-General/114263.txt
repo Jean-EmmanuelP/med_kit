@@ -1,0 +1,25 @@
+Date de publication : 2024-09-10
+
+# 📝 Liraglutide pour les enfants de 6 à <12 ans souffrant d'obésité
+
+## 📌 Contexte & Problématique
+Aucun médicament n'est approuvé pour traiter l'obésité non monogénique/non syndromique chez les enfants <12 ans, bien que le liraglutide ait montré une efficacité chez les adultes et adolescents.
+
+## 🧪 Méthodologie
+Essai randomisé de phase 3a (56 semaines de traitement, 26 semaines de suivi) comparant liraglutide sous-cutané quotidien (3,0 mg ou dose maximale tolérée) versus placebo (ratio 2:1) chez des enfants obèses de 6 à <12 ans, avec interventions sur le mode de vie dans les deux groupes.
+
+## 📊 Résultats clés
+- Variation moyenne de l'IMC (Indice de Masse Corporelle) : -5,8% (liraglutide) vs +1,6% (placebo), différence -7,4 points (p<0,001)
+- Variation du poids : +1,6% (liraglutide) vs +10,0% (placebo), différence -8,4 points (p=0,001)
+- Réduction d'IMC ≥5% : 46% (liraglutide) vs 9% (placebo)
+- Effets indésirables gastro-intestinaux : 80% (liraglutide) vs 54% (placebo)
+
+## 🩺 Impact clinique
+Le liraglutide associé aux interventions sur le mode de vie réduit significativement l'IMC chez les enfants obèses de 6 à <12 ans, avec un profil d'effets indésirables principalement gastro-intestinaux.
+
+## Revue
+New England Journal of Medicine
+
+## 📖 Référence
+2025;392(6):555-565. doi:10.1056/NEJMoa2407379. Epub 2024 Sep 10.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2407379.

@@ -1,0 +1,22 @@
+Date de publication : 2025-02-01
+
+# 📝 Stratégies interventionnelles pour les enfants atteints d'hypertension pulmonaire progressive malgré un traitement optimal
+
+## 📌 Contexte & Problématique
+L'hypertension pulmonaire pédiatrique présente une évolution variable. Cette directive clinique propose des recommandations pour la prise en charge des enfants dont la maladie progresse malgré un traitement pharmacologique optimal.
+
+## 🧪 Méthodologie
+Un panel multidisciplinaire a formulé des questions cliniques pertinentes, réalisé des revues systématiques et appliqué l'approche GRADE (Grading of Recommendations, Assessment, Development and Evaluation) pour développer des recommandations.
+
+## 📊 Résultats clés
+Les recommandations ont été élaborées en évaluant la balance bénéfices/risques des interventions, les ressources nécessaires, l'équité, l'acceptabilité et la faisabilité pour chaque stratégie interventionnelle proposée.
+
+## 🩺 Impact clinique
+Ces recommandations comblent un manque important de preuves empiriques dans la prise en charge des cas pédiatriques complexes d'hypertension pulmonaire progressive. Elles combinent les preuves disponibles et l'expertise clinique pour guider les praticiens, tout en identifiant des axes prioritaires pour la recherche future.
+
+## Revue
+American Journal of Respiratory and Critical Care Medicine
+
+## 📖 Référence
+2025 Feb;211(2):157-173. doi: 10.1164/rccm.202410-1901ST
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1164/rccm.202410-1901ST.

@@ -1,0 +1,22 @@
+Date de publication : 2024-07-01
+
+# 📝 Sécurité et efficacité des stent retrievers combinés à l'aspiration par contact dans l'AVC ischémique aigu avec SVS positif
+
+## 📌 Contexte & Problématique
+Le signe de susceptibilité vasculaire (SVS) positif est associé à des caillots friables riches en globules rouges. Cette étude compare la technique combinée (stent retrievers + aspiration par contact) à l'aspiration par contact seule chez les patients avec AVC ischémique aigu de circulation antérieure et SVS positif.
+
+## 🧪 Méthodologie
+Essai VECTOR : étude randomisée, simple aveugle, incluant 521 patients de 22 centres français avec occlusions SVS-positives à l'IRM. Randomisation 1:1 entre technique combinée (n=263) et aspiration par contact seule (n=258). Critère principal : reperfusion eTICI (échelle étendue de Thrombolyse dans l'Infarctus Cérébral) 2c-3 après ≤3 passages.
+
+## 📊 Résultats clés
+Pas de différence significative pour le critère principal : 58% (technique combinée) vs 52% (aspiration seule) ; OR 1,27 ; IC 95% 0,88-1,83 ; p=0,19. Événements indésirables procéduraux : 12% vs 11% (p=0,65). Mortalité à 3 mois : 23% vs 19% (p=0,45).
+
+## 🩺 Impact clinique
+Les deux approches (technique combinée ou aspiration par contact seule) peuvent être utilisées comme stratégie initiale de thrombectomie chez les patients avec AVC aigu de circulation antérieure et SVS positif à l'IRM.
+
+## Revue
+Lancet Neurology
+
+## 📖 Référence
+2024;23(7):700-711. doi:10.1016/S1474-4422(24)00165-0
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S1474-4422(24)00165-0.

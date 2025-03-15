@@ -1,0 +1,23 @@
+Date de publication : 2025-01-01
+
+# 📝 Titre
+Luminothérapie pour les troubles dépressifs non saisonniers : efficacité démontrée comme traitement d'appoint
+
+# 📌 Contexte & Problématique
+Si l'impact de l'exposition lumineuse sur les troubles dépressifs saisonniers est établi, son effet sur les dépressions non saisonnières reste incertain. Cette étude évalue l'efficacité de la luminothérapie (LT) comme traitement d'appoint dans la dépression non saisonnière.
+
+# 🧪 Méthodologie
+Revue systématique et méta-analyse de 11 essais cliniques randomisés (ECR) publiés entre 2000 et 2024, incluant 858 patients (75,6% de femmes). Comparaison entre patients traités avec ou sans luminothérapie, évaluant la rémission, la réponse au traitement et les scores sur échelles de dépression.
+
+# 📊 Résultats clés
+La luminothérapie a significativement amélioré les taux de rémission (40,7% vs 23,5%; rapport de cotes [RC]=2,42; p<0,001) et de réponse (60,4% vs 38,6%; RC=2,34; p<0,001). Les bénéfices sont observés tant à court terme (<4 semaines) qu'à plus long terme (>4 semaines), avec une amélioration particulièrement marquée du délai de réponse initiale.
+
+# 🩺 Impact clinique
+La luminothérapie constitue un traitement d'appoint efficace pour les troubles dépressifs non saisonniers, avec un potentiel d'accélération de la réponse thérapeutique initiale, offrant une option thérapeutique complémentaire non pharmacologique.
+
+## Revue
+JAMA Psychiatry
+
+# 📖 Référence
+2025 Jan 1;82(1):38-46. doi: 10.1001/jamapsychiatry.2024.2871.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamapsychiatry.2024.2871.

@@ -1,19 +1,22 @@
 Date de publication : 2024-04-27
 
-# 📝 Antihistaminiques et corticostéroïdes intranasaux dans la rhinite allergique : revue systématique et méta-analyse
+# 📝 Intranasal antihistamines et corticostéroïdes dans la rhinite allergique : revue systématique et méta-analyse
 
 ## 📌 Contexte & Problématique
 Manque de preuves systématisées sur l'efficacité comparative des médicaments intranasaux dans la rhinite allergique (RA) saisonnière et perannuelle.
 
 ## 🧪 Méthodologie
-Revue systématique de 151 études (essais contrôlés randomisés) issues de 7 bases de données. Évaluation des corticostéroïdes et antihistaminiques intranasaux versus placebo chez des adultes. Critères d'évaluation : scores des symptômes nasaux/oculaires et qualité de vie. Analyse selon GRADE.
+Revue systématique de 151 essais contrôlés randomisés comparant corticostéroïdes ou antihistaminiques intranasaux versus placebo chez des adultes atteints de RA. Évaluation des scores de symptômes nasaux (STSN), oculaires (STSO) et de qualité de vie (QdV). Analyse GRADE pour la certitude des preuves.
 
 ## 📊 Résultats clés
-La majorité des traitements surpassent le placebo. Dans la RA saisonnière, l'association azélastine-fluticasone, la fluticasone furoate et la fluticasone propionate montrent la plus forte probabilité d'amélioration des symptômes nasaux et de la qualité de vie. L'azélastine-fluticasone est supérieure pour les symptômes oculaires. Niveau de preuve : élevé (6/46 analyses), modéré (23/46), faible/très faible (17/46).
+La majorité des traitements surpassent le placebo. Dans la RA saisonnière, l'association azélastine-fluticasone, la fluticasone furoate et la fluticasone propionate montrent la plus forte probabilité d'amélioration significative du STSN et de la QdV. L'association azélastine-fluticasone est supérieure pour les symptômes oculaires. Niveau de preuve : élevé (6/46 analyses), modéré (23/46), faible/très faible (17/46).
 
 ## 🩺 Impact clinique
-Confirmation de l'efficacité des médicaments intranasaux avec identification des options thérapeutiques les plus performantes, permettant une sélection plus éclairée du traitement selon le profil symptomatique du patient.
+Confirmation de l'efficacité des médicaments intranasaux pour les symptômes de RA et la QdV, avec des différences significatives entre molécules et niveaux de preuve variables.
+
+## Revue
+J Allergy Clin Immunol
 
 ## 📖 Référence
-Sousa-Pinto B, Vieira RJ, Brozek J, et al. Intranasal antihistamines and corticosteroids in allergic rhinitis: A systematic review and meta-analysis. J Allergy Clin Immunol. 2024;154(2):340-354.
+2024;154(2):340-354. doi:10.1016/j.jaci.2024.04.016
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.jaci.2024.04.016.

@@ -1,0 +1,22 @@
+Date de publication : 2024-09-15
+
+# 📝 Résultats à 10 ans du nivolumab plus ipilimumab dans le mélanome avancé
+
+## 📌 Contexte & Problématique
+Les patients atteints de mélanome avancé vivant désormais plus longtemps, des données à long terme étaient nécessaires pour évaluer l'efficacité durable des immunothérapies combinées versus monothérapies.
+
+## 🧪 Méthodologie
+Essai randomisé (1:1:1) comparant trois schémas thérapeutiques chez des patients atteints de mélanome avancé non prétraité : nivolumab+ipilimumab, nivolumab seul, ou ipilimumab seul. Stratification selon le statut BRAF, le stade métastatique et l'expression PD-L1 (ligand de mort programmée 1).
+
+## 📊 Résultats clés
+Après 10 ans de suivi minimum, la survie globale médiane était de 71,9 mois avec nivolumab+ipilimumab, 36,9 mois avec nivolumab et 19,9 mois avec ipilimumab. La survie médiane spécifique au mélanome dépassait 120 mois avec la bithérapie (non atteinte), contre 49,4 mois (nivolumab) et 21,9 mois (ipilimumab).
+
+## 🩺 Impact clinique
+Les patients vivants et sans progression à 3 ans présentent une excellente survie à 10 ans (96-97% pour les groupes nivolumab), démontrant un bénéfice persistant de l'immunothérapie, particulièrement en combinaison.
+
+## Revue
+New England Journal of Medicine
+
+## 📖 Référence
+2025;392(1):11-22. doi:10.1056/NEJMoa2407417. Epub 2024 Sep 15.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2407417.

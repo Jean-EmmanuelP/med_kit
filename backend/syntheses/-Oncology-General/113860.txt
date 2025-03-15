@@ -1,0 +1,22 @@
+Date de publication : 2024-07-25
+
+# 📝 Traitement guidé par expression génique vs chimiothérapie empirique dans les cancers d'origine primitive inconnue
+
+## 📌 Contexte & Problématique
+Les cancers d'origine primitive inconnue (COPI) sont généralement traités par chimiothérapie empirique. Des tests d'expression génique permettent d'identifier le tissu d'origine, mais leur bénéfice clinique reste à démontrer.
+
+## 🧪 Méthodologie
+Essai randomisé contrôlé (1:1) comparant un traitement spécifique guidé par un test d'expression de 90 gènes à une chimiothérapie empirique (taxane+platine ou gemcitabine+platine) chez 182 patients atteints de COPI non traités antérieurement.
+
+## 📊 Résultats clés
+La survie sans progression médiane était significativement plus longue dans le groupe traitement spécifique (9,6 mois vs 6,6 mois; HR 0,68; p=0,017). Les événements indésirables de grade ≥3 étaient similaires (56% vs 61%), principalement neutropénie, leucopénie et anémie. Aucun décès lié au traitement n'a été observé.
+
+## 🩺 Impact clinique
+Le traitement guidé par le test d'expression des 90 gènes améliore la survie sans progression comparé à la chimiothérapie empirique, avec un profil de toxicité comparable, offrant une nouvelle approche thérapeutique pour les patients atteints de COPI.
+
+## Revue
+Lancet Oncology
+
+## 📖 Référence
+2024;25(8):1092-1102. doi:10.1016/S1470-2045(24)00313-9. Epub 2024 Jul 25.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S1470-2045(24)00313-9.

@@ -1,19 +1,22 @@
 Date de publication : 2024-02-07
 
-# 📝 Diagnostic optique autonome par IA vs IA assistée pour les polypes colorectaux
+# 📝 Diagnostic optique des polypes colorectaux : IA autonome vs IA assistée par humain
 
 ## 📌 Contexte & Problématique
-Les systèmes d'intelligence artificielle (IA) pour le diagnostic optique des polypes colorectaux existent mais leur utilisation autonome reste à valider. Cette étude compare l'IA autonome au diagnostic optique assisté par IA réalisé par un humain (IA-H).
+Les systèmes de diagnostic optique basés sur l'intelligence artificielle (IA) permettent la prédiction pathologique des polypes colorectaux pendant les coloscopies, mais leur utilisation autonome n'est pas validée. Cette étude compare l'IA autonome au diagnostic humain assisté par IA (IA-H).
 
 ## 🧪 Méthodologie
-Essai randomisé de non-infériorité incluant 467 patients lors de coloscopies programmées, comparant le diagnostic optique des polypes de petite taille par IA autonome (n=238) versus endoscopistes utilisant l'IA (n=229). Critère principal : précision diagnostique versus histopathologie.
+Essai randomisé de non-infériorité comparant deux groupes : diagnostic optique autonome par IA des petits polypes versus diagnostic par endoscopistes après visualisation du diagnostic CADx (système d'aide au diagnostic) en temps réel. Critère principal : précision diagnostique versus anatomopathologie.
 
 ## 📊 Résultats clés
-Précision diagnostique : 77,2% (IC 95%, 69,7-84,7) pour l'IA autonome contre 72,1% (IC 95%, 65,5-78,6) pour IA-H (p=0,86). Concordance avec les intervalles de surveillance basés sur la pathologie significativement supérieure pour l'IA autonome : 91,5% vs 82,1% (p=0,016).
+Sur 467 patients randomisés, la précision diagnostique était de 77,2% (IC 95%, 69,7-84,7) pour l'IA autonome contre 72,1% (IC 95%, 65,5-78,6) pour l'IA-H (P=0,86). L'IA autonome montrait une meilleure concordance avec les intervalles de surveillance basés sur la pathologie (91,5% vs 82,1%, P=0,016).
 
 ## 🩺 Impact clinique
-L'IA autonome montre une précision non inférieure au diagnostic assisté par IA et une meilleure concordance avec les recommandations de surveillance, suggérant son potentiel comme outil décisionnel indépendant en coloscopie.
+L'IA autonome présente une précision non inférieure aux endoscopistes pour le diagnostic optique des polypes colorectaux, avec une meilleure concordance pour les recommandations de surveillance, malgré une précision globale modérée.
+
+## Revue
+Gastroenterology
 
 ## 📖 Référence
-Djinbachian R, Haumesser C, Taghiakbari M, et al. Gastroenterology. 2024;167(2):392-399.e2.
+2024;167(2):392-399.e2. doi:10.1053/j.gastro.2024.01.044. ClinicalTrials.gov: NCT05236790.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1053/j.gastro.2024.01.044.

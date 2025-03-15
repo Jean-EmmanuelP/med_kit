@@ -1,0 +1,22 @@
+Date de publication : 2024-11-20
+
+# 📝 Traitement antibiotique de 7 jours versus 14 jours dans les bactériémies
+
+## 📌 Contexte & Problématique
+Les infections du sang (bactériémies) sont associées à une morbi-mortalité importante. Si l'antibiothérapie précoce est cruciale, la durée optimale de traitement reste incertaine.
+
+## 🧪 Méthodologie
+Essai multicentrique de non-infériorité incluant 3608 patients hospitalisés (dont 55% en USI) présentant une bactériémie, randomisés pour recevoir 7 ou 14 jours d'antibiotiques. Exclusion des cas d'immunosuppression sévère, de foyers nécessitant un traitement prolongé, de contaminations possibles et des bactériémies à Staphylococcus aureus.
+
+## 📊 Résultats clés
+Mortalité à 90 jours : 14,5% (7 jours) vs 16,1% (14 jours), différence -1,6% (IC 95,7% : -4,0 à 0,8), démontrant la non-infériorité du traitement court. Résultats cohérents dans l'analyse per-protocole et les sous-groupes prédéfinis.
+
+## 🩺 Impact clinique
+Un traitement antibiotique de 7 jours est suffisant pour la majorité des bactériémies (hors S. aureus), permettant de réduire l'exposition aux antibiotiques sans compromettre les résultats cliniques.
+
+## Revue
+New England Journal of Medicine
+
+## 📖 Référence
+2024 Nov 20. doi: 10.1056/NEJMoa2404991.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2404991.

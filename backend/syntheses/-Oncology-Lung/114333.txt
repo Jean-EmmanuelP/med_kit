@@ -1,19 +1,22 @@
 Date de publication : 2024-09-14
 
-# 📝 Ponsegromab dans le traitement de la cachexie cancéreuse
+# 📝 Ponsegromab pour le traitement de la cachexie cancéreuse
 
 ## 📌 Contexte & Problématique
-La cachexie cancéreuse est associée à un risque accru de mortalité. Le facteur de différenciation de croissance 15 (GDF-15) est élevé chez ces patients et constitue une cible thérapeutique potentielle.
+La cachexie cancéreuse est associée à un risque accru de mortalité. Le facteur de différenciation de croissance 15 (GDF-15) est une cytokine élevée dans cette condition. Le ponsegromab, un anticorps monoclonal humanisé inhibiteur du GDF-15, a montré des résultats prometteurs en phase 1b.
 
 ## 🧪 Méthodologie
-Essai randomisé en double aveugle sur 12 semaines incluant 187 patients atteints de cachexie cancéreuse avec GDF-15 élevé (≥1500 pg/ml). Répartition 1:1:1:1 entre ponsegromab (100, 200 ou 400 mg) ou placebo, administré par voie sous-cutanée toutes les 4 semaines.
+Essai randomisé en double aveugle sur 12 semaines incluant 187 patients atteints de cachexie cancéreuse avec GDF-15 élevé (≥1500 pg/mL), répartis en 4 groupes: ponsegromab 100mg, 200mg, 400mg ou placebo, administré par voie sous-cutanée toutes les 4 semaines.
 
 ## 📊 Résultats clés
-Différence médiane de poids vs placebo à 12 semaines : +1,22 kg (groupe 100 mg), +1,92 kg (groupe 200 mg), +2,81 kg (groupe 400 mg). Le groupe 400 mg a montré des améliorations significatives de l'appétit, des symptômes de cachexie et de l'activité physique. Événements indésirables : 70% (ponsegromab) vs 80% (placebo).
+Les patients sous ponsegromab ont présenté une prise de poids significativement supérieure au placebo: +1,22kg (100mg), +1,92kg (200mg) et +2,81kg (400mg). Le groupe 400mg a également montré des améliorations de l'appétit, des symptômes de cachexie et de l'activité physique. Les événements indésirables étaient comparables entre groupes (70% ponsegromab vs 80% placebo).
 
 ## 🩺 Impact clinique
-Le ponsegromab, en inhibant le GDF-15, améliore significativement le poids et l'état fonctionnel des patients atteints de cachexie cancéreuse, confirmant le rôle du GDF-15 dans cette pathologie. Premier traitement prometteur pour cette complication fréquente du cancer.
+L'inhibition du GDF-15 par le ponsegromab confirme son rôle comme facteur de cachexie et offre une approche thérapeutique prometteuse pour cette complication débilitante du cancer.
+
+## Revue
+N Engl J Med
 
 ## 📖 Référence
-Groarke JD, Crawford J, Collins SM, et al. Ponsegromab for the Treatment of Cancer Cachexia. N Engl J Med. 2024;391(24):2291-2303.
+2024;391(24):2291-2303. doi:10.1056/NEJMoa2409515. Epub 2024 Sep 14.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2409515.

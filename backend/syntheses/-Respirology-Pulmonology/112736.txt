@@ -1,0 +1,22 @@
+Date de publication : 2024-03-18
+
+# 📝 Mise à jour 2023 des recommandations ISTH pour le traitement antithrombotique dans la COVID-19
+
+## 📌 Contexte & Problématique
+Suite aux données émergentes de la pandémie COVID-19, les recommandations ISTH (Société Internationale sur la Thrombose et l'Hémostase) de 2022 ont nécessité une révision après la publication de 16 nouveaux essais contrôlés randomisés.
+
+## 🧪 Méthodologie
+Utilisation de la méthodologie de l'American College of Cardiology Foundation/American Heart Association pour évaluer le niveau de preuve (NDP) et la classe de recommandation (CR). Seules les recommandations avec NDP A ou B ont été retenues.
+
+## 📊 Résultats clés
+19 recommandations ont été approuvées: 4 pour patients non hospitalisés, 5 pour hospitalisés non graves, 3 pour patients critiques, 2 post-hospitalisation, et 5 concernant la vaccination et la TTIV (thrombocytopénie thrombotique immunitaire induite par le vaccin). Cinq recommandations ont atteint un NDP A.
+
+## 🩺 Impact clinique
+Recommandation forte (CR 1) pour l'HBPM (héparine de bas poids moléculaire) ou HNF (héparine non fractionnée) prophylactique chez les patients hospitalisés non graves, et pour l'utilisation d'immunodosages enzymatiques du facteur plaquettaire 4 dans le diagnostic de TTIV. Recommandation forte contre l'ajout d'antiplaquettaires chez les patients hospitalisés non graves.
+
+## Revue
+Journal of Thrombosis and Haemostasis
+
+## 📖 Référence
+2024 Jun;22(6):1779-1797. doi: 10.1016/j.jtha.2024.02.011. Epub 2024 Mar 18.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.jtha.2024.02.011.

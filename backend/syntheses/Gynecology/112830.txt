@@ -1,0 +1,22 @@
+Date de publication : 2024-03-31
+
+# 📝 Traitement de la néoplasie cervicale intraépithéliale résiduelle/récurrente : imiquimod vs LLETZ
+
+## 📌 Contexte & Problématique
+L'étude évalue l'efficacité de l'imiquimod topique comparé à l'excision large de la zone de transformation (LLETZ) chez les femmes présentant une néoplasie cervicale intraépithéliale résiduelle ou récurrente (rrCIN).
+
+## 🧪 Méthodologie
+Essai randomisé contrôlé de non-infériorité incluant 35 femmes aux Pays-Bas (2016-2021). Comparaison entre imiquimod 5% intravaginal (3×/semaine pendant 16 semaines) et LLETZ. Critère principal : normalisation cytologique à 6 mois.
+
+## 📊 Résultats clés
+Taux de succès significativement inférieur avec imiquimod (33%) vs LLETZ (100%), p<0,001. Élimination du papillomavirus humain à haut risque (HPV-hr) : 22% (imiquimod) vs 88% (LLETZ), p<0,001. Essai interrompu prématurément pour futilité. La plupart des patientes du groupe imiquimod ont nécessité un traitement chirurgical ultérieur.
+
+## 🩺 Impact clinique
+L'imiquimod topique présente une efficacité nettement inférieure à la LLETZ pour traiter les rrCIN, avec davantage d'effets secondaires et un besoin fréquent d'interventions chirurgicales complémentaires.
+
+## Revue
+BJOG
+
+## 📖 Référence
+2024 Mar 31. doi: 10.1111/1471-0528.17808.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1111/1471-0528.17808.

@@ -1,0 +1,22 @@
+Date de publication : 2024-03-25
+
+# 📝 Essai EVE : Apixaban à dose réduite dans la prévention secondaire de la TEV associée au cancer
+
+## 📌 Contexte & Problématique
+La thromboembolie veineuse (TEV) associée au cancer nécessite une anticoagulation continue tant que le cancer reste actif. La FDA autorise une réduction de dose d'apixaban à 2,5 mg deux fois par jour après 6 mois, mais l'efficacité de cette approche restait à déterminer spécifiquement chez les patients cancéreux.
+
+## 🧪 Méthodologie
+Essai randomisé en double aveugle comparant l'apixaban 2,5 mg versus 5 mg deux fois par jour pendant 12 mois chez 370 patients cancéreux avec TEV ayant déjà reçu 6-12 mois d'anticoagulation. Critère principal : saignements majeurs et non majeurs cliniquement significatifs.
+
+## 📊 Résultats clés
+Aucune différence significative entre les groupes pour les saignements combinés (8,9% vs 12,2%, HR 0,72, p=0,39), les saignements majeurs (2,8% vs 2,2%), les récidives de TEV (5,0% dans les deux groupes) ou la mortalité (13% vs 12%).
+
+## 🩺 Impact clinique
+La dose réduite d'apixaban (2,5 mg) n'a pas démontré d'avantage en termes de réduction des saignements tout en maintenant une efficacité comparable à la dose standard (5 mg) dans la prévention secondaire de la TEV associée au cancer.
+
+## Revue
+Journal of Thrombosis and Haemostasis
+
+## 📖 Référence
+2024;22(6):1704-1714. doi:10.1016/j.jtha.2024.03.011
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.jtha.2024.03.011.

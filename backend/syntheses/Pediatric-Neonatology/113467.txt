@@ -1,0 +1,27 @@
+Date de publication : 2024-06-03
+
+# 📝 Sulfate de magnésium avant naissance prématurée pour la neuroprotection : revue systématique Cochrane actualisée
+
+## 📌 Contexte & Problématique
+Évaluation de l'efficacité et la sécurité du sulfate de magnésium comme agent neuroprotecteur fœtal chez les personnes à risque d'accouchement prématuré.
+
+## 🧪 Méthodologie
+Revue systématique de six ECR (Essais Contrôlés Randomisés) incluant 5 917 femmes enceintes et 6 759 fœtus de moins de 34 semaines de gestation, réalisés dans des pays à revenu élevé. Recherche dans les registres Cochrane, ClinicalTrials.gov et OMS jusqu'en mars 2023.
+
+## 📊 Résultats clés
+Le sulfate de magnésium versus placebo a réduit significativement:
+- Risque de paralysie cérébrale (RR 0,71; IC 95%, 0,57-0,89)
+- Risque combiné de décès ou paralysie cérébrale (RR 0,87; IC 95%, 0,77-0,98)
+- Hémorragie intraventriculaire néonatale sévère
+
+Effets indésirables maternels suffisamment graves pour arrêter le traitement augmentés (RR 3,21; IC 95%, 1,88-5,48).
+
+## 🩺 Impact clinique
+Le sulfate de magnésium offre une neuroprotection significative pour les prématurés, avec des bénéfices démontrés jusqu'à 2 ans d'âge corrigé. Des recherches supplémentaires sont nécessaires sur les effets à long terme et l'applicabilité aux pays à revenu faible et intermédiaire.
+
+## Revue
+Obstetrics & Gynecology
+
+## 📖 Référence
+2024;144(2):161-170. doi:10.1097/AOG.0000000000005644
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1097/AOG.0000000000005644.

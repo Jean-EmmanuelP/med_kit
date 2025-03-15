@@ -1,0 +1,22 @@
+Date de publication : 2024-09-20
+
+# 📝 Radiothérapie versus chirurgie robotique transorale pour le carcinome épidermoïde de l'oropharynx : résultats finaux de l'essai ORATOR
+
+## 📌 Contexte & Problématique
+Comparaison à long terme de la radiothérapie (RT) et de la chirurgie robotique transorale (TORS) dans le traitement du carcinome épidermoïde de l'oropharynx (CECO) T1-2N0-2.
+
+## 🧪 Méthodologie
+Essai randomisé (n=68) comparant RT (±chimiothérapie si N+) versus TORS avec évidement ganglionnaire (±RT/chimioradiothérapie adjuvante). Critère principal : qualité de vie liée à la déglutition (MDADI). Suivi médian : 5,1 ans.
+
+## 📊 Résultats clés
+Scores MDADI convergents à 5 ans (p=0,11). Différences de profils : plus de sécheresse buccale avec RT (p=0,032), plus de douleurs avec TORS (p=0,002). Taux d'événements indésirables grade 2-5 similaires (91% vs 97%, p=0,61). Survie globale et sans progression équivalentes.
+
+## 🩺 Impact clinique
+Les deux approches offrent d'excellents résultats oncologiques avec des profils de toxicité distincts. Le choix thérapeutique devrait résulter d'une décision partagée patient-soignant, tenant compte des préférences individuelles et des effets secondaires spécifiques.
+
+## Revue
+Journal of Clinical Oncology
+
+## 📖 Référence
+2024;42(34):4023-4028. doi:10.1200/JCO.24.00119. Epub 2024 Sep 20.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO.24.00119.

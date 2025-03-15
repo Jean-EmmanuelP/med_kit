@@ -1,0 +1,22 @@
+Date de publication : 2024-04-02
+
+# 📝 Chimiothérapie néoadjuvante versus chirurgie d'emblée dans le cancer du côlon localement avancé : essai OPTICAL
+
+## 📌 Contexte & Problématique
+L'intérêt de la chimiothérapie néoadjuvante (CNA) dans le cancer du côlon localement avancé reste à définir. L'essai OPTICAL a évalué si 3 mois de mFOLFOX6 (fluorouracile, leucovorine et oxaliplatine modifié) ou CAPOX (capécitabine et oxaliplatine) en préopératoire améliorent les résultats par rapport à la chirurgie d'emblée.
+
+## 🧪 Méthodologie
+Essai randomisé de phase III incluant des patients avec cancer du côlon T3 (extension extramurale ≥5 mm) ou T4. Randomisation 1:1 : CNA suivie de chirurgie puis chimiothérapie adjuvante versus chirurgie immédiate suivie de chimiothérapie adjuvante. Critère principal : survie sans maladie (SSM) à 3 ans.
+
+## 📊 Résultats clés
+744 patients analysés (suivi médian 48 mois) : SSM à 3 ans de 82,1% (groupe CNA) versus 77,5% (groupe chirurgie), HR=0,74 [IC 95% : 0,54-1,03]. La CNA a permis 7% de réponses pathologiques complètes, moins de stades pT3-4 (77% vs 94%) et pN1-2 (31% vs 46%), avec une meilleure survie globale (HR=0,44 [0,25-0,77]).
+
+## 🩺 Impact clinique
+Bien que sans bénéfice significatif sur la SSM, la CNA s'avère sûre et permet un downstaging tumoral substantiel, constituant une option thérapeutique viable pour les cancers du côlon localement avancés.
+
+## Revue
+Journal of Clinical Oncology
+
+## 📖 Référence
+2024;42(25):2978-2988. doi:10.1200/JCO.23.01889. Epub 2024 Apr 2.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO.23.01889.

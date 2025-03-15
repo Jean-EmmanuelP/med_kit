@@ -3,17 +3,20 @@ Date de publication : 2024-04-13
 # 📝 Algorithme SWEET : Guide systématique pour la neuropathie diabétique douloureuse
 
 ## 📌 Contexte & Problématique
-La neuropathie diabétique douloureuse (NDD) représente une cause majeure d'invalidité mondiale. Malgré l'expansion des options thérapeutiques pharmacologiques et interventionnelles, un consensus sur la prise en charge optimale fait défaut.
+La neuropathie diabétique douloureuse (NDD) constitue une cause majeure de douleur et d'invalidité mondiale. Malgré l'élargissement des options thérapeutiques pharmacologiques et interventionnelles, un manque de consensus persiste sur les approches optimales de traitement.
 
 ## 🧪 Méthodologie
-Un groupe multidisciplinaire d'experts internationaux mandaté par l'American Society of Pain and Neuroscience (ASPN) a développé l'algorithme SWEET. Une revue systématique des publications en anglais (2000-2024) a été réalisée via Medline, EMBASE, Cochrane, PubMed et autres bases de données.
+Un groupe multidisciplinaire d'experts internationaux de l'American Society of Pain and Neuroscience (ASPN) a analysé la littérature mondiale en anglais (2000-2024) via plusieurs bases de données médicales. Les traitements ont été évalués selon les critères du United States Preventive Services Task Force.
 
 ## 📊 Résultats clés
-L'algorithme SWEET fournit une évaluation complète des traitements disponibles pour la NDD avec attribution de grades thérapeutiques selon les critères du United States Preventive Services Task Force.
+La directive SWEET (Systematic guideline by the ASPN Workgroup on the Evidence, Education, and Treatment Algorithm for Painful Diabetic Neuropathy) fournit une classification par grades thérapeutiques pour la majorité des traitements disponibles contre la NDD.
 
 ## 🩺 Impact clinique
-Ce guide offre aux cliniciens des recommandations fondées sur les preuves pour une prise en charge sécuritaire et efficace de la NDD, comblant un besoin éducatif important dans la pratique clinique.
+Ce guide offre aux cliniciens des recommandations complètes fondées sur des preuves pour une prise en charge sûre et efficace des patients souffrant de NDD, comblant ainsi un besoin éducatif important.
+
+## Revue
+Journal of Pain Research
 
 ## 📖 Référence
-Sayed D, Deer TR, Hagedorn JM, et al. A Systematic Guideline by the ASPN Workgroup on the Evidence, Education, and Treatment Algorithm for Painful Diabetic Neuropathy: SWEET. J Pain Res. 2024;17:1461-1501.
+2024;17:1461-1501. doi: 10.2147/JPR.S451006
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.2147/JPR.S451006.

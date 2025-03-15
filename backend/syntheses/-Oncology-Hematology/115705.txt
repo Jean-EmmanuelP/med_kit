@@ -1,0 +1,22 @@
+Date de publication : 2025-02-01
+
+# 📝 Ibrutinib plus vénétoclax dans le lymphome à cellules du manteau en rechute ou réfractaire
+
+## 📌 Contexte & Problématique
+L'association ibrutinib-vénétoclax exploite des mécanismes d'action complémentaires dans le lymphome à cellules du manteau (LCM) en rechute/réfractaire. L'étude SYMPATICO a évalué cette combinaison versus ibrutinib-placebo.
+
+## 🧪 Méthodologie
+Essai de phase 3, randomisé, double-aveugle, multicentrique incluant 267 adultes avec LCM en rechute/réfractaire après 1-5 lignes thérapeutiques. Patients randomisés (1:1) pour recevoir ibrutinib (560 mg/j) + vénétoclax (400 mg/j) ou ibrutinib + placebo pendant 2 ans, puis ibrutinib en monothérapie.
+
+## 📊 Résultats clés
+Avec un suivi médian de 51,2 mois, la survie sans progression médiane était de 31,9 mois (ibrutinib-vénétoclax) contre 22,1 mois (ibrutinib-placebo) (HR 0,65; p=0,0052). Principaux effets indésirables de grade 3-4: neutropénie (31% vs 11%), thrombocytopénie (13% vs 8%) et pneumonie (12% vs 11%).
+
+## 🩺 Impact clinique
+La combinaison ibrutinib-vénétoclax améliore significativement la survie sans progression avec un profil de sécurité conforme aux profils connus des médicaments individuels, suggérant un rapport bénéfice-risque favorable pour les patients atteints de LCM en rechute/réfractaire.
+
+## Revue
+Lancet Oncology
+
+## 📖 Référence
+2025 Feb;26(2):200-213. doi: 10.1016/S1470-2045(24)00682-X.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S1470-2045(24)00682-X.

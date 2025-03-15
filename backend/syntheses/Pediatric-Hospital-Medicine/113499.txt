@@ -1,0 +1,28 @@
+Date de publication : 2024-08-01
+
+# 📝 Traitement antipyrétique agressif dans le paludisme du SNC pédiatrique
+
+## 📌 Contexte & Problématique
+Un tiers des enfants survivant au paludisme du système nerveux central (SNC) développent des séquelles neurologiques. La température maximale élevée et les convulsions sont des facteurs de risque identifiés.
+
+## 🧪 Méthodologie
+Essai clinique randomisé (n=256) comparant deux approches chez des enfants (2-11 ans) atteints de paludisme du SNC en Zambie et au Malawi :
+- Groupe intervention : acétaminophène (paracétamol) + ibuprofène programmés pendant 72h
+- Groupe contrôle : acétaminophène uniquement si température ≥38,5°C
+
+## 📊 Résultats clés
+Le traitement antipyrétique agressif a significativement :
+- Réduit la température maximale (38,6°C vs 39,2°C; p<0,001)
+- Diminué l'incidence des convulsions multiples/prolongées (8% vs 27%; OR 0,26)
+- N'a pas affecté la clairance parasitaire
+- Montré une tendance vers moins d'événements indésirables graves (12% vs 20%) et moins de décès (2% vs 8%)
+
+## 🩺 Impact clinique
+L'association programmée acétaminophène-ibuprofène réduit efficacement la fièvre et les convulsions dans le paludisme du SNC pédiatrique sans compromettre l'élimination parasitaire, suggérant une approche thérapeutique prometteuse pour réduire les séquelles neurologiques.
+
+## Revue
+JAMA Neurology
+
+## 📖 Référence
+2024;81(8):857-865. doi:10.1001/jamaneurol.2024.1677. Identifiant ClinicalTrials.gov: NCT03399318.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamaneurol.2024.1677.

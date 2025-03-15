@@ -3,17 +3,20 @@ Date de publication : 2024-10-21
 # 📝 Lignes directrices 2024 pour la prévention primaire de l'AVC
 
 ## 📌 Contexte & Problématique
-Mise à jour des directives de 2014 pour la prévention primaire de l'AVC. Document ressource pour les cliniciens guidant les stratégies préventives chez les individus sans antécédents d'AVC.
+Ces nouvelles lignes directrices remplacent celles de 2014 et visent à fournir aux cliniciens des stratégies actualisées pour prévenir l'AVC (accident vasculaire cérébral) chez les personnes sans antécédents.
 
 ## 🧪 Méthodologie
-Revue systématique de la littérature (mai-novembre 2023) incluant études sur participants humains publiées en anglais dans MEDLINE, PubMed et Bibliothèque Cochrane. Analyse des publications pertinentes de l'American Heart Association.
+Revue systématique de la littérature (mai-novembre 2023) incluant les études sur participants humains publiées en anglais dans MEDLINE, PubMed et la Bibliothèque Cochrane, complétée par l'analyse de publications de l'American Heart Association.
 
 ## 📊 Résultats clés
-Les directives s'alignent sur les "8 Éléments Essentiels de la Vie" pour optimiser la santé cardiovasculaire et cérébrale. Introduction de recommandations spécifiques au sexe pour le dépistage et la prévention, absentes des directives 2014.
+Le document s'aligne sur les "8 éléments essentiels de la vie" pour optimiser la santé cardiovasculaire et cérébrale. Il introduit des recommandations spécifiques au sexe pour le dépistage et la prévention, absentes dans la version 2014.
 
 ## 🩺 Impact clinique
-Recommandations actualisées basées sur les preuves pour prévenir les AVC ischémiques et hémorragiques tout au long de la vie. Mise à jour des stratégies de gestion des facteurs de risque avec nouveaux sujets abordés.
+Ces recommandations fondées sur les données probantes offrent des stratégies de prévention tout au long de la vie, soulignant que les AVC ischémiques et hémorragiques sont largement évitables malgré leurs conséquences invalidantes.
+
+## Revue
+Stroke
 
 ## 📖 Référence
-Bushnell C, Kernan WN, Sharrief AZ, et al. 2024 Guideline for the Primary Prevention of Stroke. Stroke. 2024;55(12):e344-e424.
+2024;55(12):e344-e424. doi:10.1161/STR.0000000000000475. Epub 2024 Oct 21.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1161/STR.0000000000000475.

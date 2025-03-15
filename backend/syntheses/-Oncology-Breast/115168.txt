@@ -1,19 +1,22 @@
 Date de publication : 2024-12-11
 
-# 📝 Imlunestrant dans le cancer du sein avancé : efficacité en monothérapie et en association
+# 📝 Imlunestrant avec ou sans Abémaciclib dans le cancer du sein avancé
 
 ## 📌 Contexte & Problématique
-L'imlunestrant est un dégradeur sélectif du récepteur aux œstrogènes (RE) de nouvelle génération, administré par voie orale, capable de traverser la barrière hémato-encéphalique et d'inhiber le RE même en présence de mutations ESR1.
+L'imlunestrant est un dégradeur sélectif du récepteur des œstrogènes (ER) de nouvelle génération, administré par voie orale, capable de pénétrer dans le cerveau et d'inhiber les ER même en présence de mutations ESR1.
 
 ## 🧪 Méthodologie
-Essai de phase 3 incluant 874 patientes atteintes d'un cancer du sein RE+/HER2- avancé, ayant progressé sous inhibiteur d'aromatase. Randomisation 1:1:1 entre imlunestrant, traitement endocrinien standard, ou imlunestrant+abémaciclib.
+Essai de phase 3 comparant l'imlunestrant, une monothérapie endocrinienne standard, ou l'association imlunestrant-abémaciclib chez 874 patientes atteintes d'un cancer du sein avancé ER-positif, HER2 (récepteur 2 du facteur de croissance épidermique humain)-négatif, ayant progressé après traitement par inhibiteur de l'aromatase.
 
 ## 📊 Résultats clés
-Chez les patientes avec mutations ESR1 (n=256), survie sans progression médiane de 5,5 mois sous imlunestrant vs 3,8 mois sous traitement standard (p<0,001). Dans la population globale, pas de différence significative (5,6 vs 5,5 mois). L'association imlunestrant+abémaciclib a prolongé la survie sans progression à 9,4 mois vs 5,5 mois sous imlunestrant seul (p<0,001).
+Chez les patientes avec mutations ESR1 (n=256), la survie sans progression médiane était de 5,5 mois avec l'imlunestrant versus 3,8 mois avec le traitement standard (p<0,001). Dans la population globale, pas de différence significative. L'association imlunestrant-abémaciclib a significativement amélioré la survie sans progression (9,4 vs 5,5 mois; p<0,001) indépendamment du statut ESR1.
 
 ## 🩺 Impact clinique
-L'imlunestrant représente une option thérapeutique efficace pour les patientes avec mutations ESR1. L'association avec l'abémaciclib améliore significativement l'efficacité indépendamment du statut mutationnel, avec un profil de tolérance acceptable.
+L'imlunestrant représente une option thérapeutique efficace spécifiquement pour les patientes avec mutations ESR1. L'ajout d'abémaciclib (inhibiteur CDK4/6) améliore significativement l'efficacité, mais augmente la toxicité (48,6% d'événements indésirables grade ≥3 vs 17,1%).
+
+## Revue
+N Engl J Med
 
 ## 📖 Référence
-Jhaveri KL, Neven P, Casalnuovo ML, et al. Imlunestrant with or without Abemaciclib in Advanced Breast Cancer. N Engl J Med. 2024 Dec 11. doi: 10.1056/NEJMoa2410858.
+2024 Dec 11. doi: 10.1056/NEJMoa2410858.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2410858.

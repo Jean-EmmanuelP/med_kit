@@ -1,23 +1,22 @@
 Date de publication : 2024-12-17
 
-# 📝 Cibles tensionnelles plus élevées pour l'hypertension chez les personnes âgées
+# 📝 Cibles tensionnelles plus élevées chez les personnes âgées hypertendues
 
 ## 📌 Contexte & Problématique
-Les recommandations sur les cibles tensionnelles optimales chez les personnes âgées (≥65 ans) sont incohérentes. Cette mise à jour d'une revue Cochrane de 2017 évalue si des cibles moins strictes (PAS <150-160 mmHg) pourraient être aussi efficaces que les cibles conventionnelles (<140/90 mmHg) dans cette population.
+Les recommandations actuelles sur les cibles de pression artérielle (PA) pour les adultes âgés sont incohérentes (variant de <130 mmHg à <150 mmHg). Cette mise à jour d'une revue Cochrane de 2017 évalue si des cibles moins agressives pourraient être appropriées chez les hypertendus âgés de 65 ans et plus.
 
 ## 🧪 Méthodologie
-Méta-analyse de 4 essais contrôlés randomisés incluant 16 732 patients hypertendus âgés (moyenne 70,3 ans), comparant des cibles tensionnelles plus élevées versus plus basses. Suivi de 2 à 4 ans. Critères principaux: mortalité toute cause, AVC, événements cardiovasculaires graves.
+Analyse de quatre essais contrôlés randomisés (16 732 participants, âge moyen 70,3 ans) comparant des cibles de PA plus élevées (<150-160/95-105 mmHg) à des cibles plus basses (<140/90 mmHg ou moins), avec suivi de deux à quatre ans.
 
 ## 📊 Résultats clés
-Les cibles plus basses versus plus élevées montrent:
-- Mortalité toute cause: pas de différence significative (RR 1,14; IC 95% 0,95-1,37)
-- AVC: réduction significative (RR 1,33; IC 95% 1,06-1,67)
-- Événements cardiovasculaires graves: réduction probable (RR 1,25; IC 95% 1,09-1,45)
-- Abandons dus aux effets indésirables: pas d'augmentation (RR 0,99; IC 95% 0,74-1,33)
+Les cibles de PA plus basses sont associées à une réduction significative des accidents vasculaires cérébraux (AVC) (RR 1,33, IC 95% 1,06-1,67; preuves de haute certitude) et des événements cardiovasculaires graves (RR 1,25, IC 95% 1,09-1,45; certitude modérée). Aucune différence significative n'a été observée sur la mortalité toutes causes (RR 1,14, IC 95% 0,95-1,37; faible certitude) ou les abandons dus aux effets indésirables.
 
 ## 🩺 Impact clinique
-Les cibles tensionnelles plus basses (<140/90 mmHg) réduisent les AVC et probablement les événements cardiovasculaires graves chez les personnes âgées, sans augmentation des effets indésirables, justifiant une approche thérapeutique plus intensive dans cette population.
+Les cibles tensionnelles plus basses (<140/90 mmHg) offrent une protection cardiovasculaire supérieure chez les personnes âgées hypertendues, particulièrement contre les AVC, sans augmentation apparente des effets indésirables.
+
+## Revue
+Cochrane Database of Systematic Reviews
 
 ## 📖 Référence
-Falk JM, Froentjes L, Kirkwood JE, et al. Higher blood pressure targets for hypertension in older adults. Cochrane Database Syst Rev. 2024;12(12):CD011575.
+2024;12(12):CD011575. doi: 10.1002/14651858.CD011575.pub3
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1002/14651858.CD011575.pub3.

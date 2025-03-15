@@ -1,19 +1,22 @@
 Date de publication : 2025-01-22
 
-# 📝 Aggravation ambulatoire de l'insuffisance cardiaque dans l'amylose à transthyrétine : données de l'essai APOLLO-B
+# 📝 Aggravation ambulatoire de l'insuffisance cardiaque dans l'amylose à transthyrétine : données d'APOLLO-B
 
 ## 📌 Contexte & Problématique
-L'aggravation ambulatoire de l'insuffisance cardiaque (IC) constitue un facteur pronostique défavorable. Cette étude évalue sa valeur pronostique spécifiquement dans l'amylose à transthyrétine avec cardiomyopathie et l'effet du patisiran.
+L'aggravation ambulatoire de l'insuffisance cardiaque (IC) est un facteur pronostique défavorable. Cette étude évalue sa valeur pronostique spécifiquement dans l'amylose à transthyrétine avec cardiomyopathie et l'effet du patisiran sur cette évolution.
 
 ## 🧪 Méthodologie
-Analyse post-hoc de l'essai APOLLO-B examinant les associations entre l'aggravation ambulatoire de l'IC (définie par l'ajustement des diurétiques), la progression de la maladie et les événements cliniques sur 24 mois.
+Analyse post hoc de l'essai APOLLO-B évaluant les associations entre l'aggravation ambulatoire de l'IC (définie par l'initiation/intensification des diurétiques oraux), la progression de la maladie et un critère composite (mortalité toutes causes/événements cardiovasculaires).
 
 ## 📊 Résultats clés
-43,7% des patients ont présenté une aggravation ambulatoire de l'IC, associée à un risque accru de mortalité et d'événements cardiovasculaires (HR: 2,21; IC 95%: 1,58-3,08). Le patisiran a réduit ce risque de 30% (HR: 0,70; IC 95%: 0,51-0,96) sur 24 mois.
+43,7% des patients ont présenté une aggravation ambulatoire de l'IC, associée à un risque accru de mortalité et d'événements cardiovasculaires (CV) (HR:2,21). Le patisiran a réduit ce risque d'aggravation (HR:0,70) sur 24 mois. L'inclusion de ce paramètre au critère composite a augmenté de 52% le nombre de patients avec événement.
 
 ## 🩺 Impact clinique
-L'aggravation ambulatoire de l'IC est fréquente et pronostique dans l'amylose à transthyrétine avec cardiomyopathie. Son inclusion comme critère d'évaluation pourrait enrichir les futurs essais cliniques dans cette pathologie.
+L'aggravation ambulatoire de l'IC représente un marqueur pronostique important dans l'amylose à transthyrétine avec cardiomyopathie et pourrait constituer un critère d'évaluation pertinent dans les essais cliniques.
+
+## Revue
+Journal of the American College of Cardiology
 
 ## 📖 Référence
-Fontana M, Maurer MS, Gillmore JD, et al. J Am Coll Cardiol. 2025;85(7):744-752.
+2025 Feb 25;85(7):744-752. doi: 10.1016/j.jacc.2024.10.097. Epub 2025 Jan 22.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.jacc.2024.10.097.

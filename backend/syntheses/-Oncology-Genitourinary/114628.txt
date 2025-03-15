@@ -1,19 +1,22 @@
 Date de publication : 2024-10-17
 
-# 📝 RADIOTHÉRAPIE STÉRÉOTAXIQUE DANS LE CANCER DE LA PROSTATE LOCALISÉ
+# 📝 Radiothérapie stéréotaxique corporelle dans le cancer de la prostate localisé
 
 ## 📌 Contexte & Problématique
-L'efficacité de la radiothérapie stéréotaxique corporelle (SBRT) comparée aux schémas conventionnels reste à établir dans le cancer de la prostate localisé.
+La non-infériorité de la radiothérapie stéréotaxique corporelle (SBRT) par rapport aux schémas conventionnels n'était pas clairement établie pour le cancer de la prostate localisé.
 
 ## 🧪 Méthodologie
-Essai randomisé contrôlé de phase 3 incluant 874 hommes (T1-T2, Gleason ≤3+4, PSA ≤20 ng/mL). Comparaison entre SBRT (36,25 Gy/5 fractions) et radiothérapie conventionnelle (78 Gy/39 fractions ou 62 Gy/20 fractions). Suivi médian: 74 mois.
+Essai randomisé de phase 3 comparant la SBRT (36,25 Gy en 5 fractions) à la radiothérapie conventionnelle (78 Gy/39 fractions ou 62 Gy/20 fractions) chez 874 hommes avec cancer de prostate T1-T2, score de Gleason ≤3+4 et PSA (antigène prostatique spécifique) ≤20 ng/mL, sans privation androgénique.
 
 ## 📊 Résultats clés
-Absence d'échec biochimique/clinique à 5 ans: 95,8% (SBRT) vs 94,6% (contrôle), démontrant la non-infériorité (HR=0,73; IC90%: 0,48-1,12; p=0,004). Toxicité génito-urinaire tardive (grade ≥2): 26,9% vs 18,3% (p<0,001). Toxicité gastro-intestinale tardive (grade ≥2): 10,7% vs 10,2% (p=0,94).
+Après suivi médian de 74 mois, l'absence d'échec biochimique/clinique à 5 ans était de 95,8% avec SBRT versus 94,6% avec radiothérapie conventionnelle (HR=0,73; IC 90%: 0,48-1,12; p=0,004 pour non-infériorité). Toxicité génito-urinaire tardive grade ≥2 plus élevée avec SBRT (26,9% vs 18,3%, p<0,001), toxicité gastro-intestinale comparable (10,7% vs 10,2%).
 
 ## 🩺 Impact clinique
-La SBRT en 5 fractions représente une alternative efficace pour les cancers prostatiques localisés à risque faible/intermédiaire, offrant un traitement plus court avec efficacité comparable malgré une toxicité urinaire accrue.
+La SBRT en 5 fractions représente une alternative efficace et non-inférieure à la radiothérapie conventionnelle pour les cancers de prostate localisés à risque faible/intermédiaire, offrant un traitement plus court.
+
+## Revue
+New England Journal of Medicine
 
 ## 📖 Référence
-van As N, Griffin C, Tree A, et al. Phase 3 Trial of Stereotactic Body Radiotherapy in Localized Prostate Cancer. N Engl J Med. 2024;391(15):1413-1425.
+2024;391(15):1413-1425. doi:10.1056/NEJMoa2403365.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2403365.

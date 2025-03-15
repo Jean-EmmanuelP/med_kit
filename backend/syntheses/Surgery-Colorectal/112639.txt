@@ -1,0 +1,26 @@
+Date de publication : 2023-11-27
+
+# 📝 Thérapie néoadjuvante totale vs radiochimiothérapie standard dans le cancer rectal : impact sur les résultats chirurgicaux
+
+## 📌 Contexte & Problématique
+Les bénéfices oncologiques de la thérapie néoadjuvante totale (TNT) sont établis, mais son impact sur les résultats chirurgicaux reste peu documenté. Des inquiétudes existent concernant d'éventuelles augmentations des récidives locales et des ruptures du plan d'excision mésorectale totale (TME).
+
+## 🧪 Méthodologie
+Méta-analyse de 11 essais contrôlés randomisés comparant TNT (n=1607) et radiochimiothérapie standard de longue durée (LCRT) (n=1578) chez des patients atteints de cancer rectal, suivant les directives PRISMA.
+
+## 📊 Résultats clés
+- Aucune différence significative en mortalité ou complications majeures
+- Risque significativement plus élevé de rupture de TME dans le groupe TNT (RR=1,49, p=0,03)
+- Risque plus important de rupture TME avec traitement prolongé (>17 semaines)
+- Risque significativement plus faible de progression vers un stade non résécable dans le groupe TNT (RR=0,60, p=0,03)
+- Pas de différence dans les taux de résection R0, marges circonférentielles positives ou préservation du sphincter
+
+## 🩺 Impact clinique
+La TNT améliore le contrôle systémique en réduisant la progression précoce, mais augmente les taux de rupture de TME pouvant contribuer à des récidives locales. Une sélection appropriée des patients est nécessaire.
+
+## Revue
+Annals of Surgery
+
+## 📖 Référence
+2024;279(4):620-630. doi:10.1097/SLA.0000000000006161. Epub 2023 Nov 27.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1097/SLA.0000000000006161.

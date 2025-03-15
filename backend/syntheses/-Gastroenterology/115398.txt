@@ -1,19 +1,22 @@
 Date de publication : 2024-09-16
 
-# 📝 GALAD : Biomarqueur supérieur à l'AFP pour la détection du carcinome hépatocellulaire chez les cirrhotiques
+# 📝 Validation du score GALAD pour la détection du carcinome hépatocellulaire chez les patients cirrhotiques
 
 ## 📌 Contexte & Problématique
-Le dépistage du carcinome hépatocellulaire (CHC) nécessite des biomarqueurs plus performants. Le score GALAD (sexe, âge, AFP-L3, AFP, des-γ carboxyprothrombine) a montré un potentiel prometteur en phase 2.
+La surveillance du carcinome hépatocellulaire (CHC) chez les patients cirrhotiques nécessite des biomarqueurs plus performants que l'alpha-fœtoprotéine (AFP) seule. Cette étude de phase 3 évalue le score GALAD (sexe, âge, AFP-L3, AFP et des-γ carboxyprothrombine) comparé à l'AFP.
 
 ## 🧪 Méthodologie
-Étude prospective multicentrique (7 centres) incluant 1558 patients cirrhotiques suivis pendant 2,2 ans (médiane). Surveillance semestrielle avec prélèvements sanguins. Évaluation rétrospective de GALAD dans les 12 mois précédant le diagnostic de CHC.
+Étude prospective multicentrique (7 sites) incluant 1558 patients cirrhotiques suivis pendant 2,2 ans (médiane) avec surveillance semestrielle du CHC. Les biomarqueurs ont été analysés rétrospectivement sur les 12 mois précédant le diagnostic.
 
 ## 📊 Résultats clés
-109 patients ont développé un CHC (incidence annuelle: 2,4%). GALAD a montré une aire sous la courbe de 0,78 vs 0,66 pour l'AFP (p<0,001). Au seuil de -1,36, GALAD offrait une spécificité de 82% et une sensibilité de 62% à 12 mois avant le diagnostic, contre 41% pour l'AFP à spécificité égale (p=0,001).
+109 patients ont développé un CHC (incidence annuelle: 2,4%), dont 76 à un stade précoce. L'aire sous la courbe était significativement supérieure pour GALAD (0,78) versus AFP (0,66) (p<0,001). Au seuil de -1,36, GALAD offrait une spécificité de 82% et une sensibilité de 62% à 12 mois avant le diagnostic, contre 41% pour l'AFP à spécificité égale (p=0,001).
 
 ## 🩺 Impact clinique
-GALAD améliore significativement la détection précoce du CHC chez les patients cirrhotiques, permettant potentiellement un diagnostic plus précoce et une meilleure prise en charge.
+Le score GALAD améliore significativement la détection précoce du CHC chez les patients cirrhotiques, permettant potentiellement un diagnostic plus précoce et un meilleur pronostic.
+
+## Revue
+Gastroenterology
 
 ## 📖 Référence
-Marsh TL, Parikh ND, Roberts LR, et al. Gastroenterology. 2025;168(2):316-326.e6.
+2025 Feb;168(2):316-326.e6. doi: 10.1053/j.gastro.2024.09.008. Epub 2024 Sep 16.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1053/j.gastro.2024.09.008.

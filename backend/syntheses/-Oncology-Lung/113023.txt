@@ -1,21 +1,22 @@
 Date de publication : 2024-03-25
 
-# 📝 APIXABAN À DOSE RÉDUITE DANS LA PRÉVENTION SECONDAIRE DE LA TEV CHEZ LES PATIENTS CANCÉREUX
+# 📝 Prolongation de la prévention secondaire de la TEV chez les patients cancéreux avec l'apixaban
 
 ## 📌 Contexte & Problématique
-La thromboembolie veineuse (TEV) associée au cancer nécessite une anticoagulation continue. L'apixaban est approuvé avec une réduction de dose à 2,5 mg deux fois par jour après 6 mois, mais l'efficacité de cette réduction chez les patients cancéreux restait incertaine.
+La thromboembolie veineuse (TEV) associée au cancer nécessite une anticoagulation continue tant que le cancer reste actif. La FDA recommande une réduction de dose d'apixaban à 2,5 mg deux fois par jour après 6 mois, mais l'efficacité de cette approche dans le contexte oncologique restait à démontrer.
 
 ## 🧪 Méthodologie
-Essai randomisé en double aveugle comparant l'apixaban 2,5 mg versus 5 mg deux fois par jour pendant 12 mois chez 360 patients cancéreux avec TEV ayant déjà reçu 6-12 mois d'anticoagulation. Critère principal : hémorragies majeures et non majeures cliniquement significatives.
+Essai randomisé en double aveugle comparant apixaban 2,5 mg versus 5 mg deux fois par jour pendant 12 mois chez 360 patients cancéreux avec TEV ayant déjà reçu 6-12 mois d'anticoagulation. Critère principal : saignements majeurs et non majeurs cliniquement significatifs.
 
 ## 📊 Résultats clés
-Hémorragies combinées : 8,9% (dose 2,5 mg) vs 12,2% (dose 5 mg) (HR 0,72; IC 95% 0,38-1,37; p=0,39)
-Récidives TEV : 5,0% dans les deux groupes (HR 1,0; p=1,00)
-Mortalité : 13% vs 12% (HR 1,14; p=0,67)
+Événements hémorragiques combinés : 8,9% (dose 2,5 mg) vs 12,2% (dose 5 mg), HR=0,72 (IC 95% : 0,38-1,37; p=0,39). Récidives de TEV : 5,0% dans les deux groupes. Mortalité similaire (13% vs 12%).
 
 ## 🩺 Impact clinique
-La dose réduite d'apixaban n'a pas démontré d'avantage significatif sur les saignements tout en maintenant une efficacité comparable pour prévenir les récidives de TEV chez les patients cancéreux.
+Aucune différence significative d'efficacité ou de sécurité entre les deux dosages d'apixaban pour la prévention secondaire prolongée de la TEV chez les patients cancéreux.
+
+## Revue
+Journal of Thrombosis and Haemostasis
 
 ## 📖 Référence
-McBane RD, Loprinzi CL, Zemla T, et al. Extending venous thromboembolism secondary prevention with apixaban in cancer patients. The EVE trial. J Thromb Haemost. 2024;22(6):1704-1714.
+2024;22(6):1704-1714. doi:10.1016/j.jtha.2024.03.011
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.jtha.2024.03.011.

@@ -1,0 +1,25 @@
+Date de publication : 2024-12-01
+
+# 📝 Interventions eHealth pour la gestion des douleurs rachidiennes
+
+## 📌 Contexte & Problématique
+Évaluation de l'efficacité des interventions de santé numérique (eHealth) sur la douleur, l'incapacité physique, les facteurs psychologiques et la qualité de vie chez les patients souffrant de douleurs rachidiennes.
+
+## 🧪 Méthodologie
+Synthèse de 16 revues systématiques avec méta-analyses d'essais cliniques randomisés, identifiées via CINAHL, Embase, PubMed et SPORTDiscus. Qualité évaluée par l'outil AMSTAR 2.
+
+## 📊 Résultats clés
+- 13 revues centrées sur les douleurs lombaires
+- Les interventions eHealth basées sur l'exercice améliorent la qualité de vie
+- Les approches cognitivo-comportementales réduisent la catastrophisation et les croyances d'évitement liées à la peur
+- Les interventions multidisciplinaires incluant l'exercice diminuent la lombalgie
+
+## 🩺 Impact clinique
+Bénéfices démontrés pour la lombalgie, mais manque de clarté sur les modalités optimales d'implémentation clinique, notamment pour les douleurs cervicales. Peu d'études ont utilisé le système GRADE pour évaluer la certitude des preuves.
+
+## Revue
+J Orthop Sports Phys Ther
+
+## 📖 Référence
+2024;54(12):748-765. doi:10.2519/jospt.2024.12844.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.2519/jospt.2024.12844.

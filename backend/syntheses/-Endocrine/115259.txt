@@ -1,19 +1,22 @@
 Date de publication : 2024-12-02
 
-# 📝 Contrôle glycémique par appels téléphoniques empathiques non-professionnels chez les patients diabétiques
+# 📝 Contrôle glycémique amélioré par appels téléphoniques empathiques non professionnels chez les patients diabétiques
 
 ## 📌 Contexte & Problématique
-Le diabète s'accompagne souvent de détresse émotionnelle, particulièrement chez les patients à faible revenu. Les contraintes de personnel limitent le soutien holistique dans le système de santé.
+Le diabète s'accompagne souvent de détresse émotionnelle, particulièrement chez les patients à faible revenu, entravant l'autogestion. Les contraintes de main-d'œuvre limitent le soutien holistique aux patients.
 
 ## 🧪 Méthodologie
-Essai clinique randomisé (n=260) comparant des appels téléphoniques empathiques par des non-professionnels pendant 6 mois aux soins habituels chez des patients diabétiques non contrôlés. Population majoritairement féminine (62,9%), à faible revenu (86,7% <40 000$/an).
+Essai clinique randomisé (2022-2023) incluant 260 patients diabétiques non contrôlés d'un centre de santé fédéral au Texas. Le groupe d'intervention a reçu pendant 6 mois des appels téléphoniques empathiques de personnes non professionnelles, tandis que le groupe témoin recevait les soins habituels. Les patients ont été stratifiés selon leur score PHQ-9 (Questionnaire de santé du patient à 9 items).
 
 ## 📊 Résultats clés
-Le groupe intervention a montré une réduction significative de l'HbA1c à 6 mois (-0,7% vs +0,02% pour le groupe témoin, p=0,004). L'effet était plus marqué chez les patients avec symptômes dépressifs (PHQ-9 ≥5) : -1,1% vs +0,1% (p=0,004). 91,7% des participants ont jugé le programme très ou extrêmement bénéfique.
+Le groupe d'intervention a montré une réduction significative de l'HbA1c (Hémoglobine A1c) à 6 mois (-0,7%) comparé au groupe témoin (+0,02%) (p=0,004). L'effet était plus marqué chez les patients avec symptômes dépressifs initiaux (PHQ-9 ≥5) : -1,1% vs +0,1%. 91,7% des participants ont jugé le programme très ou extrêmement bénéfique.
 
 ## 🩺 Impact clinique
-L'engagement empathique par téléphone délivré par des non-professionnels permet d'améliorer significativement le contrôle glycémique chez les patients diabétiques à faible revenu, offrant une solution prometteuse face aux contraintes de personnel.
+Cette approche d'engagement empathique par des non-professionnels offre une solution prometteuse pour améliorer le contrôle glycémique chez les patients diabétiques à faible revenu, particulièrement ceux présentant des symptômes dépressifs.
+
+## Revue
+JAMA Network Open
 
 ## 📖 Référence
-Kahlon MK, Aksan NS, Aubrey R, et al. JAMA Netw Open. 2024;7(12):e2448809.
+2024;7(12):e2448809. doi:10.1001/jamanetworkopen.2024.48809
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamanetworkopen.2024.48809.

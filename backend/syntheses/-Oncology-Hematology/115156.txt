@@ -1,0 +1,22 @@
+Date de publication : 2024-12-09
+
+# 📝 Daratumumab pour le myélome multiple indolent à haut risque
+
+## 📌 Contexte & Problématique
+Le myélome multiple indolent (MMI) à haut risque est une maladie précurseur du myélome multiple actif sans traitement approuvé. L'efficacité du daratumumab, un anticorps monoclonal anti-CD38, a été évaluée dans cette indication.
+
+## 🧪 Méthodologie
+Essai de phase 3 randomisé comparant la monothérapie par daratumumab sous-cutané à la surveillance active chez 390 patients atteints de MMI à haut risque. Traitement poursuivi pendant 36 mois ou jusqu'à progression. Critère principal : survie sans progression.
+
+## 📊 Résultats clés
+Avec un suivi médian de 65,2 mois, le daratumumab a réduit de 51% le risque de progression ou décès (HR=0,49; IC 95%: 0,36-0,67; p<0,001). Survie sans progression à 5 ans: 63,1% vs 40,8%. Survie globale à 5 ans: 93,0% vs 86,9%. Événement indésirable grade 3-4 principal: hypertension (5,7% vs 4,6%). Arrêt de traitement pour effets indésirables: 5,7%.
+
+## 🩺 Impact clinique
+Le daratumumab sous-cutané représente une option thérapeutique prometteuse pour les patients atteints de MMI à haut risque, avec une réduction significative du risque de progression vers un myélome multiple actif et un profil de tolérance acceptable.
+
+## Revue
+N Engl J Med
+
+## 📖 Référence
+2024 Dec 9. doi: 10.1056/NEJMoa2409029.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2409029.

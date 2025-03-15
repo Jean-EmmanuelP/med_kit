@@ -1,0 +1,22 @@
+Date de publication : 2024-08-27
+
+# 📝 Technique de rendez-vous guidée par échographie endoscopique versus sphinctérotomie précoupe dans la cannulation biliaire difficile
+
+## 📌 Contexte & Problématique
+Comparaison de deux techniques de sauvetage pour la cannulation biliaire difficile dans les pathologies biliaires bénignes : la sphinctérotomie précoupe (technique standard) et la technique de rendez-vous guidée par échographie endoscopique (EUS-RV), plus récente.
+
+## 🧪 Méthodologie
+Essai contrôlé randomisé de supériorité (n=100) réalisé dans un centre universitaire tertiaire (juillet 2020-mai 2021). Patients avec maladie biliaire bénigne et cannulation difficile randomisés (1:1) entre EUS-RV (n=50) et sphinctérotomie précoupe (n=50).
+
+## 📊 Résultats clés
+Taux de succès technique similaires : 92% (EUS-RV) vs 90% (précoupe) (RR=1,02 [IC 95% : 0,90-1,16]). Temps médian de procédure comparable (10,1 vs 9,75 minutes). Taux de complications équivalents (12% vs 10%), incluant 10% de pancréatite post-CPRE dans chaque groupe. Les échecs dans un groupe ont été résolus par l'autre technique.
+
+## 🩺 Impact clinique
+Les deux techniques offrent des taux de succès et de sécurité comparables pour la cannulation biliaire difficile dans les pathologies bénignes, permettant une approche complémentaire en cas d'échec de l'une des méthodes.
+
+## Revue
+Annals of Internal Medicine
+
+## 📖 Référence
+2024;177(10):1361-1369. doi: 10.7326/M24-0092. Epub 2024 Aug 27.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.7326/M24-0092.

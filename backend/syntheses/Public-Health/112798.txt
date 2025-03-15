@@ -1,19 +1,22 @@
 Date de publication : 2024-03-18
 
-# 📝 Vaccination des adultes atteints de cancer : Lignes directrices de l'ASCO
+# 📝 Vaccination des adultes atteints de cancer : recommandations ASCO
 
 ## 📌 Contexte & Problématique
-Les patients atteints de cancer nécessitent des stratégies vaccinales spécifiques en raison de leur état immunitaire altéré. Cette directive vise à optimiser la vaccination chez les adultes atteints de tumeurs solides ou d'hémopathies malignes.
+Nécessité d'établir des recommandations spécifiques pour la vaccination des patients adultes atteints de tumeurs solides ou d'hémopathies malignes, dont le statut immunitaire diffère de la population générale.
 
 ## 🧪 Méthodologie
-Revue systématique de 102 publications (24 revues systématiques, 14 ECR, 64 études non randomisées) publiées entre 2013-2023. Évaluation par un panel d'experts de l'ASCO.
+Revue systématique de la littérature (2013-2023) incluant 102 publications : 24 revues systématiques, 14 essais contrôlés randomisés (ECR) et 64 études non randomisées. Un panel d'experts ASCO a formulé des recommandations basées sur ces données.
 
 ## 📊 Résultats clés
-Les preuves les plus substantielles concernent les vaccins COVID-19. La vaccination doit être documentée dès la première consultation et adaptée selon les traitements reçus (greffe de cellules souches, thérapie CAR-T, traitements déplétifs en lymphocytes B).
+Les preuves les plus substantielles concernent les vaccins contre la COVID-19. L'optimisation du statut vaccinal est identifiée comme élément fondamental de la prise en charge oncologique.
 
 ## 🩺 Impact clinique
-L'objectif principal est de limiter la gravité des infections. La vaccination des contacts domestiques renforce la protection du patient. Une coordination entre tous les soignants est essentielle. Les stratégies vaccinales diffèrent des recommandations pour la population générale.
+Recommandations : documenter le statut vaccinal dès la première consultation, administrer les vaccins opportunément, et prévoir une revaccination après greffe de cellules souches hématopoïétiques, thérapie par cellules CAR-T ou traitement déplétif des cellules B. La vaccination des contacts domestiques est également préconisée pour renforcer la protection des patients.
+
+## Revue
+Journal of Clinical Oncology
 
 ## 📖 Référence
-Kamboj M, Bohlke K, Baptiste DM, et al. Vaccination of Adults With Cancer: ASCO Guideline. J Clin Oncol. 2024;42(14):1699-1721.
+2024;42(14):1699-1721. doi: 10.1200/JCO.24.00032
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO.24.00032.

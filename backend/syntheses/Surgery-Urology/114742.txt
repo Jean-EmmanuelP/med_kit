@@ -1,0 +1,25 @@
+Date de publication : 2024-10-01
+
+# 📝 Antibioprophylaxie périopératoire courte versus prolongée en cystectomie avec dérivation urinaire
+
+## 📌 Contexte & Problématique
+Les recommandations préconisent une antibioprophylaxie périopératoire (APP) de 24h maximum pour la cystectomie avec dérivation urinaire, mais l'APP prolongée reste courante malgré le manque de preuves sur la durée optimale.
+
+## 🧪 Méthodologie
+Essai clinique randomisé monocentrique de non-infériorité (marge de 10%) comparant une APP de 24h versus une APP prolongée jusqu'au retrait des cathéters/stents chez 193 patients adultes subissant une cystectomie ouverte élective avec dérivation urinaire (2018-2022).
+
+## 📊 Résultats clés
+- Groupe APP 24h (n=95) : durée médiane 1 jour, 8,4% d'infections du site opératoire (ISO)
+- Groupe APP prolongée (n=98) : durée médiane 8 jours, 12,2% d'ISO
+- Différence de risque : -3,8% (IC 90%, -11,1% à 3,4%), établissant la non-infériorité
+- Aucune différence significative de mortalité entre les groupes
+
+## 🩺 Impact clinique
+L'APP de 24h est non-inférieure à l'APP prolongée pour prévenir les ISO après cystectomie avec dérivation urinaire, soutenant les efforts de gestion responsable des antibiotiques en urologie.
+
+## Revue
+JAMA Network Open
+
+## 📖 Référence
+2024;7(10):e2439382. doi:10.1001/jamanetworkopen.2024.39382
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamanetworkopen.2024.39382.

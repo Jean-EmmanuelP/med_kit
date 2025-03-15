@@ -1,19 +1,22 @@
 Date de publication : 2024-10-11
 
-# 📝 Efficacité et sécurité de l'avacopan dans la glomérulopathie à C3 : essai clinique randomisé en double aveugle
+# 📝 Sécurité et efficacité de l'avacopan chez les patients atteints de glomérulopathie à C3 : essai clinique randomisé en double aveugle
 
 ## 📌 Contexte & Problématique
-La glomérulopathie à C3 est une maladie auto-immune rare avec activation de la voie alterne du complément et dépôts de C3 dans les glomérules, pouvant évoluer vers l'insuffisance rénale.
+La glomérulopathie à C3 est une maladie auto-immune rare caractérisée par l'activation de la voie alterne du complément avec dépôt de C3 dans les glomérules, pouvant évoluer vers l'insuffisance rénale.
 
 ## 🧪 Méthodologie
-Essai randomisé phase 2, double aveugle, contrôlé par placebo (N=57) évaluant l'avacopan (30 mg, 2×/jour) chez des patients avec glomérulopathie à C3. Biopsies rénales réalisées avant randomisation, à 26 et 52 semaines. Critère principal : changement de l'indice histologique d'activité à 26 semaines.
+Essai randomisé de phase 2, contrôlé par placebo, évaluant l'avacopan (30 mg 2×/jour) chez 57 patients atteints de glomérulopathie à C3. Biopsies rénales réalisées avant randomisation puis à 26 et 52 semaines. Critère principal : évolution de l'indice histologique d'activité à 26 semaines.
 
 ## 📊 Résultats clés
-Aucune différence significative pour le critère principal entre avacopan et placebo (différence moyenne : -0,0 [-1,9 à 1,8]). Absence de différence pour les critères secondaires (indice de chronicité, rapport protéine/créatinine urinaire, DFGe). Profil de sécurité comparable entre les groupes.
+Aucune différence significative pour le critère principal entre avacopan et placebo (différence moyenne : -0,0 [-1,9 à 1,8]). Absence de différence également pour les critères secondaires : indice de chronicité, rapport protéine:créatinine urinaire (RPCU) et débit de filtration glomérulaire estimé (DFGe). Profil de sécurité comparable entre les groupes.
 
 ## 🩺 Impact clinique
-L'avacopan n'a pas démontré d'efficacité dans la glomérulopathie à C3. Les effets variables sur certains paramètres rénaux nécessitent des évaluations supplémentaires.
+L'avacopan n'a pas démontré d'efficacité dans la glomérulopathie à C3. Les effets variables sur certains paramètres de fonction rénale nécessitent des évaluations complémentaires.
+
+## Revue
+Journal of the American Society of Nephrology
 
 ## 📖 Référence
-Bomback AS, Herlitz LC, Kedia PP, et al. Safety and Efficacy of Avacopan in Patients with C3 Glomerulopathy: Randomized, Double-Blind Clinical Trial. J Am Soc Nephrol. 2024 Oct 11. doi: 10.1681/ASN.0000000526.
+2024 Oct 11. doi: 10.1681/ASN.0000000526.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1681/ASN.0000000526.

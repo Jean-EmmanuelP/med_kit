@@ -1,22 +1,25 @@
 Date de publication : 2024-06-21
 
-# 📝 Tirzépatide dans le traitement de l'apnée obstructive du sommeil et de l'obésité
+# 📝 Tirzepatide pour le traitement de l'apnée obstructive du sommeil et de l'obésité
 
 ## 📌 Contexte & Problématique
-L'apnée obstructive du sommeil (AOS) est associée à des complications cardiovasculaires majeures, avec l'obésité comme facteur de risque principal. Le tirzépatide pourrait offrir une nouvelle option thérapeutique.
+L'apnée obstructive du sommeil (AOS) est associée à des complications cardiovasculaires majeures, avec l'obésité comme facteur de risque important. Le tirzepatide pourrait offrir une nouvelle option thérapeutique.
 
 ## 🧪 Méthodologie
-Deux essais cliniques de phase 3, randomisés, en double aveugle, sur 52 semaines. Essai 1 : patients avec AOS sans PPC. Essai 2 : patients avec AOS sous PPC. Critère principal : variation de l'indice d'apnées-hypopnées (IAH).
+Deux essais de phase 3, randomisés, en double aveugle, contrôlés par placebo sur 52 semaines chez des adultes souffrant d'AOS modérée à sévère et d'obésité. Essai 1 : patients sans PPC (pression positive continue). Essai 2 : patients sous PPC. Critère principal : variation de l'IAH (indice d'apnées-hypopnées).
 
 ## 📊 Résultats clés
-À l'inclusion : IAH moyen ~50 événements/heure, IMC moyen ~39.
-Essai 1 : réduction de l'IAH de -25,3 avec tirzépatide vs -5,3 avec placebo (différence: -20,0; p<0,001).
-Essai 2 : réduction de l'IAH de -29,3 avec tirzépatide vs -5,5 avec placebo (différence: -23,8; p<0,001).
-Effets indésirables principalement gastro-intestinaux, d'intensité légère à modérée.
+À la semaine 52, réduction significative de l'IAH avec tirzepatide vs placebo :
+- Essai 1 : -25,3 vs -5,3 événements/heure (différence : -20,0; p<0,001)
+- Essai 2 : -29,3 vs -5,5 événements/heure (différence : -23,8; p<0,001)
+Améliorations significatives du poids, de la charge hypoxique, de la hsCRP (protéine C-réactive haute sensibilité) et de la pression artérielle systolique. Effets indésirables principalement gastro-intestinaux d'intensité légère à modérée.
 
 ## 🩺 Impact clinique
-Le tirzépatide réduit significativement l'IAH, le poids corporel, la charge hypoxique, la CRP-hs et la pression artérielle systolique chez les patients obèses souffrant d'AOS modérée à sévère.
+Le tirzepatide représente une option thérapeutique prometteuse pour les patients souffrant d'AOS et d'obésité, avec des bénéfices multiples sur les paramètres respiratoires nocturnes et métaboliques.
+
+## Revue
+New England Journal of Medicine
 
 ## 📖 Référence
-Malhotra A, Grunstein RR, Fietze I, et al. N Engl J Med. 2024;391(13):1193-1205.
+2024;391(13):1193-1205. doi: 10.1056/NEJMoa2404881. Epub 2024 Jun 21.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2404881.

@@ -1,0 +1,22 @@
+Date de publication : 2024-12-01
+
+# 📝 Diagnostic et prise en charge des troubles obsessionnels compulsifs chez l'enfant
+
+## 📌 Contexte & Problématique
+Le trouble obsessionnel-compulsif (TOC) débute souvent pendant l'enfance/adolescence avec des conséquences développementales persistantes. Les recommandations actuelles préconisent la thérapie cognitivo-comportementale avec exposition et prévention de la réponse (EPR) comme traitement de première ligne, mais des incertitudes demeurent sur les stratégies optimales.
+
+## 🧪 Méthodologie
+Revue systématique avec recherche dans Medline, Cochrane, Embase, CINAHL et ClinicalTrials.gov jusqu'au 15 mai 2024. Méta-analyses en réseau et par paires réalisées après extraction des données et évaluation du risque de biais.
+
+## 📊 Résultats clés
+La sous-échelle obsessionnelle-compulsive de la Liste de comportements pour enfants (CBCL-OCS) présente une bonne précision diagnostique (preuves modérées). L'EPR en présentiel ou par télésanté est plus efficace qu'une liste d'attente (preuves solides). Les inhibiteurs sélectifs de la recapture de la sérotonine (ISRS) surpassent le placebo (preuves solides). L'EPR+ISRS est probablement plus efficace que les ISRS seuls (preuves modérées).
+
+## 🩺 Impact clinique
+Le diagnostic du TOC repose sur l'évaluation clinique experte. Le CBCL-OCS peut identifier les jeunes nécessitant une évaluation approfondie. L'EPR (présentiel ou télésanté) constitue un traitement efficace, seule ou en combinaison avec un ISRS.
+
+## Revue
+AHRQ Publication
+
+## 📖 Référence
+2024, No. 25-EHC001, Rockville, MD: Agency for Healthcare Research and Quality, Dec 2024.
+🔗 Lien PubMed : Lien PubMed non disponible

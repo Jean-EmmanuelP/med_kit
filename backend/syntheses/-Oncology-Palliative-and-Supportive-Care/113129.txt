@@ -1,0 +1,22 @@
+Date de publication : 2024-05-01
+
+# 📝 Prévention et gestion de l'ostéoradionécrose chez les patients atteints de cancer de la tête et du cou traités par radiothérapie
+
+## 📌 Contexte & Problématique
+Développement de recommandations fondées sur des preuves pour prévenir et gérer l'ostéoradionécrose (ORN) mandibulaire secondaire à la radiothérapie cervico-faciale chez les patients cancéreux.
+
+## 🧪 Méthodologie
+Un panel multidisciplinaire ISOO-MASCC-ASCO a évalué les données probantes issues de PubMed, EMBASE et Cochrane (2009-2023), complétées par des revues systématiques antérieures (1990-2008). Sur 1539 publications identifiées, 80 ont été retenues pour l'évaluation finale.
+
+## 📊 Résultats clés
+Les recommandations les plus solides concernent les pratiques préventives de l'ORN et la prise en charge chirurgicale. Aucune recommandation n'a été formulée pour la fibrine riche en leucocytes et plaquettes ou la photobiomodulation. L'oxygénothérapie hyperbare reste insuffisamment justifiée par les preuves disponibles.
+
+## 🩺 Impact clinique
+Certaines recommandations reposent sur un consensus informel en raison des limites des preuves. Des ressources supplémentaires sont accessibles sur le site de l'ASCO.
+
+## Revue
+Journal of Clinical Oncology
+
+## 📖 Référence
+2024 Jun 1;42(16):1975-1996. doi: 10.1200/JCO.23.02750. Epub 2024 May 1.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO.23.02750.

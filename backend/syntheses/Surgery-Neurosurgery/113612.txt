@@ -1,0 +1,22 @@
+Date de publication : 2024-06-12
+
+# 📝 Durée optimale de drainage après évacuation d'hématome sous-dural chronique
+
+## 📌 Contexte & Problématique
+La durée optimale de drainage postopératoire après évacuation d'un hématome sous-dural chronique (HSDC) reste incertaine, bien que cette procédure réduise le risque de récidive.
+
+## 🧪 Méthodologie
+Essai randomisé multicentrique danois de non-infériorité comparant trois durées de drainage sous-dural passif (6h, 12h, 24h) chez 347 patients adultes avec HSDC symptomatique traités par trépanation. Critère principal : récidive symptomatique à 3 mois. Marge de non-infériorité : 7%.
+
+## 📊 Résultats clés
+Taux de récidive à 3 mois : 27% (groupe 6h), 20% (groupe 12h) et 10% (groupe 24h). Différence de risque : +16,5 points (IC 95% : 6,5-26,6) entre 6h et 24h, et +9,1 points (IC 95% : -0,4-18,5) entre 12h et 24h. La non-infériorité des drainages courts n'a pas été établie.
+
+## 🩺 Impact clinique
+Un drainage postopératoire de 24h devrait être considéré comme la durée standard pour les patients avec HSDC traités chirurgicalement, offrant un taux de récidive significativement inférieur aux durées plus courtes.
+
+## Revue
+The Lancet Neurology
+
+## 📖 Référence
+2024;23(8):787-796. doi:10.1016/S1474-4422(24)00175-3
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S1474-4422(24)00175-3.

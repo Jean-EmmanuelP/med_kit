@@ -1,19 +1,22 @@
 Date de publication : 2024-04-10
 
-# 📝 AGONISTES DES RÉCEPTEURS DU GLP-1 ET RISQUE DE CANCER THYROÏDIEN : ÉTUDE SCANDINAVE
+# 📝 Agonistes des récepteurs du GLP-1 et risque de cancer thyroïdien : étude scandinave
 
 ## 📌 Contexte & Problématique
-Évaluation du lien potentiel entre l'utilisation des agonistes des récepteurs du GLP-1 et le risque de cancer thyroïdien, suite aux préoccupations de sécurité soulevées pour cette classe médicamenteuse.
+Évaluation de l'association potentielle entre l'utilisation d'agonistes des récepteurs du peptide-1 similaire au glucagon (GLP-1) et le risque de cancer thyroïdien.
 
 ## 🧪 Méthodologie
-Étude de cohorte dans trois pays scandinaves (2007-2021) comparant 145 410 nouveaux utilisateurs d'agonistes GLP-1 à 291 667 utilisateurs d'inhibiteurs DPP-4. Suivi moyen de 3,9 ans. Régression de Cox avec pondération par score de propension.
+Étude de cohorte dans trois pays scandinaves (2007-2021) comparant des patients sous agonistes GLP-1 à ceux sous inhibiteurs de la dipeptidyl peptidase 4 (DPP-4) et inhibiteurs du cotransporteur sodium-glucose de type 2 (SGLT2). Analyse par régression de Cox avec pondération des scores de propension.
 
 ## 📊 Résultats clés
-Incidence du cancer thyroïdien : 1,33/10 000 personnes-années (GLP-1) vs 1,46/10 000 personnes-années (DPP-4). Rapport de risque : 0,93 (IC 95% : 0,66-1,31). Pour le cancer médullaire : HR=1,19 (IC 95% : 0,37-3,86).
+Sur 145 410 patients sous agonistes GLP-1 (suivi moyen 3,9 ans), 76 ont développé un cancer thyroïdien (1,33/10 000 personnes-années) contre 184 cas parmi 291 667 patients sous inhibiteurs DPP-4 (1,46/10 000 personnes-années). Rapport de risque : 0,93 (IC 95% : 0,66-1,31). Comparaison avec inhibiteurs SGLT2 : rapport de risque 1,16 (IC 95% : 0,65-2,05).
 
 ## 🩺 Impact clinique
-Absence d'association significative entre agonistes GLP-1 et risque de cancer thyroïdien. La limite supérieure de l'IC suggère que toute augmentation potentielle du risque relatif ne dépasserait pas 31%.
+L'utilisation d'agonistes GLP-1 n'est pas associée à un risque significativement accru de cancer thyroïdien sur un suivi moyen de 3,9 ans, avec une augmentation maximale possible du risque relatif de 31%.
+
+## Revue
+BMJ
 
 ## 📖 Référence
-Pasternak B, Wintzell V, Hviid A, et al. BMJ. 2024;385:e078225.
+2024;385:e078225. doi: 10.1136/bmj-2023-078225
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1136/bmj-2023-078225.

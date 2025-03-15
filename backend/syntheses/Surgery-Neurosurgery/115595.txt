@@ -1,0 +1,22 @@
+Date de publication : 2025-01-17
+
+# 📝 Thrombolyse pour l'hémorragie sous-arachnoïdienne anévrismale
+
+## 📌 Contexte & Problématique
+L'hémorragie sous-arachnoïdienne anévrismale (HSA) reste associée à une morbi-mortalité importante. La thrombolyse locale pourrait améliorer le pronostic en réduisant les complications vasculaires secondaires.
+
+## 🧪 Méthodologie
+Revue systématique Cochrane incluant 8 essais contrôlés randomisés (410 participants) comparant la thrombolyse sous-arachnoïdienne versus placebo ou traitement standard. Recherche dans les bases Cochrane, MEDLINE et Embase jusqu'en mars 2023.
+
+## 📊 Résultats clés
+La thrombolyse réduit probablement les mauvais résultats fonctionnels (29,4% vs 39,7%, RR 0,73, IC 95% 0,56-0,94; certitude modérée) et le vasospasme des artères cérébrales (32,9% vs 47,6%, RR 0,70, IC 95% 0,54-0,91). Elle pourrait réduire l'ischémie cérébrale retardée (23,8% vs 38,2%, RR 0,62, IC 95% 0,45-0,88), sans augmentation significative des complications hémorragiques (10,3% vs 7,2%).
+
+## 🩺 Impact clinique
+La thrombolyse représente une option thérapeutique prometteuse pour améliorer le pronostic fonctionnel post-HSA, principalement en réduisant les complications vasculaires. Des études supplémentaires sont nécessaires pour confirmer ces résultats préliminaires.
+
+## Revue
+Cochrane Database of Systematic Reviews
+
+## 📖 Référence
+2025 Jan 17;1(1):CD013748. doi: 10.1002/14651858.CD013748.pub2.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1002/14651858.CD013748.pub2.

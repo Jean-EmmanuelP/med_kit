@@ -1,19 +1,22 @@
 Date de publication : 2024-09-18
 
-# 📝 Atezolizumab avec platine et niraparib dans le cancer ovarien récidivant : essai ENGOT-OV41/GEICO 69-O/ANITA
+# 📝 Atezolizumab avec platine et niraparib dans le cancer ovarien récidivant à rechute tardive
 
 ## 📌 Contexte & Problématique
-Évaluation de l'atezolizumab combiné à une chimiothérapie à base de platine suivie de niraparib d'entretien dans le cancer ovarien récidivant avec intervalle sans platine >6 mois.
+Évaluation de l'ajout d'atezolizumab à une chimiothérapie à base de platine suivie d'un traitement d'entretien par niraparib dans le cancer de l'ovaire récidivant avec intervalle sans platine >6 mois.
 
 ## 🧪 Méthodologie
-Essai de phase III randomisé, double aveugle, contrôlé par placebo. 417 patientes atteintes de cancer ovarien récidivant (15% BRCA+, 36% PD-L1+) randomisées 1:1 pour recevoir atezolizumab ou placebo avec 6 cycles de doublet de carboplatine puis niraparib d'entretien jusqu'à progression.
+Essai ENGOT-OV41/GEICO 69-O/ANITA : étude randomisée de phase III, en double aveugle, comparant atezolizumab versus placebo combiné à 6 cycles de doublet de carboplatine puis niraparib en entretien. 417 patientes randomisées (15% BRCA-mutées, 36% PD-L1+). Critère principal : survie sans progression (SSP).
 
 ## 📊 Résultats clés
-Après suivi médian de 28,6 mois, l'atezolizumab n'a pas amélioré significativement la SSP (HR=0,89; IC 95%: 0,71-1,10; p=0,28). SSP médiane: 11,2 mois (atezolizumab) vs 10,1 mois (standard). Taux de réponse: 45% vs 43%. Résultats similaires dans tous les sous-groupes, y compris selon statut PD-L1.
+Après suivi médian de 28,6 mois, l'atezolizumab n'a pas significativement amélioré la SSP (HR=0,89 [IC 95% : 0,71-1,10], p=0,28). SSP médiane : 11,2 mois (atezolizumab) vs 10,1 mois (standard). Taux de réponse objective : 45% vs 43%. Profil de sécurité conforme aux attentes.
 
 ## 🩺 Impact clinique
-L'ajout d'atezolizumab au traitement standard n'apporte pas de bénéfice clinique significatif pour ces patientes. Le profil de sécurité reste conforme aux données connues.
+L'ajout d'atezolizumab à la chimiothérapie standard suivie de niraparib n'apporte pas de bénéfice cliniquement significatif dans cette population, y compris dans les sous-groupes PD-L1+.
+
+## Revue
+Journal of Clinical Oncology
 
 ## 📖 Référence
-Gonzalez-Martin A, Rubio MJ, Heitz F, et al. J Clin Oncol. 2024;42(36):4294-4304.
+2024;42(36):4294-4304. doi:10.1200/JCO.24.00668. Epub 2024 Sep 18.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO.24.00668.

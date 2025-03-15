@@ -1,0 +1,22 @@
+Date de publication : 2024-03-13
+
+# 📝 Efficacité et sécurité de l'acide tranexamique dans les traumatismes crâniens aigus
+
+## 📌 Contexte & Problématique
+L'efficacité de l'acide tranexamique (ATX) dans la réduction de la mortalité et la limitation des hémorragies intracrâniennes (HIC) lors des traumatismes crâniens (TC) reste controversée.
+
+## 🧪 Méthodologie
+Méta-analyse de 11 essais contrôlés randomisés comparant l'ATX au placebo chez 11 299 adultes atteints de TC, avec recherche systématique dans PubMed, EMBASE, Cochrane Library et Web of Science jusqu'en septembre 2023.
+
+## 📊 Résultats clés
+L'ATX n'a pas significativement réduit la mortalité (RR 0,93 [0,86-1,00], p=0,06) ni les résultats cliniques défavorables. Cependant, il a diminué le taux d'expansion hémorragique (RR 0,83 [0,70-0,99], p=0,03) et le volume moyen d'hémorragie, particulièrement lorsqu'administré dans les 3 heures suivant le traumatisme (DMS -0,51 [-0,81, -0,20], p=0,001).
+
+## 🩺 Impact clinique
+Bien que l'ATX n'augmente pas le risque d'événements indésirables, son application clinique reste limitée par l'absence d'effet sur la mortalité. L'administration précoce (<3h) pourrait néanmoins réduire la progression des HIC chez les patients traumatisés crâniens.
+
+## Revue
+American Journal of Emergency Medicine
+
+## 📖 Référence
+2024;80:35-43. doi:10.1016/j.ajem.2024.03.005
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.ajem.2024.03.005.

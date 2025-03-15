@@ -1,0 +1,22 @@
+Date de publication : 2024-07-23
+
+# 📝 Valves aortiques sans suture : une option "sans fil" pour les patients atteints de valvulopathie aortique
+
+## 📌 Contexte & Problématique
+Les technologies transcathéter ont élargi les indications de traitement de la sténose aortique. En parallèle, des valves chirurgicales sans suture ont été développées pour réduire la durée de circulation extracorporelle (CEC) et simplifier l'implantation.
+
+## 🧪 Méthodologie
+Revue systématique comparant les valves sans suture au remplacement valvulaire aortique chirurgical conventionnel (RVAC) et au remplacement valvulaire aortique par voie transcathéter (TAVI).
+
+## 📊 Résultats clés
+Les valves sans suture combinent un stent exerçant une force radiale (similaire au TAVI) et des manchettes améliorant l'étanchéité et réduisant les fuites paravalvulaires. Leur avantage réel par rapport au RVAC traditionnel ou au TAVI reste cependant débattu.
+
+## 🩺 Impact clinique
+Ces valves représentent une option intermédiaire entre TAVI et RVAC conventionnel, potentiellement bénéfique pour certains patients, mais nécessitant une évaluation plus approfondie pour définir précisément leur place dans l'arsenal thérapeutique.
+
+## Revue
+J Am Coll Cardiol
+
+## 📖 Référence
+2024;84(4):382-407. doi:10.1016/j.jacc.2024.05.031
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.jacc.2024.05.031.

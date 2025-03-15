@@ -1,19 +1,22 @@
 Date de publication : 2024-04-07
 
-# 📝 Inhibiteurs SGLT2 et événements cardiovasculaires majeurs : méta-analyse collaborative
+# 📝 Inhibiteurs SGLT2 et événements cardiovasculaires majeurs : méta-analyse collaborative SMART-C
 
 ## 📌 Contexte & Problématique
-Les effets des inhibiteurs SGLT2 sur les événements cardiovasculaires majeurs (MACE) restent incertains selon les populations de patients, malgré leurs bénéfices établis sur l'insuffisance cardiaque et les maladies rénales.
+Les inhibiteurs du cotransporteur sodium-glucose de type 2 (SGLT2i) améliorent les résultats d'insuffisance cardiaque et rénale, mais leurs effets sur les événements cardiovasculaires majeurs (MACE) restent à clarifier dans diverses populations.
 
 ## 🧪 Méthodologie
-Méta-analyse collaborative incluant 11 essais de phase 3 contrôlés par placebo (n=78 607) chez trois populations : diabétiques à haut risque cardiovasculaire, patients avec insuffisance cardiaque ou maladie rénale chronique.
+Méta-analyse collaborative incluant 11 essais de phase 3 contrôlés par placebo (78 607 patients) répartis en trois populations : diabétiques à haut risque cardiovasculaire, insuffisance cardiaque (IC) et maladie rénale chronique.
 
 ## 📊 Résultats clés
-Les SGLT2i réduisent les MACE de 9% (HR 0,91 [0,87-0,96], p<0,0001), principalement via une diminution des décès cardiovasculaires (HR 0,86 [0,81-0,92]), notamment des décès par insuffisance cardiaque et morts subites cardiaques. Aucun effet significatif sur les infarctus du myocarde (HR 0,95 [0,87-1,04]) ni sur les AVC (HR 0,99 [0,91-1,07]). Bénéfice constant dans tous les sous-groupes.
+Les SGLT2i ont réduit les MACE de 9% (HR 0,91 [IC 95% 0,87-0,96], p<0,0001), principalement par réduction des décès cardiovasculaires (HR 0,86 [0,81-0,92]), notamment décès par IC et morts subites. Aucun effet significatif sur l'infarctus du myocarde ou les AVC. Bénéfice constant dans tous les sous-groupes, potentiellement plus marqué chez les patients avec albuminurie.
 
 ## 🩺 Impact clinique
-Les SGLT2i réduisent les MACE indépendamment de la présence d'athérosclérose, de diabète ou de la fonction rénale, guidant leur utilisation dans le spectre des maladies cardio-rénales-métaboliques.
+Les SGLT2i réduisent les MACE indépendamment de la maladie cardiovasculaire athéroscléreuse, du diabète ou de la fonction rénale, guidant leur utilisation dans le spectre des maladies cardio-rénales-métaboliques.
+
+## Revue
+Circulation
 
 ## 📖 Référence
-Patel SM, Kang YM, Im K, et al. Circulation. 2024;149(23):1789-1801.
+2024;149(23):1789-1801. doi:10.1161/CIRCULATIONAHA.124.069568. Epub 2024 Apr 7.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1161/CIRCULATIONAHA.124.069568.

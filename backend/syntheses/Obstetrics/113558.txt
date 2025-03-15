@@ -1,0 +1,22 @@
+Date de publication : 2024-06-10
+
+# 📝 Optimisation de la prescription d'opioïdes après césarienne : essai contrôlé randomisé
+
+## 📌 Contexte & Problématique
+La prescription d'opioïdes après césarienne nécessite un équilibre entre gestion efficace de la douleur et minimisation des risques. Cette étude évalue si un protocole de prescription d'opioïdes individualisé (PPOI) avec prise de décision partagée peut maintenir une analgésie adéquate tout en réduisant la quantité prescrite.
+
+## 🧪 Méthodologie
+Essai contrôlé randomisé multicentrique de non-infériorité incluant 5 521 femmes après césarienne non compliquée, réparties entre PPOI avec prise de décision partagée (n=2 748) ou prescription fixe de 20 comprimés d'oxycodone 5 mg (n=2 773). Le critère principal était la douleur modérée à sévère (≥4/10) sur le BPI (Brief Pain Inventory) une semaine après la sortie.
+
+## 📊 Résultats clés
+Le PPOI n'était pas inférieur à la prescription fixe pour le contrôle de la douleur (59,5% vs 60,1%, différence 0,67%, IC 95% -2,03% à 3,37%). Le groupe PPOI a reçu significativement moins de comprimés (médiane 14 vs 20, p<0,001).
+
+## 🩺 Impact clinique
+L'approche individualisée avec prise de décision partagée permet de réduire la quantité d'opioïdes prescrits après césarienne sans compromettre le contrôle de la douleur, contribuant potentiellement à limiter la circulation d'opioïdes inutilisés.
+
+## Revue
+Obstetrics & Gynecology
+
+## 📖 Référence
+2024;144(2):195-205. doi:10.1097/AOG.0000000000005649
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1097/AOG.0000000000005649.

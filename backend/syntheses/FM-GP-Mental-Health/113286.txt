@@ -1,19 +1,22 @@
 Date de publication : 2024-05-01
 
-# 📝 Efficacité d'une auto-assistance en ligne pour l'hyperphagie boulimique : essai clinique randomisé
+# 📝 Efficacité d'une auto-assistance cognitive comportementale en ligne pour l'hyperphagie boulimique
 
 ## 📌 Contexte & Problématique
-L'hyperphagie boulimique (BED) est fréquente mais l'accès aux soins spécialisés reste limité. Les interventions d'auto-assistance en ligne pourraient améliorer l'accessibilité des traitements.
+L'hyperphagie boulimique (HB) est un trouble alimentaire fréquent causant une détresse significative. L'accès aux soins spécialisés reste limité, rendant nécessaire le développement d'alternatives accessibles comme les interventions d'auto-assistance en ligne.
 
 ## 🧪 Méthodologie
-Essai clinique randomisé (2021-2022) incluant 154 patients (âge moyen 35,93 ans, 96,10% femmes) souffrant d'hyperphagie boulimique. Comparaison entre une intervention d'auto-assistance cognitive comportementale en ligne (n=77) et une liste d'attente (n=77).
+Essai clinique randomisé à deux bras mené de janvier 2021 à août 2022 en Allemagne et pays germanophones. 154 participants (âge moyen 35,93 ans, 96,10% femmes) souffrant d'HB ont été assignés soit à une intervention d'auto-assistance en ligne (n=77), soit à une liste d'attente (n=77).
 
 ## 📊 Résultats clés
-L'intervention a significativement réduit les épisodes d'hyperphagie (d=-0,79; p<0,001) et la psychopathologie alimentaire globale (d=-0,71; p<0,001). Améliorations significatives de l'altération clinique (d=-0,75), du bien-être (d=0,38), de la dépression (d=-0,49), de l'anxiété (d=-0,37) et de l'estime de soi (d=0,36).
+L'intervention a significativement réduit les épisodes d'hyperphagie (d=-0,79; p<0,001) et amélioré la psychopathologie alimentaire globale (d=-0,71; p<0,001). Des améliorations ont également été observées pour la dépression (d=-0,49; p=0,01), l'anxiété (d=-0,37; p=0,02), l'estime de soi (d=0,36; p=0,003) et la régulation émotionnelle.
 
 ## 🩺 Impact clinique
-Cette intervention d'auto-assistance en ligne constitue une solution efficace et évolutive pour traiter l'hyperphagie boulimique, permettant de combler le déficit thérapeutique actuel.
+Cette intervention d'auto-assistance en ligne représente une solution évolutive pour combler le déficit de traitement de l'HB, offrant une alternative efficace et accessible aux thérapies traditionnelles.
+
+## Revue
+JAMA Network Open
 
 ## 📖 Référence
-Pruessner L, Timm C, Barnow S, et al. Effectiveness of a Web-Based Cognitive Behavioral Self-Help Intervention for Binge Eating Disorder: A Randomized Clinical Trial. JAMA Netw Open. 2024;7(5):e2411127.
+2024;7(5):e2411127. doi:10.1001/jamanetworkopen.2024.11127
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamanetworkopen.2024.11127.

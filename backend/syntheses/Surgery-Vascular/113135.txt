@@ -1,0 +1,22 @@
+Date de publication : 2024-05-09
+
+# 📝 Thrombectomie pour AVC avec infarctus étendu de taille non restreinte
+
+## 📌 Contexte & Problématique
+L'efficacité de la thrombectomie dans les AVC aigus avec infarctus étendu (score ASPECTS ≤5) restait peu documentée.
+
+## 🧪 Méthodologie
+Essai randomisé comparant thrombectomie endovasculaire + soins médicaux vs soins médicaux seuls chez 333 patients avec occlusion vasculaire cérébrale proximale antérieure et infarctus étendu, dans les 6,5h après l'apparition des symptômes. Critère principal : score de Rankin modifié à 90 jours.
+
+## 📊 Résultats clés
+Score médian de Rankin à 90 jours : 4 (groupe thrombectomie) vs 6 (groupe témoin) [rapport de cotes 1,63; IC 95%, 1,29-2,06; p<0,001]. Mortalité à 90 jours : 36,1% vs 55,5% (RR ajusté 0,65). Hémorragie intracérébrale symptomatique : 9,6% vs 5,7% (RR ajusté 1,73).
+
+## 🩺 Impact clinique
+La thrombectomie améliore significativement les résultats fonctionnels et réduit la mortalité chez les patients avec infarctus étendu, malgré un risque accru d'hémorragie intracérébrale symptomatique.
+
+## Revue
+New England Journal of Medicine
+
+## 📖 Référence
+2024;390(18):1677-1689. doi:10.1056/NEJMoa2314063. NCT03811769.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2314063.

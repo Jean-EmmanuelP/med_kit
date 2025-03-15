@@ -1,0 +1,22 @@
+Date de publication : 2024-08-27
+
+# 📝 Effet de l'ensifentrine sur le taux et le risque d'exacerbations chez les patients atteints de BPCO modérée à sévère
+
+## 📌 Contexte & Problématique
+Les exacerbations de BPCO (Bronchopneumopathie Chronique Obstructive) compromettent la fonction pulmonaire et la qualité de vie des patients. L'ensifentrine, inhibiteur dual des phosphodiestérases 3 et 4, présente des propriétés anti-inflammatoires et bronchodilatatrices potentiellement bénéfiques.
+
+## 🧪 Méthodologie
+Analyse groupée préspécifiée des essais ENHANCE-1 et ENHANCE-2 incluant des patients (40-80 ans) atteints de BPCO modérée à sévère recevant 3 mg d'ensifentrine deux fois par jour ou un placebo pendant 24 semaines.
+
+## 📊 Résultats clés
+L'ensifentrine a significativement réduit le taux (ratio 0,59; IC 95%, 0,43-0,80; p<0,001) et le risque (HR 0,59; IC 95%, 0,44-0,81; p<0,001) d'exacerbations modérées à sévères comparativement au placebo. Ces bénéfices étaient cohérents dans tous les sous-groupes, indépendamment de l'âge, du sexe, des traitements concomitants et des antécédents d'exacerbations.
+
+## 🩺 Impact clinique
+L'ensifentrine représente une option thérapeutique prometteuse pour réduire la fréquence des exacerbations et prolonger le délai jusqu'à la première exacerbation chez un large éventail de patients atteints de BPCO.
+
+## Revue
+Chest
+
+## 📖 Référence
+2025;167(2):425-435. doi:10.1016/j.chest.2024.07.168
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.chest.2024.07.168.

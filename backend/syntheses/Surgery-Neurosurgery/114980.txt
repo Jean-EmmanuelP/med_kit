@@ -1,0 +1,22 @@
+Date de publication : 2024-11-21
+
+# 📝 Embolisation de l'artère méningée moyenne pour l'hématome sous-dural non aigu
+
+## 📌 Contexte & Problématique
+L'efficacité de l'embolisation de l'artère méningée moyenne (EAMM) chez les patients présentant un hématome sous-dural (HSD) subaigu ou chronique reste incertaine.
+
+## 🧪 Méthodologie
+Essai multicentrique randomisé chinois incluant 722 patients avec HSD non aigu symptomatique (360 dans le groupe EAMM, 362 en soins habituels). 78,3% des patients ont subi un drainage par trou de trépan. Critère principal : récidive symptomatique ou progression de l'HSD à 90 jours.
+
+## 📊 Résultats clés
+Récidive/progression à 90 jours : 6,7% (groupe EAMM) vs 9,9% (soins habituels), différence non significative (-3,3%, IC 95% : -7,4 à 0,8; p=0,10). Événements indésirables graves significativement réduits dans le groupe EAMM (6,7% vs 11,6%, p=0,02).
+
+## 🩺 Impact clinique
+Bien que l'EAMM n'ait pas démontré de supériorité significative pour prévenir la récidive/progression de l'HSD non aigu, elle est associée à une réduction des complications graves, suggérant un profil de sécurité favorable.
+
+## Revue
+New England Journal of Medicine
+
+## 📖 Référence
+2024;391(20):1901-1912. doi:10.1056/NEJMoa2401201. NCT04700345.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2401201.

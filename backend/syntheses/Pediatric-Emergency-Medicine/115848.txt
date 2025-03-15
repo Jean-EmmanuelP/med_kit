@@ -1,0 +1,22 @@
+Date de publication : 2025-02-11
+
+# 📝 Analgésie topique lors des procédures avec aiguilles chez l'enfant : guide de pratique clinique
+
+## 📌 Contexte & Problématique
+Les enfants subissent fréquemment des procédures impliquant des aiguilles (ponction veineuse, canulation, accès aux chambres implantables). L'analgésie topique peut réduire la douleur associée, mais il existe une incertitude quant au choix entre le mélange eutectique d'analgésiques topiques (EMLA) ou les crèmes à base de tétracaïne (ex. Rapydan).
+
+## 🧪 Méthodologie
+Un panel multidisciplinaire de 16 professionnels et représentants de patients néerlandais a réalisé une revue systématique avec méta-analyses. La méthodologie GRADE a été utilisée pour évaluer les preuves et formuler des recommandations.
+
+## 📊 Résultats clés
+Dix essais contrôlés randomisés (1808 enfants) ont été analysés. L'EMLA est recommandé avec une application minimale de 60 minutes (recommandation forte, preuves de très faible qualité). Les crèmes à base de tétracaïne sont suggérées uniquement pour les procédures rapides (30-60 minutes) (recommandation faible, preuves de très faible qualité).
+
+## 🩺 Impact clinique
+Ces recommandations visent à réduire la douleur procédurale et à améliorer la qualité des soins pédiatriques en standardisant l'utilisation des analgésiques topiques.
+
+## Revue
+Archives of Disease in Childhood
+
+## 📖 Référence
+2025 Feb 11:archdischild-2024-326917. doi: 10.1136/archdischild-2024-326917.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1136/archdischild-2024-326917.

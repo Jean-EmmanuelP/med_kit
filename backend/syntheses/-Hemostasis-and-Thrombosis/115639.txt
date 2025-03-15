@@ -1,19 +1,22 @@
 Date de publication : 2025-02-01
 
-# 📝 APIXABAN VERSUS ASPIRINE DANS LA FIBRILLATION ATRIALE INFRACLINIQUE CHEZ LES PATIENTS AVEC ANTÉCÉDENTS D'AVC/AIT
+# 📝 Apixaban versus aspirine pour la prévention des AVC chez les patients avec fibrillation atriale infraclinique et antécédents d'AVC/AIT
 
 ## 📌 Contexte & Problématique
-La fibrillation atriale infraclinique augmente le risque d'AVC, mais le bénéfice de l'anticoagulation reste débattu. Cette analyse de sous-groupe d'ARTESiA évalue l'efficacité de l'apixaban chez les patients avec antécédents d'AVC/AIT.
+L'utilité de l'anticoagulation chez les patients avec fibrillation atriale infraclinique (FASC) reste débattue. Cette analyse en sous-groupe de l'essai ARTESiA évalue spécifiquement l'efficacité de l'apixaban versus aspirine chez les patients avec FASC et antécédents d'AVC/AIT (accident ischémique transitoire).
 
 ## 🧪 Méthodologie
-Essai randomisé contrôlé en double aveugle comparant apixaban 5mg bid versus aspirine 81mg/j chez 4012 adultes ≥55 ans avec fibrillation atriale infraclinique (6min-24h) et CHA₂DS₂-VASc ≥3. Sous-groupe de 346 patients (8,6%) avec antécédents d'AVC/AIT.
+Essai randomisé contrôlé en double aveugle incluant 4012 adultes ≥55 ans avec FASC (6min-24h) et score CHA₂DS₂-VASc ≥3. Comparaison: apixaban 5mg bid versus aspirine 81mg/j. Analyse en sous-groupe des 346 patients (8,6%) avec antécédents d'AVC/AIT.
 
 ## 📊 Résultats clés
-Chez les patients avec antécédents d'AVC/AIT, l'apixaban a réduit le taux annuel d'AVC/embolie systémique (1,20% vs 3,14%; HR 0,40 [0,17-0,95]) avec réduction du risque absolu de 7% à 3,5 ans. Le taux d'hémorragie majeure était de 2,26% vs 1,16% (HR 1,94 [0,77-4,87]), soit une augmentation du risque absolu de 3%.
+Chez les patients avec antécédents d'AVC/AIT: taux annuel d'AVC/embolie systémique de 1,20% sous apixaban versus 3,14% sous aspirine (HR=0,40; IC95%:0,17-0,95), soit une réduction du risque absolu de 7% à 3,5 ans. Taux de saignement majeur: 2,26% versus 1,16% (augmentation absolue de 3%).
 
 ## 🩺 Impact clinique
-L'apixaban montre un bénéfice clinique net favorable pour la prévention secondaire des AVC chez les patients avec fibrillation atriale infraclinique et antécédents d'AVC/AIT, avec une réduction significative du risque d'événements thromboemboliques malgré une augmentation modérée du risque hémorragique.
+L'apixaban montre un bénéfice clinique net favorable pour la prévention secondaire des AVC chez les patients avec FASC et antécédents d'AVC/AIT, avec une réduction significative du risque d'événements thromboemboliques malgré une augmentation modérée du risque hémorragique.
+
+## Revue
+Lancet Neurology
 
 ## 📖 Référence
-Shoamanesh A, Field TS, Coutts SB, et al. Lancet Neurol. 2025;24(2):140-151.
+2025 Feb;24(2):140-151. doi: 10.1016/S1474-4422(24)00475-7.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S1474-4422(24)00475-7.

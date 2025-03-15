@@ -1,0 +1,26 @@
+Date de publication : 2024-08-01
+
+# 📝 Sorafénib + TACE vs TACE seule dans le CHC intermédiaire récurrent
+
+## 📌 Contexte & Problématique
+Le carcinome hépatocellulaire (CHC) de stade intermédiaire récurrent avec invasion microvasculaire (IMV) positive présente des résultats limités avec la chimioembolisation transartérielle (TACE) seule. L'association sorafénib-TACE (SOR-TACE) pourrait améliorer la survie.
+
+## 🧪 Méthodologie
+Essai clinique randomisé de phase 3, ouvert, multicentrique en Chine (2019-2021) comparant SOR-TACE vs TACE seule chez 162 patients (93,2% hommes) avec CHC intermédiaire récurrent post-hépatectomie R0 avec IMV positive. Groupe SOR-TACE : sorafénib 400mg 2×/jour + TACE à la demande.
+
+## 📊 Résultats clés
+SOR-TACE vs TACE seule :
+- Survie globale médiane : 22,2 vs 15,1 mois (HR 0,55; p<0,001)
+- Survie sans progression : 16,2 vs 11,8 mois (HR 0,54; p<0,001)
+- Taux de réponse objective : 80,2% vs 58,0% (p=0,002)
+- Plus d'événements indésirables avec SOR-TACE, mais bien contrôlés
+
+## 🩺 Impact clinique
+L'association SOR-TACE devrait être privilégiée pour les patients atteints de CHC intermédiaire récurrent après hépatectomie R0 avec IMV positive, offrant un bénéfice significatif de survie.
+
+## Revue
+JAMA Oncology
+
+## 📖 Référence
+2024;10(8):1047-1054. doi:10.1001/jamaoncol.2024.1831. NCT04103398.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamaoncol.2024.1831.

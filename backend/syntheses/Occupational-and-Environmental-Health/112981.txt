@@ -1,19 +1,22 @@
 Date de publication : 2024-04-10
 
-# 📝 Interventions en milieu de travail pour réduire le risque d'infection par le SARS-CoV-2 hors contexte de soins
+# 📝 Interventions en milieu de travail pour réduire le risque d'infection par le SARS-CoV-2 hors des établissements de santé
 
 ## 📌 Contexte & Problématique
-La pandémie de COVID-19 a nécessité des interventions préventives en milieu professionnel. Cette revue systématique évalue l'efficacité des mesures de protection des travailleurs hors secteur de santé selon la hiérarchie des contrôles (élimination, ingénierie, administratif, EPI).
+La pandémie de COVID-19 a nécessité des interventions préventives efficaces en milieu professionnel. Cette revue systématique évalue les interventions non-médicales visant à réduire les infections par le SARS-CoV-2 selon la hiérarchie des contrôles : élimination, contrôles d'ingénierie, contrôles administratifs et équipements de protection individuelle (EPI).
 
 ## 🧪 Méthodologie
-Analyse de 2 études incluant 16 014 participants. Recherche dans CENTRAL, MEDLINE, Embase et autres bases jusqu'au 13/04/2023. Évaluation du risque de biais avec RoB 2 et certitude des preuves avec GRADE.
+Analyse de deux études incluant 16 014 participants. Recherche dans plusieurs bases de données jusqu'au 13 avril 2023. Critères principaux : taux d'incidence d'infection, mortalité liée au SARS-CoV-2, événements indésirables et absentéisme.
 
 ## 📊 Résultats clés
-Une étude (n=24 027) a comparé l'auto-isolement standard de 10 jours à des tests antigéniques quotidiens permettant de travailler si négatifs. Résultats non concluants pour l'infection (RT 1,28, IC 95% 0,74-2,21). Absentéisme : 6,5 vs 5,4/1000 jours ouvrables (RT 0,83, IC 95% 0,55-1,25). Certitude des preuves très faible à faible.
+Une étude (n=24 027) a comparé l'auto-isolement standard de 10 jours à une stratégie de tests antigéniques quotidiens permettant de travailler si négatif. Les résultats étaient non concluants pour le taux d'infection (RT 1,28, IC 95% 0,74-2,21). L'absentéisme était de 6,5/1000 jours dans le groupe témoin contre 5,4/1000 dans le groupe intervention (preuves de faible certitude).
 
 ## 🩺 Impact clinique
-Les données actuelles sont insuffisantes pour déterminer l'efficacité des interventions en milieu de travail contre le SARS-CoV-2. Des études supplémentaires sont nécessaires pour guider les politiques de prévention en entreprise.
+Les preuves actuelles sont insuffisantes pour déterminer l'efficacité des interventions en milieu de travail pour prévenir l'infection par le SARS-CoV-2. Des études supplémentaires sont nécessaires, notamment sur les contrôles d'ingénierie et administratifs.
+
+## Revue
+Cochrane Database of Systematic Reviews
 
 ## 📖 Référence
-Constantin AM, Noertjojo K, Sommer I, et al. Workplace interventions to reduce the risk of SARS-CoV-2 infection outside of healthcare settings. Cochrane Database Syst Rev. 2024;4(4):CD015112.
+2024 Apr 10;4(4):CD015112. doi: 10.1002/14651858.CD015112.pub3.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1002/14651858.CD015112.pub3.

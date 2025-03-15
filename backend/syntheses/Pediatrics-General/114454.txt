@@ -1,0 +1,22 @@
+Date de publication : 2024-11-01
+
+# 📝 Efficacité des interventions numériques ludifiées pour la santé mentale pédiatrique
+
+## 📌 Contexte & Problématique
+L'anxiété, la dépression et le TDAH (trouble du déficit de l'attention avec hyperactivité) touchent jusqu'à 20% des jeunes. Les traitements conventionnels étant souvent inaccessibles, les interventions numériques ludifiées représentent une alternative potentielle.
+
+## 🧪 Méthodologie
+Revue systématique et méta-analyse d'ECR (essais cliniques randomisés) évaluant l'efficacité des INSM (interventions numériques de santé mentale) ludifiées pour le TDAH, la dépression et l'anxiété pédiatriques. Recherche dans PubMed, PsycInfo et Web of Science jusqu'en mars 2024.
+
+## 📊 Résultats clés
+Analyse de 27 ECR (2911 participants) montrant des effets modestes mais significatifs pour le TDAH (g=0,28) et la dépression (g=0,28), mais non significatifs pour l'anxiété (g=0,07). Les INSM pour TDAH sur ordinateur et avec plus de participants masculins montraient une meilleure efficacité. Pour la dépression, les interventions avec limites de temps prédéfinies étaient plus efficaces.
+
+## 🩺 Impact clinique
+Ces résultats offrent aux pédiatres des options innovantes et accessibles pour la prise en charge du TDAH et de la dépression chez les jeunes patients.
+
+## Revue
+JAMA Pediatrics
+
+## 📖 Référence
+2024;178(11):1136-1146. doi:10.1001/jamapediatrics.2024.3139
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamapediatrics.2024.3139.

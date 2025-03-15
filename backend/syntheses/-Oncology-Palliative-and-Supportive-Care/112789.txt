@@ -1,0 +1,22 @@
+Date de publication : 2024-03-22
+
+# 📝 Efficacité des interventions psychosociales brèves basées sur la réminiscence chez les patients cancéreux
+
+## 📌 Contexte & Problématique
+Les patients atteints de cancer souffrent d'une détresse psycho-spirituelle significative affectant leur qualité de vie. Les interventions psychosociales brèves basées sur la réminiscence montrent des effets positifs, mais leur efficacité reste variable.
+
+## 🧪 Méthodologie
+Revue systématique et méta-analyse d'essais contrôlés randomisés (ECR) selon les critères PRISMA. Recherche dans 7 bases de données jusqu'en novembre 2022.
+
+## 📊 Résultats clés
+Analyse de 20 études (1744 participants). Effets statistiquement significatifs sur l'espoir, l'anxiété et la dépression immédiatement après l'intervention. Effets durables observés sur l'espoir, le bien-être spirituel, l'anxiété et la dépression un mois après l'intervention. Aucun effet significatif sur la qualité de vie.
+
+## 🩺 Impact clinique
+Ces interventions devraient être intégrées aux soins de routine des patients cancéreux pour traiter leur détresse psychosociale, réduire l'anxiété et la dépression, et améliorer l'espoir et le bien-être spirituel.
+
+## Revue
+J Clin Nurs
+
+## 📖 Référence
+2024;33(7):2775-2796. doi:10.1111/jocn.17137
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1111/jocn.17137.

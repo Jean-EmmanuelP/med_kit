@@ -1,0 +1,22 @@
+Date de publication : 2024-11-01
+
+# 📝 Clonidine comme monothérapie pour le syndrome de sevrage néonatal aux opioïdes
+
+## 📌 Contexte & Problématique
+Évaluation de l'efficacité de la clonidine, un agoniste α-2-adrénergique non opioïde, comme traitement du syndrome de sevrage néonatal aux opioïdes (SSNO).
+
+## 🧪 Méthodologie
+Essai clinique randomisé incluant 120 nourrissons nécessitant un traitement pharmacologique pour SSNO. Administration de clonidine orale (n=60, 1 µg/kg/dose) ou morphine (n=60, 0,06 mg/kg/dose) toutes les 3 heures, avec augmentation progressive si nécessaire.
+
+## 📊 Résultats clés
+Durée médiane de traitement comparable: 17 jours (clonidine) vs 15 jours (morphine) (p=0,48). Besoin plus fréquent de traitement adjuvant dans le groupe clonidine (45% vs 10%). Performances neurocomportementales similaires après traitement.
+
+## 🩺 Impact clinique
+La clonidine apparaît comme une alternative non opioïde efficace pour le SSNO, avec des résultats neurocomportementaux comparables à la morphine. Optimisation posologique nécessaire pour réduire le recours aux traitements adjuvants.
+
+## Revue
+Pediatrics
+
+## 📖 Référence
+2024;154(5):e2023065610. doi:10.1542/peds.2023-065610
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1542/peds.2023-065610.

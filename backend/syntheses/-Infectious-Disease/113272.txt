@@ -1,19 +1,22 @@
 Date de publication : 2024-05-17
 
-# 📝 Bédaquiline-prétomanide-moxifloxacine-pyrazinamide pour le traitement de la tuberculose pulmonaire sensible et résistante
+# 📝 Bédaquiline-prétomanide-moxifloxacine-pyrazinamide pour le traitement de la tuberculose sensible et résistante
 
 ## 📌 Contexte & Problématique
-Évaluation du régime BPaMZ (bédaquiline, prétomanide, moxifloxacine, pyrazinamide) comme traitement potentiellement plus court pour la tuberculose sensible (DS-TB) et résistante (DR-TB) aux médicaments.
+Le régime BPaMZ (bédaquiline, prétomanide, moxifloxacine, pyrazinamide) présente un potentiel pour raccourcir le traitement de la tuberculose (TB). Cette étude évalue son efficacité et sa sécurité comparé au traitement standard HRZE (isoniazide, rifampicine, pyrazinamide, éthambutol) pour la TB sensible (DS-TB) et résistante (DR-TB).
 
 ## 🧪 Méthodologie
-Essai de phase 2c, multicentrique, partiellement randomisé dans 8 pays. Comparaison de BPaMZ 4 mois versus traitement standard HRZE 6 mois pour DS-TB, et évaluation de BPaMZ 6 mois pour DR-TB. Critère primaire : délai jusqu'à négativation de la culture à 8 semaines.
+Essai de phase 2c, ouvert, partiellement randomisé dans 8 pays. Participants adultes avec TB pulmonaire à frottis positif : 4 mois de BPaMZ vs 6 mois de HRZE pour DS-TB (randomisé 1:1) et 6 mois de BPaMZ pour DR-TB (non randomisé). Critère principal : délai jusqu'à négativation de la culture à 8 semaines.
 
 ## 📊 Résultats clés
-À 8 semaines, 84% des patients DS-TB sous BPaMZ étaient négatifs versus 47% sous HRZE (HR=2,93; p<0,0001). Temps médian de négativation : 6 semaines (BPaMZ) contre 11 semaines (HRZE). Résultats favorables à 52 semaines : 83% (BPaMZ 4 mois) versus 93% (HRZE). Événements hépatiques sévères : 7% (BPaMZ) contre 1% (HRZE).
+À 8 semaines, 84% des patients sous BPaMZ vs 47% sous HRZE étaient négatifs en culture. Temps médian jusqu'à négativation : 6 semaines (BPaMZ) vs 11 semaines (HRZE). À 52 semaines, taux de succès : 83% (BPaMZ 4 mois), 93% (HRZE), 83% (BPaMZ 6 mois). Événements hépatiques indésirables graves : 7% (BPaMZ 4 mois), 1% (HRZE), 5% (BPaMZ 6 mois).
 
 ## 🩺 Impact clinique
-BPaMZ montre une efficacité bactériologique supérieure mais n'atteint pas la non-infériorité à 52 semaines en raison d'effets indésirables hépatiques graves. La toxicité hépatique limite son implémentation dans les contextes à ressources limitées malgré son potentiel pour raccourcir le traitement.
+Malgré l'efficacité bactériologique supérieure, BPaMZ n'a pas atteint la non-infériorité en intention de traiter modifiée en raison d'événements hépatiques indésirables. Le profil de toxicité constitue un obstacle à l'implémentation dans les contextes à ressources limitées.
+
+## Revue
+Lancet Infectious Diseases
 
 ## 📖 Référence
-Cevik M, Thompson LC, Upton C, et al. Lancet Infect Dis. 2024;24(9):1003-1014.
+2024;24(9):1003-1014. doi:10.1016/S1473-3099(24)00223-8
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S1473-3099(24)00223-8.

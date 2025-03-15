@@ -1,19 +1,22 @@
 Date de publication : 2024-02-23
 
-# 📝 Benralizumab versus Mépolizumab dans la Granulomatose Éosinophilique avec Polyangéite
+# 📝 Benralizumab versus Mépolizumab pour la Granulomatose Éosinophilique avec Polyangéite
 
 ## 📌 Contexte & Problématique
-La granulomatose éosinophilique avec polyangéite (GEPA) est une vascularite caractérisée par une inflammation éosinophilique. Le benralizumab, anticorps monoclonal anti-récepteur IL-5α, pourrait offrir une alternative thérapeutique.
+La granulomatose éosinophilique avec polyangéite (GEPA) est une vascularite rare caractérisée par une inflammation éosinophilique. Cette étude évalue si le benralizumab, anticorps monoclonal ciblant le récepteur de l'interleukine-5α, est non-inférieur au mépolizumab dans le traitement de la GEPA.
 
 ## 🧪 Méthodologie
-Essai multicentrique de phase 3, randomisé, en double aveugle, comparant benralizumab (30 mg) et mépolizumab (300 mg) en sous-cutané toutes les 4 semaines pendant 52 semaines chez 140 patients (70 par groupe) atteints de GEPA récidivante/réfractaire.
+Essai de phase 3, randomisé, en double aveugle, multicentrique, comparant benralizumab (30 mg) versus mépolizumab (300 mg) en sous-cutané toutes les 4 semaines pendant 52 semaines chez 140 adultes atteints de GEPA récidivante ou réfractaire.
 
 ## 📊 Résultats clés
-Rémission aux semaines 36 et 48 : 59% (benralizumab) vs 56% (mépolizumab), différence +3% (IC 95% : -13 à 18). Arrêt complet des glucocorticoïdes (semaines 48-52) : 41% vs 26%. Réduction des éosinophiles sanguins à la semaine 52 : 32,4±40,8/μL vs 71,8±54,4/μL. Événements indésirables graves : 6% vs 13%.
+Le taux de rémission aux semaines 36 et 48 était de 59% avec benralizumab contre 56% avec mépolizumab, démontrant la non-infériorité. L'arrêt complet des glucocorticoïdes a été atteint chez 41% des patients sous benralizumab contre 26% sous mépolizumab. Les deux traitements ont significativement réduit les taux d'éosinophiles sanguins.
 
 ## 🩺 Impact clinique
-Le benralizumab est non-inférieur au mépolizumab pour induire la rémission dans la GEPA récidivante/réfractaire, avec un profil de sécurité favorable et une meilleure capacité à permettre l'arrêt des corticoïdes.
+Le benralizumab représente une alternative thérapeutique efficace au mépolizumab pour les patients atteints de GEPA, avec un profil de sécurité comparable et potentiellement un meilleur effet d'épargne cortisonique.
+
+## Revue
+New England Journal of Medicine
 
 ## 📖 Référence
-Wechsler ME, Nair P, Terrier B, et al. Benralizumab versus Mepolizumab for Eosinophilic Granulomatosis with Polyangiitis. N Engl J Med. 2024;390(10):911-921.
+2024;390(10):911-921. doi:10.1056/NEJMoa2311155. Epub 2024 Feb 23.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2311155.

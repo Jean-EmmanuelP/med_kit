@@ -1,0 +1,22 @@
+Date de publication : 2024-11-14
+
+# 📝 Efficacité et sécurité des traitements pour la maladie de Still et le syndrome d'activation macrophagique
+
+## 📌 Contexte & Problématique
+Évaluation systématique des options thérapeutiques pour la maladie de Still et le syndrome d'activation macrophagique (SAM), afin d'informer les recommandations EULAR/PReS.
+
+## 🧪 Méthodologie
+Revue systématique incluant 128 publications : 25 essais contrôlés randomisés (ECR), 1 essai clinique contrôlé, 11 revues systématiques et 91 études observationnelles. Recherche dans Medline, Embase et Cochrane Library. Évaluation du risque de biais avec l'outil Cochrane RoB et AMSTAR-2.
+
+## 📊 Résultats clés
+Pour la maladie de Still, les inhibiteurs de l'interleukine-1 (IL-1i) et de l'IL-6 (IL-6i) montrent une efficacité supérieure (OR pour réponse ARC50 : 6,02 et 8,08 respectivement). L'initiation précoce de ces traitements est associée à des taux élevés de rémission clinique. Pour le SAM, les glucocorticoïdes sont utilisés universellement, souvent en association avec la ciclosporine et/ou l'anakinra, avec des taux de réponse complète de 53-100%. L'émapalumab a montré 93% de réponse complète.
+
+## 🩺 Impact clinique
+Les IL-1i et IL-6i constituent les options les plus efficaces pour la maladie de Still. Pour le SAM, l'inhibition de l'IL-1 et de l'interféron-γ apparaît efficace en complément des glucocorticoïdes à haute dose.
+
+## Revue
+Annals of Rheumatic Diseases
+
+## 📖 Référence
+2024;83(12):1731-1747. doi: 10.1136/ard-2024-225854
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1136/ard-2024-225854.

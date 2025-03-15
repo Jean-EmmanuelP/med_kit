@@ -1,0 +1,26 @@
+Date de publication : 2024-06-03
+
+# 📝 Biosimilaires anti-VEGF pour la dégénérescence maculaire liée à l'âge néovasculaire
+
+## 📌 Contexte & Problématique
+La dégénérescence maculaire liée à l'âge (DMLA) néovasculaire est une cause majeure de perte visuelle. Les traitements anti-facteur de croissance endothélial vasculaire (anti-VEGF) sont efficaces mais coûteux. Les biosimilaires pourraient réduire les coûts tout en maintenant l'efficacité thérapeutique.
+
+## 🧪 Méthodologie
+Revue systématique de 9 essais contrôlés randomisés multicentriques incluant 3814 participants (âge moyen 67-76 ans), comparant des biosimilaires anti-VEGF à leurs produits de référence (ranibizumab ou aflibercept) dans le traitement de la DMLA néovasculaire.
+
+## 📊 Résultats clés
+Aucune différence significative entre biosimilaires et produits de référence concernant:
+- Changement d'acuité visuelle à 8-12 semaines (différence moyenne: -0,55 lettres ETDRS)
+- Proportion de patients perdant moins de 15 lettres à 24-48 semaines (96,6% vs 97,0%)
+- Qualité de vie liée à la vision
+- Événements indésirables oculaires graves (1,4% vs 1,2%)
+
+## 🩺 Impact clinique
+Les biosimilaires anti-VEGF démontrent une efficacité et un profil de sécurité comparables aux produits de référence, offrant une alternative potentiellement plus économique pour le traitement de la DMLA néovasculaire.
+
+## Revue
+Cochrane Database of Systematic Reviews
+
+## 📖 Référence
+2024 Jun 3;6(6):CD015804. doi: 10.1002/14651858.CD015804.pub2.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1002/14651858.CD015804.pub2.

@@ -3,17 +3,20 @@ Date de publication : 2024-03-04
 # 📝 Réduction du temps assis et pression artérielle chez les personnes âgées : essai clinique randomisé
 
 ## 📌 Contexte & Problématique
-Des stratégies pratiques sont nécessaires pour améliorer la santé cardiométabolique des personnes âgées. Cette étude évalue l'efficacité d'une intervention visant à réduire le temps passé assis et son impact sur la pression artérielle.
+Une intervention ciblant la réduction du temps assis pourrait améliorer la santé cardiométabolique des adultes âgés, notamment leur pression artérielle (PA).
 
 ## 🧪 Méthodologie
-Essai clinique randomisé incluant 283 adultes (60-89 ans) avec temps assis élevé et IMC entre 30-50. Groupe intervention (n=140) : coaching santé, bureau debout, tracker d'activité. Groupe contrôle (n=143) : coaching sur vie saine sans focus sur l'activité physique. Suivi sur 6 mois.
+Essai clinique randomisé incluant 283 adultes (60-89 ans) avec temps assis élevé et IMC 30-50. Groupe intervention (n=140) : coaching santé, bureau debout, tracker d'activité et objectifs de réduction du temps assis. Groupe témoin (n=143) : coaching sur la vie saine sans focus sur l'activité physique. Suivi sur 6 mois.
 
 ## 📊 Résultats clés
-Le groupe intervention a réduit son temps assis de 31,44 min/jour à 3 mois (p<0,001) et 31,85 min/jour à 6 mois (p=0,003) comparé au groupe contrôle. La pression artérielle systolique a diminué de 3,48 mmHg (p=0,03) à 6 mois. Aucun événement indésirable lié à l'étude.
+Le groupe intervention a réduit son temps assis de 31,44 min/jour à 3 mois et 31,85 min/jour à 6 mois (p<0,003). La PA systolique a diminué de 3,48 mmHg à 6 mois (p=0,03) par rapport au groupe témoin. Aucun événement indésirable lié à l'étude.
 
 ## 🩺 Impact clinique
-La réduction du temps assis représente une approche prometteuse et sécuritaire pour améliorer la santé cardiovasculaire des adultes âgés, notamment via une diminution significative de la pression artérielle systolique.
+La réduction du temps assis représente une approche prometteuse et sécuritaire pour améliorer la santé cardiovasculaire des adultes âgés, avec des bénéfices significatifs sur la PA systolique.
+
+## Revue
+JAMA Network Open
 
 ## 📖 Référence
-Rosenberg DE, Zhu W, Greenwood-Hickman MA, et al. Sitting Time Reduction and Blood Pressure in Older Adults: A Randomized Clinical Trial. JAMA Netw Open. 2024;7(3):e243234.
+2024;7(3):e243234. doi:10.1001/jamanetworkopen.2024.3234
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamanetworkopen.2024.3234.

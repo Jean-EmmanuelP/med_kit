@@ -1,0 +1,22 @@
+Date de publication : 2024-04-17
+
+# 📝 Antipsychotiques et risques multiples chez les patients atteints de démence
+
+## 📌 Contexte & Problématique
+Évaluation des risques d'effets indésirables associés aux antipsychotiques chez les personnes atteintes de démence, au-delà des alertes réglementaires existantes.
+
+## 🧪 Méthodologie
+Étude de cohorte appariée basée sur les données CPRD (Clinical Practice Research Datalink) en Angleterre incluant 173 910 adultes (≥50 ans) atteints de démence. 35 339 nouveaux utilisateurs d'antipsychotiques ont été appariés avec jusqu'à 15 non-utilisateurs.
+
+## 📊 Résultats clés
+L'utilisation d'antipsychotiques était associée à des risques significativement accrus de pneumonie (RR 2,19), d'insuffisance rénale aiguë (RR 1,72), de thromboembolie veineuse (RR 1,62), d'AVC (RR 1,61), de fracture (RR 1,43), d'infarctus du myocarde (RR 1,28) et d'insuffisance cardiaque (RR 1,27). Les risques étaient particulièrement élevés dans les 90 jours suivant l'initiation du traitement.
+
+## 🩺 Impact clinique
+Cette étude révèle une gamme d'effets indésirables plus large que celle précédemment identifiée dans les alertes réglementaires. La période suivant l'initiation du traitement représente une phase à risque particulièrement élevé nécessitant une surveillance accrue.
+
+## Revue
+BMJ
+
+## 📖 Référence
+2024;385:e076268. doi: 10.1136/bmj-2023-076268.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1136/bmj-2023-076268.

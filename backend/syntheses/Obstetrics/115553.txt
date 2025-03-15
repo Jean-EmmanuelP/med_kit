@@ -1,0 +1,22 @@
+Date de publication : 2025-01-12
+
+# 📝 L-Arginine et L-Citrulline dans la prévention et le traitement de la pré-éclampsie : revue systématique et méta-analyse
+
+## 📌 Contexte & Problématique
+La L-arginine pourrait réduire la pré-éclampsie et ses complications, mais les modalités optimales d'utilisation (prévention ou traitement) restent incertaines.
+
+## 🧪 Méthodologie
+Revue systématique et méta-analyse d'essais cliniques (jusqu'à février 2024) évaluant la L-arginine ou L-citrulline chez les femmes enceintes, avec analyses distinctes pour la prévention et le traitement.
+
+## 📊 Résultats clés
+Analyse de 20 ECR (essais contrôlés randomisés) et 3 essais non randomisés. En prévention, la L-arginine réduit le risque de pré-éclampsie (RR 0,52; IC 95%, 0,35-0,78) et de pré-éclampsie sévère (RR 0,23; IC 95%, 0,09-0,55). En traitement, elle pourrait diminuer la pression artérielle systolique (-5,64 mmHg) et le retard de croissance fœtale (RR 0,46).
+
+## 🩺 Impact clinique
+Résultats prometteurs mais à interpréter avec prudence (preuves de faible certitude). Nécessité d'études supplémentaires pour déterminer la posologie et le moment optimal d'initiation.
+
+## Revue
+BJOG
+
+## 📖 Référence
+2025 Jan 12. doi: 10.1111/1471-0528.18070.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1111/1471-0528.18070.

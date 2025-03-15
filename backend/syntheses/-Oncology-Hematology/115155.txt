@@ -1,0 +1,22 @@
+Date de publication : 2024-12-07
+
+# 📝 Blinatumomab dans la LAL-B à risque standard chez l'enfant
+
+## 📌 Contexte & Problématique
+La leucémie aiguë lymphoblastique à cellules B (LAL-B) est le cancer pédiatrique le plus fréquent. Cette étude évalue l'ajout du blinatumomab, une molécule engageant les lymphocytes T bispécifique anti-CD19 et anti-CD3, au traitement standard des LAL-B à risque standard nouvellement diagnostiquées.
+
+## 🧪 Méthodologie
+Essai clinique de phase 3 randomisé incluant des enfants atteints de LAL-B à risque standard avec risque moyen ou élevé de récidive, comparant chimiothérapie seule versus chimiothérapie plus deux cycles de blinatumomab de 28 jours.
+
+## 📊 Résultats clés
+Avec un suivi médian de 2,5 ans, la survie sans maladie à 3 ans était de 96,0±1,2% avec blinatumomab+chimiothérapie contre 87,9±2,1% avec chimiothérapie seule (p<0,001). L'amélioration était observée tant chez les patients à risque moyen (97,5% vs 90,2%) que chez ceux à risque élevé (94,1% vs 84,8%).
+
+## 🩺 Impact clinique
+L'ajout du blinatumomab améliore significativement la survie sans maladie chez les enfants atteints de LAL-B à risque standard. Les effets indésirables graves étaient rares, mais une incidence plus élevée d'infections liées aux cathéters a été notée dans le groupe blinatumomab.
+
+## Revue
+New England Journal of Medicine
+
+## 📖 Référence
+2025;392(9):875-891. doi:10.1056/NEJMoa2411680. Epub 2024 Dec 7.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2411680.

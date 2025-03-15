@@ -1,0 +1,22 @@
+Date de publication : 2024-11-01
+
+# 📝 Dexmédétomidine péribulbaire vs intraveineuse dans la chirurgie du strabisme
+
+## 📌 Contexte & Problématique
+L'utilisation de la dexmédétomidine comme adjuvant à l'anesthésie péribulbaire dans la chirurgie du strabisme reste insuffisamment étudiée, notamment concernant la voie d'administration optimale.
+
+## 🧪 Méthodologie
+Essai clinique randomisé en double aveugle incluant 46 patients adultes (ASA I-II) programmés pour une chirurgie unilatérale du strabisme. Deux groupes : dexmédétomidine intraveineuse (50 μg) versus péribulbaire (50 μg) en association avec lidocaïne 2%, bupivacaïne 0,5% et hyaluronidase.
+
+## 📊 Résultats clés
+La dexmédétomidine péribulbaire a prolongé l'analgésie postopératoire de 3,2 heures par rapport à la voie intraveineuse (7,17 vs 5,79 heures; P=0,048). La durée du bloc moteur était significativement plus longue dans le groupe péribulbaire (198,34 vs 148,93 minutes; P=0,001). La satisfaction des patients et chirurgiens était supérieure dans le groupe péribulbaire. Cependant, la durée chirurgicale était plus courte dans le groupe intraveineux (38,01 vs 55,01 minutes; P<0,001).
+
+## 🩺 Impact clinique
+La dexmédétomidine péribulbaire offre une analgésie postopératoire prolongée mais augmente la durée chirurgicale, nécessitant une évaluation bénéfice-risque selon le contexte clinique.
+
+## Revue
+Pain Physician
+
+## 📖 Référence
+2024;27(8):E819-E827.
+🔗 Lien PubMed : Lien PubMed non disponible

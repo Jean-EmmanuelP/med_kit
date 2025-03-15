@@ -1,0 +1,22 @@
+Date de publication : 2024-05-01
+
+# 📝 Stimulation du nerf supraorbitaire pour la névralgie herpétique ophtalmique
+
+## 📌 Contexte & Problématique
+Le zona ophtalmique (ZO) est une affection réfractaire dont le traitement optimal reste controversé. La neuromodulation apparaît comme une option thérapeutique prometteuse pour les douleurs neuropathiques associées.
+
+## 🧪 Méthodologie
+Essai croisé contrôlé randomisé comparant la stimulation du nerf supraorbitaire (SNS) au bloc du nerf supraorbitaire (BNS) chez 50 patients (25/groupe) souffrant de névralgie herpétique ophtalmique aiguë ou subaiguë, avec suivi sur 12 semaines.
+
+## 📊 Résultats clés
+À 4 semaines, le groupe SNS a montré un soulagement significativement supérieur de la douleur (différence moyenne EVA: -1,4 [IC 95%, -2,29 à -0,51], p<0,05). 72% des patients SNS ont obtenu ≥50% de soulagement contre 44% dans le groupe BNS (p<0,05). Le groupe SNS présentait également une meilleure qualité de sommeil et une consommation d'analgésiques réduite.
+
+## 🩺 Impact clinique
+La SNS à court terme constitue une option efficace pour contrôler la névralgie herpétique ophtalmique aiguë ou subaiguë. La combinaison SNS+BNS n'apporte pas de bénéfice supplémentaire.
+
+## Revue
+Pain Physician
+
+## 📖 Référence
+2024 May;27(4):203-212.
+🔗 Lien PubMed : Lien PubMed non disponible

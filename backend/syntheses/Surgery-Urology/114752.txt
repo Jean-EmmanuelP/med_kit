@@ -1,0 +1,22 @@
+Date de publication : 2024-10-29
+
+# 📝 Dissection ganglionnaire pelvienne dans le cancer de la prostate : résultats d'un essai randomisé
+
+## 📌 Contexte & Problématique
+L'utilité de la dissection ganglionnaire lymphatique pelvienne (DGLP) lors de la prostatectomie radicale reste débattue. Cette étude compare l'impact d'une DGLP limitée versus étendue sur les récidives et métastases.
+
+## 🧪 Méthodologie
+Essai randomisé en clusters (1432 patients, 2011-2017) où les chirurgiens alternaient tous les 3 mois entre DGLP limitée (ganglions iliaques externes) et étendue (ganglions iliaques externes, obturateurs et hypogastriques).
+
+## 📊 Résultats clés
+Avec un suivi médian de 4,2 ans, les taux de récidive biochimique (RB) étaient comparables entre les groupes (RR 1,05, IC 95% 0,97-1,13; p=0,3). Cependant, après 5,4 ans de suivi, la DGLP étendue a significativement réduit le risque de métastases (RR 0,82, IC 95% 0,71-0,93; p=0,003), particulièrement les métastases distantes (RR 0,75, IC 95% 0,64-0,88; p<0,001).
+
+## 🩺 Impact clinique
+Les résultats soutiennent l'utilisation systématique d'une DGLP étendue lors des prostatectomies radicales, incluant les ganglions iliaques externes, obturateurs et hypogastriques.
+
+## Revue
+European Urology
+
+## 📖 Référence
+2025 Feb;87(2):253-260. doi: 10.1016/j.eururo.2024.10.006
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.eururo.2024.10.006.

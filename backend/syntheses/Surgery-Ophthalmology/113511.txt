@@ -1,0 +1,22 @@
+Date de publication : 2024-06-11
+
+# 📝 Radiothérapie stéréotaxique pour la dégénérescence maculaire liée à l'âge néovasculaire
+
+## 📌 Contexte & Problématique
+La dégénérescence maculaire liée à l'âge néovasculaire (DMNLa) nécessite des injections intravitréennes répétées d'anti-VEGF. L'étude STAR évalue si la radiothérapie stéréotaxique (SRT) peut réduire le nombre d'injections sans compromettre l'acuité visuelle.
+
+## 🧪 Méthodologie
+Essai randomisé, double-aveugle, contrôlé (2:1) dans 30 hôpitaux britanniques incluant 411 patients avec DMNLa chronique prétraitée. Groupe intervention : SRT 16 Gray (n=274); groupe contrôle : SRT fictive (n=137). Critère principal : nombre d'injections de ranibizumab sur 2 ans.
+
+## 📊 Résultats clés
+Le groupe SRT a reçu significativement moins d'injections (10,7 vs 13,3; réduction ajustée de 2,9 injections; p<0,0001) avec une acuité visuelle non-inférieure (différence de -1,7 lettres). Des anomalies microvasculaires ont été observées chez 35% des patients SRT vs 12% des contrôles, sans impact négatif sur la vision. La SRT a généré une économie moyenne de 565£ par patient.
+
+## 🩺 Impact clinique
+La SRT représente une option thérapeutique prometteuse pour réduire la charge de traitement des patients DMNLa tout en maintenant les résultats visuels et en offrant un avantage économique.
+
+## Revue
+The Lancet
+
+## 📖 Référence
+2024;404(10447):44-54. doi:10.1016/S0140-6736(24)00687-1
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S0140-6736(24)00687-1.

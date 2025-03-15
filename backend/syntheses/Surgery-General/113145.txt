@@ -1,0 +1,22 @@
+Date de publication : 2024-04-01
+
+# 📝 Interventions numériques et sécurité des patients en chirurgie abdominale
+
+## 📌 Contexte & Problématique
+L'impact des interventions de télémédecine sur les résultats cliniques post-chirurgie abdominale reste insuffisamment évalué par des analyses systématiques.
+
+## 🧪 Méthodologie
+Revue systématique et méta-analyse de 19 études (11 ECR [essais cliniques randomisés] et 8 études de cohorte) totalisant 10 536 patients, comparant interventions de télémédecine périopératoires aux soins conventionnels. Recherche dans PubMed, Cochrane Library et Web of Science jusqu'en février 2023.
+
+## 📊 Résultats clés
+Les interventions de télémédecine sont associées à une réduction significative des visites aux urgences (RR 0,78; IC 95%, 0,65-0,94) et des réadmissions (RR 0,67; IC 95%, 0,58-0,78). Aucune différence significative observée concernant le risque de complications (RR 1,05; IC 95%, 0,77-1,43).
+
+## 🩺 Impact clinique
+Les interventions de télésanté périopératoires peuvent réduire les réadmissions et visites aux urgences post-chirurgie abdominale, mais les mécanismes d'action spécifiques restent à élucider pour différents types d'interventions.
+
+## Revue
+JAMA Network Open
+
+## 📖 Référence
+2024;7(4):e248555. doi:10.1001/jamanetworkopen.2024.8555
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamanetworkopen.2024.8555.

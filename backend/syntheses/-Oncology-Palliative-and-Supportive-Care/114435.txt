@@ -1,0 +1,22 @@
+Date de publication : 2024-09-02
+
+# 📝 Efficacité des soins palliatifs chez les patients atteints d'insuffisance cardiaque vivant à domicile
+
+## 📌 Contexte & Problématique
+L'efficacité des soins palliatifs chez les adultes atteints d'insuffisance cardiaque (IC) vivant à domicile reste peu évaluée, contrairement aux patients cancéreux ou hospitalisés.
+
+## 🧪 Méthodologie
+Revue systématique et méta-analyse d'essais contrôlés randomisés comparant des interventions de soins palliatifs aux soins habituels chez des patients IC non hospitalisés. Recherche dans MEDLINE, Embase, Cochrane et CINAHL jusqu'à octobre 2023.
+
+## 📊 Résultats clés
+Analyse de 11 études (1535 patients) montrant que les soins palliatifs améliorent significativement la qualité de vie générique (DMS: 0,30) et spécifique à l'IC (DMS: 0,17), réduisent l'anxiété (DMS: -0,22) et la dépression (DMS: -0,18), et améliorent le bien-être spirituel (DMS: 0,43), sans impact sur la mortalité (RR: 1,00). Pas d'effet significatif sur la charge symptomatique.
+
+## 🩺 Impact clinique
+Ces résultats soutiennent l'intégration des soins palliatifs dans la prise en charge communautaire des patients IC, avec des bénéfices psychologiques et sur la qualité de vie sans augmentation de la mortalité.
+
+## Revue
+International Journal of Nursing Studies
+
+## 📖 Référence
+2024;160:104887. doi: 10.1016/j.ijnurstu.2024.104887
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.ijnurstu.2024.104887.

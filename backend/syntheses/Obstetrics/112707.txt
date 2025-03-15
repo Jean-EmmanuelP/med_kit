@@ -1,0 +1,22 @@
+Date de publication : 2024-03-21
+
+# 📝 Risque d'autisme après exposition prénatale au topiramate, valproate ou lamotrigine
+
+## 📌 Contexte & Problématique
+L'association entre valproate prénatal et troubles neurodéveloppementaux est établie, mais les données concernant le risque de trouble du spectre autistique (TSA) lié au topiramate restent limitées et contradictoires.
+
+## 🧪 Méthodologie
+Étude de cohorte populationnelle américaine (2000-2020) comparant le risque de TSA chez les enfants exposés au topiramate durant la seconde moitié de grossesse versus non-exposés aux antiépileptiques, avec valproate comme témoin positif et lamotrigine comme témoin négatif.
+
+## 📊 Résultats clés
+Incidence cumulée du TSA à 8 ans chez les enfants de mères épileptiques : 4,2% sans antiépileptiques, 6,2% avec topiramate, 10,5% avec valproate et 4,1% avec lamotrigine. Après ajustement par score de propension, seul le valproate montrait un risque significativement accru (RR 2,67; IC95% 1,69-4,20).
+
+## 🩺 Impact clinique
+Après ajustement pour l'indication et les facteurs confondants, le topiramate et la lamotrigine ne présentent pas d'association significative avec le TSA, contrairement au valproate qui maintient un risque élevé.
+
+## Revue
+N Engl J Med
+
+## 📖 Référence
+2024;390(12):1069-1079. doi:10.1056/NEJMoa2309359
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2309359.

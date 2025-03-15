@@ -1,0 +1,22 @@
+Date de publication : 2024-12-29
+
+# 📝 Dépistage de la fragilité chez les patients âgés en chirurgie colorectale : étude comparative de sept instruments
+
+## 📌 Contexte & Problématique
+Bien que les instruments de dépistage de la fragilité soient utilisés comme prédicteurs de risques postopératoires, leur efficacité comparative reste méconnue. Cette étude évalue la précision diagnostique de sept instruments chez les patients ≥70 ans subissant une chirurgie colorectale.
+
+## 🧪 Méthodologie
+Étude de cohorte prospective comparant sept instruments de dépistage (critères de Fried et Robinson, échelles d'Edmonton et de Rockwood, indice de fragilité modifié, questionnaire FRAIL, Gériatrique 8) pour prédire les complications postopératoires selon la classification de Clavien-Dindo (CD).
+
+## 📊 Résultats clés
+Sur 172 patients, la prévalence de fragilité variait de 13,4% à 73,8% selon l'instrument. Pour les complications CD≥2 (37,8% des patients), la plupart des instruments présentaient une spécificité élevée (76,7%-92,4%) mais une faible sensibilité (21,5%-38,5%). Le Gériatrique 8 montrait le profil inverse. L'aire sous la courbe ROC ne dépassait pas 0,61 pour tous les instruments.
+
+## 🩺 Impact clinique
+Le dépistage de la fragilité seul est insuffisant comme prédicteur de complications postopératoires. Une approche en deux étapes incluant une évaluation gériatrique complète est recommandée.
+
+## Revue
+Journal of the American Geriatrics Society
+
+## 📖 Référence
+2024 Dec 29. doi: 10.1111/jgs.19317.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1111/jgs.19317.

@@ -1,0 +1,22 @@
+Date de publication : 2024-04-15
+
+# 📝 Efficacité des différentes voies d'administration de l'acétaminophène pour la douleur postopératoire chez les enfants
+
+## 📌 Contexte & Problématique
+L'acétaminophène est largement utilisé pour traiter la douleur aiguë pédiatrique. Cette étude visait à déterminer la voie d'administration la plus efficace pour soulager la douleur postopératoire chez les enfants.
+
+## 🧪 Méthodologie
+Revue systématique et méta-analyse en réseau d'essais contrôlés randomisés (ECR) incluant des enfants de 30 jours à 17 ans ayant subi une chirurgie. Recherche dans six bases de données jusqu'en avril 2023. Évaluation du risque de biais avec l'outil Cochrane.
+
+## 📊 Résultats clés
+Analyse de 14 essais (829 participants). Dans les deux premières heures postopératoires (6 essais, 496 participants) : aucune différence significative entre voies intraveineuse et rectale, ni entre intraveineuse et orale. La voie orale s'est révélée supérieure à la voie rectale. Aucune différence significative concernant les nausées et vomissements entre voies orale et rectale.
+
+## 🩺 Impact clinique
+Les preuves actuelles sont très incertaines concernant l'effet de la voie d'administration sur la douleur postopératoire. Des ECR mieux conçus sont nécessaires pour répondre à cette question clinique importante.
+
+## Revue
+Canadian Journal of Anesthesia
+
+## 📖 Référence
+2024;71(8):1103-1116. doi: 10.1007/s12630-024-02760-y. Epub 2024 Apr 15.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1007/s12630-024-02760-y.

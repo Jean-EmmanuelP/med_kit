@@ -1,0 +1,22 @@
+Date de publication : 2024-10-07
+
+# 📝 Résection muqueuse endoscopique à l'anse froide vs chaude pour polypes colorectaux plats ≥15 mm
+
+## 📌 Contexte & Problématique
+La résection muqueuse endoscopique à l'anse chaude (H-EMR) est efficace pour les polypes coliques non pédiculés de grande taille (LNPCPs), mais comporte des risques liés à l'électrocautérisation. La résection à l'anse froide (C-EMR) pourrait offrir un meilleur profil de sécurité, mais son efficacité reste à démontrer.
+
+## 🧪 Méthodologie
+Essai randomisé comparant C-EMR vs H-EMR pour LNPCPs adénomateux plats (15-50 mm) dans un centre tertiaire. Critère principal : récidive à 6 mois. Critères secondaires : saignements post-EMR cliniquement significatifs (CSPEB), perforation retardée et succès technique.
+
+## 📊 Résultats clés
+177 patients randomisés (C-EMR=87, H-EMR=90). Succès technique équivalent (98,9% vs 100%). Récidive significativement plus élevée avec C-EMR (18,4% vs 1,1%; p<0,001). CSPEB plus fréquents avec H-EMR (7,8% vs 1,1%; p=0,034). Perforation retardée uniquement dans le groupe H-EMR (1,1%).
+
+## 🩺 Impact clinique
+La C-EMR offre une meilleure sécurité mais présente un taux de récidive significativement plus élevé, constituant une limitation actuelle de cette technique.
+
+## Revue
+Gut
+
+## 📖 Référence
+2024;73(11):1823-1830. doi:10.1136/gutjnl-2024-332807. NCT04138030.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1136/gutjnl-2024-332807.

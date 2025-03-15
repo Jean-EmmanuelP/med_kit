@@ -1,19 +1,22 @@
 Date de publication : 2024-12-10
 
-# 📝 Oxygénothérapie nasale à haut débit vs ventilation non invasive dans l'insuffisance respiratoire aiguë
+# 📝 Oxygénothérapie nasale à haut débit vs ventilation non invasive dans l'insuffisance respiratoire aiguë : essai RENOVATE
 
 ## 📌 Contexte & Problématique
-Comparaison de l'oxygénothérapie nasale à haut débit (ONHD) et de la ventilation non invasive (VNI) chez des patients atteints d'insuffisance respiratoire aiguë (IRA), pour évaluer la non-infériorité de l'ONHD concernant l'intubation ou le décès à 7 jours.
+Comparaison de l'oxygénothérapie nasale à haut débit (ONHD) et de la ventilation non invasive (VNI) chez les patients atteints d'insuffisance respiratoire aiguë (IRA) de différentes étiologies.
 
 ## 🧪 Méthodologie
-Essai clinique randomisé de non-infériorité incluant 1766 adultes répartis en 5 groupes (hypoxémiques non immunodéprimés, hypoxémiques immunodéprimés, exacerbation de BPCO, œdème pulmonaire aigu cardiogénique, COVID-19) dans 33 hôpitaux brésiliens (2019-2023).
+Essai randomisé de non-infériorité incluant 1766 adultes répartis en 5 groupes d'IRA (non-immunodéprimés hypoxémiques, immunodéprimés hypoxémiques, exacerbation de BPCO (bronchopneumopathie chronique obstructive), OPAC (œdème pulmonaire aigu cardiogénique), COVID-19 hypoxémique) dans 33 hôpitaux brésiliens.
 
 ## 📊 Résultats clés
-Taux d'intubation/décès à 7 jours: 39% (ONHD) vs 38% (VNI). Non-infériorité atteinte dans 4 des 5 groupes. Résultats variables selon les groupes: OPAC (10,3% vs 21,3%), hypoxémie non immunodéprimée (32,5% vs 33,1%), COVID-19 (51,3% vs 47,0%), BPCO (28,6% vs 26,2%). Événements indésirables graves similaires (9,4% vs 9,9%).
+Critère principal (intubation ou décès à 7 jours) : 39% groupe ONHD vs 38% groupe VNI. L'ONHD a atteint les critères de non-infériorité dans 4 des 5 groupes. Événements indésirables graves similaires (9,4% ONHD vs 9,9% VNI).
 
 ## 🩺 Impact clinique
-L'ONHD représente une alternative à la VNI dans plusieurs formes d'IRA. Cependant, des études supplémentaires sont nécessaires pour les patients BPCO, immunodéprimés et OPAC en raison de la petite taille des échantillons et de la sensibilité des résultats au modèle d'analyse.
+L'ONHD représente une alternative à la VNI pour la plupart des patients IRA. Cependant, les petits échantillons dans certains sous-groupes (BPCO, immunodéprimés, OPAC) et la sensibilité au modèle d'analyse suggèrent que des études complémentaires sont nécessaires pour ces populations spécifiques.
+
+## Revue
+JAMA
 
 ## 📖 Référence
-Maia IS, Kawano-Dourado L, Tramujas L, et al. High-Flow Nasal Oxygen vs Noninvasive Ventilation in Patients With Acute Respiratory Failure: The RENOVATE Randomized Clinical Trial. JAMA. 2024 Dec 10. doi: 10.1001/jama.2024.26244.
+2024 Dec 10. doi: 10.1001/jama.2024.26244.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jama.2024.26244.

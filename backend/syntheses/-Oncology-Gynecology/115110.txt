@@ -1,19 +1,22 @@
 Date de publication : 2024-11-26
 
-# 📝 Lenvatinib plus pembrolizumab versus chimiothérapie en première ligne du cancer de l'endomètre avancé
+# 📝 Traitement de première ligne par lénvatinib plus pembrolizumab dans le cancer de l'endomètre avancé
 
 ## 📌 Contexte & Problématique
-L'association lenvatinib-pembrolizumab a montré des bénéfices en survie dans le cancer de l'endomètre avancé prétraité. L'étude LEAP-001 évalue cette combinaison en première ligne versus chimiothérapie.
+L'association lénvatinib-pembrolizumab (len+pembro) a montré des bénéfices en deuxième ligne dans le cancer de l'endomètre avancé (CEa). L'étude LEAP-001 évalue cette association en première ligne comparée à la chimiothérapie.
 
 ## 🧪 Méthodologie
-Essai randomisé de phase III incluant 842 patientes atteintes d'un cancer de l'endomètre stade III-IV ou récidivant. Randomisation 1:1 entre lenvatinib 20mg/j + pembrolizumab 200mg/3sem versus paclitaxel-carboplatine. Critères principaux : survie sans progression (SSP) et survie globale (SG).
+Essai randomisé de phase III incluant 842 patientes atteintes de CEa stade III-IV ou récurrent, randomisées (1:1) entre len+pembro (20mg/j + 200mg/3sem) ou chimiothérapie (paclitaxel-carboplatine). Critères principaux : survie sans progression (SSP) et survie globale (SG).
 
 ## 📊 Résultats clés
-Population pMMR : SSP médiane 9,6 vs 10,2 mois (HR=0,99) et SG médiane 30,9 vs 29,4 mois (HR=1,02) pour lenvatinib-pembrolizumab vs chimiothérapie. Population totale : SSP médiane 12,5 vs 10,2 mois (HR=0,91) et SG médiane 37,7 vs 32,1 mois (HR=0,93). Événements indésirables grade ≥3 : 79% vs 67%.
+Dans la population avec système de réparation des mésappariements proficient (pMMR) : SSP médiane de 9,6 vs 10,2 mois (HR=0,99) et SG médiane de 30,9 vs 29,4 mois (HR=1,02) pour len+pembro vs chimiothérapie. Événements indésirables grade ≥3 : 79% vs 67%.
 
 ## 🩺 Impact clinique
-L'association lenvatinib-pembrolizumab n'a pas atteint les critères statistiques prédéfinis de supériorité/non-infériorité en première ligne, contrairement aux résultats positifs observés en deuxième ligne.
+L'association len+pembro en première ligne n'a pas démontré de supériorité statistiquement significative par rapport à la chimiothérapie standard dans le CEa pMMR, contrairement aux résultats observés en deuxième ligne.
+
+## Revue
+Journal of Clinical Oncology
 
 ## 📖 Référence
-Marth C, Moore RG, Bidzinski M, et al. J Clin Oncol. 2024 Nov 26:JCO2401326.
+2024 Nov 26:JCO2401326. doi: 10.1200/JCO-24-01326.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO-24-01326.

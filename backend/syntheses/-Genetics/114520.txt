@@ -1,19 +1,22 @@
 Date de publication : 2024-10-05
 
-# 📝 EFFETS DE LA SÉPIAPTÉRINE ORALE SUR LA PHÉNYLALANINE SANGUINE CHEZ LES PATIENTS ATTEINTS DE PHÉNYLCÉTONURIE
+# 📝 Effets de la sépiaptérine orale sur la concentration sanguine de phénylalanine chez les patients atteints de phénylcétonurie
 
 ## 📌 Contexte & Problématique
-La phénylcétonurie est caractérisée par l'accumulation neurotoxique de phénylalanine (Phe). L'étude APHENITY a évalué l'efficacité et la sécurité de la sépiaptérine orale chez des patients atteints de cette maladie.
+La phénylcétonurie est caractérisée par l'accumulation neurotoxique de phénylalanine (Phe). L'étude APHENITY a évalué l'efficacité et la sécurité de la sépiaptérine orale chez des patients de tous âges.
 
 ## 🧪 Méthodologie
-Essai de phase 3, randomisé, en double aveugle, contrôlé par placebo, mené dans 13 pays. Après une évaluation initiale de 14 jours (partie 1), les répondeurs ont été randomisés pour recevoir pendant 6 semaines soit la sépiaptérine (20, 40, puis 60 mg/kg/jour) soit un placebo (partie 2).
+Essai international de phase 3, randomisé, en double aveugle, contrôlé par placebo dans 13 pays. Après une évaluation initiale de 14 jours (partie 1), les répondeurs ont été randomisés pour recevoir pendant 6 semaines soit la sépiaptérine (doses progressives: 20, 40, 60 mg/kg/jour) soit un placebo (partie 2).
 
 ## 📊 Résultats clés
-73% des participants (114/156) ont répondu à la sépiaptérine en partie 1. Après 6 semaines, le groupe sépiaptérine a montré une réduction de 63% de la Phe sanguine contre 1% dans le groupe placebo (différence: -395,9 µmol/L; p<0,0001). Les effets indésirables, principalement gastro-intestinaux légers, ont touché 59% des patients sous sépiaptérine contre 33% sous placebo.
+73% des participants ont répondu à la sépiaptérine en partie 1. Après 6 semaines, le groupe sépiaptérine a montré une réduction significative de la Phe sanguine (-63%) comparé au placebo (+1%, p<0,0001). Les effets indésirables, principalement gastro-intestinaux légers, ont été rapportés chez 59% des patients sous sépiaptérine contre 33% sous placebo.
 
 ## 🩺 Impact clinique
-La sépiaptérine représente une thérapie orale prometteuse pour la phénylcétonurie, bien tolérée et efficace pour réduire significativement la Phe sanguine indépendamment de la sévérité de la maladie.
+La sépiaptérine représente une thérapie orale prometteuse pour les patients atteints de phénylcétonurie, offrant des réductions significatives et cliniquement pertinentes de la Phe sanguine avec un bon profil de tolérance.
+
+## Revue
+Lancet
 
 ## 📖 Référence
-Muntau AC, Longo N, Ezgu F, et al. Lancet. 2024;404(10460):1333-1345.
+2024;404(10460):1333-1345. doi:10.1016/S0140-6736(24)01556-3
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S0140-6736(24)01556-3.

@@ -1,0 +1,24 @@
+Date de publication : 2024-07-17
+
+# 📝 Robotique vs Laparoscopie dans la Chirurgie du Tube Digestif Supérieur : Revue Systématique et Méta-analyse
+
+## 📌 Contexte & Problématique
+Comparaison des résultats entre approches robotique et laparoscopique pour la réparation de hernie hiatale (RHH) et la myotomie de Heller (MH) dans la chirurgie du tube digestif supérieur.
+
+## 🧪 Méthodologie
+Revue systématique de 22 études comparatives (2010-2022) incluant 196 339 patients. Évaluation des résultats per- et postopératoires avec analyse du risque de biais.
+
+## 📊 Résultats clés
+- RHH robotique : hospitalisation légèrement plus courte, moins de conversions en chirurgie ouverte, taux de morbidité réduits (non significatifs)
+- MH robotique : significativement moins de perforations œsophagiennes (OR 0,36) et de réinterventions (OR 0,18)
+- Les deux procédures robotiques présentent des temps opératoires significativement plus longs
+
+## 🩺 Impact clinique
+Les deux approches montrent des profils de sécurité et résultats périopératoires similaires. Des essais contrôlés randomisés sont nécessaires vu la qualité faible à modérée des études incluses.
+
+## Revue
+Journal of the American College of Surgeons
+
+## 📖 Référence
+2024;239(2):171-186. doi:10.1097/XCS.0000000000001074
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1097/XCS.0000000000001074.

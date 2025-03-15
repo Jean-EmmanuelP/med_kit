@@ -1,0 +1,22 @@
+Date de publication : 2024-08-01
+
+# 📝 Sémaglutide et bénéfices cardiovasculaires indépendamment de l'HbA1c chez les patients en surpoids/obèses sans diabète
+
+## 📌 Contexte & Problématique
+L'étude SELECT a évalué les effets cardiovasculaires du sémaglutide chez des personnes en surpoids/obèses avec maladie cardiovasculaire athéroscléreuse (MCVA) sans diabète, en analysant l'influence de l'hémoglobine glyquée (HbA1c) initiale et son évolution.
+
+## 🧪 Méthodologie
+Essai randomisé comparant sémaglutide 2,4 mg hebdomadaire versus placebo. Analyse des événements cardiovasculaires majeurs (MACE) et autres critères selon l'HbA1c initiale (<5,7%, 5,7-<6,0%, 6,0-<6,5%) et son évolution à 20 semaines.
+
+## 📊 Résultats clés
+Parmi 17 604 participants (âge moyen 61,6 ans, 72,3% d'hommes), la réduction de 20% du risque de MACE avec le sémaglutide était constante indépendamment de l'HbA1c initiale et de son évolution, sauf pour la mortalité toutes causes.
+
+## 🩺 Impact clinique
+Le sémaglutide confère des bénéfices cardiovasculaires chez les patients avec MCVA établie en surpoids/obèses, qu'ils soient normoglycémiques ou sans amélioration de l'HbA1c pendant le traitement.
+
+## Revue
+Diabetes Care
+
+## 📖 Référence
+2024;47(8):1360-1369. doi: 10.2337/dc24-0764
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.2337/dc24-0764.

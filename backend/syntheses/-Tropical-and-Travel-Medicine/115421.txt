@@ -1,19 +1,22 @@
 Date de publication : 2025-01-10
 
-# 📝 Co-formulation albendazole-ivermectine pour le traitement des helminthiases transmises par le sol
+# 📝 Co-formulation albendazole-ivermectine pour le traitement de Trichuris trichiura et autres helminthiases transmises par le sol
 
 ## 📌 Contexte & Problématique
-Les traitements actuels contre Trichuris trichiura sont peu efficaces. Les combinaisons médicamenteuses pourraient améliorer l'efficacité thérapeutique contre les helminthiases transmises par le sol.
+Trichuris trichiura répond mal aux traitements standards contre les helminthiases transmises par le sol (HTSs). Les combinaisons thérapeutiques, notamment albendazole-ivermectine, semblent prometteuses.
 
 ## 🧪 Méthodologie
-Essai randomisé de phase 2/3 mené en Éthiopie, Kenya et Mozambique chez 1001 enfants (5-18 ans) infectés. Comparaison de trois groupes : albendazole seul (400 mg, dose unique), co-formulation albendazole-ivermectine en dose unique (FDC×1) ou en trois doses (FDC×3).
+Essai adaptatif de phase 2/3, randomisé, contrôlé, mené dans trois pays africains auprès d'enfants (5-18 ans) infectés par T. trichiura, ankylostomes ou Strongyloides stercoralis. Comparaison entre combinaison à dose fixe (CDF) albendazole-ivermectine (dose unique ou triple) et albendazole seul.
 
 ## 📊 Résultats clés
-Taux de guérison contre T. trichiura : FDC×3 (97,2%), FDC×1 (82,9%), albendazole seul (35,9%). Pour les ankylostomes : FDC×3 (95,0%), FDC×1 (79,8%), albendazole (65,1%). Effets indésirables légers à modérés, principalement gastro-intestinaux, dans 14% (albendazole), 20% (FDC×1) et 23% (FDC×3) des cas.
+Pour T. trichiura, taux de guérison significativement supérieurs avec CDF×3 (97,2%) et CDF×1 (82,9%) versus albendazole seul (35,9%). Pour les ankylostomes, CDF×3 (95,0%) supérieur à l'albendazole (65,1%). Profil de sécurité comparable entre les traitements, principalement des effets indésirables gastro-intestinaux légers à modérés.
 
 ## 🩺 Impact clinique
-La co-formulation albendazole-ivermectine présente une efficacité significativement supérieure contre T. trichiura et les ankylostomes avec un profil de sécurité acceptable, offrant une option thérapeutique prometteuse pour les programmes de contrôle des helminthiases.
+La co-formulation albendazole-ivermectine offre une efficacité nettement supérieure contre T. trichiura et les ankylostomes avec un profil de sécurité acceptable, représentant une avancée significative pour le contrôle des HTSs.
+
+## Revue
+Lancet Infectious Diseases
 
 ## 📖 Référence
-Krolewiecki A, Kepha S, Fleitas PE, et al. Albendazole-ivermectin co-formulation for the treatment of Trichuris trichiura and other soil-transmitted helminths: a randomised phase 2/3 trial. Lancet Infect Dis. 2025;S1473-3099(24)00669-8.
+2025 Jan 10:S1473-3099(24)00669-8. doi: 10.1016/S1473-3099(24)00669-8.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S1473-3099(24)00669-8.

@@ -1,0 +1,22 @@
+Date de publication : 2024-05-20
+
+# 📝 Prévention de l'obésité chez les adolescents : revue systématique des interventions
+
+## 📌 Contexte & Problématique
+La prévalence du surpoids et de l'obésité chez les adolescents dépasse 25% dans de nombreuses régions du monde. Cette revue évalue l'efficacité des interventions préventives ciblant l'alimentation et/ou l'activité physique chez les 12-18 ans.
+
+## 🧪 Méthodologie
+Revue systématique d'essais contrôlés randomisés comparant des interventions diététiques, d'activité, ou combinées avec un groupe contrôle. Critères principaux : changements d'IMC (Indice de Masse Corporelle), de score zIMC (IMC standardisé) et événements indésirables graves, évalués à court (<9 mois), moyen (9-15 mois) et long terme (≥15 mois).
+
+## 📊 Résultats clés
+Analyse de 74 études (83 407 participants). Les interventions d'activité seules montrent une légère réduction de l'IMC à moyen et long terme (preuves de faible certitude). Les interventions diététiques seules présentent des résultats très incertains. Les interventions combinées n'ont pas démontré d'effet significatif sur l'IMC à court, moyen ou long terme.
+
+## 🩺 Impact clinique
+Les interventions actuelles de prévention de l'obésité chez les adolescents montrent une efficacité limitée. Les interventions basées sur l'activité physique semblent offrir un bénéfice modeste mais plus consistant que les approches diététiques seules ou combinées.
+
+## Revue
+Cochrane Database of Systematic Reviews
+
+## 📖 Référence
+2024 May 20;5(5):CD015330. doi: 10.1002/14651858.CD015330.pub2.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1002/14651858.CD015330.pub2.

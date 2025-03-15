@@ -1,0 +1,22 @@
+Date de publication : 2024-03-02
+
+# 📝 Réponse au stress chirurgical dans la chirurgie robotique versus laparoscopique pour le cancer du côlon
+
+## 📌 Contexte & Problématique
+L'impact de la technologie robotique sur les résultats à court terme dans la chirurgie du cancer du côlon reste peu documenté. Cette étude compare la réponse au stress systémique et les résultats cliniques entre chirurgie robotique et laparoscopique.
+
+## 🧪 Méthodologie
+Essai contrôlé randomisé (ECR) en double aveugle (août 2021-mars 2023) incluant des patients atteints de cancer du côlon stade 1-3, randomisés (1:1) entre chirurgie robotique ou laparoscopique. Critère principal : évolution de la protéine C-réactive (CRP) durant les trois premiers jours postopératoires.
+
+## 📊 Résultats clés
+Sur 50 patients analysés (25 par groupe), la CRP était significativement plus élevée au premier jour postopératoire dans le groupe laparoscopique (différence moyenne=19,88 mg/l, IC 95% 3,89-35,86; p=0,045), sans différence significative aux jours 2 et 3.
+
+## 🩺 Impact clinique
+La chirurgie robotique pour cancer du côlon stade 1-3 est associée à une réduction de la réponse au stress chirurgical immédiat, suggérant un potentiel bénéfice physiologique précoce.
+
+## Revue
+British Journal of Surgery
+
+## 📖 Référence
+2024;111(3):znae049. doi:10.1093/bjs/znae049. Numéro d'enregistrement: NCT04687384.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1093/bjs/znae049.

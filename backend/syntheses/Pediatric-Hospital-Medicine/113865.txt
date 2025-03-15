@@ -1,0 +1,22 @@
+Date de publication : 2024-09-01
+
+# 📝 Fixation des cathéters veineux centraux non manchonnés en pédiatrie : essai SECURED
+
+## 📌 Contexte & Problématique
+Le déplacement est une complication fréquente des cathéters veineux centraux (CVC) non manchonnés chez les enfants. L'étude compare l'efficacité d'un système d'ancrage sous-cutané (SASS) aux dispositifs de fixation sans suture (SSD) traditionnels.
+
+## 🧪 Méthodologie
+Essai clinique randomisé multicentrique incluant 310 patients pédiatriques (0-18 ans) nécessitant un CVC non manchonné dans deux hôpitaux australiens (2020-2022). Randomisation 1:1 entre SASS et SSD avec suivi jusqu'à 8 semaines.
+
+## 📊 Résultats clés
+Le taux de déplacement était significativement inférieur avec SASS (5,2%) comparé au SSD (22,7%) (RR 0,23; IC 95% 0,11-0,48; p<0,001). Les complications totales étaient réduites dans le groupe SASS (24,2% vs 39,0%). Malgré une difficulté accrue lors du retrait, le SASS a généré une économie de 36,60 dollars australiens par patient.
+
+## 🩺 Impact clinique
+Le SASS offre une fixation plus sécurisée des CVC non manchonnés en pédiatrie, réduisant significativement les déplacements et complications associées, avec un coût global inférieur et un profil de sécurité acceptable.
+
+## Revue
+JAMA Pediatrics
+
+## 📖 Référence
+2024;178(9):861-869. doi:10.1001/jamapediatrics.2024.2202
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamapediatrics.2024.2202.

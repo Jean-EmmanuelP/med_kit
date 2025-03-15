@@ -3,17 +3,20 @@ Date de publication : 2024-09-01
 # 📝 Dulaglutide et fonction rénale chez les jeunes diabétiques de type 2
 
 ## 📌 Contexte & Problématique
-L'hyperfiltration glomérulaire et la protéinurie sont des marqueurs précoces de néphropathie diabétique. Cette étude évalue l'effet du dulaglutide sur ces paramètres chez les jeunes atteints de diabète de type 2.
+L'impact du dulaglutide sur la fonction rénale des jeunes atteints de diabète de type 2 (DT2) reste peu documenté, notamment concernant l'hyperfiltration glomérulaire, marqueur précoce de néphropathie diabétique.
 
 ## 🧪 Méthodologie
-Analyse post hoc des données rénales de 154 patients (10-18 ans) atteints de diabète de type 2, issus d'un essai contrôlé randomisé comparant dulaglutide versus placebo.
+Analyse post hoc des données rénales de 154 jeunes (10-18 ans) atteints de DT2 participant à un essai contrôlé comparant dulaglutide versus placebo sur 26 semaines.
 
 ## 📊 Résultats clés
-Le DFGe moyen a diminué significativement sous dulaglutide par rapport au placebo (-5,8 vs -0,1 mL/min/1,73 m²; p=0,016), principalement chez les patients présentant une hyperfiltration initiale. À 26 semaines, la prévalence d'hyperfiltration glomérulaire et de protéinurie a diminué avec dulaglutide mais augmenté avec placebo (p=0,014 et p=0,004 respectivement).
+Le débit de filtration glomérulaire estimé (DFGe) a significativement diminué avec le dulaglutide comparé au placebo (-5,8 vs -0,1 mL/min/1,73 m²; p=0,016), principalement chez les patients présentant une hyperfiltration initiale. La prévalence d'hyperfiltration glomérulaire et de protéinurie a diminué sous dulaglutide alors qu'elle augmentait sous placebo (p=0,014 et p=0,004 respectivement).
 
 ## 🩺 Impact clinique
-Le dulaglutide atténue l'hyperfiltration glomérulaire et la protéinurie chez les jeunes diabétiques de type 2, suggérant un potentiel effet néphroprotecteur, bien que l'impact à long terme reste à déterminer.
+Le dulaglutide pourrait avoir un effet néphroprotecteur chez les jeunes DT2 en réduisant l'hyperfiltration glomérulaire et la protéinurie, bien que l'impact à long terme sur le risque de néphropathie diabétique reste à déterminer.
+
+## Revue
+Diabetes Care
 
 ## 📖 Référence
-Bjornstad P, Arslanian SA, Hannon TS, et al. Diabetes Care. 2024;47(9):1617-1621.
+2024;47(9):1617-1621. doi:10.2337/dc24-0322
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.2337/dc24-0322.

@@ -1,19 +1,22 @@
 Date de publication : 2024-05-31
 
-# 📝 Lorlatinib vs Crizotinib dans le CPNPC ALK+ : résultats à 5 ans de l'étude CROWN
+# 📝 Lorlatinib vs Crizotinib dans le CPNPC ALK+ avancé : résultats à 5 ans de l'étude CROWN
 
 ## 📌 Contexte & Problématique
-Le lorlatinib a démontré une efficacité supérieure au crizotinib chez les patients atteints de CPNPC ALK+ avancé non prétraité. Cette analyse présente les résultats après 5 ans de suivi.
+L'étude CROWN a initialement démontré la supériorité du lorlatinib vs crizotinib chez les patients atteints de cancer du poumon non à petites cellules (CPNPC) ALK-positif avancé non prétraité. Cette analyse présente les résultats après 5 ans de suivi.
 
 ## 🧪 Méthodologie
-Étude randomisée (1:1) incluant 296 patients recevant soit lorlatinib 100 mg/jour (n=149), soit crizotinib 250 mg deux fois/jour (n=147). Analyse post hoc de l'efficacité, la tolérance et les biomarqueurs.
+296 patients avec CPNPC ALK+ randomisés 1:1 pour recevoir lorlatinib 100mg/jour (n=149) ou crizotinib 250mg deux fois/jour (n=147). Analyse post hoc évaluant l'efficacité, la sécurité et les biomarqueurs.
 
 ## 📊 Résultats clés
-La SSP médiane n'est pas atteinte avec lorlatinib vs 9,1 mois avec crizotinib (HR 0,19). SSP à 5 ans : 60% vs 8%. Délai médian jusqu'à progression intracrânienne non atteint avec lorlatinib vs 16,4 mois avec crizotinib (HR 0,06). Aucune nouvelle mutation de résistance ALK n'a été détectée.
+Avec un suivi médian de ~60 mois, la survie sans progression (SSP) médiane n'est pas atteinte sous lorlatinib vs 9,1 mois sous crizotinib (HR 0,19). SSP à 5 ans: 60% vs 8%. Temps médian jusqu'à progression intracrânienne non atteint sous lorlatinib vs 16,4 mois sous crizotinib (HR 0,06). Aucune nouvelle mutation de résistance ALK détectée dans l'ADN tumoral circulant post-lorlatinib.
 
 ## 🩺 Impact clinique
-Ces résultats représentent la plus longue SSP jamais rapportée avec un traitement ciblé en monothérapie dans le CPNPC avancé, établissant une nouvelle référence thérapeutique pour les patients ALK+.
+Ces résultats représentent la plus longue SSP jamais rapportée avec un traitement ciblé en monothérapie dans le CPNPC avancé et les tumeurs solides métastatiques, établissant une nouvelle référence thérapeutique.
+
+## Revue
+J Clin Oncol
 
 ## 📖 Référence
-Solomon BJ, Liu G, Felip E, et al. J Clin Oncol. 2024;42(29):3400-3409.
+2024;42(29):3400-3409. doi:10.1200/JCO.24.00581. Epub 2024 May 31.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO.24.00581.

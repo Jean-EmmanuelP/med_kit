@@ -1,19 +1,22 @@
 Date de publication : 2024-08-30
 
-# 📝 Effet du sémaglutide sur la mortalité et les décès liés à la COVID-19 : analyse de l'essai SELECT
+# 📝 Effet du sémaglutide sur la mortalité et les décès liés à la COVID-19 : Analyse de l'essai SELECT
 
 ## 📌 Contexte & Problématique
-Les patients en surpoids/obèses présentent un risque accru de mortalité cardiovasculaire avec peu de thérapies efficaces. Cette étude évalue l'effet du sémaglutide 2,4 mg sur la mortalité globale et spécifique.
+Les patients en surpoids/obèses présentent un risque accru de mortalité cardiovasculaire (CV), avec peu de thérapies efficaces pour réduire ce risque.
 
 ## 🧪 Méthodologie
-Essai SELECT randomisé incluant 17 604 participants (≥45 ans, IMC ≥27 kg/m²) avec maladie cardiovasculaire établie sans diabète, recevant sémaglutide 2,4 mg SC hebdomadaire ou placebo pendant 3,3 ans.
+L'essai SELECT a randomisé 17 604 participants (≥45 ans, IMC ≥27 kg/m², avec maladie CV établie sans diabète) pour recevoir du sémaglutide 2,4 mg SC hebdomadaire ou un placebo pendant 3,3 ans en moyenne.
 
 ## 📊 Résultats clés
-Le sémaglutide a réduit la mortalité toutes causes (HR: 0,81; IC 95%: 0,71-0,93), cardiovasculaire (HR: 0,85; IC 95%: 0,71-1,01) et non-cardiovasculaire (HR: 0,77; IC 95%: 0,62-0,95). Les décès infectieux étaient significativement réduits (62 vs 87; HR: 0,71). Parmi les patients COVID-19, moins de décès (43 vs 65; HR: 0,66) et d'événements graves (232 vs 277; P=0,04) ont été observés sous sémaglutide.
+Le sémaglutide a réduit la mortalité toutes causes (HR: 0,81), la mortalité CV (HR: 0,85) et non-CV (HR: 0,77). Les décès infectieux, principale cause de mortalité non-CV, étaient significativement réduits (HR: 0,71). Bien que le sémaglutide n'ait pas réduit l'incidence de la COVID-19, il a diminué les événements graves liés à la COVID-19 et la mortalité associée (HR: 0,66).
 
 ## 🩺 Impact clinique
-Le sémaglutide 2,4 mg réduit significativement la mortalité globale chez les patients obèses avec maladie cardiovasculaire, notamment les décès d'origine infectieuse, y compris COVID-19.
+Ces résultats soulignent l'effet bénéfique du sémaglutide sur la mortalité globale chez les patients avec maladie CV et obésité, avec une réduction significative des décès d'origine infectieuse, notamment liés à la COVID-19.
+
+## Revue
+Journal of the American College of Cardiology
 
 ## 📖 Référence
-Scirica BM, Lincoff AM, Lingvay I, et al. J Am Coll Cardiol. 2024;84(17):1632-1642.
+2024;84(17):1632-1642. doi: 10.1016/j.jacc.2024.08.007
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.jacc.2024.08.007.

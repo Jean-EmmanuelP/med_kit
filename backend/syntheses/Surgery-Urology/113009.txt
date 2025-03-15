@@ -1,0 +1,22 @@
+Date de publication : 2024-04-01
+
+# 📝 Interféron intravésical vs acide hyaluronique pour la douleur chez les femmes atteintes de cystite interstitielle
+
+## 📌 Contexte & Problématique
+La cystite interstitielle (CI) est une affection invalidante. L'étiologie virale étant suspectée, cette étude évalue l'efficacité d'un traitement antiviral par interféron comparé à l'acide hyaluronique.
+
+## 🧪 Méthodologie
+Essai clinique randomisé de phase 2/3, en double aveugle, monocentrique, mené d'octobre 2022 à avril 2023 avec suivi de 6 mois. 52 femmes (18-70 ans) atteintes de CI depuis plus de 6 mois ont reçu soit de l'interféron soit de l'acide hyaluronique par instillation intravésicale.
+
+## 📊 Résultats clés
+Le groupe interféron a montré une réduction significativement plus importante de la douleur sur l'échelle visuelle analogique (-1,3; IC 95%, -2,3 à -0,3; P=0,02) et de l'Indice des Symptômes de Cystite Interstitielle (-3,0; IC 95%, -5,3 à -0,7; P=0,01) à 6 mois. 77% des patientes ont présenté une réduction de douleur ≥30%. Les événements indésirables étaient comparables entre les groupes.
+
+## 🩺 Impact clinique
+L'interféron intravésical offre une option thérapeutique prometteuse pour les patientes atteintes de CI, avec une efficacité supérieure sur la douleur et les symptômes par rapport à l'acide hyaluronique, sans événements indésirables graves.
+
+## Revue
+JAMA Network Open
+
+## 📖 Référence
+2024;7(4):e244880. doi:10.1001/jamanetworkopen.2024.4880
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamanetworkopen.2024.4880.

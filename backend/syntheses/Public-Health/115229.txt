@@ -1,19 +1,25 @@
 Date de publication : 2024-12-10
 
-# 📝 Vaccin antipaludique RH5.1/Matrix-M : résultats intermédiaires prometteurs chez les enfants burkinabés
+# 📝 Vaccin RH5.1/Matrix-M contre le paludisme : résultats intermédiaires prometteurs en phase 2b
 
 ## 📌 Contexte & Problématique
-Les vaccins actuels contre le paludisme n'induisent pas d'immunité au stade sanguin. Le RH5.1/Matrix-M cible spécifiquement cette phase parasitaire, avec des résultats préalables encourageants chez les adultes.
+Les vaccins pré-érythrocytaires actuels (R21/Matrix-M, RTS,S/AS01) n'induisent pas d'immunité au stade sanguin du Plasmodium falciparum. Le candidat vaccin RH5.1/Matrix-M cible spécifiquement ce stade parasitaire.
 
 ## 🧪 Méthodologie
-Essai de phase 2b randomisé (2:1), contrôlé, en double aveugle au Burkina Faso. 361 enfants (5-17 mois) ont reçu soit RH5.1/Matrix-M selon deux schémas (0-1-5 mois ou 0-1-2 mois), soit un vaccin antirabique (contrôle).
+Essai randomisé contrôlé en double aveugle chez 361 enfants (5-17 mois) au Burkina Faso. Deux schémas vaccinaux testés : troisième dose différée (0, 1, 5 mois) ou mensuel (0, 1, 2 mois), versus vaccin antirabique (Rabivax-S).
 
 ## 📊 Résultats clés
-Le schéma à dose différée (0-1-5 mois) a montré une efficacité vaccinale de 55% (IC 95%: 20-75%; p=0,0071) contre le paludisme clinique. Le schéma mensuel a atteint 40% d'efficacité (p=0,066). Profil de sécurité favorable. Forte réponse immunitaire avec activité d'inhibition parasitaire in vitro de 79,0% (schéma différé) vs 74,2% (schéma mensuel).
+- Profil de sécurité favorable avec événements indésirables majoritairement légers
+- Efficacité vaccinale de 55% (IC 95% : 20-75%) avec le schéma à dose différée
+- Efficacité de 40% (IC 95% : -3 à 65%) avec le schéma mensuel
+- Forte réponse en anticorps IgG anti-RH5.1 et activité d'inhibition de croissance in vitro supérieure avec le schéma différé (79,0% vs 74,2%)
 
 ## 🩺 Impact clinique
-Premier vaccin ciblant efficacement le stade sanguin du paludisme, offrant une approche complémentaire aux vaccins existants. Le schéma à dose différée semble préférable pour l'efficacité clinique.
+Premier vaccin ciblant le stade sanguin du paludisme montrant une efficacité prometteuse chez les enfants africains, particulièrement avec le schéma à troisième dose différée. Pourrait compléter les stratégies vaccinales existantes.
+
+## Revue
+Lancet Infectious Diseases
 
 ## 📖 Référence
-Natama HM, Salkeld J, Some A, et al. Lancet Infect Dis. 2024;S1473-3099(24)00752-7.
+2024 Dec 10:S1473-3099(24)00752-7. doi: 10.1016/S1473-3099(24)00752-7.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S1473-3099(24)00752-7.

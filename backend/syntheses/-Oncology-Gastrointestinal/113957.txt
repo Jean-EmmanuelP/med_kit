@@ -1,0 +1,22 @@
+Date de publication : 2024-08-05
+
+# 📝 Traitement de maintenance par bevacizumab-erlotinib dans les cancers avancés des voies biliaires
+
+## 📌 Contexte & Problématique
+Les patients atteints de cancers des voies biliaires (CVB) avancés répondant à la chimiothérapie sont généralement mis sous surveillance après 6 mois de traitement à base de gemcitabine, sans stratégie de maintenance clairement établie.
+
+## 🧪 Méthodologie
+Étude de phase II randomisée (1:1) comparant la surveillance active versus bevacizumab (5 mg/kg IV tous les 21 jours) + erlotinib (100 mg/jour) chez 98 patients avec CVB avancés (80% cancers de la vésicule biliaire) ayant obtenu au moins une stabilisation après 6 mois de chimiothérapie.
+
+## 📊 Résultats clés
+Survie sans progression médiane significativement améliorée dans le groupe bevacizumab-erlotinib (5,3 mois vs 3,1 mois; HR 0,51; p=0,0013). Effets indésirables de grade 3 limités : éruption acnéiforme (2%), stomatite (2%) et saignements (2%).
+
+## 🩺 Impact clinique
+La combinaison bevacizumab-erlotinib représente une option de maintenance efficace avec un profil de toxicité acceptable pour les patients atteints de CVB avancés répondant à la chimiothérapie initiale.
+
+## Revue
+Journal of Clinical Oncology
+
+## 📖 Référence
+2024;42(27):3218-3227. doi:10.1200/JCO.23.02420. Epub 2024 Aug 5.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO.23.02420.

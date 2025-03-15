@@ -1,19 +1,22 @@
 Date de publication : 2024-08-01
 
-# 📝 L'olanzapine améliore la prévention des nausées et vomissements dans les chimiothérapies modérément émétisantes
+# 📝 Olanzapine en prophylaxie antiémétique dans la chimiothérapie modérément émétisante : essai clinique randomisé de phase 3
 
 ## 📌 Contexte & Problématique
-L'efficacité de l'olanzapine dans les protocoles de chimiothérapie modérément émétisants (CME) restait insuffisamment évaluée, particulièrement en association avec les antagonistes des récepteurs de la neurokinine-1.
+L'efficacité de l'olanzapine n'a pas été suffisamment évaluée dans les protocoles de chimiothérapie modérément émétisants (CME), avec ou sans antagonistes des récepteurs de la neurokinine-1.
 
 ## 🧪 Méthodologie
-Essai clinique randomisé de phase 3, multicentrique, incluant 560 patients adultes atteints de tumeurs solides recevant des chimiothérapies à base d'oxaliplatine, carboplatine ou irinotécan. Groupe expérimental : dexaméthasone, aprépitant, palonosétron + olanzapine 10 mg/jour (J1-J3); groupe contrôle : même protocole sans olanzapine.
+Essai clinique randomisé de phase 3, multicentrique, en ouvert, mené en Inde (2019-2023), incluant 560 patients atteints de tumeurs solides recevant une chimiothérapie à base d'oxaliplatine, carboplatine ou irinotécan. Groupe expérimental : dexaméthasone, aprépitant, palonosétron + olanzapine (10 mg/jour, J1-J3) versus groupe contrôle sans olanzapine.
 
 ## 📊 Résultats clés
-Le taux de réponse complète était significativement supérieur dans le groupe olanzapine (91% vs 82%, p=0,005). Meilleur contrôle des nausées (96% vs 87%, p<0,001) et des NVIC (96% vs 91%, p=0,02). Réduction significative de l'utilisation des antiémétiques de secours (4% vs 11%, p=0,001). Somnolence de grade 1 chez 10% des patients sous olanzapine.
+La réponse complète (absence de vomissements, nausées significatives et médicaments de secours) était significativement supérieure dans le groupe olanzapine (91% vs 82%, p=0,005). Meilleur contrôle des nausées (96% vs 87%, p<0,001) et des NVIC (nausées et vomissements induits par chimiothérapie) (96% vs 91%, p=0,02). Moins de recours aux médicaments de secours (4% vs 11%, p=0,001). Effet secondaire principal : somnolence grade 1 (10% groupe olanzapine).
 
 ## 🩺 Impact clinique
-L'olanzapine devrait être considérée comme standard de soins dans les protocoles CME contenant oxaliplatine, carboplatine ou irinotécan, améliorant significativement le contrôle des nausées et vomissements avec un profil de tolérance acceptable.
+L'olanzapine améliore significativement le contrôle des nausées et vomissements chez les patients naïfs de chimiothérapie recevant des CME, suggérant son intégration comme standard de soins dans ces protocoles.
+
+## Revue
+JAMA Network Open
 
 ## 📖 Référence
-Ostwal V, Ramaswamy A, Mandavkar S, et al. JAMA Netw Open. 2024;7(8):e2426076.
+2024;7(8):e2426076. doi:10.1001/jamanetworkopen.2024.26076
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamanetworkopen.2024.26076.

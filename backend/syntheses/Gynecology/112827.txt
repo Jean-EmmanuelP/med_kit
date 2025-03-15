@@ -1,0 +1,22 @@
+Date de publication : 2024-03-28
+
+# 📝 Essais de miction active versus passive après pose de bandelette sous-urétrale : revue systématique
+
+## 📌 Contexte & Problématique
+Comparaison des essais de miction active et passive concernant le taux de réussite et les sorties avec sonde chez les femmes ayant subi la pose d'une bandelette sous-urétrale pour l'incontinence urinaire d'effort (IUE).
+
+## 🧪 Méthodologie
+Revue systématique de MEDLINE, EMBASE et ClinicalTrials.gov jusqu'en février 2023. Inclusion de 26 études (5 essais randomisés, 10 études comparatives, 16 études à groupe unique) totalisant 5 013 patientes.
+
+## 📊 Résultats clés
+L'essai de miction passive présente des taux de réussite significativement plus élevés (89,0% vs 81,0%, p=0,029) et moins de sorties avec sonde (7,0% vs 19,0%, p<0,01). Les taux de rétention urinaire postopératoire tardive sont similaires et faibles dans les deux groupes (0,2% vs 0,6%, p=0,366). Les révisions de bandelette sont plus fréquentes après essai passif (1,5% vs 0,5%, p=0,035).
+
+## 🩺 Impact clinique
+L'essai de miction passive pourrait être privilégié pour réduire les sorties avec sonde, mais avec une vigilance accrue concernant les révisions de bandelette potentielles.
+
+## Revue
+Obstetrics & Gynecology
+
+## 📖 Référence
+2024;143(5):633-643. doi:10.1097/AOG.0000000000005567
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1097/AOG.0000000000005567.

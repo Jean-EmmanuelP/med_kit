@@ -1,19 +1,22 @@
 Date de publication : 2025-01-13
 
-# 📝 Exercice supervisé chez les patientes avec cancer du sein métastatique : analyse coût-utilité
+# 📝 Exercice supervisé pour patientes atteintes de cancer du sein métastatique : analyse coût-utilité
 
 ## 📌 Contexte & Problématique
-L'impact économique des programmes d'exercice supervisé pour les patientes atteintes de cancer du sein métastatique (CSm) reste peu documenté, freinant leur implémentation clinique.
+L'implémentation clinique d'exercices supervisés pour patientes atteintes de cancer du sein métastatique (CSm) nécessite des données probantes sur leur rapport coût-efficacité, actuellement insuffisantes.
 
 ## 🧪 Méthodologie
-Analyse coût-utilité menée parallèlement à l'essai PREFERABLE-EFFECT (8 centres, Europe/Australie) incluant 357 patientes avec CSm randomisées entre exercice supervisé (9 mois, 2 séances/semaine) et soins habituels. Perspective sociétale sur 9 mois.
+Analyse coût-utilité réalisée parallèlement à l'essai PREFERABLE-EFFECT (N=357 patientes) dans 8 centres internationaux. Comparaison entre exercice supervisé bi-hebdomadaire pendant 9 mois versus soins habituels avec conseils d'activité physique. Perspective sociétale, coûts rapportés en euros 2021.
 
 ## 📊 Résultats clés
-Le groupe exercice a généré un gain de 0,013 QALY. Coûts du programme: 1696€/patiente (supervision individuelle) ou 609€ (supervision 1:4). Économies totales: 163€ (supervision individuelle) et 1249€ (supervision en groupe). Probabilité de rentabilité: 65% (individuel) et 91% (groupe) au seuil de 20000€/QALY.
+Le groupe exercice a montré un gain de 0,013 QALY (années de vie ajustées par la qualité). Coûts du programme : 1 696€/patiente (supervision individuelle) ou 609€/patiente (supervision en groupe de quatre). Économies en soins de santé et productivité générant des différences de coûts totaux de -163€ à -1 249€ en faveur de l'exercice. Probabilité de rentabilité : 65% (supervision individuelle) et 91% (supervision en groupe).
 
 ## 🩺 Impact clinique
-L'exercice supervisé améliore la qualité de vie des patientes CSm tout en réduisant les coûts, particulièrement en format groupe. Ces données soutiennent le remboursement de tels programmes.
+L'exercice supervisé pour patientes CSm améliore la qualité de vie, réduit les coûts et présente un bon rapport coût-efficacité, particulièrement en format groupe. Ces résultats soutiennent le remboursement de telles interventions.
+
+## Revue
+Journal of Clinical Oncology
 
 ## 📖 Référence
-Schouten AEM, Hiensch AE, Frederix GWJ, et al. J Clin Oncol. 2025 Jan 13:JCO2401441.
+2025 Jan 13:JCO2401441. doi: 10.1200/JCO-24-01441.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO-24-01441.

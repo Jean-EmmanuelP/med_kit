@@ -1,0 +1,22 @@
+Date de publication : 2024-12-17
+
+# 📝 Risque au cours de la vie d'artériopathie périphérique des membres inférieurs : étude longitudinale danoise
+
+## 📌 Contexte & Problématique
+L'artériopathie périphérique des membres inférieurs (AOMI) représente un fardeau significatif de morbidité, mais les estimations de risque sur la durée de vie sont peu documentées.
+
+## 🧪 Méthodologie
+Étude de cohorte nationale incluant 4,27 millions de Danois (40-99 ans) suivis sur une période médiane de 15,5 ans (1998-2018), avec analyse de survie considérant le décès comme événement concurrent.
+
+## 📊 Résultats clés
+Le risque global de développer une AOMI au cours de la vie était de 11,6%, plus élevé chez les hommes (12,8% vs 10,5% chez les femmes). Des disparités socioéconomiques significatives ont été observées. Un an après le diagnostic, 21,4% avaient subi une revascularisation, 8,0% une amputation majeure et 16,2% étaient décédés. À 5 ans, ces taux atteignaient respectivement 26,4%, 10,8% et 40,8%.
+
+## 🩺 Impact clinique
+Plus d'un Danois sur dix développe une AOMI symptomatique au cours de sa vie, avec une morbidité et mortalité substantielles dans les années suivant le diagnostic.
+
+## Revue
+European Heart Journal
+
+## 📖 Référence
+2024 Dec 17:ehae867. doi: 10.1093/eurheartj/ehae867.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1093/eurheartj/ehae867.

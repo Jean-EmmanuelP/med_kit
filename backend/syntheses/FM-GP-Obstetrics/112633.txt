@@ -3,17 +3,22 @@ Date de publication : 2024-03-14
 # 📝 Vaccin maternel contre le VRS : efficacité et risque de prématurité
 
 ## 📌 Contexte & Problématique
-La vaccination maternelle contre le virus respiratoire syncytial (VRS) pourrait protéger les nourrissons. L'étude évalue l'efficacité et la sécurité du vaccin RSVPreF3-Mat chez les femmes enceintes.
+La vaccination maternelle contre le virus respiratoire syncytial (VRS) pourrait protéger les nourrissons. L'étude évalue l'efficacité et la sécurité d'un vaccin candidat à base de protéine F de préfusion du VRS (RSVPreF3-Mat).
 
 ## 🧪 Méthodologie
-Essai de phase 3 randomisé (2:1) incluant des femmes enceintes (18-49 ans) recevant RSVPreF3-Mat ou placebo entre 24 et 34 semaines de gestation. Arrêt prématuré du recrutement suite à un signal de sécurité concernant les naissances prématurées.
+Essai de phase 3 randomisé (2:1) incluant des femmes enceintes (18-49 ans) recevant RSVPreF3-Mat ou placebo entre 24 et 34 semaines de gestation. L'étude a été interrompue prématurément suite à un signal de sécurité concernant les naissances prématurées.
 
 ## 📊 Résultats clés
-Analyse de 5328 femmes et 5233 nourrissons. Efficacité vaccinale : 65,5% contre toute infection respiratoire basse à VRS et 69,0% contre les formes sévères. Naissances prématurées : 6,8% dans le groupe vaccin vs 4,9% dans le groupe placebo (RR: 1,37; IC 95%: 1,08-1,74; p=0,01). Décès néonatals : 0,4% vs 0,2% (RR: 2,16; p=0,23).
+- Efficacité vaccinale: 65,5% contre toute affection respiratoire basse liée au VRS et 69,0% contre les formes sévères
+- Naissances prématurées: 6,8% (groupe vaccin) vs 4,9% (groupe placebo), RR=1,37 (IC 95%: 1,08-1,74; p=0,01)
+- Décès néonatals: 0,4% vs 0,2% (RR=2,16; IC 95%: 0,62-7,56; p=0,23)
 
 ## 🩺 Impact clinique
-Le vaccin réduit significativement les infections à VRS chez les nourrissons mais augmente le risque de prématurité. Ce risque doit être soigneusement évalué avant toute recommandation d'utilisation en pratique clinique.
+Malgré une efficacité significative contre les infections à VRS, le risque accru de prématurité soulève d'importantes préoccupations de sécurité qui ont conduit à l'arrêt prématuré de l'essai.
+
+## Revue
+N Engl J Med
 
 ## 📖 Référence
-Dieussaert I, Hyung Kim J, Luik S, et al. RSV Prefusion F Protein-Based Maternal Vaccine - Preterm Birth and Other Outcomes. N Engl J Med. 2024;390(11):1009-1021.
+2024;390(11):1009-1021. doi:10.1056/NEJMoa2305478
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2305478.

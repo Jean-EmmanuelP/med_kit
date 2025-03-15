@@ -1,19 +1,22 @@
 Date de publication : 2024-03-07
 
-# 📝 Metformine pendant la grossesse et neurodéveloppement de l'enfant : méta-analyse
+# 📝 Metformine pendant la grossesse et développement neurologique des enfants : revue systématique et méta-analyse
 
 ## 📌 Contexte & Problématique
-Évaluation de l'impact de la metformine administrée pendant la grossesse sur le développement neurologique des enfants exposés in utero.
+Cette étude évalue l'impact de l'exposition à la metformine pendant la grossesse sur le développement neurologique des enfants, une préoccupation importante pour la prescription de ce médicament chez les femmes enceintes.
 
 ## 🧪 Méthodologie
-Revue systématique et méta-analyse de 7 études (essais randomisés et études observationnelles) incluant 14 042 enfants dont 7 641 exposés à la metformine in utero. Suivi jusqu'à 14 ans. Évaluation du risque de biais par l'échelle Newcastle-Ottawa modifiée et l'outil Risk of Bias 2.
+Revue systématique et méta-analyse de 7 études (cohortes, cas-témoins, essais randomisés) incluant 14 042 enfants (7 641 exposés) suivis jusqu'à 14 ans. Recherche dans MEDLINE, Embase et Web of Science jusqu'en juillet 2023. Évaluation du risque de biais avec l'échelle de Newcastle-Ottawa modifiée et l'outil Risk of Bias 2.
 
 ## 📊 Résultats clés
-Aucune association entre exposition à la metformine et retard neurodéveloppemental dans la petite enfance (RR=1,09; IC95%:0,54-2,17) ou entre 3-5 ans (RR=0,90; IC95%:0,56-1,45). Pas de différence significative sur les scores moteurs (DM=0,30; IC95%:-1,15-1,74) ou cognitifs (DM=-0,45; IC95%:-1,45-0,55).
+L'exposition à la metformine in utero n'était pas associée à un retard de développement neurologique durant la petite enfance (RR 1,09; IC 95% 0,54-2,17) ou entre 3-5 ans (RR 0,90; IC 95% 0,56-1,45). Aucune différence significative dans les scores moteurs (DM 0,30; IC 95% -1,15 à 1,74) ou cognitifs (DM -0,45; IC 95% -1,45 à 0,55).
 
 ## 🩺 Impact clinique
-Données rassurantes pour les cliniciens et patientes concernant l'utilisation de la metformine pendant la grossesse, sans effet délétère apparent sur le neurodéveloppement jusqu'à 14 ans.
+Ces résultats rassurants suggèrent que la metformine peut être utilisée pendant la grossesse sans effets néfastes sur le développement neurologique des enfants jusqu'à 14 ans, information précieuse pour les cliniciens et les patientes.
+
+## Revue
+American Journal of Obstetrics and Gynecology
 
 ## 📖 Référence
-Gordon HG, Atkinson JA, Tong S, et al. Metformin in pregnancy and childhood neurodevelopmental outcomes: a systematic review and meta-analysis. Am J Obstet Gynecol. 2024;231(3):308-314.e6.
+2024;231(3):308-314.e6. doi: 10.1016/j.ajog.2024.02.316
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.ajog.2024.02.316.

@@ -1,19 +1,22 @@
 Date de publication : 2024-09-15
 
-# 📝 Bénéfice à 10 ans du nivolumab plus ipilimumab dans le mélanome avancé
+# 📝 Résultats finaux à 10 ans du nivolumab plus ipilimumab dans le mélanome avancé
 
 ## 📌 Contexte & Problématique
-Des données à long terme étaient nécessaires pour évaluer l'efficacité prolongée des immunothérapies chez les patients atteints de mélanome avancé, dont la survie dépasse désormais 7,5 ans.
+Les patients atteints de mélanome avancé survivant désormais plus longtemps, des données à long terme étaient nécessaires pour évaluer l'efficacité prolongée de l'immunothérapie combinée versus monothérapie.
 
 ## 🧪 Méthodologie
-Essai randomisé (1:1:1) comparant trois schémas thérapeutiques chez des patients atteints de mélanome avancé non prétraité : nivolumab+ipilimumab, nivolumab seul, ou ipilimumab seul. Stratification selon le statut BRAF, le stade métastatique et l'expression PD-L1.
+Essai randomisé (1:1:1) comparant nivolumab+ipilimumab, nivolumab seul, ou ipilimumab seul chez des patients atteints de mélanome avancé non traité, avec stratification selon le statut BRAF, le stade métastatique et l'expression PD-L1 (ligand de mort programmée 1).
 
 ## 📊 Résultats clés
-Après 10 ans de suivi minimum, la survie globale médiane était de 71,9 mois (nivolumab+ipilimumab), 36,9 mois (nivolumab) et 19,9 mois (ipilimumab). La survie médiane spécifique au mélanome était >120 mois pour nivolumab+ipilimumab (37% des patients vivants à la fin de l'étude). Chez les patients sans progression à 3 ans, la survie spécifique à 10 ans atteignait 96% (nivolumab+ipilimumab).
+Après 10 ans minimum de suivi, la survie globale médiane était de 71,9 mois (nivolumab+ipilimumab), 36,9 mois (nivolumab) et 19,9 mois (ipilimumab). La survie médiane spécifique au mélanome dépassait 120 mois avec la bithérapie. Parmi les patients sans progression à 3 ans, la survie spécifique à 10 ans atteignait 96% (bithérapie), 97% (nivolumab) et 88% (ipilimumab).
 
 ## 🩺 Impact clinique
-L'association nivolumab+ipilimumab démontre un bénéfice de survie durable et significatif par rapport aux monothérapies dans le mélanome avancé, avec des résultats qui se maintiennent sur une décennie.
+L'immunothérapie combinée ou le nivolumab seul offrent un bénéfice de survie durable par rapport à l'ipilimumab en monothérapie dans le mélanome avancé, avec un avantage particulier pour la combinaison.
+
+## Revue
+New England Journal of Medicine
 
 ## 📖 Référence
-Wolchok JD, Chiarion-Sileni V, Rutkowski P, et al. Final, 10-Year Outcomes with Nivolumab plus Ipilimumab in Advanced Melanoma. N Engl J Med. 2025;392(1):11-22.
+2025;392(1):11-22. doi:10.1056/NEJMoa2407417. Epub 2024 Sep 15.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2407417.

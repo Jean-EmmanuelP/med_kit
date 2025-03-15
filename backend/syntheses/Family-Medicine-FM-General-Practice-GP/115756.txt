@@ -1,23 +1,25 @@
 Date de publication : 2025-02-12
 
-# 📝 Risque d'AVC et d'infarctus associé aux contraceptifs hormonaux contemporains
+# 📝 Contraception hormonale contemporaine et risque d'AVC et d'infarctus du myocarde
 
 ## 📌 Contexte & Problématique
-Évaluation du risque d'AVC ischémique et d'infarctus du myocarde (IDM) avec les contraceptifs hormonaux modernes chez les femmes sans antécédents thrombotiques.
+Évaluation du risque d'accident vasculaire cérébral (AVC) ischémique et d'infarctus du myocarde (IM) associé aux contraceptifs hormonaux modernes.
 
 ## 🧪 Méthodologie
-Étude de cohorte prospective danoise incluant 2 025 691 femmes (15-49 ans) suivies pendant 22 209 697 personnes-années (1996-2021).
+Étude de cohorte prospective danoise incluant 2 025 691 femmes (15-49 ans) suivies pendant 22 209 697 personnes-années (1996-2021), sans antécédents de thrombose ou comorbidités majeures.
 
 ## 📊 Résultats clés
-- Contraception œstroprogestative: risque doublé d'AVC et d'IDM (RR=2,0)
-- Pilules progestatives: augmentation modérée du risque (AVC: RR=1,6; IDM: RR=1,5)
-- Anneau vaginal: risque élevé (AVC: RR=2,4; IDM: RR=3,8)
-- DIU au lévonorgestrel: aucune augmentation significative du risque (AVC: RR=1,1; IDM: RR=1,1)
-- Taux absolu pour 100 000 personnes-années avec contraception œstroprogestative: 39 AVC et 18 IDM
+- Contraception orale combinée : risque doublé d'AVC et d'IM (rapport de taux ajusté: 2,0)
+- Pilules à progestatif seul : risque augmenté d'AVC (1,6) et d'IM (1,5)
+- Anneau vaginal et patch : risques plus élevés d'AVC (2,4-3,4) et d'IM (3,8)
+- Dispositif intra-utérin au lévonorgestrel : aucune augmentation significative du risque (1,1)
 
 ## 🩺 Impact clinique
-Malgré des risques absolus faibles, ces données doivent être intégrées dans l'évaluation bénéfice-risque lors de la prescription contraceptive, particulièrement chez les femmes présentant d'autres facteurs de risque cardiovasculaire.
+Malgré des risques absolus faibles (21 AVC et 10 IM supplémentaires/100 000 personnes-années pour contraception orale combinée), ces données doivent être intégrées à l'évaluation bénéfice-risque lors de la prescription contraceptive.
+
+## Revue
+BMJ
 
 ## 📖 Référence
-Yonis H, Lokkegaard E, Kragholm K, et al. BMJ. 2025;388:e082801.
+2025 Feb 12;388:e082801. doi: 10.1136/bmj-2024-082801.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1136/bmj-2024-082801.

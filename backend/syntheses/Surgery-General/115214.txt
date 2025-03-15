@@ -1,0 +1,22 @@
+Date de publication : 2024-11-01
+
+# 📝 Hydromorphone vs morphine pour l'analgésie postopératoire : méta-analyse comparative
+
+## 📌 Contexte & Problématique
+Face aux effets secondaires de la morphine en analgésie postopératoire, l'hydromorphone (dérivé de la morphine sans métabolites actifs) représente une alternative potentielle nécessitant évaluation comparative.
+
+## 🧪 Méthodologie
+Méta-analyse de 8 essais contrôlés randomisés (833 patients) évaluant les scores de douleur postopératoire et les effets secondaires (sédation sévère, nausées, vomissements, prurit). Qualité évaluée selon l'outil Cochrane et critères GRADE.
+
+## 📊 Résultats clés
+Aucune différence significative dans les scores de douleur entre hydromorphone et morphine à tous les temps mesurés (8h, 12h, 24h, 36h, 48h). Incidence comparable de nausées/vomissements et sédation sévère à 24h. Réduction significative du prurit avec l'hydromorphone à 24h (RR = 0,24; IC 95%, 0,09-0,66; P = 0,005).
+
+## 🩺 Impact clinique
+L'hydromorphone offre une efficacité analgésique équivalente à la morphine avec un profil d'effets secondaires similaire, excepté une réduction significative du prurit, ce qui peut être avantageux chez certains patients à risque.
+
+## Revue
+Pain Physician
+
+## 📖 Référence
+2024;27(8):469-478.
+🔗 Lien PubMed : Lien PubMed non disponible

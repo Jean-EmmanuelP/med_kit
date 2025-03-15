@@ -1,0 +1,22 @@
+Date de publication : 2024-06-12
+
+# 📝 Interventions pour augmenter le temps passé à l'extérieur afin de prévenir l'incidence et la progression de la myopie chez les enfants
+
+## 📌 Contexte & Problématique
+La myopie représente un problème majeur de santé publique mondiale, avec des conséquences individuelles et sociétales importantes. Des études observationnelles suggèrent que passer plus de temps à l'extérieur pourrait réduire l'incidence de la myopie chez les enfants.
+
+## 🧪 Méthodologie
+Revue systématique de 5 ECR (Essais Contrôlés Randomisés), dont 4 en grappes, totalisant 10 733 enfants d'écoles primaires (6-9 ans). Les interventions incluaient des activités scolaires extérieures, des récréations à l'extérieur et des outils de motivation.
+
+## 📊 Résultats clés
+À 2 ans, les interventions ont montré une réduction cliniquement significative de la progression de l'erreur de réfraction (DM 0,13 D, IC 95% 0,06-0,19) et de l'incidence de la myopie (22,5% vs 26,7%, RR 0,84, IC 95% 0,72-0,98). Les longueurs axiales étaient également réduites (DM -0,04 mm, IC 95% -0,07 à -0,01). Aucun événement indésirable rapporté.
+
+## 🩺 Impact clinique
+Les interventions augmentant le temps passé à l'extérieur semblent efficaces pour prévenir l'apparition et ralentir la progression de la myopie chez les enfants, avec des bénéfices cliniquement significatifs observés après 2 ans.
+
+## Revue
+Cochrane Database of Systematic Reviews
+
+## 📖 Référence
+2024 Jun 12;6(6):CD013549. doi: 10.1002/14651858.CD013549.pub2.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1002/14651858.CD013549.pub2.

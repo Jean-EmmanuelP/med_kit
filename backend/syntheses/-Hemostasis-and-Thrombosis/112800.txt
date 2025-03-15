@@ -3,17 +3,20 @@ Date de publication : 2024-04-01
 # 📝 Macitentan pour l'hypertension pulmonaire thromboembolique chronique inopérable
 
 ## 📌 Contexte & Problématique
-L'hypertension pulmonaire thromboembolique chronique (HTPC) inopérable présente une microvasculopathie similaire à l'hypertension artérielle pulmonaire. Le macitentan, efficace dans cette dernière, a été évalué pour l'HTPC inopérable.
+L'hypertension pulmonaire thromboembolique chronique (HTPC) inopérable présente une microvasculopathie similaire à l'hypertension artérielle pulmonaire, où le macitentan a déjà montré des bénéfices thérapeutiques.
 
 ## 🧪 Méthodologie
-Étude MERIT-1 : essai randomisé, double aveugle, contrôlé par placebo incluant 80 patients avec HTPC inopérable (classe fonctionnelle II-IV, RVP ≥400 dyn·s/cm5). Randomisation 1:1 entre macitentan oral (10 mg/jour) et placebo pendant 16 semaines. Critère principal : évolution de la résistance vasculaire pulmonaire (RVP).
+Étude MERIT-1 : essai randomisé (1:1), double aveugle, contrôlé par placebo, incluant 80 patients avec HTPC inopérable (classe fonctionnelle II-IV OMS), RVP ≥400 dyn·s/cm5 et distance de marche de 6 minutes entre 150-450m. Traitement : macitentan oral (10mg/jour) versus placebo pendant 16 semaines.
 
 ## 📊 Résultats clés
-À 16 semaines, la RVP a diminué à 71,5% de la valeur initiale sous macitentan contre 87,6% sous placebo (rapport des moyennes géométriques 0,81; IC 95% 0,70-0,95; p=0,0098). Effets indésirables principaux : œdème périphérique (23%) et diminution de l'hémoglobine (15%).
+À 16 semaines, la RVP (résistance vasculaire pulmonaire) a diminué à 71,5% de la valeur initiale dans le groupe macitentan contre 87,6% sous placebo (rapport 0,81, IC 95% 0,70-0,95, p=0,0098). Effets indésirables principaux : œdème périphérique (23%) et diminution de l'hémoglobine (15%).
 
 ## 🩺 Impact clinique
-Le macitentan améliore significativement la RVP chez les patients atteints d'HTPC inopérable avec un profil de tolérance acceptable, offrant une option thérapeutique pour cette population difficile à traiter.
+Le macitentan améliore significativement les paramètres hémodynamiques chez les patients atteints d'HTPC inopérable avec un profil de tolérance acceptable, offrant une option thérapeutique pour ces patients à options limitées.
+
+## Revue
+Lancet Respiratory Medicine
 
 ## 📖 Référence
-Ghofrani HA, Simonneau G, D'Armini AM, et al. Lancet Respir Med. 2024;12(4):e21-e30.
+2024; 12(4):e21-e30. doi: 10.1016/S2213-2600(24)00027-4.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S2213-2600(24)00027-4.

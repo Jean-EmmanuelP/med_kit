@@ -1,19 +1,22 @@
 Date de publication : 2025-01-28
 
-# 📝 Interventions à faible coût pour augmenter le dépistage du cancer du col utérin aux urgences
+# 📝 Interventions à faible coût pour augmenter le dépistage du cancer du col utérin chez les patientes des services d'urgence
 
 ## 📌 Contexte & Problématique
-Les patients des services d'urgence (SU) présentent un risque élevé de non-adhésion au dépistage du cancer du col utérin (CCU). Les SU constituent donc un environnement propice pour promouvoir ce dépistage essentiel.
+Les patientes des services d'urgence (SU) présentent un risque élevé de non-adhésion au dépistage du cancer du col utérin (CCU), pourtant crucial pour réduire la mortalité. Les SU représentent donc un lieu stratégique pour promouvoir ce dépistage.
 
 ## 🧪 Méthodologie
-Essai clinique randomisé comparant deux interventions chez des femmes de 21-65 ans nécessitant un dépistage du CCU : (1) orientation de base et (2) orientation plus messages texte. Suivi à 150 jours. Comparaison avec témoins historiques.
+Essai clinique randomisé comparant deux interventions : (1) orientation de base vers le dépistage et (2) orientation de base plus messages texte comportementaux. Suivi de 1089 femmes (21-65 ans) pendant 150 jours, avec comparaison à des témoins historiques.
 
 ## 📊 Résultats clés
-Taux de dépistage : 20% (orientation simple), 23% (orientation+SMS) contre 10% (témoins historiques). Différence significative entre interventions et témoins (p=0,001). Chez les femmes ≤40 ans, l'intervention SMS était plus efficace (p=0,032).
+Taux de dépistage : 20% (orientation simple), 23% (orientation+SMS) contre 10% (témoins historiques). Différence non significative entre les deux interventions (p=0,219), mais significative par rapport aux témoins (p=0,001). L'intervention par SMS s'est révélée plus efficace chez les femmes ≤40 ans (p=0,032).
 
 ## 🩺 Impact clinique
-Les deux interventions à faible coût augmentent significativement l'adoption du dépistage du CCU. L'ajout de messages texte améliore particulièrement les résultats chez les femmes plus jeunes.
+Les interventions à faible coût en SU augmentent significativement l'adoption du dépistage du CCU. L'approche par messages texte présente un avantage particulier pour les femmes plus jeunes.
+
+## Revue
+Academic Emergency Medicine
 
 ## 📖 Référence
-Adler D, Wood N, Fiscella K, et al. Low-cost interventions to increase uptake of cervical cancer screening among emergency department patients: Results of a randomized clinical trial. Acad Emerg Med. 2025;28. doi:10.1111/acem.15101.
+2025 Jan 28. doi: 10.1111/acem.15101.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1111/acem.15101.

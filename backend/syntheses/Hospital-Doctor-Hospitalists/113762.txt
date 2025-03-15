@@ -1,0 +1,22 @@
+Date de publication : 2024-05-27
+
+# 📝 Identification des patients stables avec embolie pulmonaire aiguë à haut risque de décès : validation externe de différents modèles
+
+## 📌 Contexte & Problématique
+L'identification des patients hémodynamiquement stables atteints d'embolie pulmonaire (EP) aiguë à risque de décès ou de détérioration clinique reste un défi. Cette étude évalue les performances de différents modèles prédictifs existants.
+
+## 🧪 Méthodologie
+Étude de cohorte multicentrique prospective (NCT03631810) incluant 5036 patients hémodynamiquement stables avec EP aiguë. Évaluation des modèles ESC (Société Européenne de Cardiologie)-2014, ESC-2019, PEITHO (Pulmonary Embolism Thrombolysis), Bova, TELOS (Thrombo-embolism lactate outcome study), FAST et NEWS2 (National Early Warning Scale 2).
+
+## 📊 Résultats clés
+Les valeurs prédictives positives étaient <10% pour la plupart des modèles, sauf TELOS et NEWS2. Les valeurs prédictives négatives dépassaient 98% pour tous sauf FAST et NEWS2. ESC-2014 et TELOS ont montré les meilleures performances globales (c-statistiques ~0,7-0,78), tandis que PEITHO, Bova et NEWS2 excellaient pour prédire le décès lié à l'EP.
+
+## 🩺 Impact clinique
+TELOS présente la meilleure performance globale pour identifier les patients à risque. Ces résultats peuvent guider la prise en charge clinique et orienter les futures études sur la stratification du risque dans l'EP aiguë.
+
+## Revue
+J Thromb Haemost
+
+## 📖 Référence
+2024;22(9):2502-2513. doi: 10.1016/j.jtha.2024.04.025. Epub 2024 May 27.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.jtha.2024.04.025.

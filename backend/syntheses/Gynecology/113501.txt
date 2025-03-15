@@ -1,0 +1,22 @@
+Date de publication : 2024-05-03
+
+# 📝 Bandelette à incision unique vs rétropubienne dans la réparation du prolapsus vaginal
+
+## 📌 Contexte & Problématique
+Évaluation de l'efficacité et des complications des bandelettes médio-urétrales chez les femmes subissant une réparation transvaginale pour prolapsus des organes pelviens (POP) avec incontinence urinaire d'effort (IUE).
+
+## 🧪 Méthodologie
+Essai randomisé multicentrique de non-infériorité comparant la bandelette à incision unique (Altis) à la bandelette rétropubienne chez 255 femmes avec POP stade ≥II et IUE confirmée. Critère principal : fonctionnement anormal des voies urinaires basses à 12 mois.
+
+## 📊 Résultats clés
+Le dysfonctionnement urinaire à 12 mois est survenu chez 25% des patientes du groupe incision unique contre 20% du groupe rétropubien (différence non significative, p=0,001 pour non-infériorité). Les événements indésirables (16% vs 9%) et la satisfaction des patientes (71% vs 67%) étaient comparables entre les groupes.
+
+## 🩺 Impact clinique
+La bandelette à incision unique représente une alternative non-inférieure à la bandelette rétropubienne pour les femmes nécessitant une correction d'IUE lors d'une réparation vaginale, avec un profil de complications similaire.
+
+## Revue
+American Journal of Obstetrics and Gynecology
+
+## 📖 Référence
+2024;231(2):261.e1-261.e10. doi: 10.1016/j.ajog.2024.04.036
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.ajog.2024.04.036.

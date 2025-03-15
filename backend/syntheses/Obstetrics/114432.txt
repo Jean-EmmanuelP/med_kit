@@ -1,0 +1,22 @@
+Date de publication : 2024-09-13
+
+# 📝 Coût-efficacité des interventions pour l'hémorragie du post-partum : revue systématique
+
+## 📌 Contexte & Problématique
+L'hémorragie du post-partum (HPP) reste la principale cause de mortalité maternelle dans les milieux à ressources limitées. Cette revue systématique identifie et évalue les données probantes sur le rapport coût-efficacité des interventions visant à prévenir, diagnostiquer ou traiter l'HPP.
+
+## 🧪 Méthodologie
+Recherche dans 8 bases de données sans limitation de date ou langue. Évaluations économiques complètes d'interventions post-partum pour l'HPP. Tri, extraction et évaluation de qualité (outil CHEC-E) par au moins 2 examinateurs indépendants.
+
+## 📊 Résultats clés
+Sur 3 993 citations, 56 études ont été incluses couvrant 16 interventions différentes dans des pays de tous niveaux de revenus. L'acide tranexamique pour le traitement de l'HPP et les ensembles de soins complets montrent les résultats les plus cohérents en termes de coût-efficacité.
+
+## 🩺 Impact clinique
+Plusieurs interventions prioritaires recommandées par l'OMS (Organisation mondiale de la Santé) nécessitent encore des évaluations économiques rigoureuses, notamment l'administration d'utérotoniques supplémentaires, le vêtement antichoc non pneumatique et le tamponnement par ballonnet utérin.
+
+## Revue
+PLoS Med
+
+## 📖 Référence
+2024;21(9):e1004461. doi: 10.1371/journal.pmed.1004461. eCollection 2024 Sep.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1371/journal.pmed.1004461.

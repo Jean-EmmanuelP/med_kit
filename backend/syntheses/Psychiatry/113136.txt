@@ -1,0 +1,22 @@
+Date de publication : 2024-05-14
+
+# 📝 Risque cardiovasculaire à long terme associé au traitement du TDAH chez l'adulte
+
+## 📌 Contexte & Problématique
+L'augmentation des prescriptions de médicaments pour le TDAH (Trouble Déficitaire de l'Attention avec Hyperactivité) soulève des questions sur leur sécurité cardiovasculaire à long terme chez l'adulte.
+
+## 🧪 Méthodologie
+Étude de cohorte basée sur les registres nationaux danois incluant des adultes ayant initié un traitement pour TDAH entre 1998-2020. Comparaison entre utilisateurs antérieurs, utilisateurs de <1 DQD (Dose Quotidienne Définie) par jour, et utilisateurs de ≥1 DQD par jour.
+
+## 📊 Résultats clés
+Les utilisateurs de ≥1 DQD/jour présentaient un risque absolu standardisé à 10 ans plus élevé par rapport aux utilisateurs antérieurs pour les AVC (2,1% vs 1,7%), l'insuffisance cardiaque (1,2% vs 0,7%) et le critère composite (3,9% vs 3,0%). Aucune association significative n'a été observée pour les syndromes coronariens aigus.
+
+## 🩺 Impact clinique
+Ces résultats suggèrent une possible association entre les doses élevées de médicaments pour TDAH et un risque cardiovasculaire accru, même chez des patients jeunes, justifiant une vigilance clinique et des investigations supplémentaires.
+
+## Revue
+Journal of the American College of Cardiology
+
+## 📖 Référence
+2024;83(19):1870-1882. doi:10.1016/j.jacc.2024.03.375.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.jacc.2024.03.375.

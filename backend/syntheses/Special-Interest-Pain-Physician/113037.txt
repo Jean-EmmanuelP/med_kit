@@ -1,0 +1,22 @@
+Date de publication : 2024-04-13
+
+# 📝 Algorithme de traitement de la neuropathie diabétique douloureuse : directive SWEET
+
+## 📌 Contexte & Problématique
+La neuropathie diabétique douloureuse (NDD) constitue une cause majeure de douleur et d'invalidité mondiale. Malgré les avancées récentes en pharmacothérapie et approches interventionnelles, un manque de consensus persiste sur les traitements appropriés, nécessitant des directives complètes.
+
+## 🧪 Méthodologie
+Un groupe multidisciplinaire d'experts internationaux réuni par l'American Society of Pain and Neuroscience (ASPN) a développé la directive SWEET. Analyse systématique de la littérature anglophone (2000-présent) via Medline, EMBASE, Cochrane CENTRAL et autres bases de données pour évaluer les traitements de la NDD.
+
+## 📊 Résultats clés
+L'algorithme SWEET propose une évaluation complète des traitements disponibles pour la NDD avec attribution de grades thérapeutiques selon les critères du United States Preventive Services Task Force.
+
+## 🩺 Impact clinique
+Cette directive fournit aux cliniciens des recommandations fondées sur des preuves pour une prise en charge sûre et efficace des patients souffrant de NDD, constituant la revue la plus exhaustive des options thérapeutiques disponibles.
+
+## Revue
+Journal of Pain Research
+
+## 📖 Référence
+2024;17:1461-1501. doi:10.2147/JPR.S451006
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.2147/JPR.S451006.

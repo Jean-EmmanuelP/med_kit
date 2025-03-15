@@ -1,0 +1,25 @@
+Date de publication : 2024-03-21
+
+# 📝 Vitamine A orale pour la prévention de la maladie du greffon contre l'hôte pédiatrique
+
+## 📌 Contexte & Problématique
+La vitamine A joue un rôle dans l'homéostasie gastro-intestinale et favorise un phénotype tolérogène dans les macrophages. Son potentiel préventif contre la maladie du greffon contre l'hôte (GVHD) après greffe de cellules souches hématopoïétiques (GCSH) a été évalué.
+
+## 🧪 Méthodologie
+Essai randomisé en double aveugle incluant 80 receveurs pédiatriques de GCSH, recevant soit une dose unique de vitamine A (4000 UI/kg, maximum 250 000 UI) soit un placebo avant conditionnement.
+
+## 📊 Résultats clés
+- GVHD aiguë à J+100 : 12,5% (vitamine A) vs 20% (placebo), p=0,5
+- GVHD gastro-intestinale à J+180 : 2,5% vs 12,5%, p=0,09
+- GVHD chronique à 1 an : 5% vs 15%, p=0,02
+- Diminution des lymphocytes T CD8+ CCR9+ et des marqueurs inflammatoires (IL-6, IL-8) dans le groupe vitamine A
+
+## 🩺 Impact clinique
+La vitamine A administrée avant GCSH est peu coûteuse, présente une faible toxicité et réduit significativement l'incidence de GVHD chronique, avec un effet potentiel sur la GVHD gastro-intestinale.
+
+## Revue
+Blood
+
+## 📖 Référence
+2024;143(12):1181-1192. doi:10.1182/blood.2023022865
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1182/blood.2023022865.

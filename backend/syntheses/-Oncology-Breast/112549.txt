@@ -1,22 +1,26 @@
 Date de publication : 2024-02-29
 
-# 📝 Résultats finaux de l'essai ASCENT dans le cancer du sein triple négatif métastatique
+# 📝 Sacituzumab govitecan dans le cancer du sein triple négatif métastatique : résultats finaux d'ASCENT
 
 ## 📌 Contexte & Problématique
-Le sacituzumab govitecan (SG), conjugué anticorps-médicament anti-Trop-2, a été évalué contre la chimiothérapie standard (TCM) chez des patientes atteintes de cancer du sein triple négatif métastatique. Cette publication présente les analyses finales des critères secondaires.
+Le sacituzumab govitecan (SG), conjugué anticorps-médicament ciblant l'antigène 2 de surface des cellules trophoblastiques (Trop-2), a précédemment montré une supériorité versus chimiothérapie standard dans le cancer du sein triple négatif métastatique (CSTNm).
 
 ## 🧪 Méthodologie
-Essai randomisé de phase III (1:1) comparant SG versus TCM jusqu'à progression/toxicité inacceptable. Analyses stratifiées par expression de Trop-2 et statut HER2.
+Étude ASCENT : essai randomisé de phase III comparant SG à la chimiothérapie au choix du médecin (TCM) chez des patients atteints de CSTNm. Analyses finales des critères secondaires et analyses post-hoc selon l'expression de Trop-2 et du récepteur 2 du facteur de croissance épidermique humain (HER2).
 
 ## 📊 Résultats clés
-SG (n=267) versus TCM (n=262) a significativement amélioré:
-- Survie sans progression médiane: 4,8 vs 1,7 mois (HR=0,41; IC95%:0,33-0,52)
-- Survie globale médiane: 11,8 vs 6,9 mois (HR=0,51; IC95%:0,42-0,63)
+SG (n=267) versus TCM (n=262) a significativement amélioré :
+- Survie sans progression médiane : 4,8 vs 1,7 mois (RR 0,41)
+- Survie globale médiane : 11,8 vs 6,9 mois (RR 0,51)
 - Bénéfice observé dans tous les quartiles d'expression de Trop-2
+- Profil de sécurité gérable (<5% d'arrêts pour effets indésirables)
 
 ## 🩺 Impact clinique
-Profil de sécurité gérable (<5% d'arrêts pour effets indésirables, aucun décès lié). Ces résultats confirment le SG comme option thérapeutique efficace en 2ème ligne et plus du cancer du sein triple négatif métastatique.
+Ces résultats finaux confirment le bénéfice clinique du SG, le positionnant comme option thérapeutique efficace en deuxième ligne et au-delà dans le CSTNm.
+
+## Revue
+Journal of Clinical Oncology
 
 ## 📖 Référence
-Bardia A, Rugo HS, Tolaney SM, et al. J Clin Oncol. 2024;42(15):1738-1744.
+2024;42(15):1738-1744. doi:10.1200/JCO.23.01409. Epub 2024 Feb 29.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO.23.01409.

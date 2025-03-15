@@ -1,0 +1,22 @@
+Date de publication : 2024-05-30
+
+# 📝 Déficits neurologiques postopératoires après chirurgie de l'épilepsie du lobe pariétal : revue systématique
+
+## 📌 Contexte & Problématique
+La chirurgie résective pour l'épilepsie du lobe pariétal (ELP) peut traiter efficacement l'épilepsie réfractaire, mais comporte des risques neurologiques. Cette revue systématique analyse la fréquence et les types de déficits neurologiques postopératoires.
+
+## 🧪 Méthodologie
+Recherche dans MEDLINE, Embase et Cochrane (1990-2022) d'études incluant ≥5 patients ayant subi une chirurgie résective de l'ELP. Évaluation du risque de biais avec ROBINS-I et qualité des preuves avec GRADE.
+
+## 📊 Résultats clés
+Sur 370 patients (33 études), 27,0% ont développé de nouveaux déficits postopératoires, dont environ la moitié transitoires. Les déficits moteurs étaient les plus fréquents (5,7% transitoires, 3,2% permanents, 2,2% de durée non spécifiée), suivis des déficits sensoriels et visuels. Le syndrome de Gerstmann est survenu chez 4,9% des patients, presque toujours transitoirement.
+
+## 🩺 Impact clinique
+Cette revue fournit des données précieuses sur les risques neurologiques associés à la chirurgie de l'ELP, soulignant qu'une proportion significative des déficits est transitoire. Elle identifie des lacunes dans la littérature et propose des recommandations pour la recherche future.
+
+## Revue
+Neurology
+
+## 📖 Référence
+2024;102(12):e209322. doi: 10.1212/WNL.0000000000209322. Epub 2024 May 30.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1212/WNL.0000000000209322.

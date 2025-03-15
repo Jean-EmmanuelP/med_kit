@@ -1,0 +1,22 @@
+Date de publication : 2024-07-01
+
+# 📝 Ajout du temsirolimus à la chimiothérapie dans le rhabdomyosarcome à risque intermédiaire chez les jeunes patients
+
+## 📌 Contexte & Problématique
+Le temsirolimus a montré une activité prometteuse contre le rhabdomyosarcome (RMS) récidivant. Cette étude évalue son efficacité en association avec la chimiothérapie standard chez les patients atteints de RMS à risque intermédiaire (défini par statut FOXO1 et caractéristiques cliniques).
+
+## 🧪 Méthodologie
+Essai randomisé de phase 3 incluant 297 patients (≤40 ans) avec RMS à risque intermédiaire, comparant vincristine/actinomycine/cyclophosphamide alternant avec vincristine/irinotécan (VAC/VI) seul versus VAC/VI plus temsirolimus, suivi d'un traitement d'entretien de 6 mois.
+
+## 📊 Résultats clés
+Après un suivi médian de 3,6 ans, la survie sans événement à 3 ans était comparable entre les groupes : 64,8% (VAC/VI) contre 66,8% (VAC/VI+temsirolimus), HR=0,86 (IC 95% 0,58-1,26; p=0,44). Les toxicités hématologiques grade 3-4 étaient plus fréquentes dans le groupe temsirolimus.
+
+## 🩺 Impact clinique
+L'ajout du temsirolimus n'améliore pas les résultats cliniques dans le RMS à risque intermédiaire malgré une toxicité accrue. Des approches thérapeutiques basées sur la biologie tumorale restent nécessaires pour améliorer le pronostic.
+
+## Revue
+Lancet Oncol
+
+## 📖 Référence
+2024;25(7):912-921. doi:10.1016/S1470-2045(24)00255-9
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S1470-2045(24)00255-9.

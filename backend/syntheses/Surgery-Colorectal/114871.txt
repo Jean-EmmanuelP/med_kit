@@ -1,0 +1,26 @@
+Date de publication : 2024-11-05
+
+# 📝 Appendicectomie laparoscopique à incision unique versus incisions multiples pour l'appendicite non compliquée
+
+## 📌 Contexte & Problématique
+L'appendicectomie laparoscopique à incision unique (SILA) est une évolution récente de la technique chirurgicale mini-invasive, intégrant tous les ports de travail par une seule incision cutanée. Cette revue systématique évalue ses bénéfices par rapport à l'appendicectomie laparoscopique conventionnelle à incisions multiples (CLA).
+
+## 🧪 Méthodologie
+Analyse de 11 essais contrôlés randomisés incluant 1373 participants (689 SILA, 684 CLA) de plus de 10 ans avec diagnostic d'appendicite. Les critères évalués incluaient douleur postopératoire, résultats cosmétiques, complications et récupération.
+
+## 📊 Résultats clés
+- Scores de douleur à 24h similaires (preuves de faible certitude)
+- Résultats cosmétiques supérieurs avec SILA (preuves de certitude modérée)
+- Taux de lésions viscérales/vasculaires comparables
+- Taux de conversion plus élevé pour SILA (OR 2,95)
+- Durée d'hospitalisation et retour aux activités normales similaires
+
+## 🩺 Impact clinique
+SILA offre des résultats comparables à la CLA pour les complications et la récupération, avec un avantage cosmétique significatif, mais présente un taux de conversion plus élevé. Cette technique peut être considérée comme une alternative valable pour les patients préoccupés par l'aspect esthétique.
+
+## Revue
+Cochrane Database of Systematic Reviews
+
+## 📖 Référence
+2024 Nov 5;11(11):CD009022. doi: 10.1002/14651858.CD009022.pub3.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1002/14651858.CD009022.pub3.

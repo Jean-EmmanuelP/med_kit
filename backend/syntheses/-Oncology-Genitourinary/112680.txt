@@ -1,24 +1,26 @@
 Date de publication : 2024-03-14
 
-# 📝 Efficacité des inhibiteurs de PARP selon les gènes mutés dans le cancer de prostate métastatique résistant à la castration
+# 📝 Efficacité des inhibiteurs de PARP selon les gènes mutés individuels dans le cancer de prostate métastatique résistant à la castration
 
 ## 📌 Contexte & Problématique
-Analyse groupée évaluant l'efficacité des inhibiteurs de PARP (PARPi) selon les mutations spécifiques des gènes de réparation par recombinaison homologue (RRH) dans le cancer de prostate métastatique résistant à la castration (CPRCm).
+Analyse groupée évaluant l'efficacité des inhibiteurs de poly(ADP-ribose) polymérase (PARPi) selon chaque gène muté de réparation par recombinaison homologue (HRR) dans le cancer de prostate métastatique résistant à la castration (mCRPC).
 
 ## 🧪 Méthodologie
-Regroupement des données individuelles de patients issus d'essais de PARPi dans le CPRCm. Évaluation des rapports de risque (HR) pour la survie sans progression radiographique (rPFS) et la survie globale (SG) avec PARPi+ARPI versus placebo+ARPI.
+Regroupement des données individuelles de patients issus d'essais cliniques de PARPi dans le mCRPC avec statut mutationnel HRR connu. Calcul des rapports de risque (HR) pour la survie sans progression radiographique (rPFS) et la survie globale (OS) dans trois essais randomisés.
 
 ## 📊 Résultats clés
-- BRCA2m (N=422): HR rPFS 0,31 (0,23-0,42); HR SG 0,66 (0,49-0,89)
-- CDK12m (N=164): HR rPFS 0,50 (0,32-0,80); HR SG 0,63 (0,39-0,99)
-- BRCA1m (N=64): HR rPFS 0,51 (0,23-1,1)
-- PALB2m (N=41): HR rPFS 0,52 (0,23-1,17)
-- ATMm (N=268): HR rPFS 1,05 (0,74-1,49)
-- CHEK2m (N=172): HR rPFS 1,06 (0,67-1,66)
+Bénéfice significatif des PARPi pour:
+- BRCA2m: rPFS HR=0,31; OS HR=0,66
+- CDK12m: rPFS HR=0,50; OS HR=0,63
+- Tendance favorable pour BRCA1m (rPFS HR=0,51) et PALB2m (rPFS HR=0,52)
+- Absence de bénéfice pour ATMm et CHEK2m
 
 ## 🩺 Impact clinique
-Bénéfice significatif des PARPi chez les patients avec mutations BRCA2 et CDK12. Bénéfice potentiel pour BRCA1 et PALB2. Absence apparente de bénéfice pour ATM et CHEK2, nécessitant des investigations supplémentaires.
+Les résultats suggèrent une efficacité variable des PARPi selon le profil génétique. Les mutations BRCA2 et CDK12 semblent être les meilleurs prédicteurs de réponse. L'absence d'efficacité pour ATMm et CHEK2m nécessite des investigations supplémentaires.
+
+## Revue
+Journal of Clinical Oncology
 
 ## 📖 Référence
-Fallah J, Xu J, Weinstock C, et al. J Clin Oncol. 2024;42(14):1687-1698.
+2024;42(14):1687-1698. doi:10.1200/JCO.23.02105. Epub 2024 Mar 14.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO.23.02105.

@@ -1,0 +1,22 @@
+Date de publication : 2024-04-06
+
+# 📝 Empagliflozine après un infarctus du myocarde aigu
+
+## 📌 Contexte & Problématique
+L'empagliflozine a démontré des bénéfices cardiovasculaires dans plusieurs populations, mais son efficacité chez les patients après un infarctus du myocarde aigu (IDM) restait inconnue.
+
+## 🧪 Méthodologie
+Essai randomisé, contrôlé par placebo, en double aveugle incluant 6522 patients hospitalisés pour IDM aigu à risque d'insuffisance cardiaque (IC). Les patients ont reçu empagliflozine (10 mg/jour) ou placebo dans les 14 jours suivant l'admission. Critère principal : composite d'hospitalisation pour IC ou décès toutes causes.
+
+## 📊 Résultats clés
+Après 17,9 mois de suivi médian, le critère principal est survenu chez 8,2% des patients sous empagliflozine contre 9,1% sous placebo (HR 0,90; IC 95% 0,76-1,06; p=0,21). Les hospitalisations pour IC ont été réduites (3,6% vs 4,7%; HR 0,77; IC 95% 0,60-0,98), sans différence significative sur la mortalité. Profil de sécurité conforme aux données connues.
+
+## 🩺 Impact clinique
+L'empagliflozine n'a pas démontré de bénéfice significatif sur le critère composite principal après un IDM aigu, malgré une réduction des hospitalisations pour IC.
+
+## Revue
+N Engl J Med
+
+## 📖 Référence
+2024;390(16):1455-1466. doi:10.1056/NEJMoa2314051. Epub 2024 Apr 6. NCT04509674.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2314051.

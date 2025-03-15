@@ -1,0 +1,22 @@
+Date de publication : 2024-10-21
+
+# 📝 Thérapie par cellules stromales mésenchymateuses pour la lombalgie chronique : essai RESPINE
+
+## 📌 Contexte & Problématique
+Évaluation de l'efficacité d'une injection intradiscale unique de cellules stromales mésenchymateuses de moelle osseuse allogéniques (CSM-MO) chez des patients souffrant de lombalgie chronique.
+
+## 🧪 Méthodologie
+Étude prospective, multicentrique, randomisée, en double aveugle et contrôlée par placebo. 114 patients ont reçu soit une injection fictive (n=56), soit une injection intradiscale de 20 millions de CSM-MO allogéniques (n=58). Critère principal : taux de répondeurs (amélioration ≥20% et 20mm sur l'Échelle Visuelle Analogique ou amélioration ≥20% de l'Indice d'Incapacité d'Oswestry (ODI)) à 12 mois.
+
+## 📊 Résultats clés
+À 12 mois, le critère d'évaluation principal n'a pas été atteint (74% dans le groupe CSM-MO contre 69% dans le groupe placebo; p=0,77). Aucune différence significative pour les critères secondaires. Aucun événement indésirable grave lié à l'intervention.
+
+## 🩺 Impact clinique
+Bien que l'efficacité des CSM-MO allogéniques pour la lombalgie chronique n'ait pas été démontrée, la procédure s'est avérée sûre. Les résultats à long terme restent à étudier.
+
+## Revue
+Annals of Rheumatic Diseases
+
+## 📖 Référence
+2024;83(11):1572-1583. doi:10.1136/ard-2024-225771. EudraCT 2017-002092-25/ClinicalTrials.gov:NCT03737461.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1136/ard-2024-225771.

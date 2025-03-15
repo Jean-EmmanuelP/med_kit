@@ -1,0 +1,22 @@
+Date de publication : 2024-07-24
+
+# 📝 Némolizumab dans la dermatite atopique modérée à sévère : résultats des essais ARCADIA
+
+## 📌 Contexte & Problématique
+Le némolizumab, antagoniste du récepteur IL-31, cible les démangeaisons et l'inflammation dans la dermatite atopique (DA). Les essais ARCADIA ont évalué son efficacité chez des patients avec DA modérée à sévère insuffisamment contrôlée par corticostéroïdes topiques.
+
+## 🧪 Méthodologie
+Deux essais de phase 3 identiques, randomisés (2:1), en double aveugle, incluant adolescents et adultes (≥12 ans) dans 22 pays. Traitement : némolizumab 30mg SC (dose initiale 60mg) ou placebo toutes les 4 semaines pendant 16 semaines, avec corticostéroïdes topiques (CST) ± inhibiteurs de calcineurine (ITC).
+
+## 📊 Résultats clés
+À 16 semaines, le némolizumab a significativement amélioré les scores IGA (36-38% vs 25-26%) et EASI-75 (42-44% vs 29-30%) comparé au placebo. Amélioration rapide des démangeaisons (dès semaine 1) et du sommeil. Profil de sécurité comparable au placebo, avec 41-50% d'événements indésirables sous némolizumab vs 44-45% sous placebo.
+
+## 🩺 Impact clinique
+Le némolizumab associé aux CST-ITC offre une amélioration significative de l'inflammation cutanée et des démangeaisons chez les patients atteints de DA modérée à sévère, représentant une option thérapeutique prometteuse.
+
+## Revue
+Lancet
+
+## 📖 Référence
+2024;404(10451):445-460. doi:10.1016/S0140-6736(24)01203-0
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S0140-6736(24)01203-0.

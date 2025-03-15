@@ -1,0 +1,22 @@
+Date de publication : 2024-09-16
+
+# 📝 Supériorité de l'approche thoracique droite dans le cancer œsophagien : survie à 10 ans
+
+## 📌 Contexte & Problématique
+Comparaison des résultats à long terme entre deux approches chirurgicales (thoracique droite vs gauche) pour l'œsophagectomie dans le cancer de l'œsophage.
+
+## 🧪 Méthodologie
+Étude randomisée (2010-2012) incluant 286 patients atteints de carcinome épidermoïde de l'œsophage répartis entre approche thoracique droite (n=146) et gauche (n=140). Analyse de la survie sans maladie (SSM) et survie globale (SG) sur 10 ans.
+
+## 📊 Résultats clés
+SSM médiane supérieure avec l'approche droite (92 vs 41 mois; HR=0,73; p=0,045), avec SSM à 10 ans de 47,6% vs 37,5%. SG médiane également meilleure (136 vs 99 mois; HR=0,75; p=0,081), avec SG à 10 ans de 52,4% vs 43,7%. Bénéfice significatif uniquement chez les patients avec métastases ganglionnaires: SSM à 10 ans (32,7% vs 21,4%; p=0,018) et SG à 10 ans (37,9% vs 25,9%; p=0,012).
+
+## 🩺 Impact clinique
+L'approche thoracique droite devrait être privilégiée pour les patients atteints de cancer œsophagien avec métastases ganglionnaires, offrant un avantage significatif de survie à long terme.
+
+## Revue
+Ann Thorac Surg
+
+## 📖 Référence
+2025 Mar;119(3):643-650. doi: 10.1016/j.athoracsur.2024.09.006. Epub 2024 Sep 16.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.athoracsur.2024.09.006.

@@ -1,0 +1,22 @@
+Date de publication : 2023-05-17
+
+# 📝 Tafoxiparine : nouveau candidat médicament pour la maturation cervicale et l'augmentation du travail
+
+## 📌 Contexte & Problématique
+Le travail prolongé est associé à de multiples complications obstétricales. La tafoxiparine, une héparine dépolymérisée sans effets anticoagulants, a été évaluée comme potentiel agent facilitant le travail chez les primipares.
+
+## 🧪 Méthodologie
+Deux études randomisées, en double aveugle, contrôlées par placebo ont été menées. Étude 1 : injections sous-cutanées quotidiennes (60 mg) avant le début du travail. Étude 2 : perfusion intraveineuse à différentes doses chez des femmes présentant une progression lente du travail, en complément de l'ocytocine.
+
+## 📊 Résultats clés
+Aucune différence significative pour les critères principaux, mais l'étude 1 a montré une réduction significative du risque de travail >12h avec la tafoxiparine (5% vs 18%, p=0,0045). Chez les femmes induites, la durée médiane du travail était réduite (4,44h vs 7,03h, p=0,0041) et la maturation cervicale améliorée (85% vs 23%, p=0,004). Profil d'innocuité favorable dans les deux études.
+
+## 🩺 Impact clinique
+La tafoxiparine sous-cutanée pourrait réduire la durée du travail lors d'inductions et améliorer la maturation cervicale, mais son administration intraveineuse en complément de l'ocytocine n'a pas montré d'efficacité.
+
+## Revue
+American Journal of Obstetrics and Gynecology
+
+## 📖 Référence
+2024 Mar;230(3S):S759-S768. doi: 10.1016/j.ajog.2022.10.013. Epub 2023 May 17.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.ajog.2022.10.013.

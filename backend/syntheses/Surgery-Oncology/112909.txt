@@ -1,0 +1,22 @@
+Date de publication : 2023-11-15
+
+# 📝 Effet de la pancréaticoduodénectomie laparoscopique et ouverte sur les tumeurs pancréatiques ou périampullaires : suivi de 3 ans d'un essai clinique randomisé
+
+## 📌 Contexte & Problématique
+La pancréaticoduodénectomie laparoscopique (PDL) a démontré des avantages potentiels à court terme par rapport à la technique ouverte (PDO), mais ses effets à long terme restaient à déterminer.
+
+## 🧪 Méthodologie
+Essai clinique randomisé de non-infériorité mené dans 14 centres chinois incluant 656 patients atteints de tumeurs pancréatiques ou périampullaires, randomisés (1:1) pour PDL ou PDO. Évaluation de la survie globale (SG) à 3 ans et de la qualité de vie.
+
+## 📊 Résultats clés
+Pour les tumeurs malignes, les taux de SG à 3 ans étaient de 59,1% (PDL) contre 54,3% (PDO) (P=0,33). Pour les autres pathologies : 81,3% (PDL) versus 85,6% (PDO) (P=0,40). Aucune différence significative n'a été observée concernant la qualité de vie.
+
+## 🩺 Impact clinique
+La PDL, lorsqu'elle est réalisée par des chirurgiens expérimentés, offre une survie globale à 3 ans comparable à la PDO, confirmant sa validité comme alternative thérapeutique.
+
+## Revue
+Annals of Surgery
+
+## 📖 Référence
+2024;279(4):605-612. doi:10.1097/SLA.0000000000006149
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1097/SLA.0000000000006149.

@@ -1,7 +1,7 @@
-# main.py
 import os
 import requests
 import re
+import argparse
 from auth import login
 from scraper import get_disciplines, get_article_urls, get_soup
 from parser import parse_article
@@ -15,6 +15,28 @@ OUTPUT_DIR = "articles"
 EMAIL = "jperrama@gmail.com"
 PASSWORD = "JE-po1906"
 
+# Disciplines ciblées (valeurs correspondant aux disciplines avec <6 articles)
+TARGET_DISCIPLINE_VALUES = [
+    "270",  # Surgery - Ophthalmology (Ophtalmologie)
+    "296",  # Special Interest - Pain -- Physician (Médecine de la douleur)
+    "272",  # Surgery - Thoracic (Chirurgie thoracique)
+    "21",   # --Neurology (Neurologie)
+    "266",  # Surgery - Gastrointestinal (Chirurgie digestive)
+    "262",  # Surgery - Orthopaedics (Chirurgie orthopédique)
+    "23",   # --Physical Medicine and Rehabilitation (Médecine physique et réadaptation)
+    "24",   # --Respirology/Pulmonology (Pneumologie)
+    "275",  # Surgery - Cardiac (Chirurgie cardiaque)
+    "274",  # Surgery - Urology (Urologie)
+    "273",  # Surgery - Vascular (Chirurgie vasculaire)
+    "25",   # --Rheumatology (Rhumatologie)
+    "268",  # Surgery - Neurosurgery (Neurochirurgie)
+    "276",  # Surgery - Ear Nose Throat (Chirurgie ORL)
+    "263",  # Occupational and Environmental Health (Médecine du Travail)
+    "253",  # Pediatrics (General) (Pédiatrie)
+    "13",   # --Genetics (Génétique)
+    "19"    # --Intensivist/Critical Care (Anesthésie - Réanimation)
+]
+
 def clean_discipline_name(name):
     """Nettoie le nom de la discipline pour en faire un nom de dossier valide."""
     cleaned_name = re.sub(r'[\/\-\s]+', '-', name.strip())
@@ -22,6 +44,11 @@ def clean_discipline_name(name):
     return cleaned_name
 
 def main():
+    # Ajouter un argument pour cibler uniquement les disciplines spécifiques
+    parser = argparse.ArgumentParser(description="Scraper pour Evidence Alerts")
+    parser.add_argument("--targeted", action="store_true", help="Scrape uniquement les disciplines ciblées (<6 articles)")
+    args = parser.parse_args()
+
     # Créer le dossier principal de sortie s'il n'existe pas
     if not os.path.exists(OUTPUT_DIR):
         os.makedirs(OUTPUT_DIR)
@@ -38,6 +65,18 @@ def main():
     print("Disciplines trouvées :")
     for value, name in disciplines:
         print(f"  - {name} ({value})")
+
+    # Filtrer les disciplines si l'option --targeted est activée
+    if args.targeted:
+        disciplines = [(value, name) for value, name in disciplines if value in TARGET_DISCIPLINE_VALUES]
+        if not disciplines:
+            print("Aucune discipline cible trouvée.")
+            return
+        print("\nMode ciblé activé. Disciplines à traiter :")
+        for value, name in disciplines:
+            print(f"  - {name} ({value})")
+    else:
+        print("\nMode complet activé : traitement de toutes les disciplines.")
 
     # Parcourir chaque discipline
     for disc_value, disc_name in disciplines:

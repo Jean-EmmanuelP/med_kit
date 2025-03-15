@@ -3,17 +3,20 @@ Date de publication : 2024-05-21
 # 📝 Ribociclib + hormonothérapie vs chimiothérapie combinée dans le cancer du sein avancé RH+/HER2- agressif chez les femmes préménopausées
 
 ## 📌 Contexte & Problématique
-Aucune comparaison directe n'existait entre inhibiteurs CDK4/6 + hormonothérapie et chimiothérapie combinée chez les patientes préménopausées avec cancer du sein avancé RH+/HER2- cliniquement agressif.
+Aucune comparaison directe n'existait entre inhibiteur de kinase dépendante des cyclines 4/6 + thérapie endocrinienne (TE) versus chimiothérapie combinée (CT) chez les patientes préménopausées avec cancer du sein avancé (CSA) RH+/HER2- cliniquement agressif.
 
 ## 🧪 Méthodologie
-Essai phase II randomisé incluant 222 femmes pré/périménopausées (n=112 ribociclib+létrozole/anastrozole+goséréline vs n=110 chimiothérapie combinée). 67,6% présentaient des métastases viscérales symptomatiques et 47,7% une crise viscérale.
+Essai randomisé phase II comparant ribociclib (600mg/j, 3 semaines sur 4) + létrozole/anastrozole + goséréline versus CT combinée (docétaxel+capécitabine, paclitaxel+gemcitabine, ou capécitabine+vinorelbine) chez 222 femmes préménopausées avec CSA RH+/HER2- agressif.
 
 ## 📊 Résultats clés
-SSP médiane significativement supérieure avec ribociclib+hormonothérapie : 21,8 mois vs 12,8 mois (HR=0,61; p=0,003). Taux de réponse similaires (66,1% vs 61,8%). Temps médian jusqu'à réponse : 4,9 vs 3,2 mois. Profil de tolérance favorable pour le ribociclib.
+SSP médiane significativement prolongée avec ribociclib+TE vs CT (21,8 vs 12,8 mois; HR=0,61; p=0,003). Taux de réponse similaires (66,1% vs 61,8%), mais délai de réponse plus long avec ribociclib (4,9 vs 3,2 mois). Meilleure tolérance dans le bras ribociclib.
 
 ## 🩺 Impact clinique
-Le ribociclib+hormonothérapie constitue une option de première ligne supérieure à la chimiothérapie combinée chez ces patientes, avec meilleure efficacité et tolérance, même en présence de maladie agressive.
+Le ribociclib+TE constitue une option thérapeutique de première ligne supérieure à la CT combinée chez les patientes préménopausées avec CSA RH+/HER2- agressif, offrant une meilleure survie sans progression et tolérance, malgré une réponse légèrement plus tardive.
+
+## Revue
+J Clin Oncol
 
 ## 📖 Référence
-Lu YS, Mahidin EIBM, Azim H, et al. J Clin Oncol. 2024;42(23):2812-2821.
+2024;42(23):2812-2821. doi:10.1200/JCO.24.00144. Epub 2024 May 21.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO.24.00144.

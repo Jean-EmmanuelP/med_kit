@@ -1,0 +1,22 @@
+Date de publication : 2025-02-09
+
+# 📝 Interventions diététiques pour la gestion du diabète de type 2 chez l'enfant et l'adolescent
+
+## 📌 Contexte & Problématique
+Malgré l'augmentation de l'incidence du diabète de type 2 (DT2) pédiatrique et son mauvais pronostic, les stratégies thérapeutiques restent incertaines. Cette revue évalue l'efficacité des interventions diététiques chez les jeunes diabétiques.
+
+## 🧪 Méthodologie
+Recherche dans cinq bases de données (2000-2023) d'études sur les interventions diététiques chez les patients <19 ans atteints de DT2. Critère principal : contrôle glycémique (HbA1c).
+
+## 📊 Résultats clés
+Sur 8352 résultats, seules 5 études ont été retenues (aucun essai randomisé). Les régimes très faibles en calories ont montré une réduction temporaire de l'HbA1c (-16 mmol/mol après 8 semaines) et des besoins médicamenteux, mais sans maintien à 2 ans. La limitation des graisses était associée à une amélioration de l'HbA1c chez les femmes.
+
+## 🩺 Impact clinique
+Les preuves actuelles sont insuffisantes pour guider la prise en charge diététique du DT2 pédiatrique. Des essais randomisés avec suivi prolongé sont nécessaires malgré des résultats initiaux encourageants.
+
+## Revue
+Diabetic Medicine
+
+## 📖 Référence
+2025 Feb 9:e70005. doi: 10.1111/dme.70005.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1111/dme.70005.

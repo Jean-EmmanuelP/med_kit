@@ -1,0 +1,24 @@
+Date de publication : 2024-03-19
+
+# 📝 Thérapie systémique pour le carcinome hépatocellulaire avancé : mise à jour des recommandations ASCO
+
+## 📌 Contexte & Problématique
+Mise à jour des recommandations ASCO pour le traitement systémique du carcinome hépatocellulaire (CHC) avancé, intégrant les nouvelles données depuis 2020.
+
+## 🧪 Méthodologie
+Revue systématique des essais contrôlés randomisés (ECR) publiés jusqu'en octobre 2023, avec ajout de 10 nouveaux ECR à la base de preuves existante.
+
+## 📊 Résultats clés
+En première ligne pour les patients Child-Pugh A : atézolizumab+bévacizumab ou durvalumab+trémélimumab sont recommandés. Alternatives : sorafénib, lenvatinib ou durvalumab.
+En deuxième ligne après immunothérapie : inhibiteurs de tyrosine kinase (ITK), ramucirumab (si alpha-fœtoprotéine ≥400 ng/mL), ou autres combinaisons d'immunothérapie selon le traitement initial.
+Troisième ligne envisageable chez patients sélectionnés avec mécanismes d'action différents des traitements antérieurs.
+
+## 🩺 Impact clinique
+Stratification claire des options thérapeutiques selon la ligne de traitement et les caractéristiques du patient, avec approche prudente pour les patients Child-Pugh B.
+
+## Revue
+Journal of Clinical Oncology
+
+## 📖 Référence
+2024 May 20;42(15):1830-1850. doi: 10.1200/JCO.23.02745. Epub 2024 Mar 19.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO.23.02745.

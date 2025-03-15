@@ -1,0 +1,22 @@
+Date de publication : 2024-12-22
+
+# 📝 Événements thromboemboliques associés aux inhibiteurs de points de contrôle immunitaires chez les patients cancéreux
+
+## 📌 Contexte & Problématique
+Les inhibiteurs de points de contrôle immunitaires (ICI) ont révolutionné le traitement du cancer, mais leur association avec les événements thromboemboliques (ETE) reste peu documentée.
+
+## 🧪 Méthodologie
+Méta-analyse en réseau de 83 essais cliniques randomisés (2021-2023) incluant 54 736 patients, comparant différents ICI (atézolizumab, cémiplimab, durvalumab, ipilimumab, nivolumab, pembrolizumab) seuls ou en combinaison avec des thérapies conventionnelles.
+
+## 📊 Résultats clés
+Le nivolumab et la bithérapie ICI présentaient le risque le plus faible de thromboembolie veineuse (TEV). L'ipilimumab montrait le risque le plus élevé d'embolie pulmonaire (EP) et de TEV. Le durvalumab était associé à l'incidence la plus élevée de thromboembolie artérielle (TEA), d'infarctus du myocarde (IM) et d'accidents cérébrovasculaires (ACV).
+
+## 🩺 Impact clinique
+Les différents ICI présentent des profils de risque thromboembolique distincts, nécessitant des stratégies de gestion adaptées. Le nivolumab offre un profil de sécurité favorable concernant la TEV, particulièrement dans le mélanome.
+
+## Revue
+Thrombosis Research
+
+## 📖 Référence
+2025 Feb;246:109243. doi: 10.1016/j.thromres.2024.109243. Epub 2024 Dec 22.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.thromres.2024.109243.

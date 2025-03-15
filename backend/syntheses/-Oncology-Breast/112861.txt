@@ -3,17 +3,20 @@ Date de publication : 2024-04-04
 # 📝 Omission du curage axillaire dans le cancer du sein avec métastases du ganglion sentinelle
 
 ## 📌 Contexte & Problématique
-Les études antérieures sur l'omission du curage axillaire chez les patientes avec cancer du sein N0 clinique et métastases du ganglion sentinelle manquaient de puissance statistique et de données sur les sous-groupes pertinents.
+Les études antérieures sur l'omission du curage ganglionnaire axillaire (CGA) chez les patientes avec cancer du sein et métastases du ganglion sentinelle manquaient de puissance statistique et de données sur les sous-groupes pertinents.
 
 ## 🧪 Méthodologie
-Essai de non-infériorité incluant 2766 patientes avec cancer du sein T1-T3, N0 clinique et 1-2 macrométastases du ganglion sentinelle, randomisées entre curage axillaire complémentaire ou son omission. Critère principal : survie globale. Analyse présentée : survie sans récidive.
+Essai de non-infériorité incluant 2766 patientes avec cancer du sein T1-T3 cliniquement N0 et 1-2 macrométastases du ganglion sentinelle, randomisées entre CGA ou biopsie du ganglion sentinelle (BGS) seule. Marge de non-infériorité fixée à 1,44 pour le rapport de risque.
 
 ## 📊 Résultats clés
-Après suivi médian de 46,8 mois, la survie sans récidive à 5 ans était de 89,7% dans le groupe sans curage contre 88,7% dans le groupe avec curage (HR ajusté=0,89; IC95%:0,66-1,19). Environ 89% des patientes ont reçu une radiothérapie ganglionnaire dans les deux groupes.
+Après un suivi médian de 46,8 mois, la survie sans récidive à 5 ans était de 89,7% dans le groupe BGS seule contre 88,7% dans le groupe CGA (rapport de risque ajusté: 0,89; IC 95%: 0,66-1,19). Environ 89% des patientes dans les deux groupes ont reçu une radiothérapie ganglionnaire.
 
 ## 🩺 Impact clinique
-L'omission du curage axillaire est non-inférieure à la chirurgie extensive chez les patientes N0 clinique avec macrométastases du ganglion sentinelle, particulièrement quand une radiothérapie ganglionnaire est administrée.
+L'omission du CGA est non-inférieure à la chirurgie plus extensive chez les patientes avec cancer du sein cN0 et macrométastases du ganglion sentinelle, particulièrement lorsqu'une radiothérapie ganglionnaire est administrée.
+
+## Revue
+New England Journal of Medicine
 
 ## 📖 Référence
-de Boniface J, Filtenborg Tvedskov T, Ryden L, et al. Omitting Axillary Dissection in Breast Cancer with Sentinel-Node Metastases. N Engl J Med. 2024;390(13):1163-1175.
+2024;390(13):1163-1175. doi:10.1056/NEJMoa2313487. NCT02240472.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2313487.

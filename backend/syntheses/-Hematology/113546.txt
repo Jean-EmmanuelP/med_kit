@@ -1,0 +1,22 @@
+Date de publication : 2024-06-15
+
+# 📝 Daratumumab dans le myélome multiple nouvellement diagnostiqué : résultats à long terme de l'étude CASSIOPEIA
+
+## 📌 Contexte & Problématique
+L'étude CASSIOPEIA évalue l'ajout du daratumumab au traitement standard VTd (bortézomib, thalidomide, dexaméthasone) chez les patients atteints de myélome multiple nouvellement diagnostiqué éligibles à la greffe, puis compare l'entretien par daratumumab à l'observation.
+
+## 🧪 Méthodologie
+Essai randomisé de phase 3 incluant 1085 patients (18-65 ans) répartis entre D-VTd et VTd en induction/consolidation, puis 886 patients rerandomisés entre entretien par daratumumab et observation pendant 2 ans maximum. Suivi médian de 80,1 mois depuis la première randomisation.
+
+## 📊 Résultats clés
+La survie sans progression depuis la seconde randomisation était significativement supérieure avec l'entretien par daratumumab versus observation (médiane non atteinte contre 45,8 mois; HR 0,49; p<0,0001). Le bénéfice était présent tant après D-VTd (médiane non atteinte contre 72,1 mois; HR 0,76; p=0,048) qu'après VTd (médiane non atteinte contre 32,7 mois; HR 0,34; p<0,0001).
+
+## 🩺 Impact clinique
+Ces résultats confirment D-VTd comme standard de soins en induction/consolidation et soutiennent l'intérêt d'un entretien par daratumumab en monothérapie chez les patients atteints de myélome multiple nouvellement diagnostiqué éligibles à la greffe.
+
+## Revue
+Lancet Oncology
+
+## 📖 Référence
+2024;25(8):1003-1014. doi:10.1016/S1470-2045(24)00282-1
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S1470-2045(24)00282-1.

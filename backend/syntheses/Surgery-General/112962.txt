@@ -1,0 +1,26 @@
+Date de publication : 2024-04-10
+
+# 📝 Validation du score AIR pour l'appendicite pendant la grossesse
+
+## 📌 Contexte & Problématique
+L'appendicite pendant la grossesse présente des défis diagnostiques particuliers. Les scores cliniques de stratification du risque sont établis chez les adultes mais non validés pendant la grossesse. Cette étude évalue la précision du score AIR (Appendicitis Inflammatory Response) et de l'imagerie chez les femmes enceintes.
+
+## 🧪 Méthodologie
+Étude cas-témoins nichée basée sur les registres suédois, incluant 154 femmes enceintes ayant subi une appendicectomie et 232 femmes enceintes avec douleur abdominale non spécifique (NSAP). Analyse des dossiers médicaux pour évaluer la valeur diagnostique du score AIR et de l'imagerie.
+
+## 📊 Résultats clés
+- Diagnostics finaux : 49,4% appendicite non compliquée, 26,6% compliquée, 24,0% appendicectomie négative
+- Imagerie réalisée chez 41% des patientes (principalement échographie), avec sensibilité 44,9% et spécificité 42,2%
+- Score AIR : AUC 0,88 pour toutes appendicites et 0,90 pour appendicites compliquées
+- Score AIR ≥4 : sensibilité 100% pour appendicite compliquée
+- Score AIR ≥9 : spécificité 97% pour toutes appendicites
+
+## 🩺 Impact clinique
+Le score AIR pourrait être un outil efficace de stratification du risque chez les femmes enceintes avec suspicion d'appendicite, mais nécessite une validation supplémentaire.
+
+## Revue
+Academic Emergency Medicine
+
+## 📖 Référence
+2024;31(9):894-902. doi:10.1111/acem.14915. Epub 2024 Apr 10.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1111/acem.14915.

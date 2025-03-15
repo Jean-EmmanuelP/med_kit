@@ -1,0 +1,22 @@
+Date de publication : 2024-02-15
+
+# 📝 Validation du score IMPEDE VTE pour prédire les thromboembolies veineuses chez les patients chinois atteints de myélome multiple
+
+## 📌 Contexte & Problématique
+Le myélome multiple (MM) augmente significativement le risque de thromboembolie veineuse (TEV). Le score IMPEDE VTE, recommandé par le NCCN, n'avait pas été validé dans les populations asiatiques atteintes de MM.
+
+## 🧪 Méthodologie
+Étude rétrospective monocentrique incluant 405 patients chinois nouvellement diagnostiqués avec MM ayant débuté un traitement à l'Hôpital Jishuitan de Pékin (2013-2022).
+
+## 📊 Résultats clés
+L'incidence cumulée de TEV à 6 mois était de 3,8%, 8,6% et 40,5% dans les groupes à risque faible, intermédiaire et élevé respectivement (p<0,001). La statistique C du score était de 0,74 (IC 95% : 0,65-0,83).
+
+## 🩺 Impact clinique
+Le score IMPEDE VTE est validé comme outil de stratification du risque pour les patients chinois atteints de MM. L'HBPM (héparine de bas poids moléculaire) pourrait être plus efficace que l'aspirine pour prévenir la TEV.
+
+## Revue
+Thromb Res
+
+## 📖 Référence
+2024;236:130-135. doi:10.1016/j.thromres.2024.02.011
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.thromres.2024.02.011.

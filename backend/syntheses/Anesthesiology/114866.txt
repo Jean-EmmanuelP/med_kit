@@ -1,0 +1,22 @@
+Date de publication : 2024-11-04
+
+# 📝 Atélectasie pulmonaire après sédation au propofol vs propofol-kétamine pour IRM chez l'enfant
+
+## 📌 Contexte & Problématique
+L'impact des différents agents anesthésiques sur la fonction pulmonaire lors d'IRM (Imagerie par Résonance Magnétique) pédiatrique reste peu documenté, notamment concernant l'atélectasie.
+
+## 🧪 Méthodologie
+Essai clinique randomisé en double aveugle incluant 107 enfants (3-12 ans, ASA I-II) bénéficiant d'une IRM élective. Comparaison entre propofol seul (n=54) et propofol-kétamine (n=53) avec évaluation de l'atélectasie par échographie pulmonaire.
+
+## 📊 Résultats clés
+L'atélectasie était significativement moins fréquente dans le groupe propofol-kétamine (58,5% vs 88,9%, RR=0,7, p<0,001). Le temps de réveil était plus court avec l'association propofol-kétamine (15 vs 25 minutes, p<0,001). Pas de différence significative concernant les désaturations ou les interruptions d'IRM.
+
+## 🩺 Impact clinique
+L'association propofol-kétamine réduit l'incidence d'atélectasie et permet un réveil plus rapide lors des sédations pour IRM pédiatrique, offrant une alternative plus sûre au propofol seul.
+
+## Revue
+JAMA Network Open
+
+## 📖 Référence
+2024;7(11):e2433029. doi:10.1001/jamanetworkopen.2024.33029
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamanetworkopen.2024.33029.

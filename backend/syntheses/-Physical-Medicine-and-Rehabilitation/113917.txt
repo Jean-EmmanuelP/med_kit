@@ -1,0 +1,22 @@
+Date de publication : 2024-07-25
+
+# 📝 Exercice optimal pour la dépression émergente dans la sclérose en plaques : revue systématique et méta-analyse
+
+## 📌 Contexte & Problématique
+Évaluation des effets de l'exercice dirigé par un instructeur sur les symptômes dépressifs chez les adultes atteints de sclérose en plaques (SEP) et identification des facteurs modérateurs de la réponse au traitement.
+
+## 🧪 Méthodologie
+Revue systématique de 22 études (785 participants atteints de SEP récurrente-rémittente ou progressive) issues de 5 bases de données. Qualité méthodologique évaluée par échelles PEDro et TESTEX. Analyse par modèles à effets aléatoires et mixtes.
+
+## 📊 Résultats clés
+L'exercice a significativement réduit les symptômes dépressifs (gw = 0,52, IC : 0,30-0,73, P < 0,01), mais les effets n'ont pas persisté après l'arrêt de l'entraînement. Les exercices aérobiques et non aérobiques ont tous deux été efficaces. Les participants avec meilleure capacité de déambulation initiale ont montré des améliorations plus importantes (P = 0,03).
+
+## 🩺 Impact clinique
+L'exercice régulier peut stabiliser l'humeur des personnes atteintes de SEP, indépendamment de la fréquence ou durée des séances. Pour maximiser l'efficacité, adapter le type, le mode d'administration et l'intensité de l'exercice aux personnes à mobilité réduite.
+
+## Revue
+Clinical Rehabilitation
+
+## 📖 Référence
+2024; 38(9):1171-1187. doi: 10.1177/02692155241262884
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1177/02692155241262884.

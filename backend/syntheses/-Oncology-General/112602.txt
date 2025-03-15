@@ -1,0 +1,22 @@
+Date de publication : 2024-03-07
+
+# 📝 Pembrolizumab en adjuvant dans le mélanome réséqué de stade IIB ou IIC : analyse finale de la survie sans métastase à distance
+
+## 📌 Contexte & Problématique
+Le pembrolizumab avait déjà démontré une amélioration de la survie sans récidive (SSR) chez les patients avec mélanome de stade IIB/IIC réséqué. Cette publication présente l'analyse finale de la survie sans métastase à distance (SSMD), critère d'évaluation important.
+
+## 🧪 Méthodologie
+Étude KEYNOTE-716 de phase III, randomisée, en double aveugle, comparant pembrolizumab (n=487) versus placebo (n=489) en adjuvant chez 976 patients avec mélanome de stade IIB/IIC réséqué. Suivi médian de 39,4 mois.
+
+## 📊 Résultats clés
+La SSMD à 36 mois était de 84,4% avec pembrolizumab contre 74,7% avec placebo (HR=0,59 [IC 95% : 0,44-0,79]). La SSR à 36 mois était de 76,2% versus 63,4% (HR=0,62 [IC 95% : 0,49-0,79]). Les bénéfices étaient constants dans la plupart des sous-groupes, y compris les stades IIB et IIC. Profil de sécurité gérable et conforme aux données antérieures.
+
+## 🩺 Impact clinique
+Ces résultats confirment le bénéfice du pembrolizumab en adjuvant dans le mélanome de stade IIB/IIC réséqué, avec une réduction significative du risque de métastases à distance.
+
+## Revue
+Journal of Clinical Oncology
+
+## 📖 Référence
+2024;42(14):1619-1624. doi:10.1200/JCO.23.02355. Epub 2024 Mar 7.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO.23.02355.

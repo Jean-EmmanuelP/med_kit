@@ -1,0 +1,22 @@
+Date de publication : 2024-06-03
+
+# 📝 Isatuximab, Bortézomib, Lénalidomide et Dexaméthasone pour le Myélome Multiple
+
+## 📌 Contexte & Problématique
+Le schéma VRd (bortézomib, lénalidomide, dexaméthasone) est un traitement standard de première ligne du myélome multiple. Cette étude évalue si l'ajout d'isatuximab, un anticorps monoclonal anti-CD38, améliore les résultats chez les patients non éligibles à une greffe.
+
+## 🧪 Méthodologie
+Essai de phase 3, international, randomisé (3:2), comparant isatuximab-VRd versus VRd seul chez 446 patients (18-80 ans) atteints de myélome multiple nouvellement diagnostiqué non éligibles à une greffe. Critère principal : survie sans progression.
+
+## 📊 Résultats clés
+Après 59,7 mois de suivi médian, la survie sans progression à 60 mois était de 63,2% (isatuximab-VRd) contre 45,2% (VRd) (HR=0,60; IC 98,5%: 0,41-0,88; p<0,001). Le taux de réponse complète était supérieur avec isatuximab-VRd (74,7% vs 64,1%, p=0,01), de même que le taux de MRD (maladie résiduelle minimale) négative avec réponse complète (55,5% vs 40,9%, p=0,003).
+
+## 🩺 Impact clinique
+L'ajout d'isatuximab au VRd améliore significativement l'efficacité sans nouveaux signaux de sécurité, avec des taux similaires d'événements indésirables graves entre les groupes. Cette combinaison représente une option thérapeutique prometteuse en première ligne.
+
+## Revue
+N Engl J Med
+
+## 📖 Référence
+2024;391(17):1597-1609. doi:10.1056/NEJMoa2400712. Epub 2024 Jun 3. NCT03319667.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2400712.

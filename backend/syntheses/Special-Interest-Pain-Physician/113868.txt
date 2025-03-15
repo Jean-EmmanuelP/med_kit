@@ -1,0 +1,22 @@
+Date de publication : 2024-07-30
+
+# 📝 Réduction de la douleur avec le méthotrexate oral dans l'arthrose du genou : un essai clinique randomisé contrôlé par placebo
+
+## 📌 Contexte & Problématique
+Les options thérapeutiques pour l'arthrose du genou (KOA) étant limitées, cette étude évalue l'efficacité du méthotrexate, un antirhumatismal, comme traitement de la douleur dans la KOA.
+
+## 🧪 Méthodologie
+Essai multicentrique randomisé en double aveugle incluant 155 patients avec KOA symptomatique (douleur ≥4/10). Traitement par méthotrexate oral (10-25 mg/semaine, n=77) versus placebo (n=78) pendant 12 mois, en complément des analgésiques habituels.
+
+## 📊 Résultats clés
+À 6 mois, réduction significative de la douleur de 0,79 points (échelle 0-10) en faveur du méthotrexate (p=0,030). Améliorations significatives également pour la raideur (p=0,045) et la fonction (p=0,008) selon l'indice WOMAC (Western Ontario and McMaster Universities Osteoarthritis Index). Effet dose-réponse confirmé. Quatre événements indésirables graves sans lien avec le traitement.
+
+## 🩺 Impact clinique
+Le méthotrexate oral constitue une option thérapeutique potentielle pour les patients souffrant de KOA avec réponse inadéquate aux traitements conventionnels.
+
+## Revue
+Annals of Internal Medicine
+
+## 📖 Référence
+2024;177(9):1145-1156. doi:10.7326/M24-0303. Epub 2024 Jul 30.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.7326/M24-0303.

@@ -1,19 +1,22 @@
 Date de publication : 2024-08-22
 
-# 📝 Élinzanétant pour le traitement des symptômes vasomoteurs de la ménopause
+# 📝 Élinzanétant pour le traitement des symptômes vasomoteurs associés à la ménopause
 
 ## 📌 Contexte & Problématique
-Des alternatives non hormonales efficaces sont nécessaires pour traiter les symptômes vasomoteurs (SVM) de la ménopause. L'élinzanétant, antagoniste des récepteurs neurokinine-1,3, a été étudié comme option thérapeutique.
+Des alternatives non hormonales efficaces sont nécessaires pour traiter les symptômes vasomoteurs (SVM) de la ménopause. L'élinzanétant, un antagoniste sélectif des récepteurs neurokinine-1,3, a été évalué comme traitement potentiel.
 
 ## 🧪 Méthodologie
-Deux essais randomisés de phase 3 (OASIS 1 et 2) ont inclus des femmes ménopausées (40-65 ans) présentant des SVM modérés à sévères. Les participantes ont reçu élinzanétant 120 mg/jour ou placebo pendant 12 semaines.
+Deux essais randomisés de phase 3 en double aveugle (OASIS 1 et 2) ont inclus des femmes ménopausées (40-65 ans) présentant des SVM modérés à sévères. Les participantes ont reçu 120 mg d'élinzanétant quotidiennement ou un placebo, avec évaluation des changements de fréquence et sévérité des SVM à 4 et 12 semaines.
 
 ## 📊 Résultats clés
-L'élinzanétant a significativement réduit la fréquence des SVM à 12 semaines (OASIS 1: -3,2 [IC 95%, -4,8 à -1,6]; OASIS 2: -3,2 [IC 95%, -4,6 à -1,9]; p<0,001). La sévérité des SVM a également diminué significativement. Des améliorations des troubles du sommeil et de la qualité de vie ont été observées.
+L'élinzanétant a significativement réduit la fréquence des SVM à la semaine 4 (OASIS 1: -3,3; OASIS 2: -3,0) et à la semaine 12 (OASIS 1: -3,2; OASIS 2: -3,2) versus placebo. La sévérité des SVM a également diminué significativement. Des améliorations des troubles du sommeil et de la qualité de vie ont été observées.
 
 ## 🩺 Impact clinique
-L'élinzanétant représente une option non hormonale efficace et bien tolérée pour les femmes souffrant de SVM modérés à sévères de la ménopause.
+L'élinzanétant représente une option non hormonale efficace et bien tolérée pour les femmes souffrant de SVM modérés à sévères de la ménopause, offrant une alternative thérapeutique prometteuse.
+
+## Revue
+JAMA
 
 ## 📖 Référence
-Pinkerton JV, Simon JA, Joffe H, et al. Elinzanetant for the Treatment of Vasomotor Symptoms Associated With Menopause: OASIS 1 and 2 Randomized Clinical Trials. JAMA. 2024 Aug 22. doi: 10.1001/jama.2024.14618.
+2024 Aug 22. doi: 10.1001/jama.2024.14618.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jama.2024.14618.

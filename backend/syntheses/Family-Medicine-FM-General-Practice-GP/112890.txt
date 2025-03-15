@@ -1,19 +1,22 @@
 Date de publication : 2024-04-06
 
-# 📝 Sémaglutide dans l'insuffisance cardiaque à fraction d'éjection préservée chez les patients obèses diabétiques
+# 📝 Sémaglutide dans l'insuffisance cardiaque liée à l'obésité avec diabète de type 2
 
 ## 📌 Contexte & Problématique
 L'insuffisance cardiaque à fraction d'éjection préservée (ICFEp) liée à l'obésité chez les patients diabétiques de type 2 manque de traitements spécifiques malgré sa prévalence et sa charge symptomatique élevée.
 
 ## 🧪 Méthodologie
-Essai randomisé comparant sémaglutide hebdomadaire (2,4 mg) versus placebo pendant 52 semaines chez 616 patients avec ICFEp, IMC ≥30 et diabète type 2. Critères principaux : variation du score KCCQ-CSS et du poids corporel.
+Étude randomisée de 52 semaines comparant sémaglutide hebdomadaire (2,4 mg) versus placebo chez 616 patients avec ICFEp, IMC ≥30 et diabète de type 2. Critères principaux : variation du score KCCQ-CSS (Kansas City Cardiomyopathy Questionnaire-Clinical Summary Score) et du poids corporel.
 
 ## 📊 Résultats clés
-Le sémaglutide a amélioré significativement le KCCQ-CSS (+13,7 vs +6,4 points; différence: 7,3 points; p<0,001) et réduit davantage le poids (-9,8% vs -3,4%; différence: -6,4%; p<0,001). Amélioration significative de la distance de marche de 6 minutes (+14,3m; p=0,008) et réduction de la CRP (ratio: 0,67; p<0,001). Moins d'événements indésirables graves avec sémaglutide (17,7% vs 28,8%).
+Le sémaglutide a significativement amélioré le KCCQ-CSS (+13,7 vs +6,4 points; différence: 7,3 points; p<0,001) et la perte de poids (-9,8% vs -3,4%; différence: -6,4%; p<0,001). Amélioration significative de la distance de marche de 6 minutes (+14,3m), du critère composite hiérarchique et réduction de la protéine C-réactive (CRP). Moins d'événements indésirables graves (17,7% vs 28,8%).
 
 ## 🩺 Impact clinique
-Le sémaglutide réduit efficacement les symptômes et limitations physiques de l'ICFEp chez les patients obèses diabétiques tout en favorisant une perte de poids significative, offrant une option thérapeutique prometteuse pour cette population.
+Le sémaglutide réduit significativement les symptômes et limitations physiques liés à l'ICFEp tout en favorisant une perte de poids substantielle chez les patients diabétiques obèses, offrant une option thérapeutique prometteuse pour cette population.
+
+## Revue
+N Engl J Med
 
 ## 📖 Référence
-Kosiborod MN, Petrie MC, Borlaug BA, et al. Semaglutide in Patients with Obesity-Related Heart Failure and Type 2 Diabetes. N Engl J Med. 2024;390(15):1394-1407.
+2024;390(15):1394-1407. doi:10.1056/NEJMoa2313917. Epub 2024 Apr 6. (STEP-HFpEF DM, NCT04916470)
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2313917.

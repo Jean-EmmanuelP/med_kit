@@ -1,19 +1,22 @@
 Date de publication : 2024-05-07
 
-# 📝 Débridement des plaies chirurgicales : revue systématique des méthodes
+# 📝 Débridement pour les plaies chirurgicales
 
 ## 📌 Contexte & Problématique
-Les plaies chirurgicales infectées nécessitent souvent un débridement pour éliminer les tissus nécrotiques et accélérer la cicatrisation. Diverses méthodes existent sans consensus sur la plus efficace.
+Le débridement des plaies chirurgicales infectées est une pratique courante, mais il n'existe pas de consensus sur la méthode la plus efficace pour accélérer la cicatrisation et éliminer les tissus nécrotiques.
 
 ## 🧪 Méthodologie
-Revue systématique de 6 essais contrôlés randomisés (265 participants) comparant différentes méthodes de débridement. Recherche dans les bases Cochrane Wounds, CENTRAL, MEDLINE, Embase et CINAHL jusqu'en octobre 2021. Évaluation du risque de biais avec l'outil RoB 1.
+Revue systématique de six ECR (essais contrôlés randomisés) incluant 265 participants. Recherche exhaustive dans plusieurs bases de données jusqu'en octobre 2021. Évaluation du risque de biais avec l'outil RoB 1 et de la qualité des preuves avec GRADE.
 
 ## 📊 Résultats clés
-Quatre études ont évalué les billes/pâte de dextranomère contre différents comparateurs. Une étude a comparé streptokinase/streptodornase aux pansements salins, et une autre le débridement chirurgical endoscopique versus conventionnel. Toutes les preuves sont de certitude faible à très faible. Aucune différence significative n'a été démontrée entre les méthodes pour le délai de débridement complet ou de cicatrisation.
+Six comparaisons différentes ont été analysées, principalement avec le dextranomère (4 études). Aucune méta-analyse n'a été possible en raison de l'hétérogénéité. La plupart des études présentaient un risque de biais incertain ou élevé. Les preuves sont généralement de très faible certitude concernant l'efficacité comparative des différentes méthodes de débridement sur le temps jusqu'au débridement complet ou la cicatrisation.
 
 ## 🩺 Impact clinique
-Insuffisance de preuves robustes pour recommander une méthode de débridement spécifique pour les plaies chirurgicales. Des essais de meilleure qualité méthodologique sont nécessaires pour guider la pratique clinique.
+Aucune méthode de débridement n'a démontré de supériorité claire pour les plaies chirurgicales. Des recherches supplémentaires de haute qualité sont nécessaires pour guider les décisions cliniques dans ce domaine.
+
+## Revue
+Cochrane Database of Systematic Reviews
 
 ## 📖 Référence
-Smith F, Donaldson J, Brown T. Debridement for surgical wounds. Cochrane Database Syst Rev. 2024;5(5):CD006214.
+2024 May 7;5(5):CD006214. doi: 10.1002/14651858.CD006214.pub5.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1002/14651858.CD006214.pub5.

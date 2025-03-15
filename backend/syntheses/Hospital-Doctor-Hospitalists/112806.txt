@@ -1,0 +1,22 @@
+Date de publication : 2024-03-15
+
+# 📝 Cyclophosphamide vs rituximab pour l'éradication des inhibiteurs dans l'hémophilie A acquise : essai randomisé sur 108 patients
+
+## 📌 Contexte & Problématique
+L'hémophilie A acquise (HAA) est une maladie auto-immune rare avec auto-anticorps anti-Facteur VIII et risque élevé de mortalité, nécessitant une immunosuppression pour éradiquer les inhibiteurs.
+
+## 🧪 Méthodologie
+Essai CREHA randomisé comparant cyclophosphamide oral (1,5-2 mg/kg/jour, 6 semaines) versus rituximab IV (375 mg/m², 4 injections hebdomadaires), tous deux associés à prednisone (1 mg/kg/jour), chez 108 patients atteints d'HAA nouvellement diagnostiquée.
+
+## 📊 Résultats clés
+Taux de rémission complète à 18 mois similaires: 67,2% (cyclophosphamide) vs 62,0% (rituximab). Chez les patients à mauvais pronostic (FVIII<1 UI/dL, inhibiteur>20 BU mL⁻¹), le cyclophosphamide était significativement supérieur (78,6% vs 48,0%, p=0,02). Profils de sécurité comparables entre les deux traitements.
+
+## 🩺 Impact clinique
+Le cyclophosphamide apparaît préférable en première ligne, particulièrement chez les patients à mauvais pronostic, avec l'avantage d'une administration orale et un coût inférieur.
+
+## Revue
+Thrombosis Research
+
+## 📖 Référence
+2024;237:79-87. doi:10.1016/j.thromres.2024.03.012
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.thromres.2024.03.012.

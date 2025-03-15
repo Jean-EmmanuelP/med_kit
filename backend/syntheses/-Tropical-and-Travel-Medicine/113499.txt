@@ -1,19 +1,22 @@
 Date de publication : 2024-08-01
 
-# 📝 Paracétamol et ibuprofène dans le paludisme pédiatrique du système nerveux central : essai clinique randomisé
+# 📝 Traitement antipyrétique agressif dans le paludisme du SNC pédiatrique
 
 ## 📌 Contexte & Problématique
-Un tiers des enfants survivant au paludisme avec atteinte neurologique développent des séquelles. La température élevée et les convulsions sont des facteurs de risque identifiés.
+Un tiers des enfants survivant au paludisme du système nerveux central (SNC) développent des séquelles neurologiques. La température maximale élevée (Tmax) et les convulsions sont des facteurs de risque de séquelles.
 
 ## 🧪 Méthodologie
-Essai clinique randomisé en Zambie et au Malawi incluant 256 enfants (2-11 ans) atteints de paludisme du SNC. Groupe intervention : paracétamol (30 mg/kg puis 15 mg/kg) + ibuprofène (10 mg/kg) toutes les 6h pendant 72h. Groupe contrôle : paracétamol 15 mg/kg uniquement si température ≥38,5°C.
+Essai clinique randomisé en Zambie et au Malawi incluant 256 enfants (2-11 ans) atteints de paludisme du SNC. Groupe intervention : acétaminophène (paracétamol) + ibuprofène toutes les 6h pendant 72h indépendamment de la température. Groupe contrôle : acétaminophène uniquement si température ≥38,5°C.
 
 ## 📊 Résultats clés
-Le groupe intervention a présenté une température maximale inférieure (38,6°C vs 39,2°C, p<0,001) et moins de convulsions multiples/prolongées (8% vs 27%, OR 0,26). Événements indésirables graves : 12% vs 20%, dont décès : 2% vs 8%. Augmentation de la créatinine : 10% vs 6%.
+Le groupe intervention a présenté une Tmax inférieure (38,6°C vs 39,2°C, p<0,001) et moins de convulsions multiples/prolongées (8% vs 27%, OR 0,26). Aucune différence dans la clairance parasitaire. Moins d'événements indésirables graves (12% vs 20%) et de décès (2% vs 8%) dans le groupe intervention.
 
 ## 🩺 Impact clinique
-L'antipyrèse agressive réduit significativement la température maximale et les convulsions sans affecter la clairance parasitaire, suggérant un bénéfice potentiel pour réduire les séquelles neurologiques.
+Un traitement antipyrétique agressif réduit la Tmax et améliore les résultats concernant les convulsions aiguës sans prolonger la parasitémie, suggérant un bénéfice potentiel pour réduire les séquelles neurologiques.
+
+## Revue
+JAMA Neurology
 
 ## 📖 Référence
-Birbeck GL, Seydel KB, Mwanza S, et al. Acetaminophen and Ibuprofen in Pediatric Central Nervous System Malaria: A Randomized Clinical Trial. JAMA Neurol. 2024;81(8):857-865.
+2024;81(8):857-865. doi:10.1001/jamaneurol.2024.1677. NCT03399318.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamaneurol.2024.1677.

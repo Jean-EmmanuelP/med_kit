@@ -1,19 +1,22 @@
 Date de publication : 2024-03-17
 
-# 📝 Efficacité comparable entre TCC à distance et en présentiel : méta-analyse
+# 📝 TCC à distance vs en personne : efficacité comparable pour les troubles mentaux et somatiques
 
 ## 📌 Contexte & Problématique
-La thérapie cognitivo-comportementale (TCC) est efficace pour diverses affections psychiatriques et somatiques, mais l'équivalence entre administration à distance et en présentiel reste à confirmer.
+La thérapie cognitivo-comportementale (TCC) est efficace pour diverses affections psychiatriques et somatiques, mais son administration est traditionnellement en personne. Cette revue systématique évalue si la TCC à distance guidée par un thérapeute offre une efficacité comparable.
 
 ## 🧪 Méthodologie
-Méta-analyse de 54 ECR (5463 patients) comparant TCC à distance guidée par thérapeute versus TCC en présentiel. Recherche systématique dans 5 bases de données jusqu'en juillet 2023. Évaluation du risque de biais et méta-analyses à effets aléatoires.
+Recherche systématique dans 5 bases de données jusqu'en juillet 2023 d'essais contrôlés randomisés (ECR) comparant la TCC à distance (téléconférence, vidéoconférence) à la TCC en personne chez des adultes. Méta-analyses à effets aléatoires et évaluation GRADE de la certitude des preuves.
 
 ## 📊 Résultats clés
-Preuves de certitude modérée montrant peu ou pas de différence d'efficacité entre les deux modalités (DMS -0,02, IC 95% : -0,12 à 0,07). Études portant sur troubles anxieux (17), dépression (14), insomnie (7), douleur chronique (6), troubles alimentaires (5) et autres conditions.
+54 ECR incluant 5463 patients ont été analysés, couvrant divers troubles (anxiété, dépression, insomnie, douleur chronique, troubles alimentaires). Des preuves de certitude modérée montrent peu ou pas de différence d'efficacité entre les deux modalités (différence moyenne standardisée -0,02, IC 95% -0,12 à 0,07).
 
 ## 🩺 Impact clinique
-La TCC à distance guidée par thérapeute peut être proposée comme alternative équivalente à la TCC en présentiel, facilitant l'accès aux soins fondés sur des preuves pour divers troubles mentaux et somatiques.
+La TCC à distance guidée par un thérapeute présente une efficacité comparable à la TCC en personne pour divers troubles mentaux et somatiques, offrant une opportunité d'améliorer l'accès aux soins fondés sur des preuves.
+
+## Revue
+CMAJ
 
 ## 📖 Référence
-Zandieh S, Abdollahzadeh SM, Sadeghirad B, et al. Therapist-guided remote versus in-person cognitive behavioural therapy: a systematic review and meta-analysis of randomized controlled trials. CMAJ. 2024;196(10):E327-E340.
+2024;196(10):E327-E340. doi:10.1503/cmaj.230274
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1503/cmaj.230274.

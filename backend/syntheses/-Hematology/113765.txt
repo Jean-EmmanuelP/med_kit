@@ -1,0 +1,22 @@
+Date de publication : 2024-06-20
+
+# 📝 Thérapies immunosuppressives de première ligne pour l'hémophilie A acquise : expérience d'une cohorte de 25 ans et méta-analyse en réseau
+
+## 📌 Contexte & Problématique
+L'hémophilie A acquise (HAA) présente un risque hémorragique significatif nécessitant un contrôle des saignements et une thérapie immunosuppressive (TIS) pour éliminer les inhibiteurs anti-facteur VIII.
+
+## 🧪 Méthodologie
+Étude combinant une cohorte rétrospective de 76 patients HAA (1997-2022) et une méta-analyse en réseau comparant différentes TIS à partir de données d'Embase, Scopus et ScienceDirect (jusqu'en novembre 2023).
+
+## 📊 Résultats clés
+Dans la cohorte, le cyclophosphamide plus prednisolone (CP) était la TIS initiale prédominante. Des niveaux d'inhibiteurs plus faibles étaient corrélés à des taux de rémission complète (RC) plus élevés (86,8% vs 62,2%, p=0,014). La survie médiane sans rechute atteignait 37,13 mois, améliorée par CP. La méta-analyse (1476 patients) a montré que CP et rituximab surpassaient la monothérapie par stéroïdes pour la RC et les taux de rechute, sans différence significative entre eux.
+
+## 🩺 Impact clinique
+Le CP représente un choix viable de première intention, particulièrement dans les contextes où le rituximab est moins accessible. La toxicité des TIS reste un facteur décisionnel important.
+
+## Revue
+Thromb Res
+
+## 📖 Référence
+2024;241:109067. doi:10.1016/j.thromres.2024.109067
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.thromres.2024.109067.

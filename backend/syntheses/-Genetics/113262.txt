@@ -1,19 +1,26 @@
 Date de publication : 2024-05-17
 
-# 📝 Sélection des panels de tests génétiques germinaux chez les patients atteints de cancer : directive ASCO
+# 📝 Sélection des panels de tests génétiques germinaux chez les patients atteints de cancer : Recommandations de l'ASCO
 
 ## 📌 Contexte & Problématique
-Nécessité d'établir des recommandations standardisées pour l'utilisation des panels multigéniques dans les tests génétiques germinaux oncologiques.
+Établir des recommandations pour guider l'utilisation des panels multigéniques dans les tests génétiques germinaux chez les patients atteints de cancer.
 
 ## 🧪 Méthodologie
-Revue systématique par un groupe d'experts ASCO de 52 directives/consensus et 14 études spécifiques sur les tests génétiques en oncologie.
+Revue systématique des directives, déclarations de consensus et études sur les tests génétiques germinaux et somatiques par un groupe d'experts de l'ASCO (American Society of Clinical Oncology).
 
 ## 📊 Résultats clés
-Recommandations formalisées incluant: collecte obligatoire des antécédents familiaux détaillés (1er et 2ème degrés), utilisation de panels multigéniques lorsque plusieurs gènes sont pertinents, inclusion minimale des gènes fortement recommandés du Tableau 1.
+52 directives/déclarations de consensus et 14 études complémentaires ont été analysées pour formuler les recommandations.
 
 ## 🩺 Impact clinique
-Proposition systématique de tests génétiques germinaux aux patients éligibles, indépendamment des résultats tumoraux. Tests germinaux recommandés si une variante pathogène/probablement pathogène est identifiée par test tumoral dans les gènes du Tableau 2. Évaluation bénéfice/risque obligatoire pour les panels larges.
+- Documentation obligatoire des antécédents familiaux (cancers chez parents 1er/2ème degré) et ethnicité
+- Utilisation de panels multigéniques quand plusieurs gènes sont pertinents
+- Inclusion des gènes fortement recommandés (Tableau 1) avec possibilité d'élargissement
+- Proposition de tests germinaux indépendamment des résultats tumoraux
+- Tests germinaux recommandés si variante pathogène/probablement pathogène identifiée par test tumoral (Tableau 2)
+
+## Revue
+Journal of Clinical Oncology
 
 ## 📖 Référence
-Tung N, Ricker C, Messersmith H, et al. Selection of Germline Genetic Testing Panels in Patients With Cancer: ASCO Guideline. J Clin Oncol. 2024;42(21):2599-2615.
+2024;42(21):2599-2615. doi:10.1200/JCO.24.00662. Epub 2024 May 17.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO.24.00662.

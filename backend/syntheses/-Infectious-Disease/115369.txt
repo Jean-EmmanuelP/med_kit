@@ -3,17 +3,20 @@ Date de publication : 2024-12-05
 # 📝 Xalnesiran avec ou sans immunomodulateur dans l'hépatite B chronique
 
 ## 📌 Contexte & Problématique
-Le xalnesiran, ARN interférent ciblant le génome du VHB, pourrait offrir une option thérapeutique pour l'hépatite B chronique, seul ou combiné à un immunomodulateur.
+Le xalnesiran, ARN interférent ciblant le génome du VHB (virus de l'hépatite B), pourrait être efficace chez les patients atteints d'hépatite B chronique sous analogues nucléos(t)idiques (AN).
 
 ## 🧪 Méthodologie
-Essai clinique de phase 2, randomisé, comparant 5 groupes (n=159) : xalnesiran 100mg, xalnesiran 200mg, xalnesiran 200mg+ruzotolimod, xalnesiran 200mg+interféron pégylé, ou analogue nucléos(t)idique (AN) seul. Critère principal : perte de l'AgHBs 24 semaines post-traitement.
+Essai clinique de phase 2, randomisé, comparant 48 semaines de xalnesiran 100mg, xalnesiran 200mg, xalnesiran 200mg+ruzotolimod 150mg, xalnesiran 200mg+interféron alfa-2a pégylé 180μg, ou AN seul chez 159 patients avec VHB chronique sous AN. Critère principal : perte de l'AgHBs (antigène de surface de l'hépatite B) 24 semaines post-traitement.
 
 ## 📊 Résultats clés
-Perte de l'AgHBs : 7% (groupe 1), 3% (groupe 2), 12% (groupe 3), 23% (groupe 4), 0% (groupe 5). Séroconversion : 3%, 0%, 3%, 20%, 0% respectivement. Efficacité limitée aux patients avec AgHBs initial <1000 UI/mL. Événements indésirables grade 3-4 : 17%, 10%, 18%, 50%, 6%.
+Perte d'AgHBs : 7% (xalnesiran 100mg), 3% (xalnesiran 200mg), 12% (xalnesiran+ruzotolimod), 23% (xalnesiran+interféron), 0% (AN seul). Séroconversion AgHBs : 3%, 0%, 3%, 20%, 0% respectivement. Efficacité limitée aux patients avec AgHBs initial <1000 UI/mL.
 
 ## 🩺 Impact clinique
-L'association xalnesiran+immunomodulateur montre un potentiel significatif pour induire la perte d'AgHBs chez les patients sous AN avec suppression virologique, particulièrement avec l'interféron pégylé, mais avec davantage d'effets indésirables.
+L'association xalnesiran+immunomodulateur montre une efficacité supérieure pour obtenir une perte d'AgHBs, particulièrement avec l'interféron. Événements indésirables de grade 3-4 fréquents (10-50%), principalement élévations des ALAT.
+
+## Revue
+N Engl J Med
 
 ## 📖 Référence
-Hou J, Zhang W, Xie Q, et al. Xalnesiran with or without an Immunomodulator in Chronic Hepatitis B. N Engl J Med. 2024;391(22):2098-2109.
+2024;391(22):2098-2109. doi:10.1056/NEJMoa2405485
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2405485.

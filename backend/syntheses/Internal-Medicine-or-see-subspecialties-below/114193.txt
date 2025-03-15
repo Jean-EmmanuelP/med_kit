@@ -6,18 +6,21 @@ Date de publication : 2024-08-30
 L'insuffisance cardiaque à fraction d'éjection légèrement réduite ou préservée (ICFEp) présente un risque élevé d'hospitalisation et de décès, particulièrement chez les patients en surpoids, obèses ou diabétiques. Les options thérapeutiques restent limitées.
 
 ## 🧪 Méthodologie
-Analyse poolée post-hoc de quatre essais randomisés (SELECT, FLOW, STEP-HFpEF, STEP-HFpEF DM) incluant 3743 patients avec ICFEp, comparant sémaglutide sous-cutané hebdomadaire (1,0-2,4 mg) versus placebo.
+Analyse post-hoc poolée de quatre essais randomisés (SELECT, FLOW, STEP-HFpEF, STEP-HFpEF DM) incluant 3743 patients avec ICFEp, comparant sémaglutide sous-cutané hebdomadaire (1,0-2,4 mg) versus placebo.
 
 ## 📊 Résultats clés
 Le sémaglutide a réduit significativement:
-- Le critère composite décès cardiovasculaire/aggravation d'insuffisance cardiaque: HR 0,69 [IC 95% 0,53-0,89]; p=0,0045
-- Les événements d'aggravation d'insuffisance cardiaque: HR 0,59 [0,41-0,82]; p=0,0019
-- Pas d'effet significatif sur le décès cardiovasculaire isolé: HR 0,82 [0,57-1,16]; p=0,25
+- Le critère composite décès cardiovasculaire/événements d'aggravation d'insuffisance cardiaque: HR 0,69 (IC 95% 0,53-0,89; p=0,0045)
+- Les événements d'aggravation d'insuffisance cardiaque seuls: HR 0,59 (0,41-0,82; p=0,0019)
+- Pas d'effet significatif sur la mortalité cardiovasculaire isolée: HR 0,82 (0,57-1,16; p=0,25)
 - Moins d'événements indésirables graves: 29,9% vs 38,7%
 
 ## 🩺 Impact clinique
-Le sémaglutide représente une option thérapeutique efficace pour réduire les événements cliniques d'insuffisance cardiaque chez les patients avec ICFEp, population avec peu d'alternatives thérapeutiques disponibles.
+Ces résultats supportent l'utilisation du sémaglutide pour réduire les événements cliniques d'insuffisance cardiaque chez les patients avec ICFEp, population pour laquelle les options thérapeutiques sont limitées.
+
+## Revue
+Lancet
 
 ## 📖 Référence
-Kosiborod MN, Deanfield J, Pratley R, et al. Lancet. 2024;404(10456):949-961.
+2024; 404(10456):949-961. doi: 10.1016/S0140-6736(24)01643-X
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S0140-6736(24)01643-X.

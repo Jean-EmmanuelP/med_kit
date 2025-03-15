@@ -1,0 +1,22 @@
+Date de publication : 2024-03-04
+
+# 📝 Utilisation de l'Albumine Intraveineuse : Recommandations de la Collaboration Internationale pour les Directives de Médecine Transfusionnelle
+
+## 📌 Contexte & Problématique
+L'albumine est fréquemment utilisée en clinique pour l'amélioration hémodynamique et la gestion des complications de cirrhose. Des recommandations fondées sur des preuves étaient nécessaires pour guider son utilisation appropriée.
+
+## 🧪 Méthodologie
+Élaboration de directives selon la méthodologie GRADE (Grading of Recommendations Assessment, Development, and Evaluation) basée sur une revue systématique d'essais cliniques randomisés jusqu'en novembre 2022, avec un panel multidisciplinaire incluant un représentant des patients.
+
+## 📊 Résultats clés
+Sur 14 recommandations formulées, seules 2 suggèrent l'utilisation conditionnelle d'albumine (pour paracentèse à grand volume et péritonite bactérienne spontanée chez les cirrhotiques). Les 12 autres recommandations ne soutiennent pas son utilisation dans diverses situations cliniques courantes.
+
+## 🩺 Impact clinique
+Les preuves actuelles ne justifient pas l'utilisation systématique d'albumine dans la plupart des contextes cliniques. Ces directives offrent aux praticiens des recommandations pratiques pour une utilisation plus rationnelle.
+
+## Revue
+Chest
+
+## 📖 Référence
+2024;166(2):321-338. doi:10.1016/j.chest.2024.02.049
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.chest.2024.02.049.

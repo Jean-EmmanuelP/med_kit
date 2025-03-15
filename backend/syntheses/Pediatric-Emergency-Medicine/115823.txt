@@ -1,0 +1,22 @@
+Date de publication : 2025-02-09
+
+# 📝 Effet des prescriptions d'opioïdes aux urgences sur les résultats de santé
+
+## 📌 Contexte & Problématique
+La relation entre la prescription d'opioïdes aux urgences et les préjudices ultérieurs reste peu étudiée malgré son importance clinique.
+
+## 🧪 Méthodologie
+Étude rétrospective sur 10 ans des visites aux urgences en Alberta, excluant patients cancéreux, en soins palliatifs ou déjà sous opioïdes. Comparaison entre patients ayant reçu une prescription d'opioïdes dans les 72h suivant leur visite et témoins appariés par score de propension.
+
+## 📊 Résultats clés
+Sur 13 028 575 visites, 5,3% ont généré une prescription d'opioïdes. Les patients sous opioïdes ont présenté 1,4% d'événements indésirables supplémentaires (17,1% vs 15,7%), principalement des hospitalisations (NNH=53) et une utilisation prolongée d'opioïdes (4,5% vs 3,3%; NNH=59). Risque accru chez les patients âgés, naïfs aux opioïdes et les hommes.
+
+## 🩺 Impact clinique
+Les prescriptions d'opioïdes aux urgences n'augmentent pas significativement les risques de surdoses, de traitements agonistes ou de mortalité, mais entraînent une légère hausse des hospitalisations et de l'utilisation prolongée. L'évaluation du risque individuel devrait guider la prescription pour douleurs aiguës.
+
+## Revue
+CMAJ
+
+## 📖 Référence
+2025 Feb 9;197(5):E122-E130. doi: 10.1503/cmaj.241542.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1503/cmaj.241542.

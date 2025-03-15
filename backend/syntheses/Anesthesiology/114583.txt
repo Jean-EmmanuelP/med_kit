@@ -1,0 +1,25 @@
+Date de publication : 2024-06-18
+
+# 📝 Comparaison du monitoring par indice bispectral vs évaluation clinique pour la sédation profonde en USI
+
+## 📌 Contexte & Problématique
+Les surdosages de sédatifs en USI augmentent le risque de délire. L'indice bispectral (BIS), un moniteur d'EEG traité, pourrait optimiser la profondeur de sédation et réduire ce risque.
+
+## 🧪 Méthodologie
+Essai contrôlé randomisé dans une USI tertiaire comparant deux groupes de patients nécessitant une sédation profonde (RASS -4/-5) : groupe évaluation clinique (CA) vs groupe BIS (plage 40-60). Critère principal : jours sans délire et sans coma (DFCF) sur 14 jours post-sédation profonde.
+
+## 📊 Résultats clés
+Sur 99 patients, aucune différence significative dans les jours DFCF entre les groupes (p=0,1). Cependant, le groupe BIS a montré:
+- Doses de propofol réduites (1,44 vs 1,77 mg/kg/h; p=0,03)
+- Moins de temps avec BIS<40 (32% vs 46%; p=0,03)
+- Pour les patients sédatés >24h: augmentation des jours DFCF (médiane 8 vs 1 jour; p=0,04)
+
+## 🩺 Impact clinique
+Le monitoring BIS réduit les doses de sédatifs et pourrait améliorer les jours sans délire chez les patients nécessitant une sédation prolongée (>24h), suggérant un bénéfice pour cette population spécifique.
+
+## Revue
+Chest
+
+## 📖 Référence
+2024;166(4):733-742. doi:10.1016/j.chest.2024.05.031
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.chest.2024.05.031.

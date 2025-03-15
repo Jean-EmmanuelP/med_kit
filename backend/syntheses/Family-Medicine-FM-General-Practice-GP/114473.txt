@@ -1,19 +1,22 @@
 Date de publication : 2024-12-01
 
-# 📝 Intervention auto-guidée pour réduire l'usage des benzodiazépines et améliorer le sommeil chez les personnes âgées
+# 📝 Interventions auto-guidées pour réduire l'usage des sédatifs et améliorer le sommeil
 
 ## 📌 Contexte & Problématique
-Les interventions directes auprès des patients âgés pourraient réduire l'utilisation chronique des agonistes des récepteurs des benzodiazépines (BZRA) et favoriser la thérapie cognitivo-comportementale pour l'insomnie (TCC-I), sans nécessiter l'implication préalable d'un clinicien.
+Les agonistes des récepteurs aux benzodiazépines (BZRA) sont largement utilisés chez les personnes âgées pour l'insomnie, malgré leurs risques. Des interventions directes auprès des patients pourraient favoriser la transition vers la thérapie cognitivo-comportementale pour l'insomnie (TCCI).
 
 ## 🧪 Méthodologie
-Essai clinique randomisé (YAWNS NB) à trois bras comparant deux interventions postales de changement comportemental (YAWNS-1 et YAWNS-2) au traitement habituel chez 565 adultes autonomes ≥65 ans (âge moyen 72,1 ans) utilisant des BZRA depuis 11,4 ans en moyenne.
+Essai clinique randomisé YAWNS NB à trois bras (2020-2022) incluant 565 adultes autonomes ≥65 ans utilisant des BZRA à long terme. Comparaison de deux interventions par courrier (YAWNS-1: programme Sleepwell; YAWNS-2: brochures EMPOWER actualisées) versus traitement habituel (TH).
 
 ## 📊 Résultats clés
-YAWNS-1 a montré une réduction significative de l'usage des BZRA (46,6%) versus YAWNS-2 (34,8%, p=0,02) et traitement habituel (20,3%, p<0,001). YAWNS-1 a également amélioré l'adoption des techniques TCC-I (+3,1 vs +2,4, p=0,03), l'efficacité du sommeil (+4,1% vs -1,7%, p=0,001) et réduit la sévérité de l'insomnie et la somnolence diurne.
+YAWNS-1 a montré les meilleurs résultats avec 46,6% d'arrêt/réduction significative des BZRA (vs 34,8% YAWNS-2 et 20,3% TH). YAWNS-1 a également démontré une meilleure adoption des techniques TCCI, une amélioration de l'efficacité du sommeil (+4,1%), une réduction de la sévérité de l'insomnie et de la somnolence diurne.
 
 ## 🩺 Impact clinique
-Cette intervention simple, directe et évolutive pourrait transformer la prise en charge de l'insomnie chez les personnes âgées à l'échelle populationnelle, en réduisant l'usage des BZRA et leurs effets indésirables tout en améliorant la qualité du sommeil.
+L'intervention YAWNS-1, simple et évolutive, offre une approche efficace pour réduire l'utilisation des BZRA et améliorer le sommeil chez les personnes âgées sans nécessiter l'implication préalable d'un clinicien.
+
+## Revue
+JAMA Psychiatry
 
 ## 📖 Référence
-Gardner DM, Turner JP, Magalhaes S, et al. Patient Self-Guided Interventions to Reduce Sedative Use and Improve Sleep: The YAWNS NB Randomized Clinical Trial. JAMA Psychiatry. 2024;81(12):1187-1197.
+2024;81(12):1187-1197. doi:10.1001/jamapsychiatry.2024.2731
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamapsychiatry.2024.2731.

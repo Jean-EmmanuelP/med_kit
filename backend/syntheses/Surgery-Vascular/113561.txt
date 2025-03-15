@@ -1,0 +1,22 @@
+Date de publication : 2024-06-25
+
+# 📝 Équipe de soins vasculaires vs éducation pour patients atteints d'artériopathie périphérique
+
+## 📌 Contexte & Problématique
+Persistance d'une sous-utilisation des thérapies réductrices du risque ischémique chez les patients atteints d'artériopathie périphérique (AP), particulièrement concernant la gestion lipidique.
+
+## 🧪 Méthodologie
+Essai OPTIMIZE PAD-1 randomisant des patients avec AP et LDL-C ≥70 mg/dL en deux groupes : prise en charge par équipe de soins vasculaires (incluant pharmacien clinicien et algorithme de gestion lipidique intensive) versus soins habituels avec formation des prestataires. Critère principal : variation du LDL-C à 12 mois.
+
+## 📊 Résultats clés
+Réduction moyenne du LDL-C à 12 mois : -49,1% dans le groupe équipe de soins versus -5,4% dans le groupe soins habituels (différence : -43,7%, p<0,0001). À 12 mois, les patients du groupe intervention avaient 3 fois plus de chances d'atteindre un LDL-C <70 mg/dL et 8 fois plus de chances d'atteindre un LDL-C <55 mg/dL.
+
+## 🩺 Impact clinique
+Un programme interprofessionnel algorithmique permet une réduction rapide et significative du LDL-C (cholestérol à lipoprotéines de basse densité) chez les patients vasculaires, atteignant les objectifs thérapeutiques chez la majorité des patients.
+
+## Revue
+Journal of the American College of Cardiology
+
+## 📖 Référence
+2024;83(25):2658-2670. doi:10.1016/j.jacc.2024.04.034
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.jacc.2024.04.034.

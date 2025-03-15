@@ -1,0 +1,22 @@
+Date de publication : 2025-02-01
+
+# 📝 Arrêt des traitements de fond dans la SEP stable : essai DOT-MS
+
+## 📌 Contexte & Problématique
+L'arrêt des traitements de fond (TDF) de première ligne chez les patients avec sclérose en plaques (SEP) stable pourrait réduire les effets indésirables et les coûts. Cette étude évalue la sécurité de cette approche.
+
+## 🧪 Méthodologie
+Essai clinique randomisé multicentrique néerlandais (2020-2023) incluant 89 patients avec SEP rémittente stable (sans poussées ni activité IRM significative depuis 5 ans sous TDF). Randomisation 1:1 entre arrêt ou poursuite du TDF.
+
+## 📊 Résultats clés
+L'essai a été interrompu prématurément après un suivi médian de 15,3 mois. 17,8% (8/45) des patients du groupe "arrêt" ont présenté une activité inflammatoire (principalement radiologique) contre 0% dans le groupe "poursuite". Deux patients ont développé une poussée clinique. Le délai médian jusqu'à la récidive était de 12 mois.
+
+## 🩺 Impact clinique
+Même après 5 ans de stabilité, l'arrêt du TDF de première ligne peut entraîner une récurrence de l'activité inflammatoire, suggérant la nécessité de poursuivre le traitement, même chez les patients stables à long terme.
+
+## Revue
+JAMA Neurology
+
+## 📖 Référence
+2025 Feb 1;82(2):123-131. doi: 10.1001/jamaneurol.2024.4164.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamaneurol.2024.4164.

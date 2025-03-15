@@ -1,19 +1,22 @@
 Date de publication : 2025-01-17
 
-# 📝 Anticoagulation seule versus anticoagulation plus antiagrégation dans la fibrillation atriale avec coronaropathie stable
+# 📝 Anticoagulation versus bithérapie dans la fibrillation atriale avec coronaropathie stable
 
 ## 📌 Contexte & Problématique
-La stratégie antithrombotique optimale chez les patients avec fibrillation atriale (FA) et coronaropathie stable reste controversée. Les essais individuels manquent de puissance pour évaluer l'efficacité.
+La stratégie antithrombotique optimale reste incertaine chez les patients présentant une fibrillation atriale (FA) et une maladie coronarienne stable (MCS). Cette méta-analyse évalue l'efficacité et la sécurité de la monothérapie par anticoagulant oral (ACO) versus ACO plus antiagrégant plaquettaire unique (SAPT).
 
 ## 🧪 Méthodologie
-Méta-analyse de 4 essais randomisés (4 092 patients) comparant anticoagulant oral (ACO) seul versus ACO plus antiagrégant plaquettaire (SAPT). Critère principal d'efficacité : composite d'infarctus, AVC ischémique, embolie systémique ou décès. Critère de sécurité : hémorragie majeure.
+Analyse de 4 essais contrôlés randomisés (ECR) totalisant 4 092 patients (âge moyen 73,9 ans, 20,1% de femmes) suivis pendant 21,9 mois en moyenne. Le critère principal d'efficacité combinait infarctus, AVC ischémique, embolie systémique et décès.
 
 ## 📊 Résultats clés
-Aucune différence significative pour le critère d'efficacité principal (7,3% vs 8,2%; HR 0,90; IC 95% 0,72-1,12). Risque d'hémorragie majeure significativement réduit avec ACO seul (3,3% vs 5,7%; HR 0,59; IC 95% 0,44-0,79). Bénéfice hémorragique possiblement plus important chez les hommes et les diabétiques.
+Aucune différence significative entre monothérapie ACO et ACO+SAPT pour le critère d'efficacité principal (7,3% vs 8,2%; HR:0,90; IC95%:0,72-1,12). La monothérapie ACO a réduit significativement le risque d'hémorragie majeure (3,3% vs 5,7%; HR:0,59; IC95%:0,44-0,79), avec un bénéfice potentiellement plus marqué chez les hommes et les diabétiques.
 
 ## 🩺 Impact clinique
-La monothérapie par anticoagulant oral semble préférable chez les patients avec FA et coronaropathie stable, offrant une sécurité hémorragique supérieure sans compromettre la protection contre les événements ischémiques.
+La monothérapie par ACO pourrait être privilégiée chez les patients avec FA et MCS stable, offrant une protection antithrombotique comparable avec un risque hémorragique significativement réduit.
+
+## Revue
+J Am Coll Cardiol
 
 ## 📖 Référence
-Rashedi S, Keykhaei M, Sato A, et al. J Am Coll Cardiol. 2025 Jan 17:S0735-1097(25)00071-3.
+2025 Jan 17:S0735-1097(25)00071-3. doi: 10.1016/j.jacc.2024.12.030.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.jacc.2024.12.030.

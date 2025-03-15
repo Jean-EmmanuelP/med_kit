@@ -1,0 +1,22 @@
+Date de publication : 2024-10-18
+
+# 📝 Immunogénicité et réactogénicité du vaccin 4CMenB chez les nourrissons prématurés : comparaison des schémas 2+1 et 3+1
+
+## 📌 Contexte & Problématique
+Évaluation comparative des réponses immunologiques au vaccin méningococcique B à quatre composants (4CMenB) chez les prématurés selon deux schémas vaccinaux différents.
+
+## 🧪 Méthodologie
+Essai randomisé ouvert de phase IV incluant 129 nourrissons nés avant 35 semaines de gestation, répartis entre schéma 2+1 (n=64) et 3+1 (n=65). Tests d'anticorps bactéricides sériques (SBA) réalisés à 5, 12 et 13 mois.
+
+## 📊 Résultats clés
+Pas de différence significative dans les moyennes géométriques des titres entre les deux schémas. Cependant, proportion plus élevée de nourrissons avec titre SBA ≥4 contre la souche NZ98/254 après primovaccination avec schéma 3+1 (87% vs 70%, p=0,03). Plus d'épisodes fébriles (>38,0°C) à 12 semaines dans le groupe 3+1 (14% vs 2%, p=0,02).
+
+## 🩺 Impact clinique
+Les deux schémas induisent une immunogénicité satisfaisante chez les prématurés, malgré une réponse plus faible contre la souche NZ98/254 avec le schéma 2+1. La surveillance épidémiologique reste nécessaire pour évaluer l'impact clinique de cette différence.
+
+## Revue
+Archives of Disease in Childhood
+
+## 📖 Référence
+2024;109(11):898-904. doi: 10.1136/archdischild-2024-327040. NCT03125616.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1136/archdischild-2024-327040.

@@ -1,0 +1,22 @@
+Date de publication : 2024-10-21
+
+# 📝 Gestion du lupus érythémateux systémique : mise à jour des recommandations EULAR 2023
+
+## 📌 Contexte & Problématique
+Analyse des nouvelles données (2018-2022) pour actualiser les recommandations EULAR sur la prise en charge du lupus érythémateux systémique (LES).
+
+## 🧪 Méthodologie
+Revue systématique dans Medline et Cochrane Library sur cinq domaines : bénéfice/risque des traitements, avantages de la rémission/faible activité, réduction/arrêt thérapeutique, LES avec syndrome des antiphospholipides, et sécurité vaccinale (varicelle-zona et SARS-CoV2).
+
+## 📊 Résultats clés
+439 articles identifiés, principalement observationnels. ECR (essais contrôlés randomisés) de haute qualité démontrent l'efficacité de l'anifrolumab dans le LES non rénal, et du belimumab et voclosporine dans la néphrite lupique (NL). La rémission/faible activité réduit les événements indésirables. L'arrêt des glucocorticoïdes (GC) ou immunosuppresseurs augmente le risque de rechute.
+
+## 🩺 Impact clinique
+L'anifrolumab et le belimumab améliorent le contrôle du LES extrarénal. Les thérapies combinées avec belimumab et voclosporine sont efficaces dans la NL. La rémission est associée à des résultats favorables à long terme, permettant une réduction progressive des GC et immunosuppresseurs.
+
+## Revue
+Annals of Rheumatic Diseases
+
+## 📖 Référence
+2024;83(11):1489-1501. doi:10.1136/ard-2023-225319
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1136/ard-2023-225319.

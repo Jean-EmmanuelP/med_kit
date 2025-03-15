@@ -1,0 +1,22 @@
+Date de publication : 2024-11-22
+
+# 📝 Thyroïdectomie sans radioiode dans les cancers thyroïdiens à faible risque : suivi à 5 ans de l'essai ESTIMABL2
+
+## 📌 Contexte & Problématique
+L'essai ESTIMABL2 avait précédemment démontré la non-infériorité d'une stratégie sans iode radioactif (131I) après thyroïdectomie chez les patients atteints de cancer différencié de la thyroïde à faible risque (pT1am/pT1b, N0/Nx) à 3 ans. Cette analyse présente les résultats à 5 ans.
+
+## 🧪 Méthodologie
+Étude randomisée multicentrique de phase 3 comparant deux groupes post-thyroïdectomie : sans radioiode versus radioiode (1,1 GBq après stimulation par thyréostimuline humaine recombinante). Suivi annuel par dosages de thyroglobuline et échographie cervicale biennale. Non-infériorité définie par une différence maximale de -5% entre les groupes.
+
+## 📊 Résultats clés
+Sur 776 patients inclus (82,7% femmes, âge médian 52,9 ans), 698 étaient évaluables à 5 ans. Proportion de patients sans événements : 93,2% (groupe sans radioiode) contre 94,8% (groupe radioiode), différence de -1,6% (IC 90% -4,5 à 1,4).
+
+## 🩺 Impact clinique
+La non-infériorité d'une stratégie de suivi sans 131I postopératoire est confirmée à 5 ans pour les cancers thyroïdiens différenciés à faible risque, sans perte de chance pour les patients.
+
+## Revue
+Lancet Diabetes Endocrinol
+
+## 📖 Référence
+2025 Jan;13(1):38-46. doi: 10.1016/S2213-8587(24)00276-6. Epub 2024 Nov 22.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S2213-8587(24)00276-6.

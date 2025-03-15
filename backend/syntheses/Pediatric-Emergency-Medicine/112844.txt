@@ -1,0 +1,25 @@
+Date de publication : 2024-03-22
+
+# 📝 Efficacité des corticostéroïdes oraux pour les sifflements respiratoires aigus préscolaires
+
+## 📌 Contexte & Problématique
+Utilisation courante des corticostéroïdes oraux pour traiter les sifflements respiratoires aigus chez les enfants d'âge préscolaire malgré des preuves contradictoires quant à leur efficacité.
+
+## 🧪 Méthodologie
+Revue systématique et méta-analyse des données individuelles des participants (DIP) de 7 essais cliniques randomisés (2172 enfants) comparant corticostéroïdes oraux versus placebo chez les enfants de 12-71 mois. Critère principal : modification du score de sévérité des sifflements (SSS).
+
+## 📊 Résultats clés
+- Amélioration significative du SSS à 4h avec corticostéroïdes (-0,31 [IC 95% -0,38 à -0,24]; p=0,011)
+- Réduction significative de la durée d'hospitalisation (-3,18h [-4,43 à -1,93]; p=0,0021)
+- Bénéfice plus marqué chez les enfants avec antécédents de sifflements/asthme (-4,54h [-5,57 à -3,52])
+- Risque accru de vomissements (OR 2,27 [IC 95% 0,87 à 5,88])
+
+## 🩺 Impact clinique
+Les corticostéroïdes oraux offrent un bénéfice clinique modeste mais significatif, particulièrement chez les enfants avec antécédents de sifflements ou d'asthme, justifiant leur utilisation ciblée.
+
+## Revue
+Lancet Respiratory Medicine
+
+## 📖 Référence
+2024 Jun;12(6):444-456. doi: 10.1016/S2213-2600(24)00041-9. Epub 2024 Mar 22.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S2213-2600(24)00041-9.

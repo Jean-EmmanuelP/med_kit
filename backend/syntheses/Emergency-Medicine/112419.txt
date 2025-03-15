@@ -3,17 +3,20 @@ Date de publication : 2024-02-03
 # 📝 Cathétérisation veineuse centrale guidée par échographie : quelle approche privilégier ?
 
 ## 📌 Contexte & Problématique
-Plusieurs approches échoguidées existent pour la cathétérisation veineuse centrale (CVC) : veine jugulaire interne (VJI), sous-clavière supraclaviculaire (VSC-Supra) ou infraclaviculaire (VSC-Infra), axillaire proximale (VA-Proxi) ou distale (VA-Distale). Leur efficacité comparative reste débattue.
+Plusieurs approches existent pour la cathétérisation veineuse centrale (CVC) guidée par échographie : veine jugulaire interne (VJI), veine sous-clavière supraclaviculaire (VSC-Supra) et infraclaviculaire (VSC-Infra), veine axillaire proximale (VA-Proxi) et distale (VA-Distale). Cette revue compare leur efficacité et sécurité.
 
 ## 🧪 Méthodologie
-Méta-analyse en réseau de 13 essais contrôlés randomisés (4418 participants) comparant 5 approches de CVC échoguidée. Recherche dans Embase, MEDLINE, CENTRAL et registres d'essais cliniques jusqu'en mai 2023.
+Méta-analyse en réseau de 13 essais contrôlés randomisés (4418 participants) identifiés dans cinq bases de données en mai 2023, comparant les cinq approches de CVC sus-diaphragmatiques.
 
 ## 📊 Résultats clés
-L'approche VSC-Supra présente le meilleur taux de réussite au premier passage comparée aux autres approches (RR>1,21). Supérieure à la VJI (RR 1,22; IC95% 1,06-1,40), tandis que l'approche VA-Distale montre les résultats les moins favorables (RR 0,72; IC95% 0,59-0,87 vs VJI). Pas de différence significative concernant les ponctions artérielles.
+L'approche VSC-Supra présente le meilleur taux de réussite au premier passage comparée aux autres approches (RR>1,21). Par rapport à la VJI, la VSC-Supra augmente significativement ce taux (RR 1,22; IC 95% 1,06-1,40), tandis que la VA-Distale le diminue (RR 0,72; IC 95% 0,59-0,87). Aucune différence significative n'a été observée concernant les ponctions artérielles.
 
 ## 🩺 Impact clinique
-L'approche supraclaviculaire de la veine sous-clavière pourrait devenir l'approche de choix pour les CVC échoguidées, offrant le meilleur compromis entre succès technique et sécurité.
+La VSC-Supra apparaît comme l'approche à privilégier pour optimiser le succès au premier passage, tandis que la VA-Distale semble la moins favorable. Des études comparatives directes entre les approches les plus performantes sont nécessaires.
+
+## Revue
+American Journal of Emergency Medicine
 
 ## 📖 Référence
-Imai E, Kataoka Y, Watanabe J, et al. Am J Emerg Med. 2024;78:206-214.
+2024;78:206-214. doi:10.1016/j.ajem.2024.01.043
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.ajem.2024.01.043.

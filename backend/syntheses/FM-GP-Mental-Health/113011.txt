@@ -3,17 +3,20 @@ Date de publication : 2024-04-01
 # 📝 Effets indésirables aigus de la psilocybine à doses thérapeutiques : revue systématique et méta-analyse
 
 ## 📌 Contexte & Problématique
-La psilocybine est étudiée pour traiter dépression et anxiété, mais peu d'études ont évalué spécifiquement son profil de sécurité. Cette méta-analyse examine les effets indésirables aigus de la psilocybine à doses thérapeutiques.
+La psilocybine est étudiée pour traiter la dépression et l'anxiété, mais les revues systématiques se sont principalement concentrées sur l'efficacité plutôt que sur la sécurité d'emploi.
 
 ## 🧪 Méthodologie
-Analyse de 6 essais cliniques randomisés en double aveugle (528 participants, 51% femmes, âge médian 39,8 ans) issus de MEDLINE, Web of Science et ClinicalTrials.gov (1966-2023). Modèle à effets aléatoires avec ajustement de Hartung-Knapp.
+Analyse de six essais cliniques randomisés en double aveugle (528 participants) évaluant les effets indésirables de la psilocybine dans le traitement de la dépression/anxiété. Recherche dans MEDLINE, Web of Science et ClinicalTrials.gov (1966-2023).
 
 ## 📊 Résultats clés
-Risques significativement accrus vs placebo/contrôles : céphalées (RR=1,99), nausées (RR=8,85), anxiété (RR=2,27), vertiges (RR=5,81) et élévation de la pression artérielle (RR=2,29). Pas d'augmentation significative de paranoïa ou de troubles transitoires de la pensée.
+Risques significativement accrus avec la psilocybine : céphalées (RR 1,99), nausées (RR 8,85), anxiété (RR 2,27), vertiges (RR 5,81) et élévation de la pression artérielle (RR 2,29). Pas d'association significative avec paranoïa ou troubles transitoires de la pensée.
 
 ## 🩺 Impact clinique
-Les effets indésirables de la psilocybine à dose thérapeutique unique sont généralement tolérables et se résolvent dans les 48 heures. Des recherches supplémentaires sur la gestion de ces effets sont nécessaires.
+Les effets indésirables aigus de la psilocybine à dose thérapeutique unique semblent tolérables et se résolvent généralement dans les 48 heures, mais une meilleure évaluation de leur gestion est nécessaire.
+
+## Revue
+JAMA Network Open
 
 ## 📖 Référence
-Yerubandi A, Thomas JE, Bhuiya NMMA, et al. JAMA Netw Open. 2024;7(4):e245960.
+2024;7(4):e245960. doi:10.1001/jamanetworkopen.2024.5960
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamanetworkopen.2024.5960.

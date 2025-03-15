@@ -3,17 +3,20 @@ Date de publication : 2024-08-01
 # 📝 Traitement par PPC et réduction des complications hypertensives chez les femmes enceintes atteintes d'AOS
 
 ## 📌 Contexte & Problématique
-L'apnée obstructive du sommeil (AOS) peut être aggravée par la grossesse et augmenter le risque de complications gestationnelles. L'efficacité de la pression positive continue (PPC) pour réduire ces complications reste incertaine.
+L'apnée obstructive du sommeil (AOS) peut se développer ou s'aggraver pendant la grossesse, augmentant le risque de complications. La pression positive continue (PPC) est le traitement de référence, mais son efficacité pour réduire les complications hypertensives gestationnelles reste incertaine.
 
 ## 🧪 Méthodologie
-Revue systématique et méta-analyse de 6 études originales incluant 809 femmes enceintes (âge moyen: 31,4 ans; IMC moyen: 34,0). Recherche dans PubMed, Embase et Cochrane jusqu'en novembre 2023. Méta-analyses à effets aléatoires avec calcul des risques relatifs.
+Revue systématique et méta-analyse de 6 études originales (809 participantes) issues de PubMed, Embase et Cochrane. Analyse des risques relatifs (RR) d'hypertension gestationnelle et de prééclampsie chez les femmes enceintes atteintes d'AOS traitées ou non par PPC.
 
 ## 📊 Résultats clés
-Le traitement par PPC a significativement réduit le risque d'hypertension gestationnelle (RR: 0,65; IC 95%: 0,47-0,89; p=0,008) et de prééclampsie (RR: 0,70; IC 95%: 0,50-0,98; p=0,04). Ni l'âge ni l'IMC n'ont influencé ces résultats.
+Le traitement par PPC a significativement réduit le risque d'hypertension gestationnelle (RR 0,65; IC 95% 0,47-0,89; p=0,008) et de prééclampsie (RR 0,70; IC 95% 0,50-0,98; p=0,04). L'âge et l'indice de masse corporelle (IMC) n'influençaient pas ces résultats.
 
 ## 🩺 Impact clinique
-L'utilisation de la PPC chez les femmes enceintes souffrant d'AOS pourrait constituer une stratégie efficace pour prévenir les complications hypertensives gestationnelles, indépendamment de l'âge et de l'IMC.
+L'utilisation de la PPC chez les femmes enceintes souffrant d'AOS pourrait constituer une stratégie efficace pour réduire les complications hypertensives durant la grossesse, indépendamment de l'âge et de l'IMC.
+
+## Revue
+JAMA Network Open
 
 ## 📖 Référence
-Lee YC, Chang YC, Tseng LW, et al. JAMA Netw Open. 2024;7(8):e2427557.
+2024;7(8):e2427557. doi:10.1001/jamanetworkopen.2024.27557
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamanetworkopen.2024.27557.

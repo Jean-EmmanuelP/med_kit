@@ -1,0 +1,22 @@
+Date de publication : 2025-02-10
+
+# 📝 Sécurité des inhibiteurs de Janus kinase dans les maladies inflammatoires à médiation immunitaire
+
+## 📌 Contexte & Problématique
+Revue systématique évaluant la sécurité des inhibiteurs de Janus kinase (JAKi) dans les maladies inflammatoires à médiation immunitaire (MIMI) pour informer la mise à jour 2024 d'un consensus d'experts international.
+
+## 🧪 Méthodologie
+Mise à jour d'une revue systématique de 2019 incluant des essais randomisés contrôlés, études d'extension à long terme (ELT), analyses regroupées et études observationnelles sur tous les JAKi étudiés dans les MIMI.
+
+## 📊 Résultats clés
+Sur 13 905 références examinées, 209 ont été incluses (3 essais de sécurité, 13 analyses post hoc, 83 essais contrôlés randomisés, 56 analyses intégrées/ELT, 20 résumés de conférence, 37 études en conditions réelles). Les profils de sécurité étaient globalement cohérents entre les composés, avec des variations selon les profils patients, posologies et comédications. Des effets différentiels ont été observés selon la sélectivité des JAKi.
+
+## 🩺 Impact clinique
+Ces données complètes permettent d'optimiser l'utilisation des JAKi en équilibrant bénéfices et risques pour chaque patient atteint de MIMI.
+
+## Revue
+Annals of Rheumatic Diseases
+
+## 📖 Référence
+2025 Feb 10:S0003-4967(25)00080-9. doi: 10.1016/j.ard.2025.01.024.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.ard.2025.01.024.

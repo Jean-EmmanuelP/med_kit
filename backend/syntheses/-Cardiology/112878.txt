@@ -1,19 +1,22 @@
 Date de publication : 2024-03-04
 
-# 📝 DAPT ABRÉGÉE CHEZ LES PERSONNES ÂGÉES APRÈS ICP : BÉNÉFICES HÉMORRAGIQUES SANS RISQUE ISCHÉMIQUE ACCRU
+# 📝 Durée optimale de la bithérapie antiplaquettaire chez les personnes âgées après ICP
 
 ## 📌 Contexte & Problématique
-Les personnes âgées après intervention coronarienne percutanée (ICP) présentent simultanément des risques élevés d'événements ischémiques et hémorragiques. La durée optimale de bithérapie antiplaquettaire (DAPT) reste incertaine dans cette population.
+La durée optimale de la bithérapie antiplaquettaire (DAPT) chez les personnes âgées après une intervention coronarienne percutanée (ICP) reste incertaine, ces patients présentant simultanément des risques accrus d'événements ischémiques et hémorragiques.
 
 ## 🧪 Méthodologie
-Méta-analyse en réseau de 14 essais cliniques randomisés (19 102 patients âgés ≥65 ans) comparant différentes durées de DAPT (1, 3, 6 et 12 mois) après ICP. Critères d'évaluation : événements cliniques indésirables nets (NACE), événements cardiovasculaires indésirables majeurs (MACE) et saignements.
+Revue systématique et méta-analyse en réseau de 14 essais cliniques randomisés (19 102 patients âgés ≥65 ans) comparant des durées de DAPT de 1, 3, 6 et 12 mois après ICP.
 
 ## 📊 Résultats clés
-Aucune différence significative pour les NACE ou MACE entre les différentes durées. La DAPT de 3 mois réduisait significativement le risque hémorragique comparée aux DAPT de 6 mois (RR 0,50 [0,29-0,84]) et 12 mois (RR 0,57 [0,45-0,71]). La DAPT d'1 mois réduisait également ce risque versus 6 mois (RR 0,68 [0,54-0,86]).
+Aucune différence significative dans les événements cliniques indésirables nets (NACE) ou événements cardiovasculaires indésirables majeurs (MACE) entre les différentes durées. La DAPT de 3 mois était associée à un risque hémorragique réduit comparée aux DAPT de 6 mois (RR 0,50 [IC95% 0,29-0,84]) et 12 mois (RR 0,57 [IC95% 0,45-0,71]). La DAPT d'1 mois montrait également moins de saignements que celle de 6 mois (RR 0,68 [IC95% 0,54-0,86]).
 
 ## 🩺 Impact clinique
-Une DAPT abrégée (1-3 mois) peut être envisagée chez les personnes âgées après ICP, offrant une protection contre les saignements sans compromettre la sécurité cardiovasculaire, malgré leurs comorbidités et anatomie coronarienne souvent complexe.
+Une DAPT de courte durée peut être envisagée chez les personnes âgées après ICP, offrant une réduction du risque hémorragique sans augmentation des complications ischémiques.
+
+## Revue
+JAMA Network Open
 
 ## 📖 Référence
-Park DY, Hu JR, Jamil Y, et al. JAMA Netw Open. 2024;7(3):e244000.
+2024;7(3):e244000. doi:10.1001/jamanetworkopen.2024.4000
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamanetworkopen.2024.4000.

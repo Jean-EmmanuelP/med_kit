@@ -3,17 +3,20 @@ Date de publication : 2024-08-24
 # 📝 Antiviraux en prophylaxie post-exposition de la grippe : méta-analyse en réseau
 
 ## 📌 Contexte & Problématique
-L'efficacité des antiviraux autres que les inhibiteurs de la neuraminidase en prophylaxie post-exposition (PPE) de la grippe reste incertaine. Cette revue systématique vise à évaluer différentes classes d'antiviraux pour guider les recommandations de l'OMS.
+L'efficacité des différentes classes d'antiviraux en prophylaxie post-exposition (PPE) de la grippe reste incertaine, notamment pour les alternatives aux inhibiteurs de la neuraminidase. Cette étude vise à évaluer ces médicaments pour soutenir une mise à jour des directives de l'OMS.
 
 ## 🧪 Méthodologie
-Méta-analyse en réseau de 33 essais contrôlés randomisés incluant 19 096 participants (âge moyen 6,75-81,15 ans) évaluant six antiviraux (zanamivir, oseltamivir, laninamivir, baloxavir, amantadine, rimantadine) en PPE.
+Revue systématique et méta-analyse en réseau de 33 essais contrôlés randomisés incluant 19 096 participants exposés à la grippe. Six antiviraux ont été évalués : zanamivir, oseltamivir, laninamivir, baloxavir, amantadine et rimantadine.
 
 ## 📊 Résultats clés
-Chez les personnes à haut risque, réduction significative de la grippe symptomatique saisonnière avec zanamivir (RR 0,35), oseltamivir (RR 0,40), laninamivir (RR 0,43) et baloxavir (RR 0,43) lorsqu'administrés dans les 48h post-exposition. Efficacité probable contre la grippe zoonotique (certitude faible). Impact limité sur l'infection asymptomatique, les hospitalisations et la mortalité. Profil de sécurité favorable pour tous les antiviraux.
+Chez les personnes à haut risque, la PPE par zanamivir, oseltamivir, laninamivir ou baloxavir administrée dans les 48h réduit significativement le risque de grippe saisonnière symptomatique (RR entre 0,35 et 0,43, certitude modérée). Ces antiviraux pourraient également réduire le risque de grippe zoonotique symptomatique (certitude faible), mais ont peu d'effet sur l'infection asymptomatique ou la mortalité. Aucun antiviral n'augmente significativement l'incidence des effets indésirables.
 
 ## 🩺 Impact clinique
-La PPE par inhibiteurs de neuraminidase ou baloxavir est particulièrement indiquée chez les patients à haut risque exposés à la grippe saisonnière, avec administration précoce. Bénéfice potentiel contre les nouveaux virus grippaux A zoonotiques.
+La PPE antivirale est particulièrement bénéfique pour les personnes à haut risque exposées à la grippe saisonnière et pourrait être utile contre les nouveaux virus grippaux A zoonotiques lorsqu'administrée rapidement après l'exposition.
+
+## Revue
+Lancet
 
 ## 📖 Référence
-Zhao Y, Gao Y, Guyatt G, et al. Antivirals for post-exposure prophylaxis of influenza: a systematic review and network meta-analysis. Lancet. 2024;404(10454):764-772.
+2024;404(10454):764-772. doi:10.1016/S0140-6736(24)01357-6.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S0140-6736(24)01357-6.

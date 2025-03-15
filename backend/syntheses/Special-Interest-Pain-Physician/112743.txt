@@ -1,0 +1,24 @@
+Date de publication : 2024-03-14
+
+# 📝 Efficacité clinique du PRP versus différents traitements pour la lombalgie chronique
+
+## 📌 Contexte & Problématique
+La lombalgie chronique constitue une cause majeure d'invalidité mondiale. Cette méta-analyse évalue l'efficacité de l'injection de plasma riche en plaquettes (PRP) comparée à d'autres traitements à 4 semaines, 3 mois et 6 mois.
+
+## 🧪 Méthodologie
+Analyse d'essais contrôlés randomisés jusqu'en août 2023, mesurant les changements des scores de douleur et de l'indice d'invalidité d'Oswestry (ODI) à différents intervalles.
+
+## 📊 Résultats clés
+- À 4 semaines : les corticostéroïdes (CS) montrent la meilleure efficacité (SUCRA=71,3% pour douleur)
+- À 3 mois : la radiofréquence (RF) est supérieure (SUCRA=100% pour douleur), suivie du PRP (SUCRA=62,3%)
+- À 6 mois : la RF reste efficace (SUCRA=94,9% pour douleur), mais le PRP montre une tendance d'amélioration continue, contrairement à la RF qui décline légèrement
+
+## 🩺 Impact clinique
+Le PRP démontre un avantage potentiel à long terme (≥6 mois) sur l'indice d'invalidité, suggérant son intérêt dans la prise en charge prolongée des lombalgies chroniques.
+
+## Revue
+Journal of Pain Research
+
+## 📖 Référence
+2024;17:1077-1089. doi: 10.2147/JPR.S444189
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.2147/JPR.S444189.

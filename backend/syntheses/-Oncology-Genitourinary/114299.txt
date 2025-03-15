@@ -1,19 +1,22 @@
 Date de publication : 2024-08-31
 
-# 📝 HORMONOTHÉRAPIE ASSOCIÉE À LA RADIOTHÉRAPIE POSTOPÉRATOIRE APRÈS PROSTATECTOMIE : RÉSULTATS DE RADICALS-HD
+# 📝 Comparaison de différentes durées d'hormonothérapie avec radiothérapie postopératoire après prostatectomie radicale
 
 ## 📌 Contexte & Problématique
-L'utilité et la durée optimale de l'hormonothérapie par suppression androgénique (HSA) associée à la radiothérapie postopératoire après prostatectomie radicale restent controversées.
+L'étude RADICALS-HD a évalué l'efficacité de différentes durées d'hormonothérapie par suppression androgénique (HSA) associée à la radiothérapie postopératoire chez les patients ayant subi une prostatectomie radicale.
 
 ## 🧪 Méthodologie
-Étude randomisée comparant trois groupes : absence d'HSA (n=166), HSA courte de 6 mois (n=164) ou HSA longue de 24 mois (n=162). Critère principal : survie sans métastase (SSM). Suivi médian : 9,0 ans.
+492 patients ont été randomisés en trois groupes : sans HSA (n=166), HSA courte de 6 mois (n=164) ou HSA longue de 24 mois (n=162). Le critère principal était la survie sans métastase (SSM).
 
 ## 📊 Résultats clés
-Aucune différence significative dans la SSM entre les trois groupes (p=0,98). À 10 ans, 80% des patients sans HSA, 77% avec HSA courte et 81% avec HSA longue étaient vivants sans métastases. Rapport de risque pour HSA longue versus aucune HSA : 0,948 (IC 95% : 0,54-1,68).
+Après un suivi médian de 9 ans, aucune différence significative n'a été observée pour la SSM entre les trois groupes (p=0,98). À 10 ans, 80% des patients sans HSA, 77% avec HSA courte et 81% avec HSA longue étaient vivants sans maladie métastatique.
 
 ## 🩺 Impact clinique
-L'ajout d'HSA (courte ou longue) à la radiothérapie postopératoire n'améliore pas les résultats oncologiques. Les recherches futures devraient cibler les patients à haut risque de métastases.
+Les résultats suggèrent que l'ajout d'HSA à la radiothérapie postopératoire n'améliore pas les résultats à long terme chez les patients éligibles aux trois options. Les recherches futures devraient cibler les patients à risque plus élevé de métastases.
+
+## Revue
+European Urology
 
 ## 📖 Référence
-Parker CC, Clarke NW, Cook AD, et al. Eur Urol. 2024;86(5):422-430.
+2024;86(5):422-430. doi:10.1016/j.eururo.2024.07.026
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.eururo.2024.07.026.

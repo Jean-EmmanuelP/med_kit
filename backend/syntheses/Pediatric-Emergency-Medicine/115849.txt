@@ -1,0 +1,22 @@
+Date de publication : 2025-02-14
+
+# 📝 Comparaison de l'olanzapine et du diazépam oraux pour l'agitation chez les jeunes aux urgences
+
+## 📌 Contexte & Problématique
+Évaluation comparative de l'efficacité de l'olanzapine orale versus diazépam oral pour la gestion des troubles comportementaux aigus sévères chez les jeunes aux urgences.
+
+## 🧪 Méthodologie
+Essai contrôlé randomisé multicentrique incluant 348 patients (9-17 ans) dans 9 services d'urgence australiens (2021-2023). Administration d'une dose unique d'olanzapine (n=176) ou de diazépam (n=172) selon le poids. Critère principal : sédation réussie sans médication supplémentaire à 1 heure.
+
+## 📊 Résultats clés
+Sédation réussie : 61% groupe olanzapine vs 57% groupe diazépam (différence de risque ajustée : 3,6%, IC 95% : -6,7% à 14,0%). Aucun événement indésirable grave dans les deux groupes. Environ 40% des participants n'ont pas atteint une sédation adéquate.
+
+## 🩺 Impact clinique
+Aucune supériorité démontrée de l'olanzapine par rapport au diazépam. Les deux médicaments présentent des profils de sécurité similaires mais une efficacité limitée, suggérant la nécessité d'explorer d'autres options thérapeutiques.
+
+## Revue
+Ann Emerg Med
+
+## 📖 Référence
+2025 Feb 14:S0196-0644(25)00017-4. doi: 10.1016/j.annemergmed.2025.01.007.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.annemergmed.2025.01.007.

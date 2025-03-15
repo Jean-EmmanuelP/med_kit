@@ -1,0 +1,22 @@
+Date de publication : 2024-06-13
+
+# 📝 Ventilation non invasive pour la préoxygénation lors de l'intubation d'urgence
+
+## 📌 Contexte & Problématique
+L'hypoxémie pendant l'intubation trachéale chez les patients critiques augmente le risque d'arrêt cardiaque et de décès. L'efficacité comparative de la ventilation non invasive (VNI) versus le masque à oxygène pour la préoxygénation reste à clarifier.
+
+## 🧪 Méthodologie
+Essai randomisé multicentrique dans 24 services d'urgence et unités de soins intensifs américains comparant la préoxygénation par VNI ou masque à oxygène chez 1301 adultes critiques nécessitant une intubation trachéale.
+
+## 📊 Résultats clés
+L'hypoxémie (SpO₂ <85%) est survenue chez 9,1% des patients du groupe VNI contre 18,5% dans le groupe masque à oxygène (différence: -9,4%; IC 95%: -13,2 à -5,6; p<0,001). Les arrêts cardiaques étaient moins fréquents dans le groupe VNI (0,2% vs 1,1%), sans différence significative pour les inhalations (0,9% vs 1,4%).
+
+## 🩺 Impact clinique
+La préoxygénation par VNI réduit significativement le risque d'hypoxémie pendant l'intubation d'urgence chez les patients critiques, offrant une alternative plus sécuritaire aux techniques conventionnelles.
+
+## Revue
+New England Journal of Medicine
+
+## 📖 Référence
+2024;390(23):2165-2177. doi:10.1056/NEJMoa2313680. Epub 2024 Jun 13. (PREOXI, NCT05267652)
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2313680.

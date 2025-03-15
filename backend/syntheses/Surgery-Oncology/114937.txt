@@ -1,0 +1,22 @@
+Date de publication : 2024-11-12
+
+# 📝 Pembrolizumab, radiothérapie et chirurgie pour les sarcomes des tissus mous de stade III
+
+## 📌 Contexte & Problématique
+Environ 50% des patients avec sarcome des tissus mous localisé à haut risque des extrémités développent des métastases. Cette étude évalue si l'ajout du pembrolizumab à la radiothérapie préopératoire et à la chirurgie améliore la survie sans maladie (SSM).
+
+## 🧪 Méthodologie
+Essai clinique randomisé ouvert incluant 143 patients atteints de sarcomes pléomorphes indifférenciés ou liposarcomes dédifférenciés/pléomorphes de grade 2-3, stade III. Comparaison entre radiothérapie préopératoire+chirurgie (groupe témoin) versus pembrolizumab+radiothérapie préopératoire+chirurgie+pembrolizumab postopératoire (groupe expérimental).
+
+## 📊 Résultats clés
+Avec un suivi médian de 43 mois, le groupe expérimental (n=64) a montré une SSM significativement plus longue que le groupe témoin (n=63) (HR 0,61; IC 90% 0,39-0,96; p=0,035). La SSM à 2 ans a augmenté de 15% avec le pembrolizumab (67% vs 52%). Les événements indésirables de grade ≥3 étaient plus fréquents dans le groupe expérimental (56% vs 31%).
+
+## 🩺 Impact clinique
+L'ajout du pembrolizumab à la radiothérapie préopératoire et à la chirurgie constitue une nouvelle option thérapeutique prometteuse pour les patients atteints de sarcomes des tissus mous de stade III des extrémités.
+
+## Revue
+Lancet
+
+## 📖 Référence
+2024;404(10467):2053-2064. doi:10.1016/S0140-6736(24)01812-9
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S0140-6736(24)01812-9.

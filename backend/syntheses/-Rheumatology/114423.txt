@@ -1,0 +1,22 @@
+Date de publication : 2024-11-14
+
+# 📝 Recommandations EULAR/PReS pour le diagnostic et la prise en charge de la maladie de Still
+
+## 📌 Contexte & Problématique
+L'arthrite juvénile idiopathique systémique (AJIs) et la maladie de Still de l'adulte (MSA) sont considérées comme une même pathologie, mais manquaient d'approche diagnostique et thérapeutique commune.
+
+## 🧪 Méthodologie
+Un groupe de travail conjoint EULAR/PReS a élaboré des recommandations basées sur des revues systématiques de la littérature, abordant quatre thématiques principales : similitude AJIs/MSA, biomarqueurs, stratégies thérapeutiques et complications.
+
+## 📊 Résultats clés
+Quatorze recommandations spécifiques ont été formulées, reconnaissant l'AJIs et la MSA comme une seule entité : la maladie de Still. Deux cibles thérapeutiques sont définies : la maladie cliniquement inactive (MCI) et la rémission (MCI maintenue ≥6 mois). La stratégie optimale combine inhibiteurs d'IL-1/IL-6 et glucocorticoïdes (GC) brefs.
+
+## 🩺 Impact clinique
+Le syndrome d'activation macrophagique (SAM) nécessite des GC à forte dose, inhibiteurs d'IL-1, ciclosporine et anti-interféron-γ. Une attention particulière est portée aux complications pulmonaires sévères, avec recommandation d'immunosuppresseurs ciblant les lymphocytes T.
+
+## Revue
+Annals of Rheumatic Diseases
+
+## 📖 Référence
+2024;83(12):1614-1627. doi:10.1136/ard-2024-225851
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1136/ard-2024-225851.

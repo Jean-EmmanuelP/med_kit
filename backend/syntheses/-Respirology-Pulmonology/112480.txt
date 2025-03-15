@@ -1,0 +1,22 @@
+Date de publication : 2024-02-01
+
+# 📝 Traitement par élexacaftor/tézacaftor/ivacaftor et événements liés à la dépression
+
+## 📌 Contexte & Problématique
+Des signalements d'événements indésirables liés à la dépression ont émergé chez des personnes atteintes de mucoviscidose (PAM) traitées par élexacaftor/tézacaftor/ivacaftor (ELX/TEZ/IVA) après son approbation en 2019. Cette étude évalue la relation entre ce traitement et les événements dépressifs.
+
+## 🧪 Méthodologie
+Analyse de données provenant de 14 essais cliniques d'ELX/TEZ/IVA, 10 essais avec placebo, registres américains et allemands de mucoviscidose, et données post-commercialisation de 61 499 PAM (2019-2022). Revue de littérature sur les événements dépressifs associés au traitement.
+
+## 📊 Résultats clés
+Taux d'événements dépressifs similaires entre groupes ELX/TEZ/IVA (3,32/100 personnes-années) et placebo (3,24/100 personnes-années). Taux post-commercialisation faibles par rapport à la prévalence de fond. Les registres n'ont pas montré de changement dans la prévalence de dépression après initiation du traitement.
+
+## 🩺 Impact clinique
+Les événements dépressifs chez les PAM sous ELX/TEZ/IVA semblent cohérents avec l'épidémiologie de fond dans cette population, sans évidence de relation causale avec le traitement.
+
+## Revue
+American Journal of Respiratory and Critical Care Medicine
+
+## 📖 Référence
+2024;209(3):299-306. doi:10.1164/rccm.202308-1525OC
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1164/rccm.202308-1525OC.

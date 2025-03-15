@@ -1,0 +1,22 @@
+Date de publication : 2024-08-08
+
+# 📝 Prise en charge du cancer rectal localement avancé : Lignes directrices de l'ASCO
+
+## 📌 Contexte & Problématique
+Les patients atteints de cancer rectal localement avancé nécessitent une approche thérapeutique standardisée. Ces lignes directrices visent à fournir des recommandations fondées sur des preuves pour optimiser leur prise en charge.
+
+## 🧪 Méthodologie
+Revue systématique de la littérature (2013-2023) incluant 12 essais contrôlés randomisés (ECR), 2 revues systématiques et 1 étude non randomisée. Les recommandations ont été élaborées par consensus informel d'experts.
+
+## 📊 Résultats clés
+Pour les tumeurs microsatellites stables/réparation des mésappariements proficiente, le traitement néoadjuvant total (TNT) est recommandé pour les tumeurs du rectum inférieur ou à haut risque. La chimioradiothérapie (CRT) néoadjuvante de longue durée est préférée à la radiothérapie (RT) courte. Pour les tumeurs avec instabilité microsatellitaire élevée/déficience de réparation des mésappariements, l'immunothérapie est recommandée.
+
+## 🩺 Impact clinique
+Une prise en charge non opératoire peut être envisagée chez les patients présentant une réponse clinique complète au traitement néoadjuvant, comme alternative à l'excision mésorectale totale.
+
+## Revue
+Journal of Clinical Oncology
+
+## 📖 Référence
+2024, 42(28):3355-3375, doi: 10.1200/JCO.24.01160
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO.24.01160.

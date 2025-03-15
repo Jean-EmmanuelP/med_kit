@@ -3,17 +3,20 @@ Date de publication : 2024-09-04
 # 📝 Stratification du risque chez les patients âgés atteints de LMA traités intensivement
 
 ## 📌 Contexte & Problématique
-La LMA chez les patients âgés (>60 ans) présente des taux de survie variables après chimiothérapie intensive et allogreffe. Un modèle pronostique précis est nécessaire pour identifier les candidats appropriés au traitement curatif.
+La leucémie myéloïde aiguë (LMA) présente une hétérogénéité génétique marquée chez les patients âgés, avec des taux de survie variables après chimiothérapie intensive et transplantation allogénique de cellules hématopoïétiques (allo-TCH). Un modèle pronostique est nécessaire pour identifier les patients âgés pouvant bénéficier d'un traitement curatif.
 
 ## 🧪 Méthodologie
-Étude de 1 910 patients >60 ans atteints de LMA et SMD-HR traités intensivement (cohortes NCRI-AML18 et HOVON-SAKK). Âge médian : 67 ans. Analyse par forêt aléatoire de survie des variables cliniques, moléculaires et cytogénétiques.
+Étude de 1 910 patients >60 ans atteints de LMA et syndrome myélodysplasique à haut risque (SMD-HR) traités intensivement, issus de cohortes NCRI-AML18 et HOVON-SAKK. Utilisation d'une méthode de forêt aléatoire pour évaluer les variables cliniques, moléculaires et cytogénétiques associées à la survie globale (SG).
 
 ## 📊 Résultats clés
-Neuf variables ont permis de créer quatre groupes pronostiques avec survie globale à 4 ans distincte : favorable (54%), intermédiaire (38%), défavorable (21%) et très défavorable (4%). Les patients des groupes intermédiaire et très défavorable ont significativement bénéficié de l'allogreffe.
+Neuf variables ont permis de construire quatre groupes pronostiques avec des SG à 4 ans distinctes : favorable (~54%), intermédiaire (~38-43%), défavorable (~21-27%) et très défavorable (~0-4%). Cette classification LMA60+ surpasse les modèles actuels. Les patients des groupes intermédiaire et très défavorable ont significativement bénéficié de l'allo-TCH.
 
 ## 🩺 Impact clinique
-La classification AML60+ améliore les systèmes pronostiques existants et identifie précisément les patients âgés qui bénéficieraient d'une chimiothérapie intensive suivie d'allogreffe.
+La classification LMA60+ fournit un outil pronostique précis pour les patients ≥60 ans atteints de LMA et SMD-HR, permettant d'identifier ceux qui bénéficieraient d'une chimiothérapie intensive suivie d'allo-TCH.
+
+## Revue
+Journal of Clinical Oncology
 
 ## 📖 Référence
-Versluis J, Metzner M, Wang A, et al. Risk Stratification in Older Intensively Treated Patients With AML. J Clin Oncol. 2024;42(34):4084-4094.
+2024;42(34):4084-4094. doi:10.1200/JCO.23.02631. Epub 2024 Sep 4.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO.23.02631.

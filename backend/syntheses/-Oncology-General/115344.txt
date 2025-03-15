@@ -1,0 +1,22 @@
+Date de publication : 2024-12-20
+
+# 📝 Thérapies ciblées chez les patients avec arthrite inflammatoire et antécédents de cancer
+
+## 📌 Contexte & Problématique
+Les thérapies ciblées soulèvent des inquiétudes quant au risque de malignité chez les patients atteints d'arthrite inflammatoire (AI) et ayant des antécédents de cancer, constituant un défi clinique fréquent en rhumatologie.
+
+## 🧪 Méthodologie
+Revue systématique et méta-analyse des études rapportant des mesures de risque relatif chez les patients avec antécédents de cancer initiant une thérapie ciblée ou un médicament antirhumatismal modificateur de la maladie synthétique conventionnel (csDMARD). Analyse de PubMed et Embase jusqu'au 15/07/2022.
+
+## 📊 Résultats clés
+L'analyse de 15 études observationnelles (4428 patients, 15062 patients-années) montre un HR global de récidive du cancer de 0,92 (IC 95%: 0,74-1,15) pour les thérapies ciblées versus csDMARDs. Les patients présentaient principalement des cancers solides et une polyarthrite rhumatoïde, traités majoritairement par inhibiteurs du facteur de nécrose tumorale alpha.
+
+## 🩺 Impact clinique
+Les thérapies ciblées ne semblent pas associées à un risque accru de récidive du cancer comparativement aux csDMARDs, offrant une option thérapeutique potentiellement sécuritaire pour cette population.
+
+## Revue
+Annals of Rheumatic Diseases
+
+## 📖 Référence
+2024 Dec 20:ard-2024-225981. doi: 10.1136/ard-2024-225981.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1136/ard-2024-225981.

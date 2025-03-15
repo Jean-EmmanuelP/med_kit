@@ -1,0 +1,26 @@
+Date de publication : 2024-12-01
+
+# 📝 Interventions pour réduire l'imagerie chez les enfants avec traumatisme crânien léger : revue systématique
+
+## 📌 Contexte & Problématique
+Nécessité de réduire l'imagerie non essentielle dans les services d'urgence pour les enfants avec traumatisme crânien léger (TCL).
+
+## 🧪 Méthodologie
+Revue systématique de 28 études comparatives évaluant des interventions visant à réduire l'imagerie chez les enfants avec TCL. Recherche dans 8 bases de données électroniques et littérature grise.
+
+## 📊 Résultats clés
+- 79% des études utilisaient un design avant-après
+- 71% intégraient la règle PECARN (Pediatric Emergency Care Applied Research Network)
+- 75% employaient des interventions multidimensionnelles (médiane : 3 composantes)
+- Réduction médiane de 27% des tomodensitométries (TDM) crâniennes avec les interventions PECARN multidimensionnelles (RR=0,73)
+- Facteurs associés à une plus grande réduction : taux initial d'imagerie élevé (p<0,001) et nombre de composantes d'intervention (p=0,008)
+
+## 🩺 Impact clinique
+Les interventions complexes incluant la règle PECARN sont efficaces pour réduire l'imagerie chez les enfants avec TCL, particulièrement dans les services avec taux initial élevé de prescriptions.
+
+## Revue
+Pediatrics
+
+## 📖 Référence
+2024;154(6):e2024066955. doi:10.1542/peds.2024-066955.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1542/peds.2024-066955.

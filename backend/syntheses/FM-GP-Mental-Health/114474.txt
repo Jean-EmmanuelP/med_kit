@@ -1,20 +1,24 @@
 Date de publication : 2025-01-01
 
-# 📝 Efficacité des psychothérapies directes et indirectes sur les comportements suicidaires
+# 📝 Idéation et tentatives suicidaires : efficacité des psychothérapies directes et indirectes
 
 ## 📌 Contexte & Problématique
-Les idées et tentatives suicidaires sont souvent traitées par psychothérapies directes (ciblant spécifiquement le suicide) ou indirectes (ciblant d'autres troubles mentaux). L'efficacité comparative de ces approches restait à clarifier.
+L'efficacité comparative des psychothérapies directes (ciblant spécifiquement la suicidalité) et indirectes (ciblant d'autres troubles mentaux) sur l'idéation suicidaire et les tentatives de suicide restait à clarifier par méta-analyse.
 
 ## 🧪 Méthodologie
-Revue systématique et méta-analyse d'essais cliniques randomisés jusqu'au 1er avril 2023. Inclusion de 147 études (193 comparaisons, 11 001 participants). Analyse à trois niveaux des effets sur les idées suicidaires (g de Hedges) et tentatives de suicide (risque relatif).
+Revue systématique de 147 essais cliniques randomisés (11 001 participants) publiés jusqu'en avril 2023, analysant l'effet des psychothérapies sur l'idéation suicidaire (g de Hedges) et les tentatives de suicide (risque relatif).
 
 ## 📊 Résultats clés
-Réduction des idées suicidaires : psychothérapie directe (g=-0,39; IC95%:-0,53 à -0,24) et indirecte (g=-0,30; IC95%:-0,42 à -0,18).
-Réduction des tentatives de suicide : psychothérapie directe (RR=0,72; IC95%:0,62-0,84) et indirecte (RR=0,68; IC95%:0,48-0,95).
+Les deux approches montrent une efficacité similaire :
+- Réduction de l'idéation suicidaire : psychothérapie directe (g=-0,39) et indirecte (g=-0,30)
+- Réduction des tentatives de suicide : psychothérapie directe (RR=0,72) et indirecte (RR=0,68)
 
 ## 🩺 Impact clinique
-Les deux approches montrent une efficacité similaire. Les stratégies de prévention du suicide pourraient davantage utiliser les traitements indirects pour atteindre les patients réticents à consulter spécifiquement pour idées suicidaires.
+Les stratégies de prévention du suicide pourraient davantage intégrer les psychothérapies indirectes, permettant d'atteindre des patients qui ne consulteraient pas spécifiquement pour des problèmes suicidaires.
+
+## Revue
+JAMA Psychiatry
 
 ## 📖 Référence
-van Ballegooijen W, Rawee J, Palantza C, et al. JAMA Psychiatry. 2025;82(1):31-37.
+2025;82(1):31-37. doi:10.1001/jamapsychiatry.2024.2854
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamapsychiatry.2024.2854.

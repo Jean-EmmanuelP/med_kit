@@ -1,0 +1,22 @@
+Date de publication : 2024-04-11
+
+# 📝 Sécurité et efficacité du teplizumab dans le traitement du diabète de type 1
+
+## 📌 Contexte & Problématique
+Évaluation actualisée de l'efficacité et de la sécurité du teplizumab dans le traitement du diabète de type 1 (DT1) de stade 3.
+
+## 🧪 Méthodologie
+Revue systématique et méta-analyse d'essais contrôlés randomisés (ECR) comparant teplizumab versus placebo, identifiés via PubMed, Embase et Cochrane. Critères d'évaluation : peptide C, hémoglobine glyquée (HbA1c), besoins en insuline et événements indésirables.
+
+## 📊 Résultats clés
+Huit ECR (1052 patients) ont montré que le teplizumab augmente significativement l'aire sous la courbe du peptide C jusqu'à 24 mois (DM 0,16 nmol/L), réduit l'HbA1c à 6 et 12 mois (DM -0,57% et -0,31%), et diminue les besoins en insuline jusqu'à 24 mois (DM -0,11 U/kg), sans augmenter le risque d'événements indésirables graves.
+
+## 🩺 Impact clinique
+Le teplizumab préserve la fonction des cellules bêta et améliore le contrôle glycémique chez les patients atteints de DT1, offrant une option thérapeutique prometteuse pour modifier l'évolution naturelle de la maladie.
+
+## Revue
+Diabetes, Obesity and Metabolism
+
+## 📖 Référence
+2024;26(7):2652-2661. doi:10.1111/dom.15581
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1111/dom.15581.

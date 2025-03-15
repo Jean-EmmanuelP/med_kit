@@ -1,23 +1,27 @@
 Date de publication : 2024-07-31
 
-# 📝 Risques hémorragiques et thromboemboliques lors de coloscopies sous anticoagulants ininterrompus ou interrompus
+# 📝 Risques hémorragiques et thromboemboliques lors des coloscopies sous anticoagulants : interruption vs maintien du traitement
 
 ## 📌 Contexte & Problématique
-La gestion des anticoagulants lors des coloscopies pose un dilemme clinique : risque hémorragique versus risque thromboembolique (TE). Cette revue évalue l'incidence de ces complications en pratique réelle.
+L'interruption des anticoagulants avant une coloscopie réduit le risque hémorragique mais peut augmenter le risque thromboembolique (TE). Cette revue évalue les risques réels dans les deux stratégies thérapeutiques.
 
 ## 🧪 Méthodologie
-Revue systématique de 15 études (63 017 patients) via PubMed, Embase et Cochrane jusqu'au 15 mars 2024, analysant les taux d'hémorragies et de TE post-coloscopie.
+Revue systématique des bases PubMed, Embase et Cochrane jusqu'au 15 mars 2024, analysant l'incidence des saignements et TE chez les patients sous anticoagulants (interrompus ou maintenus) lors d'une coloscopie.
 
 ## 📊 Résultats clés
-- AOD ininterrompus vs interrompus : risque hémorragique de 3,60% vs 0,90%
-- Patients ≥65 ans sous AOD ininterrompus : risque hémorragique plus élevé (7,20% vs 2,00%)
-- Population asiatique : taux d'hémorragie plus élevé (7,20% sous AOD ininterrompus)
-- Warfarine : risque hémorragique supérieur chez les patients âgés
-- AOD ininterrompus : incidence TE la plus faible (0,08%)
+- 15 études (63 017 patients)
+- Anticoagulants oraux directs (AOD) maintenus vs interrompus : saignements 3,60% vs 0,90%
+- Risque hémorragique plus élevé chez les patients ≥65 ans (7,20% vs 2,00% chez <65 ans)
+- Risque hémorragique plus important en Asie (7,20%)
+- Warfarine maintenue : saignements plus fréquents chez les patients âgés (4,90% vs 0,80%)
+- AOD maintenus : incidence TE minimale (0,08%)
 
 ## 🩺 Impact clinique
-L'incidence globale des complications reste faible. Cependant, une vigilance particulière est nécessaire chez les patients âgés et asiatiques sous anticoagulants ininterrompus, qui présentent un risque hémorragique accru.
+L'incidence globale des complications reste faible. Le maintien des anticoagulants augmente le risque hémorragique, particulièrement chez les patients âgés et asiatiques, mais minimise le risque thromboembolique.
+
+## Revue
+Thromb Res
 
 ## 📖 Référence
-Zhu YF, Ma JH, Qian H, et al. Thromb Res. 2024 Sep;241:109107.
+2024;241:109107. doi: 10.1016/j.thromres.2024.109107
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.thromres.2024.109107.

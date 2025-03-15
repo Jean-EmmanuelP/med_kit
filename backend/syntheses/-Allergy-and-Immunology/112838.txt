@@ -1,19 +1,22 @@
 Date de publication : 2024-03-07
 
-# 📝 Évaluation de la récurrence des réactions allergiques systémiques après vaccination COVID-19 à ARNm
+# 📝 Essai randomisé évaluant la récurrence des réactions allergiques systémiques après vaccination ARNm COVID-19
 
 ## 📌 Contexte & Problématique
-Les réactions allergiques systémiques (RAS) après vaccination COVID-19 à ARNm ont été initialement signalées à des taux élevés. Cette étude évalue la sécurité de la revaccination chez ces patients et explore les mécanismes sous-jacents.
+Les réactions allergiques systémiques (RAS) aux vaccins ARNm COVID-19 ont été initialement signalées à des taux plus élevés qu'avec les vaccins traditionnels, soulevant des inquiétudes concernant la revaccination des personnes affectées.
 
 ## 🧪 Méthodologie
-Essai randomisé, double aveugle, phase 2 incluant 18 participants (16-69 ans) ayant présenté une RAS après première dose. Design croisé 1:1 avec BNT162b2 (Comirnaty) et placebo, suivi d'un rappel en ouvert après 5 mois.
+Essai randomisé en double aveugle incluant 18 participants (16-69 ans) ayant présenté une RAS après une première dose de vaccin ARNm COVID-19. Les participants ont reçu soit une seconde dose de BNT162b2 (Comirnaty) soit un placebo selon un schéma croisé, puis une dose de rappel en ouvert.
 
 ## 📊 Résultats clés
-Seulement 2 participants sur 16 (12,5%; IC95%: 1,6-38,3%) ont présenté une récurrence de RAS après la seconde dose ou le rappel. Aucune RAS n'est survenue après placebo. Les réactions liées au stress d'immunisation (RLSI) étaient plus fréquentes, associées à des scores d'anxiété pré-dose élevés et des paresthésies.
+Seulement 12,5% (IC 95%, 1,6-38,3) des participants ont présenté une récurrence de RAS après la seconde dose ou le rappel. Aucune RAS n'est survenue après placebo. Des réponses liées au stress de l'immunisation (RLSI) ont été plus fréquentes, associées à des scores d'anxiété pré-dose élevés et des biomarqueurs distinctifs.
 
 ## 🩺 Impact clinique
-La revaccination des personnes ayant présenté une RAS initiale aux vaccins COVID-19 à ARNm apparaît sécuritaire. Des caractéristiques cliniques et biologiques permettent de différencier les véritables RAS des RLSI.
+La revaccination des personnes ayant présenté une RAS après vaccin ARNm COVID-19 apparaît sécuritaire. Les caractéristiques cliniques et biologiques peuvent aider à différencier les véritables RAS des RLSI.
+
+## Revue
+J Allergy Clin Immunol
 
 ## 📖 Référence
-Khalid MB, Zektser E, Chu E, et al. J Allergy Clin Immunol. 2024;153(6):1634-1646.
+2024;153(6):1634-1646. doi:10.1016/j.jaci.2024.03.001
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.jaci.2024.03.001.

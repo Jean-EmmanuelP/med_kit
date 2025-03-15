@@ -1,0 +1,22 @@
+Date de publication : 2024-04-09
+
+# 📝 Cibles d'oxygénation basses versus élevées dans la COVID-19 sévère
+
+## 📌 Contexte & Problématique
+L'oxygénothérapie est omniprésente chez les patients COVID-19 avec hypoxémie sévère, mais les cibles optimales de PaO₂ (pression partielle artérielle d'oxygène) restent débattues.
+
+## 🧪 Méthodologie
+Essai clinique randomisé multicentrique incluant 726 adultes COVID-19 nécessitant ≥10 L/min d'oxygène ou ventilation mécanique dans 11 USI (unités de soins intensifs) européennes. Comparaison d'une cible PaO₂ basse (60 mmHg) versus élevée (90 mmHg) pendant maximum 90 jours en USI.
+
+## 📊 Résultats clés
+Le groupe à oxygénation basse a présenté plus de jours en vie sans assistance vitale à 90 jours (médiane: 80,0 vs 72,0 jours; différence moyenne ajustée: 5,8 jours [IC 95%: 0,2-11,5]; p=0,04). Mortalité à 90 jours: 30,2% vs 34,7% (p=0,18). Pas de différence significative pour les événements indésirables graves ou les jours en vie hors hôpital.
+
+## 🩺 Impact clinique
+Une stratégie d'oxygénation ciblant une PaO₂ plus basse (60 mmHg) pourrait améliorer les résultats cliniques chez les patients COVID-19 avec hypoxémie sévère, suggérant qu'une approche plus conservative d'administration d'oxygène peut être bénéfique.
+
+## Revue
+JAMA
+
+## 📖 Référence
+2024;331(14):1185-1194. doi:10.1001/jama.2024.2934
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jama.2024.2934.

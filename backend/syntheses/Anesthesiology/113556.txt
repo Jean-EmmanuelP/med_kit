@@ -1,0 +1,22 @@
+Date de publication : 2024-06-07
+
+# 📝 Magnésium et douleur œsophagienne après myotomie endoscopique par voie orale
+
+## 📌 Contexte & Problématique
+La douleur œsophagienne postopératoire affecte 67% des patients après myotomie œsophagienne endoscopique par voie orale (POEM). Le magnésium, connu pour ses propriétés relaxantes sur les muscles lisses, pourrait réduire cette douleur.
+
+## 🧪 Méthodologie
+Essai randomisé contrôlé en double aveugle sur 92 patients recevant soit du sulfate de magnésium (bolus de 50 mg.kg⁻¹ puis perfusion à 25 mg.kg⁻¹.h⁻¹), soit un placebo. Évaluation par Questionnaire des Symptômes Œsophagiens (ESQ) modifié, scores de douleur et consommation d'opioïdes.
+
+## 📊 Résultats clés
+Le groupe magnésium a présenté des scores ESQ significativement inférieurs en salle de réveil (24 vs 35; P<0,0001) et à J1 (16 vs 30; P<0,0001). La consommation d'opioïdes était nettement réduite en salle de réveil (4,7 mg vs 29 mg; P<0,0001) et à J1 (1 mg vs 13 mg; P=0,0009).
+
+## 🩺 Impact clinique
+L'administration peropératoire de magnésium réduit significativement l'inconfort œsophagien et les besoins en opioïdes jusqu'à 24h après POEM, offrant une option thérapeutique efficace pour améliorer le confort postopératoire.
+
+## Revue
+Anesthesia & Analgesia
+
+## 📖 Référence
+2025 Jan 1;140(1):54-61. doi: 10.1213/ANE.0000000000006990. Epub 2024 Jun 7.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1213/ANE.0000000000006990.

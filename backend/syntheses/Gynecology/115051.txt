@@ -1,0 +1,22 @@
+Date de publication : 2024-11-13
+
+# 📝 Efficacité de la toxine botulique A dans les muscles du plancher pelvien chez les patientes souffrant de douleur pelvienne chronique
+
+## 📌 Contexte & Problématique
+La douleur pelvienne chronique (DPC) avec hypertonie des muscles du plancher pelvien est difficile à traiter. Cette étude évalue l'efficacité des injections de toxine botulique A (TBA) combinées à une thérapie des muscles du plancher pelvien (TMPP) comparées au placebo.
+
+## 🧪 Méthodologie
+Essai randomisé en double aveugle incluant 94 femmes souffrant de DPC avec tonus accru des muscles pelviens malgré une TMPP antérieure. Les participantes ont reçu soit 100 unités de TBA soit un placebo dans les muscles pelviens, suivis de quatre séances de TMPP, avec suivi jusqu'à 26 semaines.
+
+## 📊 Résultats clés
+Une réduction ≥33% de la douleur a été observée chez 33% des patientes du groupe TBA contre 20% dans le groupe placebo (différence non significative, p=0,19). L'amélioration subjective était similaire dans les deux groupes (17%). Seule l'activité de repos du plancher pelvien a significativement diminué avec la TBA (p=0,001).
+
+## 🩺 Impact clinique
+Les résultats ne soutiennent pas l'utilisation des injections de TBA dans la prise en charge de la DPC chez les femmes, malgré une réduction objective de l'hypertonicité musculaire.
+
+## Revue
+BJOG
+
+## 📖 Référence
+2025 Feb;132(3):297-305. doi: 10.1111/1471-0528.17991. Epub 2024 Nov 13.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1111/1471-0528.17991.

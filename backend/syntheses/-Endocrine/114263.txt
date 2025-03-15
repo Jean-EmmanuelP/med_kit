@@ -3,17 +3,23 @@ Date de publication : 2024-09-10
 # 📝 Liraglutide pour les enfants de 6 à <12 ans souffrant d'obésité
 
 ## 📌 Contexte & Problématique
-Aucun médicament n'est approuvé pour l'obésité non monogénique/non syndromique chez les enfants <12 ans. L'efficacité du liraglutide, démontrée chez adultes et adolescents, restait à établir dans cette population.
+Aucun médicament n'est approuvé pour traiter l'obésité non monogénique et non syndromique chez les enfants <12 ans, bien que le liraglutide ait démontré son efficacité chez les adultes et adolescents.
 
 ## 🧪 Méthodologie
-Essai randomisé de phase 3a (56 semaines de traitement, 26 semaines de suivi) comparant liraglutide sous-cutané quotidien (3,0 mg ou dose maximale tolérée) versus placebo (ratio 2:1), avec interventions sur le mode de vie. 82 enfants inclus (56 liraglutide, 26 placebo).
+Essai de phase 3a randomisé (2:1) sur 82 enfants obèses (6-<12 ans) recevant liraglutide sous-cutané (3,0 mg ou dose maximale tolérée) ou placebo pendant 56 semaines, avec suivi de 26 semaines, associé à des interventions sur le mode de vie.
 
 ## 📊 Résultats clés
-À 56 semaines, variation de l'IMC: -5,8% (liraglutide) vs +1,6% (placebo), différence -7,4% (p<0,001). Réduction d'IMC ≥5%: 46% vs 9% (p=0,02). Événements indésirables: 89% vs 88%, principalement gastro-intestinaux (80% vs 54%). Événements indésirables graves: 12% vs 8%.
+- Variation de l'IMC (Indice de Masse Corporelle) : -5,8% (liraglutide) vs +1,6% (placebo); différence -7,4% (p<0,001)
+- Variation du poids : +1,6% (liraglutide) vs +10,0% (placebo); différence -8,4% (p=0,001)
+- Réduction de l'IMC ≥5% : 46% (liraglutide) vs 9% (placebo); rapport de cotes 6,3 (p=0,02)
+- Effets indésirables gastro-intestinaux : 80% (liraglutide) vs 54% (placebo)
 
 ## 🩺 Impact clinique
-Le liraglutide associé aux modifications du mode de vie réduit significativement l'IMC chez les enfants obèses de 6 à <12 ans, avec un profil de tolérance acceptable, offrant une option thérapeutique potentielle dans cette population.
+Le liraglutide associé aux interventions sur le mode de vie réduit significativement l'IMC chez les enfants obèses de 6 à <12 ans, avec un profil d'effets indésirables principalement gastro-intestinaux.
+
+## Revue
+New England Journal of Medicine
 
 ## 📖 Référence
-Fox CK, Barrientos-Perez M, Bomberg EM, et al. Liraglutide for Children 6 to <12 Years of Age with Obesity - A Randomized Trial. N Engl J Med. 2025;392(6):555-565.
+2025;392(6):555-565. doi:10.1056/NEJMoa2407379. Epub 2024 Sep 10.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2407379.

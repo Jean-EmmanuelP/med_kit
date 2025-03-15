@@ -1,19 +1,22 @@
 Date de publication : 2024-11-14
 
-# 📝 Consensus International 2024 sur la Réanimation Cardiopulmonaire : Synthèse des Recommandations
+# 📝 Consensus international 2024 sur la réanimation cardiopulmonaire et les soins cardiovasculaires d'urgence
 
 ## 📌 Contexte & Problématique
-Huitième résumé annuel du Consensus ILCOR sur la réanimation cardiopulmonaire et soins cardiovasculaires d'urgence, actualisant les données scientifiques récentes en réanimation.
+Huitième résumé annuel du Consensus international du Comité de liaison international sur la réanimation (ILCOR) présentant les recommandations basées sur les preuves scientifiques les plus récentes en matière de réanimation cardiopulmonaire (RCP) et soins cardiovasculaires d'urgence.
 
 ## 🧪 Méthodologie
-Analyse systématique des preuves par six groupes de travail spécialisés (support vital de base, avancé, pédiatrique, néonatal, éducation/implémentation/équipes, premiers secours). Évaluation selon critères GRADE avec délibérations consensuelles.
+Évaluation des preuves par les experts des 6 groupes de travail de l'ILCOR (Support vital de base, Support vital avancé, Support vital pédiatrique, Support vital néonatal, Éducation/Implémentation/Équipes, Premiers secours) utilisant les critères GRADE (Grading of Recommendations Assessment, Development, and Evaluation).
 
 ## 📊 Résultats clés
-Recommandations basées sur les dernières preuves scientifiques publiées depuis la revue complète de 2020. Chaque recommandation est accompagnée de justifications détaillées et d'un cadre d'évaluation des preuves.
+Le document présente des recommandations consensuelles de traitement avec justifications détaillées et points saillants du cadre des preuves aux décisions pour chaque thématique évaluée.
 
 ## 🩺 Impact clinique
-Fournit aux cliniciens des recommandations actualisées pour optimiser les pratiques de réanimation. Identifie les lacunes prioritaires pour orienter les futures recherches dans chaque domaine de la réanimation.
+Ces recommandations actualisées fournissent aux cliniciens des directives fondées sur les données probantes les plus récentes et identifient les lacunes prioritaires pour orienter les futures recherches en réanimation.
+
+## Revue
+Circulation
 
 ## 📖 Référence
-Greif R, Bray JE, Djarv T, et al. 2024 International Consensus on Cardiopulmonary Resuscitation and Emergency Cardiovascular Care Science With Treatment Recommendations. Circulation. 2024;150(24):e580-e687.
+2024;150(24):e580-e687. doi: 10.1161/CIR.0000000000001288. Epub 2024 Nov 14.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1161/CIR.0000000000001288.

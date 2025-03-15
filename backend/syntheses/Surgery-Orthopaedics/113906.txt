@@ -1,0 +1,22 @@
+Date de publication : 2024-07-25
+
+# 📝 Interventions chirurgicales pour le traitement de l'hallux valgus et des oignons
+
+## 📌 Contexte & Problématique
+L'hallux valgus (déviation latérale du gros orteil) affecte 23-35% de la population, causant douleur, déséquilibre et difficultés avec les chaussures. Bien que les traitements conservateurs soient privilégiés initialement, la technique chirurgicale optimale reste débattue.
+
+## 🧪 Méthodologie
+Revue systématique de 25 essais contrôlés randomisés (1597 participants, majoritairement des femmes) comparant différentes approches chirurgicales entre elles ou versus absence de traitement/traitement non-chirurgical. Recherche sans restriction linguistique dans CENTRAL, MEDLINE, Embase jusqu'en avril 2023.
+
+## 📊 Résultats clés
+La chirurgie (vs absence de traitement) peut réduire significativement la douleur (DM -18 points sur EVA), améliorer légèrement la fonction (DM +9 points sur AOFAS) et la satisfaction globale des patients, sans impact notable sur la qualité de vie (preuves de faible certitude). Les ostéotomies complexes versus simples n'entraînent probablement pas de différence significative sur la douleur (certitude modérée) mais pourraient augmenter les réopérations.
+
+## 🩺 Impact clinique
+La chirurgie offre des bénéfices modestes mais significatifs par rapport à l'absence de traitement, particulièrement sur la douleur. Le choix entre ostéotomies complexes et simples doit considérer le risque potentiellement accru de réopération avec les techniques complexes.
+
+## Revue
+Cochrane Database of Systematic Reviews
+
+## 📖 Référence
+2024 Jul 25;7(7):CD013726. doi: 10.1002/14651858.CD013726.pub2.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1002/14651858.CD013726.pub2.

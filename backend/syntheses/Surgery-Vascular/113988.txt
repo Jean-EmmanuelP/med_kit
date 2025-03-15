@@ -1,0 +1,26 @@
+Date de publication : 2024-07-15
+
+# 📝 Ballon Stellarex à élution médicamenteuse pour le traitement de l'artériopathie périphérique : résultats à 5 ans de l'essai ILLUMENATE
+
+## 📌 Contexte & Problématique
+Les données de sécurité et d'efficacité à long terme des ballons à élution médicamenteuse (DCB) dans l'artériopathie périphérique symptomatique restent limitées, particulièrement pour les dispositifs à faible dose.
+
+## 🧪 Méthodologie
+Étude prospective randomisée multicentrique simple aveugle comparant le DCB Stellarex à faible dose (2 µg/mm²) à l'angioplastie transluminale percutanée (ATP) chez 300 patients (Rutherford 2-4), randomisés 2:1, avec suivi à 60 mois.
+
+## 📊 Résultats clés
+À 60 mois :
+- Absence d'événement de sécurité primaire : 69,2% (DCB) vs 68,2% (ATP), p=0,623
+- Événements indésirables majeurs : 41,0% vs 44,6%, p=0,597
+- Absence de revascularisation de la lésion cible cliniquement motivée (CD-TLR) : 70,3% vs 68,2%, p=0,505
+- Mortalité toutes causes : 19,9% vs 19,8%, p=0,980
+
+## 🩺 Impact clinique
+Premières données de sécurité et d'efficacité à 5 ans d'un DCB à faible dose pour l'artériopathie périphérique symptomatique, démontrant des résultats comparables à l'ATP conventionnelle.
+
+## Revue
+American Journal of Cardiology
+
+## 📖 Référence
+2024;227:83-90. doi:10.1016/j.amjcard.2024.06.027
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.amjcard.2024.06.027.

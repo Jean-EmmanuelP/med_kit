@@ -1,0 +1,22 @@
+Date de publication : 2025-01-03
+
+# 📝 Risque hémorragique des AINS chez les patients sous anticoagulants après thromboembolie veineuse
+
+## 📌 Contexte & Problématique
+Le risque hémorragique lié à l'utilisation concomitante d'anti-inflammatoires non stéroïdiens (AINS) chez les patients sous anticoagulants oraux pour thromboembolie veineuse (TEV) reste insuffisamment caractérisé.
+
+## 🧪 Méthodologie
+Étude de cohorte nationale danoise incluant 51 794 patients sous anticoagulants oraux pour TEV (2012-2022), utilisant une régression de Cox à risques compétitifs dépendante du temps.
+
+## 📊 Résultats clés
+L'utilisation d'AINS a doublé le risque hémorragique global (HR 2,09; IC 95% 1,67-2,62), avec un taux de 6,3 vs 3,5 événements/100 personnes-années. Risque particulièrement élevé pour le naproxène (HR 4,10) et le diclofénac (HR 3,30). Augmentation significative des hémorragies gastro-intestinales (HR 2,24) et intracrâniennes (HR 3,22).
+
+## 🩺 Impact clinique
+Nombre de patients à traiter pour nuire = 36 patients/an. L'augmentation du risque hémorragique concerne plusieurs sites anatomiques, pas uniquement gastro-intestinal, et persiste indépendamment du type d'anticoagulant utilisé.
+
+## Revue
+European Heart Journal
+
+## 📖 Référence
+2025;46(1):58-68. doi:10.1093/eurheartj/ehae736
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1093/eurheartj/ehae736.

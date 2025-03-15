@@ -1,0 +1,26 @@
+Date de publication : 2024-12-01
+
+# 📝 Acide tranexamique lors de la cystectomie radicale : un essai clinique randomisé
+
+## 📌 Contexte & Problématique
+La cystectomie radicale ouverte présente un risque élevé de transfusion sanguine. L'acide tranexamique (TXA) réduit les pertes sanguines dans d'autres types de chirurgies, mais son efficacité lors des cystectomies restait à déterminer.
+
+## 🧪 Méthodologie
+Essai TACT multicentrique, randomisé, en double aveugle, contrôlé par placebo (2013-2021) dans 10 centres universitaires. 344 patients devant subir une cystectomie radicale pour cancer de la vessie ont été analysés. Groupe intervention : TXA 10 mg/kg IV puis perfusion de 5 mg/kg/h pendant la chirurgie.
+
+## 📊 Résultats clés
+Aucune différence significative entre les groupes TXA et placebo pour :
+- Taux de transfusion à 30 jours : 37,0% vs 37,4% (RR 0,99; IC 95% 0,83-1,18)
+- Unités transfusées : 0,9 vs 1,1 U (p=0,43)
+- Pertes sanguines estimées : 927 vs 963 mL (p=0,52)
+- Événements thromboemboliques veineux : 3,5% vs 2,9% (p=0,57)
+
+## 🩺 Impact clinique
+L'utilisation systématique du TXA lors des cystectomies radicales ouvertes n'est pas recommandée, l'étude n'ayant pas démontré de bénéfice sur la réduction des transfusions sanguines.
+
+## Revue
+JAMA Surgery
+
+## 📖 Référence
+2024;159(12):1355-1363. doi:10.1001/jamasurg.2024.4183. NCT01869413.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamasurg.2024.4183.

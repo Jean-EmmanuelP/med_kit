@@ -3,19 +3,20 @@ Date de publication : 2024-10-01
 # 📝 Thrombectomie endovasculaire vs traitement médical dans l'occlusion basilaire aiguë : résultats à 1 an
 
 ## 📌 Contexte & Problématique
-L'efficacité à long terme de la thrombectomie endovasculaire dans l'occlusion aiguë de l'artère basilaire reste peu documentée, malgré des bénéfices démontrés à 90 jours.
+Si plusieurs essais ont montré la supériorité de la thrombectomie endovasculaire à 90 jours dans l'occlusion aiguë de l'artère basilaire, les résultats à long terme restaient mal définis.
 
 ## 🧪 Méthodologie
-Analyse secondaire de l'essai ATTENTION incluant 330 patients (67,0±10,7 ans) avec occlusion basilaire aiguë (<12h), randomisés entre thrombectomie endovasculaire et traitement médical optimal, avec suivi à 1 an.
+Analyse secondaire de l'essai ATTENTION incluant 330 patients (96,5% de la cohorte initiale) suivis pendant 1 an. Patients randomisés entre thrombectomie endovasculaire et traitement médical optimal dans les 12 heures suivant l'occlusion basilaire.
 
 ## 📊 Résultats clés
-Score mRS 0-3 à 1 an : 44,6% (thrombectomie) vs 19,4% (contrôle), ratio ajusté 2,23 [IC95%:1,51-3,29]. 
-Score mRS 0-1 à 1 an : 27,9% vs 8,3%, montrant une amplification du bénéfice par rapport aux résultats à 90 jours.
-Mortalité à 1 an : 45,5% (thrombectomie) vs 63,9% (contrôle).
+À 1 an, un score mRS (échelle de Rankin modifiée) de 0-3 a été atteint par 44,6% des patients du groupe thrombectomie contre 19,4% du groupe contrôle (ratio ajusté 2,23; IC 95% 1,51-3,29). Les excellents résultats (mRS 0-1) ont augmenté à 1 an dans le groupe thrombectomie (27,9% vs 19,9% à 90 jours) mais pas dans le groupe contrôle.
 
 ## 🩺 Impact clinique
-Les bénéfices de la thrombectomie se maintiennent à 1 an pour les résultats favorables (mRS 0-3) et s'améliorent pour les excellents résultats (mRS 0-1), confirmant l'intérêt de cette approche dans l'occlusion basilaire aiguë.
+Les bénéfices de la thrombectomie endovasculaire se maintiennent à 1 an et s'amplifient pour les excellents résultats fonctionnels, confirmant l'intérêt de cette stratégie dans l'occlusion basilaire aiguë.
+
+## Revue
+JAMA Neurology
 
 ## 📖 Référence
-Li R, Tao C, Sun J, et al. Endovascular vs Medical Management of Acute Basilar Artery Occlusion. JAMA Neurol. 2024;81(10):1043-1050.
+2024;81(10):1043-1050. doi:10.1001/jamaneurol.2024.2652
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamaneurol.2024.2652.

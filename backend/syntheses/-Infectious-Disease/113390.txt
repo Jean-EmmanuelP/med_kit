@@ -1,19 +1,22 @@
 Date de publication : 2024-05-28
 
-# 📝 Traitement du VIH par cabotégravir et rilpivirine à action prolongée en Afrique
+# 📝 Cabotégravir et rilpivirine à action prolongée : efficacité chez les adultes africains avec VIH
 
 ## 📌 Contexte & Problématique
-L'efficacité de la combinaison injectable cabotégravir-rilpivirine à action prolongée est établie dans les pays à ressources élevées, mais des données spécifiques aux contextes africains manquaient, où les sous-types viraux, démographie et approches thérapeutiques diffèrent.
+Le cabotégravir et la rilpivirine injectables à action prolongée sont approuvés dans les pays à ressources élevées, mais des preuves supplémentaires étaient nécessaires pour valider leur utilisation en Afrique, où les facteurs démographiques, sous-types viraux et approches de suivi diffèrent.
 
 ## 🧪 Méthodologie
-Essai CARES, randomisé, ouvert, multicentrique (Ouganda, Kenya, Afrique du Sud) comparant chez 512 patients virologiquement supprimés : injections intramusculaires de cabotégravir (600mg) et rilpivirine (900mg) toutes les 8 semaines versus traitement oral quotidien. Marge de non-infériorité : 10%.
+Essai randomisé de non-infériorité (CARES) mené en Ouganda, Kenya et Afrique du Sud. 512 participants avec charge virale VIH <50 copies/mL sous traitement oral ont été randomisés pour recevoir soit cabotégravir/rilpivirine injectables tous les 2 mois, soit poursuivre leur traitement oral.
 
 ## 📊 Résultats clés
-À 48 semaines, 96% des patients sous traitement injectable (246/255) et 97% sous traitement oral (250/257) maintenaient une charge virale <50 copies/mL (différence -0,8% ; IC95% -3,7 à 2,3). Deux échecs virologiques dans le groupe injectable versus aucun dans le groupe oral. Événements indésirables grade ≥3 : 9% (injectable) contre 4% (oral).
+À 48 semaines, 96% des patients sous traitement injectable et 97% sous traitement oral maintenaient une charge virale <50 copies/mL (différence -0,8%, IC 95% -3,7 à 2,3), démontrant la non-infériorité. Deux échecs virologiques sont survenus dans le groupe injectable, aucun dans le groupe oral.
 
 ## 🩺 Impact clinique
-Le traitement injectable à action prolongée démontre une non-infériorité par rapport au traitement oral avec un profil de sécurité acceptable, offrant une alternative viable dans les programmes thérapeutiques africains.
+Le traitement injectable à action prolongée représente une alternative efficace et sûre au traitement oral quotidien dans le contexte africain, avec un taux d'abandon très faible malgré quelques réactions au site d'injection.
+
+## Revue
+The Lancet Infectious Diseases
 
 ## 📖 Référence
-Kityo C, Mambule IK, Musaazi J, et al. Lancet Infect Dis. 2024;24(10):1083-1092.
+2024;24(10):1083-1092. doi:10.1016/S1473-3099(24)00289-5
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S1473-3099(24)00289-5.

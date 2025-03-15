@@ -1,0 +1,22 @@
+Date de publication : 2025-01-08
+
+# 📝 Durvalumab avec ou sans bevacizumab associé à la chimioembolisation transartérielle dans le carcinome hépatocellulaire
+
+## 📌 Contexte & Problématique
+La chimioembolisation transartérielle (TACE) est le traitement standard du carcinome hépatocellulaire (CHC) non résécable éligible à l'embolisation, mais la survie sans progression (SSP) médiane n'est que d'environ 7 mois.
+
+## 🧪 Méthodologie
+Étude EMERALD-1 : essai de phase 3 multicentrique, randomisé, en double aveugle, incluant 616 patients atteints de CHC non résécable. Trois bras : TACE+durvalumab+bevacizumab, TACE+durvalumab+placebo, ou TACE+double placebo.
+
+## 📊 Résultats clés
+Avec un suivi médian de 27,9 mois, la SSP médiane était de 15,0 mois pour durvalumab+bevacizumab+TACE, 10,0 mois pour durvalumab+placebo+TACE, et 8,2 mois pour placebo+TACE (HR=0,77; p=0,032 pour durvalumab+bevacizumab vs placebo). L'événement indésirable de grade 3-4 le plus fréquent était l'hypertension (6%) dans le groupe durvalumab+bevacizumab.
+
+## 🩺 Impact clinique
+L'association durvalumab+bevacizumab+TACE pourrait établir un nouveau standard de soins pour les patients atteints de CHC non résécable éligible à l'embolisation, avec une amélioration significative de la SSP.
+
+## Revue
+Lancet
+
+## 📖 Référence
+2025;405(10474):216-232. doi:10.1016/S0140-6736(24)02551-0. Epub 2025 Jan 8.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S0140-6736(24)02551-0.

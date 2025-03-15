@@ -3,17 +3,20 @@ Date de publication : 2024-02-26
 # 📝 Effet du BCG contre l'infection à Mycobacterium tuberculosis chez les professionnels de santé brésiliens
 
 ## 📌 Contexte & Problématique
-L'efficacité du BCG contre la tuberculose pulmonaire chez l'adulte reste controversée. Cette étude évalue l'effet du BCG-Danemark pour prévenir la conversion du test de libération d'interféron-γ chez les professionnels de santé brésiliens.
+L'efficacité du vaccin BCG contre la tuberculose pulmonaire chez l'adulte reste incertaine. Cette étude évalue l'effet du BCG-Danemark pour prévenir la conversion du test de libération d'interféron-γ chez les professionnels de santé brésiliens.
 
 ## 🧪 Méthodologie
-Essai contrôlé randomisé (1:1) imbriqué dans l'étude BRACE, incluant 1985 professionnels de santé brésiliens. Groupe intervention : injection intradermique de BCG-Danemark (n=996); groupe contrôle : solution saline (n=989). Évaluation par QuantiFERON-TB Gold Plus à l'inclusion et à 12 mois.
+Essai contrôlé randomisé (1:1) imbriqué dans l'étude BRACE, incluant 1985 professionnels de santé brésiliens. Les participants ont reçu soit le BCG-Danemark (n=996), soit un placebo (n=989). L'infection tuberculeuse a été évaluée par test QuantiFERON-TB Gold Plus (QFT) à l'inclusion et à 12 mois.
 
 ## 📊 Résultats clés
-Conversion du test observée chez 66 participants (3,3%) après 12 mois : 34 (3,4%) dans le groupe BCG contre 32 (3,2%) dans le groupe placebo (RR 1,09 [IC 95% 0,67-1,77]; p=0,791). Aucune différence significative entre les groupes.
+Après 12 mois, 66 participants (3,3%) ont présenté une conversion QFT Plus : 34 (3,4%) dans le groupe BCG contre 32 (3,2%) dans le groupe placebo (ratio de risque 1,09 [IC 95% 0,67-1,77]; p=0,791), sans différence significative entre les groupes.
 
 ## 🩺 Impact clinique
-Le BCG-Danemark ne réduit pas le risque d'infection tuberculeuse chez les professionnels de santé brésiliens. Ces résultats soulignent la nécessité de développer de nouvelles stratégies préventives pour les populations à haut risque.
+La vaccination par BCG-Danemark n'a pas démontré d'efficacité pour réduire le risque d'infection tuberculeuse chez les professionnels de santé brésiliens, soulignant la nécessité de développer de meilleures stratégies préventives pour les populations à haut risque.
+
+## Revue
+Lancet Infectious Diseases
 
 ## 📖 Référence
-Dos Santos PCP, Messina NL, de Oliveira RD, et al. Effect of BCG vaccination against Mycobacterium tuberculosis infection in adult Brazilian health-care workers: a nested clinical trial. Lancet Infect Dis. 2024;24(6):594-601.
+2024 Jun;24(6):594-601. doi: 10.1016/S1473-3099(23)00818-6. Epub 2024 Feb 26.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S1473-3099(23)00818-6.

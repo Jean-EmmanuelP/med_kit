@@ -1,19 +1,22 @@
 Date de publication : 2024-06-14
 
-# 📝 PROPHYLAXIE DES ULCÈRES DE STRESS SOUS VENTILATION MÉCANIQUE INVASIVE
+# 📝 Prophylaxie des ulcères de stress pendant la ventilation mécanique invasive
 
 ## 📌 Contexte & Problématique
-L'utilité des inhibiteurs de pompe à protons pour la prophylaxie des ulcères de stress chez les patients ventilés reste controversée, avec des bénéfices et risques potentiels incertains.
+L'efficacité et la sécurité des inhibiteurs de la pompe à protons (IPP) pour prévenir les ulcères de stress chez les patients sous ventilation invasive restent controversées.
 
 ## 🧪 Méthodologie
-Essai randomisé international comparant pantoprazole IV (40mg/jour) versus placebo chez 4821 adultes sous ventilation invasive dans 68 USI. Critère principal d'efficacité : hémorragies digestives hautes cliniquement significatives à 90 jours.
+Essai randomisé international comparant le pantoprazole IV (40 mg/jour) au placebo chez 4821 adultes sous ventilation invasive dans 68 USI (Unités de Soins Intensifs). Critère principal d'efficacité : hémorragies gastro-intestinales supérieures cliniquement importantes à 90 jours.
 
 ## 📊 Résultats clés
-Hémorragies digestives hautes significatives : 1,0% groupe pantoprazole vs 3,5% groupe placebo (RR 0,30; IC 95% 0,19-0,47; p<0,001). Mortalité à 90 jours : 29,1% vs 30,9% (RR 0,94; IC 95% 0,85-1,04; p=0,25). Réduction des hémorragies cliniquement importantes avec pantoprazole. Pas de différence pour pneumonie associée à la ventilation et infection à C. difficile.
+Le pantoprazole a significativement réduit les hémorragies gastro-intestinales supérieures (1,0% vs 3,5% ; RR 0,30 ; IC 95% 0,19-0,47 ; p<0,001). Aucune différence significative de mortalité à 90 jours (29,1% vs 30,9% ; RR 0,94 ; IC 95% 0,85-1,04 ; p=0,25). Réduction des hémorragies importantes du point de vue du patient avec le pantoprazole.
 
 ## 🩺 Impact clinique
-Le pantoprazole réduit significativement le risque d'hémorragies digestives hautes chez les patients ventilés sans impact sur la mortalité ni augmentation des complications infectieuses.
+Le pantoprazole réduit significativement le risque d'hémorragies gastro-intestinales cliniquement importantes chez les patients sous ventilation invasive sans impact sur la mortalité, soutenant son utilisation prophylactique dans cette population.
+
+## Revue
+New England Journal of Medicine
 
 ## 📖 Référence
-Cook D, Deane A, Lauzier F, et al. Stress Ulcer Prophylaxis during Invasive Mechanical Ventilation. N Engl J Med. 2024;391(1):9-20.
+2024;391(1):9-20. doi:10.1056/NEJMoa2404245. Epub 2024 Jun 14.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2404245.

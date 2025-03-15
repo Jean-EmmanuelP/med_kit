@@ -1,0 +1,23 @@
+Date de publication : 2024-11-04
+
+# 📝 Suivi post-chirurgical du cancer colorectal : fréquence des tests et impact sur la mortalité à 10 ans
+
+## 📌 Contexte & Problématique
+Le bénéfice à long terme d'un suivi intensif après chirurgie curative pour cancer colorectal (CCR) reste peu documenté malgré sa pratique courante.
+
+## 🧪 Méthodologie
+Essai clinique randomisé incluant 2456 patients avec CCR stade II/III traités entre 2006-2010 en Suède et Danemark. Comparaison entre suivi à haute fréquence (TDM et ACE à 6, 12, 18, 24, 36 mois post-chirurgie) et basse fréquence (examens à 12 et 36 mois uniquement). Suivi de 10 ans.
+
+## 📊 Résultats clés
+Mortalité globale à 10 ans : 27,1% (haute fréquence) vs 28,4% (basse fréquence), différence non significative (1,3% [IC 95%, -2,3% à 4,8%]).
+Mortalité spécifique au CCR : 15,6% vs 16,0%, différence non significative (0,4% [IC 95%, -2,5% à 3,3%]).
+
+## 🩺 Impact clinique
+Un suivi plus intensif par tomodensitométrie (TDM) et dosage d'antigène carcino-embryonnaire (ACE) n'améliore pas la survie à 10 ans. Ces résultats devraient influencer les recommandations cliniques actuelles.
+
+## Revue
+JAMA Network Open
+
+## 📖 Référence
+2024;7(11):e2446243. doi:10.1001/jamanetworkopen.2024.46243
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamanetworkopen.2024.46243.

@@ -1,19 +1,22 @@
 Date de publication : 2024-05-27
 
-# 📝 Identification des patients avec embolie pulmonaire aiguë à haut risque de décès
+# 📝 Identification des patients avec embolie pulmonaire aiguë à haut risque de mortalité : validation externe de différents modèles
 
 ## 📌 Contexte & Problématique
-L'identification des patients hémodynamiquement stables avec embolie pulmonaire (EP) aiguë à risque de décès reste un défi clinique important.
+L'identification des patients hémodynamiquement stables atteints d'embolie pulmonaire (EP) aiguë à risque de décès reste un défi clinique important nécessitant une stratégie optimale.
 
 ## 🧪 Méthodologie
-Étude de cohorte multicentrique prospective (NCT03631810) évaluant les performances de différents modèles prédictifs (ESC-2014, ESC-2019, PEITHO, Bova, TELOS, FAST, NEWS2) chez 5036 patients hémodynamiquement stables avec EP aiguë.
+Étude de cohorte multicentrique prospective (NCT03631810) évaluant les performances de sept modèles prédictifs (ESC-2014, ESC-2019, PEITHO, Bova, TELOS, FAST, NEWS2) chez des patients avec EP aiguë. Critère principal : décès hospitalier à 30 jours ou détérioration clinique.
 
 ## 📊 Résultats clés
-Les valeurs prédictives positives étaient <10% pour la plupart des modèles, sauf TELOS et NEWS2. Les valeurs prédictives négatives dépassaient 98% pour tous les modèles sauf FAST et NEWS2. TELOS a montré les meilleures performances (c-statistique: 0,722 pour décès/détérioration clinique; 0,777 pour décès lié à l'EP).
+Sur 5036 patients, les valeurs prédictives positives étaient <10% pour la plupart des modèles (sauf TELOS et NEWS2). Les valeurs prédictives négatives dépassaient 98% (sauf FAST et NEWS2). TELOS a montré les meilleures performances globales avec un indice c-statistique de 0,722 pour le critère principal.
 
 ## 🩺 Impact clinique
-TELOS apparaît comme le modèle le plus performant pour identifier les patients à haut risque. Ces données peuvent guider la stratification du risque et optimiser la prise en charge des patients avec EP aiguë hémodynamiquement stables.
+Les performances prédictives varient significativement entre les modèles. TELOS semble offrir la meilleure précision pour identifier les patients à risque, ce qui pourrait guider les décisions thérapeutiques et améliorer la stratification du risque en pratique clinique.
+
+## Revue
+Journal of Thrombosis and Haemostasis
 
 ## 📖 Référence
-Becattini C, Vedovati MC, Colombo S, et al. Identification of hemodynamically stable patients with acute pulmonary embolism at high risk for death: external validation of different models. J Thromb Haemost. 2024;22(9):2502-2513.
+2024;22(9):2502-2513. doi:10.1016/j.jtha.2024.04.025
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.jtha.2024.04.025.

@@ -1,0 +1,22 @@
+Date de publication : 2024-02-15
+
+# 📝 Dosage optimal du misoprostol chez les patientes obèses : essai randomisé contrôlé
+
+## 📌 Contexte & Problématique
+Les patientes obèses présentent une durée prolongée du travail et moins de contractions utérines après administration de misoprostol comparativement aux non-obèses. Cette étude évalue si une dose plus élevée de misoprostol pourrait réduire le temps jusqu'à l'accouchement chez ces patientes.
+
+## 🧪 Méthodologie
+Essai contrôlé randomisé en double aveugle comparant 25 µg vs 50 µg de misoprostol vaginal chez 180 patientes avec IMC (Indice de Masse Corporelle) ≥30 kg/m² nécessitant un déclenchement du travail à ≥36 semaines de gestation. Stratification selon parité, IMC et utilisation de dilatation mécanique.
+
+## 📊 Résultats clés
+Aucune différence significative dans le temps jusqu'à l'accouchement entre les deux groupes (21,6h vs 18,6h). Cependant, chez les multipares, le groupe 50 µg a présenté un temps significativement réduit (15,2h vs 12,0h). Taux similaire de tachysystolie avec anomalies du rythme cardiaque fœtal (2,2%) et d'effets indésirables maternels/néonatals.
+
+## 🩺 Impact clinique
+Une dose de 50 µg de misoprostol pourrait être bénéfique spécifiquement chez les patientes multipares obèses, réduisant significativement la durée du travail sans augmenter les complications.
+
+## Revue
+American Journal of Obstetrics and Gynecology
+
+## 📖 Référence
+2024;230(5):565.e1-565.e16. doi: 10.1016/j.ajog.2024.02.004
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.ajog.2024.02.004.

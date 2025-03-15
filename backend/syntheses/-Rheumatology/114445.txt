@@ -1,0 +1,22 @@
+Date de publication : 2024-09-03
+
+# 📝 Mycophenolate Mofetil dans le Lupus Érythémateux Systémique nouvellement diagnostiqué : Essai clinique randomisé
+
+## 📌 Contexte & Problématique
+Les anticorps anti-ADN double brin (anti-ADNdb) sont associés aux poussées de Lupus Érythémateux Systémique (LES) et à la pathogenèse de la néphrite lupique (NL). L'efficacité du Mycophénolate Mofétil (MMF) en prévention précoce des poussées restait à déterminer.
+
+## 🧪 Méthodologie
+Essai randomisé multicentrique chinois incluant 130 patients (18-65 ans) avec LES nouvellement diagnostiqué et taux élevé d'anti-ADNdb, sans atteinte majeure d'organe. Comparaison : prednisone+hydroxychloroquine versus prednisone+hydroxychloroquine+MMF pendant 96 semaines.
+
+## 📊 Résultats clés
+Le groupe MMF a présenté significativement moins de poussées sévères (10,8% vs 27,7%, RR 0,39 [IC 95% 0,17-0,87], p=0,01) et moins de néphrite lupique (1,5% vs 13,8%, RR 0,11 [IC 95% 0,01-0,85], p=0,008). Les infections constituaient l'événement indésirable grave le plus fréquent (33,8% groupe MMF vs 30,8% groupe témoin).
+
+## 🩺 Impact clinique
+L'ajout précoce de MMF pourrait réduire significativement les poussées sévères et l'incidence de néphrite lupique chez les patients avec LES nouvellement diagnostiqué présentant des taux élevés d'anti-ADNdb.
+
+## Revue
+JAMA Network Open
+
+## 📖 Référence
+2024;7(9):e2432131. doi:10.1001/jamanetworkopen.2024.32131
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamanetworkopen.2024.32131.

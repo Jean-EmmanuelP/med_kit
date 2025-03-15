@@ -1,22 +1,26 @@
 Date de publication : 2024-06-05
 
-# 📝 Interventions pour le prurit post-brûlure : revue systématique
+# 📝 Interventions pour le prurit post-brûlure
 
 ## 📌 Contexte & Problématique
-Le prurit post-brûlure est un symptôme fréquent et pénible. Diverses interventions existent, mais leur efficacité reste incertaine.
+Le prurit post-brûlure est un symptôme fréquent et pénible affectant les plaies en cours de cicatrisation ou cicatrisées. Malgré diverses options thérapeutiques disponibles, leur efficacité reste incertaine.
 
 ## 🧪 Méthodologie
-Revue systématique Cochrane incluant 25 ECR (1166 participants) évaluant 21 interventions contre le prurit post-brûlure. Recherche exhaustive jusqu'en septembre 2022. Évaluation GRADE de la fiabilité des preuves.
+Revue systématique de 25 ECR (Essais Contrôlés Randomisés) incluant 1166 participants évaluant 21 interventions contre le prurit post-brûlure, regroupées en 6 catégories : agents neuromodulateurs, thérapies topiques, modalités physiques, révision des cicatrices au laser, stimulation électrique et autres thérapies.
 
 ## 📊 Résultats clés
-- Crème de doxépine : réduction significative du prurit vs antihistaminiques (DM -2,60/10, preuves faibles)
-- Gabapentine : supérieure à la cétirizine (DM -2,40/10, preuves faibles) avec moins de somnolence
-- Pommade d'énalapril : efficacité modérée vs placebo (DM -0,70/4, preuves modérées)
-- Massothérapie : réduction du prurit (DMS -0,86) et de la douleur (DMS -1,32) vs soins standard
+- Crème de doxépine : réduction significative du prurit vs antihistaminiques oraux (preuves de faible certitude)
+- Gabapentine et prégabaline : supérieures à la cétirizine avec moins de somnolence (faible certitude)
+- Ondansétron : probablement plus efficace que la diphenhydramine (certitude modérée)
+- Pommade d'énalapril : probablement efficace vs placebo (certitude modérée)
+- Massage : potentiellement bénéfique pour réduire prurit et douleur (faible certitude)
 
 ## 🩺 Impact clinique
-Les agents neuromodulateurs et certaines thérapies topiques montrent une efficacité prometteuse. La massothérapie offre des bénéfices sur le prurit et la douleur. La plupart des études présentent un risque élevé de biais.
+Les agents neuromodulateurs semblent offrir un meilleur contrôle du prurit avec moins d'effets sédatifs que les antihistaminiques traditionnels. Les approches topiques et physiques représentent des alternatives prometteuses, mais la qualité des preuves reste limitée.
+
+## Revue
+Cochrane Database of Systematic Reviews
 
 ## 📖 Référence
-Sinha S, Gabriel VA, Arora RK, et al. Interventions for postburn pruritus. Cochrane Database Syst Rev. 2024;6(6):CD013468.
+2024 Jun 5;6(6):CD013468. doi: 10.1002/14651858.CD013468.pub2.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1002/14651858.CD013468.pub2.

@@ -1,22 +1,25 @@
 Date de publication : 2024-08-12
 
-# 📝 INTERVENTIONS ÉDUCATIVES ET PSYCHOLOGIQUES POUR LA GESTION DE LA DERMATITE ATOPIQUE
+# 📝 Interventions éducatives et psychologiques pour la gestion de la dermatite atopique
 
 ## 📌 Contexte & Problématique
-La dermatite atopique impacte significativement la qualité de vie des patients. Les traitements standards (émollients, corticoïdes) nécessitent une observance régulière. Cette revue évalue l'efficacité des interventions éducatives et psychologiques comme compléments thérapeutiques.
+La dermatite atopique (eczéma) impacte significativement la qualité de vie des patients. Une approche holistique incluant des interventions psychologiques et éducatives pourrait compléter le traitement standard (émollients, stéroïdes topiques).
 
 ## 🧪 Méthodologie
-Revue systématique de 37 essais contrôlés randomisés (6170 participants), principalement en pays à revenu élevé. Recherche dans Cochrane Skin, CENTRAL, MEDLINE, Embase jusqu'en mars 2023. Évaluation GRADE des niveaux de preuve.
+Revue systématique de 37 essais contrôlés randomisés (6170 participants) évaluant diverses interventions éducatives et psychologiques versus soins standard. Recherche dans plusieurs bases de données jusqu'en mars 2023. Évaluation GRADE de la certitude des preuves.
 
 ## 📊 Résultats clés
-- Éducation en groupe : réduction significative des signes cliniques à court terme (SCORAD -9,66) et long terme (SCORAD -7,22) avec niveau de preuve modéré
-- Éducation individuelle : réduction des signes cliniques à court terme (SCORAD -5,70) avec niveau de preuve faible
-- Interventions assistées par technologie : amélioration légère du contrôle à long terme (preuve modérée)
-- Traitement par inversion d'habitude : réduction des signes cliniques (SCORAD -6,57, preuve faible)
+- Interventions éducatives en groupe : réduction probable des signes cliniques (SCORAD) à court et long terme (preuves modérées)
+- Interventions assistées par technologie : amélioration probable du contrôle à long terme (RECAP) (preuves modérées)
+- Traitement par inversion d'habitude : possible réduction des signes cliniques à court terme (preuves faibles)
+- Thérapie de réduction de l'excitation : données insuffisantes (preuves très faibles)
 
 ## 🩺 Impact clinique
-Les interventions éducatives en groupe montrent l'efficacité la plus prometteuse, avec des bénéfices durables sur les signes cliniques et les symptômes rapportés. Ces approches peuvent compléter efficacement les traitements conventionnels.
+Les interventions éducatives en groupe présentent le meilleur niveau de preuve pour améliorer les signes cliniques et les symptômes rapportés par les patients. Les approches technologiques montrent un potentiel pour le contrôle à long terme.
+
+## Revue
+Cochrane Database of Systematic Reviews
 
 ## 📖 Référence
-Singleton H, Hodder A, Almilaji O, et al. Educational and psychological interventions for managing atopic dermatitis. Cochrane Database Syst Rev. 2024;8(8):CD014932.
+2024;8(8):CD014932. doi: 10.1002/14651858.CD014932.pub2
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1002/14651858.CD014932.pub2.

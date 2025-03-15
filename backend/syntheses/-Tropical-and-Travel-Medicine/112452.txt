@@ -3,17 +3,20 @@ Date de publication : 2024-02-21
 # 📝 Efficacité des moustiquaires imprégnées à double principe actif contre le paludisme après trois ans d'utilisation
 
 ## 📌 Contexte & Problématique
-Les moustiquaires imprégnées d'insecticide de deuxième génération (MILDA) combinant différents insecticides montrent une efficacité initiale contre le paludisme, mais les preuves de leur impact à long terme sont limitées.
+Le paludisme cause environ 650 000 décès annuels. Les moustiquaires imprégnées d'insecticide à longue durée d'action (MILDA) de deuxième génération combinant différents insecticides montrent une efficacité initiale, mais les données sur leur protection à long terme restent limitées.
 
 ## 🧪 Méthodologie
-Analyse secondaire d'un essai contrôlé randomisé en grappes au Bénin (2019-2023) comparant des MILDA pyriproxyfen-pyréthrinoïde et chlorfénapyr-pyréthrinoïde aux MILDA standards (pyréthrinoïde seul) chez des enfants de 6 mois à 9 ans.
+Analyse secondaire d'un essai contrôlé randomisé en grappes au Bénin (2019-2023) comparant des MILDA pyriproxyfen-pyréthrinoïde et chlorfénapyr-pyréthrinoïde aux MILDA standards (pyréthrinoïde seul) chez des enfants de 6 mois à 9 ans, avec suivi de l'incidence du paludisme en troisième année post-distribution.
 
 ## 📊 Résultats clés
-L'utilisation des moustiquaires a diminué après 36 mois : 39,4% (pyriproxyfen-pyréthrinoïde), 52,2% (chlorfénapyr-pyréthrinoïde) et 57,6% (pyréthrinoïde seul). L'incidence du paludisme était de 1,21 cas/enfant-année pour le groupe pyriproxyfen-pyréthrinoïde (HR 1,02; IC 95% 0,71-1,44), 0,96 cas/enfant-année pour le groupe chlorfénapyr-pyréthrinoïde (HR 0,80; IC 95% 0,56-1,17) contre 1,19 cas/enfant-année pour le groupe contrôle.
+L'utilisation des moustiquaires a diminué sur 3 ans, particulièrement pour les MILDA pyriproxyfen-pyréthrinoïde (39,4% vs 57,6% pour les standards). L'incidence du paludisme en troisième année était similaire entre les groupes pyriproxyfen-pyréthrinoïde (1,21 cas/enfant-année) et standard (1,19), tandis que le groupe chlorfénapyr-pyréthrinoïde présentait une incidence non significativement inférieure (0,96).
 
 ## 🩺 Impact clinique
-Après trois ans, les MILDA à double principe actif n'offrent plus d'avantage significatif par rapport aux MILDA standards, probablement en raison de la baisse d'utilisation et de la diminution des concentrations d'insecticides.
+Après trois ans, les MILDA pyriproxyfen-pyréthrinoïde n'offrent pas de protection supérieure aux MILDA standards. L'avantage initial des MILDA chlorfénapyr-pyréthrinoïde disparaît, probablement en raison d'une utilisation réduite et de la diminution des concentrations d'insecticides.
+
+## Revue
+The Lancet Infectious Diseases
 
 ## 📖 Référence
-Accrombessi M, Cook J, Dangbenon E, et al. Lancet Infect Dis. 2024;24(6):619-628.
+2024;24(6):619-628. doi:10.1016/S1473-3099(24)00002-1
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S1473-3099(24)00002-1.

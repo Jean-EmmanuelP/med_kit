@@ -1,19 +1,26 @@
 Date de publication : 2024-12-01
 
-# 📝 Système d'administration automatisée d'insuline sans tubulure dans le diabète de type 1
+# 📝 Efficacité et sécurité d'un système d'administration automatisée d'insuline tubeless chez les adultes DT1 avec glycémie sous-optimale
 
 ## 📌 Contexte & Problématique
-Évaluation de l'efficacité et la sécurité du système Omnipod 5 (administration automatisée d'insuline sans tubulure) versus pompe à insuline avec surveillance continue du glucose chez des adultes diabétiques de type 1 présentant un contrôle glycémique sous-optimal.
+Évaluation de l'efficacité et la sécurité du système d'administration automatisée d'insuline (AAI) tubeless Omnipod 5 comparé à l'insulinothérapie par pompe avec moniteur de glucose en continu (MGC) chez des adultes diabétiques de type 1 avec contrôle glycémique sous-optimal.
 
 ## 🧪 Méthodologie
-Essai randomisé multicentrique (États-Unis/France) de 13 semaines incluant 194 adultes (18-70 ans) avec HbA1c 7-11%. Randomisation 2:1 entre système sans tubulure (n=132) et groupe témoin (n=62). Critère principal : temps dans la cible (70-180 mg/dL).
+Essai contrôlé randomisé (2:1) multicentrique de 13 semaines aux États-Unis et en France incluant 194 adultes (18-70 ans) avec DT1 et HbA1c entre 7-11% (53-97 mmol/mol).
 
 ## 📊 Résultats clés
-Le groupe intervention a montré une augmentation du temps dans la cible de 4,2 heures/jour (+17,5%, p<0,0001), une réduction supérieure d'HbA1c (-1,24% vs -0,68%, p<0,0001), moins d'hypoglycémies (1,18% vs 1,75%, p=0,005) et d'hyperglycémies (37,6% vs 54,5%, p<0,0001). Aucune acidocétose ni hypoglycémie sévère dans le groupe intervention.
+Le groupe AAI tubeless (n=132) vs pompe+MGC (n=62) a montré:
+- Augmentation du temps dans la cible (70-180 mg/dL) de 4,2h/jour (+17,5%)
+- Réduction supérieure de l'HbA1c (-1,24% vs -0,68%)
+- Diminution du temps en hypoglycémie <70 mg/dL (1,18% vs 1,75%)
+- Aucun cas d'acidocétose ou d'hypoglycémie sévère dans le groupe AAI
 
 ## 🩺 Impact clinique
-Le système sans tubulure améliore significativement le contrôle glycémique tout en réduisant les complications aiguës, confirmant l'intérêt des systèmes automatisés comme traitement préférentiel pour les adultes diabétiques de type 1.
+L'AAI tubeless améliore significativement le contrôle glycémique tout en réduisant les hypoglycémies, renforçant son positionnement comme traitement préférentiel pour les adultes DT1.
+
+## Revue
+Diabetes Care
 
 ## 📖 Référence
-Renard E, Weinstock RS, Aleppo G, et al. Diabetes Care. 2024;47(12):2248-2257.
+2024;47(12):2248-2257. doi: 10.2337/dc24-1550
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.2337/dc24-1550.

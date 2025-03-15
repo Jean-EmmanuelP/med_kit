@@ -1,19 +1,22 @@
 Date de publication : 2024-05-08
 
-# 📝 RÉGIME PERSONNALISÉ ASSISTÉ PAR IA VS RÉGIME FODMAP DANS LA PRISE EN CHARGE DU SYNDROME DE L'INTESTIN IRRITABLE
+# 📝 Régime personnalisé assisté par IA vs régime FODMAP dans la prise en charge du SII
 
 ## 📌 Contexte & Problématique
-Étude comparative entre un régime personnalisé basé sur le microbiome assisté par intelligence artificielle (RP) et un régime pauvre en FODMAP pour le traitement du syndrome de l'intestin irritable (SII).
+Le syndrome de l'intestin irritable (SII) nécessite des approches personnalisées. Cette étude compare l'efficacité d'un régime personnalisé basé sur le microbiome assisté par intelligence artificielle (RP) avec un régime pauvre en FODMAP (oligosaccharides, disaccharides, monosaccharides et polyols fermentescibles).
 
 ## 🧪 Méthodologie
-Essai contrôlé randomisé multicentrique sur 121 patients (70 groupe RP, 51 groupe FODMAP) pendant 6 semaines. Évaluation des symptômes (IBS-SSS), de l'anxiété, de la dépression et de la qualité de vie (IBS-QOL).
+Essai contrôlé randomisé multicentrique incluant 121 patients (70 groupe RP, 51 groupe FODMAP) sur 6 semaines. Évaluation des scores de sévérité des symptômes (IBS-SSS), qualité de vie (IBS-QOL), anxiété et dépression.
 
 ## 📊 Résultats clés
-Réduction similaire des scores IBS-SSS dans les deux groupes (RP: -112,7 vs FODMAP: -99,9; p=0,29). Le RP a amélioré les symptômes dans tous les sous-types de SII (SII-C, SII-D, SII-M), tandis que le FODMAP était efficace principalement pour SII-C et SII-M. Le RP a induit des changements significatifs de la diversité du microbiome (p<0,05).
+Réduction comparable de l'IBS-SSS dans les deux groupes (RP: -112,7; FODMAP: -99,9; p=0,29). Le RP a amélioré l'IBS-SSS dans tous les sous-types de SII (constipation, diarrhée, mixte), tandis que le FODMAP a été efficace pour les sous-types constipation et mixte. Le RP a entraîné des modifications significatives de la diversité du microbiome (p<0,05).
 
 ## 🩺 Impact clinique
-Le régime personnalisé assisté par IA représente une alternative prometteuse au régime FODMAP, avec une efficacité dans tous les sous-types de SII et des effets bénéfiques sur le microbiome intestinal.
+Le régime personnalisé assisté par IA représente une alternative prometteuse au régime FODMAP, particulièrement efficace pour tous les sous-types de SII, avec des bénéfices sur la qualité de vie et le microbiome intestinal.
+
+## Revue
+American Journal of Gastroenterology
 
 ## 📖 Référence
-Tunali V, Arslan NC, Ermis BH, et al. Am J Gastroenterol. 2024;119(9):1901-1912.
+2024;119(9):1901-1912. doi:10.14309/ajg.0000000000002862. Epub 2024 May 8.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.14309/ajg.0000000000002862.

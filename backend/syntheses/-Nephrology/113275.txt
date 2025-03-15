@@ -1,22 +1,25 @@
 Date de publication : 2024-07-23
 
-# 📝 Hypertension et fonction rénale après don de rein vivant
+# 📝 Hypertension et fonction rénale après don de rein par donneur vivant
 
 ## 📌 Contexte & Problématique
-Évaluation des risques d'hypertension et de détérioration de la fonction rénale chez les donneurs de rein vivants, suite aux recommandations pour de meilleures preuves sur les conséquences du don.
+Les directives récentes demandent de meilleures preuves sur les conséquences du don de rein par donneur vivant, notamment concernant le risque d'hypertension et l'évolution de la fonction rénale.
 
 ## 🧪 Méthodologie
-Étude de cohorte prospective comparant 924 donneurs vivants à 396 non-donneurs (pondérés à 928) dans 17 centres au Canada et en Australie (2004-2014). Suivi médian de 7,3 ans avec évaluations annuelles identiques.
+Étude de cohorte prospective comparant 924 donneurs de rein vivants normotendus à 396 non-donneurs (pondérés à 928 après ajustement statistique), suivis pendant une médiane de 7,3 ans dans 17 centres au Canada et en Australie (2004-2021).
 
 ## 📊 Résultats clés
-- Incidence d'hypertension similaire: 17% dans les deux groupes (RR=1,11 [IC 95%: 0,75-1,66])
-- Après la baisse initiale post-néphrectomie (32 mL/min/1,73m²), déclin du DFGe plus lent chez les donneurs (-1,4 mL/min/1,73m² par an)
-- DFGe entre 30-60 mL/min/1,73m² plus fréquent chez les donneurs (47% vs 5%)
-- Albuminurie: 15% donneurs vs 11% non-donneurs (RR=1,46 [IC 95%: 0,97-2,21])
+- Incidence similaire d'hypertension (PAS ≥140 mmHg, PAD ≥90 mmHg ou traitement antihypertenseur) : 17% dans les deux groupes
+- Après la baisse initiale du DFGe (débit de filtration glomérulaire estimé) post-néphrectomie (32 mL/min/1,73 m²), déclin annuel plus lent chez les donneurs (-1,4 mL/min/1,73 m²)
+- Plus de donneurs ont présenté un DFGe entre 30-60 mL/min/1,73 m² (47% vs 5%)
+- Risque d'albuminurie non significativement différent (15% vs 11%)
 
 ## 🩺 Impact clinique
-Les donneurs vivants ne présentent pas de risque significativement accru d'hypertension ou d'albuminurie, mais ont plus fréquemment un DFGe modérément réduit malgré un déclin plus lent après la baisse initiale.
+Ces résultats rassurants sur l'absence d'augmentation significative du risque d'hypertension et d'albuminurie peuvent éclairer le conseil aux donneurs potentiels, tout en soulignant l'importance du suivi de la fonction rénale.
+
+## Revue
+JAMA
 
 ## 📖 Référence
-Garg AX, Arnold JB, Cuerden MS, et al. JAMA. 2024;332(4):287-299.
+2024;332(4):287-299. doi:10.1001/jama.2024.8523
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jama.2024.8523.

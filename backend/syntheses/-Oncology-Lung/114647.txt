@@ -1,19 +1,22 @@
 Date de publication : 2024-10-07
 
-# 📝 Radiothérapie thoracique dans le CBNPC oligo-métastatique avec mutation EGFR
+# 📝 La radiothérapie thoracique améliore la survie des patients atteints de CPNPC oligo-métastatique avec mutation EGFR
 
 ## 📌 Contexte & Problématique
-Étude évaluant l'ajout de radiothérapie thoracique (RTT) aux inhibiteurs de tyrosine kinase (ITK-EGFR) chez les patients atteints de cancer bronchique non à petites cellules (CBNPC) oligo-métastatique avec mutation EGFR.
+Cette étude évalue l'ajout de la radiothérapie thoracique (RTT) aux inhibiteurs de tyrosine kinase de l'EGFR (ITK-EGFR) chez les patients atteints de cancer du poumon non à petites cellules (CPNPC) oligo-métastatique avec mutations EGFR.
 
 ## 🧪 Méthodologie
-Essai randomisé de phase III comparant ITK-EGFR seuls versus ITK-EGFR+RTT (60 Gy) chez 118 patients. Critères principaux : survie sans progression (SSP) et survie globale (SG).
+Essai clinique de phase III randomisé comparant ITK-EGFR seuls versus ITK-EGFR plus RTT (60 Gy) sur la tumeur primitive et ganglions positifs. 118 patients inclus entre 2016 et 2022.
 
 ## 📊 Résultats clés
-Le groupe ITK+RTT a montré une SSP médiane de 17,1 mois contre 10,6 mois pour ITK seul (HR 0,57; p=0,004). La SG médiane était de 34,4 mois versus 26,2 mois (HR 0,62; p=0,029). Effets indésirables sévères : 11,9% versus 5,1%.
+Le groupe ITK+RTT a montré une amélioration significative de la survie sans progression (17,1 vs 10,6 mois; HR=0,57; p=0,004) et de la survie globale (34,4 vs 26,2 mois; HR=0,62; p=0,029) comparé au groupe ITK seul. Meilleur contrôle local mais plus d'événements indésirables sévères (11,9% vs 5,1%).
 
 ## 🩺 Impact clinique
-L'ajout de RTT aux ITK-EGFR en première ligne améliore significativement la survie des patients avec CBNPC oligo-métastatique muté EGFR, avec une toxicité acceptable.
+L'ajout de la RTT au traitement par ITK-EGFR en première ligne améliore significativement les résultats cliniques avec une toxicité acceptable chez les patients atteints de CPNPC oligo-métastatique avec mutation EGFR.
+
+## Revue
+Journal of Clinical Oncology
 
 ## 📖 Référence
-Sun H, Li M, Huang W, et al. J Clin Oncol. 2025 Feb;43(4):412-421.
+2025 Feb;43(4):412-421. doi: 10.1200/JCO.23.02075. Epub 2024 Oct 7.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO.23.02075.

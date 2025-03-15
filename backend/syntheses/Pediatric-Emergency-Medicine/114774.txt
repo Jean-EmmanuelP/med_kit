@@ -1,0 +1,22 @@
+Date de publication : 2025-01-24
+
+# 📝 Interventions pour réduire la durée de séjour hospitalier et aux urgences en pédiatrie
+
+## 📌 Contexte & Problématique
+Cette revue systématique évalue les interventions visant à réduire la durée de séjour (DDS) hospitalier ou au service des urgences (SU) chez les enfants.
+
+## 🧪 Méthodologie
+Analyse d'articles publiés entre 2000 et février 2024 dans six bases de données majeures. Critères d'évaluation : DDS, réadmissions et coûts de soins.
+
+## 📊 Résultats clés
+Sur 18 études retenues (10 essais randomisés, 8 non randomisées), 9 ont démontré que l'antibiothérapie parentérale ambulatoire (OPAT) réduisait la DDS et les coûts, mais prolongeait la durée du traitement antibiotique. Sept études sur l'hospitalisation à domicile ont montré des réductions potentielles des réadmissions, de la DDS et des coûts. Deux études sur les soins en établissement de transition ont rapporté moins de réadmissions et des coûts réduits.
+
+## 🩺 Impact clinique
+Les interventions hors-hôpital sont généralement rentables sans augmentation d'effets indésirables, mais impliquent souvent une période totale de soins plus longue. Ces approches offrent des bénéfices aux familles des patients.
+
+## Revue
+Arch Dis Child
+
+## 📖 Référence
+2025;110(2):120-126. doi:10.1136/archdischild-2024-327155. Numéro PROSPERO: CRD42023408663.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1136/archdischild-2024-327155.

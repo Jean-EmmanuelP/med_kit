@@ -1,0 +1,22 @@
+Date de publication : 2024-06-21
+
+# 📝 Tirzepatide pour le traitement de l'apnée obstructive du sommeil et de l'obésité
+
+## 📌 Contexte & Problématique
+L'apnée obstructive du sommeil (AOS) est associée à des complications cardiovasculaires majeures, avec l'obésité comme facteur de risque principal. Le tirzepatide pourrait constituer une option thérapeutique.
+
+## 🧪 Méthodologie
+Deux essais randomisés de phase 3 ont été menés chez des adultes souffrant d'AOS modérée à sévère et d'obésité : essai 1 (sans PPC - pression positive continue) et essai 2 (avec PPC). Les participants ont reçu soit du tirzepatide (10-15 mg) soit un placebo pendant 52 semaines. Le critère principal était la variation de l'IAH (indice d'apnées-hypopnées).
+
+## 📊 Résultats clés
+Dans l'essai 1, le tirzepatide a réduit l'IAH de 25,3 événements/heure contre 5,3 pour le placebo (différence: -20,0; p<0,001). Dans l'essai 2, réduction de 29,3 événements/heure contre 5,5 (différence: -23,8; p<0,001). Améliorations significatives également observées pour le poids, la charge hypoxique, la hsCRP (protéine C-réactive hautement sensible) et la pression artérielle systolique.
+
+## 🩺 Impact clinique
+Le tirzepatide représente une approche pharmacologique prometteuse pour l'AOS associée à l'obésité, avec des bénéfices multiples sur les paramètres respiratoires nocturnes et métaboliques. Les effets indésirables, principalement gastro-intestinaux, étaient généralement d'intensité légère à modérée.
+
+## Revue
+New England Journal of Medicine
+
+## 📖 Référence
+2024;391(13):1193-1205. doi:10.1056/NEJMoa2404881. Epub 2024 Jun 21.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2404881.

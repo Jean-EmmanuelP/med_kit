@@ -1,19 +1,22 @@
 Date de publication : 2024-08-27
 
-# 📝 PERFUSIONS PROLONGÉES DE β-LACTAMINES ET MORTALITÉ DANS LE SEPSIS
+# 📝 Perfusions prolongées d'antibiotiques β-lactamines dans le sepsis : impact sur la mortalité
 
 ## 📌 Contexte & Problématique
-L'impact des perfusions prolongées d'antibiotiques β-lactamines sur la mortalité des patients septiques reste incertain, malgré leur utilisation croissante en soins intensifs.
+L'administration optimale des antibiotiques β-lactamines reste controversée chez les patients septiques. Cette méta-analyse évalue si les perfusions prolongées améliorent la survie par rapport aux perfusions intermittentes.
 
 ## 🧪 Méthodologie
-Méta-analyse bayésienne de 18 essais randomisés (9108 adultes septiques) comparant perfusions prolongées (continues/étendues) versus intermittentes de β-lactamines. Critère principal : mortalité à 90 jours.
+Revue systématique de 18 essais randomisés (9108 adultes) comparant perfusions prolongées (continues ou étendues) versus intermittentes d'antibiotiques β-lactamines chez des patients avec sepsis ou choc septique. Analyse principale selon un cadre bayésien.
 
 ## 📊 Résultats clés
-Les perfusions prolongées réduisent significativement la mortalité à 90 jours (RR 0,86 [IC 95% 0,72-0,98]; certitude élevée) avec probabilité postérieure de 99,1%. Diminution également de la mortalité en USI (RR 0,84 [IC 95% 0,70-0,97]) et amélioration de la guérison clinique (RR 1,16 [IC 95% 1,07-1,31]).
+Les perfusions prolongées ont réduit significativement la mortalité à 90 jours (RR 0,86 [IC 95% : 0,72-0,98], certitude élevée), la mortalité en USI (Unité de Soins Intensifs) (RR 0,84 [IC 95% : 0,70-0,97]) et amélioré la guérison clinique (RR 1,16 [IC 95% : 1,07-1,31]).
 
 ## 🩺 Impact clinique
-Les preuves actuelles, de haute certitude, suggèrent d'adopter les perfusions prolongées de β-lactamines comme standard de soins dans la prise en charge du sepsis et du choc septique.
+Ces résultats, avec un niveau de preuve élevé, suggèrent que les perfusions prolongées d'antibiotiques β-lactamines devraient être considérées comme standard de soins dans la prise en charge du sepsis et du choc septique.
+
+## Revue
+JAMA
 
 ## 📖 Référence
-Abdul-Aziz MH, Hammond NE, Brett SJ, et al. Prolonged vs Intermittent Infusions of beta-Lactam Antibiotics in Adults With Sepsis or Septic Shock: A Systematic Review and Meta-Analysis. JAMA. 2024;332(8):638-648.
+2024;332(8):638-648. doi:10.1001/jama.2024.9803. PROSPERO: CRD42023399434.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jama.2024.9803.

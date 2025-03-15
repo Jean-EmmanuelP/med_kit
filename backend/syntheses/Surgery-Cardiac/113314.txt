@@ -1,0 +1,22 @@
+Date de publication : 2024-07-12
+
+# 📝 Stratégie invasive vs conservative dans les SCA-NSTE chez les patients avec antécédent de PAC
+
+## 📌 Contexte & Problématique
+Les patients avec antécédent de pontage aortocoronarien (PAC) ont été exclus des essais ayant guidé les recommandations actuelles préconisant une stratégie invasive systématique dans les syndromes coronariens aigus sans élévation du segment ST (SCA-NSTE).
+
+## 🧪 Méthodologie
+Méta-analyse de 11 essais contrôlés randomisés (ECR) comparant stratégie invasive systématique vs conservative/invasive sélective chez 897 patients avec antécédent de PAC présentant un SCA-NSTE, suivis pendant 2 ans en moyenne.
+
+## 📊 Résultats clés
+La stratégie invasive systématique n'a pas démontré de bénéfice significatif sur la mortalité toutes causes (RR 1,12, IC 95% 0,97-1,29), la mortalité cardiaque (RR 1,05, IC 95% 0,70-1,58), l'infarctus du myocarde (RR 0,90, IC 95% 0,65-1,23) ou les hospitalisations d'origine cardiaque (RR 1,05, IC 95% 0,78-1,40).
+
+## 🩺 Impact clinique
+Cette première méta-analyse sur ce sous-groupe spécifique suggère l'absence de bénéfice d'une approche invasive systématique, remettant en question les pratiques actuelles pour ces patients. Un ECR dédié serait nécessaire pour confirmer ces résultats.
+
+## Revue
+European Heart Journal
+
+## 📖 Référence
+2024;45(27):2380-2391. doi:10.1093/eurheartj/ehae245
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1093/eurheartj/ehae245.

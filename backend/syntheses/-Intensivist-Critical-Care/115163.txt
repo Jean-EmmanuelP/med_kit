@@ -1,0 +1,22 @@
+Date de publication : 2024-12-10
+
+# 📝 Oxygénothérapie nasale à haut débit vs ventilation non invasive dans l'insuffisance respiratoire aiguë
+
+## 📌 Contexte & Problématique
+L'oxygénothérapie nasale à haut débit (ONHD) et la ventilation non invasive (VNI) sont des supports respiratoires courants dans l'insuffisance respiratoire aiguë (IRA). Cette étude évalue la non-infériorité de l'ONHD par rapport à la VNI concernant l'intubation ou le décès à 7 jours.
+
+## 🧪 Méthodologie
+Essai clinique randomisé de non-infériorité incluant 1766 adultes avec IRA répartis en 5 groupes: non-immunodéprimés hypoxémiques, immunodéprimés hypoxémiques, exacerbations de BPCO (bronchopneumopathie chronique obstructive), OPAC (œdème pulmonaire aigu cardiogénique) et COVID-19 hypoxémique, dans 33 hôpitaux brésiliens.
+
+## 📊 Résultats clés
+Le critère principal est survenu chez 39% des patients sous ONHD contre 38% sous VNI. L'ONHD s'est avérée non-inférieure à la VNI dans 4 des 5 groupes. Cependant, les analyses post-hoc sans emprunt dynamique ont montré des résultats différents pour les patients BPCO, immunodéprimés et OPAC.
+
+## 🩺 Impact clinique
+L'ONHD représente une alternative valable à la VNI dans plusieurs types d'IRA, avec des profils de sécurité similaires. Des études supplémentaires sont nécessaires pour les patients BPCO, immunodéprimés et OPAC en raison des échantillons limités.
+
+## Revue
+JAMA
+
+## 📖 Référence
+2024 Dec 10. doi: 10.1001/jama.2024.26244.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jama.2024.26244.

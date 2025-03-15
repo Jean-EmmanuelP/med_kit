@@ -1,19 +1,22 @@
 Date de publication : 2024-12-01
 
-# 📝 Sevrage masqué avec intervention comportementale pour l'arrêt des agonistes des récepteurs aux benzodiazépines
+# 📝 Sevrage masqué avec intervention comportementale pour l'arrêt des agonistes des récepteurs des benzodiazépines
 
 ## 📌 Contexte & Problématique
-Les agonistes des récepteurs aux benzodiazépines (BZRA) sont déconseillés chez les personnes âgées. On ignore si un sevrage masqué combiné à une thérapie cognitivo-comportementale pour l'insomnie (TCC-I) augmentée améliore l'arrêt des BZRA.
+Les agonistes des récepteurs des benzodiazépines (BZRA) sont déconseillés chez les personnes âgées. L'effet placebo joue un rôle important dans leur efficacité, mais on ignore si une intervention masquant la dose pendant le sevrage améliore les taux d'arrêt.
 
 ## 🧪 Méthodologie
-Essai clinique randomisé incluant 188 adultes ≥55 ans (âge moyen 69,8 ans) utilisant des BZRA pour l'insomnie. Comparaison entre sevrage masqué + TCC-I augmentée (MTcap, n=92) et sevrage non masqué + TCC-I standard (SGT, n=96).
+Essai clinique randomisé incluant 188 adultes ≥55 ans prenant des BZRA pour insomnie. Comparaison entre sevrage masqué avec thérapie cognitivo-comportementale pour l'insomnie augmentée (MTcap) versus sevrage non masqué avec TCC-I standard (SGT).
 
 ## 📊 Résultats clés
-Le groupe MTcap a obtenu un taux d'arrêt des BZRA significativement supérieur à 6 mois (73,4% vs 58,6%; RC=1,95; p=0,04) et à 1 semaine (88,4% vs 67,4%; RC=3,68; p=0,001). La sévérité de l'insomnie s'est améliorée sans différence significative entre les groupes.
+Le groupe MTcap a obtenu des taux d'arrêt significativement supérieurs à 6 mois (73,4% vs 58,6%; RC=1,95; p=0,04) et à 1 semaine post-traitement (88,4% vs 67,4%; RC=3,68; p=0,001). L'Indice de Sévérité de l'Insomnie s'est amélioré dans les deux groupes sans différence significative.
 
 ## 🩺 Impact clinique
-Un sevrage masqué combiné à des exercices ciblant les mécanismes placebo améliore significativement l'arrêt à long terme des BZRA chez les personnes âgées, sans aggravation de l'insomnie.
+Le sevrage masqué combiné à des exercices ciblant les mécanismes placebo améliore significativement l'arrêt à long terme des BZRA tout en maintenant une qualité de sommeil comparable à l'approche standard.
+
+## Revue
+JAMA Internal Medicine
 
 ## 📖 Référence
-Fung CH, Alessi C, Martin JL, et al. Masked Taper With Behavioral Intervention for Discontinuation of Benzodiazepine Receptor Agonists: A Randomized Clinical Trial. JAMA Intern Med. 2024;184(12):1448-1456.
+2024;184(12):1448-1456. doi:10.1001/jamainternmed.2024.5020. Identifiant ClinicalTrials.gov: NCT03687086.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamainternmed.2024.5020.

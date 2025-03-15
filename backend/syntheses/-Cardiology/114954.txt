@@ -3,17 +3,20 @@ Date de publication : 2024-11-16
 # 📝 Fermeture de l'appendice auriculaire gauche après ablation de fibrillation atriale
 
 ## 📌 Contexte & Problématique
-L'anticoagulation orale est recommandée après ablation de fibrillation atriale chez les patients à haut risque d'AVC. La fermeture de l'appendice auriculaire gauche représente une alternative mécanique, mais les données post-ablation sont limitées.
+L'anticoagulation orale est recommandée après ablation de fibrillation atriale (FA) chez les patients à haut risque d'AVC. La fermeture de l'appendice auriculaire gauche (FAAG) représente une alternative mécanique, mais son efficacité post-ablation reste peu documentée.
 
 ## 🧪 Méthodologie
-Essai randomisé international incluant 1600 patients (score CHA₂DS₂-VASc ≥2 hommes/≥3 femmes) après ablation par cathéter. Randomisation 1:1 entre fermeture de l'appendice auriculaire gauche et anticoagulation orale. Suivi de 36 mois.
+Essai randomisé international incluant 1600 patients avec FA et score CHA₂DS₂-VASc élevé (≥2 hommes, ≥3 femmes) ayant subi une ablation par cathéter, assignés à la FAAG ou à l'anticoagulation orale. Suivi de 36 mois.
 
 ## 📊 Résultats clés
-Hémorragies majeures non procédurales ou cliniquement significatives : 8,5% (groupe dispositif) vs 18,1% (groupe anticoagulation), p<0,001. Critère composite (décès, AVC, embolie systémique) : 5,3% vs 5,8%, non-infériorité démontrée (p<0,001). Complications liées au dispositif chez 23 patients.
+Le groupe FAAG a présenté significativement moins de saignements majeurs non liés à la procédure (8,5% vs 18,1%, p<0,001). Pour le critère composite (décès, AVC, embolie systémique), la FAAG s'est révélée non-inférieure (5,3% vs 5,8%). Des complications liées au dispositif sont survenues chez 23 patients.
 
 ## 🩺 Impact clinique
-La fermeture de l'appendice auriculaire gauche post-ablation réduit significativement le risque hémorragique tout en maintenant une protection comparable contre les événements thromboemboliques, offrant une alternative sûre à l'anticoagulation à long terme.
+La FAAG constitue une alternative sûre et efficace à l'anticoagulation orale après ablation de FA chez les patients à haut risque thromboembolique, offrant une réduction significative du risque hémorragique tout en maintenant une protection comparable contre les événements thromboemboliques.
+
+## Revue
+New England Journal of Medicine
 
 ## 📖 Référence
-Wazni OM, Saliba WI, Nair DG, et al. Left Atrial Appendage Closure after Ablation for Atrial Fibrillation. N Engl J Med. 2024 Nov 16. doi: 10.1056/NEJMoa2408308.
+2024 Nov 16. doi: 10.1056/NEJMoa2408308. NCT03795298.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2408308.

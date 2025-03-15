@@ -1,19 +1,22 @@
 Date de publication : 2024-08-01
 
-# 📝 Incidence du diabète après infection SARS-CoV-2 et impact de la vaccination
+# 📝 Incidence du diabète après infection par SARS-CoV-2 en Angleterre et implications de la vaccination COVID-19
 
 ## 📌 Contexte & Problématique
-L'association entre COVID-19 et développement du diabète reste incertaine, particulièrement concernant l'effet protecteur potentiel de la vaccination et l'impact sur différents types de diabète.
+L'association entre COVID-19 et diabète incident reste débattue, particulièrement concernant l'effet de la vaccination et les différents types de diabète.
 
 ## 🧪 Méthodologie
-Étude de cohorte rétrospective de 16 millions d'adultes anglais, comparant l'incidence du diabète après COVID-19 versus avant/sans COVID-19. Analyse stratifiée par statut vaccinal, gravité de l'infection et type de diabète.
+Étude de cohorte rétrospective sur 16 millions de personnes en Angleterre, comparant l'incidence du diabète après COVID-19 dans trois cohortes : pré-vaccination, vaccinée et non vaccinée, avec suivi jusqu'à 102 semaines.
 
 ## 📊 Résultats clés
-Le risque de diabète de type 2 post-COVID était significativement plus élevé les 4 premières semaines (aHR=4,30 [4,06-4,55]) et persistait jusqu'à 102 semaines (aHR=1,24 [1,14-1,35]). L'effet était plus marqué chez les non-vaccinés (aHR=8,76 vs 1,66 chez les vaccinés) et les patients hospitalisés (aHR=28,3 vs 1,95 chez les non-hospitalisés). Environ 60% des cas persistaient après 4 mois.
+Dans la cohorte pré-vaccination, le risque de diabète de type 2 post-COVID-19 diminue progressivement (aHR 4,30 à 1-4 semaines; 1,24 à 53-102 semaines). Le risque était significativement plus élevé chez les non-vaccinés (aHR 8,76) que chez les vaccinés (aHR 1,66), et chez les patients hospitalisés (aHR 28,3) versus non hospitalisés (aHR 1,95). Environ 60% des diabètes de type 2 diagnostiqués persistent au-delà de 4 mois.
 
 ## 🩺 Impact clinique
-Un dépistage systématique du diabète post-COVID est recommandé, particulièrement après infection sévère. La vaccination constitue une stratégie préventive importante pour réduire ce risque.
+Recommandation de dépistage du diabète de type 2 après COVID-19 sévère et promotion de la vaccination comme stratégies préventives importantes.
+
+## Revue
+Lancet Diabetes Endocrinol
 
 ## 📖 Référence
-Taylor K, Eastwood S, Walker V, et al. Lancet Diabetes Endocrinol. 2024;12(8):558-568.
+2024;12(8):558-568. doi: 10.1016/S2213-8587(24)00159-1
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S2213-8587(24)00159-1.

@@ -1,0 +1,22 @@
+Date de publication : 2024-11-11
+
+# 📝 Recommandations EULAR sur l'éducation des patients pendant la transition en rhumatologie
+
+## 📌 Contexte & Problématique
+L'EULAR (European Alliance of Associations for Rheumatology) a développé des points à considérer (PàC) pour l'éducation des patients sur l'activité physique et l'autogestion de la douleur chez les jeunes atteints de maladies rhumatismales à début juvénile durant la transition vers les soins adultes.
+
+## 🧪 Méthodologie
+Un groupe de 26 experts de 10 pays européens a établi des principes généraux (PG) et des PàC basés sur une revue de littérature et un consensus d'experts, avec évaluation du niveau de preuve (NdP) et grade de recommandation (GdR).
+
+## 📊 Résultats clés
+Deux PG et sept PàC ont été formulés, soulignant l'importance de soins de transition personnalisés et d'une éducation interactive. Deux PàC ont reçu un GdR modéré (B), les cinq autres un GdR faible (D). Le niveau d'accord était élevé (8,7-9,8).
+
+## 🩺 Impact clinique
+Ces recommandations visent à standardiser et optimiser les soins de transition en rhumatologie dans les systèmes de santé européens, tout en stimulant la recherche future et en influençant potentiellement les politiques.
+
+## Revue
+Annals of Rheumatic Diseases
+
+## 📖 Référence
+2024 Nov 11:ard-2024-226448. doi: 10.1136/ard-2024-226448.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1136/ard-2024-226448.

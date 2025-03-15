@@ -1,19 +1,22 @@
 Date de publication : 2024-08-14
 
-# 📝 Innocuité et efficacité du vaccin PfSPZ contre le paludisme chez les adultes et femmes envisageant une grossesse au Mali
+# 📝 Vaccin PfSPZ contre le paludisme chez les adultes et femmes planifiant une grossesse au Mali
 
 ## 📌 Contexte & Problématique
-Le paludisme à P. falciparum pendant la grossesse cause une mortalité maternelle, fœtale et infantile. Le vaccin PfSPZ (sporozoïtes atténués par radiation) a montré une efficacité chez des adultes africains, justifiant son évaluation chez les femmes envisageant une grossesse.
+La parasitémie à Plasmodium falciparum pendant la grossesse cause une mortalité maternelle, fœtale et infantile. Le vaccin PfSPZ (sporozoïtes de P. falciparum atténués par radiation) a montré une efficacité contre l'infection chez les adultes africains.
 
 ## 🧪 Méthodologie
-Deux essais randomisés contrôlés par placebo au Mali : MLSPZV3 (phase 1, adultes 18-35 ans) et MLSPZV4 (phase 2, femmes 18-38 ans envisageant une conception). Schémas vaccinaux : 3 doses de PfSPZ (9×10⁵ ou 1,8×10⁶) ou placebo, administrées selon différents calendriers. Critères principaux : innocuité et efficacité contre la parasitémie.
+Deux essais randomisés, double-aveugle, contrôlés par placebo au Mali : MLSPZV3 (phase 1, adultes 18-35 ans) et MLSPZV4 (phase 2, femmes 18-38 ans planifiant une grossesse). Différents schémas vaccinaux et doses ont été testés avec suivi pendant les saisons de transmission.
 
 ## 📊 Résultats clés
-Profil d'innocuité similaire entre vaccin et placebo, avec principalement des événements indésirables légers. Fausses couches du premier trimestre à taux comparable dans tous les groupes (15% PfSPZ 9×10⁵, 21% PfSPZ 1,8×10⁶, 12% placebo). Efficacité vaccinale non démontrée avec le schéma de 4 semaines (27%, IC95% -18 à 55) ou de 16 semaines (16%, IC95% -34 à 48).
+Dans MLSPZV3, le vaccin PfSPZ n'a pas montré d'efficacité significative contre la parasitémie. Dans MLSPZV4, les fausses couches du premier trimestre étaient similaires dans tous les groupes (15% avec PfSPZ 9×10⁵, 21% avec PfSPZ 1,8×10⁶, 12% avec placebo). La majorité des événements indésirables étaient légers (grade 1).
 
 ## 🩺 Impact clinique
-Le vaccin PfSPZ présente un profil de sécurité acceptable chez les femmes envisageant une grossesse, mais son efficacité contre la parasitémie n'est pas établie. D'autres stratégies vaccinales doivent être explorées.
+Le vaccin PfSPZ présente un profil de sécurité acceptable chez les femmes planifiant une grossesse, sans augmentation des fausses couches ou complications obstétricales, mais son efficacité contre la parasitémie reste à confirmer.
+
+## Revue
+Lancet Infectious Diseases
 
 ## 📖 Référence
-Diawara H, Healy SA, Mwakingwe-Omari A, et al. Lancet Infect Dis. 2024;24(12):1366-1382.
+2024;24(12):1366-1382. doi:10.1016/S1473-3099(24)00360-8. Epub 2024 Aug 14.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S1473-3099(24)00360-8.

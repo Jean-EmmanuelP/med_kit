@@ -1,23 +1,22 @@
 Date de publication : 2024-09-01
 
-# 📝 Nirmatrelvir-Ritonavir pour les symptômes du COVID long : essai STOP-PASC
+# 📝 Nirmatrelvir-Ritonavir et symptômes chez les adultes atteints de PASC : Essai clinique STOP-PASC
 
 ## 📌 Contexte & Problématique
-Le COVID long (SPSC) nécessite des traitements efficaces. Cette étude évalue l'efficacité du nirmatrelvir-ritonavir sur les symptômes persistants post-COVID.
+Besoin urgent d'identifier des traitements efficaces pour les séquelles post-aiguës de l'infection par le SARS-CoV-2 (PASC), communément appelées "Covid long".
 
 ## 🧪 Méthodologie
-Essai randomisé contrôlé (2:1) à Stanford comparant nirmatrelvir-ritonavir (NMV/r) versus placebo-ritonavir (PBO/r) pendant 15 jours chez 155 adultes avec SPSC persistant ≥3 mois. Âge médian: 43 ans; 59% de femmes; durée moyenne des symptômes: 17,5 mois; 153 participants vaccinés.
+Essai clinique randomisé, contrôlé par placebo, mené à l'Université Stanford (2022-2023) sur 155 adultes présentant des symptômes de PASC modérés à sévères depuis ≥3 mois. Randomisation 2:1 : nirmatrelvir-ritonavir (NMV/r) vs placebo-ritonavir (PBO/r) pendant 15 jours. Critère principal : sévérité de 6 symptômes à 10 semaines.
 
 ## 📊 Résultats clés
-Aucune différence significative entre NMV/r et placebo à 10 semaines concernant:
-- Sévérité des 6 symptômes principaux (fatigue, brouillard cérébral, essoufflement, douleurs, symptômes GI et cardiovasculaires)
-- Scores d'impression globale de sévérité/changement
-- Mesures PROMIS (fatigue, dyspnée, fonction cognitive/physique)
-Profil de sécurité similaire entre les groupes.
+Aucune différence statistiquement significative entre NMV/r et PBO/r concernant la sévérité des symptômes à 10 semaines. Profil de sécurité similaire entre les groupes avec des événements indésirables majoritairement légers.
 
 ## 🩺 Impact clinique
-Un traitement de 15 jours par nirmatrelvir-ritonavir s'avère sûr mais inefficace pour améliorer les symptômes du COVID long chez des patients majoritairement vaccinés avec symptômes prolongés.
+Un traitement de 15 jours par NMV/r n'a pas démontré de bénéfice significatif pour les symptômes de PASC dans une population majoritairement vaccinée (99%) avec une durée moyenne des symptômes de 17,5 mois. Des études supplémentaires sont nécessaires pour déterminer le rôle des antiviraux dans le PASC.
+
+## Revue
+JAMA Internal Medicine
 
 ## 📖 Référence
-Geng LN, Bonilla H, Hedlin H, et al. JAMA Intern Med. 2024;184(9):1024-1034.
+2024;184(9):1024-1034. doi:10.1001/jamainternmed.2024.2007. NCT05576662.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamainternmed.2024.2007.

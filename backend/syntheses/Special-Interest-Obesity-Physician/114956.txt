@@ -1,0 +1,22 @@
+Date de publication : 2024-11-16
+
+# 📝 Tirzépatide dans l'insuffisance cardiaque à fraction d'éjection préservée avec obésité
+
+## 📌 Contexte & Problématique
+L'obésité augmente le risque d'insuffisance cardiaque à fraction d'éjection préservée (ICFEP). Le tirzépatide, agoniste des récepteurs du polypeptide insulinotrope dépendant du glucose et du peptide-1 de type glucagon, provoque une perte de poids importante, mais son impact cardiovasculaire reste peu documenté.
+
+## 🧪 Méthodologie
+Essai randomisé contrôlé incluant 731 patients avec ICFEP (fraction d'éjection ≥50%) et obésité (IMC ≥30), recevant tirzépatide (15 mg SC hebdomadaire) ou placebo pendant au moins 52 semaines.
+
+## 📊 Résultats clés
+Le critère composite (décès cardiovasculaire/aggravation d'insuffisance cardiaque) est survenu chez 9,9% des patients sous tirzépatide contre 15,3% sous placebo (HR=0,62; p=0,026). L'amélioration du score KCCQ-CSS était supérieure sous tirzépatide (+19,5 vs +12,7; p<0,001). Les effets indésirables, principalement gastro-intestinaux, ont conduit à 6,3% d'arrêts de traitement vs 1,4% sous placebo.
+
+## 🩺 Impact clinique
+Le tirzépatide réduit significativement le risque d'événements cardiovasculaires et améliore la qualité de vie chez les patients avec ICFEP et obésité, offrant une nouvelle option thérapeutique pour cette population.
+
+## Revue
+N Engl J Med
+
+## 📖 Référence
+2025;392(5):427-437. doi:10.1056/NEJMoa2410027. Epub 2024 Nov 16.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2410027.

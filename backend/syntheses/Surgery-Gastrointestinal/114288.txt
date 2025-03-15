@@ -1,0 +1,22 @@
+Date de publication : 2024-08-30
+
+# 📝 Adaptation de l'anse biliopancréatique dans le bypass gastrique à une anastomose : résultats à 1 an de l'essai TAILOR
+
+## 📌 Contexte & Problématique
+L'adaptation de la longueur de l'anse biliopancréatique selon la longueur totale de l'intestin grêle (LTIG) lors d'un bypass gastrique à une anastomose est suggérée comme bénéfique dans des études rétrospectives, mais manque de validation par essais randomisés.
+
+## 🧪 Méthodologie
+Essai contrôlé randomisé monocentrique en double aveugle comparant une anse biliopancréatique standard (150 cm) à une anse adaptée selon la LTIG (150 cm si <500 cm; 180 cm si 500-700 cm; 210 cm si >700 cm) chez 212 patients éligibles pour chirurgie bariatrique.
+
+## 📊 Résultats clés
+La LTIG moyenne était de 657±128 cm. À 1 an, le pourcentage moyen de perte de poids total était similaire: 32,8±6,9% (groupe standard) contre 33,1±6,2% (groupe adapté), p=0,787. Aucune différence significative n'a été observée concernant les carences nutritionnelles et complications à court terme.
+
+## 🩺 Impact clinique
+L'adaptation de l'anse biliopancréatique selon la LTIG est sûre et réalisable, mais n'offre pas d'avantage sur la perte de poids à 1 an comparée à une longueur standard de 150 cm.
+
+## Revue
+British Journal of Surgery
+
+## 📖 Référence
+2024;111(9):znae219. doi:10.1093/bjs/znae219
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1093/bjs/znae219.

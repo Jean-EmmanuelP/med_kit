@@ -1,0 +1,22 @@
+Date de publication : 2024-11-26
+
+# 📝 Développement et récupération de l'insuffisance rénale aiguë après chirurgie cardiaque : essai randomisé de phase 2 du mimétique du facteur de croissance des hépatocytes ANG-3777
+
+## 📌 Contexte & Problématique
+Évaluation de l'ANG-3777, mimétique du facteur de croissance des hépatocytes, dans la réduction du risque d'insuffisance rénale aiguë (IRA) post-chirurgie cardiaque avec circulation extracorporelle.
+
+## 🧪 Méthodologie
+Étude GUARD en double aveugle contrôlée par placebo. 259 patients randomisés : ANG-3777 (2 mg/kg IV, n=129) ou placebo (n=130), administrés quotidiennement pendant 4 jours. Critère principal : sévérité de l'IRA mesurée par l'augmentation de la créatinine sérique (jours 2-6).
+
+## 📊 Résultats clés
+Aucune différence significative dans la variation de créatinine sérique entre les groupes (1,1%, IC 95% -6,2 à 8,4; p=0,77). Événements rénaux indésirables majeurs similaires à J30 (18,6% vs 16,2%; p=0,60) et J90 (14,7% vs 21,5%; p=0,16). Incidence d'IRA comparable (47,3% vs 48,5%), mais meilleure récupération dans le groupe ANG-3777 (analyse exploratoire). Profil de tolérance satisfaisant.
+
+## 🩺 Impact clinique
+L'ANG-3777 n'a pas démontré d'efficacité dans la prévention de l'IRA post-circulation extracorporelle, mais pourrait favoriser la récupération rénale post-IRA.
+
+## Revue
+J Thorac Cardiovasc Surg
+
+## 📖 Référence
+2024 Nov 26:S0022-5223(24)01092-4. doi: 10.1016/j.jtcvs.2024.11.024
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.jtcvs.2024.11.024.

@@ -1,0 +1,22 @@
+Date de publication : 2024-05-15
+
+# 📝 Réparation du subscapulaire dans l'arthroplastie inversée de l'épaule : impact clinique
+
+## 📌 Contexte & Problématique
+L'utilité de la réparation du tendon subscapulaire lors d'une arthroplastie inversée de l'épaule (AIE) reste controversée. Cette étude prospective randomisée évalue le bénéfice clinique de cette réparation.
+
+## 🧪 Méthodologie
+50 patients répartis en deux groupes : avec réparation (rep) ou sans réparation (nrep) du subscapulaire. Évaluation par score de Constant-Murley (CS), amplitude de mouvement et échographie à 12 et 36 mois postopératoires.
+
+## 📊 Résultats clés
+À 12 mois, le groupe rep présentait un meilleur CS (71 vs 66, p=0,037). À 36 mois, aucune différence significative dans le CS (rep:76 vs nrep:75) mais meilleure rotation interne dans le groupe rep (7,3 vs 6,6 points, p=0,040). L'échographie à 36 mois a montré un tendon intact dans 70% des cas réparés.
+
+## 🩺 Impact clinique
+La réparation du subscapulaire améliore la rotation interne mais n'influence pas significativement les résultats fonctionnels globaux à moyen terme. La rotation externe n'est pas affectée par cette réparation.
+
+## Revue
+J Shoulder Elbow Surg
+
+## 📖 Référence
+2024;33(9):1909-1917. doi:10.1016/j.jse.2024.03.057
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.jse.2024.03.057.

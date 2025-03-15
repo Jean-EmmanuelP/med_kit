@@ -1,22 +1,25 @@
 Date de publication : 2024-10-09
 
-# 📝 Interventions pour l'infection à virus BK chez les receveurs de greffe rénale
+# 📝 Néphropathie associée au virus BK chez les receveurs de greffe rénale : interventions thérapeutiques
 
 ## 📌 Contexte & Problématique
-La néphropathie associée au virus BK (NAVBK) reste un défi majeur en transplantation rénale. La réduction de l'immunosuppression est le traitement principal, mais aucun antiviral spécifique n'est disponible.
+La néphropathie associée au virus BK (NAVBK) reste un défi majeur en transplantation rénale. La réduction de l'immunosuppression est actuellement le traitement principal, mais aucun traitement antiviral ou immunomodulateur spécifique n'a démontré une efficacité suffisante.
 
 ## 🧪 Méthodologie
-Revue systématique de 12 ECR (2669 participants) évaluant diverses interventions contre l'infection BK chez les greffés rénaux. Suivi de 3 mois à 5 ans.
+Revue systématique de 12 essais contrôlés randomisés (2669 participants) évaluant diverses interventions pour le traitement ou la prévention de la NAVBK. Évaluation selon l'approche GRADE.
 
 ## 📊 Résultats clés
-- Dépistage intensif: prévient la perte du greffon (RR 0,00) et réduit la virémie à 12 mois (RR 0,06)
-- Fluoroquinolones: possible réduction de perte du greffon (RR 0,37) mais risque accru de tendinite (RR 5,66)
-- Cyclosporine vs tacrolimus: diminution probable de la virémie BK (RR 0,61) et du diabète post-transplantation (RR 0,41)
-- Évérolimus: pourrait réduire la NAVBK vs mycophénolate sodique (RR 0,06)
+- Le dépistage intensif prévient la perte du greffon (RR 0,00, IC 95% 0,00-0,05) et réduit la virémie à 12 mois (preuves de haute certitude)
+- La cyclosporine (CSA) vs tacrolimus (TAC) diminue probablement la virémie BK (RR 0,61, IC 95% 0,26-1,41)
+- Les fluoroquinolones pourraient réduire le risque de perte du greffon mais augmentent le risque de tendinite
+- La conversion vers l'évérolimus/sirolimus montre des résultats mitigés avec une possible réduction de la charge virale BK
 
 ## 🩺 Impact clinique
-Le dépistage intensif du virus BK offre les bénéfices les plus clairs. La cyclosporine pourrait être préférable au tacrolimus pour réduire la virémie BK. Les inhibiteurs de mTOR pourraient avoir un rôle dans la réduction de la NAVBK.
+Le dépistage intensif représente l'intervention la plus efficace. Les modifications du régime immunosuppresseur (notamment CSA vs TAC) peuvent réduire la virémie BK. Les preuves restent de faible à modérée certitude pour la plupart des interventions.
+
+## Revue
+Cochrane Database of Systematic Reviews
 
 ## 📖 Référence
-Wajih Z, Karpe KM, Walters GD. Interventions for BK virus infection in kidney transplant recipients. Cochrane Database Syst Rev. 2024;10(10):CD013344.
+2024;10(10):CD013344. doi: 10.1002/14651858.CD013344.pub2
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1002/14651858.CD013344.pub2.

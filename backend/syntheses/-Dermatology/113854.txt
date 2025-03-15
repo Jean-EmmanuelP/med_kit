@@ -1,23 +1,22 @@
 Date de publication : 2024-07-24
 
-# 📝 NÉMOLIZUMAB DANS LA DERMATITE ATOPIQUE MODÉRÉE À SÉVÈRE : RÉSULTATS DES ESSAIS ARCADIA 1 ET 2
+# 📝 Némolizumab dans la dermatite atopique modérée à sévère : résultats des essais ARCADIA
 
 ## 📌 Contexte & Problématique
-Le némolizumab, antagoniste du récepteur IL-31, cible le prurit et l'inflammation dans la dermatite atopique. Les essais ARCADIA ont évalué son efficacité en association avec des traitements topiques chez des patients avec réponse inadéquate aux corticoïdes topiques.
+Le némolizumab, antagoniste du récepteur de l'interleukine-31, cible le prurit et l'inflammation cutanée dans la dermatite atopique (DA). Les essais ARCADIA ont évalué son efficacité chez des patients avec DA modérée à sévère insuffisamment contrôlée par corticostéroïdes topiques.
 
 ## 🧪 Méthodologie
-Deux essais de phase 3 identiques, randomisés, en double aveugle, incluant 1728 patients (≥12 ans) dans 22 pays. Némolizumab 30 mg SC (dose de charge 60 mg) ou placebo toutes les 4 semaines pendant 16 semaines, avec traitement topique concomitant. Critères principaux : succès EGI et réponse EASI-75.
+Deux essais de phase 3 identiques, randomisés (2:1), en double aveugle, contre placebo, menés dans 22 pays. Participants (≥12 ans) recevant némolizumab 30mg SC ou placebo toutes les 4 semaines, avec traitement de fond par corticostéroïdes topiques ± inhibiteurs de la calcineurine (CST-ICT).
 
 ## 📊 Résultats clés
-À 16 semaines, le némolizumab a significativement surpassé le placebo pour :
-- Succès EGI : 36% vs 25% (ARCADIA 1) et 38% vs 26% (ARCADIA 2)
-- Réponse EASI-75 : 44% vs 29% (ARCADIA 1) et 42% vs 30% (ARCADIA 2)
-- Amélioration du prurit dès la semaine 1
-- Profil de sécurité comparable au placebo
+À 16 semaines, le groupe némolizumab a montré une supériorité significative sur les critères principaux : succès IGA (36-38% vs 25-26%) et EASI-75 (42-44% vs 29-30%). Amélioration significative du prurit dès la semaine 1 et du sommeil à la semaine 16. Profil de sécurité comparable au placebo, avec 41-50% d'événements indésirables sous némolizumab vs 44-45% sous placebo.
 
 ## 🩺 Impact clinique
-Le némolizumab associé aux traitements topiques offre une amélioration significative de l'inflammation cutanée et du prurit chez les patients atteints de dermatite atopique modérée à sévère, avec un soulagement rapide des symptômes.
+Le némolizumab associé aux CST-ICT offre une option thérapeutique efficace pour la DA modérée à sévère, avec amélioration rapide du prurit et bénéfices significatifs sur l'inflammation cutanée et la qualité du sommeil.
+
+## Revue
+Lancet
 
 ## 📖 Référence
-Silverberg JI, Wollenberg A, Reich A, et al. Lancet. 2024;404(10451):445-460.
+2024;404(10451):445-460. doi:10.1016/S0140-6736(24)01203-0
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S0140-6736(24)01203-0.

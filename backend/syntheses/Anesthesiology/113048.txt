@@ -1,0 +1,22 @@
+Date de publication : 2024-03-25
+
+# 📝 Morphine intrathécale vs caudale en chirurgie pédiatrique : efficacité analgésique et réponse au stress
+
+## 📌 Contexte & Problématique
+Comparaison de l'efficacité analgésique et de l'effet sur les taux de cortisol entre la morphine intrathécale-bupivacaïne et la morphine caudale-bupivacaïne chez des enfants opérés pour chirurgie abdominale basse.
+
+## 🧪 Méthodologie
+Étude randomisée contrôlée sur 40 enfants répartis en deux groupes : morphine intrathécale (4 µg/kg) avec bupivacaïne hyperbare 0,5% (n=20) versus morphine caudale (40 µg/kg) avec bupivacaïne 0,25% (n=20). Critère principal : délai pour atteindre un score FLACC (Face, Legs, Activity, Cry, Consolability) ≥4.
+
+## 📊 Résultats clés
+La voie intrathécale a montré une supériorité significative avec 75% des patients maintenant un score FLACC <4 pendant 24h (p<0,001). Les taux de cortisol étaient significativement plus bas dans le groupe intrathécal à 2h, 6h et 24h (p<0,001). La consommation d'analgésiques de secours était nettement réduite dans le groupe intrathécal (fentanyl 5% vs 45%, paracétamol 30% vs 100%).
+
+## 🩺 Impact clinique
+La morphine intrathécale avec bupivacaïne offre une analgésie plus prolongée, réduit la consommation d'analgésiques, atténue la réponse au stress chirurgical et améliore la satisfaction parentale, avec un profil d'effets secondaires comparable.
+
+## Revue
+Anesthesia & Analgesia
+
+## 📖 Référence
+2024 Mar 25. doi: 10.1213/ANE.0000000000006962.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1213/ANE.0000000000006962.

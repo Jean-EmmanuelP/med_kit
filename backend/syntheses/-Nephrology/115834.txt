@@ -1,0 +1,26 @@
+Date de publication : 2025-02-18
+
+# 📝 Agonistes des récepteurs du GLP-1 chez les patients atteints de maladie rénale chronique et de diabète
+
+## 📌 Contexte & Problématique
+Environ 40% des diabétiques développent une insuffisance rénale avec risque cardiovasculaire accru. Les agonistes des récepteurs du peptide-1 similaire au glucagon (GLP-1) sont des agents hypoglycémiants qui pourraient offrir des bénéfices dans ce contexte.
+
+## 🧪 Méthodologie
+Revue systématique de 42 études contrôlées randomisées incluant 48 148 participants diabétiques de type 2 (âge médian 66 ans) avec maladie rénale chronique (MRC) de différents stades, suivis pendant 26 semaines (médiane).
+
+## 📊 Résultats clés
+Comparés au placebo, les agonistes GLP-1 ont probablement réduit:
+- Mortalité toutes causes (RR 0,85; IC 95% 0,74-0,98)
+- Événements cardiovasculaires majeurs (MACE) à 3 points (RR 0,84; IC 95% 0,73-0,98)
+- MACE à 4 points (RR 0,77; IC 95% 0,67-0,89)
+L'effet sur la mortalité cardiovasculaire était incertain (RR 0,84; IC 95% 0,68-1,05).
+
+## 🩺 Impact clinique
+Les agonistes GLP-1 pourraient prévenir, pour 1000 patients traités pendant un an, 116 décès toutes causes et 153 événements cardiovasculaires majeurs chez les patients avec MRC stades 3-5.
+
+## Revue
+Cochrane Database of Systematic Reviews
+
+## 📖 Référence
+2025 Feb 18;2(2):CD015849. doi: 10.1002/14651858.CD015849.pub2.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1002/14651858.CD015849.pub2.

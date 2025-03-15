@@ -1,0 +1,25 @@
+Date de publication : 2025-01-02
+
+# 📝 Fézolinetant et Élinzanétant pour les Symptômes Vasomoteurs Ménopausiques : Revue Systématique et Méta-analyse
+
+## 📌 Contexte & Problématique
+Évaluation de l'efficacité et de la sécurité du fézolinetant et de l'élinzanétant dans la prise en charge des symptômes vasomoteurs (SVM) chez les femmes ménopausées.
+
+## 🧪 Méthodologie
+Revue systématique des essais contrôlés randomisés (ECR) via MEDLINE, EMBASE et Cochrane jusqu'en août 2024, comparant fézolinetant et élinzanétant au placebo. Sept ECR incluant 4 087 patientes ont été analysés.
+
+## 📊 Résultats clés
+- Réduction significative de la fréquence des SVM: fézolinetant 30mg (DM 2,16), fézolinetant 45mg (DM 2,54), élinzanétant 120mg (DM 2,99)
+- Diminution de la sévérité des SVM: fézolinetant 30mg (DM 0,20), fézolinetant 45mg (DM 0,24), élinzanétant 120mg (DM 0,36)
+- Amélioration significative de la qualité du sommeil avec élinzanétant 120mg (DM 4,65)
+- Moins d'événements indésirables avec élinzanétant 120mg vs placebo (11,70% contre 20,75%)
+
+## 🩺 Impact clinique
+L'élinzanétant montre une efficacité supérieure au fézolinetant dans la réduction des SVM et l'amélioration du sommeil, avec un profil de sécurité favorable, offrant une alternative thérapeutique prometteuse pour les femmes ménopausées.
+
+## Revue
+Obstetrics & Gynecology
+
+## 📖 Référence
+2025;145(3):253-261. doi:10.1097/AOG.0000000000005812. Epub 2025 Jan 2.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1097/AOG.0000000000005812.

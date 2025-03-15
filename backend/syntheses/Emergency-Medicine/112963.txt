@@ -1,23 +1,22 @@
 Date de publication : 2024-04-10
 
-# 📝 TEMPS DE BULLES DU VENTRICULE DROIT POUR IDENTIFIER LA DYSFONCTION VENTRICULAIRE DROITE
+# 📝 Temps de bulles du ventricule droit : un nouvel outil diagnostique pour la dysfonction ventriculaire droite
 
 ## 📌 Contexte & Problématique
-Évaluation d'une nouvelle méthode échographique aux urgences - le "temps de bulles" du ventricule droit (VD) - pour détecter la dysfonction ventriculaire droite.
+Une nouvelle méthode d'évaluation de la dysfonction ventriculaire droite (VD) aux urgences est proposée, basée sur le "temps de bulles" du VD - durée pendant laquelle les bulles d'une solution saline injectée sont visualisées dans le VD à l'échocardiographie.
 
 ## 🧪 Méthodologie
-Étude prospective sur 196 patients hémodynamiquement stables aux urgences. Mesure du temps de persistance des bulles dans le VD après injection de 10 mL de solution saline, comparée à une échocardiographie complète de référence dans les 36 heures.
+Étude prospective incluant des patients hémodynamiquement stables aux urgences. Un échographiste injectait 10 mL de solution saline par voie intraveineuse, réalisait une échocardiographie au chevet et mesurait le temps de bulles du VD. Une échocardiographie complète interprétée par un cardiologue dans les 36 heures servait de référence.
 
 ## 📊 Résultats clés
-- 35,2% des patients présentaient une dysfonction VD
-- Temps médian de bulles: 62 secondes (IIQ: 52-93) avec dysfonction VD vs 21 secondes (IIQ: 12-32) sans dysfonction
-- Seuil optimal: ≥40 secondes
-- Sensibilité: 0,97 (IC 95%: 0,93-1,00)
-- Spécificité: 0,87 (IC 95%: 0,82-0,93)
+Sur 196 patients (âge médian 67 ans), 35,2% présentaient une dysfonction VD. Le temps médian de bulles était de 62 secondes (IIQ: 52-93) chez les patients avec dysfonction VD contre 21 secondes (IIQ: 12-32) sans dysfonction (p<0,0001). Un seuil de ≥40 secondes offrait une sensibilité de 0,97 (IC 95%: 0,93-1,00) et une spécificité de 0,87 (IC 95%: 0,82-0,93).
 
 ## 🩺 Impact clinique
-Technique simple et performante pour le dépistage de la dysfonction VD aux urgences. Un temps <40 secondes exclut efficacement une dysfonction VD. Validation supplémentaire nécessaire dans des populations indifférenciées.
+Cette technique simple pourrait permettre d'identifier rapidement les patients avec dysfonction VD aux urgences, avec une excellente sensibilité et une bonne spécificité au seuil de 40 secondes.
+
+## Revue
+Annals of Emergency Medicine
 
 ## 📖 Référence
-Cohen A, Li T, Bielawa N, et al. Right Ventricular "Bubble Time" to Identify Patients With Right Ventricular Dysfunction. Ann Emerg Med. 2024;84(2):182-194.
+2024;84(2):182-194. doi:10.1016/j.annemergmed.2024.02.005
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.annemergmed.2024.02.005.

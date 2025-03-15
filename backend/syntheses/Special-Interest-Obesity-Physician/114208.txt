@@ -1,0 +1,22 @@
+Date de publication : 2024-08-30
+
+# 📝 Effet du sémaglutide sur la mortalité et les décès liés à la COVID-19 : analyse de l'essai SELECT
+
+## 📌 Contexte & Problématique
+Les patients en surpoids/obèses présentent un risque accru de mortalité cardiovasculaire (CV) et globale, avec peu de traitements efficaces pour réduire ce risque.
+
+## 🧪 Méthodologie
+Essai randomisé SELECT incluant 17 604 participants âgés ≥45 ans, avec IMC ≥27 kg/m² et maladie CV établie sans diabète, recevant sémaglutide 2,4 mg SC hebdomadaire ou placebo pendant 3,3 ans en moyenne.
+
+## 📊 Résultats clés
+Le sémaglutide a réduit la mortalité toutes causes (HR: 0,81), la mortalité CV (HR: 0,85) et non-CV (HR: 0,77). La réduction des décès non-CV était principalement due à moins de décès d'origine infectieuse (62 vs 87; HR: 0,71). Bien que le sémaglutide n'ait pas réduit l'incidence de la COVID-19, il a diminué les événements graves liés à la COVID-19 (232 vs 277) et les décès associés (43 vs 65; HR: 0,66).
+
+## 🩺 Impact clinique
+Ces résultats démontrent l'effet bénéfique du sémaglutide sur la mortalité chez les patients avec maladie CV et obésité, avec un impact significatif sur les complications infectieuses, notamment celles liées à la COVID-19.
+
+## Revue
+Journal of the American College of Cardiology
+
+## 📖 Référence
+2024;84(17):1632-1642. doi:10.1016/j.jacc.2024.08.007
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.jacc.2024.08.007.

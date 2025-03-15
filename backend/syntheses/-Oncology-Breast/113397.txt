@@ -1,19 +1,22 @@
 Date de publication : 2024-06-04
 
-# 📝 Évérolimus adjuvant dans le cancer du sein HR+/HER2- à haut risque
+# 📝 Essai randomisé d'évérolimus adjuvant dans le cancer du sein HR+/HER2- à haut risque
 
 ## 📌 Contexte & Problématique
-L'évérolimus (inhibiteur de mTOR) améliore la survie sans progression dans le cancer du sein métastatique HR+ combiné à l'hormonothérapie. Cette étude évalue son efficacité en adjuvant dans les cancers du sein HR+/HER2- à haut risque.
+Les anomalies de la voie PI3K/AKT/mTOR contribuent à la résistance endocrinienne. L'évérolimus (inhibiteur de mTOR) a montré un bénéfice dans le cancer métastatique HR+. Cette étude évalue son efficacité en situation adjuvante.
 
 ## 🧪 Méthodologie
-Essai randomisé phase III (1:1) : hormonothérapie + évérolimus (10 mg/j pendant 1 an) versus hormonothérapie + placebo. Critère principal : survie sans maladie invasive (IDFS). 1792 patientes éligibles pour l'analyse.
+Essai de phase III randomisé 1:1 comparant hormonothérapie + évérolimus (10 mg/jour pendant 1 an) versus hormonothérapie + placebo chez des patientes avec cancer du sein HR+/HER2- à haut risque après chimiothérapie. Critère principal : survie sans maladie invasive (IDFS).
 
 ## 📊 Résultats clés
-Aucun bénéfice global en IDFS (HR=0,94; IC95%:0,77-1,14) ni en survie globale (HR=0,97; IC95%:0,75-1,26). Sous-groupe préménopausé (n=571) : amélioration de l'IDFS (HR=0,64; IC95%:0,44-0,94) et de la survie globale (HR=0,49; IC95%:0,28-0,86). Taux d'achèvement inférieur sous évérolimus (48% vs 73%) avec plus d'effets indésirables grades 3-4 (35% vs 7%).
+1939 patientes randomisées (1792 analysées). Aucun bénéfice global en IDFS (HR 0,94 [IC 95% 0,77-1,14]) ou survie globale (SG) (HR 0,97 [IC 95% 0,75-1,26]). Analyse de sous-groupe : bénéfice significatif chez les préménopausées (N=571) en IDFS (HR 0,64) et SG (HR 0,49). Taux d'achèvement du traitement plus faible avec évérolimus (48% vs 73%) et plus d'effets indésirables grades 3-4 (35% vs 7%).
 
 ## 🩺 Impact clinique
-L'évérolimus adjuvant n'améliore pas les résultats globaux mais pourrait bénéficier spécifiquement aux patientes préménopausées après chimiothérapie, suggérant un intérêt ciblé de l'inhibition mTOR dans cette population.
+L'évérolimus adjuvant n'améliore pas les résultats dans la population globale mais pourrait bénéficier aux patientes préménopausées après chimiothérapie, suggérant un potentiel thérapeutique ciblé dans cette sous-population.
+
+## Revue
+Journal of Clinical Oncology
 
 ## 📖 Référence
-Chavez-MacGregor M, Miao J, Pusztai L, et al. J Clin Oncol. 2024;42(25):3012-3021.
+2024;42(25):3012-3021. doi:10.1200/JCO.23.02344. Epub 2024 Jun 4.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO.23.02344.

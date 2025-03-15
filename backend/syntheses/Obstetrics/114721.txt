@@ -1,0 +1,22 @@
+Date de publication : 2024-10-26
+
+# 📝 Effet de l'acide tranexamique sur l'hémorragie du post-partum chez les femmes anémiques
+
+## 📌 Contexte & Problématique
+L'acide tranexamique réduit la mortalité par hémorragie chez les femmes souffrant d'hémorragie du post-partum (HPP). Cette étude évalue son efficacité préventive chez les femmes présentant une anémie modérée ou sévère (hémoglobine <100 g/L).
+
+## 🧪 Méthodologie
+Essai randomisé, double aveugle, contrôlé par placebo dans 34 hôpitaux (Nigeria, Pakistan, Tanzanie, Zambie). 15 068 femmes en travail avec anémie ont reçu soit 1g d'acide tranexamique IV (n=7 580), soit un placebo (n=7 488) dans les 15 minutes suivant le clampage du cordon.
+
+## 📊 Résultats clés
+L'HPP est survenue chez 7,0% des femmes du groupe acide tranexamique contre 6,6% dans le groupe placebo (RR 1,05, IC 95% 0,94-1,19). Aucune différence significative n'a été observée dans les sous-groupes préspécifiés. Aucun événement thromboembolique ni effet indésirable lié au traitement n'a été rapporté.
+
+## 🩺 Impact clinique
+L'administration prophylactique d'acide tranexamique chez les femmes anémiques n'a pas réduit le risque d'HPP cliniquement diagnostiquée, remettant en question son utilisation préventive dans cette population spécifique.
+
+## Revue
+Lancet
+
+## 📖 Référence
+2024;404(10463):1645-1656. doi:10.1016/S0140-6736(24)01749-5.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S0140-6736(24)01749-5.

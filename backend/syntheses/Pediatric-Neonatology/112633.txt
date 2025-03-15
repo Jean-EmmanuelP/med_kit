@@ -1,0 +1,24 @@
+Date de publication : 2024-03-14
+
+# 📝 Vaccin maternel contre le VRS - Naissances prématurées et autres résultats
+
+## 📌 Contexte & Problématique
+La vaccination maternelle contre le virus respiratoire syncytial (VRS) pourrait protéger les nourrissons. Cette étude évalue l'efficacité et la sécurité d'un vaccin à base de protéine F de préfusion du VRS (RSVPreF3-Mat).
+
+## 🧪 Méthodologie
+Essai de phase 3 randomisé (2:1) chez des femmes enceintes (18-49 ans) recevant le RSVPreF3-Mat ou un placebo entre 24 et 34 semaines de gestation. L'étude a été interrompue prématurément en raison d'un signal de sécurité.
+
+## 📊 Résultats clés
+- Efficacité vaccinale: 65,5% contre toute maladie des voies respiratoires inférieures associée au VRS et 69,0% contre ses formes sévères
+- Naissances prématurées: 6,8% (groupe vaccin) vs 4,9% (groupe placebo), risque relatif: 1,37 (IC 95%: 1,08-1,74; p=0,01)
+- Décès néonatals: 0,4% vs 0,2% (RR: 2,16; IC 95%: 0,62-7,56; p=0,23)
+
+## 🩺 Impact clinique
+Malgré une efficacité significative contre les infections à VRS, le risque accru de naissances prématurées soulève d'importantes préoccupations de sécurité qui ont justifié l'arrêt prématuré de l'étude.
+
+## Revue
+New England Journal of Medicine
+
+## 📖 Référence
+2024;390(11):1009-1021. doi:10.1056/NEJMoa2305478
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2305478.

@@ -1,19 +1,22 @@
 Date de publication : 2024-09-12
 
-# 📝 Datopotamab Deruxtecan dans le cancer du sein RH+/HER2- métastatique : résultats de TROPION-Breast01
+# 📝 Datopotamab Deruxtecan dans le cancer du sein RH+/HER2- métastatique
 
 ## 📌 Contexte & Problématique
-Évaluation du datopotamab deruxtecan (Dato-DXd), un conjugué anticorps-médicament ciblant l'antigène TROP2, comparé à la chimiothérapie standard chez des patients avec cancer du sein RH+/HER2- inopérable/métastatique après progression sous hormonothérapie.
+Évaluation du datopotamab deruxtecan (Dato-DXd), un conjugué anticorps-médicament ciblant l'antigène de surface des cellules trophoblastiques 2, comparé à la chimiothérapie conventionnelle chez des patients atteints de cancer du sein RH+ (récepteurs hormonaux positifs)/HER2- (récepteur 2 du facteur de croissance épidermique humain négatif) inopérable/métastatique.
 
 ## 🧪 Méthodologie
-Essai randomisé de phase 3 (1:1) incluant 732 patients ayant reçu 1-2 lignes de chimiothérapie antérieures. Groupe expérimental : Dato-DXd (6 mg/kg/3 semaines); groupe contrôle : chimiothérapie au choix (éribuline/vinorelbine/capécitabine/gemcitabine).
+Essai TROPION-Breast01 de phase 3, randomisé (1:1), comparant Dato-DXd (6 mg/kg toutes les 3 semaines) à la chimiothérapie au choix de l'investigateur (CCI) chez 732 patients ayant progressé sous hormonothérapie et reçu 1-2 lignes de chimiothérapie en contexte métastatique.
 
 ## 📊 Résultats clés
-Dato-DXd a significativement réduit le risque de progression/décès (HR=0,63; IC 95%: 0,52-0,76; p<0,0001). Tendance favorable pour la survie globale (HR=0,84; IC 95%: 0,62-1,14). Moins d'événements indésirables grade ≥3 avec Dato-DXd (20,8% vs 44,7%). Principaux effets secondaires: nausées (51,1%) et stomatite (50%) pour Dato-DXd; neutropénie (42,5%) pour la chimiothérapie.
+Dato-DXd a significativement réduit le risque de progression ou décès (HR=0,63; IC 95%: 0,52-0,76; p<0,0001) avec bénéfice cohérent dans tous les sous-groupes. Tendance favorable pour la survie globale (HR=0,84; IC 95%: 0,62-1,14). Profil de tolérance supérieur avec moins d'événements indésirables de grade ≥3 (20,8% vs 44,7%).
 
 ## 🩺 Impact clinique
-Dato-DXd représente une nouvelle option thérapeutique efficace avec un profil de tolérance favorable pour les patients atteints de cancer du sein RH+/HER2- métastatique après 1-2 lignes de chimiothérapie.
+Dato-DXd représente une nouvelle option thérapeutique prometteuse pour les patients atteints de cancer du sein RH+/HER2- inopérable/métastatique, offrant une amélioration significative de la survie sans progression et un profil de sécurité plus favorable que la chimiothérapie standard.
+
+## Revue
+Journal of Clinical Oncology
 
 ## 📖 Référence
-Bardia A, Jhaveri K, Im SA, et al. J Clin Oncol. 2025;43(3):285-296.
+2025 Jan 20;43(3):285-296. doi: 10.1200/JCO.24.00920. Epub 2024 Sep 12.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO.24.00920.

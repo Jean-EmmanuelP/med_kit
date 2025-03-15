@@ -1,0 +1,22 @@
+Date de publication : 2025-02-26
+
+# 📝 Réduction de la mortalité périnatale en Tanzanie grâce au programme "Safer Births"
+
+## 📌 Contexte & Problématique
+La mortalité liée à l'accouchement reste élevée dans les pays à faible revenu. Le programme "Safer Births Bundle of Care" combine plusieurs interventions pour améliorer la qualité des soins maternels et néonatals.
+
+## 🧪 Méthodologie
+Étude randomisée en grappes avec mise en œuvre échelonnée sur 3 ans dans 30 établissements tanzaniens. Le programme incluait des formations par simulation, la collecte de données cliniques, l'assistance de facilitateurs locaux et des outils innovants pour soins périnatals.
+
+## 📊 Résultats clés
+Analyse portant sur 281 165 mères et 277 734 nouveau-nés. Réduction significative des décès périnataux : 15,3 à 12,5/1000 naissances (RR ajusté : 0,82 ; IC 95% : 0,73-0,92). Baisse marquée des décès néonataux précoces (<24h) : 6,4 à 3,9/1000 (RR ajusté : 0,61 ; IC 95% : 0,49-0,77). Pas d'impact sur les mortinaissances intrapartum.
+
+## 🩺 Impact clinique
+Le programme démontre la faisabilité d'intégrer des améliorations de qualité ciblant les urgences obstétricales dans des contextes à ressources limitées, avec un impact significatif sur la mortalité périnatale.
+
+## Revue
+N Engl J Med
+
+## 📖 Référence
+2025 Feb 26. doi: 10.1056/NEJMoa2406295. ISRCTN30541755.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2406295.

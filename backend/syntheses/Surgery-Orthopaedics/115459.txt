@@ -1,0 +1,22 @@
+Date de publication : 2025-01-07
+
+# 📝 Autogreffe du tendon quadricipital dans la reconstruction du LCA : données à ≥5 ans post-opératoires
+
+## 📌 Contexte & Problématique
+L'utilisation de l'autogreffe du tendon quadricipital (TQ) pour la reconstruction du ligament croisé antérieur (LCA) a augmenté depuis 2014, mais les données à long terme restent limitées comparativement aux autogreffes du tendon ischio-jambier (TIJ) et du tendon rotulien (TR).
+
+## 🧪 Méthodologie
+Méta-analyse de 27 études rapportant les résultats de RLCA (reconstruction du LCA) avec suivi ≥5 ans, identifiées via PubMed/MEDLINE, Scopus, Embase et Cochrane Library. Comparaison des taux d'échec et résultats fonctionnels entre les trois types d'autogreffes.
+
+## 📊 Résultats clés
+Le volume de données pour le TQ est trois fois inférieur à celui des autres greffes. Taux d'échec : TIJ (12,7%), TQ (9,1%), TR (6,4%). Les odds ratios favorisent le TR par rapport au TQ et TIJ concernant les échecs. Résultats fonctionnels comparables entre les trois greffes, avec puissance statistique parfois insuffisante.
+
+## 🩺 Impact clinique
+Données insuffisantes à moyen/long terme pour recommander le TQ par rapport au TIJ ou TR pour une RLCA primaire. Des études supplémentaires avec suivi prolongé sont nécessaires.
+
+## Revue
+American Journal of Sports Medicine
+
+## 📖 Référence
+2025 Jan 7:3635465241266628. doi: 10.1177/03635465241266628.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1177/03635465241266628.

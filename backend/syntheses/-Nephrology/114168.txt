@@ -3,17 +3,20 @@ Date de publication : 2024-08-22
 # 📝 Corticothérapie dans le syndrome néphrotique de l'enfant : mise à jour 2024
 
 ## 📌 Contexte & Problématique
-Le syndrome néphrotique infantile présente un taux de récidive de 80%. Les corticostéroïdes réduisent la mortalité à 3% mais comportent des effets indésirables significatifs. Cette revue systématique évalue différents schémas thérapeutiques chez les enfants au premier épisode ou en cas de récidives.
+Le syndrome néphrotique chez l'enfant se caractérise par une fuite protéique glomérulaire entraînant hypoprotéinémie et œdèmes. Bien que les corticostéroïdes aient réduit la mortalité à environ 3%, 80% des enfants connaissent des récidives et les effets secondaires (obésité, retard de croissance, hypertension) restent préoccupants.
 
 ## 🧪 Méthodologie
-Analyse de 54 essais contrôlés randomisés incluant 4670 enfants (1-18 ans). Comparaison de différentes durées, doses et stratégies posologiques de corticostéroïdes. Évaluation selon l'approche GRADE.
+Revue systématique de 54 ECR (Essais Contrôlés Randomisés) incluant 4670 enfants atteints de syndrome néphrotique corticosensible (SNCS), comparant différents schémas thérapeutiques de corticostéroïdes.
 
 ## 📊 Résultats clés
-Aucune différence significative dans les récidives fréquentes entre 2 mois et ≥3 mois de prednisone (RR 0,96, IC 95% 0,83-1,10) ou entre 3 mois et 5-7 mois (RR 0,99, IC 95% 0,74-1,33) lors du premier épisode. Pour les formes récidivantes, les doses plus faibles montrent une efficacité similaire aux schémas standard (RR 1,01, IC 95% 0,85-1,20).
+Pour le premier épisode de SNCS, aucune différence significative n'a été observée dans le taux de rechutes fréquentes entre 2 mois et ≥3 mois de prednisone (RR 0,96, IC 95% 0,83-1,10) ou entre 3 mois et 5-7 mois (RR 0,99, IC 95% 0,74-1,33). Pour les SNCS récidivants, les doses réduites de prednisone n'ont pas montré de différence d'efficacité.
 
 ## 🩺 Impact clinique
-Un traitement de 2-3 mois est suffisant lors du premier épisode. Pour les formes récidivantes, des doses d'induction plus faibles ou des durées plus courtes semblent aussi efficaces que les schémas standard, sans différence d'effets indésirables.
+Un traitement initial de 2-3 mois est aussi efficace qu'un traitement prolongé, limitant ainsi l'exposition aux effets secondaires. Pour les formes récidivantes, les données actuelles ne supportent pas l'intensification de la prednisone pendant les infections virales.
+
+## Revue
+Cochrane Database of Systematic Reviews
 
 ## 📖 Référence
-Hahn D, Samuel SM, Willis NS, et al. Corticosteroid therapy for nephrotic syndrome in children. Cochrane Database Syst Rev. 2024;8(8):CD001533.
+2024;8(8):CD001533. doi: 10.1002/14651858.CD001533.pub7
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1002/14651858.CD001533.pub7.

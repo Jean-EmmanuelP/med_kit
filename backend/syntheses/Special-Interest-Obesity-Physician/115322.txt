@@ -1,0 +1,22 @@
+Date de publication : 2024-12-26
+
+# 📝 Effets anti-diabétiques des agonistes des récepteurs du GLP-1 chez les patients obèses et en surpoids
+
+## 📌 Contexte & Problématique
+Les agonistes des récepteurs du peptide-1 de type glucagon (AR GLP-1) sont utilisés contre l'obésité, mais leurs effets glycémiques comparatifs selon les voies d'administration, statuts diabétiques et durées de traitement restent peu documentés.
+
+## 🧪 Méthodologie
+Revue systématique et méta-analyse d'essais contrôlés randomisés identifiés via PubMed, EMBASE et CENTRAL jusqu'en février 2024, incluant des adultes en surpoids/obèses avec ou sans diabète de type 2 (DT2).
+
+## 📊 Résultats clés
+Les AR GLP-1 ont réduit l'hémoglobine glyquée (HbA1c) de -0,72% (IC 95% -0,79 à -0,65) et la glycémie à jeun de -1,00 mmol/L (IC 95% -1,16 à -0,84). Chez les prédiabétiques, la réduction d'HbA1c était de -0,44%. L'efficacité était supérieure avec une HbA1c initiale plus élevée et un indice de masse corporelle plus faible.
+
+## 🩺 Impact clinique
+Ces résultats suggèrent que les AR GLP-1 pourraient être efficaces chez les patients prédiabétiques obèses, ouvrant des perspectives d'élargissement des indications thérapeutiques pour la prévention du syndrome métabolique.
+
+## Revue
+Diabetes, Obesity and Metabolism
+
+## 📖 Référence
+2024 Dec 26. doi: 10.1111/dom.16136.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1111/dom.16136.

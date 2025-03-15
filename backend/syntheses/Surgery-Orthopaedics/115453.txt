@@ -1,0 +1,22 @@
+Date de publication : 2025-01-04
+
+# 📝 Taux d'échec plus faibles avec les allogreffes os-tissus mous versus tissus mous seuls dans la reconstruction du LCA chez l'adulte
+
+## 📌 Contexte & Problématique
+Les allogreffes sont fréquemment utilisées pour la reconstruction du ligament croisé antérieur (LCA), mais les données guidant le choix spécifique d'allogreffe restent insuffisantes.
+
+## 🧪 Méthodologie
+Revue systématique et méta-analyse de 14 études évaluant les reconstructions du LCA chez l'adulte utilisant des allogreffes non irradiées. Comparaison entre allogreffes combinant os et tissus mous versus allogreffes de tissus mous uniquement.
+
+## 📊 Résultats clés
+Les allogreffes combinant os et tissus mous présentent des taux d'échec cumulatifs significativement inférieurs (11% [IC 95%, 7-17]) comparés aux allogreffes de tissus mous seuls (20% [IC 95%, 14-29]) (p=0,05). Les taux de rupture du greffon étaient respectivement de 6% versus 13% (p=0,07).
+
+## 🩺 Impact clinique
+Les allogreffes combinant os et tissus mous semblent être l'option préférentielle pour la reconstruction du LCA, offrant une meilleure stabilité et réduisant le risque d'échec clinique.
+
+## Revue
+American Journal of Sports Medicine
+
+## 📖 Référence
+2025 Mar;53(3):734-744. doi: 10.1177/03635465241250016. Epub 2025 Jan 4.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1177/03635465241250016.

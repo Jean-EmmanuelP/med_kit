@@ -1,0 +1,25 @@
+Date de publication : 2025-01-01
+
+# 📝 Diagnostic différentiel et algorithmes diagnostiques chez les enfants atteints d'encéphalite auto-immune en Espagne
+
+## 📌 Contexte & Problématique
+L'utilité des approches diagnostiques actuelles pour l'encéphalite auto-immune (EA) pédiatrique reste méconnue, particulièrement pour les cas sans anticorps détectables.
+
+## 🧪 Méthodologie
+Étude de cohorte prospective incluant 729 patients (<18 ans) suspectés d'EA dans 40 hôpitaux espagnols, avec suivi médian de 36 mois. Comparaison de deux algorithmes diagnostiques (général et pédiatrique).
+
+## 📊 Résultats clés
+- 32% des patients ont reçu un diagnostic d'EA certaine ou trouble auto-immun défini
+- 65% des EA certaines présentaient des anticorps neuraux, principalement anti-NMDAR ou anti-MOG (85%)
+- Concordance excellente entre algorithmes pour EA avec anticorps (kappa 0,99), mais médiocre pour EA probable sans anticorps (kappa 0,29)
+- L'algorithme pédiatrique incluait plus de patients dans la catégorie EA probable sans anticorps (173 vs 41)
+
+## 🩺 Impact clinique
+Les diagnostics différentiels fréquents incluent troubles infectieux, épileptiques et psychiatriques. L'algorithme pédiatrique risque de surdiagnostiquer l'EA probable sans anticorps, tandis que l'algorithme général pourrait la sous-diagnostiquer, entraînant une utilisation inappropriée de l'immunothérapie.
+
+## Revue
+Lancet Neurology
+
+## 📖 Référence
+2025 Jan;24(1):54-64. doi: 10.1016/S1474-4422(24)00443-5.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S1474-4422(24)00443-5.

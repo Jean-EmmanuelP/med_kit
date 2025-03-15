@@ -1,0 +1,26 @@
+Date de publication : 2024-04-19
+
+# 📝 Hémihepatectomie laparoscopique vs ouverte : résultats de l'essai ORANGE II PLUS
+
+## 📌 Contexte & Problématique
+Comparaison des résultats après hémihepatectomie par voie laparoscopique versus ouverte pour cancers hépatiques primaires ou métastatiques, avec focus sur le temps de récupération fonctionnelle.
+
+## 🧪 Méthodologie
+Essai multicentrique randomisé contrôlé de supériorité mené dans 16 hôpitaux européens (2013-2018) incluant 332 patients analysés (166 par groupe).
+
+## 📊 Résultats clés
+- Récupération fonctionnelle plus rapide en laparoscopie: 4 jours vs 5 jours (p<0,001)
+- Taux de complications majeures similaires (14,5% vs 16,9%, p=0,58)
+- Meilleure qualité de vie (QdV) et image corporelle en laparoscopie (p<0,001)
+- Pour patients cancéreux (84,6%): marges R0 comparables (77,9% vs 84,1%, p=0,14)
+- Délai jusqu'à thérapie adjuvante réduit en laparoscopie (46,5 vs 62,8 jours, p=0,009)
+
+## 🩺 Impact clinique
+L'approche laparoscopique offre une récupération plus rapide, une meilleure QdV et permet une initiation plus précoce des traitements adjuvants sans compromettre les résultats oncologiques.
+
+## Revue
+Journal of Clinical Oncology
+
+## 📖 Référence
+2024;42(15):1799-1809. doi:10.1200/JCO.23.01019. Epub 2024 Apr 19.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO.23.01019.

@@ -1,19 +1,22 @@
 Date de publication : 2024-08-27
 
-# 📝 Perfusion continue vs intermittente d'antibiotiques β-lactamines dans le sepsis grave
+# 📝 Perfusion continue vs intermittente d'antibiotiques β-lactamines chez les patients critiques atteints de sepsis
 
 ## 📌 Contexte & Problématique
-L'impact du mode d'administration des β-lactamines (continue vs intermittente) sur la mortalité des patients septiques reste incertain.
+L'efficacité supérieure des antibiotiques β-lactamines administrés par perfusion continue versus intermittente pour réduire la mortalité dans le sepsis reste incertaine.
 
 ## 🧪 Méthodologie
-Essai randomisé international, ouvert, incluant 7031 patients adultes septiques en soins intensifs (104 USI, 7 pays). Comparaison de pipéracilline-tazobactam ou méropénème administrés en perfusion continue (n=3498) versus intermittente (n=3533).
+Essai randomisé international incluant 7031 patients adultes critiques atteints de sepsis dans 104 USI (Unités de Soins Intensifs) de 7 pays. Les patients ont reçu pipéracilline-tazobactam ou méropénème par perfusion continue (n=3498) ou intermittente (n=3533).
 
 ## 📊 Résultats clés
-Mortalité à 90 jours: 24,9% (perfusion continue) vs 26,8% (perfusion intermittente); différence absolue -1,9% [IC 95%: -4,9% à 1,1%]; p=0,08. Guérison clinique significativement supérieure avec perfusion continue: 55,7% vs 50,0% (différence absolue: 5,7% [IC 95%: 2,4% à 9,1%]).
+Mortalité à 90 jours: 24,9% (perfusion continue) vs 26,8% (perfusion intermittente), différence -1,9% [IC 95%, -4,9% à 1,1%]; p=0,08. Guérison clinique significativement plus élevée dans le groupe perfusion continue (55,7% vs 50,0%, différence 5,7% [IC 95%, 2,4% à 9,1%]).
 
 ## 🩺 Impact clinique
-Bien que la différence de mortalité n'atteigne pas la significativité statistique, la perfusion continue améliore significativement la guérison clinique et pourrait offrir un bénéfice clinique chez les patients septiques graves.
+Bien que la différence de mortalité n'ait pas atteint la signification statistique, l'amélioration de la guérison clinique et l'intervalle de confiance incluant un potentiel bénéfice clinique suggèrent un intérêt pour les perfusions continues dans cette population.
+
+## Revue
+JAMA
 
 ## 📖 Référence
-Dulhunty JM, Brett SJ, De Waele JJ, et al. JAMA. 2024;332(8):629-637.
+2024;332(8):629-637. doi:10.1001/jama.2024.9779
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jama.2024.9779.

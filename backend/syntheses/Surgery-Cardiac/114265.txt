@@ -1,0 +1,22 @@
+Date de publication : 2024-08-22
+
+# 📝 Remplacement valvulaire aortique transcathéter versus chirurgical chez les patients à faible risque : résultats à long terme
+
+## 📌 Contexte & Problématique
+Les données à long terme (≥3 ans) comparant le remplacement valvulaire aortique transcathéter (TAVI) au remplacement valvulaire aortique chirurgical (RVAC) chez les patients à faible risque (score STS-PROM <4%) sont limitées.
+
+## 🧪 Méthodologie
+Méta-analyse d'essais cliniques randomisés comparant TAVI et RVAC chez des patients à faible risque avec sténose aortique sévère. Trois essais incluant 2 644 patients (TAVI: 1 371; RVAC: 1 273) ont été analysés sur un suivi moyen de 6 ± 2,9 ans.
+
+## 📊 Résultats clés
+Le TAVI s'est avéré non inférieur au RVAC concernant la mortalité toutes causes (RR 0,99), la mortalité cardiovasculaire (RR 0,94), l'infarctus du myocarde (RR 1,06), la réintervention, l'endocardite et la défaillance prothétique. La fibrillation auriculaire était plus fréquente après RVAC, l'implantation de stimulateur plus fréquente après TAVI.
+
+## 🩺 Impact clinique
+Le TAVI présente des résultats à long terme similaires au RVAC chez des patients sélectionnés à faible risque, offrant une alternative thérapeutique valide dans cette population.
+
+## Revue
+American Journal of Cardiology
+
+## 📖 Référence
+2024;230:6-13. doi:10.1016/j.amjcard.2024.08.014
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.amjcard.2024.08.014.

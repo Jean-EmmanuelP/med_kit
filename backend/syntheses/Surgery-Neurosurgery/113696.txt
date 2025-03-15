@@ -1,0 +1,22 @@
+Date de publication : 2024-07-01
+
+# 📝 Décompression seule vs. décompression avec fusion pour la sténose lombaire : résultats à 5 ans
+
+## 📌 Contexte & Problématique
+Comparaison des résultats à 5 ans entre décompression seule et décompression avec arthrodèse pour la sténose lombaire, avec ou sans spondylolisthésis dégénératif (SD).
+
+## 🧪 Méthodologie
+Essai contrôlé randomisé multicentrique suédois incluant 247 patients avec sténose lombaire centrale à un ou deux niveaux. Critère principal : indice d'Oswestry (ODI) à 5 ans. Critères secondaires : EQ-5D, douleur, satisfaction, distance de marche et taux de réintervention.
+
+## 📊 Résultats clés
+213 patients (95%) ont complété le suivi à 5 ans. L'ODI était similaire entre les groupes (25 vs 28, p=0,226). Le score EQ-5D était supérieur pour la décompression seule (0,69 vs 0,59, p=0,027). Chez les patients sans SD, la diminution de douleur radiculaire était plus fréquente après décompression seule (80% vs 58%). Les taux de réintervention étaient comparables (22% vs 24%).
+
+## 🩺 Impact clinique
+L'ajout d'une arthrodèse n'améliore pas les résultats fonctionnels à 5 ans et certains critères secondaires favorisent la décompression seule, soutenant cette dernière comme approche préférentielle pour la sténose lombaire.
+
+## Revue
+Bone Joint Journal
+
+## 📖 Référence
+2024;106-B(7):705-712. doi: 10.1302/0301-620X.106B7.BJJ-2023-1160.R2.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1302/0301-620X.106B7.BJJ-2023-1160.R2.

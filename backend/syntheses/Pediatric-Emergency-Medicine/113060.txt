@@ -1,0 +1,27 @@
+Date de publication : 2024-04-29
+
+# 📝 Appendicectomie versus antibiothérapie pour l'appendicite aiguë
+
+## 📌 Contexte & Problématique
+L'appendicite aiguë non compliquée peut être traitée par appendicectomie ou antibiotiques. Cette revue évalue l'efficacité comparative de ces deux approches en termes de résolution des symptômes et complications.
+
+## 🧪 Méthodologie
+Revue systématique de 13 ECR (Essais Contrôlés Randomisés) incluant 3358 participants (1675 traités par antibiotiques, 1683 par appendicectomie). Recherche dans CENTRAL, MEDLINE, Embase et registres d'essais cliniques jusqu'en juillet 2022, sans restriction de langue ou date.
+
+## 📊 Résultats clés
+- Mortalité : effet incertain (preuves de très faible certitude)
+- Échec thérapeutique : 76 cas supplémentaires/1000 dans le groupe antibiotique (RR 0,91)
+- À un an, 30,7% des patients sous antibiotiques ont nécessité une appendicectomie
+- Infections de plaie : réduction significative avec antibiotiques (RR 0,25)
+- Incidence de tumeurs malignes : 0,3% dans le groupe antibiotique
+- Appendicectomies négatives : augmentation avec antibiotiques (RR 3,16)
+
+## 🩺 Impact clinique
+Les antibiotiques pourraient constituer une alternative à la chirurgie chez certains patients, permettant d'éviter l'opération chez plus des deux tiers des patients à un an, avec moins d'infections de plaie, mais un risque d'échec thérapeutique légèrement supérieur.
+
+## Revue
+Cochrane Database of Systematic Reviews
+
+## 📖 Référence
+2024;4(4):CD015038. doi: 10.1002/14651858.CD015038.pub2
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1002/14651858.CD015038.pub2.

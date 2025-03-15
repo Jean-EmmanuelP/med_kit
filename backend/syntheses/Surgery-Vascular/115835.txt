@@ -1,0 +1,22 @@
+Date de publication : 2025-02-24
+
+# 📝 Comparaison des stratégies endovasculaires dans l'ischémie chronique menaçant le membre
+
+## 📌 Contexte & Problématique
+L'étude BASIL-3 visait à déterminer la stratégie endovasculaire fémoro-poplitée la plus efficace pour les patients atteints d'ischémie chronique menaçant le membre (ICMM) nécessitant une revascularisation.
+
+## 🧪 Méthodologie
+Essai randomisé, ouvert, à trois bras, incluant 481 patients (35% de femmes, âge moyen 71,8 ans) dans 35 centres britanniques. Comparaison de trois stratégies : angioplastie par ballonnet simple ± stent nu (PBA±BMS), angioplastie par ballonnet médicamenteux ± stent nu (DCBA±BMS), et stent à élution médicamenteuse (DES).
+
+## 📊 Résultats clés
+Le critère principal (survie sans amputation majeure) n'a pas montré de différence significative entre les groupes : 66% d'événements dans le groupe PBA±BMS, 60% avec DCBA±BMS et 58% avec DES (rapports de risque ajustés : PBA±BMS vs DCBA±BMS : 0,84, IC 97,5% 0,61-1,16, p=0,22 ; PBA±BMS vs DES : 0,83, IC 97,5% 0,60-1,15, p=0,20). Aucune différence dans les événements indésirables graves.
+
+## 🩺 Impact clinique
+Les technologies endovasculaires avancées (DCBA±BMS ou DES) n'apportent pas de bénéfice clinique significatif par rapport à l'angioplastie simple dans l'ICMM, remettant en question leur coût-efficacité dans cette indication.
+
+## Revue
+BMJ
+
+## 📖 Référence
+2025 Feb 24;388:e080881. doi: 10.1136/bmj-2024-080881.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1136/bmj-2024-080881.

@@ -1,0 +1,22 @@
+Date de publication : 2024-06-11
+
+# 📝 Bithérapie antiplaquettaire après pontage coronarien : bénéfices à 5 ans
+
+## 📌 Contexte & Problématique
+L'efficacité à long terme des différentes stratégies antiplaquettaires après pontage coronarien reste débattue. L'étude DACAB a évalué l'impact de trois approches thérapeutiques sur les événements cardiovasculaires majeurs indésirables (MACE) à 5 ans.
+
+## 🧪 Méthodologie
+Suivi à 5 ans de 500 patients chinois randomisés en trois groupes : bithérapie (ticagrélor+aspirine), monothérapie ticagrélor ou monothérapie aspirine pendant 1 an après pontage. Le critère principal était un composite incluant mortalité toutes causes, infarctus du myocarde, AVC et revascularisation.
+
+## 📊 Résultats clés
+Le taux de MACE à 5 ans était significativement plus faible dans le groupe bithérapie (22,6%) comparé à l'aspirine seule (29,9%, HR=0,65, IC95%:0,43-0,99, p=0,04) et au ticagrélor seul (32,9%, HR=0,66, IC95%:0,44-1,00, p=0,05).
+
+## 🩺 Impact clinique
+La bithérapie antiplaquettaire (ticagrélor+aspirine) pendant 1 an post-pontage offre une protection cardiovasculaire supérieure à long terme par rapport aux monothérapies, suggérant une révision potentielle des recommandations actuelles.
+
+## Revue
+BMJ
+
+## 📖 Référence
+2024;385:e075707. doi:10.1136/bmj-2023-075707
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1136/bmj-2023-075707.

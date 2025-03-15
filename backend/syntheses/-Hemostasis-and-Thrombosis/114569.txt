@@ -1,19 +1,22 @@
 Date de publication : 2024-11-19
 
-# 📝 Stratégie transfusionnelle libérale vs restrictive dans les lésions cérébrales aiguës
+# 📝 Stratégie transfusionnelle chez les patients avec lésion cérébrale aiguë
 
 ## 📌 Contexte & Problématique
-Le seuil optimal d'hémoglobine pour la transfusion chez les patients avec lésions cérébrales aiguës reste incertain. Cette étude compare deux stratégies transfusionnelles sur le pronostic neurologique.
+Le seuil optimal d'hémoglobine pour les transfusions chez les patients souffrant de lésions cérébrales aiguës reste incertain, malgré la fréquence de ces interventions.
 
 ## 🧪 Méthodologie
-Essai clinique randomisé multicentrique dans 72 unités de soins intensifs (22 pays). 850 patients avec traumatisme crânien, hémorragie sous-arachnoïdienne ou intracérébrale ont été randomisés en deux groupes : stratégie libérale (transfusion si Hb<9 g/dL, n=408) ou restrictive (transfusion si Hb<7 g/dL, n=442).
+Essai clinique randomisé multicentrique incluant 850 patients avec traumatisme crânien, hémorragie sous-arachnoïdienne anévrismale ou hémorragie intracérébrale. Comparaison entre stratégie transfusionnelle libérale (seuil <9 g/dL, n=408) et restrictive (seuil <7 g/dL, n=442) sur 28 jours. Critère principal : pronostic neurologique à 180 jours selon l'échelle de Glasgow étendue (GOS-E).
 
 ## 📊 Résultats clés
-À 180 jours, 62,6% des patients du groupe libéral présentaient un pronostic neurologique défavorable contre 72,6% dans le groupe restrictif (différence absolue: -10,0%, IC 95%: -16,5% à -3,6%; p=0,002). Les événements ischémiques cérébraux étaient moins fréquents dans le groupe libéral (8,8% vs 13,5%).
+Le groupe libéral a reçu une médiane de 2 unités de sang contre 0 dans le groupe restrictif. À 180 jours, 62,6% des patients du groupe libéral présentaient un pronostic neurologique défavorable contre 72,6% dans le groupe restrictif (différence absolue -10,0%, p=0,002). Les événements ischémiques cérébraux étaient moins fréquents dans le groupe libéral (8,8% vs 13,5%).
 
 ## 🩺 Impact clinique
-Une stratégie transfusionnelle libérale (seuil à 9 g/dL) améliore significativement le pronostic neurologique chez les patients avec lésions cérébrales aiguës comparée à une stratégie restrictive.
+Une stratégie transfusionnelle libérale (seuil <9 g/dL) améliore significativement le pronostic neurologique et réduit les événements ischémiques cérébraux chez les patients avec lésion cérébrale aiguë.
+
+## Revue
+JAMA
 
 ## 📖 Référence
-Taccone FS, Rynkowski CB, Moller K, et al. JAMA. 2024;332(19):1623-1633.
+2024;332(19):1623-1633. doi:10.1001/jama.2024.20424
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jama.2024.20424.

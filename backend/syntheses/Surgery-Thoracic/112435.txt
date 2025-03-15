@@ -1,0 +1,22 @@
+Date de publication : 2023-10-30
+
+# 📝 Retrait précoce du drain thoracique après résection pulmonaire anatomique
+
+## 📌 Contexte & Problématique
+Évaluation de la sécurité et faisabilité du retrait précoce du drain thoracique après résection pulmonaire anatomique, indépendamment du volume de drainage.
+
+## 🧪 Méthodologie
+Essai multicentrique randomisé contrôlé de non-infériorité. Patients avec drainage >300 mL au premier jour postopératoire répartis entre: groupe A (retrait au J2) et groupe B (retrait quand drainage ≤300 mL/24h). Critère principal: fréquence des événements indésirables respiratoires (grade ≥2 selon Clavien-Dindo) à 30 jours.
+
+## 📊 Résultats clés
+175 patients inclus (88 groupe A, 87 groupe B). Événements indésirables respiratoires: 11,4% groupe A vs 14,0% groupe B (P=0,008). Thoracentèse/réinsertion du drain: 8,0% vs 9,3% (P=0,752). Durée médiane du drain: 2 vs 3 jours (P<0,001). Durée d'hospitalisation: 6 vs 7 jours (P=0,231).
+
+## 🩺 Impact clinique
+Le retrait précoce du drain thoracique, indépendamment du volume de drainage, est sûr et faisable après résection pulmonaire anatomique.
+
+## Revue
+J Thorac Cardiovasc Surg
+
+## 📖 Référence
+2024;168(2):401-410.e1. doi:10.1016/j.jtcvs.2023.10.050
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.jtcvs.2023.10.050.

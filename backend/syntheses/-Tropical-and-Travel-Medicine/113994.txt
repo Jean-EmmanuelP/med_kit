@@ -1,19 +1,22 @@
 Date de publication : 2024-08-05
 
-# 📝 Efficacité et sécurité du vaccin Butantan-DV contre la dengue sur un suivi prolongé
+# 📝 Efficacité et sécurité du vaccin Butantan-DV contre la dengue : résultats d'un suivi prolongé
 
 ## 📌 Contexte & Problématique
-Évaluation d'un vaccin tétravalent vivant atténué à dose unique (Butantan-DV) contre la dengue chez des sujets de 2-59 ans, indépendamment de leur statut sérologique, avec un suivi prolongé de 3,7 ans en moyenne.
+Un vaccin monodose contre la dengue efficace indépendamment du statut sérologique représente un besoin non satisfait. Cette étude évalue l'efficacité et la sécurité du vaccin tétravalent vivant atténué Butantan-DV sur une période de suivi prolongée (moyenne 3,7 ans).
 
 ## 🧪 Méthodologie
-Essai de phase 3, multicentrique, randomisé, double aveugle, contrôlé par placebo au Brésil. 16 235 participants randomisés 2:1 pour recevoir une dose unique de Butantan-DV (n=10 259) ou placebo (n=5 976). Efficacité évaluée par détection des cas de dengue virologiquement confirmés (VCD) par RT-PCR.
+Essai de phase 3, randomisé, en double aveugle, contrôlé par placebo au Brésil incluant 16 235 participants âgés de 2 à 59 ans (randomisation 2:1). Critère principal : efficacité contre la dengue virologiquement confirmée (VCD) après J28 dans la population per protocole.
 
 ## 📊 Résultats clés
-Efficacité vaccinale de 67,3% (IC 95% 59,4-73,9) contre la VCD, tous sérotypes confondus. Protection démontrée contre DENV-1 et DENV-2 (aucun cas de DENV-3 ou DENV-4 observé). Taux d'événements indésirables graves similaires entre les groupes (6,2% vaccin vs 6,6% placebo).
+Après un suivi moyen de 3,7 ans, l'efficacité vaccinale contre la VCD (tous sérotypes) était de 67,3% (IC 95% : 59,4-73,9), avec 128 cas dans le groupe vaccin versus 228 dans le groupe placebo. Aucun cas causé par DENV-3 ou DENV-4 n'a été observé. Les événements indésirables graves étaient comparables entre les groupes (6,2% vaccin vs 6,6% placebo).
 
 ## 🩺 Impact clinique
-Une dose unique de Butantan-DV offre une protection efficace et durable contre la dengue symptomatique pendant près de 4 ans, avec un bon profil de sécurité. Résultats prometteurs pour la prévention de la dengue chez les enfants, adolescents et adultes.
+Une dose unique de Butantan-DV offre une protection durable contre la dengue symptomatique (DENV-1 et DENV-2) chez les enfants, adolescents et adultes, indépendamment du statut sérologique, avec un profil de sécurité favorable.
+
+## Revue
+Lancet Infectious Diseases
 
 ## 📖 Référence
-Nogueira ML, Cintra MAT, Moreira JA, et al. Lancet Infect Dis. 2024;24(11):1234-1244.
+2024 Nov;24(11):1234-1244. doi: 10.1016/S1473-3099(24)00376-1. Epub 2024 Aug 5.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S1473-3099(24)00376-1.

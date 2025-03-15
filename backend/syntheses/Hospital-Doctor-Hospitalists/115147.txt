@@ -1,0 +1,22 @@
+Date de publication : 2025-02-25
+
+# 📝 Biomarqueurs pour guider la durée de l'antibiothérapie chez les patients hospitalisés avec suspicion de sepsis
+
+## 📌 Contexte & Problématique
+L'utilisation de biomarqueurs comme la procalcitonine (PCT) et la protéine C-réactive (CRP) pourrait optimiser la durée des antibiothérapies dans le sepsis, mais leur impact clinique reste incertain.
+
+## 🧪 Méthodologie
+Essai clinique randomisé multicentrique incluant 2760 adultes dans 41 unités de soins intensifs britanniques, répartis en trois groupes : protocole guidé par PCT quotidienne (n=918), protocole guidé par CRP quotidienne (n=924), et soins standard (n=918).
+
+## 📊 Résultats clés
+La durée moyenne d'antibiothérapie était significativement réduite avec le protocole PCT (9,8 jours) versus soins standard (10,7 jours) (différence: 0,88 jours; p=0,01). Le protocole PCT a démontré sa non-infériorité en termes de mortalité à 28 jours (20,9% vs 19,4%). Le protocole CRP n'a pas montré de différence significative dans la durée antibiotique, avec des résultats non concluants sur la mortalité.
+
+## 🩺 Impact clinique
+Le suivi de la PCT permet de réduire en toute sécurité la durée d'antibiothérapie d'environ une journée chez les patients en soins critiques avec suspicion de sepsis, contrairement à la CRP.
+
+## Revue
+JAMA
+
+## 📖 Référence
+2025;333(8):682-693. doi:10.1001/jama.2024.26458
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jama.2024.26458.

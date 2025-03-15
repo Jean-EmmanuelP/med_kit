@@ -1,0 +1,22 @@
+Date de publication : 2024-09-03
+
+# 📝 Traitements conservateurs dans la gestion des fractures vertébrales par compression douloureuses aiguës
+
+## 📌 Contexte & Problématique
+Les fractures vertébrales par compression (FVC) ostéoporotiques causent douleurs importantes et mobilité réduite. L'efficacité comparative des traitements conservateurs pour gérer la douleur aiguë reste insuffisamment étudiée.
+
+## 🧪 Méthodologie
+Revue systématique et méta-analyse en réseau de 20 essais cliniques randomisés (2102 patients) identifiés dans 4 bases de données. Évaluation des traitements conservateurs pour FVC aiguës, avec focus sur la douleur à court terme (4 semaines) et à long terme.
+
+## 📊 Résultats clés
+Pour la douleur à court terme, la calcitonine (DMS -4,86) et les AINS (anti-inflammatoires non stéroïdiens) (DMS -3,94) se sont montrés supérieurs au placebo. À long terme, la tériparatide (quotidienne ou hebdomadaire) a surpassé les bisphosphonates, sans supériorité démontrée par rapport aux AINS.
+
+## 🩺 Impact clinique
+Les AINS et la tériparatide apparaissent comme options préférentielles pour la gestion de la douleur des FVC aiguës. Malgré son efficacité, la calcitonine présente des limitations liées à son profil de sécurité. Des recherches supplémentaires sont nécessaires concernant les orthèses et analgésiques.
+
+## Revue
+JAMA Network Open
+
+## 📖 Référence
+2024;7(9):e2432041. doi:10.1001/jamanetworkopen.2024.32041
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamanetworkopen.2024.32041.

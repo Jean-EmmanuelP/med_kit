@@ -1,19 +1,22 @@
 Date de publication : 2024-03-13
 
-# 📝 Effets des maladies rénales rares sur l'insuffisance rénale : analyse du registre britannique RaDaR
+# 📝 Effets des maladies rénales rares sur l'insuffisance rénale : analyse longitudinale de la cohorte RaDaR au Royaume-Uni
 
 ## 📌 Contexte & Problématique
-Les maladies rénales rares représentent 5-10% des cas de maladie rénale chronique mais >25% des patients sous suppléance rénale. Cette étude analyse la progression et les résultats cliniques de ces pathologies via le registre national britannique.
+Les maladies rénales rares représentent 5-10% des cas de maladie rénale chronique (MRC) mais >25% des patients sous traitement de suppléance rénale. Cette étude analyse leur progression et leurs résultats cliniques.
 
 ## 🧪 Méthodologie
-Étude longitudinale incluant 27 285 patients (0-96 ans) atteints de 28 types de maladies rénales rares, recrutés dans 108 centres au Royaume-Uni (2010-2022). Suivi médian post-diagnostic: 9,6 ans.
+Étude de 27 285 patients (0-96 ans) atteints de 28 types de maladies rénales rares, recrutés dans 108 établissements britanniques entre 2010-2022. Suivi médian de 9,6 ans. Comparaison avec 2,81 millions de patients MRC toutes causes.
 
 ## 📊 Résultats clés
-L'incidence d'insuffisance rénale à 5 ans était significativement plus élevée chez les patients RaDaR que dans la population MRC générale (28% vs 1%; p<0,0001). Paradoxalement, leur survie était meilleure (ratio de mortalité standardisé: 0,42 [IC95%: 0,32-0,52]). L'évolution clinique variait considérablement selon les pathologies.
+Les patients RaDaR présentent une incidence d'insuffisance rénale à 5 ans significativement plus élevée (28% vs 1%, p<0,0001) mais une meilleure survie (ratio de mortalité standardisé 0,42 [IC 95% 0,32-0,52]). L'âge à l'insuffisance rénale, l'âge au décès et la progression du DFGe (débit de filtration glomérulaire estimé) varient considérablement selon les pathologies.
 
 ## 🩺 Impact clinique
-Ces patients constituent une population distincte avec un risque d'insuffisance rénale terminale élevé mais une meilleure survie. Cibler thérapeutiquement ces maladies pourrait réduire significativement le besoin de suppléance rénale.
+Les patients atteints de maladies rénales rares sont surreprésentés dans la population nécessitant un traitement de suppléance rénale. Développer des thérapies ciblées pourrait réduire significativement la demande à long terme de ces traitements.
+
+## Revue
+Lancet
 
 ## 📖 Référence
-Wong K, Pitcher D, Braddon F, et al. Lancet. 2024;403(10433):1279-1289.
+2024;403(10433):1279-1289. doi:10.1016/S0140-6736(23)02843-X
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S0140-6736(23)02843-X.

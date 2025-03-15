@@ -1,0 +1,26 @@
+Date de publication : 2024-11-13
+
+# 📝 Acide tranexamique pour la prévention de l'hémorragie post-partum après césarienne
+
+## 📌 Contexte & Problématique
+L'hémorragie du post-partum (HPP) est une complication fréquente et potentiellement mortelle. L'acide tranexamique (TXA) est efficace pour traiter l'HPP, mais son utilisation prophylactique lors des césariennes reste à clarifier.
+
+## 🧪 Méthodologie
+Revue systématique de 6 essais contrôlés randomisés (ECR) incluant 15 981 participantes, principalement à faible risque d'HPP dans des contextes à ressources élevées. Méta-analyse à effets aléatoires et évaluation GRADE de la certitude des preuves.
+
+## 📊 Résultats clés
+- Perte sanguine estimée ≥1000 mL : pas de différence significative (RR 0,94; IC 95% 0,79-1,11)
+- Perte sanguine calculée ≥1000 mL : légère réduction (RR 0,83; IC 95% 0,76-0,92)
+- Transfusions sanguines : pas de différence significative (RR 0,88; IC 95% 0,72-1,08)
+- Interventions chirurgicales supplémentaires : pas de différence (RR 1,02; IC 95% 0,86-1,22)
+- Besoin d'utérotoniques supplémentaires : pas de différence significative (RR 0,88; IC 95% 0,78-1,00)
+
+## 🩺 Impact clinique
+Le TXA prophylactique n'apporte que peu ou pas de bénéfice cliniquement significatif pour la prévention de l'HPP après césarienne, avec des preuves insuffisantes concernant les événements thromboemboliques et l'hystérectomie.
+
+## Revue
+Cochrane Database of Systematic Reviews
+
+## 📖 Référence
+2024 Nov 13;11(11):CD016278. doi: 10.1002/14651858.CD016278.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1002/14651858.CD016278.

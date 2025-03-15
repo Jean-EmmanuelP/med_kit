@@ -1,19 +1,22 @@
 Date de publication : 2024-03-18
 
-# 📝 Suivi individualisé par des infirmières versus visites médicales régulières après cancer du sein précoce
+# 📝 Suivi individualisé par infirmières versus visites médicales régulières après cancer du sein précoce
 
 ## 📌 Contexte & Problématique
-Le suivi conventionnel post-cancer du sein présente des limites en termes de détection des récidives, de rentabilité et de réponse aux besoins des patientes.
+Le suivi conventionnel post-cancer du sein par visites médicales régulières présente des lacunes dans la détection des récidives, le rapport coût-efficacité et la satisfaction des besoins des patientes.
 
 ## 🧪 Méthodologie
-Essai randomisé contrôlé de phase III incluant 503 patientes (stade I-II) réparties entre suivi par infirmières (n=251) et suivi médical standard (n=252). L'intervention infirmière comprenait des séances d'auto-gestion, un signalement des symptômes et une orientation vers les services appropriés.
+Essai randomisé contrôlé de phase III (MyHealth) comparant un suivi par infirmières (séances d'auto-gestion, signalement de symptômes, orientation vers services appropriés) au suivi médical standard chez 503 patientes atteintes d'un cancer du sein stade I-II. Critère principal : qualité de vie (QdV) à 2 ans.
 
 ## 📊 Résultats clés
-À 2 ans, le groupe intervention présentait une qualité de vie significativement supérieure (75,69 vs 71,26; différence: 5,05; p<0,001), moins de peur de récidive, d'anxiété et de dépression. Les patientes ont eu moins de consultations médicales mais plus de contacts infirmiers, sans modification du schéma d'imagerie. Effets maintenus à 3 ans.
+Le groupe intervention a présenté une QdV significativement supérieure (75,69 vs 71,26; différence +5,05; p<0,001), moins de peur de récidive, d'anxiété et de dépression. Ces patientes ont eu moins de consultations médicales mais plus de contacts infirmiers, sans augmentation de l'imagerie diagnostique. Les bénéfices se sont maintenus à 3 ans.
 
 ## 🩺 Impact clinique
-Cette approche offre une alternative efficace au suivi conventionnel, améliorant significativement la qualité de vie des patientes après cancer du sein précoce.
+Cette approche représente une alternative prometteuse au suivi conventionnel, améliorant significativement la QdV des patientes après un cancer du sein précoce.
+
+## Revue
+Journal of Clinical Oncology
 
 ## 📖 Référence
-Saltbaek L, Bidstrup PE, Karlsen RV, et al. J Clin Oncol. 2024;42(17):2038-2049.
+2024;42(17):2038-2049. doi:10.1200/JCO.23.01447. Epub 2024 Mar 18.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO.23.01447.

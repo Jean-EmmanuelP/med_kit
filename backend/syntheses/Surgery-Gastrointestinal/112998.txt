@@ -1,0 +1,22 @@
+Date de publication : 2023-11-23
+
+# 📝 Neuromodulation sacrée versus traitement conservateur pour la constipation idiopathique à transit lent réfractaire
+
+## 📌 Contexte & Problématique
+La constipation idiopathique à transit lent (CTL) réfractaire représente un défi thérapeutique. Les données sur l'efficacité de la neuromodulation sacrée (NMS) sont contradictoires et de qualité méthodologique limitée.
+
+## 🧪 Méthodologie
+Essai randomisé multicentrique (No.2-Trial) comparant NMS (n=41) versus traitement conservateur personnalisé (TCP) (n=26) chez 67 patients souffrant de CTL idiopathique réfractaire (défécation <3/semaine). Critère principal : succès thérapeutique (défécation ≥3/semaine) à 6 mois.
+
+## 📊 Résultats clés
+Succès thérapeutique : 53,7% (NMS) contre 3,8% (TCP) (rapport de cotes 36,4, IC 95% 3,4-387,5, p=0,003). Amélioration significative de la sévérité de la constipation, de la fatigue et de la qualité de vie dans le groupe NMS (p<0,001). Événements indésirables : 6 graves et 68 non graves (NMS) versus 2 graves et 10 non graves (TCP).
+
+## 🩺 Impact clinique
+La NMS constitue une option chirurgicale prometteuse pour les adultes et adolescents souffrant de CTL idiopathique réfractaire aux traitements conservateurs.
+
+## Revue
+Annals of Surgery
+
+## 📖 Référence
+2024;279(5):746-754. doi:10.1097/SLA.0000000000006158. Epub 2023 Nov 23.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1097/SLA.0000000000006158.

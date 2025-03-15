@@ -1,0 +1,22 @@
+Date de publication : 2025-02-01
+
+# 📝 Interventions psychologiques pour le TSPT pédiatrique : méta-analyse en réseau
+
+## 📌 Contexte & Problématique
+Le trouble de stress post-traumatique (TSPT) pédiatrique est fréquent et invalidant, nécessitant une synthèse complète des interventions psychologiques disponibles.
+
+## 🧪 Méthodologie
+Revue systématique et méta-analyse en réseau de 70 essais cliniques randomisés (N=5528) évaluant diverses interventions psychologiques pour le TSPT chez les moins de 19 ans. Recherche dans PsycINFO, MEDLINE, Web of Science et PTSDpubs jusqu'en janvier 2024.
+
+## 📊 Résultats clés
+Les thérapies cognitivo-comportementales axées sur le trauma (TCC-AT) montrent les réductions les plus importantes de la sévérité du TSPT (g=1,06), suivies par les interventions non axées sur le trauma (g=0,95), les traitements multidisciplinaires (g=0,88) et l'EMDR (désensibilisation et retraitement par mouvements oculaires) (g=0,86). Les bénéfices des TCC-AT persistent à court, moyen et long terme.
+
+## 🩺 Impact clinique
+Les TCC-AT constituent le traitement de premier choix pour le TSPT pédiatrique, avec des effets durables. La participation parentale renforce leur efficacité par rapport aux approches non axées sur le trauma.
+
+## Revue
+JAMA Psychiatry
+
+## 📖 Référence
+2025;82(2):130-141. doi:10.1001/jamapsychiatry.2024.3908
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamapsychiatry.2024.3908.

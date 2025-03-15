@@ -1,0 +1,25 @@
+Date de publication : 2025-01-16
+
+# 📝 Daratumumab-lénalidomide versus lénalidomide seul en entretien post-greffe dans le myélome multiple nouvellement diagnostiqué
+
+## 📌 Contexte & Problématique
+L'étude AURIGA évalue l'association daratumumab-lénalidomide (D-R) versus lénalidomide (R) seul en entretien post-greffe chez des patients atteints de myélome multiple nouvellement diagnostiqué (NDMM), avec très bonne réponse partielle ou mieux, positifs pour la maladie résiduelle minimale (MRD) et naïfs aux anti-CD38.
+
+## 🧪 Méthodologie
+Essai randomisé de phase 3 (1:1) comparant D-R (n=99) à R (n=101) en entretien pendant maximum 36 cycles. Critère principal : taux de conversion en MRD négative (10^-5) à 12 mois.
+
+## 📊 Résultats clés
+- Taux de conversion en MRD négative (10^-5) à 12 mois : 50,5% (D-R) vs 18,8% (R), p<0,0001
+- Taux global de conversion en MRD négative après suivi médian de 32,3 mois : 60,6% vs 27,7%
+- Survie sans progression (PFS) à 30 mois : 82,7% vs 66,4%
+- Cytopénies grade 3/4 : 54,2% vs 46,9%
+
+## 🩺 Impact clinique
+L'association D-R améliore significativement la conversion en MRD négative et la PFS par rapport au traitement standard, sans nouveaux problèmes de sécurité, offrant une option thérapeutique supérieure en entretien post-greffe.
+
+## Revue
+Blood
+
+## 📖 Référence
+2025 Jan 16;145(3):300-310. doi: 10.1182/blood.2024025746.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1182/blood.2024025746.

@@ -1,0 +1,26 @@
+Date de publication : 2024-12-06
+
+# 📝 Implémentation d'une ressource pour améliorer la gestion de la douleur procédurale chez les nourrissons
+
+## 📌 Contexte & Problématique
+La gestion inadéquate de la douleur procédurale reste problématique dans les unités de soins intensifs néonatals (USIN). L'étude évalue l'efficacité d'ImPaC, une ressource web multidimensionnelle conçue pour améliorer ces pratiques.
+
+## 🧪 Méthodologie
+Étude hybride de type 1 combinant un essai contrôlé randomisé en grappes et une étude descriptive longitudinale. 23 USIN canadiennes (12 intervention, 11 soins habituels) ont participé avec analyses en intention de traiter et sur liste d'attente.
+
+## 📊 Résultats clés
+Le groupe intervention a présenté:
+- Moins de procédures douloureuses/nourrisson/jour (2,62 vs 3,85, p<0,001)
+- Plus d'évaluations de la douleur (34,7% vs 25,5%, p<0,001)
+- Scores d'intensité douloureuse inférieurs (1,47 vs 1,86, p=0,029)
+- Augmentation des traitements basés sur les preuves
+
+## 🩺 Impact clinique
+La ressource ImPaC démontre son efficacité pour réduire la fréquence des procédures douloureuses et améliorer l'évaluation et le traitement de la douleur néonatale, avec une corrélation entre fidélité d'implémentation et résultats cliniques.
+
+## Revue
+Pain
+
+## 📖 Référence
+2024 Dec 6. doi: 10.1097/j.pain.0000000000003496.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1097/j.pain.0000000000003496.

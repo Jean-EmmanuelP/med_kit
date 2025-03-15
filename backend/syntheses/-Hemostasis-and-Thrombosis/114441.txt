@@ -3,20 +3,23 @@ Date de publication : 2024-09-10
 # 📝 Thrombolyse après neutralisation du dabigatran dans l'AVC ischémique aigu
 
 ## 📌 Contexte & Problématique
-Peu de données existent sur la sécurité de la thrombolyse intraveineuse (TIV) après neutralisation du dabigatran par l'idarucizumab chez les patients victimes d'accident ischémique cérébral (AIC) aigu.
+Les données sur la sécurité de la thrombolyse intraveineuse (TIV) pour l'accident vasculaire cérébral ischémique aigu (AVCIA) après neutralisation du dabigatran par l'idarucizumab restent limitées.
 
 ## 🧪 Méthodologie
-Étude basée sur un registre national complétée par une méta-analyse de 13 cohortes et une série de cas, totalisant 553 patients (âge moyen 75 ans, 65% hommes, NIHSS médian 11) ayant reçu idarucizumab avant TIV.
+Étude basée sur un registre national, complétée par une revue systématique et méta-analyse de 13 cohortes incluant 553 patients (âge moyen: 75 ans; 65% hommes; NIHSS médian: 11) ayant reçu de l'idarucizumab avant TIV.
 
 ## 📊 Résultats clés
-Taux d'hémorragie intracrânienne symptomatique: 4% (IC 95% 1-9%)
-Taux d'hémorragie intracrânienne totale: 10% (IC 95% 5-16%)
-Mortalité à 3 mois: 18% (IC 95% 10-27%)
-Bon résultat fonctionnel à 3 mois: 70% (IC 95% 57-81%)
+Taux d'hémorragie intracrânienne symptomatique (HISy): 4% (IC 95%: 1-9%)
+Taux de toute hémorragie intracrânienne: 10% (IC 95%: 5-16%)
+Mortalité à 3 mois: 18% (IC 95%: 10-27%)
+Bon résultat fonctionnel (mRS 0-2) à 3 mois: 70% (IC 95%: 57-81%)
 
 ## 🩺 Impact clinique
-La TIV après neutralisation du dabigatran semble sûre et efficace, avec un risque hémorragique comparable aux patients sans dabigatran et une probabilité plus élevée de bon résultat fonctionnel (RR 1,35; IC 95% 1,11-1,65).
+La TIV après neutralisation du dabigatran semble sûre et efficace dans les études observationnelles. L'administration d'idarucizumab était associée à une probabilité plus élevée d'obtenir un bon résultat fonctionnel à 3 mois (RR 1,35; IC 95%: 1,11-1,65).
+
+## Revue
+Neurology
 
 ## 📖 Référence
-Theodorou A, Melanis K, Bakola E, et al. Neurology. 2024;103(7):e209862.
+2024;103(7):e209862. doi:10.1212/WNL.0000000000209862. Epub 2024 Sep 10.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1212/WNL.0000000000209862.

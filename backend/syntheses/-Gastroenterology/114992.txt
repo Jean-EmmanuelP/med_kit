@@ -3,17 +3,20 @@ Date de publication : 2024-11-21
 # 📝 Efficacité et sécurité du mirikizumab dans la maladie de Crohn modérée à sévère
 
 ## 📌 Contexte & Problématique
-Le mirikizumab, anticorps monoclonal anti-IL-23p19 déjà efficace dans la colite ulcéreuse, a été évalué chez des patients atteints de maladie de Crohn active modérée à sévère ayant présenté une réponse inadéquate ou une intolérance aux traitements conventionnels ou biologiques.
+Le mirikizumab, anticorps monoclonal anti-IL-23p19 déjà efficace dans la colite ulcéreuse, a été évalué chez des patients atteints de maladie de Crohn (MC) modérée à sévère ayant présenté une réponse inadéquate, une perte de réponse ou une intolérance aux traitements conventionnels ou biologiques.
 
 ## 🧪 Méthodologie
-Étude VIVID-1 de phase 3, randomisée, en double aveugle, multicentrique (33 pays), comparant mirikizumab (n=579), ustekinumab (n=287) et placebo (n=199) sur 52 semaines.
+Étude VIVID-1 de phase 3, randomisée, en double aveugle, multicentrique (33 pays), comparant mirikizumab (900mg IV puis 300mg SC), ustekinumab (≈6mg/kg IV puis 90mg SC) et placebo chez 1065 patients. Critères principaux : réponse clinique selon PRO (résultats rapportés par patients) à S12 + réponse endoscopique à S52, et réponse clinique PRO à S12 + rémission CDAI (indice d'activité de la MC) à S52.
 
 ## 📊 Résultats clés
-Les critères co-primaires ont été atteints : réponse endoscopique-composite à S52 chez 38,0% des patients sous mirikizumab vs 9,0% sous placebo (p<0,0001) ; rémission clinique CDAI-composite à S52 chez 45,4% sous mirikizumab vs 19,6% sous placebo (p<0,0001). Les événements indésirables graves concernaient 10,3% des patients sous mirikizumab vs 17,1% sous placebo.
+Le mirikizumab a été supérieur au placebo pour les deux critères principaux : composite de réponse endoscopique (38,0% vs 9,0%, p<0,0001) et composite de rémission clinique CDAI (45,4% vs 19,6%, p<0,0001). Le profil de sécurité était favorable, avec moins d'événements indésirables qu'avec le placebo.
 
 ## 🩺 Impact clinique
-Le mirikizumab démontre un profil d'efficacité et de sécurité favorable comme traitement d'induction et d'entretien pour les patients atteints de maladie de Crohn modérée à sévère réfractaire aux traitements standards.
+Le mirikizumab constitue une option thérapeutique efficace et sûre, tant en induction qu'en entretien, pour les patients atteints de MC modérée à sévère réfractaire aux traitements standards.
+
+## Revue
+Lancet
 
 ## 📖 Référence
-Ferrante M, D'Haens G, Jairath V, et al. Lancet. 2024;404(10470):2423-2436.
+2024;404(10470):2423-2436. doi:10.1016/S0140-6736(24)01762-8. Epub 2024 Nov 21.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S0140-6736(24)01762-8.

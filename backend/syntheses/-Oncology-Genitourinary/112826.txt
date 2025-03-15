@@ -1,19 +1,22 @@
 Date de publication : 2024-03-26
 
-# 📝 Pazopanib après métastasectomie dans le carcinome rénal métastatique : absence de bénéfice et signal de survie défavorable
+# 📝 Pazopanib après métastasectomie dans le carcinome rénal métastatique : pas de bénéfice en survie
 
 ## 📌 Contexte & Problématique
-Les patients sans évidence de maladie (NED) après métastasectomie pour carcinome rénal métastatique (CCRm) présentent un risque élevé de récidive. Cette étude évalue l'efficacité du pazopanib comme traitement adjuvant.
+Les patients sans signe de maladie (NED) après métastasectomie pour carcinome à cellules rénales métastatique (CCRm) présentent un risque élevé de récidive. Cette étude évalue si le pazopanib, inhibiteur du récepteur du facteur de croissance de l'endothélium vasculaire, améliore la survie sans maladie (SSM) chez ces patients.
 
 ## 🧪 Méthodologie
-Essai randomisé, double-aveugle, contrôlé par placebo. 129 patients NED après métastasectomie ont reçu pazopanib 800 mg/jour ou placebo pendant 52 semaines. Objectif : améliorer la survie sans maladie (SSM) à 3 ans de 25% à 45%.
+Essai multicentrique randomisé en double aveugle comparant pazopanib 800 mg/jour versus placebo pendant 52 semaines chez 129 patients NED après métastasectomie (2012-2017).
 
 ## 📊 Résultats clés
-Après suivi médian de 60,5 mois, SSM à 3 ans : 27,4% (pazopanib) vs 21,9% (placebo), HR=0,90 (IC 95% 0,60-1,34; p=0,29). Survie globale à 3 ans : 81,9% (pazopanib) vs 91,4% (placebo), HR=2,55 (IC 95% 1,23-5,27; p=0,012). Détérioration de la qualité de vie sous pazopanib.
+Avec un suivi médian de 60,5 mois, la SSM à 3 ans était de 27,4% pour le pazopanib et 21,9% pour le placebo (HR=0,90; IC 95%: 0,60-1,34; p=0,29). La survie globale (SG) à 3 ans était significativement meilleure dans le groupe placebo (91,4% vs 81,9%; HR=2,55; IC 95%: 1,23-5,27; p=0,012). La qualité de vie s'est détériorée sous pazopanib.
 
 ## 🩺 Impact clinique
-Le pazopanib n'améliore pas la SSM après métastasectomie dans le CCRm et montre une tendance préoccupante vers une survie globale inférieure. Ce traitement adjuvant n'est pas recommandé dans ce contexte.
+Le pazopanib n'apporte pas de bénéfice en SSM après métastasectomie dans le CCRm et pourrait avoir un impact négatif sur la survie globale et la qualité de vie.
+
+## Revue
+Journal of Clinical Oncology
 
 ## 📖 Référence
-Appleman LJ, Kim SE, Harris WB, et al. J Clin Oncol. 2024;42(17):2061-2070.
+2024;42(17):2061-2070. doi:10.1200/JCO.23.01544
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO.23.01544.

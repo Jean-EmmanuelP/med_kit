@@ -1,0 +1,22 @@
+Date de publication : 2025-01-02
+
+# 📝 Augmentation du traitement de la cystite interstitielle par méditation et yoga : essai contrôlé randomisé
+
+## 📌 Contexte & Problématique
+Évaluation de l'efficacité de l'ajout du yoga et de la méditation aux soins standard chez les femmes atteintes de cystite interstitielle-syndrome de douleur vésicale (CI-SDV).
+
+## 🧪 Méthodologie
+Essai randomisé comparant deux groupes de femmes atteintes de CI-SDV : soins standard seuls (groupe témoin) versus soins standard plus méditation et yoga (groupe corps-esprit). Le critère principal était l'Évaluation Globale de la Réponse modifiée (GRA) à 12 semaines.
+
+## 📊 Résultats clés
+Sur 97 participantes randomisées, le groupe corps-esprit a montré significativement plus de répondeurs GRA (72,1% contre 25,6%, RR 2,8, IC 95% 1,6-4,6). Amélioration supérieure des scores ICPI (Indice de Problème de Cystite Interstitielle), ICSI (Indice de Symptôme de Cystite Interstitielle) et douleur. Moins d'intensification de traitement requise (4,4% contre 33,3%).
+
+## 🩺 Impact clinique
+L'intégration de méditation et yoga aux soins standard de CI-SDV améliore significativement la réponse au traitement et réduit le besoin d'interventions supplémentaires.
+
+## Revue
+Obstetrics & Gynecology
+
+## 📖 Référence
+2025;145(2):186-195. doi:10.1097/AOG.0000000000005820. Essai clinique enregistré: NCT04820855.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1097/AOG.0000000000005820.

@@ -1,0 +1,22 @@
+Date de publication : 2025-02-03
+
+# 📝 Eskétamine peropératoire et dépression post-partum lors des césariennes
+
+## 📌 Contexte & Problématique
+La dépression post-partum (DPP) représente une complication fréquente après césarienne. L'eskétamine a montré des résultats prometteurs dans des essais contrôlés, mais son efficacité en contexte clinique réel restait à confirmer.
+
+## 🧪 Méthodologie
+Essai clinique randomisé (1:1) mené en Chine (2023-2024) auprès de 308 femmes subissant une césarienne. Groupe intervention : perfusion d'eskétamine (0,25 mg/kg dans 20 mL de solution saline) versus groupe contrôle (solution saline seule). Évaluation de la DPP à 6 semaines post-partum via l'Échelle de Dépression Postnatale d'Édimbourg.
+
+## 📊 Résultats clés
+Incidence significativement réduite de DPP dans le groupe eskétamine (10,4%) comparé au groupe contrôle (19,5%) à 6 semaines post-partum (risque relatif : 0,53 ; IC 95% : 0,30-0,93 ; p=0,02).
+
+## 🩺 Impact clinique
+L'administration peropératoire d'eskétamine lors des césariennes pourrait constituer une stratégie préventive efficace contre la DPP, offrant une option thérapeutique supplémentaire pour améliorer la santé mentale maternelle.
+
+## Revue
+JAMA Network Open
+
+## 📖 Référence
+2025 Feb 3;8(2):e2459331. doi: 10.1001/jamanetworkopen.2024.59331.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamanetworkopen.2024.59331.

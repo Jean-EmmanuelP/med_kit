@@ -1,19 +1,22 @@
 Date de publication : 2024-04-10
 
-# 📝 Moustiques porteurs de Wolbachia pour prévenir la dengue : une solution prometteuse
+# 📝 Moustiques Aedes porteurs de Wolbachia pour prévenir la dengue
 
 ## 📌 Contexte & Problématique
-La dengue menace 3,9 milliards de personnes mondialement. La bactérie Wolbachia, introduite chez les moustiques Aedes, pourrait inhiber la réplication du virus et réduire sa transmission, offrant une stratégie potentiellement auto-entretenue.
+La dengue menace 3,9 milliards de personnes mondialement. La bactérie Wolbachia, introduite chez les moustiques Aedes, pourrait réduire leur capacité à transmettre le virus de la dengue (DENV) en inhibant sa réplication, offrant une stratégie potentiellement auto-entretenue de prévention.
 
 ## 🧪 Méthodologie
-Revue systématique Cochrane incluant un essai contrôlé randomisé en grappes (ECRG) mené à Yogyakarta, Indonésie. L'étude a utilisé un design test-négatif avec des participants âgés de 3 à 45 ans présentant de la fièvre.
+Revue systématique des essais contrôlés randomisés évaluant l'efficacité des déploiements d'Aedes porteurs de Wolbachia. Recherche dans CENTRAL, MEDLINE, Embase et autres bases jusqu'au 24/01/2024. Évaluation du risque de biais avec RoB 2 et certitude des preuves avec GRADE.
 
 ## 📊 Résultats clés
-Le déploiement d'Aedes aegypti infectés par Wolbachia wMel réduit probablement les chances d'infection par la dengue de 77% (OR 0,23, IC 95% 0,15-0,35). La prévalence de moustiques porteurs de Wolbachia est restée élevée (95,8%) pendant 27 mois dans les zones d'intervention.
+Un essai contrôlé randomisé en grappes (ECRG) à Yogyakarta (Indonésie) montre que les déploiements d'Aedes aegypti infectés par Wolbachia wMel réduisent probablement les chances de dengue confirmée de 77% (RC 0,23, IC 95% 0,15-0,35; preuves de certitude modérée). La prévalence de moustiques porteurs de Wolbachia est restée élevée (95,8%) pendant 27 mois.
 
 ## 🩺 Impact clinique
-Cette approche montre un potentiel significatif pour prévenir la dengue en zones endémiques. Des essais supplémentaires dans divers contextes sont nécessaires pour confirmer l'applicabilité de ces résultats à d'autres régions et évaluer l'acceptabilité et les coûts.
+Cette intervention pourrait significativement réduire l'incidence de la dengue dans les zones endémiques. Des essais supplémentaires dans divers contextes sont nécessaires pour confirmer l'applicabilité de ces résultats, ainsi qu'une meilleure documentation de l'acceptabilité et des coûts.
+
+## Revue
+Cochrane Database of Systematic Reviews
 
 ## 📖 Référence
-Fox T, Sguassero Y, Chaplin M, et al. Cochrane Database Syst Rev. 2024;4(4):CD015636.
+2024;4(4):CD015636. doi:10.1002/14651858.CD015636.pub2
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1002/14651858.CD015636.pub2.

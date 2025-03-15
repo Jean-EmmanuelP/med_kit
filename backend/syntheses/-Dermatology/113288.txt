@@ -3,17 +3,20 @@ Date de publication : 2024-05-22
 # 📝 Efficacité et sécurité du bimekizumab dans l'hidradénite suppurée modérée à sévère
 
 ## 📌 Contexte & Problématique
-L'hidradénite suppurée modérée à sévère dispose d'options thérapeutiques limitées. Le bimekizumab, anticorps monoclonal inhibant sélectivement l'IL-17F et l'IL-17A, a été évalué comme nouvelle option thérapeutique.
+L'hidradénite suppurée modérée à sévère présente des besoins thérapeutiques non satisfaits importants. Cette étude évalue le bimekizumab, un anticorps monoclonal inhibant sélectivement l'IL-17F et l'IL-17A, comme nouvelle option thérapeutique.
 
 ## 🧪 Méthodologie
-Deux essais de phase 3 (BE HEARD I et II) multicentriques, randomisés, en double aveugle, contrôlés par placebo sur 48 semaines. Patients adultes randomisés pour recevoir bimekizumab 320 mg SC selon différents schémas posologiques. Critère principal : réduction ≥50% du nombre d'abcès et nodules inflammatoires à 16 semaines (HiSCR50).
+Deux essais cliniques de phase 3 identiques (BE HEARD I et II), multicentriques, randomisés, en double aveugle, contrôlés par placebo, sur 48 semaines. Les patients ont reçu du bimekizumab 320 mg selon différents schémas posologiques ou un placebo. Le critère principal était l'obtention d'une réduction ≥50% du nombre d'abcès et nodules inflammatoires (HiSCR50) à la semaine 16.
 
 ## 📊 Résultats clés
-À 16 semaines, HiSCR50 significativement supérieur avec bimekizumab vs placebo : 48% vs 29% (BE HEARD I, p=0,0060) et 52% vs 32% (BE HEARD II, p=0,0032). Réponses maintenues ou améliorées jusqu'à 48 semaines. Événements indésirables graves : 8% (BE HEARD I) et 5% (BE HEARD II). Effets secondaires principaux : hidradénite, candidose orale.
+Le bimekizumab toutes les 2 semaines a démontré une supériorité significative versus placebo à la semaine 16 : 48% vs 29% (BE HEARD I) et 52% vs 32% (BE HEARD II). Dans BE HEARD II, le schéma toutes les 4 semaines était également efficace (54% vs 32%). Les réponses se sont maintenues ou améliorées jusqu'à la semaine 48. Les effets indésirables les plus fréquents incluaient l'hidradénite, la candidose orale et les céphalées.
 
 ## 🩺 Impact clinique
-Le bimekizumab démontre une efficacité rapide et durable avec un profil de sécurité acceptable, offrant une nouvelle option thérapeutique prometteuse pour l'hidradénite suppurée modérée à sévère.
+Le bimekizumab offre une option thérapeutique efficace et bien tolérée pour l'hidradénite suppurée modérée à sévère, avec des réponses rapides, significatives et durables jusqu'à 48 semaines.
+
+## Revue
+Lancet
 
 ## 📖 Référence
-Kimball AB, Jemec GBE, Sayed CJ, et al. Lancet. 2024;403(10443):2504-2519.
+2024;403(10443):2504-2519. doi:10.1016/S0140-6736(24)00101-6. Epub 2024 May 22.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S0140-6736(24)00101-6.

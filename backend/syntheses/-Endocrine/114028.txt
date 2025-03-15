@@ -1,19 +1,22 @@
 Date de publication : 2024-10-01
 
-# 📝 Boucle fermée d'insuline chez les patients DT2 sous pompe : essai randomisé croisé
+# 📝 Thérapie en boucle fermée pour le diabète de type 2 traité par pompe à insuline
 
 ## 📌 Contexte & Problématique
-L'efficacité de la thérapie en boucle fermée reste insuffisamment évaluée chez les patients diabétiques de type 2 sous pompe à insuline, malgré les bénéfices connus de l'association PSCI+CGM.
+L'efficacité de la thérapie en boucle fermée chez les patients atteints de diabète de type 2 (DT2) sous pompe à insuline nécessitait une évaluation approfondie, au-delà des bénéfices déjà démontrés de la surveillance continue du glucose (CGM) associée à la perfusion continue d'insuline sous-cutanée (CSII).
 
 ## 🧪 Méthodologie
-Étude multicentrique randomisée croisée (2022-2023) comparant 6 semaines de boucle fermée hybride (DBLG1) versus PSCI+CGM chez 17 patients DT2 sous pompe. Critère principal : temps dans la cible (70-180 mg/dL). Mesures secondaires : métriques CGM, activité physique et sommeil par actimétrie.
+Étude randomisée contrôlée croisée multicentrique (2022-2023) comparant un dispositif en boucle fermée hybride (DBLG1) à CSII+CGM chez 17 patients DT2 déjà sous pompe. Critère principal : temps dans la plage cible (TIR: 70-180 mg/dL). Mesures secondaires incluant paramètres glycémiques, activité physique et sommeil.
 
 ## 📊 Résultats clés
-Population : âge moyen 63±9 ans, 35% femmes, HbA1c initiale 7,9±0,9%. TIR significativement supérieur sous boucle fermée (76,0% vs 61,0% ; différence +15,0 points ; p<0,001). Réduction du temps au-dessus de la cible et de la variabilité glycémique. Amélioration de la fragmentation du sommeil sous boucle fermée.
+Le TIR a significativement augmenté avec la boucle fermée (76,0% vs 61,0% avec CSII+CGM; différence +15,0 points; p<0,001). Réduction du temps au-dessus de la cible et de la variabilité glycémique. Amélioration de la fragmentation du sommeil sous boucle fermée.
 
 ## 🩺 Impact clinique
-La thérapie en boucle fermée améliore significativement le contrôle glycémique et la qualité du sommeil chez les patients DT2 sous pompe à insuline comparativement à l'association PSCI+CGM conventionnelle.
+La thérapie en boucle fermée offre un contrôle glycémique supérieur à la CSII+CGM chez les patients DT2, avec des bénéfices potentiels sur la qualité du sommeil.
+
+## Revue
+Diabetes Care
 
 ## 📖 Référence
-Borel AL, Lablanche S, Waterlot C, et al. Diabetes Care. 2024;47(10):1778-1786.
+2024;47(10):1778-1786. doi:10.2337/dc24-0623
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.2337/dc24-0623.

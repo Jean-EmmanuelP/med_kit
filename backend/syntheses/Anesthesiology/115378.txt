@@ -1,0 +1,22 @@
+Date de publication : 2024-12-25
+
+# 📝 Timing de la dexaméthasone IV et analgésie après bloc du plexus brachial
+
+## 📌 Contexte & Problématique
+L'administration de dexaméthasone intraveineuse (IV) prolonge l'analgésie après bloc du plexus brachial, mais le moment optimal d'administration reste indéterminé.
+
+## 🧪 Méthodologie
+Essai randomisé, double-aveugle, contrôlé par placebo, comparant l'administration de 8 mg de dexaméthasone IV (ou placebo) à quatre moments différents : 1h avant, au moment du bloc, 1h ou 2h après le bloc supraclaviculaire.
+
+## 📊 Résultats clés
+Sur 158 patients analysés, aucune différence significative n'a été observée entre les groupes concernant le délai jusqu'à la première douleur (p=0,904), les scores de douleur, la consommation d'opioïdes, la récupération du bloc ou les effets indésirables jusqu'à 3 mois post-opératoires.
+
+## 🩺 Impact clinique
+L'administration de dexaméthasone IV périopératoire (de 1h avant à 2h après le bloc) offre une efficacité analgésique comparable, permettant une flexibilité dans le timing d'administration.
+
+## Revue
+Regional Anesthesia & Pain Medicine
+
+## 📖 Référence
+2024 Dec 25:rapm-2024-105923. doi: 10.1136/rapm-2024-105923.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1136/rapm-2024-105923.

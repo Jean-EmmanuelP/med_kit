@@ -1,0 +1,26 @@
+Date de publication : 2024-07-10
+
+# 📝 Lentilles intraoculaires trifocales versus EDOF après extraction de cataracte
+
+## 📌 Contexte & Problématique
+La cataracte est la principale cause de cécité mondiale. Les lentilles intraoculaires (LIO) trifocales et à profondeur de champ étendue (EDOF) visent à réduire la dépendance aux lunettes à toutes distances. Cette revue compare l'efficacité de ces deux types de LIO.
+
+## 🧪 Méthodologie
+Revue systématique de 5 études comparant LIO trifocales (AcrySof IQ PanOptix, ATLISA Tri 839MP, FineVision Micro F) et EDOF (TECNIS Symfony ZXR00) chez 233 participants (466 yeux) avec suivi de 3-6 mois. Recherche dans CENTRAL, MEDLINE, Embase sans restriction de langue/date.
+
+## 📊 Résultats clés
+- Acuité visuelle de loin: pas de différence significative entre les groupes
+- Acuité visuelle de près: meilleure avec LIO trifocales (3% vs 30% avec vision pire que J2)
+- Indépendance vis-à-vis des lunettes: pas de différence significative
+- Fonction visuelle et aberrations (éblouissement, halos): résultats similaires
+- Complications: rares et comparables entre les groupes
+
+## 🩺 Impact clinique
+Les LIO trifocales offrent une meilleure vision de près que les EDOF, sans différence significative pour la vision de loin et la satisfaction des patients. Le choix doit être personnalisé selon les besoins visuels du patient.
+
+## Revue
+Cochrane Database of Systematic Reviews
+
+## 📖 Référence
+2024; 7(7): CD014891. doi: 10.1002/14651858.CD014891.pub2
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1002/14651858.CD014891.pub2.

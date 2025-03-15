@@ -1,0 +1,27 @@
+Date de publication : 2024-05-10
+
+# 📝 Effets d'un cocktail analgésique modifié sur la récupération après arthroplastie totale de hanche
+
+## 📌 Contexte & Problématique
+Évaluation de l'efficacité d'un cocktail analgésique modifié (ajout de sulfate de magnésium et bicarbonate de sodium au mélange ropivacaïne/épinéphrine/dexaméthasone) après arthroplastie totale de hanche (ATH).
+
+## 🧪 Méthodologie
+Essai clinique randomisé en double aveugle comparant le cocktail modifié au cocktail standard et évaluant les scores de douleur (EVA), la consommation d'analgésiques, la fonction articulaire et les effets indésirables.
+
+## 📊 Résultats clés
+- Consommation de morphine significativement réduite dans le groupe cocktail modifié (6,2±6,0 vs 14,2±6,4 mg à 24h, p<0,001)
+- Délai prolongé avant première analgésie de secours (23,7±10,3 vs 11,9±5,8 mg, p<0,001)
+- Scores EVA au repos inférieurs dans les 24h post-opératoires (p<0,050)
+- Meilleure amplitude articulaire et distance de marche au premier jour post-opératoire
+- Réduction des marqueurs inflammatoires
+- Incidence similaire d'effets indésirables entre les groupes
+
+## 🩺 Impact clinique
+Le cocktail analgésique modifié améliore l'analgésie postopératoire, réduit les besoins en opioïdes et accélère la récupération fonctionnelle précoce après ATH, sans augmenter les complications.
+
+## Revue
+Journal of Arthroplasty
+
+## 📖 Référence
+2024;39(10):2529-2535. doi:10.1016/j.arth.2024.05.019
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.arth.2024.05.019.

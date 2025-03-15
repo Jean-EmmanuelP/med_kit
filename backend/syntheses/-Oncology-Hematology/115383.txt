@@ -1,0 +1,22 @@
+Date de publication : 2025-01-07
+
+# 📝 Brentuximab Védotine en association pour le lymphome diffus à grandes cellules B en rechute
+
+## 📌 Contexte & Problématique
+Évaluation de l'efficacité et la sécurité du brentuximab védotine (BV) + lénalidomide (Len) + rituximab (R) versus placebo + Len + R chez les patients atteints de lymphome diffus à grandes cellules B (LDGCB) en rechute ou réfractaire (R/R).
+
+## 🧪 Méthodologie
+Essai ECHELON-3 de phase 3 randomisé, double aveugle, contrôlé par placebo, incluant 230 patients (112 BV+Len+R; 118 placebo+Len+R). Critère principal : survie globale (SG). Critères secondaires : survie sans progression (SSP) et taux de réponse objective (TRO).
+
+## 📊 Résultats clés
+Après 16,4 mois de suivi médian, la SG médiane était de 13,8 mois avec BV+Len+R contre 8,5 mois avec placebo+Len+R (HR=0,63; p=0,009). SSP médiane : 4,2 vs 2,6 mois (HR=0,53; p<0,001). TRO : 64% vs 42% (p<0,001). Taux de réponse complète : 40% vs 19%.
+
+## 🩺 Impact clinique
+L'association BV+Len+R offre un bénéfice significatif de survie avec un profil de sécurité gérable chez les patients lourdement prétraités atteints de LDGCB R/R, représentant une option thérapeutique prometteuse pour cette population.
+
+## Revue
+Journal of Clinical Oncology
+
+## 📖 Référence
+2025 Jan 7:JCO2402242. doi: 10.1200/JCO-24-02242.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO-24-02242.

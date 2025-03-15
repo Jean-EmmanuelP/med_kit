@@ -1,0 +1,22 @@
+Date de publication : 2024-12-20
+
+# 📝 Thérapie par ondes de choc dans la tendinopathie d'insertion d'Achille : pas plus efficace qu'un placebo
+
+## 📌 Contexte & Problématique
+La tendinopathie d'insertion d'Achille est une pathologie chronique douloureuse. Cette étude évalue si l'ajout d'ondes de choc extracorporelles radiales (rESWT) aux exercices améliore les résultats cliniques par rapport à un placebo.
+
+## 🧪 Méthodologie
+Essai contrôlé randomisé monocentrique incluant 76 patients souffrant de tendinopathie d'insertion d'Achille depuis plus de 3 mois. Les participants ont reçu soit trois séances de rESWT, soit un placebo, tous accompagnés d'exercices et d'éducation identiques. Évaluations à l'inclusion, 6 et 12 semaines via le questionnaire VISA-A (Victorian Institute of Sports Assessment - Achilles).
+
+## 📊 Résultats clés
+Aucune différence significative entre les groupes rESWT et placebo à 6 semaines (différence de 3 points, IC 95% : -4,6 à 10,5) ou à 12 semaines (différence de 4,6 points, IC 95% : -2,5 à 11,6). Aucune différence pour les critères secondaires ni d'événements indésirables graves.
+
+## 🩺 Impact clinique
+L'ajout de rESWT aux exercices et à l'éducation n'apporte pas de bénéfice supplémentaire pour la douleur ou la fonction chez les patients atteints de tendinopathie d'insertion d'Achille.
+
+## Revue
+Clinical Rehabilitation
+
+## 📖 Référence
+2025 Feb;39(2):174-186. doi: 10.1177/02692155241295683. Epub 2024 Dec 20.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1177/02692155241295683.

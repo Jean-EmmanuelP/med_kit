@@ -1,0 +1,22 @@
+Date de publication : 2024-10-30
+
+# 📝 Lignes directrices cliniques pour les enfants et adolescents souffrant de dysphorie de genre : revue systématique des recommandations
+
+## 📌 Contexte & Problématique
+Augmentation des orientations d'enfants et adolescents souffrant de dysphorie/incongruence de genre (DG) vers des services spécialisés, avec diverses directives cliniques publiées sans consensus clair.
+
+## 🧪 Méthodologie
+Revue systématique avec synthèse narrative des recommandations pour la prise en charge des 0-18 ans souffrant de DG. Recherche dans cinq bases de données jusqu'en avril 2022, complétée par recherches web et consultations d'experts jusqu'en décembre 2022. Évaluation par l'outil AGREE (Appraisal of Guidelines for Research and Evaluation).
+
+## 📊 Résultats clés
+Identification de 23 publications de directives (1998-2022). Parcours de soins similaire : approche psychosociale pour enfants prépubères, bloqueurs de puberté puis hormones pour adolescents éligibles, chirurgies à l'âge adulte. Consensus sur l'évaluation multidisciplinaire des adolescents, mais divergences sur le moment et les critères d'intervention.
+
+## 🩺 Impact clinique
+Manque de consensus sur l'objectif et le processus d'évaluation, le moment optimal des interventions, la prise en charge des enfants prépubères et des identités non binaires, ainsi que sur la coordination entre services spécialisés et autres prestataires.
+
+## Revue
+Archives of Disease in Childhood
+
+## 📖 Référence
+2024;109(Suppl 2):s73-s82. doi:10.1136/archdischild-2023-326500
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1136/archdischild-2023-326500.

@@ -1,0 +1,22 @@
+Date de publication : 2024-08-31
+
+# 📝 Effet de MitraClip sur les hospitalisations des patients avec insuffisance cardiaque et régurgitation mitrale fonctionnelle
+
+## 📌 Contexte & Problématique
+Les essais randomisés de réparation transcathéter bord à bord de la valve mitrale (M-TEER) ont produit des résultats contradictoires chez les patients atteints de régurgitation mitrale fonctionnelle (RMF) et d'insuffisance cardiaque (IC) symptomatique.
+
+## 🧪 Méthodologie
+L'étude RESHAPE-HF2 a évalué l'impact de la M-TEER chez des patients avec IC symptomatique et RMF modérée à sévère, avec analyse spécifique du sous-groupe (n=333) ayant été hospitalisé pour IC dans les 12 mois précédant la randomisation.
+
+## 📊 Résultats clés
+À 24 mois, le groupe M-TEER a montré une réduction significative du délai jusqu'au premier événement de décès cardiovasculaire (CV) ou d'hospitalisation pour IC (HR: 0,65; p=0,002), du taux d'hospitalisations CV récurrentes (ratio de taux: 0,75; p=0,046), et moins de jours perdus en raison de décès ou d'hospitalisation pour IC (13,9% vs 17,4%; p<0,0001). Les patients avec antécédents d'hospitalisations pour IC ont montré un bénéfice plus important avec la M-TEER.
+
+## 🩺 Impact clinique
+La M-TEER devrait être envisagée en complément du traitement médical optimal chez les patients avec IC symptomatique et RMF modérée à sévère, particulièrement ceux ayant des antécédents d'hospitalisation récente pour IC.
+
+## Revue
+Journal of the American College of Cardiology
+
+## 📖 Référence
+2024;84(24):2347-2363. doi:10.1016/j.jacc.2024.08.027
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.jacc.2024.08.027.

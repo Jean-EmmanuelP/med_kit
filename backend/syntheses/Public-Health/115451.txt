@@ -1,19 +1,22 @@
 Date de publication : 2025-01-16
 
-# 📝 Prévention des fractures par zolédronate peu fréquent chez les femmes de 50 à 60 ans
+# 📝 Prévention des fractures par acide zolédronique peu fréquent chez les femmes de 50 à 60 ans
 
 ## 📌 Contexte & Problématique
-Les effets du zolédronate sur la densité et le remodelage osseux persistent au-delà de 5 ans. Son efficacité en administration peu fréquente chez les femmes en début de ménopause restait à déterminer.
+L'acide zolédronique prévient les fractures chez les femmes âgées, mais son efficacité avec administration peu fréquente chez les femmes en début de ménopause reste inconnue.
 
 ## 🧪 Méthodologie
-Essai randomisé en double aveugle sur 10 ans incluant 1054 femmes (50-60 ans) avec scores T entre 0 et -2,5. Trois groupes : zolédronate à 0 et 5 ans, zolédronate à 0 an et placebo à 5 ans, ou placebo aux deux moments. Critère principal : fracture vertébrale morphométrique.
+Essai randomisé en double aveugle sur 10 ans incluant 1054 femmes (50-60 ans) avec scores T de densité minérale osseuse entre 0 et -2,5. Trois groupes : zolédronique à 0 et 5 ans (ZZ), zolédronique à 0 et placebo à 5 ans (ZP), ou placebo aux deux moments (PP).
 
 ## 📊 Résultats clés
-Incidence des fractures morphométriques : 6,3% (zolédronate-zolédronate), 6,6% (zolédronate-placebo), 11,1% (placebo-placebo). Risque relatif vs placebo-placebo : 0,56 (zolédronate-zolédronate, p=0,04) et 0,59 (zolédronate-placebo, p=0,08). Réduction significative des fractures de fragilité, toutes fractures et fractures ostéoporotiques majeures.
+Fractures vertébrales morphométriques : 6,3% (ZZ), 6,6% (ZP), 11,1% (PP). Risque relatif : ZZ vs PP = 0,56 (p=0,04); ZP vs PP = 0,59 (p=0,08). Réduction significative des fractures de fragilité, toutes fractures et fractures ostéoporotiques majeures dans le groupe ZZ vs PP.
 
 ## 🩺 Impact clinique
-L'administration de zolédronate à l'inclusion et à 5 ans réduit efficacement le risque de fractures vertébrales chez les femmes en début de ménopause.
+Une perfusion d'acide zolédronique au début et à 5 ans est efficace pour prévenir les fractures vertébrales chez les femmes en début de ménopause, offrant une stratégie préventive avec administration peu fréquente.
+
+## Revue
+N Engl J Med
 
 ## 📖 Référence
-Bolland MJ, Nisa Z, Mellar A, et al. Fracture Prevention with Infrequent Zoledronate in Women 50 to 60 Years of Age. N Engl J Med. 2025;392(3):239-248.
+2025;392(3):239-248. doi:10.1056/NEJMoa2407031
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2407031.

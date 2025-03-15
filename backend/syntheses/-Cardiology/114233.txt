@@ -1,19 +1,22 @@
 Date de publication : 2024-09-02
 
-# 📝 Angioplastie par ballonnet enrobé vs stent planifié dans les lésions coronariennes de novo
+# 📝 Angioplastie par ballonnet enrobé vs stenting intentionnel dans les lésions coronariennes de novo
 
 ## 📌 Contexte & Problématique
-L'efficacité à long terme de l'angioplastie par ballonnet enrobé de médicament (DCB) avec stent de secours comparée aux stents à élution médicamenteuse (DES) planifiés reste incertaine dans les lésions coronariennes de novo non complexes.
+L'efficacité à long terme de l'angioplastie par ballonnet enrobé de médicament (DCB) avec stenting de secours comparée au stenting intentionnel par stent à élution médicamenteuse (DES) reste incertaine dans les lésions coronariennes de novo.
 
 ## 🧪 Méthodologie
-Essai randomisé de non-infériorité (REC-CAGEFREE I) mené dans 43 centres chinois. 2272 patients ont été randomisés (1:1) entre DCB avec stent de secours si nécessaire (n=1133) et DES planifié (n=1139). Critère principal : événements orientés dispositif (DoCE) à 24 mois.
+Essai randomisé de non-infériorité (REC-CAGEFREE I) incluant 2272 patients chinois avec lésions coronariennes de novo non complexes, répartis entre DCB avec stenting de secours si nécessaire (n=1133) et DES intentionnel (n=1139). Critère principal : événements orientés dispositif (DoCE) à 24 mois.
 
 ## 📊 Résultats clés
-À 24 mois, le DoCE est survenu chez 6,4% des patients du groupe DCB contre 3,4% dans le groupe DES (différence de risque: 3,04%, IC 95% unilatéral supérieur: 4,52%). La non-infériorité n'a pas été atteinte. 9,4% des patients du groupe DCB ont nécessité un stent de secours.
+À 24 mois, le taux de DoCE était de 6,4% dans le groupe DCB contre 3,4% dans le groupe DES (différence de risque 3,04%, limite supérieure IC 95% unilatéral 4,52%, pnon-infériorité=0,65). Dans le groupe DCB, 9,4% des patients ont nécessité un stent de secours.
 
 ## 🩺 Impact clinique
-L'implantation planifiée de DES reste le traitement privilégié pour les lésions coronariennes de novo non complexes, la stratégie DCB avec stent de secours n'ayant pas démontré sa non-infériorité.
+La non-infériorité du DCB avec stenting de secours n'a pas été démontrée par rapport au DES intentionnel, suggérant que le DES devrait rester le traitement standard pour les patients présentant des lésions coronariennes de novo non complexes.
+
+## Revue
+The Lancet
 
 ## 📖 Référence
-Gao C, He X, Ouyang F, et al. Lancet. 2024;404(10457):1040-1050.
+2024;404(10457):1040-1050. doi:10.1016/S0140-6736(24)01594-0
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S0140-6736(24)01594-0.

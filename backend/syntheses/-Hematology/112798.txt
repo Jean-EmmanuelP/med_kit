@@ -1,0 +1,22 @@
+Date de publication : 2024-03-18
+
+# 📝 Vaccination des adultes atteints de cancer : Directive de l'ASCO
+
+## 📌 Contexte & Problématique
+Nécessité d'établir des recommandations spécifiques pour la vaccination des adultes atteints de tumeurs solides ou de cancers hématologiques, dont les besoins diffèrent de la population générale en raison de leur état immunitaire.
+
+## 🧪 Méthodologie
+Revue systématique de 102 publications (24 revues systématiques, 14 ECR (essais contrôlés randomisés), 64 études non randomisées) publiées entre 2013-2023, avec focus particulier sur les vaccins COVID-19.
+
+## 📊 Résultats clés
+L'optimisation du statut vaccinal est identifiée comme élément essentiel de la prise en charge oncologique, incluant documentation systématique, administration opportune et revaccination après greffes de cellules souches hématopoïétiques, thérapie CAR-T (lymphocytes T à récepteur antigénique chimérique) ou déplétion lymphocytaire B.
+
+## 🩺 Impact clinique
+Recommandation d'une approche coordonnée entre professionnels de santé (médecins, pharmaciens, infirmiers) et vaccination des contacts domestiques pour renforcer la protection des patients. Les stratégies vaccinales doivent être adaptées selon l'immunité sous-jacente et les traitements anticancéreux.
+
+## Revue
+Journal of Clinical Oncology
+
+## 📖 Référence
+2024;42(14):1699-1721. doi:10.1200/JCO.24.00032. Epub 2024 Mar 18.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO.24.00032.

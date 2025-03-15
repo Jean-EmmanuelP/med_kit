@@ -1,0 +1,22 @@
+Date de publication : 2024-11-08
+
+# 📝 Remplacement valvulaire aortique précoce vs traitement conservateur dans la sténose aortique sévère asymptomatique
+
+## 📌 Contexte & Problématique
+La prise en charge optimale des patients asymptomatiques avec sténose aortique (SA) sévère et fonction ventriculaire gauche normale reste débattue. L'étude AVATAR évalue l'impact à long terme des deux stratégies thérapeutiques.
+
+## 🧪 Méthodologie
+Essai randomisé comparant le remplacement valvulaire aortique (RVA) chirurgical précoce au traitement conservateur avec surveillance chez 157 patients asymptomatiques à faible risque (âge moyen 67 ans) présentant une SA sévère, fraction d'éjection ventriculaire gauche ≥50% et test d'effort négatif.
+
+## 📊 Résultats clés
+Après suivi médian de 63 mois, le critère composite primaire (mortalité toutes causes, infarctus, AVC, hospitalisation pour insuffisance cardiaque) est survenu chez 23,1% des patients du groupe RVA précoce contre 46,8% dans le groupe conservateur (HR 0,42; IC 95% 0,24-0,73; p=0,002). La mortalité toutes causes (HR 0,44) et les hospitalisations pour insuffisance cardiaque (HR 0,21) étaient significativement réduites dans le groupe RVA.
+
+## 🩺 Impact clinique
+Le RVA chirurgical précoce améliore significativement les résultats cliniques à long terme chez les patients véritablement asymptomatiques avec SA sévère et fonction ventriculaire normale.
+
+## Revue
+European Heart Journal
+
+## 📖 Référence
+2024;45(42):4526-4535. doi:10.1093/eurheartj/ehae585.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1093/eurheartj/ehae585.

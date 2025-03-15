@@ -1,19 +1,22 @@
 Date de publication : 2025-02-18
 
-# 📝 Soins palliatifs initiés aux urgences : essai randomisé en grappes
+# 📝 Initiation des soins palliatifs aux urgences : essai clinique randomisé en grappes
 
 ## 📌 Contexte & Problématique
-Les services d'urgence représentent une opportunité d'initier des soins palliatifs pour les personnes âgées atteintes de maladies graves. Cette étude évalue l'impact d'une intervention multicomposante sur l'admission hospitalière et l'utilisation ultérieure des soins.
+Le service des urgences (SU) pourrait offrir une opportunité d'initier des soins palliatifs pour les personnes âgées atteintes de maladies graves limitant l'espérance de vie.
 
 ## 🧪 Méthodologie
-Essai clinique randomisé en grappes incluant 98 922 patients ≥66 ans dans 29 services d'urgence américains (2018-2022), avec score de comorbidité de Gagne >6. L'intervention comprenait formation multidisciplinaire, ateliers de simulation, aide à la décision clinique, audit et feedback.
+Essai clinique randomisé en grappes avec mise en œuvre échelonnée dans 29 SU américains (2018-2022). Population : patients ≥66 ans avec score de comorbidité de Gagne >6 (risque de mortalité >30%). Intervention : formation multidisciplinaire, ateliers de simulation sur la communication, aide à la décision clinique, audit et feedback.
 
 ## 📊 Résultats clés
-Taux d'admission hospitalière : 64,4% pré-intervention vs 61,3% post-intervention (différence -3,1%, OR ajusté 1,03 [IC 95% 0,93-1,14]). Aucune différence significative pour les admissions en soins intensifs (7,8% vs 6,7%), nouvelles visites aux urgences (34,2% vs 32,2%), utilisation des soins palliatifs (17,7% vs 17,2%) ou mortalité (28,1% vs 28,7%).
+98 922 visites initiales (âge médian : 77 ans). Taux d'admission hospitalière : 64,4% pré-intervention vs 61,3% post-intervention (différence absolue : -3,1%). Aucune différence significative dans les critères secondaires : admissions en unité de soins intensifs (USI), nouvelles visites aux urgences, utilisation des soins palliatifs, soins à domicile, réadmissions ou mortalité à 6 mois.
 
 ## 🩺 Impact clinique
-L'intervention n'a pas démontré d'effet significatif sur l'admission hospitalière, l'utilisation des soins de santé ou la mortalité chez les personnes âgées gravement malades.
+L'intervention à composantes multiples visant à initier des soins palliatifs aux urgences n'a pas démontré d'effet significatif sur l'admission hospitalière, l'utilisation ultérieure des soins de santé ou la mortalité à court terme chez les personnes âgées gravement malades.
+
+## Revue
+JAMA
 
 ## 📖 Référence
-Grudzen CR, Siman N, Cuthel AM, et al. Palliative Care Initiated in the Emergency Department: A Cluster Randomized Clinical Trial. JAMA. 2025;333(7):599-608.
+2025 Feb 18;333(7):599-608. doi: 10.1001/jama.2024.23696.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jama.2024.23696.

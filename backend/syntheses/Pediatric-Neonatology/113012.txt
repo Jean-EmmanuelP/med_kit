@@ -1,0 +1,22 @@
+Date de publication : 2024-04-25
+
+# 📝 Soutien nutritionnel pour les nourrissons modérément à tardivement prématurés - Un essai randomisé
+
+## 📌 Contexte & Problématique
+Les prématurés modérés à tardifs (32-35+6 semaines) nécessitent un soutien nutritionnel avant l'alimentation autonome au lait maternel, mais les données probantes guidant les stratégies nutritionnelles sont limitées.
+
+## 🧪 Méthodologie
+Essai randomisé factoriel multicentrique incluant 532 prématurés (55% de garçons) assignés à trois interventions ou leurs comparateurs : nutrition parentérale vs solution de dextrose, supplémentation du lait maternel vs lait maternel exclusif, et exposition au goût/odeur avant alimentation par sonde vs absence d'exposition.
+
+## 📊 Résultats clés
+Aucune différence significative dans le pourcentage de graisse corporelle à 4 mois d'âge corrigé entre nutrition parentérale et dextrose (26,0±5,4% vs 26,2±5,2%), ni entre supplémentation et lait maternel exclusif (26,3±5,3% vs 25,8±5,4%). Le délai jusqu'à l'alimentation entérale complète était similaire avec ou sans exposition au goût/odeur (5,8±1,5 vs 5,7±1,9 jours).
+
+## 🩺 Impact clinique
+Les interventions nutritionnelles de routine étudiées n'ont pas démontré d'effet significatif sur la composition corporelle ou le délai d'alimentation entérale complète, suggérant une flexibilité possible dans les approches nutritionnelles pour ces nourrissons.
+
+## Revue
+New England Journal of Medicine
+
+## 📖 Référence
+2024;390(16):1493-1504. doi:10.1056/NEJMoa2313942
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2313942.

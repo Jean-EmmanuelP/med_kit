@@ -1,0 +1,22 @@
+Date de publication : 2024-10-27
+
+# 📝 Pompe à flux microaxial et résultats rénaux dans le choc cardiogénique lié à l'infarctus
+
+## 📌 Contexte & Problématique
+L'étude DanGer Shock a montré une mortalité réduite mais des taux accrus de thérapie de remplacement rénal (TRR) avec l'utilisation de pompes à flux microaxial (mAFP) dans le choc cardiogénique post-infarctus. Cette analyse secondaire évalue les facteurs prédictifs d'insuffisance rénale aiguë (IRA) et de TRR.
+
+## 🧪 Méthodologie
+Essai randomisé multicentrique incluant 355 patients avec choc cardiogénique post-infarctus ST+ répartis entre mAFP (n=179) et soins standard (n=176). L'IRA a été définie selon les critères RIFLE et analysée via régression logistique, avec évaluation de la TRR par modèles de Fine-Gray.
+
+## 📊 Résultats clés
+L'IRA est survenue chez 61% des patients mAFP contre 45% dans le groupe témoin (p<0,01); la TRR chez 42% contre 27% respectivement (p<0,01). Deux tiers des TRR ont débuté dans les 24 premières heures. À 180 jours, tous les survivants étaient libres de TRR. L'allocation à la mAFP était associée à une mortalité plus faible, indépendamment de l'IRA ou de la TRR.
+
+## 🩺 Impact clinique
+Malgré l'augmentation du risque d'IRA et de TRR avec la mAFP, le bénéfice de survie persiste. Les facteurs prédictifs d'IRA incluent la FEVG réduite, la fonction rénale de base, la gravité du choc et les complications liées au dispositif.
+
+## Revue
+Circulation
+
+## 📖 Référence
+2024;150(25):1990-2003. doi:10.1161/CIRCULATIONAHA.124.072370. Epub 2024 Oct 27.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1161/CIRCULATIONAHA.124.072370.

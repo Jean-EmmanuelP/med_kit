@@ -1,19 +1,22 @@
 Date de publication : 2025-01-17
 
-# 📝 Anticoagulation en monothérapie versus anticoagulation + antiagrégation dans la fibrillation atriale avec coronaropathie stable
+# 📝 Anticoagulation et antiagrégation dans la fibrillation atriale avec coronaropathie stable : méta-analyse d'essais randomisés
 
 ## 📌 Contexte & Problématique
-La stratégie antithrombotique optimale chez les patients avec fibrillation atriale (FA) et coronaropathie stable reste controversée, les essais individuels manquant de puissance statistique sur les critères d'efficacité.
+La stratégie antithrombotique optimale chez les patients avec fibrillation atriale (FA) et maladie coronarienne stable (MCS) reste incertaine, les essais individuels montrant des résultats variables.
 
 ## 🧪 Méthodologie
-Méta-analyse de 4 essais randomisés (4 092 patients) comparant anticoagulant oral (ACO) seul versus ACO + antiagrégant plaquettaire (SAPT). Critère primaire d'efficacité : composite d'infarctus, AVC ischémique, embolie systémique ou décès. Critère de sécurité : hémorragie majeure.
+Méta-analyse de 4 essais contrôlés randomisés (4 092 patients) comparant la monothérapie par anticoagulant oral (ACO) versus ACO plus antiagrégant plaquettaire unique (SAPT). Recherche systématique dans PubMed, Embase et ClinicalTrials.gov jusqu'en septembre 2024.
 
 ## 📊 Résultats clés
-Aucune différence significative sur le critère d'efficacité primaire (7,3% vs 8,2%; HR: 0,90; IC 95%: 0,72-1,12). Réduction significative des hémorragies majeures avec la monothérapie (3,3% vs 5,7%; HR: 0,59; IC 95%: 0,44-0,79).
+Aucune différence significative entre ACO seul et ACO+SAPT pour le critère composite d'efficacité (7,3% vs 8,2%; HR:0,90; IC95%:0,72-1,12), l'infarctus du myocarde, l'AVC ischémique ou la mortalité. La monothérapie par ACO a significativement réduit le risque d'hémorragie majeure (3,3% vs 5,7%; HR:0,59; IC95%:0,44-0,79).
 
 ## 🩺 Impact clinique
-La monothérapie par anticoagulant oral semble préférable chez les patients avec FA et coronaropathie stable, offrant un profil de sécurité supérieur sans compromettre l'efficacité dans la prévention des événements ischémiques.
+Chez les patients avec FA et MCS stable, la monothérapie par ACO semble offrir un profil de sécurité supérieur sans compromettre l'efficacité, suggérant qu'elle pourrait être l'approche préférentielle dans cette population.
+
+## Revue
+J Am Coll Cardiol
 
 ## 📖 Référence
-Rashedi S, Keykhaei M, Sato A, et al. J Am Coll Cardiol. 2025 Jan 17:S0735-1097(25)00071-3.
+2025 Jan 17:S0735-1097(25)00071-3. doi: 10.1016/j.jacc.2024.12.030.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.jacc.2024.12.030.

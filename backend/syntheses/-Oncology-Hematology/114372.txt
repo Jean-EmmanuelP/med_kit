@@ -1,0 +1,22 @@
+Date de publication : 2024-09-04
+
+# 📝 Classification LAM60+ : Stratification du risque chez les patients âgés atteints de LAM traités intensivement
+
+## 📌 Contexte & Problématique
+La leucémie aiguë myéloïde (LAM) chez les patients âgés présente une hétérogénéité génétique avec des résultats variables après chimiothérapie intensive et transplantation allogénique de cellules hématopoïétiques (allo-TCH). Un modèle pronostique fiable est nécessaire pour identifier les patients âgés susceptibles de bénéficier d'un traitement curatif.
+
+## 🧪 Méthodologie
+Étude de 1 910 patients >60 ans atteints de LAM et syndrome myélodysplasique à haut risque (SMD-HR) traités intensivement, issus des cohortes NCRI-AML18 et HOVON-SAKK. Développement d'un modèle pronostique par forêt aléatoire de survie basé sur des variables cliniques, moléculaires et cytogénétiques.
+
+## 📊 Résultats clés
+Neuf variables ont permis d'établir quatre groupes de risque avec des survies globales (SG) à 4 ans distinctes : favorable (~54%), intermédiaire (~38-43%), défavorable (~21-27%) et très défavorable (~4%). Les patients des groupes intermédiaire et très défavorable ont significativement bénéficié de l'allo-TCH.
+
+## 🩺 Impact clinique
+La classification LAM60+ améliore les modèles pronostiques actuels et identifie les patients âgés qui bénéficieraient d'une chimiothérapie intensive suivie d'allo-TCH, optimisant ainsi les décisions thérapeutiques.
+
+## Revue
+Journal of Clinical Oncology
+
+## 📖 Référence
+2024;42(34):4084-4094. doi: 10.1200/JCO.23.02631. Epub 2024 Sep 4.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO.23.02631.

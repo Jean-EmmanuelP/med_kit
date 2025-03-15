@@ -1,0 +1,22 @@
+Date de publication : 2024-08-03
+
+# 📝 Thérapie par ondes de choc cardiaques en complément du pontage coronarien pour l'insuffisance cardiaque ischémique
+
+## 📌 Contexte & Problématique
+L'insuffisance cardiaque ischémique bénéficie des stratégies de revascularisation pour contrôler les symptômes, mais l'amélioration de la FEVG (fraction d'éjection ventriculaire gauche) reste limitée. L'essai CAST-HF évalue la thérapie par ondes de choc cardiaques (SWT) comme complément au pontage coronarien.
+
+## 🧪 Méthodologie
+Essai randomisé, contrôlé par placebo, en simple aveugle, incluant 63 patients avec FEVG ≤40% nécessitant une revascularisation chirurgicale. Les patients ont reçu soit un traitement SWT cardiaque direct, soit un traitement factice en plus du pontage coronarien.
+
+## 📊 Résultats clés
+Le groupe SWT a montré une amélioration significativement supérieure de la FEVG (11,3% vs 6,3%, P=0,0146) et du test de marche de 6 minutes (127,5m vs 43,6m, P=0,028) à un an. Le score Minnesota Living with Heart Failure était meilleur dans le groupe SWT (11,0 vs 17,3 points, P=0,15).
+
+## 🩺 Impact clinique
+La SWT, en complément du pontage coronarien, améliore significativement la fonction myocardique et la capacité physique chez les patients souffrant d'insuffisance cardiaque ischémique, offrant une nouvelle option thérapeutique prometteuse.
+
+## Revue
+European Heart Journal
+
+## 📖 Référence
+2024;45(29):2634-2643. doi:10.1093/eurheartj/ehae341
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1093/eurheartj/ehae341.

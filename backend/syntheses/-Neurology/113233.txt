@@ -1,0 +1,22 @@
+Date de publication : 2024-05-17
+
+# 📝 Ténectéplase versus soins standard pour l'AVC ischémique mineur avec occlusion prouvée
+
+## 📌 Contexte & Problématique
+Les patients présentant un AVC ischémique mineur avec occlusion intracrânienne ont un risque accru de mauvais résultats. L'étude TEMPO-2 visait à évaluer si la ténectéplase intraveineuse améliore les résultats par rapport aux soins standard non thrombolytiques.
+
+## 🧪 Méthodologie
+Essai randomisé multicentrique en ouvert incluant des patients adultes avec AVC mineur aigu (score NIHSS 0-5) et occlusion intracrânienne/anomalie de perfusion dans les 12h suivant l'apparition des symptômes. Randomisation 1:1 entre ténectéplase (0,25 mg/kg) et soins standard. Critère principal: retour au fonctionnement de base à 90 jours.
+
+## 📊 Résultats clés
+Essai arrêté prématurément pour futilité (886 patients). Critère principal atteint chez 72% (ténectéplase) vs 75% (contrôle) des patients (RR 0,96; IC95% 0,88-1,04; p=0,29). Mortalité supérieure dans le groupe ténectéplase (5% vs 1%; RR ajusté 3,8; p=0,0085). Hémorragies intracrâniennes symptomatiques: 2% (ténectéplase) vs <1% (contrôle).
+
+## 🩺 Impact clinique
+Les patients présentant un AVC mineur avec occlusion intracrânienne ne devraient pas être systématiquement traités par thrombolyse intraveineuse, aucun bénéfice n'ayant été observé et des effets nocifs potentiels ayant été constatés.
+
+## Revue
+The Lancet
+
+## 📖 Référence
+2024;403(10444):2597-2605. doi:10.1016/S0140-6736(24)00921-8
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S0140-6736(24)00921-8.

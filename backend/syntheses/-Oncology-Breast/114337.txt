@@ -1,19 +1,22 @@
 Date de publication : 2024-09-06
 
-# 📝 Électroacupuncture en complément de la trithérapie antiémétique standard pour les NVIC
+# 📝 Effet de l'électroacupuncture ajoutée à la trithérapie antiémétique standard sur les nausées et vomissements induits par la chimiothérapie
 
 ## 📌 Contexte & Problématique
-Évaluation de l'efficacité de l'électroacupuncture en complément de la trithérapie antiémétique standard pour les nausées et vomissements induits par chimiothérapie (NVIC) dans le cancer du sein.
+Évaluation de l'efficacité de l'électroacupuncture en complément de la trithérapie antiémétique standard pour les nausées et vomissements induits par la chimiothérapie (NVIC) chez des patientes atteintes de cancer du sein.
 
 ## 🧪 Méthodologie
-Essai randomisé contrôlé par placebo dans 6 hôpitaux chinois (2022-2023). 239 patientes atteintes de cancer du sein sous chimiothérapie hautement émétisante réparties entre électroacupuncture réelle (n=120) et simulée (n=119). Critère principal : protection complète dans les 120h post-chimiothérapie.
+Essai randomisé contrôlé en aveugle dans 6 hôpitaux chinois (2022-2023) comparant l'électroacupuncture réelle (n=120) versus simulée (n=119) chez des patientes recevant une chimiothérapie hautement émétisante (CHE). Critère principal : protection complète dans les 120h post-CHE.
 
 ## 📊 Résultats clés
-Taux de protection complète significativement supérieur avec l'électroacupuncture réelle (52,9% vs 34,5%, p=0,004). Amélioration du contrôle total (13,4% vs 4,3%, p=0,014) et de l'absence de nausées significatives (58,8% vs 37,9%, p=0,001). Bénéfice principalement observé en phase retardée.
+L'électroacupuncture réelle a significativement amélioré le taux de protection complète (52,9% vs 34,5%, p=0,004), le contrôle total (13,4% vs 4,3%, p=0,014) et l'absence de nausées significatives (58,8% vs 37,9%, p=0,001). L'amélioration était plus marquée pendant la phase tardive que la phase aiguë.
 
 ## 🩺 Impact clinique
-L'électroacupuncture constitue un complément efficace à la trithérapie antiémétique standard pour améliorer le contrôle des NVIC chez les patientes atteintes de cancer du sein sous chimiothérapie hautement émétisante.
+L'électroacupuncture constitue un complément efficace à la trithérapie antiémétique standard pour améliorer le contrôle des NVIC chez les patientes atteintes de cancer du sein recevant une CHE.
+
+## Revue
+Journal of Clinical Oncology
 
 ## 📖 Référence
-Shen G, Ren D, Zhao F, et al. J Clin Oncol. 2024;42(34):4051-4059.
+2024;42(34):4051-4059. doi:10.1200/JCO.24.00099. Epub 2024 Sep 6.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO.24.00099.

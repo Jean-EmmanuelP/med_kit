@@ -1,0 +1,22 @@
+Date de publication : 2025-03-01
+
+# 📝 Efficacité comparative des agonistes des récepteurs du GLP-1 sur les résultats cardiovasculaires chez les populations asiatiques versus blanches
+
+## 📌 Contexte & Problématique
+Les agonistes des récepteurs du peptide-1 similaire au glucagon (GLP-1RA) pourraient offrir des bénéfices cardiovasculaires (CV) différents selon l'origine ethnique des patients atteints de diabète de type 2 et/ou d'obésité.
+
+## 🧪 Méthodologie
+Méta-analyse de huit essais cliniques randomisés contrôlés par placebo (CVOT) incluant 5 909 personnes asiatiques et 55 855 personnes blanches. Analyse des événements cardiovasculaires majeurs indésirables (MACE) selon l'ethnicité.
+
+## 📊 Résultats clés
+Le rapport de risque (HR) des MACE sous GLP-1RA était de 0,69 (IC 95% : 0,58-0,83) chez les Asiatiques contre 0,85 (IC 95% : 0,79-0,91) chez les Blancs (Pinteraction = 0,045). Réduction absolue du risque de MACE : 2,9% chez les Asiatiques versus 1,4% chez les Blancs.
+
+## 🩺 Impact clinique
+Les GLP-1RA semblent offrir une protection cardiovasculaire significativement plus importante chez les patients asiatiques, suggérant l'intérêt d'une approche thérapeutique tenant compte de l'origine ethnique.
+
+## Revue
+Diabetes Care
+
+## 📖 Référence
+2025 Mar 1;48(3):489-493. doi: 10.2337/dc24-1533.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.2337/dc24-1533.

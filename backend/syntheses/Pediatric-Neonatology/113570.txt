@@ -1,0 +1,22 @@
+Date de publication : 2024-06-03
+
+# 📝 Directive clinique pour les seuils transfusionnels de globules rouges chez les grands prématurés
+
+## 📌 Contexte & Problématique
+La transfusion de globules rouges (GR) est courante pour traiter l'anémie chez les grands prématurés, mais les seuils transfusionnels optimaux restent incertains.
+
+## 🧪 Méthodologie
+Analyse de 6 essais cliniques randomisés (ECR) comparant des seuils transfusionnels élevés versus bas. Un comité directeur international a utilisé l'approche GRADE avec contribution de représentants parentaux et d'organisations parties prenantes.
+
+## 📊 Résultats clés
+Étude portant sur 3483 participants (51,3% de filles) entre 25,9 et 29,8 semaines de gestation. Avec une certitude modérée, les seuils bas n'entraînent probablement pas de différence significative sur les résultats à court et long terme. Seuils d'hémoglobine recommandés selon l'âge post-natal et l'assistance respiratoire : semaine 1 (11g/dL avec assistance, 10g/dL sans), semaine 2 (10g/dL avec, 8,5g/dL sans), semaine 3+ (9g/dL avec, 7g/dL sans).
+
+## 🩺 Impact clinique
+Recommandation d'une stratégie restrictive de transfusion pour les prématurés <30 semaines de gestation, avec un niveau de certitude modéré.
+
+## Revue
+JAMA Network Open
+
+## 📖 Référence
+2024;7(6):e2417431. doi:10.1001/jamanetworkopen.2024.17431
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamanetworkopen.2024.17431.

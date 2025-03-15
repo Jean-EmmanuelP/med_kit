@@ -1,0 +1,22 @@
+Date de publication : 2024-09-11
+
+# 📝 Exercice du rire versus acide hyaluronique dans la sécheresse oculaire : essai de non-infériorité
+
+## 📌 Contexte & Problématique
+Évaluation de l'efficacité et la sécurité de l'exercice du rire comme alternative aux larmes artificielles chez les patients atteints de sécheresse oculaire symptomatique.
+
+## 🧪 Méthodologie
+Essai contrôlé randomisé de non-infériorité incluant 299 participants (28,9 ans en moyenne, 74% de femmes) avec sécheresse oculaire symptomatique. Comparaison entre exercice du rire (vocalisation de phrases spécifiques 30 fois par séance) et collyre d'AH (acide hyaluronique) à 0,1%, 4 fois/jour pendant 8 semaines.
+
+## 📊 Résultats clés
+Variation moyenne du score OSDI (indice de maladie de la surface oculaire) : -10,5 points pour le groupe rire vs -8,83 pour l'AH, confirmant la non-infériorité. L'exercice du rire a significativement amélioré le NIBUT (temps de rupture non invasif du film lacrymal) (+2,30 secondes, p<0,001). Aucun événement indésirable rapporté.
+
+## 🩺 Impact clinique
+L'exercice du rire représente une alternative non pharmacologique efficace aux larmes artificielles pour les patients souffrant de sécheresse oculaire avec coloration cornéenne limitée.
+
+## Revue
+BMJ
+
+## 📖 Référence
+2024;386:e080474. doi: 10.1136/bmj-2024-080474.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1136/bmj-2024-080474.

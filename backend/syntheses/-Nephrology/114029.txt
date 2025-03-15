@@ -1,0 +1,22 @@
+Date de publication : 2024-08-06
+
+# 📝 Réduction de l'acidité alimentaire dans l'hypertension : protection rénale et cardiovasculaire
+
+## 📌 Contexte & Problématique
+Les régimes riches en fruits/légumes et à faible teneur en acide sont associés à une réduction des maladies rénales chroniques (MRC) et cardiovasculaires (MCV), mais restent sous-utilisés dans le traitement de l'hypertension.
+
+## 🧪 Méthodologie
+Étude randomisée sur 153 patients hypertendus macroalbuminuriques suivis pendant 5 ans, répartis en 3 groupes : fruits/légumes, bicarbonate de sodium oral (NaHCO₃), ou soins habituels. Évaluation de la progression de la MRC et des indices de risque cardiovasculaire.
+
+## 📊 Résultats clés
+Ralentissement significatif de la progression de la MRC dans les groupes fruits/légumes et NaHCO₃ vs soins habituels (-1,08 et -1,17 vs -1,94 mL/min/1,73m² par an, p<0,001). Le groupe fruits/légumes a montré une pression artérielle systolique plus basse et une meilleure amélioration des indices cardiovasculaires, malgré des doses réduites de médicaments.
+
+## 🩺 Impact clinique
+Les fruits et légumes constituent une approche thérapeutique fondamentale dans l'hypertension pour ralentir la progression de la MRC et réduire le risque cardiovasculaire.
+
+## Revue
+American Journal of Medicine
+
+## 📖 Référence
+2024;137(11):1114-1127.e8. doi:10.1016/j.amjmed.2024.06.006
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.amjmed.2024.06.006.

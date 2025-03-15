@@ -1,0 +1,22 @@
+Date de publication : 2024-11-14
+
+# 📝 Unité de l'AJIs et de la MSA : preuves issues de revues systématiques
+
+## 📌 Contexte & Problématique
+Cette étude visait à analyser les similitudes entre l'arthrite juvénile idiopathique systémique (AJIs) et la maladie de Still de l'adulte (MSA) pour déterminer si elles représentent la même entité pathologique.
+
+## 🧪 Méthodologie
+Trois revues systématiques ont été réalisées : une comparant les manifestations cliniques et biologiques entre AJIs et MSA (cohortes ≥20 patients), une sur les biomarqueurs diagnostiques, et une sur les biomarqueurs du syndrome d'activation macrophagique (SAM).
+
+## 📊 Résultats clés
+Les manifestations cliniques et biologiques étaient globalement similaires entre AJIs et MSA. Seules différences : myalgies, maux de gorge et perte de poids (plus fréquents dans la MSA) et amylose AA (plus fréquente dans l'AJIs). La ferritine, les protéines S100 et l'interleukine-18 (IL-18) montraient des performances diagnostiques comparables.
+
+## 🩺 Impact clinique
+Ces résultats soutiennent l'hypothèse d'un continuum entre l'AJIs et la MSA, suggérant qu'il s'agit de la même maladie se manifestant à différents âges, ce qui pourrait influencer les approches diagnostiques et thérapeutiques.
+
+## Revue
+Annals of Rheumatic Diseases
+
+## 📖 Référence
+2024;83(12):1748-1761. doi:10.1136/ard-2024-225853
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1136/ard-2024-225853.

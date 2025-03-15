@@ -1,0 +1,22 @@
+Date de publication : 2024-05-23
+
+# 📝 Résultats comparatifs du nifédipine versus labétalol dans l'hypertension chronique légère pendant la grossesse
+
+## 📌 Contexte & Problématique
+Évaluation des résultats maternels et néonatals selon le type d'antihypertenseur utilisé chez les participantes de l'essai CHAP (Hypertension Chronique pendant la Grossesse) présentant une hypertension chronique légère (140-159/90-104 mmHg).
+
+## 🧪 Méthodologie
+Analyse secondaire de l'essai CHAP comparant trois groupes : labétalol, nifédipine et soins standard (sans traitement). L'attribution des médicaments n'était pas randomisée mais basée sur les préférences cliniques. Critère principal : prééclampsie sévère, accouchement prématuré <35 semaines, décollement placentaire ou décès fœtal/néonatal.
+
+## 📊 Résultats clés
+Sur 2292 participantes (31,4% labétalol, 18,2% nifédipine, 50,4% sans traitement), le critère principal est survenu chez 30,1% (labétalol), 31,2% (nifédipine) et 37,0% (standard). Les deux médicaments ont réduit significativement le risque par rapport à l'absence de traitement, sans différence significative entre eux (RR ajusté 0,98, IC 95% 0,82-1,18). Aucune différence significative concernant les nouveau-nés petits pour l'âge gestationnel (PAG).
+
+## 🩺 Impact clinique
+Labétalol et nifédipine présentent une efficacité comparable pour traiter l'hypertension chronique légère pendant la grossesse, sans différence significative dans les résultats maternels ou néonatals.
+
+## Revue
+Obstetrics & Gynecology
+
+## 📖 Référence
+2024;144(1):126-134. doi:10.1097/AOG.0000000000005613
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1097/AOG.0000000000005613.

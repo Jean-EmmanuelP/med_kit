@@ -1,19 +1,22 @@
 Date de publication : 2024-06-18
 
-# 📝 Amcenestrant plus palbociclib versus létrozole plus palbociclib dans le cancer du sein RE+/HER2- avancé : résultats de l'étude AMEERA-5
+# 📝 Amcenestrant + Palbociclib vs Létrozole + Palbociclib dans le Cancer du Sein Avancé ER+/HER2-
 
 ## 📌 Contexte & Problématique
-Évaluation de l'amcenestrant (dégradeur sélectif oral du récepteur aux œstrogènes) plus palbociclib comparé au létrozole plus palbociclib en première ligne du cancer du sein avancé/métastatique RE+/HER2-.
+L'étude AMEERA-5 a évalué l'efficacité de l'amcenestrant (dégradeur sélectif oral des récepteurs aux œstrogènes) plus palbociclib comparé au létrozole plus palbociclib en première ligne du cancer du sein avancé/métastatique (CSa) ER+/HER2-.
 
 ## 🧪 Méthodologie
-Essai de phase III randomisé (1:1), double aveugle, incluant 1068 patients sans traitement systémique antérieur pour CSa RE+/HER2-. Critère principal : survie sans progression (SSP).
+Essai international de phase III, randomisé 1:1, en double aveugle, incluant 1068 patients adultes sans traitement systémique antérieur pour CSa ER+/HER2-. Critère principal : survie sans progression (SSP).
 
 ## 📊 Résultats clés
-À l'analyse intermédiaire (suivi médian 8,4 mois), le rapport de risque pour la SSP était de 1,209 (IC 95% : 0,939-1,557; p=0,9304). Taux de SSP à 6 mois : 82,7% avec amcenestrant+palbociclib vs 86,9% avec létrozole+palbociclib. Événements indésirables de grade ≥3 : 46,3% vs 60,8%.
+À l'analyse intermédiaire (suivi médian 8,4 mois), le rapport de risque pour la SSP était de 1,209 (IC 95%, 0,939-1,557; p=0,9304). Taux de SSP à 6 mois : 82,7% (amcenestrant+palbociclib) vs 86,9% (létrozole+palbociclib). Événements indésirables de grade ≥3 : 46,3% vs 60,8% respectivement.
 
 ## 🩺 Impact clinique
-Étude arrêtée pour futilité. L'amcenestrant+palbociclib n'a pas démontré de supériorité par rapport au létrozole+palbociclib. Aucun nouveau signal de sécurité identifié.
+L'étude a été arrêtée pour futilité lors de l'analyse intermédiaire, sans démontrer de supériorité de l'amcenestrant. Aucun nouveau signal de sécurité n'a été identifié.
+
+## Revue
+Journal of Clinical Oncology
 
 ## 📖 Référence
-Cortes J, Hurvitz SA, O'Shaughnessy J, et al. J Clin Oncol. 2024;42(22):2680-2690.
+2024;42(22):2680-2690. doi:10.1200/JCO.23.02036. Epub 2024 Jun 18.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO.23.02036.

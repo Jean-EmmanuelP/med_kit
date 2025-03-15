@@ -1,0 +1,22 @@
+Date de publication : 2024-06-14
+
+# 📝 Association entre fibrillation atriale de novo et démence chez les diabétiques de type 2
+
+## 📌 Contexte & Problématique
+Les patients atteints de diabète de type 2 (DT2) présentent une prévalence élevée de fibrillation atriale (FA). Cette étude évalue l'association entre la FA de novo et le développement de démence dans cette population.
+
+## 🧪 Méthodologie
+Étude de cohorte incluant 22 989 patients DT2 de la UK Biobank. La FA de novo a été identifiée via les dossiers d'hospitalisation. La démence (toutes causes, Alzheimer, vasculaire) a été déterminée selon l'algorithme officiel de la UK Biobank. Analyses par régression de Cox à variables temporelles.
+
+## 📊 Résultats clés
+Sur un suivi médian de 12,3 ans, 2843 participants ont développé une FA. Les patients avec FA présentaient des risques significativement plus élevés de démence toutes causes (HR 2,15; IC 95% 1,80-2,57), de maladie d'Alzheimer (HR 1,44; IC 95% 1,06-1,96) et de démence vasculaire (HR 3,11; IC 95% 2,32-4,17).
+
+## 🩺 Impact clinique
+Ces résultats soulignent l'importance d'une prise en charge optimale de la FA chez les patients DT2 pour potentiellement réduire leur risque de démence.
+
+## Revue
+Diabetes, Obesity and Metabolism
+
+## 📖 Référence
+2024; 26(9): 3715-3722. doi: 10.1111/dom.15714
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1111/dom.15714.

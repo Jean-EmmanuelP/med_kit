@@ -1,19 +1,22 @@
 Date de publication : 2024-06-07
 
-# 📝 Antagonistes des récepteurs des leucotriènes en association aux antihistaminiques pour l'urticaire : revue systématique et méta-analyse
+# 📝 Antileucotriènes en association aux antihistaminiques pour l'urticaire : revue systématique et méta-analyse
 
 ## 📌 Contexte & Problématique
-L'efficacité et la sécurité de l'ajout d'antileucotriènes aux antihistaminiques H1 (AH) dans la prise en charge de l'urticaire restent incertaines, nécessitant une évaluation systématique.
+L'efficacité et la sécurité de l'ajout d'antagonistes des récepteurs des leucotriènes (ARLT) aux antihistaminiques H1 (AH) dans le traitement de l'urticaire restent incertaines, nécessitant une évaluation systématique.
 
 ## 🧪 Méthodologie
-Revue systématique et méta-analyse de 34 essais contrôlés randomisés incluant 3324 patients (enfants et adultes). Comparaison des antileucotriènes + AH versus AH seuls. Évaluation de l'activité de l'urticaire, du prurit, des papules, du sommeil, de la qualité de vie et des effets indésirables.
+Revue systématique et méta-analyse de 34 essais contrôlés randomisés (ECR) incluant 3324 patients. Recherche exhaustive dans 13 bases de données jusqu'en décembre 2023. Évaluation GRADE de la qualité des preuves.
 
 ## 📊 Résultats clés
-L'association antileucotriènes + AH réduit modestement l'activité de l'urticaire (différence moyenne -5,04; IC 95% -6,36 à -3,71; score UAS7) avec un niveau de certitude modéré. Améliorations similaires pour le prurit, les papules et la qualité de vie. Pas de différence significative concernant les effets indésirables globaux.
+L'association ARLT+AH réduit modestement l'activité de l'urticaire comparée aux AH seuls (différence moyenne -5,04 sur le score d'activité de l'urticaire sur 7 jours, IC 95% [-6,36 à -3,71], certitude modérée). Améliorations similaires pour les démangeaisons, papules et qualité de vie. Pas de différence significative concernant les effets indésirables globaux.
 
 ## 🩺 Impact clinique
-L'ajout d'antagonistes des récepteurs des leucotriènes aux antihistaminiques apporte un bénéfice modeste sans augmentation significative des effets indésirables. Le risque d'effets neuropsychiatriques reste incertain et probablement faible.
+L'ajout d'ARLT aux AH offre un bénéfice modeste sans augmentation significative des effets indésirables, constituant une option thérapeutique pour les patients souffrant d'urticaire insuffisamment contrôlée par les AH seuls. Le risque d'effets indésirables neuropsychiatriques reste incertain.
+
+## Revue
+J Allergy Clin Immunol
 
 ## 📖 Référence
-Rayner DG, Liu M, Chu AWL, et al. J Allergy Clin Immunol. 2024;154(4):996-1007.
+2024;154(4):996-1007. doi: 10.1016/j.jaci.2024.05.026
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.jaci.2024.05.026.

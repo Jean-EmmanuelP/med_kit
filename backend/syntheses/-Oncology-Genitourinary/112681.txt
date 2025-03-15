@@ -1,19 +1,22 @@
 Date de publication : 2024-05-01
 
-# 📝 Radiothérapie hypofractionée post-prostatectomie : non-infériorité démontrée pour les symptômes GU et GI
+# 📝 Radiothérapie hypofractionnée postprostatectomie : non-infériorité pour les symptômes GU et GI
 
 ## 📌 Contexte & Problématique
-L'essai NRG-GU003 a évalué si la radiothérapie hypofractionée post-prostatectomie (HYPORT) était non-inférieure à la radiothérapie conventionnelle (COPORT) concernant les symptômes génito-urinaires (GU) et gastro-intestinaux (GI) à 2 ans.
+Évaluation de la non-infériorité de la radiothérapie postprostatectomie hypofractionnée (HYPORT) par rapport à la radiothérapie conventionnellement fractionnée (COPORT) concernant les symptômes génito-urinaires (GU) et gastro-intestinaux (GI) à 2 ans.
 
 ## 🧪 Méthodologie
-Essai randomisé de phase 3 incluant 296 patients post-prostatectomie (144 HYPORT: 62,5 Gy/25 fractions; 152 COPORT: 66,6 Gy/37 fractions). Critères principaux: variation des scores GU et GI à 2 ans versus valeurs initiales.
+Essai clinique randomisé de phase 3 incluant 296 patients (144 HYPORT, 152 COPORT) traités après prostatectomie. Protocoles : 62,5 Gy en 25 fractions (HYPORT) vs 66,6 Gy en 37 fractions (COPORT). Critères d'évaluation : variation des scores GU et GI à 2 ans via le questionnaire Expanded Prostate Cancer Composite Index.
 
 ## 📊 Résultats clés
-À la fin de la radiothérapie, les scores GI étaient significativement plus altérés avec HYPORT (-15,52 vs -7,06; p<0,001), mais cette différence a disparu à 6 mois. À 2 ans, HYPORT était non-inférieure à COPORT pour les symptômes GU (-5,01 vs -4,07; p=0,005) et GI (-4,17 vs -1,41; p=0,02). Aucune différence significative d'échec biochimique (12% vs 8%; p=0,28).
+À la fin de la radiothérapie, HYPORT a montré des effets GI significativement plus importants que COPORT (-15,52 vs -7,06, p<0,001), mais ces différences ont disparu à 6 mois. À 24 mois, HYPORT était non-inférieur à COPORT pour les symptômes GU (-5,01 vs -4,07) et GI (-4,17 vs -1,41). Aucune différence significative dans l'échec biochimique (PSA ≥0,4 ng/mL) à 2 ans (12% vs 8%, p=0,28).
 
 ## 🩺 Impact clinique
-L'HYPORT constitue désormais une alternative validée à la COPORT, offrant l'avantage d'un traitement plus court avec des effets secondaires à long terme équivalents, malgré une toxicité GI initiale plus marquée mais transitoire.
+HYPORT constitue une alternative valide à COPORT pour la radiothérapie postprostatectomie, avec des effets secondaires comparables à long terme malgré une toxicité GI initiale plus élevée.
+
+## Revue
+JAMA Oncology
 
 ## 📖 Référence
-Buyyounouski MK, Pugh SL, Chen RC, et al. JAMA Oncol. 2024;10(5):584-591.
+2024;10(5):584-591. doi:10.1001/jamaoncol.2023.7291. NCT03274687.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamaoncol.2023.7291.

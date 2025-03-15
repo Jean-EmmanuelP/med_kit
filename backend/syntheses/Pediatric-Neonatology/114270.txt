@@ -1,0 +1,22 @@
+Date de publication : 2024-09-06
+
+# 📝 Lait humain de donneuse pour prévenir l'entérocolite nécrosante chez les grands prématurés
+
+## 📌 Contexte & Problématique
+Lorsque le lait maternel est insuffisant, le lait humain de donneuse (LHD) ou les préparations pour nourrissons sont les alternatives pour les grands prématurés ou nouveau-nés de très faible poids de naissance (TFPN). Cette revue évalue l'efficacité du LHD dans la prévention de l'entérocolite nécrosante (ECN).
+
+## 🧪 Méthodologie
+Méta-analyse de 12 essais contrôlés randomisés (2296 nourrissons) comparant LHD versus préparations pour nourrissons chez les prématurés <32 semaines ou TFPN <1500g. Recherche dans CENTRAL, MEDLINE, Embase et autres bases jusqu'à février 2024.
+
+## 📊 Résultats clés
+Le LHD réduit significativement le risque d'ECN (RR 0,53; IC 95% 0,37-0,76; preuves de haute certitude) sans effet significatif sur l'infection invasive tardive (RR 1,12; IC 95% 0,95-1,31) ni sur la mortalité (RR 1,00; IC 95% 0,76-1,31).
+
+## 🩺 Impact clinique
+Le LHD réduit d'environ 50% le risque d'ECN chez les grands prématurés ou TFPN, constituant une alternative sûre et efficace lorsque le lait maternel est insuffisant.
+
+## Revue
+Cochrane Database of Systematic Reviews
+
+## 📖 Référence
+2024 Sep 6;9(9):CD002971. doi: 10.1002/14651858.CD002971.pub6.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1002/14651858.CD002971.pub6.

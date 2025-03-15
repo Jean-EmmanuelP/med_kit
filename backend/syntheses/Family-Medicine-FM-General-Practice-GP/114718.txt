@@ -1,19 +1,22 @@
 Date de publication : 2024-10-21
 
-# 📝 Lignes directrices 2024 pour la prévention primaire de l'AVC
+# 📝 Directive 2024 pour la Prévention Primaire de l'AVC
 
 ## 📌 Contexte & Problématique
-La mise à jour 2024 des directives de l'AHA/ASA remplace celles de 2014, offrant aux cliniciens des stratégies actualisées pour prévenir l'AVC chez les personnes sans antécédents cérébrovasculaires.
+Cette directive actualise celle de 2014 et vise à fournir aux cliniciens des stratégies de prévention pour les personnes sans antécédents d'AVC (Accident Vasculaire Cérébral). Les AVC ischémiques et hémorragiques, bien que causant d'importants handicaps, sont largement évitables.
 
 ## 🧪 Méthodologie
-Revue systématique de la littérature publiée entre 2014-2023 dans MEDLINE, PubMed et Cochrane. Analyse d'études sur participants humains en anglais et documents pertinents de l'AHA.
+Recherche systématique de la littérature (mai-novembre 2023) incluant les études sur participants humains publiées en anglais dans MEDLINE, PubMed et la Bibliothèque Cochrane. Les publications pertinentes de l'American Heart Association ont également été examinées.
 
 ## 📊 Résultats clés
-Les recommandations s'alignent sur les "8 éléments essentiels de la vie" de l'AHA pour optimiser la santé cardiovasculaire. Nouveauté majeure : inclusion de recommandations spécifiques selon le sexe pour le dépistage et la prévention.
+La directive s'aligne sur les "8 Éléments Essentiels de la Vie" de l'American Heart Association pour optimiser la santé cardiovasculaire et cérébrale. Elle introduit des recommandations spécifiques au sexe pour le dépistage et la prévention, absentes de la version 2014.
 
 ## 🩺 Impact clinique
-Ces directives soulignent que les AVC ischémiques et hémorragiques sont évitables. Elles fournissent des stratégies préventives tout au long de la vie, avec des recommandations actualisées sur les facteurs de risque et l'ajout de nouveaux sujets basés sur des données probantes.
+Mise à jour des recommandations pour la prévention des facteurs de risque, avec l'ajout de nouveaux sujets soutenus par des données probantes de qualité suffisante.
+
+## Revue
+Stroke
 
 ## 📖 Référence
-Bushnell C, Kernan WN, Sharrief AZ, et al. 2024 Guideline for the Primary Prevention of Stroke. Stroke. 2024;55(12):e344-e424.
+2024;55(12):e344-e424. doi: 10.1161/STR.0000000000000475. Epub 2024 Oct 21.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1161/STR.0000000000000475.

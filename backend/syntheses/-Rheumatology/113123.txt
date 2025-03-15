@@ -1,0 +1,25 @@
+Date de publication : 2024-08-27
+
+# 📝 Imagerie dans les arthropathies induites par les cristaux : revue systématique
+
+## 📌 Contexte & Problématique
+Évaluation des données actuelles sur l'utilisation de l'imagerie dans les arthropathies induites par les cristaux (AIC) pour informer les recommandations de l'Alliance Européenne des Associations de Rhumatologie.
+
+## 🧪 Méthodologie
+Quatre recherches systématiques dans Embase, Medline et Central concernant l'imagerie pour le diagnostic, le suivi, la prédiction et l'éducation des patients dans la goutte, la déposition de pyrophosphate de calcium dihydraté (DPCD) et la déposition de phosphate basique de calcium (DPBC).
+
+## 📊 Résultats clés
+- Goutte (88 études) : excellente performance diagnostique de la tomodensitométrie à double énergie (TDDE) et de l'échographie
+- DPCD (50 études) : spécificité élevée mais sensibilité variable des radiographies conventionnelles (RC) et de l'échographie
+- DPBC (56 études) : données limitées sur le diagnostic, mais suivi par RC et échographie montrant une réduction de la déposition cristalline
+- Éducation des patients : rôle potentiel de la TDDE identifié dans deux études
+
+## 🩺 Impact clinique
+L'imagerie joue un rôle croissant et pertinent dans la prise en charge des arthropathies induites par les cristaux, tant pour le diagnostic que pour le suivi thérapeutique.
+
+## Revue
+Annals of Rheumatic Diseases
+
+## 📖 Référence
+2024;83(9):1208-1224. doi:10.1136/ard-2023-225247
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1136/ard-2023-225247.

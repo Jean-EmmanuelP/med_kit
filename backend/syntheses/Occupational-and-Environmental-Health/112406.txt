@@ -1,19 +1,22 @@
 Date de publication : 2023-12-08
 
-# 📝 Efficacité des évacuateurs de fumée chirurgicale sur la réduction des composés organiques volatils et particules
+# 📝 Effet des évacuateurs de fumée sur la réduction des composés organiques volatils et particules dans la fumée chirurgicale
 
 ## 📌 Contexte & Problématique
-La fumée chirurgicale représente un risque professionnel et une potentielle source de transmission virale. L'efficacité des évacuateurs de fumée dédiés nécessitait une évaluation rigoureuse.
+La fumée chirurgicale représente un risque professionnel et une possible source de transmission virale. Cette étude évalue l'efficacité des évacuateurs de fumée pour réduire les composés organiques volatils (COV) et particules pendant les laparotomies.
 
 ## 🧪 Méthodologie
-Essai clinique randomisé en double aveugle comparant l'utilisation d'évacuateurs de fumée (n=22) versus groupe témoin (n=20) lors de laparotomies. Critère principal : variation du niveau d'acétaldéhyde. Critères secondaires : niveaux de formaldéhyde et nombre de particules.
+Essai clinique randomisé en double aveugle comparant l'utilisation d'évacuateurs de fumée (n=22) à un groupe témoin (n=20) chez des patients subissant une laparotomie. Critère principal : variation du niveau d'acétaldéhyde. Critères secondaires : variations des niveaux de formaldéhyde et du nombre de particules (0,3-5,0 nm).
 
 ## 📊 Résultats clés
-Le groupe avec évacuateur présentait une réduction significative de l'acétaldéhyde (10,6 vs 47,2 µg/m³, p<0,001), du formaldéhyde (-72,2%) et des particules en suspension (-80% à -95%, p<0,001).
+Le groupe avec évacuateur présentait des niveaux significativement réduits d'acétaldéhyde (10,6 vs 47,2 µg/m³, p<0,001), de formaldéhyde (-72,2%) et de particules (-80% à -95%, p<0,001) par rapport au groupe témoin.
 
 ## 🩺 Impact clinique
-L'utilisation d'évacuateurs de fumée dédiés réduit significativement l'exposition aux composés organiques volatils et particules en suspension, améliorant la sécurité du personnel au bloc opératoire.
+L'utilisation d'évacuateurs de fumée dédiés réduit significativement l'exposition du personnel aux COV et particules pendant la chirurgie, améliorant potentiellement la sécurité au bloc opératoire.
+
+## Revue
+J Am Coll Surg
 
 ## 📖 Référence
-Kawaguchi Y, Yoshizaki Y, Kawakami T, et al. Effect of Smoke Evacuator on Reduction of Volatile Organic Compounds and Particles in Surgical Smoke: A Randomized Controlled Trial. J Am Coll Surg. 2024;238(3):272-279.
+2024;238(3):272-279. doi:10.1097/XCS.0000000000000921
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1097/XCS.0000000000000921.

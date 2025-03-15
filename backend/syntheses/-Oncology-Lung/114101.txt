@@ -1,21 +1,24 @@
 Date de publication : 2024-08-22
 
-# 📝 Pembrolizumab + chimiothérapie dans le CPNPC avec mutation EGFR résistant aux ITK
+# 📝 Pembrolizumab + chimiothérapie pour CPNPC EGFR-muté résistant aux ITK
 
 ## 📌 Contexte & Problématique
-Les patients atteints de CPNPC métastatique avec mutation EGFR développent généralement une résistance aux ITK. L'étude KEYNOTE-789 évalue l'ajout du pembrolizumab à la chimiothérapie standard chez ces patients.
+Les patients atteints de cancer du poumon non à petites cellules (CPNPC) métastatique avec mutation EGFR développent une résistance aux inhibiteurs de tyrosine kinase (ITK). L'étude KEYNOTE-789 évalue l'ajout du pembrolizumab à la chimiothérapie standard chez ces patients.
 
 ## 🧪 Méthodologie
-Essai de phase III randomisé (1:1) incluant 492 patients avec CPNPC non épidermoïde stade IV, mutation EGFR (DEL19/L858R) et progression après ITK. Groupe intervention : pembrolizumab 200mg + pémétrexed/platine. Groupe contrôle : placebo + même chimiothérapie. Critères principaux : SSP et SG.
+Essai de phase III randomisé (1:1) incluant 492 adultes avec CPNPC non épidermoïde stade IV, mutation EGFR (DEL19/L858R) et progression après ITK. Groupe expérimental : pembrolizumab + pémétrexed-platine (n=245); groupe contrôle : placebo + pémétrexed-platine (n=247). Critères principaux : survie sans progression (SSP) et survie globale (SG).
 
 ## 📊 Résultats clés
-SSP médiane : 5,6 mois (pembrolizumab) vs 5,5 mois (placebo); HR=0,80 (IC95% 0,65-0,97; p=0,0122).
-SG médiane : 15,9 mois vs 14,7 mois; HR=0,84 (IC95% 0,69-1,02; p=0,0362).
+SSP médiane : 5,6 mois (pembrolizumab) vs 5,5 mois (placebo); HR=0,80; p=0,0122 (non significatif au seuil prédéfini de 0,0117).
+SG médiane : 15,9 mois vs 14,7 mois; HR=0,84; p=0,0362 (non significatif).
 Événements indésirables grade ≥3 : 43,7% vs 38,6%.
 
 ## 🩺 Impact clinique
-L'ajout du pembrolizumab à la chimiothérapie n'a pas significativement amélioré la SSP ou la SG selon les seuils prédéfinis, limitant son intérêt dans cette population spécifique.
+L'ajout du pembrolizumab à la chimiothérapie n'apporte pas d'amélioration significative de la SSP ou SG chez les patients CPNPC EGFR-muté résistants aux ITK.
+
+## Revue
+Journal of Clinical Oncology
 
 ## 📖 Référence
-Yang JC, Lee DH, Lee JS, et al. J Clin Oncol. 2024;42(34):4029-4039.
+2024;42(34):4029-4039. doi:10.1200/JCO.23.02747. Epub 2024 Aug 22.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO.23.02747.

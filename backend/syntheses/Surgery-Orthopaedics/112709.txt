@@ -1,0 +1,22 @@
+Date de publication : 2024-02-11
+
+# 📝 Grandes têtes métalliques et inserts VEPE minces en arthroplastie totale de hanche : résultats à 5 ans
+
+## 📌 Contexte & Problématique
+L'utilisation de polyéthylène réticulé dopé à la vitamine E (VEPE) permet l'emploi de têtes fémorales plus grandes dans des inserts minces en arthroplastie totale de hanche (ATH). Cette étude évalue si les grandes têtes métalliques augmentent l'usure du polyéthylène comparées aux têtes standard de 32 mm.
+
+## 🧪 Méthodologie
+Essai contrôlé randomisé sur 96 patients répartis en deux groupes : intervention (têtes 36-44 mm dans insert VEPE mince) versus contrôle (têtes standard 32 mm). Suivi sur 5 ans avec mesure de la pénétration de la tête par radiostéréométrie.
+
+## 📊 Résultats clés
+Aucune différence significative dans la pénétration proximale de la tête entre les groupes (intervention: -0,04 mm vs contrôle: -0,03 mm, p=0,691). Le groupe intervention a rapporté un niveau d'activité supérieur (score UCLA 7 vs 6, p=0,020). Cinq révisions ont été nécessaires pour diverses complications.
+
+## 🩺 Impact clinique
+Les grandes têtes métalliques dans des inserts VEPE minces n'augmentent pas l'usure du polyéthylène à 5 ans, tout en permettant potentiellement un niveau d'activité plus élevé chez les patients.
+
+## Revue
+Journal of Arthroplasty
+
+## 📖 Référence
+2024;39(7):1804-1810. doi:10.1016/j.arth.2024.02.008
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.arth.2024.02.008.

@@ -1,0 +1,26 @@
+Date de publication : 2024-12-27
+
+# 📝 Apport protéique élevé vs faible chez les patients en état critique : méta-analyse bayésienne
+
+## 📌 Contexte & Problématique
+Des incertitudes persistent concernant l'impact d'un apport protéique élevé chez les patients critiques, certaines études récentes suggérant des résultats potentiellement défavorables.
+
+## 🧪 Méthodologie
+Méta-analyse bayésienne de 22 essais randomisés (n=4164) comparant différentes doses de protéines (entérales/parentérales) avec apport énergétique similaire. Apport protéique moyen : 1,5±0,6 g/kg/j (groupe élevé) vs 0,9±0,4 g/kg/j (groupe faible).
+
+## 📊 Résultats clés
+Risque relatif (RR) médian pour la mortalité : 1,01 (IC 95% : 0,84-1,16)
+- Probabilité d'un bénéfice (RR<1,00) : 43,6%
+- Probabilité d'un effet néfaste (RR>1,00) : 56,4%
+- Probabilité de réduction de mortalité ≥5% : 22,9%
+- Probabilité d'augmentation de mortalité ≥5% : 32,4%
+
+## 🩺 Impact clinique
+Les données actuelles suggèrent une probabilité considérable d'augmentation du risque de mortalité avec un apport protéique élevé, sans toutefois pouvoir exclure complètement un potentiel bénéfice clinique.
+
+## Revue
+Critical Care Medicine
+
+## 📖 Référence
+2024 Dec 27. doi: 10.1097/CCM.0000000000006562.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1097/CCM.0000000000006562.

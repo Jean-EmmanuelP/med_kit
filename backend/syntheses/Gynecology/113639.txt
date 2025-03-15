@@ -1,0 +1,22 @@
+Date de publication : 2024-06-18
+
+# 📝 Efficacité préliminaire de la crème topique de sildénafil pour le traitement du trouble de l'excitation sexuelle féminine
+
+## 📌 Contexte & Problématique
+Évaluation de l'efficacité d'une crème topique de sildénafil à 3,6% chez des femmes préménopausées souffrant de trouble de l'excitation sexuelle féminine.
+
+## 🧪 Méthodologie
+Étude de phase 2b randomisée, contrôlée par placebo, en double aveugle. 200 femmes réparties entre sildénafil (n=101) et placebo (n=99). Critères principaux : évolution des scores au SFQ28 (Questionnaire de Fonction Sexuelle) et FSDS-DAO (Échelle de Détresse Sexuelle Féminine).
+
+## 📊 Résultats clés
+Dans la population globale, pas de différence significative entre sildénafil et placebo. Une analyse post hoc d'un sous-groupe de femmes avec trouble de l'excitation avec/sans diminution du désir a montré des améliorations significatives avec le sildénafil dans les domaines Sensation d'Excitation (p=0,04), Désir et Orgasme du SFQ28, ainsi qu'une réduction de la détresse sexuelle.
+
+## 🩺 Impact clinique
+La crème de sildénafil topique pourrait être particulièrement bénéfique pour les femmes souffrant de trouble de l'excitation sexuelle sans dysfonction orgasmique concomitante, améliorant l'excitation, le désir et l'orgasme tout en réduisant la détresse sexuelle.
+
+## Revue
+Obstetrics & Gynecology
+
+## 📖 Référence
+2024;144(2):144-152. doi:10.1097/AOG.0000000000005648. Essai clinique enregistré: NCT04948151.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1097/AOG.0000000000005648.

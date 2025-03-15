@@ -1,19 +1,22 @@
 Date de publication : 2024-11-23
 
-# 📝 Radiothérapie prostatique dans le cancer métastatique hormonosensible de novo
+# 📝 Efficacité et sécurité de la radiothérapie prostatique dans le cancer de la prostate métastatique hormonosensible de novo
 
 ## 📌 Contexte & Problématique
-L'étude PEACE-1 avait déjà montré les bénéfices de l'association suppression androgénique+docétaxel+abiratérone. Cette analyse évalue l'ajout de la radiothérapie prostatique chez ces patients métastatiques hormonosensibles de novo.
+L'étude PEACE-1 avait précédemment démontré les bénéfices du traitement combiné (suppression androgénique, docétaxel et abiratérone) dans le cancer de la prostate métastatique hormonosensible (CPmHS) de novo. Cette analyse évalue l'ajout de la radiothérapie prostatique à ces traitements.
 
 ## 🧪 Méthodologie
-Essai randomisé de phase 3 (plan factoriel 2×2) dans 77 hôpitaux européens. 1172 patients répartis en 4 groupes : traitement standard (TS) seul, TS+abiratérone, TS+radiothérapie, TS+abiratérone+radiothérapie. Suivi médian : 6,0 ans.
+Essai de phase 3 randomisé (plan factoriel 2×2) incluant 1172 hommes atteints de CPmHS de novo. Quatre bras : traitement standard (TS) seul, TS+abiratérone, TS+radiothérapie, TS+abiratérone+radiothérapie. Critères principaux : survie sans progression radiographique (SSPr) et survie globale (SG).
 
 ## 📊 Résultats clés
-Chez les patients à faible volume métastatique traités par abiratérone, l'ajout de radiothérapie a amélioré la survie sans progression radiographique (7,5 ans vs 4,4 ans; HR=0,65; p=0,019). Cependant, la radiothérapie n'a pas amélioré la survie globale (7,5 ans vs 6,9 ans; HR=0,98; p=0,86). Profil de tolérance comparable : 58,8% d'événements indésirables graves avec radiothérapie vs 56,1% sans.
+Après un suivi médian de 6,0 ans, la radiothérapie a amélioré la SSPr uniquement chez les patients à faible volume métastatique traités par abiratérone (7,5 vs 4,4 ans; HR=0,65; p=0,019). La SG n'a pas été significativement améliorée par la radiothérapie. Profil de tolérance similaire entre les groupes.
 
 ## 🩺 Impact clinique
-La radiothérapie prostatique associée à l'abiratérone améliore la survie sans progression mais pas la survie globale dans les formes à faible volume métastatique. Elle réduit les complications génito-urinaires sans augmenter la toxicité globale.
+La radiothérapie prostatique combinée à l'abiratérone améliore la SSPr mais pas la SG chez les patients à faible volume métastatique. Elle réduit les événements génito-urinaires graves sans augmenter la toxicité globale, suggérant son intégration potentielle au traitement standard.
+
+## Revue
+Lancet
 
 ## 📖 Référence
-Bossi A, Foulon S, Maldonado X, et al. Lancet. 2024;404(10467):2065-2076.
+2024;404(10467):2065-2076. doi:10.1016/S0140-6736(24)01865-8
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S0140-6736(24)01865-8.

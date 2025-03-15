@@ -3,17 +3,20 @@ Date de publication : 2024-10-14
 # 📝 Chimiothérapie d'induction suivie de chimioradiothérapie dans le cancer du col utérin localement avancé
 
 ## 📌 Contexte & Problématique
-Le cancer du col utérin localement avancé présente un taux de récidive élevé malgré la chimioradiothérapie standard. L'étude INTERLACE évalue si l'ajout d'une chimiothérapie d'induction améliore la survie.
+Le cancer du col utérin localement avancé est traité par chimioradiothérapie standard, mais les taux de rechute et de mortalité restent élevés. L'étude évalue si l'ajout d'une chimiothérapie d'induction améliore les résultats cliniques.
 
 ## 🧪 Méthodologie
-Essai randomisé de phase 3 dans 5 pays incluant 500 patientes avec cancer du col localement avancé. Comparaison entre chimioradiothérapie standard seule (n=250) versus chimiothérapie d'induction (carboplatine+paclitaxel hebdomadaire pendant 6 semaines) suivie de chimioradiothérapie standard (n=250).
+Essai randomisé de phase 3 (INTERLACE) dans 32 centres internationaux comparant deux groupes (n=250 chacun) : chimioradiothérapie standard seule versus chimiothérapie d'induction (carboplatine/paclitaxel hebdomadaire pendant 6 semaines) suivie de chimioradiothérapie standard.
 
 ## 📊 Résultats clés
-Après suivi médian de 67 mois, la survie sans progression à 5 ans était de 72% dans le groupe avec induction versus 64% dans le groupe standard (HR=0,65; p=0,013). La survie globale à 5 ans atteignait 80% versus 72% (HR=0,60; p=0,015). Événements indésirables grade ≥3 : 59% versus 48%.
+Après un suivi médian de 67 mois, la survie sans progression à 5 ans était de 72% dans le groupe avec induction versus 64% dans le groupe standard (HR=0,65; p=0,013). La survie globale à 5 ans atteignait 80% versus 72% (HR=0,60; p=0,015). Les événements indésirables de grade ≥3 étaient plus fréquents avec la chimiothérapie d'induction (59% vs 48%).
 
 ## 🩺 Impact clinique
-La chimiothérapie d'induction suivie de chimioradiothérapie améliore significativement la survie des patientes atteintes de cancer du col localement avancé, offrant une nouvelle option thérapeutique plus efficace.
+L'ajout d'une chimiothérapie d'induction de courte durée avant la chimioradiothérapie standard améliore significativement la survie des patientes atteintes d'un cancer du col utérin localement avancé, établissant potentiellement une nouvelle norme thérapeutique.
+
+## Revue
+Lancet
 
 ## 📖 Référence
-McCormack M, Eminowicz G, Gallardo D, et al. Lancet. 2024;404(10462):1525-1535.
+2024;404(10462):1525-1535. doi:10.1016/S0140-6736(24)01438-7
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S0140-6736(24)01438-7.

@@ -1,19 +1,25 @@
 Date de publication : 2024-05-17
 
-# 📝 Effets des inhibiteurs SGLT2 sur l'insuffisance cardiaque et la mortalité cardiovasculaire à travers le spectre cardiométabolique
+# 📝 Effet des inhibiteurs SGLT2 sur l'insuffisance cardiaque et la mortalité cardiovasculaire à travers le spectre cardiométabolique
 
 ## 📌 Contexte & Problématique
-Les inhibiteurs SGLT2 ont été étudiés dans diverses pathologies cardiométaboliques, mais l'effet thérapeutique spécifique à travers différents sous-groupes restait à clarifier.
+Évaluation de l'impact thérapeutique des inhibiteurs du co-transporteur sodium-glucose de type 2 (SGLT2) sur des critères cliniques spécifiques dans diverses populations atteintes de pathologies cardiométaboliques.
 
 ## 🧪 Méthodologie
-Méta-analyse de 15 essais cliniques (N=100 952) évaluant les inhibiteurs SGLT2 chez des patients atteints d'insuffisance cardiaque, diabète type 2, maladie rénale chronique et maladie cardiovasculaire athéroscléreuse.
+Revue systématique et méta-analyse de 15 essais cliniques (N=100 952) évaluant les inhibiteurs SGLT2 chez des patients atteints d'insuffisance cardiaque, diabète de type 2, maladie rénale chronique et maladie cardiovasculaire athérosclérotique.
 
 ## 📊 Résultats clés
-Les inhibiteurs SGLT2 ont réduit les hospitalisations pour insuffisance cardiaque de 29% dans l'insuffisance cardiaque, 28% dans le diabète type 2, 32% dans la maladie rénale chronique et 28% dans les maladies cardiovasculaires athéroscléreuses. Réduction des décès cardiovasculaires de 14%, 15%, 11% et 13% respectivement dans ces populations.
+Les inhibiteurs SGLT2 ont réduit:
+- Hospitalisations pour insuffisance cardiaque: 29% (insuffisance cardiaque), 28% (diabète), 32% (maladie rénale), 28% (maladie cardiovasculaire)
+- Décès cardiovasculaires: 14% (insuffisance cardiaque), 15% (diabète), 11% (maladie rénale), 13% (maladie cardiovasculaire)
+- Bénéfices constants dans 51 sous-groupes, sauf pour l'infarctus aigu et l'insuffisance cardiaque à fraction d'éjection préservée
 
 ## 🩺 Impact clinique
-Bénéfices constants dans 51 sous-groupes, sauf pour l'infarctus aigu du myocarde et l'insuffisance cardiaque à fraction d'éjection préservée (pas d'effet sur la mortalité cardiovasculaire). Ces résultats justifient l'utilisation large des inhibiteurs SGLT2 dans les maladies cardiorénales-métaboliques.
+Ces résultats soutiennent l'utilisation des inhibiteurs SGLT2 chez une large population de patients atteints de maladies cardio-rénales-métaboliques, avec des bénéfices cohérents sur les événements d'insuffisance cardiaque et la mortalité cardiovasculaire.
+
+## Revue
+Lancet Diabetes Endocrinol
 
 ## 📖 Référence
-Usman MS, Bhatt DL, Hameed I, et al. Lancet Diabetes Endocrinol. 2024;12(7):447-461.
+2024 Jul;12(7):447-461. doi: 10.1016/S2213-8587(24)00102-5. Epub 2024 May 17.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S2213-8587(24)00102-5.

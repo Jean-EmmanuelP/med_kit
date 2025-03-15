@@ -3,20 +3,20 @@ Date de publication : 2024-07-18
 # 📝 Efficacité et sécurité de la crème de delgocitinib dans l'eczéma chronique des mains modéré à sévère
 
 ## 📌 Contexte & Problématique
-L'eczéma chronique des mains est une affection inflammatoire invalidante impactant qualité de vie et capacité professionnelle. Les essais DELTA 1 et DELTA 2 ont évalué l'efficacité du delgocitinib, inhibiteur topique pan-JAK, versus véhicule crème.
+L'eczéma chronique des mains est une affection inflammatoire impactant significativement la qualité de vie. Les essais DELTA 1 et DELTA 2 ont évalué la crème de delgocitinib 20 mg/g, un inhibiteur topique pan-Janus kinase, chez des adultes atteints d'eczéma chronique des mains modéré à sévère.
 
 ## 🧪 Méthodologie
-Deux essais randomisés (2:1), double aveugle, multicentriques, incluant 960 adultes atteints d'eczéma chronique des mains modéré à sévère. Application biquotidienne de delgocitinib 20 mg/g ou véhicule pendant 16 semaines. Critère principal : succès thérapeutique selon l'IGA-CHE (score 0-1).
+Deux essais randomisés, double aveugle, contrôlés par véhicule, menés dans plusieurs pays européens et au Canada. Les patients (n=960) ont reçu soit la crème de delgocitinib 20 mg/g, soit le véhicule crème, deux fois par jour pendant 16 semaines. Le critère principal était le succès thérapeutique selon l'Évaluation Globale de l'Investigateur pour l'Eczéma Chronique des Mains (IGA-CHE).
 
 ## 📊 Résultats clés
-Succès thérapeutique significativement supérieur avec delgocitinib versus véhicule :
-- DELTA 1 : 20% vs 10% (p=0,0055)
-- DELTA 2 : 29% vs 7% (p=0,0055)
-Profil de sécurité comparable : événements indésirables chez 45-46% (delgocitinib) vs 45-51% (véhicule).
+À la semaine 16, le succès thérapeutique était significativement supérieur avec delgocitinib versus véhicule (DELTA 1: 20% vs 10%; DELTA 2: 29% vs 7%; p=0,0055). Le profil de sécurité était comparable entre les groupes, avec principalement COVID-19 et rhinopharyngite comme effets indésirables.
 
 ## 🩺 Impact clinique
-Le delgocitinib représente une option thérapeutique prometteuse pour les patients ne répondant pas adéquatement aux corticostéroïdes topiques et soins cutanés de base.
+La crème de delgocitinib représente une option thérapeutique prometteuse pour les patients ne répondant pas adéquatement aux soins cutanés de base et aux corticostéroïdes topiques.
+
+## Revue
+Lancet
 
 ## 📖 Référence
-Bissonnette R, Warren RB, Pinter A, et al. Lancet. 2024;404(10451):461-473.
+2024;404(10451):461-473. doi:10.1016/S0140-6736(24)01027-4.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S0140-6736(24)01027-4.

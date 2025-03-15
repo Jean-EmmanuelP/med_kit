@@ -1,0 +1,22 @@
+Date de publication : 2024-12-06
+
+# 📝 Traitement chirurgical de l'épilepsie liée aux hamartomes hypothalamiques : méta-analyse
+
+## 📌 Contexte & Problématique
+Peu de données comparent directement l'efficacité des différentes techniques chirurgicales pour traiter l'épilepsie liée aux hamartomes hypothalamiques (HH). Cette étude évalue la sécurité et l'efficacité des approches chirurgicales courantes.
+
+## 🧪 Méthodologie
+Revue systématique et méta-analyse de données individuelles de participants (DIP) issues de 64 études, totalisant 517 patients. Modélisation à effets aléatoires et régression logistique pour identifier les prédicteurs d'absence de crises et de complications.
+
+## 📊 Résultats clés
+Taux d'absence de crises après procédure initiale: 50,0%, atteignant 64,5% après traitements multiples. Meilleures efficacités: thérapie thermique interstitielle par laser guidée par résonance magnétique (MRgLITT) (74,5%) et thermocoagulation par radiofréquence (RFTC) (78,5%). Facteurs défavorables: types multiples de crises et chirurgie antérieure. Approche la plus sûre: radiochirurgie stéréotaxique (SRS) (0% de complications majeures).
+
+## 🩺 Impact clinique
+MRgLITT et RFTC devraient être considérées comme options de première intention, offrant efficacité et sécurité supérieures à la microchirurgie ouverte. SRS constitue une alternative viable pour certains cas sélectionnés malgré son efficacité moindre.
+
+## Revue
+Neurology
+
+## 📖 Référence
+2024;103(12):e210060. doi:10.1212/WNL.0000000000210060. Epub 2024 Dec 6.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1212/WNL.0000000000210060.

@@ -1,20 +1,23 @@
 Date de publication : 2024-06-18
 
-# 📝 Metformine au premier trimestre de grossesse : risques pour l'issue de la grossesse et malformations congénitales
+# 📝 Metformine au premier trimestre de grossesse : risque de naissance non vivante et malformations congénitales
 
 ## 📌 Contexte & Problématique
-La sécurité de la metformine en début de grossesse chez les femmes diabétiques de type 2 reste insuffisamment documentée, nécessitant une évaluation de son potentiel tératogène.
+La sécurité de la metformine en début de grossesse chez les femmes atteintes de diabète de type 2 (DT2) reste insuffisamment documentée, notamment concernant son potentiel tératogène.
 
 ## 🧪 Méthodologie
-Étude observationnelle simulant un essai clinique à partir des données Medicaid (2000-2018) comparant deux stratégies chez 2407 femmes diabétiques de type 2 sous metformine préconceptionnelle : passage à l'insuline seule (n=850) versus maintien metformine+insuline (n=1557).
+Étude observationnelle simulant un essai clinique avec 12 489 femmes enceintes atteintes de DT2 prégestationnel sous metformine avant la grossesse, comparant deux stratégies : passage à une monothérapie d'insuline (n=850) versus maintien de la metformine avec ajout d'insuline (n=1557). Données issues de Medicaid (2000-2018).
 
 ## 📊 Résultats clés
-Risque de naissance non vivante : 32,7% (insuline seule) contre 34,3% (metformine+insuline), RR=1,02 [IC95%:1,01-1,04].
-Risque de malformations congénitales parmi les naissances vivantes : 8,0% (insuline seule) contre 5,7% (metformine+insuline), RR=0,72 [IC95%:0,51-1,09].
+- Naissances non vivantes : 32,7% (insuline seule) vs 34,3% (insuline+metformine), RR=1,02 [IC 95% : 1,01-1,04]
+- Naissances vivantes avec malformations : 8,0% (insuline seule) vs 5,7% (insuline+metformine), RR=0,72 [IC 95% : 0,51-1,09]
 
 ## 🩺 Impact clinique
-La poursuite de la metformine avec ajout d'insuline en début de grossesse n'augmente que très légèrement le risque de naissance non vivante. Pour les malformations congénitales, les données sont compatibles avec une possible réduction du risque, bien que non statistiquement significative.
+La poursuite de la metformine avec ajout d'insuline en début de grossesse n'augmente que très légèrement le risque de naissance non vivante, et pourrait potentiellement réduire le risque de malformations congénitales, bien que cette réduction ne soit pas statistiquement significative.
+
+## Revue
+Annals of Internal Medicine
 
 ## 📖 Référence
-Chiu YH, Huybrechts KF, Patorno E, et al. Ann Intern Med. 2024;177(7):862-870.
+2024;177(7):862-870. doi:10.7326/M23-2038. Epub 2024 Jun 18.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.7326/M23-2038.

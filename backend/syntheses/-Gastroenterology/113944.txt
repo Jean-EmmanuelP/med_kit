@@ -1,19 +1,22 @@
 Date de publication : 2024-04-05
 
-# 📝 Vonoprazan versus IPP intraveineux pour prévenir les récidives hémorragiques d'ulcères peptiques
+# 📝 Comparaison du vonoprazan versus IPP intraveineux dans la prévention des récidives hémorragiques d'ulcères peptiques
 
 ## 📌 Contexte & Problématique
-Les inhibiteurs de pompe à protons (IPP) à haute dose sont recommandés pour prévenir les récidives hémorragiques des ulcères peptiques à haut risque après hémostase endoscopique. Cette étude évalue si le vonoprazan oral est non-inférieur aux IPP intraveineux dans cette indication.
+Les inhibiteurs de la pompe à protons (IPP) à haute dose sont recommandés pour prévenir les récidives hémorragiques après hémostase endoscopique d'ulcères peptiques (UP) à haut risque. Cette étude évalue si le vonoprazan oral est non-inférieur aux IPP intraveineux.
 
 ## 🧪 Méthodologie
-Étude multicentrique randomisée de non-infériorité (marge 10%) incluant 194 patients avec ulcères hémorragiques à haut risque (Forrest Ia/Ib, IIa/IIb). Groupe vonoprazan : 20mg BID pendant 3 jours puis 20mg/jour pendant 28 jours. Groupe IPP : pantoprazole IV 8mg/h pendant 3 jours puis oméprazole 20mg BID pendant 28 jours.
+Essai multicentrique randomisé de non-infériorité (marge 10%) incluant 194 patients avec UP hémorragiques à haut risque (Forrest Ia/Ib, IIa/IIb). Après hémostase endoscopique réussie : groupe vonoprazan (20mg BID×3j puis 20mg QD×28j) versus groupe IPP (pantoprazole IV 8mg/h×3j puis oméprazole 20mg BID×28j). Critère principal : récidive hémorragique à 30 jours.
 
 ## 📊 Résultats clés
-Taux de récidive hémorragique à 30 jours : 7,1% (vonoprazan) vs 10,4% (IPP), différence -3,3% (IC95% -11,2 à 4,7; p<0,001 pour non-infériorité). Non-infériorité également démontrée à 3 et 7 jours. Critères secondaires (mortalité, transfusions, durée d'hospitalisation) comparables entre les groupes.
+Taux de récidive hémorragique à 30 jours : 7,1% (vonoprazan) vs 10,4% (IPP), différence -3,3% (IC95% -11,2 à 4,7; p<0,001 pour non-infériorité). Non-infériorité également confirmée à 3 et 7 jours. Critères secondaires comparables entre les groupes.
 
 ## 🩺 Impact clinique
-Le vonoprazan oral représente une alternative efficace aux IPP intraveineux, potentiellement plus pratique et moins coûteuse pour prévenir les récidives hémorragiques d'ulcères peptiques à haut risque.
+Le vonoprazan oral représente une alternative efficace aux IPP intraveineux pour la prévention des récidives hémorragiques d'UP à haut risque après hémostase endoscopique réussie.
+
+## Revue
+Gastroenterology
 
 ## 📖 Référence
-Geeratragool T, Kaosombatwattana U, Boonchote A, et al. Gastroenterology. 2024;167(4):778-787.e3.
+2024;167(4):778-787.e3. doi:10.1053/j.gastro.2024.03.036. ClinicalTrials.gov: NCT05005910.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1053/j.gastro.2024.03.036.

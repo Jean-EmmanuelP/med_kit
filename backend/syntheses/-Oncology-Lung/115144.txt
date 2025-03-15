@@ -1,22 +1,22 @@
 Date de publication : 2024-11-21
 
-# 📝 TISLELIZUMAB PÉRIOPÉRATOIRE DANS LE CANCER PULMONAIRE NON À PETITES CELLULES RÉSÉCABLE
+# 📝 Tislelizumab périopératoire avec chimiothérapie néoadjuvante dans le CPNPC résécable
 
 ## 📌 Contexte & Problématique
-L'étude RATIONALE-315 évalue l'ajout du tislelizumab (anti-PD-1) à la chimiothérapie néoadjuvante standard pour le cancer pulmonaire non à petites cellules (CPNPC) de stade II-IIIA résécable.
+L'étude RATIONALE-315 évalue l'efficacité du tislelizumab (inhibiteur de point de contrôle immunitaire) périopératoire associé à la chimiothérapie néoadjuvante chez les patients atteints de cancer du poumon non à petites cellules (CPNPC) résécable de stade II-IIIA.
 
 ## 🧪 Méthodologie
-Essai randomisé de phase 3 en double aveugle mené en Chine (n=453). Patients répartis entre tislelizumab 200mg IV (n=226) ou placebo (n=227) toutes les 3 semaines + chimiothérapie à base de platine, suivis de chirurgie puis traitement adjuvant.
+Essai randomisé de phase 3, double aveugle, contrôlé par placebo, mené dans 50 sites en Chine. 453 patients ont reçu soit tislelizumab 200 mg IV (n=226) soit placebo (n=227) toutes les 3 semaines avec chimiothérapie à base de platine, suivis de chirurgie et tislelizumab 400 mg ou placebo toutes les 6 semaines.
 
 ## 📊 Résultats clés
-Après suivi médian de 22 mois, le tislelizumab a significativement amélioré:
-- Survie sans événement: HR=0,56 (IC 95%: 0,40-0,79; p=0,0003)
-- Taux de réponse pathologique majeure: 56% vs 15% (différence: 41%; p<0,0001)
-- Mortalité: 14% vs 20%
+Après suivi médian de 22 mois, le tislelizumab a significativement amélioré la survie sans événement (HR=0,56; IC 95%: 0,40-0,79; p=0,0003) et le taux de réponse pathologique majeure (56% vs 15%; différence: 41%; p<0,0001). Événements indésirables de grade ≥3 liés au traitement: 72% (tislelizumab) vs 66% (placebo).
 
 ## 🩺 Impact clinique
-Le tislelizumab périopératoire associé à la chimiothérapie néoadjuvante démontre une efficacité significativement supérieure avec un profil de sécurité gérable pour les CPNPC résécables de stade II-IIIA.
+Le tislelizumab périopératoire avec chimiothérapie néoadjuvante offre une amélioration cliniquement significative de l'efficacité avec un profil de sécurité gérable chez les patients atteints de CPNPC résécable, représentant une option thérapeutique prometteuse.
+
+## Revue
+Lancet Respiratory Medicine
 
 ## 📖 Référence
-Yue D, Wang W, Liu H, et al. Lancet Respir Med. 2025;13(2):119-129.
+2025 Feb;13(2):119-129. doi: 10.1016/S2213-2600(24)00269-8. Epub 2024 Nov 21.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S2213-2600(24)00269-8.

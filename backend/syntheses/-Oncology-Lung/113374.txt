@@ -3,17 +3,20 @@ Date de publication : 2024-06-02
 # 📝 Osimertinib après chimioradiothérapie dans le CPNPC de stade III avec mutation EGFR
 
 ## 📌 Contexte & Problématique
-Les inhibiteurs de tyrosine kinase de l'EGFR montrent une efficacité préliminaire dans le cancer du poumon non à petites cellules (CPNPC) de stade III non résécable avec mutation EGFR. L'osimertinib est déjà recommandé dans les CPNPC avancés ou réséqués avec mutation EGFR.
+Les inhibiteurs de tyrosine kinase de l'EGFR (récepteur du facteur de croissance épidermique) ont montré une efficacité préliminaire dans le cancer du poumon non à petites cellules (CPNPC) de stade III non résécable avec mutation EGFR.
 
 ## 🧪 Méthodologie
-Essai de phase 3, randomisé, double aveugle, contrôlé par placebo chez 216 patients atteints de CPNPC stade III non résécable avec mutation EGFR après chimioradiothérapie (osimertinib: 143, placebo: 73).
+Essai de phase 3, randomisé, double aveugle, contrôlé par placebo, incluant 216 patients atteints de CPNPC stade III non résécable avec mutation EGFR, sans progression après chimioradiothérapie (osimertinib: 143; placebo: 73).
 
 ## 📊 Résultats clés
-Survie sans progression médiane: 39,1 mois (osimertinib) vs 5,6 mois (placebo); HR=0,16 (IC 95%: 0,10-0,24; p<0,001). Survie sans progression à 12 mois: 74% vs 22%. Survie globale à 36 mois: 84% vs 74% (données préliminaires). Événements indésirables grade ≥3: 35% vs 12%. Pneumopathie radique: 48% vs 38%.
+Survie sans progression médiane: 39,1 mois (osimertinib) vs 5,6 mois (placebo); HR=0,16 (IC 95%: 0,10-0,24; p<0,001). Survie sans progression à 12 mois: 74% vs 22%. Données intérimaires de survie globale à 36 mois: 84% vs 74% (HR=0,81; p=0,53). Événements indésirables grade ≥3: 35% vs 12%. Pneumopathie radique: 48% vs 38%.
 
 ## 🩺 Impact clinique
-L'osimertinib prolonge significativement la survie sans progression chez ces patients, offrant une option thérapeutique efficace après chimioradiothérapie, avec un profil de tolérance acceptable.
+L'osimertinib offre un bénéfice significatif en survie sans progression chez les patients atteints de CPNPC stade III non résécable avec mutation EGFR après chimioradiothérapie, avec un profil de tolérance acceptable.
+
+## Revue
+N Engl J Med
 
 ## 📖 Référence
-Lu S, Kato T, Dong X, et al. Osimertinib after Chemoradiotherapy in Stage III EGFR-Mutated NSCLC. N Engl J Med. 2024;391(7):585-597.
+2024;391(7):585-597. doi:10.1056/NEJMoa2402614. Epub 2024 Jun 2. (LAURA trial; NCT03521154)
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2402614.

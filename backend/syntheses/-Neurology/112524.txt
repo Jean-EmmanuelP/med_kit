@@ -1,0 +1,22 @@
+Date de publication : 2024-02-05
+
+# 📝 Contrôle de la pression artérielle après thrombectomie dans l'AVC ischémique
+
+## 📌 Contexte & Problématique
+La thrombectomie endovasculaire (TEV) est le traitement standard de l'accident vasculaire cérébral ischémique (AVCI) avec occlusion des gros vaisseaux (OGV), mais le contrôle optimal de la pression artérielle (PA) post-procédure reste controversé.
+
+## 🧪 Méthodologie
+Méta-analyse de 4 essais cliniques randomisés (1571 patients) comparant le contrôle intensif versus conventionnel de la PA systolique après TEV. Recherche dans 5 bases de données jusqu'en septembre 2023.
+
+## 📊 Résultats clés
+Le contrôle intensif de la PA était associé à des taux d'indépendance fonctionnelle plus faibles (RR 0,81 [IC 95% 0,67-0,98]), sans différence significative pour la mortalité à 90 jours, l'hémorragie intracrânienne symptomatique ou les événements hypotensifs. L'hétérogénéité entre études était minimale.
+
+## 🩺 Impact clinique
+Les résultats suggèrent qu'une stratégie conservatrice de gestion de la PA après TEV est préférable, le contrôle intensif n'apportant pas de bénéfices et pouvant comporter des risques pour la récupération fonctionnelle.
+
+## Revue
+JAMA Network Open
+
+## 📖 Référence
+2024;7(2):e240179. doi:10.1001/jamanetworkopen.2024.0179
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamanetworkopen.2024.0179.

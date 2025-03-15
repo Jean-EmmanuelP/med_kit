@@ -1,0 +1,27 @@
+Date de publication : 2025-01-23
+
+# 📝 Chimiothérapie périopératoire vs chimioradiothérapie préopératoire dans l'adénocarcinome œsophagien
+
+## 📌 Contexte & Problématique
+L'approche thérapeutique optimale pour l'adénocarcinome œsophagien localement avancé résécable reste controversée, notamment entre chimiothérapie périopératoire et chimioradiothérapie préopératoire.
+
+## 🧪 Méthodologie
+Essai randomisé multicentrique de phase 3 comparant deux groupes de patients atteints d'adénocarcinome œsophagien résécable (cT1 cN+, cT2-4a cN+, ou cT2-4a cN0) : 
+- Groupe FLOT : chimiothérapie périopératoire (fluorouracile, leucovorine, oxaliplatine, docétaxel) + chirurgie
+- Groupe chimioradiothérapie : radiothérapie (41,4 Gy) avec carboplatine/paclitaxel + chirurgie
+
+## 📊 Résultats clés
+Avec un suivi médian de 55 mois, le groupe FLOT a montré une supériorité significative :
+- Survie globale à 3 ans : 57,4% vs 50,7% (HR=0,70; p=0,01)
+- Survie sans progression à 3 ans : 51,6% vs 35,0% (HR=0,66)
+- Mortalité postopératoire à 90 jours : 3,1% vs 5,6%
+
+## 🩺 Impact clinique
+La chimiothérapie périopératoire avec protocole FLOT devrait être privilégiée pour les adénocarcinomes œsophagiens résécables, offrant un bénéfice significatif de survie par rapport à la chimioradiothérapie préopératoire.
+
+## Revue
+New England Journal of Medicine
+
+## 📖 Référence
+2025;392(4):323-335. doi:10.1056/NEJMoa2409408. NCT02509286.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2409408.

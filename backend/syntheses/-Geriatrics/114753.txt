@@ -3,20 +3,20 @@ Date de publication : 2024-12-01
 # 📝 Vitamine K2 dans la gestion des crampes nocturnes des jambes : un essai clinique randomisé
 
 ## 📌 Contexte & Problématique
-Absence de traitement sûr et efficace pour les crampes nocturnes des jambes (CNJ), problème fréquent chez les personnes âgées.
+Les crampes nocturnes des jambes (CNJ) manquent de traitements à la fois sûrs et efficaces, justifiant la recherche d'alternatives thérapeutiques pour cette affection fréquente chez les personnes âgées.
 
 ## 🧪 Méthodologie
-Essai randomisé multicentrique en double aveugle (Chine, 2022-2023) comparant vitamine K2 (ménaquinone 7, 180 µg/jour) versus placebo pendant 8 semaines chez 199 participants ≥65 ans (âge moyen 72,3 ans) souffrant de CNJ.
+Essai clinique randomisé multicentrique en double aveugle réalisé en Chine (2022-2023) incluant 199 participants ≥65 ans souffrant d'au moins 2 épisodes de CNJ durant la période de dépistage. Les participants ont reçu soit 180 µg de vitamine K2 (ménaquinone 7) soit un placebo quotidiennement pendant 8 semaines.
 
 ## 📊 Résultats clés
-- Réduction significative de la fréquence hebdomadaire des crampes : 0,96 vs 3,63 (différence -2,67; p<0,001)
-- Diminution plus importante de la sévérité dans le groupe K2 (-2,55 vs -1,24 points)
-- Réduction supérieure de la durée des crampes (-0,90 vs -0,32 minutes)
-- Aucun événement indésirable lié à la vitamine K2
+Le groupe vitamine K2 a montré une réduction significative de la fréquence hebdomadaire des CNJ (de 2,60 à 0,96) comparé au groupe placebo (maintenu à 3,63), avec une différence de -2,67 (p<0,001). La sévérité (-2,55 vs -1,24 points) et la durée (-0,90 vs -0,32 minutes) des crampes ont également diminué davantage avec la vitamine K2. Aucun événement indésirable n'a été rapporté.
 
 ## 🩺 Impact clinique
-La supplémentation en vitamine K2 réduit significativement la fréquence, l'intensité et la durée des CNJ chez les personnes âgées avec un excellent profil de sécurité.
+La supplémentation en vitamine K2 représente une option thérapeutique sûre et efficace pour réduire la fréquence, l'intensité et la durée des CNJ chez les personnes âgées.
+
+## Revue
+JAMA Internal Medicine
 
 ## 📖 Référence
-Tan J, Zhu R, Li Y, et al. Vitamin K2 in Managing Nocturnal Leg Cramps: A Randomized Clinical Trial. JAMA Intern Med. 2024;184(12):1443-1447.
+2024;184(12):1443-1447. doi:10.1001/jamainternmed.2024.5726. NCT05547750.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamainternmed.2024.5726.

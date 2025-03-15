@@ -1,0 +1,22 @@
+Date de publication : 2024-02-27
+
+# 📝 Résection de la tumeur primitive avant chimiothérapie dans le cancer du côlon métastatique non résécable
+
+## 📌 Contexte & Problématique
+L'intérêt de la résection de la tumeur primitive (RTP) avant chimiothérapie chez les patients atteints d'un cancer du côlon avec métastases synchrones non résécables reste controversé. Cette étude évalue l'impact de cette approche sur la survie.
+
+## 🧪 Méthodologie
+Analyse combinée des essais randomisés SYNCHRONOUS et CCRe-IV incluant 393 patients (187 avec RTP, 206 sans RTP) recrutés dans 100 centres en Autriche, Allemagne et Espagne. Critère principal : survie globale (SG). Patients symptomatiques exclus.
+
+## 📊 Résultats clés
+Après un suivi médian de 36,7 mois, la SG médiane était de 16,7 mois dans le groupe RTP contre 18,6 mois dans le groupe sans RTP (p=0,191). L'analyse multivariée a confirmé l'absence de différence significative (HR=0,944; IC 95% 0,738-1,209; p=0,65). Plus d'événements indésirables graves dans le groupe sans RTP (18,0% vs 10,2%; p=0,027).
+
+## 🩺 Impact clinique
+La RTP avant chimiothérapie systémique n'améliore pas la survie globale chez les patients atteints d'un cancer du côlon avec métastases synchrones non résécables, remettant en question cette pratique chirurgicale.
+
+## Revue
+Journal of Clinical Oncology
+
+## 📖 Référence
+2024;42(13):1531-1541. doi:10.1200/JCO.23.01540. Epub 2024 Feb 27.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO.23.01540.

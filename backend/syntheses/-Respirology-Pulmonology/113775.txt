@@ -1,0 +1,26 @@
+Date de publication : 2024-02-02
+
+# 📝 Efficacité et sécurité des antibiotiques inhalés dans le traitement des bronchectasies chez l'adulte
+
+## 📌 Contexte & Problématique
+Les directives internationales recommandent conditionnellement les antibiotiques inhalés pour les bronchectasies, malgré des résultats d'études individuelles incohérents. Cette méta-analyse actualise les données sur leur efficacité et sécurité.
+
+## 🧪 Méthodologie
+Revue systématique et méta-analyse d'essais contrôlés randomisés incluant des adultes avec bronchectasies diagnostiquées par TDM (tomodensitométrie) et traités pendant au moins 4 semaines. Critère principal : fréquence des exacerbations.
+
+## 📊 Résultats clés
+Vingt études (3468 patients) montrent que les antibiotiques inhalés réduisent:
+- Le nombre de patients avec exacerbations (RR 0,85; IC 95% 0,75-0,96)
+- La fréquence des exacerbations (RT 0,78; IC 95% 0,68-0,91)
+- Les exacerbations sévères (RT 0,48; IC 95% 0,31-0,74)
+Amélioration légère des symptômes et de la qualité de vie, réduction de la charge bactérienne, sans modification du VEMS (volume expiratoire maximal par seconde). Profil de sécurité comparable au placebo.
+
+## 🩺 Impact clinique
+Les antibiotiques inhalés offrent des bénéfices modestes mais significatifs sur les exacerbations et la qualité de vie chez les adultes atteints de bronchectasies, avec un risque d'augmentation des résistances bactériennes.
+
+## Revue
+Chest
+
+## 📖 Référence
+2024;166(1):61-80. doi:10.1016/j.chest.2024.01.045
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.chest.2024.01.045.

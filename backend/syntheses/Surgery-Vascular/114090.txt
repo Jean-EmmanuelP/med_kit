@@ -1,0 +1,22 @@
+Date de publication : 2024-08-27
+
+# 📝 Rivaroxaban à faible dose plus aspirine chez les patients fragiles après revascularisation des membres inférieurs
+
+## 📌 Contexte & Problématique
+Les patients fragiles atteints d'artériopathie périphérique (AP) présentent un risque accru d'événements ischémiques et hémorragiques. Cette analyse évalue l'efficacité et la sécurité du rivaroxaban 2,5 mg + aspirine dans cette population à haut risque.
+
+## 🧪 Méthodologie
+Analyse de 6 564 patients de l'étude VOYAGER PAD, dont 1 674 classés comme fragiles (âge >75 ans, poids ≤50 kg, ou DFGe <50 mL/min/1,73 m²). Critère principal d'efficacité : composite d'ischémie aiguë de membre, amputation majeure, IDM, AVC ischémique ou décès CV. Critère de sécurité : hémorragie majeure TIMI.
+
+## 📊 Résultats clés
+Les patients fragiles sous placebo présentaient un risque plus élevé pour le critère principal (HR: 1,34) et l'hémorragie majeure (HR: 1,57) vs non-fragiles. L'effet du rivaroxaban sur le critère principal était similaire chez les fragiles (HR: 0,93) et non-fragiles (HR: 0,83; p-interaction=0,37). Le risque hémorragique était augmenté indépendamment du statut de fragilité.
+
+## 🩺 Impact clinique
+Le rivaroxaban réduit les événements ischémiques tout en augmentant les saignements chez les patients AP après revascularisation, indépendamment de leur fragilité. Ces données permettent une personnalisation du traitement antithrombotique chez les patients fragiles.
+
+## Revue
+Journal of the American College of Cardiology
+
+## 📖 Référence
+2024;84(9):801-811. doi:10.1016/j.jacc.2024.05.060
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.jacc.2024.05.060.

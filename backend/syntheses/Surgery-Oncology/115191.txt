@@ -1,0 +1,22 @@
+Date de publication : 2024-12-12
+
+# 📝 Surveillance active pour le carcinome canalaire in situ à faible risque : Essai COMET
+
+## 📌 Contexte & Problématique
+La surveillance active a été proposée comme alternative aux traitements standards pour le carcinome canalaire in situ (CCIS) à faible risque, mais sa sécurité restait à démontrer.
+
+## 🧪 Méthodologie
+Essai randomisé de non-infériorité incluant 957 femmes ≥40 ans avec CCIS de grade 1-2, récepteurs hormonaux positifs. Comparaison entre surveillance active (examens semestriels et imagerie) et soins standards (chirurgie ± radiothérapie). Suivi médian de 36,9 mois.
+
+## 📊 Résultats clés
+Le taux cumulatif à 2 ans de cancer invasif ipsilatéral était de 4,2% dans le groupe surveillance active contre 5,9% dans le groupe soins standards (différence -1,7%, limite supérieure IC 95% : 0,95%). Les caractéristiques des tumeurs invasives étaient similaires entre les groupes.
+
+## 🩺 Impact clinique
+La surveillance active n'est pas inférieure aux soins standards concernant le risque de cancer invasif à 2 ans chez les patientes avec CCIS à faible risque, offrant une option thérapeutique moins invasive pour certaines patientes.
+
+## Revue
+JAMA
+
+## 📖 Référence
+2024 Dec 12. doi: 10.1001/jama.2024.26698.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jama.2024.26698.

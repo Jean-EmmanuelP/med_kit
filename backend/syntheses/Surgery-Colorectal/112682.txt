@@ -1,0 +1,22 @@
+Date de publication : 2023-10-02
+
+# 📝 Fermeture précoce versus standard de l'iléostomie après proctectomie : méta-analyse d'essais contrôlés randomisés
+
+## 📌 Contexte & Problématique
+L'iléostomie en boucle de dérivation (IBD) est couramment pratiquée après proctectomie pour réduire les conséquences des fuites anastomotiques (FA). Cette méta-analyse compare les résultats entre fermeture précoce et standard.
+
+## 🧪 Méthodologie
+Analyse de 11 essais contrôlés randomisés (932 patients) comparant fermeture précoce (n=474) versus standard (n=458) de l'IBD après proctectomie.
+
+## 📊 Résultats clés
+La fermeture précoce est associée à un risque accru de FA (RC: 2,315, P=0,013), particulièrement lorsqu'effectuée ≤2 semaines (RC: 2,12, P=0,047). Les complications globales, l'iléus, les infections du site opératoire, les réinterventions et réadmissions étaient comparables entre les groupes. Facteurs de risque identifiés: diabète, tabagisme, classification ASA (American Society of Anesthesiologists) ≥II.
+
+## 🩺 Impact clinique
+La fermeture précoce systématique de l'IBD après proctectomie n'est pas recommandée en raison du risque accru de FA, surtout dans les deux premières semaines post-opératoires.
+
+## Revue
+Annals of Surgery
+
+## 📖 Référence
+2024;279(4):613-619. doi:10.1097/SLA.0000000000006109. Epub 2023 Oct 2.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1097/SLA.0000000000006109.

@@ -1,0 +1,22 @@
+Date de publication : 2024-10-06
+
+# 📝 Efficacité des interventions infirmières pour promouvoir le sommeil après chirurgie cardiaque
+
+## 📌 Contexte & Problématique
+Les troubles du sommeil sont fréquents après chirurgie cardiaque et peuvent compromettre la récupération. Cette revue évalue l'efficacité d'interventions non-pharmacologiques pour améliorer la qualité du sommeil chez ces patients.
+
+## 🧪 Méthodologie
+Revue systématique selon les directives PRISMA incluant 11 études interventionnelles (787 participants) publiées entre 2007-2023, extraites de CINAHL, JDNR, MEDLINE et PubMed.
+
+## 📊 Résultats clés
+Les masques oculaires, bouchons d'oreilles et exercices de respiration profonde améliorent significativement la qualité du sommeil post-chirurgie cardiaque. Le questionnaire de sommeil Richards-Campbell était l'outil d'évaluation principal. Ces interventions montrent également des bénéfices potentiels sur la douleur et le délire.
+
+## 🩺 Impact clinique
+Ces interventions non-pharmacologiques représentent des solutions rentables et facilement applicables en pratique clinique pour améliorer le sommeil et potentiellement accélérer la récupération après chirurgie cardiaque.
+
+## Revue
+Journal of Clinical Nursing
+
+## 📖 Référence
+2024;33(12):4528-4542. doi:10.1111/jocn.17442
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1111/jocn.17442.

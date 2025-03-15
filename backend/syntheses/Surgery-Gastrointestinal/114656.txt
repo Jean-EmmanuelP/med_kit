@@ -1,0 +1,22 @@
+Date de publication : 2025-01-17
+
+# 📝 Sphinctérotomie endoscopique avant prothèse métallique pour obstruction biliaire maligne distale
+
+## 📌 Contexte & Problématique
+La mise en place d'une prothèse métallique auto-expansible entièrement couverte (FCSEMS) lors d'une cholangiopancréatographie rétrograde endoscopique (CPRE) est associée à un risque élevé de pancréatite post-CPRE (PPC). L'utilité préventive de la sphinctérotomie endoscopique préalable restait à démontrer.
+
+## 🧪 Méthodologie
+Essai randomisé multicentrique (17 hôpitaux) comparant sphinctérotomie versus absence de sphinctérotomie avant pose de FCSEMS chez 297 patients avec obstruction biliaire maligne (OBM) distale. Critère principal : survenue d'une PPC dans les 30 jours.
+
+## 📊 Résultats clés
+Étude arrêtée prématurément pour futilité. Taux de PPC : 17% (groupe sphinctérotomie) contre 21% (groupe témoin), RR=0,78 (IC 95% : 0,49-1,26, p=0,37). Aucune différence significative pour les complications secondaires (saignements, perforations, angiocholites, cholécystites) ou la mortalité à 30 jours.
+
+## 🩺 Impact clinique
+La sphinctérotomie endoscopique systématique avant pose de FCSEMS n'est pas recommandée chez les patients avec OBM distale, n'apportant pas de bénéfice significatif dans la prévention de la PPC.
+
+## Revue
+Gut
+
+## 📖 Référence
+2025 Jan 17;74(2):246-254. doi: 10.1136/gutjnl-2024-332695.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1136/gutjnl-2024-332695.

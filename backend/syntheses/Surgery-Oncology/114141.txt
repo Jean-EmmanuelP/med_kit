@@ -1,0 +1,22 @@
+Date de publication : 2024-08-27
+
+# 📝 Étendue de la lymphadénectomie pour le cancer du côlon droit : essai randomisé RELARC
+
+## 📌 Contexte & Problématique
+L'exérèse complète du méso-côlon (CME) est utilisée pour traiter le cancer du côlon droit sans preuve solide de supériorité par rapport à la dissection D2 standard concernant les résultats oncologiques à long terme.
+
+## 🧪 Méthodologie
+Essai contrôlé randomisé multicentrique chinois (17 hôpitaux) comparant CME versus D2 lors de colectomies droites laparoscopiques chez 1072 patients atteints de cancer du côlon droit (stade T2-T4aNanyM0 ou TanyN+M0). Critère principal : survie sans maladie (SSM) à 3 ans.
+
+## 📊 Résultats clés
+995 patients analysés (âge médian 61 ans, 59% hommes). Aucune différence significative entre CME et D2 pour la SSM à 3 ans (86,1% vs 81,9%; HR 0,74 [IC 95% 0,54-1,02]; p=0,06) ni pour la survie globale (SG) à 3 ans (94,7% vs 92,6%; HR 0,70 [IC 95% 0,43-1,16]; p=0,17).
+
+## 🩺 Impact clinique
+La dissection D2 standard devrait rester la procédure de routine pour le cancer du côlon droit. La CME devrait être réservée aux patients présentant une atteinte ganglionnaire mésocolique évidente.
+
+## Revue
+Journal of Clinical Oncology
+
+## 📖 Référence
+2024;42(33):3957-3966. doi:10.1200/JCO.24.00393. Epub 2024 Aug 27.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO.24.00393.

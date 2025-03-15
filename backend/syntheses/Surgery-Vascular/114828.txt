@@ -1,0 +1,22 @@
+Date de publication : 2024-10-30
+
+# 📝 Index orteil-bras et pression systolique à l'orteil pour le diagnostic de l'artériopathie périphérique
+
+## 📌 Contexte & Problématique
+L'artériopathie périphérique (AP) touche environ 236 millions de personnes dans le monde. Sa détection précoce est cruciale pour prévenir les complications (claudication, plaies, gangrène, amputation). L'index orteil-bras (IOB) et la pression systolique à l'orteil (PSO) sont des tests non invasifs utilisés pour diagnostiquer l'AP, mais leur précision diagnostique mérite d'être évaluée.
+
+## 🧪 Méthodologie
+Revue systématique de 18 études incluant des patients adultes ayant bénéficié d'une mesure d'IOB et/ou de PSO comparée à une méthode d'imagerie vasculaire validée. Recherche dans plusieurs bases de données jusqu'en février 2024. Évaluation de la qualité méthodologique par QUADAS-2.
+
+## 📊 Résultats clés
+L'IOB a été évalué chez 1927 participants (2550 membres) et la PSO chez 701 participants. La majorité des études utilisaient l'échographie duplex couleur (EDC) comme référence standard. La qualité méthodologique était généralement faible, avec une certitude des preuves très faible selon GRADE.
+
+## 🩺 Impact clinique
+Malgré l'utilisation répandue de l'IOB et de la PSO en pratique clinique, leur performance diagnostique globale reste incertaine. Des recherches méthodologiquement robustes sont nécessaires pour déterminer leur précision diagnostique avec une plus grande certitude.
+
+## Revue
+Cochrane Database of Systematic Reviews
+
+## 📖 Référence
+2024;10(10):CD013783. doi: 10.1002/14651858.CD013783.pub2.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1002/14651858.CD013783.pub2.

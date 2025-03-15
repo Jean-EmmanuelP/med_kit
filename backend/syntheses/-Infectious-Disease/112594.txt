@@ -3,17 +3,20 @@ Date de publication : 2024-03-04
 # 📝 Stratégie infirmière pour améliorer la pression artérielle et le cholestérol chez les personnes vivant avec le VIH
 
 ## 📌 Contexte & Problématique
-Les personnes vivant avec le VIH (PVVIH) présentent un risque cardiovasculaire accru mais rencontrent des obstacles à la prévention. L'étude évalue l'efficacité d'une intervention dirigée par du personnel infirmier.
+Les personnes vivant avec le VIH (PVVIH) présentent un risque cardiovasculaire élevé mais font des obstacles spécifiques en matière de prévention, notamment liés aux modèles changeants de soins primaires.
 
 ## 🧪 Méthodologie
-Essai clinique randomisé incluant 297 PVVIH (78,8% d'hommes, âge médian 59 ans) avec charge virale contrôlée, hypertension et hypercholestérolémie. Le groupe intervention (n=149) a reçu l'EXTRA-CVD comprenant auto-surveillance tensionnelle, suivi infirmier dédié (4 visites sur 12 mois et appels réguliers). Le groupe témoin (n=148) a reçu une éducation générale.
+Essai clinique randomisé (2019-2023) incluant 297 PVVIH sous traitement antirétroviral (TAR) avec hypertension et hypercholestérolémie, répartis entre l'intervention EXTRA-CVD (surveillance à domicile et suivi infirmier intensif) et un groupe témoin (éducation générale).
 
 ## 📊 Résultats clés
-À 12 mois, le groupe EXTRA-CVD présentait une PAS réduite de 4,2 mmHg (IC 95%: 0,3-8,2; p=0,04) et un cholestérol non-HDL diminué de 16,9 mg/dL (IC 95%: 8,6-25,2; p<0,001) versus contrôle. L'effet sur la PAS semblait plus marqué chez les femmes (différence non statistiquement significative, p=0,06).
+Après 12 mois, le groupe EXTRA-CVD présentait une pression artérielle systolique (PAS) inférieure de 4,2 mmHg (p=0,04) et un cholestérol non-HDL inférieur de 16,9 mg/dL (p<0,001) comparé au groupe témoin. L'effet sur la PAS semblait plus marqué chez les femmes que chez les hommes (différence non statistiquement significative, p=0,06).
 
 ## 🩺 Impact clinique
-Cette stratégie infirmière multicomposante améliore efficacement les facteurs de risque cardiovasculaire chez les PVVIH et pourrait servir de modèle pour les programmes de prévention cardiovasculaire dans cette population.
+Cette stratégie multicomposante dirigée par du personnel infirmier s'avère efficace pour réduire les facteurs de risque cardiovasculaire chez les PVVIH et pourrait servir de modèle pour l'implémentation de programmes de prévention cardiovasculaire dans cette population.
+
+## Revue
+JAMA Network Open
 
 ## 📖 Référence
-Longenecker CT, Jones KA, Hileman CO, et al. JAMA Netw Open. 2024;7(3):e2356445.
+2024;7(3):e2356445. doi:10.1001/jamanetworkopen.2023.56445
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamanetworkopen.2023.56445.

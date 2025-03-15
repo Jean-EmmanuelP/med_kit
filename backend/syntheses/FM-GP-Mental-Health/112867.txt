@@ -1,0 +1,22 @@
+Date de publication : 2024-03-01
+
+# 📝 Diagnostic et traitement du TDAH chez les enfants et adolescents : revue systématique
+
+## 📌 Contexte & Problématique
+Évaluation des données probantes sur le diagnostic, traitement et suivi du trouble déficitaire de l'attention avec hyperactivité (TDAH) chez les jeunes pour actualiser les recommandations de l'Académie américaine de pédiatrie.
+
+## 🧪 Méthodologie
+Recherche systématique dans PubMed, Embase, PsycINFO, ERIC et clinicaltrials.gov d'études publiées depuis 1980 jusqu'à juin 2023. Protocole enregistré dans PROSPERO, avec évaluation du risque de biais et de la solidité des preuves (SoE).
+
+## 📊 Résultats clés
+550 études incluses (231 diagnostiques, 312 thérapeutiques, 10 de suivi). Les échelles d'évaluation parentale montrent des performances diagnostiques prometteuses (SoE faible). Les médicaments améliorent significativement les symptômes (SoE élevé) et le fonctionnement (SoE modéré), mais provoquent des effets indésirables (SoE élevé). Les interventions psychosociales améliorent aussi les symptômes (SoE modéré).
+
+## 🩺 Impact clinique
+Multiples outils diagnostiques disponibles mais peu de stratégies de suivi étudiées. Les médicaments restent importants malgré leurs effets secondaires, tandis que les thérapies psychosociales gagnent en crédibilité et que des approches non médicamenteuses émergent.
+
+## Revue
+AHRQ Publication
+
+## 📖 Référence
+2024, No. 24-EHC003, Rockville, MD: Agency for Healthcare Research and Quality; March 2024
+🔗 Lien PubMed : Lien PubMed non disponible

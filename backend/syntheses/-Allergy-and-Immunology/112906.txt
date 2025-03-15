@@ -3,17 +3,20 @@ Date de publication : 2024-03-09
 # 📝 Validation des critères ACR/EULAR 2023 pour le syndrome des antiphospholipides
 
 ## 📌 Contexte & Problématique
-Les nouveaux critères ACR/EULAR 2023 pour le syndrome des antiphospholipides (SAPL) ont été développés pour améliorer la spécificité par rapport aux critères de Sydney 2006, mais avec une possible réduction de sensibilité. Cette étude vise à valider leur performance dans une cohorte chinoise.
+Les nouveaux critères de classification ACR/EULAR 2023 pour le syndrome des antiphospholipides (SAPL) ont été développés avec une spécificité théoriquement supérieure aux critères de Sydney 2006, mais nécessitaient une validation dans des cohortes indépendantes.
 
 ## 🧪 Méthodologie
-Étude monocentrique incluant 526 patients (69,58% de femmes, âge moyen 38,55 ans) dont 34,60% avec lupus. Classification par panel d'experts servant de référence. Comparaison directe des critères 2023 vs 2006.
+Étude monocentrique chinoise incluant 526 patients (69,58% de femmes, âge moyen 38,55 ans) dont 34,60% avec lupus érythémateux systémique (LES). La classification par un panel d'experts a servi de référence pour évaluer sensibilité et spécificité des critères 2023 vs 2006.
 
 ## 📊 Résultats clés
-Les critères 2023 montrent une spécificité supérieure (0,983 vs 0,950) mais une sensibilité globale légèrement inférieure (0,818 vs 0,853). Amélioration de la sensibilité pour les patients avec lupus (0,860 vs 0,825), manifestations microvasculaires (0,867 vs 0,786), valvulopathies (0,903 vs 0,774) et thrombocytopénie (0,811 vs 0,790).
+Les critères 2023 montrent une spécificité supérieure (0,983 vs 0,950) mais une sensibilité globale légèrement inférieure (0,818 vs 0,853). Amélioration notable de la sensibilité pour les patients avec LES, manifestations microvasculaires, valvulopathies cardiaques et thrombocytopénie.
 
 ## 🩺 Impact clinique
-Les critères 2023 offrent un meilleur équilibre diagnostic, particulièrement pour certains sous-groupes spécifiques. La réduction de sensibilité est liée à des définitions plus strictes des manifestations cliniques et biologiques.
+Les critères 2023 offrent un meilleur équilibre diagnostic, particulièrement pour certains sous-groupes de patients. La sensibilité réduite s'explique par des définitions plus strictes des manifestations cliniques et biologiques.
+
+## Revue
+Journal of Thrombosis and Haemostasis
 
 ## 📖 Référence
-Zhao Y, Huang C, Zhou Y, et al. J Thromb Haemost. 2024;22(6):1660-1674.
+2024;22(6):1660-1674. doi:10.1016/j.jtha.2024.02.019
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.jtha.2024.02.019.

@@ -1,0 +1,22 @@
+Date de publication : 2025-02-01
+
+# 📝 Drainage prophylactique après gastrectomie : résultats de l'essai ADIGE
+
+## 📌 Contexte & Problématique
+L'utilité du drainage abdominal prophylactique après gastrectomie pour cancer reste controversée. L'étude visait à déterminer si l'absence de drainage augmente le risque de procédures invasives postopératoires.
+
+## 🧪 Méthodologie
+Essai clinique randomisé multicentrique de non-infériorité comparant deux groupes (avec/sans drain prophylactique) chez 390 patients opérés d'une gastrectomie pour cancer. Critère principal : nécessité de réopération ou drainage percutané dans les 30 jours postopératoires.
+
+## 📊 Résultats clés
+Dans l'analyse en intention de traiter modifiée (mITT), 7,7% des patients avec drain versus 15% sans drain ont nécessité une réopération ou drainage percutané (différence 7,2%, IC 90% 2,1-12,4; p=0,02). Cette différence était principalement due aux réopérations (5,1% vs 12,4%, p=0,01). Seulement 4 patients ont présenté des complications liées au drain.
+
+## 🩺 Impact clinique
+L'absence de drainage prophylactique après gastrectomie augmente significativement le risque de procédures invasives postopératoires, suggérant que cette pratique devrait être maintenue. Des recherches futures pourraient identifier les patients à haut risque nécessitant particulièrement un drainage.
+
+## Revue
+JAMA Surgery
+
+## 📖 Référence
+2025 Feb 1;160(2):135-143. doi: 10.1001/jamasurg.2024.5227. Identifiant ClinicalTrials.gov: NCT04227951.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamasurg.2024.5227.

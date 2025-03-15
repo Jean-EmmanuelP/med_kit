@@ -1,0 +1,25 @@
+Date de publication : 2024-10-01
+
+# 📝 Changement de chimiothérapie dans l'adénocarcinome pancréatique localisé : revue systématique et méta-analyse
+
+## 📌 Contexte & Problématique
+Cette étude explore l'efficacité du changement de chimiothérapie chez les patients atteints d'adénocarcinome canalaire pancréatique localisé (non métastatique) présentant une réponse insuffisante ou une toxicité au traitement de première ligne.
+
+## 🧪 Méthodologie
+Revue systématique de cinq études rétrospectives (863 patients) avec méta-analyse à effets aléatoires. Critères d'évaluation : proportion de patients avec changement thérapeutique, réponse du CA 19-9 (antigène carbohydrate 19-9), taux de résection, résection R0 et ypN0.
+
+## 📊 Résultats clés
+- 20,5% des patients ont changé de chimiothérapie (IC 95% : 10,5-36,3%)
+- Principalement passage du FOLFIRINOX (5-fluorouracile/leucovorine/irinotécan/oxaliplatine) à gemcitabine+nab-paclitaxel
+- Taux de résection après changement : 42,0% (IC 95% : 16,6-72,5%)
+- Survie postopératoire comparable entre patients avec changement et ceux sous monothérapie initiale
+
+## 🩺 Impact clinique
+Le changement de chimiothérapie apparaît comme une option viable pour les patients avec réponse inadéquate ou toxicité, offrant des taux de résection et de survie comparables aux patients sans changement thérapeutique.
+
+## Revue
+British Journal of Surgery
+
+## 📖 Référence
+2024;111(10):znae244. doi: 10.1093/bjs/znae244.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1093/bjs/znae244.

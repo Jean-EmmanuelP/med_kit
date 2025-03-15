@@ -1,19 +1,22 @@
 Date de publication : 2025-01-07
 
-# 📝 Survie globale finale du fulvestrant vs anastrozole chez les femmes naïves de traitement endocrinien atteintes d'un cancer du sein avancé HR+
+# 📝 Survie globale finale du fulvestrant versus anastrozole chez les femmes naïves de traitement endocrinien avec cancer du sein avancé HR+ (essai FALCON)
 
 ## 📌 Contexte & Problématique
-L'essai FALCON avait précédemment démontré une amélioration de la survie sans progression avec le fulvestrant vs anastrozole chez les femmes ménopausées atteintes d'un cancer du sein avancé HR+/HER2-, naïves de traitement endocrinien.
+L'essai FALCON avait précédemment démontré une amélioration de la survie sans progression (SSP) avec le fulvestrant versus anastrozole chez les femmes ménopausées atteintes d'un cancer du sein avancé HR+/HER2- naïves de traitement endocrinien. Cette analyse présente les résultats finaux de survie globale (SG).
 
 ## 🧪 Méthodologie
-Analyse finale préspécifiée de la survie globale (SG) à maturité ≥65% et ≥8 ans après inclusion du dernier patient. Analyses descriptives avec seuil α unilatéral de 0,01845.
+Analyse finale de SG déclenchée à maturité ≥65% et ≥8 ans après la dernière inclusion, avec collecte de données sur la survie, événements indésirables graves et qualité de vie.
 
 ## 📊 Résultats clés
-Au 11 juillet 2022, 68% des patientes étaient décédées. Aucune différence significative de SG entre fulvestrant et anastrozole (44,8 vs 42,7 mois; HR=0,97; IC95%:0,77-1,21; p=0,7579). Dans le sous-groupe à maladie non viscérale (n=208), tendance favorable au fulvestrant avec réduction de 15% du risque de décès (SG médiane: 65,2 vs 47,8 mois; HR=0,85; IC95%:0,60-1,20).
+Aucune différence significative de SG entre fulvestrant et anastrozole (44,8 vs 42,7 mois; HR=0,97; IC95%:0,77-1,21; p=0,7579). Dans le sous-groupe avec maladie non viscérale (n=208), tendance favorable au fulvestrant avec réduction de 15% du risque de décès (SG: 65,2 vs 47,8 mois; HR=0,85; IC95%:0,60-1,20).
 
 ## 🩺 Impact clinique
-Le fulvestrant pourrait offrir un bénéfice clinique à long terme chez les patientes avec maladie non viscérale, cohérent avec d'autres données publiées sur les thérapies endocriniennes.
+Les résultats suggèrent un bénéfice potentiel du fulvestrant chez les patientes avec maladie non viscérale, cohérent avec d'autres données sur les thérapies endocriniennes dans ce sous-groupe.
+
+## Revue
+J Clin Oncol
 
 ## 📖 Référence
-Robertson JFR, Shao Z, Noguchi S, et al. J Clin Oncol. 2025 Jan 7:JCO2400994.
+2025 Jan 7:JCO2400994. doi: 10.1200/JCO.24.00994
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO.24.00994.

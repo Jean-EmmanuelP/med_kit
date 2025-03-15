@@ -1,0 +1,22 @@
+Date de publication : 2024-12-16
+
+# 📝 Traitement par boucle fermée hybride et risque de complications aiguës chez les jeunes diabétiques de type 1
+
+## 📌 Contexte & Problématique
+L'impact de l'administration d'insuline en boucle fermée sur les complications aiguës du diabète de type 1 reste incertain chez les jeunes patients.
+
+## 🧪 Méthodologie
+Étude de cohorte populationnelle incluant 13 922 jeunes (2-20 ans) atteints de diabète de type 1 depuis plus d'un an, suivis entre 2021 et 2023 dans 250 centres en Europe. Comparaison entre traitement en boucle fermée hybride (n=7 088) et boucle ouverte (pompe avec capteur, n=6 834).
+
+## 📊 Résultats clés
+Le groupe boucle fermée présentait un taux plus élevé d'acidocétose diabétique (ACD) (1,74 vs 0,96/100 patients-années; p<0,0001), particulièrement chez les patients avec HbA1c ≥8,5%. Pas de différence significative pour l'hypoglycémie sévère, mais réduction du coma hypoglycémique (0,62 vs 0,91/100 patients-années; p=0,034). Amélioration de l'HbA1c (-0,16%), du temps dans la cible (64% vs 52%) et de la variabilité glycémique.
+
+## 🩺 Impact clinique
+Le traitement en boucle fermée hybride améliore le contrôle glycémique mais nécessite une éducation renforcée pour prévenir l'ACD, notamment chez les patients avec HbA1c élevée.
+
+## Revue
+Lancet Diabetes Endocrinol
+
+## 📖 Référence
+2025 Feb;13(2):88-96. doi: 10.1016/S2213-8587(24)00284-5. Epub 2024 Dec 16.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S2213-8587(24)00284-5.

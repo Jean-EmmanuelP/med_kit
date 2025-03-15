@@ -1,0 +1,22 @@
+Date de publication : 2024-04-24
+
+# 📝 Comparaison des techniques de péridurale avec ponction durale et standard pour l'analgésie du travail maintenue par bolus programmés
+
+## 📌 Contexte & Problématique
+La technique de péridurale avec ponction durale (DPE) a montré des avantages lors de l'installation de l'analgésie du travail comparée à la technique péridurale standard (SE). Cette étude évalue si ces avantages persistent pendant le maintien de l'analgésie par bolus périduraux intermittents programmés (PIEB).
+
+## 🧪 Méthodologie
+Essai clinique randomisé en double aveugle incluant 339 parturientes recevant soit une DPE soit une SE. Après l'installation de l'analgésie (ropivacaïne 0,15% + sufentanil), le maintien était assuré par PIEB (ropivacaïne 0,1% + sufentanil, 8 mL toutes les 40 min).
+
+## 📊 Résultats clés
+Aucune différence significative entre les groupes concernant la consommation de ropivacaïne (p=0,051), les scores de douleur, le délai jusqu'au premier PIEB, le nombre de bolus programmés ou manuels, et les résultats obstétricaux/néonataux. La satisfaction était statistiquement plus élevée dans le groupe DPE, mais avec une différence absolue minime.
+
+## 🩺 Impact clinique
+Lorsque l'analgésie du travail est maintenue par PIEB, l'utilisation initiale de la technique DPE n'offre pas d'avantage cliniquement significatif par rapport à la technique SE standard.
+
+## Revue
+Reg Anesth Pain Med
+
+## 📖 Référence
+2024 Apr 24:rapm-2024-105468. doi: 10.1136/rapm-2024-105468.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1136/rapm-2024-105468.

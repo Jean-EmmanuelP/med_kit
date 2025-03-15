@@ -1,19 +1,22 @@
 Date de publication : 2024-04-18
 
-# 📝 PEMBROLIZUMAB ADJUVANT ET SURVIE GLOBALE DANS LE CARCINOME RÉNAL
+# 📝 Survie globale avec pembrolizumab adjuvant dans le carcinome rénal
 
 ## 📌 Contexte & Problématique
-L'essai KEYNOTE-564 avait démontré une amélioration de la survie sans maladie avec le pembrolizumab adjuvant après chirurgie du carcinome rénal. Cette analyse évalue l'impact sur la survie globale.
+L'essai KEYNOTE-564 avait démontré une amélioration de la survie sans maladie avec le pembrolizumab adjuvant après chirurgie du carcinome rénal. Cette analyse évalue si ce bénéfice s'étend également à la survie globale.
 
 ## 🧪 Méthodologie
-Essai de phase 3, randomisé (1:1), double aveugle, contrôlé par placebo. 994 patients atteints de carcinome rénal à cellules claires à risque élevé de récidive post-chirurgie ont reçu pembrolizumab (200 mg) ou placebo toutes les 3 semaines pendant maximum 17 cycles.
+Essai de phase 3, randomisé, double aveugle, comparant pembrolizumab (200 mg toutes les 3 semaines pendant maximum 17 cycles) versus placebo chez des patients opérés d'un carcinome rénal à cellules claires à haut risque de récidive.
 
 ## 📊 Résultats clés
-Après 57,2 mois de suivi médian, le pembrolizumab a significativement amélioré la survie globale (HR=0,62; IC 95%: 0,44-0,87; p=0,005). La survie à 48 mois était de 91,2% vs 86,0% avec placebo. Plus d'événements indésirables graves (20,7% vs 11,5%) et de grade 3-4 (18,6% vs 1,2%) dans le groupe pembrolizumab, sans décès attribuable au traitement.
+Avec un suivi médian de 57,2 mois, le pembrolizumab a significativement amélioré la survie globale (HR=0,62; IC 95%: 0,44-0,87; p=0,005). La survie à 48 mois était de 91,2% versus 86,0% dans le groupe placebo. Plus d'événements indésirables graves (20,7% vs 11,5%) et d'effets indésirables de grade 3-4 (18,6% vs 1,2%) dans le groupe pembrolizumab, sans décès lié au traitement.
 
 ## 🩺 Impact clinique
-Le pembrolizumab adjuvant offre un bénéfice cliniquement significatif en survie globale chez les patients à haut risque de récidive après chirurgie du carcinome rénal.
+Ces résultats confirment le bénéfice clinique significatif du pembrolizumab adjuvant, désormais démontré tant sur la survie sans maladie que sur la survie globale, renforçant sa place dans la prise en charge post-chirurgicale des carcinomes rénaux à haut risque.
+
+## Revue
+N Engl J Med
 
 ## 📖 Référence
-Choueiri TK, Tomczak P, Park SH, et al. Overall Survival with Adjuvant Pembrolizumab in Renal-Cell Carcinoma. N Engl J Med. 2024;390(15):1359-1371.
+2024;390(15):1359-1371. doi:10.1056/NEJMoa2312695
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2312695.

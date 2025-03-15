@@ -1,0 +1,22 @@
+Date de publication : 2024-11-29
+
+# 📝 Prourokinase recombinante intraveineuse pour l'AVC ischémique aigu
+
+## 📌 Contexte & Problématique
+Face à la pénurie mondiale de thrombolytiques, cette étude évalue la non-infériorité de la prourokinase humaine recombinante intraveineuse comparée à l'alteplase chez les patients victimes d'AVC (accident vasculaire cérébral) ischémique aigu non éligibles ou ayant refusé la thrombectomie endovasculaire.
+
+## 🧪 Méthodologie
+Essai PROST-2, randomisé, ouvert, de non-infériorité, mené dans 61 hôpitaux chinois. 1552 patients ont reçu soit de la prourokinase (15 mg en bolus + 20 mg en perfusion sur 30 min), soit de l'alteplase (0,9 mg/kg) dans les 4,5h après l'AVC.
+
+## 📊 Résultats clés
+72,0% des patients sous prourokinase vs 68,7% sous alteplase ont atteint un score de Rankin modifié de 0-1 à 90 jours (RR 1,04 [IC 95% 0,98-1,10]). Hémorragie intracrânienne symptomatique significativement réduite avec la prourokinase (0,3% vs 1,3%, p=0,021), tout comme les hémorragies majeures (0,5% vs 2,1%, p=0,0072).
+
+## 🩺 Impact clinique
+La prourokinase humaine recombinante représente une alternative viable à l'alteplase pour la thrombolyse intraveineuse, avec une efficacité non-inférieure et un profil de sécurité potentiellement amélioré concernant les complications hémorragiques.
+
+## Revue
+Lancet Neurology
+
+## 📖 Référence
+2025 Jan;24(1):33-41. doi: 10.1016/S1474-4422(24)00436-8. Epub 2024 Nov 29.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S1474-4422(24)00436-8.

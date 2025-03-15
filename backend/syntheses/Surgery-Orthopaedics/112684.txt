@@ -1,0 +1,22 @@
+Date de publication : 2023-11-29
+
+# 📝 Arthroplastie discale cervicale vs fusion : résultats à 10 ans
+
+## 📌 Contexte & Problématique
+La discectomie cervicale antérieure avec fusion (DCAF) est le traitement standard de la discopathie dégénérative cervicale (DDC), mais peut accélérer la maladie du segment adjacent. L'arthroplastie discale cervicale (ADC) vise à préserver la mobilité pour prévenir cette complication, mais les résultats à long terme restaient incertains.
+
+## 🧪 Méthodologie
+Revue systématique avec méta-analyse d'essais contrôlés randomisés et d'études de cohorte rétrospectives comparant ADC et DCAF pour le traitement de la DDC à un ou deux niveaux, avec suivi à 10 ans.
+
+## 📊 Résultats clés
+L'ADC a montré une amélioration statistiquement significative de l'indice d'invalidité cervicale et des scores sur l'échelle visuelle analogique, mais ces améliorations n'atteignaient pas les différences minimales cliniquement importantes. L'ADC a entraîné significativement moins de chirurgies secondaires et d'événements indésirables que la DCAF (p<0,05), sans différence significative concernant le succès neurologique.
+
+## 🩺 Impact clinique
+L'ADC présente des avantages à long terme en réduisant les réinterventions et complications, mais les bénéfices fonctionnels, bien que statistiquement significatifs, ne sont pas cliniquement pertinents.
+
+## Revue
+Spine
+
+## 📖 Référence
+2024;49(7):463-469. doi:10.1097/BRS.0000000000004887. Epub 2023 Nov 29.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1097/BRS.0000000000004887.

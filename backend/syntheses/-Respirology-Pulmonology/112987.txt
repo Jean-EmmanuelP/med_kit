@@ -1,0 +1,22 @@
+Date de publication : 2024-06-18
+
+# 📝 Alertes informatisées pour optimiser l'antibiothérapie dans la pneumonie
+
+## 📌 Contexte & Problématique
+La pneumonie est l'infection la plus fréquente nécessitant hospitalisation et cause majeure de surutilisation d'antibiotiques à spectre étendu, malgré le faible risque d'organismes multirésistants (OMR) chez de nombreux patients.
+
+## 🧪 Méthodologie
+Essai randomisé en grappes dans 59 hôpitaux américains comparant une intervention de gestion des antibiotiques via systèmes informatisés de prescription (SIP) (n=29 hôpitaux) au traitement standard (n=30). L'intervention incluait des alertes recommandant des antibiotiques à spectre standard pour les patients à faible risque d'OMR (<10%), associées à éducation et retour d'information.
+
+## 📊 Résultats clés
+L'étude a inclus 96 451 patients (âge moyen: 68,1 ans). Le groupe intervention a montré une réduction de 28,4% des jours de traitement empirique par antibiotiques à spectre étendu (ratio 0,72 [IC 95%, 0,66-0,78]; p<0,001). Les critères de sécurité (délai avant transfert en unité de soins intensifs et durée d'hospitalisation) sont restés similaires entre les groupes.
+
+## 🩺 Impact clinique
+Les alertes informatisées basées sur le risque d'OMR permettent de réduire significativement l'utilisation d'antibiotiques à large spectre sans compromettre la sécurité des patients hospitalisés pour pneumonie.
+
+## Revue
+JAMA
+
+## 📖 Référence
+2024;331(23):2007-2017. doi:10.1001/jama.2024.6248
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jama.2024.6248.

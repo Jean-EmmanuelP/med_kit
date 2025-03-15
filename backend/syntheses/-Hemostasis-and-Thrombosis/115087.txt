@@ -1,22 +1,25 @@
 Date de publication : 2024-10-24
 
-# 📝 Durée d'anticoagulation pour thromboembolie veineuse pédiatrique : résultats à 2 ans de l'essai Kids-DOTT
+# 📝 Durée optimale d'anticoagulation pour la thromboembolie veineuse pédiatrique : résultats à 2 ans de l'essai Kids-DOTT
 
 ## 📌 Contexte & Problématique
-L'étude évalue si une anticoagulation de 6 semaines est non-inférieure à 3 mois pour la TEV provoquée chez les patients <21 ans, après des résultats favorables à 1 an.
+L'essai Kids-DOTT avait précédemment démontré la non-infériorité d'une anticoagulation de 6 semaines versus 3 mois pour la thromboembolie veineuse (TEV) provoquée chez les patients <21 ans à 1 an. Cette analyse évalue la persistance de cette non-infériorité à 2 ans.
 
 ## 🧪 Méthodologie
-Essai randomisé multinational incluant 417 patients sans occlusion veineuse complète à 6 semaines, assignés à arrêter l'anticoagulation ou poursuivre jusqu'à 3 mois. Suivi de 2 ans évaluant récidives de TEV et saignements significatifs.
+Patients sans occlusion veineuse complète à l'imagerie de contrôle à 6 semaines randomisés pour arrêter l'anticoagulation ou poursuivre jusqu'à 3 mois. Suivi de 2 ans évaluant les récidives de TEV et les saignements cliniquement significatifs (n=417).
 
 ## 📊 Résultats clés
 Incidences cumulées à 2 ans (6 semaines vs 3 mois) :
 - Récidives TEV : 1,7% vs 2,9%
 - Saignements significatifs : 1,1% vs 3,2%
-L'analyse bivariée confirme la non-infériorité du traitement de 6 semaines.
+L'analyse bivariée confirme la non-infériorité du traitement court.
 
 ## 🩺 Impact clinique
-Une anticoagulation de 6 semaines est suffisante pour la TEV provoquée pédiatrique, offrant un bénéfice clinique net comparable avec moins d'exposition aux anticoagulants.
+Ces résultats confirment la durabilité du bénéfice clinique net d'une anticoagulation de 6 semaines pour la TEV provoquée chez les enfants et jeunes adultes, permettant de réduire l'exposition aux anticoagulants sans compromettre l'efficacité.
+
+## Revue
+Journal of Thrombosis and Haemostasis
 
 ## 📖 Référence
-Goldenberg NA, Schulman S, Kittelson JM, et al. J Thromb Haemost. 2025;23(2):651-656.
+2025 Feb;23(2):651-656. doi: 10.1016/j.jtha.2024.09.038. Epub 2024 Oct 24.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.jtha.2024.09.038.

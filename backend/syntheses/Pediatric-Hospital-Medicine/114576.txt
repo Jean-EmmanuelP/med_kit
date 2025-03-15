@@ -1,0 +1,22 @@
+Date de publication : 2024-10-02
+
+# 📝 Ventilation non invasive à pression positive pour l'asthme aigu chez l'enfant
+
+## 📌 Contexte & Problématique
+L'asthme représente une cause majeure d'hospitalisation pédiatrique. La ventilation non invasive à pression positive (VNIPP) est de plus en plus utilisée malgré des preuves limitées et l'absence de recommandations cliniques formelles pour son utilisation systématique.
+
+## 🧪 Méthodologie
+Revue systématique Cochrane incluant trois essais cliniques randomisés (ECR) comparant la BiPAP (ventilation à deux niveaux de pression positive) aux soins standard chez 120 enfants (60 par groupe) hospitalisés pour asthme aigu en unité de soins intensifs pédiatriques (USIP).
+
+## 📊 Résultats clés
+Aucun décès rapporté. Deux essais ont montré une réduction cliniquement significative des scores de symptômes d'asthme avec la BiPAP. Un essai a rapporté une réduction potentielle du taux d'intubation (RR 0,47, IC 95% 0,23-0,95). Une analyse post-hoc suggère une légère diminution de la durée de séjour en USIP (DM -0,87 jour, IC 95% -1,52 à -0,22).
+
+## 🩺 Impact clinique
+Les preuves actuelles sont de très faible certitude en raison du risque élevé de biais et de l'imprécision des résultats. Bien que la BiPAP puisse améliorer les symptômes et réduire le taux d'intubation, des ECR plus robustes sont nécessaires pour confirmer ces bénéfices potentiels.
+
+## Revue
+Cochrane Database of Systematic Reviews
+
+## 📖 Référence
+2024;10(10):CD012067. doi:10.1002/14651858.CD012067.pub3
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1002/14651858.CD012067.pub3.

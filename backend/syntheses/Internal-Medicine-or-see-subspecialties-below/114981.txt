@@ -1,19 +1,22 @@
 Date de publication : 2024-11-20
 
-# 📝 Traitement antibiotique de 7 vs 14 jours dans les bactériémies
+# 📝 Traitement antibiotique de 7 versus 14 jours dans les bactériémies
 
 ## 📌 Contexte & Problématique
-Les infections du système sanguin causent une morbi-mortalité importante. La durée optimale d'antibiothérapie reste incertaine.
+Les infections du sang (bactériémies) causent une morbi-mortalité importante. Si l'antibiothérapie précoce est cruciale, la durée optimale de traitement reste incertaine.
 
 ## 🧪 Méthodologie
-Essai multicentrique de non-infériorité dans 74 hôpitaux (7 pays) comparant 7 vs 14 jours d'antibiothérapie chez 3608 patients hospitalisés avec bactériémie. Exclusion: immunosuppression sévère, foyers nécessitant traitement prolongé, contaminations possibles, S. aureus. Critère principal: mortalité à 90 jours.
+Essai multicentrique de non-infériorité incluant 3608 patients hospitalisés (dont 55% en USI) avec bactériémie, randomisés pour recevoir 7 ou 14 jours d'antibiotiques. Exclusion des immunodéprimés sévères, infections à S. aureus et foyers nécessitant un traitement prolongé. Critère principal : mortalité à 90 jours.
 
 ## 📊 Résultats clés
-Mortalité à 90 jours: 14,5% (7 jours) vs 16,1% (14 jours), différence -1,6% (IC 95,7%: -4,0 à 0,8), démontrant la non-infériorité. Résultats similaires en analyse per-protocole et dans tous les sous-groupes prédéfinis.
+Mortalité à 90 jours : 14,5% (groupe 7 jours) vs 16,1% (groupe 14 jours), différence -1,6% (IC 95,7% : -4,0 à 0,8), démontrant la non-infériorité. Résultats similaires dans l'analyse per-protocole et les sous-groupes prédéfinis.
 
 ## 🩺 Impact clinique
-Un traitement antibiotique de 7 jours est suffisant pour la majorité des bactériémies, permettant de réduire l'exposition aux antibiotiques sans compromettre l'efficacité clinique.
+Un traitement antibiotique de 7 jours est suffisant pour la majorité des bactériémies hospitalisées, permettant de réduire l'exposition aux antibiotiques sans compromettre les résultats cliniques.
+
+## Revue
+New England Journal of Medicine
 
 ## 📖 Référence
-Daneman N, Rishu A, Pinto R, et al. Antibiotic Treatment for 7 versus 14 Days in Patients with Bloodstream Infections. N Engl J Med. 2024 Nov 20. doi: 10.1056/NEJMoa2404991.
+2024 Nov 20. doi: 10.1056/NEJMoa2404991.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2404991.

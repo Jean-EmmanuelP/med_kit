@@ -1,0 +1,22 @@
+Date de publication : 2024-08-16
+
+# 📝 Angioplastie par ballonnet médicamenteux guidée par échographie intravasculaire pour les maladies fémoropoplitées
+
+## 📌 Contexte & Problématique
+Les ballonnets à élution médicamenteuse (DCB) montrent des résultats favorables dans le traitement endovasculaire des maladies de l'artère fémoropoplitée (AFP). Cette étude évalue si l'échographie intravasculaire (IVUS) peut améliorer les résultats des DCB comparativement au guidage angiographique conventionnel.
+
+## 🧪 Méthodologie
+Essai randomisé multicentrique coréen comparant l'angioplastie guidée par IVUS (n=119) versus guidée par angiographie (n=118) avec DCB dans les maladies de l'AFP. Critère principal : perméabilité primaire à 12 mois.
+
+## 📊 Résultats clés
+Le groupe IVUS a démontré une perméabilité primaire significativement supérieure (83,8% vs 70,1%, p=0,01), une meilleure absence de revascularisation cliniquement motivée (92,4% vs 83,0%, p=0,02), et des améliorations cliniques (89,1% vs 76,3%, p=0,01) et hémodynamiques (82,4% vs 66,9%, p=0,01) à 12 mois. L'IVUS a permis l'utilisation de ballonnets plus larges et des pressions plus élevées, aboutissant à un diamètre luminal minimal post-procédural supérieur.
+
+## 🩺 Impact clinique
+Le guidage par IVUS améliore significativement les résultats des DCB dans les maladies fémoropoplitées grâce à une meilleure optimisation des lésions avant et après traitement.
+
+## Revue
+European Heart Journal
+
+## 📖 Référence
+2024;45(31):2839-2847. doi:10.1093/eurheartj/ehae372
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1093/eurheartj/ehae372.

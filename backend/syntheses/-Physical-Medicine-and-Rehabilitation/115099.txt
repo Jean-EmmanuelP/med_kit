@@ -1,0 +1,22 @@
+Date de publication : 2024-07-18
+
+# 📝 Efficacité comparative du dextrose 5% et des corticostéroïdes dans le syndrome du canal carpien
+
+## 📌 Contexte & Problématique
+Évaluation de l'efficacité du dextrose à 5% (D5W) comparé aux corticostéroïdes dans le traitement du syndrome du canal carpien (SCC) léger à modéré.
+
+## 🧪 Méthodologie
+Revue systématique et méta-analyse incluant 4 essais contrôlés randomisés et 1 étude quasi-expérimentale, totalisant 212 patients (220 mains). Recherche dans MEDLINE, Embase et Cochrane jusqu'en novembre 2023.
+
+## 📊 Résultats clés
+Dans les 3 mois, le D5W a montré une amélioration significative de l'état fonctionnel par rapport aux corticostéroïdes (différence moyenne standardisée: -0,34; IC 95%: -0,62 à -0,05) et moins d'effets indésirables (risque relatif: 0,13; IC 95%: 0,03-0,51). Efficacité comparable pour la douleur, la sévérité des symptômes et les paramètres électrodiagnostiques.
+
+## 🩺 Impact clinique
+Le D5W représente une alternative préférentielle aux corticostéroïdes pour le SCC léger à modéré, offrant une meilleure amélioration fonctionnelle avec un profil d'innocuité supérieur.
+
+## Revue
+Archives of Physical Medicine and Rehabilitation
+
+## 📖 Référence
+2025 Feb;106(2):300-310. doi: 10.1016/j.apmr.2024.07.005. Epub 2024 Jul 18.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.apmr.2024.07.005.

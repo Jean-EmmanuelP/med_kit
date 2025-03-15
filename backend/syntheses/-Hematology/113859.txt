@@ -1,0 +1,22 @@
+Date de publication : 2024-07-26
+
+# 📝 Qualité de vie liée à la santé chez les patients atteints de lymphome de Hodgkin pédiatrique à haut risque
+
+## 📌 Contexte & Problématique
+L'impact du brentuximab védotine (BV) sur la qualité de vie liée à la santé (QVLS) des patients pédiatriques atteints de lymphome de Hodgkin (LH) à haut risque n'avait jamais été évalué, malgré son efficacité clinique démontrée.
+
+## 🧪 Méthodologie
+Étude longitudinale incluant 268 participants (>11 ans) randomisés pour recevoir soit BV+chimiothérapie standard, soit chimiothérapie standard seule. La QVLS a été mesurée via l'échelle Child Health Ratings Inventories (CHRIs)-Global à quatre moments: avant traitement (T1), cycles 2 (T2) et 5 (T3), et fin de traitement (T4).
+
+## 📊 Résultats clés
+À T1, sexe féminin et fièvre étaient associés à une QVLS inférieure (P<0,05). À T2, le groupe BV a connu une amélioration cliniquement significative de la QVLS (ß=7,3 [IC 95%, 3,2-11,4]; P=0,001), supérieure au groupe standard. Ce dernier n'a montré d'amélioration significative qu'à T4 (ß=9,3 [IC 95%, 4,7-11,5]; P<0,001).
+
+## 🩺 Impact clinique
+L'ajout du BV permet une amélioration plus rapide et plus importante de la QVLS pendant le traitement du LH pédiatrique à haut risque, renforçant l'intérêt de cette approche thérapeutique.
+
+## Revue
+Journal of Clinical Oncology
+
+## 📖 Référence
+2024;42(28):3330-3338. doi:10.1200/JCO.24.00038. Epub 2024 Jul 26.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO.24.00038.

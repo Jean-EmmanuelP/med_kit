@@ -1,0 +1,22 @@
+Date de publication : 2024-04-01
+
+# 📝 Thérapie par convulsion magnétique vs électroconvulsivothérapie dans la manie bipolaire
+
+## 📌 Contexte & Problématique
+L'électroconvulsivothérapie (ECT) est efficace pour la manie bipolaire sévère mais présente des risques d'effets indésirables cognitifs. La thérapie par convulsion magnétique (MST) pourrait offrir une alternative avec moins d'effets secondaires.
+
+## 🧪 Méthodologie
+Essai clinique randomisé (2017-2021) incluant 48 patients atteints de manie bipolaire, répartis entre MST et ECT. Chaque groupe a reçu 8-10 séances (2-3/semaine). Critères principaux : réduction du score YMRS (Young Mania Rating Scale) et taux de réponse (>50% de réduction).
+
+## 📊 Résultats clés
+Les taux de réponse étaient comparables : 95,0% pour l'ECT et 86,4% pour la MST (p=0,67). La réduction des scores YMRS ne différait pas significativement entre les groupes (p=0,41). La MST a préservé les fonctions langagières, contrairement à l'ECT qui a entraîné une détérioration (p=0,01). Aucun effet indésirable grave n'a été signalé.
+
+## 🩺 Impact clinique
+La MST apparaît comme une alternative thérapeutique prometteuse à l'ECT pour la manie bipolaire, offrant une efficacité comparable avec moins d'effets cognitifs indésirables, particulièrement sur les fonctions langagières.
+
+## Revue
+JAMA Network Open
+
+## 📖 Référence
+2024;7(4):e247919. doi:10.1001/jamanetworkopen.2024.7919
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamanetworkopen.2024.7919.

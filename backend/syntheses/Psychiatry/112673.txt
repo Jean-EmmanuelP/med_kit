@@ -1,0 +1,22 @@
+Date de publication : 2024-03-04
+
+# 📝 Efficacité des médicaments dans le traitement de l'akathisie induite par les antipsychotiques
+
+## 📌 Contexte & Problématique
+L'akathisie induite par les antipsychotiques (AIA) touche 14-35% des patients traités et augmente le risque suicidaire et la non-observance chez les patients schizophrènes. Une comparaison complète de l'efficacité des traitements manquait jusqu'à présent.
+
+## 🧪 Méthodologie
+Revue systématique et méta-analyse en réseau d'essais cliniques randomisés (ECR) en double aveugle comparant des médicaments pour l'AIA, identifiés dans MEDLINE, Web of Science et Google Scholar. Le critère principal était la sévérité de l'akathisie mesurée par une échelle validée.
+
+## 📊 Résultats clés
+Sur 15 essais (492 participants), six traitements ont montré une efficacité supérieure au placebo : mirtazapine (DMS -1,20), bipéridène (DMS -1,01), vitamine B6 (DMS -0,92), trazodone (DMS -0,84), miansérine (DMS -0,81) et propranolol (DMS -0,78). La cyproheptadine, le clonazépam, le zolmitriptan et le valproate n'ont pas montré d'effets significatifs.
+
+## 🩺 Impact clinique
+La vitamine B6 présente le meilleur profil efficacité-tolérance, suivie par la mirtazapine et le bipéridène. Le trazodone, la miansérine et le propranolol constituent des alternatives efficaces avec des profils légèrement moins favorables.
+
+## Revue
+JAMA Network Open
+
+## 📖 Référence
+2024;7(3):e241527. doi:10.1001/jamanetworkopen.2024.1527
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamanetworkopen.2024.1527.

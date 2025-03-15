@@ -1,0 +1,22 @@
+Date de publication : 2024-07-01
+
+# 📝 Irrigation incisionnelle pour la prévention des infections du site opératoire : méta-analyse en réseau
+
+## 📌 Contexte & Problématique
+Les infections du site opératoire (ISO) sont des complications fréquentes associées à une morbidité et mortalité significatives. L'irrigation incisionnelle prophylactique peropératoire est utilisée avec une grande variabilité dans les pratiques, sans consensus clair sur son efficacité.
+
+## 🧪 Méthodologie
+Revue systématique et méta-analyse en réseau de 41 essais cliniques randomisés (17 188 patients) comparant différentes solutions d'irrigation incisionnelle (antiseptiques, antibiotiques, sérum physiologique) à l'absence d'irrigation. Recherche dans PubMed, Embase, CENTRAL et CINAHL jusqu'en juin 2023.
+
+## 📊 Résultats clés
+Incidence globale d'ISO : 7,7% (1328 cas). Comparées à l'absence d'irrigation, les solutions antiseptiques (RR 0,60 [0,44-0,81], certitude élevée) et antibiotiques (RR 0,46 [0,29-0,73], certitude faible) réduisent significativement les ISO. Le sérum physiologique n'a pas montré de différence significative (RR 0,83 [0,63-1,09], certitude modérée).
+
+## 🩺 Impact clinique
+L'irrigation incisionnelle avec solutions antiseptiques est recommandée pour réduire les ISO (preuves de haute certitude). L'irrigation antibiotique, malgré son efficacité apparente, est à éviter en raison de preuves de faible certitude et des risques de résistance antimicrobienne.
+
+## Revue
+JAMA Surgery
+
+## 📖 Référence
+2024;159(7):792-800. doi:10.1001/jamasurg.2024.0775
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamasurg.2024.0775.

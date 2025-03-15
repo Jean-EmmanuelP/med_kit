@@ -1,19 +1,22 @@
 Date de publication : 2024-06-27
 
-# 📝 Cellules souches mésenchymateuses clonales dans le traitement de la dermatite atopique modérée à sévère
+# 📝 Cellules souches mésenchymateuses clonales pour le traitement de la dermatite atopique modérée à sévère
 
 ## 📌 Contexte & Problématique
-La dermatite atopique (DA) modérée à sévère reste difficile à traiter. Les cellules souches mésenchymateuses (CSM) présentent des propriétés immunomodulatrices potentiellement bénéfiques pour cette pathologie.
+Les cellules souches mésenchymateuses (CSM) peuvent moduler les réponses immunitaires, offrant un potentiel thérapeutique pour la dermatite atopique (DA) modérée à sévère, une condition inflammatoire cutanée chronique.
 
 ## 🧪 Méthodologie
-Étude en deux phases : essai ouvert de phase 1 (20 patients) suivi d'un essai randomisé contrôlé de phase 2 (72 patients). Administration intraveineuse de CSM clonales allogéniques dérivées de moelle osseuse humaine (hcMSC) à 5×10^5 cellules/kg.
+Étude en deux phases: essai ouvert (phase 1) suivi d'un essai randomisé, double aveugle, contrôlé par placebo (phase 2) incluant 72 patients atteints de DA modérée à sévère.
 
 ## 📊 Résultats clés
-Phase 1 : bonne tolérance des hcMSC aux deux dosages testés. Phase 2 : taux de réponse EASI-50 significativement supérieur à 12 semaines dans le groupe hcMSC versus placebo (p=0,038). Pas de différence significative pour la qualité de vie et le prurit. Événements indésirables majoritairement légers à modérés.
+En phase 1, l'administration intraveineuse de cellules souches mésenchymateuses clonales humaines dérivées de la moelle osseuse (hcMSC) s'est révélée sûre. En phase 2, trois perfusions hebdomadaires de hcMSC (5×10^5 cellules/kg) ont démontré une proportion significativement plus élevée de réponse EASI-50 (Eczema Area and Severity Index) à 12 semaines comparé au placebo (p=0,038).
 
 ## 🩺 Impact clinique
-Les hcMSC représentent une option thérapeutique prometteuse pour la DA modérée à sévère avec un profil de sécurité acceptable. Des études à plus grande échelle sont nécessaires pour confirmer ces résultats préliminaires.
+Les hcMSC présentent un profil de sécurité acceptable avec des effets indésirables majoritairement légers à modérés. Cette approche thérapeutique pourrait offrir une alternative pour les patients atteints de DA modérée à sévère, mais nécessite confirmation par des études à plus grande échelle.
+
+## Revue
+J Allergy Clin Immunol
 
 ## 📖 Référence
-Seo HM, Lew BL, Lee YW, et al. J Allergy Clin Immunol. 2024;154(4):965-973.
+2024;154(4):965-973. doi:10.1016/j.jaci.2024.06.013
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.jaci.2024.06.013.

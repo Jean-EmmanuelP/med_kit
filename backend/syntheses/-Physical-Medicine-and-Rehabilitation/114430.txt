@@ -1,0 +1,22 @@
+Date de publication : 2024-09-10
+
+# 📝 Efficacité du courant interférentiel avec exercice dans l'arthrose du genou
+
+## 📌 Contexte & Problématique
+Évaluation de l'efficacité de la thérapie par courant interférentiel (IFC) combinée à des exercices de renforcement du quadriceps versus un IFC placebo avec exercices pour soulager la douleur et améliorer la fonction chez les patients souffrant d'arthrose du genou.
+
+## 🧪 Méthodologie
+Essai contrôlé randomisé en double aveugle incluant 144 patients (50-85 ans) avec arthrose du genou et douleur ≥4/10. Groupe d'étude : IFC actif (4000 Hz, battement 100 Hz) pendant 20 minutes; groupe témoin : IFC placebo. Les deux groupes ont effectué 10 minutes d'exercices, 5 fois/semaine pendant 3 semaines. Évaluations : douleur (Échelle Numérique), WOMAC (Western Ontario and McMaster Universities Index), vitesse de marche et qualité de vie.
+
+## 📊 Résultats clés
+À 3 semaines, améliorations statistiquement significatives dans le groupe IFC actif pour la douleur, WOMAC total, WOMAC douleur et WOMAC raideur, mais inférieures aux seuils de différence minimale cliniquement importante. Aucune différence significative entre les groupes à 6 semaines.
+
+## 🩺 Impact clinique
+L'IFC n'apporte pas de bénéfice cliniquement significatif pour la douleur et la fonction chez les patients atteints d'arthrose légère à modérée du genou.
+
+## Revue
+Clinical Rehabilitation
+
+## 📖 Référence
+2024;38(12):1622-1632. doi:10.1177/02692155241278949
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1177/02692155241278949.

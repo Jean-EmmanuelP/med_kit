@@ -1,0 +1,22 @@
+Date de publication : 2024-03-07
+
+# 📝 Double implant d'étonogestrel pour contrer l'interaction avec l'éfavirenz
+
+## 📌 Contexte & Problématique
+L'éfavirenz réduit de 82% l'exposition à l'étonogestrel des implants contraceptifs standards, diminuant leur efficacité chez les femmes VIH+. Cette étude évalue si l'utilisation de deux implants pourrait surmonter cette interaction médicamenteuse.
+
+## 🧪 Méthodologie
+Étude randomisée en Ouganda comparant 36 femmes VIH+ sous éfavirenz recevant deux implants d'étonogestrel (136 mg) versus 36 femmes recevant un implant standard (68 mg). L'ovulation a été évaluée par dosages de progestérone sur 48 semaines et les concentrations d'étonogestrel mesurées régulièrement.
+
+## 📊 Résultats clés
+Le groupe double implant a présenté 2% d'ovulations contre 45% dans le groupe standard. Les concentrations d'étonogestrel étaient 2,3-2,8 fois plus élevées avec deux implants. Aucune différence significative d'effets indésirables n'a été observée entre les groupes.
+
+## 🩺 Impact clinique
+Le double implant supprime efficacement l'ovulation chez les femmes sous éfavirenz, réduisant la probabilité d'ovulation de 97,7% sur 48 semaines, ce qui pourrait considérablement améliorer l'efficacité contraceptive dans cette population.
+
+## Revue
+American Journal of Obstetrics and Gynecology
+
+## 📖 Référence
+2024;231(2):242.e1-242.e9. doi:10.1016/j.ajog.2024.03.001
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.ajog.2024.03.001.

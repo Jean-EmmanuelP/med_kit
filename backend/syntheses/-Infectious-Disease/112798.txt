@@ -1,19 +1,22 @@
 Date de publication : 2024-03-18
 
-# 📝 Vaccination des adultes atteints de cancer : Recommandations ASCO 2024
+# 📝 Vaccination des adultes atteints de cancer : Directive de l'ASCO
 
 ## 📌 Contexte & Problématique
-Les patients cancéreux présentent un risque accru d'infections. Cette directive vise à optimiser leur protection vaccinale, considérée comme élément clé de leur prise en charge.
+Nécessité d'optimiser la vaccination chez les patients atteints de cancer pour limiter la gravité des infections et les prévenir lorsque possible, en tenant compte de l'immunosuppression liée à la maladie et aux traitements.
 
 ## 🧪 Méthodologie
-Revue systématique de 102 publications (24 revues systématiques, 14 ECR, 64 études non randomisées) publiées entre 2013-2023. Un panel d'experts ASCO a formulé des recommandations basées sur ces données.
+Revue systématique de 102 publications (24 revues systématiques, 14 ECR et 64 études non randomisées) publiées entre 2013 et 2023, suivie d'une analyse par un panel d'experts de l'ASCO.
 
 ## 📊 Résultats clés
-Les preuves les plus substantielles concernent les vaccins COVID-19. La directive recommande de documenter le statut vaccinal dès la première consultation et d'administrer les vaccins recommandés au moment opportun.
+Les vaccins contre la COVID-19 constituent le plus grand corpus de preuves. L'optimisation vaccinale doit inclure la documentation du statut vaccinal initial, l'administration opportune des vaccins recommandés et la revaccination après greffe de cellules souches hématopoïétiques, thérapie CAR-T (lymphocytes T à récepteur antigénique chimérique) ou traitement déplétif en lymphocytes B.
 
 ## 🩺 Impact clinique
-Une revaccination est nécessaire après greffe de cellules souches, thérapie CAR-T ou traitement déplétif en lymphocytes B. La vaccination des contacts domestiques renforce la protection. Les stratégies vaccinales diffèrent des recommandations pour la population générale.
+Nécessité d'une coordination entre professionnels de santé (médecins, pharmaciens, infirmiers). La vaccination des contacts domestiques renforce la protection des patients. Les stratégies vaccinales doivent être adaptées selon l'état immunitaire et les traitements, différant des recommandations pour la population générale.
+
+## Revue
+Journal of Clinical Oncology
 
 ## 📖 Référence
-Kamboj M, Bohlke K, Baptiste DM, et al. Vaccination of Adults With Cancer: ASCO Guideline. J Clin Oncol. 2024;42(14):1699-1721.
+2024;42(14):1699-1721. doi:10.1200/JCO.24.00032
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO.24.00032.

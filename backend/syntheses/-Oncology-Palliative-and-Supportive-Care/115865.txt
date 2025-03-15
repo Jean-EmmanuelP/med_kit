@@ -1,0 +1,22 @@
+Date de publication : 2025-01-27
+
+# 📝 Comparaison de 19 interventions d'exercice sur les symptômes de la neuropathie périphérique induite par la chimiothérapie
+
+## 📌 Contexte & Problématique
+La neuropathie périphérique induite par la chimiothérapie (CIPN) peut être améliorée par l'exercice physique. Une méta-analyse en réseau était nécessaire pour comparer l'efficacité des différentes stratégies d'exercice et identifier les interventions optimales.
+
+## 🧪 Méthodologie
+Revue systématique et méta-analyse en réseau de 24 études éligibles identifiées dans 14 bases de données, évaluant 19 interventions d'exercice différentes pour la CIPN.
+
+## 📊 Résultats clés
+Les approches multimodales se sont révélées les plus efficaces : l'exercice aérobique combiné à l'entraînement en résistance et d'équilibre pour réduire les symptômes (SMD -1,88), les exercices main-pied pour la douleur (SMD -1,99), l'endurance combinée à l'entraînement de force pour l'équilibre (SMD 1,61), et les exercices de glissement nerveux pour la force musculaire (SMD 1,09).
+
+## 🩺 Impact clinique
+L'exercice multimodal combinant entraînements aérobique, d'équilibre, de résistance et sensorimoteur constitue l'intervention la plus efficace pour les patients adultes atteints de CIPN. La fréquence, la durée, le type de supervision et les caractéristiques des patients influencent significativement les résultats.
+
+## Revue
+Int J Nurs Stud
+
+## 📖 Référence
+2025;164:105014. doi:10.1016/j.ijnurstu.2025.105014
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.ijnurstu.2025.105014.

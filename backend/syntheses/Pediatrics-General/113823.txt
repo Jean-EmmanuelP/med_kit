@@ -1,0 +1,22 @@
+Date de publication : 2024-06-07
+
+# 📝 Antagonistes des récepteurs des leucotriènes en complément des antihistaminiques pour l'urticaire : revue systématique et méta-analyse
+
+## 📌 Contexte & Problématique
+L'efficacité et l'innocuité de l'ajout d'antagonistes des récepteurs des leucotriènes (ARLT) aux antihistaminiques H1 (AH) dans la prise en charge de l'urticaire restent controversées.
+
+## 🧪 Méthodologie
+Revue systématique de 34 essais contrôlés randomisés (ECR) incluant 3324 patients, comparant l'association ARLT+AH versus AH seuls. Recherche exhaustive dans 13 bases de données jusqu'en décembre 2023. Évaluation selon l'approche GRADE.
+
+## 📊 Résultats clés
+L'association ARLT+AH réduit modestement l'activité de l'urticaire (différence moyenne -5,04 sur le score d'activité de l'urticaire sur 7 jours; IC 95% -6,36 à -3,71; certitude modérée). Améliorations similaires pour les démangeaisons, papules et qualité de vie. Pas de différence significative dans les événements indésirables globaux.
+
+## 🩺 Impact clinique
+L'ajout d'ARLT aux AH offre un bénéfice modeste sans augmentation significative des effets indésirables, constituant une option thérapeutique additionnelle pour l'urticaire réfractaire. Le risque d'événements indésirables neuropsychiatriques reste incertain.
+
+## Revue
+J Allergy Clin Immunol
+
+## 📖 Référence
+2024;154(4):996-1007. doi:10.1016/j.jaci.2024.05.026
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.jaci.2024.05.026.

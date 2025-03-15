@@ -1,19 +1,22 @@
 Date de publication : 2025-02-11
 
-# 📝 Risque de fibrillation atriale chez les femmes avec antécédents de troubles hypertensifs de la grossesse
+# 📝 Troubles hypertensifs de la grossesse et risque de fibrillation atriale chez les femmes
 
 ## 📌 Contexte & Problématique
-Les troubles hypertensifs de la grossesse (THG) sont associés à des maladies cardiovasculaires ultérieures. L'association spécifique entre THG et fibrillation atriale (FA) reste peu documentée.
+Les troubles hypertensifs de la grossesse (THG) sont associés aux maladies cardiovasculaires futures, mais leur lien spécifique avec la fibrillation atriale (FA) reste peu étudié comme facteur de risque propre aux femmes.
 
 ## 🧪 Méthodologie
-Étude de cohorte rétrospective incluant 771 521 femmes nullipares ayant accouché entre 2002 et 2017 en Ontario. Analyse par régression à risques concurrents selon le modèle de Cox pour évaluer l'association entre THG et FA incidente.
+Étude de cohorte rétrospective incluant 771 521 femmes nullipares ayant accouché entre 2002-2017 en Ontario. Analyse par régression à risques concurrents de Cox pour évaluer l'association entre THG et FA incidente.
 
 ## 📊 Résultats clés
-8% des femmes ont présenté un THG. Après 7 380 304 personnes-années de suivi, 2483 cas de FA (0,3%) ont été diagnostiqués. Les THG étaient associés à un risque accru de FA (HR ajusté: 1,45 [IC 95%: 1,28-1,64]). Relation dose-réponse observée: les formes sévères de THG et l'hypertension chronique préexistante augmentaient le risque de FA de 1,5 à 2,2 fois.
+8% des femmes ont présenté un THG. Après 7 380 304 personnes-années de suivi, les antécédents de THG étaient associés à un risque accru de FA (RR ajusté 1,45 [IC 95% 1,28-1,64]) et de mortalité sans FA préalable (RR ajusté 1,31 [IC 95% 1,16-1,47]). Relation dose-réponse observée, les sous-types plus sévères augmentant le risque de FA de 1,5 à 2,2 fois.
 
 ## 🩺 Impact clinique
-Ces résultats soulignent l'importance d'intégrer les antécédents de THG dans la stratification du risque cardiovasculaire. Une surveillance accrue et des stratégies préventives ciblées sont nécessaires chez ces patientes.
+Ces résultats soulignent l'importance d'intégrer les antécédents de THG dans la stratification du risque cardiovasculaire, d'améliorer la surveillance des facteurs de risque et de développer des stratégies préventives ciblées.
+
+## Revue
+Circulation
 
 ## 📖 Référence
-Johnston A, Petrcich W, Smith GN, et al. Circulation. 2025;151(7):460-473.
+2025;151(7):460-473. doi:10.1161/CIRCULATIONAHA.124.072418. Epub 2025 Feb 11.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1161/CIRCULATIONAHA.124.072418.

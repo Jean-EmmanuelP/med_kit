@@ -1,0 +1,22 @@
+Date de publication : 2025-02-24
+
+# 📝 Efficacité et sécurité du sipavibart pour la prévention de la COVID-19 chez les sujets immunodéprimés
+
+## 📌 Contexte & Problématique
+Le sipavibart est un anticorps monoclonal anti-spike neutralisant le SARS-CoV-2, excepté certains variants porteurs de la mutation Phe456Leu. Son efficacité préventive chez les immunodéprimés nécessitait une évaluation rigoureuse.
+
+## 🧪 Méthodologie
+Essai de phase 3 randomisé, en double aveugle, incluant 3349 participants immunodéprimés ≥12 ans dans 18 pays. Comparaison entre sipavibart (300 mg IM aux jours 1 et 181) et groupe comparateur (tixagevimab-cilgavimab ou placebo), avec suivi sur 181 jours.
+
+## 📊 Résultats clés
+Le sipavibart a réduit l'incidence de COVID-19 symptomatique de 34,9% tous variants confondus (7,4% vs 10,9%) et de 42,9% pour les variants sans mutation Phe456Leu. Efficacité limitée (30,4%, non significative) contre les variants porteurs de cette mutation. Profil de sécurité comparable au groupe contrôle.
+
+## 🩺 Impact clinique
+Le sipavibart offre une protection efficace et sécuritaire contre la COVID-19 chez les immunodéprimés, particulièrement contre les variants sensibles, mais son efficacité est compromise face aux variants porteurs de la mutation Phe456Leu prédominants en 2024.
+
+## Revue
+Lancet Infectious Diseases
+
+## 📖 Référence
+2025 Feb 24:S1473-3099(24)00804-1. doi: 10.1016/S1473-3099(24)00804-1.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S1473-3099(24)00804-1.

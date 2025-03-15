@@ -1,0 +1,22 @@
+Date de publication : 2024-11-21
+
+# 📝 Stratification du risque génétique et résultats chez les patients LMA traités par vénétoclax-azacitidine
+
+## 📌 Contexte & Problématique
+Les classifications de risque génétique de la leucémie myéloïde aiguë (LMA) selon l'European LeukemiaNet (ELN) sont basées sur la réponse à la chimiothérapie intensive et pourraient être sous-optimales pour les patients âgés traités par vénétoclax-azacitidine.
+
+## 🧪 Méthodologie
+Analyse groupée de deux essais cliniques (phase 3 VIALE-A et phase 1b) incluant 279 patients sous vénétoclax-azacitidine et 113 sous placebo-azacitidine, évaluant les classifications ELN 2017/2022 et développant de nouvelles signatures moléculaires.
+
+## 📊 Résultats clés
+Les classifications ELN ont mal discriminé les résultats sous vénétoclax-azacitidine. Une nouvelle stratification basée sur le statut mutationnel de TP53, FLT3-ITD (duplication en tandem interne), NRAS et KRAS a permis d'identifier trois groupes pronostiques avec des survies globales (SG) médianes distinctes : supérieur (26,5 mois), intermédiaire (12,1 mois) et inférieur (5,5 mois).
+
+## 🩺 Impact clinique
+Cette nouvelle classification moléculaire offre une stratification pronostique plus précise pour les patients LMA traités par vénétoclax-azacitidine, permettant potentiellement une meilleure personnalisation thérapeutique.
+
+## Revue
+Blood
+
+## 📖 Référence
+2024;144(21):2211-2222. doi:10.1182/blood.2024024944
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1182/blood.2024024944.

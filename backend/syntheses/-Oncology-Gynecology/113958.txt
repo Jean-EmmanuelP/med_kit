@@ -1,19 +1,22 @@
 Date de publication : 2024-08-02
 
-# 📝 Atézolizumab et chimiothérapie dans le cancer de l'endomètre avancé ou récurrent
+# 📝 Atézolizumab et chimiothérapie pour le cancer de l'endomètre avancé ou récurrent
 
 ## 📌 Contexte & Problématique
-L'essai AtTEnd a évalué si l'ajout d'atézolizumab à la chimiothérapie standard (carboplatine-paclitaxel) améliore les résultats cliniques dans le cancer de l'endomètre avancé ou récurrent.
+L'essai AtTEnd a évalué l'ajout de l'atézolizumab à la chimiothérapie standard (carboplatine-paclitaxel) pour améliorer les résultats chez les patientes atteintes de cancer de l'endomètre avancé ou récurrent.
 
 ## 🧪 Méthodologie
-Essai de phase 3, randomisé (2:1), double-aveugle, multicentrique (89 hôpitaux, 11 pays). 551 patientes ont reçu atézolizumab 1200mg ou placebo avec carboplatine-paclitaxel, puis traitement d'entretien. Critères principaux : survie sans progression (SSP) et survie globale (SG).
+Essai de phase 3, randomisé (2:1), en double aveugle, multicentrique (89 hôpitaux, 11 pays). 551 patientes ont reçu soit atézolizumab 1200mg soit placebo avec chimiothérapie, stratifiées selon le pays, l'histologie, le stade et le statut MMR (réparation des mésappariements).
 
 ## 📊 Résultats clés
-Dans le sous-groupe dMMR (23% des patientes) : SSP médiane non estimable vs 6,9 mois (HR 0,36; p=0,0005). Population globale : SSP médiane 10,1 vs 8,9 mois (HR 0,74; p=0,022); SG médiane 38,7 vs 30,2 mois (HR 0,82; p=0,048). Profil de toxicité similaire avec neutropénie grade 3-4 (27% vs 28%) comme effet indésirable principal.
+Chez les patientes dMMR (déficientes en MMR), la survie sans progression médiane était significativement améliorée avec l'atézolizumab (non estimable vs 6,9 mois; HR 0,36). Dans la population globale, l'amélioration était plus modeste (10,1 vs 8,9 mois; HR 0,74). Les événements indésirables de grade 3-4 principaux étaient similaires entre les groupes (neutropénie: 27% vs 28%).
 
 ## 🩺 Impact clinique
-L'atézolizumab associé à la chimiothérapie améliore significativement la SSP, particulièrement chez les patientes dMMR, suggérant son adoption comme traitement de première ligne dans ce sous-groupe spécifique.
+L'atézolizumab associé à la chimiothérapie améliore significativement la survie sans progression, particulièrement chez les patientes avec tumeurs dMMR, suggérant son adoption comme traitement de première ligne dans ce sous-groupe.
+
+## Revue
+Lancet Oncology
 
 ## 📖 Référence
-Colombo N, Biagioli E, Harano K, et al. Lancet Oncol. 2024;25(9):1135-1146.
+2024;25(9):1135-1146. doi:10.1016/S1470-2045(24)00334-6. Epub 2024 Aug 2.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S1470-2045(24)00334-6.

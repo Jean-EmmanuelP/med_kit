@@ -3,17 +3,20 @@ Date de publication : 2024-04-07
 # 📝 Bêta-bloquants après infarctus du myocarde avec fraction d'éjection préservée
 
 ## 📌 Contexte & Problématique
-Les bénéfices des bêta-bloquants post-infarctus ont été démontrés avant l'ère moderne du diagnostic par biomarqueurs, des interventions coronariennes percutanées et des traitements médicamenteux actuels. Leur utilité chez les patients avec fraction d'éjection préservée restait à clarifier.
+Les preuves des bénéfices des bêta-bloquants post-infarctus du myocarde (IDM) datent d'avant l'ère des interventions coronariennes percutanées et des thérapies modernes, justifiant une réévaluation de leur utilité chez les patients avec fraction d'éjection ventriculaire gauche (FEVG) préservée.
 
 ## 🧪 Méthodologie
-Essai clinique randomisé, ouvert, incluant 5020 patients post-infarctus avec fraction d'éjection ≥50% dans 45 centres (Suède, Estonie, Nouvelle-Zélande). Comparaison entre traitement par bêta-bloquant (métoprolol/bisoprolol) versus absence de bêta-bloquant. Critère principal : décès toutes causes ou nouvel infarctus.
+Essai clinique randomisé ouvert incluant 5020 patients post-IDM avec FEVG ≥50% ayant bénéficié d'une coronarographie, répartis entre traitement par bêta-bloquant (métoprolol ou bisoprolol) ou absence de bêta-bloquant. Critère principal composite : décès toutes causes ou nouvel IDM.
 
 ## 📊 Résultats clés
-Après suivi médian de 3,5 ans, le critère principal est survenu chez 7,9% des patients sous bêta-bloquant versus 8,3% sans (HR 0,96; IC95% 0,79-1,16; p=0,64). Aucune différence significative pour mortalité toutes causes (3,9% vs 4,1%), mortalité cardiovasculaire (1,5% vs 1,3%), récidive d'infarctus (4,5% vs 4,7%), ou hospitalisations pour complications.
+Après un suivi médian de 3,5 ans, le critère principal est survenu chez 7,9% des patients sous bêta-bloquant contre 8,3% sans bêta-bloquant (HR 0,96; IC 95% 0,79-1,16; p=0,64). Aucune différence significative n'a été observée pour les critères secondaires (mortalité, IDM récurrent, hospitalisations pour fibrillation auriculaire ou insuffisance cardiaque).
 
 ## 🩺 Impact clinique
-Chez les patients post-infarctus avec fraction d'éjection préservée ayant bénéficié d'une coronarographie précoce, les bêta-bloquants n'apportent pas de bénéfice clinique significatif, remettant en question leur prescription systématique dans cette population spécifique.
+Chez les patients post-IDM avec FEVG préservée et ayant bénéficié d'une coronarographie précoce, les bêta-bloquants n'apportent pas de bénéfice clinique significatif, remettant en question leur prescription systématique dans cette population spécifique.
+
+## Revue
+New England Journal of Medicine
 
 ## 📖 Référence
-Yndigegn T, Lindahl B, Mars K, et al. Beta-Blockers after Myocardial Infarction and Preserved Ejection Fraction. N Engl J Med. 2024;390(15):1372-1381.
+2024;390(15):1372-1381. doi:10.1056/NEJMoa2401479. Epub 2024 Apr 7.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2401479.

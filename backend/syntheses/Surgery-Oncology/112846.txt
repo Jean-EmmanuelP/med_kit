@@ -1,0 +1,22 @@
+Date de publication : 2024-06-01
+
+# 📝 Chimioembolisation transartérielle avec sorafénib en adjuvant pour le thrombus tumoral portal
+
+## 📌 Contexte & Problématique
+Le carcinome hépatocellulaire (CHC) avec thrombus tumoral de la veine porte (TTVP) peut bénéficier d'une résection chirurgicale, mais présente un risque élevé de récidive. Une thérapie adjuvante optimale reste à définir.
+
+## 🧪 Méthodologie
+Essai clinique randomisé multicentrique de phase 3 incluant 158 patients chinois atteints de CHC avec TTVP de grade I-III selon Cheng. Randomisation 1:1 entre chimioembolisation transartérielle (TACE) + sorafénib versus sorafénib seul en adjuvant post-opératoire. Suivi médian de 28,4 mois.
+
+## 📊 Résultats clés
+La survie sans récidive médiane était significativement prolongée dans le groupe TACE + sorafénib (16,8 vs 12,6 mois; HR 0,57; p=0,002). La survie globale médiane était également améliorée (30,4 vs 22,5 mois; HR 0,57; p=0,02). Le profil de toxicité était similaire entre les deux groupes, sans décès lié au traitement.
+
+## 🩺 Impact clinique
+L'association TACE + sorafénib en adjuvant post-opératoire offre un bénéfice significatif de survie sans récidive et globale chez les patients opérés d'un CHC avec TTVP, sans toxicité supplémentaire par rapport au sorafénib seul.
+
+## Revue
+JAMA Surgery
+
+## 📖 Référence
+2024;159(6):616-624. doi:10.1001/jamasurg.2024.0506
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamasurg.2024.0506.

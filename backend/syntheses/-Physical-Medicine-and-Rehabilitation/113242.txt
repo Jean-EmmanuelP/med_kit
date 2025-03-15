@@ -1,0 +1,22 @@
+Date de publication : 2024-05-13
+
+# 📝 Efficacité des ondes de choc extracorporelles versus injections de corticostéroïdes dans la fasciite plantaire
+
+## 📌 Contexte & Problématique
+La fasciite plantaire est une cause fréquente de douleur au talon. Cette méta-analyse compare l'efficacité des ondes de choc extracorporelles (OCEC) aux injections de corticostéroïdes sur la douleur, l'épaisseur du fascia plantaire et la fonction du pied.
+
+## 🧪 Méthodologie
+Revue systématique de 16 essais contrôlés randomisés (1121 patients) issus de PubMed, SCOPUS, CINAHL et PEDro jusqu'en avril 2024. Qualité méthodologique évaluée par l'échelle PEDro (moyenne: 6/10) et l'outil Cochrane.
+
+## 📊 Résultats clés
+À 3 mois, les OCEC surpassent les injections pour réduire la douleur (DMS -0,6), l'épaisseur du fascia (DMS -0,4) et améliorer la fonction (DMS 0,27). À 6 mois, l'avantage persiste pour la douleur (DMS -0,81) et la fonction (DMS 0,67). Effets indésirables mineurs: douleur locale et léger érythème.
+
+## 🩺 Impact clinique
+Les OCEC représentent une alternative thérapeutique sûre et plus efficace que les injections de corticostéroïdes pour le traitement à moyen terme de la fasciite plantaire.
+
+## Revue
+Clinical Rehabilitation
+
+## 📖 Référence
+2024;38(8):1023-1043. doi:10.1177/02692155241253779
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1177/02692155241253779.

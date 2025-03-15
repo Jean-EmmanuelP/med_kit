@@ -3,17 +3,20 @@ Date de publication : 2024-09-19
 # 📝 Radiothérapie stéréotaxique vs hypofractionnée pour le CPNPC de stade I inopérable
 
 ## 📌 Contexte & Problématique
-La radiothérapie stéréotaxique corporelle (SBRT) est couramment utilisée pour le cancer du poumon non à petites cellules (CPNPC) de stade I inopérable, mais son efficacité comparée à la radiothérapie conventionnelle hypofractionnée (RTC) reste à clarifier.
+La radiothérapie stéréotaxique corporelle (SBRT) est couramment utilisée pour le cancer du poumon non à petites cellules (CPNPC) de stade I inopérable, mais son efficacité par rapport à la radiothérapie conventionnelle hypofractionnée (RTC) reste à clarifier, particulièrement pour les tumeurs centrales.
 
 ## 🧪 Méthodologie
-Essai randomisé (2:1) dans 16 centres canadiens incluant 233 patients (âge moyen: 75,4 ans) avec CPNPC stade I (≤5 cm). Groupe SBRT (n=154): 48 Gy/4 fractions (tumeurs périphériques) ou 60 Gy/8 fractions (tumeurs centrales). Groupe RTC (n=79): 60 Gy/15 fractions.
+Essai clinique randomisé (ECR) de phase 3 dans 16 centres canadiens. 233 patients atteints de CPNPC stade I (≤5 cm) inopérable ont été randomisés (2:1) pour recevoir soit une SBRT (48 Gy/4 fractions pour tumeurs périphériques; 60 Gy/8 fractions pour tumeurs centrales), soit une RTC (60 Gy/15 fractions).
 
 ## 📊 Résultats clés
-Contrôle local à 3 ans: 87,6% (SBRT) vs 81,2% (RTC); HR=0,61; p=0,15. Aucune différence significative en survie sans événement (HR=1,02; p=0,87) ou survie globale (HR=1,18; p=0,40). Toxicité tardive grade ≥3: 11% (tumeurs centrales) et 1,8% (tumeurs périphériques) avec SBRT; 5% et 2% avec RTC respectivement.
+Le contrôle local (CL) à 3 ans était de 87,6% pour la SBRT contre 81,2% pour la RTC (HR=0,61; IC 95%: 0,31-1,20; p=0,15). Aucune différence significative n'a été observée pour la survie sans événement (HR=1,02) ou la survie globale (HR=1,18). Les toxicités sévères étaient limitées, même pour les tumeurs centrales, avec un cas possible de décès lié au traitement (hémoptysie) pour une lésion ultracentrale.
 
 ## 🩺 Impact clinique
-L'étude ne démontre pas de supériorité significative de la SBRT sur la RTC pour le contrôle local. Les deux approches présentent des profils de toxicité acceptables, même pour les tumeurs centrales, offrant des options thérapeutiques valables pour ces patients.
+L'étude n'a pas démontré de supériorité significative de la SBRT sur la RTC pour le CL. Les deux modalités présentent des profils de toxicité acceptables, même pour les tumeurs centrales, offrant des options thérapeutiques valables pour les patients inopérables.
+
+## Revue
+JAMA Oncology
 
 ## 📖 Référence
-Swaminath A, Parpia S, Wierzbicki M, et al. JAMA Oncol. 2024;10(11):1571-1575.
+2024;10(11):1571-1575. doi:10.1001/jamaoncol.2024.3089. Epub 2024 Sep 19.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamaoncol.2024.3089.

@@ -1,0 +1,25 @@
+Date de publication : 2025-01-14
+
+# 📝 Traitement préemptif de la virémie à CMV chez les transplantés d'organes solides
+
+## 📌 Contexte & Problématique
+Le cytomégalovirus (CMV) représente une cause majeure de morbidité et mortalité chez les transplantés d'organes solides. Le traitement préemptif (ciblant uniquement les patients avec virémie détectable) constitue une alternative à la prophylaxie systématique.
+
+## 🧪 Méthodologie
+Revue systématique de 22 essais contrôlés randomisés (1883 participants) comparant le traitement préemptif au placebo/soins standard ou à la prophylaxie antivirale chez des transplantés d'organes solides.
+
+## 📊 Résultats clés
+- Vs placebo/soins standard : réduction probable du risque de maladie à CMV (RR 0,29, IC 95% 0,11-0,80)
+- Vs prophylaxie : pas de différence significative sur le risque de maladie à CMV (RR 0,97, IC 95% 0,47-2,01)
+- Vs prophylaxie : risque d'infection à CMV possiblement augmenté (RR 1,97, IC 95% 1,48-2,61)
+- Vs prophylaxie : risque de leucopénie et neutropénie probablement diminué (RR 0,57 et 0,63)
+
+## 🩺 Impact clinique
+Le traitement préemptif représente une alternative efficace à la prophylaxie, avec moins d'effets indésirables hématologiques mais un risque potentiellement plus élevé d'infection à CMV, sans différence significative sur la maladie à CMV ou la mortalité.
+
+## Revue
+Cochrane Database of Systematic Reviews
+
+## 📖 Référence
+2025 Jan 14;1(1):CD005133. doi: 10.1002/14651858.CD005133.pub4.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1002/14651858.CD005133.pub4.

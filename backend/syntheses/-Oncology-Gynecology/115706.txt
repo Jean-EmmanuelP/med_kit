@@ -1,19 +1,22 @@
 Date de publication : 2025-02-01
 
-# 📝 Rucaparib versus chimiothérapie dans le cancer ovarien récidivant avec mutation BRCA : résultats finaux d'ARIEL4
+# 📝 Rucaparib versus chimiothérapie dans le cancer ovarien récidivant avec mutation BRCA : résultats finaux de l'essai ARIEL4
 
 ## 📌 Contexte & Problématique
-Évaluation finale de la survie globale dans l'essai ARIEL4 comparant le rucaparib à la chimiothérapie standard chez des patientes atteintes d'un carcinome ovarien récidivant avec mutation BRCA1/2.
+L'essai ARIEL4 a précédemment démontré une amélioration de la survie sans progression avec le rucaparib comparé à la chimiothérapie standard chez des patientes atteintes d'un carcinome ovarien récidivant avec mutation BRCA. Cette analyse présente les résultats finaux de survie globale.
 
 ## 🧪 Méthodologie
-Essai de phase 3 randomisé (2:1) dans 12 pays. Inclusion de femmes avec carcinome ovarien muté BRCA, ≥2 lignes antérieures de chimiothérapie. Groupe rucaparib (600 mg BID) versus chimiothérapie adaptée à la sensibilité au platine. Suivi médian: 41,2 mois.
+Essai de phase 3 randomisé (2:1) dans 12 pays incluant 349 femmes avec carcinome ovarien muté BRCA1/2 ayant reçu ≥2 lignes de chimiothérapie. Traitement : rucaparib oral (600mg 2×/jour) versus chimiothérapie adaptée à la sensibilité au platine. Critère principal : survie sans progression. Critère secondaire : survie globale.
 
 ## 📊 Résultats clés
-Survie globale médiane: 19,4 mois (rucaparib) contre 25,4 mois (chimiothérapie), HR=1,3 [IC 95%: 1,0-1,7], p=0,047. Effets indésirables grade 3-4: anémie (25% vs 6%) et neutropénie (11% vs 14%). Événements indésirables graves: 28% vs 12%. Dix décès liés au traitement dans le groupe rucaparib (dont 2 attribués au médicament).
+Après un suivi médian de 41,2 mois, la survie globale médiane était de 19,4 mois dans le groupe rucaparib contre 25,4 mois dans le groupe chimiothérapie (HR 1,3 [IC 95% 1,0-1,7], p=0,047). Les événements indésirables de grade 3-4 les plus fréquents étaient l'anémie (25% vs 6%) et la neutropénie (11% vs 14%). Dix décès liés au traitement ont été rapportés dans le groupe rucaparib contre un dans le groupe chimiothérapie.
 
 ## 🩺 Impact clinique
-Ces résultats soulignent la nécessité de mieux comprendre le traitement optimal après progression sous inhibiteur de PARP et le séquençage idéal entre chimiothérapie et inhibiteurs de PARP dans le cancer ovarien avancé.
+Ces résultats soulignent la nécessité de mieux comprendre le traitement optimal pour les patientes ayant progressé sous inhibiteur de PARP (poly(adénosine diphosphate-ribose) polymérase) et le séquençage idéal entre chimiothérapie et inhibiteurs de PARP dans le cancer ovarien avancé.
+
+## Revue
+Lancet Oncology
 
 ## 📖 Référence
-Oza AM, Lisyanskaya A, Fedenko A, et al. Lancet Oncol. 2025;26(2):249-264.
+2025 Feb;26(2):249-264. doi: 10.1016/S1470-2045(24)00674-0.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S1470-2045(24)00674-0.

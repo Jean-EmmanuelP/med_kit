@@ -1,19 +1,22 @@
 Date de publication : 2024-05-10
 
-# 📝 PLEURECTOMIE DÉCORTICATION ÉTENDUE VERSUS CHIMIOTHÉRAPIE SEULE DANS LE MÉSOTHÉLIOME PLEURAL
+# 📝 Pleurectomie décortication étendue versus chimiothérapie seule pour le mésothéliome pleural
 
 ## 📌 Contexte & Problématique
-L'efficacité de la pleurectomie décortication étendue pour le mésothéliome pleural n'avait jamais été évaluée dans un essai randomisé. Cette étude compare cette approche chirurgicale plus chimiothérapie versus chimiothérapie seule.
+L'efficacité de la pleurectomie décortication étendue (PDE) pour la résection macroscopique complète du mésothéliome pleural n'avait jamais été évaluée dans un essai randomisé comparatif avec la chimiothérapie seule.
 
 ## 🧪 Méthodologie
-Essai contrôlé randomisé de phase 3 (MARS 2) mené au Royaume-Uni dans 26 hôpitaux. 335 patients atteints de mésothéliome pleural résécable ont été randomisés (1:1) après deux cycles de chimiothérapie initiale. Groupe interventionnel : chirurgie (pleurectomie décortication) + chimiothérapie (n=169). Groupe contrôle : chimiothérapie seule (n=166).
+Essai contrôlé randomisé de phase 3, multicentrique, en ouvert, mené au Royaume-Uni. 335 patients atteints de mésothéliome pleural résécable ont été randomisés après deux cycles de chimiothérapie : 169 dans le groupe PDE+chimiothérapie et 166 dans le groupe chimiothérapie seule. Critère principal : survie globale.
 
 ## 📊 Résultats clés
-Survie médiane plus courte dans le groupe chirurgie (19,3 mois vs 24,8 mois). Différence de survie moyenne à 2 ans : -1,9 mois (IC 95% -3,4 à -0,3; p=0,019). Événements indésirables graves : 318 dans le groupe chirurgie vs 169 dans le groupe chimiothérapie (ratio 3,6; IC 95% 2,3-5,5; p<0,0001).
+Avec un suivi médian de 22,4 mois, la survie médiane était inférieure dans le groupe chirurgie (19,3 mois) par rapport au groupe chimiothérapie seule (24,8 mois). Différence de survie moyenne à 2 ans : -1,9 mois (IC 95% -3,4 à -0,3, p=0,019). Plus d'événements indésirables graves dans le groupe chirurgie (318 vs 169).
 
 ## 🩺 Impact clinique
-La pleurectomie décortication étendue est associée à une survie inférieure et davantage de complications que la chimiothérapie seule. Ces résultats remettent en question l'utilisation systématique de cette approche chirurgicale dans le mésothéliome pleural résécable.
+La PDE est associée à une moins bonne survie à 2 ans et davantage de complications graves chez les patients atteints de mésothéliome pleural résécable comparativement à la chimiothérapie seule.
+
+## Revue
+Lancet Respiratory Medicine
 
 ## 📖 Référence
-Lim E, Waller D, Lau K, et al. Lancet Respir Med. 2024;12(6):457-466.
+2024; 12(6):457-466. doi: 10.1016/S2213-2600(24)00119-X
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S2213-2600(24)00119-X.

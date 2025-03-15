@@ -1,0 +1,22 @@
+Date de publication : 2024-09-26
+
+# 📝 Ventilation non invasive prophylactique après chirurgie thoracique : bénéfices cliniques
+
+## 📌 Contexte & Problématique
+Les complications pulmonaires après chirurgie thoracique invasive représentent un défi majeur. Cette revue évalue l'efficacité de la ventilation non invasive à pression positive (VNI) prophylactique, incluant la CPAP (pression positive continue) et la BiPAP (ventilation à deux niveaux).
+
+## 🧪 Méthodologie
+Méta-analyse de 16 essais randomisés (1 814 participants) évaluant la VNI prophylactique chez des patients après procédures thoraciques invasives. Qualité méthodologique évaluée par l'échelle PEDro et niveau de certitude par l'approche GRADE.
+
+## 📊 Résultats clés
+Avec une certitude modérée, la VNI réduit les complications pulmonaires postopératoires (différence de risque -0,09) sans augmenter les événements indésirables. Avec une certitude faible, elle diminue la durée d'hospitalisation (-1,4 jours). Les analyses en sous-groupes montrent des estimations plus précises pour la CPAP que pour la BiPAP.
+
+## 🩺 Impact clinique
+La VNI prophylactique constitue une intervention sûre et efficace pour réduire les complications pulmonaires et la durée d'hospitalisation après chirurgie thoracique invasive, sans augmentation des risques.
+
+## Revue
+J Physiother
+
+## 📖 Référence
+2024;70(4):265-274. doi:10.1016/j.jphys.2024.08.008
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.jphys.2024.08.008.

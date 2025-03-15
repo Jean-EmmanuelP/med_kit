@@ -1,0 +1,22 @@
+Date de publication : 2024-11-18
+
+# 📝 Intensification thérapeutique chez les patients âgés atteints de LMA avec maladie résiduelle
+
+## 📌 Contexte & Problématique
+Évaluation du bénéfice de l'intensification chimiothérapeutique chez les patients âgés atteints de LMA (leucémie myéloïde aiguë) n'ayant pas obtenu une rémission sans maladie résiduelle mesurable (MRD) après traitement initial.
+
+## 🧪 Méthodologie
+523 patients (âge médian: 67 ans) avec MRD détectable après un premier cycle de daunorubicine et AraC (DA) ont été randomisés entre DA standard ou intensification par FLAG-Ida (fludarabine, cytarabine, facteur stimulant les colonies de granulocytes et idarubicine) ou DAC (DA avec cladribine).
+
+## 📊 Résultats clés
+Dans l'analyse principale, la survie globale n'était pas significativement améliorée par l'intensification. Cependant, l'analyse excluant les patients au statut MRD inconnu a montré un bénéfice significatif avec DAC (HR 0,66; p=0,018) et FLAG-Ida (HR 0,72; p=0,035), avec une survie à 3 ans de 46% contre 30% pour DA standard. FLAG-Ida présentait plus d'événements indésirables (9% de décès à 60 jours vs 4%).
+
+## 🩺 Impact clinique
+L'intensification thérapeutique améliore la survie chez les patients âgés avec maladie résiduelle après induction, DAC offrant un meilleur profil de tolérance que FLAG-Ida.
+
+## Revue
+J Clin Oncol
+
+## 📖 Référence
+2025 Feb 20;43(6):694-704. doi: 10.1200/JCO.24.00259. Epub 2024 Nov 18.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO.24.00259.

@@ -1,0 +1,22 @@
+Date de publication : 2024-11-01
+
+# 📝 Sécurité du vaccin antipneumococcique conjugué 20-valent chez les nourrissons
+
+## 📌 Contexte & Problématique
+Le vaccin antipneumococcique conjugué 20-valent (PCV20) a été développé pour élargir la protection contre les maladies à pneumocoques en ajoutant 7 sérotypes aux 13 du PCV13. Cette étude évalue sa tolérabilité et sa sécurité.
+
+## 🧪 Méthodologie
+Essai clinique de phase 3, multinational, en double aveugle, randomisé (2:1) comparant PCV20 vs PCV13 chez des nourrissons sains (≥34 semaines de gestation) vaccinés à 2, 4, 6 et 12-15 mois. Évaluation des réactions locales, événements systémiques, événements indésirables (EI) et affections chroniques nouvellement diagnostiquées.
+
+## 📊 Résultats clés
+1504 participants (PCV20: n=1000; PCV13: n=504); 91,7% ont reçu les 4 doses. Profils similaires pour les deux vaccins: douleur au site d'injection (PCV20: 24,7-40,5%; PCV13: 26,8-42,0%) et irritabilité (PCV20: 54,8-68,2%; PCV13: 54,7-68,5%) prédominantes. Aucun EI grave lié aux vaccins. Affections chroniques nouvellement diagnostiquées: 2,8% dans les deux groupes.
+
+## 🩺 Impact clinique
+Le PCV20 présente un profil de sécurité comparable au PCV13, y compris chez les prématurés tardifs et en co-administration avec d'autres vaccins, offrant une protection élargie contre les pneumocoques.
+
+## Revue
+Pediatrics
+
+## 📖 Référence
+2024;154(5):e2023065218. doi:10.1542/peds.2023-065218
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1542/peds.2023-065218.

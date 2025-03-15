@@ -1,0 +1,22 @@
+Date de publication : 2024-07-17
+
+# 📝 Évaluation des scores prédictifs d'appendicite pédiatrique
+
+## 📌 Contexte & Problématique
+Nécessité de valider prospectivement les scores de prédiction clinique (SPC) pour l'appendicite pédiatrique dans un service d'urgences australien.
+
+## 🧪 Méthodologie
+Étude observationnelle prospective monocentrique incluant 481 enfants (5-15 ans) avec douleur abdominale aiguë et suspicion d'appendicite. Évaluation de 30 SPC identifiés par revue systématique.
+
+## 📊 Résultats clés
+150 patients (31,2%) ont subi une appendicectomie, avec 2% d'appendices normaux. Le Calculateur de Risque d'Appendicite pédiatrique pour services d'urgences pédiatriques (pARC-ED) s'est révélé le plus performant (AUC=0,90; IC 95%: 0,86-0,94) avec une spécificité de 99,0% pour les cas à haut risque et un taux de classification erronée de 4,5% pour les cas à faible risque.
+
+## 🩺 Impact clinique
+Le pARC-ED pourrait améliorer la stratification du risque chez les enfants suspects d'appendicite. Une étude multicentrique est en cours pour évaluer ces SPC dans des contextes plus variés.
+
+## Revue
+Academic Emergency Medicine
+
+## 📖 Référence
+2024;31(11):1089-1099. doi:10.1111/acem.14985
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1111/acem.14985.

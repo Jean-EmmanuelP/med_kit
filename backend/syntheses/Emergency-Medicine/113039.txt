@@ -1,19 +1,22 @@
 Date de publication : 2024-07-01
 
-# 📝 Suivi à 3 ans des antibiotiques oraux versus IV+oraux dans l'appendicite aiguë non compliquée
+# 📝 Traitement antibiotique oral versus combiné dans l'appendicite aiguë non compliquée : résultats à 3 ans
 
 ## 📌 Contexte & Problématique
-L'efficacité à court terme des antibiotiques oraux seuls dans l'appendicite aiguë non compliquée est établie, mais les résultats à long terme manquent.
+L'efficacité à court terme des antibiotiques oraux seuls dans l'appendicite aiguë non compliquée est établie, mais les données à long terme manquaient.
 
 ## 🧪 Méthodologie
-Analyse secondaire de l'essai APPAC II comparant moxifloxacine orale (n=301) versus ertapénème IV + lévofloxacine/métronidazole oraux (n=298) chez 599 patients (âge moyen 36 ans) dans 9 hôpitaux finlandais. Suivi sur 3 ans.
+Analyse secondaire de l'essai randomisé APPAC II comparant la moxifloxacine orale (400 mg/j, 7 jours) versus ertapénème IV (1 g/j, 2 jours) plus lévofloxacine orale (500 mg/j) et métronidazole (500 mg 3x/j) pendant 5 jours. Suivi de 3 ans incluant 582 patients (âge moyen 36 ans) dans 9 hôpitaux finlandais.
 
 ## 📊 Résultats clés
-Taux de succès thérapeutique à 3 ans : 63,4% (groupe oral) versus 65,2% (groupe IV+oral). Différence : -1,8 points (IC 95% unilatéral, -8,3 à ∞; p=0,14), dépassant la marge de non-infériorité. Aucune différence significative concernant les événements indésirables, qualité de vie, durée d'hospitalisation ou d'arrêt de travail.
+Le taux de succès thérapeutique (absence d'appendicectomie) à 3 ans était de 63,4% dans le groupe antibiotique oral seul contre 65,2% dans le groupe combiné (différence -1,8%, IC 95% unilatéral -8,3% à ∞). La non-infériorité n'a pas été démontrée. Aucune différence significative concernant les événements indésirables, la qualité de vie et la durée d'hospitalisation.
 
 ## 🩺 Impact clinique
-La non-infériorité des antibiotiques oraux seuls n'a pas été démontrée à 3 ans, avec un taux d'appendicectomie légèrement supérieur. Des études supplémentaires sont nécessaires pour valider cette approche thérapeutique.
+Bien que la monothérapie antibiotique orale présente un taux d'appendicectomie légèrement supérieur, elle reste une option thérapeutique prometteuse méritant des études supplémentaires pour l'appendicite aiguë non compliquée.
+
+## Revue
+JAMA Surgery
 
 ## 📖 Référence
-Selanne L, Haijanen J, Sippola S, et al. JAMA Surg. 2024;159(7):727-735.
+2024;159(7):727-735. doi:10.1001/jamasurg.2023.5947
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamasurg.2023.5947.

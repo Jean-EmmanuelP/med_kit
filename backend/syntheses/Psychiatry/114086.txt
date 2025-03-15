@@ -1,0 +1,22 @@
+Date de publication : 2024-08-21
+
+# 📝 Comparaison des psychédéliques et de l'escitalopram dans le traitement des symptômes dépressifs
+
+## 📌 Contexte & Problématique
+Évaluation de l'efficacité et de l'acceptabilité des psychédéliques oraux (psilocybine, LSD, MDMA, ayahuasca) et de l'escitalopram chez les patients dépressifs, en tenant compte du biais potentiel lié à l'insu insuffisant.
+
+## 🧪 Méthodologie
+Revue systématique et méta-analyse en réseau bayésienne d'essais contrôlés randomisés. Critère principal : variation sur l'échelle de Hamilton à 17 items. Critères secondaires : arrêt du traitement et événements indésirables graves.
+
+## 📊 Résultats clés
+La réponse au placebo était inférieure dans les essais psychédéliques versus antidépresseurs (différence moyenne -3,90). Seule la psilocybine à haute dose était supérieure au placebo des essais d'antidépresseurs (différence moyenne 6,45). Sa taille d'effet est passée de grande (0,88) à petite (0,31) lorsque comparée au placebo des essais antidépresseurs. La psilocybine à haute dose était supérieure à l'escitalopram 10mg et 20mg.
+
+## 🩺 Impact clinique
+Parmi les psychédéliques étudiés, seule la psilocybine à haute dose montre une efficacité supérieure au placebo des essais antidépresseurs, mais avec une taille d'effet modeste. Aucun traitement n'a montré plus d'arrêts ou d'événements indésirables graves que le placebo.
+
+## Revue
+BMJ
+
+## 📖 Référence
+2024;386:e078607. doi: 10.1136/bmj-2023-078607
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1136/bmj-2023-078607.

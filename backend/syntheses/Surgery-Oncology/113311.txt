@@ -1,0 +1,22 @@
+Date de publication : 2024-02-20
+
+# 📝 Lymphadénectomie guidée par ICG après chimiothérapie néoadjuvante dans le cancer gastrique avancé
+
+## 📌 Contexte & Problématique
+La qualité de la lymphadénectomie après chimiothérapie néoadjuvante (CNA) représente un défi dans le cancer gastrique localement avancé (CGLA), avec peu d'études sur l'utilisation du vert d'indocyanine (ICG) dans ce contexte.
+
+## 🧪 Méthodologie
+Essai randomisé comparant la gastrectomie radicale laparoscopique guidée par ICG versus standard chez 236 patients atteints de CGLA (stade T2-4NtoutM0) après CNA, évaluant la qualité de la lymphadénectomie.
+
+## 📊 Résultats clés
+Le groupe ICG a montré un nombre significativement plus élevé de ganglions lymphatiques prélevés (48,2 vs 38,3, p<0,001) et une réduction du taux de non-conformité ganglionnaire (33,9% vs 55,1%, p=0,001). L'amélioration était particulièrement notable chez les patients sans ganglions mesurables initialement et chez ceux avec réponse complète à la CNA.
+
+## 🩺 Impact clinique
+L'ICG améliore significativement la qualité de la lymphadénectomie après CNA sans compromettre les résultats chirurgicaux, offrant une technique prometteuse pour optimiser le staging et potentiellement le pronostic des patients atteints de CGLA.
+
+## Revue
+Annals of Surgery
+
+## 📖 Référence
+2024;279(6):923-931. doi:10.1097/SLA.0000000000006242. Epub 2024 Feb 20.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1097/SLA.0000000000006242.

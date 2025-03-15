@@ -1,0 +1,26 @@
+Date de publication : 2025-02-10
+
+# 📝 Chimiothérapie néoadjuvante versus chirurgie première dans le cancer épithélial ovarien avancé
+
+## 📌 Contexte & Problématique
+Le cancer épithélial ovarien (CEO) avancé nécessite une combinaison de chirurgie et chimiothérapie. Le traitement conventionnel (chirurgie cytoréductive primaire [CCYP] suivie de chimiothérapie) est comparé à la chimiothérapie néoadjuvante (CTNA) suivie d'une chirurgie d'intervalle.
+
+## 🧪 Méthodologie
+Revue systématique de 5 ECR incluant 1774 femmes atteintes de CEO stade III/IV (FIGO), randomisées entre CTNA+chirurgie d'intervalle versus CCYP+chimiothérapie. Évaluation de la survie globale (SG), survie sans progression (SSP), complications et qualité de vie.
+
+## 📊 Résultats clés
+- Aucune différence significative en SG (HR 0,96) et SSP (HR 0,98)
+- Réduction significative de la mortalité postopératoire avec CTNA (0,4% vs 3,3%)
+- Diminution des complications chirurgicales grade 3+ avec CTNA (6% vs 29%)
+- Réduction des stomies (5,8% vs 20,4%) et résections intestinales (13% vs 26,6%) avec CTNA
+- Données hétérogènes sur la qualité de vie, possiblement améliorée à 6 mois avec CTNA
+
+## 🩺 Impact clinique
+Pour les patientes éligibles aux deux approches, la CTNA offre une sécurité périopératoire supérieure sans compromettre la survie, avec moins de résections d'organes et de stomies.
+
+## Revue
+Cochrane Database of Systematic Reviews
+
+## 📖 Référence
+2025;2(2):CD005343. doi:10.1002/14651858.CD005343.pub7
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1002/14651858.CD005343.pub7.

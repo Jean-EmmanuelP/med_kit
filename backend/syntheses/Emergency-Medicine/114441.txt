@@ -1,23 +1,22 @@
 Date de publication : 2024-09-10
 
-# 📝 Thrombolyse après réversion du dabigatran dans l'AVC ischémique aigu
+# 📝 Thrombolyse après neutralisation du dabigatran dans l'AVC ischémique aigu
 
 ## 📌 Contexte & Problématique
-La sécurité de la thrombolyse intraveineuse (TIV) après réversion du dabigatran par idarucizumab dans l'AVC ischémique aigu reste peu documentée.
+Les données sur la sécurité de la thrombolyse intraveineuse (TIV) après neutralisation du dabigatran par l'idarucizumab dans l'accident vasculaire cérébral (AVC) ischémique aigu sont limitées.
 
 ## 🧪 Méthodologie
-Étude basée sur un registre national, complétée par une revue systématique et méta-analyse de 13 cohortes et 1 série de cas (553 patients, âge moyen 75 ans, NIHSS médian 11).
+Étude basée sur un registre national, complétée par une revue systématique et méta-analyse de cohortes évaluant la sécurité et l'efficacité de cette approche, avec comparaison aux patients sous TIV sans prétraitement par dabigatran.
 
 ## 📊 Résultats clés
-Taux d'hémorragie intracrânienne symptomatique: 4% (IC 95% 1-9%)
-Toute hémorragie intracrânienne: 10% (IC 95% 5-16%)
-Mortalité à 3 mois: 18% (IC 95% 10-27%)
-Bons résultats fonctionnels (mRS 0-2) à 3 mois: 70% (IC 95% 57-81%)
-Pas de différence significative des complications hémorragiques versus TIV standard.
+Analyse de 553 patients (âge moyen: 75 ans; 65% hommes; NIHSS médian: 11). Taux d'hémorragie intracrânienne symptomatique (HISy): 4% (IC 95%: 1-9%). Mortalité à 3 mois: 18% (IC 95%: 10-27%). Bons résultats fonctionnels (mRS 0-2) à 3 mois: 70% (IC 95%: 57-81%). Aucune différence significative en termes d'HISy entre les patients avec ou sans idarucizumab.
 
 ## 🩺 Impact clinique
-La TIV après réversion du dabigatran par idarucizumab semble sûre et efficace, avec une probabilité plus élevée de bons résultats fonctionnels (RR 1,35; IC 95% 1,11-1,65).
+La TIV après neutralisation du dabigatran semble sûre et efficace, avec une probabilité plus élevée de bons résultats fonctionnels (RR 1,35; IC 95%: 1,11-1,65). Des essais randomisés sont nécessaires pour confirmer ces résultats observationnels.
+
+## Revue
+Neurology
 
 ## 📖 Référence
-Theodorou A, Melanis K, Bakola E, et al. Neurology. 2024;103(7):e209862.
+2024;103(7):e209862. doi: 10.1212/WNL.0000000000209862. Epub 2024 Sep 10.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1212/WNL.0000000000209862.

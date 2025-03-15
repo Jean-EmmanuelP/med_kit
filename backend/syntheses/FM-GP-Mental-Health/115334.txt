@@ -3,17 +3,20 @@ Date de publication : 2024-12-01
 # 📝 Diagnostic et prise en charge des troubles obsessionnels compulsifs chez l'enfant
 
 ## 📌 Contexte & Problématique
-Le TOC, trouble chronique invalidant débutant souvent dans l'enfance, nécessite une prise en charge précoce. Des incertitudes persistent sur les stratégies thérapeutiques optimales selon les populations et contextes spécifiques.
+Le trouble obsessionnel-compulsif (TOC) débute souvent pendant l'enfance et peut entraîner des perturbations développementales persistantes. Les recommandations actuelles préconisent la thérapie cognitivo-comportementale avec exposition et prévention de la réponse (EPR) comme traitement de première intention, mais des incertitudes demeurent sur les stratégies optimales.
 
 ## 🧪 Méthodologie
-Revue systématique avec méta-analyses en réseau et par paires de 117 études (31 diagnostiques, 71 essais contrôlés randomisés, 15 autres) identifiées dans cinq bases de données jusqu'en mai 2024.
+Revue systématique avec recherche dans Medline, Cochrane, Embase, CINAHL et ClinicalTrials.gov jusqu'au 15 mai 2024. Méta-analyses en réseau et par paires réalisées sur 117 études éligibles.
 
 ## 📊 Résultats clés
-La sous-échelle CBCL-OCS présente une sensibilité et spécificité adéquates pour orienter vers une évaluation spécialisée (niveau de preuve modéré). L'EPR en présentiel ou par télésanté est supérieure à l'absence de traitement (niveau élevé). Les ISRS surpassent le placebo (niveau élevé). L'association EPR+ISRS est plus efficace que les ISRS seuls (niveau modéré) et équivalente à l'EPR seule (niveau élevé).
+La sous-échelle obsessionnelle-compulsive de la liste de contrôle du comportement de l'enfant (CBCL-OCS) montre une précision diagnostique acceptable (preuves modérées). L'EPR en présentiel ou par télésanté s'avère plus efficace qu'une liste d'attente (preuves solides). Les inhibiteurs sélectifs de la recapture de la sérotonine (ISRS) surpassent le placebo (preuves solides). L'association EPR+ISRS est supérieure aux ISRS seuls (preuves modérées).
 
 ## 🩺 Impact clinique
-L'EPR, en présentiel ou télésanté, constitue un traitement efficace du TOC pédiatrique, seule ou combinée aux ISRS. Le CBCL-OCS peut faciliter l'identification des patients nécessitant une évaluation diagnostique approfondie.
+Le CBCL-OCS peut aider à identifier les patients nécessitant une évaluation spécialisée. L'EPR, en présentiel ou par télésanté, constitue un traitement efficace, seule ou en combinaison avec un ISRS selon la sévérité des symptômes.
+
+## Revue
+AHRQ Publication
 
 ## 📖 Référence
-Steele DW, Caputo EL, Kanaan G, et al. Diagnosis and Management of Obsessive Compulsive Disorders in Children. AHRQ Publication No. 25-EHC001. Rockville, MD: Agency for Healthcare Research and Quality; 2024.
+2024, No. 25-EHC001, Rockville, MD: Agency for Healthcare Research and Quality; Dec 2024.
 🔗 Lien PubMed : Lien PubMed non disponible

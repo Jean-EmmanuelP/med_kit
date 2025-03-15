@@ -1,0 +1,26 @@
+Date de publication : 2024-10-31
+
+# 📝 Sémaglutide hebdomadaire chez les personnes obèses avec arthrose du genou
+
+## 📌 Contexte & Problématique
+La réduction pondérale améliore les symptômes d'arthrose du genou, mais l'effet des agonistes des récepteurs du peptide-1 similaire au glucagon (GLP-1) dans cette population reste peu étudié.
+
+## 🧪 Méthodologie
+Essai randomisé de 68 semaines (2:1) comparant le sémaglutide hebdomadaire sous-cutané (2,4 mg) au placebo chez 407 participants obèses (IMC ≥30) avec arthrose modérée du genou et douleur significative, associé à des conseils diététiques et d'activité physique.
+
+## 📊 Résultats clés
+- Perte de poids : -13,7% (sémaglutide) vs -3,2% (placebo), p<0,001
+- Réduction du score de douleur WOMAC (Western Ontario and McMaster Universities Osteoarthritis Index) : -41,7 vs -27,5 points, p<0,001
+- Amélioration de la fonction physique SF-36 : +12,0 vs +6,5 points, p<0,001
+- Événements indésirables graves : incidence similaire entre les groupes
+- Arrêts de traitement : 6,7% (sémaglutide) vs 3,0% (placebo), principalement pour troubles gastro-intestinaux
+
+## 🩺 Impact clinique
+Le sémaglutide hebdomadaire offre une option thérapeutique prometteuse pour les patients obèses souffrant d'arthrose du genou, avec des bénéfices significatifs sur la douleur et la fonction physique.
+
+## Revue
+N Engl J Med
+
+## 📖 Référence
+2024;391(17):1573-1583. doi:10.1056/NEJMoa2403664
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2403664.

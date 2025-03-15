@@ -1,0 +1,22 @@
+Date de publication : 2024-06-06
+
+# 📝 Comparaison de deux techniques de taping kinésiologique dans le traitement du syndrome du canal carpien
+
+## 📌 Contexte & Problématique
+Évaluation comparative de l'efficacité des techniques de taping kinésiologique (KT) en I et en boutonnière, associées aux exercices, dans la prise en charge du syndrome du canal carpien (SCC).
+
+## 🧪 Méthodologie
+Étude randomisée contrôlée en double aveugle incluant 108 patients (165 poignets) répartis en trois groupes : technique en boutonnière (GB), technique en bande I (GI) et exercices seuls (GE). Évaluation par EVA (Échelle Visuelle Analogique), DN4, questionnaire de Boston, dynamomètre Jamar et paramètres électrophysiologiques à l'inclusion, semaine 3 et semaine 12.
+
+## 📊 Résultats clés
+Les deux techniques de KT ont montré des améliorations significatives de la douleur (scores EVA et DN4) comparées aux exercices seuls. La technique en I a amélioré davantage la force de préhension. La technique en boutonnière s'est révélée supérieure pour améliorer la vitesse de conduction sensitive, la latence sensitive distale du médian, l'amplitude du CMAP (Potentiel d'Action Musculaire Composé) et du SNAP (Potentiel d'Action Sensitif du Nerf médian).
+
+## 🩺 Impact clinique
+Les deux techniques de KT associées aux exercices offrent des bénéfices supérieurs aux exercices seuls dans le traitement du SCC, avec des avantages spécifiques selon la technique utilisée.
+
+## Revue
+Archives of Physical Medicine and Rehabilitation
+
+## 📖 Référence
+2024;105(9):1657-1665. doi:10.1016/j.apmr.2024.05.023
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.apmr.2024.05.023.

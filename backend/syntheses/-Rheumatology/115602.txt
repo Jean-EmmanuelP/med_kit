@@ -1,0 +1,22 @@
+Date de publication : 2025-01-02
+
+# 📝 Résultats de la revue systématique internationale pour les recommandations EULAR 2023 sur le traitement de la sclérodermie systémique
+
+## 📌 Contexte & Problématique
+Mise à jour des recommandations EULAR pour le traitement de la sclérodermie systémique (ScS), les précédentes datant de 2017 et basées sur une revue systématique de 2014.
+
+## 🧪 Méthodologie
+Réalisation de 30 recherches pour 30 interventions et 1 recherche spécifique sur la calcinose. Questions classées en trois types : inchangées (type I), interventions connues avec nouveaux résultats (type II), et nouvelles interventions (type III).
+
+## 📊 Résultats clés
+Analyse de 14 490 résumés (mars 2022) et 2021 résumés supplémentaires (octobre 2022), aboutissant à l'inclusion de 181 articles. 40% des questions concernaient de nouvelles interventions (abatacept, inhibiteurs de Janus kinase, nintedanib) et 26% des nouveaux résultats pour des traitements connus (tocilizumab, mycophénolate, rituximab).
+
+## 🩺 Impact clinique
+Cette revue fournit le plus haut niveau de preuve pour les nouvelles recommandations EULAR sur le traitement de la ScS et définit les futures orientations de recherche.
+
+## Revue
+Annals of Rheumatic Diseases
+
+## 📖 Référence
+2025 Jan;84(1):77-92. doi: 10.1136/ard-2024-226429. Epub 2025 Jan 2.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1136/ard-2024-226429.

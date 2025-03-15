@@ -1,19 +1,22 @@
 Date de publication : 2024-11-06
 
-# 📝 Sécurité et immunogénicité d'un vaccin méningococcique pentavalent versus quadrivalent chez les adultes indiens
+# 📝 Sécurité et immunogénicité d'un vaccin méningococcique pentavalent versus quadrivalent chez l'adulte en Inde
 
 ## 📌 Contexte & Problématique
-Évaluation de la non-infériorité et de la cohérence entre lots d'un vaccin conjugué méningococcique pentavalent ACYWX (NmCV-5) comparé au vaccin quadrivalent ACWY (MenACWY-D) chez des adultes indiens en bonne santé.
+La maladie méningococcique reste un problème de santé publique mondial. Cette étude évalue la non-infériorité et la consistance entre lots d'un vaccin conjugué méningococcique pentavalent ACYWX (NmCV-5) comparé au vaccin quadrivalent ACWY (MenACWY-D) chez des adultes.
 
 ## 🧪 Méthodologie
-Étude de phase 2/3 randomisée (3:1), en aveugle pour l'observateur, incluant 1640 adultes (18-85 ans) répartis en trois groupes d'âge. Administration intramusculaire de NmCV-5 (n=1233) ou MenACWY-D (n=407). Évaluation de l'immunogénicité par test rSBA aux jours 1 et 29.
+Étude de phase 2/3 randomisée, contrôlée, en aveugle pour l'observateur, incluant 1640 adultes (18-85 ans) en Inde. Randomisation 3:1 pour recevoir NmCV-5 (n=1233) ou MenACWY-D (n=407). L'immunogénicité a été évaluée par test d'activité bactéricide sérique (rSBA) aux jours 1 et 29.
 
 ## 📊 Résultats clés
-Non-infériorité du NmCV-5 démontrée pour tous les sérogroupes. Taux de séroréponse ≥84,3% pour NmCV-5 vs ≥54,5% pour MenACWY-D. MGT au jour 29 ≥7016,9 pour NmCV-5 vs ≥3646,8 pour MenACWY-D. Cohérence entre lots confirmée. Événements indésirables sollicités: 42,7% (NmCV-5) vs 34,9% (MenACWY-D). Aucun événement indésirable grave lié à la vaccination.
+Le NmCV-5 a démontré sa non-infériorité au MenACWY-D pour tous les sérogroupes, avec des taux de séroréponse ≥84,3% (vs ≥54,5% pour MenACWY-D). Les moyennes géométriques des titres (MGT) étaient significativement plus élevées avec NmCV-5. La consistance entre lots a été confirmée. Les événements indésirables sollicités étaient de 42,7% (NmCV-5) vs 34,9% (MenACWY-D), sans événements indésirables graves liés à la vaccination.
 
 ## 🩺 Impact clinique
-Le vaccin pentavalent NmCV-5 offre une protection efficace contre cinq sérogroupes méningococciques avec un profil de sécurité favorable, représentant une avancée potentielle dans la prévention de la méningococcie.
+Le NmCV-5 offre une protection élargie incluant le sérogroupe X avec un profil de sécurité comparable au vaccin quadrivalent, représentant une avancée potentielle dans la prévention des infections méningococciques.
+
+## Revue
+Lancet Infectious Diseases
 
 ## 📖 Référence
-Kulkarni PS, Kawade A, Kohli S, et al. Lancet Infect Dis. 2024 Nov 6:S1473-3099(24)00576-0.
+2024 Nov 6:S1473-3099(24)00576-0. doi: 10.1016/S1473-3099(24)00576-0.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S1473-3099(24)00576-0.

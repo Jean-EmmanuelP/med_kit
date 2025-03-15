@@ -1,19 +1,22 @@
 Date de publication : 2024-09-03
 
-# 📝 Traitements conservateurs des fractures vertébrales par compression aiguës douloureuses : méta-analyse en réseau
+# 📝 Traitements conservateurs dans la gestion des fractures vertébrales par compression douloureuses aiguës
 
 ## 📌 Contexte & Problématique
-Les fractures vertébrales par compression (FVC) ostéoporotiques causent douleur et immobilité. L'efficacité comparative des traitements conservateurs reste insuffisamment étudiée.
+Les fractures vertébrales par compression (FVC) ostéoporotiques causent des douleurs importantes et réduisent la mobilité. L'efficacité comparative des traitements conservateurs pour les FVC aiguës reste insuffisamment étudiée.
 
 ## 🧪 Méthodologie
-Méta-analyse en réseau de 20 essais cliniques randomisés (2102 patients) identifiés dans 4 bases de données. Évaluation des traitements conservateurs pour FVC aiguës, avec focus sur la douleur à court terme (4 semaines) pendant l'activité et la douleur à long terme.
+Revue systématique et méta-analyse en réseau de 20 essais cliniques randomisés (2102 patients) identifiés dans PubMed, Embase, Scopus et CINAHL. Évaluation de la douleur à court terme (4 semaines) pendant l'activité et de la douleur à long terme.
 
 ## 📊 Résultats clés
-La calcitonine (DMS -4,86; IC95% -6,87 à -2,86) et les AINS (DMS -3,94; IC95% -7,30 à -0,58) ont montré une efficacité supérieure au placebo pour la douleur à court terme. À long terme, le tériparatide (quotidien ou hebdomadaire) s'est révélé supérieur aux bisphosphonates, sans supériorité démontrée par rapport aux AINS.
+Pour la douleur à court terme, la calcitonine (DMS -4,86) et les anti-inflammatoires non stéroïdiens (AINS; DMS -3,94) étaient supérieurs au placebo. À long terme, la tériparatide (administration quotidienne ou hebdomadaire) s'est montrée supérieure aux bisphosphonates, tandis qu'aucun traitement n'a surpassé les AINS.
 
 ## 🩺 Impact clinique
-Les AINS et le tériparatide apparaissent comme options préférentielles pour la gestion de la douleur des FVC aiguës. La calcitonine, bien qu'efficace, présente des limites liées à son profil de sécurité. Davantage d'études sont nécessaires concernant les orthèses et analgésiques.
+Les AINS et la tériparatide apparaissent comme options préférentielles pour la gestion de la douleur des FVC aiguës. Malgré son efficacité, la calcitonine présente des limitations liées à son profil de sécurité. Des recherches supplémentaires sont nécessaires concernant les orthèses et analgésiques.
+
+## Revue
+JAMA Network Open
 
 ## 📖 Référence
-Alimy AR, Anastasilakis AD, Carey JJ, et al. JAMA Netw Open. 2024;7(9):e2432041.
+2024;7(9):e2432041. doi:10.1001/jamanetworkopen.2024.32041
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamanetworkopen.2024.32041.

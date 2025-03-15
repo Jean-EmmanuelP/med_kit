@@ -1,23 +1,26 @@
 Date de publication : 2024-03-19
 
-# 📝 Traitement d'éradication endoscopique dans l'œsophage de Barrett : recommandations AGA 2024
+# 📝 Recommandations pour le traitement d'éradication endoscopique dans l'œsophage de Barrett
 
 ## 📌 Contexte & Problématique
-L'œsophage de Barrett (OB) est précurseur de l'adénocarcinome œsophagien. Le traitement d'éradication endoscopique (TEE) peut éradiquer l'OB et ses néoplasies mais présente des risques accrus et utilise davantage de ressources comparé à la surveillance endoscopique.
+L'œsophage de Barrett (OB) est précurseur de l'adénocarcinome œsophagien. Le traitement d'éradication endoscopique (TEE) peut éliminer l'OB et les néoplasies associées, mais présente des risques et nécessite davantage de ressources que la surveillance endoscopique.
 
 ## 🧪 Méthodologie
-Utilisation du cadre GRADE pour évaluer les preuves. Le panel a priorisé questions cliniques et résultats, mené une revue systématique, et utilisé le cadre Evidence-to-Decision pour formuler des recommandations dans cinq scénarios cliniques.
+Utilisation du cadre GRADE pour évaluer les preuves et formuler des recommandations dans différents scénarios cliniques d'OB, en tenant compte des bénéfices, risques, valeurs des patients et considérations économiques.
 
 ## 📊 Résultats clés
-- Recommandation forte pour TEE dans OB avec dysplasie de haut grade
-- Recommandation conditionnelle pour TEE dans OB avec dysplasie de bas grade
-- Recommandation conditionnelle contre TEE dans OB sans dysplasie
-- Pour lésions visibles : recommandation conditionnelle favorisant RME focale plus ablation versus RME par étapes
-- RME ou dissection sous-muqueuse endoscopique selon caractéristiques lésionnelles
+- Forte recommandation pour le TEE en cas de dysplasie de haut grade
+- Recommandation conditionnelle pour le TEE en cas de dysplasie de bas grade
+- Recommandation conditionnelle contre le TEE en l'absence de dysplasie
+- Pour les lésions visibles : recommandation conditionnelle pour la résection muqueuse endoscopique (RME) focale plus ablation plutôt que RME par étapes
+- Choix entre RME ou dissection sous-muqueuse endoscopique selon les caractéristiques lésionnelles
 
 ## 🩺 Impact clinique
-Les décisions thérapeutiques doivent s'appuyer sur une prise de décision partagée selon les préférences du patient. Ces recommandations offrent un cadre pour optimiser l'utilisation du TEE dans la prise en charge de l'OB.
+Ces recommandations guident les cliniciens dans la prise en charge de l'OB et ses néoplasies associées, soulignant l'importance d'une décision partagée avec le patient selon ses préférences.
+
+## Revue
+Gastroenterology
 
 ## 📖 Référence
-Rubenstein JH, Sawas T, Wani S, et al. AGA Clinical Practice Guideline on Endoscopic Eradication Therapy of Barrett's Esophagus and Related Neoplasia. Gastroenterology. 2024;166(6):1020-1055.
+2024;166(6):1020-1055. doi:10.1053/j.gastro.2024.03.019
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1053/j.gastro.2024.03.019.

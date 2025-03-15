@@ -1,19 +1,22 @@
 Date de publication : 2024-04-08
 
-# 📝 ÉCHOGRAPHIE INTRAVASCULAIRE VS ANGIOGRAPHIE DANS LES SYNDROMES CORONARIENS AIGUS
+# 📝 Échographie intravasculaire versus angiographie pour l'intervention coronarienne percutanée dans les syndromes coronariens aigus
 
 ## 📌 Contexte & Problématique
-Les bénéfices de l'échographie intravasculaire (IVUS) par rapport à l'angiographie seule lors d'interventions coronariennes percutanées (ICP) chez les patients avec syndrome coronarien aigu (SCA) restent insuffisamment documentés.
+L'intervention coronarienne percutanée (ICP) guidée par échographie intravasculaire (IVUS) pourrait offrir des avantages par rapport au guidage angiographique traditionnel chez les patients avec syndrome coronarien aigu (SCA), mais les preuves restent insuffisantes.
 
 ## 🧪 Méthodologie
-Essai randomisé multicentrique en deux étapes incluant 3505 patients avec SCA dans 58 centres (Chine, Italie, Pakistan, Royaume-Uni). Randomisation entre ICP guidée par IVUS (n=1753) ou par angiographie seule (n=1752). Critère principal : échec du vaisseau cible à 1 an (composite de mort cardiaque, infarctus du myocarde du vaisseau cible, revascularisation cliniquement motivée).
+Essai randomisé multicentrique en deux étapes incluant 3505 patients avec SCA dans 58 centres (Chine, Italie, Pakistan, Royaume-Uni), comparant l'ICP guidée par IVUS (n=1753) à l'ICP guidée par angiographie (n=1752). Critère principal : échec du vaisseau cible à 1 an.
 
 ## 📊 Résultats clés
-Le critère principal est survenu chez 4,0% des patients du groupe IVUS contre 7,3% dans le groupe angiographie (HR 0,55 [IC 95% 0,41-0,74]; p=0,0001). Réduction principalement due à moins d'infarctus et de revascularisations du vaisseau cible. Pas de différence significative pour la mortalité toutes causes ou les thromboses de stent.
+Le critère principal est survenu chez 4,0% des patients du groupe IVUS contre 7,3% dans le groupe angiographie (HR 0,55 [IC 95% 0,41-0,74]; p=0,0001), principalement grâce à la réduction des infarctus du myocarde et des revascularisations du vaisseau cible. Aucune différence significative en mortalité toutes causes ou thrombose de stent.
 
 ## 🩺 Impact clinique
-L'IVUS améliore significativement les résultats cliniques à 1 an chez les patients avec SCA bénéficiant d'une ICP avec stents à élution médicamenteuse contemporains.
+L'implantation de stents à élution médicamenteuse guidée par IVUS chez les patients avec SCA réduit significativement le risque d'événements cardiaques majeurs à 1 an comparativement au guidage angiographique seul.
+
+## Revue
+Lancet
 
 ## 📖 Référence
-Li X, Ge Z, Kan J, et al. Lancet. 2024;403(10439):1855-1865.
+2024;403(10439):1855-1865. doi:10.1016/S0140-6736(24)00282-4
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S0140-6736(24)00282-4.

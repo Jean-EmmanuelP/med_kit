@@ -1,0 +1,22 @@
+Date de publication : 2024-12-20
+
+# 📝 Vanzacaftor-tezacaftor-deutivacaftor versus elexacaftor-tezacaftor-ivacaftor dans la fibrose kystique
+
+## 📌 Contexte & Problématique
+Évaluation de l'efficacité et la sécurité de l'association vanzacaftor-tezacaftor-deutivacaftor comparée au traitement standard elexacaftor-tezacaftor-ivacaftor chez les patients atteints de fibrose kystique (FK) âgés de 12 ans et plus.
+
+## 🧪 Méthodologie
+Deux essais randomisés de phase 3, contrôlés, en double aveugle (SKYLINE VX20-121-102 et VX20-121-103) incluant des patients avec différents génotypes FK. Après 4 semaines d'adaptation sous elexacaftor-tezacaftor-ivacaftor, randomisation 1:1 entre les deux traitements pour 52 semaines. Critère principal: variation du VEMS (Volume Expiratoire Maximal par Seconde) prédit à 24 semaines.
+
+## 📊 Résultats clés
+Non-infériorité démontrée pour vanzacaftor-tezacaftor-deutivacaftor avec une différence de traitement de +0,2 points de pourcentage dans les deux essais (IC 95% -0,7 à 1,1 et -0,5 à 0,9 respectivement; p<0,0001). Profil d'événements indésirables similaire, principalement légers à modérés.
+
+## 🩺 Impact clinique
+Cette nouvelle association thérapeutique offre une alternative efficace et sûre au traitement standard actuel pour les patients atteints de FK, avec un profil d'efficacité comparable.
+
+## Revue
+Lancet Respiratory Medicine
+
+## 📖 Référence
+2024 Dec 20:S2213-2600(24)00411-9. doi: 10.1016/S2213-2600(24)00411-9.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S2213-2600(24)00411-9.

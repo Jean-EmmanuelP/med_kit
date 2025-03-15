@@ -1,0 +1,22 @@
+Date de publication : 2024-08-20
+
+# 📝 Povidone iodée vs chlorhexidine gluconate dans l'alcool pour l'antisepsie cutanée préopératoire
+
+## 📌 Contexte & Problématique
+Le choix optimal entre la povidone iodée et la chlorhexidine gluconate (CHG) dans l'alcool pour l'antisepsie cutanée préopératoire reste controversé pour la prévention des infections du site opératoire (ISO).
+
+## 🧪 Méthodologie
+Essai multicentrique randomisé en grappes, croisé, de non-infériorité incluant 3360 patients subissant une chirurgie cardiaque (65%) ou abdominale (35%) dans trois hôpitaux suisses. Les sites d'étude alternaient mensuellement entre les deux antiseptiques selon un protocole standardisé.
+
+## 📊 Résultats clés
+Des ISO sont survenues chez 5,1% des patients du groupe povidone iodée contre 5,5% dans le groupe CHG (différence 0,4%, IC 95% -1,1% à 2,0%), démontrant la non-infériorité de la povidone iodée (marge prédéfinie -2,5%). Pour la chirurgie cardiaque: 4,2% vs 3,3% (RR 1,26); pour la chirurgie abdominale: 6,8% vs 9,9% (RR 0,69).
+
+## 🩺 Impact clinique
+La povidone iodée dans l'alcool constitue une alternative efficace à la CHG dans l'alcool pour l'antisepsie cutanée préopératoire, offrant aux cliniciens une flexibilité dans le choix de l'antiseptique.
+
+## Revue
+JAMA
+
+## 📖 Référence
+2024;332(7):541-549. doi:10.1001/jama.2024.8531
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jama.2024.8531.

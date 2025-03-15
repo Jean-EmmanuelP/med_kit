@@ -1,0 +1,25 @@
+Date de publication : 2024-03-20
+
+# 📝 Irradiation à volume réduit du cou non atteint chez les patients atteints de cancer nasopharyngé : résultats actualisés
+
+## 📌 Contexte & Problématique
+L'irradiation standard du cou entier (WNI) dans le carcinome nasopharyngé (NPC) N0-1 peut entraîner une toxicité significative. Cette étude évalue si l'irradiation élective du cou supérieur (UNI) offre une efficacité comparable avec moins d'effets secondaires.
+
+## 🧪 Méthodologie
+Essai randomisé de phase III, multicentrique, en ouvert, de non-infériorité comparant l'UNI (n=224) à la WNI (n=222) chez des patients atteints de NPC N0-1. Suivi médian de 74 mois.
+
+## 📊 Résultats clés
+- Survie globale (OS) à 5 ans similaire: 95,9% (UNI) vs 93,1% (WNI)
+- Survie sans récidive régionale (RRFS) à 5 ans comparable: 95,0% (UNI) vs 94,9% (WNI)
+- Réduction significative avec UNI de l'hypothyroïdie (34% vs 48%), des lésions tissulaires du cou (29% vs 46%), de la dysphagie (14% vs 27%) et de la sténose carotidienne (15% vs 26%)
+- Numération lymphocytaire post-radiothérapie plus élevée avec UNI (400 vs 335 cellules/µL)
+
+## 🩺 Impact clinique
+L'UNI peut être considérée comme un nouveau standard de soins pour le NPC N0-1, offrant une efficacité comparable à la WNI avec une toxicité à long terme significativement réduite et une meilleure préservation de la fonction immunitaire.
+
+## Revue
+Journal of Clinical Oncology
+
+## 📖 Référence
+2024;42(17):2021-2025. doi:10.1200/JCO.23.02086. Epub 2024 Mar 20.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO.23.02086.

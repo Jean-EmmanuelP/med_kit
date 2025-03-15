@@ -1,0 +1,24 @@
+Date de publication : 2024-09-24
+
+# 📝 Continuation vs Interruption des IRSA avant chirurgie non cardiaque majeure
+
+## 📌 Contexte & Problématique
+La gestion préopératoire des inhibiteurs du système rénine-angiotensine (IRSA) reste controversée, avec des recommandations contradictoires par manque de preuves solides.
+
+## 🧪 Méthodologie
+Essai clinique randomisé multicentrique français (40 hôpitaux, 2018-2023) comparant deux stratégies chez 2222 patients sous IRSA programmés pour chirurgie non cardiaque majeure : poursuite jusqu'au jour de l'intervention (n=1107) versus interruption 48h avant (n=1115).
+
+## 📊 Résultats clés
+- Critère composite principal (mortalité et complications majeures à J28) : 22% dans les deux groupes (RR 1,02 [IC 95% 0,87-1,19]; p=0,85)
+- Hypotension peropératoire : 54% groupe poursuite vs 41% groupe interruption (RR 1,31 [IC 95% 1,19-1,44])
+- Aucune différence significative pour les autres critères secondaires
+
+## 🩺 Impact clinique
+La poursuite des IRSA n'augmente pas les complications postopératoires majeures malgré un risque accru d'hypotension peropératoire, offrant une flexibilité dans la prise en charge périopératoire de ces médicaments.
+
+## Revue
+JAMA
+
+## 📖 Référence
+2024;332(12):970-978. doi:10.1001/jama.2024.17123. NCT03374449.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jama.2024.17123.

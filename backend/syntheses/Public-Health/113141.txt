@@ -1,19 +1,22 @@
 Date de publication : 2024-05-06
 
-# 📝 Analyse génotypique de l'efficacité du vaccin RTS,S/AS01(E) contre le paludisme selon le schéma posologique et le statut infectieux initial
+# 📝 Analyse génotypique de l'efficacité du vaccin RTS,S/AS01(E) contre l'infection palustre
 
 ## 📌 Contexte & Problématique
-Le vaccin antipaludique RTS,S/AS01E offre une protection modérée contre le paludisme symptomatique. Cette étude évalue l'impact de différents schémas posologiques sur l'efficacité contre l'infection parasitaire.
+Le vaccin antipaludique RTS,S/AS01E offre une protection modérée contre la maladie symptomatique. Cette étude évalue comment différents schémas posologiques affectent son efficacité contre l'infection parasitaire, y compris asymptomatique.
 
 ## 🧪 Méthodologie
-Essai clinique de phase 2b incluant 1500 enfants (5-17 mois) au Ghana et Kenya, randomisés en 5 groupes : 4 schémas RTS,S/AS01E différents et 1 groupe contrôle. Analyse génotypique de >36 000 échantillons sanguins pour détecter les nouvelles infections sur 12 et 20 mois.
+Essai clinique de phase 2b incluant 1500 enfants (5-17 mois) au Ghana et Kenya, randomisés en 5 groupes : 4 schémas différents de RTS,S/AS01E et 1 groupe contrôle (vaccin antirabique). Suivi génotypique des nouvelles infections sur 36 000+ échantillons pendant 12 et 20 mois.
 
 ## 📊 Résultats clés
-Tous les schémas vaccinaux ont démontré une efficacité similaire (25-43%) contre la première nouvelle infection. Réduction moyenne de 1,1 à 1,6 nouvelles infections sur 20 mois. Efficacité significativement supérieure chez les enfants déjà infectés lors de la vaccination (68%) par rapport aux non-infectés (37%, p=0,0053).
+Tous les schémas vaccinaux ont montré une efficacité similaire (25-43%) contre la première nouvelle infection. Chaque schéma a réduit le nombre moyen de nouvelles infections de 1,1 à 1,6 sur 20 mois. L'efficacité était significativement plus élevée chez les participants déjà infectés lors de la première vaccination (68%) que chez les non-infectés (37%).
 
 ## 🩺 Impact clinique
-L'efficacité similaire entre les schémas suggère une flexibilité posologique. La protection accrue chez les enfants déjà infectés ouvre des perspectives pour de nouvelles stratégies vaccinales dans les zones d'endémie palustre.
+La protection similaire entre les différents schémas et l'efficacité accrue chez les sujets initialement infectés suggèrent de nouvelles stratégies pour le développement et l'implémentation de vaccins antipaludiques plus efficaces.
+
+## Revue
+Lancet Infectious Diseases
 
 ## 📖 Référence
-Juraska M, Early AM, Li L, et al. Lancet Infect Dis. 2024;24(9):1025-1036.
+2024;24(9):1025-1036. doi:10.1016/S1473-3099(24)00179-8. Epub 2024 May 6.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S1473-3099(24)00179-8.

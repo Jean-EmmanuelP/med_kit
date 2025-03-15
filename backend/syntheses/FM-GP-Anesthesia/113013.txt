@@ -1,19 +1,22 @@
 Date de publication : 2024-04-30
 
-# 📝 Ticagrélor et protection des membres inférieurs chez les patients diabétiques athéroscléreux
+# 📝 Ticagrélor et issues des membres chez les patients diabétiques avec athérosclérose
 
 ## 📌 Contexte & Problématique
-Les patients diabétiques de type 2 avec athérosclérose présentent un risque élevé d'événements affectant les membres inférieurs. Cette étude évalue l'effet du ticagrélor sur ces complications.
+Les patients diabétiques de type 2 (DT2) avec athérosclérose présentent un risque élevé d'événements affectant les membres, constituant une morbidité significative. L'effet du ticagrélor sur ces événements restait à déterminer.
 
 ## 🧪 Méthodologie
-Étude randomisée comparant ticagrélor versus placebo (en plus d'aspirine) chez 19 220 patients diabétiques suivis pendant 3 ans. 1 687 patients (8,8%) présentaient une artériopathie périphérique (AP) à l'inclusion.
+Étude randomisée comparant ticagrélor versus placebo (en plus d'aspirine) chez 19 220 patients DT2 avec athérosclérose, suivis pendant 3 ans. Les événements cardiovasculaires majeurs (MACE), événements affectant les membres et saignements ont été évalués.
 
 ## 📊 Résultats clés
-Le ticagrélor a réduit significativement les événements affectant les membres (1,3% vs 1,6%; HR: 0,77; p=0,022), notamment la revascularisation (HR: 0,79; p=0,044) et l'ischémie aiguë de membre (HR: 0,24; p=0,009). Le bénéfice était similaire avec ou sans AP préexistante (Pinteraction=0,81).
+8,8% des patients présentaient une artériopathie périphérique (AP) à l'inclusion. Le ticagrélor a réduit les événements affectant les membres de 23% (HR: 0,77; IC 95%: 0,61-0,96; p=0,022), avec des diminutions significatives de la revascularisation (HR: 0,79) et de l'ischémie aiguë des membres (HR: 0,24). Le bénéfice était constant indépendamment de la présence d'AP.
 
 ## 🩺 Impact clinique
-Le ticagrélor offre une protection significative contre les complications des membres inférieurs chez les diabétiques athéroscléreux, indépendamment de la présence d'AP, mais avec un risque hémorragique accru à considérer dans la balance bénéfice-risque.
+Le ticagrélor réduit significativement le risque d'événements affectant les membres chez les patients DT2 avec athérosclérose, mais augmente les saignements. Le rapport bénéfice/risque mérite d'être mieux évalué, particulièrement chez les patients avec AP sans maladie coronarienne.
+
+## Revue
+Journal of the American College of Cardiology
 
 ## 📖 Référence
-Bonaca MP, Bhatt DL, Simon T, et al. J Am Coll Cardiol. 2024;83(17):1627-1636.
+2024;83(17):1627-1636. doi:10.1016/j.jacc.2024.03.377. NCT01991795.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.jacc.2024.03.377.

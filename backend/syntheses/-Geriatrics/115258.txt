@@ -3,17 +3,22 @@ Date de publication : 2024-12-02
 # 📝 Chlorthalidone vs Hydrochlorothiazide : impact sur les résultats rénaux chez les patients hypertendus
 
 ## 📌 Contexte & Problématique
-L'hypertension favorise le développement et la progression de la maladie rénale chronique (MRC). Cette étude compare l'impact rénal de deux diurétiques thiazidiques couramment utilisés.
+L'hypertension est un facteur de risque de maladie rénale chronique (MRC). Cette analyse secondaire visait à comparer les effets rénaux du chlorthalidone versus hydrochlorothiazide chez des patients hypertendus.
 
 ## 🧪 Méthodologie
-Analyse secondaire d'un essai clinique randomisé incluant 12 265 vétérans hypertendus (âge médian 71 ans, 96,8% d'hommes) suivis pendant 3,9 ans en moyenne. Les patients ont été randomisés pour continuer l'hydrochlorothiazide ou passer à la chlorthalidone.
+Analyse secondaire préspécifiée du Diuretic Comparison Project, un essai clinique randomisé mené entre 2016 et 2022 avec suivi jusqu'à fin 2023. 12 265 vétérans hypertendus (âge médian 71 ans) ont été randomisés pour continuer l'hydrochlorothiazide ou passer au chlorthalidone. Suivi moyen de 3,9 ans.
 
 ## 📊 Résultats clés
-La chlorthalidone n'était pas supérieure à l'hydrochlorothiazide pour prévenir les événements rénaux (6,0% vs 6,4%; HR 0,94; IC 95% 0,81-1,08; p=0,37). Aucune différence significative dans l'incidence de MRC (21,3% vs 20,8%; p=0,59) ou d'insuffisance rénale aiguë (6,4% vs 6,2%; p=0,63). La chlorthalidone était associée à plus d'hypokaliémie (8,9% vs 6,9%; p<0,001).
+- Pas de différence significative pour la progression de la MRC : 6,0% (chlorthalidone) vs 6,4% (hydrochlorothiazide); HR 0,94; IC 95% 0,81-1,08; p=0,37
+- Incidence similaire de MRC (21,3% vs 20,8%; p=0,59) et d'insuffisance rénale aiguë (6,4% vs 6,2%; p=0,63)
+- Risque d'hypokaliémie significativement plus élevé avec chlorthalidone (8,9% vs 6,9%; p<0,001)
 
 ## 🩺 Impact clinique
-Les deux diurétiques thiazidiques offrent une protection rénale comparable chez les patients hypertendus. Le choix peut être guidé par d'autres considérations, notamment le risque d'hypokaliémie plus élevé avec la chlorthalidone.
+Les deux diurétiques thiazidiques présentent une efficacité comparable sur les résultats rénaux, mais le chlorthalidone entraîne plus d'hypokaliémie. Les cliniciens peuvent utiliser l'un ou l'autre pour traiter l'hypertension sans craindre de différence d'impact rénal.
+
+## Revue
+JAMA Network Open
 
 ## 📖 Référence
-Ishani A, Hau C, Raju S, et al. JAMA Netw Open. 2024;7(12):e2449576.
+2024;7(12):e2449576. doi:10.1001/jamanetworkopen.2024.49576
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamanetworkopen.2024.49576.

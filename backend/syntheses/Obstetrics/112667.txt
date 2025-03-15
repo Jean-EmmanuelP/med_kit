@@ -1,0 +1,26 @@
+Date de publication : 2024-03-07
+
+# 📝 Acide tranexamique prophylactique lors des césariennes : méta-analyse avec analyse séquentielle des essais
+
+## 📌 Contexte & Problématique
+L'hémorragie du post-partum (HPP) reste une cause majeure de mortalité maternelle. Des résultats contradictoires questionnent l'efficacité de l'acide tranexamique (TXA) prophylactique lors des césariennes.
+
+## 🧪 Méthodologie
+Méta-analyse de 38 essais contrôlés randomisés (ECR) incluant 22 940 parturientes (11 535 sous TXA prophylactique). Recherche dans PubMed, Embase, Cochrane et ClinicalTrials.gov. Analyse séquentielle des essais (TSA) pour évaluer la fiabilité des résultats.
+
+## 📊 Résultats clés
+Le TXA prophylactique a significativement réduit :
+- L'incidence d'HPP (RR 0,51 ; IC 95% 0,38-0,69)
+- Les transfusions sanguines (RR 0,43 ; IC 95% 0,30-0,61)
+- Le recours aux utérotoniques supplémentaires (RR 0,52 ; IC 95% 0,40-0,68)
+Aucune augmentation significative des effets indésirables ni d'événements thromboemboliques.
+
+## 🩺 Impact clinique
+L'administration prophylactique de TXA lors des césariennes constitue une stratégie sûre et efficace pour réduire l'HPP sans augmenter les complications.
+
+## Revue
+Can J Anaesth
+
+## 📖 Référence
+2024;71(4):465-478. doi:10.1007/s12630-024-02715-3. PROSPERO CRD42023422188.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1007/s12630-024-02715-3.

@@ -1,0 +1,22 @@
+Date de publication : 2024-05-13
+
+# 📝 Efficacité de la méthode kangourou avant stabilisation clinique chez les nouveau-nés en Ouganda
+
+## 📌 Contexte & Problématique
+La naissance prématurée est la principale cause de mortalité infantile mondiale. L'efficacité et le rapport coût-efficacité de la méthode kangourou (KMC) initiée avant stabilisation clinique restaient incertains en Afrique subsaharienne.
+
+## 🧪 Méthodologie
+Essai contrôlé randomisé dans cinq hôpitaux ougandais comparant la KMC précoce aux soins standard chez 2221 nouveau-nés pesant 700-2000g. Critère principal : mortalité néonatale à 7 jours. Évaluation économique selon perspective sociétale.
+
+## 📊 Résultats clés
+Mortalité à 7 jours : 7,5% dans les deux groupes (RR ajusté 0,97 [IC 95% 0,74-1,28]; p=0,85). Mortalité à 28 jours : 11,3% (intervention) vs 12,8% (contrôle) (RR 0,88 [0,71-1,09]; p=0,23). L'intervention présentait une probabilité de 97% (perspective prestataire) et 84% (perspective sociétale) d'être plus rentable que les soins standard.
+
+## 🩺 Impact clinique
+Bien que la KMC précoce n'ait pas réduit significativement la mortalité néonatale, elle s'est révélée rentable comparée aux soins standard. Des investissements supplémentaires dans les soins néonatals sont nécessaires pour améliorer l'impact en Afrique subsaharienne.
+
+## Revue
+Lancet
+
+## 📖 Référence
+2024;403(10443):2520-2532. doi:10.1016/S0140-6736(24)00064-3
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S0140-6736(24)00064-3.

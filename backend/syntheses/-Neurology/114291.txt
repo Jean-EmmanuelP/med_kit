@@ -1,0 +1,22 @@
+Date de publication : 2024-09-04
+
+# 📝 Implants de cellules stromales mésenchymateuses pour déficits moteurs chroniques après traumatisme crânien
+
+## 📌 Contexte & Problématique
+Les déficits moteurs chroniques après traumatisme crânien (TC) représentent un défi thérapeutique majeur. Cette étude évalue l'efficacité de l'implantation intracrânienne de cellules stromales mésenchymateuses allogéniques modifiées (SB623) pour améliorer ces déficits.
+
+## 🧪 Méthodologie
+Analyse post hoc d'un essai de phase 2 (STEMTRA), randomisé, en double aveugle, contrôlé par chirurgie simulée. 61 patients avec TC modéré à grave datant d'au moins 12 mois ont reçu soit des implants SB623 à différentes doses (n=46), soit une chirurgie simulée (n=15), avec suivi sur 48 semaines.
+
+## 📊 Résultats clés
+Le critère principal d'efficacité a été atteint avec une amélioration significativement plus importante du score de l'échelle motrice de Fugl-Meyer (FMMS) dans le groupe SB623 vs contrôle à 24 semaines (+8,3 vs +2,3; p=0,04). L'amélioration s'est maintenue à 48 semaines. Aucun décès ni abandon lié aux événements indésirables n'a été rapporté.
+
+## 🩺 Impact clinique
+Cette étude de classe I démontre que l'implantation de cellules SB623 est sûre et améliore significativement la fonction motrice chez les patients avec déficits moteurs chroniques post-TC, suggérant le potentiel des thérapies cellulaires pour modifier l'évolution des séquelles neurologiques chroniques.
+
+## Revue
+Neurology
+
+## 📖 Référence
+2024;103(7):e209797. doi:10.1212/WNL.0000000000209797. Epub 2024 Sep 4.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1212/WNL.0000000000209797.

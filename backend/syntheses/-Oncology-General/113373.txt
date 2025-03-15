@@ -1,0 +1,22 @@
+Date de publication : 2024-06-02
+
+# 📝 Immunothérapie néoadjuvante dans le mélanome de stade III résécable
+
+## 📌 Contexte & Problématique
+L'immunothérapie néoadjuvante a montré une efficacité supérieure à l'approche adjuvante dans les essais préliminaires pour le mélanome de stade III macroscopique résécable.
+
+## 🧪 Méthodologie
+Essai de phase 3 randomisant 423 patients entre deux approches : (1) ipilimumab+nivolumab néoadjuvants puis chirurgie, ou (2) chirurgie suivie de nivolumab adjuvant. Traitement adjuvant réservé aux patients du groupe néoadjuvant avec réponse partielle ou absence de réponse.
+
+## 📊 Résultats clés
+Survie sans événement à 12 mois : 83,7% (groupe néoadjuvant) vs 57,2% (groupe adjuvant), HR=0,32. Dans le groupe néoadjuvant : 59,0% ont présenté une réponse pathologique majeure, avec survie sans récidive à 12 mois de 95,1%. Événements indésirables grade ≥3 : 29,7% (groupe néoadjuvant) vs 14,7% (groupe adjuvant).
+
+## 🩺 Impact clinique
+L'approche néoadjuvante avec ipilimumab+nivolumab suivie de chirurgie et traitement adjuvant adapté à la réponse offre un avantage significatif de survie sans événement comparée à l'approche conventionnelle, malgré une toxicité plus élevée.
+
+## Revue
+New England Journal of Medicine
+
+## 📖 Référence
+2024;391(18):1696-1708. doi:10.1056/NEJMoa2402604. Epub 2024 Jun 2. NCT04949113.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2402604.

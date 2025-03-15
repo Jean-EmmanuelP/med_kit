@@ -1,19 +1,22 @@
 Date de publication : 2024-09-01
 
-# 📝 FINÉRÉNONE DANS L'INSUFFISANCE CARDIAQUE À FRACTION D'ÉJECTION LÉGÈREMENT RÉDUITE OU PRÉSERVÉE
+# 📝 Finérénone dans l'insuffisance cardiaque à fraction d'éjection légèrement réduite ou préservée
 
 ## 📌 Contexte & Problématique
-L'efficacité des antagonistes des récepteurs aux minéralocorticoïdes n'est pas établie dans l'insuffisance cardiaque à fraction d'éjection légèrement réduite ou préservée (≥40%). La finérénone, antagoniste non stéroïdien, a été évaluée dans cette population.
+L'efficacité des antagonistes des récepteurs aux minéralocorticoïdes n'est pas établie dans l'insuffisance cardiaque à fraction d'éjection légèrement réduite ou préservée (IC-FEp ≥40%). La finérénone, antagoniste non stéroïdien, nécessitait une évaluation dans cette population.
 
 ## 🧪 Méthodologie
-Essai international randomisé en double aveugle comparant finérénone (20-40 mg/jour) versus placebo chez des patients avec insuffisance cardiaque et FEVG ≥40%. Critère principal composite : événements totaux d'aggravation de l'insuffisance cardiaque et décès cardiovasculaires.
+Essai international randomisé en double aveugle comparant finérénone (20-40 mg/jour) versus placebo chez des patients avec IC-FEp ≥40%. Critère principal composite : événements totaux d'aggravation de l'IC et décès cardiovasculaires.
 
 ## 📊 Résultats clés
-Sur 32 mois (médiane) : 1083 événements du critère principal chez 624/3003 patients sous finérénone contre 1283 événements chez 719/2998 patients sous placebo (ratio 0,84; IC 95% 0,74-0,95; p=0,007). Réduction des événements d'aggravation de l'insuffisance cardiaque (842 vs 1024; ratio 0,82; p=0,006). Mortalité cardiovasculaire similaire (8,1% vs 8,7%).
+Sur 32 mois (médiane) : 1083 événements chez 624/3003 patients sous finérénone contre 1283 événements chez 719/2998 patients sous placebo (ratio 0,84; IC 95% 0,74-0,95; p=0,007). Réduction significative des événements d'aggravation de l'IC (ratio 0,82; p=0,006). Mortalité cardiovasculaire similaire (8,1% vs 8,7%). Risque accru d'hyperkaliémie mais réduit d'hypokaliémie.
 
 ## 🩺 Impact clinique
-La finérénone réduit significativement les événements d'aggravation de l'insuffisance cardiaque à FEVG ≥40%. Profil de sécurité : risque accru d'hyperkaliémie mais risque réduit d'hypokaliémie.
+La finérénone réduit significativement les événements d'aggravation de l'IC chez les patients avec IC-FEp, offrant une nouvelle option thérapeutique pour cette population.
+
+## Revue
+N Engl J Med
 
 ## 📖 Référence
-Solomon SD, McMurray JJV, Vaduganathan M, et al. Finerenone in Heart Failure with Mildly Reduced or Preserved Ejection Fraction. N Engl J Med. 2024;391(16):1475-1485.
+2024;391(16):1475-1485. doi:10.1056/NEJMoa2407107. Epub 2024 Sep 1. (FINEARTS-HF, NCT04435626)
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2407107.

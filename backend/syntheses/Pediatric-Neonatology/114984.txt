@@ -1,0 +1,22 @@
+Date de publication : 2024-11-18
+
+# 📝 Gel de dextrose en salle d'accouchement pour l'hypoglycémie chez les grands prématurés
+
+## 📌 Contexte & Problématique
+L'hypoglycémie précoce est fréquente chez les grands/extrêmes prématurés lors de l'admission en unité de soins intensifs néonatals (USIN). Cette étude évalue si l'administration de gel de dextrose buccal en salle d'accouchement peut réduire cette complication.
+
+## 🧪 Méthodologie
+Essai randomisé contrôlé par placebo incluant des nouveau-nés ≤32+0 semaines d'âge gestationnel (AG) dans cinq unités néonatales. Les nourrissons recevaient soit du gel de dextrose 40% (0,5 mL si ≤29+0 AG; 1 mL si ≥29+1 AG), soit un placebo. Critère principal : hypoglycémie (<1,8 mmol/L) à l'admission en USIN.
+
+## 📊 Résultats clés
+L'étude a été interrompue prématurément (169 nouveau-nés, 33% de l'échantillon cible). Aucune différence significative n'a été observée dans les taux d'hypoglycémie entre les groupes dextrose (29%) et placebo (29%) (OR 0,95; IC 95% 0,49-1,86; p=0,88).
+
+## 🩺 Impact clinique
+L'administration de gel de dextrose 40% n'a pas démontré de bénéfice sur les taux d'hypoglycémie à l'admission. La prise en charge devrait continuer à prioriser l'accès vasculaire précoce et l'initiation rapide de perfusions intraveineuses contenant du dextrose.
+
+## Revue
+Archives of Disease in Childhood Fetal and Neonatal Edition
+
+## 📖 Référence
+2024 Nov 18:fetalneonatal-2024-327313. doi: 10.1136/archdischild-2024-327313. NCT04353713.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1136/archdischild-2024-327313.

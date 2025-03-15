@@ -1,0 +1,22 @@
+Date de publication : 2025-02-21
+
+# 📝 Directives de la Society of Critical Care Medicine pour le traitement du coup de chaleur
+
+## 📌 Contexte & Problématique
+L'augmentation des phénomènes météorologiques liés à la chaleur entraînera davantage de coups de chaleur. Une prise en charge rapide et fondée sur des preuves est essentielle pour optimiser les résultats.
+
+## 🧪 Méthodologie
+Un panel multidisciplinaire de 18 experts internationaux a élaboré des recommandations selon la méthodologie GRADE (Grading of Recommendations, Assessment, Development, and Evaluation). Des questions PICO (Patient, Intervention, Comparaison, Résultats) ont été formulées sur les modalités de refroidissement et les médicaments affectant la température.
+
+## 📊 Résultats clés
+Le panel a formulé deux recommandations fortes, cinq énoncés de bonnes pratiques et une recommandation pour la recherche uniquement. Les mesures de refroidissement actif sont préférables au refroidissement passif, l'immersion en eau froide/glacée offrant le refroidissement le plus rapide. Aucune preuve ne soutient les interventions pharmacologiques.
+
+## 🩺 Impact clinique
+Ces directives priorisent les méthodes de refroidissement actif, particulièrement l'immersion en eau froide quand disponible, et déconseillent les interventions pharmacologiques. L'application doit tenir compte de l'état clinique du patient et des ressources disponibles.
+
+## Revue
+Critical Care Medicine
+
+## 📖 Référence
+2025 Feb 1;53(2):e490-e500. doi: 10.1097/CCM.0000000000006551. Epub 2025 Feb 21.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1097/CCM.0000000000006551.

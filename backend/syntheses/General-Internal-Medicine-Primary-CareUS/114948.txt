@@ -1,19 +1,22 @@
 Date de publication : 2024-11-18
 
-# 📝 Fézolinétant pour les symptômes vasomoteurs de la ménopause chez les patientes non éligibles à l'hormonothérapie
+# 📝 Efficacité et sécurité du fézolinetant pour les symptômes vasomoteurs de la ménopause chez les personnes non éligibles à l'hormonothérapie
 
 ## 📌 Contexte & Problématique
-Évaluation du fézolinétant, antagoniste non hormonal des récepteurs de la neurokinine 3, pour traiter les symptômes vasomoteurs modérés à sévères chez les femmes ménopausées ne pouvant recevoir d'hormonothérapie.
+Évaluation du fézolinetant, antagoniste non hormonal des récepteurs de la neurokinine 3, pour traiter les symptômes vasomoteurs modérés à sévères chez les femmes ménopausées ne pouvant recevoir d'hormonothérapie.
 
 ## 🧪 Méthodologie
-Essai randomisé contrôlé de phase 3b dans 16 pays incluant 453 femmes (40-65 ans) recevant fézolinétant 45 mg (n=227) ou placebo (n=226) quotidiennement pendant 24 semaines.
+Essai contrôlé randomisé de phase 3b incluant 453 femmes (40-65 ans) dans 16 pays, recevant fézolinetant 45 mg (n=227) ou placebo (n=226) quotidiennement pendant 24 semaines.
 
 ## 📊 Résultats clés
-À 24 semaines, le fézolinétant a significativement réduit la fréquence (différence -1,93; IC95% -2,64 à -1,22; p<0,001) et la sévérité (-0,39; IC95% -0,57 à -0,21; p<0,001) des symptômes vasomoteurs. Amélioration significative des troubles du sommeil (score PROMIS SD-SF 8b: -2,5; IC95% -3,9 à -1,1; p<0,001). Profil d'effets indésirables comparable au placebo (65,0% vs 61,1%).
+À 24 semaines, le fézolinetant a significativement réduit la fréquence (différence -1,93, IC 95% -2,64 à -1,22; p<0,001) et la sévérité (-0,39, IC 95% -0,57 à -0,21; p<0,001) des symptômes vasomoteurs. Amélioration significative des troubles du sommeil (PROMIS SD-SF 8b). Profil de sécurité comparable au placebo avec principalement COVID-19 (13,3%), céphalées (8,8%) et fatigue (5,8%).
 
 ## 🩺 Impact clinique
-Le fézolinétant constitue une alternative efficace et bien tolérée pour les patientes présentant des contre-indications à l'hormonothérapie ou refusant ce traitement.
+Le fézolinetant représente une alternative thérapeutique efficace et bien tolérée pour les femmes présentant des contre-indications à l'hormonothérapie ou refusant ce traitement.
+
+## Revue
+BMJ
 
 ## 📖 Référence
-Schaudig K, Wang X, Bouchard C, et al. BMJ. 2024;387:e079525.
+2024;387:e079525. doi: 10.1136/bmj-2024-079525.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1136/bmj-2024-079525.

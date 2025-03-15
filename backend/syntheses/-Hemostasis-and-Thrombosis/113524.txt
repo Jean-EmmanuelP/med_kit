@@ -1,23 +1,26 @@
 Date de publication : 2024-09-14
 
-# 📝 Traitements hypolipémiants et prévention de la thromboembolie veineuse : méta-analyse en réseau
+# 📝 Traitement hypolipémiant et prévention de la thromboembolie veineuse : méta-analyse en réseau
 
 ## 📌 Contexte & Problématique
-Les statines pourraient réduire le risque de thromboembolie veineuse (TEV). Cette étude évalue l'efficacité comparative des différentes thérapies hypolipémiantes (THL) dans la prévention primaire de la TEV.
+Les statines pourraient réduire le risque de thromboembolie veineuse (TEV). Cette étude évalue l'effet comparatif de différentes thérapies hypolipémiantes (THL) dans la prévention primaire de la TEV.
 
 ## 🧪 Méthodologie
-Méta-analyse en réseau de 45 essais contrôlés randomisés (n=254 933 patients) comparant statines (haute ou faible/moyenne intensité), ézétimibe et inhibiteurs de PCSK9 (iPCSK9) pour la prévention de la TEV.
+Méta-analyse en réseau de 45 essais contrôlés randomisés (n=254 933 patients) comparant statines (haute ou faible/moyenne intensité), ézétimibe et inhibiteurs de PCSK9 (PCSK9i) pour la prévention de la TEV.
 
 ## 📊 Résultats clés
-- 2084 événements TEV recensés
-- iPCSK9 + statine haute intensité : RR 0,59 (IC 95% 0,43-0,80) vs placebo
-- Statine haute intensité seule : RR 0,84 (IC 95% 0,70-1,02)
-- Statine faible/moyenne intensité : RR 0,89 (IC 95% 0,79-1,00)
-- Ézétimibe seul : aucun effet (RR 1,04; IC 95% 0,83-1,30)
+- Association PCSK9i + statine haute intensité : réduction maximale du risque de TEV (RR 0,59; IC 95% 0,43-0,80)
+- Statines haute intensité : tendance à la réduction (RR 0,84; IC 0,70-1,02)
+- Statines faible/moyenne intensité : tendance à la réduction (RR 0,89; IC 0,79-1,00)
+- Ézétimibe seul : aucun effet (RR 1,04; IC 0,83-1,30)
+- Effet dose-dépendant observé avec l'intensification du traitement hypolipémiant
 
 ## 🩺 Impact clinique
-L'effet préventif sur la TEV augmente avec l'intensité du traitement hypolipémiant. Les thérapies combinées à haute intensité offrent le meilleur potentiel préventif contre la TEV.
+Les thérapies hypolipémiantes, particulièrement à haute intensité et en association, pourraient constituer une stratégie de prévention de la TEV.
+
+## Revue
+European Heart Journal
 
 ## 📖 Référence
-Farmakis IT, Christodoulou KC, Hobohm L, et al. Lipid lowering for prevention of venous thromboembolism: a network meta-analysis. Eur Heart J. 2024;45(35):3219-3227.
+2024;45(35):3219-3227. doi:10.1093/eurheartj/ehae361
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1093/eurheartj/ehae361.

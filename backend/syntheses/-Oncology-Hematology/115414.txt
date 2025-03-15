@@ -1,0 +1,24 @@
+Date de publication : 2025-01-09
+
+# 📝 Soins partagés après greffe de cellules hématopoïétiques allogéniques : un essai randomisé
+
+## 📌 Contexte & Problématique
+L'efficacité et la sécurité du partage des soins entre centres spécialisés et oncologues locaux après une greffe de cellules hématopoïétiques allogéniques (GCH) restaient à démontrer, particulièrement pour les patients éloignés des centres spécialisés.
+
+## 🧪 Méthodologie
+Essai clinique randomisé multicentrique (302 patients) comparant des soins partagés (alternance des visites entre Dana-Farber Cancer Institute et cabinets d'oncologie locaux) aux soins habituels (visites uniquement au centre spécialisé) après GCH.
+
+## 📊 Résultats clés
+- Mortalité sans rechute (MSR) au jour 100 non-inférieure en soins partagés (2,6% vs 2,7%)
+- Qualité de vie (QdV) similaire au jour 180 entre les deux groupes
+- QdV significativement meilleure au jour 100 pour les soins partagés (scores FACT-BMT et QLQ-C30)
+
+## 🩺 Impact clinique
+Les soins partagés après GCH apparaissent sûrs, avec une amélioration transitoire de la QdV, suggérant qu'ils pourraient devenir un modèle standard pour le suivi post-greffe, particulièrement bénéfique pour les patients éloignés des centres spécialisés.
+
+## Revue
+JAMA Oncology
+
+## 📖 Référence
+2025 Jan 9. doi: 10.1001/jamaoncol.2024.5786.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamaoncol.2024.5786.

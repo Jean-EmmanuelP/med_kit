@@ -1,0 +1,22 @@
+Date de publication : 2024-10-22
+
+# 📝 Efficacité d'un programme de thérapie par l'exercice basé sur le sport chez les adultes atteints de lésions cérébrales acquises
+
+## 📌 Contexte & Problématique
+Évaluation de l'efficacité d'un programme de thérapie par l'exercice basé sur le sport (ET) combiné aux soins habituels (SH) versus SH seuls chez des adultes avec lésions cérébrales acquises (LCA), majoritairement des accidents vasculaires cérébraux (AVC).
+
+## 🧪 Méthodologie
+Essai contrôlé randomisé en simple aveugle incluant 23 adultes avec LCA (82,6% d'AVC). Groupe intervention (n=11) : 16 séances d'ET + 16 séances de SH. Groupe contrôle (n=12) : SH uniquement.
+
+## 📊 Résultats clés
+Le groupe ET+SH a montré des améliorations significatives dans la qualité de vie (Short Form-36), le contrôle moteur des membres supérieurs (Fugl-Meyer), la capacité fonctionnelle, la mobilité, l'équilibre et la participation à l'activité physique (tous P<0,05), avec des tailles d'effet importantes. Le groupe SH n'a présenté aucune amélioration statistiquement significative.
+
+## 🩺 Impact clinique
+L'ajout d'un programme d'exercice basé sur le sport aux soins habituels améliore significativement les résultats fonctionnels et la qualité de vie chez les patients avec LCA. Des études avec des échantillons plus importants et un suivi à long terme sont nécessaires.
+
+## Revue
+Archives of Physical Medicine and Rehabilitation
+
+## 📖 Référence
+2024 Oct 22:S0003-9993(24)01300-5. doi: 10.1016/j.apmr.2024.10.003.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.apmr.2024.10.003.

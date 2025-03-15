@@ -1,0 +1,22 @@
+Date de publication : 2024-09-05
+
+# 📝 Réalité étendue dans le traitement de la douleur du membre fantôme : essai randomisé contrôlé
+
+## 📌 Contexte & Problématique
+La douleur du membre fantôme (DMF) reste un défi thérapeutique post-amputation. Cette étude compare deux approches utilisant la réalité étendue (RE) : l'exécution motrice fantôme (EMF) et l'imagerie motrice fantôme (IMF).
+
+## 🧪 Méthodologie
+Essai multicentrique, randomisé, en double aveugle dans 9 cliniques de 7 pays. 81 participants avec DMF ont été répartis entre EMF (exécution de mouvements avec décodage de l'intention motrice) et IMF (répétition mentale guidée). Critère principal : changement de la DMF selon l'Indice d'Évaluation de la Douleur.
+
+## 📊 Résultats clés
+Aucune supériorité de l'EMF sur l'IMF n'a été démontrée. Réduction de la DMF : 64,5% (EMF) et 68,2% (IMF). Réduction cliniquement significative de la douleur (>50%) chez 71% des participants EMF et 68% des participants IMF.
+
+## 🩺 Impact clinique
+EMF et IMF assistées par RE offrent un soulagement significatif de la DMF et représentent des alternatives viables aux traitements pharmacologiques.
+
+## Revue
+Pain
+
+## 📖 Référence
+2025;166(3):571-586. doi:10.1097/j.pain.0000000000003384. Epub 2024 Sep 5.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1097/j.pain.0000000000003384.

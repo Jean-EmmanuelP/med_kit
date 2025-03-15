@@ -3,19 +3,22 @@ Date de publication : 2025-01-09
 # 📝 Risque d'AVC ischémique après diagnostic de cancer : étude de cohorte appariée
 
 ## 📌 Contexte & Problématique
-L'association entre cancer et AVC ischémique reste insuffisamment documentée, particulièrement chez les patients avec antécédents d'AVC. Cette étude évalue le risque comparatif d'AVC ischémique chez des individus avec et sans cancer.
+L'association entre cancer et accident vasculaire cérébral (AVC) ischémique reste peu documentée, particulièrement chez les patients ayant des antécédents d'AVC.
 
 ## 🧪 Méthodologie
-Étude de cohorte appariée (1:1) en Ontario incluant des adultes nouvellement diagnostiqués avec cancer versus témoins sans cancer. Deux cohortes distinctes : sans antécédent d'AVC (cohorte 1) et avec antécédent d'AVC (cohorte 2).
+Étude de cohorte appariée (1:1) en Ontario incluant des adultes avec nouveau diagnostic de cancer versus témoins sans cancer, divisés en deux cohortes selon l'absence (cohorte 1) ou présence (cohorte 2) d'AVC ischémique antérieur.
 
 ## 📊 Résultats clés
-Cohorte 1 (sans antécédent d'AVC) : risque accru d'AVC à 1,5 an post-diagnostic (4,6 vs 3,5/1000 personnes-années; RRa=1,40; IC 95%:1,34-1,47).
-Cohorte 2 (avec antécédent d'AVC) : risque similaire à 1,5 an (RRa=1,00; IC 95%:0,88-1,14).
-Dans les deux cohortes : risque diminué entre 1,5-5 ans post-diagnostic.
+- Cohorte 1 (sans antécédent d'AVC) : risque accru d'AVC ischémique chez les patients cancéreux à 1,5 an (4,6 vs 3,5/1000 personnes-années; aHR=1,40)
+- Cohorte 2 (avec antécédent d'AVC) : risque similaire à 1,5 an (aHR=1,00)
+- Dans les deux cohortes : risque réduit chez les patients cancéreux entre 1,5 et 5 ans
 
 ## 🩺 Impact clinique
-Surveillance neurologique accrue recommandée durant les 18 premiers mois après diagnostic de cancer, particulièrement chez les patients sans antécédent d'AVC. Le risque varie selon le site et le stade tumoral.
+Le risque d'AVC ischémique est significativement plus élevé dans les 18 premiers mois suivant un diagnostic de cancer chez les patients sans antécédent d'AVC, variant selon le site et le stade tumoral.
+
+## Revue
+Journal of Thrombosis and Haemostasis
 
 ## 📖 Référence
-Siegal DM, Cerasuolo JO, Carrier M, et al. Risk of ischemic stroke after cancer diagnosis: a population-based matched cohort study. J Thromb Haemost. 2025;S1538-7836(24)00778-5.
+2025 Jan 9:S1538-7836(24)00778-5. doi: 10.1016/j.jtha.2024.12.029.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.jtha.2024.12.029.

@@ -3,17 +3,23 @@ Date de publication : 2024-12-24
 # 📝 Anticoagulation chez les patients hospitalisés pour COVID-19 : méta-analyse prospective
 
 ## 📌 Contexte & Problématique
-Les résultats des essais sur l'anticoagulation à dose élevée chez les patients COVID-19 hospitalisés sont contradictoires, nécessitant une analyse globale pour guider la pratique clinique.
+Les essais cliniques sur l'anticoagulation à dose élevée chez les patients COVID-19 hospitalisés ont montré des résultats contradictoires, nécessitant une analyse globale pour guider la pratique clinique.
 
 ## 🧪 Méthodologie
-Méta-analyse prospective de 22 essais randomisés comparant différentes doses d'anticoagulation (thérapeutique, intermédiaire, prophylactique) chez des patients hospitalisés pour COVID-19. Critère principal : mortalité à 28 jours.
+Méta-analyse de 22 essais randomisés (20 avec données individuelles, 2 avec données publiées) comparant différentes doses d'anticoagulation (thérapeutique, intermédiaire, prophylactique) chez les patients hospitalisés pour COVID-19.
 
 ## 📊 Résultats clés
-L'anticoagulation thérapeutique vs prophylactique a réduit la mortalité à 28 jours (OR 0,77 [IC 95% 0,64-0,93]; 11 essais, 6297 patients). Aucune différence significative entre dose intermédiaire vs prophylactique (OR 0,95 [IC 95% 0,76-1,19]). Les doses plus élevées ont réduit les événements thromboemboliques mais augmenté le risque hémorragique.
+- Dose thérapeutique vs prophylactique : réduction de la mortalité à 28 jours (OR 0,77 [IC 95% 0,64-0,93])
+- Dose thérapeutique vs intermédiaire : tendance à une mortalité plus élevée (OR 1,21 [IC 0,93-1,58])
+- Dose intermédiaire vs prophylactique : mortalité similaire (OR 0,95 [IC 0,76-1,19])
+- Doses plus élevées : moins d'événements thromboemboliques mais plus d'hémorragies majeures
 
 ## 🩺 Impact clinique
-L'anticoagulation thérapeutique apporte un bénéfice de survie, particulièrement chez les patients avec peu ou pas de besoins en oxygène, malgré un risque hémorragique accru. Le rapport bénéfice-risque doit être évalué individuellement.
+L'anticoagulation à dose thérapeutique peut réduire la mortalité chez les patients COVID-19 hospitalisés, particulièrement ceux nécessitant peu ou pas d'oxygène, mais augmente le risque hémorragique.
+
+## Revue
+Annals of Internal Medicine
 
 ## 📖 Référence
-Vale CL, Godolphin PJ, Fisher DJ, et al. Ann Intern Med. 2025 Jan;178(1):59-69.
+2025 Jan;178(1):59-69. doi: 10.7326/ANNALS-24-00800. Epub 2024 Dec 24.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.7326/ANNALS-24-00800.

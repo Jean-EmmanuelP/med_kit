@@ -1,0 +1,22 @@
+Date de publication : 2024-06-11
+
+# 📝 Chimiothérapie néoadjuvante triplet versus doublet avec ou sans radiothérapie dans le cancer de l'œsophage localement avancé
+
+## 📌 Contexte & Problématique
+Le pronostic du carcinome épidermoïde de l'œsophage (CEO) localement avancé reste défavorable malgré la thérapie néoadjuvante standard. Cette étude compare trois approches néoadjuvantes pour déterminer la stratégie optimale.
+
+## 🧪 Méthodologie
+Essai randomisé de phase 3 (JCOG1109 NExT) incluant 601 patients japonais atteints de CEO localement avancé non traité, répartis en trois groupes : chimiothérapie doublet (NeoCF), triplet (NeoCF+D) ou doublet plus radiothérapie (NeoCF+RT), suivie d'œsophagectomie.
+
+## 📊 Résultats clés
+La survie globale à 3 ans était significativement supérieure avec NeoCF+D versus NeoCF (72,1% contre 62,6%; HR 0,68; p=0,006), mais pas avec NeoCF+RT (68,3%; HR 0,84; p=0,12). La neutropénie fébrile grade ≥3 était plus fréquente dans le groupe NeoCF+D (16%) que dans les groupes NeoCF (1%) et NeoCF+RT (5%).
+
+## 🩺 Impact clinique
+La chimiothérapie triplet néoadjuvante suivie d'œsophagectomie pourrait devenir le nouveau standard de soins pour les CEO localement avancés chez les patients japonais en bon état général, offrant un avantage significatif de survie malgré une toxicité accrue.
+
+## Revue
+The Lancet
+
+## 📖 Référence
+2024;404(10447):55-66. doi:10.1016/S0140-6736(24)00745-1
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S0140-6736(24)00745-1.

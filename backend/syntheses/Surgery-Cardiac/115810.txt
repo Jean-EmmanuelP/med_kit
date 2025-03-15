@@ -1,0 +1,24 @@
+Date de publication : 2025-02-19
+
+# 📝 Prélèvement de veine saphène sans contact versus conventionnel dans le pontage aortocoronarien
+
+## 📌 Contexte & Problématique
+La technique de prélèvement de veine saphène sans contact pourrait théoriquement améliorer la perméabilité des greffons et les résultats cliniques après pontage aortocoronarien (PAC).
+
+## 🧪 Méthodologie
+Essai randomisé basé sur un registre (902 patients) comparant le prélèvement sans contact au prélèvement conventionnel. Critère principal : occlusion/sténose >50% du greffon, intervention coronarienne percutanée sur greffon, ou décès.
+
+## 📊 Résultats clés
+- Critère principal : 19,8% (sans contact) vs 24,0% (conventionnel) à 3,5 ans (différence -4,3%, IC 95% -10,1-1,6; p=0,15)
+- Complications des plaies aux jambes à 3 mois : 24,7% vs 13,8% (différence +10,9%, p<0,05)
+- Symptômes persistants aux jambes à 2 ans : 49,6% vs 25,2% (différence +24,4%, p<0,05)
+
+## 🩺 Impact clinique
+Le prélèvement sans contact n'a pas démontré de supériorité pour la perméabilité des greffons ou les événements cliniques, mais a significativement augmenté les complications des plaies aux jambes.
+
+## Revue
+Eur Heart J
+
+## 📖 Référence
+2025 Feb 19:ehaf018. doi: 10.1093/eurheartj/ehaf018
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1093/eurheartj/ehaf018.

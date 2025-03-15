@@ -1,19 +1,25 @@
 Date de publication : 2024-11-08
 
-# 📝 Immunosuppresseurs non corticostéroïdiens dans le syndrome néphrotique corticosensible pédiatrique
+# 📝 Syndrome néphrotique corticosensible chez l'enfant : efficacité des immunosuppresseurs non-corticostéroïdiens
 
 ## 📌 Contexte & Problématique
-80% des enfants avec syndrome néphrotique corticosensible (SNCS) présentent des rechutes, dont la moitié fréquemment. Les immunosuppresseurs non corticostéroïdiens prolongent la rémission mais leurs effets indésirables posent question. Aucun consensus n'existe sur l'agent de deuxième ligne optimal.
+Environ 80% des enfants avec syndrome néphrotique corticosensible (SNCS) présentent des rechutes, dont la moitié fréquemment. Les immunosuppresseurs non-corticostéroïdiens peuvent prolonger la rémission mais leurs effets indésirables et leur efficacité comparative restent à préciser.
 
 ## 🧪 Méthodologie
-Revue systématique de 58 ECR incluant 3720 enfants. Comparaison des immunosuppresseurs non corticostéroïdiens entre eux ou versus placebo/corticostéroïdes.
+Revue systématique de 58 ECR incluant 3720 enfants atteints de SNCS, comparant différents immunosuppresseurs non-corticostéroïdiens entre eux ou versus placebo/corticostéroïdes.
 
 ## 📊 Résultats clés
-Le rituximab réduit significativement les rechutes à 6 mois (RR 0,22) et 12 mois (RR 0,38) versus placebo. Il est supérieur au tacrolimus (RR 0,64) et au MMF à faible dose (RR 0,17). La cyclosporine est plus efficace que le MMF (RR 1,57). Le lévamisole réduit les rechutes pendant le traitement (RR 0,52).
+- Rituximab : réduit significativement les rechutes à 6 mois (RR 0,22) et probablement à 12 mois (RR 0,38)
+- Rituximab suivi de MMF (mycophénolate mofétil) pendant 500 jours : supérieur au rituximab seul
+- Cyclosporine : probablement plus efficace que MMF à 12 mois (RR 1,57)
+- Lévamisole : réduit les rechutes pendant le traitement (RR 0,52)
 
 ## 🩺 Impact clinique
-Le rituximab, particulièrement suivi de MMF, offre la protection la plus durable contre les rechutes. Le lévamisole pourrait prévenir les rechutes lors du premier épisode et celles liées aux infections.
+Le rituximab apparaît comme une option efficace malgré un risque accru de réactions à la perfusion. L'association rituximab-MMF offre une protection prolongée. Le lévamisole pourrait être utile pour prévenir les rechutes lors du premier épisode ou associées aux infections.
+
+## Revue
+Cochrane Database of Systematic Reviews
 
 ## 📖 Référence
-Larkins NG, Hahn D, Liu ID, et al. Cochrane Database Syst Rev. 2024;11(11):CD002290.
+2024 Nov 8;11(11):CD002290. doi: 10.1002/14651858.CD002290.pub6.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1002/14651858.CD002290.pub6.

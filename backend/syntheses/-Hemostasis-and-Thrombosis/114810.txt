@@ -1,19 +1,22 @@
 Date de publication : 2024-10-23
 
-# 📝 Anticoagulation précoce versus différée après AVC ischémique avec fibrillation atriale
+# 📝 Timing optimal des anticoagulants après AVC ischémique avec fibrillation auriculaire
 
 ## 📌 Contexte & Problématique
-Le moment optimal pour initier l'anticoagulation chez les patients avec AVC ischémique aigu et fibrillation atriale reste controversé. Cette étude évalue l'efficacité et la sécurité d'une anticoagulation précoce versus différée.
+Le moment idéal pour débuter l'anticoagulation chez les patients victimes d'AVC (accident vasculaire cérébral) ischémique avec fibrillation auriculaire reste controversé, nécessitant des données probantes sur l'équilibre bénéfice-risque d'une initiation précoce versus différée.
 
 ## 🧪 Méthodologie
-Essai randomisé contrôlé multicentrique (100 hôpitaux britanniques) comparant l'initiation précoce (≤4 jours après les symptômes) versus différée (7-14 jours) d'anticoagulants oraux directs. Population: 3621 patients (1814 groupe précoce, 1807 groupe différé). Critère principal: composite d'AVC ischémique récidivant, hémorragie intracrânienne symptomatique, AVC non classifiable ou embolie systémique à 90 jours.
+Essai randomisé multicentrique de phase 4 dans 100 hôpitaux britanniques comparant l'initiation précoce (≤4 jours) versus différée (7-14 jours) d'AOD (anticoagulants oraux directs) chez 3621 patients avec AVC ischémique et fibrillation auriculaire.
 
 ## 📊 Résultats clés
-Critère principal survenu chez 3,3% des patients dans chaque groupe (différence de risque ajustée: 0,000; IC 95%: -0,011 à 0,012). Hémorragie intracrânienne symptomatique: 0,6% (groupe précoce) vs 0,7% (groupe différé). Non-infériorité démontrée (p=0,0003), sans supériorité (p=0,96).
+Le critère composite principal (AVC ischémique récurrent, hémorragie intracrânienne symptomatique, AVC non classifiable ou embolie systémique à 90 jours) est survenu chez 3,3% des patients dans chaque groupe (différence de risque ajustée: 0,000; IC 95%: -0,011 à 0,012), démontrant la non-infériorité de l'anticoagulation précoce (p=0,0003).
 
 ## 🩺 Impact clinique
-L'anticoagulation précoce (≤4 jours) est aussi sûre et efficace que l'anticoagulation différée, remettant en question les recommandations actuelles préconisant un délai plus long.
+Les résultats remettent en question les recommandations actuelles préconisant un report de l'anticoagulation après AVC ischémique avec fibrillation auriculaire, suggérant qu'une initiation précoce est sécuritaire et efficace.
+
+## Revue
+The Lancet
 
 ## 📖 Référence
-Werring DJ, Dehbi HM, Ahmed N, et al. Lancet. 2024 Oct 23:S0140-6736(24)02197-4.
+2024 Oct 23:S0140-6736(24)02197-4. doi: 10.1016/S0140-6736(24)02197-4.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S0140-6736(24)02197-4.

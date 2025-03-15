@@ -1,19 +1,24 @@
 Date de publication : 2024-10-23
 
-# 📝 Interventions topiques, lumineuses et complémentaires pour l'acné : synthèse des revues systématiques
+# 📝 Traitement de l'acné : interventions topiques, lumineuses et complémentaires
 
 ## 📌 Contexte & Problématique
-L'acné est une maladie inflammatoire chronique touchant l'unité pilosébacée. Elle affecte la qualité de vie et peut entraîner des cicatrices. Cette synthèse évalue l'efficacité des traitements non-systémiques et non-pharmacologiques contre l'acné vulgaire.
+L'acné vulgaire est une maladie inflammatoire chronique de l'unité pilosébacée avec distribution mondiale et prévalence croissante. Elle impacte significativement la qualité de vie et peut entraîner des cicatrices et des problèmes de santé mentale.
 
 ## 🧪 Méthodologie
-Recherche dans les bases Cochrane, Epistemonikos, MEDLINE et Embase jusqu'au 2/12/2021. Six revues à faible risque de biais ont été retenues, incluant 275 essais (40 910 patients atteints d'acné) et 37 essais (1 316 patients avec cicatrices).
+Revue systématique de revues systématiques identifiées dans les bases Cochrane, Epistemonikos, MEDLINE et Embase (jusqu'au 02/12/2021). Six revues à faible risque de biais ont été incluses, couvrant 275 essais (40 910 participants avec acné) et 37 essais (1 316 participants avec cicatrices d'acné).
 
 ## 📊 Résultats clés
-Le peroxyde de benzoyle pourrait réduire le nombre total de lésions vs placebo (DM -16,14; IC 95% -26,51 à -5,78) mais avec une certitude très faible. Comparé à l'adapalène, il pourrait augmenter le pourcentage de changement du nombre total de lésions (DM 10,8; IC 95% 3,38 à 18,22). Versus clindamycine, peu ou pas d'effet différentiel n'a été observé.
+- Peroxyde de benzoyle (PB) vs placebo : réduction possible du nombre total de lésions (DM -16,14), des lésions inflammatoires et non-inflammatoires (preuves de très faible certitude)
+- PB vs rétinoïdes topiques : effets comparables sur la plupart des paramètres (preuves de faible à très faible certitude)
+- PB vs antibiotiques topiques : peu ou pas de différence dans l'efficacité (preuves de très faible certitude)
 
 ## 🩺 Impact clinique
-Les preuves actuelles sur l'efficacité des traitements topiques pour l'acné sont généralement de très faible certitude. Des recherches supplémentaires sont nécessaires pour guider les décisions thérapeutiques avec confiance.
+Les interventions topiques comme le peroxyde de benzoyle montrent une efficacité potentielle, mais la certitude des preuves reste généralement faible, nécessitant des études supplémentaires pour guider les décisions thérapeutiques.
+
+## Revue
+Cochrane Database of Systematic Reviews
 
 ## 📖 Référence
-Yuan Y, Wang Y, Xia J, et al. Topical, light-based, and complementary interventions for acne: an overview of systematic reviews. Cochrane Database Syst Rev. 2024;10(10):CD014918.
+2024; 10(10):CD014918. doi: 10.1002/14651858.CD014918.pub2
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1002/14651858.CD014918.pub2.

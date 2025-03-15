@@ -1,0 +1,23 @@
+Date de publication : 2024-04-16
+
+# 📝 Titre
+Cryobiopsie transbronchique suivie de biopsie pulmonaire chirurgicale versus biopsie chirurgicale immédiate pour diagnostiquer les pneumopathies interstitielles diffuses
+
+# 📌 Contexte & Problématique
+Le diagnostic précis des pneumopathies interstitielles diffuses (PID) nécessite parfois une biopsie pulmonaire. La biopsie pulmonaire chirurgicale (BPC) est efficace mais associée à une morbidité élevée, tandis que la cryobiopsie transbronchique présente moins de complications mais un rendement diagnostique inférieur.
+
+# 🧪 Méthodologie
+Essai contrôlé randomisé multicentrique néerlandais comparant deux stratégies : progressive (cryobiopsie suivie de BPC si nécessaire) versus BPC immédiate chez 55 patients atteints de PID, avec un suivi de 12 semaines.
+
+# 📊 Résultats clés
+Le drainage thoracique inattendu est survenu chez 11% des patients du groupe progressif contre 46% dans le groupe BPC (p=0,0058). Le rendement diagnostique était comparable (89% vs 88%). La durée d'hospitalisation était significativement réduite (1 jour vs 5 jours), avec moins d'événements indésirables graves (4% vs 50%).
+
+# 🩺 Impact clinique
+Une approche progressive commençant par la cryobiopsie transbronchique réduit significativement la morbidité et la durée d'hospitalisation tout en maintenant un rendement diagnostique similaire à la BPC immédiate.
+
+## Revue
+Lancet Respiratory Medicine
+
+# 📖 Référence
+2024;12(7):513-522. doi:10.1016/S2213-2600(24)00074-2
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S2213-2600(24)00074-2.

@@ -1,0 +1,22 @@
+Date de publication : 2024-07-01
+
+# 📝 Entraînement à la marche au sol avec robot portable chez les enfants atteints de paralysie cérébrale
+
+## 📌 Contexte & Problématique
+La paralysie cérébrale (PC) est le trouble moteur développemental le plus fréquent chez l'enfant. L'entraînement à la marche assisté par robot (RAGT) avec dispositif portable pourrait offrir une expérience intensive de marche au sol.
+
+## 🧪 Méthodologie
+Essai clinique randomisé multicentrique en simple aveugle (09/2021-03/2023) incluant 90 enfants atteints de PC (niveaux II-IV selon le Système de Classification de la Fonction Motrice Globale). Groupe RAGT : 18 séances sur 6 semaines avec robot exosquelettique portable. Groupe témoin : physiothérapie standard.
+
+## 📊 Résultats clés
+Le groupe RAGT a montré des améliorations significatives par rapport au groupe témoin dans les scores GMFM-88 total (+2,64), GMFM-66 (+1,31) et le domaine de responsabilité du PEDI-CAT (Inventaire d'Évaluation Pédiatrique des Incapacités-Test Adaptatif Informatisé). Au suivi à 4 semaines, améliorations significatives du contrôle de l'équilibre et de l'Indice de Déviation de la Marche.
+
+## 🩺 Impact clinique
+Le RAGT avec robot portable améliore significativement la fonction motrice globale et le schéma de marche chez les enfants atteints de PC, offrant un complément thérapeutique à la réadaptation standard.
+
+## Revue
+JAMA Network Open
+
+## 📖 Référence
+2024;7(7):e2422625. doi:10.1001/jamanetworkopen.2024.22625
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamanetworkopen.2024.22625.

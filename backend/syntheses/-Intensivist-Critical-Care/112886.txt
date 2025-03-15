@@ -1,0 +1,22 @@
+Date de publication : 2024-04-07
+
+# 📝 Pompe à flux microaxial dans le choc cardiogénique post-infarctus
+
+## 📌 Contexte & Problématique
+L'efficacité de l'assistance circulatoire mécanique temporaire par pompe à flux microaxial sur la mortalité des patients présentant un infarctus du myocarde avec élévation du segment ST (STEMI) compliqué par un choc cardiogénique restait incertaine.
+
+## 🧪 Méthodologie
+Essai randomisé international multicentrique comparant la pompe Impella CP associée aux soins standard versus soins standard seuls chez 360 patients avec STEMI et choc cardiogénique. Critère principal : mortalité à 180 jours.
+
+## 📊 Résultats clés
+Mortalité à 180 jours significativement réduite dans le groupe pompe (45,8% vs 58,5%; HR 0,74; IC 95% 0,55-0,99; p=0,04). Cependant, plus d'événements indésirables composites (24,0% vs 6,2%) et de thérapie de remplacement rénal (41,9% vs 26,7%) dans le groupe pompe.
+
+## 🩺 Impact clinique
+L'utilisation systématique d'une pompe à flux microaxial dans le choc cardiogénique lié à un STEMI réduit la mortalité à 180 jours, mais augmente le risque de complications, nécessitant une évaluation soigneuse du rapport bénéfice-risque.
+
+## Revue
+New England Journal of Medicine
+
+## 📖 Référence
+2024;390(15):1382-1393. doi:10.1056/NEJMoa2312572. Epub 2024 Apr 7. (NCT01633502)
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2312572.

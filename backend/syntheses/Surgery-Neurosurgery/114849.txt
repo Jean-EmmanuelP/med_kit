@@ -1,0 +1,22 @@
+Date de publication : 2024-10-23
+
+# 📝 Effets des corticostéroïdes sur la fonction du sphincter œsophagien supérieur après ACDF
+
+## 📌 Contexte & Problématique
+La dysphagie post-opératoire est fréquente après discectomie cervicale antérieure avec fusion (ACDF). Cette étude évalue l'effet des corticostéroïdes locaux sur la fonction du sphincter œsophagien supérieur (SOS) et la déglutition.
+
+## 🧪 Méthodologie
+Étude randomisée comparant l'application locale de 10 mg de triamcinolone versus solution saline chez 30 patients taïwanais subissant une ACDF. Évaluation par manométrie d'impédance à haute résolution (HRIM) et questionnaire Eating Assessment Tool-10 (EAT-10) en préopératoire et à 1 mois postopératoire.
+
+## 📊 Résultats clés
+Le groupe corticostéroïde a présenté une pression médiane de relaxation du SOS significativement plus faible en postopératoire (24,5 vs 33,6 mmHg; p=0,01), sans différence préopératoire. Les autres paramètres HRIM et scores EAT-10 étaient comparables entre les groupes. Aucun événement indésirable n'a été observé.
+
+## 🩺 Impact clinique
+Les corticostéroïdes locaux pourraient améliorer l'ouverture du SOS après ACDF, potentiellement bénéfique pour la déglutition postopératoire, mais des études complémentaires sont nécessaires.
+
+## Revue
+J Bone Joint Surg Am
+
+## 📖 Référence
+2024;106(23):2241-2248. doi:10.2106/JBJS.24.00084. Epub 2024 Oct 23.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.2106/JBJS.24.00084.

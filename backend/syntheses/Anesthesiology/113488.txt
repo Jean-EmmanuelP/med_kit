@@ -1,0 +1,22 @@
+Date de publication : 2024-08-01
+
+# 📝 Vocacapsaïcine pour la gestion de la douleur postchirurgicale : essai clinique randomisé
+
+## 📌 Contexte & Problématique
+La gestion non opioïde de la douleur postchirurgicale demeure un besoin clinique important. Cette étude évalue la vocacapsaïcine, un promédicament de la capsaïcine (agoniste du récepteur potentiel transitoire vanilloïde de type 1), dans un modèle de bunionectomie.
+
+## 🧪 Méthodologie
+Essai randomisé, triple aveugle, contrôlé par placebo (n=147) comparant trois concentrations de vocacapsaïcine (0,30, 0,15, 0,05 mg/ml) versus placebo, administrées localement pendant la chirurgie. Critère principal : aire sous la courbe du score de douleur jusqu'à 96h.
+
+## 📊 Résultats clés
+La vocacapsaïcine (0,30 mg/ml) a réduit la douleur au repos de 33% (p=0,005) et la consommation d'opioïdes de 50% (p=0,002) sur 96h. 26% des patients traités n'ont nécessité aucun opioïde (vs 5% pour le placebo). L'effet analgésique a persisté au moins 2 semaines avec une relation concentration-réponse démontrée.
+
+## 🩺 Impact clinique
+L'administration locale unique de vocacapsaïcine offre une option analgésique non opioïde efficace et bien tolérée, permettant une réduction significative de la consommation d'opioïdes postopératoires.
+
+## Revue
+Anesthesiology
+
+## 📖 Référence
+2024;141(2):250-261. doi:10.1097/ALN.0000000000005027
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1097/ALN.0000000000005027.

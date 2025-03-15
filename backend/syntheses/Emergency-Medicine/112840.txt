@@ -1,19 +1,22 @@
 Date de publication : 2024-05-01
 
-# 📝 Nouvelle fixation des cathéters intraveineux périphériques chez l'enfant : réduction des échecs
+# 📝 Sécurisation des cathéters intraveineux périphériques chez l'enfant et réduction des échecs
 
 ## 📌 Contexte & Problématique
-L'échec des cathéters intraveineux périphériques (CIVP) est fréquent chez les enfants hospitalisés. De nouvelles méthodes de fixation pourraient améliorer leur maintien et réduire les complications.
+Les cathéters intraveineux périphériques (CIVP) sont essentiels aux traitements pédiatriques mais présentent des taux d'échec élevés. L'amélioration des méthodes de fixation pourrait réduire ces échecs et optimiser les soins.
 
 ## 🧪 Méthodologie
-Essai clinique randomisé (2020-2022) comparant trois méthodes de fixation chez 383 enfants (6 mois-8 ans) dans deux hôpitaux australiens : soins standard (pansement polyuréthane), pansement de fixation intégré, et pansement de fixation intégré avec adhésif tissulaire.
+Essai clinique randomisé à trois bras incluant 383 enfants (6 mois-8 ans) dans deux hôpitaux australiens (2020-2022). Comparaison de trois méthodes : soins standard (pansement polyuréthane Tegaderm), pansement de fixation intégré (SorbaView SHIELD), et pansement de fixation intégré avec adhésif tissulaire (Secureport IV).
 
 ## 📊 Résultats clés
-Le taux d'échec des CIVP était significativement réduit avec le pansement de fixation intégré avec adhésif tissulaire (12%) comparé aux soins standard (34%) (HRa 0,47; IC 95% 0,26-0,84). Les coûts directs étaient également inférieurs avec cette méthode (312 A$ vs 341 A$, p=0,002).
+Le taux d'échec des CIVP était significativement réduit avec le pansement de fixation intégré avec adhésif tissulaire (12%) comparé aux soins standard (34%) (RRa: 0,47; IC 95%: 0,26-0,84). Les coûts directs étaient également inférieurs avec les nouvelles méthodes de fixation (médiane 312A$ et 303A$ vs 341A$ pour les soins standard; p=0,002).
 
 ## 🩺 Impact clinique
-L'utilisation d'un pansement de fixation intégré avec adhésif tissulaire réduit significativement les échecs de CIVP chez les enfants hospitalisés, améliorant la continuité des soins et diminuant les coûts associés.
+L'utilisation de pansements de fixation intégrés avec adhésif tissulaire réduit significativement les échecs de CIVP chez les enfants hospitalisés et diminue les coûts associés, offrant une alternative plus efficace aux pratiques standard.
+
+## Revue
+JAMA Pediatrics
 
 ## 📖 Référence
-Charters B, Foster K, Lawton B, et al. Novel Peripheral Intravenous Catheter Securement for Children and Catheter Failure Reduction: A Randomized Clinical Trial. JAMA Pediatr. 2024;178(5):437-445.
+2024;178(5):437-445. doi:10.1001/jamapediatrics.2024.0167
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamapediatrics.2024.0167.

@@ -1,0 +1,24 @@
+Date de publication : 2024-09-03
+
+# 📝 VISION : Méta-analyse comparant biopsie ciblée par IRM versus biopsie standard TRUS dans la détection du cancer de prostate
+
+## 📌 Contexte & Problématique
+Méta-analyse de données individuelles comparant l'approche par IRM (Imagerie par Résonance Magnétique) suivie de biopsie ciblée (IRM±TB) à la biopsie standard guidée par échographie transrectale (TRUS) pour la détection du cancer de prostate cliniquement significatif (csPCa).
+
+## 🧪 Méthodologie
+Analyse des données individuelles de patients issues des essais PRECISION et PRECISE (953 patients). Critère principal : proportion d'hommes diagnostiqués avec un csPCa (Gleason ≥3+4).
+
+## 📊 Résultats clés
+- 32,2% des patients du groupe IRM±TB ont évité la biopsie (IRM non suspecte)
+- IRM±TB détecte 8,7% de plus de csPCa que TRUS (36,3% vs 27,6%, p=0,004)
+- IRM±TB détecte 12,3% de moins de cancers cliniquement non significatifs (9,6% vs 21,9%, p<0,001)
+
+## 🩺 Impact clinique
+L'approche IRM±TB est supérieure à la biopsie TRUS standard pour détecter les cancers cliniquement significatifs tout en évitant le surdiagnostic. L'IRM devrait être intégrée au parcours diagnostique standard du cancer de prostate.
+
+## Revue
+European Urology
+
+## 📖 Référence
+2024 Sep 3:S0302-2838(24)02559-4. doi: 10.1016/j.eururo.2024.08.022.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.eururo.2024.08.022.

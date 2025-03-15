@@ -1,19 +1,22 @@
 Date de publication : 2025-01-21
 
-# 📝 Corticostéroïdes nébulisés à haute dose dans l'exacerbation d'asthme chez l'adulte
+# 📝 Corticostéroïdes nébulisés à haute dose comme traitement d'appoint dans les exacerbations d'asthme chez l'adulte
 
 ## 📌 Contexte & Problématique
-Les données sur l'efficacité des corticostéroïdes inhalés à haute dose (CIHD) comme traitement d'appoint dans les exacerbations d'asthme chez l'adulte sont limitées.
+Les données sur l'efficacité des corticostéroïdes inhalés à haute dose (CIHD) dans les exacerbations d'asthme chez l'adulte sont limitées. Cette étude évalue l'ajout de CIHD au traitement standard aux urgences.
 
 ## 🧪 Méthodologie
-Essai contrôlé randomisé, triple aveugle, monocentrique en Thaïlande (2022-2023). 88 adultes avec exacerbation d'asthme ont reçu soit du budésonide nébulisé (9000 µg) soit un placebo, en complément du traitement standard.
+Essai contrôlé randomisé, triple aveugle, monocentrique en Thaïlande (2022-2023) comparant la nébulisation de budésonide 9000 µg versus placebo en complément du traitement standard chez 88 adultes (44 par groupe) présentant une exacerbation asthmatique.
 
 ## 📊 Résultats clés
-Le groupe CIHD a montré une réduction significative de la durée de séjour aux urgences (-133,6 min; IC 95% -242,4 à -24,8; p=0,016) et une proportion plus élevée de sorties dans les 8 et 16 heures. Aucune différence significative concernant les taux d'hospitalisation, les reconsultations, la dyspnée, les fonctions pulmonaires ou les exacerbations post-sortie.
+Le groupe CIHD a montré une réduction significative de la durée de séjour aux urgences (-133,6 min; IC 95% -242,4 à -24,8; p=0,016) et une proportion plus élevée de sorties dans les 8 et 16 heures. Aucune différence significative concernant les hospitalisations, les reconsultations, la dyspnée, les fonctions pulmonaires ou les exacerbations post-sortie.
 
 ## 🩺 Impact clinique
-Les corticostéroïdes nébulisés à haute dose peuvent être considérés comme traitement d'appoint efficace pour réduire la durée de séjour aux urgences dans les exacerbations d'asthme chez l'adulte.
+L'ajout de CIHD au traitement standard peut réduire la durée de séjour aux urgences pour les adultes présentant une exacerbation d'asthme, sans impact démontré sur d'autres paramètres cliniques.
+
+## Revue
+Emergency Medicine Journal
 
 ## 📖 Référence
-Kornthatchapong K, Chatchairatanavej N, Chormai N, et al. Nebulised high-dose corticosteroids as add-on therapy for adults with asthma exacerbation: a randomised controlled trial. Emerg Med J. 2025;42(2):91-97.
+2025;42(2):91-97. doi:10.1136/emermed-2024-213893
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1136/emermed-2024-213893.

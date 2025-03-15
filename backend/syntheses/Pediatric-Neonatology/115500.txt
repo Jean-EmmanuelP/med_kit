@@ -1,0 +1,22 @@
+Date de publication : 2025-01-06
+
+# 📝 Apnée après vaccination à 2 mois chez les prématurés hospitalisés : essai clinique randomisé
+
+## 📌 Contexte & Problématique
+Les recommandations actuelles préconisent de vacciner les nourrissons prématurés au même âge postnatal que les nourrissons à terme, mais le risque d'apnée post-vaccinale chez les prématurés reste controversé.
+
+## 🧪 Méthodologie
+Essai clinique randomisé (1:1) dans 3 unités de soins intensifs néonatals (USIN) américaines incluant 223 nourrissons nés avant 33 semaines d'âge gestationnel (AG), âgés de 6-12 semaines. Groupe intervention : vaccination immédiate ; groupe contrôle : pas de vaccination pendant la période d'étude. Surveillance cardiorespiratoire sur 48h.
+
+## 📊 Résultats clés
+La proportion de nourrissons présentant au moins un épisode d'apnée était significativement plus élevée dans le groupe vacciné (24% vs 10%, rapport de cotes ajusté 2,70 ; IC 95% 1,27-5,73). Cependant, ni le nombre moyen d'épisodes (2,72 vs 2,00) ni leur durée moyenne (27,7s vs 32,3s) ne différaient significativement. Aucun événement indésirable grave n'a été observé.
+
+## 🩺 Impact clinique
+Malgré un risque accru d'apnée post-vaccinale, l'absence d'événements graves suggère que les recommandations actuelles de vaccination des prématurés hospitalisés restent appropriées. Une surveillance et des conseils anticipatoires sont néanmoins recommandés.
+
+## Revue
+JAMA Pediatrics
+
+## 📖 Référence
+2025 Jan 6. doi: 10.1001/jamapediatrics.2024.5311.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamapediatrics.2024.5311.

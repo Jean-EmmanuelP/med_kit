@@ -1,19 +1,22 @@
 Date de publication : 2024-10-25
 
-# 📝 Finérénone et résultats rénaux chez les patients insuffisants cardiaques
+# 📝 Finerenone et résultats rénaux chez les patients insuffisants cardiaques : l'essai FINEARTS-HF
 
 ## 📌 Contexte & Problématique
-Les effets néphroprotecteurs de la finérénone sont connus dans la maladie rénale chronique avec diabète de type 2, mais restent incertains chez les patients insuffisants cardiaques avec fraction d'éjection légèrement réduite ou préservée.
+Les effets néphroprotecteurs de la finérénone chez les patients insuffisants cardiaques avec fraction d'éjection légèrement réduite ou préservée restaient méconnus, contrairement à son bénéfice établi dans la maladie rénale chronique diabétique.
 
 ## 🧪 Méthodologie
-Analyse préspécifiée de l'essai FINEARTS-HF (n=6001) évaluant l'impact de la finérénone sur plusieurs critères rénaux : diminution soutenue ≥50% du DFGe ou insuffisance rénale, pente du DFGe et modifications du rapport albumine/créatinine urinaire (RACU).
+Analyse préspécifiée de l'essai FINEARTS-HF (n=6001) évaluant l'impact de la finérénone sur plusieurs critères rénaux : diminution ≥50% du DFGe (débit de filtration glomérulaire estimé) ou insuffisance rénale, pente du DFGe, et modifications du RACU (rapport albumine/créatinine urinaire).
 
 ## 📊 Résultats clés
-Après 2,6 ans de suivi, la finérénone n'a pas significativement modifié le critère composite rénal (HR:1,33; IC95%:0,94-1,89). Elle a entraîné une diminution initiale du DFGe (-2,9 mL/min/1,73m²) sans affecter la pente chronique. La finérénone a réduit le RACU de 30% (IC95%:25%-34%) et diminué le risque de microalbuminurie (-24%) et macroalbuminurie (-38%).
+Dans cette population à faible risque rénal (DFGe moyen initial: 62±20 mL/min/1,73m²), la finérénone n'a pas significativement modifié les critères composites rénaux (HR:1,33; IC95%:0,94-1,89). Elle a provoqué une diminution initiale du DFGe (-2,9 mL/min/1,73m²) sans affecter la pente chronique. En revanche, elle a réduit le RACU de 30% et diminué le risque de nouvelle microalbuminurie (24%) et macroalbuminurie (38%).
 
 ## 🩺 Impact clinique
-Chez les patients insuffisants cardiaques à faible risque rénal, la finérénone n'améliore pas les critères composites rénaux mais réduit significativement l'albuminurie, suggérant un potentiel bénéfice sur certains marqueurs de fonction rénale.
+Malgré l'absence d'effet significatif sur les critères rénaux composites, la finérénone offre une protection contre l'albuminurie chez les patients insuffisants cardiaques, suggérant un potentiel bénéfice rénal à long terme.
+
+## Revue
+Journal of the American College of Cardiology
 
 ## 📖 Référence
-McCausland FR, Vaduganathan M, Claggett BL, et al. Finerenone and Kidney Outcomes in Patients With Heart Failure: The FINEARTS-HF Trial. J Am Coll Cardiol. 2025;85(2):159-168.
+2025;85(2):159-168. doi:10.1016/j.jacc.2024.10.091. Epub 2024 Oct 25. NCT04435626.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.jacc.2024.10.091.

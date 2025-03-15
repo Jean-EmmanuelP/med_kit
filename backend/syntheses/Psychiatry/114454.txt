@@ -1,0 +1,22 @@
+Date de publication : 2024-11-01
+
+# 📝 Efficacité des interventions numériques ludifiées en santé mentale pédiatrique
+
+## 📌 Contexte & Problématique
+L'anxiété, la dépression et le TDAH (trouble du déficit de l'attention avec hyperactivité) touchent jusqu'à 20% des enfants et adolescents. Les traitements traditionnels, bien qu'efficaces, restent souvent inaccessibles, nécessitant des alternatives innovantes pour répondre aux besoins croissants.
+
+## 🧪 Méthodologie
+Revue systématique et méta-analyse d'essais cliniques randomisés (ECR) évaluant les interventions numériques de santé mentale (DMHI) ludifiées pour le TDAH, la dépression et l'anxiété pédiatriques. Recherche dans PubMed, PsycInfo et Web of Science des études publiées avant mars 2024.
+
+## 📊 Résultats clés
+Analyse de 27 ECR incluant 2911 participants. Effets modestes mais significatifs des DMHI ludifiées pour le TDAH (g=0,28) et la dépression (g=0,28), mais effets non significatifs pour l'anxiété (g=0,07). Les interventions pour TDAH sur ordinateur et avec plus de participants masculins montraient une meilleure efficacité. Pour la dépression, les interventions avec durée prédéfinie étaient plus efficaces.
+
+## 🩺 Impact clinique
+Les DMHI ludifiées représentent une option thérapeutique prometteuse et accessible pour les jeunes souffrant de TDAH ou de dépression, offrant aux pédiatres une alternative innovante dans leur arsenal thérapeutique.
+
+## Revue
+JAMA Pediatrics
+
+## 📖 Référence
+2024;178(11):1136-1146. doi:10.1001/jamapediatrics.2024.3139
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamapediatrics.2024.3139.

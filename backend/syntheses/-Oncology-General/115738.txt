@@ -1,0 +1,22 @@
+Date de publication : 2025-02-11
+
+# 📝 Chirurgie robotique transorale dans le cancer épidermoïde de l'oropharynx : recommandations ASCO
+
+## 📌 Contexte & Problématique
+Nécessité d'établir des recommandations fondées sur les preuves concernant l'utilisation de la chirurgie robotique transorale (TORS) dans la prise en charge multidisciplinaire du cancer épidermoïde de l'oropharynx (CEO).
+
+## 🧪 Méthodologie
+Panel d'experts multidisciplinaire ASCO évaluant la littérature publiée entre 2002-2024 (revues systématiques, méta-analyses, essais randomisés, études observationnelles). Critères d'évaluation : survie globale et sans maladie, résultats fonctionnels et qualité de vie.
+
+## 📊 Résultats clés
+58 publications ont constitué la base de données probantes pour ces recommandations.
+
+## 🩺 Impact clinique
+Les recommandations couvrent : l'évaluation des patients atteints de CEO HPV-positif, le rôle de la TORS, la sélection des patients, le traitement adjuvant, la prise en charge du CEO HPV-négatif, et l'utilisation de la TORS dans les contextes de rattrapage ou de récidive.
+
+## Revue
+Journal of Clinical Oncology
+
+## 📖 Référence
+2025 Feb 11:JCO2402755. doi: 10.1200/JCO-24-02755.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO-24-02755.

@@ -1,0 +1,26 @@
+Date de publication : 2024-06-06
+
+# 📝 Blocs nerveux sympathiques pour la douleur persistante chez les adultes atteints de cancer abdomino-pelvien inopérable
+
+## 📌 Contexte & Problématique
+La douleur viscérale persistante est fréquente chez les patients atteints de cancer avancé. Les blocs nerveux sympathiques neurolytiques sont proposés comme traitement complémentaire pour optimiser la prise en charge de cette douleur.
+
+## 🧪 Méthodologie
+Revue systématique de 17 essais contrôlés randomisés (ECR) incluant 1025 participants, comparant les blocs nerveux sympathiques aux soins standard ou comparant blocs uniques versus combinés. Recherche dans CENTRAL, MEDLINE, Embase, LILACS et registres d'essais cliniques jusqu'en octobre 2023.
+
+## 📊 Résultats clés
+Les preuves sont de très faible certitude pour tous les critères évalués. Pour les blocs uniques versus soins standard :
+- Aucune donnée sur la proportion de patients rapportant une douleur légère à 14 jours
+- Possible amélioration faible de la qualité de vie (QDV)
+- Possible réduction modérée de la consommation d'opioïdes (DM -41,63 mg d'équivalent morphine orale)
+- Effet faible à nul sur les scores de douleur à 14 jours
+
+## 🩺 Impact clinique
+Malgré des tendances favorables sur la consommation d'opioïdes, l'insuffisance de preuves de haute qualité limite les recommandations cliniques définitives concernant l'utilisation des blocs nerveux sympathiques dans cette population.
+
+## Revue
+Cochrane Database of Systematic Reviews
+
+## 📖 Référence
+2024 Jun 6;6(6):CD015229. doi: 10.1002/14651858.CD015229.pub2.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1002/14651858.CD015229.pub2.

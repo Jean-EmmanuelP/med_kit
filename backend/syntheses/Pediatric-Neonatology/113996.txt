@@ -1,0 +1,22 @@
+Date de publication : 2024-09-01
+
+# 📝 Recommandations RAAC pour les soins périopératoires néonatals
+
+## 📌 Contexte & Problématique
+Les nouveau-nés nécessitant une chirurgie sont généralement pris en charge en USIN (Unités de Soins Intensifs Néonatals). Malgré la diversité des pathologies chirurgicales, ils partagent des priorités périopératoires communes permettant l'élaboration de recommandations RAAC (Récupération Améliorée Après Chirurgie) standardisées.
+
+## 🧪 Méthodologie
+Un comité multidisciplinaire (chirurgiens pédiatriques, anesthésistes, infirmières, néonatologistes) a utilisé une technique Delphi modifiée pour identifier 21 domaines thématiques. Après examen de 5763 résumés, 98 articles ont été retenus pour analyse.
+
+## 📊 Résultats clés
+Développement de 16 recommandations dans 11 domaines thématiques incluant: communication d'équipe, jeûne préopératoire, régulation thermique, prophylaxie antibiotique, préparation cutanée, ventilation, gestion des fluides, contrôle glycémique, seuils transfusionnels, alimentation entérale et soins parentaux.
+
+## 🩺 Impact clinique
+Ces recommandations RAAC sont applicables à l'ensemble des USIN pour tous les nouveau-nés chirurgicaux (premiers 28 jours de vie) subissant une intervention majeure non cardiaque, indépendamment de la pathologie spécifique.
+
+## Revue
+JAMA Surgery
+
+## 📖 Référence
+2024;159(9):1071-1078. doi:10.1001/jamasurg.2024.2044
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamasurg.2024.2044.

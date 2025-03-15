@@ -3,17 +3,20 @@ Date de publication : 2024-03-19
 # 📝 Thérapies psychologiques pour la dépression chez les personnes âgées en soins de longue durée
 
 ## 📌 Contexte & Problématique
-La dépression est fréquente chez les personnes âgées en établissements de soins de longue durée (SLD). Malgré la préférence de nombreux résidents pour des approches non-pharmacologiques, les antidépresseurs restent le traitement principal.
+La dépression est fréquente chez les personnes âgées en établissements de soins de longue durée (SLD). Malgré la préférence des patients pour des approches non-pharmacologiques, les antidépresseurs restent le traitement principal.
 
 ## 🧪 Méthodologie
-Revue systématique de 19 essais contrôlés randomisés (873 participants) comparant diverses thérapies psychologiques (cognitivo-comportementale, comportementale, réminiscence) aux soins habituels chez les résidents de SLD âgés de 65 ans et plus.
+Revue systématique de 19 essais contrôlés randomisés (ECR) incluant 873 participants âgés de 65+ ans en SLD. Comparaison de thérapies psychologiques (principalement thérapie cognitivo-comportementale, comportementale et réminiscence) avec les soins habituels.
 
 ## 📊 Résultats clés
-Preuves de très faible certitude montrant que les thérapies psychologiques réduisent significativement les symptômes dépressifs (DMS -1,04, IC 95% -1,49 à -0,58) avec effet persistant à court terme. Amélioration modérée de la qualité de vie au suivi (DMS 0,51, IC 95% 0,19 à 0,82). Taux d'abandon plus élevé dans les groupes d'intervention (RC 3,44).
+Preuves de très faible certitude que les thérapies psychologiques réduisent les symptômes dépressifs (différence moyenne standardisée -1,04) et améliorent la qualité de vie à court terme (DMS 0,51) par rapport aux soins habituels. Taux d'abandon plus élevé dans les groupes d'intervention (rapport de cotes 3,44).
 
 ## 🩺 Impact clinique
-Les thérapies psychologiques pourraient constituer une alternative aux antidépresseurs chez les résidents âgés en SLD, mais la très faible certitude des preuves limite les recommandations cliniques. Des études de meilleure qualité sont nécessaires.
+Les thérapies psychologiques pourraient constituer une alternative aux antidépresseurs pour les résidents en SLD, mais la faible certitude des preuves limite les recommandations cliniques. Des ECR de meilleure qualité avec échantillons plus importants sont nécessaires.
+
+## Revue
+Cochrane Database of Systematic Reviews
 
 ## 📖 Référence
-Davison TE, Bhar S, Wells Y, et al. Cochrane Database Syst Rev. 2024;3(3):CD013059.
+2024;3(3):CD013059. doi:10.1002/14651858.CD013059.pub2
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1002/14651858.CD013059.pub2.

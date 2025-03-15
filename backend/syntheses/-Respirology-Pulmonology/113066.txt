@@ -1,0 +1,22 @@
+Date de publication : 2024-04-06
+
+# 📝 Avancement mandibulaire vs PPC pour la réduction de la pression artérielle chez les patients avec apnée obstructive du sommeil
+
+## 📌 Contexte & Problématique
+L'apnée obstructive du sommeil (AOS) est fréquente chez les patients hypertendus. Le dispositif d'avancement mandibulaire (DAM) représente une alternative pour les patients intolérants à la pression positive continue (PPC).
+
+## 🧪 Méthodologie
+Essai randomisé de non-infériorité incluant 220 patients ≥40 ans souffrant d'hypertension avec risque cardiovasculaire accru et AOS modérée à sévère (indice d'apnées-hypopnées ≥15/heure), assignés au DAM ou à la PPC (1:1). Critère principal : différence de pression artérielle moyenne sur 24h entre l'inclusion et 6 mois.
+
+## 📊 Résultats clés
+La pression artérielle moyenne sur 24h a diminué de 2,5 mmHg dans le groupe DAM (p=0,003) contre aucun changement significatif dans le groupe PPC (p=0,374). Différence intergroupe : -1,6 mmHg (IC 95% : -3,51 à 0,24, p de non-infériorité <0,001). Les effets les plus marqués concernaient la PA nocturne.
+
+## 🩺 Impact clinique
+Le DAM est non-inférieur à la PPC pour réduire la pression artérielle chez les patients hypertendus à risque cardiovasculaire accru, offrant une alternative thérapeutique efficace.
+
+## Revue
+Journal of the American College of Cardiology
+
+## 📖 Référence
+2024;83(18):1760-1772. doi:10.1016/j.jacc.2024.03.359
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.jacc.2024.03.359.

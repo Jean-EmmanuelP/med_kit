@@ -1,0 +1,26 @@
+Date de publication : 2024-08-19
+
+# 📝 Omission de la radiothérapie dans le lymphome B primitif du médiastin : résultats de l'essai IELSG37
+
+## 📌 Contexte & Problématique
+Le rôle de la radiothérapie de consolidation chez les patients atteints de lymphome B primitif du médiastin (LBPM) avec réponse métabolique complète (RMC) après immunochimiothérapie reste controversé.
+
+## 🧪 Méthodologie
+Essai randomisé de non-infériorité comparant l'observation versus radiothérapie (30 Gy) chez 268 patients en RMC après traitement d'induction. Critère principal : survie sans progression (SSP) à 30 mois.
+
+## 📊 Résultats clés
+- SSP à 30 mois : 96,2% (observation) vs 98,5% (radiothérapie)
+- Hazard ratio : 1,47 (IC 95%, 0,34-6,28)
+- Survie globale (SG) à 5 ans : 99% dans les deux bras
+- Patients avec score de Deauville (SD) 4 : SSP/SG à 5 ans comparables aux patients randomisés
+- Patients avec SD 5 : SSP (60,3%) et SG (74,6%) significativement inférieures
+
+## 🩺 Impact clinique
+L'omission de radiothérapie chez les patients LBPM atteignant une RMC après immunochimiothérapie n'altère pas significativement la survie, permettant d'éviter les toxicités associées à l'irradiation médiastinale.
+
+## Revue
+Journal of Clinical Oncology
+
+## 📖 Référence
+2024;42(34):4071-4083. doi:10.1200/JCO-24-01373
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO-24-01373.

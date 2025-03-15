@@ -1,0 +1,22 @@
+Date de publication : 2024-03-26
+
+# 📝 Réparation de hernie inguinale chez les prématurés : précoce vs tardive
+
+## 📌 Contexte & Problématique
+La réparation de hernie inguinale chez les prématurés est fréquente mais associée à une morbidité significative. Le moment optimal pour cette intervention (avant ou après la sortie de l'unité de soins intensifs néonatals - USIN) reste controversé.
+
+## 🧪 Méthodologie
+Essai clinique randomisé multicentrique incluant 338 nourrissons prématurés (âge gestationnel moyen: 26,6 semaines) avec hernie inguinale diagnostiquée durant l'hospitalisation initiale, répartis entre réparation précoce (avant sortie USIN) et tardive (après sortie USIN et >55 semaines d'âge post-menstruel).
+
+## 📊 Résultats clés
+28% des nourrissons du groupe précoce vs 18% du groupe tardif ont présenté au moins un événement indésirable grave (probabilité bayésienne de 97% de bénéfice avec réparation tardive). Le bénéfice était particulièrement marqué chez les nourrissons <28 semaines d'âge gestationnel et ceux atteints de dysplasie bronchopulmonaire (probabilité de 99%).
+
+## 🩺 Impact clinique
+Les résultats soutiennent le report de la réparation de hernie inguinale jusqu'après la sortie initiale de l'USIN, particulièrement chez les grands prématurés et ceux avec dysplasie bronchopulmonaire.
+
+## Revue
+JAMA
+
+## 📖 Référence
+2024;331(12):1035-1044. doi:10.1001/jama.2024.2302.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jama.2024.2302.

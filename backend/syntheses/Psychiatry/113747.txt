@@ -1,0 +1,22 @@
+Date de publication : 2024-07-01
+
+# 📝 Traitement en ligne de la boulimie nerveuse : essai clinique randomisé
+
+## 📌 Contexte & Problématique
+De nombreuses personnes souffrant de boulimie nerveuse (BN) n'accèdent pas aux thérapies fondées sur des preuves. Les interventions numériques pourraient élargir l'accès aux soins.
+
+## 🧪 Méthodologie
+Essai clinique randomisé comparant une intervention d'auto-assistance cognitive comportementale en ligne (12 modules hebdomadaires) à une liste d'attente avec soins habituels. 154 participants (96,8% femmes, âge moyen 29,6 ans) diagnostiqués avec BN ont été recrutés en ligne en Allemagne (2021-2022).
+
+## 📊 Résultats clés
+L'intervention a significativement réduit les épisodes boulimiques (d=-0,48; p<0,001), particulièrement les épisodes d'hyperphagie (d=-0,61; p<0,001), mais pas les comportements compensatoires (d=-0,25; p=0,21). Amélioration significative des symptômes globaux des troubles alimentaires (d=-0,61; p<0,001) et de l'altération clinique (d=-0,62; p<0,001). Effets positifs sur l'estime de soi et la régulation émotionnelle, sans impact significatif sur le bien-être, la capacité de travail et les symptômes comorbides.
+
+## 🩺 Impact clinique
+Cette intervention numérique d'auto-assistance démontre un potentiel significatif pour compléter les traitements établis de la BN, offrant une option thérapeutique accessible pouvant réduire le fardeau clinique.
+
+## Revue
+JAMA Network Open
+
+## 📖 Référence
+2024;7(7):e2419019. doi:10.1001/jamanetworkopen.2024.19019
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamanetworkopen.2024.19019.

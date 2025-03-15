@@ -3,17 +3,20 @@ Date de publication : 2025-01-30
 # 📝 Thrombolyse pour AVC ischémique au-delà de 4,5 heures : méta-analyse d'essais cliniques randomisés
 
 ## 📌 Contexte & Problématique
-Peu de patients victimes d'AVC sont éligibles à la thrombolyse intraveineuse (TIV) dans la fenêtre conventionnelle de 4,5 heures. L'efficacité et la sécurité au-delà de cette période restent incertaines.
+Peu de patients victimes d'AVC sont éligibles à la thrombolyse intraveineuse (TIV) dans la fenêtre standard de 4,5 heures. L'efficacité et la sécurité au-delà de cette période restent à clarifier.
 
 ## 🧪 Méthodologie
-Méta-analyse de 8 essais cliniques randomisés (1742 patients) comparant la TIV aux soins standard chez des patients avec AVC ischémique >4,5h après le début des symptômes, sans thrombectomie mécanique.
+Méta-analyse de 8 essais cliniques randomisés (1742 patients) comparant la TIV aux soins médicaux standard chez des patients atteints d'AVC ischémique traités après 4,5 heures, sans thrombectomie mécanique (TM).
 
 ## 📊 Résultats clés
-La TIV a amélioré les résultats fonctionnels excellents (OR 1,43 [IC 95%, 1,17-1,75]) et bons (OR 1,36 [IC 95%, 1,12-1,66]) à 90 jours. Risque accru d'hémorragie intracérébrale symptomatique (OR 4,25 [IC 95%, 1,67-10,84]). Mortalité à 90 jours non significativement différente (OR 1,28 [IC 95%, 0,87-1,89]).
+La TIV a amélioré les résultats fonctionnels à 90 jours (excellents: RC 1,43 [IC 95%, 1,17-1,75]; bons: RC 1,36 [IC 95%, 1,12-1,66]), mais a augmenté le risque d'hémorragie intracérébrale symptomatique (HISy) (RC 4,25 [IC 95%, 1,67-10,84]). La mortalité à 90 jours n'était pas significativement différente (RC 1,28 [IC 95%, 0,87-1,89]).
 
 ## 🩺 Impact clinique
-La TIV tardive améliore les résultats fonctionnels malgré l'augmentation du risque hémorragique. La sélection par imagerie de perfusion et l'utilisation de ténectéplase pourraient offrir des avantages supplémentaires.
+La TIV au-delà de 4,5 heures peut améliorer les résultats fonctionnels malgré un risque accru d'HISy. La sélection par imagerie de perfusion et l'utilisation de ténectéplase pourraient offrir des avantages supplémentaires.
+
+## Revue
+Stroke
 
 ## 📖 Référence
-Gunkan A, Ferreira MY, Vilardo M, et al. Stroke. 2025 Jan 30. doi: 10.1161/STROKEAHA.124.048536.
+2025 Mar;56(3):580-590. doi: 10.1161/STROKEAHA.124.048536. Epub 2025 Jan 30.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1161/STROKEAHA.124.048536.

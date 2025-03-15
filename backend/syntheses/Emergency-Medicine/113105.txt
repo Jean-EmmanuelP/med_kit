@@ -1,19 +1,22 @@
 Date de publication : 2024-05-02
 
-# 📝 Comparaison de la kétamine nébulisée versus intraveineuse pour la douleur aiguë aux urgences
+# 📝 Comparaison de la kétamine nébulisée versus intraveineuse sous-dissociative pour le traitement de la douleur aiguë aux urgences
 
 ## 📌 Contexte & Problématique
-Évaluation comparative de l'efficacité analgésique et des effets indésirables de la kétamine intraveineuse (IV) subdissociative versus nébulisée chez les patients présentant des douleurs aiguës aux urgences.
+La kétamine à dose sous-dissociative est utilisée pour l'analgésie aux urgences, mais la voie d'administration optimale reste à déterminer pour maximiser l'efficacité tout en minimisant les effets indésirables.
 
 ## 🧪 Méthodologie
-Essai randomisé, double aveugle, double placebo incluant 150 adultes (75/groupe) avec douleur ≥5/10. Administration de kétamine IV (0,3 mg/kg) ou nébulisée (0,75 mg/kg). Critère principal: différence des scores de douleur à 30 minutes.
+Essai clinique randomisé, double aveugle, avec double placebo incluant 150 adultes (75/groupe) présentant une douleur aiguë ≥5/10. Comparaison entre kétamine IV (0,3 mg/kg) et nébulisée (0,75 mg/kg). Critère principal : différence des scores de douleur à 30 minutes.
 
 ## 📊 Résultats clés
-Scores de douleur initiaux identiques (8,2/10) dans les deux groupes. Réduction similaire à 30 minutes: 3,6 (IV) vs 3,8 (nébulisée), différence moyenne: 0,23 (IC 95%: -1,32 à 0,857). Aucun événement indésirable grave ni modification préoccupante des signes vitaux.
+Scores de douleur initiaux identiques (8,2/10) dans les deux groupes, avec réduction similaire à 30 minutes (3,6 pour IV vs 3,8 pour nébulisée; différence moyenne : 0,23; IC 95% : -1,32 à 0,857). Aucun événement indésirable grave ni changement préoccupant des signes vitaux.
 
 ## 🩺 Impact clinique
-La kétamine nébulisée offre une efficacité analgésique comparable à la voie IV pour les douleurs aiguës modérées à sévères aux urgences, constituant une alternative non-invasive potentiellement intéressante.
+La kétamine nébulisée offre une alternative aussi efficace que la voie IV pour l'analgésie rapide aux urgences, permettant potentiellement d'éviter les accès veineux chez certains patients tout en maintenant une efficacité comparable.
+
+## Revue
+Annals of Emergency Medicine
 
 ## 📖 Référence
-Nguyen T, Mai M, Choudhary A, et al. Ann Emerg Med. 2024 Oct;84(4):354-362.
+2024;84(4):354-362. doi:10.1016/j.annemergmed.2024.03.024
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.annemergmed.2024.03.024.

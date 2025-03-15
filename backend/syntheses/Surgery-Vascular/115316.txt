@@ -1,0 +1,27 @@
+Date de publication : 2024-12-12
+
+# 📝 Méta-analyse comparant l'IVUS et l'angiographie dans le traitement endovasculaire des artériopathies des membres inférieurs
+
+## 📌 Contexte & Problématique
+L'échographie intravasculaire (IVUS) pourrait optimiser les traitements endovasculaires (TEV) grâce à une meilleure visualisation des lésions, mais son impact clinique reste débattu comparé à l'angiographie conventionnelle.
+
+## 🧪 Méthodologie
+Méta-analyse de 19 études incluant 800 452 patients comparant les TEV guidés par IVUS versus angiographie, avec comme critère principal la resténose binaire.
+
+## 📊 Résultats clés
+Les TEV guidés par IVUS ont significativement réduit:
+- Resténose binaire (RR 0,63; IC 95% 0,43-0,91)
+- Réintervention (RR 0,59; IC 95% 0,39-0,90)
+- Amputation majeure (RR 0,85; IC 95% 0,74-0,98)
+- Décès ou amputation (RR 0,72; IC 95% 0,56-0,91)
+- Événements indésirables majeurs des membres (MALE) (RR 0,52; IC 95% 0,28-0,94)
+
+## 🩺 Impact clinique
+L'IVUS améliore significativement les résultats cliniques des TEV dans les artériopathies des membres inférieurs, particulièrement dans les atteintes fémoropoplitées, même avec des dispositifs à élution médicamenteuse.
+
+## Revue
+American Journal of Cardiology
+
+## 📖 Référence
+2025 Mar 15;239:8-17. doi: 10.1016/j.amjcard.2024.12.012. Epub 2024 Dec 12.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.amjcard.2024.12.012.

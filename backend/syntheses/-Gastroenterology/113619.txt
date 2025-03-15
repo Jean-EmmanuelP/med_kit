@@ -1,0 +1,22 @@
+Date de publication : 2024-08-08
+
+# 📝 Bithérapie vonoprazan-tétracycline pour l'éradication d'H. pylori chez les patients allergiques à la pénicilline
+
+## 📌 Contexte & Problématique
+Évaluation d'une alternative thérapeutique simplifiée pour les patients allergiques à la pénicilline infectés par Helicobacter pylori, comparant la bithérapie vonoprazan-tétracycline (VT) à la quadrithérapie bismuthée (QTB) conventionnelle.
+
+## 🧪 Méthodologie
+Essai contrôlé randomisé incluant 300 patients allergiques à la pénicilline, naïfs de traitement anti-H. pylori, répartis entre bithérapie VT (vonoprazan 20mg 2×/j + tétracycline 500mg 3×/j) et QTB (lansoprazole, bismuth, tétracycline, métronidazole) pendant 14 jours.
+
+## 📊 Résultats clés
+Taux d'éradication comparables: 92,0% (VT) vs 89,3% (QTB) en intention de traiter, 94,5% vs 93,1% en ITT modifiée, et 95,1% vs 97,7% en per-protocole. Événements indésirables significativement réduits dans le groupe VT (14,0% vs 48,0%, p=0,000), avec moins d'arrêts de traitement (2,0% vs 8,7%, p=0,010).
+
+## 🩺 Impact clinique
+La bithérapie VT représente une alternative efficace et mieux tolérée pour l'éradication d'H. pylori chez les patients allergiques à la pénicilline, offrant une simplification thérapeutique avec moins d'effets secondaires.
+
+## Revue
+Gut
+
+## 📖 Référence
+2024;73(9):1414-1420. doi:10.1136/gutjnl-2024-332640
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1136/gutjnl-2024-332640.

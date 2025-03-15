@@ -1,0 +1,22 @@
+Date de publication : 2024-09-01
+
+# 📝 Effet du Remimazolam sur le Delirium d'Émergence chez les Enfants en Chirurgie Laparoscopique
+
+## 📌 Contexte & Problématique
+Le delirium d'émergence reste un défi en anesthésie pédiatrique sans consensus sur sa prévention. Cette étude évalue l'efficacité du remimazolam pour réduire son incidence chez les enfants.
+
+## 🧪 Méthodologie
+Essai randomisé en double aveugle incluant 120 enfants (1-6 ans) répartis en trois groupes : perfusion continue de remimazolam (RC), bolus unique de remimazolam (RB) et groupe contrôle (C). L'incidence du delirium a été évaluée par l'échelle PAED (Pediatric Anesthesia Emergence Delirium).
+
+## 📊 Résultats clés
+Le delirium d'émergence est survenu chez 35% des patients du groupe contrôle contre seulement 5% dans le groupe RC et 7,7% dans le groupe RB. Le recours au propofol de secours a été significativement réduit dans les groupes remimazolam (5% RC, 5,1% RB vs 25% contrôle), sans différence dans les temps de récupération ou les effets indésirables.
+
+## 🩺 Impact clinique
+Le remimazolam, administré en perfusion continue ou en bolus unique, réduit efficacement l'incidence du delirium d'émergence chez les enfants subissant une chirurgie laparoscopique, offrant une option thérapeutique préventive sécuritaire.
+
+## Revue
+Anesthesiology
+
+## 📖 Référence
+2024;141(3):500-510. doi:10.1097/ALN.0000000000005077
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1097/ALN.0000000000005077.

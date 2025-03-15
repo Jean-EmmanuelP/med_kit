@@ -1,0 +1,22 @@
+Date de publication : 2024-08-30
+
+# 📝 Fibrillation atriale et effets du sémaglutide dans l'insuffisance cardiaque à fraction d'éjection préservée liée à l'obésité
+
+## 📌 Contexte & Problématique
+La fibrillation atriale (FA) est fréquente dans l'insuffisance cardiaque à fraction d'éjection préservée (ICFEp) liée à l'obésité. Cette analyse secondaire du Programme STEP-HFpEF évalue l'efficacité du sémaglutide chez les patients avec et sans FA.
+
+## 🧪 Méthodologie
+Analyse de 1 145 patients atteints d'ICFEp (FEVG ≥45%), d'obésité (IMC ≥30 kg/m²) et de symptômes d'insuffisance cardiaque, randomisés pour recevoir sémaglutide 2,4 mg hebdomadaire ou placebo pendant 52 semaines.
+
+## 📊 Résultats clés
+45% des participants présentaient une FA. Le sémaglutide a amélioré davantage le score KCCQ-CSS (questionnaire de cardiomyopathie de Kansas City) chez les patients avec FA (+11,5 points) que sans FA (+4,3 points) (p=0,001). Le médicament a réduit la protéine C-réactive, le NT-proBNP (N-terminal pro-peptide natriurétique de type B) et le poids corporel indépendamment du statut FA.
+
+## 🩺 Impact clinique
+Le sémaglutide améliore significativement les symptômes, les limitations physiques et la fonction d'exercice chez les patients atteints d'ICFEp liée à l'obésité, avec des bénéfices plus marqués chez ceux présentant une FA, population généralement plus difficile à traiter.
+
+## Revue
+J Am Coll Cardiol
+
+## 📖 Référence
+2024;84(17):1603-1614. doi:10.1016/j.jacc.2024.08.023
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.jacc.2024.08.023.

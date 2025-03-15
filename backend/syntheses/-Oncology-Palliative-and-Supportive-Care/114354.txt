@@ -1,0 +1,22 @@
+Date de publication : 2024-09-05
+
+# 📝 Radiothérapie palliative versus soins de support dans les cancers hépatiques douloureux
+
+## 📌 Contexte & Problématique
+Évaluation de l'efficacité de la radiothérapie pour soulager la douleur chez les patients atteints de cancers hépatiques douloureux réfractaires aux traitements standard.
+
+## 🧪 Méthodologie
+Essai randomisé de phase 3 (CCTG HE1) incluant 66 patients avec carcinome hépatocellulaire ou métastases hépatiques et douleur ≥4/10 (BPI). Randomisation (1:1) : radiothérapie 8 Gy en fraction unique + meilleurs soins de support versus meilleurs soins de support seuls.
+
+## 📊 Résultats clés
+67% des patients du groupe radiothérapie ont présenté une amélioration de la douleur ≥2 points sur l'échelle BPI (Brief Pain Inventory) à 1 mois, contre 22% dans le groupe contrôle (p=0,0042). Événements indésirables de grade 3-4 : douleur abdominale (9% vs 3%) et ascite (6% vs 3%). Aucun décès lié au traitement.
+
+## 🩺 Impact clinique
+La radiothérapie en fraction unique associée aux meilleurs soins de support améliore significativement la douleur et pourrait être considérée comme traitement palliatif standard pour les cancers hépatiques douloureux.
+
+## Revue
+Lancet Oncology
+
+## 📖 Référence
+2024;25(10):1337-1346. doi:10.1016/S1470-2045(24)00438-8
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S1470-2045(24)00438-8.

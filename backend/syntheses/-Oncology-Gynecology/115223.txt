@@ -1,19 +1,22 @@
 Date de publication : 2024-12-12
 
-# 📝 Olaparib versus chimiothérapie non-platine dans le cancer ovarien récidivant sensible au platine : résultats finaux de survie globale de l'étude SOLO3
+# 📝 Olaparib vs chimiothérapie non-platine dans le cancer ovarien récidivant sensible au platine avec mutation BRCA : survie globale finale de l'étude SOLO3
 
 ## 📌 Contexte & Problématique
-L'essai SOLO3 avait précédemment démontré l'efficacité de l'olaparib sur le taux de réponse objective et la survie sans progression chez les patientes avec cancer ovarien récidivant sensible au platine et mutation BRCA. Les résultats finaux de survie globale étaient attendus.
+L'étude SOLO3 a précédemment démontré la supériorité de l'olaparib sur la chimiothérapie non-platine concernant le taux de réponse objective et la survie sans progression chez les patientes avec cancer ovarien récidivant sensible au platine et mutation BRCA.
 
 ## 🧪 Méthodologie
-Essai de phase III randomisé (2:1) comparant l'olaparib (300 mg BID, n=178) à une chimiothérapie non-platine en monothérapie (n=88) chez 266 patientes. Analyse secondaire prédéfinie de survie globale et analyses post-hoc selon le nombre de lignes antérieures et les mutations de réversion BRCA.
+Essai randomisé de phase III (2:1) comparant l'olaparib oral (300mg BID, n=178) à une monothérapie non-platine au choix (n=88) chez 266 patientes. Analyse finale de la survie globale (SG) et analyses post-hoc selon le nombre de lignes thérapeutiques antérieures.
 
 ## 📊 Résultats clés
-Survie globale similaire entre les groupes (HR=1,07 [IC95%:0,76-1,49]; p=0,71; médiane 34,9 vs 32,9 mois). Bénéfice potentiel après deux lignes de chimiothérapie (HR=0,83; médiane 37,9 vs 28,8 mois), mais effet potentiellement délétère après ≥3 lignes (HR=1,33; médiane 29,9 vs 39,4 mois).
+SG similaire entre les deux groupes (HR=1,07; IC95%:0,76-1,49; p=0,71; médianes: 34,9 vs 32,9 mois). Effet favorable de l'olaparib après 2 lignes de chimiothérapie (37,9 vs 28,8 mois), mais potentiellement délétère après ≥3 lignes (29,9 vs 39,4 mois). Aucune réponse à l'olaparib chez les patientes avec mutations de réversion BRCA à l'inclusion (3,5%).
 
 ## 🩺 Impact clinique
-Les mutations de réversion BRCA (3,5% des patientes sous olaparib) pourraient expliquer l'absence de bénéfice après plusieurs lignes. Le nombre de lignes antérieures pourrait guider la sélection des patientes pour l'olaparib.
+Le bénéfice de l'olaparib pourrait être optimal après 2 lignes de chimiothérapie. Les mutations de réversion BRCA semblent prédire l'absence de réponse à l'olaparib.
+
+## Revue
+Journal of Clinical Oncology
 
 ## 📖 Référence
-Scambia G, Villalobos Valencia R, Colombo N, et al. J Clin Oncol. 2024 Dec 12:JCO2400933.
+2024 Dec 12:JCO2400933. doi: 10.1200/JCO.24.00933.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO.24.00933.

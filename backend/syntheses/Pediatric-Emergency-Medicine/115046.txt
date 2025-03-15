@@ -1,0 +1,22 @@
+Date de publication : 2024-12-01
+
+# 📝 Mise à jour 2024 des directives de réanimation après noyade
+
+## 📌 Contexte & Problématique
+La noyade est la 3ème cause mondiale de décès par traumatisme non intentionnel (7% des décès traumatiques), 1ère cause chez les enfants américains de 1-4 ans et 2ème chez les 5-14 ans. La progression typique va de l'arrêt respiratoire hypoxique à l'arrêt cardiaque, avec difficulté à distinguer ces deux états en situation d'urgence.
+
+## 🧪 Méthodologie
+Analyse des revues systématiques du Comité International de Liaison sur la Réanimation (2021-2023), recherches bibliographiques actualisées et directives antérieures par un comité d'experts de l'American Academy of Pediatrics (AAP) et l'American Heart Association (AHA).
+
+## 📊 Résultats clés
+Les nouvelles recommandations soulignent l'importance de prioriser autant le rétablissement respiratoire que circulatoire. La réanimation peut débuter par une respiration artificielle dans l'eau si pratiquée par des sauveteurs formés, suivie de compressions thoraciques une fois en environnement sécurisé.
+
+## 🩺 Impact clinique
+Adaptation des protocoles de réanimation spécifiques à la noyade, reconnaissant sa physiopathologie particulière et l'importance d'interventions rapides et appropriées.
+
+## Revue
+Pediatrics
+
+## 📖 Référence
+2024;154(6):e2024068444. doi:10.1542/peds.2024-068444
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1542/peds.2024-068444.

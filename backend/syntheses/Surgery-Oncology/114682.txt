@@ -1,0 +1,22 @@
+Date de publication : 2024-10-09
+
+# 📝 La préhabilitation par exercice physique dans la chirurgie oncologique : efficacité sélective
+
+## 📌 Contexte & Problématique
+Cette revue systématique évalue l'efficacité de la préhabilitation par exercice physique sur les complications postopératoires et la durée d'hospitalisation après chirurgie oncologique.
+
+## 🧪 Méthodologie
+Méta-analyse de 32 essais contrôlés randomisés (2304 participants) incluant des chirurgies pour cancers génito-urinaires (n=422), gastro-intestinaux inférieurs (n=639), gastro-intestinaux supérieurs (n=526) et pulmonaires (n=717). Évaluation du risque de biais par l'outil Cochrane et qualité des preuves par méthodologie GRADE.
+
+## 📊 Résultats clés
+Preuves de qualité faible à modérée montrant que la préhabilitation par exercice réduit significativement les complications postopératoires (≈50%) et la durée d'hospitalisation (2,5 jours) uniquement pour les résections pulmonaires. Aucun bénéfice démontré pour les autres types de cancers.
+
+## 🩺 Impact clinique
+La préhabilitation par exercice devrait être envisagée spécifiquement pour les patients programmés pour chirurgie du cancer pulmonaire. Des recherches supplémentaires sont nécessaires pour les autres types de cancers.
+
+## Revue
+Anesthesia & Analgesia
+
+## 📖 Référence
+2024 Oct 9. doi: 10.1213/ANE.0000000000007226.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1213/ANE.0000000000007226.

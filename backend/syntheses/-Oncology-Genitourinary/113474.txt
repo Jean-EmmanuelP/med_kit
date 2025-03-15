@@ -1,0 +1,22 @@
+Date de publication : 2024-07-01
+
+# 📝 Risque cardiovasculaire des inhibiteurs de la signalisation des récepteurs aux androgènes dans le cancer de la prostate avancé
+
+## 📌 Contexte & Problématique
+Les inhibiteurs de la signalisation des récepteurs aux androgènes (ISRA) ont transformé le traitement du cancer de la prostate avancé, mais leurs effets cardiovasculaires (CV) restent mal définis.
+
+## 🧪 Méthodologie
+Méta-analyse de 24 essais cliniques randomisés (n=22 166 patients) évaluant l'abiratérone, l'apalutamide, le darolutamide et l'enzalutamide dans le cancer de prostate localement avancé (M0) et métastatique (M1), hormono-sensible (CPHS) et résistant à la castration (CPRC).
+
+## 📊 Résultats clés
+Les ISRA augmentent significativement le risque d'événements CV de tous grades (RR=1,75) et de grade ≥3 (RR=2,10). Risques accrus d'hypertension grade ≥3 (RR=2,25), syndrome coronarien aigu (RR=1,93), dysrythmies cardiaques (RR=1,64), événements cérébrovasculaires (RR=1,86) et décès d'origine CV (RR=2,02). L'augmentation du risque CV est observée dans tous les stades de la maladie.
+
+## 🩺 Impact clinique
+Les patients traités par ISRA nécessitent une information préalable et une surveillance cardiovasculaire attentive, quel que soit le stade de leur cancer de prostate.
+
+## Revue
+JAMA Oncology
+
+## 📖 Référence
+2024;10(7):874-884. doi:10.1001/jamaoncol.2024.1549
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamaoncol.2024.1549.

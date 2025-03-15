@@ -1,0 +1,22 @@
+Date de publication : 2024-07-17
+
+# 📝 COVID-19 au premier trimestre et risque d'anomalies congénitales : étude nordique
+
+## 📌 Contexte & Problématique
+Évaluation du risque d'anomalies congénitales majeures associé à l'infection par la COVID-19 ou à la vaccination durant le premier trimestre de grossesse.
+
+## 🧪 Méthodologie
+Étude prospective basée sur les registres de Suède, Danemark et Norvège incluant 343 066 nourrissons nés vivants entre mars 2020 et février 2022. Anomalies catégorisées selon les définitions EUROCAT (Surveillance Européenne des Anomalies Congénitales) et analyse par régression logistique avec ajustement pour multiples facteurs confondants.
+
+## 📊 Résultats clés
+Parmi les nourrissons étudiés, 5,2% présentaient une anomalie congénitale majeure. Ni l'infection COVID-19 ni la vaccination au premier trimestre n'étaient associées à un risque accru d'anomalies congénitales. Les rapports de cotes ajustés pour 10 des 11 sous-groupes d'anomalies étaient inférieurs à 1,04.
+
+## 🩺 Impact clinique
+Ces résultats rassurants soutiennent la sécurité de la vaccination contre la COVID-19 pendant la grossesse et suggèrent l'absence d'effet tératogène de l'infection au premier trimestre.
+
+## Revue
+BMJ
+
+## 📖 Référence
+2024;386:e079364. doi:10.1136/bmj-2024-079364
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1136/bmj-2024-079364.

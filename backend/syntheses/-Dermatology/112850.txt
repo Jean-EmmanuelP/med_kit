@@ -3,18 +3,22 @@ Date de publication : 2024-02-29
 # 📝 Dupilumab dans l'urticaire chronique spontanée : résultats des essais LIBERTY-CSU CUPID
 
 ## 📌 Contexte & Problématique
-L'urticaire chronique spontanée (UCS) reste symptomatique chez certains patients malgré les antihistaminiques H1 ou l'omalizumab. Le dupilumab, inhibiteur de la signalisation IL-4/IL-13, a été évalué comme alternative thérapeutique.
+L'urticaire chronique spontanée (UCS) reste symptomatique chez certains patients malgré les antihistaminiques H1 (anti-H1) ou l'omalizumab. Le dupilumab, qui bloque la signalisation IL-4/IL-13, a été évalué comme alternative thérapeutique.
 
 ## 🧪 Méthodologie
-Deux essais randomisés de phase 3 en double aveugle ont été menés : étude A (n=138, patients naïfs d'omalizumab, ≥6 ans) et étude B (n=108, patients intolérants/répondeurs incomplets à l'omalizumab, ≥12 ans). Les critères principaux étaient les variations des scores UAS7 et ISS7 à 24 semaines.
+Deux essais de phase 3 randomisés en double aveugle : étude A (n=138, patients naïfs d'omalizumab, ≥6 ans) et étude B (n=108, patients intolérants ou répondeurs incomplets à l'omalizumab, ≥12 ans). Critères principaux : variation du score d'activité de l'urticaire (UAS7) et du score de sévérité du prurit (ISS7) à 24 semaines.
 
 ## 📊 Résultats clés
-Étude A : Amélioration significative avec dupilumab vs placebo pour UAS7 (différence -8,5; p=0,0003) et ISS7 (différence -4,2; p=0,0005).
-Étude B : Amélioration modeste de l'UAS7 (différence -5,8; p=0,0390), mais non significative pour l'ISS7 (p=0,0449 nominal). Profil de sécurité cohérent avec les données connues.
+Étude A : amélioration significative de l'UAS7 (-8,5 points vs placebo, p=0,0003) et de l'ISS7 (-4,2 points, p=0,0005).
+Étude B : amélioration de l'UAS7 (-5,8 points, p=0,0390), mais effet non significatif sur l'ISS7 (-2,9 points, p=0,0449).
+Profil de sécurité cohérent avec les données connues.
 
 ## 🩺 Impact clinique
-Le dupilumab réduit efficacement l'activité de l'UCS chez les patients naïfs d'omalizumab, mais montre des effets plus modestes chez ceux intolérants ou répondeurs incomplets à l'omalizumab.
+Le dupilumab réduit efficacement l'activité de l'UCS chez les patients naïfs d'omalizumab non contrôlés par anti-H1. Son effet est plus modeste chez les patients intolérants ou répondeurs incomplets à l'omalizumab.
+
+## Revue
+J Allergy Clin Immunol
 
 ## 📖 Référence
-Maurer M, Casale TB, Saini SS, et al. J Allergy Clin Immunol. 2024;154(1):184-194.
+2024;154(1):184-194. doi:10.1016/j.jaci.2024.01.028
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.jaci.2024.01.028.

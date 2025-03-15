@@ -1,0 +1,22 @@
+Date de publication : 2025-01-25
+
+# 📝 Extrait de curcuma hydrosoluble à faible dose dans la gestion de l'arthrose du genou
+
+## 📌 Contexte & Problématique
+L'arthrose du genou représente un défi thérapeutique majeur. Cette étude évalue l'efficacité d'un nouvel extrait de curcuma hydrosoluble à faible dose contenant 60% de curcuminoïdes naturels (WDTE60N) chez des patients souffrant d'arthrose du genou légère à modérée.
+
+## 🧪 Méthodologie
+Essai randomisé en double aveugle, contrôlé par placebo, mené en Inde (2023) sur 139 participants (45-75 ans) souffrant d'arthrose du genou. Traitement : WDTE60N (250 mg/jour) ou placebo pendant 3 mois. Évaluation : douleur (EVA, KOOS), biomarqueurs inflammatoires et sécurité.
+
+## 📊 Résultats clés
+Le groupe WDTE60N a montré une réduction significative du score EVA dès J7, avec une amélioration continue jusqu'à J90 (p<0,0001). Tous les domaines KOOS se sont améliorés significativement (p<0,05). Les biomarqueurs inflammatoires (hsCRP, TNF-α, IL-6, IL-1β) ont diminué significativement (p<0,0001). Seulement quatre effets indésirables légers rapportés.
+
+## 🩺 Impact clinique
+Le WDTE60N représente une option thérapeutique sûre et efficace pour soulager la douleur, améliorer la fonction et réduire l'inflammation chez les patients atteints d'arthrose du genou légère à modérée, avec un profil de sécurité favorable.
+
+## Revue
+Journal of Pain Research
+
+## 📖 Référence
+2025;18:411-427. doi:10.2147/JPR.S501505. CTRI/2023/07/055411.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.2147/JPR.S501505.

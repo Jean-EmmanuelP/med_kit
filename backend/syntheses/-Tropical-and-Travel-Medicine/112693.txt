@@ -1,19 +1,22 @@
 Date de publication : 2024-03-14
 
-# 📝 Prophylaxie antibiotique pour la leptospirose : revue systématique Cochrane
+# 📝 Prophylaxie antibiotique pour la leptospirose
 
 ## 📌 Contexte & Problématique
-La leptospirose est une zoonose mondiale. Les antibiotiques sont utilisés en prophylaxie chez les voyageurs et populations à risque, mais leur bénéfice clinique reste incertain face aux effets indésirables potentiels.
+La leptospirose est une zoonose mondiale causée par des bactéries du genre Leptospira. L'antibioprophylaxie est utilisée chez les voyageurs et populations à risque, mais son efficacité clinique et sa balance bénéfice-risque restent incertaines.
 
 ## 🧪 Méthodologie
-Revue systématique de 5 essais randomisés (2593 participants) comparant doxycycline, azithromycine ou pénicilline versus placebo ou entre eux. Évaluation selon méthodologie Cochrane avec outil RoB 2 et système GRADE.
+Revue systématique de 5 essais cliniques randomisés (2593 participants) comparant différents antibiotiques (doxycycline, azithromycine, pénicilline) à un placebo ou entre eux. Recherche dans les bases Cochrane, MEDLINE, Embase et autres jusqu'en avril 2023.
 
 ## 📊 Résultats clés
-Antibiotiques vs placebo : peu ou pas d'effet sur la mortalité (RR 0,15 ; IC 95% 0,01-2,83), la leptospirose confirmée (RR 0,56 ; IC 95% 0,25-1,26) ou le diagnostic clinique (RR 0,76 ; IC 95% 0,53-1,08). Augmentation possible des effets indésirables non graves (RR 10,13 ; IC 95% 2,40-42,71). Preuves de faible à très faible certitude.
+Les antibiotiques prophylactiques n'ont montré aucune différence significative sur la mortalité (RR 0,15; IC 95% 0,01-2,83), la leptospirose confirmée en laboratoire (RR 0,56; IC 95% 0,25-1,26), ou le diagnostic clinique de leptospirose (RR 0,76; IC 95% 0,53-1,08). Les antibiotiques pourraient augmenter les événements indésirables non graves (RR 10,13; IC 95% 2,40-42,71).
 
 ## 🩺 Impact clinique
-Les données actuelles ne soutiennent pas clairement l'antibioprophylaxie pour la leptospirose. Le rapport bénéfice-risque reste incertain, avec preuves de faible qualité et risque accru d'effets indésirables mineurs.
+Les preuves actuelles sont de faible ou très faible certitude et ne permettent pas de recommander clairement l'antibioprophylaxie pour la leptospirose. La balance bénéfice-risque reste incertaine, avec une possible augmentation des effets indésirables.
+
+## Revue
+Cochrane Database of Systematic Reviews
 
 ## 📖 Référence
-Win TZ, Perinpanathan T, Mukadi P, et al. Antibiotic prophylaxis for leptospirosis. Cochrane Database Syst Rev. 2024;3(3):CD014959.
+2024;3(3):CD014959. doi: 10.1002/14651858.CD014959.pub2.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1002/14651858.CD014959.pub2.

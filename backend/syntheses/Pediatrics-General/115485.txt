@@ -1,0 +1,22 @@
+Date de publication : 2025-01-02
+
+# 📝 Efficacité et sécurité du vaccin maternel contre le VRS
+
+## 📌 Contexte & Problématique
+L'essai MATISSE a évalué l'efficacité, l'immunogénicité et la sécurité du vaccin bivalent à protéine F de préfusion du virus respiratoire syncytial (VRSpreF) administré pendant la grossesse pour protéger les nourrissons contre les infections respiratoires sévères.
+
+## 🧪 Méthodologie
+Essai de phase 3, randomisé, en double aveugle, contrôlé par placebo, incluant 7 420 femmes enceintes (24-36 semaines de gestation) recevant une dose unique de VRSpreF 120 μg ou placebo. Suivi des 7 307 nouveau-nés jusqu'à 180 jours.
+
+## 📊 Résultats clés
+L'efficacité vaccinale contre les infections respiratoires inférieures sévères associées au VRS était de 82,4% (IC 95%, 57,5-93,9) à 90 jours et 70,0% (IC 95%, 50,6-82,5) à 180 jours. Le vaccin a induit des réponses immunitaires robustes chez les mères avec transfert efficace d'anticorps aux nouveau-nés dans tous les sous-groupes.
+
+## 🩺 Impact clinique
+Cette analyse finale confirme un profil de sécurité favorable et une protection significative des nourrissons contre les infections sévères à VRS jusqu'à 6 mois, validant l'approche de l'immunisation maternelle comme stratégie préventive.
+
+## Revue
+Obstetrics & Gynecology
+
+## 📖 Référence
+2025;145(2):157-167. doi:10.1097/AOG.0000000000005816. Essai clinique: NCT04424316.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1097/AOG.0000000000005816.

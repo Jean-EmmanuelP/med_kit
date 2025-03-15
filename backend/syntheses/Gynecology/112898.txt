@@ -1,0 +1,22 @@
+Date de publication : 2024-10-30
+
+# 📝 Traitement hormonal chez les adolescents souffrant de dysphorie de genre : revue systématique
+
+## 📌 Contexte & Problématique
+Les interventions hormonales de masculinisation/féminisation sont utilisées chez les adolescents souffrant de dysphorie ou d'incongruence de genre, mais les preuves solides concernant leurs risques et bénéfices restent limitées.
+
+## 🧪 Méthodologie
+Revue systématique de 53 études (12 cohortes, 9 transversales, 32 pré-post) identifiées dans cinq bases de données jusqu'en avril 2022. Qualité évaluée via l'échelle Newcastle-Ottawa adaptée.
+
+## 📊 Résultats clés
+Une seule étude de haute qualité identifiée. Les preuves de qualité modérée montrent une induction pubertaire effective mais variable. Les études pré-post à 12 mois suggèrent une amélioration psychologique. Résultats incohérents concernant la croissance, la santé osseuse et les effets cardiométaboliques.
+
+## 🩺 Impact clinique
+Les données suggèrent des bénéfices potentiels sur la santé mentale pendant le traitement, mais des études rigoureuses restent nécessaires. La présence fréquente d'une suppression pubertaire antérieure complique l'évaluation des effets hormonaux isolés.
+
+## Revue
+Archives of Disease in Childhood
+
+## 📖 Référence
+2024;109(Suppl 2):s48-s56. doi:10.1136/archdischild-2023-326670
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1136/archdischild-2023-326670.

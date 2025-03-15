@@ -1,0 +1,22 @@
+Date de publication : 2024-06-01
+
+# 📝 Impact de l'aripiprazole préopératoire sur l'analgésie postopératoire en hystérectomie laparoscopique
+
+## 📌 Contexte & Problématique
+L'aripiprazole, antipsychotique atypique de deuxième génération, est approuvé cliniquement mais son potentiel antinociceptif périopératoire reste inexploré. Cette étude évalue ses effets analgésiques postopératoires et ses effets indésirables.
+
+## 🧪 Méthodologie
+Étude randomisée contrôlée incluant 80 patientes programmées pour hystérectomie laparoscopique, réparties en deux groupes : aripiprazole (30 mg oral 3h préopératoire, n=40) versus placebo (n=40). Critère principal : consommation de morphine sur 24h.
+
+## 📊 Résultats clés
+Le groupe aripiprazole a montré une consommation de morphine significativement réduite (2,5±0,5 mg vs 23,7±1,6 mg, p<0,001) et un délai prolongé avant première demande d'analgésique (212,2±14,7 min vs 27,0±2,0 min, p<0,001). Effets secondaires plus fréquents : sédation accrue, bradycardie et hypotension.
+
+## 🩺 Impact clinique
+L'aripiprazole préopératoire réduit efficacement la douleur post-hystérectomie laparoscopique. Les effets secondaires, bien que spontanément résolutifs, nécessitent une surveillance attentive.
+
+## Revue
+Clin J Pain
+
+## 📖 Référence
+2024;40(6):341-348. doi:10.1097/AJP.0000000000001210
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1097/AJP.0000000000001210.

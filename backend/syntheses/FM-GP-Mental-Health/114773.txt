@@ -1,0 +1,22 @@
+Date de publication : 2025-01-01
+
+# 📝 Antipsychotiques et fonction cognitive : méta-analyse en réseau
+
+## 📌 Contexte & Problématique
+Les déficits cognitifs constituent une part importante des symptômes des troubles du spectre de la schizophrénie (TSS). Les antipsychotiques, avec leurs différents profils de liaison aux récepteurs, pourraient avoir des effets variables sur la cognition.
+
+## 🧪 Méthodologie
+Revue systématique et méta-analyse en réseau de 68 essais cliniques randomisés (9525 participants) comparant différents antipsychotiques ou placebo chez des patients atteints de TSS, avec évaluation du changement du score cognitif global comme critère principal.
+
+## 📊 Résultats clés
+Peu de différences significatives entre antipsychotiques. Les antagonistes dopaminergiques de première génération (halopéridol, fluphénazine) et la clozapine se sont classés bas. Les antipsychotiques en tant que groupe ont montré de petites améliorations par rapport au placebo (différences moyennes standardisées entre -0,21 et -0,40).
+
+## 🩺 Impact clinique
+Les antagonistes dopaminergiques de première génération et la clozapine devraient être évités quand les déficits cognitifs sont préoccupants. L'amélioration légère observée pourrait résulter de la réduction des symptômes positifs plutôt que d'un effet procognitif direct.
+
+## Revue
+JAMA Psychiatry
+
+## 📖 Référence
+2025;82(1):47-56. doi:10.1001/jamapsychiatry.2024.2890
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamapsychiatry.2024.2890.

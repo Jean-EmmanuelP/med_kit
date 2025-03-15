@@ -1,0 +1,22 @@
+Date de publication : 2025-01-15
+
+# 📝 Acide tranexamique pour la prévention de l'hémorragie du post-partum après accouchement par voie basse
+
+## 📌 Contexte & Problématique
+L'hémorragie du post-partum (HPP) est une complication fréquente et potentiellement mortelle. L'acide tranexamique (ATX), un antifibrinolytique, est efficace pour traiter l'HPP, mais son rôle préventif reste à clarifier.
+
+## 🧪 Méthodologie
+Revue systématique de 3 essais contrôlés randomisés (ECR) totalisant 18 974 participantes, comparant l'ATX intraveineux (1g) + soins standard versus placebo + soins standard. Seuls les essais enregistrés prospectivement ont été inclus.
+
+## 📊 Résultats clés
+L'ATX prophylactique n'a montré aucune différence significative pour les pertes sanguines ≥500ml (RR 0,93) ou ≥1000ml (RR 0,86), la morbidité sévère (RR 0,88), les transfusions (RR 1,00) ou les interventions chirurgicales (RR 0,63). Chez les femmes non anémiées uniquement, l'ATX a réduit le besoin d'utérotoniques supplémentaires (RR 0,75).
+
+## 🩺 Impact clinique
+L'ATX prophylactique n'apporte pas de bénéfice cliniquement significatif pour la prévention de l'HPP après accouchement vaginal, hormis une légère réduction du besoin d'utérotoniques supplémentaires chez les femmes non anémiées.
+
+## Revue
+Cochrane Database of Systematic Reviews
+
+## 📖 Référence
+2025 Jan 15;1:CD007872. doi: 10.1002/14651858.CD007872.pub4.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1002/14651858.CD007872.pub4.

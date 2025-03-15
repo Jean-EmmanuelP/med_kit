@@ -1,0 +1,22 @@
+Date de publication : 2024-08-06
+
+# 📝 L'incidence du delirium post-opératoire augmente avec la sévérité de la fragilité
+
+## 📌 Contexte & Problématique
+La fragilité, souvent mesurée de façon binaire, augmente le risque de complications post-opératoires comme le delirium. Cette étude examine la relation entre les niveaux catégoriels de fragilité et l'incidence du delirium post-opératoire chez les personnes âgées.
+
+## 🧪 Méthodologie
+Analyse rétrospective (2018-2020) de 324 patients âgés subissant une chirurgie élective avec hospitalisation. La fragilité a été évaluée via l'échelle d'Edmonton (non fragile, légère, modérée, sévère) et le delirium détecté par le test des 4A et la méthode d'évaluation de la confusion.
+
+## 📊 Résultats clés
+L'incidence globale du delirium post-opératoire était de 4,6%, augmentant significativement avec la sévérité de la fragilité : 2% (non fragiles), 6% (fragilité légère), 23% (fragilité modérée) (p<0,001). Les odds ratios étaient de 2,57 pour la fragilité légère et 12,10 pour la fragilité modérée versus non fragile.
+
+## 🩺 Impact clinique
+La sévérité de la fragilité devrait être considérée lors du conseil préopératoire aux personnes âgées concernant leur risque de delirium post-opératoire.
+
+## Revue
+Age and Ageing
+
+## 📖 Référence
+2024;53(8):afae168. doi:10.1093/ageing/afae168
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1093/ageing/afae168.

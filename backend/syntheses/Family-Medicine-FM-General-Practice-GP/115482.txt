@@ -3,17 +3,23 @@ Date de publication : 2025-01-13
 # 📝 Antiviraux pour le traitement de la grippe non sévère : méta-analyse en réseau
 
 ## 📌 Contexte & Problématique
-L'antiviral optimal pour traiter la grippe non sévère reste incertain, nécessitant une comparaison systématique des options thérapeutiques disponibles.
+L'identification de l'antiviral optimal pour traiter la grippe non sévère reste incertaine, nécessitant une comparaison systématique des différentes options thérapeutiques.
 
 ## 🧪 Méthodologie
-Méta-analyse en réseau de 73 essais cliniques randomisés incluant 34 332 participants, comparant différents antiviraux au placebo ou entre eux. Évaluation des critères de mortalité, hospitalisation, durée des symptômes et effets indésirables.
+Méta-analyse en réseau de 73 essais cliniques randomisés (34 332 participants) comparant divers antiviraux à action directe contre la grippe. Les bases de données médicales ont été consultées jusqu'en septembre 2023, avec évaluation selon l'approche GRADE.
 
 ## 📊 Résultats clés
-Aucun antiviral n'a montré d'effet significatif sur la mortalité (certitude élevée). Le baloxavir pourrait réduire le risque d'hospitalisation chez les patients à haut risque (DR -1,6%, IC95% -2,0 à 0,4; certitude faible) et raccourcir la durée des symptômes (DM -1,02 jour; certitude modérée) sans augmenter les effets indésirables (DR -3,2%; certitude élevée). L'oseltamivir n'a montré qu'un effet modeste sur la durée des symptômes (DM -0,75 jour) avec plus d'effets indésirables (DR +2,8%).
+- Tous les antiviraux ont peu/pas d'effet sur la mortalité (certitude élevée)
+- Le baloxavir pourrait réduire le risque d'hospitalisation chez les patients à haut risque (DR -1,6%, certitude faible)
+- Le baloxavir réduit probablement la durée des symptômes (-1,02 jour, certitude modérée)
+- Le baloxavir présente peu d'effets indésirables (DR -3,2%, certitude élevée) contrairement à l'oseltamivir qui les augmente probablement (DR +2,8%, certitude modérée)
 
 ## 🩺 Impact clinique
-Le baloxavir apparaît comme l'option préférentielle pour les patients à haut risque atteints de grippe non sévère, offrant un meilleur profil bénéfice-risque que les autres antiviraux étudiés.
+Le baloxavir apparaît comme l'option la plus prometteuse pour les patients à haut risque atteints de grippe non sévère, offrant une réduction potentielle des hospitalisations et des symptômes sans augmenter les effets indésirables.
+
+## Revue
+JAMA Internal Medicine
 
 ## 📖 Référence
-Gao Y, Zhao Y, Liu M, et al. Antiviral Medications for Treatment of Nonsevere Influenza: A Systematic Review and Network Meta-Analysis. JAMA Intern Med. 2025;doi:10.1001/jamainternmed.2024.7193.
+2025 Jan 13. doi: 10.1001/jamainternmed.2024.7193.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamainternmed.2024.7193.

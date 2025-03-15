@@ -1,0 +1,28 @@
+Date de publication : 2024-05-02
+
+# 📝 Ibrutinib dans le traitement du lymphome à cellules du manteau : résultats de l'essai TRIANGLE
+
+## 📌 Contexte & Problématique
+L'étude évalue si l'ajout d'ibrutinib à l'immunochimiothérapie standard améliore les résultats et pourrait remettre en question la nécessité de transplantation autologue de cellules souches (TACS) chez les patients jeunes (≤65 ans) atteints de lymphome à cellules du manteau.
+
+## 🧪 Méthodologie
+Essai randomisé de phase 3 à trois bras incluant 870 patients dans 14 pays :
+- Groupe A : R-CHOP/R-DHAP alternés + TACS (standard)
+- Groupe A+I : R-CHOP/R-DHAP + ibrutinib + TACS + entretien par ibrutinib
+- Groupe I : R-CHOP/R-DHAP + ibrutinib + entretien par ibrutinib (sans TACS)
+
+## 📊 Résultats clés
+Après suivi médian de 31 mois, la survie sans échec à 3 ans était de :
+- 88% pour A+I vs 72% pour A (p=0,0008)
+- 86% pour I vs 72% pour A (p=0,9979)
+Plus d'événements indésirables hématologiques et d'infections de grade 3-5 dans le groupe A+I.
+
+## 🩺 Impact clinique
+L'ibrutinib améliore significativement l'efficacité du traitement de première ligne chez les patients jeunes atteints de lymphome à cellules du manteau et devrait être intégré au traitement standard. Le bénéfice de la TACS dans un traitement contenant l'ibrutinib reste à déterminer.
+
+## Revue
+Lancet
+
+## 📖 Référence
+2024;403(10441):2293-2306. doi:10.1016/S0140-6736(24)00184-3
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S0140-6736(24)00184-3.

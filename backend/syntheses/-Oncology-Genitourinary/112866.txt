@@ -3,23 +3,24 @@ Date de publication : 2024-06-01
 # 📝 IRM dans le dépistage du cancer de la prostate : méta-analyse
 
 ## 📌 Contexte & Problématique
-L'IRM prostatique est de plus en plus utilisée dans le dépistage précoce du cancer de la prostate. Cette méta-analyse évalue son efficacité diagnostique comparée aux stratégies basées uniquement sur le PSA.
+L'imagerie par résonance magnétique (IRM) prostatique est de plus en plus intégrée dans le dépistage précoce du cancer de la prostate (CaP). Cette étude évalue les parcours de dépistage intégrant l'IRM comparés aux stratégies basées uniquement sur l'antigène prostatique spécifique (PSA).
 
 ## 🧪 Méthodologie
-Analyse de 12 études incluant 80 114 hommes. Comparaison des parcours de dépistage intégrant l'IRM avec biopsie ciblée versus dépistage standard par PSA avec biopsie systématique.
+Revue systématique et méta-analyse de 12 études incluant 80 114 hommes. Comparaison des stratégies de dépistage avec IRM (primaire ou séquentielle après PSA) versus dépistage standard par PSA, avec différents seuils d'indication de biopsie (PI-RADS ≥3 ou ≥4).
 
 ## 📊 Résultats clés
-Le parcours IRM (seuil PI-RADS ≥3) versus PSA seul montre :
-- Probabilité accrue de cancer significatif si test positif (OR 4,15)
+Comparé au dépistage par PSA seul, le parcours IRM séquentiel (seuil PI-RADS ≥3) était associé à:
 - Réduction des biopsies (OR 0,28)
 - Diminution des cancers non significatifs détectés (OR 0,34)
-- Détection similaire des cancers significatifs (OR 1,02)
-
-Un seuil PI-RADS ≥4 réduit davantage les biopsies (OR 0,19) et les cancers non significatifs (OR 0,23).
+- Maintien du taux de détection des CaP cliniquement significatifs (CaPcs)
+- Meilleure valeur prédictive positive pour les CaPcs (OR 4,15)
 
 ## 🩺 Impact clinique
-L'intégration de l'IRM dans le dépistage du cancer prostatique permet de réduire les biopsies inutiles et le surdiagnostic tout en maintenant la détection des cancers cliniquement significatifs.
+L'intégration de l'IRM dans le dépistage du CaP réduit les biopsies inutiles et le surdiagnostic tout en maintenant la détection des cancers cliniquement significatifs.
+
+## Revue
+JAMA Oncology
 
 ## 📖 Référence
-Fazekas T, Shim SR, Basile G, et al. JAMA Oncol. 2024;10(6):745-754.
+2024;10(6):745-754. doi:10.1001/jamaoncol.2024.0734
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamaoncol.2024.0734.

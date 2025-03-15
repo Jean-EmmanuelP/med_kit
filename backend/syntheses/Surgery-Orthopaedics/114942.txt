@@ -1,0 +1,22 @@
+Date de publication : 2024-11-06
+
+# 📝 Essai randomisé multicentrique comparant le polyéthylène hautement réticulé au polyéthylène conventionnel dans 518 ATG primaires à 10 ans
+
+## 📌 Contexte & Problématique
+Les bénéfices à long terme du polyéthylène hautement réticulé (HXLPE) dans l'arthroplastie totale du genou (ATG) primaire restent incertains, malgré son succès dans les prothèses de hanche.
+
+## 🧪 Méthodologie
+Étude randomisée incluant 518 patients (67 ans en moyenne, IMC 32 kg/m², 58% femmes) ayant subi une ATG primaire dans 3 centres. Groupe témoin (n=254) : insert en polyéthylène conventionnel à très haut poids moléculaire (UHMWPE); groupe traitement (n=264) : insert HXLPE. Suivi moyen de 11 ans.
+
+## 📊 Résultats clés
+Survie globale à 10 ans sans révision : 96%, sans réopération : 94%, sans différence significative entre les groupes. Sur 19 révisions, 14 pour infection, 4 pour instabilité, 1 pour fracture de rotule due à l'ostéolyse (groupe UHMWPE). Aucune révision pour usure, ostéolyse ou fracture dans le groupe HXLPE.
+
+## 🩺 Impact clinique
+Absence d'échec lié à l'usure dans le groupe HXLPE, contrairement au groupe UHMWPE où un cas d'ostéolyse a été observé, suggérant un potentiel avantage du HXLPE à long terme.
+
+## Revue
+J Bone Joint Surg Am
+
+## 📖 Référence
+2025 Jan 15;107(2):121-126. doi: 10.2106/JBJS.24.00445. Epub 2024 Nov 6.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.2106/JBJS.24.00445.

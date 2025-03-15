@@ -1,0 +1,22 @@
+Date de publication : 2024-07-12
+
+# 📝 Chimiothérapie néoadjuvante DOS pour le cancer gastrique avancé résécable : résultats de survie globale de l'étude PRODIGY
+
+## 📌 Contexte & Problématique
+L'essai PRODIGY avait précédemment démontré l'amélioration de la survie sans progression (SSP) avec la chimiothérapie néoadjuvante docétaxel, oxaliplatine et S-1 (DOS) suivie de chirurgie et S-1 adjuvant (CSC) versus chirurgie suivie de S-1 adjuvant (SC) dans le cancer gastrique localement avancé (CGLA) résécable.
+
+## 🧪 Méthodologie
+Essai de phase III randomisé comparant CSC (n=238) versus SC (n=246) chez des patients atteints de CGLA résécable (stades cliniques T2-3N+ ou T4Nany). Suivi médian de 99,5 mois.
+
+## 📊 Résultats clés
+Le traitement CSC a significativement amélioré la survie globale (SG) par rapport au SC (HR ajusté=0,72; p=0,027), avec des taux de SG à 8 ans de 63,0% versus 55,1%. La SSP était également significativement meilleure (HR=0,70; p=0,016).
+
+## 🩺 Impact clinique
+La chimiothérapie périopératoire avec DOS néoadjuvant prolonge la SG chez les patients asiatiques atteints de CGLA et devrait être considérée comme une option thérapeutique standard en Asie.
+
+## Revue
+Journal of Clinical Oncology
+
+## 📖 Référence
+2024;42(25):2961-2965. doi:10.1200/JCO.23.02167. Epub 2024 Jul 12.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO.23.02167.

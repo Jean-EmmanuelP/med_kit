@@ -1,19 +1,22 @@
 Date de publication : 2024-11-21
 
-# 📝 CHIP dans le cancer ovarien récidivant sensible au platine : pas de bénéfice sur la survie sans progression
+# 📝 Chimiothérapie hyperthermique intrapéritonéale dans le cancer de l'ovaire récidivant sensible au platine
 
 ## 📌 Contexte & Problématique
-L'étude HORSE (MITO-18) évalue l'ajout de la chimiothérapie intrapéritonéale hyperthermique (CHIP) à la chirurgie cytoréductive secondaire (CCS) chez les patientes avec cancer ovarien épithélial récidivant sensible au platine (intervalle sans platine >6 mois).
+Évaluation de l'ajout de la chimiothérapie hyperthermique intrapéritonéale (CHIP) à la chirurgie cytoréductive secondaire (CCS) chez les patientes atteintes d'un cancer épithélial de l'ovaire récidivant sensible au platine.
 
 ## 🧪 Méthodologie
-Essai randomisé multicentrique de phase III comparant CCS+CHIP versus CCS seule. La CHIP utilisait le cisplatine (75 mg/m²) pendant 60 minutes à 41,5°C. Les deux groupes recevaient une chimiothérapie postopératoire à base de platine.
+Étude multicentrique randomisée de phase III comparant CCS+CHIP versus CCS seule. Randomisation lors de la chirurgie pour les cas avec tumeur résiduelle ≤0,25 cm. CHIP : cisplatine 75 mg/m² pendant 60 minutes à 41,5°C. Chimiothérapie postopératoire à base de platine dans les deux groupes.
 
 ## 📊 Résultats clés
-167 patientes randomisées (82 CCS+CHIP, 85 CCS seule). Suivi médian: 83 mois. Survie sans progression médiane: 25 mois (CCS+CHIP) versus 23 mois (CCS seule). Survie après récidive à 5 ans: 75,9% (CCS+CHIP) versus 61,6% (CCS). Incidence d'événements indésirables similaire entre les groupes.
+167 patientes randomisées (82 CCS+CHIP, 85 CCS seule). Suivi médian : 83 mois. Survie sans progression (SSP) médiane : 25 mois (CCS+CHIP) versus 23 mois (CCS seule). Survie après récidive à 5 ans : 75,9% (CCS+CHIP) versus 61,6% (CCS). Incidence d'événements indésirables similaire entre les groupes.
 
 ## 🩺 Impact clinique
-L'ajout de la CHIP à une CCS complète ou quasi complète n'améliore pas la survie sans progression chez ces patientes.
+L'ajout de la CHIP à une CCS complète ou quasi complète n'apporte pas de bénéfice significatif en termes de SSP chez les patientes présentant une récidive péritonéale sensible au platine.
+
+## Revue
+Journal of Clinical Oncology
 
 ## 📖 Référence
-Fagotti A, Costantini B, Fanfani F, et al. J Clin Oncol. 2024 Nov 21:JCO2400686.
+2025 Mar;43(7):852-860. doi: 10.1200/JCO.24.00686. Epub 2024 Nov 21.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO.24.00686.

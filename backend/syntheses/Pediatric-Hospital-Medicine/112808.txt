@@ -1,0 +1,27 @@
+Date de publication : 2024-03-20
+
+# 📝 Canule nasale à haut débit pour nourrissons atteints de bronchiolite
+
+## 📌 Contexte & Problématique
+La bronchiolite est la principale cause d'hospitalisation des nourrissons (<24 mois). La thérapie par canule nasale à haut débit (HFNC) permet d'administrer des débits plus élevés (2-3 L/kg/min) d'un mélange air/oxygène humidifié, fournissant une pression positive continue des voies aériennes (CPAP) non invasive.
+
+## 🧪 Méthodologie
+Revue systématique de 16 essais contrôlés randomisés (ECR) totalisant 2813 participants, comparant HFNC au faible débit (11 études) ou à la CPAP (5 études) chez les nourrissons atteints de bronchiolite.
+
+## 📊 Résultats clés
+Comparé à l'oxygène à faible débit, le HFNC peut réduire:
+- La durée d'hospitalisation (-0,65 jours)
+- La durée d'oxygénothérapie (-0,59 jours)
+- Le risque d'escalade thérapeutique (RR 0,55)
+- Amélioration probable des fréquences respiratoire et cardiaque
+- Pas de différence dans l'incidence des événements indésirables
+
+## 🩺 Impact clinique
+Le HFNC présente des avantages modestes mais significatifs par rapport à l'oxygénothérapie conventionnelle. Des études supplémentaires sont nécessaires pour comparer HFNC et CPAP, avec une définition standardisée de la bronchiolite et des scores de gravité validés.
+
+## Revue
+Cochrane Database of Systematic Reviews
+
+## 📖 Référence
+2024 Mar 20;3(3):CD009609. doi: 10.1002/14651858.CD009609.pub3.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1002/14651858.CD009609.pub3.

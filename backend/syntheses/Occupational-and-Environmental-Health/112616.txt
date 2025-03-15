@@ -1,22 +1,26 @@
 Date de publication : 2024-03-05
 
-# 📝 INTERVENTIONS NON MÉDICALES POUR FAVORISER LE RETOUR AU TRAVAIL DES PATIENTS ATTEINTS DE CANCER
+# 📝 Interventions non médicales favorisant le retour au travail des patients atteints de cancer
 
 ## 📌 Contexte & Problématique
-Les patients atteints de cancer ont 1,4 fois plus de risque d'être sans emploi. Cette revue systématique évalue l'efficacité des interventions non médicales facilitant leur retour au travail (RAT).
+Les patients atteints de cancer ont 1,4 fois plus de risques d'être sans emploi que la population générale, d'où l'importance d'évaluer les interventions facilitant leur retour au travail (RAT).
 
 ## 🧪 Méthodologie
-Revue Cochrane incluant 15 essais contrôlés randomisés (1477 participants) évaluant des interventions psycho-éducatives, professionnelles, physiques ou multidisciplinaires. Critères principaux : taux de RAT et durée des arrêts maladie à 12 mois.
+Revue systématique de 15 essais contrôlés randomisés (ECR) incluant 1477 patients atteints de cancer, principalement du sein et de la prostate, dans des pays à revenu élevé. Comparaison de quatre types d'interventions (psycho-éducatives, professionnelles, physiques et multidisciplinaires) aux soins habituels.
 
 ## 📊 Résultats clés
-- Interventions physiques : augmentent probablement le RAT (RR 1,23 [1,08-1,39])
-- Interventions multidisciplinaires : augmentent probablement le RAT (RR 1,23 [1,09-1,33])
-- Interventions psycho-éducatives : peu ou pas d'effet sur le RAT (RR 1,09 [0,96-1,24])
-- Aucune intervention n'a montré d'effet significatif sur la qualité de vie
+- Interventions physiques (marche, yoga, exercices) : augmentation probable du RAT (RR 1,23; IC 95% 1,08-1,39)
+- Interventions multidisciplinaires : augmentation probable du RAT (RR 1,23; IC 95% 1,09-1,33)
+- Interventions psycho-éducatives : peu ou pas d'effet sur le RAT (RR 1,09; IC 95% 0,96-1,24)
+- Interventions professionnelles : preuves très incertaines (RR 0,94; IC 95% 0,78-1,13)
+- Aucune intervention n'a montré d'effet significatif sur la qualité de vie (QdV)
 
 ## 🩺 Impact clinique
-Les programmes d'activité physique et les approches multidisciplinaires devraient être privilégiés pour favoriser le retour au travail des patients cancéreux, avec potentiellement 50 à 244 patients supplémentaires reprenant le travail pour 1000 patients traités.
+Les programmes d'activité physique et les approches multidisciplinaires devraient être privilégiés pour favoriser le retour au travail des patients oncologiques, avec environ 50 à 244 patients supplémentaires retournant au travail pour 1000 patients traités.
+
+## Revue
+Cochrane Database of Systematic Reviews
 
 ## 📖 Référence
-de Boer AG, Tamminga SJ, Boschman JS, et al. Cochrane Database Syst Rev. 2024;3(3):CD007569.
+2024 Mar 5;3(3):CD007569. doi: 10.1002/14651858.CD007569.pub4.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1002/14651858.CD007569.pub4.

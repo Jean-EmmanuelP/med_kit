@@ -1,0 +1,22 @@
+Date de publication : 2024-05-05
+
+# 📝 Vidéolaryngoscopie versus laryngoscopie directe pour l'intubation urgente des nouveau-nés
+
+## 📌 Contexte & Problématique
+Les tentatives répétées d'intubation endotrachéale chez les nouveau-nés augmentent les événements indésirables. La laryngoscopie directe présente un taux de réussite inférieur à 50% à la première tentative. L'efficacité de la vidéolaryngoscopie, qui affiche une vue des voies aériennes sur un écran, restait incertaine chez les nouveau-nés.
+
+## 🧪 Méthodologie
+Essai monocentrique randomisé comparant vidéolaryngoscopie et laryngoscopie directe chez 214 nouveau-nés nécessitant une intubation en salle d'accouchement (29%) ou en USIN (Unité de Soins Intensifs Néonatals) (71%). Stratification selon l'âge gestationnel (<32 ou ≥32 semaines).
+
+## 📊 Résultats clés
+Taux de réussite à la première tentative : 74% avec vidéolaryngoscopie contre 45% avec laryngoscopie directe (p<0,001). Nombre médian de tentatives : 1 vs 2. Saturation médiane minimale en oxygène : 74% vs 68%. Fréquence cardiaque minimale : 153 vs 148 battements/minute.
+
+## 🩺 Impact clinique
+La vidéolaryngoscopie améliore significativement le taux de réussite à la première tentative d'intubation chez les nouveau-nés, réduisant potentiellement les complications liées aux tentatives multiples.
+
+## Revue
+N Engl J Med
+
+## 📖 Référence
+2024;390(20):1885-1894. doi:10.1056/NEJMoa2402785. Epub 2024 May 5. (NCT04994652)
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2402785.

@@ -1,0 +1,22 @@
+Date de publication : 2024-05-23
+
+# 📝 Stratégies transfusionnelles restrictives versus libérales chez les patients atteints d'hémopathies malignes
+
+## 📌 Contexte & Problématique
+L'anémie touche 25-50% des patients avec hémopathies malignes. Les stratégies transfusionnelles varient entre restrictives (seuil d'Hb bas) et libérales (seuil d'Hb élevé), sans consensus sur l'approche optimale.
+
+## 🧪 Méthodologie
+Revue systématique incluant 8 essais contrôlés randomisés (ECR) et 1 étude non randomisée (ENR) comparant les stratégies transfusionnelles chez des patients recevant chimiothérapie/radiothérapie intensive avec/sans greffe de cellules souches hématopoïétiques (GCSH).
+
+## 📊 Résultats clés
+Aucune différence significative n'a été observée entre les stratégies restrictives (70-80 g/L) et libérales (80-120 g/L) concernant la mortalité à 31-100 jours (RR 1,00), les saignements (RR 0,91), les saignements cliniquement significatifs (RR 0,94), les infections graves (RR 1,20), la durée d'hospitalisation et les réadmissions.
+
+## 🩺 Impact clinique
+Les preuves actuelles, majoritairement de faible certitude, suggèrent que les stratégies restrictives sont aussi sûres et efficaces que les stratégies libérales chez les adultes atteints d'hémopathies malignes sous traitement intensif.
+
+## Revue
+Cochrane Database of Systematic Reviews
+
+## 📖 Référence
+2024 May 23;5(5):CD011305. doi: 10.1002/14651858.CD011305.pub3.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1002/14651858.CD011305.pub3.

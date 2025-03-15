@@ -1,0 +1,22 @@
+Date de publication : 2024-07-25
+
+# 📝 Efficacité comparative des traitements pour une première luxation antérieure traumatique de l'épaule
+
+## 📌 Contexte & Problématique
+La luxation antérieure traumatique de l'épaule (LATE) est fréquente et handicapante. Malgré plusieurs essais cliniques, l'efficacité comparative des différents traitements reste mal établie.
+
+## 🧪 Méthodologie
+Méta-analyse en réseau (MAR) d'essais contrôlés randomisés comparant quatre approches thérapeutiques : réparation arthroscopique de Bankart, lavage arthroscopique, immobilisation en rotation externe (RE) et immobilisation en rotation interne (RI). Critères d'évaluation : taux de récidive, scores WOSI (Western Ontario Shoulder Instability Index) et événements indésirables.
+
+## 📊 Résultats clés
+La réparation de Bankart réduit significativement les récidives comparée à l'immobilisation en RI (RR 0,15 ; IC 95% 0,07-0,33). Le lavage arthroscopique (RR 0,47) et l'immobilisation en RE (RR 0,70) montrent des réductions non significatives. Aucune différence notable entre les traitements pour les scores WOSI.
+
+## 🩺 Impact clinique
+La réparation arthroscopique de Bankart est la plus efficace pour prévenir les récidives, mais tous les traitements offrent une qualité de vie similaire. Les effets indésirables varient selon les approches mais n'ont pu être méta-analysés.
+
+## Revue
+J Shoulder Elbow Surg
+
+## 📖 Référence
+2024 Nov;33(11):2505-2514. doi: 10.1016/j.jse.2024.05.036. Epub 2024 Jul 25.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.jse.2024.05.036.

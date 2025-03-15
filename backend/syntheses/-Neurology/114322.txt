@@ -1,0 +1,24 @@
+Date de publication : 2024-09-10
+
+# 📝 Immunomodulateurs et immunosuppresseurs pour la sclérose en plaques progressive : méta-analyse en réseau
+
+## 📌 Contexte & Problématique
+Malgré l'émergence de nombreuses options thérapeutiques pour les formes progressives de sclérose en plaques (SEP), leurs bénéfices et profils de sécurité relatifs restent mal définis en l'absence d'essais comparatifs directs.
+
+## 🧪 Méthodologie
+Méta-analyse en réseau de 23 essais contrôlés randomisés (ECR) incluant 10 167 patients atteints de SEP progressive, comparant divers immunomodulateurs et immunosuppresseurs au placebo ou entre eux. Évaluation selon la méthode GRADE.
+
+## 📊 Résultats clés
+- Réduction probable des poussées à 24 mois avec le rituximab (RR 0,60) et à 36 mois avec l'interféron bêta-1b (RR 0,82) (preuves de certitude modérée)
+- Aucun traitement n'a démontré d'effet significatif sur l'aggravation du handicap avec un niveau de preuve modéré ou élevé
+- Augmentation des arrêts pour événements indésirables avec l'interféron bêta-1a (preuve de certitude élevée) et probablement avec plusieurs autres molécules dont le rituximab et l'interféron bêta-1b
+
+## 🩺 Impact clinique
+Les bénéfices des traitements immunomodulateurs dans la SEP progressive semblent limités principalement à la réduction des poussées, sans effet démontré sur la progression du handicap, tout en présentant un risque accru d'effets indésirables conduisant à l'arrêt du traitement.
+
+## Revue
+Cochrane Database of Systematic Reviews
+
+## 📖 Référence
+2024 Sep 10;9(9):CD015443. doi: 10.1002/14651858.CD015443.pub2.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1002/14651858.CD015443.pub2.

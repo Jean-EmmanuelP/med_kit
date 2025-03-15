@@ -1,0 +1,22 @@
+Date de publication : 2024-06-04
+
+# 📝 Ponatinib vs Imatinib en première ligne dans la LAL Ph+ : un essai clinique randomisé
+
+## 📌 Contexte & Problématique
+La leucémie aiguë lymphoblastique à chromosome Philadelphie positif (LAL Ph+) développe fréquemment une résistance aux inhibiteurs de tyrosine kinase BCR::ABL1 de première/deuxième génération. Le ponatinib inhibe BCR::ABL1 et toutes ses variantes mutées, y compris T315I.
+
+## 🧪 Méthodologie
+Essai de phase 3, ouvert, randomisant 245 adultes atteints de LAL Ph+ nouvellement diagnostiquée (2:1) pour recevoir ponatinib (30 mg/j) ou imatinib (600 mg/j) avec chimiothérapie d'intensité réduite, puis en monothérapie après le cycle 20.
+
+## 📊 Résultats clés
+Le taux de rémission complète avec maladie résiduelle minimale (MRM) négative était significativement supérieur avec ponatinib (34,4%) vs imatinib (16,7%) (p=0,002). La survie sans événement médiane n'a pas été atteinte dans le groupe ponatinib contre 29 mois pour imatinib. Les événements occlusifs artériels étaient comparables (ponatinib 2,5%, imatinib 1,2%).
+
+## 🩺 Impact clinique
+Le ponatinib en première ligne combiné à une chimiothérapie d'intensité réduite offre un meilleur taux de rémission complète avec MRM négative que l'imatinib chez les adultes atteints de LAL Ph+, avec un profil de sécurité comparable.
+
+## Revue
+JAMA
+
+## 📖 Référence
+2024;331(21):1814-1823. doi:10.1001/jama.2024.4783
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jama.2024.4783.

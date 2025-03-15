@@ -1,19 +1,22 @@
 Date de publication : 2025-01-08
 
-# 📝 Effet des campagnes de masse avec doses complètes et fractionnées de vaccin pneumococcique conjugué sur le portage nasopharyngé au Niger
+# 📝 Effet des campagnes de masse avec doses complètes et fractionnées de vaccin antipneumococcique conjugué sur le portage nasopharyngé au Niger
 
 ## 📌 Contexte & Problématique
-Dans les régions à faible couverture vaccinale, les campagnes de masse avec vaccin pneumococcique conjugué (VPC) pourraient améliorer l'immunité collective. L'étude évalue l'impact de doses complètes et fractionnées de Pneumosil (VPC10) sur le portage nasopharyngé pneumococcique chez les enfants nigériens.
+Dans les régions à faible couverture vaccinale, les campagnes de masse avec vaccin antipneumococcique conjugué (VPC) pourraient améliorer l'immunité collective. Cette étude évalue l'impact de campagnes utilisant Pneumosil (VPC10) sur le portage nasopharyngé pneumococcique chez les enfants nigériens.
 
 ## 🧪 Méthodologie
-Essai randomisé en grappes à trois bras (63 grappes) : dose complète de Pneumosil, un cinquième de dose, ou aucune vaccination. Prélèvements nasopharyngés réalisés 6 mois avant et après vaccination chez 2268 ménages.
+Essai en grappes randomisé à trois bras (63 grappes) : dose complète de VPC10, un cinquième de dose, ou aucune intervention. Prélèvements nasopharyngés chez 2268 ménages avant et 6 mois après vaccination pour culture et sérotypage.
 
 ## 📊 Résultats clés
-Portage des sérotypes vaccinaux post-vaccination : 4,6% (dose complète), 8,0% (dose fractionnée), 16,5% (groupe témoin). Différence de risque : -16,2% entre dose complète et témoin (p=0,002), -3,8% entre dose complète et fractionnée (non-infériorité confirmée). Aucun événement indésirable lié à la vaccination.
+Après vaccination, le portage des sérotypes vaccinaux a diminué de 15,6% à 4,6% (dose complète), de 17,9% à 8,0% (dose fractionnée), tandis qu'il est resté stable dans le groupe témoin (18,8% à 16,5%). Différence de risque : -16,2% entre dose complète et témoin (p=0,002), -3,8% entre dose complète et fractionnée (non-infériorité démontrée).
 
 ## 🩺 Impact clinique
-Les campagnes ciblant plusieurs cohortes d'âge réduisent significativement le portage pneumococcique. Les doses fractionnées, plus économiques, montrent une efficacité comparable aux doses complètes, offrant une stratégie viable pour les contextes à ressources limitées et situations d'urgence humanitaire.
+Les campagnes multi-cohortes avec VPC10 réduisent significativement le portage pneumococcique, même avec doses fractionnées. Cette approche pourrait être particulièrement utile dans les contextes à faible couverture ou lors d'urgences humanitaires.
+
+## Revue
+Lancet Infectious Diseases
 
 ## 📖 Référence
-Coldiron ME, Soumana I, Baudin E, et al. Lancet Infect Dis. 2025 Jan 8:S1473-3099(24)00719-9.
+2025 Jan 8:S1473-3099(24)00719-9. doi: 10.1016/S1473-3099(24)00719-9
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S1473-3099(24)00719-9.

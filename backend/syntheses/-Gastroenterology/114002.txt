@@ -1,19 +1,22 @@
 Date de publication : 2024-07-03
 
-# 📝 Zastaprazan versus ésoméprazole dans l'œsophagite érosive : étude randomisée de phase 3
+# 📝 Zastaprazan versus Ésoméprazole dans l'Œsophagite Érosive
 
 ## 📌 Contexte & Problématique
-Le zastaprazan, nouvel inhibiteur acide compétitif du potassium, a été évalué face à l'ésoméprazole dans le traitement de l'œsophagite érosive (OE).
+Le zastaprazan est un nouvel inhibiteur compétitif des pompes à potassium développé pour le reflux gastro-œsophagien. Son efficacité et sa sécurité ont été comparées à l'ésoméprazole chez des patients atteints d'œsophagite érosive (OE).
 
 ## 🧪 Méthodologie
-Étude multicentrique randomisée en double aveugle incluant 300 patients avec OE confirmée. Comparaison: zastaprazan 20 mg versus ésoméprazole 40 mg quotidiennement pendant 8 semaines. Critère principal: taux de guérison endoscopique à 8 semaines.
+Étude de phase III multicentrique, randomisée, en double aveugle, incluant 300 patients avec OE confirmée. Les participants ont reçu soit 20 mg de zastaprazan, soit 40 mg d'ésoméprazole quotidiennement pendant 8 semaines, avec évaluation endoscopique de la guérison.
 
 ## 📊 Résultats clés
-Taux de guérison à 8 semaines: 97,92% (zastaprazan) contre 94,93% (ésoméprazole), p=0,178. À 4 semaines: 95,14% contre 87,68% (p=0,026), avantage significatif pour le zastaprazan. Profils de sécurité comparables. Augmentation des taux sériques de gastrine dans les deux groupes (p=0,047).
+Les taux de guérison à 8 semaines étaient comparables (zastaprazan: 97,92%, ésoméprazole: 94,93%, P=0,178). À 4 semaines, le zastaprazan montrait une supériorité significative (95,14% contre 87,68%, P=0,026). Les profils de sécurité et l'amélioration symptomatique étaient similaires entre les groupes.
 
 ## 🩺 Impact clinique
-Le zastaprazan 20 mg est non-inférieur à l'ésoméprazole 40 mg dans l'OE de faible grade, avec une cicatrisation potentiellement plus rapide à 4 semaines.
+Le zastaprazan 20 mg n'est pas inférieur à l'ésoméprazole 40 mg dans le traitement de l'OE, avec une possible efficacité plus rapide à 4 semaines, offrant une alternative thérapeutique potentiellement avantageuse.
+
+## Revue
+American Journal of Gastroenterology
 
 ## 📖 Référence
-Oh JH, Kim HS, Cheung DY, et al. Am J Gastroenterol. 2025;120(2):353-361.
+2025;120(2):353-361. doi:10.14309/ajg.0000000000002929. Epub 2024 Jul 3.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.14309/ajg.0000000000002929.

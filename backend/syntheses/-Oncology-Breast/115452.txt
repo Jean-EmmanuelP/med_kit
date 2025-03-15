@@ -1,19 +1,22 @@
 Date de publication : 2025-01-16
 
-# 📝 Trastuzumab Emtansine améliore la survie dans le cancer du sein HER2+ avec maladie résiduelle
+# 📝 Survie avec le trastuzumab emtansine dans le cancer du sein HER2-positif résiduel
 
 ## 📌 Contexte & Problématique
-Les patients avec cancer du sein HER2+ présentant une maladie résiduelle après traitement néoadjuvant ont un risque élevé de récidive. L'étude KATHERINE a évalué l'efficacité du trastuzumab emtansine (T-DM1) versus trastuzumab seul dans cette population.
+Les patients atteints d'un cancer du sein HER2-positif précoce avec maladie résiduelle après traitement néoadjuvant présentent un risque élevé de récidive. L'étude KATHERINE évalue l'efficacité du trastuzumab emtansine (T-DM1) versus trastuzumab seul dans cette population.
 
 ## 🧪 Méthodologie
-Essai randomisé de phase 3 comparant 14 cycles de T-DM1 versus trastuzumab chez des patients avec cancer du sein HER2+ présentant une maladie résiduelle après chimiothérapie néoadjuvante à base de taxane et trastuzumab.
+Essai randomisé de phase 3 comparant 14 cycles de T-DM1 versus trastuzumab chez des patients avec maladie résiduelle après chimiothérapie néoadjuvante à base de taxane et trastuzumab.
 
 ## 📊 Résultats clés
-Après 8,4 ans de suivi médian, le T-DM1 a maintenu l'amélioration de la survie sans maladie invasive (HR=0,54; IC95%:0,44-0,66) avec un taux à 7 ans de 80,8% versus 67,1% pour le trastuzumab. La survie globale était significativement améliorée (HR=0,66; IC95%:0,51-0,87; p=0,003), atteignant 89,1% à 7 ans versus 84,4% avec trastuzumab.
+Après 8,4 ans de suivi médian, le T-DM1 maintient une amélioration significative de la survie sans maladie invasive (80,8% vs 67,1% à 7 ans; HR=0,54; IC 95%: 0,44-0,66) et de la survie globale (89,1% vs 84,4% à 7 ans; HR=0,66; IC 95%: 0,51-0,87; p=0,003). Les événements indésirables de grade ≥3 étaient plus fréquents avec le T-DM1 (26,1% vs 15,7%).
 
 ## 🩺 Impact clinique
-Le T-DM1 représente un standard thérapeutique pour les patients HER2+ avec maladie résiduelle post-traitement néoadjuvant, offrant un bénéfice significatif en survie malgré plus d'effets indésirables de grade ≥3 (26,1% vs 15,7%).
+Le T-DM1 adjuvant représente un standard thérapeutique pour les patients HER2-positifs avec maladie résiduelle après traitement néoadjuvant, offrant un bénéfice de survie significatif et durable.
+
+## Revue
+N Engl J Med
 
 ## 📖 Référence
-Geyer CE Jr, Untch M, Huang CS, et al. Survival with Trastuzumab Emtansine in Residual HER2-Positive Breast Cancer. N Engl J Med. 2025;392(3):249-257.
+2025;392(3):249-257. doi:10.1056/NEJMoa2406070. NCT01772472.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2406070.

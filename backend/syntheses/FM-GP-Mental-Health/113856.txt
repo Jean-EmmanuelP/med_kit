@@ -1,19 +1,22 @@
 Date de publication : 2024-07-01
 
-# 📝 Efficacité comparative de trois interventions numériques en santé mentale
+# 📝 Efficacité comparative de trois interventions numériques pour adultes cherchant des services psychiatriques
 
 ## 📌 Contexte & Problématique
-Face au déséquilibre entre demande et disponibilité des services psychiatriques, les interventions numériques en santé mentale (INSM) apparaissent comme solutions potentielles. Leur efficacité comparative reste cependant peu documentée.
+Face à l'écart entre demande et disponibilité des services de santé mentale, les interventions numériques en santé mentale (INSM) apparaissent comme solution potentielle, mais leur efficacité comparative reste peu documentée.
 
 ## 🧪 Méthodologie
-Essai clinique randomisé (2020-2022) incluant 2079 patients adultes (âge moyen 36,8 ans, 68,4% femmes) des services psychiatriques ambulatoires. Cinq groupes d'intervention : retour personnalisé amélioré (RPA) seul, Silvercloud (TCC) seul, Silvercloud+RPA, Headspace (pleine conscience) seul, Headspace+RPA. Suivi à 6 semaines.
+Essai clinique randomisé (2020-2022) incluant 2079 patients adultes (âge moyen 36,8 ans, 68,4% femmes) des services psychiatriques ambulatoires, répartis en 5 groupes : retour personnalisé amélioré (RPA) seul, Silvercloud (thérapie cognitivo-comportementale - TCC) seul, Silvercloud+RPA, Headspace (pleine conscience) seul, et Headspace+RPA. Suivi à 6 semaines.
 
 ## 📊 Résultats clés
-Tous les groupes ont montré une réduction significative des symptômes dépressifs (PHQ-9) à 6 semaines (diminution de -2,1 à -2,9 points), sans différence significative entre les interventions (p=0,31). Les groupes Headspace ont présenté une amélioration supérieure des symptômes suicidaires comparés aux groupes Silvercloud (différence moyenne=0,63; IC95%:0,20-1,06; p=0,004).
+Tous les groupes ont montré une réduction significative des symptômes dépressifs (PHQ-9) sans différence significative entre les interventions. Les groupes Headspace ont présenté des améliorations plus importantes sur l'échelle de suicidalité comparés aux groupes Silvercloud (p=0,004), sans différence pour l'anxiété et la consommation de substances.
 
 ## 🩺 Impact clinique
-Les INSM, indépendamment de leur type, peuvent efficacement soutenir les patients en attente de soins psychiatriques. La pleine conscience (Headspace) pourrait offrir un avantage spécifique pour les patients présentant des idées suicidaires.
+Les INSM, indépendamment de leur type, peuvent offrir un soutien efficace aux patients pendant les délais d'attente pour des soins psychiatriques, avec un avantage potentiel des interventions basées sur la pleine conscience pour la suicidalité.
+
+## Revue
+JAMA Network Open
 
 ## 📖 Référence
-Horwitz AG, Mills ED, Sen S, et al. Comparative Effectiveness of Three Digital Interventions for Adults Seeking Psychiatric Services: A Randomized Clinical Trial. JAMA Netw Open. 2024;7(7):e2422115.
+2024;7(7):e2422115. doi:10.1001/jamanetworkopen.2024.22115
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamanetworkopen.2024.22115.

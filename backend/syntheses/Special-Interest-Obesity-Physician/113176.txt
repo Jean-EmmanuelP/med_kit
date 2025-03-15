@@ -1,0 +1,22 @@
+Date de publication : 2024-05-02
+
+# 📝 Effet du sémaglutide 2,4 mg sur le fonctionnement physique et la qualité de vie chez les adultes en surpoids ou obèses
+
+## 📌 Contexte & Problématique
+Évaluation de l'impact du sémaglutide 2,4 mg sur la qualité de vie liée au poids (QDVLP), la qualité de vie liée à la santé (QDVLS) et particulièrement le fonctionnement physique chez les personnes en surpoids/obésité.
+
+## 🧪 Méthodologie
+Analyse des essais STEP 1-4 (phase 3a, randomisés, contrôlés, double aveugle, 68 semaines) comparant sémaglutide 2,4 mg versus placebo. Évaluation par questionnaires IWQOL-Lite-CT (STEP 1-2) et SF-36v2 (STEP 1-4).
+
+## 📊 Résultats clés
+Supériorité du sémaglutide 2,4 mg confirmée sur les scores de fonctionnement physique. Plus de participants sous sémaglutide ont atteint un changement significatif intra-individuel (CSII) : IWQOL-Lite-CT dans STEP 1 (51,8% vs 28,3%, p<0,0001) et STEP 2 (39,6% vs 29,5%, p=0,0083); SF-36v2 dans STEP 1, 2 et 4 (p<0,0001).
+
+## 🩺 Impact clinique
+Le sémaglutide 2,4 mg améliore significativement le fonctionnement physique et montre des effets bénéfiques sur la QDVLP et la QDVLS globales chez les patients en surpoids/obésité.
+
+## Revue
+Diabetes, Obesity and Metabolism
+
+## 📖 Référence
+2024;26(7):2945-2955. doi:10.1111/dom.15620
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1111/dom.15620.

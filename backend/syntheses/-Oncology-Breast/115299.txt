@@ -3,17 +3,23 @@ Date de publication : 2024-12-22
 # 📝 Événements thromboemboliques associés aux inhibiteurs de points de contrôle immunitaires chez les patients cancéreux
 
 ## 📌 Contexte & Problématique
-Le risque d'événements thromboemboliques (ETE) associés aux inhibiteurs de points de contrôle immunitaires (ICI) demeure incertain malgré leur utilisation croissante en oncologie.
+Les inhibiteurs de points de contrôle immunitaires (ICI) ont révolutionné le traitement du cancer, mais le risque d'événements thromboemboliques (ETE) associés reste mal défini.
 
 ## 🧪 Méthodologie
-Méta-analyse en réseau de 83 essais cliniques randomisés (2021-2023) incluant 54 736 patients cancéreux, comparant différents ICI (atézolizumab, cémiplimab, durvalumab, ipilimumab, nivolumab, pembrolizumab) seuls ou en combinaison.
+Méta-analyse en réseau de 83 essais cliniques randomisés (2021-2023) incluant 54 736 patients, comparant différents ICI (atézolizumab, cémiplimab, durvalumab, ipilimumab, nivolumab, pembrolizumab) seuls ou en combinaison avec des thérapies conventionnelles.
 
 ## 📊 Résultats clés
-Le nivolumab présente le risque le plus faible de thromboembolie veineuse (TEV) (OR 0,39; IC95% 0,19-0,80). L'ipilimumab montre le risque le plus élevé d'embolie pulmonaire (OR 4,09; IC95% 1,13-15,51) versus nivolumab. La combinaison d'un ICI avec thérapie conventionnelle augmente significativement le risque d'ETE comparé à deux ICI combinés.
+- Nivolumab: risque plus faible de thromboembolie veineuse (TEV) vs combinaisons d'ICI avec thérapie conventionnelle (OR 0,39)
+- Ipilimumab: risque plus élevé d'embolie pulmonaire (EP) vs nivolumab (OR 4,09)
+- Durvalumab: incidence plus élevée de thromboembolie artérielle (TEA), d'infarctus du myocarde (IM) et d'accidents cérébrovasculaires (ACV)
+- Monothérapie ICI + thérapie conventionnelle: risque plus élevé d'ETE vs double thérapie ICI
 
 ## 🩺 Impact clinique
-Les différents ICI présentent des profils de risque thromboembolique distincts. Le nivolumab offre un profil de sécurité favorable pour la TEV, tandis que l'ipilimumab présente le risque le plus élevé. Des stratégies préventives personnalisées sont nécessaires.
+Les différents ICI présentent des profils de risque thromboembolique distincts, nécessitant des stratégies de gestion adaptées. Le nivolumab montre un profil de sécurité favorable pour la TEV, tandis que l'ipilimumab présente le risque le plus élevé de TEV et d'EP.
+
+## Revue
+Thrombosis Research
 
 ## 📖 Référence
-Lin J, Li W, Zhang X, et al. Thromboembolic events associated with immune checkpoint inhibitors in cancer patients: A Bayesian network meta-analysis. Thromb Res. 2025;246:109243.
+2025 Feb;246:109243. doi: 10.1016/j.thromres.2024.109243. Epub 2024 Dec 22.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.thromres.2024.109243.

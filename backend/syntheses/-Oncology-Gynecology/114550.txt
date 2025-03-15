@@ -1,19 +1,22 @@
 Date de publication : 2024-10-03
 
-# 📝 Cédiranib et Olaparib vs Chimiothérapie Standard dans le Cancer Ovarien Résistant au Platine
+# 📝 Cédiranib et Olaparib vs Chimiothérapie dans le Cancer de l'Ovaire Résistant au Platine
 
 ## 📌 Contexte & Problématique
-Évaluation de l'efficacité du cédiranib, de l'olaparib et de leur combinaison comparée à la chimiothérapie standard (SOC) chez les patientes atteintes de cancer ovarien résistant/réfractaire au platine (PROC).
+Évaluation de l'efficacité du cédiranib, de l'olaparib et de leur association comparés à la chimiothérapie standard dans le cancer ovarien épithélial résistant ou réfractaire au platine (PROC).
 
 ## 🧪 Méthodologie
-Essai NRG-GY005 (phase II/III) à quatre bras randomisés (SOC, cédiranib, olaparib, cédiranib/olaparib) incluant 562 patientes avec PROC séreux/endométrioïde de haut grade. Co-critères principaux : survie sans progression (PFS) et survie globale (OS).
+Essai NRG-GY005, phase II/III, ouvert, à quatre bras (chimiothérapie standard [SOC], cédiranib, olaparib, cédiranib/olaparib), incluant 562 patientes atteintes de PROC séreux/endométrioïde de haut grade. Critères d'évaluation coprimaires: survie sans progression (PFS) et survie globale (OS).
 
 ## 📊 Résultats clés
-PFS médiane : 3,4 mois (SOC), 5,2 mois (cédiranib/olaparib), 4 mois (cédiranib). HR pour cédiranib/olaparib vs SOC : 0,796 (IC 98,3%, 0,597-1,060). OS médiane : 13,6 mois (SOC), 12,8 mois (cédiranib/olaparib), 10,5 mois (cédiranib). Taux de réponse objective : 8,6% (SOC), 24,7% (cédiranib/olaparib), 13,1% (cédiranib).
+PFS médiane: 3,4 mois (SOC), 5,2 mois (cédiranib/olaparib), 4 mois (cédiranib). OS médiane: 13,6 mois (SOC), 12,8 mois (cédiranib/olaparib), 10,5 mois (cédiranib). Taux de réponse objective: 8,6% (SOC), 24,7% (cédiranib/olaparib), 13,1% (cédiranib). Aucune différence significative dans les résultats rapportés par les patientes.
 
 ## 🩺 Impact clinique
-Les traitements contenant du cédiranib ont montré une activité clinique mais n'étaient pas statistiquement supérieurs à la chimiothérapie standard en termes de PFS et OS.
+Les bras contenant du cédiranib ont montré une activité clinique basée sur la PFS mais n'ont pas démontré de supériorité statistiquement significative par rapport à la chimiothérapie standard.
+
+## Revue
+Journal of Clinical Oncology
 
 ## 📖 Référence
-Lee JM, Brady MF, Miller A, et al. J Clin Oncol. 2024;42(36):4305-4316.
+2024;42(36):4305-4316. doi: 10.1200/JCO.24.00683. Epub 2024 Oct 3.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO.24.00683.

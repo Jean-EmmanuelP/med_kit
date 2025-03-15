@@ -1,0 +1,22 @@
+Date de publication : 2024-06-03
+
+# 📝 Protocoles RAAC : impact sur les résultats chirurgicaux
+
+## 📌 Contexte & Problématique
+Les protocoles de récupération améliorée après chirurgie (RAAC) sont largement adoptés, mais une revue complète de leur efficacité manquait. Cette méta-analyse évalue leur impact sur la durée d'hospitalisation, les réadmissions, les complications et la mortalité comparativement aux soins standards.
+
+## 🧪 Méthodologie
+Méta-analyse de 74 essais cliniques randomisés (9076 participants) issus de 21 pays et couvrant 9 types de procédures chirurgicales. Les bases de données MEDLINE, Embase, CINAHL et Cochrane ont été consultées jusqu'en juin 2021. L'étude a suivi les directives PRISMA avec évaluation du risque de biais.
+
+## 📊 Résultats clés
+Les protocoles RAAC ont réduit significativement la durée d'hospitalisation (-1,88 jours; IC 95%, 0,95-2,81) et le risque de complications (RR 0,71; IC 95%, 0,59-0,87). Aucune différence significative n'a été observée concernant les réadmissions à 30 jours et la mortalité.
+
+## 🩺 Impact clinique
+L'implémentation des protocoles RAAC améliore les résultats chirurgicaux en réduisant la durée d'hospitalisation et les complications postopératoires, sans augmenter les réadmissions ou la mortalité.
+
+## Revue
+JAMA Network Open
+
+## 📖 Référence
+2024;7(6):e2417310. doi:10.1001/jamanetworkopen.2024.17310
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamanetworkopen.2024.17310.

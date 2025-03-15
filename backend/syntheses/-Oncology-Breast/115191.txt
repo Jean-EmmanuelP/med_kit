@@ -1,19 +1,22 @@
 Date de publication : 2024-12-12
 
-# 📝 Surveillance active vs traitement standard pour le CCIS à faible risque : essai COMET
+# 📝 Surveillance active pour le carcinome canalaire in situ à faible risque : essai COMET
 
 ## 📌 Contexte & Problématique
-Le carcinome canalaire in situ (CCIS) du sein à faible risque pourrait être candidat à une surveillance active plutôt qu'au traitement standard, mais la sécurité de cette approche restait à démontrer.
+La sécurité de la surveillance active comme alternative aux traitements standards pour le carcinome canalaire in situ (CCIS) du sein à faible risque reste incertaine.
 
 ## 🧪 Méthodologie
-Essai randomisé de non-infériorité incluant 957 femmes ≥40 ans avec CCIS de grade 1-2, RH+. Deux groupes : surveillance active (n=484) avec suivi semestriel versus soins standards (n=473) avec chirurgie ±radiothérapie. Critère principal : taux de cancer invasif ipsilatéral à 2 ans.
+Essai randomisé de non-infériorité incluant 957 femmes (≥40 ans) avec CCIS de grade 1-2, récepteurs hormonaux positifs, réparties entre surveillance active (n=484) et soins standards (chirurgie ± radiothérapie; n=473). Critère principal : risque cumulé à 2 ans de cancer invasif ipsilatéral, avec limite de non-infériorité de 0,05%.
 
 ## 📊 Résultats clés
-Âge médian : 63,7 ans. Suivi médian : 36,9 mois. Taux cumulé de cancer invasif ipsilatéral à 2 ans : 4,2% (surveillance) vs 5,9% (soins standards), différence -1,7% (limite supérieure IC 95% : 0,95%). Les caractéristiques tumorales étaient similaires entre les groupes.
+Après suivi médian de 36,9 mois, le taux cumulé à 2 ans de cancer invasif ipsilatéral était de 4,2% sous surveillance active contre 5,9% avec soins standards (différence -1,7%, limite supérieure IC 95% : 0,95%), démontrant la non-infériorité. Les caractéristiques tumorales étaient similaires entre les groupes.
 
 ## 🩺 Impact clinique
-La surveillance active n'est pas inférieure aux soins standards pour les CCIS à faible risque concernant le développement de cancer invasif à 2 ans, offrant une alternative potentielle au traitement chirurgical immédiat.
+La surveillance active n'augmente pas le risque de cancer invasif à 2 ans chez les patientes avec CCIS à faible risque et pourrait constituer une alternative sûre aux traitements conventionnels.
+
+## Revue
+JAMA
 
 ## 📖 Référence
-Hwang ES, Hyslop T, Lynch T, et al. JAMA. 2024 Dec 12. doi: 10.1001/jama.2024.26698.
+2024 Dec 12. doi: 10.1001/jama.2024.26698.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jama.2024.26698.

@@ -3,20 +3,23 @@ Date de publication : 2024-12-17
 # 📝 Cibles de pression artérielle plus élevées pour l'hypertension chez les personnes âgées
 
 ## 📌 Contexte & Problématique
-La prise en charge optimale de l'hypertension chez les personnes âgées (≥65 ans) reste controversée. Les recommandations actuelles proposent des cibles de PA systolique variables (130-150 mmHg), sans consensus clair sur le rapport bénéfice-risque d'une approche intensive chez cette population.
+Les recommandations actuelles sur les cibles de pression artérielle (PA) pour les personnes âgées hypertendues sont incohérentes (entre <130 mmHg et <150 mmHg systolique). Cette mise à jour de revue Cochrane évalue si des cibles moins agressives seraient appropriées chez les adultes ≥65 ans.
 
 ## 🧪 Méthodologie
-Revue systématique Cochrane incluant 4 essais randomisés (16 732 patients âgés, moyenne 70,3 ans) comparant des cibles de PA plus élevées (150-160/95-105 mmHg) à des cibles plus basses (≤140/90 mmHg). Suivi de 2-4 ans.
+Analyse de 4 essais contrôlés randomisés (16 732 participants, âge moyen 70,3 ans) comparant des cibles de PA plus élevées (<150-160/95-105 mmHg) à des cibles plus basses (<140/90 mmHg ou moins) avec suivi de 2-4 ans.
 
 ## 📊 Résultats clés
-- Mortalité toutes causes : pas de différence significative (RR 1,14; IC 95% 0,95-1,37)
-- AVC : augmentation significative avec cibles plus élevées (RR 1,33; IC 95% 1,06-1,67)
-- Événements cardiovasculaires graves : augmentation probable avec cibles plus élevées (RR 1,25; IC 95% 1,09-1,45)
-- Abandons dus aux effets indésirables : pas de différence significative (RR 0,99; IC 95% 0,74-1,33)
+- Mortalité toutes causes : pas de différence significative (RR 1,14, IC 95% 0,95-1,37; preuves de faible certitude)
+- AVC : augmentation significative avec cibles plus élevées (RR 1,33, IC 95% 1,06-1,67; preuves de haute certitude)
+- Événements cardiovasculaires graves : augmentation probable avec cibles plus élevées (RR 1,25, IC 95% 1,09-1,45; preuves de certitude modérée)
+- Abandons dus aux effets indésirables : pas de différence significative
 
 ## 🩺 Impact clinique
-Les cibles tensionnelles plus basses (≤140/90 mmHg) réduisent significativement les AVC et probablement les événements cardiovasculaires graves, sans augmenter les effets indésirables, malgré l'absence d'effet sur la mortalité globale.
+Les cibles de PA plus basses (<140/90 mmHg) réduisent significativement les AVC et événements cardiovasculaires chez les personnes âgées hypertendues, sans impact démontré sur la mortalité globale.
+
+## Revue
+Cochrane Database of Systematic Reviews
 
 ## 📖 Référence
-Falk JM, Froentjes L, Kirkwood JE, et al. Cochrane Database Syst Rev. 2024;12(12):CD011575.
+2024;12(12):CD011575. doi:10.1002/14651858.CD011575.pub3
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1002/14651858.CD011575.pub3.

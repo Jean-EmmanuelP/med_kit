@@ -1,0 +1,22 @@
+Date de publication : 2024-09-15
+
+# 📝 Efficacité du concentré d'aspirat de moelle osseuse autologue lors de méniscectomie arthroscopique chez les patients atteints d'arthrose précoce du genou
+
+## 📌 Contexte & Problématique
+L'injection de concentré d'aspirat de moelle osseuse autologue (BMAC) comme adjuvant à la méniscectomie partielle arthroscopique (MPA) chez les patients avec déchirures méniscales et arthrose légère du genou manquait d'évaluation par essai contrôlé randomisé.
+
+## 🧪 Méthodologie
+Essai contrôlé randomisé (niveau 1) comparant deux groupes de patients (≥18 ans) subissant une MPA : avec BMAC et contrôle (sans BMAC). Critère principal : score IKDC (Comité international de documentation du genou) à 1 an post-opératoire.
+
+## 📊 Résultats clés
+Sur 95 patients recrutés, 83 ont été analysés. Aucune différence significative dans les scores IKDC (p=0,687) ou résultats radiographiques à 1 an. Cependant, le groupe BMAC a montré des taux supérieurs d'atteinte de la différence minimale cliniquement importante pour KOOS Sport (100% vs 80%, p=0,023) et KOOS Symptômes (92,3% vs 68%, p=0,038).
+
+## 🩺 Impact clinique
+L'ajout de BMAC lors d'une MPA n'améliore pas significativement les résultats cliniques ou radiographiques à 1 an chez les patients présentant une déchirure méniscale avec arthrose légère concomitante.
+
+## Revue
+American Journal of Sports Medicine
+
+## 📖 Référence
+2024;52(12):2963-2971. doi:10.1177/03635465241275647. Epub 2024 Sep 15.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1177/03635465241275647.

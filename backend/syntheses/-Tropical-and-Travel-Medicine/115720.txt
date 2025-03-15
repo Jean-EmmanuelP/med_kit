@@ -1,0 +1,22 @@
+Date de publication : 2025-02-04
+
+# 📝 Sécurité et efficacité de l'administration massive répétée d'ivermectine pour le contrôle du paludisme
+
+## 📌 Contexte & Problématique
+La résistance aux insecticides menace l'efficacité des interventions traditionnelles contre le paludisme. L'ivermectine, médicament antiparasitaire, pourrait constituer un outil complémentaire en tuant les moustiques qui se nourrissent du sang des personnes traitées.
+
+## 🧪 Méthodologie
+Essai de phase 3, randomisé en grappes, double aveugle, contrôlé par placebo au Burkina Faso (2019-2020). Quatorze villages ont été répartis entre administration massive de médicaments (AMM) d'ivermectine à haute dose (300 μg/kg) ou placebo mensuellement pendant la saison des pluies, en complément de la chimioprévention du paludisme saisonnier (CPS).
+
+## 📊 Résultats clés
+L'incidence hebdomadaire du paludisme chez les enfants ≤10 ans était similaire entre les groupes (1,78/100 personnes-semaines pour l'ivermectine vs 1,84 pour le placebo; RR=0,96; IC 95%: 0,58-1,59). Le groupe ivermectine a présenté moins d'événements indésirables (RR=0,63; IC 95%: 0,46-0,87) et une réduction significative de la survie des moustiques la semaine suivant l'AMM.
+
+## 🩺 Impact clinique
+Malgré l'effet létal démontré sur les moustiques, l'AMM d'ivermectine n'a pas réduit significativement l'incidence du paludisme, possiblement en raison de la distribution simultanée de moustiquaires à double composition chimique et de la CPS.
+
+## Revue
+Lancet Infectious Diseases
+
+## 📖 Référence
+2025 Feb 4:S1473-3099(24)00751-5. doi: 10.1016/S1473-3099(24)00751-5.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S1473-3099(24)00751-5.

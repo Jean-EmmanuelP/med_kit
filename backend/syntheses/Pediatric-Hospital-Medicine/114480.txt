@@ -1,0 +1,25 @@
+Date de publication : 2024-09-23
+
+# 📝 Prophylaxie antibiotique à long terme pour la prévention des récidives du rhumatisme articulaire aigu et de la progression vers la cardiopathie rhumatismale
+
+## 📌 Contexte & Problématique
+Le rhumatisme articulaire aigu (RAA) est une séquelle inflammatoire de la pharyngite à streptocoque du groupe A, pouvant évoluer vers une cardiopathie rhumatismale (CR). La prophylaxie antibiotique pourrait réduire les récidives et la progression de la maladie.
+
+## 🧪 Méthodologie
+Revue systématique de 11 études (7 ECR, 4 quasi-randomisés) incluant 3951 participants, comparant antibiotiques versus placebo et pénicilline intramusculaire versus antibiotiques oraux.
+
+## 📊 Résultats clés
+- Les antibiotiques réduisent significativement le risque de récidive du RAA (0,7% vs 1,7%, RR 0,39, IC 95% 0,22-0,69)
+- La pénicilline intramusculaire est plus efficace que les antibiotiques oraux pour prévenir les récidives (0,1% vs 1%, RR 0,07, IC 95% 0,02-0,26)
+- Les patients avec CR légère bénéficient davantage de la prophylaxie (RR 0,09, IC 95% 0,03-0,29)
+- Effets indésirables : risque accru de réactions d'hypersensibilité et locales
+
+## 🩺 Impact clinique
+La prophylaxie antibiotique, particulièrement par pénicilline intramusculaire, est efficace pour prévenir les récidives du RAA et devrait être privilégiée, surtout chez les patients avec CR légère.
+
+## Revue
+Cochrane Database of Systematic Reviews
+
+## 📖 Référence
+2024 Sep 23;9(9):CD015779. doi: 10.1002/14651858.CD015779.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1002/14651858.CD015779.

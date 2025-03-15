@@ -1,0 +1,22 @@
+Date de publication : 2024-05-31
+
+# 📝 Asciminib en première ligne dans la leucémie myéloïde chronique
+
+## 📌 Contexte & Problématique
+L'asciminib, inhibiteur de BCR::ABL1 ciblant la poche myristoylée d'ABL, pourrait offrir une alternative plus efficace et plus sûre que les inhibiteurs de tyrosine kinase (ITK) conventionnels pour les patients nouvellement diagnostiqués avec une leucémie myéloïde chronique (LMC).
+
+## 🧪 Méthodologie
+Essai de phase 3 randomisant 405 patients atteints de LMC nouvellement diagnostiquée pour recevoir soit l'asciminib (80 mg/jour), soit un ITK choisi par l'investigateur. Le critère principal était l'obtention d'une réponse moléculaire majeure (≤0,1% BCR::ABL1 IS) à 48 semaines.
+
+## 📊 Résultats clés
+L'asciminib a démontré une supériorité significative avec 67,7% de réponses moléculaires majeures à 48 semaines contre 49,0% pour les ITK (p<0,001). La différence était particulièrement marquée versus imatinib (69,3% vs 40,2%, p<0,001). Les événements indésirables graves et les arrêts de traitement étaient moins fréquents avec l'asciminib (38,0% et 4,5%) qu'avec l'imatinib (44,4% et 11,1%) ou les ITK de deuxième génération.
+
+## 🩺 Impact clinique
+L'asciminib représente une option thérapeutique prometteuse en première ligne pour la LMC, combinant une efficacité supérieure et un meilleur profil de tolérance que les traitements standards actuels.
+
+## Revue
+New England Journal of Medicine
+
+## 📖 Référence
+2024;391(10):885-898. doi: 10.1056/NEJMoa2400858. Epub 2024 May 31.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2400858.

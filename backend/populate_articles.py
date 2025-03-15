@@ -1,13 +1,13 @@
 import os
 import re
-from datetime import datetime, timezone  # Ajout de l'importation de timezone
+from datetime import datetime, timezone
 from supabase import create_client, Client
 from dotenv import load_dotenv
 
 # Charger les variables d’environnement
 load_dotenv()
-SUPABASE_URL = os.getenv("SUPABASE_URL")  # e.g., https://etxelhjnqbrgwuitltyk.supabase.co
-SUPABASE_KEY = os.getenv("SUPABASE_KEY")  # Your Supabase anon or service role key
+SUPABASE_URL = os.getenv("SUPABASE_URL")
+SUPABASE_KEY = os.getenv("SUPABASE_KEY")
 
 # Initialiser le client Supabase
 supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
@@ -15,39 +15,38 @@ supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
 # Dossier contenant les synthèses
 SYNTHESES_DIR = "syntheses"
 
-# Charger les disciplines depuis la table disciplines et créer un mapping name -> id
+# Charger les disciplines depuis la table disciplines
 response = supabase.table("disciplines").select("id, name").execute()
 DISCIPLINE_NAME_TO_ID = {item["name"]: item["id"] for item in response.data}
 
-# Mapping des sous-catégories (dossiers) aux disciplines principales (en français)
-# Chaque sous-catégorie est associée à une ou plusieurs disciplines, et nous utilisons DISCIPLINE_NAME_TO_ID pour obtenir les IDs
+# Mapping des sous-catégories aux disciplines principales
 DISCIPLINE_MAPPING = {
-    "-Allergy-and-Immunology": ["Allergie et immunologie"],
-    "-Cardiology": ["Cardiologie"],
-    "-Dermatology": ["Dermatologie"],
-    "-Endocrine": ["Endocrinologie-Diabétologie-Nutrition"],
-    "-Gastroenterology": ["Hépato-Gastroentérologie"],
-    "-Genetics": ["Génétique"],
-    "-Geriatrics": ["Gériatrie"],
-    "-Hematology": ["Hématologie"],
-    "-Hemostasis-and-Thrombosis": ["Hématologie"],
-    "-Infectious-Disease": ["Maladies infectieuses"],
-    "-Intensivist-Critical-Care": ["Anesthésie - Réanimation"],
-    "-Nephrology": ["Néphrologie"],
-    "-Neurology": ["Neurologie"],
-    "-Oncology-Breast": ["Oncologie"],
-    "-Oncology-Gastrointestinal": ["Oncologie"],
-    "-Oncology-General": ["Oncologie"],
-    "-Oncology-Genitourinary": ["Oncologie"],
-    "-Oncology-Gynecology": ["Oncologie"],
-    "-Oncology-Hematology": ["Oncologie"],
-    "-Oncology-Lung": ["Oncologie"],
-    "-Oncology-Palliative-and-Supportive-Care": ["Oncologie"],
-    "-Oncology-Pediatric": ["Oncologie", "Pédiatrie"],
-    "-Physical-Medicine-and-Rehabilitation": ["Médecine physique et réadaptation"],
-    "-Respirology-Pulmonology": ["Pneumologie"],
-    "-Rheumatology": ["Rhumatologie"],
-    "-Tropical-and-Travel-Medicine": ["Maladies infectieuses"],
+    "Allergy-and-Immunology": ["Allergie et immunologie"],
+    "Cardiology": ["Cardiologie"],
+    "Dermatology": ["Dermatologie"],
+    "Endocrine": ["Endocrinologie-Diabétologie-Nutrition"],
+    "Gastroenterology": ["Hépato-Gastroentérologie"],
+    "Genetics": ["Génétique"],
+    "Geriatrics": ["Gériatrie"],
+    "Hematology": ["Hématologie"],
+    "Hemostasis-and-Thrombosis": ["Hématologie"],
+    "Infectious-Disease": ["Maladies infectieuses"],
+    "Intensivist-Critical-Care": ["Anesthésie - Réanimation"],
+    "Nephrology": ["Néphrologie"],
+    "Neurology": ["Neurologie"],
+    "Oncology-Breast": ["Oncologie"],
+    "Oncology-Gastrointestinal": ["Oncologie"],
+    "Oncology-General": ["Oncologie"],
+    "Oncology-Genitourinary": ["Oncologie"],
+    "Oncology-Gynecology": ["Oncologie"],
+    "Oncology-Hematology": ["Oncologie"],
+    "Oncology-Lung": ["Oncologie"],
+    "Oncology-Palliative-and-Supportive-Care": ["Oncologie"],
+    "Oncology-Pediatric": ["Oncologie", "Pédiatrie"],
+    "Physical-Medicine-and-Rehabilitation": ["Médecine physique et réadaptation"],
+    "Respirology-Pulmonology": ["Pneumologie"],
+    "Rheumatology": ["Rhumatologie"],
+    "Tropical-and-Travel-Medicine": ["Maladies infectieuses"],
     "Emergency-Medicine": ["Urgences"],
     "Family-Medicine-FM-General-Practice-GP": ["Médecine Générale"],
     "FM-GP-Anesthesia": ["Anesthésie - Réanimation"],
@@ -58,113 +57,121 @@ DISCIPLINE_MAPPING = {
     "Internal-Medicine-or-see-subspecialties-below": ["Médecine Interne"],
     "Occupational-and-Environmental-Health": ["Médecine du Travail"],
     "Public-Health": ["Santé Publique"],
-    # Ignorer les dossiers non pertinents
-    "My-disciplines": ["Unknown"]
+    "Surgery-Ophthalmology": ["Ophtalmologie"],
+    "Special-Interest-Pain-Physician": ["Médecine de la douleur"],
+    "Surgery-Thoracic": ["Chirurgie thoracique"],
+    "Surgery-Gastrointestinal": ["Chirurgie digestive"],
+    "Surgery-Orthopaedics": ["Chirurgie orthopédique"],
+    "Surgery-Cardiac": ["Chirurgie cardiaque"],
+    "Surgery-Urology": ["Urologie"],
+    "Surgery-Vascular": ["Chirurgie vasculaire"],
+    "Surgery-Neurosurgery": ["Neurochirurgie"],
+    "Surgery-Ear-Nose-Throat": ["Chirurgie ORL"],
+    "Pediatrics-General": ["Pédiatrie"],
+    "Anesthesiology": ["Anesthésie - Réanimation"],
+    "Gynecology": ["Gynécologie-obstétrique"],
+    "Obstetrics": ["Gynécologie-obstétrique"],
+    "Pediatric-Emergency-Medicine": ["Pédiatrie", "Urgences"],
+    "Pediatric-Hospital-Medicine": ["Pédiatrie"],
+    "Pediatric-Neonatology": ["Pédiatrie"],
+    "Psychiatry": ["Psychiatrie"],
+    "Surgery-Colorectal": ["Chirurgie digestive"],
+    "Surgery-Plastic": ["Chirurgie plastique"],
+    "Surgery-Head-and-Neck": ["Chirurgie ORL"],
+    "Special-Interest-Obesity-Physician": ["Endocrinologie-Diabétologie-Nutrition"],
+    "Special-Interest-Obesity-Surgeon": ["Chirurgie digestive"]
 }
 
 def parse_synthesis_file(filepath):
-    """Parse un fichier .txt de synthèse et retourne les champs nécessaires pour la table articles."""
+    """Parse un fichier .txt de synthèse et retourne les champs nécessaires."""
     with open(filepath, "r", encoding="utf-8") as f:
         content = f.read()
     
     # Extract publication date
     date_match = re.match(r"Date de publication : (\d{4}-\d{2}-\d{2})", content)
-    if date_match:
-        published_at = date_match.group(1) + "T00:00:00+00:00"  # Format timestampz
-    else:
-        published_at = "1970-01-01T00:00:00+00:00"  # Default if not found
+    published_at = (date_match.group(1) + "T00:00:00+00:00") if date_match else "1970-01-01T00:00:00+00:00"
     
-    # Extract title (remove "# 📝" and emoji, allow for multiple newlines before next section)
+    # Extract title
     title_match = re.search(r"# 📝 (.*?)(?=\n\s*##)", content, re.DOTALL)
     title = title_match.group(1).strip() if title_match else "Titre inconnu"
     
-    # Extract content (everything from "📌 Contexte & Problématique" until "🔗 Lien PubMed")
+    # Extract content (from ## 📌 Contexte & Problématique to before ## Revue)
     content_start = content.find("## 📌 Contexte & Problématique")
-    content_end = content.find("🔗 Lien PubMed")
-    if content_start != -1 and content_end != -1:
-        content_text = content[content_start:content_end].strip()
-    else:
-        content_text = content  # Fallback to full content if structure not found
+    content_end = content.find("## Revue")
+    content_text = content[content_start:content_end].strip() if content_start != -1 and content_end != -1 else content
     
-    # Extract author (first author before comma in "Référence" section)
-    ref_start = content.find("## 📖 Référence")
-    if ref_start != -1:
-        ref_end = content.find("\n", ref_start)
-        ref_line = content[ref_start + len("## 📖 Référence\n"):ref_end].strip()
-        author_match = re.match(r"^[^,]+", ref_line)
-        author = author_match.group(0).strip() if author_match else "Unknown"
-    else:
-        author = "Unknown"
+    # Extract journal from the ## Revue section
+    journal = "Inconnu"
+    revue_start = content.find("## Revue")
+    if revue_start != -1:
+        revue_end = content.find("\n##", revue_start + 1)  # Find the next section
+        if revue_end == -1:
+            revue_end = content.find("\n🔗", revue_start)  # Fallback to end of content
+        journal_text = content[revue_start + len("## Revue\n"):revue_end].strip()
+        journal = journal_text if journal_text else "Inconnu"
     
     # Extract PubMed link
     link_match = re.search(r"🔗 Lien PubMed : (https://[^\s]+)", content)
     pubmed_link = link_match.group(1).strip() if link_match else None
     
-    # Extract discipline from the filepath (subdirectory name under syntheses)
+    # Extract discipline
     relative_path = os.path.relpath(filepath, SYNTHESES_DIR)
-    backend_discipline = os.path.dirname(relative_path)  # Gets the subdirectory name (e.g., "FM-GP-Mental-Health")
+    backend_discipline = os.path.dirname(relative_path)
     
-    # Map backend discipline to frontend disciplines (can be multiple)
-    frontend_discipline_names = DISCIPLINE_MAPPING.get(backend_discipline, ["Unknown"])
+    # Vérifier si le nom commence par un tiret et retirer le tiret si présent
+    if backend_discipline.startswith('-'):
+        backend_discipline_cleaned = backend_discipline[1:]  # Retire le tiret
+        print(f"Dossier avec tiret détecté : {backend_discipline} -> {backend_discipline_cleaned}")
+    else:
+        backend_discipline_cleaned = backend_discipline
     
-    # Convert discipline names to discipline IDs
-    frontend_discipline_ids = []
-    for name in frontend_discipline_names:
-        discipline_id = DISCIPLINE_NAME_TO_ID.get(name)
-        if discipline_id:
-            frontend_discipline_ids.append(discipline_id)
-        else:
-            print(f"Discipline '{name}' non trouvée dans la table disciplines. Ignorée.")
+    frontend_discipline_names = DISCIPLINE_MAPPING.get(backend_discipline_cleaned, ["Unknown"])
+    frontend_discipline_ids = [DISCIPLINE_NAME_TO_ID.get(name) for name in frontend_discipline_names if DISCIPLINE_NAME_TO_ID.get(name)]
+    
+    if not frontend_discipline_ids:
+        print(f"Avertissement : Aucune discipline trouvée pour {backend_discipline_cleaned} (original: {backend_discipline})")
     
     return {
         "title": title,
         "content": content_text,
-        "author": author,
         "published_at": published_at,
-        "created_at": datetime.now(timezone.utc).isoformat(),  # Correction de l'avertissement de dépréciation
-        "link": pubmed_link,  # Can be None if no link is found
-        "discipline_ids": frontend_discipline_ids  # List of discipline IDs
+        "created_at": datetime.now(timezone.utc).isoformat(),
+        "link": pubmed_link,
+        "journal": journal,
+        "discipline_ids": frontend_discipline_ids
     }
 
 def insert_article_to_db(article_data):
-    """Insère un article dans la table articles de Supabase et met à jour article_disciplines."""
+    """Insère un article dans la table articles."""
     try:
-        # Insérer l'article dans la table articles
         response = supabase.table("articles").insert({
             "title": article_data["title"],
             "content": article_data["content"],
-            "author": article_data["author"],
             "published_at": article_data["published_at"],
             "created_at": article_data["created_at"],
-            "link": article_data["link"]
+            "link": article_data["link"],
+            "journal": article_data["journal"]
         }).execute()
         
         if response.data:
             print(f"Article inséré avec succès : {article_data['title']}")
-            # Récupérer l'ID de l'article inséré
             article_id = response.data[0]["id"]
-            
-            # Insérer une entrée dans article_disciplines pour chaque discipline ID associée
             for discipline_id in article_data["discipline_ids"]:
                 response_discipline = supabase.table("article_disciplines").insert({
                     "article_id": article_id,
                     "discipline_id": discipline_id
                 }).execute()
-                
                 if response_discipline.data:
-                    print(f"Discipline associée avec succès : ID {discipline_id} (article_id: {article_id})")
+                    print(f"Discipline associée : ID {discipline_id}")
                 else:
-                    print(f"Erreur lors de l'association de la discipline ID {discipline_id}")
-                    print(response_discipline.error)
+                    print(f"Erreur association discipline : {response_discipline.error}")
         else:
-            print(f"Erreur lors de l'insertion de l'article : {article_data['title']}")
-            print(response.error)
+            print(f"Erreur insertion : {response.error}")
     except Exception as e:
-        print(f"Exception lors de l'insertion de l'article : {article_data['title']}")
-        print(e)
+        print(f"Exception : {e}")
 
 def populate_articles():
-    """Parcourt tous les fichiers .txt dans le dossier syntheses et les insère dans la table articles."""
+    """Parcourt et insère les synthèses dans la base de données."""
     for root, dirs, files in os.walk(SYNTHESES_DIR):
         for file in files:
             if file.endswith(".txt"):

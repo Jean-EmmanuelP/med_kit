@@ -1,0 +1,22 @@
+Date de publication : 2024-08-16
+
+# 📝 Extrait de cannabis oral pour la prévention secondaire des nausées et vomissements chimio-induits
+
+## 📌 Contexte & Problématique
+Évaluation de l'efficacité d'un extrait de cannabis oral chez des adultes souffrant de nausées/vomissements réfractaires lors de chimiothérapies modérément ou hautement émétisantes, malgré une prophylaxie antiémétique standard.
+
+## 🧪 Méthodologie
+Essai randomisé, contrôlé par placebo, phase II/III. Gélules orales de tétrahydrocannabinol 2,5 mg plus cannabidiol 2,5 mg (THC:CBD) ou placebo, trois fois/jour des jours -1 à 5, en complément des antiémétiques standards. 147 participants évalués.
+
+## 📊 Résultats clés
+Le THC:CBD a significativement amélioré le taux de réponse complète (absence de vomissements/haut-le-cœur sans médication de secours) : 24% vs 8% pour le placebo (différence absolue 16%, p=0,01). Effets indésirables : sédation (18% vs 7%), vertiges (10% vs 0%), anxiété transitoire (4% vs 1%).
+
+## 🩺 Impact clinique
+Le THC:CBD constitue un adjuvant efficace contre les nausées et vomissements chimio-induits réfractaires, malgré des effets indésirables supplémentaires. Son utilisation peut être influencée par la disponibilité, les attitudes culturelles, le statut juridique et les préférences des patients.
+
+## Revue
+Journal of Clinical Oncology
+
+## 📖 Référence
+2024;42(34):4040-4050. doi:10.1200/JCO.23.01836. Epub 2024 Aug 16.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO.23.01836.

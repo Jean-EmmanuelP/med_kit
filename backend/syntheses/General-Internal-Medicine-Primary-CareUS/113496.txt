@@ -1,19 +1,22 @@
 Date de publication : 2024-09-01
 
-# 📝 Nirmatrelvir-Ritonavir pour le traitement des symptômes du COVID long : essai STOP-PASC
+# 📝 Nirmatrelvir-Ritonavir pour les symptômes du syndrome post-COVID : Essai clinique STOP-PASC
 
 ## 📌 Contexte & Problématique
-Le COVID long (PASC) nécessite des traitements efficaces. Cette étude évalue l'efficacité du nirmatrelvir-ritonavir pour réduire la sévérité des symptômes persistants post-COVID.
+Les séquelles post-aiguës de l'infection par le SARS-CoV-2 (PASC) nécessitent des traitements efficaces. Cette étude évalue l'efficacité du nirmatrelvir-ritonavir (NMV/r) sur les symptômes persistants du PASC.
 
 ## 🧪 Méthodologie
-Essai clinique randomisé en double aveugle (2:1) comparant nirmatrelvir-ritonavir (NMV/r) versus placebo-ritonavir pendant 15 jours chez 155 adultes (59% femmes, âge médian 43 ans) souffrant de symptômes de PASC depuis environ 17,5 mois. Critère principal : sévérité combinée de 6 symptômes à 10 semaines.
+Essai clinique randomisé en double aveugle (2:1) comparant NMV/r (300mg/100mg) versus placebo-ritonavir pendant 15 jours chez 155 adultes présentant des symptômes de PASC modérés à sévères depuis ≥3 mois. Critère principal : sévérité combinée de 6 symptômes à 10 semaines.
 
 ## 📊 Résultats clés
-Aucune différence statistiquement significative n'a été observée entre les groupes NMV/r (n=102) et placebo (n=53) concernant la sévérité des symptômes à 10 semaines. Les scores d'impression globale, les symptômes cumulatifs et les mesures PROMIS (fatigue, dyspnée, fonction cognitive/physique) n'ont montré aucun bénéfice significatif. Profil de sécurité comparable entre les groupes.
+Population : âge médian 43 ans, 59% de femmes, 99% vaccinés, durée moyenne des symptômes 17,5 mois. Aucune différence statistiquement significative n'a été observée entre les groupes NMV/r et placebo concernant la sévérité des symptômes à 10 semaines, les scores globaux rapportés par les patients ou les mesures PROMIS. Les événements indésirables étaient comparables et généralement légers.
 
 ## 🩺 Impact clinique
-Un traitement de 15 jours par nirmatrelvir-ritonavir, bien que sûr, n'améliore pas significativement les symptômes du COVID long chez des patients majoritairement vaccinés avec symptômes prolongés. D'autres études sont nécessaires pour préciser le rôle des antiviraux dans le PASC.
+Un traitement de 15 jours par NMV/r s'est avéré sûr mais inefficace pour améliorer les symptômes du PASC dans une cohorte majoritairement vaccinée avec des symptômes de longue durée. Des recherches supplémentaires sont nécessaires pour déterminer le rôle potentiel des antiviraux dans la prise en charge du PASC.
+
+## Revue
+JAMA Internal Medicine
 
 ## 📖 Référence
-Geng LN, Bonilla H, Hedlin H, et al. Nirmatrelvir-Ritonavir and Symptoms in Adults With Postacute Sequelae of SARS-CoV-2 Infection: The STOP-PASC Randomized Clinical Trial. JAMA Intern Med. 2024;184(9):1024-1034.
+2024;184(9):1024-1034. doi:10.1001/jamainternmed.2024.2007. Identifiant ClinicalTrials.gov: NCT05576662.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamainternmed.2024.2007.

@@ -1,19 +1,22 @@
 Date de publication : 2024-12-01
 
-# 📝 Effets des approches de soins intégrés sur la dépression et le diabète : revue systématique et méta-analyse
+# 📝 Effets des approches de soins intégrés pour traiter la dépression et le diabète
 
 ## 📌 Contexte & Problématique
-La coexistence de dépression et diabète aggrave le contrôle glycémique et augmente la morbidité. Les approches de soins intégrés (SI) visent à améliorer les résultats chez ces patients, mais leur efficacité n'était pas établie par méta-analyse.
+La coexistence fréquente des symptômes dépressifs avec le diabète peut aggraver le contrôle glycémique et augmenter les risques de complications. Les approches de soins intégrés (SI) visent à améliorer simultanément ces deux conditions, mais leur efficacité restait à démontrer par méta-analyse.
 
 ## 🧪 Méthodologie
-Revue systématique dans PubMed, PsycInfo, CINAHL et ProQuest. Inclusion de 31 essais contrôlés randomisés (8 843 participants) évaluant les SI chez des patients avec diabète et symptômes dépressifs.
+Revue systématique des essais contrôlés randomisés identifiés dans PubMed, PsycInfo, CINAHL et ProQuest, incluant des participants avec diabète et symptômes dépressifs, avec données sur dépression et HbA1c (hémoglobine glyquée).
 
 ## 📊 Résultats clés
-Les SI ont significativement réduit l'HbA1c (d = -0,36, IC 95% -0,52 à -0,21) et les scores de dépression (d = -0,72, IC 95% -1,15 à -0,28) comparés aux soins habituels. Les interventions combinant activation comportementale et thérapie cognitivo-comportementale ont montré les réductions d'HbA1c les plus importantes.
+Analyse de 31 études (8 843 participants) : les approches SI ont significativement réduit l'HbA1c (d = -0,36, IC 95% -0,52 à -0,21) et les scores de dépression (d = -0,72, IC 95% -1,15 à -0,28) comparativement aux soins habituels. Les interventions combinant activation comportementale et thérapie cognitivo-comportementale ont montré les réductions d'HbA1c les plus importantes.
 
 ## 🩺 Impact clinique
-Les SI constituent une approche efficace pour améliorer simultanément le contrôle glycémique et les symptômes dépressifs, suggérant leur intégration dans la prise en charge des patients présentant cette comorbidité.
+Les approches de soins intégrés améliorent significativement le contrôle glycémique et les symptômes dépressifs, suggérant leur intégration dans la prise en charge des patients présentant cette comorbidité.
+
+## Revue
+Diabetes Care
 
 ## 📖 Référence
-Cooper ZW, O'Shields J, Ali MK, et al. Diabetes Care. 2024;47(12):2291-2304.
+2024;47(12):2291-2304. doi: 10.2337/dc24-1334.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.2337/dc24-1334.

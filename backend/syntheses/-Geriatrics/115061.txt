@@ -1,19 +1,22 @@
 Date de publication : 2024-11-20
 
-# 📝 Supplémentation en vitamine D, oméga-3 et exercices physiques sur la masse musculaire et la sarcopénie chez les personnes âgées
+# 📝 Effet de la vitamine D, des oméga-3 et de l'exercice sur la masse musculaire et la sarcopénie
 
 ## 📌 Contexte & Problématique
-Évaluation de l'effet d'une supplémentation en vitamine D, oméga-3 et d'exercices physiques sur l'indice de masse musculaire appendiculaire maigre (ALMI) et l'incidence de la sarcopénie chez les personnes âgées en bonne santé.
+Évaluation de l'impact d'une supplémentation en vitamine D, en oméga-3 et d'un programme d'exercices à domicile sur l'indice de masse musculaire appendiculaire maigre (ALMI) et l'incidence de la sarcopénie chez les personnes âgées.
 
 ## 🧪 Méthodologie
-Essai randomisé en double aveugle (DO-HEALTH) sur 3 ans avec 2157 adultes ≥70 ans. Interventions : vitamine D (2000 UI/j), oméga-3 (1 g/j), exercices à domicile, seuls ou combinés. Mesure de l'ALMI par DXA (n=1495) et évaluation de la sarcopénie incidente (n=1940).
+Analyse secondaire d'un essai randomisé DO-HEALTH sur 3 ans (2012-2018), incluant 2157 adultes ≥70 ans en bonne santé. Plan factoriel 2×2×2 : vitamine D (2000 UI/j), oméga-3 (1 g/j), et/ou exercice. Mesure de l'ALMI par absorptiométrie à rayons X à double énergie (DXA) chez 1495 participants.
 
 ## 📊 Résultats clés
-Diminution moyenne de l'ALMI à 3 ans : -1,35% chez les femmes et -2,0% chez les hommes. Aucun traitement n'a amélioré l'ALMI sur 3 ans. Effet protecteur transitoire des oméga-3 à 1 an uniquement (-0,021 vs -0,066 kg/m², p=0,001). Incidence de sarcopénie : 4,5% sur 3 ans, sans réduction par les traitements.
+Après 3 ans, l'ALMI a diminué de 1,35% chez les femmes et 2,0% chez les hommes. Aucune intervention, seule ou combinée, n'a amélioré l'ALMI par rapport au groupe contrôle. Les oméga-3 ont montré un effet protecteur minime uniquement à 1 an (p=0,001). Parmi 1940 participants non sarcopéniques initialement, 4,5% ont développé une sarcopénie, sans différence significative entre les groupes.
 
 ## 🩺 Impact clinique
-Chez les personnes âgées actives et en bonne santé, ni la vitamine D, ni les oméga-3, ni les exercices à domicile n'améliorent significativement la masse musculaire ou ne préviennent la sarcopénie à long terme.
+Chez les personnes âgées en bonne santé et physiquement actives, ni la supplémentation en vitamine D ou oméga-3, ni un programme d'exercices à domicile n'ont permis de préserver la masse musculaire ou de prévenir la sarcopénie sur 3 ans.
+
+## Revue
+Journal of the American Geriatrics Society
 
 ## 📖 Référence
-Eggimann AK, de Godoi Rezende Costa Molino C, Freystaetter G, et al. Effect of vitamin D, omega-3 supplementation, or a home exercise program on muscle mass and sarcopenia: DO-HEALTH trial. J Am Geriatr Soc. 2024 Nov 20.
+2024 Nov 20. doi: 10.1111/jgs.19266.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1111/jgs.19266.

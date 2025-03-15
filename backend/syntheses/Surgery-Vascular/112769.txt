@@ -1,0 +1,22 @@
+Date de publication : 2024-03-25
+
+# 📝 Mortalité chez les patients recevant des dispositifs enduits de paclitaxel pour artériopathie périphérique des membres inférieurs
+
+## 📌 Contexte & Problématique
+Une méta-analyse d'essais cliniques avait suggéré un risque accru de mortalité tardive avec les dispositifs enduits de paclitaxel (DEP) utilisés pour la revascularisation endovasculaire des membres inférieurs. Cette étude visait à évaluer cette association en pratique réelle.
+
+## 🧪 Méthodologie
+Étude de cohorte rétrospective nationale (DETECT) analysant les données médico-administratives françaises de 259 137 patients ayant subi une première revascularisation endovasculaire pour artériopathie périphérique entre 2011 et 2019, dont 20 083 (7,7%) avec DEP.
+
+## 📊 Résultats clés
+Après un suivi médian de 4,1 ans, le taux de mortalité était de 7,3/100 personnes-années dans le groupe DEP contre 10,4/100 dans le groupe témoin. Après ajustement, le traitement par DEP était associé à un risque plus faible de mortalité (HR : 0,86 ; IC 95% : 0,84-0,89 ; p<0,001), confirmé par analyses avec score de propension.
+
+## 🩺 Impact clinique
+Contrairement aux inquiétudes précédentes, cette large étude en conditions réelles ne montre pas d'augmentation de la mortalité associée aux DEP, suggérant leur sécurité dans la pratique clinique courante.
+
+## Revue
+Journal of the American College of Cardiology
+
+## 📖 Référence
+2024;83(13):1207-1221. doi:10.1016/j.jacc.2024.02.003. NCT05254106.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.jacc.2024.02.003.

@@ -1,0 +1,22 @@
+Date de publication : 2024-07-01
+
+# 📝 Systèmes d'alerte de sepsis aux urgences : impact sur la mortalité et l'adhésion aux protocoles
+
+## 📌 Contexte & Problématique
+La détection précoce du sepsis est cruciale pour la survie des patients. Les services d'urgence, confrontés à un volume élevé de patients, peinent à intervenir rapidement. Les systèmes d'alerte pourraient accélérer le diagnostic et l'initiation du traitement.
+
+## 🧪 Méthodologie
+Revue systématique et méta-analyse d'études évaluant les systèmes d'alerte de sepsis aux urgences (2004-2023). Recherche dans PubMed, EMBASE, Web of Science et Cochrane Library selon les directives PRISMA (Preferred Reporting Items for Systematic Reviews and Meta-analyses).
+
+## 📊 Résultats clés
+Sur 3281 études, 22 (19 580 patients) ont été incluses. Les systèmes d'alerte ont réduit la mortalité (RR 0,81; IC 95%, 0,71-0,91) et la durée d'hospitalisation. Ils ont amélioré l'adhésion aux protocoles : réduction des délais d'administration de liquides, d'hémocultures, d'antibiotiques et de mesure du lactate. Les alertes électroniques ont particulièrement réduit la mortalité (RR 0,78).
+
+## 🩺 Impact clinique
+L'implémentation de systèmes d'alerte de sepsis aux urgences améliore significativement les résultats cliniques et l'adhésion aux protocoles de prise en charge.
+
+## Revue
+JAMA Network Open
+
+## 📖 Référence
+2024;7(7):e2422823. doi:10.1001/jamanetworkopen.2024.22823
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamanetworkopen.2024.22823.

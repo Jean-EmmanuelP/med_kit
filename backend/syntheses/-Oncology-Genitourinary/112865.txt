@@ -1,0 +1,22 @@
+Date de publication : 2024-05-07
+
+# 📝 Dépistage du cancer de la prostate : PSA, panel de kallikréines et IRM dans l'essai ProScreen
+
+## 📌 Contexte & Problématique
+Le dépistage par PSA (antigène prostatique spécifique) peut réduire la mortalité par cancer de la prostate mais détecte fréquemment des cancers non cliniquement significatifs. L'étude évalue l'efficacité d'un protocole de dépistage combinant PSA, panel de kallikréines et IRM.
+
+## 🧪 Méthodologie
+Essai clinique randomisé finlandais incluant 61 193 hommes (50-63 ans) répartis selon un ratio 1:3 (invitation au dépistage vs contrôle). Le protocole comportait un test PSA initial, puis pour les PSA ≥3,0 ng/mL, un panel de 4 kallikréines, suivi d'une IRM prostatique si score ≥7,5%, avec biopsies ciblées si anomalies à l'IRM.
+
+## 📊 Résultats clés
+Parmi les hommes invités au dépistage (n=15 201), 51% ont participé. L'incidence cumulée des cancers de haut grade (groupes 2-5) était de 1,13% dans le groupe invité contre 0,62% dans le groupe contrôle (différence: 0,51%). Pour les cancers de bas grade (groupe 1), l'incidence était de 0,26% vs 0,14% (différence: 0,11%).
+
+## 🩺 Impact clinique
+Le protocole a permis de détecter 1 cancer de haut grade supplémentaire pour 196 hommes invités et 1 cancer de bas grade pour 909 hommes. Ces résultats préliminaires d'un seul cycle de dépistage nécessitent confirmation par les données de mortalité.
+
+## Revue
+JAMA
+
+## 📖 Référence
+2024;331(17):1452-1459. doi:10.1001/jama.2024.3841
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jama.2024.3841.

@@ -1,19 +1,23 @@
 Date de publication : 2024-12-12
 
-# 📝 Omission de la chirurgie axillaire dans le cancer du sein - Résultats de l'essai INSEMA
+# 📝 Titre
+Omission de la chirurgie axillaire dans le cancer du sein - Résultats de l'essai INSEMA
 
-## 📌 Contexte & Problématique
-L'utilité du staging chirurgical axillaire dans le cancer du sein traité par chirurgie conservatrice restait incertaine pour la survie des patientes.
+# 📌 Contexte & Problématique
+L'utilité du staging chirurgical axillaire dans le traitement conservateur du sein pour les cancers sans atteinte ganglionnaire clinique restait incertaine.
 
-## 🧪 Méthodologie
-Essai randomisé de non-infériorité comparant l'omission de chirurgie axillaire versus biopsie du ganglion sentinelle chez 5502 patientes avec cancer du sein invasif cN0, T1/T2, candidates à une chirurgie conservatrice.
+# 🧪 Méthodologie
+Essai prospectif randomisé de non-infériorité comparant l'omission de chirurgie axillaire à la biopsie du ganglion sentinelle (BGS) chez 5502 patientes avec cancer du sein invasif T1/T2 (≤5cm) sans atteinte ganglionnaire clinique. Critère principal : survie sans maladie invasive.
 
-## 📊 Résultats clés
-Après suivi médian de 73,6 mois, la survie sans maladie invasive à 5 ans était de 91,9% dans le groupe omission versus 91,7% dans le groupe chirurgie (HR=0,91; IC95% 0,73-1,14). Récidive axillaire: 1,0% versus 0,3%. Décès: 1,4% versus 2,4%. Le groupe omission présentait moins de lymphœdème, meilleure mobilité du bras et moins de douleurs.
+# 📊 Résultats clés
+Après un suivi médian de 73,6 mois, la survie sans maladie invasive à 5 ans était de 91,9% dans le groupe omission versus 91,7% dans le groupe BGS (HR=0,91; IC95%: 0,73-1,14), démontrant la non-infériorité. Différences notables : récidives axillaires (1,0% vs 0,3%) et décès (1,4% vs 2,4%).
 
-## 🩺 Impact clinique
-L'omission du staging axillaire est non-inférieure à la biopsie du ganglion sentinelle chez les patientes cN0 avec tumeurs T1/T2, majoritairement T1, avec avantages fonctionnels significatifs et moins de morbidité post-opératoire.
+# 🩺 Impact clinique
+L'omission du staging axillaire réduit significativement le lymphœdème, améliore la mobilité du bras et diminue les douleurs à l'épaule, tout en maintenant des résultats oncologiques comparables à la BGS.
 
-## 📖 Référence
-Reimer T, Stachs A, Veselinovic K, et al. Axillary Surgery in Breast Cancer - Primary Results of the INSEMA Trial. N Engl J Med. 2024 Dec 12. doi: 10.1056/NEJMoa2412063.
+## Revue
+New England Journal of Medicine
+
+# 📖 Référence
+2024 Dec 12. doi: 10.1056/NEJMoa2412063. (INSEMA, NCT02466737)
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2412063.

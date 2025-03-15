@@ -1,0 +1,22 @@
+Date de publication : 2024-11-18
+
+# 📝 Rivaroxaban 18 mois vs 6 mois chez les patients cancéreux avec embolie pulmonaire à faible risque
+
+## 📌 Contexte & Problématique
+La durée optimale d'anticoagulation chez les patients atteints de cancer et d'embolie pulmonaire (EP) à faible risque reste mal définie, avec un équilibre délicat entre prévention des récidives thrombotiques et risque hémorragique.
+
+## 🧪 Méthodologie
+Essai randomisé, ouvert, multicentrique japonais comparant rivaroxaban 18 mois vs 6 mois chez 178 patients cancéreux avec EP aiguë à faible risque (score sPESI=1). Critère principal : récidive de thromboembolie veineuse (TEV) à 18 mois.
+
+## 📊 Résultats clés
+Récidive TEV significativement réduite dans le groupe 18 mois (5,6% vs 19,1%, OR=0,25 [IC95%:0,09-0,72], p=0,01). Saignements majeurs non significativement différents (7,8% vs 5,6%, OR=1,43 [IC95%:0,44-4,70], p=0,55).
+
+## 🩺 Impact clinique
+L'anticoagulation prolongée (18 mois) par rivaroxaban chez les patients cancéreux avec EP à faible risque réduit significativement le risque de récidive thromboembolique sans augmentation significative des saignements majeurs.
+
+## Revue
+Circulation
+
+## 📖 Référence
+2024 Nov 18. doi: 10.1161/CIRCULATIONAHA.124.072758.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1161/CIRCULATIONAHA.124.072758.

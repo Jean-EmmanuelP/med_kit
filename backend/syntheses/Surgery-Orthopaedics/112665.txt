@@ -1,0 +1,22 @@
+Date de publication : 2024-02-22
+
+# 📝 Mélatonine et sommeil après arthroplastie totale du genou : essai randomisé
+
+## 📌 Contexte & Problématique
+Les troubles du sommeil après arthroplastie totale du genou (ATG) sont fréquents et peuvent compromettre la récupération. Cette étude évalue l'efficacité de la mélatonine pour améliorer le sommeil postopératoire.
+
+## 🧪 Méthodologie
+Essai randomisé contrôlé en double aveugle incluant 128 patients après ATG primaire élective, recevant soit 5 mg de mélatonine (n=64) soit un placebo (n=64) pendant 14 jours postopératoires. Évaluation par journal de sommeil, échelle visuelle analogique et questionnaires validés.
+
+## 📊 Résultats clés
+Tendance à un sommeil plus long sous mélatonine aux jours postopératoires (JPO) 2 et 3 (5,8±2,0 vs 5,0±2,4 heures, p=0,084 au JPO2), et moins de réveils nocturnes au JPO1 (3,6±2,4 vs 4,4±3,9, p=0,197), sans différence significative. Bénéfices diminuant après JPO3.
+
+## 🩺 Impact clinique
+La mélatonine, bien tolérée, peut favoriser un sommeil plus long dans la période postopératoire immédiate après ATG et pourrait être envisagée pour les patients présentant des troubles du sommeil précoces.
+
+## Revue
+J Arthroplasty
+
+## 📖 Référence
+2024;39(8S1):S154-S160. doi:10.1016/j.arth.2024.02.031
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.arth.2024.02.031.

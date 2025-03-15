@@ -1,0 +1,22 @@
+Date de publication : 2024-02-19
+
+# 📝 Traitement de la mastite granulomateuse idiopathique réfractaire et récurrente : essai clinique adaptatif randomisé
+
+## 📌 Contexte & Problématique
+La mastite granulomateuse idiopathique (MGI) est une maladie auto-immune touchant principalement les femmes moyen-orientales en âge de procréer. Cette étude évalue les options thérapeutiques pour les cas réfractaires ou récurrents.
+
+## 🧪 Méthodologie
+Essai clinique adaptatif randomisé (2017-2020) comparant trois groupes : A (meilleurs soins de soutien), B (prednisolone) et C (méthotrexate + corticostéroïdes à faible dose). Suivi minimum de 2 ans avec évaluations radiologiques et cliniques régulières.
+
+## 📊 Résultats clés
+318 patientes (âge moyen 33,5 ans) ont été réparties dans les groupes A (n=10), B (n=78) et C (n=230). Groupe A : aucune réponse. Groupe B : 14,1% de réponses complètes/partielles, 78,2% de progression. Groupe C : 94,3% de réponses complètes, 3% de rémissions partielles. Les groupes A et B ont été arrêtés pour efficacité insuffisante.
+
+## 🩺 Impact clinique
+L'association méthotrexate-corticostéroïdes à faible dose constitue le traitement le plus efficace pour la MGI réfractaire ou récurrente, avec un profil d'effets secondaires comparable aux autres options thérapeutiques.
+
+## Revue
+Journal of the American College of Surgeons
+
+## 📖 Référence
+2024;238(6):1153-1165. doi:10.1097/XCS.0000000000001046
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1097/XCS.0000000000001046.

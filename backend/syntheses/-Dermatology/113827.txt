@@ -1,19 +1,22 @@
 Date de publication : 2023-12-18
 
-# 📝 Lignes directrices 2023 pour la dermatite atopique : recommandations GRADE de l'AAAAI/ACAAI
+# 📝 Lignes directrices 2023 pour la dermatite atopique
 
 ## 📌 Contexte & Problématique
-Les recommandations pour la dermatite atopique (DA) nécessitaient une mise à jour depuis 2012 en raison de nouveaux traitements disponibles et de l'évolution des méthodologies d'évaluation des preuves scientifiques.
+Mise à jour des recommandations de 2012 sur la prise en charge de la dermatite atopique (DA) par l'AAAAI/ACAAI (Académie américaine d'allergie, d'asthme et d'immunologie/Collège américain d'allergie, d'asthme et d'immunologie) rendue nécessaire par l'émergence de nouveaux traitements et méthodologies.
 
 ## 🧪 Méthodologie
-Un panel multidisciplinaire incluant patients, experts en DA, praticiens de soins primaires et professionnels paramédicaux a élaboré ces recommandations. L'approche GRADE a été utilisée pour évaluer les preuves. Des revues systématiques et des groupes de discussion avec les patients ont alimenté le processus.
+Panel multidisciplinaire incluant patients, soignants et experts utilisant l'approche GRADE (Grading of Recommendations Assessment, Development and Evaluation) pour évaluer les preuves. Revues systématiques et groupes de discussion avec patients ont guidé l'élaboration des recommandations.
 
 ## 📊 Résultats clés
-Le panel a formulé 25 recommandations pour le contrôle de la DA légère à sévère, couvrant: traitements topiques (hydratants, corticostéroïdes, inhibiteurs de calcineurine, de PDE4 et de JAK), bains d'eau de Javel diluée, gestion alimentaire, immunothérapie allergénique, et traitements systémiques (biologiques, immunosuppresseurs, corticostéroïdes) et photothérapie.
+25 recommandations approuvées couvrant la gestion de la DA légère à sévère, avec fiches d'information pour les patients. Les recommandations concernent les traitements topiques, les bains d'eau de Javel diluée, l'éviction alimentaire, l'immunothérapie allergénique, les traitements systémiques et la photothérapie UV.
 
 ## 🩺 Impact clinique
-Ces lignes directrices offrent aux cliniciens des recommandations actualisées et fondées sur des preuves pour optimiser la prise en charge de la DA. Des fiches d'information adaptées aux patients facilitent l'implémentation pratique des recommandations.
+Guide complet pour optimiser l'utilisation des traitements topiques (corticostéroïdes, inhibiteurs de calcineurine, inhibiteurs de PDE4, inhibiteurs de JAK), systémiques (biologiques, immunosuppresseurs) et autres interventions thérapeutiques selon la sévérité de la maladie.
+
+## Revue
+Annals of Allergy, Asthma & Immunology
 
 ## 📖 Référence
-Chu DK, Schneider L, Asiniwasis RN, et al. Ann Allergy Asthma Immunol. 2024;132(3):274-312.
+2024;132(3):274-312. doi:10.1016/j.anai.2023.11.009. Epub 2023 Dec 18.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.anai.2023.11.009.

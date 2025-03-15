@@ -1,0 +1,22 @@
+Date de publication : 2024-11-21
+
+# 📝 Embolisation de l'artère méningée moyenne comme traitement adjuvant des hématomes sous-duraux
+
+## 📌 Contexte & Problématique
+Les hématomes sous-duraux subaigus et chroniques présentent un taux élevé de récidive après évacuation chirurgicale. Cette étude évalue l'efficacité de l'embolisation de l'artère méningée moyenne (AMM) comme traitement adjuvant pour réduire les réinterventions.
+
+## 🧪 Méthodologie
+Essai prospectif, multicentrique, randomisé comparant l'embolisation de l'AMM plus chirurgie (n=197) versus chirurgie seule (n=203) chez des patients avec hématome sous-dural symptomatique. Critère principal : nécessité de réopération dans les 90 jours.
+
+## 📊 Résultats clés
+Le taux de réopération était significativement réduit dans le groupe embolisation+chirurgie (4,1% vs 11,3% ; risque relatif : 0,36 ; IC 95% : 0,11-0,80 ; p=0,008). La détérioration fonctionnelle à 90 jours était comparable entre les groupes (11,9% vs 9,8%). Des événements indésirables graves liés à l'embolisation sont survenus chez 2% des patients, incluant deux AVC invalidants.
+
+## 🩺 Impact clinique
+L'embolisation de l'AMM associée à la chirurgie réduit significativement le risque de réopération pour hématome sous-dural, mais des questions persistent concernant sa sécurité, nécessitant des études complémentaires.
+
+## Revue
+N Engl J Med
+
+## 📖 Référence
+2024;391(20):1890-1900. doi:10.1056/NEJMoa2313472
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2313472.

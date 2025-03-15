@@ -1,0 +1,22 @@
+Date de publication : 2024-05-01
+
+# 📝 Pharmacogénomique, race et résultats thérapeutiques dans la leucémie myéloïde aiguë pédiatrique
+
+## 📌 Contexte & Problématique
+Des disparités de pronostic existent entre patients noirs et blancs atteints de leucémie myéloïde aiguë (LMA). Cette étude évalue si l'intensification du traitement d'induction peut réduire ces disparités raciales.
+
+## 🧪 Méthodologie
+Analyse comparative incluant 86 patients noirs et 359 patients blancs atteints de LMA pédiatrique, traités dans deux essais cliniques (AML02 et AML08). Comparaison entre traitement d'induction standard (cytarabine à faible dose) et renforcé (cytarabine à forte dose), avec évaluation des scores pharmacogénomiques (ACS10).
+
+## 📊 Résultats clés
+Avec le traitement standard, les patients noirs présentaient une survie sans événement à 5 ans significativement inférieure (25% vs 56% pour les blancs, p=0,03). Cette disparité disparaissait avec le traitement renforcé (50% vs 48%, p=0,78). Les patients avec scores ACS10 faibles montraient de moins bons résultats sous traitement standard, mais pas sous traitement renforcé.
+
+## 🩺 Impact clinique
+L'intensification du traitement d'induction élimine les disparités raciales dans la LMA pédiatrique. L'utilisation de paramètres pharmacogénomiques pourrait permettre d'adapter les schémas thérapeutiques et réduire ces disparités.
+
+## Revue
+JAMA Network Open
+
+## 📖 Référence
+2024;7(5):e2411726. doi:10.1001/jamanetworkopen.2024.11726
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamanetworkopen.2024.11726.

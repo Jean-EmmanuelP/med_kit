@@ -1,0 +1,25 @@
+Date de publication : 2024-11-18
+
+# 📝 Remplacement Valvulaire Aortique vs Surveillance Clinique dans la Sténose Aortique Sévère Asymptomatique
+
+## 📌 Contexte & Problématique
+Les patients avec sténose aortique (SA) sévère asymptomatique et fraction d'éjection ventriculaire gauche normale sont habituellement suivis par surveillance clinique (SC). Cette approche est questionnée face à l'intervention précoce.
+
+## 🧪 Méthodologie
+Méta-analyse d'essais contrôlés randomisés (ECR) comparant le remplacement valvulaire aortique (RVA) précoce à la SC. Critères évalués: mortalité, hospitalisations cardiovasculaires, insuffisance cardiaque (IC) et accidents vasculaires cérébraux (AVC).
+
+## 📊 Résultats clés
+Analyse de 4 ECR (1427 patients) avec suivi moyen de 4,1 ans. Le RVA précoce a réduit significativement:
+- Hospitalisations cardiovasculaires/IC: 14,6% vs 31,9% (HR: 0,40; IC 95%: 0,30-0,53)
+- AVC: 4,5% vs 7,2% (HR: 0,62; IC 95%: 0,40-0,97)
+Aucune différence significative pour la mortalité toutes causes (9,7% vs 13,7%) ou cardiovasculaire (5,1% vs 8,3%).
+
+## 🩺 Impact clinique
+Le RVA précoce pourrait réduire significativement les complications cardiovasculaires chez les patients asymptomatiques avec SA sévère, sans impact démontré sur la mortalité.
+
+## Revue
+Journal of the American College of Cardiology
+
+## 📖 Référence
+2024 Nov 18:S0735-1097(24)10419-6. doi: 10.1016/j.jacc.2024.11.006.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.jacc.2024.11.006.

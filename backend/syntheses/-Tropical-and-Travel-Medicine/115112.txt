@@ -1,19 +1,22 @@
 Date de publication : 2024-11-14
 
-# 📝 Ivermectine en adjuvant à l'administration massive d'antipaludéens : résultats de l'essai MATAMAL
+# 📝 Ivermectine en administration massive pour le contrôle du paludisme dans l'archipel des Bijagos
 
 ## 📌 Contexte & Problématique
-L'ivermectine augmente la mortalité des moustiques se nourrissant sur des individus traités. Cette étude évalue si son ajout à l'administration massive de dihydroartémisinine-pipéraquine (DP) peut réduire davantage la prévalence du paludisme.
+L'ivermectine augmente la mortalité des arthropodes vecteurs se nourrissant du sang des personnes traitées. Cette étude évalue si son utilisation comme adjuvant à l'administration massive de médicaments (AMM) avec dihydroartémisinine-pipéraquine peut réduire davantage la prévalence du paludisme.
 
 ## 🧪 Méthodologie
-Essai quadruple-aveugle, randomisé en grappes, contrôlé par placebo dans l'archipel des Bijagos (Guinée-Bissau). 24 grappes (n=25 882) ont reçu soit DP+ivermectine (300 µg/kg/j) soit DP+placebo pendant trois mois consécutifs durant deux saisons de transmission (2021-2022). Critère principal : prévalence de Plasmodium falciparum par PCR.
+Essai MATAMAL en quadruple aveugle, randomisé en grappes, contrôlé par placebo dans l'archipel des Bijagos (Guinée-Bissau). 24 grappes randomisées (1:1) ont reçu soit AMM avec dihydroartémisinine-pipéraquine+ivermectine (300 µg/kg/jour) soit AMM avec dihydroartémisinine-pipéraquine+placebo pendant trois mois consécutifs durant deux saisons de transmission (2021-2022).
 
 ## 📊 Résultats clés
-Prévalence de P. falciparum : 6,64% (groupe ivermectine) vs 5,05% (groupe placebo), différence de risque ajustée : 1,67% (IC 95% : -1,44 à 4,78; p=0,28). Taux de parité des anophèles : 72,3% vs 67,8%, différence non significative (p=0,84). Événements indésirables : 1,9% vs 1,0% des participants.
+Après intervention, la prévalence d'infection à Plasmodium falciparum était de 5,05% dans le groupe témoin contre 6,64% dans le groupe intervention (différence de risque ajustée: 1,67%, IC 95%: -1,44 à 4,78; p=0,28). Le taux de parité des anophèles était similaire entre les groupes (différence non significative).
 
 ## 🩺 Impact clinique
-L'ajout d'ivermectine à l'administration massive de DP n'a pas démontré d'effet supplémentaire sur la réduction du paludisme ou sur la parité des vecteurs, malgré une bonne tolérance du traitement.
+L'ajout d'ivermectine à l'AMM de dihydroartémisinine-pipéraquine n'a montré aucun effet supplémentaire sur la réduction de la prévalence du paludisme ou de la parité des vecteurs dans ce contexte, bien que l'intervention ait été bien tolérée.
+
+## Revue
+Lancet Infectious Diseases
 
 ## 📖 Référence
-Hutchins H, Pretorius E, Bradley J, et al. Lancet Infect Dis. 2024 Nov 14:S1473-3099(24)00580-2.
+2024 Nov 14:S1473-3099(24)00580-2. doi: 10.1016/S1473-3099(24)00580-2.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S1473-3099(24)00580-2.

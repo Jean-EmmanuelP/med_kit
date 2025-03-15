@@ -1,0 +1,22 @@
+Date de publication : 2025-01-10
+
+# 📝 Dispositifs supraglottiques vs intubation endotrachéale en chirurgie abdominopelvienne
+
+## 📌 Contexte & Problématique
+Comparaison des dispositifs supraglottiques (DSG) de deuxième génération aux tubes endotrachéaux (TET) chez les adultes en chirurgie abdominopelvienne sous anesthésie générale, avec focus sur la sécurité périopératoire, l'efficacité et la qualité de récupération.
+
+## 🧪 Méthodologie
+Revue systématique et méta-analyse d'essais contrôlés randomisés issus de 4 bases de données, incluant 51 études (5110 patients). Évaluation selon l'approche GRADE (grading of recommendations, assessment, development, and evaluation).
+
+## 📊 Résultats clés
+Les DSG réduisent significativement les complications majeures des voies aériennes (RR 0,41; IC 95% 0,23-0,71), les maux de gorge (RR 0,52), l'enrouement (RR 0,32), la toux à l'émergence (RR 0,17) et les nausées/vomissements postopératoires (RR 0,64). Augmentation du risque de ventilation inadéquate (RR 3,36), sans différence cliniquement significative concernant la régurgitation ou l'aspiration pulmonaire.
+
+## 🩺 Impact clinique
+Ces résultats suggèrent que les DSG de deuxième génération pourraient être utilisés plus largement en chirurgie abdominopelvienne, offrant une meilleure récupération postopératoire sans compromettre la sécurité des voies aériennes.
+
+## Revue
+Anesthesia & Analgesia
+
+## 📖 Référence
+2025;140(2):265-275. doi:10.1213/ANE.0000000000006951
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1213/ANE.0000000000006951.

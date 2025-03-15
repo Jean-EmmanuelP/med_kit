@@ -1,19 +1,22 @@
 Date de publication : 2024-08-30
 
-# 📝 Sémaglutide et bénéfices cardiovasculaires dans le diabète de type 2 avec maladie rénale chronique : résultats de l'étude FLOW
+# 📝 Bénéfices cardiovasculaires du sémaglutide dans le DT2 avec MRC : analyse de FLOW selon la sévérité rénale
 
 ## 📌 Contexte & Problématique
-L'essai FLOW a démontré que le sémaglutide réduit les événements rénaux et cardiovasculaires chez les patients diabétiques de type 2 avec maladie rénale chronique (MRC). Cette analyse évalue l'impact cardiovasculaire selon la sévérité de la MRC.
+L'étude FLOW a démontré que le sémaglutide réduit les risques d'événements rénaux et cardiovasculaires chez les patients diabétiques de type 2 (DT2) avec maladie rénale chronique (MRC). Cette analyse évalue les effets cardiovasculaires selon différents degrés de sévérité de la MRC.
 
 ## 🧪 Méthodologie
-Étude randomisée comparant sémaglutide 1mg hebdomadaire versus placebo chez 3533 patients suivis pendant 3,4 ans. Analyse des événements cardiovasculaires et de la mortalité selon le DFGe, l'UACR et la classification KDIGO.
+Essai randomisé comparant sémaglutide sous-cutané 1mg hebdomadaire versus placebo chez 3533 patients DT2 avec MRC, suivis pendant 3,4 ans. Stratification selon DFGe (débit de filtration glomérulaire estimé), UACR (rapport albumine/créatinine urinaire) et classification KDIGO.
 
 ## 📊 Résultats clés
-Le sémaglutide a réduit de 18% le critère composite (décès CV/IM/AVC) (HR 0,82 [0,68-0,98]; p=0,03) et de 20% la mortalité toutes causes (HR 0,80 [0,67-0,95]; p=0,01). Ces bénéfices étaient constants quelle que soit la sévérité de la MRC, sauf pour la mortalité toutes causes selon l'UACR (p-interaction=0,01).
+Le sémaglutide a réduit de 18% le critère composite de décès cardiovasculaire/infarctus du myocarde/AVC (HR 0,82; IC95% 0,68-0,98; p=0,03), avec effet homogène quelle que soit la sévérité de la MRC. La mortalité toutes causes a diminué de 20% (HR 0,80; IC95% 0,67-0,95; p=0,01), avec bénéfice particulièrement marqué chez les patients ayant un UACR ≥300mg/g.
 
 ## 🩺 Impact clinique
-Le sémaglutide offre des bénéfices cardiovasculaires significatifs chez les patients diabétiques avec MRC, indépendamment de la sévérité de l'atteinte rénale, justifiant son utilisation dans cette population à haut risque.
+Le sémaglutide offre une protection cardiovasculaire chez les patients DT2 avec MRC indépendamment du stade de la maladie rénale, constituant une option thérapeutique pertinente pour cette population à haut risque.
+
+## Revue
+European Heart Journal
 
 ## 📖 Référence
-Mahaffey KW, Tuttle KR, Arici M, et al. Eur Heart J. 2024 Aug 30:ehae613.
+2024 Aug 30:ehae613. doi: 10.1093/eurheartj/ehae613.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1093/eurheartj/ehae613.

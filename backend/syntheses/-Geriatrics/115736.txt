@@ -1,23 +1,22 @@
 Date de publication : 2024-10-11
 
-# 📝 Efficacité des Soins Intégrés pour les Personnes Âgées (ICOPE) sur la capacité intrinsèque : revue systématique et méta-analyse
+# 📝 Efficacité des Soins Intégrés pour les Personnes Âgées (ICOPE) dans l'amélioration de la capacité intrinsèque
 
 ## 📌 Contexte & Problématique
-Évaluation de l'efficacité du programme ICOPE sur la capacité intrinsèque (CI) des personnes âgées, incluant cognition, psychologie, fonction sensorielle, vitalité et locomotion.
+Évaluation de l'efficacité du programme ICOPE (Soins intégrés pour les personnes âgées) sur la capacité intrinsèque (CI) des personnes âgées, incluant cognition, état psychologique, capacités sensorielles, vitalité et locomotion.
 
 ## 🧪 Méthodologie
-Recherche systématique dans 10 bases de données jusqu'au 2 janvier 2024. Inclusion d'essais contrôlés randomisés évaluant l'impact de l'ICOPE sur les composantes de la CI.
+Revue systématique et méta-analyse d'essais contrôlés randomisés (ECR) à partir de 10 bases de données jusqu'au 2 janvier 2024.
 
 ## 📊 Résultats clés
-ICOPE améliore significativement:
-- Fonction cognitive (DMS=0,36; IC 95%: 0,17-0,56; p<0,001)
-- Symptômes dépressifs (DMS=-0,70; IC 95%: -0,96 à -0,43; p<0,001)
-Pas d'effet significatif sur la locomotion (DMS=0,16; IC 95%: -0,03 à 0,34; p=0,098).
-La durée d'intervention influence l'hétérogénéité des résultats cognitifs.
+L'ICOPE améliore significativement la fonction cognitive (DMS=0,36; IC 95%, 0,17-0,56; p<0,001) et réduit les symptômes dépressifs (DMS=-0,70; IC 95%, -0,96 à -0,43; p<0,001). Aucun effet significatif sur la locomotion n'a été observé. La durée d'intervention influence l'impact sur la cognition.
 
 ## 🩺 Impact clinique
-L'ICOPE constitue une approche efficace pour améliorer la capacité intrinsèque, particulièrement la cognition et l'état psychologique, offrant une stratégie viable pour promouvoir un vieillissement en santé.
+L'ICOPE représente une approche prometteuse pour améliorer la capacité intrinsèque des personnes âgées, particulièrement pour la cognition et l'état psychologique. Ces résultats soutiennent son adoption comme stratégie de promotion du vieillissement en bonne santé.
+
+## Revue
+J Clin Nurs
 
 ## 📖 Référence
-Liu W, Qin R, Zhang X, et al. J Clin Nurs. 2025;34(3):1013-1031.
+2025 Mar;34(3):1013-1031. doi: 10.1111/jocn.17432. Epub 2024 Oct 11.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1111/jocn.17432.

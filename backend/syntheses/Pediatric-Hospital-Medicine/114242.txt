@@ -1,0 +1,22 @@
+Date de publication : 2024-08-27
+
+# 📝 Effets de la dexaméthasone sur la consommation d'opioïdes dans l'amygdalectomie pédiatrique
+
+## 📌 Contexte & Problématique
+L'amygdalectomie est une procédure ambulatoire fréquente chez les enfants (~40 000/an au Canada). Bien que la dexaméthasone soit reconnue comme adjuvant analgésique, son impact quantitatif sur la consommation d'opioïdes restait à préciser.
+
+## 🧪 Méthodologie
+Revue systématique avec méta-analyse d'essais contrôlés randomisés comparant la dexaméthasone IV au placebo dans l'amygdalectomie pédiatrique. Recherche dans MEDLINE, Embase, Cochrane et Web of Science jusqu'en avril 2024. Critère principal : consommation périopératoire d'opioïdes.
+
+## 📊 Résultats clés
+Sur 1 329 études identifiées, 16 ont été analysées. La dexaméthasone IV a significativement réduit la consommation d'opioïdes (DM -0,11 mg·kg⁻¹ équivalent morphine orale; IC 95% -0,22 à -0,01) sans augmenter les réadmissions (RR 0,69; IC 95% 0,28-1,67) ni les réinterventions pour hémorragie (RR 3,67; IC 95% 0,79-17,1).
+
+## 🩺 Impact clinique
+La dexaméthasone IV permet de réduire la consommation d'opioïdes périopératoires dans l'amygdalectomie pédiatrique sans majorer le risque hémorragique postopératoire.
+
+## Revue
+Canadian Journal of Anesthesia
+
+## 📖 Référence
+2025 Jan;72(1):106-118. doi: 10.1007/s12630-024-02817-y. Epub 2024 Aug 27.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1007/s12630-024-02817-y.

@@ -1,0 +1,22 @@
+Date de publication : 2024-04-01
+
+# 📝 Immunothérapie épicutanée avec Viaskin milk pour l'allergie aux protéines de lait de vache chez l'enfant
+
+## 📌 Contexte & Problématique
+L'allergie aux protéines de lait de vache (APLV) médiée par les immunoglobulines E (IgE) est fréquente chez l'enfant sans traitement approuvé actuellement.
+
+## 🧪 Méthodologie
+Essai clinique randomisé, double aveugle, contrôlé par placebo, phase 1/2 en deux parties, incluant 198 enfants (2-17 ans) avec APLV confirmée. Évaluation de trois doses de Viaskin milk (150, 300, 500 µg) versus placebo pendant 12 mois.
+
+## 📊 Résultats clés
+Le taux de réponse le plus élevé a été observé avec la dose de 300 µg (49,0% vs 30,2% placebo), particulièrement significatif chez les 2-11 ans (57,9% vs 32,5%, p=0,04). La majorité des effets indésirables étaient des réactions légères à modérées au site d'application. Un seul cas d'anaphylaxie a été rapporté (groupe 500 µg).
+
+## 🩺 Impact clinique
+L'immunothérapie épicutanée avec Viaskin milk à 300 µg pendant 12 mois montre une efficacité significative chez les enfants de 2-11 ans avec APLV, avec un profil de sécurité favorable, offrant une potentielle option thérapeutique pour cette population.
+
+## Revue
+JAMA Pediatrics
+
+## 📖 Référence
+2024;178(4):345-353. doi:10.1001/jamapediatrics.2023.6630
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamapediatrics.2023.6630.

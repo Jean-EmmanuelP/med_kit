@@ -1,0 +1,22 @@
+Date de publication : 2024-07-22
+
+# 📝 Statines préopératoires pour adultes subissant une chirurgie cardiaque
+
+## 📌 Contexte & Problématique
+Les patients subissant une chirurgie cardiaque sont à risque d'événements indésirables postopératoires. Les statines (inhibiteurs de la HMG-CoA réductase), reconnues pour leurs effets anti-inflammatoires et antioxydants, pourraient améliorer les résultats périopératoires.
+
+## 🧪 Méthodologie
+Revue systématique de 8 essais contrôlés randomisés (5592 participants) comparant un traitement préopératoire par statines versus placebo ou soins standard. Évaluation des critères primaires (mortalité, événements cardiovasculaires indésirables majeurs) et secondaires (infarctus, fibrillation auriculaire, AVC, insuffisance rénale, durée de séjour).
+
+## 📊 Résultats clés
+Les statines n'ont montré aucun bénéfice significatif sur la mortalité (RR 1,36 [0,72-2,59]), les événements cardiovasculaires majeurs (RR 0,93 [0,77-1,13]), l'infarctus du myocarde (RR 0,88 [0,73-1,06]), la fibrillation auriculaire (RR 0,87 [0,72-1,05]), les AVC (RR 1,47 [0,90-2,40]), l'insuffisance rénale, ou les durées de séjour en USI et d'hospitalisation.
+
+## 🩺 Impact clinique
+Aucune preuve ne soutient l'utilisation systématique des statines en périopératoire de chirurgie cardiaque élective. La certitude des preuves varie de modérée à très faible selon les critères évalués.
+
+## Revue
+Cochrane Database of Systematic Reviews
+
+## 📖 Référence
+2024;7(7):CD008493. doi: 10.1002/14651858.CD008493.pub5
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1002/14651858.CD008493.pub5.

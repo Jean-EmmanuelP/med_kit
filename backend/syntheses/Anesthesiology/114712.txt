@@ -1,0 +1,22 @@
+Date de publication : 2024-10-14
+
+# 📝 Mouvement de la colonne cervicale lors de l'intubation vidéolaryngoscopique avec et sans partie antérieure de minerve
+
+## 📌 Contexte & Problématique
+L'application d'une minerve cervicale pendant l'intubation par vidéolaryngoscopie (VL) peut augmenter la force nécessaire pour visualiser la glotte, potentiellement accroissant le mouvement cervical. L'étude compare le mouvement cervical pendant la VL avec partie postérieure seule versus application complète (antérieure-postérieure) de la minerve.
+
+## 🧪 Méthodologie
+Essai contrôlé randomisé monocentrique sur 102 patients (51 par groupe) utilisant un vidéolaryngoscope AceScope™ avec lame Macintosh. Le mouvement cervical a été mesuré par radiographie latérale à trois segments (occiput-C1, C1-C2, C2-C5).
+
+## 📊 Résultats clés
+Les différences de mouvement cervical entre les groupes (postérieur seul vs antérieur-postérieur) étaient minimes: 1,2° (occiput-C1), 1,0° (C1-C2) et -0,3° (C2-C5). Le temps d'intubation était significativement plus court sans partie antérieure (23 vs 33 secondes; p=0,003).
+
+## 🩺 Impact clinique
+Le retrait de la partie antérieure de la minerve cervicale raccourcit le temps d'intubation sans augmentation cliniquement significative du mouvement cervical, offrant une option plus efficace pour la gestion des voies aériennes difficiles.
+
+## Revue
+Canadian Journal of Anaesthesia
+
+## 📖 Référence
+2025 Jan;72(1):142-151. doi: 10.1007/s12630-024-02849-4. Epub 2024 Oct 14.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1007/s12630-024-02849-4.

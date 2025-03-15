@@ -1,0 +1,22 @@
+Date de publication : 2024-10-01
+
+# 📝 Médicaments préventifs dans la migraine pédiatrique : une méta-analyse en réseau
+
+## 📌 Contexte & Problématique
+La migraine pédiatrique impacte significativement la qualité de vie et les performances académiques. Cette étude évalue l'efficacité et la sécurité des traitements pharmacologiques prophylactiques chez les enfants et adolescents migraineux.
+
+## 🧪 Méthodologie
+Méta-analyse en réseau de 45 essais cliniques randomisés (3771 participants) identifiés via PubMed, Embase et SCOPUS jusqu'en septembre 2023. Critère principal : fréquence mensuelle des crises migraineuses.
+
+## 📊 Résultats clés
+Comparés au placebo, la prégabaline (RoM 0,38) et le topiramate avec vitamine D3 (RoM 0,44) ont montré la plus grande efficacité sur la fréquence des crises. D'autres médicaments efficaces incluent la flunarizine, le lévétiracétam, la riboflavine, la cinnarizine, le topiramate et l'amitriptyline. Effets indésirables plus fréquents avec l'amitriptyline, le topiramate et le valproate. Aucun traitement n'a amélioré significativement la qualité de vie ou la durée des crises.
+
+## 🩺 Impact clinique
+Le topiramate et la prégabaline apparaissent comme les options les plus prometteuses pour réduire la fréquence et l'intensité des migraines pédiatriques. Les thérapies combinées, notamment avec des vitamines, méritent d'être explorées davantage.
+
+## Revue
+JAMA Network Open
+
+## 📖 Référence
+2024;7(10):e2438666. doi:10.1001/jamanetworkopen.2024.38666
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamanetworkopen.2024.38666.

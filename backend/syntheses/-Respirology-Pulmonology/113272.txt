@@ -1,0 +1,22 @@
+Date de publication : 2024-05-17
+
+# 📝 Régime BPaMZ pour le traitement de la tuberculose sensible et résistante : essai de phase 2c
+
+## 📌 Contexte & Problématique
+Le régime combinant bédaquiline, prétomanide, moxifloxacine et pyrazinamide (BPaMZ) a été identifié comme potentiellement efficace pour raccourcir le traitement de la tuberculose (TB) sensible aux médicaments (DS-TB) et pharmacorésistante (DR-TB).
+
+## 🧪 Méthodologie
+Essai clinique de phase 2c, partiellement randomisé, ouvert, multicentrique, comparant 4 mois de BPaMZ au traitement standard de 6 mois (HRZE) pour la DS-TB, et évaluant 6 mois de BPaMZ pour la DR-TB. Critère primaire : délai jusqu'à négativation de la culture à 8 semaines.
+
+## 📊 Résultats clés
+À 8 semaines, 84% des patients sous BPaMZ 4 mois vs 47% sous HRZE avaient une culture négative (HR=2,93; p<0,0001). À 52 semaines, 83% des patients sous BPaMZ 4 mois, 93% sous HRZE, et 83% sous BPaMZ 6 mois avaient des résultats favorables. La non-infériorité n'a pas été atteinte dans l'analyse mITT en raison d'événements hépatiques indésirables plus fréquents sous BPaMZ (30% vs 25%).
+
+## 🩺 Impact clinique
+Malgré une efficacité bactériologique supérieure, le régime BPaMZ présente un risque accru d'événements hépatiques graves, limitant son utilisation dans les contextes à ressources limitées où une surveillance biochimique étroite n'est pas possible.
+
+## Revue
+The Lancet Infectious Diseases
+
+## 📖 Référence
+2024;24(9):1003-1014. doi:10.1016/S1473-3099(24)00223-8
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S1473-3099(24)00223-8.

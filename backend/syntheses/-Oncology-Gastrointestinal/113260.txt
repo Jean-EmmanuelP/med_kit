@@ -1,0 +1,26 @@
+Date de publication : 2024-03-19
+
+# 📝 Recommandations sur le traitement d'éradication endoscopique dans l'œsophage de Barrett
+
+## 📌 Contexte & Problématique
+L'œsophage de Barrett (OB) est précurseur de l'adénocarcinome œsophagien. Le traitement d'éradication endoscopique (TEE) peut éliminer l'OB et les néoplasies associées, mais présente des risques et nécessite davantage de ressources que la surveillance endoscopique.
+
+## 🧪 Méthodologie
+Utilisation du cadre GRADE pour évaluer les preuves et formuler des recommandations sur l'utilisation du TEE dans différents scénarios cliniques, en tenant compte des bénéfices, risques, valeurs des patients et considérations économiques.
+
+## 📊 Résultats clés
+- Forte recommandation pour le TEE en cas de dysplasie de haut grade
+- Recommandation conditionnelle pour le TEE en cas de dysplasie de bas grade
+- Recommandation conditionnelle contre le TEE en l'absence de dysplasie
+- Pour les lésions visibles : recommandation conditionnelle pour la résection muqueuse endoscopique (RME) focale suivie d'ablation plutôt que RME par étapes
+- Choix entre RME et dissection sous-muqueuse endoscopique selon les caractéristiques des lésions
+
+## 🩺 Impact clinique
+Ces recommandations guident la prise en charge de l'OB selon le degré de dysplasie, avec une emphase sur la décision partagée avec le patient. Des conseils pratiques sur l'implémentation du TEE sont également fournis.
+
+## Revue
+Gastroenterology
+
+## 📖 Référence
+2024;166(6):1020-1055. doi:10.1053/j.gastro.2024.03.019
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1053/j.gastro.2024.03.019.

@@ -1,0 +1,22 @@
+Date de publication : 2024-06-01
+
+# 📝 Analyse coût-efficacité du bandage souple versus immobilisation rigide pour fractures torus du radius distal chez l'enfant
+
+## 📌 Contexte & Problématique
+Évaluation économique comparant le bandage souple avec sortie immédiate à l'immobilisation rigide pour les enfants (4-15 ans) présentant une fracture en motte de beurre (torus) du radius distal.
+
+## 🧪 Méthodologie
+Analyse économique dans le cadre de l'essai FORCE (Forearm Recovery in Children Evaluation), selon la perspective du NHS britannique et des services sociaux. Collecte de données sur les ressources de santé et la qualité de vie (EQ-5D-Y) sur 6 semaines, avec estimation des coûts et QALY (années de vie ajustées par la qualité).
+
+## 📊 Résultats clés
+Le bandage souple a réduit significativement le coût par patient (économie de 12,55 £, IC 95% -5,30 à 19,80 £) avec des QALY similaires entre les groupes (différence: 0,0013, IC 95% -0,0004 à 0,003). Probabilité de 95% que le bandage soit une option rentable.
+
+## 🩺 Impact clinique
+En plus de l'équivalence clinique déjà établie, l'utilisation du bandage souple avec sortie immédiate offre une économie modeste par patient mais significative à l'échelle du système de santé vu la fréquence élevée de ces fractures.
+
+## Revue
+Bone Joint J
+
+## 📖 Référence
+2024 Jun 1;106-B(6):623-630. doi: 10.1302/0301-620X.106B6.BJJ-2023-1211.R1.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1302/0301-620X.106B6.BJJ-2023-1211.R1.

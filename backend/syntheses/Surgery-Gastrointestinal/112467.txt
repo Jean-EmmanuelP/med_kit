@@ -1,0 +1,22 @@
+Date de publication : 2023-10-13
+
+# 📝 Résultats comparatifs des techniques de conditionnement ischémique gastrique avant œsophagectomie
+
+## 📌 Contexte & Problématique
+L'ischémie au niveau anastomotique est un facteur déterminant des complications post-œsophagectomie. Le conditionnement ischémique gastrique (CIG) pourrait améliorer la perfusion vasculaire et réduire les risques de fuite anastomotique (FA) et de sténose anastomotique (SA).
+
+## 🧪 Méthodologie
+Méta-analyse en réseau comparant trois approches : œsophagectomie en une étape sans CIG, CIG par laparoscopie (CIGLap) et CIG par angioembolisation (CIGAngio). Analyse de 14 études incluant 1760 patients.
+
+## 📊 Résultats clés
+Le CIGLap et le CIGAngio réduisent significativement le risque de FA comparativement à l'absence de CIG (RR=0,68 et RR=0,52 respectivement). Le CIGLap diminue également le risque de SA (RR=0,32). Aucune différence significative entre CIGLap et CIGAngio n'a été observée pour ces complications. Les autres paramètres (nécrose du tube gastrique, complications pulmonaires, durée d'hospitalisation, mortalité) restent comparables entre les groupes.
+
+## 🩺 Impact clinique
+Les deux techniques de CIG semblent équivalentes et supérieures à l'absence de conditionnement pour réduire les complications anastomotiques post-œsophagectomie.
+
+## Revue
+Annals of Surgery
+
+## 📖 Référence
+2024;279(3):410-418. doi:10.1097/SLA.0000000000006124
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1097/SLA.0000000000006124.

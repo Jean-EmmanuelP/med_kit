@@ -1,0 +1,22 @@
+Date de publication : 2024-08-01
+
+# 📝 Comparaison de la radiofréquence pulsée du nerf tibial et de la thermocoagulation par radiofréquence intralésionnelle dans le traitement de l'épine calcanéenne douloureuse et la fasciite plantaire
+
+## 📌 Contexte & Problématique
+L'épine calcanéenne douloureuse et la fasciite plantaire peuvent être traitées par radiofréquence pulsée du nerf tibial guidée par échographie (PRF du NT) ou thermocoagulation par radiofréquence intralésionnelle guidée par fluoroscopie (RFT intralésionnelle). Cette étude compare l'efficacité de ces deux interventions.
+
+## 🧪 Méthodologie
+Étude prospective randomisée simple aveugle incluant 49 patients répartis en deux groupes : groupe U (n=25) recevant une PRF du NT à 42°C/240s et groupe F (n=24) recevant une RFT intralésionnelle à 80°C/90s. Évaluation par échelle numérique d'évaluation (ENE) et scores AOFAS (American Orthopedic Foot and Ankle Society).
+
+## 📊 Résultats clés
+Les deux groupes ont montré une amélioration significative des scores ENE et AOFAS à 1 et 3 mois (p<0,05), sans différence significative entre eux. À 1 mois, 72% du groupe U et 75% du groupe F ont obtenu un soulagement ≥50% de la douleur. L'incidence des événements indésirables légers était comparable.
+
+## 🩺 Impact clinique
+Les deux techniques offrent une efficacité comparable dans le traitement de l'épine calcanéenne douloureuse et la fasciite plantaire, permettant aux cliniciens de choisir selon leur expertise et l'équipement disponible.
+
+## Revue
+Pain Medicine
+
+## 📖 Référence
+2024;25(8):493-499. doi:10.1093/pm/pnae029. NCT06240507.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1093/pm/pnae029.

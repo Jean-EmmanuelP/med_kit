@@ -1,0 +1,22 @@
+Date de publication : 2024-05-04
+
+# 📝 Estrogènes vaginaux périopératoires comme adjuvant à la réparation du prolapsus vaginal apical par tissu natif : résultats à 3 ans
+
+## 📌 Contexte & Problématique
+Les tissus vaginaux étant sensibles aux œstrogènes, leur utilisation périopératoire pourrait optimiser la réparation chirurgicale du prolapsus. Cette étude évalue l'efficacité à long terme des œstrogènes vaginaux versus placebo pour réduire l'échec du traitement chirurgical.
+
+## 🧪 Méthodologie
+Essai randomisé incluant 186 femmes ménopausées ayant reçu soit des œstrogènes conjugués (0,625 mg/g), soit un placebo, deux fois/semaine pendant ≥5 semaines en préopératoire et 12 mois en postopératoire. Toutes ont subi une suspension standardisée du ligament utéro-sacré ou sacro-épineux. Suivi à 36 mois.
+
+## 📊 Résultats clés
+Aucune différence significative dans les taux d'échec chirurgical composite à 36 mois : 32,6% (groupe œstrogènes) vs 26,8% (placebo) (RR ajusté=1,55; IC95%:0,90-2,66; p=0,11). L'amélioration subjective était excellente dans les deux groupes (94-95% des patientes rapportant une amélioration importante), incluant 51/55 "échecs chirurgicaux".
+
+## 🩺 Impact clinique
+L'utilisation d'œstrogènes vaginaux périopératoires n'améliore pas les résultats chirurgicaux à 36 mois après réparation de prolapsus par tissu natif. La satisfaction des patientes reste élevée indépendamment du traitement adjuvant.
+
+## Revue
+American Journal of Obstetrics and Gynecology
+
+## 📖 Référence
+2024;231(2):263.e1-263.e10. doi:10.1016/j.ajog.2024.04.042
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.ajog.2024.04.042.

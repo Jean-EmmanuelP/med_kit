@@ -1,0 +1,22 @@
+Date de publication : 2024-07-01
+
+# 📝 Traitement cognitivo-comportemental en ligne pour la boulimie : un essai clinique randomisé
+
+## 📌 Contexte & Problématique
+De nombreuses personnes souffrant de boulimie (BN) n'accèdent pas aux thérapies fondées sur des preuves. Les interventions numériques pourraient élargir l'accès aux soins et réduire le fardeau clinique de cette pathologie.
+
+## 🧪 Méthodologie
+Essai clinique randomisé comparant une intervention d'auto-assistance cognitive comportementale en ligne (12 modules hebdomadaires) à une liste d'attente avec soins habituels. 154 participants (96,8% de femmes, âge moyen 29,6 ans) souffrant de BN ont été recrutés en ligne en Allemagne (2021-2022).
+
+## 📊 Résultats clés
+L'intervention en ligne a significativement réduit les épisodes boulimiques (d=-0,48; p<0,001), particulièrement les épisodes d'hyperphagie (d=-0,61; p<0,001), mais pas les comportements compensatoires (p=0,21). Les symptômes globaux du trouble alimentaire (d=-0,61) et l'altération clinique (d=-0,62) se sont améliorés significativement. Des améliorations de l'estime de soi et de la régulation émotionnelle ont été observées, sans effet sur le bien-être général ou la capacité de travail.
+
+## 🩺 Impact clinique
+Cette intervention numérique d'auto-assistance démontre son efficacité pour réduire les symptômes boulimiques et pourrait compléter les traitements conventionnels, offrant une option thérapeutique accessible pour les patients non pris en charge.
+
+## Revue
+JAMA Network Open
+
+## 📖 Référence
+2024;7(7):e2419019. doi:10.1001/jamanetworkopen.2024.19019
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamanetworkopen.2024.19019.

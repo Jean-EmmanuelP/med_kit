@@ -1,0 +1,22 @@
+Date de publication : 2024-07-01
+
+# 📝 Comparaison du SIPA et de l'AT pour prédire les résultats graves chez les patients pédiatriques traumatisés
+
+## 📌 Contexte & Problématique
+L'indice de choc ajusté à l'âge pédiatrique (SIPA) identifie les patients pédiatriques nécessitant des interventions d'urgence, mais sa comparaison avec la tachycardie ajustée à l'âge (AT) n'avait pas été évaluée jusqu'à présent.
+
+## 🧪 Méthodologie
+Analyse rétrospective des données du Programme d'amélioration de la qualité des traumatismes (2013-2020) incluant 36 517 patients de 4-16 ans avec traumatisme contondant et score de gravité des blessures (ISS) > 15.
+
+## 📊 Résultats clés
+L'AT a identifié 59% des patients comme "à haut risque" contre 26% pour le SIPA. Les patients avec SIPA élevé présentaient des taux supérieurs de transfusion (22% vs 12%), mortalité (10% vs 5%) et interventions urgentes (43% vs 32%). L'AT offre une meilleure sensibilité mais une spécificité inférieure au SIPA.
+
+## 🩺 Impact clinique
+L'AT surpasse le SIPA en sensibilité pour détecter la mortalité, les blessures graves et le besoin d'interventions urgentes, tandis que le SIPA présente une meilleure spécificité.
+
+## Revue
+American Journal of Emergency Medicine
+
+## 📖 Référence
+2024;83:59-63. doi: 10.1016/j.ajem.2024.06.041
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.ajem.2024.06.041.

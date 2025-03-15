@@ -1,0 +1,22 @@
+Date de publication : 2025-02-21
+
+# 📝 Lignes directrices de la SCCM pour le traitement du coup de chaleur
+
+## 📌 Contexte & Problématique
+L'augmentation des phénomènes météorologiques liés à la chaleur entraînera davantage de coups de chaleur. Une reconnaissance rapide et une prise en charge fondée sur des preuves sont essentielles pour optimiser les résultats.
+
+## 🧪 Méthodologie
+Un panel multidisciplinaire de 18 experts internationaux a identifié des questions PICO (Patient, Intervention, Comparaison et Résultats) concernant les modalités de refroidissement et les médicaments affectant la température. La méthodologie GRADE (Grading of Recommendations, Assessment, Development, and Evaluation) a été utilisée pour évaluer les preuves.
+
+## 📊 Résultats clés
+Le panel a formulé deux recommandations fortes, cinq énoncés de bonnes pratiques et une déclaration "uniquement dans le contexte de la recherche". Les mesures de refroidissement actif sont recommandées, l'immersion dans l'eau froide étant la méthode la plus efficace. Aucune preuve ne soutient l'utilisation d'interventions pharmacologiques.
+
+## 🩺 Impact clinique
+Ces recommandations privilégient l'immersion dans l'eau froide lorsque disponible et déconseillent les interventions pharmacologiques affectant la température chez les patients victimes de coup de chaleur.
+
+## Revue
+Critical Care Medicine
+
+## 📖 Référence
+2025;53(2):e490-e500. doi:10.1097/CCM.0000000000006551
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1097/CCM.0000000000006551.

@@ -1,0 +1,22 @@
+Date de publication : 2024-09-01
+
+# 📝 Méta-analyse et évaluation économique des neurostimulations pour les douleurs dorsales chroniques réfractaires non chirurgicales
+
+## 📌 Contexte & Problématique
+L'efficacité relative et le rapport coût-efficacité des différents types de stimulation de la moelle épinière (SME) pour les douleurs dorsales chroniques réfractaires non chirurgicales (DDCRNC) restent mal documentés, notamment entre la SME en boucle fermée et la prise en charge médicale conventionnelle (PMC).
+
+## 🧪 Méthodologie
+Revue systématique des essais contrôlés randomisés jusqu'en septembre 2023, méta-analyse en réseau à effets fixes et analyse coût-utilité selon la perspective du NHS britannique.
+
+## 📊 Résultats clés
+La SME en boucle fermée a montré une réduction significative de l'intensité douloureuse versus SME à sortie fixe (DM 32,72 [ICr 95% 15,69-49,78]). Les deux types de SME ont surpassé la PMC pour la douleur, l'Indice d'Incapacité d'Oswestry (IIO) et la qualité de vie liée à la santé (QVLS).
+
+## 🩺 Impact clinique
+L'analyse coût-utilité démontre que la SME en boucle fermée domine économiquement la SME à sortie fixe et la PMC, offrant plus d'avantages cliniques et d'économies pour les patients souffrant de DDCRNC.
+
+## Revue
+Clin J Pain
+
+## 📖 Référence
+2024;40(9):507-517. doi:10.1097/AJP.0000000000001223
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1097/AJP.0000000000001223.

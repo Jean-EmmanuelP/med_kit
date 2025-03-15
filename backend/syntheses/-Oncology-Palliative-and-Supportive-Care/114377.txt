@@ -1,0 +1,24 @@
+Date de publication : 2024-09-12
+
+# 📝 Thérapie assistée par psychédéliques pour l'anxiété, la dépression et la détresse existentielle chez les patients atteints de maladies potentiellement mortelles
+
+## 📌 Contexte & Problématique
+Les thérapies assistées par psychédéliques pourraient réduire les symptômes psychologiques chez les patients atteints de maladies graves. Cette revue systématique évalue l'efficacité et la sécurité de ces approches thérapeutiques.
+
+## 🧪 Méthodologie
+Analyse de 6 ECR (Essais Contrôlés Randomisés) incluant 149 patients atteints de maladies potentiellement mortelles, comparant la psilocybine, le LSD ou la MDMA (3,4-méthylènedioxyméthamphétamine) au placebo ou à des doses minimales.
+
+## 📊 Résultats clés
+- Psychédéliques classiques (psilocybine, LSD) : réduction probable de l'anxiété (STAI-Trait DM -8,41) et de la dépression (BDI DM -4,92) vs placebo (preuves de faible certitude)
+- MDMA : effets incertains sur l'anxiété et la dépression (preuves de très faible certitude)
+- Aucun événement indésirable grave rapporté, effets secondaires mineurs à modérés transitoires
+
+## 🩺 Impact clinique
+Ces thérapies pourraient constituer une option pour les patients atteints de maladies graves souffrant de détresse psychologique, mais la faible certitude des preuves et les difficultés méthodologiques (notamment l'aveuglement) limitent les recommandations cliniques définitives.
+
+## Revue
+Cochrane Database of Systematic Reviews
+
+## 📖 Référence
+2024;9(9):CD015383. doi: 10.1002/14651858.CD015383.pub2
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1002/14651858.CD015383.pub2.

@@ -1,23 +1,27 @@
 Date de publication : 2024-12-01
 
-# 📝 Directives AGA 2024 pour la prise en charge pharmacologique de la colite ulcéreuse modérée à sévère
+# 📝 Directive de l'AGA sur la prise en charge pharmacologique de la colite ulcéreuse modérée à sévère
 
 ## 📌 Contexte & Problématique
-Recommandations de l'Association Américaine de Gastroentérologie pour guider le traitement pharmacologique de la colite ulcéreuse (CU) modérée à sévère chez l'adulte.
+Directive évolutive de l'Association Américaine de Gastroentérologie (AGA) pour guider les praticiens dans le traitement pharmacologique de la colite ulcéreuse (CU) modérée à sévère.
 
 ## 🧪 Méthodologie
-Panel multidisciplinaire utilisant le cadre GRADE pour formuler 14 recommandations basées sur les preuves.
+Un panel multidisciplinaire a utilisé le cadre GRADE (Grading of Recommendations Assessment, Development and Evaluation) pour élaborer des recommandations basées sur les données probantes.
 
 ## 📊 Résultats clés
-- Recommandation forte pour infliximab, golimumab, védolizumab, tofacitinib, upadacitinib, ustékinumab, ozanimod, étrasimod, risankizumab et guselkumab
-- Préférence pour les médicaments à efficacité élevée chez patients naïfs
-- Chez patients pré-exposés aux anti-TNF : privilégier tofacitinib, upadacitinib ou ustékinumab
-- Déconseille monothérapie par thiopurine pour l'induction et méthotrexate en monothérapie
-- Recommande l'association anti-TNF + immunomodulateur
+14 recommandations formulées, notamment:
+- Recommandation forte pour infliximab, golimumab, vedolizumab, tofacitinib, upadacitinib, ustekinumab, ozanimod, etrasimod, risankizumab et guselkumab
+- Stratification des médicaments selon leur efficacité pour patients naïfs ou expérimentés aux thérapies avancées
+- Déconseille la monothérapie par thiopurine pour l'induction mais la suggère pour le maintien
+- Recommande l'association anti-TNF (facteur de nécrose tumorale) avec immunomodulateur
+- Suggère l'utilisation précoce des thérapies avancées plutôt qu'une intensification progressive
 
 ## 🩺 Impact clinique
-Favorise l'utilisation précoce des thérapies avancées plutôt qu'une intensification progressive. Suggère l'arrêt des 5-ASA après intensification thérapeutique.
+Approche personnalisée selon l'historique thérapeutique du patient, avec hiérarchisation des options médicamenteuses selon leur efficacité et recommandations spécifiques pour les thérapies combinées.
+
+## Revue
+Gastroenterology
 
 ## 📖 Référence
-Singh S, Loftus EV Jr, Limketkai BN, et al. AGA Living Clinical Practice Guideline on Pharmacological Management of Moderate-to-Severe Ulcerative Colitis. Gastroenterology. 2024;167(7):1307-1343.
+2024;167(7):1307-1343. doi: 10.1053/j.gastro.2024.10.001
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1053/j.gastro.2024.10.001.

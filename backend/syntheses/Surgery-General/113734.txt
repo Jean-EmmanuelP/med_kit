@@ -1,0 +1,23 @@
+Date de publication : 2024-07-04
+
+# 📝 Titre
+Comparaison des techniques laparoscopiques TAPP et TEP pour la réparation des hernies inguinales
+
+# 📌 Contexte & Problématique
+Les hernies inguinales sont fréquentes, surtout chez les hommes. Deux techniques laparoscopiques sont couramment utilisées : la technique transpéritonéale prépéritonéale (TAPP) et la technique totalement extrapéritonéale (TEP). La TAPP nécessite d'entrer dans la cavité abdominale, contrairement à la TEP. La supériorité d'une technique sur l'autre reste débattue.
+
+# 🧪 Méthodologie
+Revue systématique de 23 essais randomisés comparant TAPP et TEP (1156 vs 1110 participants), avec recherche dans CENTRAL, MEDLINE et Embase jusqu'en octobre 2022. Évaluation des événements indésirables graves, douleur chronique et récidives comme critères principaux.
+
+# 📊 Résultats clés
+Peu ou pas de différence entre TAPP et TEP concernant les événements indésirables graves (0,4% vs 0,7%) et les récidives (1,2% vs 1,1%). Impact incertain sur la douleur chronique. La TEP présente un risque plus élevé de conversion vers une autre méthode (2,5% vs 0,7%).
+
+# 🩺 Impact clinique
+Les deux techniques semblent équivalentes pour les complications majeures et les récidives. Le choix peut dépendre de l'expérience du chirurgien, la TEP ayant une courbe d'apprentissage plus abrupte mais évitant la cavité abdominale.
+
+## Revue
+Cochrane Database of Systematic Reviews
+
+# 📖 Référence
+2024 Jul 4;7(7):CD004703. doi: 10.1002/14651858.CD004703.pub3.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1002/14651858.CD004703.pub3.

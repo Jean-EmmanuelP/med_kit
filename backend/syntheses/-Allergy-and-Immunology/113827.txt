@@ -3,17 +3,20 @@ Date de publication : 2023-12-18
 # 📝 Recommandations 2023 pour la prise en charge de la dermatite atopique
 
 ## 📌 Contexte & Problématique
-Les recommandations pour la dermatite atopique (DA) nécessitaient une mise à jour depuis 2012 en raison de nouveaux traitements disponibles et de l'évolution des méthodologies d'évaluation des preuves cliniques.
+Mise à jour des recommandations de 2012 sur la dermatite atopique (DA) par l'American Academy of Allergy, Asthma and Immunology/American College of Allergy, Asthma and Immunology, rendue nécessaire par l'émergence de nouveaux traitements et l'évolution des méthodologies d'évaluation des preuves.
 
 ## 🧪 Méthodologie
-Un panel multidisciplinaire (dermatologues, allergologues, médecins généralistes, patients) a élaboré des recommandations selon la méthodologie GRADE. Des revues systématiques ont été réalisées et des groupes de discussion avec patients ont été organisés. Les recommandations ont été soumises à consultation publique.
+Panel multidisciplinaire incluant patients, soignants et experts utilisant l'approche GRADE (Grading of Recommendations Assessment, Development and Evaluation) pour évaluer les preuves. Revues systématiques et groupes de discussion avec patients ont guidé l'élaboration des recommandations.
 
 ## 📊 Résultats clés
-Le panel a formulé 25 recommandations couvrant la prise en charge de la DA légère à sévère. Les directives traitent des thérapies topiques (hydratants, corticostéroïdes, inhibiteurs de calcineurine, crisaborole, inhibiteurs de JAK), des bains d'eau de Javel, des interventions alimentaires, de l'immunothérapie, des traitements systémiques (biologiques, immunosuppresseurs) et de la photothérapie.
+25 recommandations approuvées couvrant la gestion de la DA légère à sévère, incluant: traitements topiques (hydratants, corticostéroïdes, inhibiteurs de calcineurine, de PDE4 et de JAK), bains d'eau de Javel diluée, considérations alimentaires, immunothérapie, traitements systémiques (biologiques, immunosuppresseurs) et photothérapie UV.
 
 ## 🩺 Impact clinique
-Ces recommandations offrent un cadre actualisé et fondé sur les preuves pour optimiser le contrôle de la DA. Des fiches d'information de 1-2 pages adaptées aux patients facilitent l'implémentation clinique.
+Guide complet et actualisé pour optimiser le contrôle de la DA avec fiches d'information pratiques pour les patients incluses en annexe électronique.
+
+## Revue
+I don't see any metadata provided in your request. You included a placeholder {metadata} but no actual content was supplied for me to analyze. Please provide the specific metadata text you'd like me to extract the journal name from, and I'll be
 
 ## 📖 Référence
-Chu DK, Schneider L, Asiniwasis RN, et al. Ann Allergy Asthma Immunol. 2024;132(3):274-312.
+2024;132(3):274-312. doi:10.1016/j.anai.2023.11.009. Epub 2023 Dec 18.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.anai.2023.11.009.

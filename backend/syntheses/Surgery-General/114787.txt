@@ -1,0 +1,22 @@
+Date de publication : 2024-10-09
+
+# 📝 Interventions préopératoires de sevrage tabagique pour prévenir les complications postopératoires
+
+## 📌 Contexte & Problématique
+Évaluation des interventions préopératoires de sevrage tabagique visant à réduire les complications chirurgicales, pour guider les cliniciens et décideurs politiques.
+
+## 🧪 Méthodologie
+Synthèse de revues systématiques issues de cinq bases de données majeures. Évaluation de la qualité par AMSTAR 2 et de la certitude des preuves par GRADE (Grading of Recommendations Assessment, Development and Evaluation).
+
+## 📊 Résultats clés
+Six revues systématiques (12 études primaires) ont été analysées. Les interventions débutées ≥4 semaines avant chirurgie, combinant soutien comportemental multiple et pharmacothérapie, réduisent significativement les complications postopératoires, notamment les infections du site opératoire (preuves de haute certitude). Les interventions <4 semaines ou à composante unique augmentent l'arrêt tabagique mais sans réduire les complications.
+
+## 🩺 Impact clinique
+Les anesthésistes devraient collaborer avec les médecins généralistes et chirurgiens pour mettre en place des interventions de sevrage tabagique au moins 4 semaines avant l'intervention chirurgicale, avec approche multimodale (comportementale et pharmacologique).
+
+## Revue
+Anesthesia & Analgesia
+
+## 📖 Référence
+2024 Oct 9. doi: 10.1213/ANE.0000000000007187.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1213/ANE.0000000000007187.

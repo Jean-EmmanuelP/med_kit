@@ -1,19 +1,22 @@
 Date de publication : 2024-06-27
 
-# 📝 Cellules souches mésenchymateuses clonales dans le traitement de la dermatite atopique modérée à sévère
+# 📝 Cellules souches mésenchymateuses clonales pour le traitement de la dermatite atopique modérée à sévère
 
 ## 📌 Contexte & Problématique
-La dermatite atopique (DA) modérée à sévère reste difficile à traiter. Les cellules souches mésenchymateuses (CSM) présentent un potentiel thérapeutique par leur action immunomodulatrice.
+Les cellules souches mésenchymateuses (CSM) possèdent des propriétés immunomodulatrices potentiellement bénéfiques pour traiter la dermatite atopique (DA) modérée à sévère, une maladie inflammatoire chronique de la peau.
 
 ## 🧪 Méthodologie
-Essai en deux phases : phase 1 ouverte (n=20) testant deux doses de CSM clonales dérivées de moelle osseuse humaine (hcMSC), suivie d'une phase 2 randomisée, double aveugle, contrôlée par placebo (n=72).
+Étude en deux phases : essai ouvert de phase 1 puis essai randomisé de phase 2 en double aveugle contre placebo, incluant 72 patients atteints de DA modérée à sévère, évaluant les CSM clonales allogéniques dérivées de moelle osseuse humaine (hcMSC).
 
 ## 📊 Résultats clés
-Phase 1 : Les deux doses (1×10^6 et 5×10^5 cellules/kg) étaient sûres, sans différence d'efficacité (P=0,9). Phase 2 : La dose faible (5×10^5 cellules/kg) en 3 perfusions hebdomadaires a montré une proportion significativement plus élevée de réponse EASI-50 à 12 semaines versus placebo (P=0,038). Effets indésirables majoritairement légers à modérés.
+En phase 1, les deux doses de hcMSC (1×10^6 et 5×10^5 cellules/kg) se sont révélées sûres. En phase 2, trois perfusions hebdomadaires de hcMSC à 5×10^5 cellules/kg ont montré une proportion significativement plus élevée de réponse EASI-50 (Eczema Area and Severity Index) à 12 semaines comparé au placebo (p=0,038).
 
 ## 🩺 Impact clinique
-Les hcMSC constituent une option thérapeutique prometteuse pour la DA modérée à sévère avec un profil de sécurité acceptable. Des études à plus grande échelle sont nécessaires pour confirmer ces résultats préliminaires.
+Profil de sécurité acceptable avec des effets indésirables majoritairement légers à modérés. Cette approche thérapeutique innovante pourrait offrir une alternative pour les patients atteints de DA modérée à sévère, mais nécessite des études à plus grande échelle.
+
+## Revue
+J Allergy Clin Immunol
 
 ## 📖 Référence
-Seo HM, Lew BL, Lee YW, et al. J Allergy Clin Immunol. 2024;154(4):965-973.
+2024;154(4):965-973. doi:10.1016/j.jaci.2024.06.013
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.jaci.2024.06.013.

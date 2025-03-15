@@ -1,21 +1,29 @@
 Date de publication : 2024-11-05
 
-# 📝 Galantamine pour la démence d'Alzheimer et le trouble cognitif léger : méta-analyse Cochrane 2024
+# 📝 Galantamine dans la maladie d'Alzheimer et le déficit cognitif léger
 
 ## 📌 Contexte & Problématique
-La maladie d'Alzheimer, principale cause de démence, reste incurable. La galantamine est utilisée comme traitement symptomatique. Cette revue actualise celle de 2006 pour évaluer son efficacité et ses effets indésirables.
+La maladie d'Alzheimer, principale cause de démence, représente un fardeau croissant. La galantamine est un traitement symptomatique approuvé dont l'efficacité mérite d'être évaluée précisément.
 
 ## 🧪 Méthodologie
-Méta-analyse de 21 essais randomisés contrôlés (10 990 participants) comparant galantamine orale versus placebo. Durée moyenne des études : 24 semaines. Critères d'évaluation : fonction cognitive, globale, comportementale, activités quotidiennes et effets indésirables.
+Revue systématique de 21 essais contrôlés randomisés (10 990 participants) comparant la galantamine orale au placebo chez des patients atteints de maladie d'Alzheimer ou de déficit cognitif léger (DCL). Durée médiane des études : 24 semaines.
 
 ## 📊 Résultats clés
-Pour l'Alzheimer (16-24 mg/jour, 6 mois) : amélioration significative de la cognition (ADAS-cog : DM -2,86), de l'incapacité fonctionnelle (DAD : DM 2,12) et des troubles comportementaux (NPI : DM -1,63). Mortalité réduite (1,3% vs 2,3%). Effets indésirables plus fréquents : nausées (20,9% vs 8,4%) et abandons (22,7% vs 17,2%).
+Pour l'Alzheimer (dose 16-24 mg/jour à 6 mois) :
+- Amélioration significative de la fonction cognitive (ADAS-cog : -2,86 points)
+- Réduction de l'incapacité fonctionnelle (DAD : +2,12 points)
+- Amélioration comportementale (NPI : -1,63 points)
+- Plus d'arrêts prématurés (22,7% vs 17,2%) et de nausées (20,9% vs 8,4%)
+- Mortalité réduite (1,3% vs 2,3%)
 
-Pour le trouble cognitif léger : aucun bénéfice significatif à 2 ans.
+Pour le DCL (à 2 ans) : aucun bénéfice significatif sur la cognition ou les activités quotidiennes.
 
 ## 🩺 Impact clinique
-La galantamine offre des bénéfices cliniquement significatifs pour les patients Alzheimer avec un profil d'effets indésirables acceptable. Inefficace dans le trouble cognitif léger.
+La galantamine offre des bénéfices cliniquement significatifs dans l'Alzheimer mais pas dans le DCL, avec un profil d'effets indésirables prévisible dominé par les nausées.
+
+## Revue
+Cochrane Database of Systematic Reviews
 
 ## 📖 Référence
-Lim AWY, Schneider L, Loy C. Galantamine for dementia due to Alzheimer's disease and mild cognitive impairment. Cochrane Database Syst Rev. 2024;11(11):CD001747.
+2024 Nov 5;11(11):CD001747. doi: 10.1002/14651858.CD001747.pub4.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1002/14651858.CD001747.pub4.

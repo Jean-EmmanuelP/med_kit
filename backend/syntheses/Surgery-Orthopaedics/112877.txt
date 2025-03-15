@@ -1,0 +1,22 @@
+Date de publication : 2024-03-29
+
+# 📝 Comparaison des résultats cliniques et de la stabilité du genou entre la reconstruction du LCA avec préservation du résidu et la reconstruction standard
+
+## 📌 Contexte & Problématique
+La reconstruction du ligament croisé antérieur (LCA) présente encore 3-18% de résultats indésirables. La préservation du moignon tibial résiduel pourrait améliorer les résultats par rapport au débridement standard.
+
+## 🧪 Méthodologie
+Revue systématique et méta-analyse de 7 essais contrôlés randomisés et 5 études de cohorte (niveau de preuve 2) comparant les deux techniques, totalisant 518 patients avec préservation du résidu et 604 avec reconstruction standard.
+
+## 📊 Résultats clés
+La préservation du résidu a montré une amélioration significative des scores de Lysholm (différence moyenne -1,9), sans atteindre la différence minimale cliniquement importante. La stabilité du genou était supérieure avec plus de patients obtenant un pivot-shift négatif (88,89% vs 79,92%, p=0,006) et une réduction de la translation tibiale antérieure (0,51mm, p=0,004).
+
+## 🩺 Impact clinique
+La technique avec préservation du résidu offre des résultats cliniques comparables et une meilleure stabilité du genou sans augmentation des complications, principalement avec des autogreffes de tendon ischio-jambier (IJ).
+
+## Revue
+Am J Sports Med
+
+## 📖 Référence
+2024;52(14):3651-3661. doi:10.1177/03635465231225984. Epub 2024 Mar 29.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1177/03635465231225984.

@@ -1,19 +1,22 @@
 Date de publication : 2024-03-18
 
-# 📝 Mise à jour 2023 des directives ISTH pour le traitement antithrombotique dans la COVID-19
+# 📝 Mise à jour 2023 des recommandations ISTH sur le traitement antithrombotique dans la COVID-19
 
 ## 📌 Contexte & Problématique
-Mise à jour des directives ISTH 2022 suite à 16 nouveaux essais contrôlés randomisés apportant des preuves supplémentaires sur la prise en charge antithrombotique des patients COVID-19.
+Suite à l'émergence de 16 nouveaux essais contrôlés randomisés depuis 2022, l'ISTH (Société Internationale de Thrombose et d'Hémostase) a actualisé ses recommandations sur le traitement antithrombotique des patients COVID-19.
 
 ## 🧪 Méthodologie
-Utilisation de la méthodologie ACC/AHA pour évaluer le niveau de preuve (NDP) et la classe de recommandation (CDR). Seules les recommandations avec NDP A ou B ont été retenues.
+Utilisation de la méthodologie de l'American College of Cardiology Foundation/American Heart Association pour évaluer le niveau de preuve (NDP) et la classe de recommandation (CR). Seules les recommandations avec NDP A ou B ont été retenues.
 
 ## 📊 Résultats clés
-19 recommandations approuvées: 4 pour patients non hospitalisés, 5 pour hospitalisés non critiques, 3 pour patients critiques, 2 post-hospitalisation et 5 concernant vaccination/TTIV. Cinq recommandations ont atteint un NDP A. Recommandation forte (CDR 1) pour l'HBPM/HNF prophylactique chez patients hospitalisés non critiques.
+19 recommandations ont été validées: 4 pour patients non hospitalisés, 5 pour hospitalisés non graves, 3 pour patients critiques, 2 post-hospitalisation et 5 concernant la vaccination et la TTIV (thrombocytopénie thrombotique immunitaire induite par le vaccin). Cinq recommandations ont atteint un NDP A.
 
 ## 🩺 Impact clinique
-Recommandation forte contre l'ajout d'antiplaquettaires chez patients hospitalisés non critiques. Recommandation d'immunodosages enzymatiques du facteur plaquettaire 4 pour diagnostiquer la TTIV. Directives adaptées aux pays avec ressources de santé et disponibilité vaccinale variables.
+Recommandations fortes (CR 1) pour l'utilisation d'HBPM (héparine de bas poids moléculaire) ou HNF (héparine non fractionnée) prophylactique chez les patients hospitalisés non graves, et préférence pour des doses thérapeutiques dans certains cas. Recommandation forte contre l'ajout d'antiplaquettaires chez ces patients.
+
+## Revue
+Journal of Thrombosis and Haemostasis
 
 ## 📖 Référence
-Schulman S, Arnold DM, Bradbury CA, et al. 2023 ISTH update of the 2022 ISTH guidelines for antithrombotic treatment in COVID-19. J Thromb Haemost. 2024;22(6):1779-1797.
+2024 Jun;22(6):1779-1797. doi: 10.1016/j.jtha.2024.02.011. Epub 2024 Mar 18.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.jtha.2024.02.011.

@@ -1,0 +1,25 @@
+Date de publication : 2024-07-12
+
+# 📝 La vancomycine topique ne réduit pas les infections du site opératoire en chirurgie rachidienne
+
+## 📌 Contexte & Problématique
+Les infections du site opératoire (ISO) constituent un défi majeur en chirurgie rachidienne. L'application locale de vancomycine est une stratégie préventive potentielle, mais les résultats des essais contrôlés randomisés (ECR) individuels sont contradictoires.
+
+## 🧪 Méthodologie
+Méta-analyse de 6 ECR incluant 2 140 patients (1 053 groupe vancomycine, 1 087 groupe témoin). Recherche systématique dans PubMed, Cochrane et Google Scholar jusqu'au 13 mars 2024. Évaluation des ISO totales, profondes et superficielles.
+
+## 📊 Résultats clés
+- ISO totales : 3,0% (vancomycine) vs 3,9% (témoin), RR 0,74 [IC 95% 0,35-1,57], p=0,43
+- ISO profondes : 1,8% vs 2,7%, RR 0,69 [IC 95% 0,24-2,00], p=0,50
+- ISO superficielles : 1,0% vs 1,4%, RR 0,68 [IC 95% 0,25-1,89], p=0,46
+Aucune différence statistiquement significative.
+
+## 🩺 Impact clinique
+L'utilisation systématique de vancomycine topique en chirurgie rachidienne n'est pas recommandée. Des essais à plus grande échelle seraient nécessaires pour détecter des différences plus faibles que 1,5% si jugées cliniquement pertinentes.
+
+## Revue
+Clinical Orthopaedics and Related Research
+
+## 📖 Référence
+2024 Dec 1;482(12):2212-2219. doi: 10.1097/CORR.0000000000003179. Epub 2024 Jul 12.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1097/CORR.0000000000003179.

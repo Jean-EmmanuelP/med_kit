@@ -1,0 +1,22 @@
+Date de publication : 2024-02-04
+
+# 📝 Méthylprednisolone en cure dégressive après arthroplastie totale d'épaule : un adjuvant analgésique efficace
+
+## 📌 Contexte & Problématique
+L'optimisation de l'analgésie post-arthroplastie totale de l'épaule (ATE) reste un défi. Cette étude évalue l'efficacité d'une cure dégressive de méthylprednisolone comme complément aux protocoles analgésiques multimodaux après ATE.
+
+## 🧪 Méthodologie
+Essai contrôlé randomisé comparant deux groupes de patients naïfs aux opioïdes subissant une ATE : groupe témoin (dexaméthasone peropératoire seule) versus groupe traitement (dexaméthasone peropératoire + cure dégressive de méthylprednisolone orale sur 6 jours). Suivi des scores de douleur (EVA), consommation d'opioïdes et complications pendant au moins un an.
+
+## 📊 Résultats clés
+Le groupe traitement a montré une réduction significative des scores de douleur et de la consommation d'opioïdes (5,5 vs 17,6 comprimés d'oxycodone) durant les 7 premiers jours postopératoires. Les scores de douleur sont restés inférieurs jusqu'à 12 semaines postopératoires, avec moins d'effets secondaires liés aux opioïdes et sans augmentation des complications.
+
+## 🩺 Impact clinique
+La cure dégressive de méthylprednisolone constitue un ajout efficace aux protocoles analgésiques multimodaux après ATE, permettant une réduction significative de la consommation d'opioïdes et une meilleure gestion de la douleur postopératoire.
+
+## Revue
+Journal of Shoulder and Elbow Surgery
+
+## 📖 Référence
+2024;33(5):985-993. doi: 10.1016/j.jse.2023.12.016
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.jse.2023.12.016.

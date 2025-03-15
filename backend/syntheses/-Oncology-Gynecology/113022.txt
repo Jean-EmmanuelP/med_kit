@@ -3,17 +3,20 @@ Date de publication : 2024-04-25
 # 📝 Radiothérapie avec ou sans cisplatine pour les récidives locales du cancer de l'endomètre
 
 ## 📌 Contexte & Problématique
-Les récidives pelviennes sont fréquentes dans le cancer de l'endomètre. Cette étude a évalué l'impact de l'ajout du cisplatine à la radiothérapie sur la survie sans progression (SSP).
+Les récidives pelviennes sont fréquentes dans le cancer de l'endomètre. Cette étude compare l'efficacité de la radiothérapie seule versus la chimioradiothérapie concomitante sur la survie sans progression (SSP).
 
 ## 🧪 Méthodologie
-Essai randomisé multicentrique (2008-2020) incluant 165 patientes réparties entre radiothérapie seule ou chimioradiothérapie avec cisplatine hebdomadaire (40 mg/m²). Majorité de cas avec histologie endométrioïde de bas grade (82%) et récidives vaginales (86%).
+Essai randomisé multicentrique (2008-2020) incluant 165 patientes réparties en deux groupes : radiothérapie seule ou radiothérapie plus cisplatine hebdomadaire (40 mg/m²). Majorité des cas : cancers endométrioïdes de bas grade (82%) avec récidives vaginales (86%).
 
 ## 📊 Résultats clés
-La SSP médiane était supérieure avec la radiothérapie seule (non atteinte vs 73 mois, HR=1,25; IC 95% 0,75-2,07). À 3 ans, 73% des patientes sous radiothérapie seule étaient sans progression contre 62% sous chimioradiothérapie. La toxicité aiguë était plus élevée dans le groupe chimioradiothérapie.
+La SSP médiane était supérieure avec la radiothérapie seule (non atteinte vs 73 mois pour la chimioradiothérapie, HR 1,25 [IC 95%, 0,75-2,07]). À 3 ans, 73% des patientes sous radiothérapie seule et 62% sous chimioradiothérapie étaient sans progression. La toxicité aiguë était plus élevée dans le groupe chimioradiothérapie.
 
 ## 🩺 Impact clinique
-La radiothérapie seule est préférable pour les récidives localisées du cancer de l'endomètre, particulièrement pour les tumeurs vaginales de bas grade, offrant une meilleure SSP avec moins de toxicité.
+L'ajout de cisplatine à la radiothérapie n'améliore pas la SSP et augmente la toxicité dans les récidives locales du cancer de l'endomètre, particulièrement pour les récidives vaginales de bas grade. La radiothérapie seule devrait être privilégiée.
+
+## Revue
+Journal of Clinical Oncology
 
 ## 📖 Référence
-Klopp AH, Enserro D, Powell M, et al. J Clin Oncol. 2024;42(20):2425-2435.
+2024;42(20):2425-2435. doi:10.1200/JCO.23.01279. Epub 2024 Apr 25.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO.23.01279.

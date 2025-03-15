@@ -1,0 +1,22 @@
+Date de publication : 2024-05-01
+
+# 📝 Tests rapides des virus respiratoires aux urgences : impact clinique limité
+
+## 📌 Contexte & Problématique
+L'utilité clinique des tests rapides pour virus respiratoires, incluant les panels multiplex, reste incertaine dans les services d'urgence (SU) malgré leur disponibilité croissante.
+
+## 🧪 Méthodologie
+Revue systématique et méta-analyse de 11 essais cliniques randomisés (n=6068 patients) présentant une infection respiratoire aiguë (IRA) aux urgences. Recherche dans quatre bases de données (1985-2022). Évaluation selon les directives PRISMA et l'outil Cochrane Risk of Bias.
+
+## 📊 Résultats clés
+Les tests viraux rapides n'ont pas réduit l'utilisation d'antibiotiques (RR=0,99; IC 95%: 0,93-1,05) ni les hospitalisations (RR=1,01; IC 95%: 0,95-1,08). Ils ont cependant augmenté l'utilisation d'antiviraux contre la grippe (RR=1,33; IC 95%: 1,02-1,75) et diminué le recours aux radiographies thoraciques (RR=0,88; IC 95%: 0,79-0,98) et analyses sanguines (RR=0,81; IC 95%: 0,69-0,97).
+
+## 🩺 Impact clinique
+Les bénéfices des tests viraux systématiques aux urgences pour patients avec IRA apparaissent limités. Des recherches supplémentaires sont nécessaires, particulièrement chez les adultes à haut risque (sous-représentés dans les études).
+
+## Revue
+JAMA Internal Medicine
+
+## 📖 Référence
+2024;184(5):528-536. doi:10.1001/jamainternmed.2024.0037
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamainternmed.2024.0037.

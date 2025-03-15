@@ -1,24 +1,27 @@
 Date de publication : 2025-01-22
 
-# 📝 Mise à jour des recommandations ASCO sur la chimiothérapie néoadjuvante dans le cancer ovarien avancé
+# 📝 Chimiothérapie néoadjuvante pour le cancer ovarien avancé nouvellement diagnostiqué : mise à jour des recommandations ASCO
 
 ## 📌 Contexte & Problématique
-Actualisation des recommandations concernant la chimiothérapie néoadjuvante (CTNA) versus chirurgie cytoréductive primaire (CCP) pour les patientes atteintes de cancer épithélial ovarien (CEO) de stade III-IV.
+Actualisation des recommandations concernant l'utilisation de la chimiothérapie néoadjuvante (NACT) versus la chirurgie cytoréductive primaire (PCS) chez les patientes atteintes de cancer épithélial de l'ovaire (CEO) de stade III-IV.
 
 ## 🧪 Méthodologie
-Revue systématique actualisée par un panel multidisciplinaire d'experts, basée sur 61 études.
+Revue systématique actualisée par un panel d'experts multidisciplinaire, basée sur 61 études.
 
 ## 📊 Résultats clés
-- CCP recommandée si forte probabilité de cytoréduction complète
-- CTNA recommandée si faible probabilité de cytoréduction complète ou risque périopératoire élevé
-- Confirmation histologique obligatoire avant CTNA
-- Doublet platine-taxane recommandé pour la CTNA
-- Chirurgie d'intervalle après ≤4 cycles de CTNA si réponse ou stabilité
-- Chimiothérapie intrapéritonéale hyperthermique envisageable au stade III
+- Évaluation initiale par un oncologue gynécologique avec dosage CA-125 et imagerie
+- Tests génétiques germinaux et somatiques recommandés au diagnostic
+- PCS recommandée si forte probabilité de cytoréduction complète
+- NACT recommandée si faible probabilité de cytoréduction complète ou risque périopératoire élevé
+- Chirurgie cytoréductive d'intervalle (ICS) après ≤4 cycles de NACT
+- Chimiothérapie intrapéritonéale hyperthermique envisageable pendant l'ICS pour stade III
 
 ## 🩺 Impact clinique
-Stratification du traitement selon le profil chirurgical et le risque périopératoire. Importance des tests génétiques germinaux et somatiques au diagnostic pour guider les traitements d'entretien.
+Algorithme décisionnel précis entre NACT et PCS selon le profil de la patiente, avec recommandations spécifiques pour la séquence thérapeutique et les traitements d'entretien.
+
+## Revue
+Journal of Clinical Oncology
 
 ## 📖 Référence
-Gaillard S, Lacchetti C, Armstrong DK, et al. Neoadjuvant Chemotherapy for Newly Diagnosed, Advanced Ovarian Cancer: ASCO Guideline Update. J Clin Oncol. 2025;JCO2402589.
+2025 Mar;43(7):868-891. doi: 10.1200/JCO-24-02589. Epub 2025 Jan 22.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO-24-02589.

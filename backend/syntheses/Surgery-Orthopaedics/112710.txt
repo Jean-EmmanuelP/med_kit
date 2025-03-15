@@ -1,0 +1,22 @@
+Date de publication : 2024-02-12
+
+# 📝 Duloxétine comme analgésique chez les patients sans sensibilité centrale subissant une arthroplastie totale du genou bilatérale
+
+## 📌 Contexte & Problématique
+L'amélioration du contrôle de la douleur après arthroplastie totale du genou (ATG) reste un défi. Cette étude évalue l'efficacité analgésique de la duloxétine à faible dose chez les patients sans sensibilité centrale (SC) après ATG bilatérale.
+
+## 🧪 Méthodologie
+Essai prospectif randomisé en double aveugle incluant 106 patients subissant une ATG bilatérale en une séance. Un groupe a reçu 20 mg de duloxétine quotidiennement (J-2 à J+28 postopératoire), l'autre un placebo. Évaluation par échelle visuelle analogique au repos (EVA) et à la mobilisation (EVAm) jusqu'à 3 mois.
+
+## 📊 Résultats clés
+Le groupe duloxétine a présenté des scores EVA et EVAm significativement inférieurs durant les 2 premières semaines postopératoires (p<0,001). La satisfaction des patients était supérieure (8,44±1,68 vs 7,17±1,04; p<0,001) et la consommation d'AINS réduite (2770±533,05 vs 3566,04±464,54; p<0,001), avec un profil de sécurité comparable.
+
+## 🩺 Impact clinique
+La duloxétine à 20 mg/jour constitue une option sûre et efficace pour gérer la douleur post-ATG bilatérale chez les patients sans SC, améliorant la satisfaction et réduisant la consommation d'analgésiques en phase postopératoire aiguë.
+
+## Revue
+Journal of Arthroplasty
+
+## 📖 Référence
+2024;39(8):2055-2060. doi:10.1016/j.arth.2024.02.007
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.arth.2024.02.007.

@@ -1,19 +1,22 @@
 Date de publication : 2024-11-27
 
-# 📝 LÉNACAPAVIR SEMESTRIEL POUR LA PRÉVENTION DU VIH CHEZ LES HOMMES ET PERSONNES DE GENRE DIVERS
+# 📝 Lénacapavir semestriel pour la prévention du VIH chez les hommes et personnes de genre divers
 
 ## 📌 Contexte & Problématique
-Le lénacapavir sous-cutané semestriel a démontré son efficacité pour la PrEP chez les femmes cisgenres. Son efficacité restait à confirmer chez les hommes cisgenres, femmes/hommes transgenres et personnes non binaires.
+L'efficacité du lénacapavir sous-cutané comme prophylaxie pré-exposition (PrEP) était déjà démontrée chez les femmes cisgenres, mais restait à prouver chez les hommes cisgenres, femmes/hommes transgenres et personnes non binaires.
 
 ## 🧪 Méthodologie
-Essai de phase 3, randomisé, double aveugle, comparant le lénacapavir sous-cutané semestriel (2:1) à l'emtricitabine-ténofovir disoproxil fumarate (F/TDF) oral quotidien chez 3265 participants.
+Essai randomisé de phase 3 (2:1) comparant le lénacapavir sous-cutané semestriel à l'emtricitabine-ténofovir disoproxil fumarate (F/TDF) oral quotidien chez 3265 participants.
 
 ## 📊 Résultats clés
-Incidence d'infection VIH : 0,10/100 personnes-années dans le groupe lénacapavir contre 0,93/100 personnes-années dans le groupe F/TDF. Réduction significative par rapport à l'incidence de fond (2,37/100 personnes-années) avec un ratio de 0,04 (p<0,001) et par rapport au F/TDF avec un ratio de 0,11 (p=0,002).
+Infections VIH : 2 cas dans le groupe lénacapavir (0,10/100 personnes-années) contre 9 cas dans le groupe F/TDF (0,93/100 personnes-années). L'incidence avec lénacapavir était significativement inférieure à l'incidence de fond (2,37/100 personnes-années) et à celle du F/TDF (p<0,001 et p=0,002 respectivement).
 
 ## 🩺 Impact clinique
-Le lénacapavir semestriel offre une alternative hautement efficace à la PrEP quotidienne, avec un profil de sécurité favorable. Seuls 1,2% des participants ont arrêté le traitement pour réactions au site d'injection.
+Le lénacapavir semestriel représente une alternative efficace à la PrEP orale quotidienne, avec un profil de sécurité favorable. Seuls 1,2% des participants sous lénacapavir ont interrompu le traitement pour réactions au site d'injection.
+
+## Revue
+New England Journal of Medicine
 
 ## 📖 Référence
-Kelley CF, Acevedo-Quinones M, Agwu AL, et al. Twice-Yearly Lenacapavir for HIV Prevention in Men and Gender-Diverse Persons. N Engl J Med. 2024 Nov 27. doi: 10.1056/NEJMoa2411858.
+2024 Nov 27. doi: 10.1056/NEJMoa2411858.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2411858.

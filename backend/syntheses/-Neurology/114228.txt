@@ -1,0 +1,22 @@
+Date de publication : 2024-10-01
+
+# 📝 Angioplastie par ballonnet vs traitement médical pour la sténose artérielle intracrânienne
+
+## 📌 Contexte & Problématique
+Contrairement au stenting, l'angioplastie par ballonnet n'avait jamais été évaluée dans un essai randomisé pour le traitement de la sténose athéroscléreuse intracrânienne symptomatique (sICAS).
+
+## 🧪 Méthodologie
+Essai randomisé multicentrique chinois (31 centres) comparant l'angioplastie par ballonnet sous-maximale + traitement médical intensif (n=249) vs traitement médical intensif seul (n=252) chez des patients (35-80 ans) avec sICAS 70-99% et AIT récent (<90j) ou AVC ischémique (14-90j).
+
+## 📊 Résultats clés
+Le critère composite principal (AVC/décès à 30j ou AVC ischémique dans le territoire/revascularisation jusqu'à 12 mois) était significativement réduit dans le groupe angioplastie (4,4% vs 13,5%; HR:0,32; p<0,001). Les complications à 30j étaient plus fréquentes avec l'angioplastie (3,2% vs 1,6%), mais au-delà, les AVC ischémiques dans le territoire traité étaient nettement moins fréquents (0,4% vs 7,5%).
+
+## 🩺 Impact clinique
+L'angioplastie par ballonnet associée au traitement médical intensif pourrait constituer une option thérapeutique efficace pour la sICAS, avec un bénéfice net à 1 an, malgré un risque périprocédural à considérer attentivement.
+
+## Revue
+JAMA
+
+## 📖 Référence
+2024;332(13):1059-1069. doi:10.1001/jama.2024.12829
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jama.2024.12829.

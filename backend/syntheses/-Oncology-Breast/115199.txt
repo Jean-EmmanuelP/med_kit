@@ -1,19 +1,22 @@
-Date de publication : 2024-12-13
+Date de publication : 2025-02-25
 
-# 📝 CAMRELIZUMAB NÉOADJUVANT DANS LE CANCER DU SEIN TRIPLE NÉGATIF
+# 📝 Camrelizumab en néoadjuvant dans le cancer du sein triple négatif : l'essai CamRelief
 
 ## 📌 Contexte & Problématique
-Le cancer du sein triple négatif précoce ou localement avancé bénéficie habituellement d'une chimiothérapie néoadjuvante. Le camrelizumab, un anticorps anti-PD-1, pourrait améliorer l'efficacité de ce traitement standard.
+Le cancer du sein triple négatif précoce ou localement avancé bénéficie habituellement d'une chimiothérapie néoadjuvante associant anthracyclines, cyclophosphamide, taxanes et platine. L'inhibition de la voie PD-1/PD-L1 pourrait améliorer l'efficacité de ce traitement.
 
 ## 🧪 Méthodologie
-Essai randomisé de phase 3 en double aveugle incluant 441 patientes chinoises. Groupe intervention (n=222): camrelizumab 200mg + chimiothérapie. Groupe contrôle (n=219): placebo + chimiothérapie. Protocole: nab-paclitaxel et carboplatine pendant 16 semaines, puis épirubicine et cyclophosphamide pendant 8 semaines.
+Essai randomisé de phase 3, double aveugle, incluant 441 patientes chinoises (2020-2023). Randomisation 1:1 : camrelizumab 200mg (n=222) ou placebo (n=219) associé à une chimiothérapie identique (nab-paclitaxel/carboplatine puis épirubicine/cyclophosphamide). Critère principal : taux de réponse pathologique complète (pCR).
 
 ## 📊 Résultats clés
-Taux de réponse pathologique complète significativement supérieur dans le groupe camrelizumab: 56,8% vs 44,7% (différence: 12,2%, p=0,004). Événements indésirables de grade ≥3: 89,2% vs 83,1%. Événements indésirables graves: 34,7% vs 22,8%. Deux décès (0,9%) sont survenus dans le groupe camrelizumab.
+Le taux de pCR était significativement plus élevé dans le groupe camrelizumab (56,8% vs 44,7% ; différence : 12,2% ; p=0,004). Les effets indésirables de grade ≥3 étaient plus fréquents avec le camrelizumab (89,2% vs 83,1%), de même que les effets indésirables graves (34,7% vs 22,8%) et deux décès (0,9%) ont été rapportés dans le groupe camrelizumab.
 
 ## 🩺 Impact clinique
-L'ajout du camrelizumab à la chimiothérapie néoadjuvante améliore significativement la réponse pathologique complète chez les patientes atteintes de cancer du sein triple négatif, avec une augmentation modérée mais notable des effets indésirables.
+L'ajout du camrelizumab (anti-PD-1) à la chimiothérapie néoadjuvante améliore significativement la pCR chez les patientes atteintes d'un cancer du sein triple négatif précoce ou localement avancé, mais avec une toxicité accrue.
+
+## Revue
+JAMA
 
 ## 📖 Référence
-Chen L, Li H, Zhang H, et al. Camrelizumab vs Placebo in Combination With Chemotherapy as Neoadjuvant Treatment in Patients With Early or Locally Advanced Triple-Negative Breast Cancer. JAMA. 2024;doi:10.1001/jama.2024.23560.
+2025;333(8):673-681. doi:10.1001/jama.2024.23560. NCT04613674.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jama.2024.23560.

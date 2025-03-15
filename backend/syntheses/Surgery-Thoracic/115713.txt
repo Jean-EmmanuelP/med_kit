@@ -1,0 +1,22 @@
+Date de publication : 2024-09-27
+
+# 📝 Acquisition et manipulation des échantillons d'EBUS-TBNA : Guide de pratique clinique de l'American College of Chest Physicians
+
+## 📌 Contexte & Problématique
+L'aspiration transbronchique guidée par échographie endobronchique (EBUS-TBNA) est devenue la référence pour le diagnostic et la stadification du cancer pulmonaire. Cependant, les recommandations concernant la manipulation des échantillons pour optimiser le rendement diagnostique et préserver l'intégrité tissulaire restaient insuffisantes.
+
+## 🧪 Méthodologie
+Élaboration de questions cliniques au format PICO (Population, Intervention, Comparateur, Résultat). Revue systématique via MEDLINE et Bibliothèque Cochrane, complétée par des recherches manuelles. Évaluation rigoureuse de la qualité des études et classification du niveau de preuve pour chaque recommandation.
+
+## 📊 Résultats clés
+Neuf déclarations fondées sur des preuves ont été formulées concernant la manipulation et le traitement des échantillons d'EBUS-TBNA.
+
+## 🩺 Impact clinique
+Ce guide fournit des recommandations pratiques pour la manipulation des échantillons d'EBUS-TBNA, bien que la force des preuves soit variable selon les aspects. Des recherches supplémentaires sont nécessaires pour renforcer les connaissances dans ce domaine.
+
+## Revue
+Chest
+
+## 📖 Référence
+2024 Sep 27:S0012-3692(24)05276-0. doi: 10.1016/j.chest.2024.08.056.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.chest.2024.08.056.

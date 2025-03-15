@@ -1,19 +1,22 @@
 Date de publication : 2024-09-09
 
-# 📝 Datopotamab Deruxtecan versus Docétaxel dans le CPNPC avancé : étude TROPION-Lung01
+# 📝 Datopotamab Deruxtecan versus Docétaxel dans le CPNPC avancé prétraité
 
 ## 📌 Contexte & Problématique
-Évaluation du datopotamab deruxtecan (Dato-DXd) comparé au docétaxel chez des patients atteints de cancer du poumon non à petites cellules (CPNPC) avancé/métastatique prétraité.
+Évaluation de l'efficacité et la sécurité du datopotamab deruxtecan (Dato-DXd) comparé au docétaxel chez des patients atteints de cancer du poumon non à petites cellules (CPNPC) avancé ou métastatique prétraité.
 
 ## 🧪 Méthodologie
-Essai randomisé de phase III comparant Dato-DXd (6 mg/kg) versus docétaxel (75 mg/m²) toutes les 3 semaines. Critères principaux : survie sans progression (SSP) et survie globale (SG).
+Étude randomisée de phase III comparant Dato-DXd (6 mg/kg) au docétaxel (75 mg/m²) administrés toutes les 3 semaines, avec comme critères principaux la survie sans progression (SSP) et la survie globale (SG).
 
 ## 📊 Résultats clés
-SSP médiane significativement améliorée avec Dato-DXd (4,4 vs 3,7 mois; HR=0,75; p=0,004). SG médiane non significativement différente (12,9 vs 11,8 mois; HR=0,94; p=0,530). Bénéfice marqué dans le sous-groupe non-épidermoïde (SSP: 5,5 vs 3,6 mois; HR=0,63). Événements indésirables grade ≥3 moins fréquents avec Dato-DXd (25,6% vs 42,1%).
+SSP médiane significativement améliorée avec Dato-DXd vs docétaxel (4,4 vs 3,7 mois; HR=0,75; p=0,004), particulièrement dans l'histologie non-épidermoïde (5,5 vs 3,6 mois; HR=0,63). SG médiane non statistiquement différente (12,9 vs 11,8 mois; HR=0,94; p=0,530). Profil de tolérance favorable avec moins d'événements indésirables de grade ≥3 (25,6% vs 42,1%).
 
 ## 🩺 Impact clinique
-Le Dato-DXd représente une option thérapeutique prometteuse pour les CPNPC avancés, particulièrement pour les histologies non-épidermoïdes, avec un profil de tolérance favorable comparé au docétaxel.
+Le Dato-DXd représente une option thérapeutique prometteuse pour les patients atteints de CPNPC avancé prétraité, particulièrement pour l'histologie non-épidermoïde, avec un profil de tolérance acceptable.
+
+## Revue
+Journal of Clinical Oncology
 
 ## 📖 Référence
-Ahn MJ, Tanaka K, Paz-Ares L, et al. J Clin Oncol. 2025;43(3):260-272.
+2025 Jan 20;43(3):260-272. doi: 10.1200/JCO-24-01544. Epub 2024 Sep 9.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO-24-01544.

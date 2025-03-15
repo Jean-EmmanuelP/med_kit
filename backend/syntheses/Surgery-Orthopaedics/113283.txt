@@ -1,0 +1,22 @@
+Date de publication : 2024-05-14
+
+# 📝 Remplissage pour réduire les redislocations après réparation de Bankart chez les patients avec lésion de Hill-Sachs engageante
+
+## 📌 Contexte & Problématique
+Les redislocations après réparation arthroscopique de Bankart (RB) chez les patients avec lésion de Hill-Sachs (LHS) engageante demeurent un défi clinique. La technique de remplissage pourrait améliorer les résultats.
+
+## 🧪 Méthodologie
+Méta-analyse de 7 études (837 patients) comparant RB isolée (558 patients) versus RB avec remplissage (RB+REMP) (279 patients), avec suivi minimal de 24 mois. Recherche selon directives PRISMA dans PubMed et ScienceDirect.
+
+## 📊 Résultats clés
+Le remplissage a réduit significativement le risque de récidive d'instabilité chez les patients avec LHS engageante (rapport de cotes: 0,11; IC 95%: 0,05-0,24; p<0,001). Le groupe RB+REMP a montré une meilleure flexion antérieure (+1,97°) avec légère diminution de rotation externe en adduction (-1,43°). Les scores fonctionnels (Rowe, WOSI) étaient comparables entre les groupes.
+
+## 🩺 Impact clinique
+Le remplissage diminue par 9 le risque de récidive d'instabilité après RB chez les patients avec LHS engageante, avec impact minime sur la mobilité et sans compromettre les résultats fonctionnels.
+
+## Revue
+American Journal of Sports Medicine
+
+## 📖 Référence
+2024 May 14:3635465241249492. doi: 10.1177/03635465241249492.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1177/03635465241249492.

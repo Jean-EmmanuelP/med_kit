@@ -1,0 +1,22 @@
+Date de publication : 2024-09-16
+
+# 📝 NeuroCARE : Intervention psychologique efficace pour les aidants de patients atteints de tumeurs cérébrales malignes
+
+## 📌 Contexte & Problématique
+Les aidants de patients atteints de tumeurs cérébrales malignes primaires (TCMP) présentent une détresse psychologique significative. L'étude évalue l'efficacité de NeuroCARE, une intervention psychologique spécifique, sur l'anxiété de ces aidants.
+
+## 🧪 Méthodologie
+Essai contrôlé randomisé comparant NeuroCARE aux soins habituels chez 120 aidants (60 par groupe) présentant une anxiété élevée. L'intervention comprenait six séances de télésanté avec un spécialiste en santé comportementale. Évaluations à l'inclusion, à 11 semaines (post-intervention) et à 16 semaines.
+
+## 📊 Résultats clés
+À 11 semaines, le groupe NeuroCARE a montré une réduction significative des symptômes d'anxiété (8,87 vs 10,69; p=0,008) et de dépression (6,08 vs 7,77; p=0,004), ainsi qu'une amélioration de l'auto-efficacité (128,81 vs 111,17; p<0,001) et des stratégies d'adaptation (32,25 vs 25,65; p<0,001). Ces bénéfices se sont maintenus dans le temps.
+
+## 🩺 Impact clinique
+NeuroCARE offre une approche efficace pour réduire la détresse psychologique des aidants de patients atteints de TCMP, avec des effets durables sur plusieurs dimensions du bien-être psychologique.
+
+## Revue
+Journal of Clinical Oncology
+
+## 📖 Référence
+2024;42(36):4252-4262. doi:10.1200/JCO.24.00065. Epub 2024 Sep 16.
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO.24.00065.

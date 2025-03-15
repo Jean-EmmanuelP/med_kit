@@ -1,19 +1,25 @@
 Date de publication : 2024-12-05
 
-# 📝 Efficacité des interventions post-partum sur la cicatrisation et la douleur périnéales
+# 📝 Effet des interventions post-partum sur la cicatrisation et la douleur périnéale
 
 ## 📌 Contexte & Problématique
-Les traumatismes périnéaux lors de l'accouchement affectent significativement le post-partum. Cette revue évalue l'efficacité comparative des interventions visant la cicatrisation et le soulagement de la douleur périnéale.
+Les traumatismes périnéaux lors de l'accouchement nécessitent des interventions efficaces pour favoriser la cicatrisation et réduire la douleur, améliorant ainsi l'expérience post-partum des femmes.
 
 ## 🧪 Méthodologie
-Revue systématique et méta-analyse selon les directives PRISMA incluant 19 études (1899 participantes). Recherches dans 11 bases de données. Qualité évaluée par RoB-1/RoB-2 et système GRADE.
+Revue systématique et méta-analyse selon les directives PRISMA incluant 19 études (1899 participantes). Recherches dans 11 bases de données. Qualité évaluée par RoB-1/RoB-2 et profil GRADE.
 
 ## 📊 Résultats clés
-Les interventions dans les 24h post-épisiotomie n'ont pas réduit la douleur. L'application de froid s'est révélée la plus efficace dès J2. La cicatrisation n'était pas améliorée les 3 premiers jours, mais significativement meilleure à J5 dans les groupes d'intervention. L'éducation périnéale a montré la plus forte réduction du score REEDA.
+- Interventions inefficaces sur la douleur dans les 24 premières heures
+- Application de froid: méthode la plus efficace dès le 2ème jour
+- Cicatrisation améliorée à partir du 5ème jour dans les groupes d'intervention
+- Score REEDA (Rougeur, Œdème, Ecchymose, Écoulement, Approximation) significativement réduit par l'éducation périnéale
 
 ## 🩺 Impact clinique
-Recommander l'application de froid à J2 post-traumatisme périnéal. Les interventions accélèrent la cicatrisation d'environ 2 jours. L'éducation périnéale constitue l'approche la plus efficace.
+L'application de froid est recommandée dès J2 pour la douleur périnéale. Les interventions accélèrent la cicatrisation d'environ deux jours, l'éducation périnéale étant particulièrement efficace. Des recherches supplémentaires sur les traitements topiques à base de plantes sont nécessaires.
+
+## Revue
+International Journal of Nursing Studies
 
 ## 📖 Référence
-Kurnaz D, Fiskin Siyahtas G, Demirgoz Bal M. Int J Nurs Stud. 2025;162:104976.
+2025 Feb;162:104976. doi: 10.1016/j.ijnurstu.2024.104976. Epub 2024 Dec 5.
 🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.ijnurstu.2024.104976.

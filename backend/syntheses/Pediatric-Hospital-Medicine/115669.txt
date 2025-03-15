@@ -1,0 +1,22 @@
+Date de publication : 2025-01-27
+
+# 📝 Insertion de CIVP guidée par échographie vs technique standard chez l'enfant
+
+## 📌 Contexte & Problématique
+L'insertion de cathéters intraveineux périphériques (CIVP) chez l'enfant est souvent difficile, nécessitant plusieurs tentatives. L'échographie pourrait améliorer le taux de succès à la première tentative dans toutes les catégories de risque.
+
+## 🧪 Méthodologie
+Essai clinique randomisé de supériorité (1:1), ouvert et pragmatique, mené dans un hôpital pédiatrique australien entre juillet 2021 et décembre 2022. 164 enfants (0-18 ans) ont été répartis entre insertion de CIVP guidée par échographie (n=84) ou technique standard (n=80), avec stratification selon le niveau de risque (faible/moyen/élevé).
+
+## 📊 Résultats clés
+Le taux de réussite à la première tentative était significativement plus élevé avec l'échographie (85,7% vs 32,5%, différence de risque: 53,6%, p<0,001). L'avantage était présent dans toutes les catégories de risque, avec un bénéfice plus marqué pour les patients à haut risque (DR: 69,6%). Le coût immédiat était légèrement supérieur avec l'échographie (+9,33 A$).
+
+## 🩺 Impact clinique
+L'échographie améliore considérablement le taux de succès à la première tentative pour l'insertion de CIVP chez l'enfant, quelle que soit la catégorie de risque, justifiant son adoption généralisée malgré un coût légèrement supérieur.
+
+## Revue
+JAMA Pediatrics
+
+## 📖 Référence
+2025;e245581. doi:10.1001/jamapediatrics.2024.5581
+🔗 Lien PubMed : https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamapediatrics.2024.5581.
