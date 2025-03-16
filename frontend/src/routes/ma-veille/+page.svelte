@@ -4,11 +4,9 @@
 	import { goto } from '$app/navigation';
 	import * as Select from '$lib/components/ui/select/index.js';
 
-	// Récupération des props avec $props rune
 	const { data } = $props();
 	console.log('Received data from server:', data);
 
-	// Définir les variables réactives avec $state
 	let searchQuery = $state('');
 	let showOlderArticles = $state(false);
 	let expandedArticleId = $state(null);
@@ -17,7 +15,6 @@
 	let filteredOlderArticles = $state([]);
 	let showSignupPrompt = $state(false);
 
-	// Sort specialties alphabetically on initialization
 	let specialties = $state(
 		[
 			...new Set([
@@ -32,7 +29,9 @@
 	);
 
 	const today = new Date();
-	const formattedDate = `${today.getDate().toString().padStart(2, '0')}/${(today.getMonth() + 1).toString().padStart(2, '0')}/${today.getFullYear()}`;
+	const formattedDate = `${today.getDate().toString().padStart(2, '0')}/${(today.getMonth() + 1)
+		.toString()
+		.padStart(2, '0')}/${today.getFullYear()}`;
 
 	function formatTitle(title: string) {
 		if (!title) return '';
@@ -80,7 +79,9 @@
 	function formatDate(publishedAt) {
 		if (!publishedAt) return 'Non spécifiée';
 		const date = new Date(publishedAt);
-		return `${date.getDate().toString().padStart(2, '0')}/${(date.getMonth() + 1).toString().padStart(2, '0')}/${date.getFullYear()}`;
+		return `${date.getDate().toString().padStart(2, '0')}/${(date.getMonth() + 1)
+			.toString()
+			.padStart(2, '0')}/${date.getFullYear()}`;
 	}
 
 	function extractTitleEmoji(content) {
@@ -110,7 +111,6 @@
 		return Array.from(articleMap.values());
 	}
 
-	// Filtrer les articles (sans dépendre de showOlderArticles dans cet effet)
 	$effect(() => {
 		if (!data.recentArticles && !data.olderArticles) return;
 
@@ -127,7 +127,6 @@
 		filteredOlderArticles = filterArticles(dedupeArticles(data.olderArticles));
 	});
 
-	// Mettre à jour showOlderArticles indépendamment
 	$effect(() => {
 		const shouldShow = filteredRecentArticles.length === 0 && filteredOlderArticles.length > 0;
 		if (showOlderArticles !== shouldShow) {
@@ -136,7 +135,6 @@
 		}
 	});
 
-	// Show signup prompt after 2 seconds
 	$effect(() => {
 		const timer = setTimeout(() => {
 			showSignupPrompt = true;
@@ -144,7 +142,6 @@
 		return () => clearTimeout(timer);
 	});
 
-	// Hide prompt if user is logged in
 	$effect(() => {
 		if ($userProfileStore) {
 			showSignupPrompt = false;
@@ -155,7 +152,6 @@
 		expandedArticleId = expandedArticleId === String(articleId) ? null : String(articleId);
 	}
 
-	// Handle navigation to signup
 	function handleSignup() {
 		goto('/signup');
 	}
@@ -210,29 +206,37 @@
 			<span class="text-lg text-gray-400">Date / {formattedDate}</span>
 		</div>
 		<h1 class="mb-4 text-3xl font-bold text-white">{$i18n.header.myVeille}</h1>
-		<h2 class="mb-6 max-w-3xl text-gray-400">
-			Description de la page: voir ses articles favoris et spécialités choisies. Feature: section
-			nouvel article (article du jour) et en bas tous les articles selon le filtre qu'il a rempli.
-		</h2>
 
 		<!-- Tabs -->
 		<div class="mb-6 flex space-x-4 border-b border-gray-700">
 			<button
 				on:click={() => (selectedFilter = 'Tout')}
-				class={`pb-2 text-lg font-medium ${selectedFilter === 'Tout' ? 'border-b-2 border-teal-500 text-teal-500' : 'text-gray-400 hover:text-teal-400'}`}
+				class={`pb-2 text-lg font-medium ${
+					selectedFilter === 'Tout'
+						? 'border-b-2 border-teal-500 text-teal-500'
+						: 'text-gray-400 hover:text-teal-400'
+				}`}
 			>
 				Tout
 			</button>
 			<button
 				on:click={() => (selectedFilter = 'Favoris')}
-				class={`pb-2 text-lg font-medium ${selectedFilter === 'Favoris' ? 'border-b-2 border-teal-500 text-teal-500' : 'text-gray-400 hover:text-teal-400'}`}
+				class={`pb-2 text-lg font-medium ${
+					selectedFilter === 'Favoris'
+						? 'border-b-2 border-teal-500 text-teal-500'
+						: 'text-gray-400 hover:text-teal-400'
+				}`}
 			>
 				Mes favoris
 			</button>
 			{#each data.userDisciplines as discipline}
 				<button
 					on:click={() => (selectedFilter = discipline)}
-					class={`pb-2 text-lg font-medium ${selectedFilter === discipline ? 'border-b-2 border-teal-500 text-teal-500' : 'text-gray-400 hover:text-teal-400'}`}
+					class={`pb-2 text-lg font-medium ${
+						selectedFilter === discipline
+							? 'border-b-2 border-teal-500 text-teal-500'
+							: 'text-gray-400 hover:text-teal-400'
+					}`}
 				>
 					{discipline}
 				</button>
@@ -242,48 +246,150 @@
 		<!-- Nouveaux Articles Section -->
 		<div class="mb-6">
 			<h2 class="text-2xl font-bold text-teal-500">🔥 Les nouveaux articles</h2>
-			<p class="mt-2 text-gray-400">
-				Coming soon - De nouveaux articles par spécialité chaque jour !
-			</p>
-		</div>
-
-		<!-- Choisis ta spécialité -->
-		<!-- <h2 class="mb-4 text-left text-2xl font-bold text-white">Choisis ta spécialité</h2>
-		<div class="relative mb-8 w-full max-w-sm">
-			<Select.Root type="single" name="selectedFilter" bind:value={selectedFilter}>
-				<Select.Trigger
-					class="w-full rounded-lg border-gray-700 bg-gray-800 px-4 py-3 text-sm font-medium text-white shadow-md transition-all duration-300 hover:bg-gray-700 focus:ring-2 focus:ring-teal-500 focus:outline-none"
-				>
-					{triggerContent}
-				</Select.Trigger>
-				<Select.Content
-					class="scrollbar-thin scrollbar-thumb-teal-500 scrollbar-track-gray-800 max-h-60 overflow-y-auto rounded-lg border border-gray-700 bg-gray-900"
-				>
-					<Select.Group>
-						<Select.GroupHeading class="px-4 py-2 font-semibold text-gray-400"
-							>Spécialités</Select.GroupHeading
+			{#if data.articleOfTheDay.length > 0}
+				<p class="mt-2 text-gray-400">Article du jour pour {selectedFilter} :</p>
+				{#each data.articleOfTheDay as article (article.id)}
+					{#if article.disciplines.includes(selectedFilter) || selectedFilter === 'Tout'}
+						<li
+							on:click={() => toggleSummary(article.id)}
+							class="relative mt-2 list-none rounded bg-gray-800 p-4 shadow transition-shadow hover:shadow-lg"
 						>
-						<Select.Item
-							value="Tout"
-							label="Tout"
-							class="cursor-pointer px-4 py-2 text-white transition-all duration-200 hover:bg-teal-600 hover:text-white"
-						/>
-						<Select.Item
-							value="Favoris"
-							label="Mes favoris"
-							class="cursor-pointer px-4 py-2 text-white transition-all duration-200 hover:bg-teal-600 hover:text-white"
-						/>
-						{#each data.userDisciplines as discipline (discipline)}
-							<Select.Item
-								value={discipline}
-								label={discipline}
-								class="cursor-pointer px-4 py-2 text-white transition-all duration-200 hover:bg-teal-600 hover:text-white"
-							/>
-						{/each}
-					</Select.Group>
-				</Select.Content>
-			</Select.Root>
-		</div> -->
+							<div
+								class={`absolute ${String(article.id) === expandedArticleId ? 'top-[12%]' : 'top-1/2'} right-4 -translate-y-1/2`}
+							>
+								{#if expandedArticleId === String(article.id)}
+									<svg
+										class="h-4 w-4 text-white"
+										fill="none"
+										stroke="currentColor"
+										viewBox="0 0 24 24"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											stroke-linecap="round"
+											stroke-linejoin="round"
+											stroke-width="2"
+											d="M5 15l7-7 7 7"
+										/>
+									</svg>
+								{:else}
+									<svg
+										class="h-4 w-4 text-white"
+										fill="none"
+										stroke="currentColor"
+										viewBox="0 0 24 24"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											stroke-linecap="round"
+											stroke-linejoin="round"
+											stroke-width="2"
+											d="M19 9l-7 7-7-7"
+										/>
+									</svg>
+								{/if}
+							</div>
+							<h2 class="text-left text-lg font-bold text-white">
+								{extractTitleEmoji(article.content)}
+								{formatTitle(article.title)}
+							</h2>
+							{#if article.grade}
+								<p class="mt-1 text-sm text-green-400">Grade de recommandation : {article.grade}</p>
+							{/if}
+							<div class="mt-2 flex items-center text-sm text-gray-400">
+								<span class="mr-1">{article.journal || 'Inconnu'}</span>
+							</div>
+							{#if expandedArticleId === String(article.id)}
+								<div class="prose mt-2 max-w-none text-gray-200">
+									{#each parseContent(article.content) as section}
+										<div class="mb-2">
+											<h3 class="text-md flex items-center font-semibold text-white">
+												<span class="mr-2">{section.emoji}</span>
+												{section.title}
+											</h3>
+											{#each section.content as paragraph}
+												<p class="mt-1 text-sm">{paragraph}</p>
+											{/each}
+										</div>
+									{/each}
+								</div>
+								<div class="mt-4 flex flex-col items-center gap-4 sm:flex-row">
+									{#if article.link}
+										<div class="flex items-center text-sm text-gray-400">
+											<svg
+												class="mr-1 h-4 w-4"
+												fill="none"
+												stroke="currentColor"
+												viewBox="0 0 24 24"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													stroke-linecap="round"
+													stroke-linejoin="round"
+													stroke-width="2"
+													d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"
+												/>
+											</svg>
+											<span class="mr-1">Lien :</span>
+											<a
+												href={article.link}
+												target="_blank"
+												rel="noopener noreferrer"
+												class="max-w-xs truncate text-teal-400 hover:underline"
+											>
+												{article.link}
+											</a>
+										</div>
+									{/if}
+									{#if $userProfileStore}
+										<a
+											href={`/articles/${article.id}`}
+											class="group flex inline-block items-center justify-center gap-2 rounded bg-teal-500 px-4 py-2 text-white transition-all duration-200 hover:bg-teal-600"
+										>
+											<span>Voir l'article</span>
+											<svg
+												class="h-5 w-5 transition-transform duration-300 group-hover:translate-x-1"
+												fill="none"
+												stroke="currentColor"
+												viewBox="0 0 24 24"
+												xmlns="http://www.w3.org/2000/svg"
+											>
+												<path
+													stroke-linecap="round"
+													stroke-linejoin="round"
+													stroke-width="2"
+													d="M9 5l7 7m0 0l-7 7m7-7H3"
+												/>
+											</svg>
+										</a>
+									{/if}
+								</div>
+							{/if}
+							<div class="mt-2 flex items-center text-sm text-gray-400">
+								<svg
+									class="mr-1 h-4 w-4"
+									fill="none"
+									stroke="currentColor"
+									viewBox="0 0 24 24"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										stroke-linecap="round"
+										stroke-linejoin="round"
+										stroke-width="2"
+										d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
+									/>
+								</svg>
+								<span class="mr-1">Date :</span>
+								<span>{formatDate(article.published_at)}</span>
+							</div>
+						</li>
+					{/if}
+				{/each}
+			{:else}
+				<p class="mt-2 text-gray-400">Aucun article du jour pour {selectedFilter}.</p>
+			{/if}
+		</div>
 
 		<!-- Barre de recherche -->
 		<div
@@ -625,7 +731,6 @@
 </div>
 
 <style>
-	/* Style général */
 	button:focus {
 		outline: none;
 	}
@@ -649,7 +754,6 @@
 		}
 	}
 
-	/* Animation d'entrée pour le modal */
 	.modal-enter-active {
 		animation: fadeIn 0.3s ease-out;
 	}
@@ -665,7 +769,6 @@
 		}
 	}
 
-	/* Custom scrollbar for the select dropdown */
 	.scrollbar-thin {
 		scrollbar-width: thin;
 		scrollbar-color: #14b8a6 #1f2937;

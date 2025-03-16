@@ -47,6 +47,7 @@
 		"@supabase/ssr": "^0.5.2",
 		"@supabase/supabase-js": "^2.49.1",
 		"lucide-svelte": "^0.479.0",
+		"luxon": "^3.5.0",
 		"nprogress": "^0.2.0",
 		"stripe": "^17.7.0",
 		"svelte-stripe": "^1.3.0"

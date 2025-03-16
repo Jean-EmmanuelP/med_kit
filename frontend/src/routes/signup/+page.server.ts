@@ -1,7 +1,5 @@
-// /routes/signup/+page.server.ts
 import type { Actions } from '@sveltejs/kit';
-import { fail } from '@sveltejs/kit';
-import { redirect } from '@sveltejs/kit';
+import { fail, redirect } from '@sveltejs/kit';
 import { PUBLIC_SUPABASE_ANON_KEY } from '$env/static/public';
 
 export const actions: Actions = {
@@ -10,7 +8,7 @@ export const actions: Actions = {
 
 		const formData = await request.formData();
 		const first_name = formData.get('first_name')?.toString();
-		const last_name = formData.get('last_name')?.toString();
+		const last_name = formData.get('last_name')?.toString() || '';
 		const email = formData.get('email')?.toString();
 		const password = formData.get('password')?.toString();
 		const disciplines = formData.getAll('disciplines[]') as string[];
@@ -20,6 +18,7 @@ export const actions: Actions = {
 			?.toLowerCase();
 		const date_of_birth = formData.get('date_of_birth')?.toString() || null;
 
+		// Validation
 		if (!first_name || !email || !password || !notification_frequency) {
 			console.log('Validation failed: Missing required fields');
 			return fail(400, { error: 'Tous les champs obligatoires doivent être remplis.' });
@@ -33,7 +32,7 @@ export const actions: Actions = {
 		console.log('Attempting Supabase signUp');
 		const { data: signUpData, error: signUpError } = await supabase.auth.signUp({
 			email,
-			password
+			password,
 		});
 
 		if (signUpError) {
@@ -50,7 +49,7 @@ export const actions: Actions = {
 		if (!session) {
 			console.log('User signed up, awaiting email confirmation');
 			return fail(400, {
-				error: 'Inscription réussie. Veuillez vérifier votre email pour confirmer votre compte.'
+				error: 'Inscription réussie. Veuillez vérifier votre email pour confirmer votre compte.',
 			});
 		}
 
@@ -58,12 +57,11 @@ export const actions: Actions = {
 		const newUserProfile = {
 			id: signUpData.user.id,
 			first_name,
-			last_name: last_name || '',
+			last_name,
 			email,
 			disciplines,
 			notification_frequency,
 			date_of_birth,
-			sent_article_ids: []
 		};
 
 		const { data: profileData, error: profileError } = await supabase
@@ -74,12 +72,16 @@ export const actions: Actions = {
 
 		if (profileError) {
 			console.error('Profile insertion error:', JSON.stringify(profileError, null, 2));
-			return fail(500, { error: profileError.message });
+			if (profileError.code === '23505') {
+				return fail(400, { error: 'Cet utilisateur existe déjà.' });
+			} else if (profileError.code === '23502') {
+				return fail(500, { error: 'Un champ requis est manquant ou invalide.' });
+			} else {
+				return fail(500, { error: profileError.message });
+			}
 		}
 
-		// Edge Functions (welcome email et notification) restent identiques
-		// [Code omis pour brièveté, mais garde-le si tu l'utilises]
-		// 1. Appeler l'Edge Function send-welcome-email
+		// 1. Trigger send-welcome-email Edge Function
 		try {
 			console.log('Triggering send-welcome-email Edge Function');
 			const welcomeEdgeUrl =
@@ -88,13 +90,13 @@ export const actions: Actions = {
 				method: 'POST',
 				headers: {
 					Authorization: `Bearer ${PUBLIC_SUPABASE_ANON_KEY}`,
-					'Content-Type': 'application/json'
+					'Content-Type': 'application/json',
 				},
 				body: JSON.stringify({
 					user_id: signUpData.user.id,
 					email,
-					first_name
-				})
+					first_name, // Required by the Edge Function, even if not used in the template
+				}),
 			});
 
 			if (!welcomeResponse.ok) {
@@ -107,96 +109,95 @@ export const actions: Actions = {
 			console.error('Exception in send-welcome-email:', e);
 		}
 
-		// 2. Sélectionner un seul article maximum pour l'utilisateur
-		let selectedArticle = null;
+		// 2. Fetch one article per discipline for the user using database function
+		let selectedArticles: { id: number; title: string; journal: string; discipline: string }[] = [];
 		try {
-			console.log('Fetching one article for disciplines:', disciplines);
-			const { data: articles, error: articlesError } = await supabase
-				.from('articles')
-				.select(
-					`
-			id,
-			title,
-			content,
-			published_at,
-			journal,
-			article_disciplines (
-				disciplines (
-					name
-				)
-			)
-		`
-				)
-				.not('id', 'in', `(${newUserProfile.sent_article_ids.join(',') || '0'})`)
-				.filter(
-					'article_disciplines.disciplines.name',
-					'in',
-					`(${disciplines.map((d) => `"${d}"`).join(',')})`
-				)
-				.gte('published_at', new Date(Date.now() - 2 * 365 * 24 * 60 * 60 * 1000).toISOString()) // 2 dernières années
-				.order('published_at', { ascending: false })
-				.limit(1);
-
-			if (articlesError) {
-				console.error('Error fetching article:', JSON.stringify(articlesError, null, 2));
-			} else if (articles && articles.length > 0) {
-				selectedArticle = {
-					id: articles[0].id,
-					title: articles[0].title,
-					content: articles[0].content,
-					journal: articles[0].journal || 'Inconnu'
-				};
-				console.log('Selected article:', selectedArticle);
-			} else {
-				console.log('No article found for the user');
-			}
-		} catch (e) {
-			console.error('Exception in fetching article:', e);
-		}
-
-		// 3. Appeler l'Edge Function send-notification
-		try {
-			console.log('Triggering send-notification Edge Function');
-			const notificationEdgeUrl =
-				'https://etxelhjnqbrgwuitltyk.supabase.co/functions/v1/send-notification';
-			const articlesToSend = selectedArticle ? [selectedArticle] : [];
-			const notificationResponse = await fetch(notificationEdgeUrl, {
-				method: 'POST',
-				headers: {
-					Authorization: `Bearer ${PUBLIC_SUPABASE_ANON_KEY}`,
-					'Content-Type': 'application/json'
-				},
-				body: JSON.stringify({
-					user_id: signUpData.user.id,
-					email,
-					first_name,
-					articles: articlesToSend
-				})
+			console.log('Fetching articles using database function for disciplines:', disciplines);
+			const { data, error } = await supabase.rpc('fetch_articles_by_disciplines', {
+				p_user_id: signUpData.user.id,
+				p_disciplines: disciplines,
 			});
 
-			if (!notificationResponse.ok) {
-				const errorText = await notificationResponse.text();
-				console.error('Error triggering send-notification:', errorText);
+			if (error) {
+				console.error('Error calling fetch_articles_by_disciplines:', JSON.stringify(error, null, 2));
+			} else if (data) {
+				// Parse the JSON array returned by the function
+				const articlesArray = Array.isArray(data) ? data : (data as any).fetch_articles_by_disciplines || [];
+				selectedArticles = articlesArray.map((article: any) => ({
+					id: article.id,
+					title: article.title,
+					journal: article.journal,
+					discipline: article.discipline,
+				}));
+				selectedArticles.forEach((article, index) => {
+					console.log(`Selected article ${index + 1} for discipline ${article.discipline}:`, article);
+				});
 			} else {
-				console.log('send-notification triggered successfully');
-				if (selectedArticle) {
-					const { error: updateError } = await supabase
-						.from('user_profiles')
-						.update({ sent_article_ids: [selectedArticle.id] })
-						.eq('id', signUpData.user.id);
-
-					if (updateError) {
-						console.error('Error updating sent_article_ids:', updateError);
-					} else {
-						console.log('Updated sent_article_ids:', [selectedArticle.id]);
-					}
-				}
+				console.log('No articles returned by fetch_articles_by_disciplines');
 			}
 		} catch (e) {
-			console.error('Exception in send-notification:', e);
+			console.error('Exception in fetching articles:', e);
 		}
+
+		// 3. Trigger send-notification Edge Function and insert into user_sent_articles
+		if (selectedArticles.length > 0) {
+			// Insert into user_sent_articles for each selected article
+			for (const article of selectedArticles) {
+				const { error: sentArticleError } = await supabase
+					.from('user_sent_articles')
+					.insert({
+						user_id: signUpData.user.id,
+						article_id: article.id,
+						sent_at: new Date().toISOString(),
+						discipline: article.discipline, // Include discipline as per schema
+					});
+
+				if (sentArticleError) {
+					console.error(
+						`Error inserting article ${article.id} into user_sent_articles:`,
+						sentArticleError
+					);
+				} else {
+					console.log(
+						`Inserted article ${article.id} into user_sent_articles for discipline ${article.discipline}`
+					);
+				}
+			}
+
+			// Trigger send-notification Edge Function
+			try {
+				console.log('Triggering send-notification Edge Function with articles:', selectedArticles);
+				const notificationEdgeUrl =
+					'https://etxelhjnqbrgwuitltyk.supabase.co/functions/v1/send-notification';
+				const notificationResponse = await fetch(notificationEdgeUrl, {
+					method: 'POST',
+					headers: {
+						Authorization: `Bearer ${PUBLIC_SUPABASE_ANON_KEY}`,
+						'Content-Type': 'application/json',
+					},
+					body: JSON.stringify({
+						user_id: signUpData.user.id,
+						email,
+						first_name, // Required by the Edge Function, even if not used in the template
+						articles: selectedArticles,
+					}),
+				});
+
+				if (!notificationResponse.ok) {
+					const errorText = await notificationResponse.text();
+					console.error('Error triggering send-notification:', errorText);
+				} else {
+					console.log('send-notification triggered successfully with articles:', selectedArticles);
+				}
+			} catch (e) {
+				console.error('Exception in send-notification:', e);
+			}
+		} else {
+			console.log('No articles selected, skipping send-notification');
+		}
+
 		console.log('User signed up successfully:', JSON.stringify(profileData, null, 2));
 		console.log('Throwing redirect to /ma-veille');
 		throw redirect(302, '/ma-veille');
-	}
+	},
 };
