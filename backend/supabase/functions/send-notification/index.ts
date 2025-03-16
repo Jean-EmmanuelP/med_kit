@@ -30,7 +30,7 @@ serve(async (req) => {
     Authorization: `Bearer ${
       Deno.env.get("SUPABASE_ANON_KEY") ||
       "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."
-    }`, // Replace with actual key
+    }`,
     "Content-Type": "application/json",
   };
 
@@ -50,7 +50,8 @@ serve(async (req) => {
               articles: articles.map((article) => ({
                 id: article.id,
                 title: article.title,
-                journal: article.journal || "Inconnu", // Ajout du journal
+                journal: article.journal || "Inconnu",
+                discipline: article.discipline || "Non spécifié",
               })),
             },
           },
