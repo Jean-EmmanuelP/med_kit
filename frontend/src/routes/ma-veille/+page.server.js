@@ -193,6 +193,7 @@ export async function load({ locals }) {
 	}
 
 	console.log('Returning data to client');
+
 	return {
 		recentArticles,
 		olderArticles,

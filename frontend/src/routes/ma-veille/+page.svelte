@@ -1,8 +1,7 @@
 <script lang="ts">
+	import { goto } from '$app/navigation';
 	import { i18n } from '$lib/i18n';
 	import userProfileStore from '$lib/stores/user';
-	import { goto } from '$app/navigation';
-	import * as Select from '$lib/components/ui/select/index.js';
 
 	const { data } = $props();
 	console.log('Received data from server:', data);
@@ -145,6 +144,17 @@
 	$effect(() => {
 		if ($userProfileStore) {
 			showSignupPrompt = false;
+		}
+	});
+
+	$effect(() => {
+		if (selectedFilter != "Tout" && selectedFilter != "Favoris") {
+			let articles;
+			fetch(`/api/get_articles_my_veille?specialty=${selectedFilter}`)
+				.then((res) => res.json())
+				.then((data) => {
+					console.log(data.data)
+				});
 		}
 	});
 
