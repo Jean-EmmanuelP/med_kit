@@ -1,9 +1,8 @@
 <script lang="ts">
-	import EmbaseSvg from '../lib/svg/EmbaseSvg.svelte';
-	import { i18n } from '$lib/i18n';
-	import userProfileStore from '$lib/stores/user';
 	import { goto } from '$app/navigation';
 	import * as Select from '$lib/components/ui/select/index.js';
+	import userProfileStore from '$lib/stores/user';
+	import EmbaseSvg from '../lib/svg/EmbaseSvg.svelte';
 
 	// Récupération des props avec $props rune
 	const { data } = $props();
