@@ -10,6 +10,8 @@
 	import { navigating } from '$app/stores';
 	import 'nprogress/nprogress.css';
 
+	NProgress.configure({ showSpinner: false });
+
 	const getUserProfile = async function (supabase: any, userId: string) {
 		try {
 			if (!userId) {

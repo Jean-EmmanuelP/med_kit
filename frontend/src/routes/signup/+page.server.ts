@@ -112,6 +112,7 @@ export const actions: Actions = {
 		// 2. Fetch one article per discipline for the user using database function
 		let selectedArticles: { id: number; title: string; journal: string; discipline: string }[] = [];
 		try {
+			// change this logic
 			console.log('Fetching articles using database function for disciplines:', disciplines);
 			const { data, error } = await supabase.rpc('fetch_articles_by_disciplines', {
 				p_user_id: signUpData.user.id,

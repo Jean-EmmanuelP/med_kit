@@ -53,7 +53,6 @@
             <!-- Section Contact -->
             <div>
                 <h3 class="mb-4 text-lg font-semibold">Contact</h3>
-                <p class="text-base">Vous pouvez nous contacter à :</p>
                 <a
                     href="mailto:contact@veillemedicale.fr"
                     class="mt-2 inline-block text-base text-white hover:underline"
