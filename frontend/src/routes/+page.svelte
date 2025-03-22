@@ -162,27 +162,16 @@
 			<!-- Title with Highlighted Keywords -->
 			<h1 class="font-sans text-2xl leading-tight font-bold text-gray-100 sm:text-3xl">
 				<span class="font-bold text-teal-500">L’outil de veille scientifique</span> <br /> conçu
-				pour les <span class="font-bold text-teal-500">médecins</span>
+				pour les <span class="font-bold text-teal-500">professionnels de santé</span>
 			</h1>
 
 			<!-- Core Message -->
 			<div class="flex flex-col space-y-4 text-center md:text-left">
-				<p class="text-base leading-relaxed text-gray-300 sm:text-lg">
-					Trop d’études scientifiques, pas assez de temps pour les lire ?
+				<p class="font-sans text-lg leading-tight font-bold text-gray-100 sm:text-xl">
+					Trop d’<span class="font-bold text-teal-500">études scientifiques</span>, pas assez de temps pour les lire ?
 				</p>
-				<p class="text-lg font-medium text-gray-100 sm:text-xl">
-					Avec <span class="font-bold text-teal-500">Veille</span>, restez à la pointe de votre
-					<span class="font-bold text-teal-500">spécialité</span>.
-				</p>
-				<p class="text-base leading-relaxed text-gray-300 sm:text-lg">
-					Recevez un <span class="font-bold text-teal-500">résumé clair et concis</span> des
-					meilleures études récentes dans votre domaine, à votre rythme, avec un
-					<span class="font-bold text-teal-500">accès direct à l’article original</span>.
-				</p>
-			</div>
-
-			<!-- Audio Button (Subtle and Professional) -->
-			<div class="mt-6 flex justify-center md:justify-start">
+				<!-- Audio Button (Subtle and Professional) -->
+			<div class="my-6 mb-8 flex justify-center md:justify-start">
 				<audio id="myAudio" preload="auto">
 					<source src="/audio/welcome.m4a" type="audio/mp4" />
 					Votre navigateur ne supporte pas l'élément audio.
@@ -197,9 +186,20 @@
 					<span>{isPlaying ? 'Pause' : 'Découvrez Veille en 1 min'}</span>
 				</button>
 			</div>
+				<p class="text-lg font-medium text-gray-100 sm:text-xl">
+					Avec <span class="font-bold text-teal-500">Veille</span>, restez à la pointe de votre
+					<span class="font-bold text-teal-500">spécialité</span>.
+				</p>
+				<p class="text-base leading-relaxed text-gray-300 sm:text-lg">
+					Recevez un <span class="font-bold text-teal-500">résumé clair et concis</span> des
+					meilleures études récentes dans votre domaine, à votre rythme, avec un
+					<span class="font-bold text-teal-500">accès direct à l’article original</span>.
+				</p>
+			</div>
+
 
 			<!-- Arguments List -->
-			<ul class="space-y-3 text-center md:text-left">
+			<!-- <ul class="space-y-3 text-center md:text-left">
 				<li
 					class="flex items-center justify-center gap-3 text-base text-gray-300 sm:text-lg md:justify-start"
 				>
@@ -218,15 +218,15 @@
 					<span class="text-xl text-teal-400">✔</span>
 					Résumés clairs et accès direct aux articles originaux
 				</li>
-			</ul>
+			</ul> -->
 
 			<!-- CTA Text -->
-			<p
+			<!-- <p
 				class="flex items-center justify-center gap-3 text-base text-gray-300 sm:text-lg md:justify-start"
 			>
 				<span class="text-2xl text-red-400">📩</span>
 				3 min/jour pour rester à la pointe de votre spécialité
-			</p>
+			</p> -->
 
 			<!-- CTA Button (Sticky on Mobile) -->
 			<div class="sticky bottom-4 mt-6 flex w-full justify-center">
@@ -257,35 +257,6 @@
 		</div>
 	</div>
 
-	<!-- Partenaires -->
-	<div class="relative flex flex-col gap-6 overflow-hidden px-6 py-8 sm:mx-[10vw] sm:px-0">
-		<h2 class="mb-4 text-left text-2xl font-bold text-white">Nos partenaires</h2>
-		<div class="flex flex-wrap items-center justify-start gap-8">
-			<a
-				href="https://pubmed.ncbi.nlm.nih.gov/"
-				target="_blank"
-				class="flex flex-col items-center gap-2"
-			>
-				<img
-					src="https://cdn.ncbi.nlm.nih.gov/pubmed/277eb475-38df-4990-a0ee-0080b04e86fc/core/images/pubmed-logo-white.svg"
-					alt="PubMed"
-					class="h-10 w-auto"
-				/>
-			</a>
-			<a href="https://www.embase.com" target="_blank" class="flex items-center gap-2">
-				<EmbaseSvg />
-				<span class="text-lg font-medium text-white">Embase</span>
-			</a>
-			<a href="https://www.cochranelibrary.com" target="_blank" class="flex items-center gap-2">
-				<img
-					src="https://www.cochrane.org/sites/default/files/public/cochrane-57-old.png"
-					alt="Cochrane Library"
-					class="h-10 w-auto"
-				/>
-				<span class="text-lg font-medium text-white">Cochrane Library</span>
-			</a>
-		</div>
-	</div>
 
 	<!-- Spécialités et Articles -->
 	<div class="relative flex flex-col gap-4 overflow-hidden px-6 py-8 sm:mx-[10vw] sm:px-0">
@@ -294,7 +265,7 @@
 				<h2 class="text-3xl font-bold">Découvrez certains de nos articles</h2>
 
 				<!-- Specialty Selection -->
-				<h2 class="mb-4 text-left text-2xl font-bold text-white">1. Choisissez votre spécialité</h2>
+				<!-- <h2 class="mb-4 text-left text-2xl font-bold text-white">1. Choisissez votre spécialité</h2> -->
 				<div class="relative w-full max-w-sm">
 					<Select.Root type="single" name="selectedSpecialty" bind:value={selectedSpecialty}>
 						<Select.Trigger
@@ -322,9 +293,9 @@
 				</div>
 
 				<!-- Selected Specialty Display -->
-				<h2 bind:this={articleSection} class="mb-4 text-left text-2xl font-bold text-white">
+				<!-- <h2 bind:this={articleSection} class="mb-4 text-left text-2xl font-bold text-white">
 					2. Explorez : {selectedSpecialty || 'Toutes'}
-				</h2>
+				</h2> -->
 
 				<!-- Article List -->
 				{#if articles.length === 0}
@@ -388,6 +359,35 @@
 			class="absolute right-0 bottom-0 left-0 h-2 bg-gradient-to-r from-blue-500 via-teal-500 to-transparent opacity-60"
 		></div>
 	</div>
+	<!-- Partenaires -->
+	<div class="relative flex flex-col gap-6 overflow-hidden px-6 py-8 sm:mx-[10vw] sm:px-0">
+		<h2 class="mb-4 text-left text-2xl font-bold text-white">Nos partenaires</h2>
+		<div class="flex flex-wrap items-center justify-start gap-8">
+			<a
+				href="https://pubmed.ncbi.nlm.nih.gov/"
+				target="_blank"
+				class="flex flex-col items-center gap-2"
+			>
+				<img
+					src="https://cdn.ncbi.nlm.nih.gov/pubmed/277eb475-38df-4990-a0ee-0080b04e86fc/core/images/pubmed-logo-white.svg"
+					alt="PubMed"
+					class="h-10 w-auto"
+				/>
+			</a>
+			<a href="https://www.embase.com" target="_blank" class="flex items-center gap-2">
+				<EmbaseSvg />
+				<span class="text-lg font-medium text-white">Embase</span>
+			</a>
+			<a href="https://www.cochranelibrary.com" target="_blank" class="flex items-center gap-2">
+				<img
+					src="https://www.cochrane.org/sites/default/files/public/cochrane-57-old.png"
+					alt="Cochrane Library"
+					class="h-10 w-auto"
+				/>
+				<span class="text-lg font-medium text-white">Cochrane Library</span>
+			</a>
+		</div>
+	</div>
 
 	<!-- Modal Immersif -->
 	{#if immersiveArticle}
@@ -431,6 +431,7 @@
 						</ul>
 					</div>
 				{/each}
+				<a href={immersiveArticle.link} target="_blank" class="underline">Accédez à l'article original 🔎</a>
 				{#if !$userProfileStore}
 					<div class="mt-6 flex justify-center">
 						<button
