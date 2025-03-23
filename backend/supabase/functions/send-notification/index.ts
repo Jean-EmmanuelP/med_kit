@@ -52,6 +52,7 @@ serve(async (req) => {
                 title: article.title,
                 journal: article.journal || "Inconnu",
                 discipline: article.discipline || "Non spécifié",
+                link: article.link
               })),
             },
           },
