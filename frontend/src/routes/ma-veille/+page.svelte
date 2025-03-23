@@ -1,25 +1,39 @@
 <script lang="ts">
 	import { goto } from '$app/navigation';
+	import * as Select from '$lib/components/ui/select';
 	import { i18n } from '$lib/i18n';
 	import userProfileStore from '$lib/stores/user';
+
+	// Define article interface
+	interface Article {
+		id: string | number;
+		title: string;
+		content: string;
+		disciplines: string[];
+		published_at: string;
+		journal?: string;
+		grade?: string;
+		link?: string;
+	}
 
 	const { data } = $props();
 	console.log('Received data from server:', data);
 
 	let searchQuery = $state('');
 	let showOlderArticles = $state(false);
-	let expandedArticleId = $state(null);
+	let expandedArticleId = $state<string | null>(null);
 	let selectedFilter = $state('Tout');
-	let filteredRecentArticles = $state([]);
-	let filteredOlderArticles = $state([]);
+	let filteredRecentArticles = $state<Article[]>([]);
+	let filteredOlderArticles = $state<Article[]>([]);
+	let articleOfTheDay = $state<Article[]>([]);
 	let showSignupPrompt = $state(false);
 
-	let specialties = $state(
+	let specialties = $state<string[]>(
 		[
-			...new Set([
+			...new Set<string>([
 				...(data.userDisciplines || []),
-				...(data.recentArticles?.flatMap((a) => a.disciplines) || []),
-				...(data.olderArticles?.flatMap((a) => a.disciplines) || [])
+				...(data.recentArticles?.flatMap((a: any) => a.disciplines) || []),
+				...(data.olderArticles?.flatMap((a: any) => a.disciplines) || [])
 			])
 		].sort((a, b) => a.localeCompare(b, 'fr', { sensitivity: 'base' }))
 	);
@@ -32,18 +46,16 @@
 		.toString()
 		.padStart(2, '0')}/${today.getFullYear()}`;
 
-	function formatTitle(title: string) {
-		if (!title) return '';
-		const words = title.toLowerCase().split(' ');
-		if (words.length === 0) return '';
-		words[0] = words[0].charAt(0).toUpperCase() + words[0].slice(1);
-		return words.join(' ');
+	interface ContentSection {
+		emoji: string;
+		title: string;
+		content: string[];
 	}
 
-	function parseContent(content) {
+	function parseContent(content: string): ContentSection[] {
 		if (!content || typeof content !== 'string') return [];
-		const sections = [];
-		let currentSection = { emoji: '', title: '', content: [] };
+		const sections: ContentSection[] = [];
+		let currentSection: ContentSection = { emoji: '', title: '', content: [] };
 		const lines = content.split('\n');
 		let inSection = false;
 
@@ -75,7 +87,15 @@
 		return sections;
 	}
 
-	function formatDate(publishedAt) {
+	function formatTitle(title: string) {
+		if (!title) return '';
+		const words = title.toLowerCase().split(' ');
+		if (words.length === 0) return '';
+		words[0] = words[0].charAt(0).toUpperCase() + words[0].slice(1);
+		return words.join(' ');
+	}
+
+	function formatDate(publishedAt: string) {
 		if (!publishedAt) return 'Non spécifiée';
 		const date = new Date(publishedAt);
 		return `${date.getDate().toString().padStart(2, '0')}/${(date.getMonth() + 1)
@@ -83,7 +103,7 @@
 			.padStart(2, '0')}/${date.getFullYear()}`;
 	}
 
-	function extractTitleEmoji(content) {
+	function extractTitleEmoji(content: string) {
 		if (!content || typeof content !== 'string') return '📝';
 		const lines = content.split('\n');
 		for (const line of lines) {
@@ -102,8 +122,8 @@
 		return '📝';
 	}
 
-	function dedupeArticles(articles) {
-		const articleMap = new Map();
+	function dedupeArticles(articles: Article[]) {
+		const articleMap = new Map<string | number, Article>();
 		for (const article of articles || []) {
 			if (!articleMap.has(article.id)) articleMap.set(article.id, article);
 		}
@@ -113,7 +133,7 @@
 	$effect(() => {
 		if (!data.recentArticles && !data.olderArticles) return;
 
-		const filterArticles = (articles) =>
+		const filterArticles = (articles: Article[]) =>
 			articles.filter(
 				(article) =>
 					(selectedFilter === 'Tout' ||
@@ -149,16 +169,26 @@
 
 	$effect(() => {
 		if (selectedFilter != "Tout" && selectedFilter != "Favoris") {
-			let articles;
 			fetch(`/api/get_articles_my_veille?specialty=${selectedFilter}`)
 				.then((res) => res.json())
 				.then((data) => {
-					console.log(data.data)
+					console.log(data.data);
+					if (data && data.data) {
+						// Set the first article as article of the day
+						articleOfTheDay = [data.data[0]];
+						console.log(articleOfTheDay)
+						
+						const remainingArticles = data.data.slice(1);
+						filteredRecentArticles = remainingArticles;
+					}
+				})
+				.catch(error => {
+					console.error("Error fetching articles:", error);
 				});
 		}
 	});
 
-	function toggleSummary(articleId) {
+	function toggleSummary(articleId: string | number) {
 		expandedArticleId = expandedArticleId === String(articleId) ? null : String(articleId);
 	}
 
@@ -174,12 +204,12 @@
 			<div
 				class="mb-6 flex items-center justify-between rounded-lg bg-teal-600/20 p-4 shadow-md transition-all duration-300 hover:bg-teal-600/30"
 			>
-				<p class="text-sm font-medium">S’inscrire maintenant pour plus de fonctionnalités !</p>
+				<p class="text-sm font-medium">S'inscrire maintenant pour plus de fonctionnalités !</p>
 				<button
 					on:click={handleSignup}
 					class="group flex inline-block items-center justify-center gap-2 rounded-full bg-teal-500 px-4 py-2 text-xs font-semibold text-white transition-all duration-200 hover:bg-teal-600"
 				>
-					<span>S’inscrire</span>
+					<span>S'inscrire</span>
 					<svg
 						class="h-5 w-5 transition-transform duration-300 group-hover:translate-x-1"
 						fill="none"
@@ -217,49 +247,52 @@
 		</div>
 		<h1 class="mb-4 text-3xl font-bold text-white">{$i18n.header.myVeille}</h1>
 
-		<!-- Tabs -->
-		<div class="mb-6 flex space-x-4 border-b border-gray-700">
-			<button
-				on:click={() => (selectedFilter = 'Tout')}
-				class={`pb-2 text-lg font-medium ${
-					selectedFilter === 'Tout'
-						? 'border-b-2 border-teal-500 text-teal-500'
-						: 'text-gray-400 hover:text-teal-400'
-				}`}
-			>
-				Tout
-			</button>
-			<button
-				on:click={() => (selectedFilter = 'Favoris')}
-				class={`pb-2 text-lg font-medium ${
-					selectedFilter === 'Favoris'
-						? 'border-b-2 border-teal-500 text-teal-500'
-						: 'text-gray-400 hover:text-teal-400'
-				}`}
-			>
-				Mes favoris
-			</button>
-			{#each data.userDisciplines as discipline}
-				<button
-					on:click={() => (selectedFilter = discipline)}
-					class={`pb-2 text-lg font-medium ${
-						selectedFilter === discipline
-							? 'border-b-2 border-teal-500 text-teal-500'
-							: 'text-gray-400 hover:text-teal-400'
-					}`}
-				>
-					{discipline}
-				</button>
-			{/each}
+		<!-- Replace Tabs with Dropdown -->
+		<div class="mb-6">
+			<div class="relative w-full max-w-sm">
+				<Select.Root type="single" name="selectedFilter" bind:value={selectedFilter}>
+					<Select.Trigger
+						class="w-full rounded-lg border-gray-700 bg-gray-800 px-4 py-3 text-sm font-medium text-white shadow-md transition-all duration-300 hover:bg-gray-700 focus:ring-2 focus:ring-teal-500 focus:outline-none"
+					>
+						{triggerContent}
+					</Select.Trigger>
+					<Select.Content
+						class="scrollbar-thin scrollbar-thumb-teal-500 scrollbar-track-gray-800 max-h-60 overflow-y-auto rounded-lg border border-gray-700 bg-gray-900"
+					>
+						<Select.Group>
+							<Select.GroupHeading class="px-4 py-2 font-semibold text-gray-400"
+								>Spécialités</Select.GroupHeading
+							>
+							<!-- <Select.Item
+								value="Tout"
+								label="Tout"
+								class="cursor-pointer px-4 py-2 text-white transition-all duration-200 hover:bg-teal-600 hover:text-white"
+							/>
+							<Select.Item
+								value="Favoris"
+								label="Favoris"
+								class="cursor-pointer px-4 py-2 text-white transition-all duration-200 hover:bg-teal-600 hover:text-white"
+							/> -->
+							{#each data.userDisciplines as discipline}
+								<Select.Item
+									value={discipline}
+									label={discipline}
+									class="cursor-pointer px-4 py-2 text-white transition-all duration-200 hover:bg-teal-600 hover:text-white"
+								/>
+							{/each}
+						</Select.Group>
+					</Select.Content>
+				</Select.Root>
+			</div>
 		</div>
 
 		<!-- Nouveaux Articles Section -->
 		<div class="mb-6">
 			<h2 class="text-2xl font-bold text-teal-500">🔥 Les nouveaux articles</h2>
-			{#if data.articleOfTheDay.length > 0}
+			{#if articleOfTheDay.length > 0}
 				<p class="mt-2 text-gray-400">Article du jour pour {selectedFilter} :</p>
-				{#each data.articleOfTheDay as article (article.id)}
-					{#if article.disciplines.includes(selectedFilter) || selectedFilter === 'Tout'}
+				{#each articleOfTheDay as article (article.id)}
+					{#if article }
 						<li
 							on:click={() => toggleSummary(article.id)}
 							class="relative mt-2 list-none rounded bg-gray-800 p-4 shadow transition-shadow hover:shadow-lg"
