@@ -4,7 +4,6 @@
 	import { i18n } from '$lib/i18n';
 	import userProfileStore from '$lib/stores/user';
 
-	// Define article interface
 	interface Article {
 		id: string | number;
 		title: string;
@@ -21,12 +20,12 @@
 
 	let searchQuery = $state('');
 	let showOlderArticles = $state(false);
-	let expandedArticleId = $state<string | null>(null);
 	let selectedFilter = $state('Tout');
 	let filteredRecentArticles = $state<Article[]>([]);
 	let filteredOlderArticles = $state<Article[]>([]);
 	let articleOfTheDay = $state<Article[]>([]);
 	let showSignupPrompt = $state(false);
+	let immersiveArticle = $state<Article | null>(null);
 
 	let specialties = $state<string[]>(
 		[
@@ -188,8 +187,14 @@
 		}
 	});
 
-	function toggleSummary(articleId: string | number) {
-		expandedArticleId = expandedArticleId === String(articleId) ? null : String(articleId);
+	function openImmersive(article: Article) {
+		immersiveArticle = article;
+		document.body.classList.add('overflow-hidden');
+	}
+
+	function closeImmersive() {
+		immersiveArticle = null;
+		document.body.classList.remove('overflow-hidden');
 	}
 
 	function handleSignup() {
@@ -247,7 +252,6 @@
 		</div>
 		<h1 class="mb-4 text-3xl font-bold text-white">{$i18n.header.myVeille}</h1>
 
-		<!-- Replace Tabs with Dropdown -->
 		<div class="mb-6">
 			<div class="relative w-full max-w-sm">
 				<Select.Root type="single" name="selectedFilter" bind:value={selectedFilter}>
@@ -263,16 +267,6 @@
 							<Select.GroupHeading class="px-4 py-2 font-semibold text-gray-400"
 								>Spécialités</Select.GroupHeading
 							>
-							<!-- <Select.Item
-								value="Tout"
-								label="Tout"
-								class="cursor-pointer px-4 py-2 text-white transition-all duration-200 hover:bg-teal-600 hover:text-white"
-							/>
-							<Select.Item
-								value="Favoris"
-								label="Favoris"
-								class="cursor-pointer px-4 py-2 text-white transition-all duration-200 hover:bg-teal-600 hover:text-white"
-							/> -->
 							{#each data.userDisciplines as discipline}
 								<Select.Item
 									value={discipline}
@@ -288,50 +282,15 @@
 
 		<!-- Nouveaux Articles Section -->
 		<div class="mb-6">
-			<h2 class="text-2xl font-bold text-teal-500">🔥 Les nouveaux articles</h2>
 			{#if articleOfTheDay.length > 0}
-				<p class="mt-2 text-gray-400">Article du jour pour {selectedFilter} :</p>
+			<h2 class="text-2xl font-bold text-teal-500">🔥 Article du jour</h2>
+				<p class="mt-2 text-gray-400">Article selectionné aujourd'hui pour {selectedFilter} :</p>
 				{#each articleOfTheDay as article (article.id)}
 					{#if article }
 						<li
-							on:click={() => toggleSummary(article.id)}
-							class="relative mt-2 list-none rounded bg-gray-800 p-4 shadow transition-shadow hover:shadow-lg"
+							on:click={() => openImmersive(article)}
+							class="relative mt-2 list-none cursor-pointer rounded bg-gray-800 p-4 shadow transition-shadow hover:shadow-xl"
 						>
-							<div
-								class={`absolute ${String(article.id) === expandedArticleId ? 'top-[12%]' : 'top-1/2'} right-4 -translate-y-1/2`}
-							>
-								{#if expandedArticleId === String(article.id)}
-									<svg
-										class="h-4 w-4 text-white"
-										fill="none"
-										stroke="currentColor"
-										viewBox="0 0 24 24"
-										xmlns="http://www.w3.org/2000/svg"
-									>
-										<path
-											stroke-linecap="round"
-											stroke-linejoin="round"
-											stroke-width="2"
-											d="M5 15l7-7 7 7"
-										/>
-									</svg>
-								{:else}
-									<svg
-										class="h-4 w-4 text-white"
-										fill="none"
-										stroke="currentColor"
-										viewBox="0 0 24 24"
-										xmlns="http://www.w3.org/2000/svg"
-									>
-										<path
-											stroke-linecap="round"
-											stroke-linejoin="round"
-											stroke-width="2"
-											d="M19 9l-7 7-7-7"
-										/>
-									</svg>
-								{/if}
-							</div>
 							<h2 class="text-left text-lg font-bold text-white">
 								{extractTitleEmoji(article.content)}
 								{formatTitle(article.title)}
@@ -342,72 +301,6 @@
 							<div class="mt-2 flex items-center text-sm text-gray-400">
 								<span class="mr-1">{article.journal || 'Inconnu'}</span>
 							</div>
-							{#if expandedArticleId === String(article.id)}
-								<div class="prose mt-2 max-w-none text-gray-200">
-									{#each parseContent(article.content) as section}
-										<div class="mb-2">
-											<h3 class="text-md flex items-center font-semibold text-white">
-												<span class="mr-2">{section.emoji}</span>
-												{section.title}
-											</h3>
-											{#each section.content as paragraph}
-												<p class="mt-1 text-sm">{paragraph}</p>
-											{/each}
-										</div>
-									{/each}
-								</div>
-								<div class="mt-4 flex flex-col items-center gap-4 sm:flex-row">
-									{#if article.link}
-										<div class="flex items-center text-sm text-gray-400">
-											<svg
-												class="mr-1 h-4 w-4"
-												fill="none"
-												stroke="currentColor"
-												viewBox="0 0 24 24"
-												xmlns="http://www.w3.org/2000/svg"
-											>
-												<path
-													stroke-linecap="round"
-													stroke-linejoin="round"
-													stroke-width="2"
-													d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"
-												/>
-											</svg>
-											<span class="mr-1">Lien :</span>
-											<a
-												href={article.link}
-												target="_blank"
-												rel="noopener noreferrer"
-												class="max-w-xs truncate text-teal-400 hover:underline"
-											>
-												{article.link}
-											</a>
-										</div>
-									{/if}
-									{#if $userProfileStore}
-										<a
-											href={`/articles/${article.id}`}
-											class="group flex inline-block items-center justify-center gap-2 rounded bg-teal-500 px-4 py-2 text-white transition-all duration-200 hover:bg-teal-600"
-										>
-											<span>Voir l'article</span>
-											<svg
-												class="h-5 w-5 transition-transform duration-300 group-hover:translate-x-1"
-												fill="none"
-												stroke="currentColor"
-												viewBox="0 0 24 24"
-												xmlns="http://www.w3.org/2000/svg"
-											>
-												<path
-													stroke-linecap="round"
-													stroke-linejoin="round"
-													stroke-width="2"
-													d="M9 5l7 7m0 0l-7 7m7-7H3"
-												/>
-											</svg>
-										</a>
-									{/if}
-								</div>
-							{/if}
 							<div class="mt-2 flex items-center text-sm text-gray-400">
 								<svg
 									class="mr-1 h-4 w-4"
@@ -429,93 +322,22 @@
 						</li>
 					{/if}
 				{/each}
-			{:else}
-				<p class="mt-2 text-gray-400">Aucun article du jour pour {selectedFilter}.</p>
 			{/if}
-		</div>
-
-		<!-- Barre de recherche -->
-		<div
-			class="mb-8 flex flex-col items-start space-y-4 sm:flex-row sm:items-center sm:space-y-0 sm:space-x-4"
-		>
-			<div class="flex w-full flex-col space-y-2 sm:w-auto sm:flex-row sm:space-y-0 sm:space-x-2">
-				<form class="relative w-full sm:w-64">
-					<input
-						type="text"
-						bind:value={searchQuery}
-						placeholder={$i18n.header.searchPlaceholder}
-						class="w-full rounded-full border border-gray-700 bg-gray-800 px-4 py-2 pr-12 text-sm text-white transition-all duration-200 focus:border-teal-500 focus:ring focus:ring-teal-700"
-					/>
-					<svg
-						class="absolute top-1/2 right-3 h-5 w-5 -translate-y-1/2 transform text-gray-400"
-						fill="none"
-						stroke="currentColor"
-						viewBox="0 0 24 24"
-						xmlns="http://www.w3.org/2000/svg"
-					>
-						<path
-							stroke-linecap="round"
-							stroke-linejoin="round"
-							stroke-width="2"
-							d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
-						/>
-					</svg>
-				</form>
-			</div>
 		</div>
 
 		{#if data.error}
 			<p class="text-red-500">Erreur : {data.error}</p>
-		{:else if filteredRecentArticles.length === 0 && filteredOlderArticles.length === 0}
-			<p class="text-gray-400">
-				Aucun article disponible pour {selectedFilter === 'Favoris'
-					? 'vos favoris'
-					: selectedFilter === 'Tout'
-						? 'toutes les disciplines'
-						: selectedFilter}.
-			</p>
 		{:else}
 			<ul class="space-y-4">
+			{#if filteredRecentArticles.length > 0}
+				<h2 class="text-2xl font-bold text-teal-500">📖 Article des jours précédents</h2>
+				<p class="mt-2 text-gray-400">Article des jours précédents pour {selectedFilter} :</p>
+			{/if}
 				{#each filteredRecentArticles as article}
 					<li
-						on:click={() => toggleSummary(article.id)}
-						class="relative rounded bg-gray-800 p-4 shadow transition-shadow hover:shadow-lg"
+						on:click={() => openImmersive(article)}
+						class="relative cursor-pointer rounded bg-gray-800 p-4 shadow transition-shadow hover:shadow-xl"
 					>
-						<div
-							class={`absolute ${String(article.id) === expandedArticleId ? 'top-[12%]' : 'top-1/2'} right-4 -translate-y-1/2`}
-						>
-							{#if expandedArticleId === String(article.id)}
-								<svg
-									class="h-4 w-4 text-white"
-									fill="none"
-									stroke="currentColor"
-									viewBox="0 0 24 24"
-									xmlns="http://www.w3.org/2000/svg"
-								>
-									<path
-										stroke-linecap="round"
-										stroke-linejoin="round"
-										stroke-width="2"
-										d="M5 15l7-7 7 7"
-									/>
-								</svg>
-							{:else}
-								<svg
-									class="h-4 w-4 text-white"
-									fill="none"
-									stroke="currentColor"
-									viewBox="0 0 24 24"
-									xmlns="http://www.w3.org/2000/svg"
-								>
-									<path
-										stroke-linecap="round"
-										stroke-linejoin="round"
-										stroke-width="2"
-										d="M19 9l-7 7-7-7"
-									/>
-								</svg>
-							{/if}
-						</div>
 						<h2 class="text-left text-lg font-bold text-white">
 							{extractTitleEmoji(article.content)}
 							{formatTitle(article.title)}
@@ -526,72 +348,6 @@
 						<div class="mt-2 flex items-center text-sm text-gray-400">
 							<span class="mr-1">{article.journal || 'Inconnu'}</span>
 						</div>
-						{#if expandedArticleId === String(article.id)}
-							<div class="prose mt-2 max-w-none text-gray-200">
-								{#each parseContent(article.content) as section}
-									<div class="mb-2">
-										<h3 class="text-md flex items-center font-semibold text-white">
-											<span class="mr-2">{section.emoji}</span>
-											{section.title}
-										</h3>
-										{#each section.content as paragraph}
-											<p class="mt-1 text-sm">{paragraph}</p>
-										{/each}
-									</div>
-								{/each}
-							</div>
-							<div class="mt-4 flex flex-col items-center gap-4 sm:flex-row">
-								{#if article.link}
-									<div class="flex items-center text-sm text-gray-400">
-										<svg
-											class="mr-1 h-4 w-4"
-											fill="none"
-											stroke="currentColor"
-											viewBox="0 0 24 24"
-											xmlns="http://www.w3.org/2000/svg"
-										>
-											<path
-												stroke-linecap="round"
-												stroke-linejoin="round"
-												stroke-width="2"
-												d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"
-											/>
-										</svg>
-										<span class="mr-1">Lien :</span>
-										<a
-											href={article.link}
-											target="_blank"
-											rel="noopener noreferrer"
-											class="max-w-xs truncate text-teal-400 hover:underline"
-										>
-											{article.link}
-										</a>
-									</div>
-								{/if}
-								{#if $userProfileStore}
-									<a
-										href={`/articles/${article.id}`}
-										class="group flex inline-block items-center justify-center gap-2 rounded bg-teal-500 px-4 py-2 text-white transition-all duration-200 hover:bg-teal-600"
-									>
-										<span>Voir l'article</span>
-										<svg
-											class="h-5 w-5 transition-transform duration-300 group-hover:translate-x-1"
-											fill="none"
-											stroke="currentColor"
-											viewBox="0 0 24 24"
-											xmlns="http://www.w3.org/2000/svg"
-										>
-											<path
-												stroke-linecap="round"
-												stroke-linejoin="round"
-												stroke-width="2"
-												d="M9 5l7 7m0 0l-7 7m7-7H3"
-											/>
-										</svg>
-									</a>
-								{/if}
-							</div>
-						{/if}
 						<div class="mt-2 flex items-center text-sm text-gray-400">
 							<svg
 								class="mr-1 h-4 w-4"
@@ -616,44 +372,9 @@
 				{#if showOlderArticles}
 					{#each filteredOlderArticles as article}
 						<li
-							on:click={() => toggleSummary(article.id)}
-							class="relative rounded bg-gray-800 p-4 shadow transition-shadow hover:shadow-lg"
+							on:click={() => openImmersive(article)}
+							class="relative cursor-pointer rounded bg-gray-800 p-4 shadow transition-shadow hover:shadow-xl"
 						>
-							<div
-								class={`absolute ${String(article.id) === expandedArticleId ? 'top-[12%]' : 'top-1/2'} right-4 -translate-y-1/2`}
-							>
-								{#if expandedArticleId === String(article.id)}
-									<svg
-										class="h-4 w-4 text-white"
-										fill="none"
-										stroke="currentColor"
-										viewBox="0 0 24 24"
-										xmlns="http://www.w3.org/2000/svg"
-									>
-										<path
-											stroke-linecap="round"
-											stroke-linejoin="round"
-											stroke-width="2"
-											d="M5 15l7-7 7 7"
-										/>
-									</svg>
-								{:else}
-									<svg
-										class="h-4 w-4 text-white"
-										fill="none"
-										stroke="currentColor"
-										viewBox="0 0 24 24"
-										xmlns="http://www.w3.org/2000/svg"
-									>
-										<path
-											stroke-linecap="round"
-											stroke-linejoin="round"
-											stroke-width="2"
-											d="M19 9l-7 7-7-7"
-										/>
-									</svg>
-								{/if}
-							</div>
 							<h2 class="text-left text-lg font-bold text-white">
 								{extractTitleEmoji(article.content)}
 								{formatTitle(article.title)}
@@ -664,73 +385,7 @@
 							<div class="mt-2 flex items-center text-sm text-gray-400">
 								<span class="mr-1">{article.journal || 'Inconnu'}</span>
 							</div>
-							{#if expandedArticleId === String(article.id)}
-								<div class="prose mt-2 max-w-none text-gray-200">
-									{#each parseContent(article.content) as section}
-										<div class="mb-2">
-											<h3 class="text-md flex items-center font-semibold text-white">
-												<span class="mr-2">{section.emoji}</span>
-												{section.title}
-											</h3>
-											{#each section.content as paragraph}
-												<p class="mt-1 text-sm">{paragraph}</p>
-											{/each}
-										</div>
-									{/each}
-								</div>
-								<div class="mt-4 flex flex-col items-center gap-4 sm:flex-row">
-									{#if article.link}
-										<div class="flex items-center text-sm text-gray-400">
-											<svg
-												class="mr-1 h-4 w-4"
-												fill="none"
-												stroke="currentColor"
-												viewBox="0 0 24 24"
-												xmlns="http://www.w3.org/2000/svg"
-											>
-												<path
-													stroke-linecap="round"
-													stroke-linejoin="round"
-													stroke-width="2"
-													d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"
-												/>
-											</svg>
-											<span class="mr-1">Lien :</span>
-											<a
-												href={article.link}
-												target="_blank"
-												rel="noopener noreferrer"
-												class="max-w-xs truncate text-teal-400 hover:underline"
-											>
-												{article.link}
-											</a>
-										</div>
-									{/if}
-									{#if $userProfileStore}
-										<a
-											href={`/articles/${article.id}`}
-											class="group flex inline-block items-center justify-center gap-2 rounded bg-teal-500 px-4 py-2 text-white transition-all duration-200 hover:bg-teal-600"
-										>
-											<span>Voir l'article</span>
-											<svg
-												class="h-5 w-5 transition-transform duration-300 group-hover:translate-x-1"
-												fill="none"
-												stroke="currentColor"
-												viewBox="0 0 24 24"
-												xmlns="http://www.w3.org/2000/svg"
-											>
-												<path
-													stroke-linecap="round"
-													stroke-linejoin="round"
-													stroke-width="2"
-													d="M9 5l7 7m0 0l-7 7m7-7H3"
-												/>
-											</svg>
-										</a>
-									{/if}
-								</div>
-							{/if}
-							<div class="mt-2 flex items-center text-sm text-gray-400">
+							<div class="mt-2 flex items-center text-gray-400">
 								<svg
 									class="mr-1 h-4 w-4"
 									fill="none"
@@ -772,6 +427,56 @@
 		{/if}
 	</div>
 </div>
+
+{#if immersiveArticle}
+	<div
+		class="fixed inset-0 z-[200] flex items-center justify-center bg-black/30 backdrop-blur-sm"
+	>
+		<div
+			class="relative max-h-[90vh] w-full max-w-4xl overflow-y-auto rounded-2xl bg-gray-900 p-8 shadow-2xl"
+		>
+			<button
+				class="absolute top-4 right-4 text-3xl text-gray-400 hover:text-white focus:outline-none"
+				on:click={closeImmersive}
+			>
+				×
+			</button>
+			<h2 class="mb-4 text-3xl font-bold text-white">
+				{extractTitleEmoji(immersiveArticle.content)}
+				{formatTitle(immersiveArticle.title)}
+			</h2>
+			{#if immersiveArticle.grade}
+				<p class="mb-2 text-sm text-green-400">
+					Grade de recommandation : {immersiveArticle.grade}
+				</p>
+			{/if}
+			<div class="mt-2 flex flex-row items-center text-sm">
+				<span class="mr-1">{immersiveArticle.journal || 'Inconnu'}</span>
+			</div>
+			<p class="mt-2 mb-4 text-sm text-gray-400">
+				Publié le : {formatDate(immersiveArticle.published_at)}
+			</p>
+			{#each parseContent(immersiveArticle.content) as section}
+				<div class="mb-6">
+					<h3 class="mb-2 flex items-center text-lg font-semibold text-white">
+						<span class="mr-2">{section.emoji}</span>
+						{section.title}
+					</h3>
+					<ul class="ml-4 list-disc space-y-2 text-gray-300">
+						{#each section.content as paragraph}
+							<li>{paragraph}</li>
+						{/each}
+					</ul>
+				</div>
+			{/each}
+			{#if immersiveArticle.link}
+				<a href={immersiveArticle.link} target="_blank" class="text-white underline">
+					Accédez à l'article original 🔎
+				</a>
+			{/if}
+		</div>
+	</div>
+{/if}
 
 <style>
 	button:focus {
