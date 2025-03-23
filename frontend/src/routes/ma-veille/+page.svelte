@@ -232,26 +232,7 @@
 				</button>
 			</div>
 		{/if}
-
-		<div class="mb-4 flex items-center">
-			<svg
-				class="mr-2 h-6 w-6 text-gray-400"
-				fill="none"
-				stroke="currentColor"
-				viewBox="0 0 24 24"
-				xmlns="http://www.w3.org/2000/svg"
-			>
-				<path
-					stroke-linecap="round"
-					stroke-linejoin="round"
-					stroke-width="2"
-					d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
-				/>
-			</svg>
-			<span class="text-lg text-gray-400">Date / {formattedDate}</span>
-		</div>
 		<h1 class="mb-4 text-3xl font-bold text-white">{$i18n.header.myVeille}</h1>
-
 		<div class="mb-6">
 			<div class="relative w-full max-w-sm">
 				<Select.Root type="single" name="selectedFilter" bind:value={selectedFilter}>
