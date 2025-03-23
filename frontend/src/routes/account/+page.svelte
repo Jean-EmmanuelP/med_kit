@@ -70,15 +70,6 @@
 		'1_fois_par_mois'
 	];
 
-	const notificationDisplayOptions = {
-		tous_les_jours: $i18n.login.notificationOptions[0],
-		tous_les_2_jours: $i18n.login.notificationOptions[1],
-		tous_les_3_jours: $i18n.login.notificationOptions[2],
-		'1_fois_par_semaine': $i18n.login.notificationOptions[3],
-		tous_les_15_jours: $i18n.login.notificationOptions[4],
-		'1_fois_par_mois': $i18n.login.notificationOptions[5]
-	};
-
 	function toggleDiscipline(discipline) {
 		if (selectedDisciplines.includes(discipline)) {
 			selectedDisciplines = selectedDisciplines.filter((d) => d !== discipline);
