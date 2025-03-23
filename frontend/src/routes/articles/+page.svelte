@@ -19,6 +19,7 @@
     let selectedDiscipline = $state(disciplines.length > 0 ? disciplines[0].name : null);
     let expandedArticleId = $state<string | null>(null);
     let immersiveArticle = $state(null);
+    let articleOfTheDay = $state<Article[]>([]);
 
     function formatTitle(title: string) {
         if (!title) return '';
@@ -108,7 +109,8 @@
             .then((data) => {
                 console.log(data.data);
                 if (data && data.data) {
-                    articles = data.data;
+                    articleOfTheDay = [data.data[0]];
+                    articles = data.data.slice(1);
                 }
             })
             .catch(error => {
@@ -152,12 +154,57 @@
             {/if}
         </div>
 
-        <!-- Articles -->
+        <!-- Article du jour -->
+        <div class="mb-6">
+            {#if articleOfTheDay.length > 0}
+            <h2 class="text-2xl font-bold text-teal-500">🔥 Article du jour</h2>
+                <p class="mt-2 text-gray-400">Article selectionné aujourd'hui pour {selectedDiscipline} :</p>
+                {#each articleOfTheDay as article (article.id)}
+                    {#if article }
+                        <li
+                            on:click={() => openImmersive(article)}
+                            class="relative mt-2 list-none cursor-pointer rounded bg-gray-800 p-4 shadow transition-shadow hover:shadow-xl"
+                        >
+                            <h2 class="text-left text-lg font-bold text-white">
+                                {extractTitleEmoji(article.content)}
+                                {formatTitle(article.title)}
+                            </h2>
+                            {#if article.grade}
+                                <p class="mt-1 text-sm text-green-400">Grade de recommandation : {article.grade}</p>
+                            {/if}
+                            <div class="mt-2 flex items-center text-sm text-gray-400">
+                                <span class="mr-1">{article.journal || 'Inconnu'}</span>
+                            </div>
+                            <div class="mt-2 flex items-center text-sm text-gray-400">
+                                <svg
+                                    class="mr-1 h-4 w-4"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    viewBox="0 0 24 24"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
+                                    />
+                                </svg>
+                                <span class="mr-1">Date :</span>
+                                <span>{formatDate(article.published_at)}</span>
+                            </div>
+                        </li>
+                    {/if}
+                {/each}
+            {/if}
+        </div>
+
+        <!-- Articles précédents -->
         <div class="mb-6">
             {#if articles.length > 0}
-            <h2 class="text-2xl font-bold text-teal-500">📊 Les derniers articles</h2>
-				<p class="mt-2 text-gray-400">Article pour {selectedDiscipline} :</p>
-				{#each articles as article (article.id)}
+            <h2 class="text-2xl font-bold text-teal-500">📖 Articles des jours précédents</h2>
+                <p class="mt-2 text-gray-400">Article pour {selectedDiscipline} :</p>
+                {#each articles as article (article.id)}
 					{#if article }
 						<li
 							on:click={() => openImmersive(article)}

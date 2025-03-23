@@ -18,15 +18,6 @@
 	const { data } = $props();
 	console.log('Received data from server:', data);
 
-	let searchQuery = $state('');
-	let showOlderArticles = $state(false);
-	let selectedFilter = $state('Tout');
-	let filteredRecentArticles = $state<Article[]>([]);
-	let filteredOlderArticles = $state<Article[]>([]);
-	let articleOfTheDay = $state<Article[]>([]);
-	let showSignupPrompt = $state(false);
-	let immersiveArticle = $state<Article | null>(null);
-
 	let specialties = $state<string[]>(
 		[
 			...new Set<string>([
@@ -39,6 +30,15 @@
 	let triggerContent = $derived(
 		specialties.find((s) => s === selectedFilter) ?? 'Choisis une spécialité'
 	);
+	let searchQuery = $state('');
+	let showOlderArticles = $state(false);
+	let selectedFilter = $state(specialties.length > 0 ? specialties[0] : 'Tout');
+	let filteredRecentArticles = $state<Article[]>([]);
+	let filteredOlderArticles = $state<Article[]>([]);
+	let articleOfTheDay = $state<Article[]>([]);
+	let showSignupPrompt = $state(false);
+	let immersiveArticle = $state<Article | null>(null);
+
 
 	const today = new Date();
 	const formattedDate = `${today.getDate().toString().padStart(2, '0')}/${(today.getMonth() + 1)
