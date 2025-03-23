@@ -5,7 +5,7 @@ console.log('Edge Function "send-notification" démarrée');
 serve(async (req) => {
   const body = await req.json();
 
-  const { user_id, email, first_name, articles, headers } = body;
+  const { user_id, email, first_name, articles, headers, link } = body;
 
   if (!email || !first_name || !articles || !Array.isArray(articles)) {
     return new Response(
@@ -53,6 +53,7 @@ serve(async (req) => {
                 journal: article.journal || "Inconnu",
                 discipline: article.discipline || "Non spécifié",
               })),
+              link: link,
             },
           },
         ],
@@ -74,10 +75,10 @@ serve(async (req) => {
       { status: 200, headers: { "Content-Type": "application/json" } }
     );
   } catch (error) {
-    console.error("Erreur lors de l’envoi :", error);
+    console.error("Erreur lors de l'envoi :", error);
     return new Response(
       JSON.stringify({
-        error: "Échec de l’envoi",
+        error: "Échec de l'envoi",
         details: error.message,
         status: error.status || 500,
       }),
