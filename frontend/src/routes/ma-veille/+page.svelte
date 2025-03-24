@@ -40,6 +40,7 @@
 	let immersiveArticle = $state<Article | null>(null);
 	let offset = $state(0);
 	let hasMore = $state(true);
+	let isLoading = $state(false);
 
 
 	const today = new Date();
@@ -172,6 +173,10 @@
 		if (selectedFilter != "Tout" && selectedFilter != "Favoris") {
 			offset = 0;
 			hasMore = true;
+			articleOfTheDay = [];
+			filteredRecentArticles = [];
+			isLoading = true;
+
 			fetch(`/api/get_articles_my_veille?specialty=${selectedFilter}&offset=0`)
 				.then((res) => res.json())
 				.then((data) => {
@@ -184,6 +189,9 @@
 				})
 				.catch(error => {
 					console.error("Error fetching articles:", error);
+				})
+				.finally(() => {
+					isLoading = false;
 				});
 		}
 	});
@@ -327,7 +335,11 @@
 			{/if}
 		</div>
 
-		{#if data.error}
+		{#if isLoading}
+			<div class="flex justify-center items-center py-12">
+				<div class="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-teal-500"></div>
+			</div>
+		{:else if data.error}
 			<p class="text-red-500">Erreur : {data.error}</p>
 		{:else}
 			<ul class="space-y-4">

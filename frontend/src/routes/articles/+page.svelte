@@ -22,6 +22,7 @@
 	let articleOfTheDay = $state<Article[]>([]);
 	let offset = $state(0);
 	let hasMore = $state(true);
+	let isLoading = $state(false);
 
 	function formatTitle(title: string) {
 		if (!title) return '';
@@ -126,8 +127,12 @@
 	$effect(() => {
 		if (!selectedDiscipline) return;
 		
+		articles = [];
+		articleOfTheDay = [];
 		offset = 0;
 		hasMore = true;
+		isLoading = true;
+		
 		fetch(`/api/get_articles_my_veille?specialty=${selectedDiscipline}&offset=0`)
 			.then((res) => res.json())
 			.then((data) => {
@@ -139,6 +144,9 @@
 			})
 			.catch((error) => {
 				console.error('Error fetching articles:', error);
+			})
+			.finally(() => {
+				isLoading = false;
 			});
 	});
 </script>
@@ -183,126 +191,132 @@
 			{/if}
 		</div>
 
-		<!-- Article du jour -->
-		<div class="mb-6">
-			{#if articleOfTheDay.length > 0}
-				<h2 class="text-2xl font-bold text-teal-500">🔥 Article du jour</h2>
-				<p class="mt-2 text-gray-400">
-					Article selectionné aujourd'hui pour {selectedDiscipline} :
-				</p>
-				{#each articleOfTheDay as article (article.id)}
-					{#if article}
-						<li
-							on:click={() => openImmersive(article)}
-							class="relative mt-2 cursor-pointer list-none rounded bg-gray-800 p-4 shadow transition-shadow hover:shadow-xl"
-						>
-							<h2 class="text-left text-lg font-bold text-white">
-								{extractTitleEmoji(article.content)}
-								{formatTitle(article.title)}
-							</h2>
-							{#if article.grade}
-								<p class="mt-1 text-sm text-green-400">Grade de recommandation : {article.grade}</p>
-							{/if}
-							<div class="mt-2 flex items-center text-sm text-gray-400">
-								<span class="mr-1">{article.journal || 'Inconnu'}</span>
-							</div>
-							<div class="mt-2 flex items-center text-sm text-gray-400">
-								<svg
-									class="mr-1 h-4 w-4"
-									fill="none"
-									stroke="currentColor"
-									viewBox="0 0 24 24"
-									xmlns="http://www.w3.org/2000/svg"
-								>
-									<path
-										stroke-linecap="round"
-										stroke-linejoin="round"
-										stroke-width="2"
-										d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
-									/>
-								</svg>
-								<span class="mr-1">Date :</span>
-								<span>{formatDate(article.published_at)}</span>
-							</div>
-						</li>
-					{/if}
-				{/each}
-			{/if}
-		</div>
+		{#if isLoading}
+			<div class="flex justify-center items-center py-12">
+				<div class="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-teal-500"></div>
+			</div>
+		{:else}
+			<!-- Article du jour -->
+			<div class="mb-6">
+				{#if articleOfTheDay.length > 0}
+					<h2 class="text-2xl font-bold text-teal-500">🔥 Article du jour</h2>
+					<p class="mt-2 text-gray-400">
+						Article selectionné aujourd'hui pour {selectedDiscipline} :
+					</p>
+					{#each articleOfTheDay as article (article.id)}
+						{#if article}
+							<li
+								on:click={() => openImmersive(article)}
+								class="relative mt-2 cursor-pointer list-none rounded bg-gray-800 p-4 shadow transition-shadow hover:shadow-xl"
+							>
+								<h2 class="text-left text-lg font-bold text-white">
+									{extractTitleEmoji(article.content)}
+									{formatTitle(article.title)}
+								</h2>
+								{#if article.grade}
+									<p class="mt-1 text-sm text-green-400">Grade de recommandation : {article.grade}</p>
+								{/if}
+								<div class="mt-2 flex items-center text-sm text-gray-400">
+									<span class="mr-1">{article.journal || 'Inconnu'}</span>
+								</div>
+								<div class="mt-2 flex items-center text-sm text-gray-400">
+									<svg
+										class="mr-1 h-4 w-4"
+										fill="none"
+										stroke="currentColor"
+										viewBox="0 0 24 24"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											stroke-linecap="round"
+											stroke-linejoin="round"
+											stroke-width="2"
+											d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
+										/>
+									</svg>
+									<span class="mr-1">Date :</span>
+									<span>{formatDate(article.published_at)}</span>
+								</div>
+							</li>
+						{/if}
+					{/each}
+				{/if}
+			</div>
 
-		<!-- Articles précédents -->
-		<div class="mb-6">
+			<!-- Articles précédents -->
+			<div class="mb-6">
+				{#if articles.length > 0}
+					<h2 class="text-2xl font-bold text-teal-500">📖 Articles des jours précédents</h2>
+					<p class="mt-2 text-gray-400">Article pour {selectedDiscipline} :</p>
+					{#each articles as article (article.id)}
+						{#if article}
+							<li
+								on:click={() => openImmersive(article)}
+								class="relative mt-2 cursor-pointer list-none rounded bg-gray-800 p-4 shadow transition-shadow hover:shadow-xl"
+							>
+								<h2 class="text-left text-lg font-bold text-white">
+									{extractTitleEmoji(article.content)}
+									{formatTitle(article.title)}
+								</h2>
+								{#if article.grade}
+									<p class="mt-1 text-sm text-green-400">Grade de recommandation : {article.grade}</p>
+								{/if}
+								<div class="mt-2 flex items-center text-sm text-gray-400">
+									<span class="mr-1">{article.journal || 'Inconnu'}</span>
+								</div>
+								<div class="mt-2 flex items-center text-sm text-gray-400">
+									<svg
+										class="mr-1 h-4 w-4"
+										fill="none"
+										stroke="currentColor"
+										viewBox="0 0 24 24"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											stroke-linecap="round"
+											stroke-linejoin="round"
+											stroke-width="2"
+											d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
+										/>
+									</svg>
+									<span class="mr-1">Date :</span>
+									<span>{formatDate(article.published_at)}</span>
+								</div>
+							</li>
+						{/if}
+					{/each}
+				{/if}
+			</div>
+
+			<!-- Load More Button -->
 			{#if articles.length > 0}
-				<h2 class="text-2xl font-bold text-teal-500">📖 Articles des jours précédents</h2>
-				<p class="mt-2 text-gray-400">Article pour {selectedDiscipline} :</p>
-				{#each articles as article (article.id)}
-					{#if article}
-						<li
-							on:click={() => openImmersive(article)}
-							class="relative mt-2 cursor-pointer list-none rounded bg-gray-800 p-4 shadow transition-shadow hover:shadow-xl"
-						>
-							<h2 class="text-left text-lg font-bold text-white">
-								{extractTitleEmoji(article.content)}
-								{formatTitle(article.title)}
-							</h2>
-							{#if article.grade}
-								<p class="mt-1 text-sm text-green-400">Grade de recommandation : {article.grade}</p>
-							{/if}
-							<div class="mt-2 flex items-center text-sm text-gray-400">
-								<span class="mr-1">{article.journal || 'Inconnu'}</span>
-							</div>
-							<div class="mt-2 flex items-center text-sm text-gray-400">
-								<svg
-									class="mr-1 h-4 w-4"
-									fill="none"
-									stroke="currentColor"
-									viewBox="0 0 24 24"
-									xmlns="http://www.w3.org/2000/svg"
-								>
-									<path
-										stroke-linecap="round"
-										stroke-linejoin="round"
-										stroke-width="2"
-										d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
-									/>
-								</svg>
-								<span class="mr-1">Date :</span>
-								<span>{formatDate(article.published_at)}</span>
-							</div>
-						</li>
-					{/if}
-				{/each}
-			{/if}
-		</div>
-
-		<!-- Load More Button -->
-		{#if articles.length > 0}
-			{#if hasMore}
-				<button
-					on:click={loadMore}
-					class="mt-6 rounded bg-teal-600 px-4 py-2 text-white transition-colors duration-200 hover:bg-teal-700"
-				>
-					Charger plus d'articles
-				</button>
-			{:else}
-				<div class="mt-6 text-center text-gray-400">
-					<span class="inline-flex items-center gap-2 rounded bg-gray-800 px-4 py-2">
-						<svg 
-							class="h-5 w-5" 
-							fill="none" 
-							stroke="currentColor" 
-							viewBox="0 0 24 24"
-						>
-							<path 
-								stroke-linecap="round" 
-								stroke-linejoin="round" 
-								stroke-width="2" 
-								d="M5 13l4 4L19 7"
-							/>
-						</svg>
-						Tous les articles ont été chargés
-					</span>
-				</div>
+				{#if hasMore}
+					<button
+						on:click={loadMore}
+						class="mt-6 rounded bg-teal-600 px-4 py-2 text-white transition-colors duration-200 hover:bg-teal-700"
+					>
+						Charger plus d'articles
+					</button>
+				{:else}
+					<div class="mt-6 text-center text-gray-400">
+						<span class="inline-flex items-center gap-2 rounded bg-gray-800 px-4 py-2">
+							<svg 
+								class="h-5 w-5" 
+								fill="none" 
+								stroke="currentColor" 
+								viewBox="0 0 24 24"
+							>
+								<path 
+									stroke-linecap="round" 
+									stroke-linejoin="round" 
+									stroke-width="2" 
+									d="M5 13l4 4L19 7"
+								/>
+							</svg>
+							Tous les articles ont été chargés
+						</span>
+					</div>
+				{/if}
 			{/if}
 		{/if}
 	</div>
