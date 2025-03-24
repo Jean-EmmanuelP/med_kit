@@ -20,6 +20,8 @@
 	let expandedArticleId = $state<string | null>(null);
 	let immersiveArticle = $state(null);
 	let articleOfTheDay = $state<Article[]>([]);
+	let offset = $state(0);
+	let hasMore = $state(true);
 
 	function formatTitle(title: string) {
 		if (!title) return '';
@@ -101,16 +103,38 @@
 		document.body.classList.remove('overflow-hidden');
 	}
 
-	$effect(() => {
-		if (!selectedDiscipline) return;
-
-		fetch(`/api/get_articles_my_veille?specialty=${selectedDiscipline}`)
+	function loadMore() {
+		if (!selectedDiscipline || !hasMore) return;
+		
+		fetch(`/api/get_articles_my_veille?specialty=${selectedDiscipline}&offset=${offset}`)
 			.then((res) => res.json())
 			.then((data) => {
-				console.log(data.data);
+				if (data && data.data) {
+					if (data.data.length === 0) {
+						hasMore = false;
+						return;
+					}
+					articles = [...articles, ...data.data];
+					offset += data.data.length;
+				}
+			})
+			.catch((error) => {
+				console.error('Error fetching more articles:', error);
+			});
+	}
+
+	$effect(() => {
+		if (!selectedDiscipline) return;
+		
+		offset = 0;
+		hasMore = true;
+		fetch(`/api/get_articles_my_veille?specialty=${selectedDiscipline}&offset=0`)
+			.then((res) => res.json())
+			.then((data) => {
 				if (data && data.data) {
 					articleOfTheDay = [data.data[0]];
 					articles = data.data.slice(1);
+					offset = data.data.length;
 				}
 			})
 			.catch((error) => {
@@ -250,6 +274,37 @@
 				{/each}
 			{/if}
 		</div>
+
+		<!-- Load More Button -->
+		{#if articles.length > 0}
+			{#if hasMore}
+				<button
+					on:click={loadMore}
+					class="mt-6 rounded bg-teal-600 px-4 py-2 text-white transition-colors duration-200 hover:bg-teal-700"
+				>
+					Charger plus d'articles
+				</button>
+			{:else}
+				<div class="mt-6 text-center text-gray-400">
+					<span class="inline-flex items-center gap-2 rounded bg-gray-800 px-4 py-2">
+						<svg 
+							class="h-5 w-5" 
+							fill="none" 
+							stroke="currentColor" 
+							viewBox="0 0 24 24"
+						>
+							<path 
+								stroke-linecap="round" 
+								stroke-linejoin="round" 
+								stroke-width="2" 
+								d="M5 13l4 4L19 7"
+							/>
+						</svg>
+						Tous les articles ont été chargés
+					</span>
+				</div>
+			{/if}
+		{/if}
 	</div>
 
 	<!-- Modal Immersif -->

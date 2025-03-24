@@ -38,6 +38,8 @@
 	let articleOfTheDay = $state<Article[]>([]);
 	let showSignupPrompt = $state(false);
 	let immersiveArticle = $state<Article | null>(null);
+	let offset = $state(0);
+	let hasMore = $state(true);
 
 
 	const today = new Date();
@@ -168,17 +170,16 @@
 
 	$effect(() => {
 		if (selectedFilter != "Tout" && selectedFilter != "Favoris") {
-			fetch(`/api/get_articles_my_veille?specialty=${selectedFilter}`)
+			offset = 0;
+			hasMore = true;
+			fetch(`/api/get_articles_my_veille?specialty=${selectedFilter}&offset=0`)
 				.then((res) => res.json())
 				.then((data) => {
-					console.log(data.data);
 					if (data && data.data) {
-						// Set the first article as article of the day
 						articleOfTheDay = [data.data[0]];
-						console.log(articleOfTheDay)
-						
 						const remainingArticles = data.data.slice(1);
 						filteredRecentArticles = remainingArticles;
+						offset = data.data.length;
 					}
 				})
 				.catch(error => {
@@ -199,6 +200,26 @@
 
 	function handleSignup() {
 		goto('/signup');
+	}
+
+	function loadMore() {
+		if (!selectedFilter || !hasMore) return;
+		
+		fetch(`/api/get_articles_my_veille?specialty=${selectedFilter}&offset=${offset}`)
+			.then((res) => res.json())
+			.then((data) => {
+				if (data && data.data) {
+					if (data.data.length === 0) {
+						hasMore = false;
+						return;
+					}
+					filteredRecentArticles = [...filteredRecentArticles, ...data.data];
+					offset += data.data.length;
+				}
+			})
+			.catch(error => {
+				console.error("Error fetching more articles:", error);
+			});
 	}
 </script>
 
@@ -403,6 +424,35 @@
 					>
 						Faites défiler pour voir les articles précédents
 					</button>
+				{/if}
+			{/if}
+			{#if filteredRecentArticles.length > 0}
+				{#if hasMore}
+					<button
+						on:click={loadMore}
+						class="mt-6 rounded bg-teal-600 px-4 py-2 text-white transition-colors duration-200 hover:bg-teal-700"
+					>
+						Charger plus d'articles
+					</button>
+				{:else}
+					<div class="mt-6 text-center text-gray-400">
+						<span class="inline-flex items-center gap-2 rounded bg-gray-800 px-4 py-2">
+							<svg 
+								class="h-5 w-5" 
+								fill="none" 
+								stroke="currentColor" 
+								viewBox="0 0 24 24"
+							>
+								<path 
+									stroke-linecap="round" 
+									stroke-linejoin="round" 
+									stroke-width="2" 
+									d="M5 13l4 4L19 7"
+								/>
+							</svg>
+							Tous les articles ont été chargés
+						</span>
+					</div>
 				{/if}
 			{/if}
 		{/if}
