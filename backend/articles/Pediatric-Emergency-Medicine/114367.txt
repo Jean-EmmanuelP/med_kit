@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.ajem.2024.09.015.
+
+=== Métadonnées ===
+Enomoto Y, Tsutsumi Y, Kido T, et al.
+Association between helicopter medical services for pediatric trauma patients and mortality: Systematic review and meta-analysis.
+Am J Emerg Med. 2024 Nov;85:196-201. doi: 10.1016/j.ajem.2024.09.015. Epub 2024 Sep 10.
+                    (
+Systematic review
+)
+
+=== Abstract ===
+BACKGROUND
+: Helicopter emergency medical services (HEMS) have become widespread around the world. However, previous studies of the influence of HEMS on mortality were limited to adult patients only and showed inconsistent and heterogeneous results. This study aimed to examine the association between HEMS and mortality among pediatric emergencies compared to ground emergency medical service (GEMS).
+METHODS
+: We searched relevant databases (MEDLINE, EMBASE, The Cochrane Central Register of Controlled Trials) and included articles in any language. The most recent search was on January 4th, 2024. We included prospective observational cohort studies or clinical trials that compared HEMS with GEMS in pediatric patients. We excluded any study that did not compare two or more groups of participants. Two pairs of researchers blindly screened studies and evaluated risk of bias using the Risk of Bias in Nonrandomized Studies of Interventions tool. We conducted this systematic review following the Preferred Reporting Items for Systematic Reviews and Meta-Analyses statement. Data were extracted by four independent reviewers. We calculated the odds ratio using the random-effects model. The primary outcome was mortality.
+RESULTS
+: Our search strategy yielded 1454 results. Of these, seven observational studies met our eligibility criteria; no RCT met the criteria. All studies targeted trauma patients only. HEMS was associated with lower mortality (Odds ratio 0.66, 95 % CI 0.59 to 0.74). Inconsistency between trials was determined to be low due to low heterogeneity (I2 = 0 %). In a subgroup analysis conducted with and without physicians on the HEMS staff, we found no significant differences (I2 = 0 %, p = 0.71).
+CONCLUSION
+: Our systematic review and meta-analysis, which was limited to trauma pediatric trauma patients, revealed that HEMS deployment correlated with decreased mortality. Further research is necessary to more effectively measure the potential influence and applicability of HEMS for pediatric emergencies.

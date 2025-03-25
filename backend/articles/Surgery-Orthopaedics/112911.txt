@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.arth.2024.02.033.
+
+=== Métadonnées ===
+Ailaney N, Barra MF, Schloemann DT, et al.
+Short-Term (6 Months or Less) Pain in Cemented versus Cementless Total Knee Arthroplasty: A Systematic Review and Meta-Analysis.
+J Arthroplasty. 2024 Aug;39(8):2137-2146. doi: 10.1016/j.arth.2024.02.033. Epub 2024 Feb 21.
+                    (
+Systematic review
+)
+
+=== Abstract ===
+BACKGROUND
+: Cementless total knee arthroplasty (TKA) has increased in popularity to potentially improve survivorship. Radiostereometric studies demonstrate increased component migration during the first 3 to 6 months in cementless constructs, generating concern for increased postoperative pain during early osseointegration. The purpose of this study was to evaluate short-term (= 6 months) pain and function in cemented versus cementless TKA. We hypothesized that cementless TKA patients report increased pain during the short-term (= 6 months) postoperative period.
+METHODS
+: The MEDLINE, EMBASE, CINAHL, and Cochrane Libraries were searched for studies evaluating short-term (= 6 months) outcomes of cemented versus cementless primary TKA. Studies involving hybrid fixation were excluded. A meta-analysis was performed using standardized mean difference for primary outcomes (early postoperative pain) and weighted mean difference (WMD) for secondary outcomes (early postoperative function).
+RESULTS
+: There were eleven studies included. There was no significant difference in acute postoperative pain between cemented and cementless TKA within 6 months of index TKA (standardized mean difference 0.08 in favor of cemented TKA; P = .10). Early postoperative forgotten joint scores (WMD 0.81; P = .81) and knee injury and osteoarthritis outcome scores for joint replacement (WMD 0.80 in favor of cemented TKA; P = .14) were also similar between groups.
+CONCLUSIONS
+: There is no difference in short-term (= 6 months) pain or early function between patients receiving cemented and cementless TKA. This suggests that surgeons may utilize cementless TKA without fear of increased pain due to micromotion within 6 months of index arthroplasty. However, additional studies with uniform assessment methods are needed to further inform differences in short-term pain and early functional outcomes between cemented and cementless TKA.

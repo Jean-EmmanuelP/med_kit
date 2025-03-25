@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2402785.
+
+=== Métadonnées ===
+Geraghty LE, Dunne EA, Ni Chathasaigh CM, et al.
+Video versus Direct Laryngoscopy for Urgent Intubation of Newborn Infants.
+N Engl J Med. 2024 May 30;390(20):1885-1894. doi: 10.1056/NEJMoa2402785. Epub 2024 May 5.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: Repeated attempts at endotracheal intubation are associated with increased adverse events in neonates. When clinicians view the airway directly with a laryngoscope, fewer than half of first attempts are successful. The use of a video laryngoscope, which has a camera at the tip of the blade that displays a view of the airway on a screen, has been associated with a greater percentage of successful intubations on the first attempt than the use of direct laryngoscopy in adults and children. The effect of video laryngoscopy among neonates is uncertain.
+METHODS
+: In this single-center trial, we randomly assigned neonates of any gestational age who were undergoing intubation in the delivery room or neonatal intensive care unit (NICU) to the video-laryngoscopy group or the direct-laryngoscopy group. Randomization was stratified according to gestational age (<32 weeks or =32 weeks). The primary outcome was successful intubation on the first attempt, as determined by exhaled carbon dioxide detection.
+RESULTS
+: Data were analyzed for 214 of the 226 neonates who were enrolled in the trial, 63 (29%) of whom were intubated in the delivery room and 151 (71%) in the NICU. Successful intubation on the first attempt occurred in 79 of the 107 patients (74%; 95% confidence interval [CI], 66 to 82) in the video-laryngoscopy group and in 48 of the 107 patients (45%; 95% CI, 35 to 54) in the direct-laryngoscopy group (P<0.001). The median number of attempts to achieve successful intubation was 1 (95% CI, 1 to 1) in the video-laryngoscopy group and 2 (95% CI, 1 to 2) in the direct-laryngoscopy group. The median lowest oxygen saturation during intubation was 74% (95% CI, 65 to 78) in the video-laryngoscopy group and 68% (95% CI, 62 to 74) in the direct-laryngoscopy group; the lowest heart rate was 153 beats per minute (95% CI, 148 to 158) and 148 (95% CI, 140 to 156), respectively.
+CONCLUSIONS
+: Among neonates undergoing urgent endotracheal intubation, video laryngoscopy resulted in a greater number of successful intubations on the first attempt than direct laryngoscopy. (Funded by the National Maternity Hospital Foundation; VODE ClinicalTrials.gov number, NCT04994652.).

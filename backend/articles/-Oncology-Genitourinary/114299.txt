@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.eururo.2024.07.026.
+
+=== Métadonnées ===
+Parker CC, Clarke NW, Cook AD, et al.
+Randomised Trial of No, Short-term, or Long-term Androgen Deprivation Therapy with Postoperative Radiotherapy After Radical Prostatectomy: Results from the Three-way Comparison of RADICALS-HD (NCT00541047).
+Eur Urol. 2024 Nov;86(5):422-430. doi: 10.1016/j.eururo.2024.07.026. Epub 2024 Aug 31.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND AND OBJECTIVE
+: The use and duration of androgen deprivation therapy (ADT) with postoperative radiotherapy (RT) have been uncertain. RADICALS-HD compared adding no ("None"), 6-months ("Short"), or 24-mo ("Long") ADT to study efficacy in the long term.
+METHODS
+: Participants with prostate cancer were indicated for postoperative RT and agreed randomisation between all durations. ADT was allocated for 0, 6, or 24 mo. The primary outcome measure (OM) was metastasis-free survival (MFS). The secondary OMs included freedom from distant metastasis, overall survival, and initiation of nonprotocol ADT. Sample size was determined by two-way comparisons. Analyses followed standard time-to-event approaches and intention-to-treat principles.
+KEY FINDINGS AND LIMITATIONS
+: Between 2007 and 2015, 492 participants were randomised one of three groups: 166 None, 164 Short, and 162 Long. The median age at randomisation was 66 yr; Gleason scores at surgery were as follows: <7 = 64 (13%), 3+4 = 229 (47%), 4+3 = 127 (26%), and 8+ = 72 (15%); T3b was 112 (23%); and T4 was 5 (1%). The median follow-up was 9.0 yr and, with MFS events reported for 89 participants (32 None, 31 Short, and 26 Long), there was no evidence of difference in MFS overall (logrank p = 0.98), and, for Long versus None, hazard ratio = 0.948 (95% confidence interval 0.54-1.68). After 10 yr, 80% None, 77% Short, and 81% Long patients were alive without metastatic disease. The three-way randomisation was not powered to conventional levels for assessment, yet provides a fair comparison.
+CONCLUSIONS AND CLINICAL IMPLICATIONS
+: Long-term outcomes after radical prostatectomy are usually favourable. In those indicated for postoperative RT and considered suitable for no, short-term, or long-term ADT, there was no evidence of improvement with addition of ADT. Future research should focus on patients at a higher risk of metastases in whom improvements are required more urgently.

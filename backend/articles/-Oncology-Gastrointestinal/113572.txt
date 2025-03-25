@@ -1,0 +1,28 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamaoncol.2024.1831.
+
+=== Métadonnées ===
+Fan W, Zhu B, Chen S, et al.
+Survival in Patients With Recurrent Intermediate-Stage Hepatocellular Carcinoma: Sorafenib Plus TACE vs TACE Alone Randomized Clinical Trial.
+JAMA Oncol. 2024 Aug 1;10(8):1047-1054. doi: 10.1001/jamaoncol.2024.1831.
+                    (
+Original study
+)
+
+=== Abstract ===
+IMPORTANCE
+: Transarterial chemoembolization (TACE) is commonly used to treat patients with recurrent intermediate-stage hepatocellular carcinoma (HCC) and positive microvascular invasion (MVI); however, TACE alone has demonstrated unsatisfactory survival benefits. A previous retrospective study suggested that TACE plus sorafenib (SOR-TACE) may be a better therapeutic option compared with TACE alone.
+OBJECTIVE
+: To investigate the clinical outcomes of SOR-TACE vs TACE alone for patients with recurrent intermediate-stage HCC after R0 hepatectomy with positive MVI.
+DESIGN, SETTING, AND PARTICIPANTS
+: In this phase 3, open-label, multicenter randomized clinical trial, patients with recurrent intermediate-stage HCC and positive MVI were randomly assigned in a 1:1 ratio via a computerized minimization technique to either SOR-TACE treatment or TACE alone. This trial was conducted at 5 hospitals in China, and enrolled patients from October 2019 to December 2021, with a follow-up period of 24 months. Data were analyzed from June 2023 to September 2023.
+INTERVENTIONS
+: Randomization to on-demand TACE (conventional TACE: doxorubicin, 50 mg, mixed with lipiodol and gelatin sponge particles [diameter: 150-350 µm]; drug-eluting bead TACE: doxorubicin, 75 mg, mixed with drug-eluting particles [diameter: 100-300 µm or 300-500 µm]) (TACE group) or sorafenib, 400 mg, twice daily plus on-demand TACE (SOR-TACE group) (conventional TACE: doxorubicin, 50 mg, mixed with lipiodol and gelatin sponge particles [diameter, 150-350 µm]; drug-eluting bead TACE: doxorubicin, 75 mg, mixed with drug-eluting particles [diameter: 100-300 µm or 300-500 µm]).
+MAIN OUTCOMES AND MEASURES
+: The primary end point was overall survival by intention-to-treat analysis. Safety was assessed in patients who received at least 1 dose of study treatment.
+RESULTS
+: A total of 162 patients (median [range] age, 55 [28-75] years; 151 males [93.2%]), were randomly assigned to be treated with either SOR-TACE (n = 81) or TACE alone (n = 81). The median overall survival was significantly longer in the SOR-TACE group than in the TACE group (22.2 months vs 15.1 months; hazard ratio [HR], 0.55; P < .001). SOR-TACE also prolonged progression-free survival (16.2 months vs 11.8 months; HR, 0.54; P < .001), and improved the objective response rate when compared with TACE alone based on the modified Response Evaluation Criteria in Solid Tumors criteria (80.2% vs 58.0%; P = .002). Any grade adverse events were more common in the SOR-TACE group, but all adverse events responded well to treatment. No unexpected adverse events or treatment-related deaths occurred in this study.
+CONCLUSIONS AND RELEVANCE
+: The results of this randomized clinical trial demonstrated that SOR-TACE achieved better clinical outcomes than TACE alone. These findings suggest that combined treatment should be used for patients with recurrent intermediate-stage HCC after R0 hepatectomy with positive MVI.
+TRIAL REGISTRATION
+: ClinicalTrials.gov Identifier: NCT04103398.

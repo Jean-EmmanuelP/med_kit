@@ -1,0 +1,28 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamanetworkopen.2024.16786.
+
+=== Métadonnées ===
+Guo L, Xi Y, Jin W, et al.
+A 5:2 Intermittent Fasting Meal Replacement Diet and Glycemic Control for Adults With Diabetes: The EARLY Randomized Clinical Trial.
+JAMA Netw Open. 2024 Jun 3;7(6):e2416786. doi: 10.1001/jamanetworkopen.2024.16786.
+                    (
+Original study
+)
+
+=== Abstract ===
+IMPORTANCE
+: An intermittent fasting plan consisting of 2 nonconsecutive fasting days and 5 days of habitual intake per week and meal replacement diet (5:2 MR) could provide additional benefits to patients with type 2 diabetes.
+OBJECTIVE
+: To evaluate the effect of the 5:2 MR on glycemic control among patients with early type 2 diabetes compared with metformin and empagliflozin.
+DESIGN, SETTING, AND PARTICIPANTS
+: The EARLY (Exploration of Treatment of Newly Diagnosed Overweight/Obese Type 2 Diabetes Mellitus) study is a randomized, open-label, active parallel-controlled clinical trial conducted between November 13, 2020, and December 29, 2022, in 9 centers across China. A total of 509 eligible patients underwent screening, out of which 405 were randomly assigned to 3 groups and included in the intention-to-treat analysis.
+INTERVENTIONS
+: Patients were randomly allocated in a 1:1:1 ratio to receive either metformin, empagliflozin, or 5:2 MR. The treatment was 16 weeks, with an 8-week follow-up.
+MAIN OUTCOMES AND MEASURES
+: The primary end point was the change in hemoglobin A1c (HbA1c) level from baseline to 16 weeks. Secondary end points included changes in body weight, anthropometric measurements, and biochemical parameters.
+RESULTS
+: Of the 405 randomized participants (265 men [65.4%]; mean [SD] age, 45.5 [11.0] years; mean [SD] body mass index, 29.5 [4.1]; and mean [SD] HbA1c level, 7.9% [0.6%]), 332 completed the 16-week treatment. From baseline to week 16, participants in the 5:2 MR group showed the greatest reduction in HbA1c (least-squares mean [LSM], -1.9% [SE, 0.2%]), significantly greater than patients receiving metformin (LSM, -1.6% [SE, 0.2%]; adjusted LSM difference, -0.3% [95% CI, -0.4% to -0.1%]) and empagliflozin (LSM, -1.5% [SE, 0.2%]; adjusted LSM difference, -0.4% [95% CI, -0.6% to -0.2%]). At week 16, the mean weight loss in the 5:2 MR group (LSM, -9.7 kg [SE, 2.2 kg]) was greater than that in the metformin group (LSM, -5.5 kg [SE, 2.3 kg]) and empagliflozin group (LSM, -5.8 kg [SE, 2.3 kg]).
+CONCLUSIONS AND RELEVANCE
+: This randomized clinical trial of Chinese adults with overweight or obesity and with early type 2 diabetes found that 5:2 MR could improve glycemic outcomes and weight loss in the short term compared with metformin or empagliflozin, making it a promising initial intervention and early management for type 2 diabetes.
+TRIAL REGISTRATION
+: Chinese Clinical Trial Registry Identifier: ChiCTR2000040656.

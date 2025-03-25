@@ -1,0 +1,28 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamasurg.2023.5947.
+
+=== Métadonnées ===
+Selanne L, Haijanen J, Sippola S, et al.
+Three-Year Outcomes of Oral Antibiotics vs Intravenous and Oral Antibiotics for Uncomplicated Acute Appendicitis: A Secondary Analysis of the APPAC II Randomized Clinical Trial.
+JAMA Surg. 2024 Jul 1;159(7):727-735. doi: 10.1001/jamasurg.2023.5947.
+                    (
+Original study
+)
+
+=== Abstract ===
+IMPORTANCE
+: Current short-term evidence has shown that uncomplicated acute appendicitis can be treated successfully with oral antibiotics alone, but longer-term results are lacking.
+OBJECTIVE
+: To assess the treatment effectiveness of oral antibiotic monotherapy compared with combined intravenous (IV) and oral antibiotics in computed tomography-confirmed uncomplicated acute appendicitis at a longer-term follow-up.
+DESIGN, SETTING, AND PARTICIPANTS
+: This secondary analysis of a predefined year 3 follow-up of the Appendicitis Acuta II (APPAC II) noninferiority, multicenter randomized clinical trial compared oral moxifloxacin with combined IV ertapenem plus oral levofloxacin and metronidazole for the treatment of uncomplicated acute appendicitis. The trial was conducted at 9 university and central hospitals in Finland from April 2017 to November 2018, with the last follow-up in November 2022. Participants included patients aged 18 to 60 years, who were randomized to receive either oral antibiotics monotherapy (n = 301) or combined IV and oral antibiotics (n = 298).
+INTERVENTIONS
+: Antibiotics monotherapy consisted of oral moxifloxacin, 400 mg/d, for 7 days. Combined IV and oral antibiotics consisted of IV ertapenem sodium, 1 g/d, for 2 days plus oral levofloxacin, 500 mg/d, and metronidazole, 500 mg 3 times/d, for 5 days.
+MAIN OUTCOMES AND MEASURES
+: The primary end point was treatment success, defined as the resolution of acute appendicitis and discharge from hospital without the need for surgical intervention and no appendicitis recurrence at the year 3 follow-up evaluated using a noninferiority design. The secondary end points included late (after 1 year) appendicitis recurrence as well as treatment-related adverse events, quality of life, length of hospital stay, and length of sick leave, which were evaluated using a superiority design.
+RESULTS
+: After exclusions, 599 patients (mean [SD] age, 36 [12] years; 336 males [56.1%]) were randomized; after withdrawal and loss to follow-up, 582 patients (99.8%) were available for the year 3 follow-up. The treatment success at year 3 was 63.4% (1-sided 95% CI, 58.8% to 8) in the oral antibiotic monotherapy group and 65.2% (1-sided 95% CI, 60.5% to 8) in the combined IV and oral antibiotics group. The difference in treatment success rate between the groups at year 3 was -1.8 percentage points (1-sided 95% CI, -8.3 percentage points to 8; P = .14 for noninferiority), with the CI limit exceeding the noninferiority margin. There were no significant differences between groups in treatment-related adverse events, quality of life, length of hospital stay, or length of sick leave.
+CONCLUSIONS AND RELEVANCE
+: This secondary analysis of the APPAC II trial found a slightly higher appendectomy rate in patients who received oral antibiotic monotherapy; however, noninferiority of oral antibiotic monotherapy compared with combined IV and oral antibiotics could not be demonstrated. The results encourage future studies to assess oral antibiotic monotherapy as a viable treatment alternative for uncomplicated acute appendicitis.
+TRIAL REGISTRATION
+: ClinicalTrials.gov Identifier: NCT03236961.

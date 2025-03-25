@@ -1,0 +1,28 @@
+=== Lien PubMed ===
+Lien PubMed non disponible
+
+=== Métadonnées ===
+Ghazaly HF, Hassan IE, Gabr AF, et al.
+Intravenous Versus Peribulbar Dexmedetomidine as an Adjunct to Local Anesthetics in Strabismus Surgery: A Randomized, Double-blinded Clinical Trial.
+Pain Physician. 2024 Nov;27(8):E819-E827.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: Dexmedetomidine has not been adequately studied as an adjuvant to peribulbar anesthesia in strabismus surgery.
+OBJECTIVES
+: We investigated how different routes of dexmedetomidine administration affect the peribulbar block characteristics in adults undergoing strabismus surgery.
+STUDY DESIGN
+: A randomized, double-blind clinical trial. The study was approved by the Institutional Ethics Committee (approval number: 520/3/2021) and registered at ClinicalTrials.gov (NCT05215158).
+SETTING
+: The trial included 46 patients aged 20-60 years with an American Society of Anesthesiologists Physical Status Classification System of  I or II who were scheduled for unilateral strabismus surgery at a university hospital.
+METHODS
+: Patients were randomly assigned to an intravenous dexmedetomidine group (n = 15) who received 50 µg dexmedetomidine in 50 mL normal saline intravenously over 10 minutes, followed by a peribulbar block using a 10 mL mixture of 4 mL lidocaine 2%, 4 mL bupivacaine 0.5%, and 2 mL normal saline containing 150 international units (IU) hyaluronidase. The peribulbar dexmedetomidine group (n = 31) received 50 mL normal saline intravenously over 10 minutes, followed by a peribulbar block using a 10 mL mixture of 4 mL lidocaine 2%, 4 mL bupivacaine 0.5%, 1 mL normal saline with 150 IU hyaluronidase, and 1 mL normal saline containing 50 µg dexmedetomidine. Sensory and motor block onset and duration, analgesia duration, and patient and surgeon satisfaction were evaluated.
+RESULTS
+: Peribulbar dexmedetomidine prolonged the median duration of postoperative analgesia by 3.2 hours. Patients who received peribulbar dexmedetomidine benefitted from a longer time to request postoperative analgesia than those who got intravenous dexmedetomidine (7.17 ± 2.0 hours vs 5.79 ± 2.1 hours; P = 0.048). Motor block duration was longer in the peribulbar group compared to the intravenous group (198.34 ± 17.3 minutes vs 148.93 ± 13.7 minutes; P = 0.001). Patient and surgeon satisfaction was higher in the peribulbar dexmedetomidine group compared to the intravenous dexmedetomidine group (P = 0.048, P = 0.016, respectively). Strabismus surgery duration was shorter in the intravenous dexmedetomidine group than in the peribulbar group (38.01 ± 8.3 minutes vs 55.01 ± 11.9 minutes; P < 0.001).
+LIMITATIONS
+: Our study took place at a single-center with a small sample size limited to adult patients undergoing strabismus surgery. The study was not powered to identify differences in speed of sensory block onset and duration, or speed of motor block onset. However, peribulbar dexmedetomidine prolonged the motor block's duration.
+CONCLUSION
+: Peribulbar dexmedetomidine outperforms intravenous dexmedetomidine in terms of postoperative analgesia and motor block duration when used as an adjunct to peribulbar anesthesia for strabismus surgery. However, the intravenous group had significantly shorter surgical times.

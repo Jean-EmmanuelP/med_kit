@@ -1,0 +1,28 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jama.2024.26886.
+
+=== Métadonnées ===
+Ignatiadis M, Bailey A, McArthur H, et al.
+Adjuvant Atezolizumab for Early Triple-Negative Breast Cancer: The ALEXANDRA/IMpassion030 Randomized Clinical Trial.
+JAMA. 2025 Jan 30. doi: 10.1001/jama.2024.26886.
+                    (
+Original study
+)
+
+=== Abstract ===
+IMPORTANCE
+: Triple-negative breast cancer is an aggressive subtype with a high incidence in young patients, a high incidence in non-Hispanic Black women, and a high risk of progression to metastatic cancer, a devastating sequela with a 12- to 18-month life expectancy. Until recently, one strategy for treating early-stage triple-negative breast cancer was chemotherapy after surgery. However, it was not known whether the addition of immune therapy to postsurgery chemotherapy would be beneficial.
+OBJECTIVE
+: To evaluate the addition of immune therapy in the form of atezolizumab to postoperative chemotherapy in patients with the high-risk triple-negative breast cancer subtype.
+DESIGN, SETTING, AND PARTICIPANTS
+: In this open-label international randomized phase 3 trial conducted in more than 330 centers in 31 countries, patients undergoing surgery as initial treatment for stage II or III triple-negative breast cancer were enrolled between August 2, 2018, and November 11, 2022. The last patient follow-up was on August 18, 2023.
+INTERVENTIONS
+: Patients were randomized (1:1) to receive standard chemotherapy for 20 weeks with (n = 1101) or without (n = 1098) the immune therapy drug atezolizumab for up to 1 year.
+MAIN OUTCOMES AND MEASURES
+: The primary end point was invasive disease-free survival (time between randomization and invasive breast cancer in the same or opposite breast, recurrence elsewhere in the body, or death from any cause).
+RESULTS
+: The median age of enrolled patients was 53 years and most self-reported as being of Asian or White race and neither Latino nor Hispanic ethnicity. The study independent data monitoring committee halted enrollment at 2199 of 2300 planned patients. All patients stopped atezolizumab following a planned early interim and futility analysis. The trial continued to a premature final analysis. With invasive disease-free survival events in 141 patients (12.8%) treated with atezolizumab-chemotherapy and 125 (11.4%) with chemotherapy alone (median follow-up, 32 months), the final stratified invasive disease-free survival hazard ratio was 1.11 (95% CI, 0.87-1.42; P = .38). Compared with chemotherapy alone, the regimen of atezolizumab plus chemotherapy was associated with more treatment-related grade 3 or 4 adverse events (54% vs 44%) but similar incidences of fatal adverse events (0.8% vs 0.6%) and adverse events leading to chemotherapy discontinuation. Chemotherapy exposure was similar in the 2 treatment groups.
+CONCLUSIONS AND RELEVANCE
+: The addition of the immune therapy drug atezolizumab to chemotherapy after surgery did not provide benefit among patients with triple-negative breast cancer who are at high risk of recurrent disease.
+TRIAL REGISTRATION
+: ClinicalTrials.gov Identifier: NCT03498716.

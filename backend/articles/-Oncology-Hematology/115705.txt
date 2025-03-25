@@ -1,0 +1,22 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S1470-2045(24)00682-X.
+
+=== Métadonnées ===
+Wang M, Jurczak W, Trneny M, et al.
+Ibrutinib plus venetoclax in relapsed or refractory mantle cell lymphoma (SYMPATICO): a multicentre, randomised, double-blind, placebo-controlled, phase 3 study.
+Lancet Oncol. 2025 Feb;26(2):200-213. doi: 10.1016/S1470-2045(24)00682-X.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: The combination of ibrutinib and venetoclax leverages complementary mechanisms of action and has shown promising clinical activity in mantle cell lymphoma (MCL). This study evaluated the efficacy and safety of ibrutinib-venetoclax compared with ibrutinib-placebo in patients with relapsed or refractory MCL.
+METHODS
+: SYMPATICO is a multicentre, randomised, double-blind, placebo-controlled, phase 3 study performed at 84 hospitals in Europe, North America, and Asia-Pacific. Eligible patients were adults (aged =18 years) with pathologically confirmed relapsed or refractory MCL after one to five previous lines of therapy and an Eastern Cooperative Oncology Group (ECOG) performance status of 0-2. Patients were randomly assigned (1:1) to receive oral ibrutinib 560 mg once daily concurrently with oral venetoclax (5-week ramp-up to 400 mg once daily) or placebo for 2 years, then single-agent ibrutinib 560 mg once daily until disease progression or unacceptable toxicity. Randomisation and treatment assignment occurred via interactive response technology using a stratified permuted block scheme (block sizes of 2 and 4) with stratification by ECOG performance status, previous lines of therapy, and tumour lysis syndrome risk category. Patients and investigators were masked to treatment assignment. The primary endpoint was investigator-assessed progression-free survival in the intention-to-treat population. Safety was assessed in all patients who received at least one dose of study treatment. This study is registered with ClinicalTrials.gov, NCT03112174, and is closed to enrolment.
+FINDINGS
+: Between April 26, 2018, and Aug 28, 2019, 267 patients were enrolled and randomly assigned; 134 to the ibrutinib-venetoclax group and 133 to the ibrutinib-placebo group. 211 (79%) of 267 patients were male and 56 (21%) were female. With a median follow-up of 51·2 months (IQR 48·2-55·3), median progression-free survival was 31·9 months (95% CI 22·8-47·0) in the ibrutinib-venetoclax group and 22·1 months (16·5-29·5) in the ibrutinib-placebo group (hazard ratio 0·65 [95% CI 0·47-0·88]; p=0·0052). The most common grade 3-4 adverse events were neutropenia (42 [31%] of 134 patients in the ibrutinib-venetoclax group vs 14 [11%] of 132 patients in the ibrutinib-placebo group), thrombocytopenia (17 [13%] vs ten [8%]), and pneumonia (16 [12%] vs 14 [11%]). Serious adverse events occurred in 81 (60%) of 134 patients in the ibrutinib-venetoclax group and in 79 (60%) of 132 patients in the ibrutinib-placebo group. Treatment-related deaths occurred in three (2%) of 134 patients in the ibrutinib-venetoclax group (n=1 COVID-19 infection, n=1 cardiac arrest, and n=1 respiratory failure) and in two (2%) of 132 patients in the ibrutinib-placebo group (n=1 cardiac failure and n=1 COVID-19-related pneumonia).
+INTERPRETATION
+: The combination of ibrutinib-venetoclax significantly improved progression-free survival compared with ibrutinib-placebo in patients with relapsed or refractory MCL. The safety profile was consistent with known safety profiles of the individual drugs. These findings suggest a positive benefit-risk profile for ibrutinib-venetoclax treatment.
+FUNDING
+: Pharmacyclics (an AbbVie Company) and Janssen Research and Development.

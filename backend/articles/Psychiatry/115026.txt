@@ -1,0 +1,28 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1136/bmj-2024-081318.
+
+=== Métadonnées ===
+Zeraatkar D, Ling M, Kirsh S, et al.
+Interventions for the management of long covid (post-covid condition): living systematic review.
+BMJ. 2024 Nov 27;387:e081318. doi: 10.1136/bmj-2024-081318.
+                    (
+Systematic review
+)
+
+=== Abstract ===
+OBJECTIVE
+: To compare the effectiveness of interventions for the management of long covid (post-covid condition).
+DESIGN
+: Living systematic review.
+DATA SOURCES
+: Medline, Embase, CINAHL, PsycInfo, Allied and Complementary Medicine Database, and Cochrane Central Register of Controlled Trials from inception to December 2023.
+ELIGIBILITY CRITERIA
+: Trials that randomised adults (=18 years) with long covid to drug or non-drug interventions, placebo or sham, or usual care.
+RESULTS
+: 24 trials with 3695 patients were eligible. Four trials (n=708 patients) investigated drug interventions, eight (n=985) physical activity or rehabilitation, three (n=314) behavioural, four (n=794) dietary, four (n=309) medical devices and technologies, and one (n=585) a combination of physical exercise and mental health rehabilitation. Moderate certainty evidence suggested that, compared with usual care, an online programme of cognitive behavioural therapy (CBT) probably reduces fatigue (mean difference -8.4, 95% confidence interval (CI) -13.11 to -3.69; Checklist for Individual Strength fatigue subscale; range 8-56, higher scores indicate greater impairment) and probably improves concentration (mean difference -5.2, -7.97 to -2.43; Checklist for Individual Strength concentration problems subscale; range 4-28; higher scores indicate greater impairment). Moderate certainty evidence suggested that, compared with usual care, an online, supervised, combined physical and mental health rehabilitation programme probably leads to improvement in overall health, with an estimated 161 more patients per 1000 (95% CI 61 more to 292 more) experiencing meaningful improvement or recovery, probably reduces symptoms of depression (mean difference -1.50, -2.41 to -0.59; Hospital Anxiety and Depression Scale depression subscale; range 0-21; higher scores indicate greater impairment), and probably improves quality of life (0.04, 95% CI 0.00 to 0.08; Patient-Reported Outcomes Measurement Information System 29+2 Profile; range -0.022-1; higher scores indicate less impairment). Moderate certainty evidence suggested that intermittent aerobic exercise 3-5 times weekly for 4-6 weeks probably improves physical function compared with continuous exercise (mean difference 3.8, 1.12 to 6.48; SF-36 physical component summary score; range 0-100; higher scores indicate less impairment). No compelling evidence was found to support the effectiveness of other interventions, including, among others, vortioxetine, leronlimab, combined probiotics-prebiotics, coenzyme Q10, amygdala and insula retraining, combined L-arginine and vitamin C, inspiratory muscle training, transcranial direct current stimulation, hyperbaric oxygen, a mobile application providing education on long covid.
+CONCLUSION
+: Moderate certainty evidence suggests that CBT and physical and mental health rehabilitation probably improve symptoms of long covid.
+SYSTEMATIC REVIEW REGISTRATION
+: Open Science Framework https://osf.io/9h7zm/.
+READERS' NOTE
+: This article is a living systematic review that will be updated to reflect emerging evidence. Updates may occur for up to two years from the date of original publication.

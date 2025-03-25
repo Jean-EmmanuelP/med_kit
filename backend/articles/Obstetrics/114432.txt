@@ -1,0 +1,18 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1371/journal.pmed.1004461.
+
+=== Métadonnées ===
+Ginnane JF, Aziz S, Sultana S, et al.
+The cost-effectiveness of preventing, diagnosing, and treating postpartum haemorrhage: A systematic review of economic evaluations.
+PLoS Med. 2024 Sep 13;21(9):e1004461. doi: 10.1371/journal.pmed.1004461. eCollection 2024 Sep.
+                    (
+Systematic review
+)
+
+=== Abstract ===
+BACKGROUND
+: Postpartum haemorrhage (PPH) is an obstetric emergency. While PPH-related deaths are relatively rare in high-resource settings, PPH continues to be the leading cause of maternal mortality in limited-resource settings. We undertook a systematic review to identify, assess, and synthesise cost-effectiveness evidence on postpartum interventions to prevent, diagnose, or treat PPH.
+METHODS AND FINDINGS
+: This systematic review was prospectively registered on PROSPERO (CRD42023438424). We searched Medline, Embase, NHS Economic Evaluation Database (NHS EED), EconLit, CINAHL, Emcare, Web of Science, and Global Index Medicus between 22 June 2023 and 11 July 2024 with no date or language limitations. Full economic evaluations of any postpartum intervention for prevention, detection, or management of PPH were eligible. Study screening, data extraction, and quality assessments (using the CHEC-E tool) were undertaken independently by at least 2 reviewers. We developed narrative syntheses of available evidence for each intervention. From 3,993 citations, 56 studies were included: 33 studies of preventative interventions, 1 study assessed a diagnostic method, 17 studies of treatment interventions, 1 study comparing prevention and treatment, and 4 studies assessed care bundles. Twenty-four studies were conducted in high-income countries, 22 in upper or lower middle-income countries, 3 in low-income countries, and 7 studies involved countries of multiple income levels. Study settings, methods, and findings varied considerably. Interventions with the most consistent findings were the use of tranexamic acid for PPH treatment and using care bundles. In both cases, multiple studies predicted these interventions would either result in better health outcomes and cost savings, or better health outcomes at acceptable costs. Limitations for this review include that no ideal setting was chosen, and therefore, a transferability assessment was not undertaken. In addition, some sources of study uncertainty, such as effectiveness parameters, were interrogated to a greater degree than other sources of uncertainty.
+CONCLUSIONS
+: In this systematic review, we extracted, critically appraised, and summarised the cost-effectiveness evidence from 56 studies across 16 different interventions for the prevention, diagnosis, and treatment of PPH. Both the use of tranexamic acid as part of PPH treatment, and the use of comprehensive PPH bundles for prevention, diagnosis, and treatment have supportive cost-effectiveness evidence across a range of settings. More studies utilizing best practice principles are required to make stronger conclusions on which interventions provide the best value. Several high-priority interventions recommended by World Health Organization (WHO) such as administering additional uterotonics, non-pneumatic anti-shock garment, or uterine balloon tamponade (UBT) for PPH management require robust economic evaluations across high-, middle-, and low-resource settings.

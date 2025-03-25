@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO.23.02330.
+
+=== Métadonnées ===
+Garland SN, Tulk J, Savard J, et al.
+Randomized Controlled Trial of Virtually Delivered Cognitive Behavioral Therapy for Insomnia to Address Perceived Cancer-Related Cognitive Impairment in Cancer Survivors.
+J Clin Oncol. 2024 Jun 10;42(17):2094-2104. doi: 10.1200/JCO.23.02330. Epub 2024 Mar 29.
+                    (
+Original study
+)
+
+=== Abstract ===
+PURPOSE
+: Comorbid insomnia and cancer-related cognitive impairment (CRCI) are experienced by up to 26% of individuals diagnosed with cancer. This study examined the efficacy and durability of cognitive behavioral therapy for insomnia (CBT-I) on perceived CRCI in cancer survivors.
+METHODS
+: Atlantic Canadian cancer survivors with insomnia and CRCI were randomly assigned to receive seven weekly virtual CBT-I sessions (n = 63) or placed in a waitlist control group (n = 69) to receive treatment after the waiting period. Participants completed assessments at baseline, 1 month (mid-treatment), and 2 months (post-treatment). Age- and education-adjusted mixed-effects models using intention-to-treat principles assessed change at post-treatment. Data from both groups were then pooled to assess the durability of effects at 3 and 6 months. A mediation analysis examined whether change in insomnia symptoms mediated the effect of CBT-I on cognitive outcomes.
+RESULTS
+: The mean age of the sample was 60 years, 77% were women, and breast cancer was the most common diagnosis (41%). The treatment group reported an 11.35-point reduction in insomnia severity, compared with a 2.67-point reduction in the waitlist control group (P < .001). The treatment group had a greater overall improvement than the waitlist control on perceived cognitive impairment (P < .001; d = 0.75), cognitive abilities (P < .001; d = 0.92), and impact on quality of life (P < .001; d = 1.01). These improvements were maintained at follow-up. Change in insomnia symptoms fully mediated the effect of CBT-I on subjective cognitive outcomes.
+CONCLUSION
+: Treating insomnia with CBT-I produces clinically meaningful and durable improvements in CRCI. There is an urgent need increase access to evidence-based treatment for insomnia in cancer centers and the community.

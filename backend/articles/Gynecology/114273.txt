@@ -1,0 +1,22 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.ajog.2024.05.027.
+
+=== Métadonnées ===
+Welch EK, Dengler KL, DiCarlo-Meacham AM, et al.
+Bladder instillations vs onabotulinumtoxinA injection for interstitial cystitis/bladder pain syndrome: a randomized clinical trial.
+Am J Obstet Gynecol. 2024 Nov;231(5):528.e1-528.e11. doi: 10.1016/j.ajog.2024.05.027. Epub 2024 May 18.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: Interstitial cystitis (IC)/bladder pain syndrome (BPS) is an unpleasant sensation related to the bladder with lower urinary tract symptoms lasting more than 6 weeks, unrelated to an otherwise identifiable cause. The etiology is likely multifactorial including urothelial abnormalities, neurogenic pain upregulation, and potentially bladder and vaginal microbiome alterations. Despite treatment effectiveness of both bladder instillations and intradetrusor onabotulinumtoxinA injection for this condition, a head-to-head comparison has not been performed.
+OBJECTIVE
+: To compare the efficacy of bladder instillations and intradetrusor onabotulinumtoxinA injection for treatment of IC/BPS.
+STUDY DESIGN
+: Patients with O'Leary-Sant (OLS) questionnaire scores of =6, meeting clinical criteria for IC/BPS, and desiring procedural management were randomized to bladder instillations or intradetrusor onabotulinumtoxinA injection. The primary outcome was the difference in OLS scores at 2 months posttreatment between groups. Secondary outcomes included evaluation of sexual function, physical/mental health status, pain, patient satisfaction, treatment perception, retreatment, and adverse event rates.
+RESULTS
+: Forty-seven patients were analyzed with 22 randomized to bladder instillations and 25 to onabotulinumtoxinA injection. There were no differences in demographic and clinical characteristics between groups. From baseline to 2 months posttreatment, there was a decrease in OLS subscales in all patients (Interstitial Cystitis Symptom Index [ICSI] -6.3 (confidence interval [CI] -8.54, -3.95), P<.0001; Interstitial Cystitis Problem Index [ICPI] -5.9 (CI -8.18, -3.57), P<.0001). At 2 months posttreatment, patients in the onabotulinumtoxinA group had significantly lower OLS scores compared to those in the bladder instillation group (ICSI 6.3±4.5 [onabotulinumtoxinA] vs 9.6±4.2 [instillation], P=.008; ICPI 5.9±5.1 [onabotulinumtoxinA] vs 8.3±4.0 [instillation], P=.048). The difference in OLS scores between groups did not persist at 6 to 9 months posttreatment. There were no statistically significant differences between baseline and posttreatment time points for the remaining questionnaires. Eight percent of patients who received onabotulinumtoxinA injection experienced urinary retention requiring self-catheterization. Patients who underwent onabotulinumtoxinA injection were significantly less likely to receive retreatment within 6 to 9 months compared to patients who received bladder instillations (relative risk 13.6; 95% CI, 1.92-96.6; P=.0002). There were no differences between groups regarding patient satisfaction, perception of treatment convenience, or willingness to undergo retreatment.
+CONCLUSION
+: Both onabotulinumtoxinA injection and bladder instillations are safe, effective treatments for patients with IC/BPS, with significant clinical improvement demonstrated at 2 months posttreatment. Our findings suggest that intradetrusor onabotulinumtoxinA injection is a more effective procedural treatment for this condition than bladder instillation therapy and associated with decreased rates of retreatment.

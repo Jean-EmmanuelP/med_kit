@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.arth.2024.05.034.
+
+=== Métadonnées ===
+Sattari SA, Sattari AR, Salib CG, et al.
+Total Knee Arthroplasty With or Without Prior Bariatric Surgery: A Systematic Review and Meta-Analysis.
+J Arthroplasty. 2024 Nov;39(11):2863-2871. doi: 10.1016/j.arth.2024.05.034. Epub 2024 May 17.
+                    (
+Systematic review
+)
+
+=== Abstract ===
+BACKGROUND
+: Studies comparing the outcomes of bariatric surgery followed by total knee arthroplasty (TKA) versus TKA alone in obese patients have disparate results. This systematic review and meta-analysis sought to compare TKA with and without prior bariatric surgery in obese patients.
+METHODS
+: MEDLINE, PubMed, and Embase were searched from inception to April 9, 2023. There were twelve included studies that yielded 2,876,547 patients, of whom 62,818 and 2,813,729 underwent TKA with and without prior bariatric surgery, respectively. Primary outcomes were medical complications (ie, urinary tract infection, pneumonia, renal failure, respiratory failure, venous thromboembolism [VTE], arrhythmia, myocardial infarction, and stroke); surgical complications (ie, wound complications [eg, infection, hematoma, dehiscence, delayed wound healing, and seroma], periprosthetic joint infection, mechanical complications, periprosthetic fracture, knee stiffness, and failed hardware); revision, and mortality. Secondary outcomes were blood transfusion, length of stay (day), and readmission.
+RESULTS
+: The odds ratios (OR) of 90-day VTE (OR = 0.75 [0.66, 0.85], P < .00001), 90-day stroke (OR = 0.58 [0.41, 0.81], P = .002), and 1-year periprosthetic fracture (OR = 0.74 [0.55, 0.99], P = .04) were lower in those who underwent bariatric surgery before TKA. Although the mean difference in hospital stays (-0.19 days [-0.23, -0.15], P < .00001) was statistically less in those who underwent bariatric surgery before TKA, it was not clinically relevant. The other outcomes were similar between the groups.
+CONCLUSIONS
+: Bariatric surgery before TKA is beneficial in terms of a lower risk of VTE, stroke, and periprosthetic fracture. This analysis suggests surgeons consider discussing bariatric surgery before TKA in obese patients, especially those who are at risk of VTE and stroke.

@@ -1,0 +1,26 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1002/14651858.CD014889.pub2.
+
+=== Métadonnées ===
+Korang SK, Hildorf S, Ladefoged MR, et al.
+Preservation of the azygos vein versus ligation of the azygos vein during primary surgical repair of congenital esophageal atresia.
+Cochrane Database Syst Rev. 2025 Jan 10;1(1):CD014889. doi: 10.1002/14651858.CD014889.pub2.
+                    (
+Systematic review
+)
+
+=== Abstract ===
+BACKGROUND
+: Esophageal atresia is one of the most common life-threatening congenital malformations and is defined as an interruption in the continuity of the esophagus with or without fistula to the trachea or bronchi. Definitive treatment is surgical ligation of the fistula if present and esophageal end-to-end anastomosis of the two pouches, thereby reconstructing the continuity of the esophagus. During this procedure, the surgeon may choose to either ligate or preserve the azygos vein, a major draining vein for the esophagus and surrounding structures, but no definitive consensus on the matter exists.
+OBJECTIVES
+: To assess the benefits and harms of preservation of the azygos vein versus ligation of the azygos vein during primary surgical repair of congenital esophageal atresia.
+SEARCH METHODS
+: We identified trials from the Cochrane Gut Specialized Register, Cochrane Central Register of Controlled Trials (CENTRAL) via Ovid Evidence-Based Medicine Reviews Database (EBMR), MEDLINE, Embase, and CINAHL (Cumulative Index to Nursing and Allied Health Literature). We also conducted a search of ClinicalTrials.gov, LILACS, Science Citation Index Expanded and Conference Proceedings Citation Index - Science (Web of Science), and the World Health Organization (WHO) International Clinical Trials Registry Platform (ICTRP). We searched all databases from their inception to 22 May 2024, with no restriction on language of publication.
+SELECTION CRITERIA
+: We included randomized clinical trials (RCTs) assessing preservation of the azygos vein versus ligation of the azygos vein during primary surgical repair of congenital esophageal atresia in infants less than three months of age.
+DATA COLLECTION AND ANALYSIS
+: Pairs of two review authors independently screened titles and abstracts, screened relevant full-text reports, and identified RCTs for inclusion. We recorded the selection process in a PRISMA flow diagram. We assessed the risk of bias of the included studies (using RoB 2) and the certainty of the evidence (using the GRADE approach) according to the Cochrane Handbook for Systematic Reviews of Interventions. We contacted the study authors if data were missing or unclear.
+MAIN RESULTS
+: Six trials met the inclusion criteria, including 390 participants in total. We were able to assess all our primary outcomes: all-cause mortality, serious adverse events, and anastomosis leakage, as well as two of our three secondary outcomes: sepsis or mediastinitis and esophageal stricture. However, none of the six trials assessed recurrent tracheoesophageal fistula. All trials had either some concerns or high risk of bias, and the certainty of the evidence for all outcomes was either low or very low. Meta-analyses showed that preservation of the azygos vein may result in a large reduction in mortality (risk ratio (RR) 0.44, 95% confidence interval (CI) 0.26 to 0.73; low-certainty evidence), serious adverse events (RR 0.33, 95% CI 0.21 to 0.50; very low-certainty evidence), and anastomosis leakage (RR 0.44, 95% CI 0.26 to 0.76; low-certainty evidence) when compared to ligation of the azygos vein in neonates undergoing primary surgical repair of congenital esophageal atresia. Meta-analysis of our secondary outcomes showed that preservation of the azygos vein may result in a large reduction in mediastinitis or sepsis (RR 0.34, 95% CI 0.21 to 0.53; very low-certainty evidence). Esophageal stricture was only reported in two studies with 114 participants. The effects on esophageal stricture were unclear (RR 0.75, 96% CI 0.35 to 1.63; very low-certainty evidence), but the evidence is very uncertain.
+AUTHORS' CONCLUSIONS
+: Current evidence suggests that preserving the azygos vein during primary surgical repair for esophageal atresia may result in large reductions in overall mortality, serious adverse events, anastomosis leakage, and sepsis or mediastinitis. No included data suggested that routine ligation of the azygos vein was beneficial. However, all the evidence was of low to very low certainty. Further research is still warranted as the results of this review may not be applicable to all newborns with congenital esophageal atresia.

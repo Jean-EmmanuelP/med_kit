@@ -1,0 +1,28 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.jphys.2024.06.004.
+
+=== Métadonnées ===
+Nascimento LR, Boening A, Rocha RJ, et al.
+Walking training with auditory cueing improves walking speed more than walking training alone in ambulatory people with Parkinson's disease: a systematic review.
+J Physiother. 2024 Jul;70(3):208-215. doi: 10.1016/j.jphys.2024.06.004. Epub 2024 Jun 18.
+                    (
+Systematic review
+)
+
+=== Abstract ===
+QUESTIONS
+: In people with Parkinson's disease, what is the effect of adding external cueing (ie, visual, auditory or somatosensorial cueing) to walking training compared with walking training alone in terms of walking, mobility, balance, fear of falling and freezing? Are any benefits carried over to participation or maintained beyond the intervention period?
+DESIGN
+: Systematic review of randomised trials with meta-analysis.
+PARTICIPANTS
+: Ambulatory adults with Parkinson's disease.
+INTERVENTION
+: Walking training with external cueing compared with walking training without external cueing.
+OUTCOME MEASURES
+: Walking (ie, speed, stride length and cadence), mobility, balance, fear of falling, freezing and participation.
+RESULTS
+: Ten trials involving a total of 309 participants were included. The mean PEDro score of the included trials was 5 (range 4 to 8). Walking training with auditory cueing improved walking speed by 0.09 m/s (95% CI 0.02 to 0.15) more than walking training alone. Although the best estimate was that auditory cueing may also improve stride length by 5 cm, this estimate was imprecise (95% CI -2 to 11). The addition of visual cueing to walking training did not improve walking speed or stride length. Results regarding cadence, mobility, balance, fear of falling, and freezing and maintenance of benefits beyond the intervention period remain uncertain.
+CONCLUSION
+: This systematic review provided low-quality evidence that walking training with auditory cueing is more effective than walking training alone for improving walking speed in Parkinson's disease. Cueing is an inexpensive and easy to implement intervention, so the mean estimate might be considered clinically worthwhile, although the confidence interval spans clinically trivial and worthwhile effects.
+REGISTRATION
+: PROSPERO CRD42021255065.

@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1093/eurheartj/ehae245.
+
+=== Métadonnées ===
+Kelham M, Vyas R, Ramaseshan R, et al.
+Non-ST-elevation acute coronary syndromes with previous coronary artery bypass grafting: a meta-analysis of invasive vs. conservative management.
+Eur Heart J. 2024 Jul 12;45(27):2380-2391. doi: 10.1093/eurheartj/ehae245.
+                    (
+Systematic review
+)
+
+=== Abstract ===
+BACKGROUND AND AIMS
+: A routine invasive strategy is recommended in the management of higher risk patients with non-ST-elevation acute coronary syndromes (NSTE-ACSs). However, patients with previous coronary artery bypass graft (CABG) surgery were excluded from key trials that informed these guidelines. Thus, the benefit of a routine invasive strategy is less certain in this specific subgroup.
+METHODS
+: A systematic review and meta-analysis of randomized controlled trials (RCTs) was conducted. A comprehensive search was performed of PubMed, EMBASE, Cochrane, and ClinicalTrials.gov. Eligible studies were RCTs of routine invasive vs. a conservative or selective invasive strategy in patients presenting with NSTE-ACS that included patients with previous CABG. Summary data were collected from the authors of each trial if not previously published. Outcomes assessed were all-cause mortality, cardiac mortality, myocardial infarction, and cardiac-related hospitalization. Using a random-effects model, risk ratios (RRs) with 95% confidence intervals (CIs) were calculated.
+RESULTS
+: Summary data were obtained from 11 RCTs, including previously unpublished subgroup outcomes of nine trials, comprising 897 patients with previous CABG (477 routine invasive, 420 conservative/selective invasive) followed up for a weighted mean of 2.0 (range 0.5-10) years. A routine invasive strategy did not reduce all-cause mortality (RR 1.12, 95% CI 0.97-1.29), cardiac mortality (RR 1.05, 95% CI 0.70-1.58), myocardial infarction (RR 0.90, 95% CI 0.65-1.23), or cardiac-related hospitalization (RR 1.05, 95% CI 0.78-1.40).
+CONCLUSIONS
+: This is the first meta-analysis assessing the effect of a routine invasive strategy in patients with prior CABG who present with NSTE-ACS. The results confirm the under-representation of this patient group in RCTs of invasive management in NSTE-ACS and suggest that there is no benefit to a routine invasive strategy compared to a conservative approach with regard to major adverse cardiac events. These findings should be validated in an adequately powered RCT.

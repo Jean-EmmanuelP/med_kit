@@ -1,0 +1,28 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jama.2023.27693.
+
+=== Métadonnées ===
+Colaizy TT, Poindexter BB, McDonald SA, et al.
+Neurodevelopmental Outcomes of Extremely Preterm Infants Fed Donor Milk or Preterm Infant Formula: A Randomized Clinical Trial.
+JAMA. 2024 Feb 20;331(7):582-591. doi: 10.1001/jama.2023.27693.
+                    (
+Original study
+)
+
+=== Abstract ===
+IMPORTANCE
+: Maternal milk feeding of extremely preterm infants during the birth hospitalization has been associated with better neurodevelopmental outcomes compared with preterm formula. For infants receiving no or minimal maternal milk, it is unknown whether donor human milk conveys similar neurodevelopmental advantages vs preterm formula.
+OBJECTIVE
+: To determine if nutrient-fortified, pasteurized donor human milk improves neurodevelopmental outcomes at 22 to 26 months' corrected age compared with preterm infant formula among extremely preterm infants who received minimal maternal milk.
+DESIGN, SETTING, AND PARTICIPANTS
+: Double-blind, randomized clinical trial conducted at 15 US academic medical centers within the Eunice Kennedy Shriver National Institute of Child Health and Human Development Neonatal Research Network. Infants younger than 29 weeks 0 days' gestation or with a birth weight of less than 1000 g were enrolled between September 2012 and March 2019.
+INTERVENTION
+: Preterm formula or donor human milk feeding from randomization to 120 days of age, death, or hospital discharge.
+MAIN OUTCOMES AND MEASURES
+: The primary outcome was the Bayley Scales of Infant and Toddler Development (BSID) cognitive score measured at 22 to 26 months' corrected age; a score of 54 (score range, 54-155; a score of =85 indicates no neurodevelopmental delay) was assigned to infants who died between randomization and 22 to 26 months' corrected age. The 24 secondary outcomes included BSID language and motor scores, in-hospital growth, necrotizing enterocolitis, and death.
+RESULTS
+: Of 1965 eligible infants, 483 were randomized (239 in the donor milk group and 244 in the preterm formula group); the median gestational age was 26 weeks (IQR, 25-27 weeks), the median birth weight was 840 g (IQR, 676-986 g), and 52% were female. The birthing parent's race was self-reported as Black for 52% (247/478), White for 43% (206/478), and other for 5% (25/478). There were 54 infants who died prior to follow-up; 88% (376/429) of survivors were assessed at 22 to 26 months' corrected age. The adjusted mean BSID cognitive score was 80.7 (SD, 17.4) for the donor milk group vs 81.1 (SD, 16.7) for the preterm formula group (adjusted mean difference, -0.77 [95% CI, -3.93 to 2.39], which was not significant); the adjusted mean BSID language and motor scores also did not differ. Mortality (death prior to follow-up) was 13% (29/231) in the donor milk group vs 11% (25/233) in the preterm formula group (adjusted risk difference, -1% [95% CI, -4% to 2%]). Necrotizing enterocolitis occurred in 4.2% of infants (10/239) in the donor milk group vs 9.0% of infants (22/244) in the preterm formula group (adjusted risk difference, -5% [95% CI, -9% to -2%]). Weight gain was slower in the donor milk group (22.3 g/kg/d [95% CI, 21.3 to 23.3 g/kg/d]) compared with the preterm formula group (24.6 g/kg/d [95% CI, 23.6 to 25.6 g/kg/d]).
+CONCLUSIONS AND RELEVANCE
+: Among extremely preterm neonates fed minimal maternal milk, neurodevelopmental outcomes at 22 to 26 months' corrected age did not differ between infants fed donor milk or preterm formula.
+TRIAL REGISTRATION
+: ClinicalTrials.gov Identifier: NCT01534481.

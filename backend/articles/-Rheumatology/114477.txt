@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1136/ard-2024-226286.
+
+=== Métadonnées ===
+van Mulligen E, Bour SS, Goossens LMA, et al.
+Is a 1-year course of methotrexate in patients with arthralgia at-risk for rheumatoid arthritis cost-effective? A cost-effectiveness analysis of the randomised, placebo-controlled TREAT EARLIER trial.
+Ann Rheum Dis. 2024 Sep 18:ard-2024-226286. doi: 10.1136/ard-2024-226286.
+                    (
+Original study
+)
+
+=== Abstract ===
+OBJECTIVES
+: Rheumatoid arthritis (RA) has a considerable disease burden with life-long physical limitations, reduced work productivity and high societal costs. Trials on arthralgia at-risk for RA are therefore conducted, aiming to intercept evolving RA and reduce the disease burden. A 1-year course of methotrexate in patients with clinically suspect arthralgia (CSA) caused sustained improvements in subclinical joint inflammation and physical impairments. Since the cost-effectiveness of treatment in CSA has never been investigated, we investigated whether methotrexate is cost-effective.
+METHODS
+: Cost-effectiveness was assessed using the TREAT EARLIER trial. 236 patients with CSA with subclinical joint inflammation were randomised to 1-year treatment with methotrexate, or placebo, and followed for 2 years. Cost-effectiveness was analysed by computing costs and effects. For costs, both a societal perspective (healthcare-productivity and work-productivity costs) and a healthcare perspective (healthcare costs only) were used. For effects, quality adjusted life years (QALYs) were used.
+RESULTS
+: Treatment increased QALYs by 0.041 (95% CI -0.050 to 0.091), and reduced costs with €-4809 (95% CI -12 382 to 2726) over the course of 2 years using a societal perspective, with a probability of 88.1% that treatment was cost-effective. From a healthcare perspective, the cost-difference between treatment and placebo was estimated at €-418 (95% CI -1198 to 225).
+CONCLUSION
+: A fixed treatment course in individuals with arthralgia at-risk for RA and MRI-detected subclinical joint inflammation resulted in better work productivity, lower healthcare costs and improved quality of life over the course of 2 years; with the largest gain in productivity costs. This is the first evidence that methotrexate treatment aiming at secondary prevention in arthralgia at-risk for RA is cost-effective.

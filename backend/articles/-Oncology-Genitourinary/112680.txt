@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO.23.02105.
+
+=== Métadonnées ===
+Fallah J, Xu J, Weinstock C, et al.
+Efficacy of Poly(ADP-ribose) Polymerase Inhibitors by Individual Genes in Homologous Recombination Repair Gene-Mutated Metastatic Castration-Resistant Prostate Cancer: A US Food and Drug Administration Pooled Analysis.
+J Clin Oncol. 2024 May 10;42(14):1687-1698. doi: 10.1200/JCO.23.02105. Epub 2024 Mar 14.
+                    (
+Original study
+)
+
+=== Abstract ===
+PURPOSE
+: We performed a pooled analysis of multiple trials of poly(ADP-ribose) polymerase inhibitors (PARPi) in metastatic castration-resistant prostate cancer (mCRPC) to investigate the efficacy of PARPi in each individual homologous recombination repair (HRR) mutated (m) gene.
+PATIENTS AND METHODS
+: We pooled patient-level data from trials of PARPi in mCRPC that reported mutation status in individual HRR genes. Any HRR gene with available data across all the randomized trials of PARPi in first-line mCRPC was selected. The hazard ratios (HRs; 95% CI) for radiographic progression-free survival (rPFS; by blinded independent review) and overall survival (OS) of a PARPi plus an androgen receptor pathway inhibitor (ARPI) relative to placebo plus an ARPI in the pool of three randomized trials in first-line mCRPC were calculated using Kaplan-Meier estimates and a Cox proportional hazards model.
+RESULTS
+: In ATMm (N = 268), rPFS HR was 1.05 (0.74 to 1.49) and OS HR was 1.18 (0.82 to 1.71). In BRCA1m (N = 64), rPFS HR was 0.51 (0.23 to 1.1) and OS HR was 0.74 (0.34 to 1.61). In BRCA2m (N = 422), rPFS HR was 0.31 (0.23 to 0.42) and OS HR was 0.66 (0.49 to 0.89). In CDK12m (N = 164), rPFS HR was 0.50 (0.32 to 0.80) and OS HR was 0.63 (0.39 to 0.99). In CHEK2m (N = 172), rPFS HR was 1.06 (0.67 to 1.66) and OS HR was 1.53 (0.95 to 2.46). In PALB2m (N = 41) rPFS HR was 0.52 (0.23 to 1.17) and OS HR was 0.78 (0.34 to 1.8).
+CONCLUSION
+: In this pooled analysis, benefit from PARPi appeared greatest for patients with BRCA1m, BRCA2m, CDK12m, and PALB2m. Given limitations of this exploratory analysis, the apparent lack of benefit from PARPi in patients with CHEK2m or ATMm should be further explored in future clinical trials.

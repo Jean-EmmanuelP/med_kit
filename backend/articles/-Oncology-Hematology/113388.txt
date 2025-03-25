@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2400712.
+
+=== Métadonnées ===
+Facon T, Dimopoulos MA, Leleu XP, et al.
+Isatuximab, Bortezomib, Lenalidomide, and Dexamethasone for Multiple Myeloma.
+N Engl J Med. 2024 Oct 31;391(17):1597-1609. doi: 10.1056/NEJMoa2400712. Epub 2024 Jun 3.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: Bortezomib, lenalidomide, and dexamethasone (VRd) is a preferred first-line treatment option for patients with newly diagnosed multiple myeloma. Whether the addition of the anti-CD38 monoclonal antibody isatuximab to the VRd regimen would reduce the risk of disease progression or death among patients ineligible to undergo transplantation is unclear.
+METHODS
+: In an international, open-label, phase 3 trial, we randomly assigned, in a 3:2 ratio, patients 18 to 80 years of age with newly diagnosed multiple myeloma who were ineligible to undergo transplantation to receive either isatuximab plus VRd or VRd alone. The primary efficacy end point was progression-free survival. Key secondary end points included a complete response or better and minimal residual disease (MRD)-negative status in patients with a complete response.
+RESULTS
+: A total of 446 patients underwent randomization. At a median follow-up of 59.7 months, the estimated progression-free survival at 60 months was 63.2% in the isatuximab-VRd group, as compared with 45.2% in the VRd group (hazard ratio for disease progression or death, 0.60; 98.5% confidence interval, 0.41 to 0.88; P<0.001). The percentage of patients with a complete response or better was significantly higher in the isatuximab-VRd group than in the VRd group (74.7% vs. 64.1%, P = 0.01), as was the percentage of patients with MRD-negative status and a complete response (55.5% vs. 40.9%, P = 0.003). No new safety signals were observed with the isatuximab-VRd regimen. The incidence of serious adverse events during treatment and the incidence of adverse events leading to discontinuation were similar in the two groups.
+CONCLUSIONS
+: Isatuximab-VRd was more effective than VRd as initial therapy in patients 18 to 80 years of age with newly diagnosed multiple myeloma who were ineligible to undergo transplantation. (Funded by Sanofi and a Cancer Center Support Grant; IMROZ ClinicalTrials.gov number, NCT03319667.).

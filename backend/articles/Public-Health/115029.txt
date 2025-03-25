@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2411858.
+
+=== Métadonnées ===
+Kelley CF, Acevedo-Quinones M, Agwu AL, et al.
+Twice-Yearly Lenacapavir for HIV Prevention in Men and Gender-Diverse Persons.
+N Engl J Med. 2024 Nov 27. doi: 10.1056/NEJMoa2411858.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: Twice-yearly subcutaneous lenacapavir has been shown to be efficacious for prevention of HIV infection in cisgender women. The efficacy of lenacapavir for preexposure prophylaxis (PrEP) in cisgender men, transgender women, transgender men, and gender-nonbinary persons is unclear.
+METHODS
+: In this phase 3, double-blind, randomized, active-controlled trial, we randomly assigned participants in a 2:1 ratio to receive subcutaneous lenacapavir every 26 weeks or daily oral emtricitabine-tenofovir disoproxil fumarate (F/TDF). The primary efficacy analysis compared the incidence of HIV infection in the lenacapavir group with the background HIV incidence in the screened population. The secondary efficacy analysis compared the incidence of HIV infection in the lenacapavir group with that in the F/TDF group.
+RESULTS
+: Among 3265 participants who were included in the modified intention-to-treat analysis, HIV infections occurred in 2 participants in the lenacapavir group (0.10 per 100 person-years; 95% confidence interval [CI], 0.01 to 0.37) and in 9 participants in the F/TDF group (0.93 per 100 person-years; 95% CI, 0.43 to 1.77). The background HIV incidence in the screened population (4634 participants) was 2.37 per 100 person-years (95% CI, 1.65 to 3.42). The incidence of HIV infection in the lenacapavir group was significantly lower than both the background incidence (incidence rate ratio, 0.04; 95% CI, 0.01 to 0.18; P<0.001) and the incidence in the F/TDF group (incidence rate ratio, 0.11; 95% CI, 0.02 to 0.51; P = 0.002). No safety concerns were identified. A total of 26 of 2183 participants (1.2%) in the lenacapavir group and 3 of 1088 (0.3%) in the F/TDF group discontinued the trial regimen because of injection-site reactions.
+CONCLUSIONS
+: The HIV incidence with twice-yearly lenacapavir was significantly lower than the background incidence and the incidence with F/TDF. (Funded by Gilead Sciences; PURPOSE 2 ClinicalTrials.gov number, NCT04925752.).

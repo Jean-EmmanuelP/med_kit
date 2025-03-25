@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+Lien PubMed non disponible
+
+=== Métadonnées ===
+Steele DW, Caputo EL, Kanaan G, et al.
+Diagnosis and Management of Obsessive Compulsive Disorders in Children
+AHRQ Publication No. 25-EHC001. Rockville, MD: Agency for Healthcare Research and Quality;  Dec 2024.
+                    (
+Systematic review
+)
+
+=== Abstract ===
+BACKGROUND
+: Obsessive compulsive disorder (OCD) is a common, chronic, and impairing psychiatric disorder that often begins in childhood or adolescence. Early identification and treatment of OCD is important to prevent a cascade of developmental disruptions lasting into adulthood. The 2012 American Academy of Child and Adolescent Psychiatry (AACAP) Practice Parameter recommends cognitive behavioral therapy that incorporates exposure and response prevention (ERP) as a first-line treatment for mild-to-moderate OCD in youth and recommends combined treatment with ERP (if feasible) and a selective serotonin reuptake inhibitor (SSRI) for some patients, particularly those with more severe symptoms. Clinical uncertainty exists regarding the optimal treatment strategies (and treatment combinations) that work best for specific populations and settings. In this report, we seek to evaluate the accuracy of brief assessment tools to identify OCD in symptomatic youth (Key Question [KQ] 1) and the effects and harms of treatment options for youth with OCD (KQ2).
+METHODS
+: We searched Medline®, Cochrane, Embase®, CINAHL®, and ClinicalTrials.gov from inception to May 15, 2024. After double screening, we extracted study data, assessed risk of bias, and conducted network and pairwise meta-analyses. We evaluated the strength of evidence (SoE) using standard methods. The protocol was registered in PROSPERO (registration number CRD42023461212).
+RESULTS
+: We found 117 studies (reported in 161 papers) that met inclusion criteria. Of these, 31 cross-sectional studies pertained to KQ1, diagnosis of OCD. For KQ 2, treatment of OCD, we included 71 randomized controlled trials, 2 nonrandomized comparative studies, and 13 single-arm studies that reported potential treatment effect modifiers. For KQ1, there is insufficient evidence regarding most brief assessment tools. Based on nine studies, the Child Behavior Checklist-Obsessive Compulsive subscale (CBCL-OCS) may have sufficiently high sensitivity and specificity to identify patients for specialist referral and diagnostic evaluation (moderate SoE). For KQ2, meta-analyses indicate that in-person ERP is more effective for OCD symptoms when compared to either waitlist (high SoE) or behavioral control (moderate SoE), and for remission when compared to waitlist (high SOE) or behavioral control (moderate SoE). ERP via telehealth is more effective than waitlist for OCD symptoms (high SoE) and remission (moderate SoE). SSRIs are more effective than placebo for OCD symptoms and global severity (high SoE). Clomipramine is probably more effective than placebo (moderate SoE). When used together, ERP and an SSRI are probably more effective than treatment with an SSRI alone for OCD symptoms (moderate SoE). ERP combined with an SSRI are as effective as ERP alone for OCD symptoms (high SoE). The side effects of SSRIs and clomipramine were inconsistently reported, precluding graded conclusions. Augmentation of ERP with D-cycloserine is as effective as ERP alone to reduce OCD symptoms (high SoE) or global severity (moderate SoE). The evidence was insufficient regarding potential effect modifiers.
+CONCLUSION
+: The diagnosis of OCD relies on expert clinical evaluation, sometimes augmented by semi-structured interviews. The CBCL-OCS may be sufficiently accurate to indicate which youth should be further evaluated for OCD. ERP, delivered in-person or via telehealth, is an effective treatment for OCD in children and adolescents. ERP, alone or in combination with an SSRI, is probably more effective than treatment with an SSRI alone.

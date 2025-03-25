@@ -1,0 +1,28 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamanetworkopen.2024.59331.
+
+=== Métadonnées ===
+Ren L, Zhang T, Zou B, et al.
+Intraoperative Esketamine and Postpartum Depression Among Women With Cesarean Delivery: A Randomized Clinical Trial.
+JAMA Netw Open. 2025 Feb 3;8(2):e2459331. doi: 10.1001/jamanetworkopen.2024.59331.
+                    (
+Original study
+)
+
+=== Abstract ===
+IMPORTANCE
+: Esketamine has been found to reduce the incidence of postpartum depression (PPD) in randomized clinical trials. However, current evidence from randomized clinical trials does not reflect esketamine's efficacy in clinical settings.
+OBJECTIVE
+: To assess the clinical efficacy of intraoperative esketamine administration for preventing PPD among women who underwent cesarean delivery.
+DESIGN, SETTING, AND PARTICIPANTS
+: This randomized clinical trial was conducted at The First Affiliated Hospital of Chongqing Medical University in Chongqing, China, from March 2023 to February 2024. Pregnant patients admitted for cesarean delivery were included, while those with intellectual dysfunction or contraindications to esketamine were excluded. All participants were assigned randomly to either the esketamine group or control group in a 1:1 ratio. Data analysis was based on the intention-to-treat principle.
+INTERVENTIONS
+: Patients in the esketamine group received an infusion of 0.25 mg/kg esketamine in 20 mL of saline over 20 minutes, whereas patients in the control group received 20 mL saline over 20 minutes.
+MAIN OUTCOMES AND MEASURES
+: The primary outcome was the incidence of PPD at 6 weeks post partum. PPD was assessed using the Edinburgh Postnatal Depression Scale.
+RESULTS
+: A total of 308 pregnant women were randomly assigned to 1 of 2 groups: esketamine (n = 154; mean [SD] patient age, 31.57 [4.26] years) and control (n = 154; mean [SD] patient age, 32.53 [7.74] years). Incidence of PPD was significantly lower in the esketamine group compared with the control group at 6 weeks post partum (10.4% [16] vs 19.5% [30]; relative risk, 0.53; 95% CI, 0.30-0.93; P = .02).
+CONCLUSIONS AND RELEVANCE
+: This randomized clinical trial demonstrated esketamine's advantage in reducing the incidence of PPD at 6 weeks post partum in patients who underwent cesarean delivery. The efficacy and safety of esketamine in preventing PPD warrant further investigation in clinical practice.
+TRIAL REGISTRATION
+: Chinese Clinical Trial Registry Identifier: ChiCTR2200065494.

@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.2337/dc24-0764.
+
+=== Métadonnées ===
+Lingvay I, Deanfield J, Kahn SE, et al.
+Semaglutide and Cardiovascular Outcomes by Baseline HbA1c and Change in HbA1c in People With Overweight or Obesity but Without Diabetes in SELECT.
+Diabetes Care. 2024 Aug 1;47(8):1360-1369. doi: 10.2337/dc24-0764.
+                    (
+Original study
+)
+
+=== Abstract ===
+OBJECTIVE
+: To evaluate the cardiovascular effects of semaglutide by baseline glycated hemoglobin (HbA1c) and change in HbA1c in a prespecified analysis of Semaglutide Effects on Cardiovascular Outcomes in People With Overweight or Obesity (SELECT).
+RESEARCH DESIGN AND METHODS
+: In SELECT, people with overweight or obesity and atherosclerotic cardiovascular disease without diabetes were randomized to weekly semaglutide 2.4 mg or placebo. The primary end point of first major adverse cardiovascular event (MACE) (cardiovascular mortality, nonfatal myocardial infarction, or stroke) was reduced by 20% with semaglutide versus placebo. Analysis of outcomes included first MACE, its individual components, expanded MACE (cardiovascular mortality, nonfatal myocardial infarction, or stroke; coronary revascularization; or hospitalization for unstable angina), a heart failure composite (heart failure hospitalization or urgent medical visit or cardiovascular mortality), coronary revascularization, and all-cause mortality by baseline HbA1c subgroup and categories of HbA1c change (<-0.3, -0.3 to 0.3, and >0.3 percentage points) from baseline to 20 weeks using the intention-to-treat principle with Cox proportional hazards.
+RESULTS
+: Among 17,604 participants (mean age 61.6 years, 72.3% male), baseline HbA1c was <5.7% for 33.5%, 5.7% to <6.0% for 34.6%, and 6.0% to <6.5% for 31.9%. Cardiovascular risk reduction with semaglutide versus placebo was not shown to be different across baseline HbA1c groups and was consistent with that of the overall study for all end points, except all-cause mortality. Cardiovascular outcomes were also consistent across subgroups of HbA1c change.
+CONCLUSIONS
+: In people with overweight or obesity and established atherosclerotic cardiovascular disease but not diabetes, semaglutide reduced cardiovascular events irrespective of baseline HbA1c or change in HbA1c. Thus, semaglutide is expected to confer cardiovascular benefits in people with established atherosclerotic cardiovascular disease who are normoglycemic at baseline and/or in those without HbA1c improvements.

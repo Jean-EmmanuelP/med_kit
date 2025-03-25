@@ -1,0 +1,28 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamanetworkopen.2024.43899.
+
+=== Métadonnées ===
+Lee CC, Wang CY, Yen HK, et al.
+Zoledronate Sequential Therapy After Denosumab Discontinuation to Prevent Bone Mineral Density Reduction: A Randomized Clinical Trial.
+JAMA Netw Open. 2024 Nov 4;7(11):e2443899. doi: 10.1001/jamanetworkopen.2024.43899.
+                    (
+Original study
+)
+
+=== Abstract ===
+IMPORTANCE
+: Discontinuation of denosumab without transitioning to another antiresorptive agent results in rapid bone loss and an increased risk of fracture. Previous randomized studies reported inconsistent results regarding the efficacy of zoledronate as sequential therapy.
+OBJECTIVE
+: To investigate the use of sequential therapy with zoledronate to prevent bone loss and decreased bone mineral density (BMD) after denosumab discontinuation in the first year.
+DESIGN, SETTING, AND PARTICIPANTS
+: The Denosumab Sequential Therapy prospective, open-label, parallel-group randomized clinical trial was conducted at a referral center and 2 affiliated hospitals in Taiwan. Recruitment was conducted from April 1, 2019, to May 31, 2021, and a 2-year follow-up was planned. The trial included postmenopausal women and men aged 50 years or older who received regular denosumab treatment for at least 2 years and did not have previous exposure to other antiosteoporosis medication or meet other exclusion criteria.
+INTERVENTION
+: Participants were assigned via stratified randomization to 1 of 2 groups: group A received continuous denosumab treatment (60 mg twice yearly) as the positive control, whereas group ZOL received 1 dose of zoledronate (5 mg) in the first year.
+MAIN OUTCOMES AND MEASURES
+: The coprimary outcomes were BMD percentage changes in the lumbar spine (LS-BMD), total hip (TH-BMD), and femoral neck (FN-BMD), respectively. An intention-to-treat analysis was performed.
+RESULTS
+: This study included 101 patients (95 women [94.1%]; median age, 72.0 [IQR, 67.0-76.0] years). There were 25 patients in group A (23 women [92.0%]; median age, 74.0 [IQR, 70.0 to 78.0] years) and 76 in group ZOL (72 women [94.7%]; median age, 71.0 [IQR, 65.7 to 76.0] years). In the first year, group ZOL had a significant median decrease in LS-BMD (-0.68% [IQR, -3.22% to 2.75%]) compared with group A (1.30% [IQR, -0.68% to 5.24%]) (P = .03). No significant differences between groups A and ZOL were observed for TH-BMD (median, 1.12% [IQR, -0.06% to 2.25%] vs 0% [-1.47% to 2.15%]) (P = .24) and FN-BMD (median, 0.17% [IQR, -2.29% to 2.90%] vs 0.18% [-2.73% to 3.88%]) (P = .71). We observed a significant difference in the median LS-BMD percentage change for the ZOL subgroup with 3 or more years of denosumab treatment before enrollment (-3.20% [IQR, -7.89% to 0.68%]) compared with group A (1.30% [IQR, -0.68% to 5.24%]) (P = .003).
+CONCLUSIONS AND RELEVANCE
+: In this randomized trial of sequential therapy after denosumab discontinuation, bone loss was observed in LS-BMD in the first year among patients receiving zoledronate. A longer duration of denosumab treatment was associated with a further decrease in LS-BMD after zoledronate sequential therapy. Further randomized clinical trials and large-scale studies that investigate the strategies of sequential therapy after long-term denosumab treatment are needed.
+TRIAL REGISTRATION
+: ClinicalTrials.gov Identifier: NCT03868033.

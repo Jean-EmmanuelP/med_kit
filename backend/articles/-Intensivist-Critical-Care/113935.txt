@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1055/a-2359-2563.
+
+=== Métadonnées ===
+Li Y, Zhang L, Wang Y, et al.
+Development and Validation of a Nomogram for Predicting Sepsis-Induced Coagulopathy in Septic Patients: Mixed Retrospective and Prospective Cohort Study.
+Thromb Haemost. 2025 Feb;125(2):108-119. doi: 10.1055/a-2359-2563. Epub 2024 Jul 3.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+:  Sepsis-induced coagulopathy (SIC) is a common cause of poor prognosis in critically ill patients in the intensive care unit (ICU). However, currently there are no tools specifically designed for predicting the occurrence of SIC in septic patients earlier. This study aimed to develop a predictive nomogram incorporating clinical markers and scoring systems to individually predict the probability of SIC in septic patients.
+METHODS
+:  Patients consecutively recruited in the stage between January 2022 and April 2023 constituted the development cohort for retrospective analysis to internally test the nomogram, and patients in the stage between May 2023 to November 2023 constituted the validation cohort for prospective analysis to externally validate the nomogram. Univariate logistic regression analysis of the development cohort was performed firstly, and then multivariate logistic regression analysis was performed using backward stepwise method to determine the best-fitting model and obtain the nomogram from it. The nomogram was validated in an independent external validation cohort, involving discrimination and calibration. A decision curve analysis was also performed to evaluate the net benefit of the insertion decision with this nomogram.
+RESULTS
+:  A total of 548 and 245 patients, 55.1 and 49.4% with SIC occurrence, were included in the development and validation cohorts, respectively. Predictors contained in the prediction nomogram included shock, platelets, and international normalized ratio (INR). Patients with shock (odds ratio [OR]: 4.499; 95% confidence interval [CI]: 2.730-7.414; p < 0.001), higher INR (OR: 349.384; 95% CI: 62.337-1958.221; p < 0.001), and lower platelet (OR: 0.985; 95% CI: 0.982-0.988; p < 0.001) had higher probabilities of SIC. The development model showed good discrimination, with an area under the receiver operating characteristic curve (AUROC) of 0.879 (95% CI: 0.850-0.908) and good calibration. Application of the nomogram in the validation cohort also gave good discrimination with an AUROC of 0.872 (95% CI: 0.826-0.917) and good calibration. The decision curve analysis of the nomogram provided better net benefit than the alternate options (intervention or no intervention).
+CONCLUSION
+:  By incorporating shock, platelets, and INR in the model, this useful nomogram could be accessibly utilized to predict SIC occurrence in septic patients. However, external validation is still required for further generalizability improvement of this nomogram.

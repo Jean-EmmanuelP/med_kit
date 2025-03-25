@@ -1,0 +1,22 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.jacc.2024.04.038.
+
+=== Métadonnées ===
+Schou M, Petrie MC, Borlaug BA, et al.
+Semaglutide and NYHA Functional Class in Obesity-Related Heart Failure With Preserved Ejection Fraction: The STEP-HFpEF Program.
+J Am Coll Cardiol. 2024 Jul 16;84(3):247-257. doi: 10.1016/j.jacc.2024.04.038. Epub 2024 Jun 23.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: In the Semaglutide Treatment Effect in People with obesity and HFpEF (STEP-HFpEF) program, semaglutide improved heart failure (HF)-related symptoms, physical limitations, and exercise function, and reduced bodyweight in patients with obesity-related heart failure with preserved ejection fraction (HFpEF). Whether semaglutide improves functional status, as assessed by NYHA functional class, is unknown.
+OBJECTIVES
+: The goal of this study was to examine the effects of semaglutide on change in NYHA functional class over time. We also investigated the effects of semaglutide on HF-related symptoms, physical limitations, and bodyweight and other trial endpoints across baseline NYHA functional class categories.
+METHODS
+: This was a prespecified analysis of pooled data from 2 international, double-blind, randomized trials (STEP-HFpEF and STEP-HFpEF type 2 diabetes [STEP-HFpEF DM], comprising the STEP-HFpEF program), which collectively randomized 1,145 participants with obesity-related HFpEF to once-weekly semaglutide 2.4 mg or placebo for 52 weeks. The outcome of interest for this analysis was the change in NYHA functional class (baseline to 52 weeks). We also investigated the effects of semaglutide on the dual primary, confirmatory secondary, and selected exploratory endpoints according to baseline NYHA functional class.
+RESULTS
+: More semaglutide-treated than placebo-treated patients had an improvement in NYHA functional class (32.6% vs 21.5%, respectively; OR: 2.20 [95% CI: 1.62-2.99; P < 0.001]) and fewer semaglutide-treated patients experienced deterioration in NYHA functional class (2.09% vs 5.24%, respectively; OR: 0.36 [95% CI: 0.19-0.70; P = 0.003]) at 52 weeks. Semaglutide (vs placebo) improved the Kansas City Cardiomyopathy Questionnaire-Clinical Summary Score (KCCQ-CCS) across NYHA functional class categories; this was especially pronounced in those in NYHA functional classes III/IV (10.5 points [95% CI: 6.6-14.4 points]) vs NYHA functional class II (6.0 points [95% CI: 3.4-8.6 points]) (P interaction = 0.06). By contrast, the degree of reduction in bodyweight was similar with semaglutide vs placebo regardless of baseline NYHA functional class category (NYHA functional class II, -8.4% [95% CI: -9.4% to -7.3%]; NYHA functional classes III/IV, -8.3% [95% CI: -9.9% to -6.8%]; P interaction = 0.96). Semaglutide consistently improved 6-minute walking distance (6MWD), the hierarchical composite endpoint (death, HF events, differences in KCCQ-CSS, and 6MWD changes), and reduced C-reactive protein and N-terminal prohormone of brain natriuretic peptide across NYHA functional class categories (all P interactions = NS).
+CONCLUSIONS
+: In patients with obesity-related HFpEF, fewer semaglutide-treated than placebo-treated patients had a deterioration, and more had an improvement, in NYHA functional class at 52 weeks. Semaglutide consistently improved HF-related symptoms, physical limitations, and exercise function, and reduced bodyweight and biomarkers of inflammation and congestion in all NYHA functional class categories. Semaglutide-mediated improvements in health status were especially large in patients with NYHA functional classes III/IV. (Research Study to Look at How Well Semaglutide Works in People Living With Heart Failure and Obesity; NCT04788511) (Research Study to Look at How Well Semaglutide Works in People Living With Heart Failure, Obesity and Type 2 Diabetes; NCT04916470).

@@ -1,0 +1,13 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.jacc.2024.05.031.
+
+=== Métadonnées ===
+Spadaccio C, Nenna A, Pisani A, et al.
+Sutureless Valves, a "Wireless" Option for Patients With Aortic Valve Disease: JACC State-of-the-Art Review.
+J Am Coll Cardiol. 2024 Jul 23;84(4):382-407. doi: 10.1016/j.jacc.2024.05.031.
+                    (
+Systematic review
+)
+
+=== Abstract ===
+Transcatheter technologies triggered the recent revision of the guidelines that progressively widened the indications for the treatment of aortic stenosis. On the surgical realm, a technology avoiding the need for sutures to anchor the prosthesis to the aortic annulus has been developed with the aim to reduce the duration of cardiopulmonary bypass and simplify the process of valve implantation. In addition to a transcatheter aortic valve replacement (TAVR)-like stent that exerts a radial force, these so-called "rapid deployment valves" or "sutureless valves" for aortic valve replacement also have cuffs to improve sealing and reduce the risk of paravalvular leak. Despite promising, the actual advantage of sutureless valves over traditional surgical procedures (surgical aortic valve replacement) or TAVR is still debated. This review summarizes the current comparative evidence reporting outcomes of "sutureless valves" for aortic valve replacement to TAVR and surgical aortic valve replacement in the treatment of aortic valve stenosis.

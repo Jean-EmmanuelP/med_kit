@@ -1,0 +1,22 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1093/bjs/znae137.
+
+=== Métadonnées ===
+Croghan SM, O'Meara S, Cunnane EM, et al.
+Intrarenal pressure with hand-pump or pressurized-bag irrigation: randomized clinical trial at retrograde intrarenal surgery.
+Br J Surg. 2024 Jun 12;111(6):znae137. doi: 10.1093/bjs/znae137.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: The aim was to ascertain the impact of irrigation technique on human intrarenal pressure during retrograde intrarenal surgery.
+METHODS
+: A parallel randomized trial recruited patients across three hospital sites. Patients undergoing retrograde intrarenal surgery for renal stone treatment with an 11/13-Fr ureteral access sheath were allocated randomly to 100 mmHg pressurized-bag (PB) or manual hand-pump (HP) irrigation. The primary outcome was mean procedural intrarenal pressure. Secondary outcomes included maximum intrarenal pressure, variance, visualization, HP force of usage, procedure duration, stone clearance, and clinical outcomes. Live intrarenal pressure monitoring was performed using a COMETTMII pressure guidewire, deployed cystoscopically to the renal pelvis. The operating team was blinded to the intrarenal pressure.
+RESULTS
+: Thirty-eight patients were randomized between July and November 2023 (trial closure). The final analysis included 34 patients (PB 16; HP 18). Compared with PB irrigation, HP irrigation resulted in significantly higher mean intrarenal pressure (mean(s.d.) 62.29(27.45) versus 38.16(16.84) mmHg; 95% c.i. for difference in means (MD) 7.97 to 40.29 mmHg; P = 0.005) and maximum intrarenal pressure (192.71(106.23) versus 68.04(24.16) mmHg; 95% c.i. for MD 70.76 to 178.59 mmHg; P < 0.001), along with greater variance in intrarenal pressure (log transformed) (6.23(1.59) versus 4.60(1.30); 95% c.i. for MD 0.62 to 2.66; P = 0.001). Surgeon satisfaction with procedural vision reported on a scale of 10 was higher with PB compared with HP irrigation (mean(s.d.) 8.75(0.58) versus 6.28(1.27); 95% c.i. for MD 1.79 to 3.16; P < 0.001). Subjective HP usage force did not correlate significantly with transmitted intrarenal pressure (Pearson R = -0.15, P = 0.57). One patient (HP arm) developed urosepsis.
+CONCLUSION
+: Manual HP irrigation resulted in higher and more fluctuant intrarenal pressure trace (with inferior visual clarity) than 100-mmHg PB irrigation.
+REGISTRATION NUMBER
+: osf.io/jmg2h (https://osf.io/).

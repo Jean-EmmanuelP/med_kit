@@ -1,0 +1,28 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jama.2024.2302.
+
+=== Métadonnées ===
+Blakely ML, Krzyzaniak A, Dassinger MS, et al.
+Effect of Early vs Late Inguinal Hernia Repair on Serious Adverse Event Rates in Preterm Infants: A Randomized Clinical Trial.
+JAMA. 2024 Mar 26;331(12):1035-1044. doi: 10.1001/jama.2024.2302.
+                    (
+Original study
+)
+
+=== Abstract ===
+IMPORTANCE
+: Inguinal hernia repair in preterm infants is common and is associated with considerable morbidity. Whether the inguinal hernia should be repaired prior to or after discharge from the neonatal intensive care unit is controversial.
+OBJECTIVE
+: To evaluate the safety of early vs late surgical repair for preterm infants with an inguinal hernia.
+DESIGN, SETTING, AND PARTICIPANTS
+: A multicenter randomized clinical trial including preterm infants with inguinal hernia diagnosed during initial hospitalization was conducted between September 2013 and April 2021 at 39 US hospitals. Follow-up was completed on January 3, 2023.
+INTERVENTIONS
+: In the early repair strategy, infants underwent inguinal hernia repair before neonatal intensive care unit discharge. In the late repair strategy, hernia repair was planned after discharge from the neonatal intensive care unit and when the infants were older than 55 weeks' postmenstrual age.
+MAIN OUTCOMES AND MEASURES
+: The primary outcome was occurrence of any prespecified serious adverse event during the 10-month observation period (determined by a blinded adjudication committee). The secondary outcomes included the total number of days in the hospital during the 10-month observation period.
+RESULTS
+: Among the 338 randomized infants (172 in the early repair group and 166 in the late repair group), 320 underwent operative repair (86% were male; 2% were Asian, 30% were Black, 16% were Hispanic, 59% were White, and race and ethnicity were unknown in 9% and 4%, respectively; the mean gestational age at birth was 26.6 weeks [SD, 2.8 weeks]; the mean postnatal age at enrollment was 12 weeks [SD, 5 weeks]). Among 308 infants (91%) with complete data (159 in the early repair group and 149 in the late repair group), 44 (28%) in the early repair group vs 27 (18%) in the late repair group had at least 1 serious adverse event (risk difference, -7.9% [95% credible interval, -16.9% to 0%]; 97% bayesian posterior probability of benefit with late repair). The median number of days in the hospital during the 10-month observation period was 19.0 days (IQR, 9.8 to 35.0 days) in the early repair group vs 16.0 days (IQR, 7.0 to 38.0 days) in the late repair group (82% posterior probability of benefit with late repair). In the prespecified subgroup analyses, the probability that late repair reduced the number of infants with at least 1 serious adverse event was higher in infants with a gestational age younger than 28 weeks and in those with bronchopulmonary dysplasia (99% probability of benefit in each subgroup).
+CONCLUSIONS AND RELEVANCE
+: Among preterm infants with inguinal hernia, the late repair strategy resulted in fewer infants having at least 1 serious adverse event. These findings support delaying inguinal hernia repair until after initial discharge from the neonatal intensive care unit.
+TRIAL REGISTRATION
+: ClinicalTrials.gov Identifier: NCT01678638.

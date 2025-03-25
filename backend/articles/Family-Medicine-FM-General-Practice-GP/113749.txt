@@ -1,0 +1,22 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S2213-8587(24)00155-4.
+
+=== Métadonnées ===
+Apperloo EM, Neuen BL, Fletcher RA, et al.
+Efficacy and safety of SGLT2 inhibitors with and without glucagon-like peptide 1 receptor agonists: a SMART-C collaborative meta-analysis of randomised controlled trials.
+Lancet Diabetes Endocrinol. 2024 Aug;12(8):545-557. doi: 10.1016/S2213-8587(24)00155-4. Epub 2024 Jul 8.
+                    (
+Systematic review
+)
+
+=== Abstract ===
+BACKGROUND
+: SGLT2 inhibitors and GLP-1 receptor agonists both improve cardiovascular and kidney outcomes in patients with type 2 diabetes. We sought to evaluate whether the benefits of SGLT2 inhibitors are consistent in patients receiving and not receiving GLP-1 receptor agonists.
+METHODS
+: We conducted a collaborative meta-analysis of trials included in the SGLT2 Inhibitor Meta-Analysis Cardio-Renal Trialists' Consortium, restricted to participants with diabetes. Treatment effects from individual trials were obtained from Cox regression models and pooled using inverse variance weighted meta-analysis. The two main cardiovascular outcomes assessed included major adverse cardiovascular events (nonfatal myocardial infarction, nonfatal stroke, or cardiovascular death), and hospitalisation for heart failure or cardiovascular death. The main kidney outcomes assessed were chronic kidney disease progression (=40% decline in estimated glomerular filtration rate [eGFR], kidney failure [eGFR <15 mL/min/1·73 m2, chronic dialysis, or kidney transplantation], or death due to kidney failure), and the rate of change in eGFR over time. Safety outcomes were also assessed.
+FINDINGS
+: Across 12 randomised, double-blind, placebo-controlled trials, 3065 (4·2%) of 73 238 participants with diabetes were using GLP-1 receptor agonists at baseline. SGLT2 inhibitors reduced the risk of major adverse cardiovascular events in participants both receiving and not receiving GLP-1 receptor agonists (hazard ratio [HR] 0·81, 95% CI 0·63-1·03 vs 0·90, 0·86-0·94; p-heterogeneity=0·31). Effects on hospitalisation for heart failure or cardiovascular death (0·76, 0·57-1·01 vs 0·78, 0·74-0·82; p-heterogeneity=0·90) and chronic kidney disease progression (0·65, 0·46-0·94 vs 0·67, 0·62-0·72; p-heterogeneity=0·81) were also consistent regardless of GLP-1 receptor agonist use, as was the effect on the chronic rate of change in eGFR over time (heterogeneity=0·92). Fewer serious adverse events occurred with SGLT2 inhibitors compared with placebo, irrespective of GLP-1 receptor agonist use (relative risk 0·87, 95% CI 0·79-0·96 vs 0·91, 0·89-0·93; p-heterogeneity=0·41).
+INTERPRETATION
+: The effects of SGLT2 inhibitors on cardiovascular and kidney outcomes are consistent regardless of the background use of GLP-1 receptor agonists. These findings suggest independent effects of these evidence-based therapies and support clinical practice guidelines recommending the use of these agents in combination to improve cardiovascular and kidney metabolic outcomes.
+FUNDING
+: National Health and Medical Research Council of Australia and the Ramaciotti Foundation.

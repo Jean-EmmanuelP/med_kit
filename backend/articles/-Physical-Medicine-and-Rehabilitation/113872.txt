@@ -1,0 +1,28 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamanetworkopen.2024.22625.
+
+=== Métadonnées ===
+Choi JY, Kim SK, Hong J, et al.
+Overground Gait Training With a Wearable Robot in Children With Cerebral Palsy: A Randomized Clinical Trial.
+JAMA Netw Open. 2024 Jul 1;7(7):e2422625. doi: 10.1001/jamanetworkopen.2024.22625.
+                    (
+Original study
+)
+
+=== Abstract ===
+IMPORTANCE
+: Cerebral palsy (CP) is the most common developmental motor disorder in children. Robot-assisted gait training (RAGT) using a wearable robot can provide intensive overground walking experience.
+OBJECTIVE
+: To investigate the effectiveness of overground RAGT in children with CP using an untethered, torque-assisted, wearable exoskeletal robot.
+DESIGN, SETTING, AND PARTICIPANTS
+: This multicenter, single-blind randomized clinical trial was conducted from September 1, 2021, to March 31, 2023, at 5 rehabilitation institutions in Korea. Ninety children with CP in Gross Motor Function Classification System levels II to IV were randomized.
+INTERVENTION
+: The RAGT group underwent 18 sessions of RAGT during 6 weeks, whereas the control group received standard physical therapy for the same number of sessions during the same period.
+MAIN OUTCOME AND MEASURES
+: The primary outcome measure was the Gross Motor Function Measure 88 (GMFM-88) score. Secondary outcome measures were the GMFM-66, Pediatric Balance Scale, selective control assessment of the lower extremity, Pediatric Evaluation of Disability Inventory-Computer Adaptive Test (PEDI-CAT), 6-minute walking test scores (distance and oxygen consumption), muscle and fat mass via bioelectrical impedance analysis, and gait parameters measured via 3-dimensional analysis. All assessments were performed for all patients at baseline, at the end of the 6-week intervention, and after the 4-week follow-up.
+RESULTS
+: Of the 90 children (mean [SD] age, 9.51 [2.48] years; 49 [54.4%] male and 41 [45.6%] female) in the study, 78 (86.7%) completed the intervention, with 37 participants (mean [SD] age, 9.57 [2.38] years; 19 [51.4%] male) and 41 participants (mean [SD] age, 9.32 [2.37] years; 26 [63.4%] male) randomly assigned to the RAGT and control groups, respectively. Changes in the RAGT group significantly exceeded changes in the control group in GMFM-88 total (mean difference, 2.64; 95% CI, 0.50-4.78), GMFM-E (mean difference, 2.70; 95% CI, 0.08-5.33), GMFM-66 (mean difference, 1.31; 95% CI, 0.01-2.60), and PEDI-CAT responsibility domain scores (mean difference, 2.52; 95% CI, 0.42-4.63), indicating independence in daily living at postintervention assessment. At the 4-week follow-up, the RAGT group showed significantly greater improvements in balance control (mean difference, 1.48; 95% CI, 0.03-2.94) and Gait Deviation Index (mean difference, 6.48; 95% CI, 2.77-10.19) compared with the control group.
+CONCLUSIONS AND RELEVANCE
+: In this randomized clinical trial, overground RAGT using a wearable robot significantly improved gross motor function and gait pattern. This new torque-assisted wearable exoskeletal robot, based on assist-as-needed control, may complement standard rehabilitation by providing adequate assistance and therapeutic support to children with CP.
+TRIAL REGISTRATION
+: CRIS Identifier: KCT0006273.

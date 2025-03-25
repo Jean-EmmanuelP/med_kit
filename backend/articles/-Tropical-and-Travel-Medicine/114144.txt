@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.annemergmed.2024.06.023.
+
+=== Métadonnées ===
+Wedasingha S, Silva A, Fakes K, et al.
+Utility of Three Serum Biomarkers for Early Detection of Systemic Envenoming Following Viper Bites in Sri Lanka.
+Ann Emerg Med. 2024 Dec;84(6):619-627. doi: 10.1016/j.annemergmed.2024.06.023. Epub 2024 Aug 9.
+                    (
+Original study
+)
+
+=== Abstract ===
+STUDY OBJECTIVE
+: Early detection of systemic envenoming is critical for early antivenom therapy to minimize morbidity and mortality from snakebite. We assessed the diagnostic utility of 3 serum biomarkers in the early detection of systemic envenoming in viper bites in rural Sri Lanka.
+METHODS
+: All confirmed snakebite patients admitted to Teaching Hospital Anuradhapura from July 2020 to June 2021 were included. On admission, blood was collected for venom concentrations, prothrombin time/international normalized ratio, fibrinogen concentration, serum creatinine concentration, and 3 serum biomarkers, namely secretory phospholipase A2 (sPLA2) activity, neutrophil gelatinase-associated lipocalin (sNGAL) concentration, and clusterin (sClu) concentration. Systemic envenoming was defined by the presence of venom-induced consumption coagulopathy, neurotoxicity, acute kidney injury, or the presence of nonspecific clinical effects.
+RESULTS
+: A total of 237 confirmed snakebite patients (Russell's viper, 72; hump-nosed viper, 80; nonvenomous snakes, 31; and unidentified bites, 54) with sufficient preantivenom serum samples were recruited [median age: 42 years (interquartile range [IQR] 29 to 53 years); 173 men (73%)]. Systemic envenoming occurred in 68 (94%) Russell's viper bites, 48 (60%) hump-nosed viper bites, and 45 (83%) unidentified bites. The median sPLA2 activity was 72 nmol/mL/min (IQR 30 to 164) for Russell's viper envenoming, 12 nmol/mL/min (IQR 9 to 16) for hump-nosed viper envenoming, and 11 nmol/mL/min (IQR 9 to 14) for nonvenomous bites. There was no difference in sNGAL and sCLu concentrations among the 3 groups. The median sPLA2 activity of patients with systemic envenoming was 16 nmol/min/mL (IQR 11 to 59) compared to 11 nmol/min/mL (IQR 9 to 14) in patients without systemic envenoming; the difference between medians was 5 nmol/min/mL (95% confidence interval [CI] 4 to 12). The area under the receiver operator characteristic curve (AUC-ROC) of admission sPLA2 activity was the best predictor of systemic envenoming in all snakebites (AUC-ROC 0.72, 95% CI 0.66 to 0.79), whereas sNGAL and sClu concentrations were poor predictors. sPLA2 activity was a better predictor of systemic envenoming in Russell's viper bites (AUC-ROC 0.90, 95% CI 0.76 to 1.00) and in those presenting within 2 hours of a bite. A sPLA2 activity more than 23.5 nmol/min/mL had a sensitivity of 41% (95% CI 34% to 49%), and a specificity of 97% (95% CI 91% to 99.5%) in predicting systemic envenoming. A sPLA2 activity of more than 46 nmol/min/mL on admission had a sensitivity of 67% (95% CI 55% to 77%) and a specificity of 100% (95% CI 51% to 100%) in predicting systemic envenoming in Russell's viper bites.
+CONCLUSIONS
+: sPLA2 activity is an early predictor of systemic envenoming following snakebite, particularly in Russell's viper bites and in those who present early.

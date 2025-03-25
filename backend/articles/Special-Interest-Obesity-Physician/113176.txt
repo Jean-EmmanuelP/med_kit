@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1111/dom.15620.
+
+=== Métadonnées ===
+Rubino D, Bjorner JB, Rathor N, et al.
+Effect of semaglutide 2.4 mg on physical functioning and weight- and health-related quality of life in adults with overweight or obesity: Patient-reported outcomes from the STEP 1-4 trials.
+Diabetes Obes Metab. 2024 Jul;26(7):2945-2955. doi: 10.1111/dom.15620. Epub 2024 May 2.
+                    (
+Original study
+)
+
+=== Abstract ===
+AIMS
+: To summarize the effects of semaglutide 2.4 mg on weight-related quality of life (WRQOL) and health-related quality of life (HRQOL), focusing on the confirmatory secondary endpoint of physical functioning.
+MATERIALS AND METHODS
+: The STEP 1-4 Phase 3a, 68-week, double-blind, randomized controlled trials assessed the efficacy and safety of semaglutide 2.4 mg versus placebo in individuals with overweight/obesity. WRQOL and HRQOL were assessed by change from baseline to Week 68 in two different but complementary measures, the Impact of Weight on Quality of Life-Lite Clinical Trials Version (IWQOL-Lite-CT; STEP 1 and 2) and the SF-36v2 Health Survey Acute (SF-36v2; STEP 1-4).
+RESULTS
+: Superiority for semaglutide 2.4 mg over placebo based on IWQOL-Lite-CT and SF-36v2 physical functioning scores was confirmed in STEP 1 and 2 and in STEP 1, 2 and 4, respectively. At Week 68, a greater proportion of participants treated with semaglutide 2.4 mg than with placebo reached meaningful within-person change (MWPC) thresholds for IWQOL-Lite-CT Physical Function scores in STEP 1 (51.8% vs. 28.3%; p < 0.0001) and STEP 2 (39.6% vs. 29.5%; p = 0.0083) and the MWPC threshold for SF-36v2 Physical Functioning in STEP 1 (39.8% vs. 24.1%; p < 0.0001), STEP 2 (41.0% vs. 27.3%; p = 0.0005) and STEP 4 (18.0% vs. 6.6%; p < 0.0001). All other IWQOL-Lite-CT and SF-36v2 scale scores in STEP 1-4 were numerically improved with semaglutide 2.4 mg versus placebo, except for SF-36v2 Role Emotional in STEP 2.
+CONCLUSIONS
+: Semaglutide 2.4 mg significantly improved physical functioning, with greater proportions of participants achieving MWPC compared with placebo, and showed beneficial effects on WRQOL and HRQOL beyond physical functioning.

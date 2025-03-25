@@ -1,0 +1,28 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamanetworkopen.2024.52963.
+
+=== Métadonnées ===
+Coelho DRA, Yang C, Suriaga A, et al.
+Glutamatergic Medications for Obsessive-Compulsive and Related Disorders: A Systematic Review and Meta-Analysis.
+JAMA Netw Open. 2025 Jan 2;8(1):e2452963. doi: 10.1001/jamanetworkopen.2024.52963.
+                    (
+Systematic review
+)
+
+=== Abstract ===
+IMPORTANCE
+: Obsessive-compulsive and related disorders (OCRDs) encompass various neuropsychiatric conditions that cause significant distress and impair daily functioning. Although standard treatments are often effective, approximately 60% of patients may not respond adequately, underscoring the need for novel therapeutic approaches.
+OBJECTIVE
+: To evaluate improvement in OCRD symptoms associated with glutamatergic medications as monotherapy or as augmentation to selective serotonin reuptake inhibitors, with a focus on double-blind, placebo-controlled randomized clinical trials (RCTs).
+DATA SOURCES
+: Electronic searches were conducted in PubMed, Embase, PsycINFO, Web of Science, and Cochrane Central Register of Controlled Trials on October 16, 2024, without date limits.
+STUDY SELECTION
+: Two investigators independently screened records to identify double-blind RCTs comparing glutamatergic medications with placebo for patients with OCRDs regardless of age, sex, gender, or refractoriness. Abstracts, study protocols, non-English studies, and trials involving augmentation to psychotherapy were excluded.
+DATA EXTRACTION AND SYNTHESIS
+: Data were extracted and synthesized using random-effects meta-analyses. Subgroup analysis was conducted based on type of OCRD, population, refractoriness of OCRD, augmentation strategy, risk of bias, and type of glutamatergic medication. Sensitivity analysis was performed using a leave-one-out approach.
+MAIN OUTCOMES AND MEASURES
+: Improvement in OCRD symptoms was measured by standardized mean difference (Cohen d). Improvement in obsessive-compulsive disorder (OCD) symptoms was measured by mean difference (reduction in Yale-Brown Obsessive Compulsive Scale [Y-BOCS] scores).
+RESULTS
+: A total of 27 RCTs (1369 participants; mean [SD] age, 31.5 [7.8] years; 65.6% female) were included. Glutamatergic medications showed a large effect size in improving OCRD symptoms (Cohen d = -0.80 [95% CI, -1.13 to -0.47]; low certainty of evidence). In the 23 OCD-specific RCTs, glutamatergic medications demonstrated a significant mean reduction in Y-BOCS scores (mean difference, -4.17 [95% CI, -5.82 to -2.52]; moderate certainty of evidence).
+CONCLUSIONS AND RELEVANCE
+: These findings indicate that glutamatergic medications may be effective in treating OCRDs, particularly OCD. However, high heterogeneity and potential publication bias necessitate cautious interpretation. Further research with larger sample sizes is needed to explore dose-dependent effects, additional OCRD subtypes, and other promising glutamatergic medications.

@@ -1,0 +1,28 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamapsychiatry.2024.3908.
+
+=== Métadonnées ===
+Hoppen TH, Wessarges L, Jehn M, et al.
+Psychological Interventions for Pediatric Posttraumatic Stress Disorder: A Systematic Review and Network Meta-Analysis.
+JAMA Psychiatry. 2025 Feb 1;82(2):130-141. doi: 10.1001/jamapsychiatry.2024.3908.
+                    (
+Systematic review
+)
+
+=== Abstract ===
+IMPORTANCE
+: Pediatric posttraumatic stress disorder (PTSD) is a common and debilitating mental disorder, yet a comprehensive network meta-analysis examining psychological interventions is lacking.
+OBJECTIVE
+: To synthesize all available evidence on psychological interventions for pediatric PTSD in a comprehensive systematic review and network meta-analysis.
+DATA SOURCES
+: PsycINFO, MEDLINE, Web of Science, and PTSDpubs were searched from inception to January 2, 2024, and 74 related systematic reviews were screened.
+STUDY SELECTION
+: Two independent raters screened publications for eligibility. Inclusion criteria were randomized clinical trial (RCT) with at least 10 patients per arm examining a psychological intervention for pediatric PTSD compared to a control group in children and adolescents (19 years and younger) with full or subthreshold PTSD.
+DATA EXTRACTION AND SYNTHESIS
+: PRISMA guidelines were followed to synthesize and present evidence. Two independent raters extracted data and assessed risk of bias with Cochrane criteria. Random-effects network meta-analyses were run.
+MAIN OUTCOME AND MEASURES
+: Standardized mean differences (Hedges g) in PTSD severity.
+RESULTS
+: In total, 70 RCTs (N = 5528 patients) were included. Most RCTs (n = 52 [74%]) examined trauma-focused cognitive behavior therapies (TF-CBTs). At treatment end point, TF-CBTs (g, 1.06; 95% CI, 0.86-1.26; P < .001), eye movement desensitization and reprocessing (EMDR; g, 0.86; 95% CI, 0.54-1.18; P < .001), multidisciplinary treatments (MDTs) (g, 0.88; 95% CI, 0.53-1.23; P < .001), and non-trauma-focused interventions (g, 0.95; 95% CI, 0.62-1.28; P < .001) were all associated with significantly larger reductions in pediatric PTSD than passive control conditions. TF-CBTs were associated with the largest short-term reductions in pediatric PTSD relative to both passive and active control conditions and across all sensitivity analyses. In a sensitivity analysis including only trials with parent involvement, TF-CBTs were associated with significantly larger reductions in pediatric PTSD than non-trauma-focused interventions (g, 0.35; 95% CI, 0.04-0.66; P = .03). Results for midterm (up to 5 months posttreatment) and long-term data (6-24 months posttreatment) were similar.
+CONCLUSIONS AND RELEVANCE
+: Results from this systematic review and network meta-analysis indicate that TF-CBTs were associated with significant reductions in pediatric PTSD in the short, mid, and long term. More long-term data are needed for EMDR, MDTs, and non-trauma-focused interventions. Results of TF-CBTs are encouraging, and disseminating these results may help reduce common treatment barriers by counteracting common misconceptions, such as the notion that TF-CBTs are harmful rather than helpful.

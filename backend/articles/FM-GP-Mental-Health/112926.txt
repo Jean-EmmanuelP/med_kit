@@ -1,0 +1,26 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1002/14651858.CD013508.pub3.
+
+=== Métadonnées ===
+Ski CF, Taylor RS, McGuigan K, et al.
+Psychological interventions for depression and anxiety in patients with coronary heart disease, heart failure or atrial fibrillation.
+Cochrane Database Syst Rev. 2024 Apr 5;4(4):CD013508. doi: 10.1002/14651858.CD013508.pub3.
+                    (
+Systematic review
+)
+
+=== Abstract ===
+BACKGROUND
+: Depression and anxiety occur frequently (with reported prevalence rates of around 40%) in individuals with coronary heart disease (CHD), heart failure (HF) or atrial fibrillation (AF) and are associated with a poor prognosis, such as decreased health-related quality of life (HRQoL), and increased morbidity and mortality. Psychological interventions are developed and delivered by psychologists or specifically trained healthcare workers and commonly include cognitive behavioural therapies and mindfulness-based stress reduction. They have been shown to reduce depression and anxiety in the general population, though the exact mechanism of action is not well understood. Further, their effects on psychological and clinical outcomes in patients with CHD, HF or AF are unclear.
+OBJECTIVES
+: To assess the effects of psychological interventions (alone, or with cardiac rehabilitation or pharmacotherapy, or both) in adults who have a diagnosis of CHD, HF or AF, compared to no psychological intervention, on psychological and clinical outcomes.
+SEARCH METHODS
+: We searched the CENTRAL, MEDLINE, Embase, PsycINFO and CINAHL databases from 2009 to July 2022. We also searched three clinical trials registers in September 2020, and checked the reference lists of included studies. No language restrictions were applied.
+SELECTION CRITERIA
+: We included randomised controlled trials (RCTs) comparing psychological interventions with no psychological intervention for a minimum of six months follow-up in adults aged over 18 years with a clinical diagnosis of CHD, HF or AF, with or without depression or anxiety. Studies had to report on either depression or anxiety or both.
+DATA COLLECTION AND ANALYSIS
+: We used standard Cochrane methods. Our primary outcomes were depression and anxiety, and our secondary outcomes of interest were HRQoL mental and physical components, all-cause mortality and major adverse cardiovascular events (MACE). We used GRADE to assess the certainty of evidence for each outcome.
+MAIN RESULTS
+: Twenty-one studies (2591 participants) met our inclusion criteria. Sixteen studies included people with CHD, five with HF and none with AF. Study sample sizes ranged from 29 to 430. Twenty and 17 studies reported the primary outcomes of depression and anxiety, respectively. Despite the high heterogeneity and variation, we decided to pool the studies using a random-effects model, recognising that the model does not eliminate heterogeneity and findings should be interpreted cautiously. We found that psychological interventions probably have a moderate effect on reducing depression (standardised mean difference (SMD) -0.36, 95% confidence interval (CI) -0.65 to -0.06; 20 studies, 2531 participants; moderate-certainty evidence) and anxiety (SMD -0.57, 95% CI -0.96 to -0.18; 17 studies, 2235 participants; moderate-certainty evidence), compared to no psychological intervention. Psychological interventions may have little to no effect on HRQoL physical component summary scores (PCS) (SMD 0.48, 95% CI -0.02 to 0.98; 12 studies, 1454 participants; low-certainty evidence), but may have a moderate effect on improving HRQoL mental component summary scores (MCS) (SMD 0.63, 95% CI 0.01 to 1.26; 12 studies, 1454 participants; low-certainty evidence), compared to no psychological intervention. Psychological interventions probably have little to no effect on all-cause mortality (risk ratio (RR) 0.81, 95% CI 0.39 to 1.69; 3 studies, 615 participants; moderate-certainty evidence) and may have little to no effect on MACE (RR 1.22, 95% CI 0.77 to 1.92; 4 studies, 450 participants; low-certainty evidence), compared to no psychological intervention.
+AUTHORS' CONCLUSIONS
+: Current evidence suggests that psychological interventions for depression and anxiety probably result in a moderate reduction in depression and anxiety and may result in a moderate improvement in HRQoL MCS, compared to no intervention. However, they may have little to no effect on HRQoL PCS and MACE, and probably do not reduce mortality (all-cause) in adults who have a diagnosis of CHD or HF, compared with no psychological intervention. There was moderate to substantial heterogeneity identified across studies. Thus, evidence of treatment effects on these outcomes warrants careful interpretation. As there were no studies of psychological interventions for patients with AF included in our review, this is a gap that needs to be addressed in future studies, particularly in view of the rapid growth of research on management of AF. Studies investigating cost-effectiveness, return to work and cardiovascular morbidity (revascularisation) are also needed to better understand the benefits of psychological interventions in populations with heart disease.

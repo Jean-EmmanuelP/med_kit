@@ -1,0 +1,22 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S0140-6736(23)02843-X.
+
+=== Métadonnées ===
+Wong K, Pitcher D, Braddon F, et al.
+Effects of rare kidney diseases on kidney failure: a longitudinal analysis of the UK National Registry of Rare Kidney Diseases (RaDaR) cohort.
+Lancet. 2024 Mar 30;403(10433):1279-1289. doi: 10.1016/S0140-6736(23)02843-X. Epub 2024 Mar 13.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: Individuals with rare kidney diseases account for 5-10% of people with chronic kidney disease, but constitute more than 25% of patients receiving kidney replacement therapy. The National Registry of Rare Kidney Diseases (RaDaR) gathers longitudinal data from patients with these conditions, which we used to study disease progression and outcomes of death and kidney failure.
+METHODS
+: People aged 0-96 years living with 28 types of rare kidney diseases were recruited from 108 UK renal care facilities. The primary outcomes were cumulative incidence of mortality and kidney failure in individuals with rare kidney diseases, which were calculated and compared with that of unselected patients with chronic kidney disease. Cumulative incidence and Kaplan-Meier survival estimates were calculated for the following outcomes: median age at kidney failure; median age at death; time from start of dialysis to death; and time from diagnosis to estimated glomerular filtration rate (eGFR) thresholds, allowing calculation of time from last eGFR of 75 mL/min per 1·73 m2 or more to first eGFR of less than 30 mL/min per 1·73 m2 (the therapeutic trial window).
+FINDINGS
+: Between Jan 18, 2010, and July 25, 2022, 27 285 participants were recruited to RaDaR. Median follow-up time from diagnosis was 9·6 years (IQR 5·9-16·7). RaDaR participants had significantly higher 5-year cumulative incidence of kidney failure than 2·81 million UK patients with all-cause chronic kidney disease (28% vs 1%; p<0·0001), but better survival rates (standardised mortality ratio 0·42 [95% CI 0·32-0·52]; p<0·0001). Median age at kidney failure, median age at death, time from start of dialysis to death, time from diagnosis to eGFR thresholds, and therapeutic trial window all varied substantially between rare diseases.
+INTERPRETATION
+: Patients with rare kidney diseases differ from the general population of individuals with chronic kidney disease: they have higher 5-year rates of kidney failure but higher survival than other patients with chronic kidney disease stages 3-5, and so are over-represented in the cohort of patients requiring kidney replacement therapy. Addressing unmet therapeutic need for patients with rare kidney diseases could have a large beneficial effect on long-term kidney replacement therapy demand.
+FUNDING
+: RaDaR is funded by the Medical Research Council, Kidney Research UK, Kidney Care UK, and the Polycystic Kidney Disease Charity.

@@ -1,0 +1,22 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S0140-6736(23)02630-2.
+
+=== Métadonnées ===
+Hinman RS, Campbell PK, Kimp AJ, et al.
+Telerehabilitation consultations with a physiotherapist for chronic knee pain versus in-person consultations in Australia: the PEAK non-inferiority randomised controlled trial.
+Lancet. 2024 Mar 30;403(10433):1267-1278. doi: 10.1016/S0140-6736(23)02630-2. Epub 2024 Mar 7.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: Telerehabilitation is perceived as less effective than in-person care for musculoskeletal problems. We aimed to determine if physiotherapy video conferencing consultations were non-inferior to in-person consultations for chronic knee pain.
+METHODS
+: In this non-inferiority randomised controlled trial, we recruited primary care physiotherapists from 27 Australian clinics. Using computer-generated blocks, participants with chronic knee pain consistent with osteoarthritis were randomly assigned (1:1, stratified by physiotherapist and clinic) in-person or telerehabilitation (ie, video conferencing) physiotherapist consultations. Participants and physiotherapists were unmasked to group assignment. Both groups had five consultations over 3 months for strengthening, physical activity, and education. Primary outcomes were knee pain (on a numerical rating scale of 0-10) and physical function (using the Western Ontario and McMaster Universities osteoarthritis index of 0-68) at 3 months after randomisation. Primary analysis was by modified intention-to-treat using all available data. This trial is registered with the Australian and New Zealand Clinical Trials Registry, ACTRN12619001240134.
+FINDINGS
+: Between Dec 10, 2019, and June 17, 2022, 394 adults were enrolled, with 204 allocated to in-person care and 190 to telerehabilitation. 15 primary care physiotherapists were recruited. At 3 months, 383 (97%) participants provided information for primary outcomes and both groups reported improved pain (mean change 2·98, SD 2·23 for in-person care and 3·14, 1·87 for telerehabilitation) and function (10·20, 11·63 and 10·75, 9·62, respectively). Telerehabilitation was non-inferior for pain (mean difference 0·16, 95% CI -0·26 to 0·57) and function (1·65, -0·23 to 3·53). The number of participants reporting adverse events was similar between groups (40 [21%] for in-person care and 35 [19%] for telerehabilitation) and none were serious.
+INTERPRETATION
+: Telerehabilitation with a physiotherapist is non-inferior to in-person care for chronic knee pain.
+FUNDING
+: National Health and Medical Research Council.

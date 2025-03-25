@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2305478.
+
+=== Métadonnées ===
+Dieussaert I, Hyung Kim J, Luik S, et al.
+RSV Prefusion F Protein-Based Maternal Vaccine - Preterm Birth and Other Outcomes.
+N Engl J Med. 2024 Mar 14;390(11):1009-1021. doi: 10.1056/NEJMoa2305478.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: Vaccination against respiratory syncytial virus (RSV) during pregnancy may protect infants from RSV disease. Efficacy and safety data on a candidate RSV prefusion F protein-based maternal vaccine (RSVPreF3-Mat) are needed.
+METHODS
+: We conducted a phase 3 trial involving pregnant women 18 to 49 years of age to assess the efficacy and safety of RSVPreF3-Mat. The women were randomly assigned in a 2:1 ratio to receive RSVPreF3-Mat or placebo between 24 weeks 0 days and 34 weeks 0 days of gestation. The primary outcomes were any or severe medically assessed RSV-associated lower respiratory tract disease in infants from birth to 6 months of age and safety in infants from birth to 12 months of age. After the observation of a higher risk of preterm birth in the vaccine group than in the placebo group, enrollment and vaccination were stopped early, and exploratory analyses of the safety signal of preterm birth were performed.
+RESULTS
+: The analyses included 5328 pregnant women and 5233 infants; the target enrollment of approximately 10,000 pregnant women and their infants was not reached because enrollment was stopped early. A total of 3426 infants in the vaccine group and 1711 infants in the placebo group were followed from birth to 6 months of age; 16 and 24 infants, respectively, had any medically assessed RSV-associated lower respiratory tract disease (vaccine efficacy, 65.5%; 95% credible interval, 37.5 to 82.0), and 8 and 14, respectively, had severe medically assessed RSV-associated lower respiratory tract disease (vaccine efficacy, 69.0%; 95% credible interval, 33.0 to 87.6). Preterm birth occurred in 6.8% of the infants (237 of 3494) in the vaccine group and in 4.9% of those (86 of 1739) in the placebo group (relative risk, 1.37; 95% confidence interval [CI], 1.08 to 1.74; P = 0.01); neonatal death occurred in 0.4% (13 of 3494) and 0.2% (3 of 1739), respectively (relative risk, 2.16; 95% CI, 0.62 to 7.56; P = 0.23), an imbalance probably attributable to the greater percentage of preterm births in the vaccine group. No other safety signal was observed.
+CONCLUSIONS
+: The results of this trial, in which enrollment was stopped early because of safety concerns, suggest that the risks of any and severe medically assessed RSV-associated lower respiratory tract disease among infants were lower with the candidate maternal RSV vaccine than with placebo but that the risk of preterm birth was higher with the candidate vaccine. (Funded by GlaxoSmithKline Biologicals; ClinicalTrials.gov number, NCT04605159.).

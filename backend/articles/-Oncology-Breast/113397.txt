@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO.23.02344.
+
+=== Métadonnées ===
+Chavez-MacGregor M, Miao J, Pusztai L, et al.
+Phase III Randomized, Placebo-Controlled Trial of Endocrine Therapy +/- 1 Year of Everolimus in Patients With High-Risk, Hormone Receptor-Positive, Early-Stage Breast Cancer.
+J Clin Oncol. 2024 Sep 1;42(25):3012-3021. doi: 10.1200/JCO.23.02344. Epub 2024 Jun 4.
+                    (
+Original study
+)
+
+=== Abstract ===
+PURPOSE
+: Phosphatidylinositol 3-kinase/AKT-serine threonine kinase/mammalian target of rapamycin (mTOR) pathway abnormalities contribute to endocrine resistance. Everolimus, an mTOR inhibitor, improved progression-free survival in hormone receptor-positive metastatic breast cancer (BC) when combined with endocrine therapy (ET). In this phase III randomized, placebo-controlled trial, we assessed the efficacy of everolimus + ET as adjuvant therapy in high-risk, hormone receptor-positive, human epidermal growth factor receptor 2-negative BC after adjuvant/neoadjuvant chemotherapy.
+METHODS
+: Patients were randomly assigned 1:1 to physician's choice ET and 1 year of everolimus (10 mg orally once daily) or placebo stratified by risk group. The primary end point was invasive disease-free survival (IDFS) evaluated by a stratified log-rank test with the hazard ratio (HR) estimated by Cox regression. Subset analyses included preplanned evaluation by risk group and exploratory analyses by menopausal status and age. Secondary end points included overall survival (OS) and safety. Everolimus did not improve IDFS/OS when added to ET in patients with early-stage high-risk, hormone receptor-positive BC.
+RESULTS
+: One thousand and nine hundred thirty-nine patients were randomly assigned with 1,792 eligible for analysis. Overall, no benefit of everolimus was seen for IDFS (HR, 0.94 [95% CI, 0.77 to 1.14]) or OS (HR, 0.97 [95% CI, 0.75 to 1.26]). The assumption of proportional hazards was not met suggesting significant variability in the HR over time since the start of treatment. In an unplanned subgroup analysis among postmenopausal patients (N = 1,221), no difference in IDFS (HR, 1.08 [95% CI, 0.86 to 1.36]) or OS (HR, 1.19 [95% CI, 0.89 to 1.60]) was seen. In premenopausal patients (N = 571), everolimus improved both IDFS (HR, 0.64 [95% CI, 0.44 to 0.94]) and OS (HR, 0.49 [95% CI, 0.28 to 0.86]). Treatment completion rates were lower in the everolimus arm compared with placebo (48% v 73%) with higher grade 3 and 4 adverse events (35% v 7%).
+CONCLUSION
+: One year of adjuvant everolimus + ET did not improve overall outcomes. Subset analysis suggests mTOR inhibition as a possible target for patients who remain premenopausal after chemotherapy.

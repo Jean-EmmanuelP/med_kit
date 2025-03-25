@@ -1,0 +1,13 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1164/rccm.202402-0375OC.
+
+=== Métadonnées ===
+Mascia L, Fanelli V, Mistretta A, et al.
+Lung-Protective Mechanical Ventilation in Patients with Severe Acute Brain Injury: A Multicenter Randomized Clinical Trial (PROLABI).
+Am J Respir Crit Care Med. 2024 Nov 1;210(9):1123-1131. doi: 10.1164/rccm.202402-0375OC.
+                    (
+Original study
+)
+
+=== Abstract ===
+Rationale: Lung-protective strategies using low Vt and moderate positive end-expiratory pressure (PEEP) are considered best practice in critical care, but interventional trials have never been conducted in patients with acute brain injuries because of concerns about carbon dioxide control and the effect of PEEP on cerebral hemodynamics. Objectives: To test the hypothesis that ventilation with lower VT and higher PEEP compared to conventional ventilation would improve clinical outcomes in patients with acute brain injury. Methods: In this multicenter, open-label, controlled clinical trial, 190 adult patients with acute brain injury were assigned to receive either a lung-protective or a conventional ventilatory strategy. The primary outcome was a composite endpoint of death, ventilator dependency, and acute respiratory distress syndrome (ARDS) at Day 28. Neurological outcome was assessed at ICU discharge by the Oxford Handicap Scale and at 6 months by the Glasgow Outcome Scale. Measurements and Main Results: The two study arms had similar characteristics at baseline. In the lung-protective and conventional strategy groups, using an intention-to-treat approach, the composite outcome at 28 days was 61.5% and 45.3% (relative risk [RR], 1.35; 95% confidence interval [CI], 1.03-1.79; P = 0.025). Mortality was 28.9% and 15.1% (RR, 1.91; 95% CI, 1.06-3.42; P = 0.02), ventilator dependency was 42.3% and 27.9% (RR, 1.52; 95% CI, 1.01-2.28; P = 0.039), and incidence of ARDS was 30.8% and 22.1% (RR, 1.39; 95% CI, 0.85-2.27; P = 0.179), respectively. The trial was stopped after enrolling 190 subjects because of termination of funding. Conclusions: In patients with acute brain injury without ARDS, a lung-protective ventilatory strategy, as compared with a conventional strategy, did not reduce mortality, percentage of patients weaned from mechanical ventilation, or incidence of ARDS and was not beneficial in terms of neurological outcomes. Because of the early termination, these preliminary results require confirmation in larger trials. Clinical trial registered with www.clinicaltrials.gov (NCT01690819).

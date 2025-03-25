@@ -1,0 +1,22 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1136/emermed-2024-213893.
+
+=== Métadonnées ===
+Kornthatchapong K, Chatchairatanavej N, Chormai N, et al.
+Nebulised high-dose corticosteroids as add-on therapy for adults with asthma exacerbation: a randomised controlled trial.
+Emerg Med J. 2025 Jan 21;42(2):91-97. doi: 10.1136/emermed-2024-213893.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: Evidence regarding high-dose inhaled corticosteroids (HDICS) in asthma exacerbations in adults is insufficient. This study compares the treatment outcomes of HDICS as add-on therapy to the outcomes of standard treatment in adult patients with acute asthma exacerbation in the ED.
+METHODS
+: This was a single-centre, triple-blind, randomised controlled trial conducted in the ED in Thailand between March 2022 and April 2023. Adult patients with asthma exacerbation were randomly assigned to receive either a placebo (normal saline) or HDICS (budesonide 9000 µg) nebulisation combined with beta agonist and ipratropium within the first hour. The primary endpoints were length of ED stay, hospital admission and ED revisit. The secondary endpoints were dyspnoea scale, pulmonary functions, length of hospital stay and home exacerbation after ED discharge.
+RESULTS
+: A total of 88 patients were randomly assigned to one of two groups: 44 patients received a HDICS and 44 patients were placed in the control group. The HDICS group had a significantly shorter ED length of stay (adjusted mean difference -133.6 min; 95% CI -242.4 to -24.8 min; p=0.016), and a higher proportion of ED discharged home within 8 and 16 hours compared with the control group. However, there were no significant differences between the two groups in hospital admission rates, ED revisit, dyspnoea scale, pulmonary functions, length of hospital stay or home exacerbation after ED discharge.
+CONCLUSIONS
+: HDICS may be useful as an add-on therapy to standard treatment for asthma exacerbation in adults to reduce ED stay.
+TRIAL REGISTRATION NUMBER
+: TCTR20201214001.

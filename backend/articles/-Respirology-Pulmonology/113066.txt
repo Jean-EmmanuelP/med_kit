@@ -1,0 +1,22 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.jacc.2024.03.359.
+
+=== Métadonnées ===
+Ou YH, Colpani JT, Cheong CS, et al.
+Mandibular Advancement vs CPAP for Blood Pressure Reduction in Patients With Obstructive Sleep Apnea.
+J Am Coll Cardiol. 2024 May 7;83(18):1760-1772. doi: 10.1016/j.jacc.2024.03.359. Epub 2024 Apr 6.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: Hypertension guidelines recommend diagnosis and treatment of obstructive sleep apnea (OSA) in patients with hypertension. The mandibular advancement device (MAD) is an oral appliance therapy for patients who decline or cannot tolerate continuous positive airway pressure (CPAP).
+OBJECTIVES
+: We compared the relative effectiveness of MAD vs CPAP in reducing 24-hour ambulatory blood pressure (BP).
+METHODS
+: In an investigator-initiated, randomized, noninferiority trial (prespecified margin 1.5 mm Hg), 321 participants aged =40 years with hypertension and increased cardiovascular risk were recruited at 3 public hospitals for polysomnography. Of these, 220 participants with moderate-to-severe OSA (apnea-hypopnea index =15 events per hour) were randomized to either MAD or CPAP (1:1). The primary outcome was the difference between the 24-hour mean arterial BP at baseline and 6 months.
+RESULTS
+: Compared with baseline, the 24-hour mean arterial BP decreased by 2.5 mm Hg (P = 0.003) at 6 months in the MAD group, whereas no change was observed in the CPAP group (P = 0.374). The between-group difference was -1.6 mm Hg (95% CI: -3.51 to 0.24, noninferiority P < 0.001). The MAD group demonstrated a larger between-group reduction in all secondary ambulatory BP parameters compared with the CPAP group, with the most pronounced effects observed in the asleep BP parameters. Both the MAD and CPAP improved daytime sleepiness, with the between-group difference similar (P = 0.384). There were no between-group differences in cardiovascular biomarkers.
+CONCLUSIONS
+: MAD is noninferior to CPAP for reducing 24-hour mean arterial BP in participants with hypertension and increased cardiovascular risk. (Cardiosleep Research Program on Obstructive Sleep Apnea, Blood Pressure Control and Maladaptive Myocardial Remodeling-Non-inferiority Trial [CRESCENT]; NCT04119999).

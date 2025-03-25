@@ -1,0 +1,22 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1212/WNL.0000000000209953.
+
+=== Métadonnées ===
+Gong C, Huang J, Qiu Z, et al.
+Association of Conscious Sedation With Dexmedetomidine and Outcome in Stroke Patients Undergoing Thrombectomy in the DEVT and RESCUE-BT Trials.
+Neurology. 2024 Dec 10;103(11):e209953. doi: 10.1212/WNL.0000000000209953. Epub 2024 Nov 18.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND AND OBJECTIVES
+: Although dexmedetomidine (DEX) is widely administered during endovascular treatment (EVT) to enhance procedural adherence of patients with acute ischemic stroke (AIS) with large vessel occlusion, there is limited research on the association of DEX and outcomes among these patients. Hence, this study aimed to explore the safety and outcomes of DEX during conscious sedation (CS) in a real-world setting among patients undergoing EVT.
+METHODS
+: This study was an individual patient-level pooled analysis of 2 multicenter randomized clinical trials RESCUE-BT and DEVT. This study included patients who underwent EVT because of occlusion of the internal carotid artery or middle cerebral artery. The DEX group included those receiving intraprocedural DEX for CS, whereas the patients without intraprocedural DEX sedation were categorized into the non-DEX group. The primary outcome was functional independence (modified Rankin Scale score of 0-2 at 90 days). Adjusted odds ratio (aOR) and 95% CI were obtained by logistic regression models.
+RESULTS
+: A total of 728 patients were included in this study, of whom 308 (42.3%) were female. The median (interquartile range) age was 69 (59-76) years; the median baseline NIH Stroke Scale score was 16 (12-19). Compared with the non-DEX group, the DEX group had a significantly lower rate of functional independence (40.3% vs 51.3%; aOR 0.66; 95% CI 0.46-0.93; p = 0.019). There was a significantly higher rate of unstable procedural hemodynamics in the DEX group (9.7% vs 2.3%; aOR 4.60, 95% CI 2.12-9.99, p < 0.001). In subgroup analysis, similar results were found in intraprocedural DEX-treated patients when compared with local anesthesia or intraprocedural midazolam-treated patients, respectively.
+DISCUSSION
+: There was a negative association between procedural DEX administration during CS and functional outcomes in patients with AIS receiving EVT in a real-world setting. A larger cohort is warranted to validate our findings.
+CLASSIFICATION OF EVIDENCE
+: This study provides Class II evidence that the use of DEX during EVT of AIS is associated with a worse outcome compared with other agents.

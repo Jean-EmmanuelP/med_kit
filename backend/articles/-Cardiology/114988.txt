@@ -1,0 +1,28 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamanetworkopen.2024.45084.
+
+=== Métadonnées ===
+Du X, Chu H, Yang B, et al.
+Strategy Optimization for a Combined Procedure in Patients With Atrial Fibrillation: The COMBINATION Randomized Clinical Trial.
+JAMA Netw Open. 2024 Nov 4;7(11):e2445084. doi: 10.1001/jamanetworkopen.2024.45084.
+                    (
+Original study
+)
+
+=== Abstract ===
+IMPORTANCE
+: The optimal strategy of combining left atrial appendage occlusion (LAAO) with catheter ablation (CA) in patients with atrial fibrillation (AF) during a single procedure remains unclear.
+OBJECTIVE
+: To determine the effects of ablation-first vs occlusion-first strategies on long-term clinical outcomes among patients with atrial fibrillation undergoing a combined LAAO and CA procedure.
+DESIGN, SETTING, AND PARTICIPANTS
+: The prospective, multicenter COMBINATION randomized clinical trial was conducted in 14 high-volume centers in China. Enrollment of patients with nonvalvular AF referred for the combined procedure began on July 24, 2020, and concluded on January 20, 2022.
+INTERVENTIONS
+: Patients were randomly assigned to either the ablation-first group or the occlusion-first group. Outcomes of LAAO using an occlusion device and CA using a contact force-sensing catheter following different combination strategies during long-term follow-up were evaluated.
+MAIN OUTCOMES AND MEASURES
+: The primary end point was a composite of thromboembolic events including stroke or transient ischemic attack, device-related thrombus (DRT), clinically relevant bleeding, and cardiovascular rehospitalization or death. Freedom from AF or atrial tachyarrhythmia (ATA) after a single procedure without antiarrhythmic drugs, at both 1 year and long-term follow-up, was also evaluated.
+RESULTS
+: Of the 202 patients enrolled, 194 (96.0%) completed the trial (97 in the ablation-first group and 97 in the occlusion-first group). The mean (SD) age of the cohort was 67.3 (9.2) years, and 110 patients (56.7%) were male. All procedures achieved acute successful LAAO and restoration of sinus rhythm, with similar incidences of periprocedural complications. Compared with the ablation-first group, the occlusion-first group exhibited significantly higher event-free survival of the primary end point (83.5% vs 71.1%; hazard ratio [HR], 0.53 [95% CI, 0.29-0.95]; log-rank P = .04) during the median 2.5 (IQR, 2.3-2.8) years of follow-up. Subgroup analysis indicated that male patients and those with higher CHA2DS2-VASc scores (a composite of factors associated with stroke risk; higher scores indicate higher risk) were at lower risk of thromboembolic events. Rates of long-term freedom from AF (77.3% vs 63.5%; HR, 0.58 [95% CI, 0.34-0.97]; log-rank P = .04) and from ATA (70.1% vs 55.7%; HR, 0.62 [95% CI, 0.39-0.99]; log-rank P = .04) were higher in the occlusion-first group vs the ablation-first group. Additionally, a higher incidence of chronic peridevice leak (15 [15.5%] vs 5 [5.2%]; P = .03) and DRT (8 [8.2%] vs 1 [1.0%]; P = .04) was observed in the ablation-first group vs the occlusion-first group.
+CONCLUSIONS AND RELEVANCE
+: In this randomized clinical trial, the occlusion-first approach was superior due to its higher event-free survival of the primary end point and long-term freedom from ATA. These findings suggest that the occlusion-first approach should be recommended for combined procedures with plug-like device implantation.
+TRIAL REGISTRATION
+: Chinese Clinical Trial Registry Identifier: ChiCTR2000031486.

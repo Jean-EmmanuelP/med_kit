@@ -1,0 +1,28 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamainternmed.2024.7140.
+
+=== Métadonnées ===
+Dember LM, Hsu JY, Mehrotra R, et al.
+Pain Coping Skills Training for Patients Receiving Hemodialysis: The HOPE Consortium Randomized Clinical Trial.
+JAMA Intern Med. 2025 Feb 1;185(2):197-207. doi: 10.1001/jamainternmed.2024.7140.
+                    (
+Original study
+)
+
+=== Abstract ===
+IMPORTANCE
+: Chronic pain is common among individuals with dialysis-dependent kidney failure.
+OBJECTIVE
+: To evaluate the effectiveness of pain coping skills training (PCST), a cognitive behavioral intervention, on pain interference.
+DESIGN, SETTING, AND PARTICIPANTS
+: This multicenter randomized clinical trial of PCST vs usual care was conducted across 16 academic centers and 103 outpatient dialysis facilities in the US. Adults undergoing maintenance hemodialysis and experiencing chronic pain were randomly assigned to PCST or usual care in a 1:1 ratio. Participants were followed in the trial for 36 weeks. Enrollment began on January 4, 2021, and follow-up ended on December 21, 2023.
+INTERVENTIONS
+: PCST consisting of 12 weekly coach-led sessions via video or telephone conferencing, followed by 12 weeks of daily interactive voice response sessions. Usual care had no trial-driven pain intervention.
+MAIN OUTCOMES
+: The primary outcome was pain interference measured with the Brief Pain Inventory (BPI) Interference subscale (score range of 0-10, with higher scores indicating more pain interference). Secondary outcomes included pain intensity, pain catastrophizing, quality of life, depression, and anxiety.
+RESULTS
+: A total of 643 participants (mean [SD] age, 60.3 [12.6] years; 288 [44.8%] female) were randomized, with 319 assigned to PCST and 324 assigned to usual care. At week 12 (primary end point), the PCST group had a larger reduction in the BPI Interference score than the usual care group (between-group difference, -0.49; 95% CI, -0.85 to -0.12; P = .009). The effect persisted at week 24 (between-group difference in BPI Interference score, -0.48; 95% CI, -0.86 to -0.11) but was diminished at week 36 (between-group difference in BPI Interference score, -0.34; 95% CI, -0.72 to 0.04). A decrease in BPI Interference score greater than 1 point (minimal clinically important difference) occurred in 143 of 281 participants (50.9%) in the PCST group vs 108 of 295 participants (36.6%) in the usual care group at 12 weeks (odds ratio, 1.79; 95% CI, 1.28-2.49) and 142 of 258 participants (55.0%) in the PCST group vs 113 of 264 participants (42.8%) in the usual care group at 24 weeks (odds ratio, 1.59; 95% CI, 1.13-2.24). Favorable changes with PCST were also apparent for secondary outcomes of pain intensity, quality of life, depression, and anxiety at weeks 12 and/or 24, as well as for pain catastrophizing at weeks 24 and 36.
+CONCLUSIONS AND RELEVANCE
+: In this randomized clinical trial of patients undergoing maintenance hemodialysis, PCST had benefits on pain interference and other pain-associated outcomes. While the effect on the overall cohort was of modest magnitude, the intervention resulted in a clinically meaningful improvement in pain interference for a substantial proportion of participants.
+TRIAL REGISTRATION
+: ClinicalTrials.gov Identifier: NCT04571619.

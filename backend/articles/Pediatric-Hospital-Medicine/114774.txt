@@ -1,0 +1,22 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1136/archdischild-2024-327155.
+
+=== Métadonnées ===
+Dick S, MacRae C, Colacino L, et al.
+Systematic review of interventions to reduce hospital and emergency department stay in paediatric populations.
+Arch Dis Child. 2025 Jan 24;110(2):120-126. doi: 10.1136/archdischild-2024-327155.
+                    (
+Systematic review
+)
+
+=== Abstract ===
+INTRODUCTION
+: This systemic review describes interventions designed to shorten length of stay (LOS) in hospital or the emergency department (ED).
+METHODS
+: Papers published from 2000 until February 2024 were sought in MEDLINE, EMBASE, PsycINFO, SCIE, Cochrane Library Database and DARE databases. Outcomes were LOS, readmissions and healthcare cost.
+RESULTS
+: Eighteen studies were eligible, including 10 randomised controlled trials and 8 non-randomised studies. Children were recruited from ED in seven studies and from the paediatric ward in 11 studies. Nine studies delivered outpatient parenteral antibiotic therapy (OPAT) to children and were associated with reduced LOS and cost but longer duration of antibiotic treatment. Seven studies described 'hospital at home' in children admitted with a range of conditions and some reported reduced readmissions and LOS in addition to reduced costs, compared with standard hospital care. Two studies provided care in a step-down facility and reported reduced readmissions and costs.
+CONCLUSIONS
+: Many of the interventions identified were cost-effective but often led to a longer total period of care compared with inpatient care. Providing care outside of hospital is not associated with increased adverse outcomes compared with receiving care in hospital and brings benefit to the child's family.
+PROSPERO REGISTRATION NUMBER
+: CRD42023408663.

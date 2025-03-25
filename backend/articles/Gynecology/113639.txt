@@ -1,0 +1,22 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1097/AOG.0000000000005648.
+
+=== Métadonnées ===
+Johnson I, Thurman AR, Cornell KA, et al.
+Preliminary Efficacy of Topical Sildenafil Cream for the Treatment of Female Sexual Arousal Disorder: A Randomized Controlled Trial.
+Obstet Gynecol. 2024 Aug 1;144(2):144-152. doi: 10.1097/AOG.0000000000005648. Epub 2024 Jun 18.
+                    (
+Original study
+)
+
+=== Abstract ===
+OBJECTIVE
+: To assess the efficacy of topical sildenafil cream, 3.6% among healthy premenopausal women with female sexual arousal disorder.
+METHODS
+: We conducted a phase 2b, exploratory, randomized, placebo-controlled, double-blind study of sildenafil cream. Coprimary efficacy endpoints were the change from baseline to week 12 in the Arousal Sensation domain of the SFQ28 (Sexual Function Questionnaire) and question 14 of the FSDS-DAO (Female Sexual Distress Scale-Desire, Arousal, Orgasm).
+RESULTS
+: Two hundred women with female sexual arousal disorder were randomized to sildenafil cream (n=101) or placebo cream (n=99). A total of 174 participants completed the study (sildenafil 90, placebo 84). Among the intention-to-treat (ITT) population, which included women with only female sexual arousal disorder and those with female sexual arousal disorder with concomitant sexual dysfunction diagnoses or genital pain, although the sildenafil cream group demonstrated greater improvement in the SFQ28 Arousal Sensation domain scores, there were no statistically significant differences between sildenafil and placebo cream users in the coprimary and secondary efficacy endpoints. An exploratory post hoc subset of the ITT population with an enrollment diagnosis of female sexual arousal disorder with or without concomitant decreased desire randomized to sildenafil cream reported significant increases in their SFQ28 Arousal Sensation domain score (least squares mean 2.03 [SE 0.62]) compared with placebo cream (least squares mean 0.08 [SE 0.71], P =.04). This subset achieved a larger mean improvement in the SFQ28 Desire and Orgasm domain scores. This subset population also had significantly reduced sexual distress and interpersonal difficulties with sildenafil cream use as measured by FSDS-DAO questions 3, 5, and 10 (all P =.04).
+CONCLUSION
+: Topical sildenafil cream improved outcomes among women with female sexual arousal disorder, most significantly in those who did not have concomitant orgasmic dysfunction. In particular, in an exploratory analysis of a subset of women with female sexual arousal disorder with or without concomitant decreased desire, topical sildenafil cream increased sexual arousal sensation, desire, and orgasm and reduced sexual distress.
+CLINICAL TRIAL REGISTRATION
+: ClinicalTrials.gov , NCT04948151.

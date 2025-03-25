@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO-24-01829.
+
+=== Métadonnées ===
+Machtay M, Torres-Saavedra PA, Thorstad W, et al.
+Postoperative Radiotherapy +/- Cetuximab for Intermediate-Risk Head and Neck Cancer.
+J Clin Oncol. 2025 Jan 22:JCO2401829. doi: 10.1200/JCO-24-01829.
+                    (
+Original study
+)
+
+=== Abstract ===
+PURPOSE
+: Radiotherapy (RT)/cetuximab (C) demonstrated superiority over RT alone for locally advanced squamous head and neck cancer. We tested this in completely resected, intermediate-risk cancer.
+METHODS
+: Patients had squamous cell carcinoma of the head and neck (SCCHN) of the oral cavity, oropharynx, or larynx, with one or more risk factors warranting postoperative RT. Patients were randomly assigned 1:1 to intensity-modulated RT (60-66 Gy) with once-per-week C or RT alone. The primary hypothesis was that RT + C would improve overall survival (OS) in randomly assigned/eligible patients, with a prespecified secondary plan to test this in the human papillomavirus (HPV)-negative subpopulation. Disease-free survival (DFS) and toxicity were secondary end points. OS and DFS were tested via stratified log-rank test; toxicity was compared via Fisher's exact test.
+RESULTS
+: We enrolled 702 patients from November 2009 to March 2018; 577 were randomly assigned/eligible. Most (63.6%) had oral cavity cancer and most (84.6%) had high epidermal growth factor receptor expression. There were fewer deaths (184) than expected. OS (median follow up, 7.2 years) was not significantly improved (hazard ratio [HR], 0.81; one-sided P = .0747; 5-year OS 76.5% v 68.7%), but DFS was (HR, 0.75; one-sided P = .0168; 5-year DFS 71.7% v 63.6%). Benefit of RT + C was only seen in the HPV-negative subpopulation (80.2% of patients in the trial). Grade 3-4 acute toxicity rates were 70.3% (RT + C) versus 39.7% (RT; two-sided P < .0001), mostly skin and/or mucosal effects. Late grade =3 toxicity rate was 33.2% (RT + C) versus 29.0% (RT; two-sided P = .3101). There were no grade 5 toxicities in either arm.
+CONCLUSION
+: RT + C significantly improved DFS, but not OS, with no increase in long-term toxicity, compared with RT alone for resected, intermediate-risk SCCHN. RT + C is an appropriate option for carefully selected patients with HPV-negative disease.

@@ -1,0 +1,28 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamasurg.2024.3260.
+
+=== Métadonnées ===
+Makarainen E, Wiik H, Nikberg M, et al.
+Parastomal Hernia Prevention Using Funnel-Shaped Intra-Abdominal Mesh Compared to No Mesh: The Chimney Randomized Clinical Trial.
+JAMA Surg. 2024 Nov 1;159(11):1244-1250. doi: 10.1001/jamasurg.2024.3260.
+                    (
+Original study
+)
+
+=== Abstract ===
+IMPORTANCE
+: Prophylactic placement of a mesh has been suggested to prevent parastomal hernia. Evidence to support this practice is contradictory.
+OBJECTIVE
+: To determine whether funnel-shaped permanent synthetic parastomal mesh is effective and safe in parastomal hernia prevention.
+DESIGN, SETTING, AND PARTICIPANTS
+: The Chimney Trial was a randomized single-blinded multicenter trial conducted in 4 hospitals in Finland and 1 in Sweden from February 2019 and September 2021. Of 439 patients with rectal adenocarcinoma undergoing either laparoscopic or robotic-assisted abdominoperineal resection or the Hartmann procedure, 143 were enrolled in the trial, 135 received their allocated intervention, and 121 were analyzed at 12-month follow-up. Data were analyzed from December 2023 to May 2024.
+INTERVENTION
+: In the intervention group, a permanent colostomy was created with a funnel-shaped intraperitoneal mesh and compared to a control group with a stoma without the mesh.
+MAIN OUTCOME AND MEASURE
+: The primary end point was the incidence of computed tomography (CT)-confirmed parastomal hernia 12 months after surgery.
+RESULTS
+: There were 68 patients (mean [SD] age, 68.7 [11.6] years; 36 [53% male and 32 [47%] female) who received the intended allocation in the mesh group and 67 (mean [SD] age, 66.4 [11.7] years; 48 [72%] male and 19 [28%] female) who received the intended allocation in the control group. CT scans were available for 58 patients in the mesh group and 59 patients in the control group at the 12-month follow-up. CT scans confirmed parastomal hernia in 6 of 58 patients (10%) in the mesh group compared to 22 of 59 patients (37%) in the control group (difference, 27%; 95% CI, 12-41; P < .001). Clinical parastomal hernia as a secondary outcome was recorded in 1 of 60 patients (2%) in the mesh group compared to 27 of 61 (43%) in the control group (difference, 41%; 95% CI, 29-55; P < .001). The number of patients with Clavien-Dindo class II ileus was 23 (35%) in the mesh group compared to 11 (17%) in the control group (difference, 18%; 95% CI, 3-32; P = .006). Only slight differences between the groups were detected in other stoma-related complications, readmissions, operative time, surgical site infections, reoperations, and quality of life.
+CONCLUSIONS AND RELEVANCE
+: In this study, funnel-shaped parastomal mesh prevented a significant number of parastomal hernias without predisposing patients to mesh- or stoma-related complications during 12-month follow-up. The results of this study suggest the funnel-shaped mesh is a feasible option to prevent parastomal hernia.
+TRIAL REGISTRATION
+: ClinicalTrials.gov Identifier: NCT03799939.

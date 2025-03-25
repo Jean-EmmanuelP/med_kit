@@ -1,0 +1,22 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S0140-6736(24)01812-9.
+
+=== Métadonnées ===
+Mowery YM, Ballman KV, Hong AM, et al.
+Safety and efficacy of pembrolizumab, radiation therapy, and surgery versus radiation therapy and surgery for stage III soft tissue sarcoma of the extremity (SU2C-SARC032): an open-label, randomised clinical trial.
+Lancet. 2024 Nov 23;404(10467):2053-2064. doi: 10.1016/S0140-6736(24)01812-9. Epub 2024 Nov 12.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: Approximately half of patients with localised, high-risk soft tissue sarcoma of the extremity develop metastases. We aimed to assess whether the addition of pembrolizumab to preoperative radiotherapy and surgery would improve disease-free survival.
+METHODS
+: We completed an open-label, randomised clinical trial in patients with grade 2 or 3, stage III undifferentiated pleomorphic sarcoma or dedifferentiated or pleomorphic liposarcoma of the extremity and limb girdle. Patients were enrolled at 20 academic institutions in Australia, Canada, Italy, and the USA. Patients were randomly assigned to preoperative radiotherapy then surgery (control group) or preoperative pembrolizumab with radiotherapy (initiated 1-14 days after the first dose of pembrolizumab) then surgery and postoperative pembrolizumab (experimental group). Pembrolizumab (200 mg intravenously every 3 weeks) was administered as three neoadjuvant cycles (before, during, and after radiotherapy) and 14 or less adjuvant cycles. Primary endpoint was disease-free survival. This study is registered with ClincialTrials.gov (NCT03092323).
+FINDINGS
+: Between Nov 18, 2017, and Nov 14, 2023, 143 participants were randomly assigned to treatment. A modified intention-to-treat analysis of 127 patients with median follow-up of 43 months showed that the experimental group (n=64) had significantly longer disease-free survival than the control group (n=63; log-rank one-sided p=0·035; hazard ratio [HR] 0·61; 90% CI 0·39-0·96). The 2-year disease-free survival increased by 15% with addition of pembrolizumab: 52% (90% CI 42-64) and 67% (90% CI 58-78) for the control and experimental groups, respectively. Disease-free survival was similarly improved with pembrolizumab for the intention-to-treat patient population (HR 0·61 [90% CI 0·39-0·95]). Grade 3 or higher adverse events occurred more frequently in the experimental group (56%) than the control group (31%).
+INTERPRETATION
+: Addition of pembrolizumab to preoperative radiotherapy and surgery improves disease-free survival for patients with stage III undifferentiated pleomorphic sarcoma and pleomorphic or dedifferentiated liposarcoma of the extremity, which establishes a promising new treatment option for these patients.
+FUNDING
+: Stand Up to Cancer and Merck Sharp & Dohme.

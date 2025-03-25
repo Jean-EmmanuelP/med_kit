@@ -1,0 +1,22 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.jacc.2024.05.060.
+
+=== Métadonnées ===
+Canonico ME, Low Wang CC, Hsia J, et al.
+Low-Dose Rivaroxaban Plus Aspirin in Fragile Patients After Lower Extremity Revascularization.
+J Am Coll Cardiol. 2024 Aug 27;84(9):801-811. doi: 10.1016/j.jacc.2024.05.060.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: Rivaroxaban 2.5 mg plus aspirin reduced limb and cardiovascular events and increased bleeding in patients with symptomatic peripheral artery disease (PAD) after lower extremity revascularization in the VOYAGER PAD (Efficacy and Safety of Rivaroxaban in Reducing the Risk of Major Thrombotic Vascular Events in Subjects With Symptomatic Peripheral Artery Disease Undergoing Peripheral Revascularization Procedures of the Lower Extremities) study. Fragile patients are at heightened risk for ischemic and bleeding events.
+OBJECTIVES
+: The purpose of this study was to investigate the safety and efficacy of rivaroxaban 2.5 mg in fragile patients from VOYAGER PAD.
+METHODS
+: Patients were categorized as fragile based on prespecified criteria (age >75 years, weight =50 kg, or baseline estimated glomerular filtration rate <50 mL/min/1.73 m2). The primary efficacy outcome was the composite of acute limb ischemia, major amputation of a vascular etiology, myocardial infarction, ischemic stroke, or cardiovascular death. The principal safety outcome was TIMI major bleeding.
+RESULTS
+: Of 6,564 randomized patients, a total of 1,674 subjects were categorized as fragile at baseline. In the placebo arm, fragile patients were at higher risk of the primary outcome (HR: 1.34; 95% CI: 1.12-1.61) and TIMI major bleeding (HR: 1.57; 95% CI: 0.83-2.96), compared with nonfragile patients. The effect of rivaroxaban on the primary endpoint was not modified by frailty status (fragile HR: 0.93; 95% CI: 0.75-1.15; nonfragile HR: 0.83; 95% CI: 0.72-0.97; P interaction = 0.37). Rivaroxaban increased TIMI major bleeding in fragile (HR: 1.54; 95% CI: 0.82-2.91) and nonfragile patients (HR: 1.37; 95% CI: 0.84-2.23; P interaction = 0.65).
+CONCLUSIONS
+: Patients with PAD after lower extremity revascularization meeting fragile criteria are at higher risk of ischemic complications and bleeding. Rivaroxaban reduces ischemic risk and increases bleeding regardless of frailty status. These data may assist in personalization of antithrombotic therapy in fragile population.

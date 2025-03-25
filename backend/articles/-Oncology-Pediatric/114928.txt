@@ -1,0 +1,28 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jama.2024.19585.
+
+=== Métadonnées ===
+Dupuis LL, Vettese E, Grimes AC, et al.
+Symptom Screening Linked to Care Pathways for Pediatric Patients With Cancer: A Randomized Clinical Trial.
+JAMA. 2024 Dec 17;332(23):1981-1991. doi: 10.1001/jama.2024.19585.
+                    (
+Original study
+)
+
+=== Abstract ===
+IMPORTANCE
+: Pediatric patients with cancer commonly experience severely bothersome symptoms. The effectiveness of routine symptom screening with symptom feedback and symptom management care pathways is unknown.
+OBJECTIVE
+: To determine whether thrice-weekly symptom screening with symptom feedback and management care pathways, compared with usual care, improves overall self-reported symptom scores measured by the Symptom Screening in Pediatrics Tool (SSPedi) in pediatric patients with cancer.
+DESIGN, SETTING, AND PARTICIPANTS
+: This cluster randomized trial enrolled participants between July 2021 and August 2023 from 20 pediatric cancer centers in the US. Patients newly diagnosed with cancer aged 8 to 18 years receiving any cancer treatment were included. Twenty sites were randomized to provide symptom screening (n = 10) vs usual care (n = 10); 221 participants were enrolled at intervention sites and 224 participants at control sites. The date of final follow-up was October 18, 2023.
+INTERVENTION
+: Symptom screening included providing thrice-weekly symptom screening prompts to participants, email alerts to the health care team, and locally adapted symptom management care pathway implementation.
+MAIN OUTCOMES AND MEASURES
+: The primary outcome was self-reported total SSPedi score at week 8 (range, 0-60; higher scores indicate more bothersome). Secondary outcomes were Patient-Reported Outcomes Measurement Information System Fatigue score (mean [SD] score, 50 [10]; higher scores indicate more fatigue), Pediatric Quality of Life 3.0 Acute Cancer Module scores (range, 0-100; higher scores indicate better health), symptom documentation and interventions at week 8, and unplanned health care encounters.
+RESULTS
+: A total of 445 participants (median [range] age, 14.8 [8.1-18.9] years; 58.9% males) were enrolled. The mean (SD) 8-week SSPedi score was 7.9 (7.2) in the symptom screening group vs 11.4 (8.7) in the usual care group. Symptom screening was associated with significantly better 8-week total SSPedi scores (adjusted mean difference, -3.8 [95% CI, -6.4 to -1.2]) and less bothersome individual symptoms, with 12 of 15 symptoms being statistically significantly reduced. There was no difference in fatigue or quality of life. The mean (SD) number of emergency department visits was 0.77 (1.12) in the symptom screening group and 0.45 (0.81) in the usual care group. There were significantly more emergency department visits in the symptom screening group (rate ratio, 1.72 [95% CI, 1.03-2.87]).
+CONCLUSIONS
+: Symptom screening with symptom feedback and symptom management care pathways was associated with improved symptom scores and increased symptom-specific interventions. Future work should integrate symptom screening into routine clinical care.
+TRIAL REGISTRATION
+: ClinicalTrials.gov Identifier: NCT04614662.

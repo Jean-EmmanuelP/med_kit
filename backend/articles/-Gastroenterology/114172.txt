@@ -1,0 +1,34 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.7326/M24-0080.
+
+=== Métadonnées ===
+Levy BT, Xu Y, Daly JM, et al.
+Comparative Performance of Common Fecal Immunochemical Tests : A Cross-Sectional Study.
+Ann Intern Med. 2024 Oct;177(10):1350-1360. doi: 10.7326/M24-0080. Epub 2024 Sep 3.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: Despite widespread use of fecal immunochemical tests (FITs) for colorectal cancer (CRC) screening, data to guide test selection are limited.
+OBJECTIVE
+: To compare the performance characteristics of 5 commonly used FITs, using colonoscopy as the reference standard.
+DESIGN
+: Cross-sectional study. (ClinicalTrials.gov: NCT03264898).
+SETTING
+: Three U.S. academic medical centers and affiliated endoscopy units.
+PARTICIPANTS
+: Patients aged 50 to 85 years undergoing screening or surveillance colonoscopy.
+INTERVENTION
+: Participants completed 5 different FITs before their colonoscopy, including 4 qualitative tests (Hemoccult ICT, Hemosure iFOB, OC-Light S FIT, QuickVue iFOB) and 1 quantitative test (OC-Auto FIT, which was run at the manufacturer's threshold for positivity of >100 ng/mL).
+MEASUREMENTS
+: The primary outcome was test performance (sensitivity and specificity) for each of the 5 FITs for advanced colorectal neoplasia (ACN), defined as advanced polyps or CRC. Positivity rates, positive and negative predictive values, and rates of unevaluable tests were compared. Multivariable models were used to identify factors affecting sensitivity.
+RESULTS
+: A total of 3761 participants were enrolled, with a mean age of 62.1 years (SD, 7.8); 63.2% of participants were female, 5.7% were Black, 86.4% were White, and 28.7% were Hispanic. There were 320 participants with ACN (8.5%), including 9 with CRC (0.2%). The test positivity rate varied 4-fold (3.9% to 16.4%) across FITs. Rates of unevaluable FITs ranged from 0.2% to 2.5%. The sensitivity for ACN varied from 10.1% to 36.7%, and specificity varied from 85.5% to 96.6%. Differences in sensitivity between FITs were all statistically significantly different except between Hemosure iFOB and QuickVue iFOB, and specificity differences were all statistically significantly different from one another. In addition to FIT brand, distal location of ACN was also associated with higher FIT sensitivity.
+LIMITATION
+: The study did not assess the programmatic sensitivity of annual FIT.
+CONCLUSION
+: Although considered a single class, FITs have varying test performance for detecting ACN and should not be considered interchangeable.
+PRIMARY FUNDING SOURCE
+: National Institutes of Health.

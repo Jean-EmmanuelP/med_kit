@@ -1,0 +1,28 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamanetworkopen.2024.4000.
+
+=== Métadonnées ===
+Park DY, Hu JR, Jamil Y, et al.
+Shorter Dual Antiplatelet Therapy for Older Adults After Percutaneous Coronary Intervention: A Systematic Review and Network Meta-Analysis.
+JAMA Netw Open. 2024 Mar 4;7(3):e244000. doi: 10.1001/jamanetworkopen.2024.4000.
+                    (
+Systematic review
+)
+
+=== Abstract ===
+IMPORTANCE
+: The optimal duration of dual antiplatelet therapy (DAPT) for older adults after percutaneous coronary intervention (PCI) is uncertain because they are simultaneously at higher risk for both ischemic and bleeding events.
+OBJECTIVE
+: To investigate the association of abbreviated DAPT with adverse clinical events among older adults after PCI.
+DATA SOURCES
+: The Cochrane Library, Google Scholar, Embase, MEDLINE, PubMed, Scopus, and Web of Science were searched from inception to August 9, 2023.
+STUDY SELECTION
+: Randomized clinical trials comparing any 2 of 1, 3, 6, and 12 months of DAPT were included if they reported results for adults aged 65 years or older or 75 years or older.
+DATA EXTRACTION AND SYNTHESIS
+: The Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) reporting guideline was used to abstract data and assess data quality. Risk ratios for each duration of DAPT were calculated with alternation of the reference group.
+MAIN OUTCOMES AND MEASURES
+: The primary outcome of interest was net adverse clinical events (NACE). Secondary outcomes were major adverse cardiovascular events (MACE) and bleeding.
+RESULTS
+: In 14 randomized clinical trials comprising 19?102 older adults, no differences were observed in the risks of NACE or MACE for 1, 3, 6, and 12 months of DAPT. However, 3 months of DAPT was associated with a lower risk of bleeding compared with 6 months of DAPT (relative risk [RR], 0.50 [95% CI, 0.29-0.84]) and 12 months of DAPT (RR, 0.57 [95% CI, 0.45-0.71]) among older adults. One month of DAPT was also associated with a lower risk of bleeding compared with 6 months of DAPT (RR, 0.68 [95% CI, 0.54-0.86]).
+CONCLUSIONS AND RELEVANCE
+: In this systematic review and meta-analysis of different durations of DAPT for older adults after PCI, an abbreviated DAPT duration was associated with a lower risk of bleeding without any concomitant increase in the risk of MACE or NACE despite the concern for higher-risk coronary anatomy and comorbidities among older adults. This study, which represents the first network meta-analysis of this shortened treatment for older adults, suggests that clinicians may consider abbreviating DAPT for older adults.

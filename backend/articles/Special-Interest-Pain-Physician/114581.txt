@@ -1,0 +1,22 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1136/ard-2024-225771.
+
+=== Métadonnées ===
+Pers YM, Soler-Rich R, Vadala G, et al.
+Allogenic bone marrow-derived mesenchymal stromal cell-based therapy for patients with chronic low back pain: a prospective, multicentre, randomised placebo controlled trial (RESPINE study).
+Ann Rheum Dis. 2024 Oct 21;83(11):1572-1583. doi: 10.1136/ard-2024-225771.
+                    (
+Original study
+)
+
+=== Abstract ===
+OBJECTIVES
+: To assess the efficacy of a single intradiscal injection of allogeneic bone marrow mesenchymal stromal cells (BM-MSCs) versus a sham placebo in patients with chronic low back pain (LBP).
+METHODS
+: Participants were randomised in a prospective, double-blind, controlled study to receive either sham injection or intradiscal injection of 20 million allogeneic BM-MSC, between April 2018 and December 2022. The first co-primary endpoint was the rate of responders defined by improvement of the Visual Analogue Scale (VAS) for pain of at least 20% and 20 mm, or improvement of the Oswestry Disability Index (ODI) of 20% between baseline and month 12. The secondary structural co-primary endpoint was assessed by the disc fluid content measured by quantitative MRI T2, between baseline and month 12. Secondary endpoints included pain VAS, ODI, the Short Form (SF)-36 and the minimal clinically important difference in all timepoints (1, 3, 6, 12 and 24 months). We determined the immune response associated with allogeneic cell injection between baseline and 6 months. Serious adverse events (SAEs) were recorded.
+RESULTS
+: 114 patients were randomised (n=58, BM-MSC group; n=56, sham placebo group). At 12 months, the primary outcome was not reached (74% in the BM-MSC group vs 69% in the placebo group; p=0.77). The groups did not differ in all secondary outcomes. No SAE related to the intervention occurred.
+CONCLUSIONS
+: While our study did not conclusively demonstrate the efficacy of allogeneic BM-MSCs for LBP, the procedure was safe. Long-term outcomes of MSC therapy for LBP are still being studied.
+TRIAL REGISTRATION NUMBER
+: EudraCT 2017-002092-25/ClinicalTrials.gov: NCT03737461.

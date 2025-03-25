@@ -1,0 +1,28 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamapsychiatry.2024.1787.
+
+=== Métadonnées ===
+Sheline YI, Makhoul W, Batzdorf AS, et al.
+Accelerated Intermittent Theta-Burst Stimulation and Treatment-Refractory Bipolar Depression: A Randomized Clinical Trial.
+JAMA Psychiatry. 2024 Sep 1;81(9):936-941. doi: 10.1001/jamapsychiatry.2024.1787.
+                    (
+Original study
+)
+
+=== Abstract ===
+IMPORTANCE
+: Bipolar disorder (BD) is chronic and disabling, with depression accounting for the majority of time with illness. Recent research demonstrated a transformative advance in the clinical efficacy of transcranial magnetic stimulation for treatment-resistant major depressive disorder (MDD) using an accelerated schedule of intermittent theta-burst stimulation (aiTBS), but the effectiveness of this treatment for treatment-refractory BD is unknown.
+OBJECTIVE
+: To evaluate the effectiveness of aiTBS for treatment-refractory BD.
+DESIGN, SETTING, AND PARTICIPANTS
+: This randomized clinical trial, conducted from March 2022 to February 2024, included individuals with treatment-resistant BD with moderate to severe depressive episodes referred from the Penn Bipolar outpatient clinic. Included patients had 2 or more prior failed antidepressant trials by Antidepressant Treatment History Form criteria and no other primary psychiatric diagnosis, were receiving a mood stabilizer for 4 or more weeks, and had a Montgomery-Åsberg Depression Rating Scale (MADRS) score of 20 or higher.
+INTERVENTION
+: Prior to treatment, resting-state functional magnetic resonance imaging was used to compute personalized left dorsolateral prefrontal cortex target by connectivity to subgenual anterior cingulate cortex. Patients were randomized 1:1 to 10 sessions per day of imaging-guided active or sham aiTBS for 5 days with 1 session per hour at 90% resting motor threshold for 90?000 pulses total.
+MAIN OUTCOME AND MEASURES
+: The main outcome was repeated MADRS scores before and after treatment.
+RESULTS
+: A total of 24 participants (12 [50%] female; 12 [50%] male; mean [SD] age, 43.3 [16.9] years) were randomized to active (n = 12) or sham (n = 12) aiTBS. All participants completed treatment and 1-month follow-up. MADRS scores were significantly lower in the active group (mean [SD], 30.4 [4.8] at baseline; 10.5 [6.7] after treatment) than in the sham group (28.0 [5.4] at baseline; 25.3 [6.7] after treatment) at treatment end (estimated difference, -14.75; 95% CI, -19.73 to -9.77; P < .001; Cohen d, -2.19).
+CONCLUSION AND RELEVANCE
+: In this randomized clinical trial, aiTBS was more effective than sham stimulation for depressive symptom reduction in patients with treatment-resistant BD. Further trials are needed to determine aiTBS durability and to compare with other treatments.
+TRIAL REGISTRATION
+: ClinicalTrials.gov Identifier: NCT05228457.

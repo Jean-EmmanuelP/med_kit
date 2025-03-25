@@ -1,0 +1,22 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1093/infdis/jiae469.
+
+=== Métadonnées ===
+Chou S, Winston DJ, Avery RK, et al.
+Comparative Emergence of Maribavir and Ganciclovir Resistance in a Randomized Phase 3 Clinical Trial for Treatment of Cytomegalovirus Infection.
+J Infect Dis. 2024 Sep 20:jiae469. doi: 10.1093/infdis/jiae469.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: Among 547 patients receiving maribavir or valganciclovir for first-episode cytomegalovirus infection after hematopoietic cell transplant, the treatment response rate was 69.6% and 77.4% respectively. Development of maribavir and ganciclovir resistance was compared after receiving either drug.
+METHODS
+: Viral mutations conferring drug resistance were analyzed in plasma DNA extracts at baseline and post-treatment.
+RESULTS
+: Prior antiviral drug exposure was limited, with only 2 instances of baseline drug resistance detected. An equal number (n=241) received valganciclovir or maribavir for at least 21 days (median 55-56 days). Among them, drug resistance mutations were detected in 24 (10%) maribavir recipients at 35-125 days (median 56) after starting therapy, including in 12 of 14 who experienced a viral load rebound while on therapy. Ganciclovir resistance mutations developed in 6 (2.5%) valganciclovir recipients at 66-110 days (median 90). One maribavir recipient developed a novel UL97 gene mutation (P-loop substitution G343A) that conferred strong maribavir and ganciclovir resistance in vitro. Viral clearance was confirmed in 17 (74%) of 23 patients with emergent maribavir resistance after re-treatment with an alternative CMV antiviral drug.
+CONCLUSION
+: After 3-8 weeks of therapy, maribavir resistance emerged earlier and more frequently than ganciclovir resistance but was usually treatable using alternative therapy.
+CLINICAL TRIALS REGISTRATION
+: NCT02927067 (AURORA).

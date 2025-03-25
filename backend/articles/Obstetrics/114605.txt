@@ -1,0 +1,22 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.ajog.2024.06.038.
+
+=== Métadonnées ===
+Amro FH, Blackwell SC, Pedroza C, et al.
+Aspirin 162 mg vs 81 mg for preeclampsia prophylaxis in high-risk obese individuals: a comparative effectiveness open-label randomized trial (ASPREO).
+Am J Obstet Gynecol. 2025 Mar;232(3):315.e1-315.e8. doi: 10.1016/j.ajog.2024.06.038. Epub 2024 Jul 6.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: In the United States, leading medical societies recommend 81 mg of aspirin daily for the prevention of preeclampsia in women at risk, whereas the NICE guidelines in the United Kingdom recommend a dose as high as 150 mg of aspirin. Recent data also suggest that in the obese population, inadequate dosing or aspirin resistance may impact the efficacy of aspirin at the currently recommended doses.
+OBJECTIVE
+: We evaluated whether daily administration of 162 mg aspirin would be more effective compared with 81 mg in decreasing the rate of preeclampsia with severe features in high-risk obese pregnant individuals.
+STUDY DESIGN
+: We performed a randomized trial between May 2019 and November 2022. Individuals at 12-20 weeks of gestational age with a body mass index =30 kg/m2 at the time of enrollment and at least 1 of 3 high-risk factors: history of preeclampsia in a prior pregnancy, at least stage I hypertension documented in the index pregnancy, pregestational diabetes or gestational diabetes diagnosed before 20 weeks of gestational age were randomized to either 162 mg or 81 mg of aspirin daily till delivery, participants were not blinded to treatment allocation. Exclusion criteria were multifetal gestation, known major fetal anomalies, seizure disorder, baseline proteinuria, on aspirin because of other indications, or contraindication to aspirin. The primary outcome was preeclampsia with severe features (preeclampsia or superimposed preeclampsia with severe features; eclampsia; or hemolysis, elevated liver enzymes, low platelet count syndrome). Secondary outcomes included rates of preterm birth because of preeclampsia, small for gestational age, postpartum hemorrhage, abruption, and medication side effects. A sample size of 220 was needed using a preplanned Bayesian analysis of the primary outcome to estimate the posterior probability of benefit or harm with a neutral informative prior.
+RESULTS
+: Approximately 220/343 (64.1%) individuals were randomized. The primary outcome was available for 209/220 (95%) individuals. Baseline characteristics were similar between groups, with the median gestational age at enrollment being 15.9 weeks in the 162 mg aspirin group and 15.6 weeks in the 81 mg aspirin group. Enrollment before 16 weeks occurred in 55 of 110 of those assigned to 162 mg and 58 of 110 of those assigned to 81 mg of aspirin. The primary outcome occurred in 37 of 107 individuals (35%) in the 162 mg aspirin group and 41 of 102 individuals (40%) in the 81 mg aspirin group (posterior relative risk, 0.88; 95% credible interval, 0.64-1.22). Bayesian analysis indicated a 78% probability of a reduction in the primary outcome with 162 mg aspirin compared with 81 mg aspirin dose. Rates of indicated preterm birth because of preeclampsia (21% vs 21%), small for gestational age (6.5% vs 2.9%), abruption (2.8% vs 3.0%), and postpartum hemorrhage (10.0% vs 8.8%) were similar between groups. Medication adverse effects were also similar.
+CONCLUSION
+: Among high-risk obese individuals, there was a 78% probability of benefit that 162 mg aspirin compared with 81 mg will decrease the rate of preeclampsia with severe features. With the best estimate of a 12% reduction when using 162 mg of aspirin compared with 81 mg of aspirin in this population. This trial supports doing a larger multicenter trial.

@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1213/ANE.0000000000007419.
+
+=== Métadonnées ===
+Kitisin N, Raykateeraroj N, Hemtanon N, et al.
+Effect of Low-Dose Ketamine Infusion in the Intensive Care Unit on Postoperative Opioid Consumption and Traumatic Memories After Hospital Discharge: A Randomized Controlled Trial.
+Anesth Analg. 2025 Feb 5. doi: 10.1213/ANE.0000000000007419.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: Low-dose ketamine may have an opioid-sparing effect in critically ill patients but may also predispose them to traumatic memories. We evaluated the effects of low-dose ketamine infusion in the intensive care unit (ICU) on fentanyl consumption and traumatic memories after hospital discharge.
+METHODS
+: This randomized, double-blind, controlled trial was conducted at a university-based surgical ICU. 118 adult patients who were admitted to the ICU after noncardiac, nonneuro, nontrauma surgery between March 2019 and May 2021 were randomized to receive ketamine 1.5 µg/kg/min (n = 60) or placebo (n = 58). Fentanyl was given to achieve pain control (10-point numerical rating scale pain score [NRS] < 4) and sedation control (Richmond Agitation and Sedation Scale [RASS] level between -2 and 0). A secondary study was conducted by a telephone interview after ICU discharge using the Thai version of the posttraumatic stress disorder (PTSD) questionnaire to evaluate signs and symptoms of PTSD and traumatic memories to the time spent in the ICU.
+RESULTS
+: 24-hour fentanyl consumption was lower in patients who received ketamine compared with placebo (399 µg [95% confidence interval {CI}, 345-454] vs 468 µg [95% CI, 412-523], difference -68 µg; 95% CI, -67 to -69; P = .041); RASS and NRS scores did not differ between the 2 groups. Exploratory effect modification analysis suggested that the opioid-sparing effect of ketamine may be more relevant in patients with intraabdominal surgery (P-for-interaction = 0.012, difference, -177 µg; 95% CI, -204 to -149 µg; P = .001). No acute adverse effects of ketamine were observed. The secondary study included the information from 91 patients from the primary study. Long-term follow-up data was available for 45 patients (23 in the control group, 22 in the ketamine group), and the evaluations were taken 43 ± 8 months after ICU discharge. In this secondary study, ketamine use was associated with a higher incidence of frightening and delusional memories of critical illness and ICU treatment (65% vs 41%, P = .035).
+CONCLUSIONS
+: Low-dose ketamine is associated with a small but statistically significant reduction (15%) of postoperative opioid consumption in the ICU. Our secondary study revealed that patients who received low-dose ketamine during fentanyl-based postoperative pain therapy in the ICU recalled more frightening and delusional memories after ICU discharge.

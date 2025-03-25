@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1053/j.gastro.2024.03.017.
+
+=== Métadonnées ===
+van Kleef LA, Francque SM, Prieto-Ortiz JE, et al.
+Metabolic Dysfunction-Associated Fibrosis 5 (MAF-5) Score Predicts Liver Fibrosis Risk and Outcome in the General Population With Metabolic Dysfunction.
+Gastroenterology. 2024 Jul;167(2):357-367.e9. doi: 10.1053/j.gastro.2024.03.017. Epub 2024 Mar 19.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND & AIMS
+: There is an unmet need for noninvasive tests to improve case-finding and aid primary care professionals in referring patients at high risk of liver disease.
+METHODS
+: A metabolic dysfunction-associated fibrosis (MAF-5) score was developed and externally validated in a total of 21,797 individuals with metabolic dysfunction in population-based (National Health and Nutrition Examination Survey 2017-2020, National Health and Nutrition Examination Survey III, and Rotterdam Study) and hospital-based (from Antwerp and Bogota) cohorts. Fibrosis was defined as liver stiffness =8.0 kPa. Diagnostic accuracy was compared with FIB-4, nonalcoholic fatty liver disease fibrosis score (NFS), LiverRisk score and steatosis-associated fibrosis estimator (SAFE). MAF-5 was externally validated with liver stiffness measurement =8.0 kPa, with shear-wave elastography =7.5 kPa, and biopsy-proven steatotic liver disease according to Metavir and Nonalcoholic Steatohepatitis Clinical Research Network scores, and was tested for prognostic performance (all-cause mortality).
+RESULTS
+: The MAF-5 score comprised waist circumference, body mass index (calculated as kg / m2), diabetes, aspartate aminotransferase, and platelets. With this score, 60.9% was predicted at low, 14.1% at intermediate, and 24.9% at high risk of fibrosis. The observed prevalence was 3.3%, 7.9%, and 28.1%, respectively. The area under the receiver operator curve of MAF-5 (0.81) was significantly higher than FIB-4 (0.61), and outperformed the FIB-4 among young people (negative predictive value [NPV], 99%; area under the curve [AUC], 0.86 vs NPV, 94%; AUC, 0.51) and older adults (NPV, 94%; AUC, 0.75 vs NPV, 88%; AUC, 0.55). MAF-5 showed excellent performance to detect liver stiffness measurement =12 kPa (AUC, 0.86 training; AUC, 0.85 validation) and good performance in detecting liver stiffness and biopsy-proven liver fibrosis among the external validation cohorts. MAF-5 score >1 was associated with increased risk of all-cause mortality in (un)adjusted models (adjusted hazard ratio, 1.59; 95% CI, 1.47-1.73).
+CONCLUSIONS
+: The MAF-5 score is a validated, age-independent, inexpensive referral tool to identify individuals at high risk of liver fibrosis and all-cause mortality in primary care populations, using simple variables.

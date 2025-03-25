@@ -1,0 +1,22 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1097/SLA.0000000000006239.
+
+=== Métadonnées ===
+Boam T, Rogoyski BG, Jawaid W, et al.
+Do Children With Osteosarcoma Benefit From Pulmonary Metastasectomy?: A Systematic Review of Published Studies and "Real World" Outcomes.
+Ann Surg. 2024 Aug 1;280(2):235-240. doi: 10.1097/SLA.0000000000006239. Epub 2024 Feb 20.
+                    (
+Systematic review
+)
+
+=== Abstract ===
+OBJECTIVE
+: To critically examine the evidence-base for survival benefit of pulmonary metastasectomy (PM) for osteosarcoma (OS) in the pediatric population.
+BACKGROUND
+: PM for OS is recommended as the standard of care in both pediatric and adult treatment protocols. Recent results from the "Pulmonary Metastasectomy in Colorectal Cancer" trial demonstrate no survival benefit from PM in colorectal cancer in adults.
+METHODS
+: A systematic review was undertaken according to "Preferred Reporting Items for Systematic Reviews and Meta-Analysis" guidelines. Medline, Embase, and 2 clinical trial registers were searched for all studies detailing pediatric patients with OS (<18 years) undergoing PM with a comparison cohort group that did not receive PM.
+RESULTS
+: Eleven studies met inclusion criteria dating from 1984 to 2017. All studies were retrospective and none directly compared PM versus no PM in pediatric patients as its main objective(s). Three-year survival rates ranged from 0% to 54% for PM and 0% to 16% for no PM. No patients receiving PM were usually those with unresectable disease and/or considered to have a poor prognosis. All studies were at high risk of bias and there was marked heterogeneity in the patient selection.
+CONCLUSIONS
+: There is a weak evidence base (level IV) for a survival benefit of PM for OS in pediatric patients likely due to selection bias of "favorable cases." The included studies many of which detailed outdated treatment protocols were not designed in their reporting to specifically address the questions directly. A randomized controlled trial-while ethically challenging in a pediatric population-incorporating modern OS chemotherapy protocols is needed to crucially address any "survival benefit."

@@ -1,0 +1,22 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.jaci.2024.04.016.
+
+=== Métadonnées ===
+Sousa-Pinto B, Vieira RJ, Brozek J, et al.
+Intranasal antihistamines and corticosteroids in allergic rhinitis: A systematic review and meta-analysis.
+J Allergy Clin Immunol. 2024 Aug;154(2):340-354. doi: 10.1016/j.jaci.2024.04.016. Epub 2024 Apr 27.
+                    (
+Systematic review
+)
+
+=== Abstract ===
+BACKGROUND
+: There is insufficient systematized evidence on the effectiveness of individual intranasal medications in allergic rhinitis (AR).
+OBJECTIVES
+: We sought to perform a systematic review to compare the efficacy of individual intranasal corticosteroids and antihistamines against placebo in improving the nasal and ocular symptoms and the rhinoconjunctivitis-related quality of life of patients with perennial or seasonal AR.
+METHODS
+: The investigators searched 4 electronic bibliographic databases and 3 clinical trials databases for randomized controlled trials (1) assessing adult patients with seasonal or perennial AR and (2) comparing the use of intranasal corticosteroids or antihistamines versus placebo. Assessed outcomes included the Total Nasal Symptom Score, the Total Ocular Symptom Score, and the Rhinoconjunctivitis Quality-of-Life Questionnaire. The investigators performed random-effects meta-analyses of mean differences for each medication and outcome. The investigators assessed evidence certainty using the GRADE (Grading of Recommendations, Assessment, Development and Evaluation) approach.
+RESULTS
+: This review included 151 primary studies, most of which assessed patients with seasonal AR and displayed unclear or high risk of bias. Both in perennial and seasonal AR, most assessed treatments were more effective than placebo. In seasonal AR, azelastine-fluticasone, fluticasone furoate, and fluticasone propionate were the medications with the highest probability of resulting in moderate or large improvements in the Total Nasal Symptom Score and Rhinoconjunctivitis Quality-of-Life Questionnaire. Azelastine-fluticasone displayed the highest probability of resulting in moderate or large improvements of Total Ocular Symptom Score. Overall, evidence certainty was considered "high" in 6 of 46 analyses, "moderate" in 23 of 46 analyses, and "low"/"very low" in 17 of 46 analyses.
+CONCLUSIONS
+: Most intranasal medications are effective in improving rhinitis symptoms and quality of life. However, there are relevant differences in the associated evidence certainty.

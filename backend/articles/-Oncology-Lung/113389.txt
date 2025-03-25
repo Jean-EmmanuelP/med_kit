@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO.24.00581.
+
+=== Métadonnées ===
+Solomon BJ, Liu G, Felip E, et al.
+Lorlatinib Versus Crizotinib in Patients With Advanced ALK-Positive Non-Small Cell Lung Cancer: 5-Year Outcomes From the Phase III CROWN Study.
+J Clin Oncol. 2024 Oct 10;42(29):3400-3409. doi: 10.1200/JCO.24.00581. Epub 2024 May 31.
+                    (
+Original study
+)
+
+=== Abstract ===
+PURPOSE
+: Lorlatinib improved progression-free survival (PFS) and intracranial activity versus crizotinib in patients with previously untreated, advanced, ALK-positive non-small cell lung cancer (NSCLC) in the phase III CROWN study. Here, we report long-term outcomes from CROWN after 5 years of follow-up.
+METHODS
+: Two hundred ninety-six patients with ALK-positive NSCLC were randomly assigned 1:1 to receive lorlatinib 100 mg once daily (n = 149) or crizotinib 250 mg twice daily (n = 147). This post hoc analysis presents updated investigator-assessed efficacy outcomes, safety, and biomarker analyses.
+RESULTS
+: With a median follow-up for PFS of 60.2 and 55.1 months, respectively, median PFS was not reached (NR [95% CI, 64.3 to NR]) with lorlatinib and 9.1 months (95% CI, 7.4 to 10.9) with crizotinib (hazard ratio [HR], 0.19 [95% CI, 0.13 to 0.27]); 5-year PFS was 60% (95% CI, 51 to 68) and 8% (95% CI, 3 to 14), respectively. Median time to intracranial progression was NR (95% CI, NR to NR) with lorlatinib and 16.4 months (95% CI, 12.7 to 21.9) with crizotinib (HR, 0.06 [95% CI, 0.03 to 0.12]). Safety profile was consistent with that in prior analyses. Emerging new ALK resistance mutations were not detected in circulating tumor DNA collected at the end of lorlatinib treatment.
+CONCLUSION
+: After 5 years of follow-up, median PFS has yet to be reached in the lorlatinib group, corresponding to the longest PFS ever reported with any single-agent molecular targeted treatment in advanced NSCLC and across all metastatic solid tumors. These results coupled with prolonged intracranial efficacy and absence of new safety signals represent an unprecedented outcome for patients with advanced ALK-positive NSCLC and set a new benchmark for targeted therapies in cancer.

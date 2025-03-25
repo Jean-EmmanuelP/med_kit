@@ -1,0 +1,22 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1136/gutjnl-2024-333446.
+
+=== Métadonnées ===
+Te Groen M, Wijnands AM, den Broeder N, et al.
+Surveillance in inflammatory bowel disease: white light endoscopy with segmental re-inspection versus dye-based chromoendoscopy - a multi-arm randomised controlled trial (HELIOS).
+Gut. 2025 Jan 16:gutjnl-2024-333446. doi: 10.1136/gutjnl-2024-333446.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: It remains unclear if the increased colorectal neoplasia detection rate in inflammatory bowel disease (IBD) by high-definition (HD) dye-based chromoendoscopy compared with HD white-light endoscopy is due to enhanced contrast or increased inspection times. Longer withdrawal times may yield similar neoplasia detection rates as found by HD chromoendoscopy.
+OBJECTIVE
+: To compare colorectal neoplasia detection rates for HD white-light endoscopy with segmental re-inspection and HD chromoendoscopy, using single-pass HD white-light endoscopy as an additional control group.
+DESIGN
+: In a multicentre, randomised controlled trial, IBD patients aged =18 years without active disease and scheduled for endoscopic surveillance were included. Patients were 2:2:1 randomised to HD white-light endoscopy with segmental re-inspection of each colonic segment (double pass), HD chromoendoscopy or single-pass HD white-light endoscopy. The primary outcome was colorectal neoplasia detection rate. Assuming equal colorectal neoplasia rates (non-inferiority margin of 10%) between segmental re-inspection and chromoendoscopy and superiority of segmental re-inspection vs single-pass HD white-light endoscopy, a sample size of 566 patients was required.
+RESULTS
+: In total, 563 patients were analysed per-protocol. Colorectal neoplasia detection rates were 10.3% (n=24/234) for HD white-light endoscopy with segmental re-inspection and 13.1% (n=28/214) for HD chromoendoscopy. This confirmed non-inferiority to HD chromoendoscopy (?-2.8%, lower limit 95% CI -7.8, p<0.01). In addition, the number of detected colorectal neoplasia per 10 min of withdrawal time was similar between HD white-light endoscopy with segmental re-inspection and HD chromoendoscopy (0.062 vs 0.058, p=0.83). Single-pass HD white-light endoscopy yielded a lower colorectal neoplasia rate (6.1%; n=7/115) than segmental re-inspection but this was not statistically significant (?4.1%, 95% CI -2.2:9.6%, p=0.19).
+CONCLUSIONS
+: HD white-light endoscopy with segmental re-inspection was non-inferior to HD chromoendoscopy for colorectal neoplasia detection in IBD patients. It can therefore be assumed that the benefit of HD chromoendoscopy may be explained by the longer withdrawal time and not necessarily the enhanced contrast. However, re-inspection per se did not lead to a significantly higher colorectal neoplasia rate than single-pass HD white-light endoscopy alone.

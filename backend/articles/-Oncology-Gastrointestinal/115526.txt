@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2409408.
+
+=== Métadonnées ===
+Hoeppner J, Brunner T, Schmoor C, et al.
+Perioperative Chemotherapy or Preoperative Chemoradiotherapy in Esophageal Cancer.
+N Engl J Med. 2025 Jan 23;392(4):323-335. doi: 10.1056/NEJMoa2409408.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: The best multimodal approach for resectable locally advanced esophageal adenocarcinoma is unclear. An important question is whether perioperative chemotherapy is preferable to preoperative chemoradiotherapy.
+METHODS
+: In this phase 3, multicenter, randomized trial, we assigned in a 1:1 ratio patients with resectable esophageal adenocarcinoma to receive perioperative chemotherapy with FLOT (fluorouracil, leucovorin, oxaliplatin, and docetaxel) plus surgery or preoperative chemoradiotherapy (radiotherapy at a dose of 41.4 Gy and carboplatin and paclitaxel) plus surgery. Eligibility criteria included a primary tumor with a clinical stage of cT1 cN+, cT2-4a cN+, or cT2-4a cN0 disease, in which T indicates the size and extent of the tumor (higher numbers indicate a more advanced tumor), and N indicates the presence (N+) or absence (N0) of cancer spread to the lymph nodes, without evidence of metastatic spread. The primary end point was overall survival.
+RESULTS
+: From February 2016 through April 2020, we assigned 221 patients to the FLOT group and 217 patients to the preoperative-chemoradiotherapy group. With a median follow-up of 55 months, overall survival at 3 years was 57.4% (95% confidence interval [CI], 50.1 to 64.0) in the FLOT group and 50.7% (95% CI, 43.5 to 57.5) in the preoperative-chemoradiotherapy group (hazard ratio for death, 0.70; 95% CI, 0.53 to 0.92; P = 0.01). Progression-free survival at 3 years was 51.6% (95% CI, 44.3 to 58.4) in the FLOT group and 35.0% (95% CI, 28.4 to 41.7) in the preoperative-chemoradiotherapy group (hazard ratio for disease progression or death, 0.66; 95% CI, 0.51 to 0.85). Among the patients who started the assigned treatment, grade 3 or higher adverse events were observed in 120 of 207 patients (58.0%) in the FLOT group and in 98 of 196 patients (50.0%) in the preoperative-chemoradiotherapy group. Serious adverse events were observed in 98 of 207 patients (47.3%) in the FLOT group and in 82 of 196 patients (41.8%) in the preoperative-chemoradiotherapy group. Mortality at 90 days after surgery was 3.1% in the FLOT group and 5.6% in the preoperative-chemoradiotherapy group.
+CONCLUSIONS
+: Perioperative chemotherapy with FLOT led to improved survival among patients with resectable esophageal adenocarcinoma as compared with preoperative chemoradiotherapy. (Funded by the German Research Foundation; ESOPEC ClinicalTrials.gov number, NCT02509286.).

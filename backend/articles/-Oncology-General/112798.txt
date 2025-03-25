@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO.24.00032.
+
+=== Métadonnées ===
+Kamboj M, Bohlke K, Baptiste DM, et al.
+Vaccination of Adults With Cancer: ASCO Guideline.
+J Clin Oncol. 2024 May 10;42(14):1699-1721. doi: 10.1200/JCO.24.00032. Epub 2024 Mar 18.
+                    (
+Evidence-based guideline
+)
+
+=== Abstract ===
+PURPOSE
+: To guide the vaccination of adults with solid tumors or hematologic malignancies.
+METHODS
+: A systematic literature review identified systematic reviews, randomized controlled trials (RCTs), and nonrandomized studies on the efficacy and safety of vaccines used by adults with cancer or their household contacts. This review builds on a 2013 guideline by the Infectious Disease Society of America. PubMed and the Cochrane Library were searched from January 1, 2013, to February 16, 2023. ASCO convened an Expert Panel to review the evidence and formulate recommendations.
+RESULTS
+: A total of 102 publications were included in the systematic review: 24 systematic reviews, 14 RCTs, and 64 nonrandomized studies. The largest body of evidence addressed COVID-19 vaccines.
+RECOMMENDATIONS
+: The goal of vaccination is to limit the severity of infection and prevent infection where feasible. Optimizing vaccination status should be considered a key element in the care of patients with cancer. This approach includes the documentation of vaccination status at the time of the first patient visit; timely provision of recommended vaccines; and appropriate revaccination after hematopoietic stem-cell transplantation, chimeric antigen receptor T-cell therapy, or B-cell-depleting therapy. Active interaction and coordination among healthcare providers, including primary care practitioners, pharmacists, and nursing team members, are needed. Vaccination of household contacts will enhance protection for patients with cancer. Some vaccination and revaccination plans for patients with cancer may be affected by the underlying immune status and the anticancer therapy received. As a result, vaccine strategies may differ from the vaccine recommendations for the general healthy adult population vaccine.Additional information is available at www.asco.org/supportive-care-guidelines.

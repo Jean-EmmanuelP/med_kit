@@ -1,0 +1,28 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamanetworkopen.2024.5645.
+
+=== Métadonnées ===
+Kiser SB, Sterns JD, Lai PY, et al.
+Physician Coaching by Professionally Trained Peers for Burnout and Well-Being: A Randomized Clinical Trial.
+JAMA Netw Open. 2024 Apr 1;7(4):e245645. doi: 10.1001/jamanetworkopen.2024.5645.
+                    (
+Original study
+)
+
+=== Abstract ===
+IMPORTANCE
+: Physician burnout is problematic despite existing interventions. More evidence-based approaches are needed.
+OBJECTIVE
+: To explore the effect of individualized coaching by professionally trained peers on burnout and well-being in physicians.
+DESIGN, SETTING, AND PARTICIPANTS
+: This randomized clinical trial involved Mass General Physician Organization physicians who volunteered for coaching from August 5 through December 1, 2021. The data analysis was performed from February through October 2022.
+INTERVENTIONS
+: Participants were randomized to 6 coaching sessions facilitated by a peer coach over 3 months or a control condition using standard institutional resources for burnout and wellness.
+MAIN OUTCOMES AND MEASURES
+: The primary outcome was burnout as measured by the Stanford Professional Fulfillment Index. Secondary outcomes included professional fulfillment, effect of work on personal relationships, quality of life, work engagement, and self-valuation. Analysis was performed on a modified intention-to-treat basis.
+RESULTS
+: Of 138 physicians enrolled, 67 were randomly allocated to the coaching intervention and 71 to the control group. Most participants were aged 31 to 60 years (128 [93.0%]), women (109 [79.0%]), married (108 [78.3%]), and in their early to mid career (mean [SD], 12.0 [9.7] years in practice); 39 (28.3%) were Asian, 3 (<0.1%) were Black, 9 (<0.1%) were Hispanic, 93 were (67.4%) White, and 6 (<0.1%) were of other race or ethnicity. In the intervention group, 52 participants underwent coaching and were included in the analysis. Statistically significant improvements in burnout, interpersonal disengagement, professional fulfillment, and work engagement were observed after 3 months of coaching compared with no intervention. Mean scores for interpersonal disengagement decreased by 30.1% in the intervention group and increased by 4.1% in the control group (absolute difference, -0.94 poimys [95% CI, -1.48 to -0.41 points; P = .001), while mean scores for overall burnout decreased by 21.6% in the intervention group and increased by 2.5% in the control group (absolute difference, -0.79 points; 95% CI, -1.27 to -0.32 points; P = .001). Professional fulfillment increased by 10.7% in the intervention group compared with no change in the control group (absolute difference, 0.59 points; 95% CI, 0.01-1.16 points; P = .046). Work engagement increased by 6.3% in the intervention group and decreased by 2.2% in the control group (absolute difference, 0.33 points; 95% CI, 0.02-0.65 points; P = .04). Self-valuation increased in both groups, but not significantly.
+CONCLUSIONS AND RELEVANCE
+: The findings of this hospital-sponsored program show that individualized coaching by professionally trained peers is an effective strategy for reducing physician burnout and interpersonal disengagement while improving their professional fulfillment and work engagement.
+TRIAL REGISTRATION
+: ClinicalTrials.gov Identifier: NCT05036993.

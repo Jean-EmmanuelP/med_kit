@@ -1,0 +1,28 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jama.2024.17921.
+
+=== Métadonnées ===
+Dulai R, Sulke N, Freemantle N, et al.
+Pulmonary Vein Isolation vs Sham Intervention in Symptomatic Atrial Fibrillation: The SHAM-PVI Randomized Clinical Trial.
+JAMA. 2024 Sep 2:e2417921. doi: 10.1001/jama.2024.17921.
+                    (
+Original study
+)
+
+=== Abstract ===
+IMPORTANCE
+: There are concerns that pulmonary vein isolation for atrial fibrillation may have a profound placebo effect, but no double-blind randomized clinical trials have been conducted.
+OBJECTIVE
+: To determine whether pulmonary vein isolation is more effective than a sham procedure for improving outcomes in atrial fibrillation.
+DESIGN, SETTING, AND PARTICIPANTS
+: Double-blind randomized clinical trial conducted at 2 tertiary centers in the UK between January 2020 and March 2024 among patients with symptomatic paroxysmal or persistent atrial fibrillation. Major exclusion criteria included long-standing persistent atrial fibrillation, prior left atrium ablation, other arrhythmias requiring ablative therapy, a left atrium of 5.5 cm or larger, and ejection fraction of less than 35%.
+INTERVENTION
+: Participants were randomly assigned to receive pulmonary vein isolation with cryoablation (n = 64) or a sham procedure with phrenic nerve pacing (n = 62).
+MAIN OUTCOMES AND MEASURES
+: The primary end point was atrial fibrillation burden at 6 months, excluding a 3-month blanking period. Secondary outcomes included quality-of-life measures, time to events, and safety. Atrial fibrillation burden was measured by an implantable loop recorder.
+RESULTS
+: A total of 126 participants were randomized (mean age, 66.8 years; 89 men [70.63%]; 20.63% with paroxysmal atrial fibrillation). The absolute mean atrial fibrillation burden change from baseline to 6 months was 60.31% in the ablation group and 35.0% in the sham group (geometric mean difference, 0.25; 95% CI, 0.15-0.42; P < .001). The estimated difference in the overall Atrial Fibrillation Effect on Quality of Life score at 6 months, favoring catheter ablation, was 18.39 points (95% CI, 11.48-25.30 points). The Short Form 36 general health score also improved substantially more with ablation, with an estimated difference of 9.27 points at 6 months (95% CI, 3.78-14.76 points).
+CONCLUSIONS AND RELEVANCE
+: Pulmonary vein isolation resulted in a statistically significant and clinically important decrease in atrial fibrillation burden at 6 months, with substantial improvements in symptoms and quality of life, compared with a sham procedure.
+TRIAL REGISTRATION
+: ClinicalTrials.gov Identifier: NCT04272762.

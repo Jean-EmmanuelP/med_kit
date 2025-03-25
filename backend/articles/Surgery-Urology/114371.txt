@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.eururo.2024.08.022.
+
+=== Métadonnées ===
+Kasivisvanathan V, Wai-Shun Chan V, Clement KD, et al.
+VISION: An Individual Patient Data Meta-analysis of Randomised Trials Comparing Magnetic Resonance Imaging Targeted Biopsy with Standard Transrectal Ultrasound Guided Biopsy in the Detection of Prostate Cancer.
+Eur Urol. 2024 Sep 3:S0302-2838(24)02559-4. doi: 10.1016/j.eururo.2024.08.022.
+                    (
+Systematic review
+)
+
+=== Abstract ===
+BACKGROUND AND OBJECTIVE
+: The PRECISION and PRECISE trials compared magnetic resonance imaging targeted biopsy (MRI ± TB) with the standard transrectal ultrasound (TRUS) guided biopsy for the detection of clinically significant prostate cancer (csPCa). PRECISION demonstrated superiority of MRI ± TB over TRUS guided biopsy, while PRECISE demonstrated noninferiority. The VISION study is a planned individual patient data meta-analysis (IPDMA) comparing MRI ± TB with TRUS guided biopsy for csPCa diagnosis.
+METHODS
+: MEDLINE, EMBASE, Web of Science, Cochrane Central of Registered Trials, and ClinicalTrials.gov were searched on the November 12, 2023 for randomised controlled trials of biopsy-naïve patients with a clinical suspicion of prostate cancer undergoing MRI or standard TRUS. Studies were included if its participants with suspicious MRI underwent targeted biopsy alone and those with nonsuspicious lesion avoided biopsy. The primary outcome is the proportion of men diagnosed with csPCa (Gleason =3 + 4).
+KEY FINDINGS AND LIMITATIONS
+: Two studies, PRECISION and PRECISE (953 patients), were included in the IPDMA. In the MRI ± TB arm, 32.2% of patients avoided biopsy due to nonsuspicious MRI. MRI ± TB detected 8.7 percentage points (36.3% vs 27.6%; 95% confidence interval [CI] 2.8-14.6, p = 0.004) more csPCa than TRUS biopsy and 12.3 percentage points (9.6% vs 21.9%; 95% CI 7.8-16.9, p < 0.001) less clinically insignificant prostate cancer (cisPCa; Gleason 3 + 3). The overall risk of bias for the included studies were found to be low after assessment using the QUADAS-2, QUADAS-C, and ROB 2.0 tools.
+CONCLUSIONS AND CLINICAL IMPLICATIONS
+: The MRI ± TB pathway is superior to TRUS biopsy in detecting csPCa and avoiding the diagnosis of cisPCa. MRI should be included in the standard of care pathway for prostate cancer diagnosis.

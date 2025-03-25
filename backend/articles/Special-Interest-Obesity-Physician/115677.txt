@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.2337/dc24-2075.
+
+=== Métadonnées ===
+Caussy C, Verges B, Leleu D, et al.
+Screening for Metabolic Dysfunction-Associated Steatotic Liver Disease-Related Advanced Fibrosis in Diabetology: A Prospective Multicenter Study.
+Diabetes Care. 2025 Jan 31:dc242075. doi: 10.2337/dc24-2075.
+                    (
+Original study
+)
+
+=== Abstract ===
+OBJECTIVE
+: Screening for advanced fibrosis (AF) resulting from metabolic dysfunction-associated steatotic liver disease (MASLD) is recommended in diabetology. This study aimed to compare the performance of noninvasive tests (NITs) with that of two-step algorithms for detecting patients at high risk of AF requiring referral to hepatologists.
+RESEARCH DESIGN AND METHODS
+: We conducted a planned interim analysis of a prospective multicenter study including participants with type 2 diabetes and/or obesity and MASLD with comprehensive liver assessment comprising blood-based NITs, vibration-controlled transient elastography (VCTE), and two-dimensional shear-wave elastography (2D-SWE). AF risk stratification was determined by a composite criterion of liver biopsy, magnetic resonance elastography, or VCTE =12 kPa depending on availability.
+RESULTS
+: Of 654 patients (87% with type 2 diabetes, 56% male, 74% with obesity), 17.6% had an intermediate/high risk of AF, and 9.3% had a high risk of AF. The area under the empirical receiver operating characteristic curves of NITs for detection of high risk of AF were as follows: Fibrosis-4 (FIB-4) score, 0.78 (95% CI 0.72-0.84); FibroMeter, 0.74 (0.66-0.83); Fibrotest, 0.78 (0.72-0.85); Enhanced Liver Fibrosis (ELF) test, 0.82 (0.76-0.87); and SWE, 0.84 (0.78-0.89). Algorithms with FIB-4 score/VCTE showed good diagnostic performance for referral of patients at intermediate/high risk of AF to specialized care in hepatology. An alternative FIB-4 score/ELF test strategy showed a high negative predictive value (NPV; 88-89%) and a lower positive predictive value (PPV; 39-46%) at a threshold of 9.8. The FIB-4 score/2D-SWE strategy had an NPV of 91% and a PPV of 58-62%. The age-adapted FIB-4 score threshold resulted in lower NPVs and PPVs in all algorithms.
+CONCLUSIONS
+: The FIB-4 score/VCTE algorithm showed excellent diagnostic performance, demonstrating its applicability for routine screening in diabetology. The ELF test using an adapted low threshold at 9.8 may be used as an alternative to VCTE.

@@ -1,0 +1,22 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S0140-6736(24)01758-6.
+
+=== Métadonnées ===
+Choueiri TK, Albiges L, Barthelemy P, et al.
+Tivozanib plus nivolumab versus tivozanib monotherapy in patients with renal cell carcinoma following an immune checkpoint inhibitor: results of the phase 3 TiNivo-2 Study.
+Lancet. 2024 Oct 5;404(10460):1309-1320. doi: 10.1016/S0140-6736(24)01758-6. Epub 2024 Sep 13.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: Immune checkpoint inhibitors (ICIs) and vascular endothelial growth factor receptor tyrosine kinase inhibitors are cornerstones of first-line treatment for advanced renal cell carcinoma; however, optimal treatment sequencing after progression is unknown. This study aimed to assess clinical outcomes of tivozanib-nivolumab versus tivozanib monotherapy in patients with metastatic renal cell carcinoma who have progressed following one or two lines of therapy in the post-ICI setting.
+METHODS
+: TiNivo-2 is a multicentre, randomised, open-label, phase 3 trial at 190 sites across 16 countries, in Australia, Europe, North America, and South America. Patients with advanced renal cell carcinoma and progression during or after one to two previous lines of therapy (including one ICI) were randomised 1:1 to tivozanib (0·89 mg per day, orally) plus nivolumab (480 mg every 4 weeks, intravenously) or tivozanib (1·34 mg per day, orally). Randomisation was stratified by immediate previous therapy (ICI or non-ICI) and International Metastatic Renal Cell Carcinoma Database Consortium risk category. The primary endpoint was progression-free survival (PFS), defined as the time from randomisation to first documentation of objective progressive disease according to RECIST 1·1 or death from any cause, whichever came first, by independent radiology review. Efficacy was evaluated in the intention-to-treat population, and safety was assessed in patients who received one or more doses of the study drug. This trial was registered on ClinicalTrials.gov (NCT04987203) and is active and not recruiting.
+FINDINGS
+: From Nov 4, 2021, to June 16, 2023, 343 patients were randomly assigned to tivozanib-nivolumab (n=171) or tivozanib monotherapy (n=172). Median follow-up was 12·0 months. Median PFS was 5·7 months (95% CI 4·0-7·4) with tivozanib-nivolumab and 7·4 months (5·6-9·2) with tivozanib monotherapy (hazard ratio 1·10, 95% CI 0·84-1·43; p=0·49). Among those with an ICI as their immediate previous therapy (n=244), median PFS was 7·4 months (95% CI 5·6-9·6) with tivozanib-nivolumab and 9·2 months (7·4-10·0) with tivozanib monotherapy. With non-ICIs as the most recent therapy, lower median PFS was observed, with no difference between groups (tivozanib-nivolumab 3·7 months [95% CI 2·7-5·4] and with tivozanib monotherapy 3·7 months [1·9-7·2]). Serious adverse events occurred in 54 (32%) of 168 patients receiving tivozanib-nivolumab and 64 (37%) of 171 patients receiving tivozanib monotherapy. One (<1%) treatment-related death occurred (tivozanib group).
+INTERPRETATION
+: These data further support that ICI rechallenge should be discouraged in patients with advanced renal cell carcinoma. Furthermore, these data suggest that tivozanib monotherapy has efficacy in the post-ICI setting.
+FUNDING
+: Aveo Pharmaceuticals.

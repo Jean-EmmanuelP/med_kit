@@ -1,0 +1,26 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1136/bmj-2023-077664.
+
+=== Métadonnées ===
+Kang J, Kim HJ, Kim T, et al.
+Prenatal opioid exposure and subsequent risk of neuropsychiatric disorders in children: nationwide birth cohort study in South Korea.
+BMJ. 2024 Apr 24;385:e077664. doi: 10.1136/bmj-2023-077664.
+                    (
+Original study
+)
+
+=== Abstract ===
+OBJECTIVE
+: To investigate the potential association between prenatal opioid exposure and the risk of neuropsychiatric disorders in children.
+DESIGN
+: Nationwide birth cohort study.
+SETTING
+: From 1 January 2009 to 31 December 2020, birth cohort data of pregnant women in South Korea linked to their liveborn infants from the National Health Insurance Service of South Korea were collected.
+PARTICIPANTS
+: All 3 251 594 infants (paired mothers, n=2 369 322; age 32.1 years (standard deviation 4.2)) in South Korea from the start of 2010 to the end of 2017, with follow-up from the date of birth until the date of death or 31 December 2020, were included.
+MAIN OUTCOME MEASURES
+: Diagnosis of neuropsychiatric disorders in liveborn infants with mental and behaviour disorders (International Classification of Diseases 10th edition codes F00-99). Follow-up continued until the first diagnosis of neuropsychiatric disorder, 31 December 2020 (end of the study period), or the date of death, whichever occurred first. Eight cohorts were created: three cohorts (full unmatched, propensity score matched, and child screening cohorts) were formed, all of which were paired with sibling comparison cohorts, in addition to two more propensity score groups. Multiple subgroup analyses were performed.
+RESULTS
+: Of the 3 128 571 infants included (from 2 299 664 mothers), we identified 2 912 559 (51.3% male, 48.7% female) infants with no prenatal opioid exposure and 216 012 (51.2% male, 48.8% female) infants with prenatal opioid exposure. The risk of neuropsychiatric disorders in the child with prenatal opioid exposure was 1.07 (95% confidence interval 1.05 to 1.10) for fully adjusted hazard ratio in the matched cohort, but no significant association was noted in the sibling comparison cohort (hazard ratio 1.00 (0.93 to 1.07)). Prenatal opioid exposure during the first trimester (1.11 (1.07 to 1.15)), higher opioid doses (1.15 (1.09 to 1.21)), and long term opioid use of 60 days or more (1.95 (1.24 to 3.06)) were associated with an increased risk of neuropsychiatric disorders in the child. Prenatal opioid exposure modestly increased the risk of severe neuropsychiatric disorders (1.30 (1.15 to 1.46)), mood disorders, attention deficit hyperactivity disorder, and intellectual disability in the child.
+CONCLUSIONS
+: Opioid use during pregnancy was not associated with a substantial increase in the risk of neuropsychiatric disorders in the offspring. A slightly increased risk of neuropsychiatric disorders was observed, but this should not be considered clinically meaningful given the observational nature of the study, and limited to high opioid dose, more than one opioid used, longer duration of exposure, opioid exposure during early pregnancy, and only to some neuropsychiatric disorders.

@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1371/journal.pmed.1004427.
+
+=== Métadonnées ===
+Hezelgrave NL, Suff N, Seed P, et al.
+Comparing cervical cerclage, pessary and vaginal progesterone for prevention of preterm birth in women with a short cervix (SuPPoRT): A multicentre randomised controlled trial.
+PLoS Med. 2024 Jul 16;21(7):e1004427. doi: 10.1371/journal.pmed.1004427. eCollection 2024 Jul.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: Cervical cerclage, cervical pessary, and vaginal progesterone have each been shown to reduce preterm birth (PTB) in high-risk women, but to our knowledge, there has been no randomised comparison of the 3 interventions. The SuPPoRT "Stitch, Pessary, or Progesterone Randomised Trial" was designed to compare the rate of PTB <37 weeks between each intervention in women who develop a short cervix in pregnancy.
+METHODS AND FINDINGS
+: SuPPoRT was a multicentre, open label 3-arm randomised controlled trial designed to demonstrate equivalence (equivalence margin 20%) conducted from 1 July 2015 to 1 July 2021 in 19 obstetric units in the United Kingdom. Asymptomatic women with singleton pregnancies with transvaginal ultrasound cervical lengths measuring <25 mm between 14+0 and 23+6 weeks' gestation were eligible for randomisation (1:1:1) to receive either vaginal cervical cerclage (n = 128), cervical pessary (n = 126), or vaginal progesterone (n = 132). Minimisation variables were gestation at recruitment, body mass index (BMI), and risk factor for PTB. The primary outcome was PTB <37 weeks' gestation. Secondary outcomes included PTB <34 weeks', <30 weeks', and adverse perinatal outcome. Analysis was by intention to treat. A total of 386 pregnant women between 14+0 and 23+6 weeks' gestation with a cervical length <25 mm were randomised to one of the 3 interventions. Of these women, 67% were of white ethnicity, 18% black ethnicity, and 7.5% Asian ethnicity. Mean BMI was 25.6. Over 85% of women had prior risk factors for PTB; 39.1% had experienced a spontaneous PTB or midtrimester loss (>14 weeks gestation); and 45.8% had prior cervical surgery. Data from 381 women were available for outcome analysis. Using binary regression, randomised therapies (cerclage versus pessary versus vaginal progesterone) were found to have similar effects on the primary outcome PTB <37 weeks (39/127 versus 38/122 versus 32/132, p = 0.4, cerclage versus pessary risk difference (RD) -0.7% [-12.1 to 10.7], cerclage versus progesterone RD 6.2% [-5.0 to 17.0], and progesterone versus pessary RD -6.9% [-17.9 to 4.1]). Similarly, no difference was seen for PTB <34 and 30 weeks, nor adverse perinatal outcome. There were some differences in the mild side effect profile between interventions (vaginal discharge and bleeding) and women randomised to progesterone reported more severe abdominal pain. A small proportion of women did not receive the intervention as per protocol; however, per-protocol and as-treated analyses showed similar results. The main study limitation was that the trial was underpowered for neonatal outcomes and was stopped early due to the COVID-19 pandemic.
+CONCLUSIONS
+: In this study, we found that for women who develop a short cervix, cerclage, pessary, and vaginal progesterone were equally efficacious at preventing PTB, as judged with a 20% equivalence margin. Commencing with any of the therapies would be reasonable clinical management. These results can be used as a counselling tool for clinicians when managing women with a short cervix.
+TRIAL REGISTRATION
+: EU Clinical Trials register. EudraCT Number: 2015-000456-15, clinicaltrialsregister.eu., ISRCTN Registry: ISRCTN13364447, isrctn.com.

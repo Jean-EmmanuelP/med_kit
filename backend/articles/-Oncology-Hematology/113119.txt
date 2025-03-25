@@ -1,0 +1,28 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jama.2024.4783.
+
+=== Métadonnées ===
+Jabbour E, Kantarjian HM, Aldoss I, et al.
+Ponatinib vs Imatinib in Frontline Philadelphia Chromosome-Positive Acute Lymphoblastic Leukemia: A Randomized Clinical Trial.
+JAMA. 2024 Jun 4;331(21):1814-1823. doi: 10.1001/jama.2024.4783.
+                    (
+Original study
+)
+
+=== Abstract ===
+IMPORTANCE
+: In newly diagnosed Philadelphia chromosome-positive (Ph+) acute lymphoblastic leukemia (ALL), disease progression due to acquired resistance to first- or second-generation BCR::ABL1 tyrosine kinase inhibitors is common. Ponatinib inhibits BCR::ABL1 and all single-mutation variants, including T315I.
+OBJECTIVE
+: To compare frontline ponatinib vs imatinib in adults with newly diagnosed Ph+ ALL.
+DESIGN, SETTING, AND PARTICIPANTS
+: Global registrational, phase 3, open-label trial in adults aged 18 years or older with newly diagnosed Ph+ ALL. From January 2019 to May 2022, eligible patients at 77 sites were randomized 2:1 to ponatinib (30 mg/d) or imatinib (600 mg/d) with reduced-intensity chemotherapy, followed by single-agent ponatinib or imatinib after the cycle 20 phase of the trial. The last date of follow-up for this analysis was August 12, 2022.
+INTERVENTION
+: Patients received ponatinib, 30 mg/d, or imatinib, 600 mg/d, with reduced-intensity chemotherapy, followed by single-agent ponatinib or imatinib after cycle 20. The ponatinib dose was reduced to 15 mg on achievement of minimal residual disease-(MRD) negative complete remission.
+MAIN OUTCOMES AND MEASURES
+: The primary end point of this interim analysis was MRD-negative complete remission (=0.01% BCR::ABL1 [MR4] centrally assessed by reverse transcriptase-quantitative polymerase chain reaction), with complete remission maintained for at least 4 weeks at the end of cycle 3. The key secondary end point was event-free survival.
+RESULTS
+: Of 245 patients randomized (median age, 54 years; 133 [54.3%] female), 232 (ponatinib, n = 154; imatinib, n = 78) who had p190 or p210 dominant isoforms verified by the central laboratory were analyzed for the primary end point. The MRD-negative complete remission rate (primary end point) was significantly higher with ponatinib (34.4% [53/154]) vs imatinib (16.7% [13/78]) (risk difference, 0.18 [95% CI, 0.06-0.29]; P = .002). At the data cutoff, event-free survival had not met the prespecified number of events. Median event-free survival was not reached in the ponatinib group and was 29 months in the imatinib group. The most common adverse events were similar between treatment groups. Arterial occlusive events were infrequent and comparable between groups (ponatinib, 2.5%; imatinib, 1.2%).
+CONCLUSIONS AND RELEVANCE
+: Ponatinib demonstrated a superior rate of MRD-negative complete remission at the end of induction vs imatinib when combined with reduced-intensity chemotherapy in adults with newly diagnosed Ph+ ALL. The safety profile of ponatinib was comparable with imatinib.
+TRIAL REGISTRATION
+: ClinicalTrials.gov Identifier: NCT03589326.

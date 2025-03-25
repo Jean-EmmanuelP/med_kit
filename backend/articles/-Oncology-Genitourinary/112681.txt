@@ -1,0 +1,28 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamaoncol.2023.7291.
+
+=== Métadonnées ===
+Buyyounouski MK, Pugh SL, Chen RC, et al.
+Noninferiority of Hypofractionated vs Conventional Postprostatectomy Radiotherapy for Genitourinary and Gastrointestinal Symptoms: The NRG-GU003 Phase 3 Randomized Clinical Trial.
+JAMA Oncol. 2024 May 1;10(5):584-591. doi: 10.1001/jamaoncol.2023.7291.
+                    (
+Original study
+)
+
+=== Abstract ===
+IMPORTANCE
+: No prior trial has compared hypofractionated postprostatectomy radiotherapy (HYPORT) to conventionally fractionated postprostatectomy (COPORT) in patients primarily treated with prostatectomy.
+OBJECTIVE
+: To determine if HYPORT is noninferior to COPORT for patient-reported genitourinary (GU) and gastrointestinal (GI) symptoms at 2 years.
+DESIGN, SETTING, AND PARTICIPANTS
+: In this phase 3 randomized clinical trial, patients with a detectable prostate-specific antigen (PSA; =0.1 ng/mL) postprostatectomy with pT2/3pNX/0 disease or an undetectable PSA (<0.1 ng/mL) with either pT3 disease or pT2 disease with a positive surgical margin were recruited from 93 academic, community-based, and tertiary medical sites in the US and Canada. Between June 2017 and July 2018, a total of 296 patients were randomized. Data were analyzed in December 2020, with additional analyses occurring after as needed.
+INTERVENTION
+: Patients were randomized to receive 62.5 Gy in 25 fractions (HYPORT) or 66.6 Gy in 37 fractions (COPORT).
+MAIN OUTCOMES AND MEASURES
+: The coprimary end points were the 2-year change in score from baseline for the bowel and urinary domains of the Expanded Prostate Cancer Composite Index questionnaire. Secondary objectives were to compare between arms freedom from biochemical failure, time to progression, local failure, regional failure, salvage therapy, distant metastasis, prostate cancer-specific survival, overall survival, and adverse events.
+RESULTS
+: Of the 296 patients randomized (median [range] age, 65 [44-81] years; 100% male), 144 received HYPORT and 152 received COPORT. At the end of RT, the mean GU change scores among those in the HYPORT and COPORT arms were neither clinically significant nor different in statistical significance and remained so at 6 and 12 months. The mean (SD) GI change scores for HYPORT and COPORT were both clinically significant and different in statistical significance at the end of RT (-15.52 [18.43] and -7.06 [12.78], respectively; P < .001). However, the clinically and statistically significant differences in HYPORT and COPORT mean GI change scores were resolved at 6 and 12 months. The 24-month differences in mean GU and GI change scores for HYPORT were noninferior to COPORT using noninferiority margins of -5 and -6, respectively, rejecting the null hypothesis of inferiority (mean [SD] GU score: HYPORT, -5.01 [15.10] and COPORT, -4.07 [14.67]; P = .005; mean [SD] GI score: HYPORT, -4.17 [10.97] and COPORT, -1.41 [8.32]; P = .02). With a median follow-up for censored patients of 2.1 years, there was no difference between HYPORT vs COPORT for biochemical failure, defined as a PSA of 0.4 ng/mL or higher and rising (2-year rate, 12% vs 8%; P = .28).
+CONCLUSIONS AND RELEVANCE
+: In this randomized clinical trial, HYPORT was associated with greater patient-reported GI toxic effects compared with COPORT at the completion of RT, but both groups recovered to baseline levels within 6 months. At 2 years, HYPORT was noninferior to COPORT in terms of patient-reported GU or GI toxic effects. HYPORT is a new acceptable practice standard for patients receiving postprostatectomy radiotherapy.
+TRIAL REGISTRATION
+: ClinicalTrials.gov Identifier: NCT03274687.

@@ -1,0 +1,28 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.apmr.2024.11.008.
+
+=== Métadonnées ===
+Kurniawan S, Mubarak H, Sam N, et al.
+Enhancing Hand Motor Recovery Poststroke: A Comparative Study of Robotic vs Conventional Mirror Therapy.
+Arch Phys Med Rehabil. 2024 Nov 29:S0003-9993(24)01365-0. doi: 10.1016/j.apmr.2024.11.008.
+                    (
+Original study
+)
+
+=== Abstract ===
+OBJECTIVE
+: To evaluate the therapeutic effect of using a robotic exoskeletal hand (RMT) combined with mirror therapy (MT) in hand rehabilitation for poststroke patients, compared to conventional MT.
+DESIGN
+: Randomized controlled trial.
+SETTING
+: Physical Medicine and Rehabilitation Outpatient Clinic.
+PARTICIPANTS
+: Forty poststroke subjects.
+INTERVENTIONS
+: Participants were divided into 2 groups: one received robotic exoskeletal hand therapy combined with mirror therapy (RMT+MT), and the other received conventional MT. The intervention lasted for 6 weeks.
+MAIN OUTCOME MEASURES
+: Hand motor function abilities were assessed using the Fugl-Meyer Assessment for Upper Extremities (FMA-UE)-Hand Motor Domain, and finger dexterity was evaluated with the Nine-Hole Peg Test (NHPT).
+RESULTS
+: The RMT group showed significant improvement in hand motor function, with a median FMA-UE-Hand Motor Domain score increasing from 6 to 14 (P=.000). Finger dexterity also improved significantly in the RMT group (P=.000). The conventional MT group demonstrated significant improvements in both the FMA-UE-Hand Motor Domain (P=.001) and NHPT (P=.000). However, the RMT group achieved greater improvements, with significant differences between the 2 groups in both FMA-UE-Hand Motor Domain (P=.038) and NHPT (P=.026) scores.
+CONCLUSIONS
+: RMT is significantly more effective in restoring hand motor skills and improving finger dexterity in patients with poststroke rehabilitation compared to conventional MT.

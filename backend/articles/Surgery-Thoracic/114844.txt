@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.athoracsur.2024.09.006.
+
+=== Métadonnées ===
+Li B, Wang Z, Sun Y, et al.
+Ten-Year Survivals of Right Thoracic vs Left Thoracic Approach for Esophageal Cancer.
+Ann Thorac Surg. 2025 Mar;119(3):643-650. doi: 10.1016/j.athoracsur.2024.09.006. Epub 2024 Sep 16.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: Esophagectomy can be performed using various surgical techniques. The aim of this study was to understand the impact of surgery on long-term survival for esophageal cancer.
+METHODS
+: Between May 2010 and July 2012, 300 patients with esophageal cancer were randomly assigned to undergo esophagectomy with either a left or right thoracic approach. Disease-free survival (DFS) and overall survival (OS) were compared based on the per-protocol principle among 286 patients with esophageal squamous cell carcinoma determined by postoperative pathologic results (146 in the right and 140 in the left thoracic arms).
+RESULTS
+: The median DFS was 92 months in the right thoracic arm and 41 months in the left thoracic arm (hazard ratio, 0.73; 95% CI, 0.54-0.99; P = .045), with a cumulative 10-year DFS of 47.6% and 37.5%, respectively. The median OS was 136 months in the right thoracic arm and 99 months in the left thoracic arm (hazard ratio, 0.75; 95% CI, 0.54-1.04; P = .081), with cumulative 10-year OS of 52.4% and 43.7%, respectively. DFS and OS were comparable between the 2 arms for patients without lymph node metastasis. Conversely, for patients with lymph node metastasis, 10-year DFS was 32.7% and 21.4%, respectively (P = .018), and 10-year OS of the right and left thoracic arms was 37.9% and 25.9%, respectively (P = .012).
+CONCLUSIONS
+: Compared with the left thoracic approach, patients who underwent esophagectomy through the right thoracic approach had better 10-year survival rates, and the survival benefit was significant for those with lymph node metastasis.

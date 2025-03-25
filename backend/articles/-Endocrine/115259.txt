@@ -1,0 +1,28 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamanetworkopen.2024.48809.
+
+=== Métadonnées ===
+Kahlon MK, Aksan NS, Aubrey R, et al.
+Glycemic Control With Layperson-Delivered Telephone Calls vs Usual Care for Patients With Diabetes: A Randomized Clinical Trial.
+JAMA Netw Open. 2024 Dec 2;7(12):e2448809. doi: 10.1001/jamanetworkopen.2024.48809.
+                    (
+Original study
+)
+
+=== Abstract ===
+IMPORTANCE
+: Diabetes is associated with emotional distress and poor mental health, especially for individuals with low income, hindering patients' ability to manage their condition. The health care system's workforce constraints limit its capacity to holistically support patients.
+OBJECTIVE
+: To assess the effectiveness of layperson-delivered empathetic engagement over the telephone in helping improve glycemic management for patients with diabetes.
+DESIGN, SETTING, AND PARTICIPANTS
+: This parallel-arm randomized clinical trial with blinded outcome assessment was conducted from February 12, 2022, to April 15, 2023, with final measurements on November 18, 2023, among 260 patients with uncontrolled diabetes from a federally qualified health center in Austin, Texas, engaging telephonically from home.
+INTERVENTION
+: Patients assigned to the intervention group received empathy-oriented telephone calls by community-hired laypeople for 6 months, while those assigned to the control group received usual care. Patients were stratified by baseline score (=5 vs <5) on the depressive symptom scale of the 9-item Patient Health Questionnaire (PHQ-9).
+MAIN OUTCOMES AND MEASURES
+: The primary outcome was hemoglobin A1c level at baseline, 3 months, and 6 months, assessed for interaction between time and trial arm. Secondary outcomes were self-perceptions of managing diabetes, diabetes-related behaviors and distress, and mental health symptoms (measured via surveys). Analysis was performed on an intention-to-treat basis.
+RESULTS
+: Of 260 participants (mean [SD] age, 49.5 [10.1] years; 163 of 259 women [62.9%]; 176 of 203 [86.7%] with annual income <$40?000) enrolled, 6 withdrew. At 6 months, 204 of 254 (80.3%; intervention, 109 of 127 [85.8%] and control, 95 of 127 [74.8%]) returned for measurements. Participants in the intervention group had statistically significant mean (SD) decreases in hemoglobin A1c level at 6 months (from 10.0% [1.9%] to 9.3% [2.0%]) compared with those in the control group (from 9.8% [1.6%] to 9.7% [2.3%]) (P = .004). The within-person change in hemoglobin A1c level was -0.7% (95% CI, -1.0% to -0.4%) for the intervention group and 0.02% (95% CI, -0.4% to 0.4%) for the control group. For the subgroup with a PHQ-9 score of 5 or more at baseline (38.1% [99 of 260]), the within-person change in hemoglobin A1c was -1.1% (95% CI, -1.8% to -0.5%) for the intervention group and 0.1% (95% CI, -0.7% to 0.8%; P = .004) for the control group. For the subgroup with a PHQ-9 score less than 5, the within-person change in hemoglobin A1c was -0.4% (95% CI, -0.8% to -0.1%) for the intervention group and -0.02% (95% CI, -0.5% to 0.5%; P = .21) for the control group. At 6 months, 91.7% of the participants (99 of 108) responded that the program was very or extremely beneficial.
+CONCLUSIONS AND RELEVANCE
+: In this randomized clinical trial of telephone-based layperson-delivered empathetic engagement, patients with diabetes and low income achieved clinically meaningful improvements in glycemic control. With workforce constraints, layperson-delivered programs for diabetes show promise.
+TRIAL REGISTRATION
+: ClinicalTrials.gov Identifier: NCT05173675.

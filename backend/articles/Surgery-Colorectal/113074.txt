@@ -1,0 +1,28 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.ijnurstu.2024.104765.
+
+=== Métadonnées ===
+Liao WC, Cheng YY, Hsu CK, et al.
+Effects of early warm water sitz bath on urinary retention and pain after haemorrhoidectomy: A randomized controlled trial.
+Int J Nurs Stud. 2024 Jun;154:104765. doi: 10.1016/j.ijnurstu.2024.104765. Epub 2024 Mar 31.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: Haemorrhoids are a common chronic anorectal disease, and haemorrhoidectomy is the standard treatment for advanced (grade III and IV) haemorrhoids. Warm water sitz has commonly been used to stimulate urination, cleanse wounds, and decrease pain. Although urinary retention and pain usually occur within the first 24?h after surgery, the warm water sitz bath is provided 24?h after haemorrhoidectomy, which might be a missed opportunity to optimize the quality and efficiency of the care provided.
+OBJECTIVE
+: To investigate the effect of early warm water sitz bath on the day of haemorrhoidectomy surgery on preventing urinary retention and reducing wound pain.
+DESIGN
+: This was a longitudinal double-blind study with a permuted block randomization design.
+SETTING(S)
+: This study was conducted in a surgical ward of a medical center. An average of 18 patients receiving hemorrhoid surgery in that ward every month.
+PARTICIPANTS
+: A total of 64 participants (32 each in the experimental and control groups) were enrolled. (The first recruitment date is January 16, 2020.) METHODS: Patients who received haemorrhoidectomy for grade III or IV haemorrhoids from January to December 2020 were enrolled. The experimental and control groups received the same conventional treatment and care before the haemorrhoidectomy. The experimental group started warm-water sitz bath 6?h after the surgery, and the control group started warm water sitz bath on post-haemorrhoidectomy day 1 as usual. Urinary retention was defined as use of Foley catheter during the hospital stay or remaining urine volume???300?ml using the bladder scan. A numerical rating scale was used to rate the pain level. Each participant was evaluated 6 times in total until hospital discharge. The data were analysed by descriptive statistics, chi-square test, and independent samples t test. Generalized estimating equations and intention to treat were used to identify changes in urinary retention and pain over time and missing data, respectively.
+RESULTS
+: There was no significant difference in the degree of change in the number of people with urinary retention between groups. A change in the wound pain index was noted; the study group had a statistically significant lower pain score than the control group (B?=?-0.81, 95?% CI: -1.44 to -0.18).
+CONCLUSIONS
+: Early warm water sitz bath was a safe and effective strategy to decrease post-haemorrhoidectomy pain, but not urinary retention. Nurses could provide early warm water sitz bath for post-haemorrhoidectomy patients' comfort.
+REGISTRATION
+: ClinicalTrials.gov ID: NCT04535765.

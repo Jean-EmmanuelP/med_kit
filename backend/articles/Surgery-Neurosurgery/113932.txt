@@ -1,0 +1,22 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.2106/JBJS.23.00775.
+
+=== Métadonnées ===
+Simoes de Souza NF, Broekema AEH, Reneman MF, et al.
+Posterior Cervical Foraminotomy Compared with Anterior Cervical Discectomy with Fusion for Cervical Radiculopathy: Two-Year Results of the FACET Randomized Noninferiority Study.
+J Bone Joint Surg Am. 2024 Sep 18;106(18):1653-1663. doi: 10.2106/JBJS.23.00775. Epub 2024 Jul 24.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: Posterior cervical foraminotomy (posterior surgery) is a valid alternative to anterior discectomy with fusion (anterior surgery) as a surgical treatment of cervical radiculopathy, but the quality of evidence has been limited. The purpose of this study was to compare the clinical outcome of these treatments after 2 years of follow-up. We hypothesized that posterior surgery would be noninferior to anterior surgery.
+METHODS
+: This multicenter, randomized, noninferiority trial assessed patients with single-level cervical radiculopathy in 9 Dutch hospitals with a follow-up duration of 2 years. The primary outcomes measured reduction of cervical radicular pain and were the success ratio based on the Odom criteria, and arm pain and decrease in arm pain, evaluated with the visual analog scale, with a 10% noninferiority margin, which represents the maximum acceptable difference between the new treatment (posterior surgery) and the standard treatment (anterior surgery), beyond which the new treatment would be considered clinically unacceptable. The secondary outcomes were neck pain, Neck Disability Index, Work Ability Index, quality of life, complications (including reoperations), and treatment satisfaction. Generalized linear mixed effects modeling was used for analyses. The study was registered at the Overview of Medical Research in the Netherlands (OMON), formerly the Netherlands Trial Register (NTR5536).
+RESULTS
+: From January 2016 to May 2020, 265 patients were randomized (132 to the posterior surgery group and 133 to the anterior surgery group). Among these, 25 did not have the allocated intervention; 11 of these 25 patients had symptom improvement, and the rest of the patients did not have the intervention due to various reasons. At the 2-year follow-up, of 243 patients, primary outcome data were available for 236 patients (97%). Predicted proportions of a successful outcome were 0.81 after posterior surgery and 0.74 after anterior surgery (difference in rate, -0.06 [1-sided 95% confidence interval (CI), -0.02]), indicating the noninferiority of posterior surgery. The between-group difference in arm pain was -2.7 (1-sided 95% CI, 7.4) and the between-group difference in the decrease in arm pain was 1.5 (1-sided 95% CI, 8.2), both confirming the noninferiority of posterior surgery. The secondary outcomes demonstrated small between-group differences. Serious surgery-related adverse events occurred in 9 patients (8%) who underwent posterior surgery, including 9 reoperations, and 11 patients (9%) who underwent anterior surgery, including 7 reoperations (difference in reoperation rate, -0.02 [2-sided 95% CI, -0.09 to 0.05]).
+CONCLUSIONS
+: This trial demonstrated that, after a 2-year follow-up, posterior surgery was noninferior to anterior surgery with regard to the success rate and arm pain reduction in patients with cervical radiculopathy.
+LEVEL OF EVIDENCE
+: Therapeutic Level I . See Instructions for Authors for a complete description of levels of evidence.

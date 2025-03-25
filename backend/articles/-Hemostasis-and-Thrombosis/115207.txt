@@ -1,0 +1,22 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S0140-6736(24)01820-8.
+
+=== Métadonnées ===
+Nogueira RG, Jovin TG, Liu X, et al.
+Endovascular therapy for acute vertebrobasilar occlusion (VERITAS): a systematic review and individual patient data meta-analysis.
+Lancet. 2025 Jan 4;405(10472):61-69. doi: 10.1016/S0140-6736(24)01820-8. Epub 2024 Dec 12.
+                    (
+Systematic review
+)
+
+=== Abstract ===
+BACKGROUND
+: Trials of endovascular therapy for basilar artery occlusion, including vertebral occlusion extending into the basilar artery, have shown inconsistent results. We aimed to pool data to estimate safety and efficacy and to explore the benefit across pre-specified subgroups through individual patient data meta-analysis.
+METHODS
+: VERITAS was a systematic review and meta-analysis that pooled patient-level data from trials that recruited patients with vertebrobasilar ischaemic stroke who were randomly assigned to treatment with either endovascular therapy or standard medical treatment alone. We included studies done between Jan 1, 2010, and Sept 1, 2023. The primary outcome was 90-day favourable functional status (modified Rankin Scale [mRS] score 0-3, with a score of 3 indicating moderate disability). Safety outcomes were symptomatic intracranial haemorrhage and 90-day mortality.
+FINDINGS
+: We screened 934 titles and abstracts. Of these, seven (<1%) full texts were screened. We included four trials (ATTENTION, BAOCHE, BASICS, and BEST). The pooled data included 988 patients (556 [56%] in the intervention groups and 432 [44%] in the control groups; median age 67 years [IQR 58-74]; 686 (69%) were male and 302 (31%) were female). 904 (91%) patients were randomly assigned within 12 h of estimated stroke onset. Three RCTs were done in a Chinese population and one included European and Brazilian patients. The proportion of patients achieving favourable functional status was higher in the endovascular therapy than control group (90-day mRS score 0-3 in 251 [45%] participants vs 128 [30%]; adjusted common odds ratio 2·41 [95% CI 1·78-3·26]; p<0·0001). Endovascular therapy led to an increase in functional independence (mRS score 0-2 in 194 [35%] participants vs 89 [21%]; 2·52 [1·82-3·48]; p<0·0001) as well as a reduction in both the degree of overall disability (2·09 [1·61-2·71]; p<0·0001) and mortality (198 [36%] of 556 patients vs 196 [45%] of 432; 0·60 [0·45-0·80]; p<0·0001) at 90 days, despite higher rates of symptomatic intracranial haemorrhage (30 [5%] of 548 vs two [<1%] of 413; 11·98 [2·82-50·81]; p<0·0001). Heterogeneity of treatment effect was noted for baseline stroke severity (uncertain effect in baseline National Institutes of Health Stroke Scale <10) and occlusion site (greater benefit with more proximal occlusions) but not across subgroups defined by age, sex, baseline posterior circulation Alberta Stroke Program Early CT Score, presence of atrial fibrillation or intracranial atherosclerotic disease, and time from onset to imaging.
+INTERPRETATION
+: VERITAS supports the robust benefit of endovascular therapy in patients with vertebrobasilar artery occlusion with moderate to severe symptoms, with approximately 2·5-times increased likelihood of achieving a favourable functional outcome. Despite a significant increase in symptomatic intracranial haemorrhage risk, endovascular therapy for vertebrobasilar artery occlusion was associated with a significant reduction in both overall disability and mortality. Although the benefit of endovascular therapy remains uncertain for patients vertebrobasilar artery occlusion presenting with mild stroke severity and extensive infarcts on neuroimaging, we found a significant clinical benefit across a range of patients with vertebrobasilar artery occlusion.
+FUNDING
+: None.

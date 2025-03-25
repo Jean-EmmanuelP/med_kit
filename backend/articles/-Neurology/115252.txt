@@ -1,0 +1,28 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamaneurol.2024.4164.
+
+=== Métadonnées ===
+Coerver EME, Fung WH, de Beukelaar J, et al.
+Discontinuation of First-Line Disease-Modifying Therapy in Patients With Stable Multiple Sclerosis: The DOT-MS Randomized Clinical Trial.
+JAMA Neurol. 2025 Feb 1;82(2):123-131. doi: 10.1001/jamaneurol.2024.4164.
+                    (
+Original study
+)
+
+=== Abstract ===
+IMPORTANCE
+: Increasing numbers of people with multiple sclerosis (MS) use disease-modifying therapy (DMT). Long-term stable disease while taking such medications provides a rationale for considering DMT discontinuation given patient burden, costs, and potential adverse effects of immunomodulating therapy.
+OBJECTIVE
+: To investigate whether first-line DMT can be safely discontinued in patients with long-term stable MS.
+DESIGN, SETTING, AND PARTICIPANTS
+: This multicenter, rater-blinded, noninferiority randomized clinical trial was conducted between July 1, 2020, and March 20, 2023, at 14 Dutch centers. Data analysis was performed between July 2023 and January 2024. Key inclusion criteria were relapse-onset MS, aged 18 years or older, without relapses, and without substantial magnetic resonance imaging (MRI) activity in the previous 5 years under first-line DMT. Participants were randomized 1:1 to discontinue or continue first-line DMT.
+INTERVENTION
+: Discontinuation of first-line DMT.
+MAIN OUTCOME AND MEASURE
+: The primary outcome was significant inflammatory disease activity, defined as relapse and/or 3 or more new T2 lesions or 2 or more contrast-enhancing lesions on brain MRI.
+RESULTS
+: Of 163 potentially eligible participants, 89 participants were included in the trial at the moment of early termination. Forty-four participants (49.4%) were assigned to the continue group and 45 participants (50.6%) were assigned to the discontinue group. Median (IQR) age was 54.0 (49.0-59.0) years, and 60 participants (67.4%) were female. Two participants in the continue group were lost to follow-up. After a median (IQR) follow-up time of 15.3 (11.4-23.9) months, the trial was prematurely terminated because of inflammatory disease activity recurrence above the predefined limit. In total, 8 of 45 participants in the discontinue group (17.8%) vs 0 of 44 participants in the continue group reached the primary end point and had recurrent, mostly radiological inflammation. Two of these 8 participants had a clinical relapse. Median (IQR) time to disease activity was 12.0 (6.0-12.0) months.
+CONCLUSIONS AND RELEVANCE
+: In this randomized clinical trial, even in patients with long-term MS stable for over 5 years, first-line DMT discontinuation can lead to recurrence of inflammatory disease activity. Although this study cohort was relatively small, the recurrence of inflammation in the discontinue group was significantly higher than in the continue group and also higher than in the previously published DISCOMS trial, which only included individuals aged 55 years or older. This study provides additional data, especially in a younger population and including longitudinal biomarker measurements, for informed decision-making in cases when treatment discontinuation is considered.
+TRIAL REGISTRATION
+: ClinicalTrials.gov Identifier: NCT04260711.

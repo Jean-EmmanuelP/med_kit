@@ -1,0 +1,22 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S2213-2600(24)00269-8.
+
+=== Métadonnées ===
+Yue D, Wang W, Liu H, et al.
+Perioperative tislelizumab plus neoadjuvant chemotherapy for patients with resectable non-small-cell lung cancer (RATIONALE-315): an interim analysis of a randomised clinical trial.
+Lancet Respir Med. 2025 Feb;13(2):119-129. doi: 10.1016/S2213-2600(24)00269-8. Epub 2024 Nov 21.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: Treatment guidelines recommend neoadjuvant or adjuvant chemotherapy, with or without immune checkpoint inhibitors, for resectable non-small-cell lung cancer (NSCLC). We report the interim results for the phase 3 RATIONALE-315 study, which aimed to investigate perioperative tislelizumab for the treatment of resectable NSCLC.
+METHODS
+: RATIONALE-315 is a randomised, double-blind, placebo-controlled phase 3 trial conducted at 50 sites (hospitals or academic research centres) in China. Patients (aged =18 years) with untreated stage II-IIIA squamous or non-squamous NSCLC were randomly assigned (1:1) to neoadjuvant tislelizumab 200 mg or placebo intravenously every 3 weeks, plus platinum-based doublet chemotherapy followed by surgery and adjuvant tislelizumab 400 mg or placebo every 6 weeks. Dual primary endpoints were major pathological response rate and event-free survival, analysed by intention to treat. Safety was also assessed in all patients who received at least one dose of study treatment. RATIONALE-315 is registered with ClinicalTrials.gov, NCT04379635, and is active but not recruiting.
+FINDINGS
+: Between June 8, 2020, and Aug 31, 2022, 453 patients were assigned to tislelizumab (n=226) or placebo (n=227). The median age of patients was 62·0 years (IQR 56·0-67·0). 410 (91%) of 453 patients were male and 43 (9%) were female. As of Aug 21, 2023 (data cutoff for the interim analysis of event-free survival), median duration of follow-up was 22·0 months (IQR 15·5-28·0). Tislelizumab significantly improved event-free survival versus placebo (stratified hazard ratio 0·56 [95% CI 0·40-0·79]; one-sided p=0·0003). The major pathological response rate was significantly higher in the tislelizumab group (56% [95% CI 50-63]) than in the placebo group (15% [11-20]; difference 41% [33-49]; one-sided p<0·0001). Grade 3 or worse adverse events and serious treatment-related adverse events occurred in 163 (72%) of 226 patients and 35 (15%) of 226 patients, respectively, in the tislelizumab group, and in 150 (66%) and 18 (8%) patients, respectively, in the placebo group. The most common grade 3 or worse treatment-related adverse event was decreased neutrophil count (138 [61%] of 226 in the tislelizumab group vs 134 [59%] of 226 in the placebo group). 31 (14%) of 226 patients in the tislelizumab group and 45 (20%) of 227 patients in the placebo group died during the study.
+INTERPRETATION
+: Perioperative tislelizumab plus neoadjuvant chemotherapy showed a clinically meaningful and statistically significant improvement in efficacy and a manageable safety profile compared with neoadjuvant chemotherapy in patients with resectable stage II-IIIA NSCLC.
+FUNDING
+: BeiGene.

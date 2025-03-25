@@ -1,0 +1,28 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jama.2024.8523.
+
+=== Métadonnées ===
+Garg AX, Arnold JB, Cuerden MS, et al.
+Hypertension and Kidney Function After Living Kidney Donation.
+JAMA. 2024 Jul 23;332(4):287-299. doi: 10.1001/jama.2024.8523.
+                    (
+Original study
+)
+
+=== Abstract ===
+IMPORTANCE
+: Recent guidelines call for better evidence on health outcomes after living kidney donation.
+OBJECTIVE
+: To determine the risk of hypertension in normotensive adults who donated a kidney compared with nondonors of similar baseline health. Their rates of estimated glomerular filtration rate (eGFR) decline and risk of albuminuria were also compared.
+DESIGN, SETTING, AND PARTICIPANTS
+: Prospective cohort study of 924 standard-criteria living kidney donors enrolled before surgery and a concurrent sample of 396 nondonors. Recruitment occurred from 2004 to 2014 from 17 transplant centers (12 in Canada and 5 in Australia); follow-up occurred until November 2021. Donors and nondonors had the same annual schedule of follow-up assessments. Inverse probability of treatment weighting on a propensity score was used to balance donors and nondonors on baseline characteristics.
+EXPOSURE
+: Living kidney donation.
+MAIN OUTCOMES AND MEASURES
+: Hypertension (systolic blood pressure [SBP] =140 mm Hg, diastolic blood pressure [DBP] =90 mm Hg, or antihypertensive medication), annualized change in eGFR (starting 12 months after donation/simulated donation date in nondonors), and albuminuria (albumin to creatinine ratio =3 mg/mmol [=30 mg/g]).
+RESULTS
+: Among the 924 donors, 66% were female; they had a mean age of 47 years and a mean eGFR of 100 mL/min/1.73 m2. Donors were more likely than nondonors to have a family history of kidney failure (464/922 [50%] vs 89/394 [23%], respectively). After statistical weighting, the sample of nondonors increased to 928 and baseline characteristics were similar between the 2 groups. During a median follow-up of 7.3 years (IQR, 6.0-9.0), in weighted analysis, hypertension occurred in 161 of 924 donors (17%) and 158 of 928 nondonors (17%) (weighted hazard ratio, 1.11 [95% CI, 0.75-1.66]). The longitudinal change in mean blood pressure was similar in donors and nondonors. After the initial drop in donors' eGFR after nephrectomy (mean, 32 mL/min/1.73 m2), donors had a 1.4-mL/min/1.73 m2 (95% CI, 1.2-1.5) per year lesser decline in eGFR than nondonors. However, more donors than nondonors had an eGFR between 30 and 60 mL/min/1.73 m2 at least once in follow-up (438/924 [47%] vs 49/928 [5%]). Albuminuria occurred in 132 of 905 donors (15%) and 95 of 904 nondonors (11%) (weighted hazard ratio, 1.46 [95% CI, 0.97-2.21]); the weighted between-group difference in the albumin to creatinine ratio was 1.02 (95% CI, 0.88-1.19).
+CONCLUSIONS AND RELEVANCE
+: In this cohort study of living kidney donors and nondonors with the same follow-up schedule, the risks of hypertension and albuminuria were not significantly different. After the initial drop in eGFR from nephrectomy, donors had a slower mean rate of eGFR decline than nondonors but were more likely to have an eGFR between 30 and 60 mL/min/1.73 m2 at least once in follow-up.
+TRIAL REGISTRATION
+: ClinicalTrials.gov Identifier: NCT00936078.

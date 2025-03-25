@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1161/STROKEAHA.124.048536.
+
+=== Métadonnées ===
+Gunkan A, Ferreira MY, Vilardo M, et al.
+Thrombolysis for Ischemic Stroke Beyond the 4.5-Hour Window: A Meta-Analysis of Randomized Clinical Trials.
+Stroke. 2025 Mar;56(3):580-590. doi: 10.1161/STROKEAHA.124.048536. Epub 2025 Jan 30.
+                    (
+Systematic review
+)
+
+=== Abstract ===
+BACKGROUND
+: A minority of patients with stroke qualify for intravenous thrombolysis (IVT) within 4.5-hour window. The safety and efficacy of IVT beyond this period have not been well studied.
+METHODS
+: We systematically searched MEDLINE, Embase, Cochrane, and ClinicalTrials.gov for relevant randomized clinical trials. Randomized clinical trials comparing IVT versus standard medical care in patients with ischemic stroke beyond 4.5 hours of symptom onset or last known well without mechanical thrombectomy (MT) were included. Primary outcomes were excellent (modified Rankin Scale score of 0-1) and good (modified Rankin Scale score of 0-2) functional outcomes at 90 days, symptomatic intracerebral hemorrhage (sICH), and death at 90 days. Pooled odds ratios (ORs) with 95% CIs were calculated using a random-effects model. Heterogeneity was assessed by Q test and quantified by I² values.
+RESULTS
+: Eight randomized clinical trials (1742 patients; mean age, 69.8±9 years, 63.5% men) were included. Compared with standard medical care, IVT achieved higher rates of excellent (OR, 1.43 [95% CI, 1.17-1.75]; Q=2.30; P=0.94; I2=0%) and good functional outcomes (OR, 1.36 [95% CI, 1.12-1.66]; Q=2.07; P=0.96; I2=0%) at 90 days but also increased sICH rates (OR, 4.25 [95% CI, 1.67-10.84], Q=0.48; P=0.99; I2=0%). Mortality at 90 days did not significantly differ between treatment groups (OR, 1.28 [95% CI, 0.87-1.89]; Q=4.63; P=0.59; I2=0%). Subanalyses yielded numerically higher odds of excellent functional outcomes when patients were selected with perfusion imaging (3 studies, OR, 1.45 [95% CI, 1.08-1.94]) compared with diffusion-weighted imaging-fluid-attenuated inversion recovery mismatch (3 studies, OR, 1.34 [95% CI, 0.94-1.91]) and when treated with tenecteplase (3 studies, OR, 1.47 [95% CI, 1.06-2.04]) compared with alteplase (5 studies, OR, 1.38 [95% CI, 1.08-1.78]).
+CONCLUSIONS
+: IVT for ischemic stroke beyond 4.5 hours, without MT, led to increased odds of excellent and good functional outcomes compared with standard medical care, despite higher odds of sICH, and a nonsignificant numerical increase in mortality.

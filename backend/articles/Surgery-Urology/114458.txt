@@ -1,0 +1,28 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamanetworkopen.2024.34143.
+
+=== Métadonnées ===
+Shirk JD, Reiter RE, Wallen EM, et al.
+Trifecta Outcomes After Use of 3-Dimensional Digital Models for Planning of Robotic Prostatectomy: A Secondary Analysis of a Randomized Clinical Trial.
+JAMA Netw Open. 2024 Sep 3;7(9):e2434143. doi: 10.1001/jamanetworkopen.2024.34143.
+                    (
+Original study
+)
+
+=== Abstract ===
+IMPORTANCE
+: Planning complex operations such as robotic-assisted laparoscopic radical prostatectomy (RALP) requires surgeons to review 2-dimensional magnetic resonance imaging (MRI) scans to understand 3-dimensional (3D) patient anatomy. Three-dimensional digital models for planning RALP may allow better understanding of patient anatomy and may lead to better patient outcomes, although data are currently limited.
+OBJECTIVE
+: To determine surgical outcomes after RALP when surgeons reviewed 3D digital models during operative planning.
+DESIGN, SETTING, AND PARTICIPANTS
+: This study was a planned secondary analysis of a multicenter, single-blind, randomized clinical trial conducted at 6 large teaching hospitals in the US. The study was conducted between January 1, 2019, and December 31, 2022, and included patients undergoing RALP. Patients were assessed and recruited at the time of surgical consultation. Final data analysis was conducted between August and December 2023.
+INTERVENTION
+: Patients were randomized to either a control group undergoing usual preoperative planning with prostate biopsy results and multiparametric MRI only or to an intervention group in which imaging and biopsy results were supplemented with a 3D digital model. This model was viewed on the surgeon's mobile phone in 3D format and picture-in-picture on the robotic console screen.
+MAIN OUTCOMES AND MEASURES
+: The primary outcome measure for the overall study was oncologic outcomes after RALP, measured as prostate-specific antigen (PSA) detectability. Secondary outcomes were sexual function and urinary function, measured with Sexual Health Inventory for Men (SHIM) scores and rates of urinary incontinence, respectively, as well as use of salvage or adjuvant radiation therapy (RT) or androgen deprivation therapy (ADT). Trifecta outcomes were defined as undetectable PSA without RT or ADT, SHIM score categorically the same or greater than preoperatively, and complete continence. Univariate analysis was performed to compare outcomes between groups.
+RESULTS
+: This trial included 92 patients undergoing RALP (51 in the control group and 41 in the intervention group). Their mean (SD) age was 62 (7.4) years; 10 patients (10.9%) were Black and 67 (72.8%) were White. At 18 months postsurgery, the intervention group had lower rates of biochemical recurrence (PSA level >0.1 ng/mL, 0 vs 7 [17.9%]; absolute difference, 17.9% [95% CI, 1.8% to 31.8%]; P = .01) and were significantly less likely to undergo adjuvant or salvage RT (1 [3.1%] vs 12 [31.6%]; absolute difference, 28.5% [95% CI, 10.1% to 46.7%]; P = .002) compared with the control group. Sexual function at 18 months postsurgery was significantly better in the intervention group (mean [SD] SHIM score, 16.8 [8.7] vs 9.8 [7.7]; absolute difference, 7.0 [95% CI, 2.6 to 11.4]; P = .002) and urinary function was unchanged (total continence, 22 [78.6%] vs 29 [80.6%]; absolute difference, 2.0% [95% CI, -17.9% to 21.9%]; P = .84) compared with the control group. Trifecta outcomes were achieved for 12 (48.0%) patients in the intervention group and 3 patients (10.0%) in the control group (absolute difference, 38.0% [95% CI, 14.4% to 61.6%]; P = .002).
+CONCLUSIONS AND RELEVANCE
+: In this secondary analysis of a randomized clinical trial, patients whose surgical planning of RALP involved 3D digital models had better oncologic and functional outcomes. Further work should assess the effect of 3D models in a broader set of patients, physicians, and hospital settings.
+TRIAL REGISTRATION
+: ClinicalTrials.gov Identifier: NCT03943368.

@@ -1,0 +1,28 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamasurg.2024.5077.
+
+=== Métadonnées ===
+Yan Z, Wei M, Zhang T, et al.
+Vagus Nerve Preservation for Early Distal Gastric Cancer With Monitoring and Indocyanine Green Labeling: A Randomized Clinical Trial.
+JAMA Surg. 2025 Jan 1;160(1):85-92. doi: 10.1001/jamasurg.2024.5077.
+                    (
+Original study
+)
+
+=== Abstract ===
+IMPORTANCE
+: Radical gastric cancer surgery can cause functional and physiological disorders due to the resection of perigastric vagus nerves. Few studies have used intraoperative neurophysiological monitoring and indocyanine green (ICG) labeling to preserve the perigastric vagus nerve and to evaluate the corresponding effects.
+OBJECTIVE
+: To assess the feasibility and effects of vagus nerve preservation using neurophysiologic monitoring and ICG labeling during laparoscopic distal gastrectomy in patients with early distal gastric cancer.
+DESIGN, SETTING, AND PARTICIPANTS
+: This open-label, prospective randomized clinical trial initially enrolled 285 patients with clinical stage cT1N0M0 distal gastric cancer from May 2022 to May 2023. This trial was conducted at Qilu Hospital of Shandong University in Jinan, China, and enrolled patients aged 18 to 80 years with histologically proven gastric adenocarcinoma scheduled for distal gastrectomy. The final follow-up examination was performed May 1, 2024.
+INTERVENTIONS
+: Eligible participants were randomly assigned 1:1 to vagus nerve preservation distal gastrectomy (VPG) or vagus nerve resection distal gastrectomy (VRG).
+MAIN OUTCOMES AND MEASURES
+: The primary outcome was the incidence of postsurgical gastroparesis. Secondary outcomes included postoperative gallstone formation, quality of life, morbidity, mortality, overall survival, and disease-free survival up to 12 months postoperatively. All analyses were based on both intention-to-treat and per-protocol analyses.
+RESULTS
+: Of 264 patients included in the intention-to-treat analysis, the median (IQR) patient age was 58.0 (52.0-67.0) years, and 67 patients (25.4%) were female. Both the VPG and VRG groups included 132 patients. Postoperative gastroparesis occurred in 1 patient (0.8%) in the VPG group and in 10 patients (7.6%) in the VRG group. Gallstones developed in 0 patients in the VPG group and in 9 patients (6.8%) in the VRG group. As assessed by mean (SD) score on the 30-item European Organization for Research and Treatment of Cancer Quality of Life Questionnaire, the VRG group experienced more nausea and vomiting at 6 months postsurgery (19.38 [7.62]) than the VPG group (17.15 [9.21]) (P = .03) and had significantly higher rates of persistent appetite loss, reflux symptoms, and eating difficulties at both 6 months and 12 months than the VPG group. Differences in postoperative complications and metastasis were not significant.
+CONCLUSIONS AND RELEVANCE
+: Neurophysiologic monitoring and ICG labeling during distal laparoscopic gastrectomy for vagus nerve preservation in patients with early distal gastric cancer are safe and feasible. Preserving the perigastric vagus nerve may retain the function of the remnant stomach and improve quality of life.
+TRIAL REGISTRATION
+: Chictr.org.cn Identifier: ChiCTR2200059489.

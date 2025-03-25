@@ -1,0 +1,28 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamanetworkopen.2024.17310.
+
+=== Métadonnées ===
+Sauro KM, Smith C, Ibadin S, et al.
+Enhanced Recovery After Surgery Guidelines and Hospital Length of Stay, Readmission, Complications, and Mortality: A Meta-Analysis of Randomized Clinical Trials.
+JAMA Netw Open. 2024 Jun 3;7(6):e2417310. doi: 10.1001/jamanetworkopen.2024.17310.
+                    (
+Systematic review
+)
+
+=== Abstract ===
+IMPORTANCE
+: A comprehensive review of the evidence exploring the outcomes of enhanced recovery after surgery (ERAS) guidelines has not been completed.
+OBJECTIVE
+: To evaluate if ERAS guidelines are associated with improved hospital length of stay, hospital readmission, complications, and mortality compared with usual surgical care, and to understand differences in estimates based on study and patient factors.
+DATA SOURCES
+: MEDLINE, Embase, Cumulative Index to Nursing and Allied Health Literature, and Cochrane Central were searched from inception until June 2021.
+STUDY SELECTION
+: Titles, abstracts, and full-text articles were screened by 2 independent reviewers. Eligible studies were randomized clinical trials that examined ERAS-guided surgery compared with a control group and reported on at least 1 of the outcomes.
+DATA EXTRACTION AND SYNTHESIS
+: Data were abstracted in duplicate using a standardized data abstraction form. The study followed the Preferred Reporting Items for Systematic Reviews and Meta-Analyses. Risk of bias was assessed in duplicate using the Cochrane Risk of Bias tool. Random-effects meta-analysis was used to pool estimates for each outcome, and meta-regression identified sources of heterogeneity within each outcome.
+MAIN OUTCOME AND MEASURES
+: The primary outcomes were hospital length of stay, hospital readmission within 30 days of index discharge, 30-day postoperative complications, and 30-day postoperative mortality.
+RESULTS
+: Of the 12?047 references identified, 1493 full texts were screened for eligibility, 495 were included in the systematic review, and 74 RCTs with 9076 participants were included in the meta-analysis. Included studies presented data from 21 countries and 9 ERAS-guided surgical procedures with 15 (20.3%) having a low risk of bias. The mean (SD) Reporting on ERAS Compliance, Outcomes, and Elements Research checklist score was 13.5 (2.3). Hospital length of stay decreased by 1.88 days (95% CI, 0.95-2.81 days; I2 = 86.5%; P < .001) and the risk of complications decreased (risk ratio, 0.71; 95% CI, 0.59-0.87; I2 = 78.6%; P < .001) in the ERAS group. Risk of readmission and mortality were not significant.
+CONCLUSIONS AND RELEVANCE
+: In this meta-analysis, ERAS guidelines were associated with decreased hospital length of stay and complications. Future studies should aim to improve implementation of ERAS and increase the reach of the guidelines.

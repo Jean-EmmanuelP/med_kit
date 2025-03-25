@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2403365.
+
+=== Métadonnées ===
+van As N, Griffin C, Tree A, et al.
+Phase 3 Trial of Stereotactic Body Radiotherapy in Localized Prostate Cancer.
+N Engl J Med. 2024 Oct 17;391(15):1413-1425. doi: 10.1056/NEJMoa2403365.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: Whether stereotactic body radiotherapy (SBRT) is noninferior to conventionally or moderately hypofractionated regimens with respect to biochemical or clinical failure in patients with localized prostate cancer is unclear.
+METHODS
+: We conducted a phase 3, international, open-label, randomized, controlled trial. Men with stage T1 or T2 prostate cancer, a Gleason score of 3+4 or less, and a prostate-specific antigen (PSA) level of no more than 20 ng per milliliter were randomly assigned (in a 1:1 ratio) to receive SBRT (36.25 Gy in 5 fractions over a period of 1 or 2 weeks) or control radiotherapy (78 Gy in 39 fractions over a period of 7.5 weeks or 62 Gy in 20 fractions over a period of 4 weeks). Androgen-deprivation therapy was not permitted. The primary end point was freedom from biochemical or clinical failure, with a critical hazard ratio for noninferiority of 1.45. The analysis was performed in the intention-to-treat population.
+RESULTS
+: A total of 874 patients underwent randomization at 38 centers (433 patients in the SBRT group and 441 in the control radiotherapy group) between August 2012 and January 2018. The median age of the patients was 69.8 years, and the median PSA level was 8.0 ng per milliliter; the National Comprehensive Cancer Network risk category was low for 8.4% of the patients and intermediate for 91.6%. At a median follow-up of 74.0 months, the 5-year incidence of freedom from biochemical or clinical failure was 95.8% (95% confidence interval [CI], 93.3 to 97.4) in the SBRT group and 94.6% (95% CI, 91.9 to 96.4) in the control radiotherapy group (unadjusted hazard ratio for biochemical or clinical failure, 0.73; 90% CI, 0.48 to 1.12; P = 0.004 for noninferiority), which indicated the noninferiority of SBRT. At 5 years, the cumulative incidence of late Radiation Therapy Oncology Group (RTOG) grade 2 or higher genitourinary toxic effects was 26.9% (95% CI, 22.8 to 31.5) with SBRT and 18.3% (95% CI, 14.8 to 22.5) with control radiotherapy (P<0.001), and the cumulative incidence of late RTOG grade 2 or higher gastrointestinal toxic effects was 10.7% (95% CI, 8.1 to 14.2) and 10.2% (95% CI, 7.7 to 13.5), respectively (P = 0.94).
+CONCLUSIONS
+: Five-fraction SBRT was noninferior to control radiotherapy with respect to biochemical or clinical failure and may be an efficacious treatment option for patients with low-to-intermediate-risk localized prostate cancer as defined in this trial. (Funded by Accuray and others; PACE-B ClinicalTrials.gov number, NCT01584258.).

@@ -1,0 +1,28 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.jphys.2024.02.018.
+
+=== Métadonnées ===
+Gomes-Neto M, Duraes AR, Conceicao LSR, et al.
+Some types of exercise interventions are more effective than others in people with coronary heart disease: systematic review and network meta-analysis.
+J Physiother. 2024 Apr;70(2):106-114. doi: 10.1016/j.jphys.2024.02.018. Epub 2024 Mar 19.
+                    (
+Systematic review
+)
+
+=== Abstract ===
+QUESTION
+: What are the effects of different types of exercise treatments on oxygen consumption, quality of life and mortality in people with coronary heart disease?
+DESIGN
+: Systematic review with network meta-analysis of randomised controlled trials.
+PARTICIPANTS
+: Adults with coronary heart disease.
+INTERVENTION
+: Exercise interventions including aerobic (continuous or high-intensity interval) training, resistance training, respiratory muscle exercises, water-based exercises, yoga, Tai chi, Qigong exercises and a combination of different types of exercise.
+OUTCOME MEASURES
+: Oxygen consumption, quality of life and mortality.
+RESULTS
+: This review included 178 randomised controlled trials with 19,143 participants. Several exercise interventions improved peak oxygen consumption (mL/kg/min): high-intensity interval training (MD 4.5, 95% CI 3.7 to 5.4); combined water-based exercises and moderate-intensity continuous training (MD 3.7, 95% CI 1.3 to 6.0); combined aerobic and resistance exercise (MD 3.4, 95% CI 2.5 to 4.3); water-based exercises (MD 3.4, 95% CI 0.6 to 6.2); combined respiratory muscle training and aerobic exercise (MD 3.2, 95% CI 0.6 to 5.8); Tai chi (MD 3.0, 95% CI 1.0 to 5.0); moderate-intensity continuous training (MD 3.0, 95% CI 2.3 to 3.6); high-intensity continuous training (MD 2.7, 95% CI 1.6 to 3.8); and resistance training (MD 2.2, 95% CI 0.6 to 3.7). Quality of life was improved by yoga (SMD 1.5, 95% CI 0.5 to 2.4), combined aerobic and resistance exercise (SMD 1.2, 95% CI 0.6 to 1.7), moderate-intensity continuous training (SMD 1.1, 95% CI 0.6 to 1.6) and high-intensity interval training (SMD 0.9, 95% CI 0.1 to 1.6). All-cause mortality was reduced by continuous aerobic exercise (RR 0.67, 95% CI 0.53 to 0.86) and combined aerobic and resistance exercise (RR 0.58, 95% CI 0.36 to 0.94). Continuous aerobic exercise also reduced cardiovascular mortality (RR 0.56, 95% CI 0.42 to 0.74).
+CONCLUSION
+: People with coronary heart disease may use a range of exercise modalities to improve oxygen consumption, quality of life and mortality.
+REGISTRATION
+: PROSPERO CRD42022344545.

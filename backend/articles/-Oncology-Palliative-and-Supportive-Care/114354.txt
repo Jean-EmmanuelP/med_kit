@@ -1,0 +1,22 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S1470-2045(24)00438-8.
+
+=== Métadonnées ===
+Dawson LA, Ringash J, Fairchild A, et al.
+Palliative radiotherapy versus best supportive care in patients with painful hepatic cancer (CCTG HE1): a multicentre, open-label, randomised, controlled, phase 3 study.
+Lancet Oncol. 2024 Oct;25(10):1337-1346. doi: 10.1016/S1470-2045(24)00438-8. Epub 2024 Sep 5.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: Palliative treatment options for painful hepatic cancer can be restricted due to patients eventually becoming refractory to standard treatment. The aim of this study was to determine whether radiotherapy improves hepatic pain from cancer.
+METHODS
+: In this open-label, randomised, controlled, phase 3 trial (CCTG HE1) done in nine cancer centres across Canada, we included patients aged 18 years or older with hepatocellular carcinoma or liver metastases, who were refractory to standard treatment, with an Eastern Cooperative Oncology Group performance status of 0-3, with life expectancy of more than 3 months, and pain or discomfort at its worst in the past 24 hours on the Brief Pain Inventory (BPI) of at least 4 out of 10, which was stable for up to 7 days before randomisation. Patients were randomly assigned (1:1), via a minimisation method after stratification by centre and type of cancer (hepatocellular carcinoma vs liver metastases), to single-fraction radiotherapy (8 Gy) to the liver with 8 mg ondansetron (or equivalent) orally and 4 mg dexamethasone orally given 1-2 h before radiotherapy plus best supportive care (including non-opioid or opioid analgesia, or dexamethasone, or a combination of these) or best supportive care alone. The primary endpoint was improvement in patient-reported liver cancer pain or discomfort of at least 2 points on worst pain intensity on the BPI at 1 month after randomisation. All patients with both baseline and 1-month assessments were included in the primary endpoint analysis. Safety was assessed in all patients randomly assigned to treatment. This trial is registered with ClinicalTrials.gov, NCT02511522, and is complete.
+FINDINGS
+: Between July 25, 2015, and June 2, 2022, 66 patients were screened and randomly assigned to radiotherapy plus best supportive care (n=33) or best supportive care (n=33). Median age was 65 years (IQR 57-72), 37 (56%) of 66 patients were male, 29 (44%) were female, 43 (65%) had liver metastases, and 23 (35%) had hepatocellular carcinoma (data on race and ethnicity were not collected). As of data cutoff (Sept 8, 2022), median follow-up was 3·2 months (95% CI 3·0-3·4). 24 (73%) of 33 in the radiotherapy plus best supportive care group and 18 (55%) of 33 in the best supportive care only group completed baseline and 1-month assessments. An improvement in hepatic pain of at least 2 points in worst pain intensity on the BPI at 1 month was seen in 16 (67%) of 24 patients in the radiotherapy plus best supportive care group versus four (22%) of 18 patients in the best supportive care group (p=0·0042). The most common grade 3-4 adverse events within 1 month after randomisation were abdominal pain (three [9%] of 33 in the radiotherapy group vs one [3%] of 33 in best supportive care group) and ascites (two [6%] vs one [3%]). No serious adverse events or treatment-related deaths were observed.
+INTERPRETATION
+: Single-fraction radiotherapy plus best supportive care improved pain compared with best supportive care alone in patients with liver cancer, and could be considered a standard palliative treatment.
+FUNDING
+: Canadian Cancer Society.

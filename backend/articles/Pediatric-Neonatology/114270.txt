@@ -1,0 +1,26 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1002/14651858.CD002971.pub6.
+
+=== Métadonnées ===
+Quigley M, Embleton ND, Meader N, et al.
+Donor human milk for preventing necrotising enterocolitis in very preterm or very low-birthweight infants.
+Cochrane Database Syst Rev. 2024 Sep 6;9(9):CD002971. doi: 10.1002/14651858.CD002971.pub6.
+                    (
+Systematic review
+)
+
+=== Abstract ===
+BACKGROUND
+: When sufficient maternal milk is not available, donor human milk or formula are the alternative forms of enteral nutrition for very preterm or very low-birthweight (VLBW) infants. Donor human milk may retain the non-nutritive benefits of maternal milk and has been proposed as a strategy to reduce the risk of necrotising enterocolitis (NEC) and associated mortality and morbidity in very preterm or VLBW infants.
+OBJECTIVES
+: To assess the effectiveness of donor human milk compared with formula for preventing NEC and associated morbidity and mortality in very preterm or VLBW infants when sufficient maternal milk is not available.
+SEARCH METHODS
+: We searched the Cochrane Central Register of Controlled Trials (CENTRAL), MEDLINE, Embase, the Maternity and Infant Care (MIC) database, and the Cumulative Index to Nursing and Allied Health Literature (CINAHL), from the earliest records to February 2024. We searched clinical trials registries and examined the reference lists of included studies.
+SELECTION CRITERIA
+: Randomised or quasi-randomised controlled trials comparing feeding with donor human milk versus formula in very preterm (< 32 weeks' gestation) or VLBW (< 1500 g) infants.
+DATA COLLECTION AND ANALYSIS
+: Two review authors evaluated the risk of bias in the trials, extracted data, and synthesised effect estimates using risk ratio, risk difference, and mean difference, with associated 95% confidence intervals. The primary outcomes were NEC, late-onset invasive infection, and all-cause mortality before hospital discharge. The secondary outcomes were growth parameters and neurodevelopment. We used the GRADE approach to assess the certainty of the evidence for our primary outcomes.
+MAIN RESULTS
+: Twelve trials with a total of 2296 infants fulfilled the inclusion criteria. Most trials were small (average sample size was 191 infants). All trials were performed in neonatal units in Europe or North America. Five trials were conducted more than 40 years ago; the remaining seven trials were conducted in the year 2000 or later. Some trials had methodological weaknesses, including concerns regarding masking of investigators and selective reporting. Meta-analysis showed that donor human milk reduces the risk of NEC (risk ratio (RR) 0.53, 95% confidence interval (CI) 0.37 to 0.76; I² = 4%; risk difference (RD) -0.03, 95% CI -0.05 to -0.01; 11 trials, 2261 infants; high certainty evidence). Donor human milk probably has little or no effect on late-onset invasive infection (RR 1.12, 0.95 to 1.31; I² = 27%; RD 0.03, 95% CI -0.01 to -0.07; 7 trials, 1611 infants; moderate certainty evidence) or all-cause mortality (RR 1.00, 95% CI 0.76 to 1.31; I² = 0%; RD -0.00, 95% CI -0.02 to 0.02; 9 trials, 2116 infants; moderate certainty evidence).
+AUTHORS' CONCLUSIONS
+: The evidence shows that donor human milk reduces the risk of NEC by about half in very preterm or VLBW infants. There is probably little or no effect on late-onset invasive infection or all-cause mortality before hospital discharge.

@@ -1,0 +1,22 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S0140-6736(24)00702-5.
+
+=== Métadonnées ===
+Beck J, Fung C, Strbian D, et al.
+Decompressive craniectomy plus best medical treatment versus best medical treatment alone for spontaneous severe deep supratentorial intracerebral haemorrhage: a randomised controlled clinical trial.
+Lancet. 2024 Jun 1;403(10442):2395-2404. doi: 10.1016/S0140-6736(24)00702-5. Epub 2024 May 15.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: It is unknown whether decompressive craniectomy improves clinical outcome for people with spontaneous severe deep intracerebral haemorrhage. The SWITCH trial aimed to assess whether decompressive craniectomy plus best medical treatment in these patients improves outcome at 6 months compared to best medical treatment alone.
+METHODS
+: In this multicentre, randomised, open-label, assessor-blinded trial conducted in 42 stroke centres in Austria, Belgium, Finland, France, Germany, the Netherlands, Spain, Sweden, and Switzerland, adults (18-75 years) with a severe intracerebral haemorrhage involving the basal ganglia or thalamus were randomly assigned to receive either decompressive craniectomy plus best medical treatment or best medical treatment alone. The primary outcome was a score of 5-6 on the modified Rankin Scale (mRS) at 180 days, analysed in the intention-to-treat population. This trial is registered with ClincalTrials.gov, NCT02258919, and is completed.
+FINDINGS
+: SWITCH had to be stopped early due to lack of funding. Between Oct 6, 2014, and April 4, 2023, 201 individuals were randomly assigned and 197 gave delayed informed consent (96 decompressive craniectomy plus best medical treatment, 101 best medical treatment). 63 (32%) were women and 134 (68%) men, the median age was 61 years (IQR 51-68), and the median haematoma volume 57 mL (IQR 44-74). 42 (44%) of 95 participants assigned to decompressive craniectomy plus best medical treatment and 55 (58%) assigned to best medical treatment alone had an mRS of 5-6 at 180 days (adjusted risk ratio [aRR] 0·77, 95% CI 0·59 to 1·01, adjusted risk difference [aRD] -13%, 95% CI -26 to 0, p=0·057). In the per-protocol analysis, 36 (47%) of 77 participants in the decompressive craniectomy plus best medical treatment group and 44 (60%) of 73 in the best medical treatment alone group had an mRS of 5-6 (aRR 0·76, 95% CI 0·58 to 1·00, aRD -15%, 95% CI -28 to 0). Severe adverse events occurred in 42 (41%) of 103 participants receiving decompressive craniectomy plus best medical treatment and 41 (44%) of 94 receiving best medical treatment.
+INTERPRETATION
+: SWITCH provides weak evidence that decompressive craniectomy plus best medical treatment might be superior to best medical treatment alone in people with severe deep intracerebral haemorrhage. The results do not apply to intracerebral haemorrhage in other locations, and survival is associated with severe disability in both groups.
+FUNDING
+: Swiss National Science Foundation, Swiss Heart Foundation, Inselspital Stiftung, and Boehringer Ingelheim.

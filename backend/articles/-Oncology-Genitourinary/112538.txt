@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2312117.
+
+=== Métadonnées ===
+Powles T, Valderrama BP, Gupta S, et al.
+Enfortumab Vedotin and Pembrolizumab in Untreated Advanced Urothelial Cancer.
+N Engl J Med. 2024 Mar 7;390(10):875-888. doi: 10.1056/NEJMoa2312117.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: No treatment has surpassed platinum-based chemotherapy in improving overall survival in patients with previously untreated locally advanced or metastatic urothelial carcinoma.
+METHODS
+: We conducted a phase 3, global, open-label, randomized trial to compare the efficacy and safety of enfortumab vedotin and pembrolizumab with the efficacy and safety of platinum-based chemotherapy in patients with previously untreated locally advanced or metastatic urothelial carcinoma. Patients were randomly assigned in a 1:1 ratio to receive 3-week cycles of enfortumab vedotin (at a dose of 1.25 mg per kilogram of body weight intravenously on days 1 and 8) and pembrolizumab (at a dose of 200 mg intravenously on day 1) (enfortumab vedotin-pembrolizumab group) or gemcitabine and either cisplatin or carboplatin (determined on the basis of eligibility to receive cisplatin) (chemotherapy group). The primary end points were progression-free survival as assessed by blinded independent central review and overall survival.
+RESULTS
+: A total of 886 patients underwent randomization: 442 to the enfortumab vedotin-pembrolizumab group and 444 to the chemotherapy group. As of August 8, 2023, the median duration of follow-up for survival was 17.2 months. Progression-free survival was longer in the enfortumab vedotin-pembrolizumab group than in the chemotherapy group (median, 12.5 months vs. 6.3 months; hazard ratio for disease progression or death, 0.45; 95% confidence interval [CI], 0.38 to 0.54; P<0.001), as was overall survival (median, 31.5 months vs. 16.1 months; hazard ratio for death, 0.47; 95% CI, 0.38 to 0.58; P<0.001). The median number of cycles was 12 (range, 1 to 46) in the enfortumab vedotin-pembrolizumab group and 6 (range, 1 to 6) in the chemotherapy group. Treatment-related adverse events of grade 3 or higher occurred in 55.9% of the patients in the enfortumab vedotin-pembrolizumab group and in 69.5% of those in the chemotherapy group.
+CONCLUSIONS
+: Treatment with enfortumab vedotin and pembrolizumab resulted in significantly better outcomes than chemotherapy in patients with untreated locally advanced or metastatic urothelial carcinoma, with a safety profile consistent with that in previous reports. (Funded by Astellas Pharma US and others; EV-302 ClinicalTrials.gov number, NCT04223856.).

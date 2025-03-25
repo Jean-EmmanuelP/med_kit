@@ -1,0 +1,28 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamasurg.2024.0765.
+
+=== Métadonnées ===
+Yoo N, Mun JY, Kye BH, et al.
+Plastic Wound Protector vs Surgical Gauze for Surgical Site Infection Reduction in Open GI Surgery: A Randomized Clinical Trial.
+JAMA Surg. 2024 Jul 1;159(7):737-746. doi: 10.1001/jamasurg.2024.0765.
+                    (
+Original study
+)
+
+=== Abstract ===
+IMPORTANCE
+: Surgical site infections (SSIs) are prevalent hospital-acquired infections with significant patient impacts and global health care burdens. The World Health Organization recommends using wound protector devices in abdominal surgery as a preventive measure to lower the risk of SSIs despite limited evidence.
+OBJECTIVE
+: To examine the efficacy of a dual-ring, plastic wound protector in lowering the SSI rate in open gastrointestinal (GI) surgery irrespective of intra-abdominal contamination levels.
+DESIGN, SETTING, AND PARTICIPANTS
+: This multicenter, patient-blinded, parallel-arm randomized clinical trial was conducted from August 2017 to October 2022 at 13 hospitals in an academic setting. Patients undergoing open abdominal bowel surgery (eg, for bowel perforation) were eligible for inclusion.
+INTERVENTION
+: Patients were randomized 1:1 to a dual-ring, plastic wound protector to protect the incision site of the abdominal wall (experimental group) or a conventional surgical gauze (control group).
+MAIN OUTCOMES AND MEASURES
+: The primary end point was the rate of SSI within 30 days of open GI surgery.
+RESULTS
+: A total of 458 patients were randomized; after 1 was excluded from the control group, 457 were included in the intention-to-treat analysis (mean [SD] age, 58.4 [12.1] years; 256 [56.0%] male; 341 [74.6%] with a clean-contaminated wound): 229 in the wound protector group and 228 in the surgical gauze group. The overall SSI rate in the intention-to-treat analysis was 15.7% (72 of 458 patients). The SSI rate for the wound protector was 10.9% (25 of 229 patients) compared with 20.5% (47 of 229 patients) with surgical gauze. The wound protector significantly reduced the risk of SSI, with a relative risk reduction (RRR) of 46.81% (95% CI, 16.64%-66.06%). The wound protector significantly decreased the SSI rate for clean-contaminated wounds (RRR, 43.75%; 95% CI, 3.75%-67.13%), particularly for superficial SSIs (RRR, 42.50%; 95% CI, 7.16%-64.39%). Length of hospital stay was similar in both groups (mean [SD], 15.2 [10.5] vs 15.3 [10.2] days), as were the overall postoperative complication rates (20.1% vs 18.8%).
+CONCLUSIONS AND RELEVANCE
+: This randomized clinical trial found a significant reduction in SSI rates when a plastic wound protector was used during open GI surgery compared with surgical gaze, supporting the World Health Organization recommendation for use of wound protector devices in abdominal surgery.
+TRIAL REGISTRATION
+: ClinicalTrials.gov Identifier: NCT03170843.

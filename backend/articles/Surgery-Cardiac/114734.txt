@@ -1,0 +1,28 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jama.2024.22730.
+
+=== Métadonnées ===
+Loganath K, Craig NJ, Everett RJ, et al.
+Early Intervention in Patients With Asymptomatic Severe Aortic Stenosis and Myocardial Fibrosis: The EVOLVED Randomized Clinical Trial.
+JAMA. 2025 Jan 21;333(3):213-221. doi: 10.1001/jama.2024.22730.
+                    (
+Original study
+)
+
+=== Abstract ===
+IMPORTANCE
+: Development of myocardial fibrosis in patients with aortic stenosis precedes left ventricular decompensation and is associated with an adverse long-term prognosis.
+OBJECTIVE
+: To investigate whether early valve intervention reduced the incidence of all-cause death or unplanned aortic stenosis-related hospitalization in asymptomatic patients with severe aortic stenosis and myocardial fibrosis.
+DESIGN, SETTING, AND PARTICIPANTS
+: This prospective, randomized, open-label, masked end point trial was conducted between August 2017 and October 2022 at 24 cardiac centers across the UK and Australia. Asymptomatic patients with severe aortic stenosis and myocardial fibrosis were included. The final date of follow-up was July 26, 2024.
+INTERVENTION
+: Early valve intervention with transcatheter or surgical aortic valve replacement or guideline-directed conservative management.
+MAIN OUTCOMES AND MEASURES
+: The primary outcome was a composite of all-cause death or unplanned aortic stenosis-related hospitalization in a time-to-first-event intention-to-treat analysis. There were 9 secondary outcomes, including the components of the primary outcome and symptom status at 12 months.
+RESULTS
+: The trial enrolled 224 eligible patients (mean [SD] age, 73 [9] years; 63 women [28%]; mean [SD] aortic valve peak velocity of 4.3 [0.5] m/s) of the originally planned sample size of 356 patients. The primary end point occurred in 20 of 113 patients (18%) in the early intervention group and 25 of 111 patients (23%) in the guideline-directed conservative management group (hazard ratio, 0.79 [95% CI, 0.44-1.43]; P = .44; between-group difference, -4.82% [95% CI, -15.31% to 5.66%]). Of 9 prespecified secondary end points, 7 showed no significant difference. All-cause death occurred in 16 of 113 patients (14%) in the early intervention group and 14 of 111 (13%) in the guideline-directed group (hazard ratio, 1.22 [95% CI, 0.59-2.51]) and unplanned aortic stenosis hospitalization occurred in 7 of 113 patients (6%) and 19 of 111 patients (17%), respectively (hazard ratio, 0.37 [95% CI, 0.16-0.88]). Early intervention was associated with a lower 12-month rate of New York Heart Association class II-IV symptoms than guideline-directed conservative management (21 [19.7%] vs 39 [37.9%]; odds ratio, 0.37 [95% CI, 0.20-0.70]).
+CONCLUSIONS AND RELEVANCE
+: In asymptomatic patients with severe aortic stenosis and myocardial fibrosis, early aortic valve intervention had no demonstrable effect on all-cause death or unplanned aortic stenosis-related hospitalization. The trial had a wide 95% CI around the primary end point, with further research needed to confirm these findings.
+TRIAL REGISTRATION
+: ClinicalTrials.gov Identifier: NCT03094143.

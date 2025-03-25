@@ -1,0 +1,22 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S2213-2600(24)00027-4.
+
+=== Métadonnées ===
+Ghofrani HA, Simonneau G, D'Armini AM, et al.
+Macitentan for the treatment of inoperable chronic thromboembolic pulmonary hypertension (MERIT-1): results from the multicentre, phase 2, randomised, double-blind, placebo-controlled study.
+Lancet Respir Med. 2024 Apr;12(4):e21-e30. doi: 10.1016/S2213-2600(24)00027-4.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: Macitentan is beneficial for long-term treatment of pulmonary arterial hypertension. The microvasculopathy of chronic thromboembolic pulmonary hypertension (CTEPH) and pulmonary arterial hypertension are similar.
+METHODS
+: The phase 2, double-blind, randomised, placebo-controlled MERIT-1 trial assessed macitentan in 80 patients with CTEPH adjudicated as inoperable. Patients identified as WHO functional class II-IV with a pulmonary vascular resistance (PVR) of at least 400 dyn·s/cm5 and a walk distance of 150-450 m in 6 min were randomly assigned (1:1), via an interactive voice/web response system, to receive oral macitentan (10 mg once a day) or placebo. Treatment with phosphodiesterase type-5 inhibitors and oral or inhaled prostanoids was permitted for WHO functional class III/IV patients. The primary endpoint was resting PVR at week 16, expressed as percentage of PVR measured at baseline. Analyses were done in all patients who were randomly assigned to treatment; safety analyses were done in all patients who received at least one dose of the study drug. This study is registered with ClinicalTrials.gov, number NCT02021292.
+FINDINGS
+: Between April 3, 2014, and March 17, 2016, we screened 186 patients for eligibility at 48 hospitals across 20 countries. Of these, 80 patients in 36 hospitals were randomly assigned to treatment (40 patients to macitentan, 40 patients to placebo). At week 16, geometric mean PVR decreased to 71·5% of baseline in the macitentan group and to 87·6% in the placebo group (geometric means ratio 0·81, 95% CI 0·70-0·95, p=0·0098). The most common adverse events in the macitentan group were peripheral oedema (9 [23%] of 40 patients) and decreased haemoglobin (6 [15%]).
+INTERPRETATION
+: In MERIT-1, macitentan significantly improved PVR in patients with inoperable CTEPH and was well tolerated.
+FUNDING
+: Actelion Pharmaceuticals Ltd.

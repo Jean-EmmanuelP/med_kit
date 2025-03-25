@@ -1,0 +1,22 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1007/s12630-024-02760-y.
+
+=== Métadonnées ===
+Osorio D, Maldonado D, Rijs K, et al.
+Efficacy of different routes of acetaminophen administration for postoperative pain in children: a systematic review and network meta-analysis.
+Can J Anaesth. 2024 Aug;71(8):1103-1116. doi: 10.1007/s12630-024-02760-y. Epub 2024 Apr 15.
+                    (
+Systematic review
+)
+
+=== Abstract ===
+PURPOSE
+: Acetaminophen is the most common drug used to treat acute pain in the pediatric population, given its wide safety margin, low cost, and multiple routes for administration. We sought to determine the most efficacious route of acetaminophen administration for postoperative acute pain relief in the pediatric surgical population.
+METHODS
+: We conducted a systematic review of randomized controlled trials (RCTs) that included children aged between 30 days and 17 yr who underwent any type of surgical procedure and that evaluated the analgesic efficacy of different routes of administration of acetaminophen for the treatment of postoperative pain. We searched MEDLINE, CENTRAL, Embase, CINAHL, LILACs, and Google Scholar databases for trials published from inception to 16 April 2023. We assessed the risk of bias in the included studies using the Cochrane Risk of Bias 1.0 tool. We performed a frequentist network meta-analysis using a random-effects model. Our primary outcome was postoperative pain using validated pain scales.
+RESULTS
+: We screened 2,344 studies and included 14 trials with 829 participants in the analysis. We conducted a network meta-analysis for the period from zero to two hours, including six trials with 496 participants. There was no evidence of differences between intravenous vs rectal routes of administration of acetaminophen (difference in means, -0.28; 95% confidence interval [CI], -0.62 to 0.06; very low certainty of the evidence) and intravenous vs oral acetaminophen (difference in means, -0.60; 95% CI, -1.20 to 0.01; low certainty of the evidence). For the comparison of oral vs rectal routes, we found evidence favouring the oral route (difference in means, -0.88; 95% CI, -1.44 to -0.31; low certainty of the evidence). Few trials reported secondary outcomes of interest; when comparing the oral and rectal routes in the incidence of nausea and vomiting, there was no evidence of differences (relative risk, 1.20; 95% CI, 0.81 to 1.78).
+CONCLUSION
+: The available evidence on the effect of the administration route of acetaminophen on postoperative pain in children is very uncertain. The outcomes of postoperative pain control and postoperative vomiting may differ very little between the oral and rectal route. Better designed and executed RCTs are required to address this important clinical question.
+STUDY REGISTRATION
+: PROSPERO (CRD42021286495); first submitted 19 November 2021.

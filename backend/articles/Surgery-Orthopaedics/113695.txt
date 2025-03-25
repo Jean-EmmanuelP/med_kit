@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1302/0301-620X.106B7.BJJ-2023-1113.R1.
+
+=== Métadonnées ===
+Longo UG, Gulotta LV, De Salvatore S, et al.
+Augmented versus non-augmented locking-plate fixation in proximal humeral fractures.
+Bone Joint J. 2024 Jul 1;106-B(7):646-655. doi: 10.1302/0301-620X.106B7.BJJ-2023-1113.R1.
+                    (
+Systematic review
+)
+
+=== Abstract ===
+AIMS
+: Proximal humeral fractures are the third most common fracture among the elderly. Complications associated with fixation include screw perforation, varus collapse, and avascular necrosis of the humeral head. To address these challenges, various augmentation techniques to increase medial column support have been developed. There are currently no recent studies that definitively establish the superiority of augmented fixation over non-augmented implants in the surgical treatment of proximal humeral fractures. The aim of this systematic review and meta-analysis was to compare the outcomes of patients who underwent locking-plate fixation with cement augmentation or bone-graft augmentation versus those who underwent locking-plate fixation without augmentation for proximal humeral fractures.
+METHODS
+: The search was carried out according to the Preferred Reporting Items for Systematic Reviews and Meta-analyses guidelines. Articles involving patients with complex proximal humeral fractures treated using open reduction with locking-plate fixation, with or without augmentation, were considered. A meta-analysis of comparative studies comparing locking-plate fixation with cement augmentation or with bone-graft augmentation versus locking-plate fixation without augmentation was performed.
+RESULTS
+: A total of 19 studies were included in the qualitative synthesis, and six comparative studies were included in the meta-analysis. Overall, 120 patients received locking-plate fixation with bone-graft augmentation, 179 patients received locking-plate fixation with cement augmentation, and 336 patients received locking-plate fixation without augmentation. No statistically relevant differences between the augmented and non-augmented cohorts were found in terms of the Disabilities of the Arm, Shoulder and Hand questionnaire score and Constant-Murley Score. The cement-augmented group had a significantly lower rate of complications compared to the non-augmented group.
+CONCLUSION
+: While locking-plate fixation with cement augmentation appears to produce a lower complication rate compared to locking-plate fixation alone, functional outcomes seem comparable between augmented and non-augmented techniques.

@@ -1,0 +1,24 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.apmr.2024.06.005.
+
+=== Métadonnées ===
+Zhang M, Liang Z, Tian L, et al.
+Effects of Exercise Therapy in Axial Spondyloarthritis: A Systematic Review, Meta-analysis, and Meta-regression of Randomized Trials.
+Arch Phys Med Rehabil. 2025 Jan;106(1):113-123. doi: 10.1016/j.apmr.2024.06.005. Epub 2024 Jun 26.
+                    (
+Systematic review
+)
+
+=== Abstract ===
+OBJECTIVE
+: This study aimed to assess the effectiveness of exercise therapy for patients with axial spondyloarthritis (axSpA).
+DATA SOURCES
+: We searched MEDLINE (via PubMed), Cochrane Library, Embase, Web of Science, Scopus, and SPORTDiscus for all relevant publications from database inception to March 2024, without language restriction.
+STUDY SELECTION
+: We included randomized controlled trials (RCTs) of patients with axSpA in which =1 group received exercise therapy.
+DATA EXTRACTION
+: Two independent reviewers assessed the quality of the literature using the Cochrane Collaboration Risk of Bias Tool 2.0. The outcomes were ankylosing spondylitis (AS) disease activity score (ASDAS), Bath AS disease activity index (BASDAI), Bath AS functional index (BASFI), Bath AS metrology index (BASMI), 6-minute walk test (6MWT), chest expansion capacity, peak oxygen consumption (VO2peak), pain, fatigue, C-reactive protein (CRP), and erythrocyte sedimentation rate (ESR).
+DATA SYNTHESIS
+: A total of 20 RCTs, including 1670 patients, were included in this study. Compared with the control group, exercise therapy improved BASFI (weighted mean difference [WMD], -0.49; 95% confidence interval [CI], -0.65 to -0.32; I2=3.4%; P=.414), BASMI (WMD, -0.49; 95% CI, -0.87 to -0.11; I2=71.9%; P=.679), BASDAI (WMD, -0.78; 95% CI, -1.08 to -0.47; I2=55.9%; P=.021), ASDAS (WMD, -0.44; 95% CI, -0.64 to -0.24; I2=0.0%; P=.424), VO2peak (WMD, 3.16; 95% CI, 1.37-4.94; I2=0.0%; P=.873), 6MWT (WMD, 27.64; 95% CI, 12.04-43.24; I2=0.0%, P=.922), pain (standardized mean difference [SMD], -0.47; 95% CI, -0.74 to -0.21; I2=66.0%, P=.046), and fatigue (SMD, -0.49; 95% CI, -0.71 to -0.27; I2=0.0%; P=.446). However, no significant benefit was found in chest expansion, CRP, and ESR outcomes.
+CONCLUSIONS
+: Exercise therapy is an effective strategy for improving disease control and symptom relief in patients with axSpA.

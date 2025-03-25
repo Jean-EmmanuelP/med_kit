@@ -1,0 +1,24 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S0140-6736(24)00594-4.
+
+=== Métadonnées ===
+Liu X, Zhang Y, Yang KY, et al.
+Induction-concurrent chemoradiotherapy with or without sintilimab in patients with locoregionally advanced nasopharyngeal carcinoma in China (CONTINUUM): a multicentre, open-label, parallel-group, randomised, controlled, phase 3 trial.
+Lancet. 2024 Jun 22;403(10445):2720-2731. doi: 10.1016/S0140-6736(24)00594-4. Epub 2024 May 30.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: Anti-PD-1 therapy and chemotherapy is a recommended first-line treatment for recurrent or metastatic nasopharyngeal carcinoma, but the role of PD-1 blockade remains unknown in patients with locoregionally advanced nasopharyngeal carcinoma. We assessed the addition of sintilimab, a PD-1 inhibitor, to standard chemoradiotherapy in this patient population.
+METHODS
+: This multicentre, open-label, parallel-group, randomised, controlled, phase 3 trial was conducted at nine hospitals in China. Adults aged 18-65 years with newly diagnosed high-risk non-metastatic stage III-IVa locoregionally advanced nasopharyngeal carcinoma (excluding T3-4N0 and T3N1) were eligible. Patients were randomly assigned (1:1) using blocks of four to receive gemcitabine and cisplatin induction chemotherapy followed by concurrent cisplatin radiotherapy (standard therapy group) or standard therapy with 200 mg sintilimab intravenously once every 3 weeks for 12 cycles (comprising three induction, three concurrent, and six adjuvant cycles to radiotherapy; sintilimab group). The primary endpoint was event-free survival from randomisation to disease recurrence (locoregional or distant) or death from any cause in the intention-to-treat population. Secondary endpoints included adverse events. This trial is registered with ClinicalTrials.gov (NCT03700476) and is now completed; follow-up is ongoing.
+FINDINGS
+: Between Dec 21, 2018, and March 31, 2020, 425 patients were enrolled and randomly assigned to the sintilimab (n=210) or standard therapy groups (n=215). At median follow-up of 41·9 months (IQR 38·0-44·8; 389 alive at primary data cutoff [Feb 28, 2023] and 366 [94%] had at least 36 months of follow-up), event-free survival was higher in the sintilimab group compared with the standard therapy group (36-month rates 86% [95% CI 81-90] vs 76% [70-81]; stratified hazard ratio 0·59 [0·38-0·92]; p=0·019). Grade 3-4 adverse events occurred in 155 (74%) in the sintilimab group versus 140 (65%) in the standard therapy group, with the most common being stomatitis (68 [33%] vs 64 [30%]), leukopenia (54 [26%] vs 48 [22%]), and neutropenia (50 [24%] vs 46 [21%]). Two (1%) patients died in the sintilimab group (both considered to be immune-related) and one (<1%) in the standard therapy group. Grade 3-4 immune-related adverse events occurred in 20 (10%) patients in the sintilimab group.
+INTERPRETATION
+: Addition of sintilimab to chemoradiotherapy improved event-free survival, albeit with higher but manageable adverse events. Longer follow-up is necessary to determine whether this regimen can be considered as the standard of care for patients with high-risk locoregionally advanced nasopharyngeal carcinoma.
+FUNDING
+: National Natural Science Foundation of China, Key-Area Research and Development Program of Guangdong Province, Natural Science Foundation of Guangdong Province, Overseas Expertise Introduction Project for Discipline Innovation, Guangzhou Municipal Health Commission, and Cancer Innovative Research Program of Sun Yat-sen University Cancer Center.
+TRANSLATION
+: For the Chinese translation of the abstract see Supplementary Materials section.

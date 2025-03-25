@@ -1,0 +1,24 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.ajog.2023.12.039.
+
+=== Métadonnées ===
+Luo Y, Sun Y, Huang B, et al.
+Effects and safety of hyaluronic acid gel on intrauterine adhesion and fertility after intrauterine surgery: a systematic review and meta-analysis with trial sequential analysis of randomized controlled trials.
+Am J Obstet Gynecol. 2024 Jul;231(1):36-50.35. doi: 10.1016/j.ajog.2023.12.039. Epub 2024 Jan 6.
+                    (
+Systematic review
+)
+
+=== Abstract ===
+OBJECTIVE
+: This study aimed to determine the efficacy and safety of hyaluronic acid gel for the prevention of intrauterine adhesions and improved fertility after intrauterine surgery.
+DATA SOURCES
+: PubMed, EMBASE, Cochrane Library, Web of science, and ClinicalTrials.gov were searched up to November 1, 2023.
+STUDY ELIGIBILITY CRITERIA
+: Randomized controlled trials that reported intrauterine adhesion and fertility outcomes among women who used hyaluronic acid after intrauterine surgery.
+METHODS
+: The risk of bias was assessed using criteria of the Cochrane Handbook, and the quality of the evidence was evaluated using the Grades of Recommendation, Assessment, Development, and Evaluation system. The Preferred Reporting Items for Systematic Reviews and Meta-Analyses guidelines were followed. A trial sequential analysis was conducted to assess the outcomes, and Stata 14 was used for sensitivity analyses and publication bias analyses.
+RESULTS
+: Data from 16 randomized controlled trials involving 2359 patients were extracted and analyzed. The analysis revealed that hyaluronic acid reduced the incidence of intrauterine adhesion (risk ratio, 0.53; 95% confidence interval, 0.42-0.67; I2=48%) and improve pregnancy rates (risk ratio, 1.24; 95% confidence interval, 1.02-1.50; I2=0%). A subgroup analysis was conducted to evaluate factors that influence the effect of hyaluronic acid on the incidence of intrauterine adhesion. It was found that a small volume of hyaluronic acid reduced the incidence of intrauterine adhesions. Hyaluronic acid exhibited a protective effect among patients who underwent various intrauterine surgeries and who had different gynecologic medical histories. The protective effect was statistically significant after a follow-up of 6 to 12 weeks. The results of the trial sequential analysis indicated that the effect of hyaluronic acid on the incidence of mild intrauterine adhesions, pregnancy rates, live birth rates, and miscarriage rates after intrauterine surgery may be inconclusive and thus further evaluation is required in the form of additional clinical trials. However, the remaining effects were found to be verifiable and did not require more clinical trials for confirmation.
+CONCLUSION
+: Hyaluronic acid can safely and effectively reduce the incidence of intrauterine adhesions and may improve fertility outcomes.

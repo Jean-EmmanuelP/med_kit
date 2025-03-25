@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1213/ANE.0000000000006951.
+
+=== Métadonnées ===
+de Carvalho CC, Kapsokalyvas I, El-Boghdadly K
+Second-Generation Supraglottic Airway Devices Versus Endotracheal Intubation in Adults Undergoing Abdominopelvic Surgery: A Systematic Review and Meta-Analysis.
+Anesth Analg. 2025 Feb 1;140(2):265-275. doi: 10.1213/ANE.0000000000006951. Epub 2025 Jan 10.
+                    (
+Systematic review
+)
+
+=== Abstract ===
+BACKGROUND
+: Second-generation supraglottic airway (SGA) devices are widely used, but thought to have inferior safety performance to endotracheal tubes (ETTs), but might be equally efficacious while improving patient-centered outcomes. We compared second-generation SGAs with ETTs for perioperative safety, efficacy, and quality of recovery in adults undergoing abdominopelvic surgery under general anesthesia. Our primary objective was to assess safety in the form of major airway complications. Secondary objectives were other safety, efficacy, and quality of recovery outcomes.
+METHODS
+: We searched 4 databases for randomized controlled trials of adult patients having abdominopelvic surgery comparing second-generation SGAs and ETTs. After 2-person screening and data extraction, pairwise meta-analysis was conducted and the grading of recommendations, assessment, development, and evaluation (GRADE) approach was applied to assess the certainty of evidence.
+RESULTS
+: A total of 51 studies, randomizing 5110 patients, were included. Second-generation SGAs significantly reduced the risk of major perioperative airway complications (risk ratio [RR], 0.41; 95% confidence interval [CI], 0.23-0.71; P = .007; low certainty), with no clear clinically relevant difference in regurgitation or pulmonary aspiration (low certainty). SGAs significantly increased the risk of inadequate ventilation (RR, 3.36; 95% CI, 1.43-7.89; P = .011; very low certainty); however, postoperative sore throat (RR, 0.52; 95% CI, 0.38-0.70; P < .001; moderate certainty), hoarseness (RR, 0.32; 95% CI, 0.231-0.48; P < .001; low certainty), coughing at the emergence of anesthesia (RR, 0.17; 95% CI, 0.08-0.36; P < .001; low certainty), and postoperative nausea and vomiting (RR, 0.64; 95% CI, 0.42-0.98; P = .042; very low certainty) were all less frequent with SGAs. No other clinically relevant differences were observed for other remaining outcomes.
+CONCLUSIONS
+: Second-generation SGAs reduce the risk of major airway complications compared with ETTs in adults undergoing abdominopelvic procedures under general anesthesia, with no reported clinically relevant differences in the risk of regurgitation or pulmonary aspiration. Additionally, they improve the quality of postoperative recovery with lower risk of sore throat, hoarseness, and postoperative nausea and vomiting. These data provide an opportunity for clinicians to reassess the implications of conservative airway management, and potentially expand the role of second-generation SGAs in routine clinical practice.

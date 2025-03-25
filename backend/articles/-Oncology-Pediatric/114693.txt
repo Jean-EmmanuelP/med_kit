@@ -1,0 +1,28 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamaoncol.2024.4381.
+
+=== Métadonnées ===
+Gaspar N, Hung GY, Strauss SJ, et al.
+Lenvatinib Plus Ifosfamide and Etoposide in Children and Young Adults With Relapsed Osteosarcoma: A Phase 2 Randomized Clinical Trial.
+JAMA Oncol. 2024 Dec 1;10(12):1645-1653. doi: 10.1001/jamaoncol.2024.4381.
+                    (
+Original study
+)
+
+=== Abstract ===
+IMPORTANCE
+: The combination of ifosfamide and etoposide (IE) is commonly used to treat relapsed or refractory osteosarcoma; however, second-line treatment recommendations vary across guidelines.
+OBJECTIVE
+: To evaluate whether the addition of lenvatinib to IE (LEN-IE) improves outcomes in children and young adults with relapsed or refractory osteosarcoma.
+DESIGN, SETTING, AND PARTICIPANTS
+: The OLIE phase II, open-label, randomized clinical trial was conducted globally across Europe, Asia and the Pacific, and North America. From March 22, 2020, through November 11, 2021, the trial enrolled patients aged 2 to 25 years with high-grade osteosarcoma, measurable or evaluable disease per Response Evaluation Criteria in Solid Tumors, version 1.1 (RECIST 1.1), and 1 to 2 prior lines of systemic treatment. The data analyses were performed between March 22, 2020 (first patient in) and June 22, 2022 (data cutoff for the primary analysis), and September 29, 2023 (end of study final database lock).
+INTERVENTIONS
+: The OLIE trial assessed the efficacy and safety of lenvatinib (14 mg/m2 taken orally once daily) combined with up to 5 cycles of ifosfamide (3000 mg/m2 intravenously) and etoposide (100 mg/m2 intravenously) on days 1 to 3 of each cycle vs IE alone at the same doses. Patients randomized to IE could cross over to receive lenvatinib upon disease progression by independent imaging review.
+MAIN OUTCOMES AND MEASURES
+: The primary end point was progression-free survival (PFS) per RECIST 1.1 by independent imaging review. The Kaplan-Meier method was used to estimate the PFS distribution, with a prespecified 1-sided significance threshold of .025 by stratified log-rank test. Secondary end points included PFS rate at 4 months and overall survival. Adverse events were summarized using descriptive statistics.
+RESULTS
+: A total of 81 patients were enrolled (median [IQR] age, 15.0 [12.0-18.0] years; 46 males [56.8%]), with 40 in the LEN-IE arm and 41 in the IE arm. Median PFS was 6.5 months (95% CI, 5.7-8.2 months) for the LEN-IE arm and 5.5 months (95% CI, 2.9-6.5 months) for the IE arm (hazard ratio [HR], 0.54; 95% CI, 0.27-1.08; 1-sided P = .04). The rate of PFS at 4 months was 76.3% (95% CI, 59.3%-86.9%) in the LEN-IE arm and 66.0% (95% CI, 47.7%-79.2%) in the IE arm. Median overall survival was 11.9 months (95% CI, 10.1 months to not estimable) with LEN-IE and 17.4 months (95% CI, 14.2 months to not estimable) with IE (HR, 1.28; 95% CI, 0.60-2.70; 1-sided nominal P = .75). Grade 3 or higher treatment-related adverse events occurred in 35 of 39 patients (89.7%) in the LEN-IE arm and 31 of 39 patients (79.5%) in the IE arm.
+CONCLUSIONS AND RELEVANCE
+: Although LEN-IE did not meet prespecified statistical significance for improved PFS vs IE, this study demonstrates the importance of international collaboration and randomized clinical trials in patients with relapsed or refractory osteosarcoma and may inform future trial design.
+TRIAL REGISTRATION
+: ClinicalTrials.gov Identifier: NCT04154189.

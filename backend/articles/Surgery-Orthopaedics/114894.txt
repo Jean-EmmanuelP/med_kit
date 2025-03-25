@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.jse.2024.03.040.
+
+=== Métadonnées ===
+Colasanti CA, Anil U, Rodriguez K, et al.
+Optimal combination of arthroplasty type, fixation method, and postoperative rehabilitation protocol for complex proximal humerus fractures in the elderly: a network meta-analysis.
+J Shoulder Elbow Surg. 2024 Oct;33(10):e559-e574. doi: 10.1016/j.jse.2024.03.040. Epub 2024 May 10.
+                    (
+Systematic review
+)
+
+=== Abstract ===
+BACKGROUND
+: The purpose of this study was to define the optimal combination of surgical technique and postoperative rehabilitation protocol for elderly patients undergoing either hemiarthroplasty (HA) or reverse total shoulder arthroplasty (rTSA) for acute proximal humerus fracture (PHF) by performing a network meta-analysis of the comparative studies in the literature.
+METHODS
+: A systematic review of the literature using Preferred Reporting Items for Systematic Reviews and Meta-analyses guidelines of MEDLINE, EMBASE, and Cochrane Library was screened from 2007 to 2023. Inclusion criteria were level I-IV studies utilizing primary HA and/or rTSA published in a peer-reviewed journal, that specified whether humeral stems were cemented or noncemented, specified postoperative rehabilitation protocol, and reported results of HA and/or rTSA performed for PHF. Early range of motion (ROM) was defined as the initiation of active ROM at =3 weeks after surgery. Level of evidence was evaluated based on the criteria by the Oxford Centre for Evidence-Based Medicine. Clinical outcomes were compared using a frequentist approach to network meta-analysis with a random-effects model that was performed using the netmeta package version 0.9-6 in R.
+RESULTS
+: A total of 28 studies (1119 patients) were included with an average age of 74 ± 3.7 and mean follow-up of 32 ± 11.1 months. In the early ROM cohort (Early), the mean time to active ROM was 2.4 ± 0.76 weeks compared to 5.9 ± 1.04 weeks in the delayed ROM cohort (Delayed). Overall, rTSA-Pressfit-Early resulted in statistically superior outcomes including postoperative forward elevation (126 ± 27.5), abduction (116 ± 30.6), internal rotation (5.27 ± 0.74, corresponding to L3-L1), American Shoulder and Elbow Surgeons score (71.8 ± 17), tuberosity union (89%), and lowest tuberosity nonunion rate (9.6%) in patients =65 year old with acute PHF undergoing shoulder arthroplasty (all P = .05). In total there were 277 (14.5%) complications across the cohorts, of which 89/277 (34%) were in the HA-Cement-Delayed cohort. HA-Cement-Delayed resulted in 2-times higher odds of experiencing a complication when compared to rTSA-Cement-Delayed (P = .005). Conversely, rTSA-Cement-Early cohort followed by rTSA-Pressfit-Early resulted in a total complication rate of 4.7% and 5.4% (odds ratios, 0.30; P = .01 & odds ratios, 0.42; P = .05), respectively. The total rate of scapular notching was higher in the cemented rTSA subgroups (16.5%) vs. (8.91%) in the press fit rTSA subgroups (P = .02).
+CONCLUSION
+: Our study demonstrates that patients =65 years of age, who sustain a 3-or 4-part PHF achieve the most benefit in terms of ROM, postoperative functional outcomes, tuberosity union, and overall complication rate when undergoing rTSA with a noncemented stem and early postoperative ROM when compared to the mainstream preference-rTSA-Cement-Delayed.

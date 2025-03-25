@@ -1,0 +1,22 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.jtha.2024.06.029.
+
+=== Métadonnées ===
+Chrysafi P, Barnum K, Gerhard GM, et al.
+Anticoagulation for splanchnic vein thrombosis in myeloproliferative neoplasms: a systematic review and meta-analysis.
+J Thromb Haemost. 2024 Dec;22(12):3479-3489. doi: 10.1016/j.jtha.2024.06.029. Epub 2024 Aug 8.
+                    (
+Systematic review
+)
+
+=== Abstract ===
+BACKGROUND
+: Optimal anticoagulation management in patients with myeloproliferative neoplasms (MPN) experiencing splanchnic vein thrombosis (SpVT) requires balancing risks of bleeding and recurrent thrombosis.
+OBJECTIVES
+: We conducted a systematic review and meta-analysis to assess the incidence of bleeding and thrombosis recurrence in patients with MPN-SpVT.
+METHODS
+: We included retrospective or prospective studies in English with =10 adult patients with MPN-SpVT. Outcomes included recurrent venous thrombosis (SpVT and non-SpVT), arterial thrombosis, and major bleeding. Pooled rates per 100 patient years with 95% CIs were calculated by DerSimonian-Laird method using random-effects model.
+RESULTS
+: Out of 4624 studies screened, 9 studies with a total of 443 patients were included in the meta-analysis with median follow-up of 3.5 years. In the 364 patients with MPN-SpVT treated with anticoagulation, pooled event rate for major bleeding was 2.8 (95% CI, 1.5-5.1; I2 = 95%), for recurrent venous thrombosis was 1.4 (95% CI, 0.8-2.2; I2 = 72%), and for arterial thrombosis was 1.4 (95% CI, 0.6-3.3; I2 = 92%) per 100 patient years. Among 79 patients (n = 4 studies) who did not receive anticoagulation, pooled event rate for major bleeding was 3.2 (95% CI, 0.7-12.7; I2 = 97%), for recurrent venous thrombosis 3.5 (95% CI, 1.8-6.4; I2 = 88%), and for arterial thrombosis rate 1.6 (95% CI, 0.4-6.6; I2 = 95%) per 100 patient years.
+CONCLUSION
+: Patients with MPN-SpVT treated with anticoagulation have significant risks for both major bleeding and thrombosis recurrence. Further studies are necessary to determine the optimal anticoagulation approach in patients with MPN-SpVT.

@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2402614.
+
+=== Métadonnées ===
+Lu S, Kato T, Dong X, et al.
+Osimertinib after Chemoradiotherapy in Stage III EGFR-Mutated NSCLC.
+N Engl J Med. 2024 Aug 15;391(7):585-597. doi: 10.1056/NEJMoa2402614. Epub 2024 Jun 2.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: Osimertinib is a recommended treatment for advanced non-small-cell lung cancer (NSCLC) with an epidermal growth factor receptor (EGFR) mutation and as adjuvant treatment for resected EGFR-mutated NSCLC. EGFR tyrosine kinase inhibitors have shown preliminary efficacy in unresectable stage III EGFR-mutated NSCLC.
+METHODS
+: In this phase 3, double-blind, placebo-controlled trial, we randomly assigned patients with unresectable EGFR-mutated stage III NSCLC without progression during or after chemoradiotherapy to receive osimertinib or placebo until disease progression occurred (as assessed by blinded independent central review) or the regimen was discontinued. The primary end point was progression-free survival as assessed by blinded independent central review.
+RESULTS
+: A total of 216 patients who had undergone chemoradiotherapy were randomly assigned to receive osimertinib (143 patients) or placebo (73 patients). Osimertinib resulted in a significant progression-free survival benefit as compared with placebo: the median progression-free survival was 39.1 months with osimertinib versus 5.6 months with placebo, with a hazard ratio for disease progression or death of 0.16 (95% confidence interval [CI], 0.10 to 0.24; P<0.001). The percentage of patients who were alive and progression free at 12 months was 74% (95% CI, 65 to 80) with osimertinib and 22% (95% CI, 13 to 32) with placebo. Interim overall survival data (maturity, 20%) showed 36-month overall survival among 84% of patients with osimertinib (95% CI, 75 to 89) and 74% with placebo (95% CI, 57 to 85), with a hazard ratio for death of 0.81 (95% CI, 0.42 to 1.56; P = 0.53). The incidence of adverse events of grade 3 or higher was 35% in the osimertinib group and 12% in the placebo group; radiation pneumonitis (majority grade, 1 to 2) was reported in 48% and 38%, respectively. No new safety concerns emerged.
+CONCLUSIONS
+: Treatment with osimertinib resulted in significantly longer progression-free survival than placebo in patients with unresectable stage III EGFR-mutated NSCLC. (Funded by AstraZeneca; LAURA ClinicalTrials.gov number, NCT03521154.).

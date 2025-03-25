@@ -1,0 +1,28 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamanetworkopen.2024.32041.
+
+=== Métadonnées ===
+Alimy AR, Anastasilakis AD, Carey JJ, et al.
+Conservative Treatments in the Management of Acute Painful Vertebral Compression Fractures: A Systematic Review and Network Meta-Analysis.
+JAMA Netw Open. 2024 Sep 3;7(9):e2432041. doi: 10.1001/jamanetworkopen.2024.32041.
+                    (
+Systematic review
+)
+
+=== Abstract ===
+IMPORTANCE
+: Osteoporotic vertebral compression fractures (VCFs) frequently cause substantial pain and reduced mobility, posing a major health problem. Despite the critical need for effective pain management to restore functionality and improve patient outcomes, the value of various conservative treatments for acute VCF has not been systematically investigated.
+OBJECTIVE
+: To assess and compare different conservative treatment options in managing acute pain related to VCF.
+DATA SOURCES
+: On May 16, 2023, 4 databases-PubMed, Embase, Scopus, and CINAHL-were searched. In addition, a gray literature search within Scopus and Embase was also conducted.
+STUDY SELECTION
+: Included studies were prospective comparative and randomized clinical trials that assessed conservative treatments for acute VCF.
+DATA EXTRACTION AND SYNTHESIS
+: Data extraction and synthesis were performed by 2 authors according to the Preferred Reporting Items for Systematic Reviews and Meta-Analyses for Network Meta-Analyses recommendations. A frequentist graph-theoretical model and a random-effects model were applied for the meta-analysis.
+MAIN OUTCOMES AND MEASURES
+: Primary outcomes were short-term (4 weeks) pain during activity and long-term (latest available follow-up) nonspecified pain in patients with acute VCF.
+RESULTS
+: The study included 20 trials, encompassing 2102 patients, and evaluated various interventions for managing VCF. Calcitonin (standardized mean difference [SMD], -4.86; 95% CI, -6.87 to -2.86) and nonsteroidal anti-inflammatory drugs (NSAIDs; SMD, -3.94; 95% CI, -7.30 to -0.58) were beneficial regarding short-term pain during activity compared with placebo. For long-term nonspecific pain management, bisphosphonates were associated with inferior pain outcomes compared with daily (SMD, 1.21; 95% CI, 0.11 to 2.31) or weekly (SMD, 1.13; 95% CI, 0.05 to 2.21) administration of teriparatide, with no treatment being superior to NSAIDs. The qualitative analysis of adverse events highlighted that typical adverse events associated with these medications were observed.
+CONCLUSIONS AND RELEVANCE
+: NSAIDs and teriparatide may be the preferred treatment options for pain management in acute osteoporotic VCF. Although calcitonin also proved to be beneficial, its safety profile and potential adverse effects restrict its widespread application. The limited evidence on braces and analgesics underscores the urgent need for future research.

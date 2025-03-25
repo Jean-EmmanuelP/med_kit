@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.2337/dc24-0491.
+
+=== Métadonnées ===
+Kahn SE, Deanfield JE, Jeppesen OK, et al.
+Effect of Semaglutide on Regression and Progression of Glycemia in People With Overweight or Obesity but Without Diabetes in the SELECT Trial.
+Diabetes Care. 2024 Aug 1;47(8):1350-1359. doi: 10.2337/dc24-0491.
+                    (
+Original study
+)
+
+=== Abstract ===
+OBJECTIVE
+: To determine whether semaglutide slows progression of glycemia in people with cardiovascular disease and overweight or obesity but without diabetes.
+RESEARCH DESIGN AND METHODS
+: In a multicenter, double-blind trial, participants aged =45 years, with BMI =27 kg/m2, and with preexisting cardiovascular disease but without diabetes (HbA1c <6.5%) were randomized to receive subcutaneous semaglutide (2.4 mg weekly) or placebo. Major glycemic outcomes were HbA1c and proportions achieving biochemical normoglycemia (HbA1c <5.7%) and progressing to biochemical diabetes (HbA1c =6.5%).
+RESULTS
+: Of 17,604 participants, 8,803 were assigned to semaglutide and 8,801 to placebo. Mean ± SD intervention exposure was 152 ± 56 weeks and follow-up 176 ± 40 weeks. In both treatment arms mean nadir HbA1c for participants was at 20 weeks. Thereafter, HbA1c increased similarly in both arms, with a mean difference of -0.32 percentage points (95% CI -0.33 to -0.30; -3.49 mmol/mol [-3.66 to -3.32]) and with the difference favoring semaglutide throughout the study (P < 0.0001). Body weight plateaued at 65 weeks and was 8.9% lower with semaglutide. At week 156, a greater proportion treated with semaglutide were normoglycemic (69.5% vs. 35.8%; P < 0.0001) and a smaller proportion had biochemical diabetes by week 156 (1.5% vs. 6.9%; P < 0.0001). The number needed to treat was 18.5 to prevent a case of diabetes. Both regression and progression were dependent on glycemia at baseline, with the magnitude of weight reduction important in mediating 24.5% of progression and 27.1% of regression.
+CONCLUSIONS
+: In people with preexisting cardiovascular disease and overweight or obesity but without diabetes, long-term semaglutide increases regression to biochemical normoglycemia and reduces progression to biochemical diabetes but does not slow glycemic progression over time.

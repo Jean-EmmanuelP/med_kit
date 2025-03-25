@@ -1,0 +1,29 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1136/bmj-2024-080439.
+
+=== Métadonnées ===
+Cardiac output-guided haemodynamic therapy for patients undergoing major gastrointestinal surgery: OPTIMISE II randomised clinical trial.
+BMJ. 2024 Dec 3;387:e080439. doi: 10.1136/bmj-2024-080439.
+                    (
+Original study
+)
+
+=== Abstract ===
+OBJECTIVES
+: To evaluate the clinical effectiveness and safety of a perioperative algorithm for cardiac output-guided haemodynamic therapy in patients undergoing major gastrointestinal surgery.
+DESIGN
+: Multicentre randomised controlled trial.
+SETTING
+: Surgical services of 55 hospitals worldwide.
+PARTICIPANTS
+: 2498 adults aged =65 years with an American Society of Anesthesiologists physical status classification of II or greater and undergoing major elective gastrointestinal surgery, recruited between January 2017 and September 2022.
+INTERVENTIONS
+: Participants were assigned to minimally invasive cardiac output-guided intravenous fluid therapy with low dose inotrope infusion during and four hours after surgery, or to usual care without cardiac output monitoring.
+MAIN OUTCOME MEASURES
+: The primary outcome was postoperative infection within 30 days of randomisation. Safety outcomes were acute cardiac events within 24 hours and 30 days. Secondary outcomes were acute kidney injury within 30 days and mortality within 180 days.
+RESULTS
+: In 2498 patients (mean age 74 (standard deviation 6) years, 57% women), the primary outcome occurred in 289/1247 (23.2%) intervention patients and 283/1247 (22.7%) usual care patients (adjusted odds ratio 1.03 (95% confidence interval 0.84 to 1.25); P=0.81). Acute cardiac events within 24 hours occurred in 38/1250 (3.0%) intervention patients and 21/1247 (1.7%) usual care patients (adjusted odds ratio 1.82 (1.06 to 3.13); P=0.03). This difference was primarily due to an increased incidence of arrhythmias among intervention patients. Acute cardiac events within 30 days occurred in 85/1249 (6.8%) intervention patients and 79/1247 (6.3%) usual care patients (adjusted odds ratio 1.06 (0.77 to 1.47); P=0.71). Other secondary outcomes did not differ.
+CONCLUSIONS
+: This clinical effectiveness trial in patients undergoing major elective gastrointestinal surgery did not provide evidence that cardiac output-guided intravenous fluid therapy with low dose inotrope infusion could reduce the incidence of postoperative infections. The intervention was associated with an increased incidence of acute cardiac events within 24 hours, in particular tachyarrhythmias. Based on these findings, the routine use of this treatment approach in unselected patients is not recommended.
+TRIAL REGISTRATION
+: ISRCTN Registry ISRCTN39653756.

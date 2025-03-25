@@ -1,0 +1,28 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.jphys.2024.12.002.
+
+=== Métadonnées ===
+Yu P, Luo Z, Wang Y, et al.
+Preoperative inspiratory muscle training improves lung function prior to elective heart valve surgery and reduces postoperative lung function impairment and pulmonary complications: a randomised trial.
+J Physiother. 2025 Jan;71(1):27-34. doi: 10.1016/j.jphys.2024.12.002. Epub 2024 Dec 14.
+                    (
+Original study
+)
+
+=== Abstract ===
+QUESTION
+: What is the effect of 3 days of preoperative inspiratory muscle training (IMT) on lung function prior to heart valve surgery and on postoperative lung function and pulmonary complications compared with sham and no IMT?
+DESIGN
+: A three-arm, multicentre, randomised controlled trial with concealed allocation, intention-to-treat analysis and blinded assessment of some outcomes.
+PARTICIPANTS
+: This study included 228 adults scheduled for heart valve surgery.
+INTERVENTIONS
+: The IMT group received 3 days of IMT at 30% maximal inspiratory pressure, the sham IMT group received the same but at 10% maximal inspiratory pressure and the control group received no IMT.
+OUTCOME MEASURES
+: Spirometric measures, maximal inspiratory pressure and maximum voluntary ventilation were measured at hospital admission, the day before surgery and at discharge. The incidence of postoperative pulmonary complications (primary outcome) and adverse events were recorded.
+RESULTS
+: A total of 215 participants completed surgery as planned and all participants were followed up until discharge. Spirometric measures, maximal inspiratory pressure and maximum voluntary ventilation improved in all groups between admission and the day before surgery, but more so in the IMT group. At discharge, these measures had deteriorated in all groups, but less so in the IMT group. Preoperative IMT reduced the total number of participants experiencing a pulmonary complication in the IMT group compared with the sham IMT group (ARR -0.18, 95% CI -0.33 to -0.03) and compared with the control group (ARR -0.21, 95% CI -0.35 to -0.05). Very few adverse events occurred in all three groups.
+CONCLUSIONS
+: Preoperative IMT improved lung function prior to surgery and at hospital discharge and reduced postoperative pulmonary complications in adults undergoing elective heart valve surgery.
+REGISTRATION
+: ChiCTR2100054869.

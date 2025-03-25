@@ -1,0 +1,22 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1093/eurheartj/ehae331.
+
+=== Métadonnées ===
+Jorgensen TH, Thyregod HGH, Savontaus M, et al.
+Transcatheter aortic valve implantation in low-risk tricuspid or bicuspid aortic stenosis: the NOTION-2 trial.
+Eur Heart J. 2024 Oct 5;45(37):3804-3814. doi: 10.1093/eurheartj/ehae331.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND AND AIMS
+: Transcatheter aortic valve implantation (TAVI) has become the first choice to treat older patients with severe symptomatic aortic stenosis (AS). This study aimed to compare TAVI with surgery in low-risk patients =75 years of age, including both tricuspid and bicuspid AS.
+METHODS
+: The Nordic Aortic Valve Intervention (NOTION)-2 trial enrolled and 1:1 randomized low-risk patients aged =75 years with severe symptomatic AS to TAVI or surgery. The primary endpoint was a composite of all-cause mortality, stroke, or rehospitalization (related to the procedure, valve, or heart failure) at 12 months.
+RESULTS
+: A total of 370 patients were enrolled with a mean age of 71.1 years and a median Society of Thoracic Surgeons risk score of 1.1%. A total of 100 patients had bicuspid AS. The 1-year incidence of the primary endpoint was 10.2% in the TAVI group and 7.1% in the surgery group [absolute risk difference 3.1%; 95% confidence interval (CI), -2.7% to 8.8%; hazard ratio (HR) 1.4; 95% CI, 0.7-2.9; P = .3]. Patients with TAVI, when compared to surgery, had lower risk of major bleeding and new-onset atrial fibrillation and higher risk of non-disabling stroke, permanent pacemaker implantation, and moderate or greater paravalvular regurgitation. The risk of the primary composite endpoint was 8.7% and 8.3% in patients with tricuspid AS (HR 1.0; 95% CI, 0.5-2.3) and 14.3% and 3.9% in patients with bicuspid AS (HR 3.8; 95% CI, 0.8-18.5) treated with TAVI or surgery, respectively (P for interaction = .1).
+CONCLUSIONS
+: Among low-risk patients aged =75 years with severe symptomatic AS, the rate of the composite of death, stroke, or rehospitalization at 1 year was similar between TAVI and surgery. Transcatheter aortic valve implantation outcomes in young bicuspid AS patients warrant caution and should be further investigated. (NOTION-2, ClinicalTrials.gov, NCT02825134).
+TRIAL REGISTRATION NUMBER
+: ClinicalTrials.gov NCT02825134.

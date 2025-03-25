@@ -1,0 +1,28 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamaoncol.2024.3456.
+
+=== Métadonnées ===
+Villacampa G, Navarro V, Matikas A, et al.
+Neoadjuvant Immune Checkpoint Inhibitors Plus Chemotherapy in Early Breast Cancer: A Systematic Review and Meta-Analysis.
+JAMA Oncol. 2024 Oct 1;10(10):1331-1341. doi: 10.1001/jamaoncol.2024.3456.
+                    (
+Systematic review
+)
+
+=== Abstract ===
+IMPORTANCE
+: Recent studies have investigated the combination of immune checkpoint inhibitors (ICIs) with (neo)adjuvant chemotherapy in early-stage breast cancer. However, there is an ongoing debate about the optimal approach for integrating this strategy.
+OBJECTIVES
+: To evaluate the association of neoadjuvant ICIs with pathologic complete response (pCR) across molecular phenotypes, to quantify the survival benefits of ICIs beyond pCR status, and to estimate the incidence of specific adverse events.
+DATA SOURCES
+: The PubMed database was searched on December 10, 2023, to identify all potential eligible studies.
+STUDY SELECTION
+: Randomized clinical trials (RCTs) that assessed (neo)adjuvant ICI plus chemotherapy in early breast cancer.
+DATA EXTRACTION AND SYNTHESIS
+: Data from the eligible RCTs were extracted by 2 reviewers. An extracted individual patient data meta-analysis and a trial-level random-effect meta-analysis were performed.
+MAIN OUTCOME(S) AND MEASURE(S)
+: Outcomes were pCR, event-free survival (EFS) in patients with and without pCR, and adverse events. Hazard ratios were estimated using stratified Cox proportional hazards regression models.
+RESULTS
+: Nine RCTs involving 5114 patients met the inclusion criteria (2097 triple-negative breast cancer [TNBC], 1924 hormone receptor-positive [HR+]/ERBB2-negative [ERBB2-], and 1115 ERBB2+ tumors). In TNBC, the addition of ICIs was associated with an improved pCR rate regardless of programmed cell death ligand 1 (PD-L1) status (absolute improvement, >10%). In HR+/ ERBB2- tumors, the administration of ICIs was associated with improved pCR only in the PD-L1-positive (PD-L1+) population (absolute improvement, +12.2%), whereas no benefit was observed in ERBB2+ tumors. In patients with TNBC achieving a pCR, the addition of ICIs was associated with improved EFS (hazard ratio, 0.65; 95% CI, 0.42-1.00), resulting in a 5-year EFS of 92.0% with ICIs compared with 88.0% without them. In patients with residual disease, ICIs also showed better EFS (hazard ratio, 0.77; 95% CI, 0.61-0.98), resulting in a 5-year EFS of 63.3% with ICIs and 56.1% without them. Adjuvant ICI did not show numerical improvement in patients with either pCR or residual disease (all hazard ratios >1). During the neoadjuvant treatment, the incidence of grade 3 or greater immune-related adverse events with ICI was 10.3%.
+CONCLUSIONS AND RELEVANCE
+: These findings suggest that neoadjuvant ICI therapy improves efficacy outcomes in early-stage TNBC and PD-L1+ HR+/ERBB2- tumors with an acceptable safety profile; however, no benefit was observed with adjuvant ICI. Given the financial and toxicity costs associated with ICIs, future research should prioritize identifying patients most likely to benefit from the addition of ICIs to neoadjuvant chemotherapy.

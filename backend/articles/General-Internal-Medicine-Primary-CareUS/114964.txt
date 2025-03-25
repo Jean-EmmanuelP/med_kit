@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1093/eurheartj/ehae736.
+
+=== Métadonnées ===
+Petersen SR, Bonnesen K, Grove EL, et al.
+Bleeding risk using non-steroidal anti-inflammatory drugs with anticoagulants after venous thromboembolism: a nationwide Danish study.
+Eur Heart J. 2025 Jan 3;46(1):58-68. doi: 10.1093/eurheartj/ehae736.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND AND AIMS
+: The bleeding risk of using non-steroidal anti-inflammatory drugs (NSAIDs) in patients treated with oral anticoagulants for venous thromboembolism (VTE) remains unclear.
+METHODS
+: A nationwide cohort study of 51 794 VTE patients initiating oral anticoagulants between 1 January 2012 and 31 December 2022 was conducted. Time-dependent multivariate cause-specific Cox regression was used to compute adjusted hazard ratios between NSAID use and hospital-diagnosed bleeding episodes.
+RESULTS
+: Event rates for any bleeding per 100 person-years were 3.5 [95% confidence interval (CI), 3.4-3.7] during periods without NSAID use and 6.3 (95% CI, 5.1-7.9) during periods with NSAID use (number needed to harm = 36 patients treated for 1 year). Compared with non-use, the adjusted hazard ratios for any bleeding associated with NSAID use were 2.09 (95% CI, 1.67-2.62) overall, 1.79 (95% CI, 1.36-2.36) for ibuprofen, 3.30 (95% CI, 1.82-5.97) for diclofenac, and 4.10 (95% CI, 2.13-7.91) for naproxen. Compared with non-use, the adjusted hazard ratios associated with NSAID use were 2.24 (95% CI, 1.61-3.11) for gastrointestinal bleeding, 3.22 (95% CI, 1.69-6.14) for intracranial bleeding, 1.36 (95% CI, .67-2.77) for thoracic and respiratory tract bleeding, 1.57 (95% CI, .98-2.51) for urinary tract bleeding, and 2.99 (95% CI, 1.45-6.18) for anaemia caused by bleeding. Results were consistent for anticoagulant and VTE subtypes.
+CONCLUSIONS
+: Patients treated with oral anticoagulants for VTE had a more than two-fold increased bleeding rate when using NSAIDs. This increased bleeding rate was not restricted to the gastrointestinal tract.

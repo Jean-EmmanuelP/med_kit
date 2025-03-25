@@ -1,0 +1,22 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1177/02692155241271040.
+
+=== Métadonnées ===
+Clarkson MJ, McMahon B, Warmington SA
+Comparing adaptations from blood flow restriction exercise training using regulated or unregulated pressure systems: A systematic review and meta-analysis.
+Clin Rehabil. 2024 Nov;38(11):1446-1465. doi: 10.1177/02692155241271040. Epub 2024 Aug 6.
+                    (
+Systematic review
+)
+
+=== Abstract ===
+OBJECTIVE
+: No study has examined outcomes derived from blood flow restriction exercise training interventions using regulated compared with unregulated blood flow restriction pressure systems. Therefore, we used a systematic review and meta-analyses to compare the chronic adaptations to blood flow restriction exercise training achieved with regulated and unregulated blood flow restriction pressure systems.
+DATA SOURCES
+: The electronic database search included using the tool EBSCOhost and other online database search engines. The search included Medline, SPORTDiscus, CINAHL, Embase and SpringerLink.
+METHODS
+: Included studies utilised chronic blood flow restriction exercise training interventions greater than two weeks duration, where blood flow restriction was applied using a regulated or unregulated blood flow restriction pressure system, and where outcome measures such as muscle strength, muscle size or physical function were measured both pre- and post-training. Studies included in the meta-analyses used an equivalent non-blood flow restriction exercise comparison group.
+RESULTS
+: Eighty-one studies were included in the systematic review. Data showed that regulated (n = 47) and unregulated (n = 34) blood flow restriction pressure systems yield similar training adaptations for all outcome measures post-intervention. For muscle strength and muscle size, this was reaffirmed in the included meta-analyses.
+CONCLUSION
+: This review indicates that practitioners may achieve comparable training adaptations with blood flow restriction exercise training using either regulated or unregulated blood flow restriction pressure systems. Therefore, additional factors such as device quality, participant comfort and safety, cost and convenience are important factors to consider when deciding on appropriate equipment to use when prescribing blood flow restriction exercise training.

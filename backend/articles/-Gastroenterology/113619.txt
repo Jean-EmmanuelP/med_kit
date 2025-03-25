@@ -1,0 +1,22 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1136/gutjnl-2024-332640.
+
+=== Métadonnées ===
+Gao W, Liu J, Wang X, et al.
+Simplified Helicobacter pylori therapy for patients with penicillin allergy: a randomised controlled trial of vonoprazan-tetracycline dual therapy.
+Gut. 2024 Aug 8;73(9):1414-1420. doi: 10.1136/gutjnl-2024-332640.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND AND AIMS
+: This study aimed to evaluate the efficacy and safety of vonoprazan and tetracycline (VT) dual therapy as first-line treatment for Helicobacter pylori infection in patients with penicillin allergy.
+METHODS
+: In this randomised controlled trial, treatment-naïve adults with H. pylori infection and penicillin allergy were randomised 1:1 to receive either open-label VT dual therapy (vonoprazan 20 mg two times per day+tetracycline 500 mg three times a day) or bismuth quadruple therapy (BQT; lansoprazole 30 mg two times per day+colloidal bismuth 150 mg three times a day+tetracycline 500 mg three times a day+metronidazole 400 mg three times a day) for 14 days. The primary outcome was non-inferiority in eradication rates in the VT dual group compared with the BQT group. Secondary outcomes included assessing adverse effects.
+RESULTS
+: 300 patients were randomised. The eradication rates in the VT group and the BQT group were: 92.0% (138/150, 95% CI 86.1% to 95.6%) and 89.3% (134/150, 95% CI 83.0% to 93.6%) in intention-to-treat analysis (difference 2.7%; 95% CI -4.6% to 10.0%; non-inferiority p=0.000); 94.5% (138/146, 95% CI 89.1% to 97.4%) and 93.1% (134/144, 95% CI 87.3% to 96.4%) in modi?ed intention-to-treat analysis (difference 1.5%; 95% CI -4.9% to 8.0%; non-inferiority p=0.001); 95.1% (135/142, 95% CI 89.7% to 97.8%) and 97.7% (128/131, 95% CI 92.9% to 99.4%) in per-protocol analysis (difference 2.6%; 95% CI -2.9% to 8.3%; non-inferiority p=0.000). The treatment-emergent adverse events (TEAEs) were significantly lower in the VT group (14.0% vs 48.0%, p=0.000), with fewer treatment discontinuations due to TEAEs (2.0% vs 8.7%, p=0.010).
+CONCLUSIONS
+: VT dual therapy demonstrated efficacy and safety as a first-line treatment for H. pylori infection in the penicillin-allergic population, with comparable efficacy and a lower incidence of TEAEs compared with traditional BQT.
+TRIAL REGISTRATION NUMBER
+: ChiCTR2300074693.

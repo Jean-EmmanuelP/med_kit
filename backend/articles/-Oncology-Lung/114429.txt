@@ -1,0 +1,28 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamaoncol.2024.3089.
+
+=== Métadonnées ===
+Swaminath A, Parpia S, Wierzbicki M, et al.
+Stereotactic vs Hypofractionated Radiotherapy for Inoperable Stage I Non-Small Cell Lung Cancer: The LUSTRE Phase 3 Randomized Clinical Trial.
+JAMA Oncol. 2024 Nov;10(11):1571-1575. doi: 10.1001/jamaoncol.2024.3089. Epub 2024 Sep 19.
+                    (
+Original study
+)
+
+=== Abstract ===
+IMPORTANCE
+: Stereotactic body radiotherapy (SBRT) is widely used for stage I medically inoperable non-small cell lung cancer (NSCLC), yet varied results from randomized clinical trials (RCTs) and concerns in treating centrally located tumors persist.
+OBJECTIVE
+: To examine whether SBRT would improve local control (LC) compared with hypofractionated conventional radiotherapy (CRT).
+DESIGN SETTING AND PARTICIPANTS
+: This phase 3 RCT was conducted in 16 Canadian centers. Patients with medically inoperable stage I (=5 cm) NSCLC were randomized 2:1 to SBRT of 48 Gy in 4 fractions (peripheral NSCLC) or 60 Gy in 8 fractions (central NSCLC) vs CRT of 60 Gy in 15 fractions. Data were collected from May 2014 to January 2020, and data were analyzed from July 2022 to July 2023.
+INTERVENTIONS
+: SBRT or CRT.
+MAIN OUTCOMES AND MEASURES
+: The primary objective was to determine the effectiveness of SBRT compared with CRT based on LC at 3 years. Secondary outcomes included event-free survival, overall survival, and toxic effects. All radiation plans were subject to real-time/final review. Local failures were centrally adjudicated. The study was designed to detect a 3-year LC improvement of SBRT from 75% to 87.5%. The target sample size was 324 patients.
+RESULTS
+: Of 233 included patients, 119 (51.1%) were male, and the mean (SD) age was 75.4 (7.7) years; the median (IQR) follow-up was 36.1 (26.4-52.8) months. A total of 154 patients received SBRT and 79 received CRT. The 3-year LC was 87.6% (95% CI, 81.9%-93.4%) for SBRT and 81.2% (95% CI, 71.9%-90.5%) for CRT (hazard ratio [HR], 0.61; 95% CI, 0.31-1.20; P = .15). The HR was 1.02 (95% CI, 0.72-1.45; P = .87) for event-free survival and 1.18 (95% CI, 0.80-1.76; P = .40) for overall survival. Minimal acute toxic effects were observed. Among those randomized to SBRT, late grade 3 or 4 toxic effects occurred in 5 of 45 (11%) with central NSCLC and 2 of 109 (1.8%) with peripheral NSCLC; among those randomized to CRT, in 1 of 19 (5%) with central NSCLC and 1 of 60 (2%) with peripheral NSCLC. One patient who received SBRT for an ultracentral lesion (target overlapping proximal bronchus) experienced a possible treatment-related grade 5 event (hemoptysis).
+CONCLUSIONS AND RELEVANCE
+: This RCT compared lung SBRT with hypofractionated CRT that included central/ultracentral tumors. No difference was detected in LC between groups. Severe toxic effects were limited, including patients with central tumors. The trial provides important prospective data evaluating SBRT; however, further research is necessary to determine if SBRT is more effective than CRT for peripheral and central NSCLC.
+TRIAL REGISTRATION
+: ClinicalTrials.gov Identifier: NCT03924869.

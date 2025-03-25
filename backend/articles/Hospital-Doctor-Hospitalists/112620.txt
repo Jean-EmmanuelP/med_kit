@@ -1,0 +1,28 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamaneurol.2024.0146.
+
+=== Métadonnées ===
+Chen HS, Cui Y, Wang XH, et al.
+Clopidogrel Plus Aspirin vs Aspirin Alone in Patients With Acute Mild to Moderate Stroke: The ATAMIS Randomized Clinical Trial.
+JAMA Neurol. 2024 May 1;81(5):450-460. doi: 10.1001/jamaneurol.2024.0146.
+                    (
+Original study
+)
+
+=== Abstract ===
+IMPORTANCE
+: Dual antiplatelet therapy has been demonstrated to be superior to single antiplatelet in reducing recurrent stroke among patients with transient ischemic attack or minor stroke, but robust evidence for its effect in patients with mild to moderate ischemic stroke is lacking.
+OBJECTIVE
+: To evaluate whether dual antiplatelet therapy is superior to single antiplatelet among patients with mild to moderate ischemic stroke.
+DESIGN, SETTING, AND PARTICIPANTS
+: This was a multicenter, open-label, blinded end point, randomized clinical trial conducted at 66 hospitals in China from December 20, 2016, through August 9, 2022. The date of final follow-up was October 30, 2022. The analysis was reported on March 12, 2023. Of 3065 patients with ischemic stroke, 3000 patients with acute mild to moderate stroke within 48 hours of symptom onset were enrolled, after excluding 65 patients who did not meet eligibility criteria or had no randomization outcome.
+INTERVENTIONS
+: Within 48 hours after symptom onset, patients were randomly assigned to receive clopidogrel plus aspirin (n = 1541) or aspirin alone (n = 1459) in a 1:1 ratio.
+MAIN OUTCOMES AND MEASURES
+: The primary end point was early neurologic deterioration at 7 days, defined as an increase of 2 or more points in National Institutes of Health Stroke Scale (NIHSS) score, but not as a result of cerebral hemorrhage, compared with baseline. The superiority of clopidogrel plus aspirin to aspirin alone was assessed based on a modified intention-to-treat population, which included all randomized participants with at least 1 efficacy evaluation regardless of treatment allocation. Bleeding events were safety end points.
+RESULTS
+: Of the 3000 randomized patients, 1942 (64.6%) were men, the mean (SD) age was 65.9 (10.6) years, median (IQR) NIHSS score at admission was 5 (4-6), and 1830 (61.0%) had a stroke of undetermined cause. A total of 2915 patients were included in the modified intention-to-treat analysis. Early neurologic deterioration occurred in 72 of 1502 (4.8%) in the dual antiplatelet therapy group vs 95 of 1413 (6.7%) in the aspirin alone group (risk difference -1.9%; 95% CI, -3.6 to -0.2; P = .03). Similar bleeding events were found between 2 groups.
+CONCLUSIONS AND RELEVANCE
+: Among Chinese patients with acute mild to moderate ischemic stroke, clopidogrel plus aspirin was superior to aspirin alone with regard to reducing early neurologic deterioration at 7 days with similar safety profile. These findings indicate that dual antiplatelet therapy may be a superior choice to aspirin alone in treating patients with acute mild to moderate stroke.
+TRIAL REGISTRATION
+: ClinicalTrials.gov Identifier: NCT02869009.

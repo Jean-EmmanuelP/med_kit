@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1111/dom.15714.
+
+=== Métadonnées ===
+Zhou Y, Xu M, Yin X, et al.
+Association between new-onset atrial fibrillation and dementia among individuals with type 2 diabetes.
+Diabetes Obes Metab. 2024 Sep;26(9):3715-3722. doi: 10.1111/dom.15714. Epub 2024 Jun 14.
+                    (
+Original study
+)
+
+=== Abstract ===
+AIM
+: To assess the association between new-onset atrial fibrillation and dementia among patients with type 2 diabetes, a group with a high prevalence of atrial fibrillation.
+MATERIALS AND METHODS
+: This cohort study included 22 989 patients with type 2 diabetes from the UK Biobank. New-onset atrial fibrillation was ascertained from hospital admission records. We used an algorithm officially released by the UK Biobank to identify all-cause dementia, Alzheimer's disease and vascular dementia. The algorithm was developed using multiple sources, including hospital admissions and the death registry. Time-varying Cox regression analyses were performed to investigate the association between new-onset atrial fibrillation and dementia.
+RESULTS
+: A total of 2843 participants developed atrial fibrillation, whereas the remaining 20 146 did not. During the median of 12.3 years of follow-up, 844 all-cause dementia, 342 Alzheimer's disease and 246 vascular dementia cases occurred. Compared with participants without atrial fibrillation, those with atrial fibrillation had higher risks of all-cause dementia (hazard ratio [HR] 2.15, 95% confidence interval [CI] 1.80-2.57), Alzheimer's disease (HR 1.44, 95% CI 1.06-1.96) and vascular dementia (HR 3.11, 95% CI 2.32-4.17).
+CONCLUSIONS
+: New-onset atrial fibrillation was associated with a substantially higher risk of all-cause dementia, Alzheimer's disease and vascular dementia in patients with type 2 diabetes. Our findings highlight the significance of atrial fibrillation management in mitigating the risk of dementia in this demographic.

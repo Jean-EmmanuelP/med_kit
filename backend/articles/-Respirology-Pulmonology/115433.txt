@@ -1,0 +1,22 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.chest.2024.07.168.
+
+=== Métadonnées ===
+Sciurba FC, Christenson SA, Rheault T, et al.
+Effect of Dual Phosphodiesterase 3 and 4 Inhibitor Ensifentrine on Exacerbation Rate and Risk in Patients With Moderate to Severe COPD.
+Chest. 2025 Feb;167(2):425-435. doi: 10.1016/j.chest.2024.07.168. Epub 2024 Aug 27.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: Exacerbations in COPD can be life-threatening and can lead to irreversible declines in lung function and quality of life. Medications that reduce exacerbation burden are an unmet need, because exacerbations put patients at risk of more exacerbations and decrease quality of life. Ensifentrine is a first-in-class selective dual inhibitor of phosphodiesterase 3 and 4 with demonstrated nonsteroidal antiinflammatory activity and bronchodilatory effects.
+RESEARCH QUESTION
+: Does ensifentrine reduce the rate or risk of COPD exacerbations?
+STUDY DESIGN AND METHODS
+: A prespecified, pooled analysis of the phase 3 clinical trials Ensifentrine as a Novel Inhaled Nebulized COPD Therapy (ENHANCE)-1 (ClinicalTrials.gov Identifier: NCT04535986) and ENHANCE-2 (ClinicalTrials.gov Identifier: NCT04542057) was conducted to assess the effect of ensifentrine on exacerbation rate and risk (time to first exacerbation). The trials included symptomatic patients aged 40 to 80 years with moderate to severe COPD who received 3 mg twice-daily ensifentrine over 24 weeks or placebo. Subgroup analyses and frequent exacerbator transition risk assessment were conducted post hoc.
+RESULTS
+: In total, 975 patients treated with ensifentrine and 574 patients who received placebo were included in the pooled analysis, including 62% of patients receiving concomitant long-acting muscarinic antagonist or long-acting ß2-agonist therapy and 18% receiving concomitant inhaled corticosteroid therapy. Ensifentrine was associated with significant reductions in the rate (rate ratio, 0.59; 95% CI, 0.43-0.80; P < .001) and risk (hazard ratio, 0.59; 95% CI, 0.44-0.81; P < .001) of moderate to severe exacerbations compared with placebo. Reductions in the rate and risk of exacerbations generally were consistent across patient subgroups, including age, sex, race, background maintenance medication use, chronic bronchitis, eosinophil count, COPD severity, and exacerbation history. Ensifentrine was associated with a numerical delay in transitioning from an infrequent exacerbator (Global Initiative for Chronic Obstructive Lung Disease group B) to a frequent exacerbator (Global Initiative for Chronic Obstructive Lung Disease group E) compared with placebo.
+INTERPRETATION
+: Ensifentrine reduced the rate of exacerbations and increased the time to first exacerbation among patients with COPD across a broad range of clinically relevant subgroups.

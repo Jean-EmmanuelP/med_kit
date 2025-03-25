@@ -1,0 +1,22 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S2213-2600(24)00115-2.
+
+=== Métadonnées ===
+Humphreys S, von Ungern-Sternberg BS, Taverner F, et al.
+High-flow nasal oxygen for children's airway surgery to reduce hypoxaemic events: a randomised controlled trial.
+Lancet Respir Med. 2024 Jul;12(7):535-543. doi: 10.1016/S2213-2600(24)00115-2. Epub 2024 May 21.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: Tubeless upper airway surgery in children is a complex procedure in which surgeons and anaesthetists share the same operating field. These procedures are often interrupted for rescue oxygen therapy. The efficacy of nasal high-flow oxygen to decrease the frequency of rescue interruptions in children undergoing upper airway surgery is unknown.
+METHODS
+: In this multicentre randomised trial conducted in five tertiary hospitals in Australia, children aged 0-16 years who required tubeless upper airway surgery were randomised (1:1) by a web-based randomisation tool to either nasal high-flow oxygen delivery or standard oxygen therapy (oxygen flows of up to 6 L/min). Randomisation was stratified by site and age (<1 year, 1-4 years, and 5-16 years). Subsequent tubeless upper airway surgery procedures in the same child could be included if there were more than 2 weeks between the procedures, and repeat surgical procedures meeting this condition were considered to be independent events. The oxygen therapy could not be masked, but the investigators remained blinded until outcome data were locked. The primary outcome was successful anaesthesia without interruption of the surgical procedure for rescue oxygenation. A rescue oxygenation event was defined as an interruption of the surgical procedure to deliver positive pressure ventilation using either bag mask technique, insertion of an endotracheal tube, or laryngeal mask to improve oxygenation. There were ten secondary outcomes, including the proportion of procedures with a hypoxaemic event (SpO2 <90%). Analyses were done on an intention-to-treat (ITT) basis. Safety was assessed in all enrolled participants. This trial is registered in the Australian New Zealand Clinical Trials Registry, ACTRN12618000949280, and is completed.
+FINDINGS
+: From Sept 4, 2018, to April 12, 2021, 581 procedures in 487 children were randomly assigned to high-flow oxygen (297 procedures) or standard care (284 procedures); after exclusions, 528 procedures (267 assigned to high-flow oxygen and 261 assigned to standard care) in 483 children (293 male and 190 female) were included in the ITT analysis. The primary outcome of successful anaesthesia without interruption for tubeless airway surgery was achieved in 236 (88%) of 267 procedures on high-flow oxygen and in 229 (88%) of 261 procedures on standard care (adjusted risk ratio [RR] 1·02, 95% CI 0·96-1·08, p=0·82). There were 51 (19%) procedures with a hypoxaemic event in the high-flow oxygen group and 57 (22%) in the standard care group (RR 0·86, 95% CI 0·58-1·24). Of the other prespecified secondary outcomes, none showed a significant difference between groups. Adverse events of epistaxis, laryngospasm, bronchospasm, hypoxaemia, bradycardia, cardiac arrest, hypotension, or death were similar in both study groups.
+INTERPRETATION
+: Nasal high-flow oxygen during tubeless upper airway surgery did not reduce the proportion of interruptions of the procedures for rescue oxygenation compared with standard care. There were no differences in adverse events between the intervention groups. These results suggest that both approaches, nasal high-flow or standard oxygen, are suitable alternatives to maintain oxygenation in children undergoing upper airway surgery.
+FUNDING
+: Thrasher Research Fund, the Australian and New Zealand College of Anaesthetists, the Society for Paediatric Anaesthesia in New Zealand and Australia.

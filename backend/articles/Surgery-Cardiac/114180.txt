@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2314328.
+
+=== Métadonnées ===
+Anker SD, Friede T, von Bardeleben RS, et al.
+Transcatheter Valve Repair in Heart Failure with Moderate to Severe Mitral Regurgitation.
+N Engl J Med. 2024 Nov 14;391(19):1799-1809. doi: 10.1056/NEJMoa2314328. Epub 2024 Aug 31.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: Whether transcatheter mitral-valve repair improves outcomes in patients with heart failure and functional mitral regurgitation is uncertain.
+METHODS
+: We conducted a randomized, controlled trial involving patients with heart failure and moderate to severe functional mitral regurgitation from 30 sites in nine countries. The patients were assigned in a 1:1 ratio to either transcatheter mitral-valve repair and guideline-recommended medical therapy (device group) or medical therapy alone (control group). The three primary end points were the rate of the composite of first or recurrent hospitalization for heart failure or cardiovascular death during 24 months; the rate of first or recurrent hospitalization for heart failure during 24 months; and the change from baseline to 12 months in the score on the Kansas City Cardiomyopathy Questionnaire-Overall Summary (KCCQ-OS; scores range from 0 to 100, with higher scores indicating better health status).
+RESULTS
+: A total of 505 patients underwent randomization: 250 were assigned to the device group and 255 to the control group. At 24 months, the rate of first or recurrent hospitalization for heart failure or cardiovascular death was 37.0 events per 100 patient-years in the device group and 58.9 events per 100 patient-years in the control group (rate ratio, 0.64; 95% confidence interval [CI], 0.48 to 0.85; P = 0.002). The rate of first or recurrent hospitalization for heart failure was 26.9 events per 100 patient-years in the device group and 46.6 events per 100 patient-years in the control group (rate ratio, 0.59; 95% CI, 0.42 to 0.82; P = 0.002). The KCCQ-OS score increased by a mean (±SD) of 21.6±26.9 points in the device group and 8.0±24.5 points in the control group (mean difference, 10.9 points; 95% CI, 6.8 to 15.0; P<0.001). Device-specific safety events occurred in 4 patients (1.6%).
+CONCLUSIONS
+: Among patients with heart failure with moderate to severe functional mitral regurgitation who received medical therapy, the addition of transcatheter mitral-valve repair led to a lower rate of first or recurrent hospitalization for heart failure or cardiovascular death and a lower rate of first or recurrent hospitalization for heart failure at 24 months and better health status at 12 months than medical therapy alone. (Funded by Abbott Laboratories; RESHAPE-HF2 ClinicalTrials.gov number, NCT02444338.).

@@ -1,0 +1,22 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S0140-6736(24)01078-X.
+
+=== Métadonnées ===
+Rega F, Lebreton G, Para M, et al.
+Hypothermic oxygenated perfusion of the donor heart in heart transplantation: the short-term outcome from a randomised, controlled, open-label, multicentre clinical trial.
+Lancet. 2024 Aug 17;404(10453):670-682. doi: 10.1016/S0140-6736(24)01078-X.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: Static cold storage (SCS) remains the gold standard for preserving donor hearts before transplantation but is associated with ischaemia, anaerobic metabolism, and organ injuries, leading to patient morbidity and mortality. We aimed to evaluate whether continuous, hypothermic oxygenated machine perfusion (HOPE) of the donor heart is safe and superior compared with SCS.
+METHODS
+: We performed a multinational, multicentre, randomised, controlled, open-label clinical trial with a superiority design at 15 transplant centres across eight European countries. Adult candidates for heart transplantation were eligible and randomly assigned in a 1:1 ratio. Donor inclusion criteria were age 18-70 years with no previous sternotomy and donation after brain death. In the treatment group, the preservation protocol involved the use of a portable machine perfusion system ensuring HOPE of the resting donor heart. The donor hearts in the control group underwent ischaemic SCS according to standard practices. The primary outcome was time to first event of a composite of either cardiac-related death, moderate or severe primary graft dysfunction (PGD) of the left ventricle, PGD of the right ventricle, acute cellular rejection at least grade 2R, or graft failure (with use of mechanical circulatory support or re-transplantation) within 30 days after transplantation. We included all patients who were randomly assigned, fulfilled inclusion and exclusion criteria, and received a transplant in the primary analysis and all patients who were randomly assigned and received a transplant in the safety analyses. This trial was registered with ClicalTrials.gov (NCT03991923) and is ongoing.
+FINDINGS
+: A total of 229 patients were enrolled between Nov 25, 2020, and May 19, 2023. The primary analysis population included 204 patients who received a transplant. There were no patients who received a transplant lost to follow-up. All 100 donor hearts preserved with HOPE were transplantable after perfusion. The primary endpoint was registered in 19 (19%) of 101 patients in the HOPE group and 31 (30%) of 103 patients in the SCS group, corresponding to a risk reduction of 44% (hazard ratio 0·56; 95% CI 0·32-0·99; log-rank test p=0·059). PGD was the primary outcome event in 11 (11%) patients in the HOPE group and 29 (28%) in the SCS group (risk ratio 0·39; 95% CI 0·20-0·73). In the HOPE group, 63 (65%) patients had a reported serious adverse event (158 events) versus 87 (70%; 222 events) in the SCS group. Major adverse cardiac transplant events were reported in 18 (18%) and 33 (32%) patients in the HOPE and SCS group (risk ratio 0·56; 95% CI 0·34-0·92).
+INTERPRETATION
+: Although there was not a significant difference in the primary endpoint, the 44% risk reduction associated with HOPE was suggested to be a clinically meaningful benefit. Post-transplant complications, measured as major adverse cardiac transplant events, were reduced. Analysis of secondary outcomes suggested that HOPE was beneficial in reducing primary graft dysfunction. HOPE in donor heart preservation addresses the existing challenges associated with graft preservation and the increasing complexity of donors and heart transplantation recipients. Future investigation will help to further elucidate the benefit of HOPE.
+FUNDING
+: XVIVO Perfusion.

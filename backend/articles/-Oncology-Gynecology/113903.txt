@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1177/09691413241268819.
+
+=== Métadonnées ===
+Hallik R, Innos K, Janes J, et al.
+HPV self-sampling in organized cervical cancer screening program: A randomized pilot study in Estonia in 2021.
+J Med Screen. 2024 Aug 1:9691413241268819. doi: 10.1177/09691413241268819.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: Cervical cancer incidence in Estonia ranks among the highest in Europe, but screening attendance has remained low. This randomized study aimed to evaluate the impact of opt-in and opt-out human papillomavirus (HPV) self-sampling options on participation in organized screening.
+METHODS
+: A random sample of 25,591 women were drawn from the cervical cancer screening target population who were due to receive a reminder in autumn 2021 and thereafter randomly allocated to two equally sized intervention arms (opt-out and opt-in) receiving a choice between HPV self-sampling or clinician sampling. In the opt-out arm, a self-sampler was sent to home address by regular mail; the opt-in arm received an e-mail containing a link to order a self-sampler online. The remaining 30,102 women in the control group received a standard reminder for conventional screening. Participation by intervention arm, age and region of residence was calculated; a questionnaire was used to assess self-sampling user experience.
+RESULTS
+: A significant difference in participation was seen between opt-out (41.7%) (19.8% chose self-sampling and 21.9% clinician sampling), opt-in (34.1%) (7.9% self-sampling, 26.2% clinician sampling) and control group (29.0%, clinician sampling only). All age groups and regions in the intervention arms showed higher participation compared to the control group, but the size of the effect varied. Among self-sampling users, 99% agreed that the device was easy to use and only 3.5% preferred future testing at the clinic.
+CONCLUSION
+: Providing women with a choice between self-sampling and clinician sampling significantly increased participation in cervical cancer screening. Opt-in and opt-out options had a different effect across age groups, suggesting the need to adapt strategies.

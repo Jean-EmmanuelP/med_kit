@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO.23.02631.
+
+=== Métadonnées ===
+Versluis J, Metzner M, Wang A, et al.
+Risk Stratification in Older Intensively Treated Patients With AML.
+J Clin Oncol. 2024 Dec;42(34):4084-4094. doi: 10.1200/JCO.23.02631. Epub 2024 Sep 4.
+                    (
+Original study
+)
+
+=== Abstract ===
+PURPOSE
+: AML is a genetically heterogeneous disease, particularly in older patients. In patients older than 60 years, survival rates are variable after the most important curative approach, intensive chemotherapy followed by allogeneic hematopoietic cell transplantation (allo-HCT). Thus, there is an urgent need in clinical practice for a prognostic model to identify older patients with AML who benefit from curative treatment.
+METHODS
+: We studied 1,910 intensively treated patients older than 60 years with AML and high-risk myelodysplastic syndrome (HR-MDS) from two cohorts (NCRI-AML18 and HOVON-SAKK). The median patient age was 67 years. Using a random survival forest, clinical, molecular, and cytogenetic variables were evaluated in an AML development cohort (n = 1,204) for association with overall survival (OS). Relative weights of selected variables determined the prognostic model, which was validated in AML (n = 491) and HR-MDS cohorts (n = 215).
+RESULTS
+: The complete cohort had a high frequency of poor-risk features, including 2022 European LeukemiaNet adverse-risk (57.3%), mutated TP53 (14.4%), and myelodysplasia-related genetic features (65.1%). Nine variables were used to construct four groups with highly distinct 4-year OS in the (1) AML development, (2) AML validation, and (3) HR-MDS test cohorts ([1] favorable: 54% ± 4%, intermediate: 38% ± 2%, poor: 21% ± 2%, very poor: 4% ± 1%; [2] 54% ± 9%, 43% ± 4%, 27% ± 4%, 4% ± 3%; and [3] 54% ± 10%, 33% ± 6%, 14% ± 5%, 0% ± 3%, respectively). This new AML60+ classification improves current prognostic classifications. Importantly, patients within the AML60+ intermediate- and very poor-risk group significantly benefited from allo-HCT, whereas the poor-risk patients showed an indication, albeit nonsignificant, for improved outcome after allo-HCT.
+CONCLUSION
+: The new AML60+ classification provides prognostic information for intensively treated patients 60 years and older with AML and HR-MDS and identifies patients who benefit from intensive chemotherapy and allo-HCT.

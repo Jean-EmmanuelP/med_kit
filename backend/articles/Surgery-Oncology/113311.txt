@@ -1,0 +1,22 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1097/SLA.0000000000006242.
+
+=== Métadonnées ===
+Huang ZN, Tang YH, Zhong Q, et al.
+Assessment of Laparoscopic Indocyanine Green Tracer-guided Lymphadenectomy After Neoadjuvant Chemotherapy for Locally Advanced Gastric Cancer: A Randomized Controlled Trial.
+Ann Surg. 2024 Jun 1;279(6):923-931. doi: 10.1097/SLA.0000000000006242. Epub 2024 Feb 20.
+                    (
+Original study
+)
+
+=== Abstract ===
+OBJECTIVE
+: To assess the effectiveness of indocyanine green (ICG)-guided lymph node (LN) dissection during laparoscopic radical gastrectomy after neoadjuvant chemotherapy (NAC) in patients with locally advanced gastric cancer (LAGC).
+BACKGROUND
+: Studies on ICG imaging use in patients with LAGC on NAC are rare.
+METHODS
+: Patients with gastric adenocarcinoma (clinical T2-4NanyM0) who received NAC were randomly assigned to receive ICG-guided laparoscopic radical gastrectomy or laparoscopic radical gastrectomy alone. Here, we reported the secondary endpoints including the quality of lymphadenectomy (total retrieved LNs and LN noncompliance) and surgical outcomes.
+RESULTS
+: Overall, 240 patients were randomized. Of whom, 236 patients were included in the primary analysis (118 in the ICG group and 118 in the non-ICG group). In the ICG group, the mean number of LNs retrieved was significantly higher than in the non-ICG group within the D2 dissection (48.2 vs 38.3, P < 0.001). The ICG fluorescence guidance significantly decreased the LN noncompliance rates (33.9% vs 55.1%, P = 0.001). In 165 patients without baseline measurable LNs, ICG significantly increased the number of retrieved LNs and decreased the LN noncompliance rate ( P < 0.05). For 71 patients with baseline measurable LNs, the quality of lymphadenectomy significantly improved in those who had a complete response ( P < 0.05) but not in those who did not ( P > 0.05). Surgical outcomes were comparable between the groups ( P > 0.05).
+CONCLUSIONS
+: ICG can effectively improve the quality of lymphadenectomy in patients with LAGC who underwent laparoscopic radical gastrectomy after NAC.

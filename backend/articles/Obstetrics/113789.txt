@@ -1,0 +1,28 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamanetworkopen.2024.19894.
+
+=== Métadonnées ===
+Nachum Z, Ganor Paz Y, Massalha M, et al.
+Vaginal Progesterone for Pregnancy Prolongation After Arrested Preterm Labor: A Randomized Clinical Trial.
+JAMA Netw Open. 2024 Jul 1;7(7):e2419894. doi: 10.1001/jamanetworkopen.2024.19894.
+                    (
+Original study
+)
+
+=== Abstract ===
+IMPORTANCE
+: Women with arrested preterm labor (APTL) are at very high risk for spontaneous preterm delivery (SPTD), the leading cause of neonatal mortality and morbidity. To date, no maintenance therapy has been found to be effective for pregnancy prolongation. A few clinical trials with considerable methodological limitations have demonstrated some efficacy for 400 mg vaginal micronized progesterone (VMP) in women with APTL.
+OBJECTIVE
+: To investigate the effectiveness of daily 400 mg VMP for the prolongation of pregnancy after APTL.
+DESIGN, SETTING, AND PARTICIPANTS
+: This randomized clinical trial was conducted between December 19, 2018, and February 27, 2023, in 3 university-affiliated medical centers in Israel. Participants included women with singleton and twin pregnancies after APTL following tocolysis at 24 weeks 0 days to 34 weeks 0 days' gestation. Women with a history of preterm delivery or asymptomatic cervical shortening in the current pregnancy were excluded.
+INTERVENTIONS
+: Participants were randomly allocated to receive VMP 200 mg twice a day or no treatment until 36 weeks 6 days' gestation.
+MAIN OUTCOMES AND MEASURES
+: The primary end points were mean number of days from study enrollment to delivery and the rate of SPTD prior to 37 weeks' gestation.
+RESULTS
+: A total of 129 participants were enrolled (65 in the VMP group and 64 in the no-treatment group). Mean (SD) age was 27.6 (5.1) years. Between the VMP and no-treatment groups, there was no difference in pregnancy prolongation (mean [SD], 40.0 [17.8] vs 37.4 [20.3] days; P = .44) and the rate of SPTD (16 [25%] vs 19 [30%]; relative risk, 0.8; 95% CI, 0.5-1.5; P = .52). In twin pregnancies, including 12 and 15 pairs in the VMP and no-treatment groups, respectively, VMP prolonged pregnancy (mean [SD], 43.7 [18.1] vs 26.1 [15.2] days; P = .02), postponed the delivery week (36.5 [1.4] vs 34.7 [2.2] weeks; P = .01), shortened the length of stay in the neonatal intensive care unit (4.9 [10.6] vs 13.2 [18.5] days; P = .03) and overall hospital stay (8.3 [9.6] vs 15.1 [17.2] days; P = .03), and was associated with a higher birth weight (2444 [528] vs 2018 [430] g; P = .01).
+CONCLUSIONS AND RELEVANCE
+: These findings show that VMP given in a dosage of 200 mg twice a day following APTL is not an effective treatment to prolong pregnancy or prevent SPTD. However, VMP demonstrated beneficial effects in twin pregnancies, warranting further investigation.
+TRIAL REGISTRATION
+: ClinicalTrials.gov Identifier: NCT02430233.

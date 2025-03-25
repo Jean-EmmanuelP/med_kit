@@ -1,0 +1,22 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S0140-6736(24)02197-4.
+
+=== Métadonnées ===
+Werring DJ, Dehbi HM, Ahmed N, et al.
+Optimal timing of anticoagulation after acute ischaemic stroke with atrial fibrillation (OPTIMAS): a multicentre, blinded-endpoint, phase 4, randomised controlled trial.
+Lancet. 2024 Oct 23:S0140-6736(24)02197-4. doi: 10.1016/S0140-6736(24)02197-4.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: The optimal timing of anticoagulation for patients with acute ischaemic stoke with atrial fibrillation is uncertain. We investigated the efficacy and safety of early compared with delayed initiation of direct oral anticoagulants (DOACs) in patients with acute ischaemic stroke associated with atrial fibrillation.
+METHODS
+: We performed a multicentre, open-label, blinded-endpoint, parallel-group, phase 4, randomised controlled trial at 100 UK hospitals. Adults with atrial fibrillation and a clinical diagnosis of acute ischaemic stroke and whose physician was uncertain of the optimal timing for DOAC initiation were eligible for inclusion in the study. We randomly assigned participants (1:1) to early (ie, =4 days from stroke symptom onset) or delayed (ie, 7-14 days) anticoagulation initiation with any DOAC, using an independent online randomisation service with random permuted blocks and varying block length, stratified by stroke severity at randomisation. Participants and treating clinicians were not masked to treatment assignment, but all outcomes were adjudicated by a masked independent external adjudication committee using all available clinical records, brain imaging reports, and source images. The primary outcome was a composite of recurrent ischaemic stroke, symptomatic intracranial haemorrhage, unclassifiable stroke, or systemic embolism incidence at 90 days in a modified intention-to-treat population. We used a gatekeeper approach by sequentially testing for a non-inferiority margin of 2 percentage points, followed by testing for superiority. OPTIMAS is registered with ISRCTN (ISRCTN17896007) and ClinicalTrials.gov (NCT03759938), and the trial is ongoing.
+FINDINGS
+: Between July 5, 2019, and Jan 31, 2024, 3648 patients were randomly assigned to early or delayed DOAC initiation. 27 participants did not fulfil the eligibility criteria or withdrew consent to include their data, leaving 3621 patients (1814 in the early group and 1807 in the delayed group; 1981 men and 1640 women) in the modified intention-to-treat analysis. The primary outcome occurred in 59 (3·3%) of 1814 participants in the early DOAC initiation group compared with 59 (3·3%) of 1807 participants in the delayed DOAC initiation group (adjusted risk difference [RD] 0·000, 95% CI -0·011 to 0·012). The upper limit of the 95% CI for the adjusted RD was less than the non-inferiority margin of 2 percentage points (pnon-inferiority=0·0003). Superiority was not identified (psuperiority=0·96). Symptomatic intracranial haemorrhage occurred in 11 (0·6%) participants allocated to the early DOAC initiation group compared with 12 (0·7%) participants allocated to the delayed DOAC initiation group (adjusted RD 0·001, -0·004 to 0·006; p=0·78).
+INTERPRETATION
+: Early DOAC initiation within 4 days after ischaemic stroke associated with atrial fibrillation was non-inferior to delayed initiation for the composite outcome of ischaemic stroke, intracranial haemorrhage, unclassifiable stroke, or systemic embolism at 90 days. Our findings do not support the current common and guideline-supported practice of delaying DOAC initiation after ischaemic stroke with atrial fibrillation.
+FUNDING
+: British Heart Foundation.

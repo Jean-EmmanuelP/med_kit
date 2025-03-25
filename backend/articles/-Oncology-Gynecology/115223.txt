@@ -1,0 +1,13 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO.24.00933.
+
+=== Métadonnées ===
+Scambia G, Villalobos Valencia R, Colombo N, et al.
+Olaparib as Treatment Versus Nonplatinum Chemotherapy in Patients With Platinum-Sensitive Relapsed Ovarian Cancer: Phase III SOLO3 Study Final Overall Survival Results.
+J Clin Oncol. 2024 Dec 12:JCO2400933. doi: 10.1200/JCO.24.00933.
+                    (
+Original study
+)
+
+=== Abstract ===
+Olaparib treatment significantly improved objective response rate (primary end point) and progression-free survival versus nonplatinum chemotherapy in patients with BRCA-mutated platinum-sensitive relapsed ovarian cancer in the open-label phase III SOLO3 trial (ClinicalTrials.gov identifier: NCT02282020). We report final overall survival (OS; prespecified secondary end point), post hoc OS analysis by number of previous chemotherapy lines, and exploratory BRCA reversion mutation analysis. Two hundred sixty-six patients were randomly assigned 2:1 to olaparib tablets (300 mg twice daily; n = 178) or physician's choice of single-agent nonplatinum chemotherapy (pegylated liposomal doxorubicin, paclitaxel, gemcitabine, or topotecan; n = 88). OS was similar with olaparib versus chemotherapy (hazard ratio [HR], 1.07 [95% CI, 0.76 to 1.49]; P = .71, median 34.9 and 32.9 months, respectively, full analysis set). OS with olaparib was favorable in patients with two previous chemotherapy lines (HR, 0.83 [olaparib v chemotherapy] [95% CI, 0.51 to 1.38]; median 37.9 v 28.8 months); however, a potential detrimental effect was seen in patients with at least three previous chemotherapy lines (HR, 1.33 [95% CI, 0.84 to 2.18]; median 29.9 v 39.4 months). BRCA reversion mutations might have contributed to this finding. No patient randomly assigned to olaparib with a BRCA reversion mutation detected at baseline (6 of 170 [3.5%]) achieved an objective tumor response.

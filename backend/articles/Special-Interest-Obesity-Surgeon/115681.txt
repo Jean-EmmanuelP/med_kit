@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1111/dom.16219.
+
+=== Métadonnées ===
+Sankar A, McNeilage C, Alkhaffaf B, et al.
+Actual weight loss trajectories after bariatric surgery compared with the SOPHIA prediction tool: An observational comparison study.
+Diabetes Obes Metab. 2025 Jan 30. doi: 10.1111/dom.16219.
+                    (
+Original study
+)
+
+=== Abstract ===
+AIMS
+: Estimation of post-bariatric surgery weight loss is important for informed clinical decisions, yet existing predictive models lack accuracy and reliability. We assessed the effectiveness of the validated Stratification of Obesity Phenotypes to Optimize Future Therapy (SOPHIA) bariatric weight trajectory prediction tool in our patient population.
+MATERIALS AND METHODS
+: We conducted a retrospective study of 178 adults who underwent bariatric surgery over a 3-year period. Actual weights at baseline and annually over 5 years of follow-up were compared with predicted weights to calculate mean difference and median absolute deviation (MAD).
+RESULTS
+: The study comprised 157 women (88.2%) and 21 men (11.8%) with mean (standard deviation) age of 46.9 (10.6) years and baseline weight of 138.4 (23.5) kg. The bariatric surgical procedures included 148 (83.1%) gastric bypass, 19 (10.7%) sleeve gastrectomy and 11 (6.2%) gastric band operations. The proportion of patients with actual weights within the prediction interquartile range (IQR) was 50.7%, 43.2% and 38.8% at 12, 24 and 60 months, respectively. The mean difference between actual and predicted weight at 60 months was 0.6 (16.7) kg, p = 0.654 (paired t test). The mean MAD at 60 months was 12.9 (95% CI, 11.3-14.4) kg, indicating moderate predictive utility. The predictive accuracy was highest for gastric bypass. Subgroup analysis revealed greater accuracy in patients without diabetes/pre-diabetes, and in nonsmokers.
+CONCLUSIONS
+: The SOPHIA study tool provides accurate postoperative weight forecasts for some subgroups of patients, but its precision diminishes with time. This study reiterates the necessity for better personalized weight prediction tools to inform bariatric surgery decision-making.

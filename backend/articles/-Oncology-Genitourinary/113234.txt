@@ -1,0 +1,22 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S0140-6736(24)00549-X.
+
+=== Métadonnées ===
+Parker CC, Kynaston H, Cook AD, et al.
+Duration of androgen deprivation therapy with postoperative radiotherapy for prostate cancer: a comparison of long-course versus short-course androgen deprivation therapy in the RADICALS-HD randomised trial.
+Lancet. 2024 Jun 1;403(10442):2416-2425. doi: 10.1016/S0140-6736(24)00549-X. Epub 2024 May 16.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: Previous evidence supports androgen deprivation therapy (ADT) with primary radiotherapy as initial treatment for intermediate-risk and high-risk localised prostate cancer. However, the use and optimal duration of ADT with postoperative radiotherapy after radical prostatectomy remains uncertain.
+METHODS
+: RADICALS-HD was a randomised controlled trial of ADT duration within the RADICALS protocol. Here, we report on the comparison of short-course versus long-course ADT. Key eligibility criteria were indication for radiotherapy after previous radical prostatectomy for prostate cancer, prostate-specific antigen less than 5 ng/mL, absence of metastatic disease, and written consent. Participants were randomly assigned (1:1) to add 6 months of ADT (short-course ADT) or 24 months of ADT (long-course ADT) to radiotherapy, using subcutaneous gonadotrophin-releasing hormone analogue (monthly in the short-course ADT group and 3-monthly in the long-course ADT group), daily oral bicalutamide monotherapy 150 mg, or monthly subcutaneous degarelix. Randomisation was done centrally through minimisation with a random element, stratified by Gleason score, positive margins, radiotherapy timing, planned radiotherapy schedule, and planned type of ADT, in a computerised system. The allocated treatment was not masked. The primary outcome measure was metastasis-free survival, defined as metastasis arising from prostate cancer or death from any cause. The comparison had more than 80% power with two-sided a of 5% to detect an absolute increase in 10-year metastasis-free survival from 75% to 81% (hazard ratio [HR] 0·72). Standard time-to-event analyses were used. Analyses followed intention-to-treat principle. The trial is registered with the ISRCTN registry, ISRCTN40814031, and ClinicalTrials.gov, NCT00541047.
+FINDINGS
+: Between Jan 30, 2008, and July 7, 2015, 1523 patients (median age 65 years, IQR 60-69) were randomly assigned to receive short-course ADT (n=761) or long-course ADT (n=762) in addition to postoperative radiotherapy at 138 centres in Canada, Denmark, Ireland, and the UK. With a median follow-up of 8·9 years (7·0-10·0), 313 metastasis-free survival events were reported overall (174 in the short-course ADT group and 139 in the long-course ADT group; HR 0·773 [95% CI 0·612-0·975]; p=0·029). 10-year metastasis-free survival was 71·9% (95% CI 67·6-75·7) in the short-course ADT group and 78·1% (74·2-81·5) in the long-course ADT group. Toxicity of grade 3 or higher was reported for 105 (14%) of 753 participants in the short-course ADT group and 142 (19%) of 757 participants in the long-course ADT group (p=0·025), with no treatment-related deaths.
+INTERPRETATION
+: Compared with adding 6 months of ADT, adding 24 months of ADT improved metastasis-free survival in people receiving postoperative radiotherapy. For individuals who can accept the additional duration of adverse effects, long-course ADT should be offered with postoperative radiotherapy.
+FUNDING
+: Cancer Research UK, UK Research and Innovation (formerly Medical Research Council), and Canadian Cancer Society.

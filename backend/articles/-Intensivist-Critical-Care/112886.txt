@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2312572.
+
+=== Métadonnées ===
+Moller JE, Engstrom T, Jensen LO, et al.
+Microaxial Flow Pump or Standard Care in Infarct-Related Cardiogenic Shock.
+N Engl J Med. 2024 Apr 18;390(15):1382-1393. doi: 10.1056/NEJMoa2312572. Epub 2024 Apr 7.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: The effects of temporary mechanical circulatory support with a microaxial flow pump on mortality among patients with ST-segment elevation myocardial infarction (STEMI) complicated by cardiogenic shock remains unclear.
+METHODS
+: In an international, multicenter, randomized trial, we assigned patients with STEMI and cardiogenic shock to receive a microaxial flow pump (Impella CP) plus standard care or standard care alone. The primary end point was death from any cause at 180 days. A composite safety end point was severe bleeding, limb ischemia, hemolysis, device failure, or worsening aortic regurgitation.
+RESULTS
+: A total of 360 patients underwent randomization, of whom 355 were included in the final analysis (179 in the microaxial-flow-pump group and 176 in the standard-care group). The median age of the patients was 67 years, and 79.2% were men. Death from any cause occurred in 82 of 179 patients (45.8%) in the microaxial-flow-pump group and in 103 of 176 patients (58.5%) in the standard-care group (hazard ratio, 0.74; 95% confidence interval [CI], 0.55 to 0.99; P = 0.04). A composite safety end-point event occurred in 43 patients (24.0%) in the microaxial-flow-pump group and in 11 (6.2%) in the standard-care group (relative risk, 4.74; 95% CI, 2.36 to 9.55). Renal-replacement therapy was administered to 75 patients (41.9%) in the microaxial-flow-pump group and to 47 patients (26.7%) in the standard-care group (relative risk, 1.98; 95% CI, 1.27 to 3.09).
+CONCLUSIONS
+: The routine use of a microaxial flow pump with standard care in the treatment of patients with STEMI-related cardiogenic shock led to a lower risk of death from any cause at 180 days than standard care alone. The incidence of a composite of adverse events was higher with the use of the microaxial flow pump. (Funded by the Danish Heart Foundation and Abiomed; DanGer Shock ClinicalTrials.gov number, NCT01633502.).

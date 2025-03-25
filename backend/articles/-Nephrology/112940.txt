@@ -1,0 +1,26 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1136/bmj-2023-078063.
+
+=== Métadonnées ===
+Liu P, Sawhney S, Heide-Jorgensen U, et al.
+Predicting the risks of kidney failure and death in adults with moderate to severe chronic kidney disease: multinational, longitudinal, population based, cohort study.
+BMJ. 2024 Apr 15;385:e078063. doi: 10.1136/bmj-2023-078063.
+                    (
+Original study
+)
+
+=== Abstract ===
+OBJECTIVE
+: To train and test a super learner strategy for risk prediction of kidney failure and mortality in people with incident moderate to severe chronic kidney disease (stage G3b to G4).
+DESIGN
+: Multinational, longitudinal, population based, cohort study.
+SETTINGS
+: Linked population health data from Canada (training and temporal testing), and Denmark and Scotland (geographical testing).
+PARTICIPANTS
+: People with newly recorded chronic kidney disease at stage G3b-G4, estimated glomerular filtration rate (eGFR) 15-44 mL/min/1.73 m2.
+MODELLING
+: The super learner algorithm selected the best performing regression models or machine learning algorithms (learners) based on their ability to predict kidney failure and mortality with minimised cross-validated prediction error (Brier score, the lower the better). Prespecified learners included age, sex, eGFR, albuminuria, with or without diabetes, and cardiovascular disease. The index of prediction accuracy, a measure of calibration and discrimination calculated from the Brier score (the higher the better) was used to compare KDpredict with the benchmark, kidney failure risk equation, which does not account for the competing risk of death, and to evaluate the performance of KDpredict mortality models.
+RESULTS
+: 67 942 Canadians, 17 528 Danish, and 7740 Scottish residents with chronic kidney disease at stage G3b to G4 were included (median age 77-80 years; median eGFR 39 mL/min/1.73 m2). Median follow-up times were five to six years in all cohorts. Rates were 0.8-1.1 per 100 person years for kidney failure and 10-12 per 100 person years for death. KDpredict was more accurate than kidney failure risk equation in prediction of kidney failure risk: five year index of prediction accuracy 27.8% (95% confidence interval 25.2% to 30.6%) versus 18.1% (15.7% to 20.4%) in Denmark and 30.5% (27.8% to 33.5%) versus 14.2% (12.0% to 16.5%) in Scotland. Predictions from kidney failure risk equation and KDpredict differed substantially, potentially leading to diverging treatment decisions. An 80-year-old man with an eGFR of 30 mL/min/1.73 m2 and an albumin-to-creatinine ratio of 100 mg/g (11 mg/mmol) would receive a five year kidney failure risk prediction of 10% from kidney failure risk equation (above the current nephrology referral threshold of 5%). The same man would receive five year risk predictions of 2% for kidney failure and 57% for mortality from KDpredict. Individual risk predictions from KDpredict with four or six variables were accurate for both outcomes. The KDpredict models retrained using older data provided accurate predictions when tested in temporally distinct, more recent data.
+CONCLUSIONS
+: KDpredict could be incorporated into electronic medical records or accessed online to accurately predict the risks of kidney failure and death in people with moderate to severe CKD. The KDpredict learning strategy is designed to be adapted to local needs and regularly revised over time to account for changes in the underlying health system and care processes.

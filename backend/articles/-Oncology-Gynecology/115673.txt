@@ -1,0 +1,32 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1111/jocn.17673.
+
+=== Métadonnées ===
+Zhang L, Cheung AT, Chen Y, et al.
+Effects of Cancer Rehabilitation Interventions for Women Treated for Gynaecological Cancers: A Meta-Analysis of Randomised Controlled Trials.
+J Clin Nurs. 2025 Jan 28. doi: 10.1111/jocn.17673.
+                    (
+Systematic review
+)
+
+=== Abstract ===
+AIM
+: To analyse and synthesise current evidence on the effectiveness of cancer rehabilitation interventions in increasing physical activity, increasing healthy dietary habits, alleviating psychological distress, and increasing health-related quality of life (HRQoL) in women treated for gynaecological cancers (GCs).
+DESIGN
+: A meta-analysis of randomised controlled trials (RCTs).
+DATA SOURCES
+: A systematic search was conducted in 12 databases from inception to 31 May 2024.
+REVIEW METHODS
+: The quantitative results from comparable RCTs were pooled and meta-analysed using Review Manager 5.4 software. The results from non-comparable (i.e., clinically heterogeneous) RCTs were narratively summarised. The methodological quality of all RCTs was assessed using Version 2 of the Cochrane risk of bias tool for randomised trials.
+RESULTS
+: Nine RCTs reported in a total of 12 articles met the inclusion criteria and comprised a total of 418 patients. The interventions had significant effects on total physical activity levels at post-intervention, 6-month follow-up, and 12-month follow-up, and on self-efficacy in physical activity at post-intervention and 3-month follow-up. However, the interventions did not significantly improve overall HRQoL or healthy dietary habits and did not significantly alleviate anxiety and depression. The key intervention components were information provision on health-promoting behaviours; adoption of behavioural change techniques (goal setting, action planning, relapse prevention, problem-solving, self-monitoring, and social support); and stress and emotion management.
+CONCLUSION
+: Rehabilitation interventions effectively increase physical activity in women treated for GCs, leading to sustainable effects. However, there is limited evidence on the effectiveness of such interventions in improving overall HRQoL, encouraging healthy eating, and alleviating psychological distress in women treated for GCs.
+RELEVANCE TO CLINICAL PRACTICE
+: This review found that rehabilitation interventions can increase physical activity levels among women treated for GCs. It also identified the key effective components of such interventions.
+REPORTING METHOD
+: This review is reported in accordance with the Preferred Reporting Items for Systematic Reviews and Meta-Analyses Statement.
+PATIENT OR PUBLIC CONTRIBUTION
+: None.
+TRIAL REGISTRATION
+: International Prospective Register of Systematic Reviews registration number: CRD42023442877.

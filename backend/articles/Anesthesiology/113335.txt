@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1097/AJP.0000000000001210.
+
+=== Métadonnées ===
+Alansary AM, Elbeialy MAK
+Impact of Preoperative Aripiprazole on Postoperative Analgesia in Laparoscopic Hysterectomy: A Randomized Double-blind Placebo-controlled Trial.
+Clin J Pain. 2024 Jun 1;40(6):341-348. doi: 10.1097/AJP.0000000000001210.
+                    (
+Original study
+)
+
+=== Abstract ===
+OBJECTIVES
+: Aripiprazole is a second-generation atypical antipsychotic with worldwide clinical approval. Nevertheless, its perioperative antinociceptive application has not been studied. As a result, the purpose of this study was to investigate the analgesic effects of perioperative aripiprazole on reducing postoperative pain, as well as the possible adverse effects.
+PATIENTS AND METHODS
+: This randomized controlled study enrolled 80 female patients scheduled for laparoscopic hysterectomy who were assigned randomly into 2 equal groups in 1:1; aripiprazole group (n = 40), patients received an aripiprazole 30 mg tablet orally 3 hours before surgery and placebo group (n = 40), patients received a placebo tablet 3 hours before surgery. The 24-hour morphine consumption postoperatively was the primary outcome, and the time to the first analgesic request, sedation scores, and the incidence of perioperative adverse events were the secondary outcomes.
+RESULTS
+: The mean 24-hour morphine consumption was significantly lower with aripiprazole (2.5 ± 0.5 mg) than with placebo (23.7 ± 1.6 mg; mean ± SE -21.2 ± 0.3, 95% CI: -21.7 to -20.6, P < 0.001). In addition, the mean time to the first analgesic request was significantly longer with aripiprazole (212.2 ± 14.7 min) than with placebo (27.0 ± 2.0 min; mean ± SE 185.2 ± 2.3, 95% CI: 180.5 to 189.8, P < 0.001). Furthermore, the aripiprazole group reported higher sedation scores ( P < 0.001). Bradycardia and hypotension were reported more frequently among patients in the aripiprazole group ( P < 0.05).
+CONCLUSION
+: Aripiprazole was effective in reducing pain after laparoscopic hysterectomy. Although self-limited, side effects should be taken into consideration when using the medication perioperatively.

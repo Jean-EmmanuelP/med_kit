@@ -1,0 +1,28 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamainternmed.2024.0037.
+
+=== Métadonnées ===
+Schober T, Wong K, DeLisle G, et al.
+Clinical Outcomes of Rapid Respiratory Virus Testing in Emergency Departments: A Systematic Review and Meta-Analysis.
+JAMA Intern Med. 2024 May 1;184(5):528-536. doi: 10.1001/jamainternmed.2024.0037.
+                    (
+Systematic review
+)
+
+=== Abstract ===
+IMPORTANCE
+: Rapid tests for respiratory viruses, including multiplex panels, are increasingly available in emergency departments (EDs). Their association with patient outcomes remains unclear.
+OBJECTIVE
+: To determine if ED rapid respiratory virus testing in patients with suspected acute respiratory infection (ARI) was associated with decreased antibiotic use, ancillary tests, ED length of stay, and ED return visits and hospitalization and increased influenza antiviral treatment.
+DATA SOURCES
+: Ovid MEDLINE, Embase (Ovid), Scopus, and Web of Science from 1985 to November 14, 2022.
+STUDY SELECTION
+: Randomized clinical trials of patients of any age with ARI in an ED. The primary intervention was rapid viral testing.
+DATA EXTRACTION AND SYNTHESIS
+: Preferred Reporting Items for Systematic Reviews and Meta-Analyses reporting guidelines were followed. Two independent reviewers (T.S. and K.W.) extracted data and assessed risk of bias using the Cochrane Risk of Bias, version 2.0. Estimates were pooled using random-effects models. Quality of evidence was assessed using the Grading of Recommendations, Assessment, Development, and Evaluations framework.
+MAIN OUTCOMES AND MEASURES
+: Antibiotic use and secondary outcomes were pooled separately as risk ratios (RRs) and risk difference estimates with 95% CIs.
+RESULTS
+: Of 7157 studies identified, 11 (0.2%; n = 6068 patients) were included in pooled analyses. Routine rapid viral testing was not associated with antibiotic use (RR, 0.99; 95% CI, 0.93-1.05; high certainty) but was associated with higher use of influenza antivirals (RR, 1.33; 95% CI, 1.02-1.75; moderate certainty) and lower use of chest radiography (RR, 0.88; 95% CI, 0.79-0.98; moderate certainty) and blood tests (RR, 0.81; 95% CI, 0.69-0.97; moderate certainty). There was no association with urine testing (RR, 0.95; 95% CI, 0.77-1.17; low certainty), ED length of stay (0 hours; 95% CI, -0.17 to 0.16; moderate certainty), return visits (RR, 0.93; 95%, CI 0.79-1.08; moderate certainty) or hospitalization (RR, 1.01; 95% CI, 0.95-1.08; high certainty). Adults represented 963 participants (16%). There was no association of viral testing with antibiotic use in any prespecified subgroup by age, test method, publication date, number of viral targets, risk of bias, or industry funding.
+CONCLUSIONS AND RELEVANCE
+: The results of this systematic review and meta-analysis suggest that there are limited benefits of routine viral testing in EDs for patients with ARI. Further studies in adults, especially those with high-risk conditions, are warranted.

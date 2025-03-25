@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2405195.
+
+=== Métadonnées ===
+Leong T, Smithers BM, Michael M, et al.
+Preoperative Chemoradiotherapy for Resectable Gastric Cancer.
+N Engl J Med. 2024 Nov 14;391(19):1810-1821. doi: 10.1056/NEJMoa2405195. Epub 2024 Sep 14.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: In Western countries, the current standard of care for resectable gastric cancer is perioperative chemotherapy. Preoperative chemoradiotherapy has been considered, but data are limited regarding this treatment as compared with perioperative chemotherapy alone.
+METHODS
+: We conducted an international, phase 3 trial in which patients with resectable adenocarcinoma of the stomach or gastroesophageal junction were randomly assigned to receive preoperative chemoradiotherapy plus perioperative chemotherapy or perioperative chemotherapy alone (control). In both groups, patients received either epirubicin, cisplatin, and fluorouracil or fluorouracil, leucovorin, oxaliplatin, and docetaxel both before and after surgery; the preoperative-chemoradiotherapy group also received chemoradiotherapy (45 Gy in 25 fractions of radiation, plus fluorouracil infusion). The primary end point was overall survival, and secondary end points included progression-free survival, pathological complete response, toxic effects, and quality of life.
+RESULTS
+: A total of 574 patients underwent randomization at 70 sites in Australasia, Canada, and Europe: 286 to the preoperative-chemoradiotherapy group and 288 to the perioperative-chemotherapy group. A higher percentage of patients in the preoperative-chemoradiotherapy group than in the perioperative-chemotherapy group had a pathological complete response (17% vs. 8%) and greater tumor downstaging after resection. At a median follow-up of 67 months, no significant between-group differences in overall survival or progression-free survival were noted. The median overall survival was 46 months with preoperative chemoradiotherapy and 49 months with perioperative chemotherapy (hazard ratio for death, 1.05; 95% confidence interval, 0.83 to 1.31), and the median progression-free survival was 31 months and 32 months, respectively. Treatment-related toxic effects were similar in the two groups.
+CONCLUSIONS
+: The addition of preoperative chemoradiotherapy to perioperative chemotherapy did not improve overall survival as compared with perioperative chemotherapy alone among patients with resectable gastric and gastroesophageal junction adenocarcinoma. (Funded by the National Health and Medical Research Council and others; TOPGEAR ClinicalTrials.gov number, NCT01924819.).

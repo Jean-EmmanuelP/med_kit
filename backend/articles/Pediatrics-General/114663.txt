@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1542/peds.2023-065218.
+
+=== Métadonnées ===
+Hajdu G, Hughes T, Ouedraogo GL, et al.
+Safety of a 4-Dose 20-Valent Pneumococcal Conjugate Vaccine Series in Infants: A Randomized Trial.
+Pediatrics. 2024 Nov 1;154(5):e2023065218. doi: 10.1542/peds.2023-065218.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND AND OBJECTIVES
+: The 20-valent pneumococcal conjugate vaccine (PCV20) was developed to expand protection for pneumococcal disease. It contains all 13-valent pneumococcal conjugate vaccine (PCV13) components plus conjugates for 7 additional serotypes. Our primary objective with this study was to evaluate PCV20 tolerability and safety.
+METHODS
+: In this phase 3, multi-country, double-blind study, healthy infants born at =34 weeks' gestation were randomly assigned 2:1 to receive PCV20 or PCV13 at 2, 4, 6, and 12 to 15 months of age. Safety assessments included local reactions and systemic events within 7 days after each vaccination, adverse events (AEs) from dose 1 to 1 month after dose 3 and from dose 4 to 1 month after dose 4, and serious AEs and newly diagnosed chronic medical conditions from dose 1 through 6 months after the last dose.
+RESULTS
+: Participants received PCV20 (N = 1000) or PCV13 (N = 504); 91.7% received all 4 doses. The frequencies of local reactions and systemic events were generally similar in PCV20 and PCV13 groups, with most reported as mild or moderate. The most common local reaction was injection site pain (PCV20, 24.7% to 40.5%; PCV13, 26.8% to 42.0%); irritability was the most common systemic event (PCV20, 54.8% to 68.2%; PCV13, 54.7% to 68.5%). AE frequencies were similar in both groups. No serious AEs were related to study vaccines. Few newly diagnosed chronic medical conditions were reported (2.8% in both groups). PCV20 was safe across multiple countries, in late preterm infants, and when administered with other vaccines.
+CONCLUSIONS
+: A 4-dose series of PCV20 had a tolerability and safety profile similar to that of PCV13.

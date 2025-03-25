@@ -1,0 +1,30 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1136/bmj-2024-080881.
+
+=== Métadonnées ===
+Bradbury AW, Hall JA, Popplewell MA, et al.
+Plain versus drug balloon and stenting in severe ischaemia of the leg (BASIL-3): open label, three arm, randomised, multicentre, phase 3 trial.
+BMJ. 2025 Feb 24;388:e080881. doi: 10.1136/bmj-2024-080881.
+                    (
+Original study
+)
+
+=== Abstract ===
+OBJECTIVE
+: To determine which primary endovascular revascularisation strategy represents the most clinically effective treatment for patients with chronic limb threatening ischaemia who require endovascular femoro-popliteal, with or without infra-popliteal, revascularisation.
+DESIGN
+: Three arm, open label, pragmatic, multicentre, randomised, phase 3 superiority trial (BASIL-3).
+SETTING
+: 35 UK NHS vascular units.
+PARTICIPANTS
+: Patients with chronic limb threatening ischaemia who required endovascular femoro-popliteal, with or without infra-popliteal, revascularisation.
+INTERVENTIONS
+: Participants were randomly assigned (1:1:1) to femoro-popliteal plain balloon angioplasty with or without bare metal stenting (PBA±BMS), drug coated balloon angioplasty with or without bare metal stenting (DCBA±BMS), or drug eluting stenting (DES) as their first revascularisation strategy.
+MAIN OUTCOME MEASURES
+: The primary outcome was amputation free survival defined as time to first major amputation or death from any cause. Secondary outcomes included the composite components of the primary outcome, major adverse limb events, major adverse cardiac events, and other prespecified clinical and patient reported outcome measures. Serious adverse events were collected up to 30 days after the first revascularisation procedure.
+RESULTS
+: Between 29 January 2016 and 31 August 2021, 481 participants were randomised (167 (35%) women, mean age 71.8 years (standard deviation 10.8)). Major amputation or death occurred in 106 of 160 (66%) participants in the PBA±BMS group, 97 of 161 (60%) in the DCBA±BMS group, and 93 of 159 (58%) in the DES group (adjusted hazard ratios: PBA±BMS v DCBA±BMS: 0.84, 97.5% confidence interval 0.61 to 1.16, P=0.22; PBA±BMS v DES: 0.83, 0.60 to 1.15, P=0.20). No differences in serious adverse events were reported between the groups.
+CONCLUSIONS
+: Neither DCBA±BMS nor DES conferred significant clinical benefit over PBA±BMS in the femoro-popliteal segment in patients with chronic limb threatening ischaemia undergoing endovascular femoro-popliteal, with or without infra-popliteal, revascularisation.
+TRIAL REGISTRATION
+: ISRCTN registry ISRCTN14469736.

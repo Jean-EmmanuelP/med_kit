@@ -1,0 +1,22 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S0140-6736(24)00064-3.
+
+=== Métadonnées ===
+Tumukunde V, Medvedev MM, Tann CJ, et al.
+Effectiveness of kangaroo mother care before clinical stabilisation versus standard care among neonates at five hospitals in Uganda (OMWaNA): a parallel-group, individually randomised controlled trial and economic evaluation.
+Lancet. 2024 Jun 8;403(10443):2520-2532. doi: 10.1016/S0140-6736(24)00064-3. Epub 2024 May 13.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: Preterm birth is the leading cause of death in children younger than 5 years worldwide. WHO recommends kangaroo mother care (KMC); however, its effects on mortality in sub-Saharan Africa and its relative costs remain unclear. We aimed to compare the effectiveness, safety, costs, and cost-effectiveness of KMC initiated before clinical stabilisation versus standard care in neonates weighing up to 2000 g.
+METHODS
+: We conducted a parallel-group, individually randomised controlled trial in five hospitals across Uganda. Singleton or twin neonates aged younger than 48 h weighing 700-2000 g without life-threatening clinical instability were eligible for inclusion. We randomly assigned (1:1) neonates to either KMC initiated before stabilisation (intervention group) or standard care (control group) via a computer-generated random allocation sequence with permuted blocks of varying sizes, stratified by birthweight and recruitment site. Parents, caregivers, and health-care workers were unmasked to treatment allocation; however, the independent statistician who conducted the analyses was masked. After randomisation, neonates in the intervention group were placed prone and skin-to-skin on the caregiver's chest, secured with a KMC wrap. Neonates in the control group were cared for in an incubator or radiant heater, as per hospital practice; KMC was not initiated until stability criteria were met. The primary outcome was all-cause neonatal mortality at 7 days, analysed by intention to treat. The economic evaluation assessed incremental costs and cost-effectiveness from a disaggregated societal perspective. This trial is registered with ClinicalTrials.gov, NCT02811432.
+FINDINGS
+: Between Oct 9, 2019, and July 31, 2022, 2221 neonates were randomly assigned: 1110 (50·0%) neonates to the intervention group and 1111 (50·0%) neonates to the control group. From randomisation to age 7 days, 81 (7·5%) of 1083 neonates in the intervention group and 83 (7·5%) of 1102 neonates in the control group died (adjusted relative risk [RR] 0·97 [95% CI 0·74-1·28]; p=0·85). From randomisation to 28 days, 119 (11·3%) of 1051 neonates in the intervention group and 134 (12·8%) of 1049 neonates in the control group died (RR 0·88 [0·71-1·09]; p=0·23). Even if policy makers place no value on averting neonatal deaths, the intervention would have 97% probability from the provider perspective and 84% probability from the societal perspective of being more cost-effective than standard care.
+INTERPRETATION
+: KMC initiated before stabilisation did not reduce early neonatal mortality; however, it was cost-effective from the societal and provider perspectives compared with standard care. Additional investment in neonatal care is needed for increased impact, particularly in sub-Saharan Africa.
+FUNDING
+: Joint Global Health Trials scheme of the Department of Health and Social Care, Foreign, Commonwealth and Development Office, UKRI Medical Research Council, and Wellcome Trust; Eunice Kennedy Shriver National Institute of Child Health and Human Development.

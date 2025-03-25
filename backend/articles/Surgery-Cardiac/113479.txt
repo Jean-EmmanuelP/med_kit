@@ -1,0 +1,30 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1136/bmj-2023-075707.
+
+=== Métadonnées ===
+Zhu Y, Zhang W, Dimagli A, et al.
+Antiplatelet therapy after coronary artery bypass surgery: five year follow-up of randomised DACAB trial.
+BMJ. 2024 Jun 11;385:e075707. doi: 10.1136/bmj-2023-075707.
+                    (
+Original study
+)
+
+=== Abstract ===
+OBJECTIVE
+: To assess the effect of different antiplatelet strategies on clinical outcomes after coronary artery bypass grafting.
+DESIGN
+: Five year follow-up of randomised Different Antiplatelet Therapy Strategy After Coronary Artery Bypass Grafting (DACAB) trial.
+SETTING
+: Six tertiary hospitals in China; enrolment between July 2014 and November 2015; completion of five year follow-up from August 2019 to June 2021.
+PARTICIPANTS
+: 500 patients aged 18-80 years (including 91 (18.2%) women) who had elective coronary artery bypass grafting surgery and completed the DACAB trial.
+INTERVENTIONS
+: Patients were randomised 1:1:1 to ticagrelor 90 mg twice daily plus aspirin 100 mg once daily (dual antiplatelet therapy; n=168), ticagrelor monotherapy 90 mg twice daily (n=166), or aspirin monotherapy 100 mg once daily (n=166) for one year after surgery. After the first year, antiplatelet therapy was prescribed according to standard of care by treating physicians.
+MAIN OUTCOME MEASURES
+: The primary outcome was major adverse cardiovascular events (a composite of all cause death, myocardial infarction, stroke, and coronary revascularisation), analysed using the intention-to-treat principle. Time-to-event analysis was used to compare the risk between treatment groups. Multiple post hoc sensitivity analyses examined the robustness of the findings.
+RESULTS
+: Follow-up at five years for major adverse cardiovascular events was completed for 477 (95.4%) of 500 patients; 148 patients had major adverse cardiovascular events, including 39 in the dual antiplatelet therapy group, 54 in the ticagrelor monotherapy group, and 55 in the aspirin monotherapy group. Risk of major adverse cardiovascular events at five years was significantly lower with dual antiplatelet therapy versus aspirin monotherapy (22.6% v 29.9%; hazard ratio 0.65, 95% confidence interval 0.43 to 0.99; P=0.04) and versus ticagrelor monotherapy (22.6% v 32.9%; 0.66, 0.44 to 1.00; P=0.05). Results were consistent in all sensitivity analyses.
+CONCLUSIONS
+: Treatment with ticagrelor dual antiplatelet therapy for one year after surgery reduced the risk of major adverse cardiovascular events at five years after coronary artery bypass grafting compared with aspirin monotherapy or ticagrelor monotherapy.
+TRIAL REGISTRATION
+: NCT03987373ClinicalTrials.gov NCT03987373.

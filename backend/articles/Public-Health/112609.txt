@@ -1,0 +1,24 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S1473-3099(23)00818-6.
+
+=== Métadonnées ===
+Dos Santos PCP, Messina NL, de Oliveira RD, et al.
+Effect of BCG vaccination against Mycobacterium tuberculosis infection in adult Brazilian health-care workers: a nested clinical trial.
+Lancet Infect Dis. 2024 Jun;24(6):594-601. doi: 10.1016/S1473-3099(23)00818-6. Epub 2024 Feb 26.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: The effectiveness of BCG vaccine for adult pulmonary tuberculosis remains uncertain. In this study, we aimed to evaluate the effect of vaccination with BCG-Denmark to prevent initial and sustained interferon-? release assay conversion in Brazilian health-care workers.
+METHODS
+: This substudy is a nested randomised controlled trial embedded within the BRACE trial (NCT04327206). Specifically, this substudy enrolled Brazilian health-care workers (aged =18 years) from three sites in Brazil (Manaus, Campo Grande, and Rio de Janeiro) irrespective of previously receiving BCG vaccination. Participants were excluded if they had contraindications to BCG vaccination, more than 1 month of treatment with specific tuberculosis treatment drugs, previous adverse reactions to BCG, recent BCG vaccination, or non-compliance with assigned interventions. Those eligible were randomly assigned (1:1) to either the BCG group (0·1 mL intradermal injection of BCG-Denmark [Danish strain 1331; AJ Vaccines, Copenhagen]) or the placebo group (intradermal injection of 0·9% saline) using a web-based randomisation process in variable-length blocks (2, 4, or 6), and were stratified based on the study site, age (<40, =40 to <60, =60 years), and comorbidity presence (diabetes, chronic respiratory disease, cardiac condition, hypertension). Sealed syringes were used to prevent inadvertent disclosure of group assignments. The QuantiFERON-TB Gold (QFT) Plus test (Qiagen; Hilden, Germany) was used for baseline and 12-month tuberculosis infection assessments. The primary efficacy outcome was QFT Plus conversion (=0·35 IU/mL) by 12 months following vaccination in participants who had a negative baseline result (<0·35 IU/mL).
+FINDINGS
+: Between Oct 7, 2020, and April 12, 2021, 1985 (77·3%) of 2568 participants were eligible for QFT Plus assessment at 12 months and were included in this substudy; 996 (50·2%) of 1985 were in the BCG group and 989 (49·8%) were in the placebo group. Overall, 1475 (74·3%) of 1985 participants were women and 510 (25·7%) were men, and the median age was 39 years (IQR 32-47). During the first 12 months, QFT Plus conversion occurred in 66 (3·3%) of 1985 participants, with no significant differences by study site (p=0·897). Specifically, 34 (3·4%) of 996 participants had initial QFT conversion in the BCG group compared with 32 (3·2%) of 989 in the placebo group (risk ratio 1·09 [95% CI 0·67-1·77]; p=0·791).
+INTERPRETATION
+: BCG-Denmark vaccination did not reduce initial QFT Plus conversion risk in Brazilian health-care workers. This finding underscores the need to better understand tuberculosis prevention in populations at high risk.
+FUNDING
+: Bill & Melinda Gates Foundation, the Minderoo Foundation, Sarah and Lachlan Murdoch, the Royal Children's Hospital Foundation, Health Services Union NSW, the Peter Sowerby Foundation, SA Health, the Insurance Advisernet Foundation, the NAB Foundation, the Calvert-Jones Foundation, the Modara Pines Charitable Foundation, the United Health Group Foundation, Epworth Healthcare, and individual donors.
+TRANSLATION
+: For the Portuguese translation of the abstract see Supplementary Materials section.

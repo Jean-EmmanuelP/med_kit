@@ -1,0 +1,22 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1136/archdischild-2023-326667.
+
+=== Métadonnées ===
+Athalye-Jape G, Esvaran M, Patole S, et al.
+Effects of a live versus heat-inactivated probiotic Bifidobacterium spp in preterm infants: a randomised clinical trial.
+Arch Dis Child Fetal Neonatal Ed. 2025 Feb 21;110(2):177-184. doi: 10.1136/archdischild-2023-326667.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: Heat-inactivated probiotics (HPs) may provide an effective alternative to live probiotics (P) by avoiding their risks (eg, probiotic sepsis) while retaining the benefits. We assessed the safety and efficacy of a HP in very preterm (VP: gestation <32 weeks) infants.
+METHODS
+: VP infants were randomly allocated to receive a HP or P mixture (Bifidobacterium breve M-16V, Bifidobacterium longum subsp. infantis M-63, Bifidobacterium longum subsp. longum BB536, total 3×109 CFU/day) assuring blinding. Primary outcome was faecal calprotectin (FCP) levels were compared after 3 weeks of supplementation. Secondary outcomes included faecal microbiota and short chain fatty acid (SCFA) levels.
+RESULTS
+: 86 VP infants were randomised to HP or P group (n=43 each). Total FCP and SCFA were comparable between HP and P groups within 7 days (T1) and between day 21 and 28 (T2) after supplementation. At T2, median (range) FCP was 75 (8-563) in the HP group and 80 (21-277) in the P group (p=0.71). Propionate was significantly raised in both groups, while butyrate was significantly raised in the HP group (all p<0.01). Bacterial richness and diversity increased but was comparable between HP and P (p>0.05). Beta diversity showed similar community structures in both groups (all p>0.05). Changes in faecal Actinobacteria, Bacteroidetes and Bifidobacteriacae levels were comparable in both groups at T1 and T2. There was no probiotic sepsis.
+CONCLUSIONS
+: HP was safe and showed no significant difference in FCP as compared with a live probiotic. Adequately powered trials are needed to assess the effects of HP on clinically significant outcomes in preterm infants.
+TRIAL REGISTRATION NUMBER
+: ACTRN12618000489291.

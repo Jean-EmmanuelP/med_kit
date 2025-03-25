@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1136/ard-2024-225854.
+
+=== Métadonnées ===
+Bindoli S, De Matteis A, Mitrovic S, et al.
+Efficacy and safety of therapies for Still's disease and macrophage activation syndrome (MAS): a systematic review informing the EULAR/PReS guidelines for the management of Still's disease.
+Ann Rheum Dis. 2024 Nov 14;83(12):1731-1747. doi: 10.1136/ard-2024-225854.
+                    (
+Systematic review
+)
+
+=== Abstract ===
+OBJECTIVES
+: To analyse the efficacy and safety of treatments for Still's disease and macrophage activation syndrome (MAS).
+METHODS
+: Medline, Embase and Cochrane Library were searched for clinical trials (randomised, randomised controlled trial (RCT), controlled and clinical controlled trial (CCT)), observational studies (retrospective, longitudinal observational retrospective (LOR), prospective and longitudinal observational prospective (LOP)) and systematic reviews (SRs), in which the populations studied were patients with Still's disease and MAS. The intervention was any pharmacological treatment (approved or under evaluation) versus any comparator drug or placebo, and as outcomes, any relevant efficacy and safety event. The risk of bias (RoB) was assessed with the Cochrane RoB and AMSTAR-2 (Assessing the Methodological Quality of Systematic Reviews-2, version 2) for SRs.
+RESULTS
+: 128 full texts were included: 25 RCTs, 1 CCT, 11 SRs published after 2013 and 91 LOP/LOR studies. In Still's disease, interleukin (IL)-1 inhibitors (IL-1i) and IL-6R inhibitors (IL-6i) were the most studied drugs. Two meta-analyses on RCTs showed an OR, to achieve an ARC50 response rate, of 6.02 (95% CI 2.24 to 21.36) and 8.08 (95% CI 1.89 to 34.57) for IL-1i and IL-6Ri, respectively. Retrospective studies showed that early initiation of IL-1i or IL-6i was associated with high rates of clinically inactive disease. In MAS, GCs were employed in all patients, often associated with ciclosporin and/or anakinra. Rates of complete response were reported, with a range from 53% to 100%. Emapalumab was the only drug tested in a CCT, with a complete response of 93%.
+CONCLUSION
+: IL-1i and IL-6Ri show the highest level of efficacy in the treatment of Still's disease. For MAS, IL-1 and interferon-? inhibition appear to be effective on a background of high-dose glucocorticoids.

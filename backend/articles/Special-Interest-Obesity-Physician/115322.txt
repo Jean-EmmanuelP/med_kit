@@ -1,0 +1,13 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1111/dom.16136.
+
+=== Métadonnées ===
+Wong HJ, Lin NHY, Teo YH, et al.
+Anti-diabetic effects of GLP-1 receptor agonists on obese and overweight patients across diabetes status, administration routes, treatment duration and baseline characteristics: A systematic review.
+Diabetes Obes Metab. 2024 Dec 26. doi: 10.1111/dom.16136.
+                    (
+Systematic review
+)
+
+=== Abstract ===
+Glucagon-like peptide-1 receptor agonists (GLP-1 RAs) are increasingly used for anti-obesity indications. However, little is known of the comparative effect of GLP-1 RAs and their glycemic impact across the different routes of administration, diabetic statuses and durations of prescription. PubMed, EMBASE and CENTRAL were searched from inception to 13 February 2024. Only randomised controlled trials were included in this systematic review and meta-analysis. Adults aged above 18 years old, who were in the overweight/obesity range, with or without type 2 diabetes mellitus (T2DM) were included. Baseline characteristics and changes in glycated haemoglobin (HbA1c) and fasting plasma glucose (FPG) were obtained. GLP1-RAs demonstrated an overall reduction in HbA1c of -0.72% (95% confidence interval [CI] -0.79 to -0.65, p < 0.01) and in FPG of -1.00 mmol/L (95% CI -1.16 to -0.84, p < 0.01). HbA1c reduction in pre-DM patients was -0.44% (95% CI -0.54 to -0.18, p < 0.01). Patients who were followed up for more than a year experienced a smaller reduction of HbA1c. Meta-regression showed that the GLP-1 RAs are more efficacious at higher HbA1c and lower body mass index. Overall, GLP-1 RAs consistently led to a significant reduction in HbA1c at -0.72% and FPG at -1.00 mmol/L. These effects may be equally efficacious in pre-DM patients with obesity and those at lower BMI. With pre-DM and obesity being risk factors for metabolic syndrome, these findings may provide newer perspectives in expanding indications for GLP-1 RA initiation.

@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1111/dom.15581.
+
+=== Métadonnées ===
+Grando Alves G, Cunha L, Henkes Machado R, et al.
+Safety and efficacy of teplizumab in the treatment of type 1 diabetes mellitus: An updated systematic review and meta-analysis of randomized controlled trials.
+Diabetes Obes Metab. 2024 Jul;26(7):2652-2661. doi: 10.1111/dom.15581. Epub 2024 Apr 11.
+                    (
+Systematic review
+)
+
+=== Abstract ===
+AIM
+: To provide updated efficacy and safety information for teplizumab in the treatment of Stage 3 type 1 diabetes mellitus (T1DM).
+MATERIALS AND METHODS
+: The PubMed, Embase and Cochrane databases were searched for randomized controlled trials (RCTs) comparing teplizumab to placebo for T1DM that reported any of the following outcomes: (1) C-peptide area under the curve (AUC); (2) glycated haemoglobin (HbA1c) levels; (3) insulin requirements; and (4) adverse events. Heterogeneity was examined with I2 statistics. p values <0.05 were taken to indicate statistical significance. The continuous endpoints were compared through the pooled mean difference (MD) and binary endpoints were assessed using risk ratios, both with 95% confidence intervals (CIs). Statistical analyses were performed using Review Manager Web software.
+RESULTS
+: Eight RCTs with 1052 patients (754 receiving teplizumab) were included. Teplizumab significantly increased the AUC of C-peptide levels at 6 (MD 0.10 nmol/L, 95% CI 0.05, 0.16), 12 (MD 0.13 nmol/L, 95% CI 0.06, 0.20), 18 (MD 0.18 nmol/L, 95% CI 0.09, 0.27) and 24 months (MD 0.16 nmol/L, 95% CI 0.02, 0.31), significantly reduced HbA1c levels at 6 (MD -0.57%, 95% CI -1.07, -0.08) and 12 months (MD -0.31%, 95% CI -0.59, -0.02), and significantly reduced insulin requirements at 6 (MD -0.12 U/kg, 95% CI -0.16, -0.08), 12 (MD -0.11 U/kg, 95% CI -0.15, -0.07), 18 (MD -0.17 U/kg, 95% CI -0.26, -0.09) and 24 months (MD -0.11 U/kg, 95% CI -0.22, -0.01).
+CONCLUSION
+: Teplizumab increases AUC of C-peptide levels and decreases HbA1c levels and insulin use, without raising serious adverse event risk.

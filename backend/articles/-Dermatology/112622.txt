@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1111/dom.15544.
+
+=== Métadonnées ===
+Zhao H, Wu Y, Xie Y, et al.
+Hydrogel dressings for diabetic foot ulcer: A systematic review and meta-analysis.
+Diabetes Obes Metab. 2024 Jun;26(6):2305-2317. doi: 10.1111/dom.15544. Epub 2024 Mar 11.
+                    (
+Systematic review
+)
+
+=== Abstract ===
+AIM
+: To investigate the differences in utility between conventional dressings and hydrogel dressings for the treatment of diabetic foot ulcer (DFU).
+METHODS
+: The PubMed, Embase, Cochrane Library, CNKI, VIP and Wanfang databases were systematically searched up to 21 January 2023. Fixed/random-effect models were used to calculate the odds ratios (ORs) and mean differences (MDs) with 95% confidence intervals (CIs) for the effect size analysis, with heterogeneity determined by I2 statistics. Subgroup analyses of different classes of hydrogel were also conducted.
+RESULTS
+: A total of 15 randomized controlled trials with 872 patients were eligible for the present analysis. Compared with conventional dressings, hydrogel dressings significantly improved the healing rate (OR 4.09, 95% CI 2.83 to 5.91), shortened the healing time (MD -11.38, 95% CI -13.11 to -9.66), enhanced granulation formation (MD -3.60, 95% CI -4.21 to -3.00) and epithelial formation (MD -2.82, 95% CI -3.19 to -2.46), and reduced the incidence of bacterial infection (OR 0.10, 95% CI 0.05 to 0.18).
+CONCLUSION
+: The meta-analysis showed that hydrogel dressings are more effective in treating DFU compared with conventional dressings.

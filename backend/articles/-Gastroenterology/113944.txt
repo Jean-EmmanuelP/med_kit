@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1053/j.gastro.2024.03.036.
+
+=== Métadonnées ===
+Geeratragool T, Kaosombatwattana U, Boonchote A, et al.
+Comparison of Vonoprazan Versus Intravenous Proton Pump Inhibitor for Prevention of High-Risk Peptic Ulcers Rebleeding After Successful Endoscopic Hemostasis: A Multicenter Randomized Noninferiority Trial.
+Gastroenterology. 2024 Sep;167(4):778-787.e3. doi: 10.1053/j.gastro.2024.03.036. Epub 2024 Apr 5.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND & AIMS
+: High-dose proton pump inhibitor (PPI) therapy has been recommended to prevent rebleeding of high-risk peptic ulcer (PU) after hemostasis. Vonoprazan has been proven to be noninferior to PPIs in various acid-related diseases. This study aimed to compare the efficacy of vonoprazan vs PPI for preventing high-risk PU rebleeding after hemostasis.
+METHODS
+: A multicenter, randomized, noninferiority study was conducted in 6 centers. Pre-endoscopic and endoscopic therapy were performed according to standard protocol. After successful hemostasis, patients with high-risk PU bleeding (Forrest class Ia/Ib, IIa/IIb) were randomized into 1:1 to receive vonoprazan (20 mg twice a day for 3 days, then 20 mg once a day for 28 days) or high-dose PPI (pantoprazole intravenous infusion 8 mg/h for 3 days, then omeprazole 20 mg twice a day for 28 days). The primary outcome was a 30-day rebleeding rate. Secondary outcomes included 3- and 7-day rebleeding rate, all-cause and bleeding-related mortality, rate of rescue therapy, blood transfusion, length of hospital stay, and safety.
+RESULTS
+: Of 194 patients, baseline characteristics, severity of bleeding, and stage of ulcers were comparable between the 2 groups. The 30-day rebleeding rates in vonoprazan and PPI groups were 7.1% (7 of 98) and 10.4% (10 of 96), respectively; noninferiority (within 10% margin) of vonoprazan to PPI was confirmed (%risk difference, -3.3; 95% confidence interval, -11.2 to 4.7; P < .001). The 3-day and 7-day rebleeding rates in the vonoprazan group remained noninferior to PPI (P < .001 by Farrington and Manning test). All secondary outcomes were also comparable between the 2 groups.
+CONCLUSION
+: In patients with high-risk PU bleeding, the efficacy of vonoprazan in preventing 30-day rebleeding was noninferior to intravenous PPI. (ClinicalTrials.gov, Number: NCT05005910).

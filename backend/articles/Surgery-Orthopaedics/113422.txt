@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.arth.2024.05.019.
+
+=== Métadonnées ===
+Ye S, Wang Q, Zhao C, et al.
+Effects of a Modified Long-Acting Cocktail on Analgesia and Enhanced Recovery After Total Hip Arthroplasty: A Double-Blinded Randomized Clinical Trial.
+J Arthroplasty. 2024 Oct;39(10):2529-2535. doi: 10.1016/j.arth.2024.05.019. Epub 2024 May 10.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: We compared the efficacy and safety of a modified cocktail for postoperative analgesia and early functional rehabilitation in patients undergoing total hip arthroplasty (THA).
+METHODS
+: Magnesium sulfate and sodium bicarbonate were added to a cocktail of ropivacaine, epinephrine, and dexamethasone. Primary outcome measures were visual analog scale (VAS) pain scores at various intervals after surgery, morphine consumption for rescue analgesia after surgery, and time to first rescue analgesia. Secondary outcomes were hip function after surgery, daily walking distance, quadriceps muscle strength, and the incidence of postoperative adverse reactions.
+RESULTS
+: Morphine consumption was significantly lower in the modified cocktail group than in the control group in the first 24 hours after surgery (6.2 ± 6.0 versus 14.2 ± 6.4 mg, P < .001), as was total morphine consumption (10.0 ± 8.6 versus 19.2 ± 10.1 mg, P < .001). The duration of the first rescue analgesia was significantly prolonged (23.7 ± 10.3 versus 11.9 ± 5.8 mg, P < .001). Morphine consumption was also reduced in the magnesium sulfate and sodium bicarbonate groups over a 24-hour period compared to the control group (P < .001). The modified cocktail group had significantly lower resting VAS pain scores than the control group within 24 hours after surgery (P < .050). The VAS pain scores during movement within 12 hours after surgery were also lower (P < .050). The experimental groups showed better hip range of motion (P < .050) and longer walking distance (P < .050) on the first postoperative day, and levels of inflammatory markers were significantly reduced. The incidence of postoperative adverse reactions was similar among the 4 groups.
+CONCLUSIONS
+: The modified cocktail with a new adjuvant can prolong the duration of postoperative analgesia, reduce the dosage of rescue analgesics, and accelerate early postoperative functional recovery in patients undergoing THA.

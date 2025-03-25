@@ -1,0 +1,32 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.7326/M23-2038.
+
+=== Métadonnées ===
+Chiu YH, Huybrechts KF, Patorno E, et al.
+Metformin Use in the First Trimester of Pregnancy and Risk for Nonlive Birth and Congenital Malformations: Emulating a Target Trial Using Real-World Data.
+Ann Intern Med. 2024 Jul;177(7):862-870. doi: 10.7326/M23-2038. Epub 2024 Jun 18.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: Metformin is a first-line pharmacotherapy for type 2 diabetes, but there is limited evidence about its safety in early pregnancy.
+OBJECTIVE
+: To evaluate the teratogenicity of metformin use in the first trimester of pregnancy.
+DESIGN
+: In an observational cohort of pregnant women with pregestational type 2 diabetes receiving metformin monotherapy before the last menstrual period (LMP), a target trial with 2 treatment strategies was emulated: insulin monotherapy (discontinue metformin treatment and initiate insulin within 90 days of LMP) or insulin plus metformin (continue metformin and initiate insulin within 90 days of LMP).
+SETTING
+: U.S. Medicaid health care administration database (2000 to 2018).
+PARTICIPANTS
+: 12 489 pregnant women who met the eligibility criteria.
+MEASUREMENTS
+: The risk and risk ratio of nonlive births, live births with congenital malformations, and congenital malformations among live births were estimated using standardization to adjust for covariates.
+RESULTS
+: A total of 850 women were in the insulin monotherapy group and 1557 in the insulin plus metformin group. The estimated risk for nonlive birth was 32.7% under insulin monotherapy (reference) and 34.3% under insulin plus metformin (risk ratio, 1.02 [95% CI, 1.01 to 1.04]). The estimated risk for live birth with congenital malformations was 8.0% (CI, 5.7% to 10.2%) under insulin monotherapy and 5.7% (CI, 4.5% to 7.3%) under insulin plus metformin (risk ratio, 0.72 [CI, 0.51 to 1.09]).
+LIMITATION
+: Possible residual confounding by glycemic control and body mass index.
+CONCLUSION
+: Compared with switching to insulin monotherapy, continuing metformin and adding insulin in early pregnancy resulted in little to no increased risk for nonlive birth among women receiving metformin before pregnancy. Under conventional statistical criteria, anything between a 49% decrease and a 9% increase in risk for congenital malformations was highly compatible with our data.
+PRIMARY FUNDING SOURCE
+: National Institutes of Health.

@@ -1,0 +1,22 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.amjmed.2024.06.002.
+
+=== Métadonnées ===
+Florencio de Mesquita C, Rivera A, Araujo B, et al.
+Adjunctive Statin Therapy in Patients with Covid-19: A Systematic Review and Meta-Analysis of Randomized Controlled Trials.
+Am J Med. 2024 Oct;137(10):966-973.e11. doi: 10.1016/j.amjmed.2024.06.002. Epub 2024 Jun 10.
+                    (
+Systematic review
+)
+
+=== Abstract ===
+BACKGROUND
+: The efficacy and safety of adjunctive statin therapy in hospitalized patients with coronavirus disease 2019 (Covid-19) remains uncertain.
+METHODS
+: We systematically searched Medline, Embase, Cochrane, and ClinicalTrials.gov databases from inception to late April 2024 for randomized controlled trials (RCTs) comparing statin versus no statin use in patients hospitalized with Covid-19. We pooled risk ratios (RRs) and hazard ratios (HRs) with 95% confidence intervals (CIs) applying a random-effects model. R version 4.3.1 was used for statistical analyses.
+RESULTS
+: We included 7 RCTs comprising 4,262 patients, of whom 2,645 (62%) were randomized to receive statin therapy. Compared with no statin, statin use significantly reduced case-fatality rate (RR 0.88; 95% CI 0.80-0.98; I2 = 0%). In a time-to-event analysis, we found similar results (HR 0.86; 95% CI 0.75-0.99; I2 = 0%). Statin use also significantly reduced World Health Organization (WHO) scale at 14 days (mean difference -0.27; 95% CI -0.54 to -0.01; I2 = 0%). There was no statistically significant difference between the two groups in length of hospital stay, elevation of liver enzymes, and C-reactive protein levels.
+CONCLUSIONS
+: In patients hospitalized with Covid-19, statins significantly reduced case-fatality rate and WHO scale score.
+REGISTRATION
+: A prospective register was recorded in International Prospective Register of Systematic Reviews (PROSPERO) with the number CRD42023479007.

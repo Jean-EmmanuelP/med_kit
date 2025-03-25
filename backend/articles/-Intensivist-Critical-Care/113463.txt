@@ -1,0 +1,28 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jama.2024.9779.
+
+=== Métadonnées ===
+Dulhunty JM, Brett SJ, De Waele JJ, et al.
+Continuous vs Intermittent beta-Lactam Antibiotic Infusions in Critically Ill Patients With Sepsis: The BLING III Randomized Clinical Trial.
+JAMA. 2024 Aug 27;332(8):629-637. doi: 10.1001/jama.2024.9779.
+                    (
+Original study
+)
+
+=== Abstract ===
+IMPORTANCE
+: Whether β-lactam antibiotics administered by continuous compared with intermittent infusion reduces the risk of death in patients with sepsis is uncertain.
+OBJECTIVE
+: To evaluate whether continuous vs intermittent infusion of a β-lactam antibiotic (piperacillin-tazobactam or meropenem) results in decreased all-cause mortality at 90 days in critically ill patients with sepsis.
+DESIGN, SETTING, AND PARTICIPANTS
+: An international, open-label, randomized clinical trial conducted in 104 intensive care units (ICUs) in Australia, Belgium, France, Malaysia, New Zealand, Sweden, and the United Kingdom. Recruitment occurred from March 26, 2018, to January 11, 2023, with follow-up completed on April 12, 2023. Participants were critically ill adults (≥18 years) treated with piperacillin-tazobactam or meropenem for sepsis.
+INTERVENTION
+: Eligible patients were randomized to receive an equivalent 24-hour dose of a β-lactam antibiotic by either continuous (n = 3498) or intermittent (n = 3533) infusion for a clinician-determined duration of treatment or until ICU discharge, whichever occurred first.
+MAIN OUTCOMES AND MEASURES
+: The primary outcome was all-cause mortality within 90 days after randomization. Secondary outcomes were clinical cure up to 14 days after randomization; new acquisition, colonization, or infection with a multiresistant organism or Clostridioides difficile infection up to 14 days after randomization; ICU mortality; and in-hospital mortality.
+RESULTS
+: Among 7202 randomized participants, 7031 (mean [SD] age, 59 [16] years; 2423 women [35%]) met consent requirements for inclusion in the primary analysis (97.6%). Within 90 days, 864 of 3474 patients (24.9%) assigned to receive continuous infusion had died compared with 939 of 3507 (26.8%) assigned intermittent infusion (absolute difference, -1.9% [95% CI, -4.9% to 1.1%]; odds ratio, 0.91 [95% CI, 0.81 to 1.01]; P = .08). Clinical cure was higher in the continuous vs intermittent infusion group (1930/3467 [55.7%] and 1744/3491 [50.0%], respectively; absolute difference, 5.7% [95% CI, 2.4% to 9.1%]). Other secondary outcomes were not statistically different.
+CONCLUSIONS AND RELEVANCE
+: The observed difference in 90-day mortality between continuous vs intermittent infusions of β-lactam antibiotics did not meet statistical significance in the primary analysis. However, the confidence interval around the effect estimate includes the possibility of both no important effect and a clinically important benefit in the use of continuous infusions in this group of patients.
+TRIAL REGISTRATION
+: ClinicalTrials.gov Identifier: NCT03213990.

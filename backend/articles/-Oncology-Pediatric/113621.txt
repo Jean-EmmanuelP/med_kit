@@ -1,0 +1,22 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S1470-2045(24)00202-X.
+
+=== Métadonnées ===
+Corbacioglu S, Lode H, Ellinger S, et al.
+Irinotecan and temozolomide in combination with dasatinib and rapamycin versus irinotecan and temozolomide for patients with relapsed or refractory neuroblastoma (RIST-rNB-2011): a multicentre, open-label, randomised, controlled, phase 2 trial.
+Lancet Oncol. 2024 Jul;25(7):922-932. doi: 10.1016/S1470-2045(24)00202-X.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: Neuroblastoma is the most common extracranial solid tumour in children. Relapsed or refractory neuroblastoma is associated with a poor outcome. We assessed the combination of irinotecan-temozolomide and dasatinib-rapamycin (RIST) in patients with relapsed or refractory neuroblastoma.
+METHODS
+: The multicentre, open-label, randomised, controlled, phase 2, RIST-rNB-2011 trial recruited from 40 paediatric oncology centres in Germany and Austria. Patients aged 1-25 years with high-risk relapsed (defined as recurrence of all stage IV and MYCN amplification stages, after response to treatment) or refractory (progressive disease during primary treatment) neuroblastoma, with Lansky and Karnofsky performance status at least 50%, were assigned (1:1) to RIST (RIST group) or irinotecan-temozolomide (control group) by block randomisation, stratified by MYCN status. We compared RIST (oral rapamycin [loading 3 mg/m2 on day 1, maintenance 1 mg/m2 on days 2-4] and oral dasatinib [2 mg/kg per day] for 4 days with 3 days off, followed by intravenous irinotecan [50 mg/m2 per day] and oral temozolomide [150 mg/m2 per day] for 5 days with 2 days off; one course each of rapamycin-dasatinib and irinotecan-temozolomide for four cycles over 8 weeks, then two courses of rapamycin-dasatinib followed by one course of irinotecan-temozolomide for 12 weeks) with irinotecan-temozolomide alone (with identical dosing as experimental group). The primary endpoint of progression-free survival was analysed in all eligible patients who received at least one course of therapy. The safety population consisted of all patients who received at least one course of therapy and had at least one post-baseline safety assessment. This trial is registered at ClinicalTrials.gov, NCT01467986, and is closed to accrual.
+FINDINGS
+: Between Aug 26, 2013, and Sept 21, 2020, 129 patients were randomly assigned to the RIST group (n=63) or control group (n=66). Median age was 5·4 years (IQR 3·7-8·1). 124 patients (78 [63%] male and 46 [37%] female) were included in the efficacy analysis. At a median follow-up of 72 months (IQR 31-88), the median progression-free survival was 11 months (95% CI 7-17) in the RIST group and 5 months (2-8) in the control group (hazard ratio 0·62, one-sided 90% CI 0·81; p=0·019). Median progression-free survival in patients with amplified MYCN (n=48) was 6 months (95% CI 4-24) in the RIST group versus 2 months (2-5) in the control group (HR 0·45 [95% CI 0·24-0·84], p=0·012); median progression-free survival in patients without amplified MYCN (n=76) was 14 months (95% CI 9-7) in the RIST group versus 8 months (4-15) in the control group (HR 0·84 [95% CI 0·51-1·38], p=0·49). The most common grade 3 or worse adverse events were neutropenia (54 [81%] of 67 patients given RIST vs 49 [82%] of 60 patients given control), thrombocytopenia (45 [67%] vs 41 [68%]), and anaemia (39 [58%] vs 38 [63%]). Nine serious treatment-related adverse events were reported (five patients given control and four patients given RIST). There were no treatment-related deaths in the control group and one in the RIST group (multiorgan failure).
+INTERPRETATION
+: RIST-rNB-2011 demonstrated that targeting of MYCN-amplified relapsed or refractory neuroblastoma with a pathway-directed metronomic combination of a multkinase inhibitor and an mTOR inhibitor can improve progression-free survival and overall survival. This exclusive efficacy in MYCN-amplified, relapsed neuroblastoma warrants further investigation in the first-line setting.
+FUNDING
+: Deutsche Krebshilfe.

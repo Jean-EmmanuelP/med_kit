@@ -1,0 +1,13 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO.24.00994.
+
+=== Métadonnées ===
+Robertson JFR, Shao Z, Noguchi S, et al.
+Fulvestrant Versus Anastrozole in Endocrine Therapy-Naive Women With Hormone Receptor-Positive Advanced Breast Cancer: Final Overall Survival in the Phase III FALCON Trial.
+J Clin Oncol. 2025 Jan 7:JCO2400994. doi: 10.1200/JCO.24.00994.
+                    (
+Original study
+)
+
+=== Abstract ===
+The randomized phase III FALCON trial demonstrated significant improvement in progression-free survival (PFS) with fulvestrant versus anastrozole in postmenopausal women with endocrine therapy-naïve, hormone receptor-positive/human epidermal growth factor receptor 2-negative advanced breast cancer. Herein, the prespecified final overall survival (OS) analysis is reported. After the primary PFS analysis, data were collected on survival, serious adverse events, and health-related quality of life. The final OS analysis was triggered at =65% maturity and =8 years since the last patient was enrolled. Analyses were descriptive with nominal P values (one-sided a threshold .01845). At the data cutoff (July 11, 2022), 314 (68.0%) of 462 patients had died (fulvestrant, 157/230 [68.3%], anastrozole, 157/232 [67.7%]). The final OS analysis of FALCON demonstrated no significant difference between fulvestrant and anastrozole (medians, 44.8 and 42.7 months, respectively; hazard ratio [HR], 0.97 [95% CI, 0.77 to 1.21]; P = .7579). Among patients with nonvisceral disease (n = 208), a trend showed a 15% reduction in the relative risk of death with fulvestrant versus anastrozole (median OS, 65.2 v 47.8 months; HR, 0.85 [95% CI, 0.60 to 1.20]). Data from FALCON are consistent with published evidence of long-term clinical benefit with fulvestrant and other endocrine therapies in the subset of patients with nonvisceral disease.

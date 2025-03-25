@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.annemergmed.2024.03.024.
+
+=== Métadonnées ===
+Nguyen T, Mai M, Choudhary A, et al.
+Comparison of Nebulized Ketamine to Intravenous Subdissociative Dose Ketamine for Treating Acute Painful Conditions in the Emergency Department: A Prospective, Randomized, Double-Blind, Double-Dummy Controlled Trial.
+Ann Emerg Med. 2024 Oct;84(4):354-362. doi: 10.1016/j.annemergmed.2024.03.024. Epub 2024 May 2.
+                    (
+Original study
+)
+
+=== Abstract ===
+STUDY OBJECTIVE
+: We aimed to assess and compare the analgesic efficacy and adverse effects of intravenous subdissociative-dose ketamine to nebulized ketamine in emergency department (ED) patients with acute painful conditions.
+METHODS
+: We conducted a prospective, randomized, double-blind, double-dummy clinical trial in adult patients (ages 18 and older) with a numerical rating scale pain score of =5. We randomized subjects to receive either a single dose of 0.3 mg/kg of intravenous (IV) ketamine or 0.75 mg/kg of nebulized ketamine through a breath-actuated nebulizer. Primary outcome was the difference in pain scores on the numerical rating scale between groups at 30 minutes postmedication administration. The secondary outcomes included the need for rescue analgesia, occurrences of adverse events in each group, and the difference in pain scores at 15, 30, 60, 90, and 120 minutes. We calculated a 95% confidence interval (CI) for a mean difference at 30 minutes, with a minimum clinically important difference set at 1.3 points.
+RESULTS
+: We enrolled 150 subjects (75 per group). Mean pain scores through numerical rating scale were 8.2 for both groups at baseline, which decreased to 3.6 and 3.8 at 30 minutes, yielding a mean difference of 0.23 (95% CI -1.32 to 0.857). We observed no clinically concerning changes in vital signs. No serious adverse events occurred in any of the groups throughout the study period.
+CONCLUSION
+: We found no difference between the administration of IV and nebulized ketamine for the short-term treatment of moderate to severe acute pain in the ED, with both treatments providing a clinically meaningful reduction in pain scores at 30 minutes.

@@ -1,0 +1,13 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO.23.02086.
+
+=== Métadonnées ===
+Huang CL, Zhang N, Jiang W, et al.
+Reduced-Volume Irradiation of Uninvolved Neck in Patients With Nasopharyngeal Cancer: Updated Results From an Open-Label, Noninferiority, Multicenter, Randomized Phase III Trial.
+J Clin Oncol. 2024 Jun 10;42(17):2021-2025. doi: 10.1200/JCO.23.02086. Epub 2024 Mar 20.
+                    (
+Original study
+)
+
+=== Abstract ===
+Clinical trials frequently include multiple end points that mature at different times. The initial report, typically based on the primary end point, may be published when key planned co-primary or secondary analyses are not yet available. Clinical Trial Updates provide an opportunity to disseminate additional results from studies, published in JCO or elsewhere, for which the primary end point has already been reported.We previously reported comparable 3-year regional relapse-free survival (RRFS) using elective upper-neck irradiation (UNI) in N0-1 nasopharyngeal carcinoma (NPC) compared with standard whole-neck irradiation (WNI). Here, we present the prespecified 5-year overall survival (OS), RRFS, late toxicity, and additional analyses. In this randomized trial, patients received UNI (n = 224) or WNI (n = 222) for an uninvolved neck. After a median follow-up of 74 months, the UNI and WNI groups had similar 5-year OS (95.9% v 93.1%, hazard ratio [HR], 0.63 [95% CI, 0.30 to 1.35]; P = .24) and RRFS (95.0% v 94.9%, HR, 0.96 [95% CI, 0.43 to 2.13]; P = .91) rates. The 5-year disease-free survivors in the UNI group had a lower frequency of hypothyroidism (34% v 48%; P = .004), neck tissue damage (29% v 46%; P < .001), dysphagia (14% v 27%; P = .002), and lower-neck common carotid artery stenosis (15% v 26%; P = .043). The UNI group had higher postradiotherapy circulating lymphocyte counts than the WNI group (median: 400 cells/µL v 335 cells/µL, P = .007). In conclusion, these updated data confirmed that UNI of the uninvolved neck is a standard of care in N0-1 NPC, providing outstanding efficacy and reduced long-term toxicity, and might retain more immune function.

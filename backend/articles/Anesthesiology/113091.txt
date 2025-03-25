@@ -1,0 +1,22 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1136/rapm-2024-105468.
+
+=== Métadonnées ===
+Yao HQ, Qian J, Dong FY, et al.
+Comparison of the dural puncture epidural and the standard epidural techniques in patients having labor analgesia maintained using programmed epidural boluses: a prospective double-blinded randomized clinical trial.
+Reg Anesth Pain Med. 2024 Apr 24:rapm-2024-105468. doi: 10.1136/rapm-2024-105468.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: The dural puncture epidural technique has been shown in some studies to improve the onset and quality of the initiation of labor analgesia compared with the standard epidural technique. However, few studies have investigated whether this technique confers advantages during the maintenance of analgesia. This randomized double-blinded controlled study compared dural puncture epidural analgesia with standard epidural analgesia when analgesia was maintained using programmed intermittent epidural boluses.
+METHODS
+: 400 parturients requesting epidural labor analgesia were randomized to have analgesia initiated with a test dose of 3 mL lidocaine 1.5% with epinephrine 15 µg, followed by 12 mL ropivacaine 0.15% mixed with sufentanil 0.5 µg/mL using the dural puncture epidural or the standard epidural technique. After confirming satisfactory analgesia, analgesia was maintained with ropivacaine 0.1% and sufentanil 0.5 µg/mL via programmed intermittent epidural boluses (fixed volume 8 mL, intervals 40 min). We compared local anesthetic consumption, pain scores, obstetric and neonatal outcomes and patient satisfaction.
+RESULTS
+: A total of 339 patients completed the study and had data analyzed. There were no differences between the dural puncture epidural and standard epidural groups in ropivacaine consumption (mean difference -0.724 mg, 95% CI of difference -1.450 to 0.001 mg, p=0.051), pain scores, time to first programmed intermittent epidural bolus, the number of programmed intermittent epidural boluses, the number of manual epidural boluses, obstetric outcome or neonatal outcome. Patient satisfaction scores were statistically higher in the dural puncture epidural group but the absolute difference in scores was small.
+CONCLUSION
+: Our findings suggest that when labor analgesia is maintained using the programmed intermittent epidural bolus method, there is no significant advantage to initiating analgesia using the dural puncture epidural compared with the standard epidural technique.
+TRIAL REGISTRATION NUMBER
+: ChiCTR2200062349.

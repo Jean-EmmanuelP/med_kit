@@ -1,0 +1,28 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamanetworkopen.2024.27557.
+
+=== Métadonnées ===
+Lee YC, Chang YC, Tseng LW, et al.
+Continuous Positive Airway Pressure Treatment and Hypertensive Adverse Outcomes in Pregnancy: A Systematic Review and Meta-Analysis.
+JAMA Netw Open. 2024 Aug 1;7(8):e2427557. doi: 10.1001/jamanetworkopen.2024.27557.
+                    (
+Systematic review
+)
+
+=== Abstract ===
+IMPORTANCE
+: Pregnancy may contribute to the development or exacerbation of obstructive sleep apnea (OSA) and increase the risk of gestational complications. Continuous positive airway pressure (CPAP) is the first-line and criterion standard treatment for OSA and is regarded as the most feasible choice during pregnancy. However, the association between CPAP therapy in pregnant women with OSA and reduced gestational complications remains inconclusive.
+OBJECTIVE
+: To investigate the association between CPAP therapy in pregnant women with OSA and the reduction of adverse hypertensive outcomes during gestation.
+DATA SOURCES
+: Keyword searches of PubMed, Embase, and the Cochrane Database of Systematic Reviews and Clinical Trials were conducted from inception to November 5, 2023.
+STUDY SELECTION
+: Original studies reporting the treatment effect of CPAP use on lowering hypertension and preeclampsia risks in pregnant women with OSA were selected.
+DATA EXTRACTION AND SYNTHESIS
+: The Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) guideline was followed in the reporting of reviews. Data were independently extracted by 2 authors. Random-effects model meta-analyses were performed and risk ratios (RRs) reported. Subgroup analysis, meta-regression based on age and body mass index (BMI; calculated as weight in kilograms divided by height in meters squared), and publication bias assessment were also conducted.
+MAIN OUTCOME AND MEASURES
+: The primary outcome was the RR of gestational hypertension and preeclampsia between pregnant women with OSA receiving CPAP treatment and those who did not receive CPAP treatment.
+RESULTS
+: Six original studies in 809 participants (mean age, 31.4 years; mean BMI, 34.0) were identified and systematically reviewed for meta-analysis. The pooled results showed significant differences between the intervention (CPAP use) and the control (non-CPAP use) groups in reducing the risk of gestational hypertension (RR, 0.65; 95% CI, 0.47-0.89; P = .008) and preeclampsia (RR, 0.70; 95% CI, 0.50-0.98; P = .04). Meta-regression revealed that patients' age (coefficient, -0.0190; P = .83) and BMI (coefficient, -0.0042; P = .87) were not correlated with reduction of risk of hypertension and preeclampsia.
+CONCLUSIONS AND RELEVANCE
+: These findings suggest that implementing CPAP treatment in pregnant women with OSA may reduce the risk of gestational hypertension and preeclampsia.

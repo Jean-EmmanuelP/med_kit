@@ -1,0 +1,26 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1111/1471-0528.18070.
+
+=== Métadonnées ===
+Makama M, McDougall ARA, Cao J, et al.
+L-Arginine and L-Citrulline for Prevention and Treatment of Pre-Eclampsia: A Systematic Review and Meta-Analysis.
+BJOG. 2025 Jan 12. doi: 10.1111/1471-0528.18070.
+                    (
+Systematic review
+)
+
+=== Abstract ===
+BACKGROUND
+: Evidence suggests L-arginine may be effective at reducing pre-eclampsia and related outcomes. However, whether L-arginine can prevent or only treat pre-eclampsia, and thus the target population and timing of initiation, remains unknown.
+OBJECTIVES
+: To evaluate the effects of L-arginine and L-citrulline (precursor of L-arginine) on the prevention and treatment of pre-eclampsia.
+SEARCH STRATEGY
+: MEDLINE, Embase, CINAHL, Global Index Medicus and the Cochrane Library were searched through 7 February 2024.
+SELECTION CRITERIA
+: Trials administering L-arginine or L-citrulline to pregnant women, with the comparison group receiving placebo or standard care, were included.
+DATA COLLECTION AND ANALYSIS
+: Meta-analyses were conducted separately for prevention or treatment trials, using random-effects models.
+MAIN RESULTS
+: Twenty randomised controlled trials (RCTs) (2028 women) and three non-randomised trials (189 women) were included. The risk of bias was 'high' in eight RCTs and showed 'some concerns' in 12. In prevention trials, L-arginine was associated with a reduced risk of pre-eclampsia (relative risk [RR] 0.52; 95% confidence interval [CI], 0.35, 0.78; low-certainty evidence, four trials) and severe pre-eclampsia (RR 0.23; 95% CI, 0.09, 0.55; low-certainty evidence, three trials). In treatment trials, L-arginine may reduce mean systolic blood pressure (MD -5.64 mmHg; 95% CI, -10.66, -0.62; very low-certainty evidence, three trials) and fetal growth restriction (RR 0.46; 95% CI, 0.26, 0.81; low-certainty evidence, two trials). Only one study (36 women) examined L-citrulline and reported no effect on pre-eclampsia or blood pressure.
+CONCLUSIONS
+: L-arginine may be promising for pre-eclampsia prevention and treatment, but findings should be interpreted cautiously. More trials are needed to determine the optimal dose and time to commence supplementation and support clinical decision-making.

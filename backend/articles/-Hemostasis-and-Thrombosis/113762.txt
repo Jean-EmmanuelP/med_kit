@@ -1,0 +1,22 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.jtha.2024.04.025.
+
+=== Métadonnées ===
+Becattini C, Vedovati MC, Colombo S, et al.
+Identification of hemodynamically stable patients with acute pulmonary embolism at high risk for death: external validation of different models.
+J Thromb Haemost. 2024 Sep;22(9):2502-2513. doi: 10.1016/j.jtha.2024.04.025. Epub 2024 May 27.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: The optimal strategy for identification of hemodynamically stable patients with acute pulmonary embolism (PE) at risk for death and clinical deterioration remains undefined.
+OBJECTIVES
+: We aimed to assess the performances of currently available models/scores for identifying hemodynamically stable patients with acute, symptomatic PE at risk of death and clinical deterioration.
+METHODS
+: This was a prospective multicenter cohort study including patients with acute PE (NCT03631810). Primary study outcome was in-hospital death within 30 days or clinical deterioration. Other outcomes were in-hospital death, death, and PE-related death, all at 30 days. We calculated positive and negative predictive values, c-statistics of European Society of Cardiology (ESC)-2014, ESC-2019, Pulmonary Embolism Thrombolysis (PEITHO), Bova, Thrombo-embolism lactate outcome study (TELOS), fatty acid binding protein, syncope and tachicardia (FAST), and National Early Warning Scale 2 (NEWS2) for the study outcomes.
+RESULTS
+: In 5036 hemodynamically stable patients with acute PE, positive predictive values for the evaluated models/scores were all below 10%, except for TELOS and NEWS2; negative predictive values were above 98% for all the models/scores, except for FAST and NEWS2. ESC-2014 and TELOS had good performances for in-hospital death or clinical deterioration (c-statistic of 0.700 and 0.722, respectively), in-hospital death (c-statistic of 0.713 and 0.723, respectively), and PE-related death (c-statistic of 0.712 and 0.777, respectively); PEITHO, Bova, and NEWS2 also had good performances for PE-related death (c-statistic of 0.738, 0.741, and 0.742, respectively).
+CONCLUSION
+: In hemodynamically stable patients with acute PE, the accuracy for identification of hemodynamically stable patients at risk for death and clinical deterioration varies across the available models/scores; TELOS seems to have the best performance. These data can inform management studies and clinical practice.

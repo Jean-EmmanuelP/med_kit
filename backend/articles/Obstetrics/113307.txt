@@ -1,0 +1,30 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1136/bmj-2023-078218.
+
+=== Métadonnées ===
+Wang S, Deng CM, Zeng Y, et al.
+Efficacy of a single low dose of esketamine after childbirth for mothers with symptoms of prenatal depression: randomised clinical trial.
+BMJ. 2024 Apr 10;385:e078218. doi: 10.1136/bmj-2023-078218.
+                    (
+Original study
+)
+
+=== Abstract ===
+OBJECTIVE
+: To determine whether a single low dose of esketamine administered after childbirth reduces postpartum depression in mothers with prenatal depression.
+DESIGN
+: Randomised, double blind, placebo controlled trial with two parallel arms.
+SETTING
+: Five tertiary care hospitals in China, 19 June 2020 to 3 August 2022.
+PARTICIPANTS
+: 364 mothers aged =18 years who had at least mild prenatal depression as indicated by Edinburgh postnatal depression scale scores of =10 (range 0-30, with higher scores indicating worse depression) and who were admitted to hospital for delivery.
+INTERVENTIONS
+: Participants were randomly assigned 1:1 to receive either 0.2 mg/kg esketamine or placebo infused intravenously over 40 minutes after childbirth once the umbilical cord had been clamped.
+MAIN OUTCOME MEASURES
+: The primary outcome was prevalence of a major depressive episode at 42 days post partum, diagnosed using the mini-international neuropsychiatric interview. Secondary outcomes included the Edinburgh postnatal depression scale score at seven and 42 days post partum and the 17 item Hamilton depression rating scale score at 42 days post partum (range 0-52, with higher scores indicating worse depression). Adverse events were monitored until 24 hours after childbirth.
+RESULTS
+: A total of 364 mothers (mean age 31.8 (standard deviation 4.1) years) were enrolled and randomised. At 42 days post partum, a major depressive episode was observed in 6.7% (12/180) of participants in the esketamine group compared with 25.4% (46/181) in the placebo group (relative risk 0.26, 95% confidence interval (CI) 0.14 to 0.48; P<0.001). Edinburgh postnatal depression scale scores were lower in the esketamine group at seven days (median difference -3, 95% CI -4 to -2; P<0.001) and 42 days (-3, -4 to -2; P<0.001). Hamilton depression rating scale scores at 42 days post partum were also lower in the esketamine group (-4, -6 to -3; P<0.001). The overall incidence of neuropsychiatric adverse events was higher in the esketamine group (45.1% (82/182) v 22.0% (40/182); P<0.001); however, symptoms lasted less than a day and none required drug treatment.
+CONCLUSIONS
+: For mothers with prenatal depression, a single low dose of esketamine after childbirth decreases major depressive episodes at 42 days post partum by about three quarters. Neuropsychiatric symptoms were more frequent but transient and did not require drug intervention.
+TRIAL REGISTRATION
+: ClinicalTrials.gov NCT04414943.

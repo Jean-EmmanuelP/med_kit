@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1111/jgs.19317.
+
+=== Métadonnées ===
+Fagard K, Geyskens L, Van den Bogaert B, et al.
+Frailty screening in older patients undergoing elective colorectal surgery: Comparative study of seven screening instruments.
+J Am Geriatr Soc. 2024 Dec 29. doi: 10.1111/jgs.19317.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: Frailty screening instruments are increasingly studied as risk predictors for adverse postoperative outcomes. However, because of the lack of comparative research, it is unclear which screening instrument performs best. This study therefore compared the diagnostic accuracy of seven frailty screening instruments for adverse postoperative outcomes in patients aged =70 years undergoing colorectal surgery.
+METHODS
+: We conducted a prospective cohort study at an academic hospital, examining the Fried and Robinson frailty criteria, the Edmonton Frail Scale, the Rockwood Clinical Frailty Scale, the Modified Frailty Index, the FRAIL questionnaire, and the Geriatric 8 for predicting postoperative complications with a Clavien-Dindo (CD) severity grade =2. Secondary outcomes were complications with CD severity grade =3, prolonged length of stay, increased care level after discharge, and functional decline in basic or instrumental activities of daily living up to 1 month after surgery.
+RESULTS
+: The study included 172 consecutive patients. Positive frailty screening ranged from 13.4% to 73.8%. CD=2 complications were present in 37.8% of patients. At the original cutoffs, most instruments had a high specificity (76.7%-92.4%) at the expense of sensitivity (21.5%-38.5%) with a moderate negative predictive value (NPV) for predicting CD=2 complications. The Geriatric 8 showed the opposite pattern (sensitivity 81.5%-specificity 30.8%) and a high NPV. Diagnostic accuracy was moderate for all screening instruments, since the areas under the receiver operating characteristic curve did not exceed 0.61 across instruments. Altering the cutoff scores did not yield sufficient improvement. Comparable results were found for the secondary outcomes.
+CONCLUSIONS
+: Comparing the predictive value of the screening instruments showed that frailty screening cannot be used in isolation as risk predictor for adverse postoperative outcomes. Further research should focus on a two-step approach in which additional diagnosis of frailty by means of comprehensive geriatric assessment is included in the prediction model.

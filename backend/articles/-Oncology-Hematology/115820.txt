@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2409804.
+
+=== Métadonnées ===
+Brown JR, Seymour JF, Jurczak W, et al.
+Fixed-Duration Acalabrutinib Combinations in Untreated Chronic Lymphocytic Leukemia.
+N Engl J Med. 2025 Feb 20;392(8):748-762. doi: 10.1056/NEJMoa2409804. Epub 2025 Feb 5.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: Whether fixed-duration acalabrutinib-venetoclax (with or without obinutuzumab) would result in better progression-free survival than chemoimmunotherapy in patients with untreated chronic lymphocytic leukemia (CLL) is unknown.
+METHODS
+: In this phase 3, open-label trial, we included patients 18 years of age or older who had an Eastern Cooperative Oncology Group performance-status score of 0 to 2 (range, 0 to 5, with higher numbers indicating greater disability) and who did not have a 17p deletion or TP53 mutation. Patients were randomly assigned, in a 1:1:1 ratio, to receive acalabrutinib-venetoclax (acalabrutinib, cycles 1 to 14; venetoclax, cycles 3 to 14), acalabrutinib-venetoclax-obinutuzumab (as above, plus obinutuzumab, cycles 2 to 7), or chemoimmunotherapy with the investigator's choice of fludarabine-cyclophosphamide-rituximab or bendamustine-rituximab (cycles 1 to 6). The primary end point was progression-free survival (acalabrutinib-venetoclax vs. chemoimmunotherapy) in the intention-to-treat population, assessed by blinded independent central review.
+RESULTS
+: A total of 867 patients underwent randomization: 291 were assigned to receive acalabrutinib-venetoclax, 286 acalabrutinib-venetoclax-obinutuzumab, and 290 chemoimmunotherapy (of whom 143 received fludarabine-cyclophosphamide-rituximab and 147 bendamustine-rituximab). The median age of the patients was 61 years (range, 26 to 86), 64.5% were men, and 58.6% had unmutated IGHV. Estimated 36-month progression-free survival at a median follow-up of 40.8 months was 76.5% with acalabrutinib-venetoclax, 83.1% with acalabrutinib-venetoclax-obinutuzumab, and 66.5% with chemoimmunotherapy (hazard ratio for disease progression or death with acalabrutinib-venetoclax vs. chemoimmunotherapy, 0.65 [95% confidence interval {CI}, 0.49 to 0.87], P = 0.004; for the comparison of acalabrutinib-venetoclax-obinutuzumab with chemoimmunotherapy, P<0.001). Estimated 36-month overall survival was 94.1% with acalabrutinib-venetoclax, 87.7% with acalabrutinib-venetoclax-obinutuzumab, and 85.9% with chemoimmunotherapy. Neutropenia, the most common adverse event of clinical interest of grade 3 or higher, was reported in 32.3%, 46.1%, and 43.2% in the three groups, respectively; death from coronavirus disease 2019 was reported in 10, 25, and 21 patients in the three groups.
+CONCLUSIONS
+: Acalabrutinib-venetoclax with or without obinutuzumab significantly prolonged progression-free survival as compared with chemoimmunotherapy in fit patients with previously untreated CLL. (Funded by AstraZeneca; AMPLIFY ClinicalTrials.gov number, NCT03836261.).

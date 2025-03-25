@@ -1,0 +1,26 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamaoncol.2024.0057.
+
+=== Métadonnées ===
+Sorin M, Prosty C, Ghaleb L, et al.
+Neoadjuvant Chemoimmunotherapy for NSCLC: A Systematic Review and Meta-Analysis.
+JAMA Oncol. 2024 May 1;10(5):621-633. doi: 10.1001/jamaoncol.2024.0057.
+                    (
+Systematic review
+)
+
+=== Abstract ===
+IMPORTANCE
+: To date, no meta-analyses have comprehensively assessed the association of neoadjuvant chemoimmunotherapy with clinical outcomes in non-small cell lung cancer (NSCLC) in randomized and nonrandomized settings. In addition, there exists controversy concerning the efficacy of neoadjuvant chemoimmunotherapy for patients with NSCLC with programmed cell death 1 ligand 1 (PD-L1) levels less than 1%.
+OBJECTIVE
+: To compare neoadjuvant chemoimmunotherapy with chemotherapy by adverse events and surgical, pathological, and efficacy outcomes using recently published randomized clinical trials and nonrandomized trials.
+DATA SOURCES
+: MEDLINE and Embase were systematically searched from January 1, 2013, to October 25, 2023, for all clinical trials of neoadjuvant chemoimmunotherapy and chemotherapy that included at least 10 patients.
+STUDY SELECTION
+: Observational studies and trials reporting the use of neoadjuvant radiotherapy, including chemoradiotherapy, molecular targeted therapy, or immunotherapy monotherapy, were excluded.
+MAIN OUTCOMES AND MEASURES
+: Surgical, pathological, and efficacy end points and adverse events were pooled using a random-effects meta-analysis.
+RESULTS
+: Among 43 eligible trials comprising 5431 patients (4020 males [74.0%]; median age range, 55-70 years), there were 8 randomized clinical trials with 3387 patients. For randomized clinical trials, pooled overall survival (hazard ratio, 0.65; 95% CI, 0.54-0.79; I2 = 0%), event-free survival (hazard ratio, 0.59; 95% CI, 0.52-0.67; I2 = 14.9%), major pathological response (risk ratio, 3.42; 95% CI, 2.83-4.15; I2 = 31.2%), and complete pathological response (risk ratio, 5.52; 95% CI, 4.25-7.15; I2 = 27.4%) favored neoadjuvant chemoimmunotherapy over neoadjuvant chemotherapy. For patients with baseline tumor PD-L1 levels less than 1%, there was a significant benefit in event-free survival for neoadjuvant chemoimmunotherapy compared with chemotherapy (hazard ratio, 0.74; 95% CI, 0.62-0.89; I2 = 0%).
+CONCLUSION AND RELEVANCE
+: This study found that neoadjuvant chemoimmunotherapy was superior to neoadjuvant chemotherapy across surgical, pathological, and efficacy outcomes. These findings suggest that patients with resectable NSCLC with tumor PD-L1 levels less than 1% may have an event-free survival benefit with neoadjuvant chemoimmunotherapy.

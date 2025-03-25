@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1111/acem.14985.
+
+=== Métadonnées ===
+Lee WH, O'Brien S, McKinnon E, et al.
+Study of pediatric appendicitis scores and management strategies: A prospective observational feasibility study.
+Acad Emerg Med. 2024 Nov;31(11):1089-1099. doi: 10.1111/acem.14985. Epub 2024 Jul 17.
+                    (
+Systematic review
+)
+
+=== Abstract ===
+OBJECTIVE
+: The objective was to investigate the feasibility of prospectively validating multiple clinical prediction scores (CPSs) for pediatric appendicitis in an Australian pediatric emergency department (ED).
+METHODS
+: A literature search was conducted to identify potential CPSs and a single-center prospective observational feasibility study was performed between November 2022 and May 2023 to evaluate the performance of identified CPSs. Children 5-15 years presenting with acute right-sided or generalized abdominal pain and clinician suspicion of appendicitis were included. CPSs were calculated by the study team from prospectively clinician-collected data and/or review of medical records. Accuracy of CPSs were assessed by area under the receiver operating characteristic curve (AUC) and proportions correctly identifiable as either low-risk or high-risk with the best performing CPS compared to clinician gestalt. Final diagnosis of appendicitis was confirmed on histopathology or by telephone/email follow-up for those discharged directly from ED.
+RESULTS
+: Thirty CPSs were identified in the literature search and 481 patients were enrolled in the study. A total of 150 (31.2%) patients underwent appendectomy with three (2.0%) having a normal appendix on histopathology. All identified CPSs were calculable for at least 50% of the patient cohort. The pediatric Appendicitis Risk Calculator for pediatric EDs (pARC-ED; n = 317) was the best performing CPS with AUC 0.90 (95% confidence interval [CI] 0.86-0.94) and specificity 99.0% (95% CI 96.4%-99.7%) in diagnosing high-risk cases and a misclassification rate of 4.5% for low-risk cases.
+CONCLUSIONS
+: The study identified 30 CPSs that could be validated in a majority of patients to compare their ability to assess risk of pediatric appendicitis. The pARC-ED had the highest predictive accuracy and can potentially assist in risk stratification of children with suspected appendicitis in pediatric EDs. A multicenter study is now under way to evaluate the potential of these CPSs in a broader range of EDs to aid clinical decision making in more varied settings.

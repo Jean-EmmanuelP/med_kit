@@ -1,0 +1,22 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.jaci.2024.08.009.
+
+=== Métadonnées ===
+Palmer DJ, Cuthbert AR, Sullivan TR, et al.
+Effects of pregnancy and lactation prebiotics supplementation on infant allergic disease: A randomized controlled trial.
+J Allergy Clin Immunol. 2025 Jan;155(1):144-152. doi: 10.1016/j.jaci.2024.08.009. Epub 2024 Aug 21.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: Ingestion of prebiotics during pregnancy and lactation may have immunomodulatory benefits for the developing fetal and infant immune system and provide a potential dietary strategy to reduce the risk of allergic diseases.
+OBJECTIVE
+: We sought to determine whether maternal supplementation with dietary prebiotics reduces the risk of allergic outcomes in infants with hereditary risk.
+METHODS
+: We undertook a double-blind randomized controlled trial in which pregnant women were allocated to consume prebiotics (14.2 g daily of galacto-oligosaccharides and fructo-oligosaccharides in the ratio 9:1) or placebo (8.7 g daily of maltodextrin) powder from less than 21 weeks' gestation until 6 months postnatal during lactation. Eligible women had infants with a first-degree relative with a history of medically diagnosed allergic disease. The primary outcome was medically diagnosed infant eczema by age 1 year, and secondary outcomes included allergen sensitization, food allergy, and recurrent wheeze by age 1 year.
+RESULTS
+: A total of 652 women were randomized between June 2016 and November 2021 (329 in the prebiotics group and 323 in the placebo group). There was no significant difference between groups in the percentage of infants with medically diagnosed eczema by age 1 year (prebiotics 31.5% [103 of 327 infants] vs placebo 32.6% [105 of 322 infants]; adjusted relative risk, 0.98; 95% CI, 0.77-1.23; P = .84). Secondary outcomes and safety measures also did not significantly differ between groups.
+CONCLUSIONS
+: We found little evidence that maternal prebiotics supplementation during pregnancy and lactation reduces the risk of medically diagnosed infant eczema by age 1 year in infants who are at hereditary risk of allergic disease.

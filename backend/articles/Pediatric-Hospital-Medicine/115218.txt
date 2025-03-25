@@ -1,0 +1,30 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1136/bmj-2024-080924.
+
+=== Métadonnées ===
+Flynn SG, Park RS, Jena AB, et al.
+Coaching inexperienced clinicians before a high stakes medical procedure: randomized clinical trial.
+BMJ. 2024 Dec 16;387:e080924. doi: 10.1136/bmj-2024-080924.
+                    (
+Original study
+)
+
+=== Abstract ===
+OBJECTIVE
+: To assess whether training provided to an inexperienced clinician just before performing a high stakes procedure can improve procedural care quality, measuring the first attempt success rate of trainees performing infant orotracheal intubation.
+DESIGN
+: Randomized clinical trial.
+SETTING
+: Single center, quaternary children's hospital in Boston, MA, USA.
+PARTICIPANTS
+: A non-crossover, prospective, parallel group, non-blinded, trial design was used. Volunteer trainees comprised pediatric anesthesia fellows, residents, and student registered nurse anesthetists from 10 regional training programs during their pediatric anesthesiology rotation. Trainees were block randomized by training roles. Inclusion criteria were trainees intubating infants aged =12 months with an American Society of Anesthesiology physical status classification of I-III. Exclusion criteria were trainees intubating infants with cyanotic congenital heart disease, known or suspected difficult or critical airways, pre-existing abnormal baseline oxygen saturation <96% on room air, endotracheal or tracheostomy tubes in situ, emergency cases, or covid-19 infection.
+INTERVENTIONS
+: Trainee treatment group received preoperative just-in-time expert intubation coaching on a manikin within one hour of infant intubation; control group carried out standard practice (receiving unstructured intraoperative instruction by attending pediatric anesthesiologists).
+MAIN OUTCOME MEASURES
+: Primary outcome was the first attempt success rate of intraoperative infant intubation. Modified intention-to-treat analysis used generalized estimating equations to account for multiple intubations per trainee participant. Secondary outcomes were complication rates, cognitive load of intubation, and competency metrics.
+RESULTS
+: 250 trainees were assessed for eligibility; 78 were excluded, 172 were randomized, and 153 were subsequently analyzed. Between 1 August 2020 and 30 April 2022, 153 trainees (83 control, 70 treatment) did 515 intubations (283 control, 232 treatment). In modified intention-to-treat analysis, first attempt success was 91.4% (212/232) in the trainee treatment group and 81.6% (231/283) in the control group (odds ratio 2.42 (95% confidence interval 1.45 to 4.04), P=0.001). Secondary outcomes favored the intervention, showing significance for decreased cognitive load and improved competency. Complications were lower for the intervention than for the control group but the difference was not significant.
+CONCLUSIONS
+: Just-in-time training among inexperienced clinicians led to increased first attempt success of infant intubation. Integration of a just-in-time approach into airway management could improve patient safety, and these findings could help to improve high stakes procedures more broadly. Randomized evaluation in other settings is warranted.
+TRIAL REGISTRATION
+: ClinicalTrials.gov NCT04472195.

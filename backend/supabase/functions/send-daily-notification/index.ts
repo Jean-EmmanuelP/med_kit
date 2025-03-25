@@ -154,7 +154,7 @@ Deno.serve(async (req: Request) => {
             })),
             from: {
               email: "contact@veillemedicale.fr",
-              name: "Dr Baptiste Mazas - Veille Médicale",
+              name: "Veille Médicale",
             },
             template_id: "d-27f89a4f0faa4df1ab83b9fbc7be19a1",
           }),

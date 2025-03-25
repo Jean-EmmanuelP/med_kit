@@ -1,0 +1,26 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamanetworkopen.2024.11726.
+
+=== Métadonnées ===
+Lamba JK, Marrero R, Wu H, et al.
+Pharmacogenomics, Race, and Treatment Outcome in Pediatric Acute Myeloid Leukemia.
+JAMA Netw Open. 2024 May 1;7(5):e2411726. doi: 10.1001/jamanetworkopen.2024.11726.
+                    (
+Original study
+)
+
+=== Abstract ===
+IMPORTANCE
+: Disparities in outcomes exist between Black and White patients with acute myeloid leukemia (AML), with Black patients experiencing poorer prognosis compared with their White counterparts.
+OBJECTIVE
+: To assess whether varying intensity of induction therapy to treat pediatric AML is associated with reduced disparities in treatment outcome by race.
+DESIGN, SETTING, AND PARTICIPANTS
+: A comparative effectiveness analysis was conducted of 86 Black and 359 White patients with newly diagnosed AML who were enrolled in the AML02 trial from 2002 to 2008 or the AML08 trial from 2008 to 2017. Statistical analysis was conducted from July 2023 through January 2024.
+INTERVENTIONS
+: Patients in AML02 were randomly assigned to receive standard low-dose cytarabine-based induction therapy or augmented high-dose cytarabine-based induction therapy, whereas patients in AML08 received high-dose cytarabine-based therapy.
+MAIN OUTCOMES AND MEASURES
+: Cytarabine pharmacogenomic 10-single-nucleotide variant (ACS10) scores were evaluated for association with outcome according to race and treatment arm.
+RESULTS
+: This analysis included 86 Black patients (mean [SD] age, 8.8 [6.5] years; 54 boys [62.8%]; mean [SD] leukocyte count, 52?600 [74?000] cells/µL) and 359 White patients (mean [SD] age, 9.1 [6.2] years; 189 boys [52.6%]; mean [SD] leukocyte count, 54?500 [91?800] cells/µL); 70 individuals with other or unknown racial and ethnic backgrounds were not included. Among all patients without core binding factor AML who received standard induction therapy, Black patients had significantly worse outcomes compared with White patients (5-year event-free survival rate, 25% [95% CI, 9%-67%] compared with 56% [95% CI, 46%-70%]; P = .03). By contrast, among all patients who received augmented induction therapy, there were no differences in outcome according to race (5-year event-free survival rate, Black patients, 50% [95% CI, 38%-67%]; White patients, 48% [95% CI, 42%-55%]; P = .78). Among patients who received standard induction therapy, those with low ACS10 scores had a significantly worse 5-year event-free survival rate compared with those with high scores (42.4% [95% CI, 25.6%-59.3%] and 70.0% [95% CI, 56.6%-83.1%]; P = .004); however, among patients who received augmented induction therapy, there were no differences in 5-year event-free survival rates according to ACS10 score (low score, 60.6% [95% CI, 50.9%-70.2%] and high score, 54.8% [95% CI, 47.1%-62.5%]; P = .43).
+CONCLUSIONS AND RELEVANCE
+: In this comparative effectiveness study of pediatric patients with AML treated in 2 consecutive clinical trials, Black patients had worse outcomes compared with White patients after treatment with standard induction therapy, but this disparity was eliminated by treatment with augmented induction therapy. When accounting for ACS10 scores, no outcome disparities were seen between Black and White patients. Our results suggest that using pharmacogenomics parameters to tailor induction regimens for both Black and White patients may narrow the racial disparity gap in patients with AML.

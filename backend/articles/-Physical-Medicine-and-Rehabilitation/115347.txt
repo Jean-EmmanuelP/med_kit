@@ -1,0 +1,28 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1177/02692155241295683.
+
+=== Métadonnées ===
+Alsulaimani B, Perraton L, Vallance P, et al.
+Does shockwave therapy lead to better pain and function than sham over 12 weeks in people with insertional Achilles tendinopathy? A randomised controlled trial.
+Clin Rehabil. 2025 Feb;39(2):174-186. doi: 10.1177/02692155241295683. Epub 2024 Dec 20.
+                    (
+Original study
+)
+
+=== Abstract ===
+OBJECTIVES
+: To investigate the efficacy of adding radial extracorporeal shockwave therapy or sham to exercise for people with insertional Achilles tendinopathy.
+DESIGN
+: A two-armed, parallel-group, explanatory, single-centre, randomised controlled trial within a superiority framework.
+SETTING
+: Private clinic.
+PARTICIPANTS
+: People diagnosed with insertional Achilles tendinopathy who were over 18 years old with a symptom duration of greater than 3 months.
+INTERVENTION
+: A total of 76 people were randomly assigned (one-to-one ratio) to receive three sessions of radial extracorporeal shockwave therapy or sham to the affected side (or most affected side if bilateral). All participants received identical education and exercise.
+OUTCOME MEASURES
+: The primary outcome was the Victorian Institute of Sports Assessment - Achilles questionnaire. Measures were recorded at baseline, 6 weeks and 12 weeks.
+RESULTS
+: At 12 weeks, the questionnaire data were available for 37 people (96%) in the radial extracorporeal shockwave therapy group and 36 people (95%) in the sham group. For the primary outcome, we found no evidence for between-group differences at 6 (3, 95% confidence interval -4.6-10.5) or 12 weeks (4.6, 95% confidence interval -2.5-11.6). There was also no evidence for a between-group difference for any secondary outcome measures at either 6 or 12 weeks (p > .05). No serious adverse events were reported.
+CONCLUSION
+: The addition of radial extracorporeal shockwave therapy to exercise and education did not lead to improvements in pain, function or other outcomes compared to sham at 6 or 12 weeks among people with insertional Achilles tendinopathy.ANZCTR Reg No: ACTRN12620000035921.

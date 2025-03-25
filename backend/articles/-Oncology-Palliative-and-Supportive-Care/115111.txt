@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO.24.00333.
+
+=== Métadonnées ===
+Ma DD, Liu Z, Au K, et al.
+Randomized Controlled Trial of a Virtually Delivered Exercise and Stress Management Program to Improve Physical Performance of Hematopoietic Cell Transplant Survivors.
+J Clin Oncol. 2024 Nov 26:JCO2400333. doi: 10.1200/JCO.24.00333.
+                    (
+Original study
+)
+
+=== Abstract ===
+PURPOSE
+: Because of advances in hematopoietic cell transplant (HCT), meeting the long-term health needs of increasing numbers of HCT survivors remains challenging. This multicenter trial aimed to assess the short- and long-term effects of an exercise and mindfulness intervention delivered by telehealth.
+METHODS
+: One hundred thirty-nine participants >6 months post-HCT were randomly assigned 1:1 to a 6-week personalized exercise and mindfulness training with three motivation sessions at 3-6 months via an online meeting platform or usual care. Physical and quality-of-life (QOL) assessments were conducted online for 12 months. The primary end point was the 6-minute walk test (6-MWT) at 3 months.
+RESULTS
+: The median time post-HCT was 21 months (range, 7-67 months). Improvement in mean difference of 6-MWT was found in the intervention group compared with control (intention-to-treat) at 3 months (51.4 m [95% CI, 27.3 to 75.5]; P < .001; effect size [ES], 0.52) and was maintained at 12 months (59.3 m, P = .003; ES, 0.60). Sustained improvements in mean difference for sit-to-stand (STS) at 3 and 12 months were seen. There were no significant changes in hand grip strength or QOL outcomes between groups. A significant difference in serum soluble intercellular adhesion molecule-1 (sICAM-1) concentration was observed between the intervention and control groups in the exploratory study. No intervention adverse events were found.
+CONCLUSION
+: The supervised multimodal telehealth intervention provided clinically meaningful and durable improvement of physical capacity in HCT survivors. This home-based program has the potential to provide an unmet need for HCT survivors. Similar programs may benefit survivors of other cancers, organ transplants, and chronic disorders.

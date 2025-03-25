@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2401497.
+
+=== Métadonnées ===
+Lerner SP, Tangen C, Svatek RS, et al.
+Standard or Extended Lymphadenectomy for Muscle-Invasive Bladder Cancer.
+N Engl J Med. 2024 Oct 3;391(13):1206-1216. doi: 10.1056/NEJMoa2401497.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: Whether extended lymphadenectomy is associated with improved disease-free and overall survival, as compared with standard lymphadenectomy, among patients with localized muscle-invasive bladder cancer undergoing radical cystectomy is unclear.
+METHODS
+: We randomly assigned, in a 1:1 ratio, patients with localized muscle-invasive bladder cancer of clinical stage T2 (confined to muscle) to T4a (invading adjacent organs) with two or fewer positive nodes (N0, N1, or N2) to undergo bilateral standard lymphadenectomy (dissection of lymph nodes on both sides of the pelvis) or extended lymphadenectomy involving removal of common iliac, presciatic, and presacral nodes. Randomization was performed during surgery and stratified according to the receipt and type of neoadjuvant chemotherapy, tumor stage (T2 vs. T3 or T4a), and a Zubrod's performance-status score (0 or 1 vs. 2; assessed on a 5-point scale, with higher scores indicating greater disability). The primary outcome was disease-free survival. Overall survival and safety were also assessed.
+RESULTS
+: Of 658 patients who were enrolled, 592 eligible patients were randomly assigned to undergo extended lymphadenectomy (292 patients) or standard lymphadenectomy (300). Surgery was performed by 36 surgeons at 27 sites in the United States and Canada. Neoadjuvant chemotherapy had been received by 57% of the patients. At a median follow-up of 6.1 years, recurrence or death had occurred in 130 patients (45%) in the extended-lymphadenectomy group and in 127 (42%) in the standard-lymphadenectomy group, and the estimated 5-year disease-free survival was 56% and 60%, respectively (hazard ratio for recurrence or death, 1.10; 95% confidence interval [CI], 0.86 to 1.40; P = 0.45). Overall survival at 5 years was 59% in the extended-lymphadenectomy group and 63% in the standard-lymphadenectomy group (hazard ratio for death, 1.13; 95% CI, 0.88 to 1.45). Adverse events of grade 3 to 5 occurred in 157 patients (54%) in the extended-lymphadenectomy group and in 132 (44%) in the standard-lymphadenectomy group; death within 90 days after surgery occurred in 19 patients (7%) and 7 patients (2%), respectively.
+CONCLUSIONS
+: As compared with standard lymphadenectomy, extended lymphadenectomy did not result in improved disease-free or overall survival among patients with muscle-invasive bladder cancer undergoing radical cystectomy and was associated with higher perioperative morbidity and mortality. (Funded by the National Cancer Institute and the Canadian Cancer Society; SWOG S1011 ClinicalTrials.gov number, NCT01224665.).

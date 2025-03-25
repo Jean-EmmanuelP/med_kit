@@ -1,0 +1,22 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1097/SLA.0000000000006158.
+
+=== Métadonnées ===
+Heemskerk SCM, Dirksen CD, van Kuijk SMJ, et al.
+Sacral Neuromodulation Versus Conservative Treatment for Refractory Idiopathic Slow-transit Constipation: The Randomized Clinical No.2-Trial.
+Ann Surg. 2024 May 1;279(5):746-754. doi: 10.1097/SLA.0000000000006158. Epub 2023 Nov 23.
+                    (
+Original study
+)
+
+=== Abstract ===
+OBJECTIVE
+: Assess the effectiveness of sacral neuromodulation (SNM) versus personalized conservative treatment (PCT) in patients with refractory idiopathic slow-transit constipation (STC).
+BACKGROUND
+: Evidence on SNM for idiopathic STC is conflicting and of suboptimal methodological quality.
+METHODS
+: The No.2-Trial was a multicenter, open-label, pragmatic, randomized trial performed in 2 Dutch hospitals. Sixty-seven patients with idiopathic STC, a defecation frequency <3 per week and refractory (ie, unresponsive) to maximal conservative (nonoperative) treatment were included. Exclusion criteria included outlet obstruction, rectal prolapse, and previous colon surgery. Patients were randomized (3:2) to SNM (n=41) or PCT (n=26) with randomization minimization between February 21, 2017 and March 12, 2020. In SNM patients, an implantable pulse generator was implanted after a successful 4-week test stimulation. PCT patients received conservative treatment such as laxatives or retrograde colonic irrigation. The primary outcome was treatment success (defined as average defecation frequency =3 per week) after 6 months. Secondary outcomes included constipation severity, fatigue, quality of life, and adverse events. Analysis was according to intention-to-treat.
+RESULTS
+: After 6 months, 22 (53.7%) patients were successfully treated with SNM versus 1 (3.8%) patient with PCT (odds ratio 36.4, 95% CI 3.4-387.5, P =0.003). At 6 months, SNM patients reported lower constipation severity and fatigue scores ( P <0.001) and improved quality of life compared with PCT ( P <0.001). Eight serious adverse events (6 SNM, 2 PCT) and 78 adverse events (68 SNM, 10 PCT) were reported.
+CONCLUSIONS
+: SNM is a promising surgical treatment option in a homogeneous group of adults and adolescents with refractory idiopathic STC. No.2-Trial registered at ClinicalTrials.gov NCT02961582.

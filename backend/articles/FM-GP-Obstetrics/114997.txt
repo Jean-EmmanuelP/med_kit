@@ -1,0 +1,36 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1002/14651858.CD016278.
+
+=== Métadonnées ===
+Rohwer C, Rohwer A, Cluver C, et al.
+Tranexamic acid for preventing postpartum haemorrhage after caesarean section.
+Cochrane Database Syst Rev. 2024 Nov 13;11(11):CD016278. doi: 10.1002/14651858.CD016278.
+                    (
+Systematic review
+)
+
+=== Abstract ===
+RATIONALE
+: Postpartum haemorrhage (PPH) is common and potentially life-threatening. The antifibrinolytic drug tranexamic acid (TXA) is recommended for treating PPH; it reduces the risk of death from haemorrhage by one-third when given soon after bleeding onset, but not overall risk of death. Interest in whether TXA may be effective in preventing PPH is growing. Evidence indicates that TXA given more than three hours after injury to bleeding trauma patients increases mortality. Potential harm becomes critical in prophylactic use of TXA. Reliable evidence of the effect and safety profile of TXA is required before widespread prophylactic use can be considered.
+OBJECTIVES
+: To assess the effects of TXA for preventing PPH compared to placebo or no treatment (with or without uterotonic co-treatment) in women during caesarean birth.
+SEARCH METHODS
+: We searched CENTRAL, MEDLINE, Embase, and WHO ICTRP to 20 February 2024 and searched reference lists of retrieved studies.
+ELIGIBILITY CRITERIA
+: We included randomised controlled trials (RCTs) evaluating the use of TXA alone or plus uterotonics during caesarean birth for preventing PPH. Trials needed to be prospectively registered (i.e. before starting recruitment). We applied a trustworthiness checklist.
+OUTCOMES
+: The critical outcome was blood loss = 1000 mL, measured using estimated or calculated methods. Important outcomes included maternal death, severe morbidity, blood transfusion, the use of additional surgical interventions to control PPH, thromboembolic events, use of additional uterotonics, hysterectomy, maternal satisfaction, and breastfeeding at discharge.
+RISK OF BIAS
+: We assessed risk of bias in the included studies using Cochrane's RoB 1 tool.
+SYNTHESIS METHODS
+: Two review authors independently selected trials, extracted data, and assessed risk of bias and trial trustworthiness. We pooled data using random-effects meta-analysis. We assessed the certainty of the evidence using GRADE.
+INCLUDED STUDIES
+: We included six RCTs with 15,981 participants. All 12 trials in the previous version of this review were not included after review of trial registrations and trustworthiness checklists. Most included studies involved women at low risk of PPH and were conducted in high-resource settings.
+SYNTHESIS OF RESULTS
+: Prophylactic TXA in addition to standard care compared to placebo in addition to standard care or standard care alone TXA results in little to no difference in estimated blood loss = 1000 mL (risk ratio (RR) 0.94, 95% confidence interval (CI) 0.79 to 1.11; 4 RCTs; n = 13,042; high certainty evidence), resulting in 8 fewer per 1000 women having estimated blood loss = 1000 mL (from 30 fewer to 16 more). TXA likely results in a slight reduction in calculated blood loss = 1000 mL (RR 0.83, 95% CI 0.76 to 0.92; 2 RCTs; n = 4327; moderate certainty evidence), resulting in 53 fewer per 1000 having calculated blood loss = 1000 mL (from 75 fewer to 25 fewer). The evidence is very uncertain about the effect of TXA on maternal death (one event in placebo group, none in TXA group). No trials measured severe morbidity. TXA likely results in little to no difference in blood transfusion (RR 0.88, 95% CI 0.72 to 1.08; 5 RCTs; n = 15,740; moderate certainty evidence), resulting in 4 fewer per 1000 women requiring a blood transfusion (from 10 fewer to 3 more). TXA results in little to no difference in additional surgical interventions to control PPH (RR 1.02, 95% CI 0.86 to 1.22; 4 RCTs; n = 15,631; high certainty evidence), resulting in 1 more per 1000 women requiring additional surgical intervention (from 4 fewer to 7 more). The evidence is very uncertain about the effect of TXA on thromboembolic events (RR 1.40, 95% CI 0.22 to 8.90; 4 RCTs; n = 14,480; very low certainty evidence), resulting in 1 more per 1000 women having a thromboembolic event (from 2 fewer to 17 more). TXA results in little to no difference in the need for additional uterotonics (RR 0.88, 95% CI 0.78 to 1.00; 4 RCTs; n = 15,728; high certainty evidence), resulting in 15 fewer per 1000 women requiring additional uterotonics (from 27 fewer to 0 fewer). The evidence is very uncertain about the effect of TXA on hysterectomy (RR 0.80, 95% CI 0.20 to 3.29; 2 RCTs; n = 4546; very low certainty evidence), resulting in 3 fewer per 10,000 women requiring a hysterectomy (from 11 fewer to 31 more). One trial measuring maternal satisfaction reported no difference between groups at day two postpartum. No data were available on breastfeeding. Overall, studies had low risk of bias. We downgraded the certainty of evidence mainly for imprecision.
+AUTHORS' CONCLUSIONS
+: Prophylactic TXA in addition to standard care during caesarean birth results in little to no difference in estimated blood loss = 1000 mL and likely results in a slight reduction in calculated blood loss = 1000 mL compared to placebo. There were no data for severe morbidity due to PPH. Event rates for further interventions to control PPH were low and similar across groups. Prophylactic TXA thus results in little to no difference between groups for additional surgical interventions (32 versus 31 per 1000), and likely results in little to no difference between groups for blood transfusions (31 versus 36 per 1000) and use of additional uterotonics (107 versus 121 per 1000). There were very few events for the outcomes maternal death (1 in placebo group), thromboembolic events (2 versus 3 per 1000), and hysterectomy (1 per 1000 in each group). Evidence for these serious adverse events is therefore very uncertain. Decisions about implementing routine prophylactic TXA during caesarean birth should not only consider outcomes related to blood loss, but also the relatively low rates of PPH morbidity and uncertainty of serious adverse events. Most studies included women at low risk of PPH, thereby precluding any conclusions about women at high risk of PPH. Cost associated with routine use of an additional drug for all caesarean births needs to be considered.
+FUNDING
+: This Cochrane review was funded in part by the World Health Organization.
+REGISTRATION
+: The published protocol and updates to the review can be accessed: Protocol (2009) DOI: 10.1002/14651858.CD007872 Original Review (2010) DOI: 10.1002/14651858.CD007872.pub2 Review Update (2015) DOI: 10.1002/14651858.CD007872.pub3.

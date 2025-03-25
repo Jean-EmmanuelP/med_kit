@@ -1,0 +1,22 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.ajem.2024.01.043.
+
+=== Métadonnées ===
+Imai E, Kataoka Y, Watanabe J, et al.
+Ultrasound-guided central venous catheterization around the neck: Systematic review and network meta-analysis.
+Am J Emerg Med. 2024 Apr;78:206-214. doi: 10.1016/j.ajem.2024.01.043. Epub 2024 Feb 3.
+                    (
+Systematic review
+)
+
+=== Abstract ===
+BACKGROUND
+: Ultrasound-guided central venous catheterization (CVC) has become the standard of care. However, providers use a variety of approaches, encompassing the internal jugular vein (IJV), supraclavicular subclavian vein (SupraSCV), infraclavicular subclavian vein (InfraSCV), proximal axillary vein (ProxiAV), distal axillary vein (DistalAV), and femoral vein.
+OBJECTIVE
+: This review aimed to compare the first-pass success rate and arterial puncture rate for different approaches to ultrasound-guided CVC above the diaphragm.
+METHODS
+: In May 2023, Embase, MEDLINE, CENTRAL, ClinicalTrials.gov, and World Health Organization International Clinical Trials Platform were searched for randomized controlled trials (RCTs) comparing the 5 CVC approaches. The Confidence in Network Meta-Analysis tool was used to assess confidence. Thirteen RCTs (4418 participants and 13 comparisons) were included in this review.
+RESULTS
+: The SupraSCV approach likely increased the proportion of first-attempt successes compared to the other 4 approaches. The SupraSCV first-attempt success demonstrated risk ratios (RRs) > 1.21 with a lower 95% confidence interval (CI) exceeding 1. Compared to the IJV, the SupraSCV approach likely increased the first-attempt success proportion (RR 1.22; 95% confidence interval [CI] 1.06-1.40, moderate confidence), whereas the DistalAV approach reduced it (RR 0.72; 95% CI 0.59-0.87, high confidence). Artery puncture had little to no difference across all approaches (low to high confidence).
+CONCLUSION
+: Considering first-attempt success and mechanical complications, the SupraSCV may emerge as the preferred approach, while DistalAV might be the least preferable approach. Nevertheless, head-to-head studies comparing the approaches with the greatest first attempt success should be undertaken.

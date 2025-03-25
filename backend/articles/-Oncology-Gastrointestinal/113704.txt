@@ -1,0 +1,22 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S1470-2045(24)00259-6.
+
+=== Métadonnées ===
+Bertsimas D, Margonis GA, Sujichantararat S, et al.
+Interpretable artificial intelligence to optimise use of imatinib after resection in patients with localised gastrointestinal stromal tumours: an observational cohort study.
+Lancet Oncol. 2024 Aug;25(8):1025-1037. doi: 10.1016/S1470-2045(24)00259-6. Epub 2024 Jul 5.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: Current guidelines recommend use of adjuvant imatinib therapy for many patients with gastrointestinal stromal tumours (GISTs); however, its optimal treatment duration is unknown and some patient groups do not benefit from the therapy. We aimed to apply state-of-the-art, interpretable artificial intelligence (ie, predictions or prescription logic that can be easily understood) methods on real-world data to establish which groups of patients with GISTs should receive adjuvant imatinib, its optimal treatment duration, and the benefits conferred by this therapy.
+METHODS
+: In this observational cohort study, we considered for inclusion all patients who underwent resection of primary, non-metastatic GISTs at the Memorial Sloan Kettering Cancer Center (MSKCC; New York, NY, USA) between Oct 1, 1982, and Dec 31, 2017, and who were classified as intermediate or high risk according to the Armed Forces Institute of Pathology Miettinen criteria and had complete follow-up data with no missing entries. A counterfactual random forest model, which used predictors of recurrence (mitotic count, tumour size, and tumour site) and imatinib duration to infer the probability of recurrence at 7 years for a given patient under each duration of imatinib treatment, was trained in the MSKCC cohort. Optimal policy trees (OPTs), a state-of-the-art interpretable AI-based method, were used to read the counterfactual random forest model by training a decision tree with the counterfactual predictions. The OPT recommendations were externally validated in two cohorts of patients from Poland (the Polish Clinical GIST Registry), who underwent GIST resection between Dec 1, 1981, and Dec 31, 2011, and from Spain (the Spanish Group for Research in Sarcomas), who underwent resection between Oct 1, 1987, and Jan 30, 2011.
+FINDINGS
+: Among 1007 patients who underwent GIST surgery in MSKCC, 117 were included in the internal cohort; for the external cohorts, the Polish cohort comprised 363 patients and the Spanish cohort comprised 239 patients. The OPT did not recommend imatinib for patients with GISTs of gastric origin measuring less than 15·9 cm with a mitotic count of less than 11·5 mitoses per 5 mm2 or for those with small GISTs (<5·4 cm) of any site with a count of less than 11·5 mitoses per 5 mm2. In this cohort, the OPT cutoffs had a sensitivity of 92·7% (95% CI 82·4-98·0) and a specificity of 33·9% (22·3-47·0). The application of these cutoffs in the two external cohorts would have spared 38 (29%) of 131 patients in the Spanish cohort and 44 (35%) of 126 patients in the Polish cohort from unnecessary treatment with imatinib. Meanwhile, the risk of undertreating patients in these cohorts was minimal (sensitivity 95·4% [95% CI 89·5-98·5] in the Spanish cohort and 92·4% [88·3-95·4] in the Polish cohort). The OPT tested 33 different durations of imatinib treatment (<5 years) and found that 5 years of treatment conferred the most benefit.
+INTERPRETATION
+: If the identified patient subgroups were applied in clinical practice, as many as a third of the current cohort of candidates who do not benefit from adjuvant imatinib would be encouraged to not receive imatinib, subsequently avoiding unnecessary toxicity on patients and financial strain on health-care systems. Our finding that 5 years is the optimal duration of imatinib treatment could be the best source of evidence to inform clinical practice until 2028, when a randomised controlled trial with the same aims is expected to report its findings.
+FUNDING
+: National Cancer Institute.

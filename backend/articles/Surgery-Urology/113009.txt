@@ -1,0 +1,28 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamanetworkopen.2024.4880.
+
+=== Métadonnées ===
+Shen SH, Peng L, Zeng X, et al.
+Intravesical Interferon Therapy vs Hyaluronic Acid for Pain Among Female Individuals With Interstitial Cystitis: A Randomized Clinical Trial.
+JAMA Netw Open. 2024 Apr 1;7(4):e244880. doi: 10.1001/jamanetworkopen.2024.4880.
+                    (
+Original study
+)
+
+=== Abstract ===
+IMPORTANCE
+: Interstitial cystitis (IC) is a debilitating condition. Although viral infection is a potential etiological cause, few studies have detected the effect of antiviral treatment.
+OBJECTIVE
+: To determine the efficacy and safety of intravesical interferon instillation compared with hyaluronic acid in female patients with IC.
+DESIGN, SETTING, AND PARTICIPANTS
+: This double-masked, randomized phase 2/3 clinical trial with parallel group design was implemented from October 2022 to April 2023 and had a 6-month follow-up period. The study was conducted at a single center. Eligible participants were female patients aged 18 to 70 years with a diagnosis of IC for more than 6 months. The last visit took place in October 2023. Data were analyzed between October and November 2023.
+INTERVENTION
+: Patients were randomized 1:1 to receive either intravesical instillation of interferon or hyaluronic acid.
+MAIN OUTCOMES AND MEASURES
+: The primary end point was change in visual analog scale pain score. Secondary end points included changes in voiding frequency, functional bladder capacity, symptom index, and global response assessment. Adverse events were closely monitored.
+RESULTS
+: Among the 52 patients, the mean (SD) age was 50.0 (14.1) years and they were randomized to either the interferon group (26 [50%]) or hyaluronic acid (26 [50%]). The visual analog pain score showed the interferon group decreased more significantly than hyaluronic acid (-1.3; 95% CI, -2.3 to -0.3; P = .02) at month 6, with 20 patients (77%) exhibiting a 30% or higher reduction in pain compared with baseline. Secondary end points of voiding frequency, functional bladder capacity, and nocturia episodes showed no significant difference between 2 therapies. However, interferon showed a significantly higher reduction in the Interstitial Cystitis Symptom Index (-3.0; 95% CI, -5.3 to -0.7; P = .01) and the Problem Index (-2.5; 95% CI, -4.5 to -0.4; P = .02) at month 6, with 22 patients (85%) presenting as moderately or markedly improved. The frequencies of adverse events were similar between 2 groups. Only 1 patient discontinued hyaluronic acid because of poor effectiveness.
+CONCLUSIONS AND RELEVANCE
+: In this randomized clinical trial, female patients with IC could benefit from intravesical interferon therapy, without serious adverse events. These results offered hope for antiviral approaches in IC, but larger-scale, multicenter trials and long-term follow-up should be considered.
+TRIAL REGISTRATION
+: ClinicalTrials.gov Identifier: NCT05912946.

@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2401513.
+
+=== Métadonnées ===
+Lonborg J, Jabbari R, Sabbah M, et al.
+PCI in Patients Undergoing Transcatheter Aortic-Valve Implantation.
+N Engl J Med. 2024 Dec 12;391(23):2189-2200. doi: 10.1056/NEJMoa2401513. Epub 2024 Aug 31.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: The benefit of percutaneous coronary intervention (PCI) in patients with stable coronary artery disease and severe aortic stenosis who are undergoing transcatheter aortic-valve implantation (TAVI) remains unclear.
+METHODS
+: In an international trial, we randomly assigned, in a 1:1 ratio, patients with severe symptomatic aortic stenosis and at least one coronary-artery stenosis with a fractional flow reserve of 0.80 or less or a diameter stenosis of at least 90% either to undergo PCI or to receive conservative treatment, with all patients also undergoing TAVI. The primary end point was a major adverse cardiac event, defined as a composite of death from any cause, myocardial infarction, or urgent revascularization. Safety, including bleeding events and procedural complications, was assessed.
+RESULTS
+: A total of 455 patients underwent randomization: 227 to the PCI group and 228 to the conservative-treatment group. The median age of the patients was 82 years (interquartile range, 78 to 85), and the median Society of Thoracic Surgeons-Predicted Risk of Mortality score (on a scale from 0 to 100%, with higher scores indicating a greater risk of death within 30 days after the procedure) was 3% (interquartile range, 2 to 4). At a median follow-up of 2 years (interquartile range, 1 to 4), a major adverse cardiac event (primary end point) had occurred in 60 patients (26%) in the PCI group and in 81 (36%) in the conservative-treatment group (hazard ratio, 0.71; 95% confidence interval [CI], 0.51 to 0.99; P = 0.04). A bleeding event occurred in 64 patients (28%) in the PCI group and in 45 (20%) in the conservative-treatment group (hazard ratio, 1.51; 95% CI, 1.03 to 2.22). In the PCI group, 7 patients (3%) had PCI procedure-related complications.
+CONCLUSIONS
+: Among patients with coronary artery disease who were undergoing TAVI, PCI was associated with a lower risk of a composite of death from any cause, myocardial infarction, or urgent revascularization at a median follow-up of 2 years than conservative treatment. (Funded by Boston Scientific and the Danish Heart Foundation; NOTION-3 ClinicalTrials.gov number, NCT03058627.).

@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2407107.
+
+=== Métadonnées ===
+Solomon SD, McMurray JJV, Vaduganathan M, et al.
+Finerenone in Heart Failure with Mildly Reduced or Preserved Ejection Fraction.
+N Engl J Med. 2024 Oct 24;391(16):1475-1485. doi: 10.1056/NEJMoa2407107. Epub 2024 Sep 1.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: Steroidal mineralocorticoid receptor antagonists reduce morbidity and mortality among patients with heart failure and reduced ejection fraction, but their efficacy in those with heart failure and mildly reduced or preserved ejection fraction has not been established. Data regarding the efficacy and safety of the nonsteroidal mineralocorticoid receptor antagonist finerenone in patients with heart failure and mildly reduced or preserved ejection fraction are needed.
+METHODS
+: In this international, double-blind trial, we randomly assigned patients with heart failure and a left ventricular ejection fraction of 40% or greater, in a 1:1 ratio, to receive finerenone (at a maximum dose of 20 mg or 40 mg once daily) or matching placebo, in addition to usual therapy. The primary outcome was a composite of total worsening heart failure events (with an event defined as a first or recurrent unplanned hospitalization or urgent visit for heart failure) and death from cardiovascular causes. The components of the primary outcome and safety were also assessed.
+RESULTS
+: Over a median follow-up of 32 months, 1083 primary-outcome events occurred in 624 of 3003 patients in the finerenone group, and 1283 primary-outcome events occurred in 719 of 2998 patients in the placebo group (rate ratio, 0.84; 95% confidence interval [CI], 0.74 to 0.95; P = 0.007). The total number of worsening heart failure events was 842 in the finerenone group and 1024 in the placebo group (rate ratio, 0.82; 95% CI, 0.71 to 0.94; P = 0.006). The percentage of patients who died from cardiovascular causes was 8.1% and 8.7%, respectively (hazard ratio, 0.93; 95% CI, 0.78 to 1.11). Finerenone was associated with an increased risk of hyperkalemia and a reduced risk of hypokalemia.
+CONCLUSIONS
+: In patients with heart failure and mildly reduced or preserved ejection fraction, finerenone resulted in a significantly lower rate of a composite of total worsening heart failure events and death from cardiovascular causes than placebo. (Funded by Bayer; FINEARTS-HF ClinicalTrials.gov number, NCT04435626.).

@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1503/cmaj.241173.
+
+=== Métadonnées ===
+Yakovenko I, Mukaneza Y, Germe K, et al.
+Management of opioid use disorder: 2024 update to the national clinical practice guideline.
+CMAJ. 2024 Nov 11;196(38):E1280-E1290. doi: 10.1503/cmaj.241173.
+                    (
+Evidence-based guideline
+)
+
+=== Abstract ===
+BACKGROUND
+: In an evolving landscape of practices and policies, reviewing and incorporating the latest scientific evidence is necessary to ensure optimal clinical management for people with opioid use disorder. We provide a synopsis of the 2024 update of the 2018 National Guideline for the Clinical Management of Opioid Use Disorder, from the Canadian Research Initiative in Substance Matters.
+METHODS
+: For this update, we followed the United States Institute of Medicine's Standards for Developing Trustworthy Clinical Practice Guidelines and used the Appraisal of Guidelines Research and Evaluation-Recommendation Excellence tool to ensure guideline quality. We carried out a comprehensive systematic literature review, capturing the relevant literature from Jan. 1, 2017, to Sept. 14, 2023. We drafted and graded recommendations according to the Grading of Recommendations, Assessments, Development and Evaluation approach. A multidisciplinary external national committee, which included people with living or lived experience of opioid use disorder, provided input that was incorporated into the guideline.
+RECOMMENDATIONS
+: From the initial 11 recommendations in the 2018 guideline, 3 remained unchanged, and 8 were updated. Specifically, 4 recommendations were consolidated into a single revised recommendation; 1 recommendation was split into 2; another recommendation was moved to become a special consideration; and 2 recommendations were revised. Key changes have arisen from substantial evidence supporting that methadone and buprenorphine are similarly effective, particularly in reducing opioid use and adverse events, and both are now considered preferred first-line treatment options. Slow-release oral morphine is recommended as a second-line option. Psychosocial interventions can be offered as adjunctive treatment but should not be mandatory. The guideline reaffirms the importance of avoiding withdrawal management as a standalone intervention and of incorporating evidence-based harm reduction services along the continuum of care.
+INTERPRETATION
+: This guideline update presents new recommendations based on the latest literature for standardized management of opioid use disorder. The aim is to establish a robust foundation upon which provincial and territorial bodies can develop guidance for optimal care.

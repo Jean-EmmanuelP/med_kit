@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1097/ALN.0000000000005077.
+
+=== Métadonnées ===
+Cai YH, Zhong JW, Ma HY, et al.
+Effect of Remimazolam on Emergence Delirium in Children Undergoing Laparoscopic Surgery: A Double-blinded Randomized Trial.
+Anesthesiology. 2024 Sep 1;141(3):500-510. doi: 10.1097/ALN.0000000000005077.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: Preventing emergence delirium is a clinical goal for pediatric anesthesia, yet there is no consensus on its prevention. This study investigated the hypothesis that a continuous infusion or a single bolus of remimazolam can reduce the incidence of emergence delirium in children.
+METHODS
+: A total of 120 children aged 1 to 6 yr were randomly and equally allocated into three groups: group RC, which received a continuous infusion of remimazolam at 1 mg · kg-1 · h-1; group RB, which received a single bolus of remimazolam at 0.2 mg · kg-1 at the beginning of wound closure; and group C, which received a continuous infusion of saline at 1 ml · kg-1 · h-1 and a single bolus of saline at 0.2 ml · kg-1 at the beginning of sutures. The primary outcome was the incidence of emergence delirium assessed by the Pediatric Anesthesia Emergence Delirium scale. Secondary outcomes included the number of rescue propofol administrations in the postanesthesia care unit, recovery time, and adverse events.
+RESULTS
+: Emergence delirium was observed in 14 of 40 (35%) patients in group C, 2 of 40 (5%) patients in group RC (vs. group C, P = 0.001; risk ratio, 95% CI: 0.14, 0.04 to 0.59), and 3 of 39 (7.7%) patients in group RB (vs. group C, P = 0.003; risk ratio, 95% CI: 0.22, 0.07 to 0.71). Ten of 40 patients in group C, 2 of 40 patients in group RC (vs. group C, P = 0.012; risk ratio, 95% CI: 0.20, 0.05 to 0.86), and 2 of 39 patients in group RB (vs. group C, P = 0.014; risk ratio, 95% CI: 0.21, 0.05 to 0.88) needed rescue propofol. No differences in the recovery time and adverse effects were detected.
+CONCLUSIONS
+: Both continuous infusion and single bolus administration of remimazolam can effectively reduce the occurrence of emergence delirium in children.

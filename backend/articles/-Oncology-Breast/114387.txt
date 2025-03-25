@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO.24.00920.
+
+=== Métadonnées ===
+Bardia A, Jhaveri K, Im SA, et al.
+Datopotamab Deruxtecan Versus Chemotherapy in Previously Treated Inoperable/Metastatic Hormone Receptor-Positive Human Epidermal Growth Factor Receptor 2-Negative Breast Cancer: Primary Results From TROPION-Breast01.
+J Clin Oncol. 2025 Jan 20;43(3):285-296. doi: 10.1200/JCO.24.00920. Epub 2024 Sep 12.
+                    (
+Original study
+)
+
+=== Abstract ===
+PURPOSE
+: The global, phase 3, open-label, randomized TROPION-Breast01 study assessed the trophoblast cell surface antigen 2-directed antibody-drug conjugate datopotamab deruxtecan (Dato-DXd) versus investigator's choice of chemotherapy (ICC) in hormone receptor-positive/human epidermal growth factor receptor 2-negative (HR+/HER2-) breast cancer.
+METHODS
+: Adult patients with inoperable/metastatic HR+/HER2? breast cancer, who had disease progression on endocrine therapy, for whom endocrine therapy was unsuitable, and had received one to two previous lines of chemotherapy in the inoperable/metastatic setting, were randomly assigned 1:1 to Dato-DXd (6 mg/kg once every 3 weeks) or ICC (eribulin/vinorelbine/capecitabine/gemcitabine). Dual primary end points were progression-free survival (PFS) by blinded independent central review (BICR) and overall survival (OS).
+RESULTS
+: Patients were randomly assigned to Dato-DXd (n = 365) or ICC (n = 367). Dato-DXd significantly reduced the risk of progression or death versus ICC (PFS by BICR hazard ratio [HR], 0.63 [95% CI, 0.52 to 0.76]; P < .0001). Consistent PFS benefit was observed across subgroups. Although OS data were not mature, a trend favoring Dato-DXd was observed (HR, 0.84 [95% CI, 0.62 to 1.14]). The rate of grade =3 treatment-related adverse events (TRAEs) with Dato-DXd was lower than ICC (20.8% v 44.7%). The most common TRAEs (any grade; grade =3) were nausea (51.1%; 1.4%) and stomatitis (50%; 6.4%) with Dato-DXd and neutropenia (grouped term, 42.5%; 30.8%) with ICC.
+CONCLUSION
+: Patients receiving Dato-DXd had statistically significant and clinically meaningful improvement in PFS and a favorable and manageable safety profile, compared with ICC. Results support Dato-DXd as a novel treatment option for patients with inoperable/metastatic HR+/HER2? breast cancer who have received one to two previous lines of chemotherapy in this setting.

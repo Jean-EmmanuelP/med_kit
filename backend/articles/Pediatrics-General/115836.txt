@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1111/dme.70005.
+
+=== Métadonnées ===
+Bhanot A, Hawton K, Perry R, et al.
+Dietary interventions for the management of type 2 diabetes mellitus in childhood and adolescence: A systematic review.
+Diabet Med. 2025 Feb 9:e70005. doi: 10.1111/dme.70005.
+                    (
+Systematic review
+)
+
+=== Abstract ===
+AIMS
+: Despite the alarming increasing incidence of type 2 diabetes mellitus (T2DM) in children and young People (CYP), and its associated morbidities and poor long-term prognosis, there remains uncertainty in its management. Dietary interventions have been shown to be effective in adults with T2DM, but little is known about their effectiveness in CYP. The aim of this systematic review is to provide up-to-date evidence regarding dietary interventions for T2DM in childhood and adolescence.
+METHODS
+: Five databases Embase, MEDLINE, CENTRAL, Web of Science and CINAHL were searched from January 2000 to May 2023 for all studies involving dietary interventions in CYP under 19 years with T2DM. The primary outcome was glycaemic control as measured by HbA1c.
+RESULTS
+: Of 8352 search results, five papers met inclusion criteria. No randomised controlled trials were identified. Two interventional studies (n = 28) found very low energy diets (VLED) were associated with reduced HbA1c (16 mmol/mol (3.6%) reduction after 8 weeks), decreased requirement for pharmacotherapy and weight loss. However, benefits to HbA1c were not sustained over 2 years. From the observational studies, the most frequent self-reported dietary strategies were limiting sweets and increasing fruit/vegetable intake, but efficacy was limited. Limiting fat intake was associated with improved HbA1c in women.
+CONCLUSIONS
+: There is limited evidence and a lack of robust clinical trials to support the effectiveness of dietary interventions for CYP-onset T2DM. With evidence of benefit in adulthood and encouraging initial results in the young, it is imperative that fully powered randomised trials with longer follow-up are undertaken to determine efficacy.

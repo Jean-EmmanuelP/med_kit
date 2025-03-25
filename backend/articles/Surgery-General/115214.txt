@@ -1,0 +1,26 @@
+=== Lien PubMed ===
+Lien PubMed non disponible
+
+=== Métadonnées ===
+Li Y, Yue X, Liang S, et al.
+Effectiveness and Safety of Hydromorphone Compared to Morphine for Postoperative Analgesia: A Systematic Review and Meta-analysis.
+Pain Physician. 2024 Nov;27(8):469-478.
+                    (
+Systematic review
+)
+
+=== Abstract ===
+BACKGROUND
+: Because of its side effects, a morphine replacement has been searched for in the field of postoperative analgesia. Hydromorphone is a derivative of morphine with no active metabolites.
+OBJECTIVES
+: We conducted a meta-analysis of hydromorphone and morphine to compare their clinical effects in postoperative analgesia.
+STUDY DESIGN
+: Systematic review and meta-analysis.
+METHODS
+: The methodological quality of the studies included in this meta-analysis was assessed according to the Cochrane risk-of-bias tool. The Grading of Recommendations Assessment, Development and Evaluation (GRADE) criteria were used to evaluate the quality of evidence and recommendation grade for inclusion of randomized controlled trials. The primary outcome was postoperative pain score. Secondary outcomes were severe sedation, nausea, vomiting, and pruritus. The meta-analysis was performed using RevMan 5.4 (The Nordic Cochrane Centre for The Cochrane Collaboration).
+RESULTS
+: Eight randomized controlled trials comprising 833 patients were found. There was no significant difference in pain scores between the hydromorphone and morphine groups at any measured postoperative time point: 8 hours (mean difference [MD] = -0.42; 95%CI, -2.08 to 1.24; P = 0.62); 12 hours (MD = -0.19; 95%CI, -0.62 to 0.24; P = 0.39); 24 hours (MD = -0.22; 95%CI, -0.54 to 0.09; P = 0.17); 36 hours (MD = 0.01; 95%CI, -0.67 to 0.69; P = 0.98) and 48 hours (MD = -0.14; 95%CI, -1.25 to 0.96; P = 0.80). There was no significant difference in the incidence of nausea and vomiting at 24 hours postoperative. The incidence of pruritus at 24 hours postoperative was lower in the hydromorphone group (relative risk = 0.24; 95%CI, 0.09 to 0.66; P = 0.005).
+LIMITATIONS
+: The perioperative multimodal analgesia measures were varying in the included studies, such as different medication doses. The sample size was small for some outcomes and high heterogeneity was observed.
+CONCLUSIONS
+: There was no significant statistical difference in postoperative analgesic effect between hydromorphone and morphine, as well as side effects, including severe sedation, nausea, and vomiting at 24 hours postoperative. However, the incidence of pruritus was lower in the hydromorphone group at 24 hours postoperative.

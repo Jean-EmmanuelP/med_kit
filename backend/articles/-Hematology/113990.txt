@@ -1,0 +1,13 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.amjcard.2024.07.010.
+
+=== Métadonnées ===
+Bajraktari G, Bytyci I, Abdyli G, et al.
+One-Month Dual Antiplatelet Therapy Reduces Major Bleeding Compared With Longer-Term Treatment Without Excess Stent Thrombosis: A Systematic Review and Meta-Analysis of Randomized Clinical Trials.
+Am J Cardiol. 2024 Sep 15;227:91-97. doi: 10.1016/j.amjcard.2024.07.010. Epub 2024 Jul 17.
+                    (
+Systematic review
+)
+
+=== Abstract ===
+Dual antiplatelet therapy (DAPT) remains the gold standard in patients who underwent percutaneous coronary intervention (PCI). This meta-analysis aims to evaluate the clinical safety of 1-month DAPT followed by aspirin or a P2Y12 receptor inhibitor after PCI with drug-eluting stents (DES). We searched PubMed, MEDLINE, Embase, Scopus, Google Scholar, Cochrane Central Registry, and ClinicalTrials.gov databases and identified 5 randomized controlled trials with 29,831 patients who underwent PCI with DES and compared 1-month versus >1-month DAPT. The primary end point was major bleeding, and the co-primary end point was stent thrombosis. The secondary end point included all-cause mortality, cardiovascular death, myocardial infarction, stroke, and major adverse cardiovascular or cerebrovascular events. Compared with >1-month DAPT, the 1-month DAPT was associated with a lower rate of major bleeding (odds ratio [OR] 0.66, 95% confidence interval [CI] 0.45 to 0.97, p = 0.03, I2 = 71%), whereas stent thrombosis had a similar rate in both study groups (OR 1.08, 95% CI 0.81 to 1.44, p = 0.60, I2 = 0.0%). The study groups had similar risks for all-cause mortality (OR 0.89, 95% CI 0.77 to 1.04, p = 0.14, I2 = 0.0%), cardiovascular death (OR 0.84, 95% CI 0.59 to 1.19, p = 0.32, I2 = 0.0%), myocardial infarction (OR 1.04, 95% CI 0.89 to 1.21, p = 0.62, I2 = 0.0%), and stroke (OR 0.82, 95% CI 0.64 to 1.05, p = 0.11, I2 = 6%). The risk of major adverse cardiovascular or cerebrovascular events was lower (OR 0.86, 95% CI 0.76 to 0.97, p = 0.02, I2 = 25%) in the 1-month DAPT compared with >1-month DAPT. In conclusion, in patients who underwent PCI with DES, 1-month DAPT followed by aspirin or a P2Y12 receptor inhibitor reduced major bleeding with no risk of increased thrombotic risk compared with longer-term DAPT.

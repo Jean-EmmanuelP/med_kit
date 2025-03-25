@@ -1,0 +1,22 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S1470-2045(24)00660-0.
+
+=== Métadonnées ===
+van der Lei S, Puijk RS, Dijkstra M, et al.
+Thermal ablation versus surgical resection of small-size colorectal liver metastases (COLLISION): an international, randomised, controlled, phase 3 non-inferiority trial.
+Lancet Oncol. 2025 Feb;26(2):187-199. doi: 10.1016/S1470-2045(24)00660-0. Epub 2025 Jan 20.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: For patients with small-size colorectal liver metastases, growing evidence suggests thermal ablation to be associated with fewer adverse events and faster recovery than resection while also challenging resection in terms of local control and overall survival. This study assessed the potential non-inferiority of thermal ablation compared with surgical resection in patients with small-size resectable colorectal liver metastases.
+METHODS
+: Adult patients (aged =18 years) from 14 centres in the Netherlands, Belgium, and Italy with ten or fewer small-size (=3 cm) colorectal liver metastases, no extrahepatic metastases, and an Eastern Cooperative Oncology Group performance status of 0-2, were stratified per centre, and according to their disease burden, into low, intermediate, and high disease burden subgroups and randomly assigned 1:1 to receive either thermal ablation (experimental group) or surgical resection (control group) of all target colorectal liver metastases using the web-based module Castor electronic data capture with variable block sizes of 4, 6, and 8. Although at the operator's discretion, a minimally invasive approach in both treatment groups was recommended. The primary endpoint was overall survival, assessed in the intention-to-treat population. A hazard ratio (HR) of 1·30 was considered the upper limit of non-inferiority for the primary endpoint. A preplanned interim analysis with predefined stopping rules for futility (conditional power to prove the null hypothesis <20%) and early benefit (conditional power >90%, superior safety outcomes for the experimental group, and no difference or superiority regarding local control for the experimental group) was done 12 months after enrolment of 50% of the planned sample size. Safety was assessed per treatment group. This trial is registered with ClinicalTrials.gov, NCT03088150.
+FINDINGS
+: Between Aug 7, 2017, and Feb 14, 2024, 300 patients were randomly assigned to the experimental group (n=148, 100 male [68%] and 48 female [32%]; median age 67·9 years [IQR 29·2-85·7]) or to the control group (n=148, 107 male [72%] and 41 female [28%]; median age 65·1 [IQR 31·4-87·4]); four patients (two in each treatment group) were excluded after randomisation because they were found to have other disease pathology. Median follow-up at the prespecified interim analysis was 28·9 months (IQR 0·3-77·8). The trial was stopped early for meeting the predefined stopping rules: (1) a conditional likelihood to prove non-inferiority for overall survival of 90·5% (median overall survival not reached in both groups; HR 1·05; 95% CI 0·69-1·58; p=0·83), (2) a non-inferior local control (median local control not reached in both groups; HR 0·13, 95% CI 0·02-1·06; p=0·057), and (3) a superior safety profile for the experimental group. Patients in the experimental group had fewer adverse events than those in the control group (28 [19%] vs 67 [46%]; p<0·0001). Serious adverse events occurred in 11 (7%) of 148 patients in the experimental group and 29 (20%) of 146 in the control group, mostly periprocedural haemorrhage requiring intervention (one [1%] vs eight [5%]), and infectious complications requiring intervention (six [4%] vs 11 [8%]). There were no treatment-related deaths in the experimental group and three treatment-related deaths (2%) in the control group (two due to postoperative cardiac complications and one due to sepsis and liver failure).
+INTERPRETATION
+: The assumption that thermal ablation should be reserved for unresectable colorectal liver metastases requires re-evaluation and the preferred treatment should be individualised and based on clinical characteristics and available expertise.
+FUNDING
+: Medtronic-Covidien.

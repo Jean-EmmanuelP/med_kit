@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.chest.2024.08.056.
+
+=== Métadonnées ===
+Gilbert CR, Dust C, Argento AC, et al.
+Acquisition and Handling of Endobronchial Ultrasound Transbronchial Needle Samples: An American College of Chest Physicians Clinical Practice Guideline.
+Chest. 2024 Sep 27:S0012-3692(24)05276-0. doi: 10.1016/j.chest.2024.08.056.
+                    (
+Evidence-based guideline
+)
+
+=== Abstract ===
+BACKGROUND
+: Endobronchial ultrasound-guided transbronchial aspiration (EBUS-TBNA) has become the standard for initial lung cancer diagnosis and staging. Previous guidelines have generally focused on the "when" and "how" of EBUS-TBNA; however, little guidance is available on handling and processing specimens during and after acquisition to help optimize both diagnostic yield and tissue integrity for ancillary studies. This document examines the available literature on EBUS-TBNA specimen processing and handling.
+STUDY DESIGN AND METHODS
+: Rigorous methodology was applied to provide a trustworthy evidence-based guideline and expert panel report. Panelists developed key clinical questions using the Population, Intervention, Comparator, and Outcome format, addressing specific topics in EBUS-TBNA specimen processing. MEDLINE (via PubMed) and the Cochrane Library were systematically searched to identify relevant literature, supplemented by manual searches. References were screened for inclusion with document evaluation tools to assess the quality of included studies, extract meaningful data, and grade the level of evidence to support each recommendation or suggestion.
+RESULTS
+: Our systematic review and critical analysis of the literature of the nine Population, Intervention, Comparator, and Outcome questions related to handling and processing EBUS-TBNA specimens resulted in nine evidence-based statements.
+INTERPRETATION
+: Evidence of the handling and processing of EBUS-TBNA specimens varies in strength but is satisfactory in some areas to guide clinicians in certain aspects of specimen handling. Additional research in many aspects of specimen handling and processing is needed to help improve our knowledge base.

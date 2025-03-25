@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2313680.
+
+=== Métadonnées ===
+Gibbs KW, Semler MW, Driver BE, et al.
+Noninvasive Ventilation for Preoxygenation during Emergency Intubation.
+N Engl J Med. 2024 Jun 20;390(23):2165-2177. doi: 10.1056/NEJMoa2313680. Epub 2024 Jun 13.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: Among critically ill adults undergoing tracheal intubation, hypoxemia increases the risk of cardiac arrest and death. The effect of preoxygenation with noninvasive ventilation, as compared with preoxygenation with an oxygen mask, on the incidence of hypoxemia during tracheal intubation is uncertain.
+METHODS
+: In a multicenter, randomized trial conducted at 24 emergency departments and intensive care units in the United States, we randomly assigned critically ill adults (age, ≥18 years) undergoing tracheal intubation to receive preoxygenation with either noninvasive ventilation or an oxygen mask. The primary outcome was hypoxemia during intubation, defined by an oxygen saturation of less than 85% during the interval between induction of anesthesia and 2 minutes after tracheal intubation.
+RESULTS
+: Among the 1301 patients enrolled, hypoxemia occurred in 57 of 624 patients (9.1%) in the noninvasive-ventilation group and in 118 of 637 patients (18.5%) in the oxygen-mask group (difference, -9.4 percentage points; 95% confidence interval [CI], -13.2 to -5.6; P<0.001). Cardiac arrest occurred in 1 patient (0.2%) in the noninvasive-ventilation group and in 7 patients (1.1%) in the oxygen-mask group (difference, -0.9 percentage points; 95% CI, -1.8 to -0.1). Aspiration occurred in 6 patients (0.9%) in the noninvasive-ventilation group and in 9 patients (1.4%) in the oxygen-mask group (difference, -0.4 percentage points; 95% CI, -1.6 to 0.7).
+CONCLUSIONS
+: Among critically ill adults undergoing tracheal intubation, preoxygenation with noninvasive ventilation resulted in a lower incidence of hypoxemia during intubation than preoxygenation with an oxygen mask. (Funded by the U.S. Department of Defense; PREOXI ClinicalTrials.gov number, NCT05267652.).

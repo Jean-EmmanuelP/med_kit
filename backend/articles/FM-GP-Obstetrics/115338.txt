@@ -1,0 +1,28 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jama.2024.23410.
+
+=== Métadonnées ===
+Rademaker D, de Wit L, Duijnhoven RG, et al.
+Oral Glucose-Lowering Agents vs Insulin for Gestational Diabetes: A Randomized Clinical Trial.
+JAMA. 2025 Feb 11;333(6):470-478. doi: 10.1001/jama.2024.23410.
+                    (
+Original study
+)
+
+=== Abstract ===
+IMPORTANCE
+: Metformin and glyburide monotherapy are used as alternatives to insulin in managing gestational diabetes. Whether a sequential strategy of these oral agents results in noninferior perinatal outcomes compared with insulin alone is unknown.
+OBJECTIVE
+: To test whether a treatment strategy of oral glucose-lowering agents is noninferior to insulin for prevention of large-for-gestational-age infants.
+DESIGN, SETTING, AND PARTICIPANTS
+: Randomized, open-label noninferiority trial conducted at 25 Dutch centers from June 2016 to November 2022 with follow-up completed in May 2023. The study enrolled 820 individuals with gestational diabetes and singleton pregnancies between 16 and 34 weeks of gestation who had insufficient glycemic control after 2 weeks of dietary changes (defined as fasting glucose >95 mg/dL [>5.3 mmol/L], 1-hour postprandial glucose >140 mg/dL [>7.8 mmol/L], or 2-hour postprandial glucose >120 mg/dL [>6.7 mmol/L], measured by capillary glucose self-testing).
+INTERVENTIONS
+: Participants were randomly assigned to receive metformin (initiated at a dose of 500 mg once daily and increased every 3 days to 1000 mg twice daily or highest level tolerated; n = 409) or insulin (prescribed according to local practice; n = 411). Glyburide was added to metformin, and then insulin substituted for glyburide, if needed, to achieve glucose targets.
+MAIN OUTCOMES AND MEASURES
+: The primary outcome was the between-group difference in the percentage of infants born large for gestational age (birth weight >90th percentile based on gestational age and sex). Secondary outcomes included maternal hypoglycemia, cesarean delivery, pregnancy-induced hypertension, preeclampsia, maternal weight gain, preterm delivery, birth injury, neonatal hypoglycemia, neonatal hyperbilirubinemia, and neonatal intensive care unit admission.
+RESULTS
+: Among 820 participants, the mean age was 33.2 (SD, 4.7) years). In participants randomized to oral agents, 79% (n = 320) maintained glycemic control without insulin. With oral agents, 23.9% of infants (n = 97) were large for gestational age vs 19.9% (n = 79) with insulin (absolute risk difference, 4.0%; 95% CI, -1.7% to 9.8%; P = .09 for noninferiority), with the confidence interval of the risk difference exceeding the absolute noninferiority margin of 8%. Maternal hypoglycemia was reported in 20.9% with oral glucose-lowering agents and 10.9% with insulin (absolute risk difference, 10.0%; 95% CI, 3.7%-21.2%). All other secondary outcomes did not differ between groups.
+CONCLUSIONS AND RELEVANCE
+: Treatment of gestational diabetes with metformin and additional glyburide, if needed, did not meet criteria for noninferiority compared with insulin with respect to the proportion of infants born large for gestational age.
+TRIAL REGISTRATION
+: Netherlands Trial Registry Identifier: NTR6134.

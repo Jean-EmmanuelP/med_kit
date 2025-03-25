@@ -1,0 +1,16 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.2106/JBJS.24.00065.
+
+=== Métadonnées ===
+Moosmayer S, Lund G, Seljom US, et al.
+Fifteen-Year Results of a Comparative Analysis of Tendon Repair Versus Physiotherapy for Small-to-Medium-Sized Rotator Cuff Tears: A Concise Follow-up of Previous Reports.
+J Bone Joint Surg Am. 2024 Oct 2;106(19):1785-1796. doi: 10.2106/JBJS.24.00065. Epub 2024 Aug 23.
+                    (
+Original study
+)
+
+=== Abstract ===
+ABSTRACT
+: The optimal treatment for small-to-medium-sized rotator cuff tears remains a topic of debate. While both tendon repair and physiotherapy have shown comparable short-term results, there are concerns about the long-term effectiveness of physiotherapy. In 2 previous reports presenting the 5 and 10-year results of this trial, significant and increasing differences were observed in favor of tendon repair. Further investigation of the unexplored time interval after 10 years is essential to fully understand the implications of our treatment approaches. A total of 103 patients with a full-thickness rotator cuff tear not exceeding 3 cm were randomly allocated to tendon repair or physiotherapy with optional secondary repair. Measurements of shoulder function were performed by a blinded assessor at 6 months and 1, 2, 5, 10, and 15 years. The outcome of primary interest was the 15-year result for the Constant score. Secondary outcome measures included the self-report section of the American Shoulder and Elbow Surgeons (ASES) score; the Short Form-36 (SF-36) Health Survey; assessments of pain, motion, and strength; and patient satisfaction. Tear-size increase in unrepaired tears was assessed by sonography. Statistical analysis was by mixed-model analysis for repeated measurements and by intention to treat. Eighty-three (81%) of 103 patients attended the 15-year follow-up. Fifteen of 51 patients in the physiotherapy group had crossed over to secondary surgery. Results from primary tendon repair were superior by a mean difference of 11.8 points for the Constant score (p = 0.001), 13.9 points for the ASES score (p < 0.001), 1.8 cm on a 10-cm visual analog scale for pain (p < 0.001), and 16.2° and 22.4°, respectively, for pain-free abduction and flexion (p = 0.04 and 0.001). On the SF-36, differences did not reach significance for any of the scoring scales. In 26 tears treated by physiotherapy only, the mean tear size had increased from 16.2 to 31.6 mm in the anterior-posterior direction. Long-term outcomes from primary tendon repair remained superior to physiotherapy up to 15 years of follow-up, supporting its use as the primary treatment for small-to-medium-sized rotator cuff tears.
+LEVEL OF EVIDENCE
+: Therapeutic Level I. See Instructions for Authors for a complete description of levels of evidence.

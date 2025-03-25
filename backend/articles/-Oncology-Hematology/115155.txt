@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2411680.
+
+=== Métadonnées ===
+Gupta S, Rau RE, Kairalla JA, et al.
+Blinatumomab in Standard-Risk B-Cell Acute Lymphoblastic Leukemia in Children.
+N Engl J Med. 2025 Feb 27;392(9):875-891. doi: 10.1056/NEJMoa2411680. Epub 2024 Dec 7.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: B-cell acute lymphoblastic leukemia (B-cell ALL) is the most common childhood cancer. Despite a high overall cure rate, relapsed B-cell ALL remains a leading cause of cancer-related death among children. The addition of the bispecific T-cell engager molecule blinatumomab (an anti-CD19 and anti-CD3 single-chain molecule) to therapy for newly diagnosed standard-risk (as defined by the National Cancer Institute) B-cell ALL in children may improve outcomes.
+METHODS
+: We conducted a phase 3 trial involving children with newly diagnosed standard-risk B-cell ALL who had an average or higher risk of relapse. Patients were randomly assigned to receive chemotherapy alone or chemotherapy plus two nonsequential 28-day cycles of blinatumomab. The primary end point was disease-free survival.
+RESULTS
+: The data and safety monitoring committee reviewed the results from the first interim efficacy analysis, which included 1440 patients who had undergone randomization (722 to chemotherapy alone and 718 to blinatumomab and chemotherapy) and recommended early termination of randomization. At a median follow-up of 2.5 years, the estimated 3-year disease-free survival (±SE) was 96.0±1.2% with blinatumomab and chemotherapy and 87.9±2.1% with chemotherapy alone (difference in restricted mean survival time, 72 days; 95% confidence interval, 36 to 108; P<0.001 by stratified log-rank test). The estimated 3-year disease-free survival among patients with an average relapse risk was 97.5±1.3% with blinatumomab and chemotherapy and 90.2±2.3% with chemotherapy alone; among those with a higher relapse risk, the corresponding values were 94.1±2.5% and 84.8±3.8%. Cytokine release syndrome, seizures, and sepsis of grade 3 or higher were rare during blinatumomab cycles, but the overall incidence of nonfatal sepsis and catheter-related infections was significantly higher among patients with an average relapse risk who had been assigned to receive blinatumomab and chemotherapy than among those assigned to receive chemotherapy alone.
+CONCLUSIONS
+: Adding blinatumomab to combination chemotherapy in patients with newly diagnosed childhood standard-risk B-cell ALL of average or higher risk of relapse significantly improved disease-free survival. (Funded by the National Institutes of Health and others; AALL1731 ClinicalTrials.gov number, NCT03914625.).

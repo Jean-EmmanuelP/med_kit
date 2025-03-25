@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO-24-01798.
+
+=== Métadonnées ===
+Saad F, Vjaters E, Shore N, et al.
+Darolutamide in Combination With Androgen-Deprivation Therapy in Patients With Metastatic Hormone-Sensitive Prostate Cancer From the Phase III ARANOTE Trial.
+J Clin Oncol. 2024 Dec 20;42(36):4271-4281. doi: 10.1200/JCO-24-01798. Epub 2024 Sep 16.
+                    (
+Original study
+)
+
+=== Abstract ===
+PURPOSE
+: For patients with metastatic hormone-sensitive prostate cancer (mHSPC), delaying progression to castration-resistant disease is important not only for overall survival (OS) but also for patients' quality of life. Darolutamide plus androgen-deprivation therapy (ADT) with docetaxel improved OS versus ADT and docetaxel in patients with mHSPC. The ARANOTE trial evaluated darolutamide and ADT without chemotherapy in patients with mHSPC.
+METHODS
+: In this global phase III trial, patients were randomly assigned 2:1 to receive darolutamide 600 mg twice daily or placebo, with concomitant ADT. The primary end point was radiological progression-free survival (rPFS).
+RESULTS
+: From March 2021 to August 2022, 669 patients were randomly assigned (darolutamide n = 446; placebo n = 223). At the primary cutoff date (June 7, 2024), darolutamide plus ADT significantly improved rPFS, reducing the risk of radiological progression or death by 46% versus placebo plus ADT (hazard ratio [HR], 0.54 [95% CI, 0.41 to 0.71]; P < .0001), with consistent benefits across subgroups, including high- and low-volume disease. OS results were suggestive of benefit with darolutamide versus placebo (HR, 0.81 [95% CI, 0.59 to 1.12]), and clinical benefits were seen across all other secondary end points, including delayed time to metastatic castration-resistant prostate cancer (HR, 0.40 [95% CI, 0.32 to 0.51]) and time to pain progression (HR, 0.72 [95% CI, 0.54 to 0.96]). Adverse events were similar in the two groups. Notably, the incidence of fatigue was lower in patients receiving darolutamide (5.6%) versus those receiving placebo (8.1%), and fewer patients receiving darolutamide (6.1%) versus placebo (9.0%) discontinued treatment because of adverse events.
+CONCLUSION
+: These results confirm the efficacy and tolerability of darolutamide plus ADT in patients with mHSPC, demonstrating clinically and statistically significant improvement in rPFS and a favorable safety profile consistent with prior phase III darolutamide trials.

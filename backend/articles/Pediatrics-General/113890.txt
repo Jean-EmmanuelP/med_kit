@@ -1,0 +1,22 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.jacc.2024.04.065.
+
+=== Métadonnées ===
+Santos-Beneit G, Bodega P, de Cos-Gandoy A, et al.
+Effect of Time-Varying Exposure to School-Based Health Promotion on Adiposity in Childhood.
+J Am Coll Cardiol. 2024 Aug 6;84(6):499-508. doi: 10.1016/j.jacc.2024.04.065.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: The results of most school-based health promotion initiatives are inconclusive.
+OBJECTIVES
+: This trial assessed the effect of time-varying exposures to a multicomponent school-based health promotion intervention (SI! Program) on adiposity markers.
+METHODS
+: A total of 48 schools in Madrid (Spain) were cluster randomized to receive the SI! Program through elementary education grades 1 to 6 (E1-6, 12 schools, 459 children), 1 to 3 (E1-3, 12 schools, 513 children), or 4 to 6 (E4-6, 12 schools, 419 children) or to receive the standard curriculum (control, 12 schools, 379 children). The primary endpoint was the between-group difference at 3- and 6-year follow-up in the change from baseline in adiposity markers and the overall knowledge-attitudes-habits (KAH) score.
+RESULTS
+: At 3-year follow-up, children who had the intervention showed significantly lower increases than the control group in z-scores for body mass index (BMI), waist-to-height ratio (WHtR), and waist circumference (WC) (zBMI: -0.09; 95% CI: -0.16 to -0.03; P = 0.003; zWC and zWHtR: -0.19; 95% CI: -0.28 to -0.10; P < 0.001). At 6-year follow-up, the beneficial trend in zWC and zWHtR was maintained in the E1-6 and E1-3 groups: difference zWC control vs E1-6 (-0.19; 95% CI: -0.36 to -0.03; P = 0.020), control vs E1-3 (-0.22; 95% CI: -0.38 to -0.06; P = 0.009); difference zWHtR control vs E1-6 (-0.24; 95% CI: -0.41 to -0.06; P = 0.009), and control vs E1-3 (-0.29; 95% CI: -0.47 to -0.11; P = 0.001). No significant between-group differences were found in the change of overall KAH score.
+CONCLUSIONS
+: Early elementary school interventions may be more effective than later interventions on abdominal adiposity. Further research should assess the sustainability effects of school-based health promotion programs.

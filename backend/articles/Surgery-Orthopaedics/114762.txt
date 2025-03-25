@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.arth.2024.09.037.
+
+=== Métadonnées ===
+Oner Cengiz H, Aker MN, Yilmaz Sezer N, et al.
+The Effects of Sexual Education on Function and Quality of Life of Women Who Underwent Total Hip Arthroplasty: A Randomized Controlled Trial.
+J Arthroplasty. 2025 Jan;40(1):184-190. doi: 10.1016/j.arth.2024.09.037. Epub 2024 Oct 1.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: This study aimed to determine the effect of sexual education on sexual function and quality of activity after total hip arthroplasty (THA).
+METHODS
+: There were 31 patients who underwent THA who were randomly assigned to the education (n = 15) and the control (n = 16) groups in this randomized controlled trial. A sexual education session and an educational handout were provided to the study group after THA prior to discharge. Patients were evaluated 4 times throughout the study: preoperatively, at 1, 3, and 6 months after surgery. The data were collected by using the sociodemographic and medical data form, the Index of Female Sexual Function, the Sexual Quality of Life-Female (SQoL-F) Questionnaire, the visual analog scale (VAS) of the Fear of Sexual Activity, and the VAS of Satisfaction with Sexual Activity scales.
+RESULTS
+: The mean sexual activity satisfaction score of the education group was higher in the second (95% confidence interval [Cl] [0.67 to 3.08]) and third follow-up (95% Cl [0.19 to 3.03]) (P < 0.05). Over time, the mean satisfaction scores of both groups increased (P < 0.05). The mean VAS fear of sexual activity scores at the first (95% CI [-2.81 to -0.48]), second (95% CI [-4.71 to -2.80]), and third (95% CI [-3.80 to -1.55]) follow-ups of the education group were significantly lower. Over time, the mean fear scores of both groups decreased (P < 0.05). The education group had higher mean SQoL-F scores at the first (95% CI [4.90 to 33.11], second (95% CI [7.62 to 34.31]), and third (95% CI [5.23 to 35.79]) follow-ups (P < 0.05). For the mean SQoL-F score, the difference between groups (F = 6.64), the change over time in both groups (F = 29.16), and the change over time between groups (F = 13.74) were statistically significant (P < 0.05). For the mean Index of Female Sexual Function score, it was found that the change over time was significantly different for both groups (F = 69.64, P < 0.05).
+CONCLUSIONS
+: Sexual education after THA may improve satisfaction with sexual activity and quality of life.

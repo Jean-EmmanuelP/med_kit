@@ -1,0 +1,22 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1161/CIRCULATIONAHA.124.072364.
+
+=== Métadonnées ===
+Jaber WA, Gonsalves CF, Stortecky S, et al.
+Large-Bore Mechanical Thrombectomy Versus Catheter-Directed Thrombolysis in the Management of Intermediate-Risk Pulmonary Embolism: Primary Results of the PEERLESS Randomized Controlled Trial.
+Circulation. 2025 Feb 4;151(5):260-273. doi: 10.1161/CIRCULATIONAHA.124.072364. Epub 2024 Oct 29.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: There are a lack of randomized controlled trial data comparing outcomes of different catheter-based interventions for intermediate-risk pulmonary embolism.
+METHODS
+: PEERLESS is a prospective, multicenter, randomized controlled trial that enrolled 550 patients with intermediate-risk pulmonary embolism with right ventricular dilatation and additional clinical risk factors randomized 1:1 to treatment with large-bore mechanical thrombectomy (LBMT) or catheter-directed thrombolysis (CDT). The primary end point was a hierarchal win ratio composite of the following (assessed at the sooner of hospital discharge or 7 days after the procedure): (1) all-cause mortality, (2) intracranial hemorrhage, (3) major bleeding, (4) clinical deterioration and/or escalation to bailout, and (5) postprocedural intensive care unit admission and length of stay. Assessments at the 24-hour visit included respiratory rate, modified Medical Research Council dyspnea score, New York Heart Association classification, right ventricle/left ventricle ratio reduction, and right ventricular function. End points through 30 days included total hospital stay, all-cause readmission, and all-cause mortality.
+RESULTS
+: The primary end point occurred significantly less frequently with LBMT compared with CDT (win ratio, 5.01 [95% CI, 3.68-6.97]; P<0.001). There were significantly fewer episodes of clinical deterioration and/or bailout (1.8% versus 5.4%; P=0.04) with LBMT compared with CDT and less postprocedural intensive care unit use (P<0.001), including admissions (41.6% versus 98.6%) and stays >24 hours (19.3% versus 64.5%). There were no significant differences in mortality, intracranial hemorrhage, or major bleeding between strategies or in a secondary win ratio end point including the first 4 components (win ratio, 1.34 [95% CI, 0.78-2.35]; P=0.30). At the 24-hour visit, respiratory rate was lower for patients treated with LBMT (18.3±3.3 versus 20.1±5.1; P<0.001), and fewer had moderate to severe modified Medical Research Council dyspnea scores (13.5% versus 26.4%; P<0.001), New York Heart Association classifications (16.3% versus 27.4%; P=0.002), and right ventricular dysfunction (42.1% versus 57.9%; P=0.004). Right ventricle/left ventricle ratio reduction was similar (0.32±0.24 versus 0.30±0.26; P=0.55). Patients treated with LBMT had shorter total hospital stays (4.5±2.8 overnights versus 5.3±3.9 overnights; P=0.002) and fewer all-cause readmissions (3.2% versus 7.9%; P=0.03), whereas 30-day mortality was similar (0.4% versus 0.8%; P=0.62).
+CONCLUSIONS
+: PEERLESS met its primary end point in favor of LBMT compared with CDT in treatment of intermediate-risk pulmonary embolism. LBMT had lower rates of clinical deterioration and/or bailout and postprocedural intensive care unit use compared with CDT, with no difference in mortality or bleeding.
+REGISTRATION
+: URL: https://www.clinicaltrials.gov; Unique identifier: NCT05111613.

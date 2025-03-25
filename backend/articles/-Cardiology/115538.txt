@@ -1,0 +1,22 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.jacc.2024.10.097.
+
+=== Métadonnées ===
+Fontana M, Maurer MS, Gillmore JD, et al.
+Worsening of Heart Failure in Outpatients With Transthyretin Amyloidosis and Cardiomyopathy in the APOLLO-B Trial.
+J Am Coll Cardiol. 2025 Feb 25;85(7):744-752. doi: 10.1016/j.jacc.2024.10.097. Epub 2025 Jan 22.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: Outpatient worsening heart failure (HF), defined by initiation or intensification of diuretics, is adversely prognostic for patients with either reduced or preserved ejection fraction.
+OBJECTIVES
+: This study sought to investigate the prognostic value of outpatient worsening HF in transthyretin amyloidosis with cardiomyopathy and the effect of patisiran treatment.
+METHODS
+: Post hoc analyses of the APOLLO-B trial (NCT03997383) evaluated the associations between outpatient worsening HF (defined by oral diuretic initiation or intensification), measures of disease progression, and a composite endpoint of all-cause mortality and cardiovascular (CV) events. We further examined the effect of patisiran on outpatient worsening HF over 24 months (ie, during the double-blind and open-label extension periods).
+RESULTS
+: In APOLLO-B, 144 (40.1%) patients had no event, 157 (43.7%) had outpatient worsening HF, 13 (3.6%) required an urgent HF visit, 118 (32.9%) had a CV hospitalization, and 47 (13.1%) died. Outpatient worsening HF was associated with an increased risk of all-cause mortality and CV events (HR: 2.21; 95% CI: 1.58-3.08), as well as a greater deterioration in 6-minute walk test distance, Kansas City Cardiomyopathy Questionnaire-Overall Summary score, and NYHA functional class and a greater increase in N-terminal prohormone of B-type natriuretic peptide. Addition of outpatient diuretic initiation or intensification to the composite endpoint of all-cause mortality and CV events increased the overall number of patients having an event from 141 to 215 (a 52% increase). Patisiran reduced the risk of outpatient worsening HF (HR: 0.70; 95% CI: 0.51-0.96) over 24 months.
+CONCLUSIONS
+: During APOLLO-B, outpatient worsening HF in patients with transthyretin amyloidosis with cardiomyopathy was frequent, prognostic, and reduced by patisiran.

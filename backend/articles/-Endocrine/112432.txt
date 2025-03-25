@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.2337/dc23-1911.
+
+=== Métadonnées ===
+Anthony MS, Aroda VR, Parlett LE, et al.
+Risk of Anaphylaxis Among New Users of GLP-1 Receptor Agonists: A Cohort Study.
+Diabetes Care. 2024 Apr 1;47(4):712-719. doi: 10.2337/dc23-1911.
+                    (
+Original study
+)
+
+=== Abstract ===
+OBJECTIVE
+: To assess risk of anaphylaxis among patients with type 2 diabetes mellitus who are initiating therapy with a glucagon-like peptide 1 receptor agonist (GLP-1 RA), with a focus on those starting lixisenatide therapy.
+RESEARCH DESIGN AND METHODS
+: A cohort study was conducted in three large, U.S. claims databases (2017-2021). Adult (aged =18 years) new users of a GLP-1 RA who had type 2 diabetes mellitus and =6 months enrollment in the database before GLP-1 RA initiation (start of follow-up) were included. GLP-1 RAs evaluated were lixisenatide, an insulin glargine/lixisenatide fixed-ratio combination (FRC), exenatide, liraglutide or insulin degludec/liraglutide FRC, dulaglutide, and semaglutide (injectable and oral). The first anaphylaxis event during follow-up was identified using a validated algorithm. Incidence rates (IRs) and 95% CIs were calculated within each medication cohort. The unadjusted IR ratio (IRR) comparing anaphylaxis rates in the lixisenatide cohort with all other GLP-1 RAs combined was analyzed post hoc.
+RESULTS
+: There were 696,089 new users with 456,612 person-years of exposure to GLP-1 RAs. Baseline demographics, comorbidities, and use of other prescription medications in the 6 months before the index date were similar across medication cohorts. IRs (95% CIs) per 10,000 person-years were 1.0 (0.0-5.6) for lixisenatide, 6.0 (3.6-9.4) for exenatide, 5.1 (3.7-7.0) for liraglutide, 3.9 (3.1-4.8) for dulaglutide, and 3.6 (2.6-4.9) for semaglutide. The IRR (95% CI) for the anaphylaxis rate for the lixisenatide cohort compared with the pooled other GLP-1 RA cohort was 0.24 (0.01-1.35).
+CONCLUSIONS
+: Anaphylaxis is rare with GLP-1 RAs. Lixisenatide is unlikely to confer higher risk of anaphylaxis than other GLP-1 RAs.

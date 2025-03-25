@@ -1,0 +1,22 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1097/AOG.0000000000005820.
+
+=== Métadonnées ===
+Dao AN, Komesu YM, Jansen SM, et al.
+Augmentation of Interstitial Cystitis-Bladder Pain Syndrome Treatment With Meditation and Yoga: A Randomized Controlled Trial.
+Obstet Gynecol. 2025 Feb 1;145(2):186-195. doi: 10.1097/AOG.0000000000005820. Epub 2025 Jan 2.
+                    (
+Original study
+)
+
+=== Abstract ===
+OBJECTIVE
+: To investigate whether yoga and meditation added to usual care improves treatment response in women with interstitial cystitis-bladder pain syndrome.
+METHODS
+: This randomized trial compared women with interstitial cystitis-bladder pain syndrome receiving standard care alone (control group) with those receiving standard care plus meditation and yoga (mind-body group). Standard care was defined as behavioral changes or medications recommended by the American Urological Association. Individuals in the control group received standard care, and those in the mind-body group received standard care augmented with a commercially available meditation application and standardized yoga tutorial video. Both groups continued their current interstitial cystitis-bladder pain syndrome standard care treatments. The primary outcome was the modified GRA (Global Response Assessment), comparing responders (moderately, markedly improved) with nonresponders at 12 weeks. On power analysis assuming a=5% and ß=80%, a sample size of 82 participants was required to find 30% difference on the GRA between groups. Weekly GRA scores over 12 weeks were also compared. Secondary outcomes included ICPI (Interstitial Cystitis Problem Index)/ICSI (Interstitial Cystitis Symptom Index), pain, pain interference, anxiety/depression, and self-efficacy scores and treatment escalation over 12 weeks.
+RESULTS
+: Among 97 randomized participants (49 mind-body group, 48 control group), groups did not differ in characteristics or symptoms at baseline. The mind-body group had more GRA responders compared with the control group at 12 weeks (31/43 [72.1%] vs 10/39 [25.6%], relative risk [RR] 2.8, 95% CI, 1.6-4.6), corroborated by superior weekly GRA results over 12 weeks. The mind-body group had superior beneficial change on the ICPI (RR 1.8, 95% CI, 0.5-3.1), ICSI (RR 1.9, 95% CI, 0.2-3.6), and pain (RR 1.4, 95% CI, 0.4-2.5) scores than the control group at 12 weeks. The mind-body group required less treatment escalation than the control group (2/45 [4.4%] vs 14/42 [33.3%], RR 0.13, 95% CI, 0.03-0.55).
+CONCLUSION
+: The addition of meditation and yoga to standard interstitial cystitis-bladder pain syndrome care was associated with improved treatment response and required fewer additional interventions compared with standard care alone.
+CLINICAL TRIAL REGISTRATION
+: ClinicalTrials.gov, NCT04820855.

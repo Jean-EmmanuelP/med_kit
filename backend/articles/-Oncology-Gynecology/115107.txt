@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO.24.00686.
+
+=== Métadonnées ===
+Fagotti A, Costantini B, Fanfani F, et al.
+Hyperthermic Intraperitoneal Chemotherapy in Platinum-Sensitive Recurrent Ovarian Cancer: A Randomized Trial on Survival Evaluation (HORSE; MITO-18).
+J Clin Oncol. 2025 Mar;43(7):852-860. doi: 10.1200/JCO.24.00686. Epub 2024 Nov 21.
+                    (
+Original study
+)
+
+=== Abstract ===
+PURPOSE
+: To investigate whether the addition of hyperthermic intraperitoneal chemotherapy (HIPEC) to secondary cytoreductive surgery (SCS) without neoadjuvant chemotherapy has a benefit on progression-free survival (PFS), as opposed to SCS alone in patients with platinum-sensitive recurrent epithelial ovarian cancer (platinum-free interval, >6 months).
+METHODS
+: This was a multicenter randomized phase III study. Random assignment was performed at the time of surgery in cases with residual tumor =0.25 cm. HIPEC with cisplatin (CDDP) 75 mg/m2 for 60 minutes at 41.5°C was administered at the end of surgery in the experimental arm. Both groups received postoperative platinum-based chemotherapy. The primary end point was PFS. The safety profile and postrecurrence survival (PRS) were the secondary end points.
+RESULTS
+: A total of 167 patients underwent random assignment, 82 patients to SCS plus HIPEC (experimental arm) and 85 to SCS alone (control arm). The median follow-up was 83 months (IQR, 64-102). The median PFS was 23 months (95% CI, 17 to 29) in the group that underwent surgery alone and 25 months (95% CI, 18 to 32) in the group that underwent cytoreductive surgery with HIPEC. The probability of PRS at 5 years was 61.6% (95% CI, 50.8 to 72.4) in the SCS group and 75.9% (95% CI, 66.5 to 85.3) in the SCS plus HIPEC group. The incidence of postoperative adverse events of any grade was similar between the two groups.
+CONCLUSION
+: The addition of HIPEC to complete or nearly complete primary SCS did not confer a benefit in terms of PFS in patients with platinum-sensitive peritoneal recurrence.

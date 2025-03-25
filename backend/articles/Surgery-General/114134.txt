@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1093/ageing/afae168.
+
+=== Métadonnées ===
+Ehrlich A, Oh ES, Psoter KJ, et al.
+Incidence of post-operative delirium increases as severity of frailty increases.
+Age Ageing. 2024 Aug 6;53(8):afae168. doi: 10.1093/ageing/afae168.
+                    (
+Original study
+)
+
+=== Abstract ===
+OBJECTIVE
+: The surgical population is ageing and often frail. Frailty increases the risk for poor post-operative outcomes such as delirium, which carries significant morbidity, mortality and cost. Frailty is often measured in a binary manner, limiting pre-operative counselling. The goal of this study was to determine the relationship between categorical frailty severity level and post-operative delirium.
+METHODS
+: We performed an analysis of a retrospective cohort of older adults from 12 January 2018 to 3 January 2020 admitted to a tertiary medical center for elective surgery. All participants underwent frailty screening prior to inpatient elective surgery with at least two post-operative delirium assessments. Planned ICU admissions were excluded. Procedures were risk-stratified by the Operative Stress Score (OSS). Categorical frailty severity level (Not Frail, Mild, Moderate, and Severe Frailty) was measured using the Edmonton Frail Scale. Delirium was determined using the 4 A's Test and Confusion Assessment Method-Intensive Care Unit.
+RESULTS
+: In sum, 324 patients were included. The overall post-operative delirium incidence was 4.6% (15 individuals), which increased significantly as the categorical frailty severity level increased (2% not frail, 6% mild frailty, 23% moderate frailty; P < 0.001) corresponding to increasing odds of delirium (OR 2.57 [0.62, 10.66] mild vs. not frail; OR 12.10 [3.57, 40.99] moderate vs. not frail).
+CONCLUSIONS
+: Incidence of post-operative delirium increases as categorical frailty severity level increases. This suggests that frailty severity should be considered when counselling older adults about their risk for post-operative delirium prior to surgery.

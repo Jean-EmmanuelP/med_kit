@@ -1,0 +1,13 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1097/SHK.0000000000002400.
+
+=== Métadonnées ===
+Song J, Shao YM, Zhang GH, et al.
+EXAMINING THE IMPACT OF PERMISSIBILITY HYPERCAPNIA ON POSTOPERATIVE DELIRIUM AMONG ELDERLY PATIENTS UNDERGOING THORACOSCOPIC-LAPAROSCOPIC ESOPHAGECTOMY: A SINGLE-CENTER INVESTIGATIVE STUDY.
+Shock. 2024 Sep 1;62(3):319-326. doi: 10.1097/SHK.0000000000002400. Epub 2024 May 30.
+                    (
+Original study
+)
+
+=== Abstract ===
+Objective: This study explores how permissive hypercapnia, a key aspect of lung-protective ventilation, impacts postoperative delirium in elderly patients following thoracic surgery. Methods: A single-center trial at The Second Hospital of Anhui Medical University involved 136 elderly patients undergoing thoracoscopic esophageal cancer resection. Randomly assigned to maintain PaCO 2 35-45 mm Hg (group N) or 46-55 mm Hg (group H). Primary outcome: postoperative delirium (POD) incidence 1-3 days post-surgery. Secondary endpoints included monitoring rSO 2 , cardiovascular parameters (MAP, HR), pH, OI, and respiratory parameters (VT, RR, Cdyn, PIP) at specific time points. Perioperative tests assessed CRP/ALB ratio (CAR) and systemic inflammatory index (SII). VAS scores were documented for 3 postoperative days. Results: Postoperatively, group H showed significantly lower POD incidence than group N (7.4% vs. 19.1%, P = 0.043). Group H exhibited higher PaCO 2 and rSO 2 during surgery ( P < 0.05). Patients in group H maintained better cardiovascular stability with higher blood pressure and lower heart rate on T2-4 ( P < 0.05). Respiratory parameters were more stable in group H with lower TV, RR, and PIP, and higher Cdyn during OLV ( P < 0.05). Group H had lower pH and higher OI at T2-4 ( P < 0.05). CRP and CAR levels rose less in group H on the first day and 1 week later ( P < 0.05). Conclusions: Maintaining PaCO 2 at 46-55 mm Hg reduces POD incidence, possibly by enhancing rSO 2 levels and stabilizing intraoperative respiration/circulation.

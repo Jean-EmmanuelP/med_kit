@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2405090.
+
+=== Métadonnées ===
+Hungria V, Robak P, Hus M, et al.
+Belantamab Mafodotin, Bortezomib, and Dexamethasone for Multiple Myeloma.
+N Engl J Med. 2024 Aug 1;391(5):393-407. doi: 10.1056/NEJMoa2405090. Epub 2024 Jun 1.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: Belantamab mafodotin had single-agent activity in patients with relapsed or refractory multiple myeloma, a finding that supports further evaluation of the agent in combination with standard-care therapies.
+METHODS
+: In this phase 3, open-label, randomized trial, we evaluated belantamab mafodotin, bortezomib, and dexamethasone (BVd), as compared with daratumumab, bortezomib, and dexamethasone (DVd), in patients who had progression of multiple myeloma after at least one line of therapy. The primary end point was progression-free survival. Key secondary end points were overall survival, response duration, and minimal residual disease (MRD)-negative status.
+RESULTS
+: In total, 494 patients were randomly assigned to receive BVd (243 patients) or DVd (251 patients). At a median follow-up of 28.2 months (range, 0.1 to 40.0), median progression-free survival was 36.6 months (95% confidence interval [CI], 28.4 to not reached) in the BVd group and 13.4 months (95% CI, 11.1 to 17.5) in the DVd group (hazard ratio for disease progression or death, 0.41; 95% CI, 0.31 to 0.53; P<0.001). Overall survival at 18 months was 84% in the BVd group and 73% in the DVd group. An analysis of the restricted mean response duration favored BVd over DVd (P<0.001). A complete response or better plus MRD-negative status occurred in 25% of the patients in the BVd group and 10% of those in the DVd group. Grade 3 or higher adverse events occurred in 95% of the patients in the BVd group and 78% of those in the DVd group. Ocular events were more common in the BVd group than in the DVd group (79% vs. 29%); such events were managed with dose modifications, and events of worsening visual acuity mostly resolved.
+CONCLUSIONS
+: As compared with DVd therapy, BVd therapy conferred a significant benefit with respect to progression-free survival among patients who had relapsed or refractory multiple myeloma after at least one line of therapy. Most patients had grade 3 or higher adverse events. (Funded by GSK; DREAMM-7 ClinicalTrials.gov number, NCT04246047; EudraCT number, 2018-003993-29.).

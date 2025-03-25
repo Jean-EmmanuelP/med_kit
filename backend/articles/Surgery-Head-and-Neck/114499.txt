@@ -1,0 +1,13 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO.24.00119.
+
+=== Métadonnées ===
+Nichols AC, Theurer J, Prisman E, et al.
+Radiotherapy Versus Transoral Robotic Surgery for Oropharyngeal Squamous Cell Carcinoma: Final Results of the ORATOR Randomized Trial.
+J Clin Oncol. 2024 Dec;42(34):4023-4028. doi: 10.1200/JCO.24.00119. Epub 2024 Sep 20.
+                    (
+Original study
+)
+
+=== Abstract ===
+Radiotherapy (RT) and transoral robotic surgery (TORS) are both curative-intent treatment options for oropharyngeal squamous cell carcinoma (OPSCC). Herein, we report the final outcomes of the ORATOR trial comparing these modalities, 5 years after enrollment completion. We randomly assigned 68 patients with T1-2N0-2 OPSCC to RT (with chemotherapy if node-positive) versus TORS plus neck dissection (± adjuvant RT/chemoradiation). The primary end point was swallowing quality of life (QOL) assessed with the MD Anderson Dysphagia Inventory (MDADI). Secondary end points included overall and progression-free survival (OS, PFS), adverse events (AEs), and other QOL metrics. The primary end point has been previously reported (Nichols 2019). In this report, the median follow-up was 5.1 years (IQR, 5.0-5.3 years). MDADI total scores converged by 5 years and were not significantly different across the follow-up period (P = .11). EORTC QLQ-C30 and H&N35 scores demonstrated differing profiles, including worse dry mouth in the RT arm (P = .032) and worse pain in the TORS arm (P = .002). Grade 2-5 AE rates did not differ between arms (91% [n = 31] v 97% [n = 33] respectively, P = .61), with more neutropenia and hearing loss in the RT arm, and more dysphagia and other pain in the TORS arm based on grades 2-5 (all P < .05). There were no differences in OS or PFS. In conclusion, toxicity and QOL profiles differ in some domains between RT and TORS, but oncologic outcomes were excellent in both arms. Choice of treatment should remain a shared decision between the patient and their providers.

@@ -1,0 +1,13 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.thromres.2024.109067.
+
+=== Métadonnées ===
+Rungjirajittranon T, Suwanawiboon B, Nakkinkun Y, et al.
+First-line immunosuppressive therapies for acquired hemophilia A: A 25-year cohort experience and network meta-analysis.
+Thromb Res. 2024 Sep;241:109067. doi: 10.1016/j.thromres.2024.109067. Epub 2024 Jun 20.
+                    (
+Systematic review
+)
+
+=== Abstract ===
+Acquired hemophilia A (AHA) presents a significant bleeding risk. Management involves bleeding control and immunosuppressive therapy (IST) to eliminate inhibitors. This study, encompassing a retrospective cohort of 76 newly diagnosed AHA patients (1997-2022), evaluated IST outcomes such as complete remission (CR), relapse, and mortality rates, alongside influencing factors. Supplementing these findings, a systematic review and network meta-analysis compared CR and relapse rates across ISTs, sourcing from Embase, Scopus, and ScienceDirect up to November 2023. In our cohort, demarcated by a 20 Bethesda-unit titer threshold, cyclophosphamide plus prednisolone (CP; n = 64) was the predominant initial IST. Lower inhibitor levels significantly correlated with higher CR rates (86.8 % vs 62.2 %; P = .014) and showed an odds ratio of 0.26 for CR (P = .021). Median relapse-free survival (RFS) extended to 37.13 months, significantly enhanced by CP (hazard ratio, 0.24; 95 % confidence interval, 0.10-0.60; P = .002). Our network meta-analysis, including 1476 CR and 636 relapse patients, indicated CP and rituximab-based ISTs significantly outperformed steroid monotherapy in terms of CR and lower relapse rates (risk differences of 0.15 and -0.13/-0.15, respectively; P < .05), without significant differences between CP and rituximab. Moreover, adding rituximab to the front-line treatment did not produce superior outcomes compared to the CP regimen alone, positioning CP as a viable first-line choice, particularly where rituximab is less accessible. The consideration of IST toxicity remains critical in treatment decisions.

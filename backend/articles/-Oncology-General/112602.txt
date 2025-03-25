@@ -1,0 +1,13 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO.23.02355.
+
+=== Métadonnées ===
+Luke JJ, Ascierto PA, Khattak MA, et al.
+Pembrolizumab Versus Placebo as Adjuvant Therapy in Resected Stage IIB or IIC Melanoma: Final Analysis of Distant Metastasis-Free Survival in the Phase III KEYNOTE-716 Study.
+J Clin Oncol. 2024 May 10;42(14):1619-1624. doi: 10.1200/JCO.23.02355. Epub 2024 Mar 7.
+                    (
+Original study
+)
+
+=== Abstract ===
+Clinical trials frequently include multiple end points that mature at different times. The initial report, typically based on the primary end point, may be published when key planned co-primary or secondary analyses are not yet available. Clinical Trial Updates provide an opportunity to disseminate additional results from studies, published in JCO or elsewhere, for which the primary end point has already been reported.Pembrolizumab adjuvant therapy was shown to significantly improve recurrence-free survival (RFS) and distant metastasis-free survival (DMFS) in patients with resected stage IIB or IIC melanoma in earlier analyses of the randomized, double-blind, phase III KEYNOTE-716 study (ClinicalTrials.gov identifier: NCT03553836). We report results of the protocol-specified final analysis of DMFS for KEYNOTE-716. Overall, 976 patients were randomly allocated to pembrolizumab (n = 487) or placebo (n = 489). As of January 4, 2023, median follow-up was 39.4 months (range, 26.0-51.4 months). The median DMFS was not reached in either treatment group, and the estimated 36-month DMFS was 84.4% for pembrolizumab and 74.7% for placebo (hazard ratio [HR], 0.59 [95% CI, 0.44 to 0.79]). The median RFS was not reached in either treatment group, and the estimated 36-month RFS was 76.2% for pembrolizumab and 63.4% for placebo (HR, 0.62 [95% CI, 0.49 to 0.79]). DMFS and RFS results were consistent across most prespecified subgroups, including stage IIB and stage IIC melanoma. The safety profile of pembrolizumab was manageable and consistent with previous reports. These results continue to support the use of pembrolizumab adjuvant therapy in patients with resected stage IIB or IIC melanoma.

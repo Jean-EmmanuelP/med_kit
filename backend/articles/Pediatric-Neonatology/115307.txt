@@ -1,0 +1,13 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1097/j.pain.0000000000003496.
+
+=== Métadonnées ===
+Stevens B, Bueno M, Barwick M, et al.
+The implementation of infant pain practice change resource to improve infant procedural pain practices: a hybrid type 1 effectiveness-implementation study.
+Pain. 2024 Dec 6. doi: 10.1097/j.pain.0000000000003496.
+                    (
+Original study
+)
+
+=== Abstract ===
+Implementation of infant pain practice change (ImPaC) is a multifaceted web-based resource to support pain practice change in neonatal intensive care unit (NICU). We evaluated the (1) intervention effectiveness and (2) implementation effectiveness of ImPaC using a hybrid type 1 effectiveness-implementation study (ie, cluster randomized controlled trial and longitudinal descriptive study). Eligible level 2 and 3 Canadian NICUs were randomized to intervention (INT) or waitlisted to usual care (UC) for 6 months. We assessed the number of painful procedures, proportion of procedures accompanied by valid assessment and evidence-based treatment, and pain intensity to determine intervention effectiveness using intention-to-treat (ITT) and wait-list (WL) analyses. Implementation feasibility and fidelity were explored. Twenty-three NICUs participated (12 INT, 11 UC). Thirty infants/NICU were included in the ITT (INT = 354, UC = 325) and the WL (INT = 678, UC = 325) analyses. In the ITT analysis, the average number of painful procedures/infant/day was lower in the INT group [2.62 (±3.47) vs 3.85 (±4.13), P < 0.001] than in the UC group. Pain assessment was greater in the INT group (34.7% vs 25.5%, P < 0.001) and pain intensity scores were lower [1.47 (1.25) vs 1.86 (1.97); P = 0.029]. Similarly, in the WL analysis, there were fewer painful procedures/infant/day [3.11 (±3.98) vs 3.85 (±4.13), P = 0.003] and increased pain assessment (30.4% vs 25.5%, P = 0.0001) and treatment (31.2% vs 24.0%, P < 0.001) in the INT group. Feasibility and implementation fidelity were associated with improved clinical outcomes.

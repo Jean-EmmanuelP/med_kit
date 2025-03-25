@@ -1,0 +1,24 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1097/AOG.0000000000005812.
+
+=== Métadonnées ===
+Menegaz de Almeida A, Oliveira P, Lopes L, et al.
+Fezolinetant and Elinzanetant Therapy for Menopausal Women Experiencing Vasomotor Symptoms: A Systematic Review and Meta-analysis.
+Obstet Gynecol. 2025 Mar 1;145(3):253-261. doi: 10.1097/AOG.0000000000005812. Epub 2025 Jan 2.
+                    (
+Systematic review
+)
+
+=== Abstract ===
+OBJECTIVE
+: To assess the efficacy and safety of fezolinetant and elinzanetant for vasomotor symptoms in menopausal women.
+DATA SOURCES
+: MEDLINE, EMBASE, and Cochrane databases were systematically searched until August 22, 2024. Because the Cochrane Library included all the identified randomized controlled trials (RCTs), it was unnecessary to search ClinicalTrials.gov . The following words made up the search strategy, which was applied to the three databases: fezolinetant, elinzanetant, vasomotor symptoms, and menopause.
+METHODS OF STUDY SELECTION
+: Only RCTs comparing fezolinetant and elinzanetant with placebo for vasomotor symptoms in menopausal women were included.
+TABULATION, INTEGRATION, AND RESULTS
+: We extracted the number of patients, mean age, body mass index (BMI), and number of patients who underwent oophorectomy. Data were examined with the Mantel-Haenszel method and 95% CIs. Heterogeneity was assessed with I2 statistics. R 4.3.2 was used for statistical analysis. Seven RCTs with 4,087 patients were included in the analysis. Fezolinetant and elinzanetant were associated with diminished vasomotor symptom frequency: fezolinetant 30 mg (mean difference 2.16, 95% CI, 1.54-2.79, I2 =0%), fezolinetant 45 mg (mean difference 2.54, 95% CI, 1.86-3.21, I2 =0%), and elinzanetant 120 mg (mean difference 2.99, 95% CI, 1.74-4.23, I2 =0%). Both drugs also showed a decrease in vasomotor symptom severity: fezolinetant 30 mg (mean difference 0.20, 95% CI, 0.09-0.33, I2 =0%), fezolinetant 45 mg (mean difference 0.24, 95% CI, 0.13-0.34, I2 =0%), and elinzanetant 120 mg (mean difference 0.36, 95% CI, 0.26-0.46, I2 =0%). Elinzanetant 120 mg showed a significant improvement in sleep quality (mean difference 4.65, 95% CI, 3.73-5.56, I2 =0%). Elinzanetant 120 mg was associated with the occurrence of drug-related adverse events (11.70% vs 20.75%, risk ratio [RR] 0.57, 95% CI, 0.39-0.82, I2 =19%) and headache (2.54% vs 8.0%, RR 0.32, 95% CI, 0.16-0.64, I2 =0%).
+CONCLUSION
+: In this meta-analysis, consistent results suggest that fezolinetant and elinzanetant are associated with beneficial outcomes in menopausal women with vasomotor symptoms. Elinzanetant provided a larger effect size in vasomotor symptom frequency and severity reduction and greatly improved sleep quality compared with fezolinetant.
+SYSTEMATIC REVIEW REGISTRATION
+: PROSPERO, CRD42023469952.

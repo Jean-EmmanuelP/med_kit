@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2407379.
+
+=== Métadonnées ===
+Fox CK, Barrientos-Perez M, Bomberg EM, et al.
+Liraglutide for Children 6 to <12 Years of Age with Obesity - A Randomized Trial.
+N Engl J Med. 2025 Feb 6;392(6):555-565. doi: 10.1056/NEJMoa2407379. Epub 2024 Sep 10.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: No medications are currently approved for the treatment of nonmonogenic, nonsyndromic obesity in children younger than 12 years of age. Although the use of liraglutide has been shown to induce weight loss in adults and adolescents with obesity, its safety and efficacy have not been established in children.
+METHODS
+: In this phase 3a trial, which consisted of a 56-week treatment period and a 26-week follow-up period, we randomly assigned children (6 to <12 years of age) with obesity, in a 2:1 ratio, to receive either once-daily subcutaneous liraglutide at a dose of 3.0 mg (or the maximum tolerated dose) or placebo, plus lifestyle interventions. The primary end point was the percentage change in the body-mass index (BMI; the weight in kilograms divided by the square of the height in meters). The confirmatory secondary end points were the percentage change in body weight and a reduction in BMI of at least 5%.
+RESULTS
+: A total of 82 participants underwent randomization; 56 were assigned to the liraglutide group and 26 to the placebo group. At week 56, the mean percentage change from baseline in BMI was -5.8% with liraglutide and 1.6% with placebo, representing an estimated difference of -7.4 percentage points (95% confidence interval [CI], -11.6 to -3.2; P<0.001). The mean percentage change in body weight was 1.6% with liraglutide and 10.0% with placebo, representing an estimated difference of -8.4 percentage points (95% CI, -13.4 to -3.3; P = 0.001), and a reduction in BMI of at least 5% occurred in 46% of participants in the liraglutide group and in 9% of participants in the placebo group (adjusted odds ratio, 6.3 [95% CI, 1.4 to 28.8]; P = 0.02). Adverse events occurred in 89% and 88% of participants in the liraglutide and placebo groups, respectively. Gastrointestinal adverse events were more common in the liraglutide group (80% vs. 54%); serious adverse events were reported in 12% and 8% of participants in the liraglutide and placebo groups, respectively.
+CONCLUSIONS
+: Among children (6 to <12 years of age) with obesity, treatment with liraglutide for 56 weeks plus lifestyle interventions resulted in a greater reduction in BMI than placebo plus lifestyle interventions. (Funded by Novo Nordisk; SCALE Kids ClinicalTrials.gov number, NCT04775082.).

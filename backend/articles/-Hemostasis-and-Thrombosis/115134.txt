@@ -1,0 +1,24 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S1474-4422(24)00436-8.
+
+=== Métadonnées ===
+Li S, Gu HQ, Feng B, et al.
+Safety and efficacy of intravenous recombinant human prourokinase for acute ischaemic stroke within 4.5 h after stroke onset (PROST-2): a phase 3, open-label, non-inferiority, randomised controlled trial.
+Lancet Neurol. 2025 Jan;24(1):33-41. doi: 10.1016/S1474-4422(24)00436-8. Epub 2024 Nov 29.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: Intra-arterial prourokinase has been shown to be a promising thrombolytic agent in patients with acute ischaemic stroke. Given the global shortage of thrombolytics, we aimed to assess the non-inferiority of intravenous recombinant human prourokinase compared with alteplase in patients with acute ischaemic stroke who were ineligible for or who refused endovascular thrombectomy.
+METHODS
+: PROST-2 was a phase 3, open-label, non-inferiority, randomised controlled trial conducted at 61 hospitals in China. Patients older than 18 years with acute ischaemic stroke, who were ineligible for or who refused endovascular thrombectomy, were randomly assigned in a 1:1 ratio within 4·5 h of stroke onset to receive intravenous recombinant human prourokinase (15 mg bolus followed by 20 mg infusion within 30 min) or intravenous alteplase (0·9 mg per kg, maximum dose 90 mg; 10% bolus followed by remainder as infusion over 60 min). The primary efficacy outcome was the proportion of patients with a modified Rankin Scale score of 0 or 1 at 90 days, assessed via masked review in the intention-to-treat population, with a non-inferiority margin for the risk ratio of 0·93. The primary safety outcome was the incidence of symptomatic intracranial haemorrhage within 36 h. This trial is registered with ClinicalTrials.gov (NCT05700591) and is now completed.
+FINDINGS
+: Between Jan 29, 2023, and March 14, 2024, 1552 patients were randomly assigned: 775 received recombinant human prourokinase and 777 received alteplase. The primary outcome of a modified Rankin Scale score of 0 or 1 at 90 days was reached by 558 (72·0%) of 775 patients in the recombinant human prourokinase group versus 534 (68·7%) of 777 in the alteplase group (risk ratio 1·04 [95% CI 0·98 to 1·10]; p<0·0001 for non-inferiority). The frequency of symptomatic intracranial haemorrhage within 36 h was lower in the recombinant human prourokinase group than in the alteplase group (two [0·3%] of 770 patients vs ten [1·3%] of 775, risk difference -1·0 percentage points [95% CI -2·1 to -0·1]; p=0·021), as was the incidence of major bleeding at 7 days (four [0·5%] vs 16 [2·1%]; -1·5 percentage points (-2·8 to -0·4); p=0·0072). All-cause mortality within 7 days did not differ between groups (five [0·6%] deaths in the recombinant human prourokinase group vs 13 [1·7%] in the alteplase group; risk difference -1·0 percentage points; 95% CI -2·3 to 0·1]; p=0·060).
+INTERPRETATION
+: In our trial, recombinant human prourokinase was shown to be non-inferior to alteplase for achieving excellent functional outcome, with no difference between groups in safety endpoints. These findings support the use of recombinant human prourokinase as a viable alternative to alteplase for patients with ischaemic stroke who are eligible for intravenous thrombolysis therapy but ineligible for or who have refused endovascular thrombectomy.
+FUNDING
+: Tasly Biopharmaceuticals, National Key R&D Program of China, National Natural Science Foundation of China, Chinese Academy of Medical Sciences Innovation Fund for Medical Sciences, and Beijing Municipal Science & Technology Commission.
+TRANSLATION
+: For the Chinese translation of the abstract see Supplementary Materials section.

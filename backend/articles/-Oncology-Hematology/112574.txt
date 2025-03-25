@@ -1,0 +1,13 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.thromres.2024.02.011.
+
+=== Métadonnées ===
+Bao L, Fang LJ, Xiao MY, et al.
+Validation of the IMPEDE VTE score for prediction of venous thromboembolism in Chinese patients with multiple myeloma: A single-center retrospective cohort study.
+Thromb Res. 2024 Apr;236:130-135. doi: 10.1016/j.thromres.2024.02.011. Epub 2024 Feb 15.
+                    (
+Original study
+)
+
+=== Abstract ===
+Multiple myeloma (MM) significantly increases the risk of venous thromboembolism (VTE) within 6 months of treatment initiation. The IMPEDE VTE score is a VTE risk prediction model which is recently incorporated into the National Comprehensive Cancer Network (NCCN) guidelines, but it lacks validation among Asians, including Chinese MM patients. We performed a retrospective chart review of 405 Chinese with newly diagnosed MM who started therapy at Beijing Jishuitan Hospital between April 2013 to October 2022. The 6-month cumulative incidence of VTE was 3.8 % (95 % CI:1.6-7.6), 8.6 % (95 % CI: 5.3-21.9) and 40.5 % (95 % CI: 24.9-55.7) in the low-, intermediate- and high-risk groups (P < 0.001), respectively. The C-statistic of the IMPEDE VTE scores for predicting VTE within 6 months of treatment initiation was 0.74 (95 % CI: 0.65-0.83). Of note, in this single-center cohort study, we propose that the anticoagulant LMWH may be more effective than the antiplatelet aspirin in potentially preventing VTE in newly diagnosed MM patients. Our findings suggest that the IMPEDE VTE score is a valid evidence-based risk stratification tool in Chinese patients with newly diagnosed MM.

@@ -1,0 +1,13 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.amjcard.2024.08.014.
+
+=== Métadonnées ===
+Caminiti R, Ielasi A, Vetta G, et al.
+Long-Term Results Following Transcatheter Versus Surgical Aortic Valve Replacement in Low-Risk Patients With Severe Aortic Stenosis: A Systematic Review and Meta-Analysis of Randomized Trials.
+Am J Cardiol. 2024 Nov 1;230:6-13. doi: 10.1016/j.amjcard.2024.08.014. Epub 2024 Aug 22.
+                    (
+Systematic review
+)
+
+=== Abstract ===
+Transcatheter aortic valve replacement (TAVR) is a safe and effective treatment option for patients with severe aortic stenosis at intermediate or high surgical risk. Results after TAVR in low-risk patients are very encouraging at midterm follow-up, whereas limited long-term (=3 year) data are available in this subset of patients. This meta-analysis aims to compare the long-term follow-up after TAVR versus surgical aortic valve replacement (SAVR) in low-risk patients. We searched databases up to July 7, 2024 for randomized clinical trials comparing TAVR versus SAVR in low-risk patients (defined as Society of Thoracic Surgeons Predicted Risk of Mortality score <4%) (PROSPERO ID: CRD42023480495). Primary outcome analyzed was all-cause death at a minimum of 3 years of follow-up. The secondary outcomes were cardiovascular death, disabling stroke, myocardial infarction, aortic valve reintervention, endocarditis, new-onset atrial fibrillation, permanent pacemaker implantation, and bioprosthetic valve failure. A total of 3 randomized clinical trials with 2,644 patients (TAVR n = 1,371 patients; SAVR n = 1,273 patients) were included. The follow-up time was 6 ± 2.9 years. TAVR resulted noninferior to SAVR for all-cause death (risk ratio [RR] 0.99, 95% confidence interval [CI] 0.84 to 1.17, p = 0.89, I2 = 28%), cardiovascular death (RR 0.94, 95% CI 0.76 to 1.15, p = 0.54, I2 = 0%), myocardial infarction (RR 1.06, 95% CI 0.71 to 1.57, p = 0.79, I2 = 61%), aortic valve reintervention, endocarditis, and bioprosthetic valve failure. New-onset atrial fibrillation was more common in the SAVR group, whereas permanent pacemaker implantation was more common in the TAVR group. In conclusion, our meta-analysis showed that TAVR is associated with similar long-term outcomes compared with SAVR in selected low-risk patients.

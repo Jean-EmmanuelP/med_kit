@@ -1,0 +1,22 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S1474-4422(24)00278-3.
+
+=== Métadonnées ===
+Thomalla G, Fiehler J, Subtil F, et al.
+Endovascular thrombectomy for acute ischaemic stroke with established large infarct (TENSION): 12-month outcomes of a multicentre, open-label, randomised trial.
+Lancet Neurol. 2024 Sep;23(9):883-892. doi: 10.1016/S1474-4422(24)00278-3. Epub 2024 Jul 26.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: Long-term data showing the benefits of endovascular thrombectomy for stroke with large infarct are scarce. The TENSION trial showed the safety and efficacy of endovascular thrombectomy in patients with ischaemic stroke and large infarct at 90 days. We aimed to investigate the safety and efficacy at 12 months of endovascular thrombectomy in patients who were enrolled in the TENSION trial.
+METHODS
+: TENSION was an open-label, blinded endpoint, randomised trial done at 40 hospitals across Europe and one hospital in Canada. We included patients (aged =18 years) with acute ischaemic stroke due to large vessel occlusion in the anterior circulation and who had a large infarct, as indicated by an Alberta Stroke Program Early Computed Tomographic Score (ASPECTS) of 3-5 on standard-of-care stroke imaging. We randomly assigned patients (1:1) to receive either endovascular thrombectomy with medical treatment or medical treatment only up to 12 h from stroke onset. The primary outcome was functional outcome across the entire range of the modified Rankin Scale at 90 days. Here, we report the prespecified 12-month follow-up analyses for functional outcome (using the simplified modified Rankin Scale questionnaire), quality of life (using the Patient-Reported Outcomes Measurement Information System 10-item [PROMIS-10] and EQ-5D questionnaires), post-stroke anxiety and depression (using the Patient Health Questionnaire-4 [PHQ-4]), and overall survival. Outcomes (except survival) were assessed in the intention-to-treat population; the survival analysis was based on treatment received. This trial is registered with ClinicalTrials.gov, NCT03094715, and is completed.
+FINDINGS
+: We enrolled patients between July 17, 2018, and Feb 21, 2023, when the trial was stopped early for efficacy. 253 patients were randomly assigned, 125 (49%) to endovascular thrombectomy and 128 (51%) to medical treatment only. Median follow-up was 8·36 months (IQR 0·02-12·00). Endovascular thrombectomy was associated with a shift in the distribution of scores on the modified Rankin Scale towards better functional outcome at 12 months (adjusted common odds ratio 2·39 [95% CI 1·47-3·90]). Endovascular thrombectomy was also associated with a better quality of life compared with medical treatment only, as reflected by median scores on the EQ-5D questionnaire index (0·7 [IQR 0·4-0·9] vs 0·4 [0·2-0·7]), median scores for health status on the EQ-5D questionnaire visual analogue scale (50 [IQR 35-70] vs 30 [5-60]), and median global physical health scores on the PROMIS-10 questionnaire (T-score 39·8 [IQR 37·4-50·8] vs 37·4 [32·4-44·9]); although there was not enough evidence to suggest a difference between groups in global mental health scores on PROMIS-10 (41·1 [IQR 36·3-48·3] vs 38·8 [31·3-44·7]) or the numbers of patients reporting anxiety (13 [22%] of 58 vs 15 [42%] of 36) and depression (18 [31%] vs 18 [50%]) on PHQ-4. Overall survival was slightly better in the endovascular thrombectomy group compared with medical treatment only (adjusted hazard ratio 0·70 [95% CI 0·50-0·99]).
+INTERPRETATION
+: In patients with acute ischaemic stroke from large vessel occlusion with established large infarct, compared with medical treatment only, endovascular thrombectomy was associated at 12 months after stroke with better functional outcome, quality of life, and overall survival. These findings suggest that the benefits of endovascular thrombectomy in patients with an ischaemic stroke and a large infarct are sustained in the long term and support the use of endovascular thrombectomy in these patients.
+FUNDING
+: European Union Horizon 2020 Research and Innovation Programme.

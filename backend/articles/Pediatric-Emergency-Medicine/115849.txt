@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.annemergmed.2025.01.007.
+
+=== Métadonnées ===
+Bourke EM, Kochar A, Shellshear D, et al.
+PEAChY-O: Pharmacological Emergency Management of Agitation in Children and Young People: A Randomized Controlled Trial of Oral Medication.
+Ann Emerg Med. 2025 Feb 14:S0196-0644(25)00017-4. doi: 10.1016/j.annemergmed.2025.01.007.
+                    (
+Original study
+)
+
+=== Abstract ===
+STUDY OBJECTIVE
+: To determine whether oral olanzapine or oral diazepam was more effective at achieving behavioral containment for young people presenting to the emergency department with acute severe behavioral disturbance.
+METHODS
+: We conducted an open-label, multicenter, randomized controlled trial from October 22, 2021, to November 6, 2023. We enrolled young people aged between 9 and 17 years with acute severe behavioral disturbance deemed to require oral medication across 9 Australian emergency departments. We randomly assigned participants to a single weight-based oral dose of olanzapine or diazepam. The primary outcome was successful sedation (Sedation Assessment Tool score less than or equal to 0) without the need for additional sedatives one hour postrandomization. Secondary outcomes included adverse events; length of stay; aggression toward staff, participants, or parent/guardians; disposition; and satisfaction with care.
+RESULTS
+: We recruited 348 participants, with 176 assigned to olanzapine and 172 to diazepam. Successful sedation without the requirement for additional sedatives occurred in 103/168 (61%) in the olanzapine group and 90/158 (57%) in the diazepam group (adjusted risk difference 3.6%, 95% confidence interval -6.7% to 14.0%). No serious adverse events were reported in either group.
+CONCLUSIONS
+: There was no evidence that oral olanzapine resulted in a greater proportion of participants with acute severe behavioral disturbance achieving successful sedation at one hour postrandomization than oral diazepam. Neither medication resulted in any serious adverse events; however, approximately 40% of participants in each group did not achieve successful sedation.

@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1302/0301-620X.106B7.BJJ-2023-1160.R2.
+
+=== Métadonnées ===
+Karlsson T, Forsth P, Ohagen P, et al.
+Decompression alone or decompression with fusion for lumbar spinal stenosis: five-year clinical results from a randomized clinical trial.
+Bone Joint J. 2024 Jul 1;106-B(7):705-712. doi: 10.1302/0301-620X.106B7.BJJ-2023-1160.R2.
+                    (
+Original study
+)
+
+=== Abstract ===
+AIMS
+: We compared decompression alone to decompression with fusion surgery for lumbar spinal stenosis, with or without degenerative spondylolisthesis (DS). The aim was to evaluate if five-year outcomes differed between the groups. The two-year results from the same trial revealed no differences.
+METHODS
+: The Swedish Spinal Stenosis Study was a multicentre randomized controlled trial with recruitment from September 2006 to February 2012. A total of 247 patients with one- or two-level central lumbar spinal stenosis, stratified by the presence of DS, were randomized to decompression alone or decompression with fusion. The five-year Oswestry Disability Index (ODI) was the primary outcome. Secondary outcomes were the EuroQol five-dimension questionnaire (EQ-5D), visual analogue scales for back and leg pain, and patient-reported satisfaction, decreased pain, and increased walking distance. The reoperation rate was recorded.
+RESULTS
+: Five-year follow-up was completed by 213 (95%) of the eligible patients (mean age 67 years; 155 female (67%)). After five years, ODI was similar irrespective of treatment, with a mean of 25 (SD 18) for decompression alone and 28 (SD 22) for decompression with fusion (p = 0.226). Mean EQ-5D was higher for decompression alone than for fusion (0.69 (SD 0.28) vs 0.59 (SD 0.34); p = 0.027). In the no-DS subset, fewer patients reported decreased leg pain after fusion (58%) than with decompression alone (80%) (relative risk (RR) 0.71 (95% confidence interval (CI) 0.53 to 0.97). The frequency of subsequent spinal surgery was 24% for decompression with fusion and 22% for decompression alone (RR 1.1 (95% CI 0.69 to 1.8)).
+CONCLUSION
+: Adding fusion to decompression in spinal stenosis surgery, with or without spondylolisthesis, does not improve the five-year ODI, which is consistent with our two-year report. Three secondary outcomes that did not differ at two years favoured decompression alone at five years. Our results support decompression alone as the preferred method for operating on spinal stenosis.

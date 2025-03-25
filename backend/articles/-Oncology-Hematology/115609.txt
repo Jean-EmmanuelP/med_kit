@@ -1,0 +1,13 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1182/blood.2024025746.
+
+=== Métadonnées ===
+Badros A, Foster L, Anderson LD Jr, et al.
+Daratumumab with lenalidomide as maintenance after transplant in newly diagnosed multiple myeloma: the AURIGA study.
+Blood. 2025 Jan 16;145(3):300-310. doi: 10.1182/blood.2024025746.
+                    (
+Original study
+)
+
+=== Abstract ===
+No randomized trial has directly compared daratumumab and lenalidomide (D-R) maintenance with standard-of-care lenalidomide (R) alone after transplant. Herein, we report the primary results of the phase 3 AURIGA study evaluating D-R vs R maintenance in patients with newly diagnosed multiple myeloma (NDMM) who had very good or better partial response, were minimal residual disease (MRD)-positive (10-5) and anti-CD38-naïve after transplant. Two hundred patients were randomly assigned (1:1) to D-R (n = 99) or R (n = 101) maintenance for up to 36 cycles. The MRD-negative (10-5) conversion rate by 12 months from start of maintenance (primary end point) was significantly higher for D-R than R (50.5% vs 18.8%; odds ratio [OR], 4.51; 95% confidence interval [CI], 2.37-8.57; P < .0001). MRD-negative (10-6) conversion rate was similarly higher with D-R (23.2% vs 5.0%; OR, 5.97; 95% CI, 2.15-16.58; P = .0002). At median follow-up (32.3 months), D-R achieved a higher overall MRD-negative (10-5) conversion rate (D-R, 60.6% vs R, 27.7%; OR, 4.12; 95% CI, 2.26-7.52; P < .0001) and complete response rate or better (75.8% vs 61.4%; OR, 2.00; 95% CI, 1.08-3.69; P = .0255) vs R. Progression-free survival (PFS) favored D-R vs R (hazard ratio, 0.53; 95% CI, 0.29-0.97); estimated 30-month PFS rates were 82.7% for D-R and 66.4% for R. Incidences of grade 3/4 cytopenias (54.2% vs 46.9%) and infections (18.8% vs 13.3%) were slightly higher with D-R than R. In conclusion, D-R maintenance achieved a higher MRD-negative conversion rate and improved PFS after transplant vs R, with no new safety concerns. This trial was registered at www.clinicaltrials.gov as #NCT03901963.

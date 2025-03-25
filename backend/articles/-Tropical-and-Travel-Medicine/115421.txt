@@ -1,0 +1,24 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S1473-3099(24)00669-8.
+
+=== Métadonnées ===
+Krolewiecki A, Kepha S, Fleitas PE, et al.
+Albendazole-ivermectin co-formulation for the treatment of Trichuris trichiura and other soil-transmitted helminths: a randomised phase 2/3 trial.
+Lancet Infect Dis. 2025 Jan 10:S1473-3099(24)00669-8. doi: 10.1016/S1473-3099(24)00669-8.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: Treatments for soil-transmitted helminthiases face challenges, especially in addressing Trichuris trichiura. Combination regimens, particularly of ivermectin and albendazole, are promising. We aimed to assess the safety, efficacy, and palatability of a combination tablet for the treatment of T trichiura, hookworm, and Strongyloides stercoralis infections among school-aged children in Ethiopia, Kenya, and Mozambique.
+METHODS
+: We conducted an adaptive phase 2/3, randomised, parallel-group, active-controlled, superiority trial in 15 schools in Ethiopia, Kenya, and Mozambique. Eligible participants for both phases were aged 5-18 years, weighed at least 15 kg, and were infected with T trichiura, hookworms, or S stercoralis. Participants were randomly assigned via a computer-generated sequence to either a single dose of a fixed-dose combination (FDC×1) of albendazole (400 mg) plus ivermectin (9 mg or 18 mg), three consecutive daily doses of an FDC (FDC×3) of albendazole (400 mg) plus ivermectin (9 mg or 18 mg), or a single dose of albendazole alone (400 mg) via block randomisation, stratified by soil-transmitted helminth species. Participants and those administering the treatments were not masked to treatment assignment, but those assessing the outcomes were masked. The primary outcome of phase 2 (conducted in Kenya only) was safety during the first 3 h after the intervention and for 7 days, and the primary outcome of phase 3 was efficacy (ie, the proportion of individuals cured at day 21 out of the total number infected at baseline) for T trichiura; both primary outcomes were analysed in the intention-to-treat population. This trial is registered with ClinicalTrials.gov, NCT05124691, and is terminated.
+FINDINGS
+: Between Jan 20, 2022, and March 24, 2023, 1001 participants were recruited (465 [46%] were female and 536 [54%] were male). 636 (64%) were infected with T trichiura, 360 (36%) with hookworm, and 104 (10%) with S stercoralis; 94 (9%) of 1001 participants had co-infections and were included in the analysis of each infecting species. A total of 243 participants were allocated to the albendazole group, 381 to the FDC×1 group, and 377 to the FDC×3 group. In both phase 2 and 3, gastrointestinal symptoms were the most common mild-to-moderate adverse events in the FDC groups, but resolved within 48 h without intervention. At least one treatment-related adverse event occurred in 34 (14%) of 243 participants in the albendazole group, 75 (20%) of 381 participants in the FDC×1 group, and 88 (23%) of 377 participants in the FDC×3 group. No serious adverse events occurred. For T trichiura, both FDC groups had a higher cure rate (97·2% [95% CI 95·2- 99·3] for FDC×3 and 82·9% [78·2-87·5] for FDC×1) than albendazole (35·9% [27·7-44·1]), with absolute differences of 61·3% (98% CI 50·2-71·2) and 47·0% (34·7-58·1), respectively. For hookworms, FDC×3 had a higher cure rate (95·0% [95% CI 91·1-98·9]) than albendazole (65·1% [56·0-74·2]), with absolute differences of 29·9% (98% CI 17·2-42·4), whereas FDC×1 had a similar cure rate (79·8% [72·8-86·9]) to albendazole. The sample size for efficacy evaluation of S stercoralis was not met.
+INTERPRETATION
+: An FDC of albendazole plus ivermectin has a similar safety profile but superior efficacy to albendazole alone against T trichiura infection and hookworms. These findings open opportunities for control of all soil-transmitted helminth species of interest, including potentially S stercoralis. Evaluation of safety in larger populations and implementation scenarios are the next steps for this innovation to promote its incorporation into programmatic activities.
+FUNDING
+: The European and Developing Clinical Trials Partnership.
+TRANSLATION
+: For the Portuguese translation of the abstract see Supplementary Materials section.

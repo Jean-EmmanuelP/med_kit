@@ -1,0 +1,24 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1097/BRS.0000000000004887.
+
+=== Métadonnées ===
+Quinto ES Jr, Paisner ND, Huish EG Jr, et al.
+Ten-Year Outcomes of Cervical Disc Arthroplasty Versus Anterior Cervical Discectomy and Fusion : A Systematic Review With Meta-Analysis.
+Spine (Phila Pa 1976). 2024 Apr 1;49(7):463-469. doi: 10.1097/BRS.0000000000004887. Epub 2023 Nov 29.
+                    (
+Systematic review
+)
+
+=== Abstract ===
+STUDY DESIGN
+: A systematic review with meta-analysis of randomized controlled trials and comparative retrospective cohort studies.
+OBJECTIVE
+: The purpose of this study is to compare the 10-year outcomes of cervical disc arthroplasty (CDA) with those of anterior cervical discectomy and fusion (ACDF) for the treatment of cervical degenerative disc disease (CDDD).
+SUMMARY OF BACKGROUND DATA
+: ACDF is the gold standard for the treatment of CDDD. However, the loss of motion at the operative level may accelerate adjacent segment disease (ASD). The preservation of motion with CDA attempts to prevent this complication of cervical fusion. Short-term and mid-term data reveal comparable results for CDA versus ACDF; however, long-term results are unknown.
+MATERIALS AND METHODS
+: A systematic review with meta-analysis was performed to determine if CDA had improved outcomes compared with ACDF at 10-year follow-up. PubMed and Web of Science database searches through 2023 were performed to identify randomized controlled trials and comparative retrospective cohort studies involving treatment of one-level or two-level CDDD.
+RESULTS
+: Six studies were eligible for analysis. CDA had significantly improved neck disability index and visual analog scale scores but lower Japanese Orthopaedic Association scores compared to ACDF at 10-year follow-up ( P < 0.05). None of these results met minimal clinically important differences. CDA had significantly fewer secondary surgeries and adverse events compared to ACDF ( P <0.05). There were no significant differences in neurological success.
+CONCLUSIONS
+: The authors found that significantly fewer secondary surgeries and adverse events were seen after CDA than after ACDF at 10-year follow-up. CDA had statistically, but not clinically, improved neck disability index and visual analog scale scores but lower Japanese Orthopaedic Association scores in comparison to ACDF. CDA was not significantly different from ACDF in terms of a successful neurological outcome.

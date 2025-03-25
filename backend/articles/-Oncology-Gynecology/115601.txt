@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1111/acem.15101.
+
+=== Métadonnées ===
+Adler D, Wood N, Fiscella K, et al.
+Low-cost interventions to increase uptake of cervical cancer screening among emergency department patients: Results of a randomized clinical trial.
+Acad Emerg Med. 2025 Jan 28. doi: 10.1111/acem.15101.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: Cervical cancer (CC) is preventable. CC screening decreases CC mortality. Emergency department (ED) patients are at disproportionately high risk for nonadherence with CC screening recommendations. The ED, therefore, is a target-rich environment for interventions to promote CC screening.
+METHODS
+: We conducted a randomized clinical trial to test and compare the efficacies of (1) basic referral for CC screening and (2) basic referral plus a text messaging intervention, grounded in behavioral change theory, to promote uptake of CC screening among ED patients. Participants aged 21-65, identified as in need of CC screening, were randomized to study arms and followed up at 150 days to assess interval CC screening uptake (primary outcome) and analyze methods-related moderators of intervention effects. Participants were recruited from a large, urban ED and a small, rural ED within the same health care system. Intervention arms were compared to historical controls.
+RESULTS
+: A total of 4035 patients were surveyed, with 1089 identified as requiring CC screening and subsequently randomized. Upon 150-day follow-up, 20% of individuals in the basic referral arm and 23% of individuals in the basic referral plus text messaging arm had obtained screening. Screening uptake in the historical control group was found to be 10% over a 150-day period. The overall difference between prospective arms was not significant (p = 0.219). However, moderation analysis found that women =40 years old demonstrated greater uptake of screening after the higher intensity intervention compared to the lower (p = 0.032). The differences in screening uptake between both interventions, individually and combined, when compared to controls was significant (p = 0.001).
+CONCLUSIONS
+: This study demonstrates that both of the evaluated low-intensity ED-based interventions significantly increase subsequent CC screening uptake compared to historical controls. The higher intensity intervention significantly increased screening uptake compared to the lower intensity intervention among women =40 years old.

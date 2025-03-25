@@ -1,0 +1,24 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S1473-3099(24)00719-9.
+
+=== Métadonnées ===
+Coldiron ME, Soumana I, Baudin E, et al.
+Effect of mass campaigns with full and fractional doses of pneumococcal conjugate vaccine (Pneumosil) on the reduction of nasopharyngeal pneumococcal carriage in Niger: a three-arm, open-label, cluster-randomised trial.
+Lancet Infect Dis. 2025 Jan 8:S1473-3099(24)00719-9. doi: 10.1016/S1473-3099(24)00719-9.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: In settings with low pneumococcal conjugate vaccine (PCV) coverage, multi-age cohort mass campaigns could increase population immunity, and fractional dosing could increase affordability. We aimed to evaluate the effect of mass campaigns on nasopharyngeal pneumococcal carriage of Pneumosil (PCV10) in children aged 1-9 years in Niger.
+METHODS
+: In this three-arm, open-label, cluster-randomised trial, 63 clusters of one to four villages in Niger were randomly assigned (3:3:1) using block randomisation to receive campaigns consisting of a single full dose of a 10-valent PCV (Pneumosil), a single one-fifth dose of Pneumosil, or no campaign. Independently sampled carriage surveys were done among 2268 households 6 months before and after vaccination, collecting nasopharyngeal swabs from healthy children for culture and serotyping; those with contraindication to nasopharyngeal swabbing were excluded. The primary outcome was nasopharyngeal carriage of vaccine-serotype pneumococcus. We tested whether vaccine-type carriage was reduced in full-dose versus control clusters; and whether fractional doses were non-inferior to full-doses (lower bound 95% CI more than -7·5%), using generalised estimating equations to analyse cluster summaries at baseline and follow-up, controlling for covariates to estimate risk differences and their 95% CIs. The study is registered with ClinicalTrials.gov (NCT05175014) and the Pan-African Clinical Trials Registry (PACTR20211257448484).
+FINDINGS
+: Surveys were done between Dec 22, 2021, and March 18, 2022, and between Dec 12, 2022, and March 9, 2023. The vaccination campaign ran from June 15 to Aug 2, 2022. Participants' characteristics were consistent across surveys and groups. Pre-vaccination, vaccine-type carriage was 15·6% (149 of 955 participants) in the full-dose group, 17·9% (170 of 948) in the fractional-dose group, and 18·8% (60 of 320) in the control group. Post-vaccination, vaccine-type carriage was 4·6% (44 of 967) in the full-dose group, 8·0% (77 of 962) in the fractional-dose group, and 16·5% (53 of 321) in the control group. The primary analysis showed a risk difference of -16·2% (95% CI -28·6 to -3·0) between the full-dose group and control group (p=0·002 for superiority), and -3·8% (-6·1 to -1·6) between the full-dose group and fractional-dose group, meeting the non-inferiority criteria. No adverse events were judged to be related to vaccination.
+INTERPRETATION
+: Multi-age cohort campaigns had a marked effect on vaccine-type carriage and fractional-dose campaigns met non-inferiority criteria. Such campaigns should be considered in low-coverage settings, including humanitarian emergencies, to accelerate population protection.
+FUNDING
+: EDCTP2 programme supported by the EU.
+TRANSLATION
+: For the French translation of the abstract see Supplementary Materials section.

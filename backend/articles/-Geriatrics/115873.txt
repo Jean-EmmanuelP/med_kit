@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1111/jgs.19402.
+
+=== Métadonnées ===
+Hayes C, Yigezu A, Dillon S, et al.
+Home-Based Comprehensive Geriatric Assessment for Community-Dwelling, At-Risk, Frail Older Adults: A Systematic Review and Meta-Analysis.
+J Am Geriatr Soc. 2025 Feb 18. doi: 10.1111/jgs.19402.
+                    (
+Systematic review
+)
+
+=== Abstract ===
+BACKGROUND
+: Comprehensive geriatric assessment (CGA), an operational model of integrated care, has become a fundamental component of healthcare delivery models for older adults. It is a multidimensional diagnostic process intended to determine a frail elderly person's medical, psychosocial, and functional capabilities and limitations to develop an integrated care plan. The aim of this systematic review and meta-analysis was to update and synthesize the totality of research evidence related to the effectiveness of home-based CGA compared with usual care among community-dwelling at-risk older adults. A secondary aim of the review was to characterize the components of CGA delivered across the included studies.
+METHODS
+: CENTRAL, MEDLINE, Embase, CINAHL, trial registers (WHO ICTRP, ClinicalTrials.gov, and McMaster Aging Portal), and gray literature were searched. Two independent reviewers conducted screening, data extraction, quality appraisal, and applied the Grading of Recommendations, Assessment, Development, and Evaluations framework to quantify the certainty of evidence. Meta-analyses were performed in Review Manager 5.4. The primary outcome was functional status.
+RESULTS
+: Twenty-two trials recruiting 7219 community-dwelling older adults were included. Home-based CGA resulted in improved functional status at 6-24 months (standardized mean difference [SMD] 0.17, 95% confidence interval [CI] 0.09-0.25), at 12 months (SMD 0.24, 95% CI 0.02-0.47), and at 24 months (SMD 0.11, 95% CI 0.01-0.22); an increased health-related quality of life (HRQoL) at 6-24 and 12 months; a reduction in mortality at 36 months; a reduction in hospitalizations at 6-36 months; and improved patient satisfaction with care at 6-12 months. Home-based CGA resulted in little or no difference in nursing home admission, emergency department presentation, or adverse events. Intervention characteristics and multidisciplinary team composition varied across trials.
+CONCLUSION
+: Home-based CGA improves clinical and process outcomes for community dwelling at-risk older adults. CGA delivered by a comprehensive multidisciplinary team enhances functional status among community-dwelling older adults.

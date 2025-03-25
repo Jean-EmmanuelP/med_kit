@@ -1,0 +1,22 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S1474-4422(24)00175-3.
+
+=== Métadonnées ===
+Hjortdal Gronhoj M, Jensen TSR, Miscov R, et al.
+Optimal drainage time after evacuation of chronic subdural haematoma (DRAIN TIME 2): a multicentre, randomised, multiarm and multistage non-inferiority trial in Denmark.
+Lancet Neurol. 2024 Aug;23(8):787-796. doi: 10.1016/S1474-4422(24)00175-3. Epub 2024 Jun 12.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: Postoperative drainage after surgical evacuation of chronic subdural haematoma reduces the risk of recurrence, but the optimum drainage time is uncertain. We aimed to investigate the shortest possible drainage time without increasing the haematoma recurrence rate.
+METHODS
+: We conducted a randomised, multi-arm and multistage non-inferiority trial at four neurosurgical centres in Denmark. We enrolled adult patients (aged =18 years) with symptomatic chronic subdural haematoma. All patients were treated according to the national standard practice with a burr hole above the maximum width of the haematoma. Patients were randomly assigned in a 1:1:1 ratio via a centralised web server to receive 6 h, 12 h, or 24 h of postoperative passive subdural drainage. Randomisation was done by an independent on-call neurosurgeon and was masked until 6 h after surgery. The primary outcome was symptomatic haematoma recurrence at 3 months after surgery; the rate of recurrence was assessed in a regression model for non-inferiority testing, with no missing data. Personnel assessing the primary outcome were masked to group allocation. Non-inferiority was assessed with a prespecified margin of 7%, in a modified intention-to-treat population-defined as patients with randomly assigned treatment excluding those withdrawing from study participation after randomisation, or experiencing acute rebleedings or accidental drain removal. This trial is registered with ISRCTN (number 15186366); the trial was stopped after the first interim analysis on the advice of an independent safety advisory committee.
+FINDINGS
+: Between March 1, 2021, and June 30, 2022, 347 patients were enrolled and 331 were followed up to 3 months, 105 were assigned to 6 h of drainage, 111 to 12 h of drainage, and 115 to 24 h of drainage. At admission, 83 (25%) participants were women and 248 (75%) were men, mean age was 75·7 years (SD 10·5), median modified Rankin Scale score was 4 (IQR 3-5), and median Glasgow Coma Scale score was 15 (IQR 14-15). At 3 months after surgery, haematoma recurrence was reported in 28 (27%) of 105 patients who were assigned to 6 h drainage (predicted haematoma recurrence rate 27·0%, 95% CI 18·5 to 35·4), 22 (20%) of 111 assigned to 12 h drainage (19·5%, 12·0 to 27·0), and 12 (10%) of 115 assigned to 24 h drainage (10·4%, 4·8 to 16·0). The risk of haematoma recurrence was increased by 16·5 percentage points (95% CI 6·5 to 26·6) in patients drained for 6 h compared with 24 h, and by 9·1 percentage points (-0·4 to 18·5) in patients drained for 12 h compared with 24 h. Therefore, non-inferiority of 6 h and 12 h of drainage to 24 h of drainage was not established. 20 patients had died by 3 months, seven in the 6 h group, eight in the 12 h group, and five in the 24 h group. The most frequent known causes of death were haematoma recurrence (three in 12 h group), comorbidity (three in 12 h group), and pneumonia (one each in 6 h and 12 h groups, two in 24 h group). The most frequent complication was postoperative infection, reported in 20 (20%) patients in the 6 h group, 25 (23%) in the 12 h group, and 19 (17%) in the 24 h group. The most common infection source was the urinary tract.
+INTERPRETATION
+: Patients surgically treated for symptomatic chronic subdural haematoma and postoperatively drained for 6 h or 12 h had higher rates of haematoma recurrence than did patients drained for 24 h. The findings from this non-inferiority trial provide evidence to support 24 h of postoperative drainage as the standard drain time when a fixed drain time approach is used. To provide solid evidence of generalisability of the results to countries other than Denmark, a multinational randomised controlled trial will be needed.
+FUNDING
+: None.

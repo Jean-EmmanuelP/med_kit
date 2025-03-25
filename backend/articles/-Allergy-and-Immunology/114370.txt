@@ -1,0 +1,22 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.jaci.2024.07.026.
+
+=== Métadonnées ===
+Bachert C, Khan AH, Fokkens WJ, et al.
+Dupilumab response onset, maintenance, and durability in patients with severe CRSwNP.
+J Allergy Clin Immunol. 2024 Dec;154(6):1442-1449. doi: 10.1016/j.jaci.2024.07.026. Epub 2024 Aug 14.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: Responder analyses of SINUS phase 3 study data have shown clinically meaningful improvements across multiple outcomes of treatment of chronic rhinosinusitis with nasal polyps (CRSwNP) with dupilumab.
+OBJECTIVE
+: Our aim was to gain a better understanding of dynamics of the response to dupilumab over 52 weeks.
+METHODS
+: We used data from the SINUS-52 (ClinicalTrials.gov identifier NCT02898454) intention-to-treat population to perform a post hoc analysis of patients with severe CRSwNP who had received dupilumab, 300 mg once every 2 weeks, or placebo. Response, which was defined as an improvement from baseline of at least 1 point in Nasal Polyp Score (NPS), nasal congestion (NC) score, and loss of smell (LoS) score, as well as an improvement of at least 8.9 points on the 22-Item Sino-Nasal Outcome Test (SNOT-22), was assessed for rapidity, maintenance, and durability.
+RESULTS
+: The study included 303 patients (150 of whom received dupilumab and 153 of whom received placebo). For each outcome measure, a greater proportion of patients achieved a first response by week 16 (rapidity) with dupilumab versus with placebo; NPS, 75.3% versus 39.2%; NC score, 60.0% versus 24.2%; LoS score, 60.7% versus 15.7%; and SNOT-22 score, 83.3% versus 66.0%, respectively. Of those patients given dupilumab who had a response by week 16, more than 80% maintained their response at week 52 (maintenance). Over 52 weeks, greater proportions of those patients given dupilumab than patients given placebo were responders on at least 80% of time points: NPS, 46.7% versus 2.6%; NC score, 46.7% versus 9.2%; LoS score, 47.3% versus 3.9%; and SNOT-22 score, 62.0% versus 21.6%, respectively (durability).
+CONCLUSION
+: Most patients with CRSwNP achieve clinically meaningful responses to dupilumab by week 16, and most such patients in our study had maintenance and durability of response with continued treatment over time.

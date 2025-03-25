@@ -1,0 +1,28 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamanetworkopen.2024.49576.
+
+=== Métadonnées ===
+Ishani A, Hau C, Raju S, et al.
+Chlorthalidone vs Hydrochlorothiazide and Kidney Outcomes in Patients With Hypertension: A Secondary Analysis of a Randomized Clinical Trial.
+JAMA Netw Open. 2024 Dec 2;7(12):e2449576. doi: 10.1001/jamanetworkopen.2024.49576.
+                    (
+Original study
+)
+
+=== Abstract ===
+IMPORTANCE
+: Hypertension is a risk factor for the development and progression of chronic kidney disease (CKD). It is unclear whether different thiazide diuretics have a differential impact on kidney outcomes.
+OBJECTIVE
+: To compare kidney outcomes in patients with hypertension taking chlorthalidone and hydrochlorothiazide.
+DESIGN, SETTING, AND PARTICIPANTS
+: This prespecified secondary analysis of the Diuretic Comparison Project, a randomized clinical trial comparing chlorthalidone and hydrochlorothiazide for the treatment of hypertension, was conducted between June 1, 2016, and June 1, 2022, through Veterans Affairs facilities nationwide. This analysis extended follow-up to December 31, 2023. Veterans 65 years or older with hypertension who were taking hydrochlorothiazide were included.
+INTERVENTION
+: The Diuretic Comparison Project randomized 13?523 participants to continue hydrochlorothiazide or switch to chlorthalidone.
+MAIN OUTCOME AND MEASURES
+: The main kidney outcome was CKD progression, defined as doubling of serum creatinine level from baseline, a terminal estimated glomerular filtration rate (eGFR) less than 15 mL/min, or dialysis initiation.
+RESULTS
+: Analysis included 12?265 participants (90.7%) with a baseline and 1 or more follow-up creatinine measurements (median [IQR] age, 71 [69-75] years; 3.2% female and 96.8% male). The mean (SD) study duration was 3.9 (1.3) years. Chlorthalidone was not superior to hydrochlorothiazide at preventing kidney outcomes (369 of 6118 [6.0%] vs 396 of 6147 [6.4%]; hazard ratio [HR], 0.94; 95% CI, 0.81-1.08; P = .37). Similar results were observed when a 40% or greater reduction of eGFR was substituted for doubling of creatinine in the above outcome, as well as any of the components of the primary composite outcome. There was no difference in the incidence of CKD (961 of 4520 [21.3%] for chlorthalidone vs 939 of 4518 [20.8%] for hydrochlorothiazide; P = .59) or acute kidney injury requiring hospitalization (391 [6.4%] for chlorthalidone vs 379 [6.2%] for hydrochlorothiazide; P = .63) between groups. However, a statistically significant increased incidence of hypokalemia for chlorthalidone vs hydrochlorothiazide was observed (545 [8.9%] vs 426 [6.9%]; P < .001).
+CONCLUSIONS AND RELEVANCE
+: Chlorthalidone was not superior to hydrochlorothiazide for kidney outcomes but was associated with an increased risk for hypokalemia. Given these findings, clinicians should feel confident using either agent for the treatment of hypertension and kidney outcomes.
+TRIAL REGISTRATION
+: ClinicalTrials.gov Identifier: NCT02185417.

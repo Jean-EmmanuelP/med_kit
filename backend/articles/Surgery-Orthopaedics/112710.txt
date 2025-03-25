@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.arth.2024.02.007.
+
+=== Métadonnées ===
+Rajani AM, Mittal ARS, Kulkarni VU, et al.
+Duloxetine as an Analgesic in Patients Who Do Not Have Central Sensitivity Undergoing Single-Setting, Bilateral Total Knee Arthroplasty: A Prospective, Double-Blinded, Randomized, Placebo-Controlled Trial.
+J Arthroplasty. 2024 Aug;39(8):2055-2060. doi: 10.1016/j.arth.2024.02.007. Epub 2024 Feb 12.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: Pain control and patient satisfaction after total knee arthroplasty (TKA) have room for improvement. While studies have reported better analgesic outcomes with antidepressants like duloxetine in patients who do not have central sensitivity (CS), we undertook this trial to determine the short and midterm analgesic role of low-dose duloxetine in patients who do not have CS.
+METHODS
+: This prospective, double-blinded, randomized, placebo-controlled trial was conducted in 106 patients undergoing single-setting, bilateral TKA under spinal anesthesia. There were 2 matched groups, with one given 20 mg of duloxetine and the other given a placebo (similar in appearance and weight) from preoperative day 2 to postoperative day 28. Follow-ups were scheduled at 48-hours, 1-week, 2-weeks, 4-weeks, and 3-months. Pain was measured using a visual analogue scale at rest and visual analogue scale at mobilization (mVAS). Secondary measures included additional non-steroidal anti-inflammatory drug consumption, patient satisfaction, and safety profile.
+RESULTS
+: The visual analogue scale at rest in the duloxetine group was better in the first 48 hours (6.38 ± 1.32 versus 7.02 ± 0.99; P = .017), 1-week (4.76 ± 1.24 versus 5.89 ± 1.06; P < .001), and 2-weeks (3.34 ± 1.19 versus 4.26 ± 1.02; P < .001) follow-up. The mVAS remained significantly higher in the duloxetine group in the first 48 hours (7.23 ± 1.12 versus 8.21 ± 0.69; P < .001), 1-week (5.83 ± 1.11 versus 6.82 ± 0.92; P < .001), and 2 weeks (3.70 ± 0.89 versus 4.60 ± 1.03; P < .001) follow-up. Both outcomes became comparable from 4-week follow-up onward. Patient satisfaction (8.44 ± 1.68 versus 7.17 ± 1.04; P < .001) and additional non-steroidal anti-inflammatory drug consumption (2,770 ± 533.05 versus 3,566.04 ± 464.54; P < .001) were better in the duloxetine group, with a comparable safety profile.
+CONCLUSIONS
+: In patients who did not have CS, persistent pain after bilateral TKA can be managed safely and successfully by a daily dose of 20 mg Duloxetine, improving patient satisfaction and analgesic consumption in the acute postoperative phase.

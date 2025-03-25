@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1053/j.gastro.2024.10.001.
+
+=== Métadonnées ===
+Singh S, Loftus EV Jr, Limketkai BN, et al.
+AGA Living Clinical Practice Guideline on Pharmacological Management of Moderate-to-Severe Ulcerative Colitis.
+Gastroenterology. 2024 Dec;167(7):1307-1343. doi: 10.1053/j.gastro.2024.10.001.
+                    (
+Evidence-based guideline
+)
+
+=== Abstract ===
+BACKGROUND & AIMS
+: This American Gastroenterological Association (AGA) living guideline is intended to support practitioners in the pharmacological management of moderate-to-severe ulcerative colitis (UC).
+METHODS
+: A multidisciplinary panel of content experts and guideline methodologists used the Grading of Recommendations Assessment, Development and Evaluation (GRADE) framework to prioritize clinical questions, identify patient-centered outcomes, conduct an evidence synthesis, and develop recommendations on the pharmacological management of moderate-to-severe UC.
+RESULTS
+: The AGA guideline panel made 14 recommendations. In adult outpatients with moderate-to-severe UC, the AGA recommends the use of infliximab, golimumab, vedolizumab, tofacitinib, upadacitinib, ustekinumab, ozanimod, etrasimod, risankizumab, and guselkumab, and suggests the use of adalimumab, filgotinib, and mirikizumab over no treatment. In patients who are naïve to advanced therapies, the AGA suggests using a higher-efficacy medication (eg, infliximab, vedolizumab, ozanimod, etrasimod, upadacitinib, risankizumab, and guselkumab) or an intermediate-efficacy medication (eg, golimumab, ustekinumab, tofacitinib, filgotinib, and mirikizumab) rather than a lower-efficacy medication (eg, adalimumab). In patients who have previously been exposed to 1 or more advanced therapies, particularly tumor necrosis factor (TNF)-a antagonists, the AGA suggests using a higher-efficacy medication (eg, tofacitinib, upadacitinib, and ustekinumab) or an intermediate-efficacy medication (eg, filgotinib, mirikizumab, risankizumab, and guselkumab) rather than a lower-efficacy medication (eg, adalimumab, vedolizumab, ozanimod, and etrasimod). In adult outpatients with moderate-to-severe UC, the AGA suggests against using thiopurine monotherapy for induction of remission, but suggests using thiopurine monotherapy over no treatment for maintenance of (typically corticosteroid-induced) remission. The AGA suggests against using methotrexate monotherapy, for induction or maintenance of remission. In adult outpatients with moderate-to-severe UC, the AGA suggests the use of infliximab, adalimumab, and golimumab in combination with an immunomodulator over corresponding monotherapy. However, the AGA makes no recommendation in favor of, or against, the use of non-TNF antagonist biologics in combination with an immunomodulator over non-TNF biologic alone. In patients with UC who are in corticosteroid-free clinical remission for at least 6 months on combination therapy of TNF antagonists and an immunomodulator, the AGA suggests against withdrawal of TNF antagonists, but makes no recommendation in favor of, or against, withdrawing immunomodulators. In adult outpatients with moderate-to-severe UC, who have failed 5-aminosalicylates, and have escalated to therapy with immunomodulators or advanced therapies, the AGA suggests stopping 5-aminosalicylates. Finally, in adult outpatients with moderate-severe UC, the AGA suggests early use of advanced therapies and/or immunomodulator therapy, rather than gradual step-up after failure of 5-aminosalicylates. The panel also proposed key implementation considerations for optimal use of these medications and identified several knowledge gaps and areas for future research.
+CONCLUSIONS
+: This guideline provides a comprehensive, patient-centered approach to the pharmacological management of patients with moderate-to-severe UC.

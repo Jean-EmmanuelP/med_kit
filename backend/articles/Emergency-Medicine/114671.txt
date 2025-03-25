@@ -1,0 +1,22 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S1474-4422(24)00377-6.
+
+=== Métadonnées ===
+Muir KW, Ford GA, Ford I, et al.
+Tenecteplase versus alteplase for acute stroke within 4.5 h of onset (ATTEST-2): a randomised, parallel group, open-label trial.
+Lancet Neurol. 2024 Nov;23(11):1087-1096. doi: 10.1016/S1474-4422(24)00377-6.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: Tenecteplase has potential benefits over alteplase, the standard agent for intravenous thrombolysis in acute ischaemic stroke, because it is administered as a single bolus and might have superior efficacy. The ATTEST-2 trial investigated whether tenecteplase was non-inferior or superior to alteplase within 4·5 h of onset.
+METHODS
+: We undertook a prospective, randomised, parallel-group, open-label trial with masked endpoint evaluation in 39 UK stroke centres. Previously independent adults with acute ischaemic stroke, eligible for intravenous thrombolysis less than 4·5 h from last known well, were randomly assigned 1:1 to receive intravenous alteplase 0·9 mg/kg or tenecteplase 0·25 mg/kg, by use of a telephone-based interactive voice response system. The primary endpoint was the distribution of the day 90 modified Rankin Scale (mRS) score and was analysed using ordinal logistic regression in the modified intention-to-treat population. We tested the primary outcome for non-inferiority (odds ratio for tenecteplase vs alteplase non-inferiority limit of 0·75), and for superiority if non-inferiority was confirmed. Safety outcomes were mortality, symptomatic intracranial haemorrhage, radiological intracranial haemorrhage, and major extracranial bleeding. The trial was prospectively registered on ClinicalTrials.gov (NCT02814409).
+FINDINGS
+: Between Jan 25, 2017, and May 30, 2023, 1858 patients were randomly assigned to a treatment group, of whom 1777 received thrombolytic treatment and were included in the modified intention-to-treat population (n=885 allocated tenecteplase and n=892 allocated alteplase). The mean age of participants was 70·4 (SD 12·9) years and median National Institutes of Health Stroke Scale was 7 (IQR 5-13) at baseline. Tenecteplase was non-inferior to alteplase for mRS score distribution at 90 days, but was not superior (odds ratio 1·07; 95% CI 0·90-1·27; p value for non-inferiority<0·0001; p=0·43 for superiority). 68 (8%) patients in the tenecteplase group compared with 75 (8%) patients in the alteplase group died, symptomatic intracerebral haemorrhage (defined by SITS-MOST criteria) occurred in 20 (2%) versus 15 (2%) patients, parenchymal haematoma type 2 occurred in 37 (4%) versus 26 (3%) patients, post-treatment intracranial bleed occurred in 94 (11%) versus 78 (9%) patients, significant extracranial haemorrhage occurred in 13 (1%) versus six (1%) patients, respectively, and angioedema occurred in six (1%) participants in both groups.
+INTERPRETATION
+: Tenecteplase 0·25 mg/kg was non-inferior to 0·9 mg/kg alteplase within 4·5 h of symptom onset in acute ischaemic stroke. Easier administration of tenecteplase, especially in the context of interhospital transfers, indicates that tenecteplase should be preferred to alteplase for thrombolysis in acute ischaemic stroke. The ATTEST-2 population was large and representative of thrombolysis-eligible patients in the UK and, together with findings from other trials, provides robust evidence supporting the introduction of tenecteplase in preference to alteplase.
+FUNDING
+: The Stroke Association and British Heart Foundation.

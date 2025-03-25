@@ -1,0 +1,26 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1111/jocn.17225.
+
+=== Métadonnées ===
+Chang H, Zhou J, Chen Y, et al.
+Comparative effectiveness of eHealth interventions on the exercise endurance and quality of life of patients with COPD: A systematic review and network meta-analysis.
+J Clin Nurs. 2024 Aug;33(9):3711-3720. doi: 10.1111/jocn.17225. Epub 2024 Jun 27.
+                    (
+Systematic review
+)
+
+=== Abstract ===
+AIMS
+: To compare the effectiveness of different types of eHealth interventions in improving exercise endurance and quality of life in chronic obstructive pulmonary disease (COPD) patients.
+BACKGROUND
+: COPD is a chronic airway disease characterized by persistent respiratory symptoms and airflow limitation. eHealth interventions have been accepted and recognized by healthcare professionals and COPD patients as an effective alternative to pulmonary rehabilitation. However, it is not clear which eHealth interventions are effective and preferred for exercise endurance and quality of life in COPD patients.
+DESIGN
+: A systematic review and network meta-analysis based on PRISMA-NMA.
+METHODS
+: We searched nine electronic databases to identify randomized controlled trials addressing the effect of eHealth interventions on the exercise endurance and quality of life of COPD patients from their inception to 30 October 2022. First, a random-effects model was chosen to conduct a traditional meta-analysis to directly investigate the efficacy of different eHealth interventions. Next, a network meta-analysis was performed to evaluate the relative efficacy of the eHealth interventions for COPD. The quality of the data was assessed using the Cochrane Risk of Bias tool.
+RESULTS
+: Fifty-one studies containing six eHealth interventions (telemonitoring, application [APP], web-based interventions, phone calls, virtual reality and combined interventions [=two types]) were included in the final analysis. Network meta-analysis showed that telemonitoring, APP, web-based interventions and combined interventions improved exercise endurance in COPD patients, with telemonitoring being the most effective. Web-based interventions and apps are effective in improving the quality of life, and web-based interventions are the most effective.
+CONCLUSIONS
+: This study confirms that eHealth interventions can improve exercise endurance and quality of life in COPD patients. In the future, healthcare professionals can promote the use of telemedicine in COPD patients to enhance their exercise endurance and quality of life according to their individual needs.
+RELEVANCE TO CLINICAL PRACTICE
+: This evidence suggests that eHealth interventions can improve exercise endurance and quality of life in COPD patients. Therefore, in the future, eHealth interventions could be used to maximize their effectiveness in improving exercise endurance and quality of life in COPD patients.

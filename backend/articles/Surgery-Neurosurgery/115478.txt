@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1212/WNL.0000000000210060.
+
+=== Métadonnées ===
+Niazi F, Goel K, Chen JS, et al.
+Outcome of Surgery for Hypothalamic Hamartoma-Related Epilepsy: A Systematic Review and Individual Participant Data Meta-Analysis.
+Neurology. 2024 Dec 24;103(12):e210060. doi: 10.1212/WNL.0000000000210060. Epub 2024 Dec 6.
+                    (
+Systematic review
+)
+
+=== Abstract ===
+BACKGROUND AND OBJECTIVES
+: There is a paucity of data directly comparing the outcome of surgical techniques available for the treatment of hypothalamic hamartomas (HHs). This study aims to evaluate the safety and efficacy of commonly used surgical approaches in the treatment of HH-related epilepsy.
+METHODS
+: A systematic review and individual participant data (IPD) meta-analysis was conducted. The PubMed, Embase, and Scopus online databases were searched without any date restrictions for original studies with more than 1 participant reporting on patients with HH-related epilepsy who underwent surgical treatment. Random-effects modeling was used to calculate the pooled proportions of seizure freedom (Engel I) at the last follow-up. IPD were used to perform mixed-effects logistic regression to identify predictors of seizure freedom and major postoperative complications.
+RESULTS
+: Sixty-four studies were included, and IPD on 517 patients were obtained. The overall quality of evidence was low. After the index procedure, the pooled proportion of overall seizure freedom was 50.0% (95% CI 42.7%-57.4%), which increased to 64.5% (95% CI 57.2%-71.5%) after multiple treatments. Magnetic resonance-guided laser interstitial thermal therapy (MRgLITT) and radiofrequency thermocoagulation (RFTC) demonstrated the highest efficacy at the last follow-up, with seizure freedom rates of 74.5% (95% CI 66.8%-81.7%) and 78.5% (95% CI 71.6%-84.8%), respectively. Factors independently associated with a lower likelihood of seizure freedom included multiple seizure types (odds ratio [OR] 0.296, 95% CI 0.140-0.624, p = 0.001) and previous surgery (OR 0.418, 95% CI 0.198-0.884, p = 0.023). Stereotactic radiosurgery (SRS) was the safest approach, with a pooled proportion of major complications of 0.0% (95% CI 0.0%-1.4%). Only surgical technique emerged as an independent predictor of major complications, with SRS (OR 0.024, 95% CI 0.002-0.292, p = 0.004), RFTC (OR 0.133, 95% CI 0.026-0.692, p = 0.017), and MRgLITT (OR 0.234, 95% CI 0.056-0.968, p = 0.045) being associated with a lower likelihood of major complications.
+DISCUSSION
+: MRgLITT and RFTC offer superior efficacy and safety compared with open microsurgery and should be considered as first-line options. Despite its lower efficacy, SRS is associated with few reported long-term complications, making it a viable alternative for select cases, such as small HHs with good baseline functioning. Direct comparisons between techniques are limited by short follow-up durations in RFTC and MRgLITT cohorts. Further large-scale, multicenter studies directly comparing these modalities are warranted.

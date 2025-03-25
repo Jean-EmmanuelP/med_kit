@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO.24.00393.
+
+=== Métadonnées ===
+Lu J, Xing J, Zang L, et al.
+Extent of Lymphadenectomy for Surgical Management of Right-Sided Colon Cancer: The Randomized Phase III RELARC Trial.
+J Clin Oncol. 2024 Nov 20;42(33):3957-3966. doi: 10.1200/JCO.24.00393. Epub 2024 Aug 27.
+                    (
+Original study
+)
+
+=== Abstract ===
+PURPOSE
+: Complete mesocolic excision (CME) is being increasingly used for the treatment of right-sided colon cancer, although there is still no strong evidence that CME provides better long-term oncological outcomes than D2 dissection. The controversy is mainly regarding the survival benefit from extended lymph node dissection emphasized by CME.
+METHODS
+: This multicenter, open-label, randomized controlled trial (ClinicalTrials.gov identifier: NCT02619942) was performed across 17 hospitals in China. Patients diagnosed with stage T2-T4aNanyM0 or TanyN + M0 right-sided colon cancer were randomly assigned (1:1) to undergo either CME or D2 dissection during laparoscopic right colectomy. The primary outcome was the 3-year disease-free survival (DFS), and the main secondary outcome was the 3-year overall survival (OS).
+RESULTS
+: Between January 11, 2016, and December 26, 2019, 1,072 patients were randomly assigned (536 patients to CME and 536 patients to D2 dissection). In total, 995 patients (median age 61 years, 59% male) were included in the primary analysis (CME [n = 495] v D2 dissection [n = 500]). No significant differences were found between the groups in 3-year DFS (hazard ratio [HR], 0.74 [95% CI, 0.54 to 1.02]; P = .06; 86.1% in the CME group v 81.9% in the D2 group) or in 3-year OS (HR, 0.70 [95% CI, 0.43 to 1.16]; P = .17; 94.7% in the CME group v 92.6% in the D2 group).
+CONCLUSION
+: This trial failed to find evidence of superior DFS outcome for CME compared with standard D2 lymph node dissection in primary surgical excision of right-sided colon cancer. Standard D2 dissection should be the routine procedure for these patients. CME should only be considered in patients with obvious mesocolic lymph node involvement.

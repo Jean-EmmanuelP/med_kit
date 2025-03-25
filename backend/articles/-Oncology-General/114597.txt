@@ -1,0 +1,28 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamanetworkopen.2024.37964.
+
+=== Métadonnées ===
+Kulchycki M, Halder HR, Askin N, et al.
+Aerobic Physical Activity and Depression Among Patients With Cancer: A Systematic Review and Meta-Analysis.
+JAMA Netw Open. 2024 Oct 1;7(10):e2437964. doi: 10.1001/jamanetworkopen.2024.37964.
+                    (
+Systematic review
+)
+
+=== Abstract ===
+IMPORTANCE
+: Depression is prevalent among patients with cancer, affecting their quality of life and survival. Aerobic physical activity (APA) is an effective strategy for managing depression in the general population, but its effectiveness for reducing depressive symptoms among patients with cancer requires further study.
+OBJECTIVE
+: To evaluate whether APA decreases depression severity in patients with cancer by synthesizing data from published randomized clinical trials (RCTs).
+DATA SOURCES
+: Six databases (MEDLINE, Embase, Cochrane Central Register of Controlled Trials, CINAHL, PsycINFO, and Scopus) were systematically searched for relevant citations published between January 1, 1980, and July 5, 2023.
+STUDY SELECTION
+: This systematic review and meta-analysis included RCTs comparing APA interventions with usual care, waitlist control, or attention control for managing depression in patients with cancer, irrespective of age and cancer type.
+DATA EXTRACTION AND SYNTHESIS
+: Two reviewers independently conducted screening and data extraction. Risk of bias was evaluated using the Cochrane Risk of Bias Tool, version 2. The Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) reporting guideline was followed. Standardized mean differences (SMDs) were calculated using a random-effects model. Data collection and analyses were performed between June 2022 and March 2024.
+MAIN OUTCOMES AND MEASURES
+: The primary outcome was severity of self-reported depression reported within 1 month of the end of intervention (short term). Secondary outcomes were severity of self-reported depression between 1 and 6 months post intervention (medium term) and between 6 and 12 months post intervention (long term).
+RESULTS
+: This meta-analysis included 25 RCTs with a total of 1931 adults with cancer (age range, 18-80 years). Ten RCTs (40%) had low risk of bias. Aerobic physical activity was associated with decreased self-reported depression among adults with cancer across the 25 included trials (n = 1931 participants; SMD, -0.38 [95% CI, -0.59 to -0.18]; P < .001; I2 = 76%). This decrease in depression scores was also significant for the secondary outcomes of long-term depression across 3 trials (n = 299 participants; SMD, -0.32 [95% CI, -0.60 to -0.04]; P = .03; I2 = 31%) but not for medium-term depression across 2 trials (n = 143 participants; SMD, -0.27 [95% CI, -0.60 to 0.06]; P = .10; I2 = 0%).
+CONCLUSIONS AND RELEVANCE
+: In this systematic review and meta-analysis, APA was associated with modest short-term and long-term reductions of depression among adults with cancer. Future studies should discern the effectiveness of APA in combination with other strategies for managing depression across various populations of patients with cancer.

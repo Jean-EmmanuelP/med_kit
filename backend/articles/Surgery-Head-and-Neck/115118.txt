@@ -1,0 +1,22 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S2213-8587(24)00276-6.
+
+=== Métadonnées ===
+Leboulleux S, Bournaud C, Chougnet CN, et al.
+Thyroidectomy without radioiodine in patients with low-risk thyroid cancer: 5 years of follow-up of the prospective randomised ESTIMABL2 trial.
+Lancet Diabetes Endocrinol. 2025 Jan;13(1):38-46. doi: 10.1016/S2213-8587(24)00276-6. Epub 2024 Nov 22.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: ESTIMABL2, a multicentre randomised phase 3 trial in patients with low-risk differentiated thyroid cancer (ie, pT1am or pT1b, N0 [no evidence of regional nodal involvement] or Nx [involvement of regional lymph nodes that cannot be assessed in the absence of neck dissection]), showed the non-inferiority of a follow-up strategy without radioactive iodine (131I) administration compared with a postoperative 131I administration at 3 years post-randomisation. Here, we report a pre-specified analysis after 5 years of follow-up.
+METHODS
+: Patients treated with total thyroidectomy with or without prophylactic neck lymph node dissection, without postoperative suspicious findings on neck ultrasonography, were randomly assigned to the no-radioiodine group or to the radioiodine group (1·1 GBq-30 mCi after recombinant human thyrotropin-stimulating hormone). Follow-up consisted of annual thyroglobulin and thyroglobulin antibody determinations during levothyroxine treatment and neck ultrasonography in odd-numbered years. An event was defined as abnormal foci of 131I uptake on the post-treatment whole-body-scan requiring subsequent treatment, abnormal neck ultrasonography, elevated thyroglobulin levels, increasing titres or appearance of thyroglobulin antibody (using the same laboratory assay), or a combination of these definitions. Non-inferiority of the proportion of patients without an event in one group compared with the other at 5 years after randomisation was shown if this proportion and its CI did not differ by more than -5%. This study was registered on ClinicalTrials.gov (NCT01837745) and is completed.
+FINDINGS
+: Of the 776 patients (n=642 [82·7%] female and n=134 [17·3%] male, median age 52·9 years [IQR 42·6-63·1]) enrolled, 698 were evaluable at 5 years. The proportions of patients without events were 93·2% in the no-radioiodine group and 94·8% in the radioiodine group, for a difference of -1·6% (90% CI -4·5 to 1·4). Events consisted of structural or functional abnormalities (n=11) and biological abnormalities (n=31).
+INTERPRETATION
+: The non-inferiority of a follow-up strategy compared with postoperative 131I administration in low risk differentiated thyroid cancer was confirmed at 5 years. There is no loss of opportunity in following these patients without postoperative ablation.
+FUNDING
+: Programme de Recherche Hospitalier Clinique.

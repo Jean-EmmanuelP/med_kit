@@ -1,0 +1,22 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1093/bjs/znae196.
+
+=== Métadonnées ===
+Schiavone D, Crimi F, Cabrelle G, et al.
+Role of Lugol solution before total thyroidectomy for Graves' disease: randomized clinical trial.
+Br J Surg. 2024 Aug 2;111(8):znae196. doi: 10.1093/bjs/znae196.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: Lugol solution is often administered to patients with Graves' disease before surgery. The aim is to reduce thyroid vascularization and surgical morbidity, but its real effectiveness remains controversial. The present study was designed to evaluate the effects of preoperative Lugol solution on thyroid vascularization and surgical morbidity in patients with Graves' disease undergoing total thyroidectomy.
+METHODS
+: Fifty-six patients undergoing total thyroidectomy for Graves' disease were randomly assigned to receive 7 days of Lugol treatment (Lugol+ group, 29) or no Lugol treatment (LS- group, 27) before surgery in this single-centre and single-blinded trial. Preoperative hormone and colour Doppler ultrasonographic data for assessing thyroid vascularization were collected 8 days before surgery (T0) and on the day of surgery (T1). The primary outcome was intraoperative and postoperative blood loss. Secondary outcomes included duration of surgery, thyroid function, morbidity, vascularization, and microvessel density at final pathology.
+RESULTS
+: No differences in demographic, preoperative hormone or ultrasonographic data were found between LS+ and LS- groups at T0. At T1, free tri-iodothyronine (FT3) and free thyroxine (FT4) levels were significantly reduced compared with T0 values in the LS+ group, whereas no such variation was observed in the LS- group. No differences between T0 and T1 were found for ultrasonographic vascularization in either group, nor did the histological findings differ. There were no significant differences between the LS+ and LS- groups concerning intraoperative/postoperative blood loss (median 80.5 versus 94 ml respectively), duration of surgery (75 min in both groups) or postoperative morbidity.
+CONCLUSION
+: Lugol solution significantly reduces FT3 and FT4 levels in patients undergoing surgery for Graves' disease, but does not decrease intraoperative/postoperative blood loss, thyroid vascularization, duration of surgery or postoperative morbidity.
+REGISTRATION NUMBER
+: NCT05784792 (https://www.clinicaltrials.gov).

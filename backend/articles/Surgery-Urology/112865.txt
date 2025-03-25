@@ -1,0 +1,28 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jama.2024.3841.
+
+=== Métadonnées ===
+Auvinen A, Tammela TLJ, Mirtti T, et al.
+Prostate Cancer Screening With PSA, Kallikrein Panel, and MRI: The ProScreen Randomized Trial.
+JAMA. 2024 May 7;331(17):1452-1459. doi: 10.1001/jama.2024.3841.
+                    (
+Original study
+)
+
+=== Abstract ===
+IMPORTANCE
+: Prostate-specific antigen (PSA) screening has potential to reduce prostate cancer mortality but frequently detects prostate cancer that is not clinically important.
+OBJECTIVE
+: To describe rates of low-grade (grade group 1) and high-grade (grade groups 2-5) prostate cancer identified among men invited to participate in a prostate cancer screening protocol consisting of a PSA test, a 4-kallikrein panel, and a magnetic resonance imaging (MRI) scan.
+DESIGN, SETTING, AND PARTICIPANTS
+: The ProScreen trial is a clinical trial conducted in Helsinki and Tampere, Finland, that randomized 61?193 men aged 50 through 63 years who were free of prostate cancer in a 1:3 ratio to either be invited or not be invited to undergo screening for prostate cancer between February 2018 and July 2020.
+INTERVENTIONS
+: Participating men randomized to the intervention underwent PSA testing. Those with a PSA level of 3.0 ng/mL or higher underwent additional testing for high-grade prostate cancer with a 4-kallikrein panel risk score. Those with a kallikrein panel score of 7.5% or higher underwent an MRI of the prostate gland, followed by targeted biopsies for those with abnormal prostate gland MRI findings. Final data collection occurred through June 31, 2023.
+MAIN OUTCOMES AND MEASURES
+: In descriptive exploratory analyses, the cumulative incidence of low-grade and high-grade prostate cancer after the first screening round were compared between the group invited to undergo prostate cancer screening and the control group.
+RESULTS
+: Of 60?745 eligible men (mean [SD] age, 57.2 [4.0] years), 15?201 were randomized to be invited and 45?544 were randomized not to be invited to undergo prostate cancer screening. Of 15?201 eligible males invited to undergo screening, 7744 (51%) participated. Among them, 32 low-grade prostate cancers (cumulative incidence, 0.41%) and 128 high-grade prostate cancers (cumulative incidence, 1.65%) were detected, with 1 cancer grade group result missing. Among the 7457 invited men (49%) who refused participation, 7 low-grade prostate cancers (cumulative incidence, 0.1%) and 44 high-grade prostate cancers (cumulative incidence, 0.6%) were detected, with 7 cancer grade groups missing. For the entire invited screening group, 39 low-grade prostate cancers (cumulative incidence, 0.26%) and 172 high-grade prostate cancers (cumulative incidence, 1.13%) were detected. During a median follow-up of 3.2 years, in the group not invited to undergo screening, 65 low-grade prostate cancers (cumulative incidence, 0.14%) and 282 high-grade prostate cancers (cumulative incidence, 0.62%) were detected. The risk difference for the entire group randomized to the screening invitation vs the control group was 0.11% (95% CI, 0.03%-0.20%) for low-grade and 0.51% (95% CI, 0.33%-0.70%) for high-grade cancer.
+CONCLUSIONS AND RELEVANCE
+: In this preliminary descriptive report from an ongoing randomized clinical trial, 1 additional high-grade cancer per 196 men and 1 low-grade cancer per 909 men were detected among those randomized to be invited to undergo a single prostate cancer screening intervention compared with those not invited to undergo screening. These preliminary findings from a single round of screening should be interpreted cautiously, pending results of the study's primary mortality outcome.
+TRIAL REGISTRATION
+: ClinicalTrials.gov Identifier: NCT03423303.

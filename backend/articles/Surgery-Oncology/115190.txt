@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2412063.
+
+=== Métadonnées ===
+Reimer T, Stachs A, Veselinovic K, et al.
+Axillary Surgery in Breast Cancer - Primary Results of the INSEMA Trial.
+N Engl J Med. 2024 Dec 12. doi: 10.1056/NEJMoa2412063.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: Whether surgical axillary staging as part of breast-conserving therapy can be omitted without compromising survival has remained unclear.
+METHODS
+: In this prospective, randomized, noninferiority trial, we investigated the omission of axillary surgery as compared with sentinel-lymph-node biopsy in patients with clinically node-negative invasive breast cancer staged as T1 or T2 (tumor size, =5 cm) who were scheduled to undergo breast-conserving surgery. We report here the per-protocol analysis of invasive disease-free survival (the primary efficacy outcome). To show the noninferiority of the omission of axillary surgery, the 5-year invasive disease-free survival rate had to be at least 85%, and the upper limit of the confidence interval for the hazard ratio for invasive disease or death had to be below 1.271.
+RESULTS
+: A total of 5502 eligible patients (90% with clinical T1 cancer and 79% with pathological T1 cancer) underwent randomization in a 1:4 ratio. The per-protocol population included 4858 patients; 962 were assigned to undergo treatment without axillary surgery (the surgery-omission group), and 3896 to undergo sentinel-lymph-node biopsy (the surgery group). The median follow-up was 73.6 months. The estimated 5-year invasive disease-free survival rate was 91.9% (95% confidence interval [CI], 89.9 to 93.5) among patients in the surgery-omission group and 91.7% (95% CI, 90.8 to 92.6) among patients in the surgery group, with a hazard ratio of 0.91 (95% CI, 0.73 to 1.14), which was below the prespecified noninferiority margin. The analysis of the first primary-outcome events (occurrence or recurrence of invasive disease or death from any cause), which occurred in a total of 525 patients (10.8%), showed apparent differences between the surgery-omission group and the surgery group in the incidence of axillary recurrence (1.0% vs. 0.3%) and death (1.4% vs. 2.4%). The safety analysis indicates that patients in the surgery-omission group had a lower incidence of lymphedema, greater arm mobility, and less pain with movement of the arm or shoulder than patients who underwent sentinel-lymph-node biopsy.
+CONCLUSIONS
+: In this trial involving patients with clinically node-negative, T1 or T2 invasive breast cancer (90% with clinical T1 cancer and 79% with pathological T1 cancer), omission of surgical axillary staging was noninferior to sentinel-lymph-node biopsy after a median follow-up of 6 years. (Funded by the German Cancer Aid; INSEMA ClinicalTrials.gov number, NCT02466737.).

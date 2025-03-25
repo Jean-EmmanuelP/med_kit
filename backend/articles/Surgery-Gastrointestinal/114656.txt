@@ -1,0 +1,24 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1136/gutjnl-2024-332695.
+
+=== Métadonnées ===
+Onnekink AM, Gorris M, Bekkali NL, et al.
+Endoscopic sphincterotomy to prevent post-ERCP pancreatitis after self-expandable metal stent placement for distal malignant biliary obstruction (SPHINX): a multicentre, randomised controlled trial.
+Gut. 2025 Jan 17;74(2):246-254. doi: 10.1136/gutjnl-2024-332695.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: Endoscopic retrograde cholangiopancreatography (ERCP) with fully covered self-expandable metal stent (FCSEMS) placement is the preferred approach for biliary drainage in patients with suspected distal malignant biliary obstruction (MBO). However, FCSEMS placement is associated with a high risk of post-ERCP pancreatitis (PEP). Endoscopic sphincterotomy prior to FCSEMS placement may reduce PEP risk.
+OBJECTIVE
+: To compare endoscopic sphincterotomy to no sphincterotomy prior to FCSEMS placement.
+DESIGN
+: This multicentre, randomised, superiority trial was conducted in 17 hospitals and included patients with suspected distal MBO. Patients were randomised during ERCP to receive either endoscopic sphincterotomy (sphincterotomy group) or no sphincterotomy (control group) prior to FCSEMS placement. The primary outcome was PEP within 30 days. Secondary outcomes included procedure-related complications and 30-day mortality. An interim analysis was performed after 50% of patients (n=259) had completed follow-up.
+RESULTS
+: Between May 2016 and June 2023, 297 patients were included in the intention-to-treat analysis, with 156 in the sphincterotomy group and 141 in the control group. After the interim analysis, the study was terminated prematurely due to futility. PEP did not differ between groups, occurring in 26 patients (17%) in the sphincterotomy group compared with 30 patients (21%) in the control group (relative risk 0.78, 95% CI 0.49 to 1.26, p=0.37). There were no significant differences in bleeding, perforation, cholangitis, cholecystitis or 30-day mortality.
+CONCLUSION
+: This trial found that endoscopic sphincterotomy was not superior to no sphincterotomy in reducing PEP in patients with distal MBO. Therefore, there was insufficient evidence to recommend routine endoscopic sphincterotomy prior to FCEMS placement.
+TRIAL REGISTRATION NUMBER
+: NL5130.

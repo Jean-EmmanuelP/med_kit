@@ -1,0 +1,28 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamasurg.2024.1023.
+
+=== Métadonnées ===
+Lin JX, Xu BB, Zheng HL, et al.
+Laparoscopic Spleen-Preserving Hilar Lymphadenectomy for Advanced Proximal Gastric Cancer Without Greater Curvature Invasion: Five-Year Outcomes From the Fuges-02 Randomized Clinical Trial.
+JAMA Surg. 2024 Jul 1;159(7):747-755. doi: 10.1001/jamasurg.2024.1023.
+                    (
+Original study
+)
+
+=== Abstract ===
+IMPORTANCE
+: Splenic hilar lymphadenectomy has been recommended for locally advanced proximal gastric cancer (APGC) involving the greater curvature. However, it is unclear whether laparoscopic spleen-preserving splenic hilar lymphadenectomy (LSPSHL) is associated with a long-term survival benefit for APGC without greater curvature invasion.
+OBJECTIVE
+: To present the 5-year follow-up data from a randomized clinical trial that compared laparoscopic total gastrectomy (D2 group) with D2 plus LSPSHL (D2 + No. 10 group) among patients with resectable APGC.
+DESIGN, SETTING, AND PARTICIPANTS
+: This is a post hoc secondary analysis of a randomized clinical trial that enrolled 536 patients with potentially resectable APGC (cT2-4a, N0 or N+, and M0) without greater curvature invasion from January 5, 2015, to October 10, 2018. All patients were tracked for at least 5 years. The final follow-up was on October 30, 2023.
+INTERVENTIONS
+: Patients were randomly assigned in a 1:1 ratio to the D2 + No. 10 or D2 groups.
+MAIN OUTCOMES AND MEASURES
+: The 5-year disease-free survival (DFS) and overall survival (OS) rates were measured. Recurrence patterns and causes of death were compared.
+RESULTS
+: A total of 526 patients (392 men [74.5%]; mean [SD] age, 60.6 [9.6] years) were included in the modified intent-to-treat analysis, with 263 patients in each group. The 5-year DFS rate was 63.9% (95% CI, 58.1%-69.7%) for the D2 + No. 10 group and 55.1% (95% CI, 49.1%-61.1%) for the D2 group (log-rank P = .04). A statistically significant difference was observed in the 5-year OS between the D2 + No. 10 group and the D2 group (66.2% [95% CI, 60.4%-71.9%] vs 57.4% [95% CI, 51.4%-63.4%]; log-rank P = .03). The No. 10 lymph node exhibited a therapeutic value index (TVI) of 6.5, surpassing that of Nos. 8a (TVI, 3.0), 11 (TVI, 5.8), and 12a (TVI, 0.8). A total of 86 patients in the D2 + No. 10 group (cumulative incidence, 32.7%) and 111 patients in the D2 group (cumulative incidence, 42.2%) experienced recurrence (hazard ratio, 0.72; 95% CI, 0.54-0.95; P = .02). The multivariable competing risk regression model demonstrated that D2 + No. 10 remained an independent protective factor for a lower 5-year cumulative recurrence rate after surgery (hazard ratio, 0.75; 95% CI, 0.56-1.00; P = .05). There was a significant difference in the 5-year cumulative recurrence rate at the No. 10 lymph node area between the 2 groups (D2 + No. 10 group vs D2 group: 0% vs 2.3% [n = 6]; P = .01).
+CONCLUSIONS
+: This post hoc secondary analysis of a randomized clinical trial found that laparoscopic total gastrectomy with LSPSHL can improve the prognosis and reduce recurrence for APGC without greater curvature invasion. Future multicenter studies are warranted to validate these findings.
+TRIAL REGISTRATION
+: ClinicalTrials.gov Identifier: NCT02333721.

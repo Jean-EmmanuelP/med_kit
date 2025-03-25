@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.2337/dc24-1550.
+
+=== Métadonnées ===
+Renard E, Weinstock RS, Aleppo G, et al.
+Efficacy and Safety of a Tubeless AID System Compared With Pump Therapy With CGM in the Treatment of Type 1 Diabetes in Adults With Suboptimal Glycemia: A Randomized, Parallel-Group Clinical Trial.
+Diabetes Care. 2024 Dec 1;47(12):2248-2257. doi: 10.2337/dc24-1550.
+                    (
+Original study
+)
+
+=== Abstract ===
+OBJECTIVE
+: To examine the efficacy and safety of the tubeless Omnipod 5 automated insulin delivery (AID) system compared with pump therapy with a continuous glucose monitor (CGM) in adults with type 1 diabetes with suboptimal glycemic outcomes.
+RESEARCH DESIGN AND METHODS
+: In this 13-week multicenter, parallel-group, randomized controlled trial performed in the U.S. and France, adults aged 18-70 years with type 1 diabetes and HbA1c 7-11% (53-97 mmol/mol) were randomly assigned (2:1) to intervention (tubeless AID) or control (pump therapy with CGM) following a 2-week standard therapy period. The primary outcome was a treatment group comparison of time in range (TIR) (70-180 mg/dL) during the trial period.
+RESULTS
+: A total of 194 participants were randomized, with 132 assigned to the intervention and 62 to the control. TIR during the trial was 4.2h/day higher in the intervention compared with the control group (mean difference 17.5% [95% CI 14.0%, 21.1%]; P < 0.0001). The intervention group had a greater reduction in HbA1c from baseline compared with the control group (mean ± SD -1.24 ± 0.75% [-13.6 ± 8.2 mmol/mol] vs. -0.68 ± 0.93% [-7.4 ± 10.2 mmol/mol], respectively; P < 0.0001), accompanied by a significantly lower time <70 mg/dL (1.18 ± 0.86% vs. 1.75 ± 1.68%; P = 0.005) and >180 mg/dL (37.6 ± 11.4% vs. 54.5 ± 15.4%; P < 0.0001). All primary and secondary outcomes were met. No instances of diabetes-related ketoacidosis or severe hypoglycemia occurred in the intervention group.
+CONCLUSIONS
+: Use of the tubeless AID system led to improved glycemic outcomes compared with pump therapy with CGM among adults with type 1 diabetes, underscoring the clinical benefit of AID and bolstering recommendations to establish AID systems as preferred therapy for this population.

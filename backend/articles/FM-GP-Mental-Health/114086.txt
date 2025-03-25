@@ -1,0 +1,28 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1136/bmj-2023-078607.
+
+=== Métadonnées ===
+Hsu TW, Tsai CK, Kao YC, et al.
+Comparative oral monotherapy of psilocybin, lysergic acid diethylamide, 3,4-methylenedioxymethamphetamine, ayahuasca, and escitalopram for depressive symptoms: systematic review and Bayesian network meta-analysis.
+BMJ. 2024 Aug 21;386:e078607. doi: 10.1136/bmj-2023-078607.
+                    (
+Systematic review
+)
+
+=== Abstract ===
+OBJECTIVE
+: To evaluate the comparative effectiveness and acceptability of oral monotherapy using psychedelics and escitalopram in patients with depressive symptoms, considering the potential for overestimated effectiveness due to unsuccessful blinding.
+DESIGN
+: Systematic review and Bayesian network meta-analysis.
+DATA SOURCES
+: Medline, Cochrane Central Register of Controlled Trials, Embase, PsycINFO, ClinicalTrial.gov, and World Health Organization's International Clinical Trials Registry Platform from database inception to 12 October 2023.
+ELIGIBILITY CRITERIA FOR SELECTING STUDIES
+: Randomised controlled trials on psychedelics or escitalopram in adults with depressive symptoms. Eligible randomised controlled trials of psychedelics (3,4-methylenedioxymethamphetamine (known as MDMA), lysergic acid diethylamide (known as LSD), psilocybin, or ayahuasca) required oral monotherapy with no concomitant use of antidepressants.
+DATA EXTRACTION AND SYNTHESIS
+: The primary outcome was change in depression, measured by the 17-item Hamilton depression rating scale. The secondary outcomes were all cause discontinuation and severe adverse events. Severe adverse events were those resulting in any of a list of negative health outcomes including, death, admission to hospital, significant or persistent incapacity, congenital birth defect or abnormality, and suicide attempt. Data were pooled using a random effects model within a Bayesian framework. To avoid estimation bias, placebo responses were distinguished between psychedelic and antidepressant trials.
+RESULTS
+: Placebo response in psychedelic trials was lower than that in antidepression trials of escitalopram (mean difference -3.90 (95% credible interval -7.10 to -0.96)). Although most psychedelics were better than placebo in psychedelic trials, only high dose psilocybin was better than placebo in antidepression trials of escitalopram (mean difference 6.45 (3.19 to 9.41)). However, the effect size (standardised mean difference) of high dose psilocybin decreased from large (0.88) to small (0.31) when the reference arm changed from placebo response in the psychedelic trials to antidepressant trials. The relative effect of high dose psilocybin was larger than escitalopram at 10 mg (4.66 (95% credible interval 1.36 to 7.74)) and 20 mg (4.69 (1.64 to 7.54)). None of the interventions was associated with higher all cause discontinuation or severe adverse events than the placebo.
+CONCLUSIONS
+: Of the available psychedelic treatments for depressive symptoms, patients treated with high dose psilocybin showed better responses than those treated with placebo in the antidepressant trials, but the effect size was small.
+SYSTEMATIC REVIEW REGISTRATION
+: PROSPERO, CRD42023469014.

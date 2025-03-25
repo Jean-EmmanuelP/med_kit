@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO.24.01118.
+
+=== Métadonnées ===
+Palmer DH, Jackson R, Springfeld C, et al.
+Pancreatic Adenocarcinoma: Long-Term Outcomes of Adjuvant Therapy in the ESPAC4 Phase III Trial.
+J Clin Oncol. 2024 Dec 5:JCO2401118. doi: 10.1200/JCO.24.01118.
+                    (
+Original study
+)
+
+=== Abstract ===
+PURPOSE
+: The ESPAC4 trial showed that adjuvant chemotherapy with gemcitabine plus capecitabine (GemCap) produced longer overall survival (OS) than gemcitabine monotherapy. Subsequently, the PRODIGE24-CCTG PA.6 trial showed even longer survival for modified fluorouracil, folinic acid, irinotecan, and oxaliplatin (mFOLFIRINOX) than gemcitabine but had more restrictive eligibility criteria. Our aim was to analyze the ESPAC4 survival on long-term follow-up.
+METHODS
+: The OS of 732 ESPAC4 patients comparing 367 randomly assigned to gemcitabine and 365 to GemCap was previously reported after a median follow-up time of 43.2 months (95% CI, 39.7 to 45.5) and 458 deaths. Analysis was now carried out after a median follow-up of 104 months (101-108) and 566 deaths.
+RESULTS
+: The median OS was 29.5 months (27.5-32.1) for all patients, 28.4 months (25.2-32.0) in the gemcitabine group and 31.6 months (26.5-38.0) in the GemCap group (hazard ratio [HR], 0.83 [0.71 to 0.98]; P = .031). R0 patients given gemcitabine had a median survival of 32.2 months (27.9-41.6) compared with 49.9 months (39.0-82.3) for those given GemCap (HR, 0.63 [0.47 to 0.84]; P = .002). Lymph node-negative patients had significantly higher 5 year OS rates on GemCap (59% [49%-71%]) than gemcitabine (53% [42%-66%]; HR, 0.63 [0.41 to 0.98]; P = .04) but not those with positive lymph nodes (P = .225). The OS advantage for GemCap was retained in the PRODIGE24 subgroup of 193 (26.4%) ESPAC4 patients not eligible for PRODIGE24 with a median survival of 20.7 (16.2-27.3) months in patients allocated to gemcitabine compared with 25.9 (22.3-30.2) months for ineligible patients allocated to GemCap (HR, 0.71 [95% CI, 0.52 to 0.98]; ?2log-rank-1df = 4.31; P = .038).
+CONCLUSION
+: GemCap is a standard option for patients not eligible for mFOLFIRINOX. Exploratory evidence suggests that GemCap may be particularly efficacious in R0 patients and also in lymph node-negative patients.

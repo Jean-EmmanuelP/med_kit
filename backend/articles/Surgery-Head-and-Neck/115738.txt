@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO-24-02755.
+
+=== Métadonnées ===
+Holsinger FC, Ismaila N, Adkins DR, et al.
+Transoral Robotic Surgery in the Multidisciplinary Care of Patients With Oropharyngeal Squamous Cell Carcinoma: ASCO Guideline.
+J Clin Oncol. 2025 Feb 11:JCO2402755. doi: 10.1200/JCO-24-02755.
+                    (
+Evidence-based guideline
+)
+
+=== Abstract ===
+PURPOSE
+: To provide evidence-based recommendations for the use of transoral robotic surgery (TORS) in the multidisciplinary management of oropharyngeal squamous cell cancer (OPC).
+METHODS
+: ASCO convened a multidisciplinary Expert Panel to evaluate the evidence and formulate recommendations. The literature search included studies published between January 1, 2002, and August 31, 2024, and comprised systematic reviews, meta-analyses, randomized controlled trials, and observational studies. Outcomes of interest include overall and disease-free survival, functional outcomes, and quality of life. Expert Panel members used available evidence and informal consensus to develop evidence-based guideline recommendations.
+RESULTS
+: A total of 58 publications were identified to inform the evidence base for this guideline.
+RECOMMENDATIONS
+: Evidence-based recommendations address the evaluation and workup of patients with human papillomavirus (HPV)-positive OPC, the role of TORS, patient selection, adjuvant therapy, HPV-negative OPC, and use of TORS in salvage or recurrent setting.Additional information is available at www.asco.org/head-neck-cancer-guidelines.

@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1136/ard-2023-225319.
+
+=== Métadonnées ===
+Kostopoulou M, Mukhtyar CB, Bertsias G, et al.
+Management of systemic lupus erythematosus: a systematic literature review informing the 2023 update of the EULAR recommendations.
+Ann Rheum Dis. 2024 Oct 21;83(11):1489-1501. doi: 10.1136/ard-2023-225319.
+                    (
+Systematic review
+)
+
+=== Abstract ===
+OBJECTIVES
+: To analyse the new evidence (2018-2022) for the management of systemic lupus erythematosus (SLE) to inform the 2023 update of the European League Against Rheumatism (EULAR) recommendations.
+METHODS
+: Systematic literature reviews were performed in the Medline and the Cochrane Library databases capturing publications from 1 January 2018 through 31 December 2022, according to the EULAR standardised operating procedures. The research questions focused on five different domains, namely the benefit/harm of SLE treatments, the benefits from the attainment of remission/low disease activity, the risk/benefit from treatment tapering/withdrawal, the management of SLE with antiphospholipid syndrome and the safety of immunisations against varicella zoster virus and SARS-CoV2 infection. A Population, Intervention, Comparison and Outcome framework was used to develop search strings for each research topic.
+RESULTS
+: We identified 439 relevant articles, the majority being observational studies of low or moderate quality. High-quality randomised controlled trials (RCTs) documented the efficacy of the type 1 interferon receptor inhibitor, anifrolumab, in non-renal SLE, and belimumab and voclosporin, a novel calcineurin inhibitor, in lupus nephritis (LN), when compared with standard of care. For the treatment of specific organ manifestations outside LN, a lack of high-quality data was documented. Multiple observational studies confirmed the beneficial effects of attaining clinical remission or low disease activity, reducing the risk for multiple adverse outcomes. Two randomised trials with some concerns regarding risk of bias found higher rates of relapse in patients who discontinued glucocorticoids (GC) or immunosuppressants in SLE and LN, respectively, yet observational cohort studies suggest that treatment withdrawal might be feasible in a subset of patients.
+CONCLUSION
+: Anifrolumab and belimumab achieve better disease control than standard of care in extrarenal SLE, while combination therapies with belimumab and voclosporin attained higher response rates in high-quality RCTs in LN. Remission and low disease activity are associated with favourable long-term outcomes. In patients achieving these targets, GC and immunosuppressive therapy may gradually be tapered. Cite Now.

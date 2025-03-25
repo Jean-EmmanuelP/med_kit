@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1093/ageing/afae293.
+
+=== Métadonnées ===
+Xie K, Huang J, Chen T, et al.
+A mobile interactive cognitive self-assessment scale for screening cognitive impairment due to Alzheimer's disease.
+Age Ageing. 2025 Jan 6;54(1):afae293. doi: 10.1093/ageing/afae293.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: A mobile cognition scale for community screening in cognitive impairment with rigorous validation is in paucity. We aimed to develop a digital scale that overcame low education for community screening for mild cognitive impairment (MCI) due to Alzheimer's disease (AD) and AD.
+METHODS
+: A mobile cognitive self-assessment scale (CogSAS) was designed through the Delphi process, which is feasible for the older population with low education. In Phase 1, 518 clinically diagnosed participants were subjected to optimise the items. In Phase 2, the scale was validated in 358 participants with cognitively unimpaired and 396 participants of clinically diagnosed MCI and dementia for reliability, validity and diagnostic accuracy. In Phase 3, specificity and sensitivity were tested for biologically diagnosed participants of 38 with cognitively unimpaired and 45 with MCI and dementia due to AD according to the amyloid, tau, neurodegeneration classification system.
+RESULTS
+: The CogSAS was a three-task mobile scale testing memory and executive function. In Phase 2, the internal consistency was 0.81, and the test-retest reliability was 0.82. The construct validity was 0.74, and the criterion validity was 0.77. The sensitivity and specificity for discriminating clinically diagnosed participants with MCI and dementia from cognitively unimpaired were 0.90 and 0.67, respectively. For discriminating biologically diagnosed MCI and dementia due to AD from cognitively unimpaired, the sensitivity and specificity were 1.00 and 0.78, respectively.
+CONCLUSIONS
+: The CogSAS has good reliability, validity and feasibility, showing a high sensitivity and specificity both in the community and the clinic, identifying biologically diagnosed MCI and dementia due to AD.

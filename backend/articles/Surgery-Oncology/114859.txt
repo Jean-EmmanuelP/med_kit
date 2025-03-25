@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1093/bjs/znae265.
+
+=== Métadonnées ===
+Wenzelberg CL, Rogmark P, Ekberg O, et al.
+Reinforced tension-line suture after laparotomy: early results of the Rein4CeTo1 randomized clinical trial.
+Br J Surg. 2024 Sep 3;111(10):znae265. doi: 10.1093/bjs/znae265.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: The aim was to investigate whether adding a reinforced tension-line (RTL) suture to a standard 4 : 1 small-bite closure would reduce the incidence of incisional hernia after colorectal cancer surgery.
+METHODS
+: Patients aged at least 18 years, who were scheduled for elective colorectal cancer surgery through a midline incision at two Swedish hospitals (2017-2021), were randomized in a 1 : 1 ratio to either fascial closure with RTL and 4 : 1 small-bite closure with polypropylene sutures (RTL group) or 4 : 1 small-bite closure with polydioxanone suture alone (PDS group). The primary outcome was CT-detected incisional hernia 1 year after surgery. CT interpreters were blinded regarding treatment group.
+RESULTS
+: In all, 160 patients were randomized, 80 in each group. The study closed early to recruitment and follow-up. Some 134 patients were analysed at 1 year: 63 in the RTL group and 71 in the PDS group. Nineteen patients were found to have an incisional hernia: 4 (6%) in the RTL group and 15 (21%) in the PDS group (OR 3.95, 95% c.i. 1.24 to 12.60; P = 0.014). No unintended effects were found in either group.
+CONCLUSION
+: Adding an RTL suture at fascial closure decreased the incidence of incisional hernia in patients undergoing surgery for colorectal cancer. Trial registration: NCT03390764 (https://clinicaltrials.gov).

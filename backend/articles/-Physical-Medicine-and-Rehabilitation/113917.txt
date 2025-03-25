@@ -1,0 +1,22 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1177/02692155241262884.
+
+=== Métadonnées ===
+Ahola K, Dorstyn D, Prideaux N
+Best practice exercise for emerging depression in multiple sclerosis: A systematic review and meta-analysis.
+Clin Rehabil. 2024 Sep;38(9):1171-1187. doi: 10.1177/02692155241262884. Epub 2024 Jul 25.
+                    (
+Systematic review
+)
+
+=== Abstract ===
+OBJECTIVE
+: To examine the effects of instructor-led exercise on depression symptoms in adults with multiple sclerosis, with a focus on moderating factors to treatment response.
+DATA SOURCES
+: Cochrane Library, Embase, PEDro, PsycINFO and PubMed databases were searched until 21 April 2024.
+REVIEW METHODS
+: The reporting quality of included studies assessed (PEDro and TESTEX scales). Hedges' g effect sizes were calculated and pooled using random and mixed-effects modelling.
+RESULTS
+: Twenty-two independent studies (k), representing 785 participants with relapsing remitting or progressive MS, were included. Individual studies varied in their reporting quality (PEDro range: 3-8) and did not routinely detail exercise parameters (TESTEX range: 5-13). Nonetheless, exercise reduced core symptoms of depression (gw = .52, CI: .30-.73, P < .01). Treatment effects were, however, not maintained once training had ceased (gw = -.53, CI: -.80 to .24, P = .01, k = 5). Both aerobic and non-aerobic exercise groups experienced a significant (P < .01) reduction in depression scores. Larger gains were noted by those with better ambulation at baseline (P = .03).
+CONCLUSION
+: Regular exercise can help to stabilise mood for people living with multiple sclerosis, regardless of session frequency or duration. Treatment efficacy could be maximised by addressing potential barriers for those with limited mobility, including exercise type, delivery and intensity. Protocol registered on Open Science Framework [https://osf.io/zfymq/].

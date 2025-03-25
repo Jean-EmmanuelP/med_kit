@@ -1,0 +1,24 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S1473-3099(24)00376-1.
+
+=== Métadonnées ===
+Nogueira ML, Cintra MAT, Moreira JA, et al.
+Efficacy and safety of Butantan-DV in participants aged 2-59 years through an extended follow-up: results from a double-blind, randomised, placebo-controlled, phase 3, multicentre trial in Brazil.
+Lancet Infect Dis. 2024 Nov;24(11):1234-1244. doi: 10.1016/S1473-3099(24)00376-1. Epub 2024 Aug 5.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: A single-dose dengue vaccine that protects individuals across a wide age range and regardless of dengue serostatus is an unmet need. We assessed the safety and efficacy of the live, attenuated, tetravalent Butantan-dengue vaccine (Butantan-DV) in adults, adolescents, and children. We previously reported the primary and secondary efficacy and safety endpoints in the initial 2 years of follow-up. Here we report the results through an extended follow-up period, with an average of 3·7 years of follow-up.
+METHODS
+: In this double-blind, randomised, placebo-controlled, phase 3, multicentre trial in Brazil, healthy participants (aged 2-59 years) who had not previously received a dengue vaccine were enrolled and randomly assigned 2:1 (stratified by age 18-59 years, 7-17 years, and 2-6 years) using a central electronic randomisation system to receive 0·5 mL of Butantan-DV (containing approximately 103 plaque-forming units of each of the four vaccine virus strains) or placebo, administered subcutaneously. Syringes containing vaccine or placebo were prepared by an unmasked trial pharmacist who was not involved in any subsequent participant assessments; other site staff and the participants remained unaware of the group allocations. Vaccine efficacy was calculated with the accrual of virologically confirmed dengue (VCD) cases (by RT-PCR) at least 28 days after vaccination up until the cutoff (at least 2 years of follow-up from the last participant enrolled). The primary endpoint was vaccine efficacy against VCD after day 28 by any dengue virus (DENV) serotype regardless of dengue serostatus at baseline in the per-protocol population. The primary and secondary safety endpoints up until day 21 were previously reported; secondary safety endpoints include the frequency of unsolicited vaccine-related adverse events after day 22. Safety analyses were done on all participants as treated. This trial is registered with ClinicalTrials.gov (NCT02406729) and is ongoing.
+FINDINGS
+: Of 16 363 participants assessed for eligibility, 16 235 were randomly assigned between Feb 22, 2016, and July 5, 2019, and received single-dose Butantan-DV (10 259 participants) or placebo (5976 participants). 16 162 participants (Butantan-DV n=10 215; placebo n=5947) were included in the per-protocol population and 16 235 (Butantan-DV n=10 259; placebo n=5976) in the safety population. At the data cutoff (July 13, 2021), participants had 2-5 years of follow-up (mean 3·7 years [SD 1·0], median 4·0 years [IQR 3·2-4·5]). 356 VCD cases were captured through the follow-up (128 in the vaccine group and 228 in the placebo group). Vaccine efficacy against VCD caused by any DENV serotype was 67·3% (95% CI 59·4-73·9); cases caused by DENV-3 or DENV-4 were not observed. The proportions of participants who had serious adverse events were similar between treatment groups (637 [6·2%] in the vaccine group and 395 [6·6%] in the placebo group) up until the cutoff.
+INTERPRETATION
+: A single dose of Butantan-DV was generally well tolerated and efficacious against symptomatic VCD (caused by DENV-1 and DENV-2) for a mean of 3·7 years. These findings support the continued development of Butantan-DV to prevent dengue disease in children, adolescents, and adults regardless of dengue serostatus.
+FUNDING
+: Instituto Butantan and Merck Sharp & Dohme LLC, a subsidiary of Merck & Co.
+TRANSLATIONS
+: For the Spanish and Portuguese translations of the abstract see Supplementary Materials section.

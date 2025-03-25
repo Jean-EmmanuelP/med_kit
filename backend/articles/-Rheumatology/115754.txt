@@ -1,0 +1,22 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.2147/JPR.S501505.
+
+=== Métadonnées ===
+Thanawala S, Shah R, Alluri KV, et al.
+Efficacy and Safety of a Novel Low-Dose Water-Dispersible Turmeric Extract in the Management of Knee Osteoarthritis: A Randomized, Double-Blind, Placebo-Controlled Clinical Trial.
+J Pain Res. 2025 Jan 25;18:411-427. doi: 10.2147/JPR.S501505. eCollection 2025.
+                    (
+Original study
+)
+
+=== Abstract ===
+PURPOSE
+: Turmeric extract is a well-known nutraceutical ingredient recognized for its benefits in managing musculoskeletal health. This study evaluated the efficacy and safety of a novel low-dose water-dispersible turmeric extract containing 60% natural curcuminoids (WDTE60N) in participants with mild-to-moderate knee osteoarthritis.
+PATIENTS AND METHODS
+: This double-blind, randomized, placebo-controlled trial was conducted at two orthopedic centers in Uttar Pradesh, India (July 2023-November 2023). Participants aged 45-75 years with unilateral or bilateral OA of the knee for >3 months were randomized in 1:1 ratio to receive WDTE60N (250 mg) or placebo capsules once daily for three months. Study endpoints included assessment of changes from baseline to day 90 in pain intensity (visual analog scale [VAS], knee injury and osteoarthritis outcome score [KOOS]), inflammatory biomarkers, and safety profile. Data were analyzed using independent t-test, chi-square test, and analysis of co-variance test.
+RESULTS
+: In total, 139 participants (WDTE60N, n = 70; placebo, n = 69) with mean age and BMI of 56.35 years and 23.89 kg/m2, respectively, were included. The mean reduction (95% CI) in VAS score from baseline to day 90 was significantly higher in the WDTE60N group than in the placebo group (14.41 [13.08, 15.75] vs 6.02 [5.00, 7.05]; p < 0.0001). In the WDTE60N group, the mean change in VAS scores was significantly reduced from as early as day 07 (p = 0.0076), which continued until day 90 (p < 0.0001), compared to the placebo group. Improvement in the mean KOOS scores (baseline-Day 90) was evident, with significantly higher mean scores for each domain (pain, symptoms, activities of daily living, function in sport and recreation, and knee-related quality of life [QoL]) on Day 90 in the WDTE60N group than in the placebo group (p < 0.05). Inflammatory biomarkers (hsCRP, TNF-a, IL-6, and IL-1ß) were significantly reduced from baseline to day 90 in the WDTE60N group compared to the placebo group (p < 0.0001). Four mild adverse events were reported during the study period.
+CONCLUSION
+: Supplementation with the low-dose water-dispersible turmeric extract containing 60% natural curcuminoids for three months was safe and effective in alleviating pain, improving functional status and quality of life and reducing inflammation in participants with mild-to-moderate knee osteoarthritis.
+CTRI REGISTRATION NUMBER
+: CTRI/2023/07/055411.

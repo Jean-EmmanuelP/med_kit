@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.thromres.2024.109107.
+
+=== Métadonnées ===
+Zhu YF, Ma JH, Qian H, et al.
+Risks of bleeding and thromboembolic events in patients undergoing colonoscopy on uninterrupted and interrupted anticoagulant therapy in real-world setting.
+Thromb Res. 2024 Sep;241:109107. doi: 10.1016/j.thromres.2024.109107. Epub 2024 Jul 31.
+                    (
+Systematic review
+)
+
+=== Abstract ===
+BACKGROUND
+: Although anticoagulants may potentially increase the risk of post-colonoscopy bleeding events, temporary discontinuation of medications could elevate the risk of thromboembolism (TE). There is a paucity of data regarding the incidence of bleeding and TE events in patients undergoing colonoscopy while on uninterrupted or interrupted anticoagulant therapy. Therefore, we aimed to ascertain the risks of post-colonoscopy TE and bleeding in patients with continuous or interrupted use of anticoagulant agents.
+METHODS
+: The electronic databases of PubMed, Embase, and the Cochrane library were comprehensively searched from inception to March 15, 2024. We identified studies reporting the incidence of bleeding and TE events in patients undergoing colonoscopy with uninterrupted or interrupted anticoagulant therapy. The pooled incidence rate of bleeding and TE events was estimated using a random-effects model.
+RESULTS
+: This study included a total of 15 studies involving 63, 017 patients. Overall, the incidence of post-procedural bleeding for uninterrupted and interrupted direct oral anticoagulants (DOACs) was found to be 3.60 % (95 % CI: 1.60 %-5.60 %), and 0.90 % (95 % CI: 0.10 %-10.30 %), respectively. Subgroup analysis revealed that older age patients (=65 years) had a significantly higher rate of bleeding with uninterrupted DOACs therapy compared to younger age patients (< 65 years) (7.20 % vs. 2.00 %). The highest rate of bleeding was observed in Asia (7.20 %, 95 % CI: 2.20 %-12.10 %). Similarly, the risk of bleeding was significantly increased among patients interrupting DOACs therapy in Asia compared to North America (1.40 % vs. 0.26 %). For patients on uninterrupted and interrupted warfarin, a higher rate of bleeding events was observed in older age patients than younger age patients (4.90 % vs. 0.80 %, and 2.20 % vs. 1.70 %, respectively). Uninterrupted warfarin showed a more significant risk of bleeding in Asia (4.20 %, 95%CI: 1.90 %-6.60 %) compared to North America (1.00 %, 95%CI: 0.50 %-1.50 %). Among those who did not interrupt DOACs therapy, the incidence of TE was the lowest (0.08 %, 95%CI: 0.04 %-0.11 %).
+CONCLUSION
+: This study provides a comprehensive assessment of bleeding and TE risks in patients undergoing colonoscopy while receiving uninterrupted or interrupted anticoagulant therapy in the real-world setting. The overall incidence of post-colonoscopy bleeding and TE events is relatively low. However, the uninterrupted DOACs and warfarin are associated with an elevated risk of bleeding, particularly among elderly patients and the Asian population.

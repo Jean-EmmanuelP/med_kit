@@ -1,0 +1,22 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S0140-6736(24)01556-3.
+
+=== Métadonnées ===
+Muntau AC, Longo N, Ezgu F, et al.
+Effects of oral sepiapterin on blood Phe concentration in a broad range of patients with phenylketonuria (APHENITY): results of an international, phase 3, randomised, double-blind, placebo-controlled trial.
+Lancet. 2024 Oct 5;404(10460):1333-1345. doi: 10.1016/S0140-6736(24)01556-3.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: Phenylketonuria is an inherited condition characterised by neurotoxic accumulation of phenylalanine (Phe). APHENITY assessed the efficacy and safety of orally administered synthetic sepiapterin in children and adults with phenylketonuria.
+METHODS
+: APHENITY was a phase 3, randomised, double-blind, placebo-controlled study performed at 34 clinics, hospitals, and university sites in 13 countries. Individuals of all ages with a clinical diagnosis of phenylketonuria were eligible for inclusion if they had a blood Phe concentration of 360 µmol/L or higher at study entry, whereas individuals with hyperphenylalaninaemia due to pathogenic variants in GCH1, PTS, QDPR, SPR, and PCBD1, consistent with a diagnosis of primary BH4 deficiency, were excluded. Part 1 was a 14-day open-label assessment of blood Phe concentration response to sepiapterin. In part 2, sepiapterin-responsive participants were randomly assigned (1:1) by a web-response system based on a block randomisation schedule (permuted block size of 2 and 4) to 6 weeks of sepiapterin (forced-dose escalation: 20, 40, and 60 mg/kg per day per consecutive 2-week period) or placebo. The investigational drug and placebo were identical in their appearance and delivery. Dried blood samples were collected for analysis of Phe concentration on days -1, 1 (before dose was administered), 5, 10, 14, 19, 24, 28, 33, 38, and 42 in part 2, either in-clinic or at home. The primary endpoint for part 2, mean change from baseline in blood Phe after 6 weeks, was assessed in the primary analysis set of participants with at least a 30% reduction in blood Phe concentration in part 1, who took at least one dose in part 2. Safety was evaluated in all participants receiving at least one dose of treatment. The completed study is registered at EudraCT (2021-000474-29) and ClinicalTrials.gov (NCT05099640).
+FINDINGS
+: APHENITY was conducted between Sept 30, 2021, and April 3, 2023. 187 people were assessed for eligibility, of whom 157 were enrolled. In part 1, 156 participants were assessed or evaluated, of whom 114 (73%) were sepiapterin-responsive (ie, =15% reduction in blood Phe from baseline). In part 2, 98 participants (49 in the placebo group and 49 in the sepiapterin group) were in the primary analysis set. There was a significant reduction of blood Phe concentration after 6 weeks of sepiapterin (-63%, SD 20) compared with placebo (1%, 29; least squares mean change -395·9 µmol/L, SE 33·8; p<0·0001). Treatment-emergent adverse events were reported in 33 (59%) of 56 participants who received sepiapterin and 18 (33%) of 54 participants who received placebo. Most treatment-emergent adverse events were mild gastrointestinal events (11 [20%] of 56 participants who received sepiapterin and ten [19%] of 54 participants who received placebo) that resolved quickly. There were no deaths and no serious or severe adverse events.
+INTERPRETATION
+: Sepiapterin is a promising oral therapy for individuals with phenylketonuria, was well tolerated, and resulted in significant and clinically meaningful reductions in blood Phe concentration in participants with varying disease severity.
+FUNDING
+: PTC Therapeutics.

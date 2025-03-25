@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO.23.01540.
+
+=== Métadonnées ===
+Rahbari NN, Biondo S, Frago R, et al.
+Primary Tumor Resection Before Systemic Therapy in Patients With Colon Cancer and Unresectable Metastases: Combined Results of the SYNCHRONOUS and CCRe-IV Trials.
+J Clin Oncol. 2024 May 1;42(13):1531-1541. doi: 10.1200/JCO.23.01540. Epub 2024 Feb 27.
+                    (
+Original study
+)
+
+=== Abstract ===
+PURPOSE
+: Chemotherapy is established as primary treatment in patients with stage IV colorectal cancer and unresectable metastases. Data from nonrandomized clinical trials have fueled persistent uncertainty if primary tumor resection (PTR) before chemotherapy prolongs survival. We investigated the prognostic value of PTR in patients with newly diagnosed stage IV colon cancer who were not amenable to curative treatment.
+PATIENTS AND METHODS
+: Patients enrolled in the multicenter, randomized SYNCHRONOUS and CCRe-IV trials were included in the analysis. Patients with colon cancer with synchronous unresectable metastases were randomly assigned at 100 sites in Austria, Germany, and Spain to undergo PTR or up-front chemotherapy (No PTR group). The chemotherapy regimen was left at discretion of the local team. Patients with tumor-related symptoms, inability to tolerate surgery and/or systemic chemotherapy, and history of another cancer were excluded. The primary end point was overall survival (OS), and the analyses were performed with intention-to-treat.
+RESULTS
+: A total of 393 patients were randomly assigned to undergo PTR (n = 187) or no PTR (n = 206) between November 2011 and March 2017. Chemotherapy was not administered to 6.4% in the No PTR group and 24.1% in the PTR group. The median follow-up time was 36.7 months (95% CI, 36.6 to 37.3). The median OS was 16.7 months (95% CI, 13.2 to 19.2) in the PTR group and 18.6 months (95% CI, 16.2 to 22.3) in the No PTR group (P = .191). Comparable OS between the study groups was further confirmed on multivariate analysis (hazard ratio, 0.944 [95% CI, 0.738 to 1.209], P = .65) and across all subgroups. Patients with serious adverse events were more common in the No PTR group (10.2% v 18.0%; P = .027).
+CONCLUSION
+: Among patients with colon cancer and synchronous unresectable metastases, PTR before systemic chemotherapy was not associated with prolonged OS.

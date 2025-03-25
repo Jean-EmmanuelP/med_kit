@@ -1,0 +1,22 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1093/bjs/znae075.
+
+=== Métadonnées ===
+Abood A, Rolighed L, Ovesen T, et al.
+Autofluorescence-guided hemithyroidectomy in a low-volume thyroid institution with no experience in parathyroid surgery: randomized clinical trial.
+Br J Surg. 2024 Apr 3;111(4):znae075. doi: 10.1093/bjs/znae075.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: Recent studies suggest that low-volume surgeons with no experience in parathyroid surgery are at increased risk of causing parathyroid gland damage during thyroid surgery. The aim of this RCT was to evaluate the impact of using autofluorescence in hemithyroidectomy on parathyroid gland identification and preservation in a low-volume institution with no experience in parathyroid surgery.
+METHODS
+: Patients referred for hemithyroidectomy were randomized 1 : 1 to either autofluorescence-guided hemithyroidectomy (the near-infrared autofluorescence group) or conventional hemithyroidectomy (the control group). The primary outcome was parathyroid gland identification rate. Secondary outcomes were the rate of parathyroid gland autotransplantation and the rate of inadvertent parathyroid gland excision.
+RESULTS
+: A total of 170 patients were randomized to either autofluorescence-guided hemithyroidectomy (84 patients) or conventional hemithyroidectomy (86 patients). In the near-infrared autofluorescence group, 81.0% of parathyroid glands were identified, compared with 57.0% in the control group (P < 0.001). Autofluorescence enabled parathyroid gland visualization before the naked eye in 46.3% of cases. Surgeons had lower confidence in the parathyroid gland identification process in the control group than in the near-infrared autofluorescence group (59.1% versus 87.5% respectively; P < 0.001). In the near-infrared autofluorescence group, the parathyroid gland autotransplantation rate was initially high, but declined over time. There was no difference in the rate of inadvertent parathyroid gland excision.
+CONCLUSION
+: Autofluorescence guidance significantly improved the parathyroid gland identification rate in hemithyroidectomy in a low-volume institution with no experience in parathyroid surgery and provided an increase in surgical confidence. The pattern of parathyroid gland autotransplantation in autofluorescence-guided surgery indicates the presence of a learning curve.
+REGISTRATION NUMBER
+: NCT05044351 (http://www.clinicaltrials.gov).

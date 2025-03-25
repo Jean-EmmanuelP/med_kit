@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.amjmed.2024.06.006.
+
+=== Métadonnées ===
+Goraya N, Madias NE, Simoni J, et al.
+Kidney and Cardiovascular Protection Using Dietary Acid Reduction in Primary Hypertension: A Five-Year, Interventional, Randomized, Control Trial.
+Am J Med. 2024 Nov;137(11):1114-1127.e8. doi: 10.1016/j.amjmed.2024.06.006. Epub 2024 Aug 6.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: High fruit and vegetable diets are associated with reduced chronic kidney disease and cardiovascular disease but are infrequently used in hypertension treatment. Low acid diets are also associated with reduced chronic kidney disease and cardiovascular disease, and fruits and vegetables or oral sodium bicarbonate (NaHCO3) lowers dietary acid.
+METHODS
+: We randomized 153 hypertensive macroalbuminuric patients receiving pharmacologic chronic kidney disease and cardiovascular disease protection to get fruits and vegetables, oral NaHCO3, or Usual Care. We assessed the course of kidney disease progression and cardiovascular disease risk indices over five years.
+RESULTS
+: Chronic kidney disease progression was slower in participants receiving fruits and vegetables or oral NaHCO3 than Usual Care [mean (SE)] [-1.08 (0.06) and -1.17 (0.07) vs. -1.94 (0.11) mL/min/1.73m2/ year, respectively, P's< .001). Yet, systolic blood pressure was lower, and cardiovascular disease risk indices improved more in participants receiving fruits and vegetables than in those receiving NaHCO3 or Usual Care. These cardiovascular benefits of fruits and vegetables were achieved despite lower doses of pharmacologic chronic kidney disease and cardiovascular disease protection.
+CONCLUSION
+: The trial supports fruits and vegetables as foundational hypertension treatment to reduce chronic kidney disease progression and cardiovascular disease risk.

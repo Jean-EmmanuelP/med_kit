@@ -1,0 +1,28 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jama.2024.9217.
+
+=== Métadonnées ===
+Zhao L, Cheng Z, Lu Y, et al.
+Tirzepatide for Weight Reduction in Chinese Adults With Obesity: The SURMOUNT-CN Randomized Clinical Trial.
+JAMA. 2024 Aug 20;332(7):551-560. doi: 10.1001/jama.2024.9217.
+                    (
+Original study
+)
+
+=== Abstract ===
+IMPORTANCE
+: Obesity has become a global public health concern and China has the largest number of affected people worldwide.
+OBJECTIVE
+: To assess the efficacy and safety of treatment with tirzepatide for weight reduction in Chinese adults with obesity or overweight and weight-related comorbidities.
+DESIGN, SETTING, AND PARTICIPANTS
+: This randomized, double-blind, placebo-controlled, phase 3 clinical trial conducted at 29 centers in China from September 2021 to December 2022 included Chinese adults (aged =18 years) with a body mass index (BMI) greater than or equal to 28 or greater than or equal to 24 and at least 1 weight-related comorbidity, excluding diabetes.
+INTERVENTIONS
+: Participants were randomly assigned (1:1:1) to receive once-weekly, subcutaneous 10-mg (n = 70) or 15-mg (n = 71) tirzepatide or placebo (n = 69), plus a lifestyle intervention, for 52 weeks.
+MAIN OUTCOMES AND MEASURES
+: Co-primary end points were the percent change in body weight from baseline and weight reduction of at least 5% at week 52. Efficacy and safety analyses were performed on an intention-to-treat population.
+RESULTS
+: Of 210 randomized participants (103 [49.0%] female; mean [SD] age, 36.1 [9.1] years; body weight, 91.8 [16.0] kg; BMI, 32.3 [3.8]), 201 (95.7%) completed the trial. The mean change in body weight at week 52 was -13.6% (95% CI, -15.8% to -11.4%) with tirzepatide 10 mg, -17.5% (95% CI, -19.7% to -15.3%) with tirzepatide 15 mg, and -2.3% with placebo (difference between 10 mg and placebo, -11.3% [95% CI, -14.3% to -8.3%; P < .001]; difference between 15 mg and placebo, -15.1% [95% CI, -18.2% to -12.1%; P < .001]). The percentage of participants achieving body weight reductions of 5% or greater was 87.7% with tirzepatide 10 mg, 85.8% with tirzepatide 15 mg, and 29.3% with placebo (P < .001 for comparisons with placebo). The most frequent treatment-emergent adverse events with tirzepatide were gastrointestinal. Most were mild to moderate in severity, with few events leading to treatment discontinuation (<5%).
+CONCLUSIONS AND RELEVANCE
+: In Chinese adults with obesity or overweight, once-weekly treatment with tirzepatide 10 mg or 15 mg resulted in statistically significant and clinically meaningful weight reduction with an acceptable safety profile.
+TRIAL REGISTRATION
+: ClinicalTrials.gov Identifier: NCT05024032.

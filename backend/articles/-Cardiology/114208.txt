@@ -1,0 +1,22 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.jacc.2024.08.007.
+
+=== Métadonnées ===
+Scirica BM, Lincoff AM, Lingvay I, et al.
+The Effect of Semaglutide on Mortality and COVID-19-Related Deaths: An Analysis From the SELECT Trial.
+J Am Coll Cardiol. 2024 Oct 22;84(17):1632-1642. doi: 10.1016/j.jacc.2024.08.007. Epub 2024 Aug 30.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: Patients with overweight and obesity are at increased risk of death from multiple causes, including cardiovascular (CV) death, with few therapies proven to reduce the risk.
+OBJECTIVES
+: This study sought to assess the effect of semaglutide 2.4 mg on all-cause death, CV death, and non-CV death, including subcategories of death and death from coronavirus disease-2019 (COVID-19).
+METHODS
+: The SELECT (Semaglutide Effects on Cardiovascular Outcomes in Patients With Overweight or Obesity) trial randomized 17,604 participants =45 years of age with a body mass index =27 kg/m2 with established CV disease but without diabetes to once-weekly subcutaneous semaglutide 2.4 mg or placebo; the mean trial duration was 3.3 years. Adjudicated causes of all deaths, COVID-19 cases, and associated deaths were captured prospectively.
+RESULTS
+: Of 833 deaths, 485 (58%) were CV deaths, and 348 (42%) were non-CV deaths. Participants assigned to semaglutide vs placebo had lower rates of all-cause death (HR: 0.81; 95% CI: 0.71-0.93), CV death (HR: 0.85; 95% CI: 0.71-1.01), and non-CV death (HR: 0.77; 95% CI: 0.62-0.95). The most common causes of CV death with semaglutide vs placebo were sudden cardiac death (98 vs 109; HR: 0.89; 95% CI: 0.68-1.17) and undetermined death (77 vs 90; HR: 0.85; 95% CI: 0.63-1.15). Infection was the most common cause of non-CV death and occurred at a lower rate in the semaglutide vs the placebo group (62 vs 87; HR: 0.71; 95% CI: 0.51-0.98). Semaglutide did not reduce incident COVID-19; however, among participants who developed COVID-19, fewer participants treated with semaglutide had COVID-19-related serious adverse events (232 vs 277; P = 0.04) or died of COVID-19 (43 vs 65; HR: 0.66; 95% CI: 0.44-0.96). High rates of infectious deaths occurred during the COVID-19 pandemic, with less infectious death in the semaglutide arm, and resulted in fewer participants in the placebo group being at risk for CV death.
+CONCLUSIONS
+: Compared to placebo, patients treated with semaglutide 2.4 mg had lower rates of all-cause death, driven similarly by CV and non-CV death. The lower rate of non-CV death with semaglutide was predominantly because of fewer infectious deaths. These findings highlight the effect of semaglutide on mortality across a broad population of patients with CV disease and obesity. (Semaglutide Effects on Cardiovascular Outcomes in Patients With Overweight or Obesity [SELECT]; NCT03574597).

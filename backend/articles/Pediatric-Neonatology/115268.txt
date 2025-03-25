@@ -1,0 +1,28 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamanetworkopen.2024.50476.
+
+=== Métadonnées ===
+Pratesi S, Ciarcia M, Boni L, et al.
+Resuscitation With Placental Circulation Intact Compared With Cord Milking: A Randomized Clinical Trial.
+JAMA Netw Open. 2024 Dec 2;7(12):e2450476. doi: 10.1001/jamanetworkopen.2024.50476.
+                    (
+Original study
+)
+
+=== Abstract ===
+IMPORTANCE
+: Among preterm newborns undergoing resuscitation, delayed cord clamping for 60 seconds is associated with reduced mortality compared with early clamping. However, the effects of longer durations of cord clamping with respiratory support are unknown.
+OBJECTIVE
+: To determine whether resuscitating preterm newborns while keeping the placental circulation intact and clamping the cord after a long delay would improve outcomes compared with umbilical cord milking.
+DESIGN, SETTING, AND PARTICIPANTS
+: This randomized clinical trial (PCI Trial) was conducted at 8 Italian neonatal intensive care units from April 2016 through February 2023 and enrolled preterm newborns born between 23 weeks 0 days and 29 weeks 6 days of gestation from singleton pregnancies.
+INTERVENTIONS
+: Enrolled newborns were randomly allocated to receive at-birth resuscitation with intact placental circulation for 180 seconds or umbilical cord milking followed by an early cord clamping (within 20 seconds of life).
+MAIN OUTCOMES AND MEASURES
+: The primary outcome was the composite end point of death, grade 3 to 4 intraventricular hemorrhage, and bronchopulmonary dysplasia at 36 weeks of postconception age. Prespecified secondary end points were the single components of the composite primary outcome. An intention-to-treat analysis was conducted.
+RESULTS
+: Of 212 mother-newborn dyads who were randomized, 209 (median [IQR] gestational age, 27 [26-28] weeks; median [IQR] birth weight, 900 [700-1070] g) were enrolled in the intention-to-treat population; 105 were randomized to the placental circulation intact group, and 104 were randomized to the cord milking group. The composite outcome of death, grade 3 to 4 intraventricular hemorrhage, or bronchopulmonary dysplasia occurred in 35 of 105 newborns (33%) in the placental circulation intact group vs 39 of 104 newborns (38%) in the cord milking group (odds ratio, 0.83; 95% CI, 0.47-1.47; P = .53).
+CONCLUSIONS AND RELEVANCE
+: In a randomized clinical trial of preterm newborns at 23 to 29 weeks' gestational age, intact placental resuscitation for 3 minutes did not lower the composite outcome of death, grade 3 to 4 intraventricular hemorrhage, or bronchopulmonary dysplasia compared with umbilical cord milking.
+TRIAL REGISTRATION
+: Clinicaltrials.gov Identifier: NCT02671305.

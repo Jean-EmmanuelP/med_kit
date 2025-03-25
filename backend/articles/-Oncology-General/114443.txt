@@ -1,0 +1,28 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.ijnurstu.2024.104910.
+
+=== Métadonnées ===
+Zhao S, Xiao J, Liu J, et al.
+Interventions to improve illness-related communication between cancer patients and their minor children: A systematic review.
+Int J Nurs Stud. 2024 Dec;160:104910. doi: 10.1016/j.ijnurstu.2024.104910. Epub 2024 Sep 14.
+                    (
+Systematic review
+)
+
+=== Abstract ===
+BACKGROUND
+: Parental cancer conditions significantly impact the physical, social, and emotional well-being of minor children. Effective illness-related communication is crucial for both parents and their children to mitigate these effects.
+OBJECTIVE
+: To systematically summarize the characteristics and effectiveness of interventions aimed at improving illness-related communication between parents with cancer and their minor children.
+DESIGN
+: A systematic review.
+DATA SOURCES
+: Six databases (CINAHL, Web of Science, PubMed, Embase, the Cochrane Library, and PsycINFO) were searched for articles published in English between 2000 and 2023.
+METHODS
+: A three-step review process was employed to select articles. Two reviewers independently screened titles and abstracts, reviewed full texts to include studies aimed at facilitating illness-related communication between parents with cancer and their minor children under the age of 18, and assessed study quality using the Joanna Briggs Institute critical appraisal checklist.
+RESULTS
+: The search yielded 9409 articles, of which 21 met the inclusion criteria, 4 were randomized controlled trials and 17 were quasi-experimental studies. These studies involved 213 families, 149 parents, and 192 minor children. The interventions were categorized as family-centered, parent-centered, or children-centered and emphasized disease knowledge, communication skills, emotional management, and future planning in illness-related communication. The synthesized results indicate that family-centered interventions show unique advantages in improving family life; parent-centered interventions bring benefits in enhancing parenting quality, parents' self-efficacy in coping with cancer, and children's social behavior; and children-centered interventions exhibit a significant impact on the psychological well-being of children.
+CONCLUSION
+: Parent-centered interventions demonstrated significant potential in promoting illness-related communication, particularly by emphasizing the patient's parental role, enhancing intrinsic motivation to sustain communication, and recognizing that patients themselves may be more suitable targets for clinical oncology practice. High-quality research is recommended to enrich the content of parent-centered interventions and encourage the measurement of intervention effects on communication as well as the mechanism of action.
+REGISTRATION NUMBER
+: The review protocol was registered in PROSPERO under the number CRD42023478107.

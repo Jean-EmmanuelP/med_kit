@@ -1,0 +1,28 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamasurg.2023.7985.
+
+=== Métadonnées ===
+Mueller TC, Kehl V, Dimpel R, et al.
+Intraoperative Wound Irrigation for the Prevention of Surgical Site Infection After Laparotomy: A Randomized Clinical Trial by CHIR-Net.
+JAMA Surg. 2024 May 1;159(5):484-492. doi: 10.1001/jamasurg.2023.7985.
+                    (
+Original study
+)
+
+=== Abstract ===
+IMPORTANCE
+: Surgical site infections frequently occur after open abdominal surgery. Intraoperative wound irrigation as a preventive measure is a common practice worldwide, although evidence supporting this practice is lacking.
+OBJECTIVE
+: To evaluate the preventive effect of intraoperative wound irrigation with polyhexanide solution.
+DESIGN, SETTING, AND PARTICIPANTS
+: The Intraoperative Wound Irrigation to Prevent Surgical Site Infection After Laparotomy (IOWISI) trial was a multicenter, 3-armed, randomized clinical trial. Patients and outcome assessors were blinded to the intervention. The clinical trial was conducted in 12 university and general hospitals in Germany from September 2017 to December 2021 with 30-day follow-up. Adult patients undergoing laparotomy were eligible for inclusion. The main exclusion criteria were clean laparoscopic procedures and the inability to provide consent. Of 11?700 screened, 689 were included and 557 completed the trial; 689 were included in the intention-to-treat and safety analysis.
+INTERVENTIONS
+: Randomization was performed online (3:3:1 allocation) to polyhexanide 0.04%, saline, or no irrigation (control) of the operative wound before closure.
+MAIN OUTCOME AND MEASURES
+: The primary end point was surgical site infection within 30 postoperative days according to the US Centers for Disease Control and Prevention definition.
+RESULTS
+: Among the 689 patients included, 402 were male and 287 were female. The median (range) age was 65.9 (18.5-94.9) years. Participants were randomized to either wound irrigation with polyhexanide (n = 292), saline (n = 295), or no irrigation (n = 102). The procedures were classified as clean contaminated in 92 cases (8%). The surgical site infection incidence was 11.8% overall (81 of 689), 10.6% in the polyhexanide arm (31 of 292), 12.5% in the saline arm (37 of 295), and 12.8% in the no irrigation arm (13 of 102). Irrigation with polyhexanide was not statistically superior to no irrigation or saline irrigation (hazard ratio [HR], 1.23; 95% CI, 0.64-2.36 vs HR, 1.19; 95% CI, 0.74-1.94; P = .47). The incidence of serious adverse events did not differ among the 3 groups.
+CONCLUSIONS AND RELEVANCE
+: In this study, intraoperative wound irrigation with polyhexanide solution did not reduce surgical site infection incidence in clean-contaminated open abdominal surgical procedures compared to saline or no irrigation. More clinical trials are warranted to evaluate the potential benefit in contaminated and septic procedures, including the emergency setting.
+TRIAL REGISTRATION
+: drks.de Identifier: DRKS00012251.

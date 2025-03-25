@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO-24-01373.
+
+=== Métadonnées ===
+Martelli M, Ceriani L, Ciccone G, et al.
+Omission of Radiotherapy in Primary Mediastinal B-Cell Lymphoma: IELSG37 Trial Results.
+J Clin Oncol. 2024 Dec;42(34):4071-4083. doi: 10.1200/JCO-24-01373. Epub 2024 Aug 19.
+                    (
+Original study
+)
+
+=== Abstract ===
+PURPOSE
+: The role of consolidation radiotherapy in patients with primary mediastinal B-cell lymphoma (PMBCL) is controversial.
+METHODS
+: The IELSG37 trial, a randomized noninferiority study, aimed to assess whether irradiation can be omitted in patients with PMBCL with complete metabolic response (CMR) after induction immunochemotherapy. The primary end point was progression-free survival (PFS) at 30 months after random assignment. Patients with CMR were randomly assigned to observation or consolidation radiotherapy (30 Gy). With a noninferiority margin of 10% (assuming a 30-month PFS of 85% in both arms), a sample size of 540 patients was planned with 376 expected to be randomly assigned.
+RESULTS
+: The observed events were considerably lower than expected; therefore, primary end point analysis was conducted when =95% of patients were followed for =30 months. Of the 545 patients enrolled, 268 were in CMR after induction and were randomly assigned to observation (n = 132) or radiotherapy (n = 136). The 30-month PFS was 96.2% in the observation arm and 98.5% in the radiotherapy arm, with a stratified hazard ratio of 1.47 (95% CI, 0.34 to 6.28) and absolute risk difference of 0.68% (95% CI, -0.97 to 7.46). The 5-year overall survival (OS) was 99% in both arms. Nonrandomized patients were managed according to local policies. Radiotherapy was the only treatment in 86% of those with Deauville score (DS) 4 and in 57% of those with DS 5. The 5-year PFS and OS of patients with DS 4 (95.8% and 97.5%, respectively) were not significantly different from those of randomly assigned patients. Patients with DS5 had significantly poorer 5-year PFS and OS (60.3% and 74.6%, respectively).
+CONCLUSION
+: This study, the largest randomized trial of radiotherapy in PMBCL, demonstrated favorable outcomes in patients achieving CMR with no survival impairment for those omitting irradiation.

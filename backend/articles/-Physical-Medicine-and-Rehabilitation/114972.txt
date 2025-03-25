@@ -1,0 +1,28 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.apmr.2024.10.003.
+
+=== Métadonnées ===
+Gutierrez-Suarez A, Perez-Rodriguez M, Silva-Jose C, et al.
+Effectiveness of an Exercise Therapy Program Based on Sports in Adults With Acquired Brain Injury: A Randomized Controlled Trial.
+Arch Phys Med Rehabil. 2024 Oct 22:S0003-9993(24)01300-5. doi: 10.1016/j.apmr.2024.10.003.
+                    (
+Original study
+)
+
+=== Abstract ===
+OBJECTIVE
+: To examine the effects of a sport-based exercise therapy (ET) program combined with usual care (sET+UC) compared with usual care (UC) alone on health-related quality of life, upper limb motor control, functional capacity, mobility, balance, and physical activity participation in ambulant adults with acquired brain injury (ABI).
+DESIGN
+: Single-blind, parallel-group, randomized controlled trial.
+SETTING
+: Rehabilitation center.
+PARTICIPANTS
+: Twenty-three adults with ABI (82.6% stroke; 17 men; mean age of 59.6±10.3y).
+INTERVENTION
+: Participants received either sET+UC (n=11) or UC (n=12). The sET+UC group received sixteen 60-minute sessions of a sport-based ET program in addition to sixteen 60-minute sessions of UC, whereas the UC group attended UC only.
+MAIN OUTCOME MEASURES
+: Primary outcome measures were health-related quality of life (Short Form-36 [SF-36]) and upper limb motor control (Fugl-Meyer Upper Extremity [FM-UE]), whereas the secondary included functional capacity (6-minute walk test and 10-meter walk test), mobility (timed Up and Go Test), balance (Berg Balance Scale), and physical activity participation (Global Physical Activity Questionnaire).
+RESULTS
+: Significant differences were found in all outcome analyses at postintervention when comparing between groups. The sET+UC group showed significant improvements in both the physical (P=.027, r=.46) and mental component summary (P=.001, r=.71) of the SF-36 as well as FM-UE (P=.004, r=.60), with large effect sizes. In turn, all secondary outcomes were also significantly improved in this group (all P<.05 r>.05). In contrast, the UC group showed slight improvements in postintervention scores but did not reach significance in any of these measures.
+CONCLUSIONS
+: This study shows that a sport-based ET program combined with UC can effectively improve all the aforementioned outcomes measures in ABI population. Further research with larger sample sizes and follow-up assessments is crucial to gain a more comprehensive understanding of the long-term effects of the intervention in this specific population.

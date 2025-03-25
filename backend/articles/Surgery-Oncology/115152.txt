@@ -1,0 +1,28 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamasurg.2024.5227.
+
+=== Métadonnées ===
+Weindelmayer J, Mengardo V, Ascari F, et al.
+Prophylactic Drain Placement and Postoperative Invasive Procedures After Gastrectomy: The Abdominal Drain After Gastrectomy (ADIGE) Randomized Clinical Trial.
+JAMA Surg. 2025 Feb 1;160(2):135-143. doi: 10.1001/jamasurg.2024.5227.
+                    (
+Original study
+)
+
+=== Abstract ===
+IMPORTANCE
+: Evidence suggests that prophylactic abdominal drainage after gastrectomy for cancer may reduce postoperative morbidity and hospital stay but this evidence comes from small studies with a high risk of bias. Further research is needed to determine whether drains safely meet their primary purpose of identifying and managing postoperative intraperitoneal collections without the need for reoperation or additional percutaneous drainage.
+OBJECTIVE
+: To determine whether avoiding routine abdominal drainage increased postoperative invasive procedures.
+DESIGN, SETTING, AND PARTICIPANTS
+: The Abdominal Drain in Gastrectomy (ADIGE) Trial was a multicenter prospective randomized noninferiority trial. Enrollment spanned from December 2019 to January 2023. Follow-up evaluations were completed at 30 and 90 days. Eleven centers within the Italian Research Group for Gastric Cancer, encompassing both academic medical centers and community hospitals, were included. Patients with gastric cancer undergoing subtotal or total gastrectomy with curative intent were eligible, excluding those younger than 18 years, with serious comorbidities, or undergoing procedure types outside the scope of the study. Of 803 patients assessed for eligibility, 404 were randomized and 390 were included in final analyses.
+INTERVENTIONS
+: Patients were randomized 1:1 into prophylactic drain or no drain arms.
+MAIN OUTCOMES AND MEASURES
+: The primary end point was a modified intention-to-treat (mITT) analysis measuring reoperation or percutaneous drainage within 30 postoperative days. The null hypothesis was rejected when the 90% CI upper limit of the proportion difference did not exceed 3.56%. The calculated sample size to achieve 80% power with a 10% dropout rate was 404 patients (202 in each group). Surgeons and patients were blinded until gastrointestinal reconstruction.
+RESULTS
+: Of the 404 patients randomized 226 (57.8%) were male; the median (IQR) age was 71 (62-78) years. Intraoperative identification of nonresectable disease occurred in 14 patients, leading to their exclusion from the study, leaving 390 patients. In the mITT analysis, 15 patients (7.7%) in the drain group needed reoperation or percutaneous drainage by postoperative day 30 vs 29 (15%) in the no drain group, favoring the drain group (difference, 7.2%; 90% CI, 2.1-12.4; P = .02). Of note, the difference in the primary composite end point was entirely due to a similar difference in reoperation (5.1% in the drain group vs 12.4% in the no drain group; P = .01). Drain-related complications occurred in 4 patients.
+CONCLUSIONS AND RELEVANCE
+: The findings of this study indicate that refraining from prophylactic drain use after gastrectomy heightened the risk of postoperative invasive procedures, discouraging its avoidance. Future studies identifying high-risk groups could optimize prophylactic drainage decisions.
+TRIAL REGISTRATION
+: ClinicalTrials.gov Identifier: NCT04227951.

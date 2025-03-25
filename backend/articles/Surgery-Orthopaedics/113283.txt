@@ -1,0 +1,24 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1177/03635465241249492.
+
+=== Métadonnées ===
+Pawlus N, Kanak M, Frankiewicz A, et al.
+Remplissage May Decrease the Redislocation Rate After Arthroscopic Bankart Repair in Patients With an Engaging Hill-Sachs Defect: A Systematic Review and Meta-analysis of Studies With Minimal 2-Year Follow-up.
+Am J Sports Med. 2024 May 14:3635465241249492. doi: 10.1177/03635465241249492.
+                    (
+Systematic review
+)
+
+=== Abstract ===
+BACKGROUND
+: The redislocation rate after arthroscopic Bankart repair (BR) among patients with a Hill-Sachs lesion (HSL) may be reduced with the use of remplissage.
+PURPOSE
+: To investigate the outcomes of adding remplissage to an arthroscopic BR in patients with concomitant HSL.
+STUDY DESIGN
+: Meta-analysis; Level of evidence, 3.
+METHODS
+: PubMed and ScienceDirect databases were searched between February 2022 and April 2023 with the terms "remplissage" and "shoulder instability" according to PRISMA (Preferred Reporting Items for Systematic Reviews and Meta-Analyses) guidelines. The inclusion criteria were formed using the population, intervention, control, and outcome method; the investigation included studies that compared BR with and without remplissage and had =24 months of follow-up.
+RESULTS
+: From 802 articles found during the initial search, 7 studies with a total of 837 patients-558 receiving isolated BR (BR group) and 279 receiving BR with remplissage (BR+REMP)-were included. The probability of recurrence of instability among patients with an engaging HSL was significantly diminished in the BR+REMP group compared with the BR group (odds ratio, 0.11; 95% CI, 0.05 to 0.24; P < .001). Regarding shoulder range of motion, the BR+REMP group achieved increased forward flexion (mean difference [MD], 1.97°; 95% CI, 1.49° to 2.46°; P < .001) and decreased external rotation in adduction (MD, -1.43°; 95% CI, -2.40° to -0.46°; P = .004) compared with the BR group. Regarding patient-reported outcome measures, the BR+REMP group had Rowe (MD, 2.53; 95% CI, -1.48 to 6.54; P = .21) and Western Ontario Shoulder Instability Index (WOSI) (MD, -61.60; 95% CI, -148.03 to 24.82; P = .162) scores that were comparable with those of the BR group.
+CONCLUSION
+: Remplissage resulted in a 9-fold decrease in the recurrence of instability after arthroscopic BR in patients with HSL. Remplissage not only led to an increase in forward flexion but also only slightly limited patients' external rotation in adduction. WOSI and Rowe scores after remplissage at the final 24-month follow-up were comparable with those obtained after isolated Bankart repair.

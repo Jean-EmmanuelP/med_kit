@@ -1,0 +1,22 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.jaci.2024.10.031.
+
+=== Métadonnées ===
+Weidinger S, Blauvelt A, Papp KA, et al.
+Phase 2b randomized clinical trial of amlitelimab, an anti-OX40 ligand antibody, in patients with moderate-to-severe atopic dermatitis.
+J Allergy Clin Immunol. 2024 Nov 8:S0091-6749(24)01175-8. doi: 10.1016/j.jaci.2024.10.031.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: Amlitelimab, a fully human nondepleting mAb targeting OX40 ligand on antigen-presenting cells, could prevent T-cell-driven inflammation seen in atopic dermatitis (AD).
+OBJECTIVE
+: This trial evaluated the efficacy and safety of amlitelimab in adults with AD.
+METHODS
+: In this 2-part, phase 2b, randomized, double-blinded placebo-controlled trial (ClinicalTrials.gov identifier NCT05131477), patients received subcutaneous amlitelimab every 4 weeks at doses of 250 mg plus a 500-mg loading dose, 250 mg, 125 mg, or 62.5 mg or placebo for 24 weeks in Part 1 (1:1:1:1:1 randomization). In Part 2, clinical responders were reallocated 3:1 to stop taking amlitelimab or continue the previous dose regimen for 28 weeks. The primary end point was percentage of change in Eczema Area and Severity Index (EASI) from baseline to week 16.
+RESULTS
+: In all, 390 and 190 patients enrolled in Part 1 and Part 2, respectively. A significant percentage of change decrease in EASI was observed with amlitelimab doses versus with placebo (P < .001). Clinical responses at week 24 (Investigator Global Assessment 0/1 and/or a 75% reduction in EASI) were maintained at week 52 in patients continuing or stopping amlitelimab. Of the patients maintaining clinical response at week 52 after no longer receiving treatment, more than 80% had serum amlitelimab concentrations less than the 4-µg/mL threshold for several weeks before week 52. Reductions in AD-related biomarkers during Part 1 were maintained through Part 2. Amlitelimab was well tolerated over 52 weeks.
+CONCLUSIONS
+: Amlitelimab treatment significantly reduced clinical and biomarker responses, and was well tolerated in adults with AD through week 52. Sustained responses were observed in the majority of patients for 28 weeks after they had stopped taking amlitelimab.

@@ -1,0 +1,28 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamapediatrics.2024.2202.
+
+=== Métadonnées ===
+Kleidon TM, Schults J, Gibson V, et al.
+Securement to Prevent Noncuffed Central Venous Catheter Dislodgement in Pediatrics: The SECURED Superiority Randomized Clinical Trial.
+JAMA Pediatr. 2024 Sep 1;178(9):861-869. doi: 10.1001/jamapediatrics.2024.2202.
+                    (
+Original study
+)
+
+=== Abstract ===
+IMPORTANCE
+: Catheter dislodgement is a common complication for children with tunneled or peripherally inserted noncuffed central venous catheters (CVCs). A subcutaneous anchor securement system (SASS) may reduce this risk compared with traditional adhesive securement.
+OBJECTIVE
+: To compare dislodgement of noncuffed CVCs secured with SASS with dislodgement of noncuffed CVCs secured with sutureless securement devices (SSDs).
+DESIGN, SETTING, AND PARTICIPANTS
+: The SECURED (Securing Central Venous Catheters to Prevent Dislodegment) trial was a pragmatic, multicenter, superiority randomized clinical trial with an internal pilot and was conducted from August 5, 2020, to August 30, 2022, at 2 Australian quaternary pediatric hospitals. Data analysis was performed in January 2023. Patients aged 0 to 18 years requiring a noncuffed CVC (=3F catheter) were eligible for inclusion. Follow-up duration was 8 weeks or until device removal.
+INTERVENTIONS
+: Patients were randomly assigned 1:1 to receive an SASS or SSD, stratified by hospital and catheter type. Only 1 catheter was studied per patient.
+MAIN OUTCOMES AND MEASURES
+: The primary outcome was dislodgement (partial or total), defined as movement of the catheter tip by greater than 1 cm (change in external catheter length) at any point during catheter dwell. Dislodgement, reported as a risk ratio (RR), was estimated using a generalized linear model with binomial family and log link. Secondary outcomes were reported as incidence rate ratios and were analyzed using Poission regression. Outcomes reported as mean differences (MDs) were analyzed using linear regression.
+RESULTS
+: Of 310 randomized patients, 175 patients (56.5%) were male and median (IQR) patient age was 48 (16-120) months. A total of 307 patients had a catheter device inserted, of which 153 (49.8%) were SASS and 154 (50.2%) were SSD, and were included in the intention-to-treat (ITT) analysis. Device dislodgement was lower with SASS (8 dislodgements in 153 patients [5.2%]) compared with SSD (35 dislodgements in 154 patients [22.7%]) (RR, 0.23; 95% CI, 0.11-0.48; P < .001). The per-protocol analysis was consistent with the ITT analysis. Partial dislodgement accounted for most dislodgement events, including 6 partial dislodgements in the SASS group (3.9%) and 30 partial dislodgements in the SSD group (19.5%) (RR, 0.18; 95% CI, 0.08-0.42). This contributed to fewer complications during dwell in the SASS group (37 reported complications [24.2%]) vs the SSD group (60 reported complications [39.0%]) (RR, 0.62; 95% CI, 0.44-0.87). Staff reported greater difficulty removing devices anchored with SASS vs SSD (mean [SD], 29.1 [31.3] vs 5.3 [17.0], respectively; MD, 23.8; 95% CI, 16.7-31.0). However, use of SASS resulted in reduced per-participant health care costs of A$36.60 (95% credible interval, 4.25-68.95; US $24.36; 95% credible interval, 2.83-45.89).
+CONCLUSIONS AND RELEVANCE
+: In the SECURED trial, noncuffed CVCs secured with SASS had fewer dislodgements compared with SSDs, with a lower cost per patient and an acceptable safety profile. Future efforts should be directed at SASS implementation at the health service level.
+TRIAL REGISTRATION
+: anzctr.org.au Identifier: ACTRN12620000783921.

@@ -1,0 +1,22 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.jtha.2024.02.019.
+
+=== Métadonnées ===
+Zhao Y, Huang C, Zhou Y, et al.
+Performance validation of the 2023 American College of Rheumatology/European League Against Rheumatism antiphospholipid syndrome classification criteria in an antiphospholipid syndrome cohort.
+J Thromb Haemost. 2024 Jun;22(6):1660-1674. doi: 10.1016/j.jtha.2024.02.019. Epub 2024 Mar 9.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: The 2023 American College of Rheumatology (ACR)/European League Against Rheumatism (EULAR) antiphospholipid syndrome (APS) classification criteria were developed with higher specificity but lower sensitivity compared with the 2006 Sydney revised classification criteria.
+OBJECTIVES
+: To validate the performance of the 2023 ACR/EULAR APS classification criteria in a large Chinese APS cohort.
+METHODS
+: This was a single-center cohort study. Inclusion criteria aligned with the entry criteria of 2023 criteria. APS classification by "expert consensus panel" served as the gold standard. Sensitivity and specificity were compared between the 2023 and 2006 criteria.
+RESULTS
+: A total of 526 patients with a mean age of 38.55 ± 12.67 years were enrolled, of whom 366 (69.58%) were female and 182 (34.60%) had systemic lupus erythematosus (SLE). Among them, 407 (77.38%) patients were classified as APS by experts. The 2023 criteria demonstrated higher overall specificity than the 2006 criteria (0.983 vs 0.950), while sensitivity was relatively lower (0.818 vs 0.853). The sensitivity of the 2023 criteria improved for patients with SLE (0.860 vs 0.825), microvascular manifestations (0.867 vs 0.786), cardiac valve disease (0.903 vs 0.774), and thrombocytopenia (0.811 vs 0.790). Reduced sensitivity of the 2023 criteria was linked to the omission of certain microvascular manifestations, a stricter definition of pregnancy morbidity, and the exclusion of isolated thrombocytopenia and isolated IgM isotype antiphospholipid antibodies from meeting clinical and laboratory criteria, respectively.
+CONCLUSION
+: The 2023 criteria offer higher overall specificity and improved sensitivity in specific patient subsets, such as those with SLE, microvascular manifestations, cardiac valve disease, and thrombocytopenia when compared with the 2006 criteria.

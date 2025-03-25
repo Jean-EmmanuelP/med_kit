@@ -1,0 +1,22 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S0140-6736(24)02102-0.
+
+=== Métadonnées ===
+Ker K, Sentilhes L, Shakur-Still H, et al.
+Tranexamic acid for postpartum bleeding: a systematic review and individual patient data meta-analysis of randomised controlled trials.
+Lancet. 2024 Oct 26;404(10463):1657-1667. doi: 10.1016/S0140-6736(24)02102-0.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: Tranexamic acid is a recommended treatment for women with a clinical diagnosis of postpartum haemorrhage, but whether it can prevent bleeding is unclear. We conducted a systematic review and individual patient data (IPD) meta-analysis of randomised controlled trials to assess the effects of tranexamic acid in women giving birth.
+METHODS
+: In this systematic review and IPD meta-analysis, we searched the WHO International Clinical Trials Registry Platform from database inception to Aug 4, 2024 for randomised trials that assessed the effects of tranexamic acid in women giving birth. Trials were eligible if they were prospectively registered, placebo-controlled, included more than 500 women, and had a low risk of bias for random sequence generation and allocation concealment. IPD were requested from the trial investigators. The primary outcomes were the numbers of women with life-threatening bleeding and thromboembolic events. We used a one-stage model to analyse the data and explored whether the effect of tranexamic acid varied by the underlying risk of life-threatening bleeding, type of birth, presence of moderate or severe anaemia, or timing of administration (before or after a diagnosis of postpartum haemorrhage). This study is registered with PROSPERO, CRD42022345775.
+FINDINGS
+: We analysed data on 54 404 women from five trials. We obtained IPD for 43 409 women from four trials and aggregate data on 10 995 women from one trial. All trials had a low risk of bias. Life-threatening bleeding occurred in 178 (0·65%) of 27 300 women in the tranexamic acid group versus 230 (0·85%) of 27 093 women in the placebo group (pooled odds ratio [OR] 0·77 [95% CI 0·63-0·93]; p=0·008). There was no evidence that the effect of tranexamic acid varied by the underlying risk of life-threatening bleeding, type of birth, presence of moderate or severe anaemia or timing of administration. No significant difference was identified between tranexamic acid and placebo groups with regard to thromboembolic events: 50 (0·2%) of 26 571 women in the tranexamic acid group had fatal or non-fatal thromboembolic events versus 52 (0·2%) of 26 373 women in the placebo group (pooled OR 0·96 [0·65-1·41]; p=0·82) with no significant heterogeneity identified in the subgroup analyses.
+INTERPRETATION
+: Tranexamic acid reduces the risk of life-threatening postpartum bleeding. We found no evidence that tranexamic acid increases the risk of thrombosis. Although we do not recommend the use of tranexamic acid in all women giving birth, consideration should be given to its use before a diagnosis of postpartum haemorrhage in women at high risk of death.
+FUNDING
+: The Bill & Melinda Gates Foundation.

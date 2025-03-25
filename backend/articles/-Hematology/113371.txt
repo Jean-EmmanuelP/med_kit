@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2403407.
+
+=== Métadonnées ===
+Dimopoulos MA, Beksac M, Pour L, et al.
+Belantamab Mafodotin, Pomalidomide, and Dexamethasone in Multiple Myeloma.
+N Engl J Med. 2024 Aug 1;391(5):408-421. doi: 10.1056/NEJMoa2403407. Epub 2024 Jun 2.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: Triplet or quadruplet therapies incorporating proteasome inhibitors, immunomodulators, and anti-CD38 antibodies have led to prolonged survival among patients with newly diagnosed multiple myeloma; however, most patients have a relapse. Frontline lenalidomide therapy has increased the number of patients with lenalidomide-refractory disease at the time of the first relapse.
+METHODS
+: In this phase 3, randomized, open-label trial, we evaluated belantamab mafodotin, pomalidomide, and dexamethasone (BPd), as compared with pomalidomide, bortezomib, and dexamethasone (PVd), in lenalidomide-exposed patients who had relapsed or refractory myeloma after at least one line of therapy. The primary end point was progression-free survival. Disease response and safety were also assessed.
+RESULTS
+: A total of 302 patients underwent randomization; 155 were assigned to the BPd group, and 147 to the PVd group. At a median follow-up of 21.8 months (range, <0.1 to 39.2), the 12-month estimated progression-free survival with BPd was 71% (95% confidence interval [CI], 63 to 78), as compared with 51% (95% CI, 42 to 60) with PVd (hazard ratio for disease progression or death, 0.52; 95% CI, 0.37 to 0.73; P<0.001). Data on overall survival were immature. The percentage of patients with a response to treatment (partial response or better) was 77% (95% CI, 70 to 84) in the BPd group and 72% (95% CI, 64 to 79) in the PVd group; 40% (95% CI, 32 to 48) and 16% (95% CI, 11 to 23), respectively, had a complete response or better. Grade 3 or higher adverse events occurred in 94% of the patients in the BPd group and 76% of those in the PVd group. Ocular events occurred in 89% of the patients who received BPd (grade 3 or 4 in 43%) and 30% of those who received PVd (grade 3 or 4 in 2%); ocular events in the BPd group were managed with belantamab mafodotin dose modification. Ocular events led to treatment discontinuation in 9% of the patients in the BPd group and in no patients in the PVd group.
+CONCLUSIONS
+: Among lenalidomide-exposed patients with relapsed or refractory myeloma, BPd conferred a significantly greater benefit than PVd with respect to progression-free survival, as well as deeper, more durable responses. Ocular events were common but were controllable by belantamab mafodotin dose modification. (Funded by GSK; DREAMM-8 ClinicalTrials.gov number, NCT04484623; EudraCT number, 2018-004354-21.).

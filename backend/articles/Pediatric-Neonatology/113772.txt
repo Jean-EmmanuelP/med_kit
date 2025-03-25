@@ -1,0 +1,26 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1136/bmj-2024-079364.
+
+=== Métadonnées ===
+Magnus MC, Soderling J, Ortqvist AK, et al.
+Covid-19 infection and vaccination during first trimester and risk of congenital anomalies: Nordic registry based study.
+BMJ. 2024 Jul 17;386:e079364. doi: 10.1136/bmj-2024-079364.
+                    (
+Original study
+)
+
+=== Abstract ===
+OBJECTIVES
+: To evaluate the risk of major congenital anomalies according to infection with or vaccination against covid-19 during the first trimester of pregnancy.
+DESIGN
+: Prospective Nordic registry based study.
+SETTING
+: Sweden, Denmark, and Norway.
+PARTICIPANTS
+: 343 066 liveborn singleton infants in Sweden, Denmark, and Norway, with an estimated start of pregnancy between 1 March 2020 and 14 February 2022, identified using national health registries.
+MAIN OUTCOME MEASURE
+: Major congenital anomalies were categorised using EUROCAT (European Surveillance of Congenital Anomalies) definitions. The risk after covid-19 infection or vaccination during the first trimester was assessed by logistic regression, adjusting for maternal age, parity, education, income, country of origin, smoking, body mass index, chronic conditions, and estimated date of start of pregnancy.
+RESULTS
+: 17 704 (5.2%) infants had a major congenital anomaly. When evaluating risk associated with covid-19 infection during the first trimester, the adjusted odds ratio ranged from 0.84 (95% confidence interval 0.51 to 1.40) for eye anomalies to 1.12 (0.68 to 1.84) for oro-facial clefts. Similarly, the risk associated with covid-19 vaccination during the first trimester ranged from 0.84 (0.31 to 2.31) for nervous system anomalies to 1.69 (0.76 to 3.78) for abdominal wall defects. Estimates for 10 of 11 subgroups of anomalies were less than 1.04, indicating no notable increased risk.
+CONCLUSIONS
+: Covid-19 infection and vaccination during the first trimester of pregnancy were not associated with risk of congenital anomalies.

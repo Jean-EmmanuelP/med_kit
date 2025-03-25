@@ -1,0 +1,28 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamanetworkopen.2024.5960.
+
+=== Métadonnées ===
+Yerubandi A, Thomas JE, Bhuiya NMMA, et al.
+Acute Adverse Effects of Therapeutic Doses of Psilocybin: A Systematic Review and Meta-Analysis.
+JAMA Netw Open. 2024 Apr 1;7(4):e245960. doi: 10.1001/jamanetworkopen.2024.5960.
+                    (
+Systematic review
+)
+
+=== Abstract ===
+IMPORTANCE
+: Psilocybin has been studied in the treatment of depression and anxiety disorders. Clinical studies have mainly focused on efficacy, with systematic reviews showing favorable efficacy; however, none have primarily focused on psilocybin safety.
+OBJECTIVE
+: To evaluate the acute adverse effects of psilocybin at therapeutic doses in the treatment of depression and anxiety.
+DATA SOURCES
+: MEDLINE via PubMed, Web of Science, and ClinicalTrials.gov were searched for publications available between 1966 and November 30, 2023.
+STUDY SELECTION
+: Randomized, double-blind clinical trials that reported adverse effects of psilocybin in patients treated for depression and anxiety were screened.
+DATA EXTRACTION AND SYNTHESIS
+: Data were independently extracted by 2 authors and verified by 2 additional authors following the Preferred Reporting Items for Systematic Reviews and Meta-Analyses guideline. The inverse variance method with the Hartung-Knapp adjustment for the random-effects model was used, with a continuity correction of 0.5 for studies with 0 cell frequencies. Sensitivity analysis was conducted by sequentially removing 1 study at a time to assess the robustness of the results.
+MAIN OUTCOMES AND MEASURES
+: The primary outcome was considered as the adverse effects of psilocybin at high and moderate (ie, therapeutic) dose regimens and compared with placebo, low-dose psilocybin, or other comparator in the treatment of depression and/or anxiety.
+RESULTS
+: Six studies met the inclusion criteria with a total sample of 528 participants (approximately 51% female; median age 39.8 years; IQR, 39.8-41.2). Seven adverse effects were reported in multiple studies and included in the analysis. Among these, headache (relative risk [RR], 1.99; 95% CI 1.06-3.74), nausea (RR, 8.85; 95% CI, 5.68-13.79), anxiety (RR, 2.27; 95% CI, 1.11-4.64), dizziness (RR, 5.81; 95% CI, 1.02-33.03), and elevated blood pressure (RR, 2.29; 95% CI, 1.15- 4.53) were statistically significant. Psilocybin use was not associated with risk of paranoia and transient thought disorder.
+CONCLUSIONS AND RELEVANCE
+: In this meta-analysis, the acute adverse effect profile of therapeutic single-dose psilocybin appeared to be tolerable and resolved within 48 hours. However, future studies need to more actively evaluate the appropriate management of adverse effects.

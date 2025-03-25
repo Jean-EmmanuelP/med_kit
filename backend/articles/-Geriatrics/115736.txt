@@ -1,0 +1,22 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1111/jocn.17432.
+
+=== Métadonnées ===
+Liu W, Qin R, Zhang X, et al.
+Effectiveness of Integrated Care for Older Pepole (ICOPE) in Improving Intrinsic Capacity in Older Adults: A Systematic Review and Meta-Analysis.
+J Clin Nurs. 2025 Mar;34(3):1013-1031. doi: 10.1111/jocn.17432. Epub 2024 Oct 11.
+                    (
+Systematic review
+)
+
+=== Abstract ===
+OBJECTIVE
+: Conduct a systematic review of existing studies on intrinsic capacity (IC) and a meta-analysis of studies to assess the overall effectiveness of ICOPE in improving IC in older adults.
+METHODS
+: Ten databases were systematically searched from inception to November 8, 2023, and the search was last updated on January 2, 2024. Randomised controlled trials (RCTs) were included. The main outcomes were IC (cognition, psychological, sensory, vitality and locomotion).
+RESULTS
+: The results showed ICOPE had a significant effect in improving cognitive function (SMD = 0.36; 95% CI, 0.17 to 0.56, p < 0.001, 12 RCTs, 7926 participants) and depressive symptoms (SMD = -0.70; 95% CI, -0.96 to -0.43, p < 0.001, 26 RCTs, 11,034 participants), but there was no statistically significant difference in improving locomotion (SMD = 0.16; 95% CI, -0.03 to 0.34, p = 0.098, 3 RCTs, 1580 participants). Meta-regression analysis shows that intervention duration should be paid attention to when the source of heterogeneity is discussed on the cognition.
+CONCLUSION
+: The results suggest that ICOPE may be a potentially effective approach to help improve the IC in older adults, showing significant potential for improving cognitive function and reducing depressive symptoms in particular.
+IMPLICATIONS FOR THE PROFESSION AND/OR PATIENT CARE
+: ICOPE is expected to provide effective strategies to enhance issues such as IC and may be an innovative way to improve the overall health of older adults. This result provides strong support for geriatric nursing practice and encourages the adoption of ICOPE as a viable nursing approach to promote healthy ageing.

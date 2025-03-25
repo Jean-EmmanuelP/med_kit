@@ -1,0 +1,28 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamasurg.2024.0506.
+
+=== Métadonnées ===
+Peng Z, Fan W, Liu Z, et al.
+Adjuvant Transarterial Chemoembolization With Sorafenib for Portal Vein Tumor Thrombus: A Randomized Clinical Trial.
+JAMA Surg. 2024 Jun 1;159(6):616-624. doi: 10.1001/jamasurg.2024.0506.
+                    (
+Original study
+)
+
+=== Abstract ===
+IMPORTANCE
+: Certain patients with hepatocellular carcinoma with portal vein tumor thrombus could benefit from surgical resection, and postoperative adjuvant therapy may lower the incidence of tumor recurrence.
+OBJECTIVE
+: To compare the efficacy and safety of sorafenib plus transarterial chemoembolization vs sorafenib alone as postoperative adjuvant therapy for patients with hepatocellular carcinoma with portal vein tumor thrombus.
+DESIGN, SETTING, AND PARTICIPANTS
+: This was a phase 3, multicenter, randomized clinical trial conducted in 5 hospitals in China. A total of 158 patients were enrolled and randomized from October 2019 to March 2022, with a median follow-up of 28.4 months. Portal vein tumor thrombus was graded by the Cheng classification. Eligible patients with hepatocellular carcinoma with Cheng grade I to III portal vein tumor thrombus (ie, involving segmental or sectoral branches, right- or left-side branch, or main trunk of portal vein) were included.
+INTERVENTIONS
+: Patients were randomly assigned 1:1 to receive transarterial chemoembolization with sorafenib or sorafenib alone as postoperative adjuvant therapy. Sorafenib treatment was started within 3 days after randomization, with an initial dose of 400 mg orally twice a day. In the transarterial chemoembolization with sorafenib group, transarterial chemoembolization was performed 1 day after the first administration of sorafenib.
+MAIN OUTCOMES AND MEASURES
+: The primary end point was recurrence-free survival. Efficacy was assessed in the intention-to-treat population and safety was assessed in patients who received at least 1 dose of study treatment.
+RESULTS
+: Of 158 patients included, the median (IQR) age was 54 (43-61) years, and 140 (88.6%) patients were male. The median (IQR) recurrence-free survival was significantly longer in the transarterial chemoembolization with sorafenib group (16.8 [12.0-NA] vs 12.6 [7.8-18.1] months; hazard ratio [HR], 0.57; 95% CI, 0.39-0.83; P = .002). The median (IQR) overall survival was also significantly longer with transarterial chemoembolization with sorafenib than with sorafenib alone (30.4 [20.6-NA] vs 22.5 [15.4-NA] months; HR, 0.57; 95% CI, 0.36-0.91; P = .02). The most common grade 3/4 adverse event was hand-foot syndrome (23 of 79 patients in the transarterial chemoembolization with sorafenib group [29.1%] vs 24 of 79 patients in the sorafenib alone group [30.4%]). There were no treatment-related deaths in either group. The transarterial chemoembolization with sorafenib group did not show additional toxicity compared with the sorafenib monotherapy group.
+CONCLUSION AND RELEVANCE
+: In this study, the combination of sorafenib and transarterial chemoembolization as postoperative adjuvant therapy in patients with hepatocellular carcinoma with portal vein tumor thrombus resulted in longer recurrence-free survival and overall survival than sorafenib alone and was well tolerated.
+TRIAL REGISTRATION
+: ClinicalTrials.gov Identifier: NCT04143191.

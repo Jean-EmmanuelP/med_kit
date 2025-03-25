@@ -1,0 +1,22 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.thromres.2025.109276.
+
+=== Métadonnées ===
+Fu M, Li X, Wang Z, et al.
+Development and validation of machine learning-based prediction model for central venous access device-related thrombosis in children.
+Thromb Res. 2025 Mar;247:109276. doi: 10.1016/j.thromres.2025.109276. Epub 2025 Jan 28.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: Identifying independent risk factors and implementing high-quality assessment tools for early detection of patients at high risk of central venous access device (CVAD)-related thrombosis (CRT) plays a critical role in delivering timely preventive interventions and reducing the incidence of CRT. Approaches for identifying the risk of CRT in children have not been well-researched.
+OBJECTIVE
+: To identify the critical risk factors for CRT in children and to construct machine learning-based prediction models tailored to this group, providing a theoretical basis and technical support for the prediction and prevention of CRT in these patients.
+STUDY DESIGN
+: Retrospective data of pediatric patients receiving CVAD catheterization from January 1, 2018 to June 31, 2023 in Tongji Hospital were collected and divided into a training set and an internal validation set in a ratio of 7:3. Relevant data from July 1, 2023 to July 1, 2024 were prospectively collected for external validation of the model. LASSO regression was applied to determine CRT independent risk factors. Subsequently, four prediction models were constructed using logistic regression (LR), random forest, artificial neural network, and eXtreme Gradient Boosting.
+RESULTS
+: A total of 1445 children were included in this study and the overall incidence of CRT was 17.4 %. The LASSO regression screened out 11 critical variables, including history of thrombosis, leukemia, number of catheters, history of catheterization, chemotherapy, parenteral nutrition, mechanical prophylaxis, dialysis, hypertonic liquid, anticoagulants, and post-catheterization D-dimer. The LR model outperformed the other models in both internal and external validation and was considered the best model for this study, which was transformed into a nomogram.
+CONCLUSIONS
+: This study identified 11 independent risk factors for CRT in children. The prediction model developed using LR algorithm demonstrated excellent clinical applicability and may provide valuable support for early prediction of CRT.

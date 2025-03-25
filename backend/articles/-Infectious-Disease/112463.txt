@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1371/journal.pmed.1004356.
+
+=== Métadonnées ===
+Semitala FC, Kadota JL, Musinguzi A, et al.
+Comparison of 3 optimized delivery strategies for completion of isoniazid-rifapentine (3HP) for tuberculosis prevention among people living with HIV in Uganda: A single-center randomized trial.
+PLoS Med. 2024 Feb 20;21(2):e1004356. doi: 10.1371/journal.pmed.1004356. eCollection 2024 Feb.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: Expanding access to shorter regimens for tuberculosis (TB) prevention, such as once-weekly isoniazid and rifapentine taken for 3 months (3HP), is critical for reducing global TB burden among people living with HIV (PLHIV). Our coprimary hypotheses were that high levels of acceptance and completion of 3HP could be achieved with delivery strategies optimized to overcome well-contextualized barriers and that 3HP acceptance and completion would be highest when PLHIV were provided an informed choice between delivery strategies.
+METHODS AND FINDINGS
+: In a pragmatic, single-center, 3-arm, parallel-group randomized trial, PLHIV receiving care at a large urban HIV clinic in Kampala, Uganda, were randomly assigned (1:1:1) to receive 3HP by facilitated directly observed therapy (DOT), facilitated self-administered therapy (SAT), or informed choice between facilitated DOT and facilitated SAT using a shared decision-making aid. We assessed the primary outcome of acceptance and completion (=11 of 12 doses of 3HP) within 16 weeks of treatment initiation using proportions with exact binomial confidence intervals (CIs). We compared proportions between arms using Fisher's exact test (two-sided a = 0.025). Trial investigators were blinded to primary and secondary outcomes by study arm. Between July 13, 2020, and July 8, 2022, 1,656 PLHIV underwent randomization, with equal numbers allocated to each study arm. One participant was erroneously enrolled a second time and was excluded in the primary intention-to-treat analysis. Among the remaining 1,655 participants, the proportion who accepted and completed 3HP exceeded the prespecified 80% target in the DOT (0.94; 97.5% CI [0.91, 0.96] p < 0.001), SAT (0.92; 97.5% CI [0.89, 0.94] p < 0.001), and Choice (0.93; 97.5% CI [0.91, 0.96] p < 0.001) arms. There was no difference in acceptance and completion between any 2 arms overall or in prespecified subgroup analyses based on sex, age, time on antiretroviral therapy, and history of prior treatment for TB or TB infection. Only 14 (0.8%) participants experienced an adverse event prompting discontinuation of 3HP. The main limitation of the study is that it was conducted in a single center. Multicenter studies are now needed to confirm the feasibility and generalizability of the facilitated 3HP delivery strategies in other settings.
+CONCLUSIONS
+: Short-course TB preventive treatment was widely accepted by PLHIV in Uganda, and very high levels of treatment completion were achieved in a programmatic setting with delivery strategies tailored to address known barriers.
+TRIAL REGISTRATION
+: ClinicalTrials.gov NCT03934931.

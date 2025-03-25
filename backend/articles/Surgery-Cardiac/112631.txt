@@ -1,0 +1,22 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1161/CIRCULATIONAHA.123.065571.
+
+=== Métadonnées ===
+Gaba P, Sabik JF, Murphy SA, et al.
+Percutaneous Coronary Intervention Versus Coronary Artery Bypass Grafting in Patients With Left Main Disease With and Without Diabetes: Findings From a Pooled Analysis of 4 Randomized Clinical Trials.
+Circulation. 2024 Apr 23;149(17):1328-1338. doi: 10.1161/CIRCULATIONAHA.123.065571. Epub 2024 Mar 11.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: Diabetes may be associated with differential outcomes in patients undergoing left main coronary revascularization with percutaneous coronary intervention (PCI) or coronary artery bypass grafting (CABG). The aim of this study was to investigate outcomes in patients with left main disease with and without diabetes randomized to PCI versus CABG.
+METHODS
+: Individual patient data were pooled from 4 trials (SYNTAX [Synergy Between PCI With Taxus and Cardiac Surgery], PRECOMBAT [Premier of Randomized Comparison of Bypass Surgery Versus Angioplasty Using Sirolimus-Eluting Stent in Patients With Left Main Coronary Artery Disease], NOBLE [Nordic-Baltic-British Left Main Revascularisation Study], and EXCEL [Evaluation of XIENCE Versus Coronary Artery Bypass Surgery for Effectiveness of Left Main Revascularization]) that randomized patients with left main disease to PCI or CABG. Patients were considered suitable for either approach. Patients were categorized by diabetes status. Kaplan-Meier event rates, Cox model hazard ratios, and interactions were assessed.
+RESULTS
+: Among 4393 patients, 1104 (25.1%) had diabetes. Patients with diabetes experienced higher rates of 5-year death (158/1104 [Kaplan-Meier rate, 14.7%] versus 297/3289 [9.3%]; P<0.001), spontaneous myocardial infarction (MI; 67/1104 [6.7%] versus 114/3289 [3.7%]; P<0.001), and repeat revascularization (189/1104 [18.5%] versus 410/3289 [13.2%]; P<0.001). Rates of all-cause mortality did not differ after PCI versus CABG in those with (84/563 [15.3%] versus 74/541 [14.1%]; hazard ratio, 1.11 [95% CI, 0.82-1.52]) or without (155/1634 [9.7%] versus 142/1655 [8.9%]; hazard ratio, 1.08 [95% CI, 0.86-1.36; PintHR=0.87) diabetes. Rates of stroke within 1 year were lower with PCI versus CABG in the entire population, with no heterogeneity based on diabetes status (PintHR=0.51). The 5-year rates of spontaneous MI and repeat coronary revascularization were higher after PCI regardless of diabetes status (spontaneous MI: 45/563 [8.9%] versus 22/541 [4.4%] in diabetes and 82/1634 [5.3%] versus 32/1655 [2.1%] in no diabetes, PintHR=0.47; repeat revascularization: 127/563 [24.5%] versus 62/541 [12.4%] in diabetes and 254/1634 [16.3%] versus 156/1655 [10.1%] in no diabetes, PintHR=0.18). For spontaneous MI and repeat revascularization, there were greater absolute risk differences beyond 1 year in patients with diabetes (4.9% and 9.9%) compared with those without (2.1% and 4.3%; PintARD=0.047 and 0.016).
+CONCLUSIONS
+: In patients with left main disease considered equally suitable for PCI or CABG and with largely low to intermediate SYNTAX scores, diabetes was associated with higher rates of death and cardiovascular events through 5 years. Compared with CABG, PCI resulted in no difference in the risk of death and a lower risk of early stroke regardless of diabetes status, and a higher risk of spontaneous MI and repeat coronary revascularization, with larger late absolute excess risks in patients with diabetes.
+REGISTRATION
+: URL: https://www.clinicaltrials.gov; Unique identifiers: NCT01205776, NCT0146651, NCT00422968, and NCT00114972.

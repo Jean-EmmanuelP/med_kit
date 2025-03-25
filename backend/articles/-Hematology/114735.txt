@@ -1,0 +1,13 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1182/blood.2024025067.
+
+=== Métadonnées ===
+Sun L, Huang X, Wang J, et al.
+Eltrombopag plus diacerein vs eltrombopag in patients with ITP: a multicenter, randomized, open-label phase 2 trial.
+Blood. 2024 Oct 24;144(17):1791-1799. doi: 10.1182/blood.2024025067.
+                    (
+Original study
+)
+
+=== Abstract ===
+This study aimed to compare the efficacy and safety of eltrombopag plus diacerein vs eltrombopag alone in patients with primary immune thrombocytopenia (ITP) who were previously unresponsive to 14 days of eltrombopag treatment at the full dose. Recruited patients were randomly assigned 1:1 to receive either eltrombopag plus diacerein (n = 50) or eltrombopag monotherapy (n = 52). Overall response rate, defined as a platelet count of =30 × 109/L, at least doubling of the baseline platelet count, and no bleeding, was reached in 44% of patients in the eltrombopag plus diacerein group compared with 13% in the eltrombopag group at day 15 (P = .0009), and reached in 42% of patients in the combination group compared with 12% in the monotherapy group at day 28 (P = .0006). The addition of diacerein to eltrombopag also led to a longer duration of response (P = .0004). The 2 most common treatment-emergent adverse events were respiratory infection and gastrointestinal reactions in the combination group, and fatigue and respiratory infection in the eltrombopag group. In conclusion, eltrombopag plus diacerein was well tolerated, and induced higher overall response rates and longer duration of response than eltrombopag alone, offering a rejuvenating salvage therapy for patients with ITP unresponsive to 14 days of full dosage eltrombopag. Our work has the potential to enhance the care of patients treated with thrombopoietin receptor agonists, reducing the need for rapid transitions to less-preferable therapies. This study is registered at ClinicalTrials.gov as #NCT04917679.

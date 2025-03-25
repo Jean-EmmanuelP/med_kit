@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.jse.2024.03.057.
+
+=== Métadonnées ===
+Ameziane Y, Holschen M, Engel NM, et al.
+Does the subscapularis repair affect the clinical outcome after primary reverse shoulder arthroplasty?
+J Shoulder Elbow Surg. 2024 Sep;33(9):1909-1917. doi: 10.1016/j.jse.2024.03.057. Epub 2024 May 15.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: Reverse shoulder arthroplasty is an established procedure for patients with rotator cuff tear arthropathy. However, the repair of the subscapularis tendon remains a controversial and frequently discussed topic. This prospective randomized study was conducted to evaluate the clinical benefit of the subscapularis repair after reverse shoulder arthroplasty.
+METHODS
+: Fifty patients (36 female and 14 male) were randomized and assigned to either the "repaired" (rep) or the "not repaired" (nrep) cohort. Intraoperatively, the subscapularis tendon was reattached in the rep cohort with 4 tendon-to-tendon sutures, whereas no repair was performed in the nrep cohort. The Constant-Murley Score (CS) and the range of motion were evaluated preoperatively as well as 12 and 36 months postoperatively. The Subjective Shoulder Value and the Lift-off test were performed 36 months postoperatively. The postoperative subscapularis integrity was assessed sonographically.
+RESULTS
+: Twelve months postoperatively the rep cohort presented better results in the CS (rep: 71 vs. nrep: 66, P = .037). The normalized CS was 80% in the rep cohort and 75% in the nrep cohort (P = .114). At our last follow-up after 36 months, we did not find significant differences between the rep cohort and the nrep cohort in the CS (rep: 76 vs. nrep: 75, P = .285) and normalized CS (rep: 91% vs. nrep: 91%, P = .388). Concerning internal rotation (in points), the rep cohort achieved better results than the nrep cohort (rep: 7.3 vs. nrep: 6.6, P = .040). Flexion (rep: 145° vs. nrep: 151°, P = .826), abduction (rep: 135° vs. nrep: 137°, P = .816), external rotation (rep: 34° vs. nrep: 37°, P = .817), and the Subjective Shoulder Value (rep: 81% vs. nrep: 77%, P = .398) presented no significant differences between the cohorts. The ultrasound examination after 36 months displayed an intact tendon in 70%.
+CONCLUSIONS
+: Although the subscapularis repair affects the postoperative internal rotation positively, there were no differences in midterm follow-up concerning the overall results after reverse total shoulder arthroplasty. Further, the external rotation is not affected by the repair of the subscapularis tendon.

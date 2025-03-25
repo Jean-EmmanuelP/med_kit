@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2409515.
+
+=== Métadonnées ===
+Groarke JD, Crawford J, Collins SM, et al.
+Ponsegromab for the Treatment of Cancer Cachexia.
+N Engl J Med. 2024 Dec 19;391(24):2291-2303. doi: 10.1056/NEJMoa2409515. Epub 2024 Sep 14.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: Cachexia is a common complication of cancer and is associated with an increased risk of death. The level of growth differentiation factor 15 (GDF-15), a circulating cytokine, is elevated in cancer cachexia. In a small, open-label, phase 1b study involving patients with cancer cachexia, ponsegromab, a humanized monoclonal antibody inhibiting GDF-15, was associated with improved weight, appetite, and physical activity, along with suppressed serum GDF-15 levels.
+METHODS
+: In this phase 2, randomized, double-blind, 12-week trial, we assigned patients with cancer cachexia and an elevated serum GDF-15 level (=1500 pg per milliliter) in a 1:1:1:1 ratio to receive ponsegromab at a dose of 100 mg, 200 mg, or 400 mg or to receive placebo, administered subcutaneously every 4 weeks for three doses. The primary end point was the change from baseline in body weight at 12 weeks. Key secondary end points were appetite and cachexia symptoms, digital measures of physical activity, and safety.
+RESULTS
+: A total of 187 patients underwent randomization. Of these patients, 40% had non-small-cell lung cancer, 32% had pancreatic cancer, and 29% had colorectal cancer. At 12 weeks, patients in the ponsegromab groups had significantly greater weight gain than those in the placebo group, with a median between-group difference of 1.22 kg (95% credible interval, 0.37 to 2.25) in the 100-mg group, 1.92 (95% credible interval, 0.92 to 2.97) in the 200-mg group, and 2.81 (95% credible interval, 1.55 to 4.08) in the 400-mg group. Improvements were observed across measures of appetite and cachexia symptoms, along with physical activity, in the 400-mg ponsegromab group relative to placebo. Adverse events of any cause were reported in 70% of the patients in the ponsegromab group and in 80% of those in the placebo group.
+CONCLUSIONS
+: Among patients with cancer cachexia and elevated GDF-15 levels, the inhibition of GDF-15 with ponsegromab resulted in increased weight gain and overall activity level and reduced cachexia symptoms, findings that confirmed the role of GDF-15 as a driver of cachexia. (Funded by Pfizer; ClinicalTrials.gov number, NCT05546476.).

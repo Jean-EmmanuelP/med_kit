@@ -1,0 +1,28 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamapediatrics.2024.0578.
+
+=== Métadonnées ===
+Xie R, Zhao F, Yu J, et al.
+Naked-Eye 3-Dimensional Vision Training for Myopia Control: A Randomized Clinical Trial.
+JAMA Pediatr. 2024 Jun 1;178(6):533-539. doi: 10.1001/jamapediatrics.2024.0578.
+                    (
+Original study
+)
+
+=== Abstract ===
+IMPORTANCE
+: Early onset of myopia increases the risk of high myopia, which can lead to irreversible retinal damage and even loss of central vision.
+OBJECTIVE
+: To investigate the efficacy and safety of naked-eye 3-dimensional vision training (NVT) in preventing the progression of myopia in children.
+DESIGN, SETTING, AND PARTICIPANTS
+: This randomized clinical trial was conducted in 3 hospitals from May 25, 2022, to February 24, 2023. Participants were children (aged 6-18 years) who had a diagnosis of myopia with a spherical equivalent refraction of -0.75 to -6.00 diopters (D).
+INTERVENTION
+: Children in the intervention group received 20 minutes of NVT treatment every day, whereas children in the control group lived as usual without vision training.
+MAIN OUTCOME AND MEASURE
+: The primary outcome was the change in axial length at 6 months. Spherical equivalent refraction (SER) was included as a secondary outcome.
+RESULTS
+: Among 263 participants, 125 (47.5%) were male and 138 (52.5%) were female; the mean (SD) age was 10.3 (1.9) years (range, 6.1-15.6 years). A total of 227 patients (86.3%) completed the 6-month follow-up, including 102 in the intervention group and 125 in the control group. In the intervention group, the changes in axial length and SER at 6 months were 0.18 mm (95% CI, 0.16 to 0.20 mm) and -0.25 D (95% CI, -0.31 to -0.19 D), respectively. In the control group, the changes in axial length and SER at 6 months were 0.23 mm (95% CI, 0.21 to 0.25 mm) and -0.35 D (95% CI, -0.41 to -0.30 D), respectively. The differences in AL and SER between the 2 groups were significant (AL difference: -0.06 mm; 95% CI, -0.09 to -0.03; P < .001; SER difference: 0.10 D; 95% CI, 0.02 to 0.19; P = .02). No study-related adverse reactions were reported during follow-up.
+CONCLUSIONS AND RELEVANCE
+: NVT is a safe and promising means to control myopia progression in children with good adherence.
+TRIAL REGISTRATION
+: ClinicalTrials.gov Identifier: NCT05468775.

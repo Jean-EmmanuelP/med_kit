@@ -1,0 +1,22 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S1473-3099(24)00179-8.
+
+=== Métadonnées ===
+Juraska M, Early AM, Li L, et al.
+Genotypic analysis of RTS,S/AS01(E) malaria vaccine efficacy against parasite infection as a function of dosage regimen and baseline malaria infection status in children aged 5-17 months in Ghana and Kenya: a longitudinal phase 2b randomised controlled trial.
+Lancet Infect Dis. 2024 Sep;24(9):1025-1036. doi: 10.1016/S1473-3099(24)00179-8. Epub 2024 May 6.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: The first licensed malaria vaccine, RTS,S/AS01E, confers moderate protection against symptomatic disease. Because many malaria infections are asymptomatic, we conducted a large-scale longitudinal parasite genotyping study of samples from a clinical trial exploring how vaccine dosing regimen affects vaccine efficacy.
+METHODS
+: Between Sept 28, 2017, and Sept 25, 2018, 1500 children aged 5-17 months were randomly assigned (1:1:1:1:1) to receive four different RTS,S/AS01E regimens or a rabies control vaccine in a phase 2b open-label clinical trial in Ghana and Kenya. Participants in the four RTS,S groups received two full doses at month 0 and month 1 and either full doses at month 2 and month 20 (group R012-20); full doses at month 2, month 14, month 26, and month 38 (group R012-14); fractional doses at month 2, month 14, month 26, and month 38 (group Fx012-14; early fourth dose); or fractional doses at month 7, month 20, and month 32 (group Fx017-20; delayed third dose). We evaluated the time to the first new genotypically detected infection and the total number of new infections during two follow-up periods (12 months and 20 months) in more than 36 000 dried blood spot specimens from 1500 participants. To study vaccine effects on time to the first new infection, we defined vaccine efficacy as one minus the hazard ratio (HR; RTS,S vs control) of the first new infection. We performed a post-hoc analysis of vaccine efficacy based on malaria infection status at first vaccination and force of infection by month 2. This trial (MAL-095) is registered with ClinicalTrials.gov, NCT03281291.
+FINDINGS
+: We observed significant and similar vaccine efficacy (25-43%; 95% CI union 9-53) against first new infection for all four RTS,S/AS01E regimens across both follow-up periods (12 months and 20 months). Each RTS,S/AS01E regimen significantly reduced the mean number of new infections in the 20-month follow-up period by 1·1-1·6 infections (95% CI union 0·6-2·1). Vaccine efficacy against first new infection was significantly higher in participants who were infected with malaria (68%; 95% CI 50-80) than in those who were uninfected (37%; 23-48) at the first vaccination (p=0·0053).
+INTERPRETATION
+: All tested dosing regimens blocked some infections to a similar degree. Improved vaccine efficacy in participants infected during vaccination could suggest new strategies for highly efficacious malaria vaccine development and implementation.
+FUNDING
+: GlaxoSmithKline Biologicals SA, PATH, Bill & Melinda Gates Foundation, and the German Federal Ministry of Education and Research.

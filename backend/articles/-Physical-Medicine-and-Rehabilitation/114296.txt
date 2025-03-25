@@ -1,0 +1,13 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.2519/jospt.2024.0301.
+
+=== Métadonnées ===
+Mehta SP, Karagiannopoulos C, Pepin ME, et al.
+Distal Radius Fracture Rehabilitation.
+J Orthop Sports Phys Ther. 2024 Sep;54(9):CPG1-CPG78. doi: 10.2519/jospt.2024.0301.
+                    (
+Evidence-based guideline
+)
+
+=== Abstract ===
+Distal radius fracture (DRF) is arguably the most common upper extremity fracture resulting from a fall accident. These clinical practice guidelines (CPG) were developed to guide all aspects of the management of DRF by physical therapists and other rehabilitation practitioners, such as certified hand therapists. This CPG employed a systematic review methodology to locate, appraise, and synthesize contemporary evidence while developing practice recommendations for determining the prognosis of outcomes, examination, and interventions while managing individuals with DRF. The quality of the primary studies found in the literature search was appraised using standardized tools. The strength of the available evidence for a particular practice domain (e.g., prognosis or intervention) was graded as strong, moderate, weak, or conflicting, where such gradings guided the level of obligation for each practice recommendation. Lastly, the CPG also provided the gaps in the evidence pool for the rehabilitation of DRF that future research efforts can address. J Orthop Sports Phys Ther 2024;54(9):CPG1-CPG78. doi:10.2519/jospt.2024.0301.

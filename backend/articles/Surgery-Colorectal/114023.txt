@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1093/bjs/znae189.
+
+=== Métadonnées ===
+Ozcan C, Colak T, Turkmenoglu O, et al.
+Impact of small-bite (5 mm) fascial closure on the incidence of incisional hernia following open colorectal cancer surgery: randomized clinical trial.
+Br J Surg. 2024 Aug 2;111(8):znae189. doi: 10.1093/bjs/znae189.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: Incisional hernia is frequently observed after open colorectal cancer surgery, and should be considered a serious short- and long-term health issue. The present study evaluated the efficacy of small-bite abdominal closure in reducing the incidence of incisional hernia in this patient group.
+METHODS
+: An RCT was conducted between June 2019 and June 2022. A total of 173 patients who underwent open colorectal cancer surgery were assigned randomly to one of two groups to undergo fascial closure with either small bites (87) or conventional bites (86). The incisional hernia rate was accepted as the primary outcome, and surgical-site infection as the secondary outcome.
+RESULTS
+: The incisional hernia rates at 1 year were 7 and 27% in the small- and conventional-bite groups respectively (P < 0.001). This rate increased to 9 and 31% at the end of the second year (P < 0.001). Surgical-site infections occurred in 18% of the small-bite group and 31% of the conventional-bite group (P = 0.03). Compared with the conventional-bite group, the small-bite group had higher suture/wound length ratios (mean(s.d.) 5.18(0.84) versus 3.67(0.57); P < 0.001) and a longer fascial closure time 14.1(4.64) versus 12.9(2.39) min; P = 0.03).
+CONCLUSION
+: Small-bite closure with 5-mm tissue bites placed 5 mm apart reduced the incidence of incisional hernia and surgical-site infection after open colorectal cancer surgery.

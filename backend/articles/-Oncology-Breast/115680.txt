@@ -1,0 +1,22 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S0140-6736(24)02715-6.
+
+=== Métadonnées ===
+Dunn JA, Donnelly P, Elbeltagi N, et al.
+Annual versus less frequent mammographic surveillance in people with breast cancer aged 50 years and older in the UK (Mammo-50): a multicentre, randomised, phase 3, non-inferiority trial.
+Lancet. 2025 Feb 1;405(10476):396-407. doi: 10.1016/S0140-6736(24)02715-6.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: The frequency of mammographic surveillance for women after diagnosis of breast cancer varies globally. The aim of this study was to evaluate whether less than annual mammography was non-inferior in terms of breast cancer-specific survival in women aged 50 years or older.
+METHODS
+: Mammo-50 was a multicentre, randomised, phase 3 trial of annual versus less frequent mammography (2-yearly after conservation surgery; 3-yearly after a mastectomy) for women aged 50 years or older at initial diagnosis of invasive or non-invasive breast cancer and who were recurrence free 3 years post curative surgery. The trial was conducted at 114 National Health Service hospitals in the UK. Participants were randomly assigned (1:1) to annual or less frequent mammograms at 3 years post curative surgery and were followed up for 6 years. The co-primary outcomes were breast cancer-specific survival and cost-effectiveness. The cost-effectiveness analysis will be reported elsewhere. Breast cancer-specific survival was assessed in the intention-to-treat population. Secondary outcomes were recurrence-free interval, overall survival, and referrals back to the hospital system. 5000 women provided 90% power to detect a 3% absolute non-inferiority margin for breast cancer-specific survival with 2·5% one-sided significance. The trial was registered with the ISRCTN registry, ISRCTN48534559; recruitment is complete but longer-term follow-up is ongoing.
+FINDINGS
+: Between April 22, 2014, and Sept 28, 2018, 5235 women were randomly assigned to annual mammography (n=2618) or less frequent mammography (n=2617). 3858 (73·6%) women were aged 60 years or older, 4202 (80·3%) had undergone conservation surgery, 4576 (87·4%) had invasive disease, 1159 (22·1%) had node positive disease, and 4330 (82·7%) had oestrogen receptor-positive tumours. With a median of 5·7 years follow-up (IQR 5·0-6·0; 8·7 years post curative surgery), 343 women died, including 116 who died of breast cancer (61 in the annual mammography group and 55 in the less frequent mammography group). 5-year breast cancer-specific survival was 98·1% (95% CI 97·5-98·6) in the annual mammography group and 98·3% (97·8-98·8) in the less frequent mammography group (hazard ratio 0·92, 95% CI 0·64-1·32), demonstrating non-inferiority of less frequent mammography at the pre-specified 3% margin (non-inferiority p<0·0001). 5-year recurrence-free interval was 94·1% (95% CI 93·1-94·9) in the annual mammography group and 94·5% (93·5-95·3) in the less frequent mammography group. Overall survival at 5 years was 94·7% (95% CI 93·8-95·5%) and 94·5% (93·5-95·3), respectively. 224 (64·9%) of 345 breast cancer events were detected from emergency admissions or symptomatic referrals back to the hospital system, including 108 (61·7%) of 175 in the annual mammography group and 116 (68·2%) of 170 in the less frequent mammography group.
+INTERPRETATION
+: For patients aged 50 years or older and at 3 years post diagnosis, less frequent mammograms were non-inferior compared with annual mammograms for breast cancer-specific survival, recurrence-free interval, and overall survival, and should be considered for this population.
+FUNDING
+: National Institute for Health Research Health Technology Assessment programme.

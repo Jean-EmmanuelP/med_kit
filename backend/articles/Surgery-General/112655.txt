@@ -1,0 +1,26 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1002/14651858.CD014763.pub2.
+
+=== Métadonnées ===
+Hajibandeh S, Hajibandeh S, Maw A
+Purse-string skin closure versus linear skin closure in people undergoing stoma reversal.
+Cochrane Database Syst Rev. 2024 Mar 12;3(3):CD014763. doi: 10.1002/14651858.CD014763.pub2.
+                    (
+Systematic review
+)
+
+=== Abstract ===
+BACKGROUND
+: Stoma reversal is associated with a relatively high risk of surgical site infection (SSI), occurring in up to 40% of cases. This may be explained by the presence of microorganisms around the stoma site, and possible contamination with the intestinal contents during the open-end manipulation of the bowel, making the stoma closure site a clean-contaminated wound. The conventional technique for stoma reversal is linear skin closure (LSC). The purse-string skin closure (PSSC) technique (circumferential skin approximation) creates a small opening in the centre of the wound, enabling free drainage of contaminants and serous fluid. This could decrease the risk of SSI compared with LSC.
+OBJECTIVES
+: To assess the effects of purse-string skin closure compared with linear skin closure in people undergoing stoma reversal.
+SEARCH METHODS
+: We searched CENTRAL, MEDLINE, Embase, two other databases, and three trials registers on 21 December 2022. We also checked references, searched for citations, and contacted study authors to identify additional studies.
+SELECTION CRITERIA
+: We included all randomised controlled trials (RCTs) comparing PSSC and LSC techniques in people undergoing closure of stoma (loop ileostomy, end ileostomy, loop colostomy, or end colostomy) created for any indication.
+DATA COLLECTION AND ANALYSIS
+: Two review authors independently selected eligible studies, extracted data, evaluated the methodological quality of the included studies, and conducted the analyses. The most clinically relevant outcomes were SSI, participant satisfaction, incisional hernia, and operative time. We calculated odds ratios (ORs) for dichotomous data and mean differences (MDs) for continuous data, each with its corresponding 95% confidence interval (CI). We used the GRADE approach to rate the certainty of the evidence.
+MAIN RESULTS
+: Nine RCTs involving 757 participants were eligible for inclusion. Eight studies recruited only adults (aged 18 years and older), and one study included people aged 12 years and older. The participants underwent elective reversal of either ileostomy (82%) or colostomy (18%). We considered all studies at high risk of performance and detection bias (lack of blinding) and four studies at unclear risk of selection bias related to random sequence generation. PSSC compared with LSC likely reduces the risk of SSI (OR 0.17, 95% CI 0.09 to 0.29; I2 = 0%; 9 studies, 757 participants; moderate-certainty evidence). The anticipated absolute risk of SSI is 52 per 1000 people who have PSSC and 243 per 1000 people who have LSC. The likelihood of being very satisfied or satisfied with stoma closure may be higher amongst people who have PSSC compared with people who have LSC (100% vs 89%; OR 20.11, 95% CI 1.09 to 369.88; 2 studies, 122 participants; low-certainty evidence). The results of the analysis suggest that PSSC compared with LSC may have little or no effect on the risk of incisional hernia (OR 0.51, 95% CI 0.07 to 3.70; I2 = 49%; 4 studies, 297 participants; very low-certainty evidence) and operative time (MD -2.67 minutes, 95% CI -8.56 to 3.22; I2 = 65%; 6 studies, 460 participants; very low-certainty evidence).
+AUTHORS' CONCLUSIONS
+: PSSC compared with LSC likely reduces the risk of SSI in people undergoing reversal of stoma. People who have PSSC may be more satisfied with the result compared with people who have LSC. There may be little or no difference between the skin closure techniques in terms of incisional hernia and operative time, though the evidence for these two outcomes is very uncertain.

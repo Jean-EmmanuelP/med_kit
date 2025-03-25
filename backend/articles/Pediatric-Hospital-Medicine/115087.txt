@@ -1,0 +1,22 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.jtha.2024.09.038.
+
+=== Métadonnées ===
+Goldenberg NA, Schulman S, Kittelson JM, et al.
+Duration of anticoagulation for venous thromboembolism in pediatric patients: Evaluation of the Duration of Therapy for Thrombosis in Children (Kids-DOTT) trial outcomes at 2 years.
+J Thromb Haemost. 2025 Feb;23(2):651-656. doi: 10.1016/j.jtha.2024.09.038. Epub 2024 Oct 24.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: The Multicenter Evaluation of the Duration of Therapy for Thrombosis in Children multinational, randomized clinical trial revealed noninferiority of a 6-week vs 3-month duration of anticoagulation for the treatment of provoked venous thromboembolism (VTE) in patients <21 years old in regard to net clinical benefit at 1 year.
+OBJECTIVES
+: To evaluate noninferiority at 2 years.
+METHODS
+: Patients whose repeat imaging 6 weeks after VTE diagnosis did not show complete veno-occlusion were randomized to discontinue anticoagulation vs receive a total 3-month course and followed for 2 years for the occurrence of symptomatic recurrent VTE (efficacy outcome) and clinically relevant bleeding (safety outcome). Outcomes were centrally adjudicated, and net clinical benefit was compared between treatment arms via a prespecified bivariate noninferiority boundary, using 95% CIs in absolute risk differences between treatment arms.
+RESULTS
+: Kaplan-Meier estimates of 2-year cumulative incidences in the 6-week and 3-month arms of the intention-to-treat population (n = 417) were 1.7% (95% CI, 0%, 3.7%) and 2.9% (95% CI, 0.3%, 5.4%), respectively, for symptomatic recurrent VTE and 1.1% (95% CI, 0%, 2.5%) and 3.2% (95% CI, 0.6%, 5.7%), respectively, for clinically relevant bleeding. Bivariate analysis of the absolute risk differences in the intention-to-treat population demonstrated that a 6-week anticoagulation duration was noninferior to a 3-month course.
+CONCLUSION
+: These findings support durability of the Kids-DOTT randomized clinical trial findings of net clinical benefit at 2 years.

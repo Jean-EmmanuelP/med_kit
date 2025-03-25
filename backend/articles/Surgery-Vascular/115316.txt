@@ -1,0 +1,13 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.amjcard.2024.12.012.
+
+=== Métadonnées ===
+Jang JS, Jin HY, Park YA, et al.
+Meta-Analysis of Intravascular Ultrasound-Guided Versus Angiography-Guided Endovascular Treatment in Lower Extremity Artery Disease.
+Am J Cardiol. 2025 Mar 15;239:8-17. doi: 10.1016/j.amjcard.2024.12.012. Epub 2024 Dec 12.
+                    (
+Systematic review
+)
+
+=== Abstract ===
+Intravascular ultrasound (IVUS) offers precise information about lesion morphology and enhances the optimization of endovascular treatments (EVT). Nevertheless, the impact of IVUS on the durability of EVTs and clinical outcomes remains uncertain. The aim of this systematic review and meta-analysis was to evaluate the efficacy of IVUS-guided EVT compared with angiography-guided EVT. We conducted a meta-analysis of trials comparing IVUS-guided and angiography-guided EVT. The primary end point was binary restenosis, whereas the secondary end points included reintervention, major amputation, death or amputation, and major adverse limb events (MALE). This meta-analysis included 19 studies with 800,452 patients. Compared with angiography-guided EVT, IVUS-guided EVT significantly reduced the risk of binary restenosis (risk ratio [RR] 0.63, 95% confidence interval [CI] 0.43 to 0.91, p = 0.02). It also reduced the risk of reintervention (RR 0.59, 95% CI 0.39 to 0.90, p = 0.01), major amputation (RR 0.85, 95% CI 0.74 to 0.98, p = 0.02), death or amputation (RR 0.72, 95% CI 0.56 to 0.91, p = 0.007), and MALE (RR 0.52, 95% CI 0.28 to 0.94, p = 0.03). Subgroup analysis for femoropopliteal disease revealed consistent benefits of IVUS guidance regarding binary restenosis (RR 0.63, 95% CI 0.42 to 0.94, p = 0.03), reintervention (RR 0.51, 95% CI 0.33 to 0.80, p = 0.003), major amputation (RR 0.85, 95% CI 0.73 to 0.99, p = 0.04), death or amputation (RR 0.68, 95% CI 0.51 to 0.90, p = 0.007), and MALE (RR 0.51, 95% CI 0.27 to 0.96, p = 0.04). The sensitivity analysis of studies using drug-coated devices also showed the consistent benefit of IVUS guidance regarding binary restenosis. In conclusion, compared with angiography, IVUS-guided EVT provided improved clinical outcomes in terms of binary restenosis, reintervention, major amputation, death or amputation, and MALE in lower extremity artery disease, including femoropopliteal disease.

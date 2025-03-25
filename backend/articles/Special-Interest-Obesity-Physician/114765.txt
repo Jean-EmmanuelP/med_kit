@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2403664.
+
+=== Métadonnées ===
+Bliddal H, Bays H, Czernichow S, et al.
+Once-Weekly Semaglutide in Persons with Obesity and Knee Osteoarthritis.
+N Engl J Med. 2024 Oct 31;391(17):1573-1583. doi: 10.1056/NEJMoa2403664.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: Weight reduction has been shown to alleviate symptoms of osteoarthritis of the knee, including pain. The effect of glucagon-like peptide-1 receptor agonists on outcomes in knee osteoarthritis among persons with obesity has not been well studied.
+METHODS
+: We conducted a 68-week, double-blind, randomized, placebo-controlled trial at 61 sites in 11 countries. Participants with obesity (a body-mass index [BMI; the weight in kilograms divided by the square of the height in meters] of =30) and a clinical and radiologic diagnosis of moderate knee osteoarthritis with at least moderate pain were randomly assigned, in a 2:1 ratio, to receive once-weekly subcutaneous semaglutide (2.4 mg) or placebo, in addition to counseling on physical activity and a reduced-calorie diet. The primary end points were the percentage change in body weight and the change in the Western Ontario and McMaster Universities Osteoarthritis Index (WOMAC) pain score (on a scale of 0 to 100, with higher scores reflecting worse outcomes) from baseline to week 68. A key confirmatory secondary end point was the physical-function score on the 36-Item Short Form Health Survey (SF-36), version 2 (on a scale of 0 to 100, with higher scores indicating greater well-being).
+RESULTS
+: A total of 407 participants were enrolled. The mean age was 56 years, the mean BMI 40.3, and the mean WOMAC pain score 70.9. A total of 81.6% of the participants were women. The mean change in body weight from baseline to week 68 was -13.7% with semaglutide and -3.2% with placebo (P<0.001). The mean change in the WOMAC pain score at week 68 was -41.7 points with semaglutide and -27.5 points with placebo (P<0.001). Participants in the semaglutide group had a greater improvement in SF-36 physical-function score than those in the placebo group (mean change, 12.0 points vs. 6.5 points; P<0.001). The incidence of serious adverse events was similar in the two groups. Adverse events that led to permanent discontinuation of the trial regimen occurred in 6.7% of the participants in the semaglutide group and in 3.0% in the placebo group, with gastrointestinal disorders being the most common reason for discontinuation.
+CONCLUSIONS
+: Among participants with obesity and knee osteoarthritis with moderate-to-severe pain, treatment with once-weekly injectable semaglutide resulted in significantly greater reductions in body weight and pain related to knee osteoarthritis than placebo. (Funded by Novo Nordisk; STEP 9 ClinicalTrials.gov number, NCT05064735.).

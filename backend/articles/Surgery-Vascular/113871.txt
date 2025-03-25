@@ -1,0 +1,26 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1002/14651858.CD008493.pub5.
+
+=== Métadonnées ===
+Marques Antunes M, Nunes-Ferreira A, Duarte GS, et al.
+Preoperative statin therapy for adults undergoing cardiac surgery.
+Cochrane Database Syst Rev. 2024 Jul 22;7(7):CD008493. doi: 10.1002/14651858.CD008493.pub5.
+                    (
+Systematic review
+)
+
+=== Abstract ===
+BACKGROUND
+: Despite significant advances in surgical techniques and perioperative care, people undertaking cardiac surgery due to cardiovascular disease are more prone to the development of postoperative adverse events. Statins (5-hydroxy-3-methylglutaryl-co-enzyme A (HMG-CoA) reductase inhibitors) are well-known for their anti-inflammatory and antioxidant effects and are established for primary and secondary prevention of coronary artery disease. In addition, statins are thought to have clinical benefits in perioperative outcomes in people undergoing cardiac surgery. This review is an update of a review that was first published in 2012 and updated in 2015.
+OBJECTIVES
+: To evaluate the benefits and harms of preoperative statin therapy in adults undergoing cardiac surgery compared to standard of care or placebo.
+SEARCH METHODS
+: We performed a search of the Cochrane Central Register of Controlled Trials (CENTRAL) (Issue 9, 2023), Ovid MEDLINE (1980 to 14 September 2023), and Ovid Embase (1980 to 2023 (week 36)). We applied no language restrictions.
+SELECTION CRITERIA
+: We included all randomised controlled trials (RCTs) comparing any statin treatment before cardiac surgery, for any given duration and dose, versus no preoperative statin therapy (standard of care) or placebo. We excluded trials without a registered trial protocol and trials without approval by an institutional ethics committee.
+DATA COLLECTION AND ANALYSIS
+: We used standard Cochrane methodology. Primary outcomes were short-term mortality and major adverse cardiovascular events. Secondary outcomes were myocardial infarction, atrial fibrillation, stroke, renal failure, length of intensive care unit (ICU) stay, length of hospital stay and adverse effects related to statin therapy. We reported effect measures as risk ratios (RRs) or mean differences (MDs) with corresponding 95% confidence intervals (CIs). We used the RoB 1 tool to assess the risk of bias in included trials, and GRADE to assess the certainty of the evidence.
+MAIN RESULTS
+: We identified eight RCTs (five new to this review) including 5592 participants. Pooled analysis showed that statin treatment before surgery may result in little to no difference in the risk of postoperative short-term mortality (RR 1.36, 95% CI 0.72 to 2.59; I2 = 0%; 6 RCTs, 5260 participants; low-certainty evidence; note 2 RCTs reported 0 events in both groups so RR calculated from 4 RCTs with 5143 participants). We are very uncertain about the effect of statins on major adverse cardiovascular events (RR 0.93, 95% CI 0.77 to 1.13; 1 RCT, 2406 participants; very low-certainty evidence). Statins probably result in little to no difference in myocardial infarction (RR 0.88, 95% CI 0.73 to 1.06; I2 = 0%; 5 RCTs, 4645 participants; moderate-certainty evidence), may result in little to no difference in atrial fibrillation (RR 0.87, 95% CI 0.72 to 1.05; I2 = 60%; 8 RCTs, 5592 participants; low-certainty evidence), and may result in little to no difference in stroke (RR 1.47, 95% CI 0.90 to 2.40; I2 = 0%; 4 RCTs, 5143 participants; low-certainty evidence). We are very uncertain about the effect of statins on renal failure (RR 1.04, 95% CI 0.80 to 1.34; I2 = 57%; 4 RCTs, 4728 participants; very low-certainty evidence). Additionally, statins probably result in little to no difference in length of ICU stay (MD 1.40 hours, 95% CI -1.62 to 4.41; I2 = 43%; 3 RCTs, 4528 participants; moderate-certainty evidence) and overall hospital stay (MD -0.31 days, 95% CI -0.64 to 0.03; I2 = 84%; 5 RCTs, 4788 participants; moderate-certainty evidence). No study had any individual risk of bias domain classified as high. However, two studies were at high risk of bias overall given the classification of unclear risk of bias in three domains.
+AUTHORS' CONCLUSIONS
+: In this updated Cochrane review, we found no evidence that statin use in the perioperative period of elective cardiac surgery was associated with any clinical benefit or worsening, when compared with placebo or standard of care. Compared with placebo or standard of care, statin use probably results in little to no difference in MIs, length of ICU stay and overall hospital stay; and may make little to no difference to mortality, atrial fibrillation and stroke. We are very uncertain about the effects of statins on major harmful cardiac events and renal failure. The certainty of the evidence validating this finding varied from moderate to very low, depending on the outcome. Future trials should focus on assessing the impact of statin therapy on mortality and major adverse cardiovascular events.

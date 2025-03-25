@@ -1,0 +1,22 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1007/s11606-024-08933-1.
+
+=== Métadonnées ===
+de Souza MM, Moraes Dantas RL, Leao Duraes V, et al.
+Vitamin D Supplementation and the Incidence of Fractures in the Elderly Healthy Population: A Meta-analysis of Randomized Controlled Trials.
+J Gen Intern Med. 2024 Nov;39(14):2829-2836. doi: 10.1007/s11606-024-08933-1. Epub 2024 Jul 12.
+                    (
+Systematic review
+)
+
+=== Abstract ===
+INTRODUCTION
+: Although a well-established component of bone metabolism, the efficacy and safety of vitamin D supplementation for the prevention of fractures in elderly healthy individuals is still unclear.
+PURPOSE
+: To perform a meta-analysis comparing vitamin D supplementation with placebo and its contributions on fracture incidence.
+METHODS
+: This meta-analysis was registered in the International Prospective Register of Systematic Reviews (PROSPERO), under protocol CRD42023484979. We systematically searched PubMed, Embase, and Cochrane Central databases from inception to November 2023 for randomized controlled trials (RCTs) comparing vitamin D supplementation versus placebo in individuals with 60 years of age or more and without bone related medical conditions such as cancer and osteoporosis.
+RESULTS
+: Seven RCTs with 71,899 patients were included, of whom 36,822 (51.2%) were women. There was no significant difference in total fracture incidence (RR 1.03; 95% CI 0.93-1.14; p = 0.56; I2 = 58%) between groups or subgroups. However, women had an increased risk for hip fractures (164 vs. 121 events; RR 1.34; 95% CI 1.06-1.70; p = 0.01; I2 = 0%). There was no significant difference in non-vertebral fractures, osteoporotic fractures development, or falls (RR 1.02; 95% CI 0.94-1.12; p = 0.6; I2 = 47%; RR 0.97; 95% CI 0.87-1.08; p = 0.63; I2 = 0%; RR 1.01; 95% CI 0.97-1.04; p = 0.66; I2 = 55%, respectively).
+CONCLUSION
+: Vitamin D supplementation does not reduce the total fracture development rate in the elderly healthy population, and it may increase the incidence of hip fractures among elderly healthy women. This finding suggests refraining from prescribing high intermittent doses of vitamin D, without calcium, to individuals aged 60 or older with unknown vitamin D serum concentration or osteoporosis status and inadequate calcium intake.

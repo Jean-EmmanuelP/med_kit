@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1542/peds.2023-065610.
+
+=== Métadonnées ===
+Bada HS, Westgate PM, Sithisarn T, et al.
+Clonidine as Monotherapy for Neonatal Opioid Withdrawal Syndrome: A Randomized Trial.
+Pediatrics. 2024 Nov 1;154(5):e2023065610. doi: 10.1542/peds.2023-065610.
+                    (
+Original study
+)
+
+=== Abstract ===
+OBJECTIVE
+: We sought to determine whether clonidine, a non-opioid a-2-adrenergic agonist, would effectively treat neonatal opioid withdrawal syndrome (NOWS).
+METHODS
+: This was an intention-to-treat randomized clinical trial. Enrollment criteria included prenatal opioid exposure, age =7 days, gestational age =35 weeks, no other medical condition, and need for pharmacotherapy. Primary outcomes were length of treatment and neurobehavioral performance.
+RESULTS
+: A total of 1107 patients were screened for enrollment (645 ineligible, 91 parents or staff unavailable, 216 declined, 155 consented). Of 155 infants, 120 required treatment and were randomized to receive oral clonidine (n = 60) at 1 µg/kg/dose or morphine (n = 60), 0.06 mg/kg/dose, every 3 hours. Infants with no improvement had their doses increased by 25% of the initial dose every 12 to 24 hours. Those without improvement by the fourth dose increase, received adjunct therapy. Length of treatment did not differ between morphine and clonidine, with median (95% confidence interval [CI]) days, respectively, of 15 (13-17) and 17 (15-19), P = .48. More clonidine-treated infants (45%) needed adjunct therapy versus 10% in the morphine group, adjusted odds ratio (95% CI) = 8.85 (2.87-27.31). After treatment completion, the NICU Network Neurobehavioral Scales summary scores did not differ between clonidine-treated and morphine-treated infants.
+CONCLUSIONS
+: Length of pharmacologic treatment and final neurobehavioral performance were not significantly different between the clonidine- and morphine-treated groups. Clonidine appears to be an effective non-opioid medication to treat NOWS. Future studies are needed to determine the optimal clonidine dosage for a quicker response and obviation of adjunct therapy.

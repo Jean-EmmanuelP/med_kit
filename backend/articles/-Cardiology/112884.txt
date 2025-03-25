@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2314149.
+
+=== Métadonnées ===
+Bohm F, Mogensen B, Engstrom T, et al.
+FFR-Guided Complete or Culprit-Only PCI in Patients with Myocardial Infarction.
+N Engl J Med. 2024 Apr 25;390(16):1481-1492. doi: 10.1056/NEJMoa2314149. Epub 2024 Apr 8.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: The benefit of fractional flow reserve (FFR)-guided complete revascularization in patients with ST-segment elevation myocardial infarction (STEMI) and multivessel coronary artery disease remains unclear.
+METHODS
+: In this multinational, registry-based, randomized trial, we assigned patients with STEMI or very-high-risk non-STEMI (NSTEMI) and multivessel disease who were undergoing primary percutaneous coronary intervention (PCI) of the culprit lesion to receive either FFR-guided complete revascularization of nonculprit lesions or no further revascularization. The primary outcome was a composite of death from any cause, myocardial infarction, or unplanned revascularization. The two key secondary outcomes were a composite of death from any cause or myocardial infarction and unplanned revascularization.
+RESULTS
+: A total of 1542 patients underwent randomization, with 764 assigned to receive FFR-guided complete revascularization and 778 assigned to receive culprit-lesion-only PCI. At a median follow-up of 4.8 years (interquartile range, 4.3 to 5.2), a primary-outcome event had occurred in 145 patients (19.0%) in the complete-revascularization group and in 159 patients (20.4%) in the culprit-lesion-only group (hazard ratio, 0.93; 95% confidence interval [CI], 0.74 to 1.17; P = 0.53). With respect to the secondary outcomes, no apparent between-group differences were observed in the composite of death from any cause or myocardial infarction (hazard ratio, 1.12; 95% CI, 0.87 to 1.44) or unplanned revascularization (hazard ratio, 0.76; 95% CI, 0.56 to 1.04). There were no apparent between-group differences in safety outcomes.
+CONCLUSIONS
+: Among patients with STEMI or very-high-risk NSTEMI and multivessel coronary artery disease, FFR-guided complete revascularization was not shown to result in a lower risk of a composite of death from any cause, myocardial infarction, or unplanned revascularization than culprit-lesion-only PCI at 4.8 years. (Funded by the Swedish Research Council and others; FULL REVASC ClinicalTrials.gov number, NCT02862119.).

@@ -1,0 +1,28 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.2337/dc24-1334.
+
+=== Métadonnées ===
+Cooper ZW, O'Shields J, Ali MK, et al.
+Effects of Integrated Care Approaches to Address Co-occurring Depression and Diabetes: A Systematic Review and Meta-analysis.
+Diabetes Care. 2024 Dec 1;47(12):2291-2304. doi: 10.2337/dc24-1334.
+                    (
+Systematic review
+)
+
+=== Abstract ===
+BACKGROUND
+: Depressive symptoms frequently co-occur with diabetes and, when unaddressed, can function to worsen diabetes control and increase the risk of diabetes-related morbidity. Integrated care (IC) approaches aim to improve outcomes among people with diabetes and depression, but there are no current meta-analyses examining their effects.
+PURPOSE
+: In our study we summarize the effects of IC approaches to address depression and diabetes and examine moderating effects of IC approaches (e.g., behavioral intervention used; type of IC approach).
+DATA SOURCES
+: A systematic search was conducted of PubMed, PsycInfo, CINAHL, and ProQuest.
+STUDY SELECTION
+: Two reviewers triaged abstracts and full-text articles to identify relevant articles. Randomized controlled trials with enrollment of participants with diabetes and depressive symptoms and with provision of sufficient data on depression scores and hemoglobin A1c were included.
+DATA EXTRACTION
+: Two reviewers extracted demographic information, depression scores, diabetes outcomes, intervention details, and the risk of bias for each study.
+DATA SYNTHESIS
+: From 517 abstracts, 75 full-text reports were reviewed and 31 studies with 8,843 participants were analyzed. Among 26 studies with reporting of HbA1c, IC approaches were associated with a significant between-group difference regarding the percent decrease of HbA1c (d = -0.36, 95% CI -0.52 to -0.21). Studies that included a combination of behavioral interventions (behavioral activation with cognitive behavioral therapy) showed greater reductions in HbA1c. Among 23 studies with reporting of depressive symptoms, the pooled effect of IC approaches lowered depressive scores by 0.72 points (95% CI -1.15 to -0.28).
+LIMITATIONS
+: The inclusion of a wide range of IC approaches increased study heterogeneity. A random effects model and sensitivity analyses mitigated this limitation.
+CONCLUSIONS
+: IC approaches are associated with improved glycemia and depressive symptoms in comparison with treatment as usual.

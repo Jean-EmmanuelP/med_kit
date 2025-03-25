@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1097/XCS.0000000000000921.
+
+=== Métadonnées ===
+Kawaguchi Y, Yoshizaki Y, Kawakami T, et al.
+Effect of Smoke Evacuator on Reduction of Volatile Organic Compounds and Particles in Surgical Smoke: A Randomized Controlled Trial.
+J Am Coll Surg. 2024 Mar 1;238(3):272-279. doi: 10.1097/XCS.0000000000000921. Epub 2023 Dec 8.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: Surgical smoke is an occupational health problem and is increasingly recognized as a potential source of virus transmission. Dedicated smoke evacuators are used to protect against surgical smoke exposure. We tested the hypothesis that using smoke evacuators would reduce volatile organic compounds and the number of particles in surgical smoke during the laparotomy procedure.
+STUDY DESIGN
+: A randomized, double-blind clinical trial was conducted in patients undergoing laparotomy from June 11, 2021, to March 30, 2022, to compare the effectiveness of smoke evacuators with a control (registration, UMIN000044250). The primary outcome was a change in the acetaldehyde level. Secondary outcomes were changes in the formaldehyde level and particle count assessed by the particle size of 0.3, 0.5, 1.0, and 5.0 nm.
+RESULTS
+: A total of 42 patients were randomized and assessed (smoke evacuator group, n = 22 vs control group, n = 20). The acetaldehyde level was significantly lower in the smoke evacuator group than in the control group: mean (95% CI), 10.6 (3.7 to 17.5) vs 47.2 (19.9 to 74.5) µg/m 3 , p < 0.001. Similarly, the formaldehyde level was 72.2% lower in the smoke evacuator group than in the control group. Particle counts by each particle size category were 80% to 95% lower in the smoke evacuator group than in the control group (all, p < 0.001).
+CONCLUSIONS
+: Dedicated smoke evacuators reduced the level of acetaldehyde and formaldehyde, and the number of particles in surgical smoke, minimizing the potential exposure to volatile organic compounds and particle matters during surgery.

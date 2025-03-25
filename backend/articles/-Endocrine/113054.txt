@@ -1,0 +1,26 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1136/bmj-2023-078225.
+
+=== Métadonnées ===
+Pasternak B, Wintzell V, Hviid A, et al.
+Glucagon-like peptide 1 receptor agonist use and risk of thyroid cancer: Scandinavian cohort study.
+BMJ. 2024 Apr 10;385:e078225. doi: 10.1136/bmj-2023-078225.
+                    (
+Original study
+)
+
+=== Abstract ===
+OBJECTIVE
+: To investigate whether use of glucagon-like peptide 1 (GLP1) receptor agonists is associated with increased risk of thyroid cancer.
+DESIGN
+: Scandinavian cohort study.
+SETTING
+: Denmark, Norway, and Sweden, 2007-21.
+PARTICIPANTS
+: Patients who started GLP1 receptor agonist treatment were compared with patients who started dipeptidyl peptidase 4 (DPP4) inhibitor treatment, and in an additional analysis, patients who started sodium-glucose cotransporter 2 (SGLT2) inhibitor treatment.
+MAIN OUTCOME MEASURES
+: Thyroid cancer identified from nationwide cancer registers. An active-comparator new user study design was used to minimise risks of confounding and time related biases from using real world studies of drug effects. Cox regression was used to estimate hazard ratios, controlling for potential confounders with propensity score weighting.
+RESULTS
+: The mean follow-up time was 3.9 years (standard deviation 3.5 years) in the GLP1 receptor agonist group and 5.4 years (standard deviation 3.5 years) in the DPP4 inhibitor group. 76 of 145 410 patients (incidence rate 1.33 events per 10 000 person years) treated with GLP1 receptor agonists and 184 of 291 667 patients (incidence rate 1.46 events per 10 000 person years) treated with DPP4 inhibitors developed thyroid cancer. GLP1 receptor agonist use was not associated with increased risk of thyroid cancer (hazard ratio 0.93, 95% confidence interval 0.66 to 1.31; rate difference -0.13, 95% confidence interval -0.61 to 0.36 events per 10 000 person years). The hazard ratio for medullary thyroid cancer was 1.19 (0.37 to 3.86). In the additional analysis comparing the GLP1 receptor agonist group with the SGLT2 inhibitor group, the hazard ratio for thyroid cancer was 1.16 (0.65 to 2.05).
+CONCLUSIONS
+: In this large cohort study using nationwide data from three countries, GLP1 receptor agonist use was not associated with a substantially increased risk of thyroid cancer over a mean follow-up of 3.9 years. In the main analysis comparing GLP1 receptor agonists with DPP4 inhibitors, the upper limit of the confidence interval was consistent with no more than a 31% increase in relative risk.

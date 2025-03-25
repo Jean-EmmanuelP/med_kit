@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1093/eurheartj/ehae613.
+
+=== Métadonnées ===
+Mahaffey KW, Tuttle KR, Arici M, et al.
+Cardiovascular outcomes with semaglutide by severity of chronic kidney disease in type 2 diabetes: the FLOW trial.
+Eur Heart J. 2024 Aug 30:ehae613. doi: 10.1093/eurheartj/ehae613.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND AND AIMS
+: In the FLOW trial, semaglutide reduced the risks of kidney and cardiovascular (CV) outcomes and death in participants with type 2 diabetes mellitus (T2D) and chronic kidney disease (CKD). These prespecified analyses assessed the effects of semaglutide on CV outcomes and death by CKD severity.
+METHODS
+: Participants were randomised to subcutaneous semaglutide 1 mg or placebo weekly. The main outcome was a composite of CV death, non-fatal myocardial infarction (MI) ornon-fatal stroke (CV death/MI/stroke) as well as death due to any cause by baseline CKD severity. CKD was categorised by eGFR < or =60 mL/min/1.73 m2, UACR < or =300 mg/g or KDIGO risk classification.
+RESULTS
+: 3533 participants were randomised with a median follow-up of 3.4 years. Low/moderate KDIGO risk was present in 242 (6.9%), while 878 (24.9%) had high and 2412 (68.3%) had very high KDIGO risk. Semaglutide reduced CV death/MI/stroke by 18% (HR 0.82 [95% CI 0.68-0.98]; P = .03), with consistency across eGFR categories, UACR levels and KDIGO risk classification (all P-interaction >.13). Death due to any cause was reduced by 20% (HR 0.80 [0.67-0.95]; P = .01), with consistency across eGFR categories and KDIGO risk class (P-interaction .21 and .23, respectively). The P-interaction treatment effect for death due to any cause by UACR was .01 (<300 mg/g HR 1.17 [0.83-1.65]; =300 mg/g HR 0.70 [0.57-0.85]).
+CONCLUSIONS
+: Semaglutide significantly reduced the risk of CV death/MI/stroke regardless of baseline CKD severity in participants with T2D.

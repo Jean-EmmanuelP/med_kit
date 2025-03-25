@@ -1,0 +1,22 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S1474-4422(24)00309-0.
+
+=== Métadonnées ===
+Allen JA, Lin J, Basta I, et al.
+Safety, tolerability, and efficacy of subcutaneous efgartigimod in patients with chronic inflammatory demyelinating polyradiculoneuropathy (ADHERE): a multicentre, randomised-withdrawal, double-blind, placebo-controlled, phase 2 trial.
+Lancet Neurol. 2024 Oct;23(10):1013-1024. doi: 10.1016/S1474-4422(24)00309-0.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: Chronic inflammatory demyelinating polyradiculoneuropathy (CIDP) is an autoimmune disease of the peripheral nervous system that can lead to severe disability from muscle weakness and sensory disturbances. Around a third of patients do not respond to currently available treatments, and many patients with a partial response have residual neurological impairment, highlighting the need for effective alternatives. Efgartigimod alfa, a human IgG1 antibody Fc fragment, has demonstrated efficacy and safety in patients with generalised myasthenia gravis. We evaluated the safety, tolerability, and efficacy of subcutaneous efgartigimod PH20 in adults with CIDP.
+METHODS
+: ADHERE, a multistage, double-blind, placebo-controlled trial, enrolled participants with CIDP from 146 clinical sites from Asia-Pacific, Europe, and North America. Participants with evidence of clinically meaningful deterioration entered an open-label phase of weekly 1000 mg subcutaneous efgartigimod PH20 for no longer than 12 weeks (stage A). Those with confirmed evidence of clinical improvement (ECI; treatment responders) entered a randomised-withdrawal phase of 1000 mg subcutaneous efgartigimod PH20 weekly treatment versus placebo for a maximum of 48 weeks (stage B). Participants were randomised (1:1) through interactive response technology and stratified by their adjusted Inflammatory Neuropathy Cause and Treatment (aINCAT) score change during stage A and their most recent CIDP medication within 6 months before screening. Investigators, the clinical research organisation, and participants were masked to the treatment. The primary endpoint in stage A, evaluated in the stage A safety population, was confirmed ECI (=1 points aINCAT decrease, =4 points [centile metric] Inflammatory Rasch-built Overall Disability Scale increase, or =8 kPa grip strength increase after four injections and two consecutive visits). The primary endpoint in stage B, evaluated in the modified intention-to-treat population, was the risk of relapse (time to first aINCAT increase of =1 points). ADHERE is registered with ClinicalTrials.gov (NCT04281472) and EudraCT (2019-003076-39) and is completed.
+FINDINGS
+: Between April 15, 2020, and May 11, 2023, 629 participants were screened; 322 (114 female, 208 male) entered stage A, of whom 214 (66%, 95% CI 61·0-71·6) had confirmed ECI. In stage B, 221 participants were randomised (79 female, 142 male; 111 to subcutaneous efgartigimod PH20, 110 to placebo). Subcutaneous efgartigimod PH20 significantly reduced the risk of relapse versus placebo (hazard ratio 0·39 [95% CI 0·25-0·61]; p<0·0001). 31 (27·9% [19·6-36·3]) participants given subcutaneous efgartigimod PH20 had a relapse versus 59 (53·6% [44·3-63·0]) given placebo. In stage A, treatment-emergent adverse events (TEAEs) occurred in 204 (63%) participants and serious TEAEs in 21 (7%). In stage B, TEAEs occurred in 71 (64%) participants on subcutaneous efgartigimod PH20 and 62 (56%) participants on placebo, and serious TEAEs in six (5%) on subcutaneous efgartigimod PH20 and six (5%) on placebo. Three deaths occurred: two in stage A (one non-related and one unlikely related to treatment) and one in stage B (placebo group).
+INTERPRETATION
+: ADHERE showed the efficacy of subcutaneous efgartigimod PH20 in reducing the risk of relapse versus placebo in people with CIDP who responded to treatment. Further studies are needed to provide data on the longer-term effects of efgartigimod alfa and how it compares with currently available treatment options.
+FUNDING
+: argenx.

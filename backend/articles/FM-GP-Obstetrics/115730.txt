@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1161/CIRCULATIONAHA.124.072418.
+
+=== Métadonnées ===
+Johnston A, Petrcich W, Smith GN, et al.
+Risk of Incident Atrial Fibrillation in Women With a History of Hypertensive Disorders of Pregnancy: A Population-Based Retrospective Cohort Study.
+Circulation. 2025 Feb 18;151(7):460-473. doi: 10.1161/CIRCULATIONAHA.124.072418. Epub 2025 Feb 11.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: Hypertensive disorders of pregnancy (HDP) are a major cause of maternal morbidity and mortality and are associated with acute cardiac events in the peripartum period, as well as cardiovascular disease later in life. Despite the robust association between hypertension and atrial fibrillation (AFib), comparatively little is known about HDP and its subtypes as sex-specific risk factors for AFib.
+METHODS
+: A population-based retrospective cohort study was conducted, including 771 521 nulliparous women discharged for obstetrical delivery of their first live or stillborn singleton infant between 2002 and 2017 in Ontario, Canada. Data were obtained from record-level, coded, and linked population-based administrative databases housed at ICES. Using competing risks Cox proportional hazards regression, we estimated crude and multivariable-adjusted cause-specific hazard ratios and 95% CIs for associations between history of any HDP (and its 6 subtypes), and AFib before death, as well as all-cause mortality without a previous AFib diagnosis.
+RESULTS
+: Approximately 8% of women were diagnosed with HDP during the 16-year exposure accrual period. The total person-time of follow-up was 7 380 304 person-years, during which there were 2483 (0.3%) incident AFib diagnoses and 2951 (0.4%) deaths. History of any HDP was associated with an increased cause-specific hazard ratios of incident AFib and death without a previous AFib diagnosis (adjusted cause-specific hazard ratios, 1.45 [95% CI, 1.28-1.64] and 1.31 [95% CI, 1.16-1.47], respectively). These associations were observed in relatively young women (median time to event, 7 years postpartum). Associations suggestive of a dose-response relationship were observed, with more severe HDP subtypes and prepregnancy chronic hypertension associated with a 1.5 to 2.2 times higher cause-specific rate of AFib, and a 1.4 to 2.1 times higher cause-specific rate of death compared with no hypertension in pregnancy.
+CONCLUSIONS
+: Women exposed to HDP in their first delivery have a significantly increased cause-specific hazard ratios of incident AFib compared to their unexposed counterparts, with higher rates observed in subjects exposed to more severe de novo HDP diagnoses as well as chronic hypertension in pregnancy. These findings underscore the need to consider HDP history in risk calculation/stratification for arrhythmic and nonarrhythmic cardiovascular diseases, improve surveillance of traditional and female-specific cardiovascular disease risk factors, and develop targeted prevention strategies to reduce the occurrence and burden of HDP.

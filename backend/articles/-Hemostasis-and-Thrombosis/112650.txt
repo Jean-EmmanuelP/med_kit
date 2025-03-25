@@ -1,0 +1,28 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamanetworkopen.2024.0809.
+
+=== Métadonnées ===
+Sanchis J, Bueno H, Garcia-Blas S, et al.
+Invasive Treatment Strategy in Adults With Frailty and Non-ST-Segment Elevation Myocardial Infarction: A Secondary Analysis of a Randomized Clinical Trial.
+JAMA Netw Open. 2024 Mar 4;7(3):e240809. doi: 10.1001/jamanetworkopen.2024.0809.
+                    (
+Original study
+)
+
+=== Abstract ===
+IMPORTANCE
+: The MOSCA-FRAIL randomized clinical trial compared invasive and conservative treatment strategies in patients with frailty with non-ST-segment elevation myocardial infarction (NSTEMI). It showed no differences in the number of days alive and out of the hospital at 1 year.
+OBJECTIVE
+: To assess the outcomes of the MOSCA-FRAIL trial during extended follow-up.
+DESIGN, SETTING, AND PARTICIPANTS
+: The MOSCA-FRAIL randomized clinical trial was conducted at 13 hospitals in Spain between July 7, 2017, and January 9, 2021, and included 167 adults (aged =70 years) with frailty (Clinical Frailty Scale score =4) and NSTEMI. In this preplanned secondary analysis, follow-up was extended to January 31, 2023. Data analysis was performed from April 5 to 29, 2023, using the intention-to-treat principle.
+INTERVENTIONS
+: Patients were randomized to a routine invasive (coronary angiography and revascularization if feasible [n = 84]) or a conservative (medical treatment with coronary angiography only if recurrent ischemia [n = 83]) strategy.
+MAIN OUTCOMES AND MEASURES
+: The primary end point was the difference in restricted mean survival time (RMST). Secondary end points included readmissions for any cause, considering recurrent readmissions.
+RESULTS
+: Among the 167 patients included in the analysis, the mean (SD) age was 86 (5) years; 79 (47.3%) were men and 88 (52.7%) were women. A total of 93 deaths and 367 readmissions accrued. The RMST for all-cause death over the entire follow-up was 3.13 (95% CI, 2.72-3.60) years in the invasive and 3.06 (95% CI, 2.84-3.32) years in the conservative treatment groups. The RMST analysis showed inconclusive differences in survival time (invasive minus conservative difference, 28 [95% CI, -188 to 230] days). Patients under invasive treatment tended to have shorter survival in the first year (-28 [95% CI, -63 to 7] days), which improved after the first year (192 [95% CI, 90-230] days). Kaplan-Meier mortality curves intersected, displaying higher mortality to 1 year in the invasive group that shifted to a late benefit (landmark analysis hazard ratio, 0.58 [95% CI, 0.33-0.99]; P = .045). Early harm was more evident in the subgroup with a Clinical Frailty Scale score greater than 4. No differences were found for the secondary end points.
+CONCLUSIONS AND RELEVANCE
+: In this extended follow-up of a randomized clinical trial of patients with frailty and NSTEMI, an invasive treatment strategy did not improve outcomes at a median follow-up of 1113 (IQR, 443-1441) days. However, a differential distribution of deaths was observed, with early harm followed by later benefit. The phenomenon of depletion of susceptible patients may be responsible for this behavior.
+TRIAL REGISTRATION
+: ClinicalTrials.gov Identifier: NCT03208153.

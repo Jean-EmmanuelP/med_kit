@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1097/AJP.0000000000001248.
+
+=== Métadonnées ===
+Jin J, Sun H, Zhang X, et al.
+Comparison of Intercostal Nerve Block and Serratus Anterior Plane Block for Perioperative Pain Management and Impact on Chronic Pain in Thoracoscopic Surgery: A Randomized Controlled Trial.
+Clin J Pain. 2024 Dec 1;40(12):691-699. doi: 10.1097/AJP.0000000000001248.
+                    (
+Original study
+)
+
+=== Abstract ===
+OBJECTIVES
+: The intent of this study was to compare the analgesic efficacy of intercostal nerve block (ICNB) under direct thoracoscopic visualization and serratus anterior plane block (SAPB) with ultrasound guidance during thoracoscopic surgery's perioperative period. Furthermore, it examined their impact on chronic pain and identifies potential risk factors associated with its development.
+MATERIALS AND METHODS
+: In this prospective randomized controlled study, 74 thoracoscopic surgery patients were randomly assigned to ICNB or SAPB groups. Attending surgeons administered ICNB, while anesthesiologists performed SAPB, both using 20 mL of 0.5% ropivacaine. Primary outcomes included Visual Analog Scale (VAS) scores for resting and coughing pain at 6, 12, 24, and 48 hours postoperatively, perioperative opioid and NSAID consumption, and chronic pain incidence at 3 months postoperatively. Secondary outcomes aimed to identify independent risk factors for chronic pain.
+RESULTS
+: The primary results reveal that the SAPB group exhibited significantly lower VAS scores than the ICNB group for postoperative coughing at 24 hours ( P <0.001, 95% CI=0.5, 1) and for resting pain at 48 hours ( P =0.001, 95% CI=0.2, 1). Conversely, the ICNB group demonstrated a reduced VAS score for resting pain at 6 hours compared with the SAPB group ( P =0.014, 95% CI=-0.5, 0.5). SAPB group required significantly less intraoperative sulfentanil ( P <0.001, 95% CI=2.5, 5), remifentanil ( P =0.005, 95% CI=-0.4, -0.1), and flurbiprofen ester ( P =0.003, 95% CI=0, 50) than ICNB group. Chronic pain incidence was similar ( P =0.572, 95% CI=0.412, 1.279), with mild pain in both ICNB and SAPB groups. Secondary findings indicate that resting VAS score at 12 hours (OR=7.59, P =0.048, 95% CI=1.02, 56.46), chest tube duration (OR=3.35, P =0.029, 95% CI=1.13, 9.97), and surgical duration (OR=1.02, P =0.049, 95% CI=1.00, 1.03) were significant predictors of chronic pain occurrence.
+DISCUSSION
+: ICNB and SAPB demonstrated comparable analgesic effects, with similar rates of chronic pain occurrence. Chronic pain independent risk factors included resting VAS score at 12 hours, chest tube duration, and surgical duration.

@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2313472.
+
+=== Métadonnées ===
+Davies JM, Knopman J, Mokin M, et al.
+Adjunctive Middle Meningeal Artery Embolization for Subdural Hematoma.
+N Engl J Med. 2024 Nov 21;391(20):1890-1900. doi: 10.1056/NEJMoa2313472.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: Subacute and chronic subdural hematomas are common and frequently recur after surgical evacuation. The effect of adjunctive middle meningeal artery embolization on the risk of reoperation remains unclear.
+METHODS
+: In a prospective, multicenter, interventional, adaptive-design trial, we randomly assigned patients with symptomatic subacute or chronic subdural hematoma with an indication for surgical evacuation to undergo middle meningeal artery embolization plus surgery (treatment group) or surgery alone (control group). The primary end point was hematoma recurrence or progression that led to repeat surgery within 90 days after the index treatment. The clinical secondary end point was deterioration of neurologic function at 90 days, which was assessed with the modified Rankin scale in a noninferiority analysis (margin for risk difference, 15 percentage points).
+RESULTS
+: A total of 197 patients were randomly assigned to the treatment group and 203 to the control group. Surgery occurred before randomization in 136 of 400 patients (34.0%). Hematoma recurrence or progression leading to repeat surgery occurred in 8 patients (4.1%) in the treatment group, as compared with 23 patients (11.3%) in the control group (relative risk, 0.36; 95% confidence interval [CI], 0.11 to 0.80; P = 0.008). Functional deterioration occurred in 11.9% of the patients in the treatment group and in 9.8% of those in the control group (risk difference, 2.1 percentage points; 95% CI, -4.8 to 8.9). Mortality at 90 days was 5.1% in the treatment group and 3.0% in the control group. By 30 days, serious adverse events related to the embolization procedure had occurred in 4 patients (2.0%) in the treatment group, including disabling stroke in 2 patients; no additional events had occurred by 180 days.
+CONCLUSIONS
+: Among patients with symptomatic subacute or chronic subdural hematoma with an indication for surgical evacuation, middle meningeal artery embolization plus surgery was associated with a lower risk of hematoma recurrence or progression leading to reoperation than surgery alone. Further study is needed to evaluate the safety of middle meningeal artery embolization in the management of subdural hematoma. (Funded by Medtronic; EMBOLISE ClinicalTrials.gov number, NCT04402632.).

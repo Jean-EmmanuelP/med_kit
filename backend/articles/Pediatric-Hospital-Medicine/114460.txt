@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2313551.
+
+=== Métadonnées ===
+Zhao S, Shang Y, Yin Y, et al.
+Ziresovir in Hospitalized Infants with Respiratory Syncytial Virus Infection.
+N Engl J Med. 2024 Sep 26;391(12):1096-1107. doi: 10.1056/NEJMoa2313551.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: Respiratory syncytial virus (RSV) is a leading cause of severe illness in infants, with no effective treatment. Results of a phase 2 trial suggested that ziresovir may have efficacy in the treatment of infants hospitalized with RSV infection.
+METHODS
+: In a phase 3, multicenter, double-blind, randomized, placebo-controlled trial conducted in China, we enrolled participants 1 to 24 months of age who were hospitalized with RSV infection. Participants were randomly assigned, in a 2:1 ratio, to receive ziresovir (at a dose of 10 to 40 mg, according to body weight) or placebo, administered twice daily, for 5 days. The primary end point was the change from baseline to day 3 (defined as 48 hours after the first administration) in the Wang bronchiolitis clinical score (total scores range from 0 to 12, with higher scores indicating greater severity of signs and symptoms). The intention-to-treat population included all the participants with RSV-confirmed infection who received at least one dose of ziresovir or placebo; the safety population included all the participants who received at least one dose of ziresovir or placebo.
+RESULTS
+: The intention-to-treat population included 244 participants, and the safety population included 302. The reduction from baseline in the Wang bronchiolitis clinical score at day 3 was significantly greater with ziresovir than with placebo (-3.4 points [95% confidence interval {CI}, -3.7 to -3.1] vs. -2.7 points [95% CI, -3.1 to -2.2]; difference, -0.8 points [95% CI, -1.3 to -0.3]; P = 0.002). The reduction in the RSV viral load at day 5 was greater in the ziresovir group than in the placebo group (-2.5 vs. -1.9 log10 copies per milliliter; difference, -0.6 log10 copies per milliliter [95% CI, -1.1 to -0.2]). Improvements were observed in prespecified subgroups, including in participants with a baseline bronchiolitis score of at least 8 and in those 6 months of age or younger. The incidence of adverse events related to the drug or placebo was 16% with ziresovir and 13% with placebo. The most common adverse events that were assessed by the investigator as being related to the drug or placebo were diarrhea (in 4% and 2% of the participants, respectively), an elevated liver-enzyme level (in 3% and 3%, respectively), and rash (in 2% and 1%). Resistance-associated mutations were identified in 15 participants (9%) in the ziresovir group.
+CONCLUSIONS
+: Ziresovir treatment reduced signs and symptoms of bronchiolitis in infants and young children hospitalized with RSV infection. No safety concerns were identified. (Funded by Shanghai Ark Biopharmaceutical; AIRFLO ClinicalTrials.gov number, NCT04231968.).

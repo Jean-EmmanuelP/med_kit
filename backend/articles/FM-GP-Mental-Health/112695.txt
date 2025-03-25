@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1503/cmaj.230274.
+
+=== Métadonnées ===
+Zandieh S, Abdollahzadeh SM, Sadeghirad B, et al.
+Therapist-guided remote versus in-person cognitive behavioural therapy: a systematic review and meta-analysis of randomized controlled trials.
+CMAJ. 2024 Mar 17;196(10):E327-E340. doi: 10.1503/cmaj.230274.
+                    (
+Systematic review
+)
+
+=== Abstract ===
+BACKGROUND
+: Cognitive behavioural therapy (CBT) has been shown to be effective for several psychiatric and somatic conditions; however, most randomized controlled trials (RCTs) have administered treatment in person and whether remote delivery is similarly effective remains uncertain. We sought to compare the effectiveness of therapist-guided remote CBT and in-person CBT.
+METHODS
+: We systematically searched MEDLINE, Embase, PsycINFO, CINAHL, and the Cochrane Central Register of Controlled Trials from inception to July 4, 2023, for RCTs that enrolled adults (aged = 18 yr) presenting with any clinical condition and that randomized participants to either therapist-guided remote CBT (e.g., teleconference, videoconference) or in-person CBT. Paired reviewers assessed risk of bias and extracted data independently and in duplicate. We performed random-effects model meta-analyses to pool patient-important primary outcomes across eligible RCTs as standardized mean differences (SMDs). We used Grading of Recommendations Assessment, Development and Evaluation (GRADE) guidance to assess the certainty of evidence and used the Instrument to Assess the Credibility of Effect Modification Analyses (ICEMAN) to rate the credibility of subgroup effects.
+RESULTS
+: We included 54 RCTs that enrolled a total of 5463 patients. Seventeen studies focused on treatment of anxiety and related disorders, 14 on depressive symptoms, 7 on insomnia, 6 on chronic pain or fatigue syndromes, 5 on body image or eating disorders, 3 on tinnitus, 1 on alcohol use disorder, and 1 on mood and anxiety disorders. Moderate-certainty evidence showed little to no difference in the effectiveness of therapist-guided remote and in-person CBT on primary outcomes (SMD -0.02, 95% confidence interval -0.12 to 0.07).
+INTERPRETATION
+: Moderate-certainty evidence showed little to no difference in the effectiveness of in-person and therapist-guided remote CBT across a range of mental health and somatic disorders, suggesting potential for the use of therapist-guided remote CBT to facilitate greater access to evidence-based care. Systematic review registration: Open Science Framework (https://osf.io/7asrc).

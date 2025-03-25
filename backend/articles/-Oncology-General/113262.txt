@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO.24.00662.
+
+=== Métadonnées ===
+Tung N, Ricker C, Messersmith H, et al.
+Selection of Germline Genetic Testing Panels in Patients With Cancer: ASCO Guideline.
+J Clin Oncol. 2024 Jul 20;42(21):2599-2615. doi: 10.1200/JCO.24.00662. Epub 2024 May 17.
+                    (
+Evidence-based guideline
+)
+
+=== Abstract ===
+PURPOSE
+: To guide use of multigene panels for germline genetic testing for patients with cancer.
+METHODS
+: An ASCO Expert Panel convened to develop recommendations on the basis of a systematic review of guidelines, consensus statements, and studies of germline and somatic genetic testing.
+RESULTS
+: Fifty-two guidelines and consensus statements met eligibility criteria for the primary search; 14 studies were identified for Clinical Question 4.
+RECOMMENDATIONS
+: Patients should have a family history taken and recorded that includes details of cancers in first- and second-degree relatives and the patient's ethnicity. When more than one gene is relevant based on personal and/or family history, multigene panel testing should be offered. When considering what genes to include in the panel, the minimal panel should include the more strongly recommended genes from Table 1 and may include those less strongly recommended. A broader panel may be ordered when the potential benefits are clearly identified, and the potential harms from uncertain results should be mitigated. Patients who meet criteria for germline genetic testing should be offered germline testing regardless of results from tumor testing. Patients who would not normally be offered germline genetic testing based on personal and/or family history criteria but who have a pathogenic or likely pathogenic variant identified by tumor testing in a gene listed in Table 2 under the outlined circumstances should be offered germline testing.Additional information is available at www.asco.org/molecular-testing-and-biomarkers-guidelines.

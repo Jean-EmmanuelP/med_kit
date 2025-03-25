@@ -1,0 +1,24 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1097/AOG.0000000000005695.
+
+=== Métadonnées ===
+Kathopoulis N, Prodromidou A, Douligeris A, et al.
+Barbed Sutures Compared With Conventional Sutures During Laparoscopic Myomectomy: A Systematic Review and Meta-analysis.
+Obstet Gynecol. 2024 Oct 1;144(4):e81-e100. doi: 10.1097/AOG.0000000000005695. Epub 2024 Aug 15.
+                    (
+Systematic review
+)
+
+=== Abstract ===
+OBJECTIVE
+: To accumulate the currently available literature on the safety and efficacy of the use of knotless barbed sutures for the reconstruction of the uterine wall during laparoscopic myomectomy based on comparison with traditional suture studies.
+DATA SOURCES
+: We searched PubMed/Medline, Scopus, ClinicalTrials.gov, and Google Scholar up to February 29, 2024.
+METHODS OF STUDY SELECTION
+: Following PRISMA (Preferred Reporting Items for Systematic Reviews and Meta-analyses) guidelines and PICO criteria, we included all English-language, full-text articles that evaluated the perioperative outcomes of patients who had laparoscopic myomectomy and repair of the uterine wall defect with either barbed or traditional (extracorporeal or intracorporeal sutures).
+TABULATION, INTEGRATION, AND RESULTS
+: The application of barbed sutures resulted in significantly reduced operative time (2,111 patients, mean difference -12.04 minutes, 95% CI, -16.94 to -7.14, P <.001). This was also reflected when suturing time was separately analyzed (437 patients, mean difference -6.04 minutes, 95% CI, -7.43 to -4.65, P <.001) The mean difference in hemoglobin levels before and after surgery was significantly lower in the barbed suture group (1,277 patients, mean difference -0.40 g/dL, 95% CI, -0.72 to -0.09, P <.01) This was also observed in case of estimated blood loss, which was found to be lower in the barbed suture group (1,823 patients, mean difference -47.22 mL, 95% CI, -78.54 to -15.90, P =.003). Finally, the barbed suture group presented lower transfusion rates (1,217 patients, odds ratio 0.43, 95% CI, 0.19-1.00, P =.05). Concerning visual analog scale (VAS) score as evaluated by the surgeons for surgical difficulty, the control group proved to be more technically challenging compared with the barbed sutures group (184 patients, mean difference -1.66 95% CI, -2.37 to -0.94, P <.001). The VAS score for pain at 24 hours postoperatively, postoperative complication rates, and length of hospital stay were similar for both groups. Regarding reproductive outcomes, there was no difference in pregnancy, live birth, and birth complication rates.
+CONCLUSION
+: The use of barbed sutures during laparoscopic myomectomy presents many clinical benefits for the patient and the surgeon in terms of shorter operative and suturing time, less estimated blood loss, and ease of use. This pioneer technology may contribute to the expansion of laparoscopy on more complex myomectomies.
+SYSTEMATIC REVIEW REGISTRATION
+: PROSPERO, CRD42023477304.

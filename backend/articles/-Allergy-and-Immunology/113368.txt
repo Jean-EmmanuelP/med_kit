@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2314192.
+
+=== Métadonnées ===
+Riedl MA, Farkas H, Aygoren-Pursun E, et al.
+Oral Sebetralstat for On-Demand Treatment of Hereditary Angioedema Attacks.
+N Engl J Med. 2024 Jul 4;391(1):32-43. doi: 10.1056/NEJMoa2314192. Epub 2024 May 31.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: Approved on-demand treatments for hereditary angioedema attacks need to be administered parenterally, a route of administration that is associated with delays in treatment or withholding of therapy.
+METHODS
+: In this phase 3, double-blind, three-way crossover trial, we randomly assigned participants at least 12 years of age with type 1 or type 2 hereditary angioedema to take up to two oral doses of sebetralstat (300 mg or 600 mg) or placebo for an angioedema attack. The primary end point, assessed in a time-to-event analysis, was the beginning of symptom relief, defined as a rating of "a little better" on the Patient Global Impression of Change scale (ratings range from "much worse" to "much better") at two or more consecutive time points within 12 hours after the first administration of the trial agent. Key secondary end points, assessed in a time-to-event analysis, were a reduction in attack severity (an improved rating on the Patient Global Impression of Severity [PGI-S] scale, with ratings ranging from "none" to "very severe") at two or more consecutive time points within 12 hours and complete attack resolution (a rating of "none" on the PGI-S scale) within 24 hours.
+RESULTS
+: A total of 136 participants were assigned to one of six trial sequences, with 110 treating 264 attacks. The time to the beginning of symptom relief with the 300-mg dose and the 600-mg dose was faster than with placebo (P<0.001 and P = 0.001 for the two comparisons, respectively), with median times of 1.61 hours (interquartile range, 0.78 to 7.04), 1.79 hours (1.02 to 3.79), and 6.72 hours (1.34 to >12), respectively. The time to reduction in the attack severity with the 300-mg dose and the 600-mg dose was faster than with placebo (P = 0.004 and P = 0.003), with median times of 9.27 hours (interquartile range, 1.53 to >12), 7.75 hours (2.19 to >12), and more than 12 hours (6.23 to >12). The time to complete resolution was faster with the 300-mg and 600-mg doses than with placebo (P = 0.002 and P<0.001). The percentage of attacks with complete resolution within 24 hours was 42.5% with the 300-mg dose, 49.5% with the 600-mg dose, and 27.4% with placebo. Sebetralstat and placebo had similar safety profiles; no serious adverse events related to the trial agents were reported.
+CONCLUSIONS
+: Oral sebetralstat provided faster times to the beginning of symptom relief, reduction in attack severity, and complete attack resolution than placebo. (Funded by KalVista Pharmaceuticals; KONFIDENT ClinicalTrials.gov number, NCT05259917; EudraCT number, 2021-001226-21.).

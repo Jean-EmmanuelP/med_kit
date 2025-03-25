@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1212/WNL.0000000000209175.
+
+=== Métadonnées ===
+Honybun E, Cockle E, Malpas CB, et al.
+Neurodevelopmental and Functional Outcomes Following In Utero Exposure to Antiseizure Medication: A Systematic Review.
+Neurology. 2024 Apr 23;102(8):e209175. doi: 10.1212/WNL.0000000000209175. Epub 2024 Mar 26.
+                    (
+Systematic review
+)
+
+=== Abstract ===
+BACKGROUND AND OBJECTIVES
+: To undertake a systematic review of the available literature to examine the relationship between prenatal antiseizure medication (ASM) exposure and adverse postnatal neurodevelopmental outcomes, focusing on social, emotional, behavioral, and adaptive domains of human function, and the frequency of neurodevelopmental and psychiatric disorders in ASM-exposed offspring.
+METHODS
+: Electronic searches of MEDLINE, PsychINFO, and EMBASE were conducted and limited to studies published between 1990 and 2023 in English. Studies were eligible if they prospectively or retrospectively reported neurodevelopmental outcomes of ASM-exposed offspring. The Newcastle-Ottawa scale was used to conduct methodologic quality assessments of included studies, and a narrative synthesis integrated the review findings.
+RESULTS
+: Forty-three studies were included. Valproate has been consistently associated with a 2- to 4-fold increased risk of autism spectrum disorder (ASD), 2- to 5-fold increased risk of intellectual disability (ID), and poor adaptive functioning. Growing evidence indicates that topiramate is associated with a 2-fold increased risk of ASD and 3- to 4-fold increased risk of ID. The risks of adverse neurodevelopmental outcomes for valproate and topiramate seem to be dose dependent. Phenobarbital has been suggested to be associated with deleterious neurodevelopmental effects, but data are limited. Levetiracetam has recently been linked with an increased risk of attention deficit hyperactivity disorder and anxiety disorders in a single study. Carbamazepine has been associated with variable neurodevelopmental outcomes. Lamotrigine seems to be "safe" in terms of postnatal neurodevelopment. Data for oxcarbazepine, phenytoin, and clonazepam are limited but seem to have little-to-no risk of adverse outcomes. Evidence for the remaining ASMs, including gabapentin, pregabalin, lacosamide, zonisamide, clobazam, perampanel, ethosuximide, or brivaracetam, is lacking. Several methodologic limitations impeded data synthesis, including heterogeneity in outcome measures and small samples of monotherapy exposures.
+DISCUSSION
+: The findings of this review support the conclusion that valproate and topiramate use during pregnancy is associated with a significantly increased risk of neurodevelopmental effects on the fetus. Apart from lamotrigine, which seems to be free of adverse neurodevelopmental effects, data for the other ASMs are mixed or inadequate to draw definite conclusions. Further research into the neurodevelopmental effects of prenatal exposure to ASMs, including most newer agents, is much needed.

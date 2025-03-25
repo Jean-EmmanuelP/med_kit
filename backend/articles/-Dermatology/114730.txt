@@ -1,0 +1,26 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1136/bmjmed-2024-000998.
+
+=== Métadonnées ===
+Zeraatkar D, Pitre TS, Kirsh S, et al.
+Proactive therapeutic drug monitoring of biologic drugs in patients with inflammatory bowel disease, inflammatory arthritis, and psoriasis: systematic review and meta-analysis.
+BMJ Med. 2024 Oct 28;3(1):e000998. doi: 10.1136/bmjmed-2024-000998. eCollection 2024.
+                    (
+Systematic review
+)
+
+=== Abstract ===
+OBJECTIVE
+: To address the efficacy and safety of proactive therapeutic drug monitoring of biologic drugs for patients with inflammatory bowel disease, inflammatory arthritis, and psoriasis.
+DESIGN
+: Systematic review and meta-analysis.
+DATA SOURCES
+: Medline, Embase, Central, and CINAHL, from database inception to 23 May 2024.
+ELIGIBILITY CRITERIA FOR SELECTING STUDIES
+: Trials including people with inflammatory bowel disease, inflammatory arthritis, and psoriasis were selected. Selected trials also randomly assigned people to either proactive therapeutic drug monitoring of tumour necrosis factor-alpha inhibitors or other biologic drugs in the intervention group, and to either no therapeutic drug monitoring or standard care in the control group. Reviewers worked independently and in duplicate to screen search records and collect data from eligible trials. For each outcome, a frequentist, pairwise, random effects meta-analysis was done and the certainty of evidence was assessed using GRADE (grading of recommendations, assessment, development, and evaluations).
+RESULTS
+: Of 10 eligible trials identified, reporting on 2383 patients, two investigated induction with infliximab (533 patients), four assessed maintenance with infliximab (901 patients), and three assessed maintenance with adalimumab (710 patients). One trial was of maintenance with infliximab, adalimumab, and etanercept (239 patients). For patients who had induction with infliximab, the effects of proactive therapeutic drug monitoring on remission and adverse events were uncertain. Low certainty evidence suggested that proactive therapeutic drug monitoring may have little or no effect on disease activity, physical function, mental health, and quality of life. For patients who had maintenance with infliximab, low certainty evidence suggested that proactive therapeutic drug monitoring may increase the proportion of patients who had sustained disease control or remission (relative risk 1.26 (95% confidence interval (CI) 1.14 to 1.40), absolute risk difference of 146 more per 1000 patients treated for one year (95% CI 78 to 224). Additionally, this treatment and monitoring may reduce disease worsening, and may have little or no effect on disease activity, physical function, mental health, and quality of life. The effects of proactive therapeutic drug monitoring of infliximab on adverse events and formation of anti-drug antibodies were uncertain. For patients who had maintenance with adalimumab, the effects of proactive therapeutic drug monitoring were uncertain.
+CONCLUSION
+: Proactive therapeutic drug monitoring of infliximab during maintenance may help patients to have sustained disease control or remission. No compelling evidence supported the effectiveness of proactive therapeutic drug monitoring of infliximab during induction or proactive therapeutic drug monitoring of adalimumab during maintenance.
+SYSTEMATIC REVIEW REGISTRATION
+: https://osf.io/x4m28/.

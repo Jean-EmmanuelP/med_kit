@@ -1,0 +1,26 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.ijnurstu.2024.104887.
+
+=== Métadonnées ===
+Li Y, Li J, Fu MR, et al.
+Effectiveness of palliative care interventions on patient-reported outcomes and all-cause mortality in community-dwelling adults with heart failure: A systematic review and meta-analysis.
+Int J Nurs Stud. 2024 Dec;160:104887. doi: 10.1016/j.ijnurstu.2024.104887. Epub 2024 Sep 2.
+                    (
+Systematic review
+)
+
+=== Abstract ===
+BACKGROUND
+: Current evidence that supports palliative care interventions predominantly focuses on individuals with cancer or hospitalized patients. However, the effectiveness of palliative care on patient-reported outcomes and mortality in community-dwelling adults with heart failure has not been evaluated.
+OBJECTIVE
+: We aimed to evaluate the effectiveness of palliative care interventions on patient-reported outcomes and all-cause mortality in community-dwelling adults with heart failure.
+DESIGN
+: A systematic review and meta-analysis of randomized controlled trials.
+METHODS
+: MEDLINE, Embase, Cochrane Library, and CINAHL databases were searched from inception to October 2023. Randomized controlled trials were considered if they compared palliative care interventions with usual care, attention control, or waiting-list control primarily in a community-dwelling heart failure patient population. The primary outcome was patient-reported generic health-related or heart failure-specific quality of life. Secondary outcomes were patient-reported symptom burden, psychological health (anxiety and depression), spiritual well-being, and all-cause mortality. Two independent reviewers screened the retrieved articles and extracted data from the included studies. A random-effects meta-analysis was performed to pool the data, followed by sensitivity analysis, subgroup analysis, and meta-regression. All analyses were performed using R version 4.2.2.
+RESULTS
+: Eleven eligible studies were included in this review with a total of 1535 patients. Compared to usual care, palliative care interventions demonstrated statistically significant effects on improving generic health-related quality of life (SMD, 0.30 [95?% CI, 0.12 to 0.48]) and heart failure-specific quality of life (SMD, 0.17 [95?% CI, 0.03 to 0.31]). Palliative care interventions also reduced anxiety (SMD, -0.22 [95?% CI, -0.40 to -0.05]) and depression (SMD, -0.18 [95?% CI, -0.33 to -0.03]), and enhanced spiritual well-being (SMD, 0.43 [95?% CI, 0.05 to 0.81]), without adversely affecting all-cause mortality (RR, 1.00 [95?% CI, 0.76 to 1.33]). Yet, the interventions had no significant effects on symptom burden (SMD, -0.09 [95?% CI, -0.40 to 0.21]). The certainty of evidence across the outcomes ranged from very low to moderate based on the GRADE approach.
+CONCLUSIONS
+: Palliative care interventions are beneficial for community-dwelling adults with heart failure in that the interventions improved patient-reported quality of life, psychological health, and spiritual well-being, and importantly, did not lead to higher mortality rates. Findings of this review support the implementation of palliative care for adults with heart failure in community settings.
+REGISTRATION
+: CRD42023482495.

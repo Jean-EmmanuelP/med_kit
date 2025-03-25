@@ -1,0 +1,24 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.thromres.2024.03.012.
+
+=== Métadonnées ===
+Levesque H, Viallard JF, Houivet E, et al.
+Cyclophosphamide vs rituximab for eradicating inhibitors in acquired hemophilia A: A randomized trial in 108 patients.
+Thromb Res. 2024 May;237:79-87. doi: 10.1016/j.thromres.2024.03.012. Epub 2024 Mar 15.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: Acquired hemophilia A (AHA) is a rare autoimmune disorder due to autoantibodies against Factor VIII, with a high mortality risk. Treatments aim to control bleeding and eradicate antibodies by immunosuppression. International recommendations rely on registers and international expert panels.
+METHODS
+: CREHA, an open-label randomized trial, compared the efficacy and safety of cyclophosphamide and rituximab in association with steroids in patients with newly diagnosed AHA. Participants were treated with 1 mg/kg prednisone daily and randomly assigned to receive either 1.5-2 mg/kg/day cyclophosphamide orally for 6 weeks, or 375 mg/m2 rituximab once weekly for 4 weeks. The primary endpoint was complete remission over 18 months. Secondary endpoints included time to achieve complete remission, relapse occurrence, mortality, infections and bleeding, and severe adverse events.
+RESULTS
+: Recruitment was interrupted because of new treatment recommendations after 108 patients included (58 cyclophosphamide, 50 rituximab). After 18 months, 39 cyclophosphamide patients (67.2 %) and 31 rituximab patients (62.0 %) were in complete remission (OR 1.26; 95 % CI, 0.57 to 2.78). In the poor prognosis group (FVIII < 1 IU/dL, inhibitor titer > 20 BU mL-1), significantly more remissions were observed with cyclophosphamide (22 patients, 78.6 %) than with rituximab (12 patients, 48.0 %; p = 0.02). Relapse rates, deaths, severe infections, and bleeding were similar in the 2 groups. In patients with severe infection, cumulative doses of steroids were significantly higher than in patients without infection (p = 0.03).
+CONCLUSION
+: Cyclophosphamide and rituximab showed similar efficacy and safety. As first line, cyclophosphamide seems preferable, especially in poor prognosis patients, as administered orally and less expensive.
+FUNDING
+: French Ministry of Health.
+CLINICALTRIALS
+: gov number: NCT01808911.

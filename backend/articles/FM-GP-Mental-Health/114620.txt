@@ -1,0 +1,28 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamapsychiatry.2024.2871.
+
+=== Métadonnées ===
+Menegaz de Almeida A, Aquino de Moraes FC, Cavalcanti Souza ME, et al.
+Bright Light Therapy for Nonseasonal Depressive Disorders: A Systematic Review and Meta-Analysis.
+JAMA Psychiatry. 2025 Jan 1;82(1):38-46. doi: 10.1001/jamapsychiatry.2024.2871.
+                    (
+Systematic review
+)
+
+=== Abstract ===
+IMPORTANCE
+: Seasonal humor disorders are prone to have a link with daylight exposure. However, the effect of external light on nonseasonal disorders remains unclear. Evidence is lacking for the validity of bright light therapy (BLT) as an adjunctive treatment for these patients.
+OBJECTIVE
+: To assess BLT effectiveness as an adjunctive treatment for nonseasonal depressive disorders.
+DATA SOURCES
+: In March 2024, a comprehensive search was performed of publications in the MEDLINE, Embase, and Cochrane databases for randomized clinical trials (RCTs) evaluating BLT effects in patients with nonseasonal depression.
+STUDY SELECTION
+: RCTs published since 2000 were eligible. Comparisons between BLT and dim red light or antidepressant monotherapy alone were considered for inclusion.
+DATA EXTRACTION AND SYNTHESIS
+: Using the systematic review approach on RCTs published from January 1, 2000, through March 25, 2024, differences between patients treated with and without BLT were estimated using the Mantel-Haenszel method; heterogeneity was assessed using I2 statistics.
+MAIN OUTCOMES AND MEASURES
+: Remission of symptoms, response to treatment rates, and depression scales were assessed.
+RESULTS
+: In this systematic review and meta-analysis of 11 unique trials with data from 858 patients (649 female [75.6%]), statistically significant better remission and response rates were found in the BLT group (remission: 40.7% vs 23.5%; odds ratio [OR], 2.42; 95% CI, 1.50-3.91; P <.001; I2 = 21%; response: 60.4% vs 38.6%; OR, 2.34; 95% CI, 1.46-3.75; P <.001; I2 = 41%). With BLT, subgroup analysis based on follow-up times also showed better remission (<4 weeks: 27.4% vs 9.2%; OR, 3.59; 95% CI, 1.45-8.88; P = .005; I2 = 0% and >4 weeks: 46.6% vs 29.1%; OR, 2.18; 95% CI, 1.19-4.00; P = .01; I2 = 47%) and response (<4 weeks: 55.6% vs 27.4%; OR, 3.65; 95% CI, 1.81-7.33; P <.001; I2 = 35% and >4 weeks: 63.0% vs 44.9%; OR, 1.79; 95% CI, 1.01-3.17; P = .04; I2 = 32%) rates.
+CONCLUSIONS AND RELEVANCE
+: Results of this systematic review and meta-analysis reveal that BLT was an effective adjunctive treatment for nonseasonal depressive disorders. Additionally, results suggest that BLT may improve the response time to the initial treatment.

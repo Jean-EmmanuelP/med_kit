@@ -1,0 +1,22 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.2106/JBJS.24.00245.
+
+=== Métadonnées ===
+Tamai K, Terai H, Terakawa M, et al.
+Open-Door Cervical Laminoplasty Using Instrumentation of Every Level Versus Alternate Levels: A Multicenter, Randomized Controlled Trial.
+J Bone Joint Surg Am. 2025 Jan 15;107(2):144-151. doi: 10.2106/JBJS.24.00245. Epub 2024 Nov 21.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: In the setting of cervical open-door laminoplasty, the question of whether or not every opened laminar level should be instrumented has not been sufficiently investigated. We postulated that the surgical outcomes of open-door laminoplasty with instrumentation of every second opened level (skip-fixation) might not be inferior to those of laminoplasty with instrumentation of every opened level (all-fixation). The purpose of the present study was to test the noninferiority of laminoplasty with skip-fixation in improving myelopathy at 2 years postoperatively compared with all-fixation. Additionally, we compared radiographic and surgical outcomes between the 2 types of procedures.
+METHODS
+: This prospective, multicenter, unblinded randomized controlled trial included patients =60 years of age who underwent C3 to C6 open-door cervical laminoplasty for the treatment of degenerative cervical myelopathy. Patients were allocated to the skip-fixation group (n = 80) or the all-fixation group (n = 75) using a permuted block method. The primary outcome was the between-group difference in the Japanese Orthopaedic Association (JOA) score at 2 years postoperatively. Secondary outcomes included surgical data, complications, 2-year change in the JOA score, Neck Disability Index (NDI), EQ-5D-5L (EuroQol 5-dimension 5-level instrument) score, visual analog scale (VAS) score for neck pain, and radiographic outcomes.
+RESULTS
+: One hundred and thirty patients (including 66 in the skip-fixation group and 64 in the all-fixation group) completed the trial at 2 years (follow-up rate, 83.9%). The difference in the JOA score at 2 years was 0.0298 (95% confidence interval [CI], -0.706 to 0.766), which was within the noninferiority margin (p < 0.0001; noninferiority test). In the secondary analyses, laminoplasty with skip-fixation demonstrated a significantly shorter surgical time (p = 0.010; Mann-Whitney U test) and greater improvement in the VAS score for neck pain, NDI, and EQ-5D-5L score (p = 0.006, p = 0.047, p = 0.037, respectively; mixed-effect model) compared with all-fixation. There were no significant between-group differences in radiographic outcomes, including the hinge union rate.
+CONCLUSIONS
+: Skip-fixation may be sufficient to achieve noninferior 2-year postoperative improvement in myelopathy. Additionally, laminoplasty with skip-fixation potentially can lead to improvements in terms of neck pain, neck disability, and quality of life compared with all-fixation.
+LEVEL OF EVIDENCE
+: Therapeutic Level II. See Instructions for Authors for a complete description of levels of evidence.

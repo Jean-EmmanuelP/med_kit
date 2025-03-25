@@ -1,0 +1,13 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1182/blood.2024025939.
+
+=== Métadonnées ===
+Banerjee R, Sexton R, Cowan AJ, et al.
+Dexamethasone dose intensity does not impact outcomes in newly diagnosed multiple myeloma: a secondary SWOG analysis.
+Blood. 2025 Jan 2;145(1):75-84. doi: 10.1182/blood.2024025939.
+                    (
+Original study
+)
+
+=== Abstract ===
+Dexamethasone is a key component of induction for newly diagnosed multiple myeloma (NDMM), despite common toxicities, including hyperglycemia and insomnia. In the randomized ECOG E4A03 trial, dexamethasone 40 mg once weekly was associated with lower mortality than higher doses. However, the performance of dexamethasone dose reductions below this threshold with regard to progression-free survival (PFS) and overall survival (OS) in NDMM has not been fully characterized. We conducted a secondary pooled analysis of the SWOG 0777 and SWOG 1211 studies of NDMM, which used lenalidomide and dexamethasone (Rd) alone, with or without bortezomib, and with or without elotuzumab. The planned dexamethasone intensity was 40 to 60 mg weekly in all arms. Patients were categorized into FD-DEX (full-dose dexamethasone maintained throughout induction) or LD-DEX (lowered-dose dexamethasone or discontinuation; only permitted for grade 3+ toxicities per both study protocols). Of the 541 evaluated patients, the LD-DEX group comprised 373 patients (69%). There were no differences in PFS or OS between the FD-DEX and LD-DEX groups, which were balanced in terms of age, stage, and performance status. Predictors of PFS and OS in the multivariate models were treatment arm, age =70 years, and thrombocytopenia. FD-DEX did not significantly improve either outcome. Our study suggests that dexamethasone dose reductions are common in multiple myeloma, even within clinical trials. Given the many toxicities and unclear benefits of dexamethasone in the era of modern treatment regimens, dexamethasone dose reduction during NDMM induction warrants further prospective studies. These trials were registered at www.clinicaltrials.gov as #NCT00644228 and NCT01668719.

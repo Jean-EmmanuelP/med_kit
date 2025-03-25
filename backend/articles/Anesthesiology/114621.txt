@@ -1,0 +1,28 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamasurg.2024.4183.
+
+=== Métadonnées ===
+Breau RH, Lavallee LT, Cagiannos I, et al.
+Tranexamic Acid During Radical Cystectomy: A Randomized Clinical Trial.
+JAMA Surg. 2024 Dec 1;159(12):1355-1363. doi: 10.1001/jamasurg.2024.4183.
+                    (
+Original study
+)
+
+=== Abstract ===
+IMPORTANCE
+: Among cancer surgeries, patients requiring open radical cystectomy have the highest risk of red blood cell (RBC) transfusion. Prophylactic tranexamic acid (TXA) reduces blood loss during cardiac and orthopedic surgery, and it is possible that similar effects of TXA would be observed during radical cystectomy.
+OBJECTIVE
+: To determine whether TXA, administered before incision and for the duration of radical cystectomy, reduced the number of RBC transfusions received by patients up to 30 days after surgery.
+DESIGN, SETTING, AND PARTICIPANTS
+: The Tranexamic Acid During Cystectomy Trial (TACT) was a double-blind, placebo-controlled, randomized clinical trial with enrollment between June 2013 and January 2021. This multicenter trial was conducted in 10 academic centers. A consecutive sample of patients was eligible if the patients had a planned open radical cystectomy for the treatment of bladder cancer.
+INTERVENTION
+: Before incision, patients in the intervention arm received a loading dose of intravenous TXA, 10 mg/kg, followed by a maintenance infusion of 5 mg/kg per hour for the duration of the surgery. In the control arm, patients received indistinguishable matching placebo.
+MAIN OUTCOMES AND MEASURES
+: The primary outcome was receipt of RBC transfusion up to 30 days after surgery.
+RESULTS
+: A total of 386 patients were assessed for eligibility, and 33 did not meet eligibility. Of 353 randomized patients (median [IQR] age, 69 [62-75] years; 263 male [74.5%]), 344 were included in the intention-to-treat analysis. RBC transfusion up to 30 days occurred in 64 of 173 patients (37.0%) in the TXA group and 64 of 171 patients (37.4%) in the placebo group (relative risk, 0.99; 95% CI, 0.83-1.18). There were no differences in secondary outcomes among the TXA group vs placebo group including mean (SD) number of RBC units transfused (0.9 [1.5] U vs 1.1 [1.8] U; P = .43), estimated blood loss (927 [733] mL vs 963 [624] mL; P = .52), intraoperative transfusion (28.3% [49 of 173] vs 24.0% [41 of 171]; P = .08), or venous thromboembolic events (3.5% [6 of 173] vs 2.9% [5 of 171]; P = .57). Non-transfusion-related adverse events were similar between groups.
+CONCLUSIONS AND RELEVANCE
+: Results of this randomized clinical trial reveal that TXA did not reduce blood transfusion in patients undergoing open radical cystectomy for bladder cancer. Based on this trial, routine use of TXA during open radical cystectomy is not recommended.
+TRIAL REGISTRATION
+: ClinicalTrials.gov Identifier: NCT01869413.

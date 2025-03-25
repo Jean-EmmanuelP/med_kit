@@ -1,0 +1,22 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1093/bjs/znae049.
+
+=== Métadonnées ===
+Cuk P, Tiskus M, Moller S, et al.
+Surgical stress response in robot-assisted versus laparoscopic surgery for colon cancer (SIRIRALS): randomized clinical trial.
+Br J Surg. 2024 Mar 2;111(3):znae049. doi: 10.1093/bjs/znae049.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: Evidence for the routine use of robotic technology and its impact on short-term outcomes in colon cancer surgery is lacking. The aim of this study was to compare the surgically induced systemic stress response and clinical and patient-reported outcomes for patients undergoing robot-assisted or laparoscopic colon cancer surgery.
+METHODS
+: In this double-blinded superiority RCT completed between August 2021 and March 2023, patients with stage 1-3 colon cancer were randomized in a 1 : 1 ratio to undergo either robot-assisted or laparoscopic colon cancer surgery. The primary outcome was changes in the systemic stress response, characterized by C-reactive protein expression in the first three postoperative days. Secondary outcomes were intraoperative and postoperative complications and patient-reported outcomes. The latter included quality of recovery-15 and pain intensity using a visual analogue scale.
+RESULTS
+: In total, 128 patients were screened for potential inclusion in this study; 50 patients (25 in the robot-assisted group and 25 in the laparoscopic group) were included in the final follow-up and analysis. The postoperative C-reactive protein response was higher on the first postoperative day in the laparoscopic group (mean difference = 19.88 mg/l, 95% c.i. 3.89-35.86; P = 0.045). No statistically significant differences were noted for C-reactive protein expression on the second and third postoperative days.
+CONCLUSION
+: Adopting robot-assisted surgery for stage 1-3 colon cancer is associated with a reduction in the surgical stress response.
+REGISTRATION NUMBER
+: NCT04687384 (http://www.clinicaltrials.gov).

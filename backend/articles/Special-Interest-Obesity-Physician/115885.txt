@@ -1,0 +1,28 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.2337/dc24-1533.
+
+=== Métadonnées ===
+Lee MMY, Ghouri N, Misra A, et al.
+Comparative Efficacy of Glucagon-Like Peptide 1 Receptor Agonists for Cardiovascular Outcomes in Asian Versus White Populations: Systematic Review and Meta-analysis of Randomized Trials of Populations With or Without Type 2 Diabetes and/or Overweight or Obesity.
+Diabetes Care. 2025 Mar 1;48(3):489-493. doi: 10.2337/dc24-1533.
+                    (
+Systematic review
+)
+
+=== Abstract ===
+BACKGROUND
+: Cardiovascular outcome trials (CVOTs) suggest glucagon-like peptide 1 receptor agonists (GLP-1RAs) provide greater cardiovascular (CV) benefits in Asian compared with White individuals.
+PURPOSE
+: Compare CV efficacy of GLP-1RAs between Asian and White individuals.
+DATA SOURCES
+: Systematic review of PubMed and ClinicalTrials.gov (1 January 2015 to 1 November 2024).
+STUDY SELECTION
+: Randomized placebo-controlled CVOTs of GLP-1RAs. Risk of bias was assessed (RoB 2).
+DATA EXTRACTION
+: Ethnicity-specific hazard ratios (HRs) for major adverse cardiovascular events (MACE).
+DATA SYNTHESIS
+: Random-effects meta-analyses per Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) guidelines included eight trials (5,909 Asian individuals, 55,855 White individuals). GLP-1RA-associated MACE HR was 0.69 (95% CI 0.58, 0.83) in Asian people and 0.85 (95% CI 0.79, 0.91) in White people (Pinteraction = 0.045). Absolute MACE risk reduction was 2.9% (95% CI 1.5, 4.2) in Asian people versus 1.4% (0.9, 1.9) in White people.
+LIMITATIONS
+: Lack of individual patient-level data precluded detailed subclassification of the Asian group.
+CONCLUSIONS
+: GLP-1RAs may offer greater MACE reductions in Asian compared with White individuals.

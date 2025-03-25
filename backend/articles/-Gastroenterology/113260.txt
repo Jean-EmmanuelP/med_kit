@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1053/j.gastro.2024.03.019.
+
+=== Métadonnées ===
+Rubenstein JH, Sawas T, Wani S, et al.
+AGA Clinical Practice Guideline on Endoscopic Eradication Therapy of Barrett's Esophagus and Related Neoplasia.
+Gastroenterology. 2024 Jun;166(6):1020-1055. doi: 10.1053/j.gastro.2024.03.019.
+                    (
+Evidence-based guideline
+)
+
+=== Abstract ===
+BACKGROUND & AIMS
+: Barrett's esophagus (BE) is the precursor to esophageal adenocarcinoma (EAC). Endoscopic eradication therapy (EET) can be effective in eradicating BE and related neoplasia and has greater risk of harms and resource use than surveillance endoscopy. This clinical practice guideline aims to inform clinicians and patients by providing evidence-based practice recommendations for the use of EET in BE and related neoplasia.
+METHODS
+: The Grading of Recommendations Assessment, Development and Evaluation framework was used to assess evidence and make recommendations. The panel prioritized clinical questions and outcomes according to their importance for clinicians and patients, conducted an evidence review, and used the Evidence-to-Decision Framework to develop recommendations regarding the use of EET in patients with BE under the following scenarios: presence of (1) high-grade dysplasia, (2) low-grade dysplasia, (3) no dysplasia, and (4) choice of stepwise endoscopic mucosal resection (EMR) or focal EMR plus ablation, and (5) endoscopic submucosal dissection vs EMR. Clinical recommendations were based on the balance between desirable and undesirable effects, patient values, costs, and health equity considerations.
+RESULTS
+: The panel agreed on 5 recommendations for the use of EET in BE and related neoplasia. Based on the available evidence, the panel made a strong recommendation in favor of EET in patients with BE high-grade dysplasia and conditional recommendation against EET in BE without dysplasia. The panel made a conditional recommendation in favor of EET in BE low-grade dysplasia; patients with BE low-grade dysplasia who place a higher value on the potential harms and lower value on the benefits (which are uncertain) regarding reduction of esophageal cancer mortality could reasonably select surveillance endoscopy. In patients with visible lesions, a conditional recommendation was made in favor of focal EMR plus ablation over stepwise EMR. In patients with visible neoplastic lesions undergoing resection, the use of either endoscopic mucosal resection or endoscopic submucosal dissection was suggested based on lesion characteristics.
+CONCLUSIONS
+: This document provides a comprehensive outline of the indications for EET in the management of BE and related neoplasia. Guidance is also provided regarding the considerations surrounding implementation of EET. Providers should engage in shared decision making based on patient preferences. Limitations and gaps in the evidence are highlighted to guide future research opportunities.

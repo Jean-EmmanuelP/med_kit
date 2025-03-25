@@ -1,0 +1,19 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1136/ard-2024-225851.
+
+=== Métadonnées ===
+Fautrel B, Mitrovic S, De Matteis A, et al.
+EULAR/PReS recommendations for the diagnosis and management of Still's disease, comprising systemic juvenile idiopathic arthritis and adult-onset Still's disease.
+Ann Rheum Dis. 2024 Nov 14;83(12):1614-1627. doi: 10.1136/ard-2024-225851.
+                    (
+Evidence-based guideline
+)
+
+=== Abstract ===
+Systemic juvenile idiopathic arthritis (sJIA) and adult-onset Still's disease (AOSD) are considered the same disease, but a common approach for diagnosis and management is still missing.
+METHODS
+: In May 2022, EULAR and PReS endorsed a proposal for a joint task force (TF) to develop recommendations for the diagnosis and management of sJIA and AOSD. The TF agreed during a first meeting to address four topics: similarity between sJIA and AOSD, diagnostic biomarkers, therapeutic targets and strategies and complications including macrophage activation syndrome (MAS). Systematic literature reviews were conducted accordingly.
+RESULTS
+: The TF based their recommendations on four overarching principles, highlighting notably that sJIA and AOSD are one disease, to be designated by one name, Still's disease.Fourteen specific recommendations were issued. Two therapeutic targets were defined: clinically inactive disease (CID) and remission, that is, CID maintained for at least 6 months. The optimal therapeutic strategy relies on early use of interleukin (IL-1 or IL-6 inhibitors associated to short duration glucocorticoid (GC). MAS treatment should rely on high-dose GCs, IL-1 inhibitors, ciclosporin and interferon-? inhibitors. A specific concern rose recently with cases of severe lung disease in children with Still's disease, for which T cell directed immunosuppressant are suggested. The recommendations emphasised the key role of expert centres for difficult-to-treat patients. All overarching principles and recommendations were agreed by over 80% of the TF experts with a high level of agreement.
+CONCLUSION
+: These recommendations are the first consensus for the diagnosis and management of children and adults with Still's disease.

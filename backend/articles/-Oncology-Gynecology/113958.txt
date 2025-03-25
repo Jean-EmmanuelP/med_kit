@@ -1,0 +1,22 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S1470-2045(24)00334-6.
+
+=== Métadonnées ===
+Colombo N, Biagioli E, Harano K, et al.
+Atezolizumab and chemotherapy for advanced or recurrent endometrial cancer (AtTEnd): a randomised, double-blind, placebo-controlled, phase 3 trial.
+Lancet Oncol. 2024 Sep;25(9):1135-1146. doi: 10.1016/S1470-2045(24)00334-6. Epub 2024 Aug 2.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: At the time of AtTEnd trial design, standard treatment for advanced or recurrent endometrial cancer included carboplatin and paclitaxel chemotherapy. This trial assessed whether combining atezolizumab with chemotherapy might improve outcomes in this population.
+METHODS
+: AtTEnd was a multicentre, double-blind, randomised, placebo-controlled, phase 3 trial done in 89 hospitals in 11 countries across Europe, Australia, New Zealand, and Asia. Enrolled patients were aged 18 years or older, and had advanced or recurrent endometrial carcinoma or carcinosarcoma, an Eastern Cooperative Oncology Group performance status of 0-2, and received no previous systemic chemotherapy for recurrence. Patients were randomly assigned (2:1) using an interactive web response system (block size of six) to either atezolizumab 1200 mg or placebo given intravenously with chemotherapy (carboplatin at area under the curve of 5 or 6 and paclitaxel 175 mg/m2 intravenously on day 1 every 21 days) for 6-8 cycles, then continued until progression. Stratification factors were country, histological subtype, advanced or recurrent status, and mismatch repair (MMR) status. Participants and treating clinicians were masked to group allocation. The hierarchically tested co-primary endpoints were progression-free survival (in patients with MMR-deficient [dMMR] tumours, and in the overall population) and overall survival (in the overall population). Primary analyses were done in the intention-to-treat population, defined as all randomly assigned patients who gave their full consent to participation in the study and data processing. Safety was assessed in all patients included in the intention-to-treat population who received at least one dose of study treatment. Here, we report the primary progression-free survival and the interim overall survival results. This study is ongoing and is registered with ClinicalTrials.gov, NCT03603184.
+FINDINGS
+: Between Oct 3, 2018, and Jan 7, 2022, 551 patients were randomly assigned to atezolizumab (n=362) or placebo (n=189). Two patients in the atezolizumab group were excluded from all analyses due to lack of consent. Median follow-up was 28·3 months (IQR 21·2-37·6). 81 (23%) patients in the atezolizumab group and 44 (23%) patients in the placebo group had dMMR disease by central assessment. In the dMMR population, median progression-free survival was not estimable (95% CI 12·4 months-not estimable [NE]) in the atezolizumab group and 6·9 months (6·3-10·1) in the placebo group (hazard ratio [HR] 0·36, 95% CI 0·23-0·57; p=0·0005). In the overall population, median progression-free survival was 10·1 months (95% CI 9·5-12·3) in the atezolizumab group and 8·9 months (8·1-9·6) in the placebo group (HR 0·74, 95% CI 0·61-0·91; p=0·022). Median overall survival was 38·7 months (95% CI 30·6-NE) in the atezolizumab group and 30·2 months (25·0-37·2) in the placebo group (HR 0·82, 95% CI 0·63-1·07; log-rank p=0·048). The p value for the interim analysis of overall survival did not cross the stopping boundary; therefore, the trial will continue until the required number of events are recorded. The most common grade 3-4 adverse events were neutropenia (97 [27%] of 356 patients in the atezolizumab group vs 51 [28%] of 185 in the placebo group) and anaemia (49 [14%] vs 24 [13%]). Treatment-related serious adverse events occurred in 46 (13%) patients in the atezolizumab group and six (3%) patients in the placebo group. Treatment-related deaths occurred in two patients (pneumonia in one patient in each group).
+INTERPRETATION
+: Atezolizumab plus chemotherapy increased progression-free survival in patients with advanced or recurrent endometrial carcinoma, particularly in those with dMMR carcinomas, suggesting the addition of atezolizumab to standard chemotherapy as first-line treatment in this specific subgroup.
+FUNDING
+: F Hoffmann-La Roche.

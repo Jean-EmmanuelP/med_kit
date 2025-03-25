@@ -1,0 +1,28 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamainternmed.2024.6683.
+
+=== Métadonnées ===
+Krebs EE, Becker WC, Nelson DB, et al.
+Care Models to Improve Pain and Reduce Opioids Among Patients Prescribed Long-Term Opioid Therapy: The VOICE Randomized Clinical Trial.
+JAMA Intern Med. 2025 Feb 1;185(2):208-220. doi: 10.1001/jamainternmed.2024.6683.
+                    (
+Original study
+)
+
+=== Abstract ===
+IMPORTANCE
+: Patients prescribed long-term opioid therapy for chronic pain often experience unrelieved pain, poor quality of life, and serious adverse events.
+OBJECTIVE
+: To compare the effects of integrated pain team (IPT) vs pharmacist collaborative management (PCM) on pain and opioid dosage.
+DESIGN, SETTING, AND PARTICIPANTS
+: This study was a pragmatic multisite 12-month randomized comparative effectiveness trial with masked outcome assessment. Patients were recruited from October 2017 to March 2021; follow-up was completed June 2022. The study sites were Veterans Affairs primary care clinics. Eligible patients had moderate to severe chronic pain despite long-term opioid therapy (=20 mg/d for at least 3 months).
+INTERVENTIONS
+: IPT involved interdisciplinary pain care planning, visits throughout 12 months with medical and mental health clinicians, and emphasis on nondrug therapies and motivational interviewing. PCM was a collaborative care intervention involving visits throughout 12 months with a clinical pharmacist care manager who conducted structured monitoring and medication optimization. Both interventions provided individualized pain care and opioid tapering recommendations to patients.
+MAIN OUTCOMES AND MEASURES
+: The primary outcome was pain response (=30% decrease in Brief Pain Inventory total score) at 12 months. The main secondary outcome was 50% or greater reduction in opioid daily dosage at 12 months.
+RESULTS
+: A total of 820 patients were randomized to IPT (n = 411) or PCM (n = 409). Participants' mean (SD) age was 62.2 (10.6) years, and 709 (86.5%) were male. A pain response was achieved in 58/350 patients in the IPT group (16.4%) vs 54/362 patients in the PCM group (14.9%) (odds ratio, 1.11 [95% CI, 0.74-1.67]; P = .61). A 50% opioid dose reduction was achieved in 102/403 patients in the IPT group (25.3%) vs 98/399 patients in the PCM group (24.6%) (odds ratio, 1.03 [95% CI, 0.75-1.42]; P = .85). Over 12 months, the mean (SD) Brief Pain Inventory total score improved from 6.7 (1.5) points to 6.1 (1.8) points (P < .001) in IPT and from 6.6 (1.6) points to 6.0 (1.9) points (P < .001) in PCM (between-group P = .82). Over 12 months, mean (SD) opioid daily dosage decreased from 80.8 (74.2) mg/d to 54.2 (65.0) mg/d in IPT (P < .001) and from 74.5 (56.9) mg/d to 52.8 (51.9) mg/d (P < .001) in PCM (between-group P = .22).
+CONCLUSIONS AND RELEVANCE
+: Outcomes in this randomized clinical trial did not differ between groups; both had small improvements in pain and substantial reductions in opioid dosage.
+TRIAL REGISTRATION
+: ClinicalTrials.gov Identifier: NCT03026790.

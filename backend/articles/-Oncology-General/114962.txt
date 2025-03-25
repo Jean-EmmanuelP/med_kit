@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1161/CIRCULATIONAHA.124.072758.
+
+=== Métadonnées ===
+Yamashita Y, Morimoto T, Muraoka N, et al.
+Rivaroxaban for 18 Months Versus 6 Months in Patients With Cancer and Acute Low-Risk Pulmonary Embolism: An Open-Label, Multicenter, Randomized Clinical Trial (ONCO PE Trial).
+Circulation. 2024 Nov 18. doi: 10.1161/CIRCULATIONAHA.124.072758.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: The optimal duration of anticoagulation therapy for patients with cancer and acute low-risk pulmonary embolism (PE) is clinically relevant, but evidence is lacking. Prolonged anticoagulation therapy could have a potential benefit for prevention of thrombotic events; however, it could also increase the risk of bleeding.
+METHODS
+: In a multicenter, open-label, adjudicator-blinded, randomized clinical trial at 32 institutions in Japan, we randomly assigned patients with cancer and acute low-risk PE of the simplified version of the Pulmonary Embolism Severity Index score of 1, in a 1:1 ratio, to receive either an 18-month or a 6-month rivaroxaban treatment. The primary end point was recurrent venous thromboembolism (VTE) at 18 months. The major secondary end point was major bleeding at 18 months according to the criteria of the International Society on Thrombosis and Hemostasis. The primary hypothesis was that an 18-month treatment was superior to a 6-month treatment in terms of the primary end point.
+RESULTS
+: From February 2021 to March 2023, 179 patients were randomized, and after the exclusion of one patient who withdrew consent, 178 were included in the intention-to-treat population: 89 patients in the 18-month rivaroxaban group and 89 in the 6-month rivaroxaban group. The mean age was 65.7 years; 47% of the patients were men, and 12% had symptoms of PE at baseline. The primary end point of recurrent VTE occurred in 5 of the 89 patients (5.6%) in the 18-month rivaroxaban group and in 17 of the 89 (19.1%) in the 6-month rivaroxaban group (odds ratio, 0.25 [95% CI, 0.09-0.72]; P=0.01). Among 22 recurrent VTE, 5 patients presented with a symptomatic recurrent VTE; recurrent PE occurred in 11 patients, including 2 with main and 4 with lobar PEs; and recurrent deep vein thrombosis was seen in 11 patients, including 3 with proximal deep vein thromboses. The major secondary end point of major bleeding occurred in 7 of the 89 patients (7.8 %) in the 18-month rivaroxaban group and in 5 of the 89 patients (5.6%) in the 6-month rivaroxaban group (odds ratio, 1.43 [95% CI, 0.44-4.70]; P=0.55).
+CONCLUSIONS
+: In patients with cancer and acute low-risk PE of the simplified version of the Pulmonary Embolism Severity Index score of 1, the 18-month rivaroxaban treatment was superior to the 6-month rivaroxaban treatment with respect to recurrent VTE events.

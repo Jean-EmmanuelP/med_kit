@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1053/j.gastro.2024.03.005.
+
+=== Métadonnées ===
+Barba E, Livovsky DM, Accarino A, et al.
+Thoracoabdominal Wall Motion-Guided Biofeedback Treatment of Abdominal Distention: A Randomized Placebo-Controlled Trial.
+Gastroenterology. 2024 Aug;167(3):538-546.e1. doi: 10.1053/j.gastro.2024.03.005. Epub 2024 Mar 11.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND & AIMS
+: Abdominal distention results from abdominophrenic dyssynergia (ie, diaphragmatic contraction and abdominal wall relaxation) in patients with disorders of gut-brain interaction. This study aimed to validate a simple biofeedback procedure, guided by abdominothoracic wall motion, for treating abdominal distention.
+METHODS
+: In this randomized, parallel, placebo-controlled trial, 42 consecutive patients (36 women and 6 men; ages 17-64 years) with meal-triggered visible abdominal distention were recruited. Recordings of abdominal and thoracic wall motion were obtained using inductance plethysmography via adaptable belts. The signal was shown to patients in the biofeedback group, who were taught to mobilize the diaphragm. In contrast, the signal was not shown to the patients in the placebo group, who were given a placebo capsule. Three sessions were performed over a 4-week intervention period, with instructions to perform exercises (biofeedback group) or to take placebo 3 times per day (control group) at home. Outcomes were assessed through response to an offending meal (changes in abdominothoracic electromyographic activity and girth) and clinical symptoms measured using daily scales for 7 days.
+RESULTS
+: Patients in the biofeedback group (n = 19) learned to correct abdominophrenic dyssynergia triggered by the offending meal (intercostal activity decreased by a mean ± SE of 82% ± 10%, anterior wall activity increased by a mean ± SE of 97% ± 6%, and increase in girth was a mean ± SE of 108% ± 4% smaller) and experienced improved clinical symptoms (abdominal distention scores decreased by a mean ± SE of 66% ± 5%). These effects were not observed in the placebo group (all, P < .002).
+CONCLUSIONS
+: Abdominothoracic wall movements serve as an effective biofeedback signal for correcting abdominophrenic dyssynergia and abdominal distention in patients with disorders of gut-brain interaction. ClincialTrials.gov, Number: NCT04043208.

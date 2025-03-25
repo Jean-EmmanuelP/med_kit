@@ -1,0 +1,22 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S1470-2045(24)00255-9.
+
+=== Métadonnées ===
+Gupta AA, Xue W, Harrison DJ, et al.
+Addition of temsirolimus to chemotherapy in children, adolescents, and young adults with intermediate-risk rhabdomyosarcoma (ARST1431): a randomised, open-label, phase 3 trial from the Children's Oncology Group.
+Lancet Oncol. 2024 Jul;25(7):912-921. doi: 10.1016/S1470-2045(24)00255-9.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: The Children's Oncology Group defines intermediate-risk rhabdomyosarcoma as unresected FOXO1 fusion-negative disease arising at an unfavourable site or non-metastatic FOXO1 fusion-positive disease. Temsirolimus in combination with chemotherapy has shown promising activity in patients with relapsed or refractory rhabdomyosarcoma. We aimed to compare event-free survival in patients with intermediate-risk rhabdomyosarcoma treated with vincristine, actinomycin, and cyclophosphamide alternating with vincristine and irinotecan (VAC/VI) combined with temsirolimus followed by maintenance therapy versus VAC/VI alone with maintenance therapy.
+METHODS
+: ARST1431 was a randomised, open-label, phase 3 trial conducted across 210 institutions in Australia, Canada, New Zealand, and the USA. Eligible patients were those aged 40 years or younger with non-metastatic FOXO1-positive rhabdomyosarcoma or unresected FOXO1-negative rhabdomyosarcoma disease from unfavourable sites. Two other groups of patients were also eligible: those who had FOXO1-negative disease at a favourable site (excluding orbit) that was unresected; and those who were aged younger than 10 years with stage IV FOXO1-negative disease with distant metastases. Eligible patients had to have a Lansky performance status score of 50 or higher if 16 years or younger and a Karnofsky performance status score of 50 or higher if older than 16 years; all patients were previously untreated. Patients were randomised (1:1) in blocks of four and stratified by histology, stage, and group. Patients received intravenous VAC/VI chemotherapy with a cyclophosphamide dose of 1·2 g/m2 per dose per cycle with or without a reducing dose of intravenous weekly temsirolimus starting at 15 mg/m2 or 0·5 mg/kg per dose for those who weighed less than 10 kg. The total duration of therapy was 42 weeks followed by 6 months of maintenance therapy with oral cyclophosphamide plus intravenous vinorelbine for all patients. Temsirolimus was withheld during radiotherapy and for 2 weeks before any major surgical procedure. The primary endpoint was 3-year event-free survival. Data were analysed with a revised intention-to-treat approach. The study is registered with ClinicalTrials.gov (NCT02567435) and is complete.
+FINDINGS
+: Between May 23, 2016, and Jan 1, 2022, 325 patients were enrolled. In 297 evaluable patients (148 assigned to VAC/VI alone and 149 assigned to VAC/VI with temsirolimus), the median age was 6·3 years (IQR 3·0-11·3); 33 (11%) patients were aged 18 years or older; 179 (60%) of 297 were male. 113 (77%) of 148 patients were FOXO1 negative in the VAC/VI group, and 108 (73%) of 149 were FOXO1 negative in the VAC/VI with temsirolimus group. With a median follow-up of 3·6 years (IQR 2·8-4·5), 3-year event-free survival did not differ significantly between the two groups (64·8% [95% CI 55·5-74·1] in the VAC/VI group vs 66·8% [57·5-76·2] in the VAC/VI plus temsirolimus group (hazard ratio 0·86 [95% CI 0·58-1·26]; log-rank p=0·44). The most common grade 3-4 adverse events were anaemia (62 events in 60 [41%] of 148 patients in the VAC/VI group vs 89 events in 87 [58%] of 149 patients in the VAC/VI with temsirolimus group), lymphopenia (83 events in 65 [44%] vs 99 events in 71 [48%]), neutropenia (160 events in 99 [67%] vs 164 events in 105 [70%]), and leukopenia (121 events in 86 [58%] vs 132 events in 93 [62%]). There was one treatment-related death in the VAC/VI with temsirolimus group, categorised as not otherwise specified.
+INTERPRETATION
+: Addition of temsirolimus to VAC/VI did not improve event-free survival in patients with intermediate-risk rhabdomyosarcoma defined by their FOXO1 translocation status and clinical factors. Novel biology-based strategies are needed to improve outcomes in this population.
+FUNDING
+: The Children's Oncology Group (supported by the US National Cancer Institute, US National Institutes of Health).

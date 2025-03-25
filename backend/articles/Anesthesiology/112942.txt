@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1213/ANE.0000000000006932.
+
+=== Métadonnées ===
+Carvalho Pereira L, Carvalho Pereira I, Dias Delfino Cabral T, et al.
+Balanced Crystalloids Versus Normal Saline in Kidney Transplant Patients: An Updated Systematic Review, Meta-analysis, and Trial Sequential Analysis.
+Anesth Analg. 2024 Jul 1;139(1):58-67. doi: 10.1213/ANE.0000000000006932. Epub 2024 Apr 5.
+                    (
+Systematic review
+)
+
+=== Abstract ===
+BACKGROUND
+: The use of balanced crystalloids over normal saline for perioperative fluid management during kidney transplantation and its benefits on acid-base and electrolyte balance along with its influence on postoperative clinical outcomes remains a topic of controversy. Therefore, we conducted this review to assess the impact of balanced solutions compared to normal saline on outcomes for kidney transplant patients.
+METHODS
+: We searched MEDLINE, EMBASE, and Cochrane databases for randomized controlled trials (RCTs) comparing balanced lower-chloride solutions to normal saline in renal transplant patients. Our main outcome of interest was delayed graft function (DGF). Additionally, we examined acid-base and electrolyte measurements, along with postoperative renal function. We computed relative risk (RR) using the Mantel-Haenszel test for binary outcomes, and mean difference (MD) for continuous data, and applied DerSimonian and Laird random-effects models to address heterogeneity. Furthermore, we performed a trial sequential analysis (TSA) for all outcomes.
+RESULTS
+: Twelve RCTs comprising a total of 1668 patients were included; 832 (49.9%) were assigned to receive balanced solutions. Balanced crystalloids reduced the occurrence of DGF compared to normal saline, with RR of 0.82 (95% confidence interval [CI], 0.71-0.94), P = .005; I² = 0%. The occurrence was 25% (194 of 787) in the balanced crystalloids group and 34% (240 of 701) in the normal saline group. Moreover, our TSA supported the primary outcome result and suggests that the sample size was sufficient for our conclusion. End-of-surgery chloride (MD, -8.80 mEq·L -1 ; 95% CI, -13.98 to -3.63 mEq.L -1 ; P < .001), bicarbonate (MD, 2.12 mEq·L -1 ; 95% CI, 1.02-3.21 mEq·L -1 ; P < .001), pH (MD, 0.06; 95% CI, 0.04-0.07; P < .001), and base excess (BE) (MD, 2.41 mEq·L -1 ; 95% CI, 0.88-3.95 mEq·L -1 ; P = .002) significantly favored the balanced crystalloids groups and the end of surgery potassium (MD, -0.17 mEq·L -1 ; 95% CI, -0.36 to 0.02 mEq·L -1 ; P = .07) did not differ between groups. However, creatinine did not differ in the first (MD, -0.06 mg·dL -1 ; 95% CI, -0.38 to 0.26 mg·dL -1 ; P = .71) and seventh (MD, -0.06 mg·dL -1 ; 95% CI, -0.18 to 0.06 mg·dL -1 ; P = .30) postoperative days nor urine output in the first (MD, -1.12 L; 95% CI, -3.67 to 1.43 L; P = .39) and seventh (MD, -0.01 L; 95% CI, -0.45 to 0.42 L; P = .95) postoperative days.
+CONCLUSIONS
+: Balanced lower-chloride solutions significantly reduce the occurrence of DGF and provide an improved acid-base and electrolyte control in patients undergoing kidney transplantation.

@@ -1,0 +1,28 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamanetworkopen.2024.39382.
+
+=== Métadonnées ===
+Thurnheer MC, Schurmann A, Huber M, et al.
+Perioperative Antibiotic Prophylaxis Duration in Patients Undergoing Cystectomy With Urinary Diversion: A Randomized Clinical Trial.
+JAMA Netw Open. 2024 Oct 1;7(10):e2439382. doi: 10.1001/jamanetworkopen.2024.39382.
+                    (
+Original study
+)
+
+=== Abstract ===
+IMPORTANCE
+: Perioperative antibiotic prophylaxis (PAP) reduces the incidence of surgical site infections (SSIs). Guidelines recommend 24 hours or less of PAP for cystectomy with urinary diversion; however, evidence specifying optimal PAP duration for this surgery is lacking, and prolonged administration of PAP is common practice.
+OBJECTIVE
+: To establish noninferiority of 24-hour PAP vs extended-duration PAP in preventing SSIs within 90 days after cystectomy with urinary diversion.
+DESIGN, SETTING, AND PARTICIPANTS
+: This single-center, noninferiority randomized clinical trial was performed from April 18, 2018, to August 18, 2022, in patients aged older than 18 years undergoing elective open cystectomy with urinary diversion. Exclusion criteria were contraindications to administered drugs and inability to follow study procedures.
+INTERVENTION
+: PAP administered for 24 hours (24-hour PAP group) vs PAP until all catheters and stents were removed (extended PAP group).
+MAIN OUTCOME AND MEASURES
+: The primary end point was the rate of SSI, and the secondary end points included all-cause mortality, both within 90 days after surgery. Noninferiority of the 24-hour PAP treatment was assessed by comparing the 90% CI (corresponding to a significance level of a = .05) with the predefined noninferiority margin of 10%.
+RESULTS
+: A total of 95 patients were randomly assigned to the 24-hour PAP group (median [IQR] age, 69.3 [63.1-76.8] years; 66 males [69.5%]) and 98 to the extended PAP group (median [IQR] age, 69.5 [60.8-75.5] years; 68 males [69.4%]). Patients in the 24-hour PAP group received PAP for a median of 1 day (IQR, 1-1 day), and patients in the extended PAP group received PAP for a median of 8 days (IQR, 7-10 days). No significant differences in SSIs occurring within 90 days were found (24-hour PAP group, 8 patients [8.4%]; extended PAP group, 12 patients [12.2%]; P = .53). The risk difference for 90-day cumulative SSI incidence was -3.8% (90% CI, -11.1% to 3.4%), establishing noninferiority of 24-hour PAP vs extended PAP to prevent SSI. Mortality was not significantly different between groups.
+CONCLUSIONS AND RELEVANCE
+: The findings of this randomized clinical trial demonstrate noninferiority of 24-hour PAP vs extended-duration PAP in preventing SSIs within 90 days after cystectomy with urinary diversion and may contribute to antibiotic stewardship efforts in urology.
+TRIAL REGISTRATION
+: ClinicalTrials.gov Identifier: NCT03305627.

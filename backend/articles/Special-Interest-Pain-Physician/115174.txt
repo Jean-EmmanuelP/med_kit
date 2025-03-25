@@ -1,0 +1,28 @@
+=== Lien PubMed ===
+Lien PubMed non disponible
+
+=== Métadonnées ===
+Shi H, Xu X, Zhu J, et al.
+A Randomized Double-blind Trial of 5% Dextrose Versus Corticosteroid Hydrodissection for Meralgia Paresthetica.
+Pain Physician. 2024 Nov;27(8):E835-E842.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: Ultrasound-guided 5% dextrose (D5W) hydrodissection provides  favorable outcomes for treating peripheral entrapment neuropathies; its safety is well recognized. However, clinical evidence regarding the use of D5W hydrodissection for meralgia paresthetica (MP) is limited. Although corticosteroids are the most common injectates, the possible adverse effects are a big concern.
+OBJECTIVE
+: To compare the efficacy and safety of ultrasound-guided D5W hydrodissection compared to corticosteroid hydrodissection in patients with MP during a 6-month follow-up period.
+STUDY DESIGN
+: A prospective, randomized double-blind, controlled trial.
+SETTING
+: Outpatient clinic at a university hospital.
+METHODS
+: A total of 56 patients with MP were randomly allocated to either a D5W or steroid group in a 1:1 ratio. The patients received one session of ultrasound-guided perineural injection therapy of 10 mL D5W or a corticosteroid solution (1 mL compound betamethasone [1 mL: betamethasone sodium phosphate 5 mg and betamethasone dipropionate 2 mg] mixed with 5 mL 2% lidocaine and 4 mL 0.9% saline).The primary outcomes were Visual Analog Scale (VAS) scores for MP (pain and paresthesia) and global quality of life. The secondary outcomes included self-reported successful clinical response and injection adverse effects. Evaluations were conducted at pretreatment and at one, 3, 4 and 6 months posttreatment.
+RESULTS
+: All patients completed the study. Compared with baseline, both groups exhibited reductions in VAS scores for MP and global quality of life at all follow-up time points, with statistical differences at 3, 4, and 6 months in the D5W group (P < 0.05), as well as those at one, 3, and 4 months in the steroid group (P < 0.05). The D5W group exhibited greater improvement than the steroid group in VAS scores for MP and global quality of life at 4 and 6 months (P < 0.05), and demostrated a more successful clinical response at 6 months (P < 0.05). No adverse effects were reported in the D5W group during the study period, while 6 patients in the steroid group reported an adverse effect.
+LIMITATIONS
+: A longer follow-up period is necessary; the exact mechanism of D5W is not clear.
+CONCLUSIONS
+: Ultrasound-guided perineural injection therapy of D5W is more beneficial than corticosteroid injection for MP at 4 to 6 months posttreatment. Additionally, D5W displays a better safety profile than corticosteroid. Thus, we suggest D5W as a more suitable injectate for patients with MP.

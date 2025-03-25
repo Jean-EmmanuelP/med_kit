@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO-24-01544.
+
+=== Métadonnées ===
+Ahn MJ, Tanaka K, Paz-Ares L, et al.
+Datopotamab Deruxtecan Versus Docetaxel for Previously Treated Advanced or Metastatic Non-Small Cell Lung Cancer: The Randomized, Open-Label Phase III TROPION-Lung01 Study.
+J Clin Oncol. 2025 Jan 20;43(3):260-272. doi: 10.1200/JCO-24-01544. Epub 2024 Sep 9.
+                    (
+Original study
+)
+
+=== Abstract ===
+PURPOSE
+: The randomized, open-label, global phase III TROPION-Lung01 study compared the efficacy and safety of datopotamab deruxtecan (Dato-DXd) versus docetaxel in patients with pretreated advanced/metastatic non-small cell lung cancer (NSCLC).
+METHODS
+: Patients received Dato-DXd 6 mg/kg or docetaxel 75 mg/m2 once every 3 weeks. Dual primary end points were progression-free survival (PFS) and overall survival (OS). Objective response rate, duration of response, and safety were secondary end points.
+RESULTS
+: In total, 299 and 305 patients were randomly assigned to receive Dato-DXd or docetaxel, respectively. The median PFS was 4.4 months (95% CI, 4.2 to 5.6) with Dato-DXd and 3.7 months (95% CI, 2.9 to 4.2) with docetaxel (hazard ratio [HR], 0.75 [95% CI, 0.62 to 0.91]; P = .004). The median OS was 12.9 months (95% CI, 11.0 to 13.9) and 11.8 months (95% CI, 10.1 to 12.8), respectively (HR, 0.94 [95% CI, 0.78 to 1.14]; P = .530). In the prespecified nonsquamous histology subgroup, the median PFS was 5.5 versus 3.6 months (HR, 0.63 [95% CI, 0.51 to 0.79]) and the median OS was 14.6 versus 12.3 months (HR, 0.84 [95% CI, 0.68 to 1.05]). In the squamous histology subgroup, the median PFS was 2.8 versus 3.9 months (HR, 1.41 [95% CI, 0.95 to 2.08]) and the median OS was 7.6 versus 9.4 months (HR, 1.32 [95% CI, 0.91 to 1.92]). Grade =3 treatment-related adverse events occurred in 25.6% and 42.1% of patients, and any-grade adjudicated drug-related interstitial lung disease/pneumonitis occurred in 8.8% and 4.1% of patients, in the Dato-DXd and docetaxel groups, respectively.
+CONCLUSION
+: Dato-DXd significantly improved PFS versus docetaxel in patients with advanced/metastatic NSCLC, driven by patients with nonsquamous histology. OS showed a numerical benefit but did not reach statistical significance. No unexpected safety signals were observed.

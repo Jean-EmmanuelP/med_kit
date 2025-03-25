@@ -1,0 +1,28 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamapsychiatry.2023.5661.
+
+=== Métadonnées ===
+van 't Wout-Frank M, Arulpragasam AR, Faucher C, et al.
+Virtual Reality and Transcranial Direct Current Stimulation for Posttraumatic Stress Disorder: A Randomized Clinical Trial.
+JAMA Psychiatry. 2024 May 1;81(5):437-446. doi: 10.1001/jamapsychiatry.2023.5661.
+                    (
+Original study
+)
+
+=== Abstract ===
+IMPORTANCE
+: Posttraumatic stress disorder (PTSD) is a common psychiatric disorder that is particularly difficult to treat in military veterans. Noninvasive brain stimulation has significant potential as a novel treatment to reduce PTSD symptoms.
+OBJECTIVE
+: To test whether active transcranial direct current stimulation (tDCS) plus virtual reality (VR) is superior to sham tDCS plus VR for warzone-related PTSD.
+DESIGN, SETTING, AND PARTICIPANTS
+: This double-blind randomized clinical trial was conducted among US military veterans enrolled from April 2018 to May 2023 at a secondary care Department of Veterans Affairs hospital and included 1- and 3-month follow-up visits. Participants included US military veterans with chronic PTSD and warzone-related exposure, recruited via referral and advertisement. Patients in psychiatric treatment had to be on a stable regimen for at least 6 weeks to be eligible for enrollment. Data were analyzed from May to September 2023.
+INTERVENTION
+: Participants were randomly assigned to receive 2-mA anodal tDCS or sham tDCS targeted to the ventromedial prefrontal cortex, during six 25-minute sessions of standardized warzone VR exposure, delivered over 2 to 3 weeks.
+MAIN OUTCOMES AND MEASURES
+: The co-primary outcomes were self-reported PTSD symptoms, measured via the PTSD checklist for DSM-5 (PCL-5), alongside quality of life. Other outcomes included psychophysiological arousal, clinician-assessed PTSD, depression, and social/occupational function.
+RESULTS
+: A total of 54 participants (mean [SD] age, 45.7 [10.5] years; 51 [94%] males) were assessed, including 26 in the active tDCS group and 28 in the sham tDCS group. Participants in the active tDCS group reported a superior reduction in self-reported PTSD symptom severity at 1 month (t = -2.27, P = .02; Cohen d = -0.82). There were no significant differences in quality of life between active and sham tDCS groups. Active tDCS significantly accelerated psychophysiological habituation to VR events between sessions compared with sham tDCS (F5,7689.8 = 4.65; P < .001). Adverse effects were consistent with the known safety profile of the corresponding interventions.
+CONCLUSIONS AND RELEVANCE
+: These findings suggest that combined tDCS plus VR may be a promising strategy for PTSD reduction and underscore the innovative potential of these combined technologies.
+TRIAL REGISTRATION
+: ClinicalTrials.gov Identifier: NCT03372460.

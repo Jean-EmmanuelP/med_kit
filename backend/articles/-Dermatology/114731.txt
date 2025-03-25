@@ -1,0 +1,24 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1136/bmj-2024-079830.
+
+=== Métadonnées ===
+Kawano-Dourado L, Kristianslund EK, Zeraatkar D, et al.
+Proactive therapeutic drug monitoring of biologic drugs in adult patients with inflammatory bowel disease, inflammatory arthritis, or psoriasis: a clinical practice guideline.
+BMJ. 2024 Oct 28;387:e079830. doi: 10.1136/bmj-2024-079830.
+                    (
+Evidence-based guideline
+)
+
+=== Abstract ===
+CLINICAL QUESTION
+: In adult patients with inflammatory bowel disease, inflammatory arthritis (rheumatoid arthritis, spondyloarthritis, psoriatic arthritis), or psoriasis taking biologic drugs, does proactive therapeutic drug monitoring (TDM) improve outcomes as compared with standard care?
+CONTEXT AND CURRENT PRACTICE
+: Standard care for immune mediated inflammatory diseases includes prescribing biologic drugs at pre-determined doses. Dosing may be adjusted reactively, for example with increased disease activity. In proactive TDM, serum drug levels and anti-drug antibodies are measured irrespective of disease activity, and the drug dosing is adjusted to achieve target serum drug levels, usually within pre-specified therapeutic ranges. The role of proactive TDM in clinical practice remains unclear, with conflicting guideline recommendations and emerging evidence from randomised controlled trials.
+THE EVIDENCE
+: Linked systematic review and pairwise meta-analysis which identified 10 trials including 2383 participants. Inflammatory bowel disease, inflammatory arthritis, and psoriasis were grouped together as best current research evidence on proactive TDM did not suggest heterogeneity of effects on outcomes of interest. Proactive TDM of intravenous infliximab during maintenance treatment may increase the proportion of patients who experience sustained disease control or sustained remission without considerable additional harm. For adalimumab, it remains unclear if proactive TDM during maintenance treatment has an effect on sustained disease control or sustained remission. At induction (start) of treatment, proactive TDM of intravenous infliximab may have little or no effect on achieving remission. No eligible trial evidence was available for proactive TDM of adalimumab at induction (start) of treatment. No eligible trial evidence was available for proactive TDM of other biologic drugs in maintenance or at induction (start) of treatment.
+RECOMMENDATIONS
+: The guideline panel issued the following recommendations for patients with inflammatory bowel disease, inflammatory arthritis, or psoriasis:1. A weak recommendation in favour of proactive TDM for intravenous infliximab during maintenance treatment2. A weak recommendation against proactive TDM for adalimumab and other biologic drugs during maintenance treatment3. A weak recommendation against proactive TDM for intravenous infliximab, adalimumab, and other biologic drugs during induction (start) of treatment.
+UNDERSTANDING THE RECOMMENDATIONS
+: When considering proactive TDM, clinicians and patients should engage in shared decision making to ensure patients make choices that reflect their values and preferences. The availability of laboratory assays to implement proactive TDM should also be considered. Further research is warranted and may alter recommendations in the future.
+HOW THIS GUIDELINE WAS CREATED
+: An international panel including patient partners, clinicians, and methodologists produced these recommendations based on a linked systematic review and pairwise meta-analysis which identified 10 trials including 2383 participants. The panel followed standards for trustworthy guidelines and used the GRADE approach, explicitly considering the balance of benefits and harms and burdens of treatment from an individual patient perspective.

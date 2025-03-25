@@ -1,0 +1,13 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1542/peds.2024-068444.
+
+=== Métadonnées ===
+McCallin TE, Dezfulian C, Bierens J, et al.
+2024 American Heart Association and American Academy of Pediatrics Focused Update on Special Circumstances: Resuscitation Following Drowning: An Update to the American Heart Association Guidelines for Cardiopulmonary Resuscitation and Emergency Cardiovascular Care.
+Pediatrics. 2024 Dec 1;154(6):e2024068444. doi: 10.1542/peds.2024-068444.
+                    (
+Evidence-based guideline
+)
+
+=== Abstract ===
+Drowning is the third leading cause of death from unintentional injury worldwide, accounting for 7% of all injury-related deaths. In the United States, drowning is the leading cause of death in children 1 to 4 years of age and second leading cause of death due to unintentional injury in those aged 5 to 14 years. Drowning generally progresses from initial respiratory arrest due to submersion-related hypoxia to cardiac arrest; thus, it can be challenging to distinguish respiratory arrest from cardiac arrest because pulses are difficult to accurately palpate within the recommended 10-second window. Therefore, resuscitation from cardiac arrest due to this specific circumstance must focus on restoring breathing as much as it does circulation. Resuscitation from drowning may begin with in-water rescue breathing when safely provided by rescuers trained in the technique and should continue with chest compressions, in keeping with basic life support guidelines, once the drowned individual and the rescuer are in a safe environment (eg, dry land, boat). This focused update incorporates systematic reviews from 2021 to 2023 performed by the International Liaison Committee on Resuscitation related to the resuscitation of drowning. These clinical guidelines are the product of a committee of experts representing the American Academy of Pediatrics and the American Heart Association. The writing group reviewed the recent International Liaison Committee on Resuscitation systematic reviews, including updated literature searches, prior guidelines related to resuscitation from cardiac arrest following drowning, and other drowning-related publications from the American Academy of Pediatrics and the American Heart Association. The writing group used these reviews to update its recommendations aimed at resuscitation from cardiac arrest following drowning in children.

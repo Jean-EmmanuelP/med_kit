@@ -1,0 +1,22 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S0140-6736(24)01859-2.
+
+=== Métadonnées ===
+Vernooij RWM, Hockham C, Strippoli G, et al.
+Haemodiafiltration versus haemodialysis for kidney failure: an individual patient data meta-analysis of randomised controlled trials.
+Lancet. 2024 Oct 25:S0140-6736(24)01859-2. doi: 10.1016/S0140-6736(24)01859-2.
+                    (
+Systematic review
+)
+
+=== Abstract ===
+BACKGROUND
+: High-dose haemodiafiltration has been shown, in a randomised clinical trial, to result in a 23% lower risk of mortality for patients with kidney failure when compared with conventional high-flux haemodialysis. Nevertheless, whether treatment effects differ across subgroups, whether a dose-response relationship with convection volume exists, and the effects on cause-specific mortality remain unclear. The aim of this individual patient data meta-analysis was to compare the effects of haemodiafiltration and standard haemodialysis on all-cause and cause-specific mortality.
+METHODS
+: On July 17, 2024, we searched MEDLINE, Embase, and the Cochrane Central Register of Controlled Trials for randomised controlled trials, published from database inception, comparing online haemodiafiltration versus haemodialysis designed to measure mortality outcomes. The primary outcome was all-cause mortality. Hazard ratios were generated using Cox proportional hazards regression models reporting hazard ratios and 95% CIs. Subgroup analyses based on predefined patient characteristics and dose-response analyses using natural splines for convection volume were performed. This analysis is registered with PROSPERO (CRD42024511514).
+FINDINGS
+: Five trials (n=4153 patients; 2070 receiving haemodialysis and 2083 receiving haemodiafiltration) were eligible for inclusion in this analysis. After a median follow-up of 30 months (IQR 24-36), all-cause mortality occurred in 477 patients (23·3%) treated with haemodiafiltration compared with in 559 patients (27·0%) treated with haemodialysis (hazard ratio 0·84 [95% CI 0·74-0·95]). No evidence of a differential effect across subgroups was noted. A graded relationship between convection volume and mortality risk was apparent: as the volume increased, the mortality risk decreased.
+INTERPRETATION
+: Compared with haemodialysis, online haemodiafiltration reduces all-cause mortality in people with kidney failure. Results do not differ across patient and treatment characteristics and the risk reduction appears to be dose-dependent. In conclusion, the present analysis strengthens the notion that haemodiafiltration can be considered as a superior alternative to the present standard (ie, haemodialysis).
+FUNDING
+: European Commission Research and Innovation, Horizon 2020.

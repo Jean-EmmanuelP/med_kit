@@ -1,0 +1,26 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1002/14651858.CD009788.pub3.
+
+=== Métadonnées ===
+Roson Rodriguez P, Chen X, Arancibia M, et al.
+Transitional discharge interventions for people with schizophrenia.
+Cochrane Database Syst Rev. 2024 Aug 30;8(8):CD009788. doi: 10.1002/14651858.CD009788.pub3.
+                    (
+Systematic review
+)
+
+=== Abstract ===
+BACKGROUND
+: Schizophrenia is a chronic mental illness characterized by delusions, hallucinations, and important functional and social disability. Interventions labeled as 'transitional' add to care plans made during the hospital stay in preparation for discharge. They also include interventions developed after discharge to support people with serious mental illness as they make the transition from the hospital to the community. Transitional discharge interventions may anticipate the future needs of the patient after discharge by co-ordinating the different levels of the health system that can effectively guarantee continuity of care in the community. This occurs through the provision of therapeutic relationships which give a safety net throughout the discharge and community reintegration processes to improve the general condition of users, level of functioning, use of health resources, and satisfaction with care.
+OBJECTIVES
+: To assess the effects of transitional discharge interventions for people with schizophrenia.
+SEARCH METHODS
+: On 7 December 2022, we searched the Cochrane Schizophrenia Group's Study-Based Register of Trials, which is based on CENTRAL, MEDLINE, Embase, PubMed, CINAHL, ClinicalTrials.gov, ISRCTN, PsycINFO, and WHO ICTRP.
+SELECTION CRITERIA
+: Randomized controlled trials (RCTs) evaluating the effects of transitional discharge interventions in people with schizophrenia and schizophrenia-related disorders. Eligible interventions included three key elements: predischarge planning, co-ordination of care and follow-up, and postdischarge support.
+DATA COLLECTION AND ANALYSIS
+: We used standard Cochrane methods. Outcomes of this review included global state (relapse), service use (hospitalization), general functioning, satisfaction with care, adverse effects/events, quality of life, and direct costs. For binary outcomes, we calculated risk ratios (RRs) and their 95% confidence intervals (CIs). For continuous outcomes, we calculated the mean difference (MD) or standardized mean difference (SMD) and their 95% CIs. We used GRADE to assess certainty of evidence.
+MAIN RESULTS
+: We found 12 studies with 1748 participants comparing transitional discharge interventions to usual care. All were parallel-group RCTs. No studies assessed global state (relapse) or reported data about adverse events/effects. All studies had a high risk of bias, mainly due to serious concerns about allocation concealment, deviations from intended interventions, measurement of the outcomes, and missing outcome data. Transitional discharge interventions may make little to no difference in service use (hospitalization) at short- and long-term follow-ups, but the evidence is very uncertain (RR 1.18, 95% CI 0.55 to 2.50; I2 = 54%; 4 studies, 462 participants; very low-certainty evidence). Transitional discharge intervention may increase the levels of functioning after discharge (clinically important change in general functioning) (SMD 0.95, 95% CI -0.06 to 1.97; I² = 95%; 4 studies, 437 participants; very low-certainty evidence) and may increase the proportion of participants who are satisfied with the intervention (clinically important change in satisfaction) (RR 1.96, 95% CI 1.37 to 2.80; 1 study, 76 participants; very low-certainty evidence), but for both outcomes the evidence is very uncertain. Transitional discharge intervention may make little to no difference in quality of life compared to treatment as usual (SMD 0.24, 95% CI -0.30 to 0.78; I² = 90%; 4 studies, 748 participants; very low-certainty evidence), but we are very uncertain. For direct costs, one study with 124 participants did not report full details and thus the results were inconclusive.
+AUTHORS' CONCLUSIONS
+: There is currently no clear evidence for or against implementing transitional discharge interventions for people with schizophrenia. Transitional discharge interventions may improve patient satisfaction and functionality, but this evidence is also very uncertain. For future research, it is important to improve the quality of the conduct and reporting of these trials, including using validated tools for measuring their outcomes.

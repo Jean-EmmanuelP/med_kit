@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO.23.01836.
+
+=== Métadonnées ===
+Grimison P, Mersiades A, Kirby A, et al.
+Oral Cannabis Extract for Secondary Prevention of Chemotherapy-Induced Nausea and Vomiting: Final Results of a Randomized, Placebo-Controlled, Phase II/III Trial.
+J Clin Oncol. 2024 Dec;42(34):4040-4050. doi: 10.1200/JCO.23.01836. Epub 2024 Aug 16.
+                    (
+Original study
+)
+
+=== Abstract ===
+PURPOSE
+: The aim of this randomized, placebo-controlled, two-stage, phase II/III trial was to determine the efficacy of an oral cannabis extract in adults with refractory nausea and/or vomiting during moderately or highly emetogenic, intravenous chemotherapy despite guideline-consistent antiemetic prophylaxis. Here, we report results of the prespecified combined analysis including the initial phase II and subsequent phase III components.
+PATIENTS AND METHODS
+: Study treatment consisted of oral capsules containing either tetrahydrocannabinol 2.5 mg plus cannabidiol 2.5 mg capsules (THC:CBD) or matching placebo, taken three times a day from days -1 to 5, in addition to guideline-consistent antiemetics. The primary measure of effect was the difference in the proportions of participants with no vomiting or retching and no use of rescue medications (a complete response) during hours 0-120 after the first cycle of chemotherapy on study (cycle A).
+RESULTS
+: We recruited 147 evaluable of a planned 250 participants from 2016 to 2022. Background antiemetic prophylaxis included a corticosteroid and 5-hydroxytryptamine antagonist in 97%, a neurokinin-1 antagonist in 80%, and olanzapine in 10%. THC:CBD compared with placebo improved the complete response rate from 8% to 24% (absolute difference 16%, 95% CI, 4 to 28, P = .01), with similar effects for absence of significant nausea, use of rescue medications, daily vomits, and the nausea scale on the Functional Living Index-Emesis quality-of-life questionnaire. More frequent bothersome adverse events of special interest included sedation (18% v 7%), dizziness (10% v 0%), and transient anxiety (4% v 1%). There were no serious adverse events attributed to THC:CBD.
+CONCLUSION
+: THC:CBD is an effective adjunct for chemotherapy-induced nausea and vomiting despite standard antiemetic prophylaxis, but was associated with additional adverse events. Drug availability, cultural attitudes, legal status, and preferences may affect implementation. Future analyses will evaluate the cost-effectiveness of THC:CBD.

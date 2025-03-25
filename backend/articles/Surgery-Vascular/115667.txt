@@ -1,0 +1,22 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1161/CIRCULATIONAHA.124.072849.
+
+=== Métadonnées ===
+Jeunemaitre X, Mousseaux E, Frank M, et al.
+Efficacy of Irbesartan in Celiprolol-Treated Patients With Vascular Ehlers-Danlos Syndrome.
+Circulation. 2025 Feb 5. doi: 10.1161/CIRCULATIONAHA.124.072849.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: Vascular Ehlers-Danlos syndrome is a rare genetic disorder characterized by defective type III collagen and a high risk of arterial morbidity and mortality. Several cardiovascular drugs are used for treatment, including celiprolol, but no controlled trial in this condition has been conducted to date. We hypothesized the benefit of the addition of an angiotensin II receptor blocker.
+METHODS
+: A multicenter, randomized, placebo-controlled trial was conducted to assess the efficacy and safety of the angiotensin II receptor blocker irbesartan in adults with vascular Ehlers-Danlos syndrome on stable background celiprolol therapy. Patients were randomized 1:1 to receive irbesartan (150 mg/day titrated to 300 mg/day) or placebo for 2 years. The composite primary outcome was defined as any vascular Ehlers-Danlos syndrome-related fatal or nonfatal arterial event or any new or worsening arterial lesions detected by systematic head-to-pelvis computed tomography angiography or peripheral arterial duplex ultrasound at different time points, using a time-to-first-event analysis.
+RESULTS
+: Twenty-nine participants (62% female; 40.3±11.3 years of age) were randomized to irbesartan, and 28 (64% female; 40.7±11.0 years of age) were randomized to placebo. The composite primary outcome occurred in 8 of 29 patients (27.6%) receiving irbesartan versus 15 of 28 patients (53.6%) receiving placebo (hazard ratio, 0.42 [95% CI, 0.17, 0.99]; P<0.05). The risk of recurrent symptomatic or nonsymptomatic arterial events was lower with irbesartan than with placebo (risk ratio, 0.37 [95% CI, 0.19, 0.68]; P=0.002). A reduction of progression of arterial lesions was observed at all sites. Irbesartan significantly reduced systolic blood pressure compared with placebo (baseline-adjusted difference of 5.4 mm Hg [P<0.001]), but no relation was observed with the reduction of the primary composite outcome. Eleven episodes of irbesartan-related hypotension were recorded, leading to a downtitration in 4 patients.
+CONCLUSIONS
+: Compared with placebo, irbesartan reduced the risk of severe symptomatic and asymptomatic arterial events in patients with vascular Ehlers-Danlos syndrome on background celiprolol therapy.
+REGISTRATION
+: URL: https://www.clinicaltrials.gov; Unique identifier: NCT02597361.

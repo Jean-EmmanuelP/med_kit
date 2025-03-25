@@ -1,0 +1,28 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamanetworkopen.2024.50391.
+
+=== Métadonnées ===
+Nayak MM, Chai P, Catalano PJ, et al.
+Cannabidiol for Scan-Related Anxiety in Women With Advanced Breast Cancer: A Randomized Clinical Trial.
+JAMA Netw Open. 2024 Dec 2;7(12):e2450391. doi: 10.1001/jamanetworkopen.2024.50391.
+                    (
+Original study
+)
+
+=== Abstract ===
+IMPORTANCE
+: Early evidence from studies outside of oncology has suggested that cannabidiol (CBD) may have anxiolytic effects without neuropsychiatric risks. An understanding of oral CBD in patients with cancer-related anxiety is urgently needed.
+OBJECTIVE
+: To determine whether a single 400-mg oral dose of a US Food and Drug Administration-approved CBD improves clinical anxiety in an oncologic population.
+DESIGN, SETTING, AND PARTICIPANTS
+: This phase II, double-masked, placebo-controlled, randomized clinical trial was performed at the Dana-Farber Cancer Institute's Breast Oncology Center from November 2, 2021, through March 1, 2023. Women aged 18 years or older with advanced breast cancer and baseline clinical anxiety were included.
+INTERVENTIONS
+: Patients were randomized 1:1 to receive oral CBD, 400 mg, vs placebo within 48 hours before a scan assessing tumor burden.
+MAIN OUTCOMES AND MEASURES
+: The primary end point was a between-arm comparison of change scores on the afraid subscale of the Visual Analog Mood Scale (VAMS) before and 2 to 4 hours after study drug ingestion. The VAMS scores were converted to T-scores to facilitate interpretation of mood change (>20 indicates a reliable change, >30 indicates both a reliable and clinically significant change). Exploratory outcomes included between-arm comparisons of anxiety levels 2 to 4 hours after study drug ingestion, between-arm comparisons of change scores on other VAMS subscales, and safety.
+RESULTS
+: Among the 50 participants, 25 were randomized to the placebo arm (mean [range] age, 57 [37-81] years) and 25 were randomized to the CBD arm (mean [range] age, 60 [30-79] years). The primary end point of VAMS afraid subscale change score, although numerically greater in the CBD arm, was not significantly different between arms (mean [SD]: CBD, -19.1 [15.4]; placebo, -15.0 [10.9]; P = .37). The secondary outcome directly comparing anxiety levels between arms 2 to 4 hours after study drug ingestion demonstrated significantly lower VAMS afraid T-scores for participants who received CBD compared with those receiving placebo (mean [SD]: CBD, 51.5 [12.8]; placebo, 58.0 [11.6]; P = .02). No grade 3 or 4 toxic effects were reported.
+CONCLUSIONS AND RELEVANCE
+: The findings of this randomized clinical trial show that CBD can be used safely in women with advanced breast cancer and clinical anxiety. Although the study did not meet its primary end point comparing preingestion vs postingestion anxiety change scores between study arms, anxiety levels in the CBD arm were significantly lower 2 to 4 hours after ingestion, suggesting a possible anxiolytic effect and warranting further investigation.
+TRIAL REGISTRATION
+: ClinicalTrials.gov Identifier: NCT04482244.

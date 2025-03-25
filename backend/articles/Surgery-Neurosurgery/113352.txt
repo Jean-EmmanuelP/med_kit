@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1212/WNL.0000000000209430.
+
+=== Métadonnées ===
+Guo J, Wang Z, van 't Klooster MA, et al.
+Seizure Outcome After Intraoperative Electrocorticography-Tailored Epilepsy Surgery: A Systematic Review and Meta-Analysis.
+Neurology. 2024 Jun 11;102(11):e209430. doi: 10.1212/WNL.0000000000209430. Epub 2024 May 20.
+                    (
+Systematic review
+)
+
+=== Abstract ===
+BACKGROUND AND OBJECTIVES
+: Tailoring epilepsy surgery using intraoperative electrocorticography (ioECoG) has been debated, and modest number of epilepsy surgery centers apply this diagnostic method. We assessed the current evidence to use ioECoG-tailored epilepsy surgery for improving postsurgical outcome.
+METHODS
+: PubMed and Embase were searched for original studies reporting on =10 cases who underwent ioECoG-tailored surgery for epilepsy, with a follow-up of at least 6 months. We used a random-effects model to calculate the overall rate of patients achieving favorable seizure outcome (FSO), defined as Engel class I, ILAE class 1, or seizure-free status. Meta-regression was used to investigate potential sources of heterogeneity. We calculated the odds ratio (OR) for estimating variables on FSO:ioECoG vs non-ioECoG-tailored surgery (if included studies contained patients with non-ioECoG-tailored surgery), ioECoG-tailored epilepsy surgery in children vs adults, temporal (TL) vs extratemporal lobe (eTL), MRI-positive vs MRI-negative, and complete vs incomplete resection of tissue that generated interictal epileptiform discharges (IEDs). A Bayesian network meta-analysis was conducted for underlying pathologies. We assessed the evidence certainty using the Grading of Recommendations, Assessment, Development, and Evaluation (GRADE).
+RESULTS
+: Eighty-three studies (82 observational studies, 1 trial) comprising 3,631 patients with ioECoG-tailored surgery were included. The overall pooled rate of patients who attained FSO after ioECoG-tailored surgery was 74% (95% CI 71-77) with significant heterogeneity, which was predominantly attributed to pathologies and seizure outcome classifications. Twenty-two studies contained non-ioECoG-tailored surgeries. IoECoG-tailored surgeries reached a higher rate of FSO than non-ioECoG-tailored surgeries (OR 2.10 [95% CI 1.37-3.24]; p < 0.01; very low certainty). Complete resection of tissue that displayed IEDs in ioECoG predicted FSO better compared with incomplete resection (OR 3.04 [1.76-5.25]; p < 0.01; low certainty). We found insignificant difference in FSO after ioECoG-tailored surgery in children vs adults, TL vs eTL, or MRI-positive vs MRI-negative. The network meta-analysis showed that the odds of FSO was lower for malformations of cortical development than for tumors (OR 0.47 95% credible interval 0.25-0.87).
+DISCUSSION
+: Although limited by low-quality evidence, our meta-analysis shows a relatively good surgical outcome (74% FSO) after epilepsy surgery with ioECoG, especially in tumors, with better outcome for ioECoG-tailored surgeries in studies describing both and better outcome after complete removal of IED areas.

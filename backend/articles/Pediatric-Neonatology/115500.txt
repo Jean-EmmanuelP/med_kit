@@ -1,0 +1,28 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamapediatrics.2024.5311.
+
+=== Métadonnées ===
+Greenberg RG, Rountree W, Staat MA, et al.
+Apnea After 2-Month Vaccinations in Hospitalized Preterm Infants: A Randomized Clinical Trial.
+JAMA Pediatr. 2025 Jan 6. doi: 10.1001/jamapediatrics.2024.5311.
+                    (
+Original study
+)
+
+=== Abstract ===
+IMPORTANCE
+: Preterm infants are recommended to receive most vaccinations at the same postnatal age as term infants. Studies have inconsistently observed an increased risk for postvaccination apnea in preterm infants.
+OBJECTIVE
+: To compare the proportions of hospitalized preterm infants with apnea and other adverse events in the 48 hours after 2-month vaccinations vs after no vaccinations.
+DESIGN, SETTING, AND PARTICIPANTS
+: This randomized, open-label clinical trial took place at 3 US neonatal intensive care units between August 2018 and October 2021. Infants between 6 and 12 weeks' postnatal age who were born at less than 33 weeks' gestational age and were eligible to receive 2-month vaccines were included.
+INTERVENTION
+: Infants were randomized 1:1 to vaccinated (received vaccines within 12 hours of randomization) or unvaccinated (no vaccines received during the study period) groups. Cardiorespiratory data were collected during the 48 hours after vaccination or randomization (unvaccinated group).
+MAIN OUTCOMES AND MEASURES
+: The primary outcome was apnea, defined as a respiration pause greater than 20 seconds or a respiration pause greater than 15 seconds with associated bradycardia less than 80 beats per minute. Other outcomes included the number and duration of apnea episodes, serious adverse events, respiratory support escalation, and receipt of positive pressure ventilation.
+RESULTS
+: Of 223 randomized infants (117 female; median [range] gestational age, 27.6 [23.0-32.9] weeks), 107 (48%) were vaccinated, and 116 (52%) were unvaccinated. For 2 infants in the vaccinated group, the primary outcome was unable to be assessed. The proportion of infants with 1 or more apnea event was 25 of 105 (24%) in the vaccinated group vs 12 of 116 (10%) in the unvaccinated group (adjusted odds ratio, 2.70; 95% CI, 1.27 to 5.73; P = .01). The mean number of apneic episodes did not significantly differ (model point estimate of difference, 0.54; 95% CI, -0.12 to 1.21) between the vaccinated (2.72) and unvaccinated (2.00) groups. The mean duration of apneic episodes did not significantly differ (model point estimate of difference, 4.6; 95% CI, -5.4 to 14.7) between the vaccinated (27.7) and unvaccinated (32.3) groups. No serious adverse events occurred during the 48-hour monitoring period. Other outcomes were not significantly different between groups.
+CONCLUSIONS AND RELEVANCE
+: In hospitalized preterm infants, the odds of apnea within 48 hours were higher after 2-month vaccinations vs after no vaccinations. The similar number and duration of apneic events and lack of serious adverse events suggest that current vaccination recommendations for hospitalized preterm infants are appropriate. Neonatal clinicians should continue providing evidence-based anticipatory guidance about postvaccination apnea risk.
+TRIAL REGISTRATION
+: ClinicalTrials.gov Identifier: NCT03530124.

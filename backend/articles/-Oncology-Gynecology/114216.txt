@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2403394.
+
+=== Métadonnées ===
+Pautier P, Italiano A, Piperno-Neumann S, et al.
+Doxorubicin-Trabectedin with Trabectedin Maintenance in Leiomyosarcoma.
+N Engl J Med. 2024 Sep 5;391(9):789-799. doi: 10.1056/NEJMoa2403394.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: The addition of trabectedin to doxorubicin, followed by trabectedin maintenance, may have superior efficacy to doxorubicin alone as first-line treatment in patients with advanced leiomyosarcoma.
+METHODS
+: We conducted a phase 3 trial involving patients with metastatic or unresectable leiomyosarcoma who had not received chemotherapy previously. Patients were randomly assigned to receive either single-agent doxorubicin (six cycles) or doxorubicin plus trabectedin (six cycles), with continued trabectedin as maintenance therapy in patients in the doxorubicin-trabectedin group who did not have disease progression. Surgery to resect residual disease was allowed in each group after six cycles of therapy. Analyses of progression-free survival (primary end point) and overall survival (secondary end point) were adjusted for two stratification factors: tumor origin site (uterine vs. soft tissue) and disease stage (locally advanced vs. metastatic). The primary end-point results were reported previously.
+RESULTS
+: A total of 150 patients underwent randomization. At a median follow-up of 55 months (interquartile range, 49 to 63), a total of 107 patients had died (47 in the doxorubicin-trabectedin group and 60 in the doxorubicin group). The median overall survival was longer in the doxorubicin-trabectedin group (33 months; 95% confidence interval [CI], 26 to 48) than in the doxorubicin group (24 months; 95% CI, 19 to 31); the adjusted hazard ratio for death was 0.65 (95% CI, 0.44 to 0.95). In a finding consistent with earlier reports, progression-free survival was longer in the doxorubicin-trabectedin group (12 months; 95% CI, 10 to 16) than in the doxorubicin group (6 months; 95% CI, 4 to 7); the adjusted hazard ratio for progression or death was 0.37 (95% CI, 0.26 to 0.53). The incidence of adverse events and the percentage of patients with dose reductions were higher with doxorubicin plus trabectedin than with doxorubicin alone.
+CONCLUSIONS
+: Combination therapy with doxorubicin and trabectedin induction, followed by trabectedin maintenance, was associated with improved overall survival and progression-free survival, as compared with doxorubicin alone, among patients with metastatic or surgically unresectable uterine or soft-tissue leiomyosarcoma. (Funded by PharmaMar and others; LMS04 ClinicalTrials.gov number, NCT02997358.).

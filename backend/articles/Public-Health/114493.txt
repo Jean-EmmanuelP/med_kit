@@ -1,0 +1,34 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.7326/M24-0024.
+
+=== Métadonnées ===
+Angerhofer Richards J, Cruz M, Stewart C, et al.
+Effectiveness of Integrating Suicide Care in Primary Care : Secondary Analysis of a Stepped-Wedge, Cluster Randomized Implementation Trial.
+Ann Intern Med. 2024 Nov;177(11):1471-1481. doi: 10.7326/M24-0024. Epub 2024 Oct 1.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: Primary care encounters are common among patients at risk for suicide.
+OBJECTIVE
+: To evaluate the effectiveness of implementing population-based suicide care (SC) in primary care for suicide attempt prevention.
+DESIGN
+: Secondary analysis of a stepped-wedge, cluster randomized implementation trial. (ClinicalTrials.gov: NCT02675777).
+SETTING
+: 19 primary care practices within a large health care system in Washington State, randomly assigned launch dates.
+PATIENTS
+: Adult patients (aged =18 years) with primary care visits from January 2015 to July 2018.
+INTERVENTION
+: Practice facilitators, electronic medical record (EMR) clinical decision support, and performance monitoring supported implementation of depression screening, suicide risk assessment, and safety planning.
+MEASUREMENTS
+: Clinical practice and patient measures relied on EMR and insurance claims data to compare usual care (UC) and SC periods. Primary outcomes included documented safety planning after population-based screening and suicide risk assessment and suicide attempts or deaths (with self-harm intent) within 90 days of a visit. Mixed-effects logistic models regressed binary outcome indicators on UC versus SC, adjusted for randomization stratification and calendar time, accounting for repeated outcomes from the same site. Monthly outcome rates (percentage per 10 000 patients) were estimated by applying marginal standardization.
+RESULTS
+: During UC, 255 789 patients made 953 402 primary care visits and 228 255 patients made 615 511 visits during the SC period. The rate of safety planning was higher in the SC group than in the UC group (38.3 vs. 32.8 per 10 000 patients; rate difference, 5.5 [95% CI, 2.3 to 8.7]). Suicide attempts within 90 days were lower in the SC group than in the UC group (4.5 vs. 6.0 per 10 000 patients; rate difference, -1.5 [CI, -2.6 to -0.4]).
+LIMITATION
+: Suicide care was implemented in combination with care for depression and substance use.
+CONCLUSION
+: Implementation of population-based SC concurrent with a substance use program resulted in a 25% reduction in the suicide attempt rate in the 90 days after primary care visits.
+PRIMARY FUNDING SOURCE
+: National Institute of Mental Health.

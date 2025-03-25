@@ -1,0 +1,22 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S2213-2600(24)00074-2.
+
+=== Métadonnées ===
+Kalverda KA, Ninaber MK, Wijmans L, et al.
+Transbronchial cryobiopsy followed by as-needed surgical lung biopsy versus immediate surgical lung biopsy for diagnosing interstitial lung disease (the COLD study): a randomised controlled trial.
+Lancet Respir Med. 2024 Jul;12(7):513-522. doi: 10.1016/S2213-2600(24)00074-2. Epub 2024 Apr 16.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: An adequate diagnosis for interstitial lung disease (ILD) is important for clinical decision making and prognosis. In most patients with ILD, an accurate diagnosis can be made by clinical and radiological data assessment, but in a considerable proportion of patients, a lung biopsy is required. Surgical lung biopsy (SLB) is the most common method to obtain tissue, but it is associated with high morbidity and even mortality. More recently, transbronchial cryobiopsy has been introduced, with fewer adverse events but a lower diagnostic yield than SLB. The aim of this study is to compare two diagnostic strategies: a step-up strategy (transbronchial cryobiopsy, followed by SLB if the cryobiopsy is insufficiently informative) versus immediate SLB.
+METHODS
+: The COLD study was a multicentre, randomised controlled trial in six hospitals across the Netherlands. We included patients with ILD with an indication for lung biopsy as assessed by a multidisciplinary team discussion. Patients were randomly assigned in a 1:1 ratio to the step-up or immediate SLB strategy, with follow-up for 12 weeks from the initial procedure. Patients, clinicians, and pathologists were not masked to the study treatment. The primary endpoint was unexpected chest tube drainage, defined as requiring any chest tube after transbronchial cryobiopsy, or prolonged (>24 h) chest tube drainage after SLB. Secondary endpoints were diagnostic yield, in-hospital stay, pain, and serious adverse events. A modified intention-to-treat analysis was performed. This trial is registered with the Dutch Trial Register, NL7634, and is now closed.
+FINDINGS
+: Between April 8, 2019, and Oct 24, 2021, 122 patients with ILD were assessed for study participation; and 55 patients were randomly assigned to the step-up strategy (n=28) or immediate SLB (n=27); three patients from the immediate SLB group were excluded. Unexpected chest tube drainage occurred in three of 28 patients (11%; 95% CI 4-27%) in the step-up group, and the number of patients for whom the chest tube could not be removed within 24 h was 11 of 24 patients (46%; 95% CI 2-65%) in the SLB group, with an absolute risk reduction of 35% (11-56%; p=0·0058). In the step-up strategy, the multidisciplinary team diagnostic yield after transbronchial cryobiopsy alone was 82% (64-92%), which increased to 89% (73-96%) when subsequent SLB was performed after inconclusive transbronchial cryobiopsy. In the immediate surgery strategy, the multidisciplinary team diagnostic yield was 88% (69-97%). Total in-hospital stay was 1 day (IQR 1-1) in the step-up group versus 5 days (IQR 4-6) in the SLB group. One (4%) serious adverse event occurred in step-up strategy versus 12 (50%) in the immediate SLB strategy.
+INTERPRETATION
+: In ILD diagnosis, if lung tissue assessment is required, a diagnostic strategy starting with transbronchial cryobiopsy, followed by SLB when transbronchial cryobiopsy is inconclusive, appears to result in a significant reduction of patient burden and in-hospital stay with a similar diagnostic yield versus immediate SLB.
+FUNDING
+: Netherlands Organisation for Health Research and Development (ZonMW) and Amsterdam University Medical Centers.

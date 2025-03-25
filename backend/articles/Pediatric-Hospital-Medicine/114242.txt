@@ -1,0 +1,22 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1007/s12630-024-02817-y.
+
+=== Métadonnées ===
+Niimi N, Sumie M, Englesakis M, et al.
+Effects of dexamethasone on opioid consumption in pediatric tonsillectomy: a systematic review with meta-analysis.
+Can J Anaesth. 2025 Jan;72(1):106-118. doi: 10.1007/s12630-024-02817-y. Epub 2024 Aug 27.
+                    (
+Systematic review
+)
+
+=== Abstract ===
+PURPOSE
+: Tonsillectomy is one of the most common ambulatory procedures performed in children worldwide, with around 40,000 procedures performed in Canada every year. Although a prior systematic review indicated a clear role for dexamethasone as an analgesic adjunct, the quantity effect on opioid consumption is unknown. In the current systematic review with meta-analysis, we hypothesized that the use of dexamethasone reduces perioperative opioid consumption in pediatric tonsillectomy but does not increase rates of postoperative hemorrhage.
+SOURCE
+: We systemically searched MEDLINE, Embase, Cochrane Databases, and Web of Science from inception to 23 April 2024. Randomized controlled trials that compared intravenous dexamethasone to placebo in pediatric tonsillectomy were included in the study. The primary outcome was perioperative opioid consumption, and the secondary outcomes included the incidence of postoperative hemorrhage. We used a random effects meta-analysis to compute the mean difference (MD) or risk ratio (RR) with 95% confidence interval (CI) for each outcome.
+PRINCIPAL FINDINGS
+: Of the 1,329 studies identified in the search, we included 16 in the final analysis. Intravenous dexamethasone administration significantly reduced opioid consumption (MD, -0.11 mg·kg-1 oral morphine equivalent; 95% CI, -0.22 to -0.01) without increasing the incidence of readmission (RR, 0.69; 95% CI, 0.28 to 1.67) or reoperation due to postoperative hemorrhage (RR, 3.67; 95% CI, 0.79 to 17.1).
+CONCLUSIONS
+: Intravenous dexamethasone reduced perioperative opioid consumption in pediatric tonsillectomy without increasing the incidence of postoperative hemorrhage.
+STUDY REGISTRATION
+: PROSPERO ( CRD42023440949 ); first submitted 4 September 2023.

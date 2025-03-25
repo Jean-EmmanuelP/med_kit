@@ -1,0 +1,22 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.apmr.2024.02.737.
+
+=== Métadonnées ===
+Ponzano M, Buren R, Adams NT, et al.
+Effect of Exercise on Mental Health and Health-related Quality of Life in Adults With Spinal Cord Injury: A Systematic Review and Meta-analysis.
+Arch Phys Med Rehabil. 2024 Dec;105(12):2350-2361. doi: 10.1016/j.apmr.2024.02.737. Epub 2024 Mar 29.
+                    (
+Systematic review
+)
+
+=== Abstract ===
+OBJECTIVES
+: To determine the effect of exercise interventions on mental health and health-related quality of life (HRQoL) in individuals with SCI.
+DATA SOURCES
+: We searched Embase, CINAHL, Medline, PsychINFO, and SPORTDiscus from inception to September 2023.
+STUDY SELECTION
+: We included randomized controlled trials that (1) involved participants =18 years old with a SCI; (2) administered an exercise intervention; and (3) measured subjective well-being, psychological well-being, social well-being, and/or HRQoL as outcomes. We reported standardized means differences (d) with a 95% confidence interval (CI), assessed the risk of bias by using the Revised Cochrane Risk-of-bias Tool for Randomized Trials (RoB 2), and the certainty of the evidence using GRADE.
+DATA SYNTHESIS
+: Nineteen studies (797 participants, mean age <65 years in every study) were included. Exercise improved overall well-being (d=0.494; 95% CI 0.268, 0.720; low certainty evidence), subjective well-being (d=0.543; 95% CI 0.270, 0.816; low certainty evidence), psychological well-being (d=0.499; 95% CI 0.193, 0.805; low certainty evidence), social well-being (d=0.452; 95% CI 0.151, 0.752; low certainty evidence), and HRQoL (d=0.323; 95% CI 0.072, 0.574; low certainty evidence). Four serious adverse events probably attributable to the interventions were reported in 3 studies.
+CONCLUSIONS
+: Exercise interventions can improve well-being and HRQoL in adults with SCI <65 years of age. Additional research is needed to determine effectiveness in adults =65 years of age.

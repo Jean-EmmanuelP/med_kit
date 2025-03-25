@@ -1,0 +1,26 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.apmr.2024.07.005.
+
+=== Métadonnées ===
+Oh MW, Park JI, Shim GY, et al.
+Comparative Efficacy of 5% Dextrose and Corticosteroid Injections in Carpal Tunnel Syndrome: A Systematic Review and Meta-analysis.
+Arch Phys Med Rehabil. 2025 Feb;106(2):300-310. doi: 10.1016/j.apmr.2024.07.005. Epub 2024 Jul 18.
+                    (
+Systematic review
+)
+
+=== Abstract ===
+OBJECTIVE
+: This study aims to assess the effectiveness of 5% dextrose (D5W) in comparison to corticosteroids for treating carpal tunnel syndrome (CTS).
+DATA SOURCES
+: A comprehensive systematic search was conducted across MEDLINE (PubMed), Embase, and the Cochrane Central Register of Controlled Trials on November 13, 2023. These were supplemented by manual searches using Google Scholar.
+STUDY SELECTION
+: Two independent authors reviewed the literature, resolving any discrepancies through detailed discussions and consultation with a third author.
+DATA EXTRACTION
+: Data on primary outcomes (pain assessment) and secondary outcomes (symptom severity and functional status using the Boston Carpal Tunnel Questionnaire, electrophysiologic measures, cross-sectional area, and adverse effects) were extracted independently by the 2 authors (M.W. and H.H.).
+DATA SYNTHESIS
+: The analysis included 4 randomized controlled trials and 1 quasi-experimental study, encompassing a total of 212 patients (220 hands) with mild to moderate CTS.
+RESULTS
+: Within 3 months, the D5W injections showed a statistically significant improvement in functional status compared to the corticosteroids with a standard mean difference of -0.34 (95% CI, -0.62 to -0.05). D5W was associated with fewer adverse incidents than corticosteroids (risk ratio, 0.13; 95% CI: 0.03-0.51). No difference was observed between the 2 treatments in other areas.
+CONCLUSIONS
+: For patients with mild to moderate CTS, D5W injections were more effective than corticosteroid injections in improving functional status and demonstrated fewer adverse effects. D5W injections also paralleled corticosteroids in pain reduction, symptom severity, electrodiagnostic measures, and cross-sectional area of nerve, recommending D5W as a preferred treatment for mild to moderate CTS.

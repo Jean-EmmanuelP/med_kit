@@ -1,0 +1,22 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S0140-6736(24)00538-5.
+
+=== Métadonnées ===
+Samarasinghe SNS, Leca B, Alabdulkader S, et al.
+Bariatric surgery for spontaneous ovulation in women living with polycystic ovary syndrome: the BAMBINI multicentre, open-label, randomised controlled trial.
+Lancet. 2024 Jun 8;403(10443):2489-2503. doi: 10.1016/S0140-6736(24)00538-5. Epub 2024 May 20.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: Polycystic ovary syndrome (PCOS) is the most common cause of anovulatory infertility. Obesity exacerbates the reproductive complications of PCOS; however, the management of obesity in women with PCOS remains a large unmet clinical need. Observational studies have indicated that bariatric surgery could improve the rates of ovulatory cycles and prospects of fertility; however, the efficacy of surgery on ovulation rates has not yet been compared with behavioural modifications and medical therapy in a randomised trial. The aim of this study was to compare the safety and efficacy of bariatric surgery versus medical care on ovulation rates in women with PCOS, obesity, and oligomenorrhoea or amenorrhoea.
+METHODS
+: In this multicentre, open-label, randomised controlled trial, 80 women older than 18 years, with a diagnosis of PCOS based on the 2018 international evidence-based guidelines for assessing and managing PCOS, and a BMI of 35 kg/m2 or higher, were recruited from two specialist obesity management centres and via social media. Participants were randomly assigned at a 1:1 ratio to either vertical sleeve gastrectomy or behavioural interventions and medical therapy using a computer-generated random sequence (PLAN procedure in SAS) by an independent researcher not involved with any other aspect of the clinical trial. The median age of the entire cohort was 31 years and 79% of participants were White. The primary outcome was the number of biochemically confirmed ovulatory events over 52 weeks, and was assessed using weekly serum progesterone measurements. The primary endpoint included the intention-to-treat population and safety analyses were per-protocol population. This study is registered with the ISRCTN registry (ISRCTN16668711).
+FINDINGS
+: Participants were recruited from Feb 20, 2020 to Feb 1, 2021. 40 participants were assigned to each group and there were seven dropouts in the medical group and ten dropouts in the surgical group. The median number of ovulations was 6 (IQR 3·5-10·0) in the surgical group and 2 (0·0-4·0) in the medical group. Women in the surgical group had 2.5 times more spontaneous ovulations compared with the medical group (incidence rate ratio 2·5 [95% CI 1·5-4·2], p<0·0007). There were more complications in the surgical group than the medical group, although without long-term sequelae. There were 24 (66·7%) adverse events in the surgical group and 12 (30·0%) in the medical group. There were no treatment-related deaths.
+INTERPRETATION
+: Bariatric surgery was more effective than medical care for the induction of spontaneous ovulation in women with PCOS, obesity, and oligomenorrhoea or amenorrhoea. Bariatric surgery could, therefore, enhance the prospects of spontaneous fertility in this group of women.
+FUNDING
+: The Jon Moulton Charity Trust.

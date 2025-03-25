@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2401201.
+
+=== Métadonnées ===
+Liu J, Ni W, Zuo Q, et al.
+Middle Meningeal Artery Embolization for Nonacute Subdural Hematoma.
+N Engl J Med. 2024 Nov 21;391(20):1901-1912. doi: 10.1056/NEJMoa2401201.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: The effect of embolization of the middle meningeal artery in patients with subacute or chronic subdural hematoma is uncertain.
+METHODS
+: We performed a multicenter, open-label, randomized trial in China, involving patients with symptomatic nonacute subdural hematoma with mass effect. Patients were assigned to undergo burr-hole drainage or receive nonsurgical treatment at the surgeon's discretion, and patients in each group were then randomly assigned, in a 1:1 ratio, to undergo middle meningeal artery embolization with liquid embolic material or to receive usual care. Patients whose condition warranted craniotomy were excluded. The primary outcome was symptomatic recurrence or progression of subdural hematoma within 90 days after randomization. Secondary outcomes included clinical and imaging outcomes. The main safety outcome was any serious adverse event (including death).
+RESULTS
+: The analysis included 722 patients, of whom 360 were assigned to the embolization group and 362 to the usual-care group. Burr-hole drainage was performed in 78.3% of the enrolled patients; among the patients who underwent burr-hole drainage, the procedure occurred after embolization in 99.6%. Symptomatic recurrence or progression of subdural hematoma within 90 days occurred in 24 patients (6.7%) in the embolization group and in 36 (9.9%) in the usual-care group (between-group difference, -3.3 percentage points; 95% confidence interval, -7.4 to 0.8; P = 0.10). The incidence of serious adverse events was lower in the embolization group than in the usual-care group (6.7% vs. 11.6%, P = 0.02).
+CONCLUSIONS
+: Among patients with symptomatic nonacute subdural hematoma (of whom 78% underwent burr-hole drainage), middle meningeal artery embolization resulted in a 90-day incidence of symptomatic recurrence or progression similar to that with usual care but was associated with a lower incidence of serious adverse events. (Funded by Shanghai Shenkang Hospital Development Center and others; MAGIC-MT ClinicalTrials.gov number, NCT04700345.).

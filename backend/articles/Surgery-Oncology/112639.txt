@@ -1,0 +1,22 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1097/SLA.0000000000006161.
+
+=== Métadonnées ===
+Lin W, Li C, Clement EA, et al.
+Surgical Outcomes in Total Neoadjuvant Therapy for Rectal Cancer Versus Standard Long-course Chemoradiation: A Systematic Review and Meta-analysis of Randomized Controlled Trials.
+Ann Surg. 2024 Apr 1;279(4):620-630. doi: 10.1097/SLA.0000000000006161. Epub 2023 Nov 27.
+                    (
+Systematic review
+)
+
+=== Abstract ===
+OBJECTIVE
+: This systematic review and meta-analysis seeks to evaluate the impact of total neoadjuvant therapy (TNT) for rectal cancers on surgical complications and surgical pathology when compared with standard long-course chemoradiotherapy (LCRT).
+BACKGROUND
+: The oncological benefits of TNT are well published in previous meta-analyses, but there is little synthesized information on how it affects surgical outcomes. A recent study has suggested an increase in local recurrence and higher rates of breached total mesorectal excision (TME) plane in TNT patients.
+METHODS
+: This study conformed to the PRISMA (Preferred Reporting Items for Systematic Reviews and Meta-Analyses) guidelines. A search was performed in Medline (via PubMed), Cochrane databases, EMBASE and CINAHL to identify relevant randomized controlled trials (RCTs) comparing outcomes between TNT and LCRT. Meta-analyses of pooled proportions between TNT and LCRT were performed, comparing primary outcomes of surgical mortality, morbidity and all reported complications; surgical-pathology differences, namely mesorectal quality, R0 resection rates, circumferential resection margin positive rates, and sphincter preservation rates. Death and progression of disease during neoadjuvant treatment period was also compared. Risk of bias of RCTs was performed using the Cochrane risk-of-bias tool by 2 independent reviewers.
+RESULTS
+: A total of 3185 patients with rectal cancer from 11 RCTs were included in the analysis: 1607 received TNT and 1578 received LCRT, of which 1422 (TNT arm) and 1391 (LCRT arm) underwent surgical resection with curative intent. There was no significant difference in mortality [risk ratio (RR)=0.86, 95% CI: 0.13-5.52, P =0.88, I2 =52%] or major complications (RR=1.04, 95% CI: 0.86-1.26, P =0.70, I2 =0%) between TNT and LCRT. There was a significantly higher risk of breached TME in TNT group on pooled analysis (RR=1.49, 95% CI: 1.03-12.16, P =0.03, I2 =0%), and on subgroup analysis there is higher risk of breached TME in those receiving extended duration of neoadjuvant treatment (>17 weeks from start of treatment to surgery) when compared with LCRT (RR=1.61, 95% CI: 1.06-2.44, P =0.03). No difference in R0 resection rates (RR=0.85, 95% CI: 0.66-1.10, P =0.21, I2 =15%), circumferential resection margin positive rates (RR=0.87, 95% CI: 0.65-1.16, P =0.35, I2 =10%) or sphincter preservation rates (RR=1.02, 95% CI: 0.83-1.25, P =0.88, I2 =57%) were observed. There was a significantly lower risk of progression of disease to an unresectable stage during the neoadjuvant treatment period in TNT patients (RR=0.60, 95% CI: 0.39-0.92, P =0.03, I2 =18%). On subgroup analysis, it appears to favor those receiving extended duration of neoadjuvant treatment (RR=0.44, 95% CI: 0.26-0.80, P =0.002), and those receiving induction-type chemotherapy in TNT (RR=0.25, 95% CI: 0.07-0.88, P =0.03).
+CONCLUSIONS
+: TNT increases rates of breached TME which can contribute to higher local recurrence rates. TNT, however, improves systemic control by reducing early progression of disease during neoadjuvant treatment period. Further research is warranted to identify patients that will benefit from this strategy.

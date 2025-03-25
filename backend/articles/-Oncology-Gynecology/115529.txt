@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO-24-02589.
+
+=== Métadonnées ===
+Gaillard S, Lacchetti C, Armstrong DK, et al.
+Neoadjuvant Chemotherapy for Newly Diagnosed, Advanced Ovarian Cancer: ASCO Guideline Update.
+J Clin Oncol. 2025 Mar;43(7):868-891. doi: 10.1200/JCO-24-02589. Epub 2025 Jan 22.
+                    (
+Evidence-based guideline
+)
+
+=== Abstract ===
+PURPOSE
+: To provide updated guidance regarding neoadjuvant chemotherapy (NACT) and primary cytoreductive surgery (PCS) among patients with stage III-IV epithelial ovarian, fallopian tube, or primary peritoneal cancer (epithelial ovarian cancer [EOC]).
+METHODS
+: A multidisciplinary Expert Panel convened and updated the systematic review.
+RESULTS
+: Sixty-one studies form the evidence base.
+RECOMMENDATIONS
+: Patients with suspected stage III-IV EOC should be evaluated by a gynecologic oncologist, with cancer antigen 125, computed tomography of the abdomen and pelvis, and chest imaging included. All patients with EOC should be offered germline genetic and somatic testing at diagnosis. For patients with newly diagnosed advanced EOC who are fit for surgery and have a high likelihood of achieving complete cytoreduction, PCS is recommended. For patients fit for PCS but deemed unlikely to have complete cytoreduction, NACT is recommended. Patients with newly diagnosed advanced EOC and a high perioperative risk profile should receive NACT. Before NACT, patients should have histologic confirmation of invasive ovarian cancer. For NACT, a platinum-taxane doublet is recommended. Interval cytoreductive surgery (ICS) should be performed after =four cycles of NACT for patients with a response to chemotherapy or stable disease. For patients with stage III disease, good performance status, and adequate renal function treated with NACT, hyperthermic intraperitoneal chemotherapy may be offered during ICS. After ICS, chemotherapy should continue to complete a six-cycle treatment plan with the optional addition of bevacizumab. Patients with EOC should be offered US Food and Drug Administration-approved maintenance treatments. Patients with progressive disease on NACT should have diagnosis reconfirmed via tissue biopsy. Patients without previous comprehensive genetic or molecular profiling should be offered testing. Treatment options include alternative chemotherapy regimens, clinical trials, and/or initiation of end-of-life care.Additional information is available at www.asco.org/gynecologic-cancer-guidelines.This guideline has been endorsed by the Society of Gynecologic Oncology.

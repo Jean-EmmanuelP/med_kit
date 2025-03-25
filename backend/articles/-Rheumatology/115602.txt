@@ -1,0 +1,22 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1136/ard-2024-226429.
+
+=== Métadonnées ===
+Lescoat A, Bertoldo E, Colic J, et al.
+Results from the international collaborative systematic literature review informing the 2023 EULAR recommendations for the treatment of systemic sclerosis.
+Ann Rheum Dis. 2025 Jan;84(1):77-92. doi: 10.1136/ard-2024-226429. Epub 2025 Jan 2.
+                    (
+Systematic review
+)
+
+=== Abstract ===
+BACKGROUND
+: The EULAR recommendations for the treatment of systemic sclerosis (SSc) were updated in 2017, informed by a systematic literature review (SLR) completed in 2014.
+OBJECTIVES
+: The aim of this new SLR was to provide the most up-to-date literature to underpin contemporary EULAR recommendations for the management of SSc.
+METHODS
+: 30 searches for 30 interventions (including several outcomes/clinical questions), and 1 dedicated search (with several interventions) for calcinosis were prioritised by the task force. Three types of questions were defined: type I questions, unchanged as compared with the previous recommendations; type II questions exploring interventions already mentioned in the previous recommendations but with new outcomes; type III questions for new interventions.
+RESULTS
+: 14 490 abstracts were retrieved from the databases on 31 March 2022 and 2021 abstracts were retrieved on 11 October 2022. 483 new full texts were evaluated and 172 new articles were included for the first search and 9 for the second search. The majority of the questions covered by this SLR explored new interventions (40% of type III questions) or new outcomes (26% of type II questions). New interventions included targeted therapies such as abatacept, Janus kinase inhibitors or nintedanib, and updated questions incorporated the results from key game- changing randomised controlled trials including trials on tocilizumab, mycophenolate or rituximab in SSc- interstitial lung disease.
+CONCLUSIONS
+: This SLR provides and summarises the highest level of evidence for the new EULAR recommendations for the treatment of SSc, providing an unprecedented comprehensive overview of recent knowledge on SSc treatments and participating in defining the future research agenda.

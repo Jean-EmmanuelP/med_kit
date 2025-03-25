@@ -1,0 +1,22 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S2213-2600(24)00299-6.
+
+=== Métadonnées ===
+Ramakrishnan S, Russell REK, Mahmood HR, et al.
+Treating eosinophilic exacerbations of asthma and COPD with benralizumab (ABRA): a double-blind, double-dummy, active placebo-controlled randomised trial.
+Lancet Respir Med. 2025 Jan;13(1):59-68. doi: 10.1016/S2213-2600(24)00299-6. Epub 2024 Nov 29.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: Exacerbations of asthma and chronic obstructive pulmonary disease (COPD) are important events and are associated with critical illness. Eosinophilic inflammation is a treatable trait commonly found during acute exacerbations of asthma and COPD. We hypothesised that for patients with eosinophilic exacerbations, a single injection of benralizumab, a humanised monoclonal antibody against interleukin-5 receptor-a, alone or in combination with prednisolone, will improve clinical outcomes compared with prednisolone, the standard of care.
+METHODS
+: The Acute exacerbations treated with BenRAlizumab trial (ABRA) was a multicentre, phase 2, double-blind, double-dummy, active placebo-controlled randomised trial completed in the UK at Oxford University Hospitals NHS Foundation Trust and Guy's and St Thomas' NHS Foundation Trust. Patients were recruited from urgent care clinics and emergency departments of these two hospitals. At the time of an acute exacerbation of asthma or COPD, adults with blood eosinophil counts of equal to or more than 300 cells per µL were randomly assigned in a 1:1:1 ratio to receive acute treatment with: prednisolone 30 mg once daily for 5 days and 100 mg benralizumab subcutaneous injection once (BENRA plus PRED group); placebo tablets once daily for 5 days and 100 mg benralizumab subcutaneous injection once (BENRA group); or prednisolone 30 mg once daily for 5 days and placebo subcutaneous injection once (PRED group). Randomisation was performed with a centralised interactive computer randomisation service. All patients and study research staff involved in data collection were masked to study blood results and treatment allocation. The co-primary outcomes were proportion of treatment failures over 90 days and total visual analogue scale (VAS) symptoms at day 28 in the pooled benralizumab groups compared with the prednisolone alone group and analysed in the intention-to-treat population. The trial was registered on Clinicaltrials.govNCT04098718.
+FINDINGS
+: Between May 13, 2021, and Feb 5, 2024, 287 patients were screened for study inclusion. 129 were excluded due to not having an exacerbation captured or not meeting the eosinophil exclusion criteria. 158 patients were randomly assigned at acute eosinophilic exacerbation of asthma or COPD where 86 (54%) patients were female and 72 (46%) were male with a mean age of 57 years (range, 18-84). 53 patients were randomly assigned to the PRED group, 53 were randomly assigned to the BENRA group, and 52 were assigned to the BENRA plus PRED treatment group. At 90 days, treatment failures occurred in 39 (74%) of 53 in the PRED group, and 47 (45%) of 105 in the pooled-BENRA group (OR 0·26 [95% CI 0·13-0·56]; p=0·0005). The 28-day total VAS mean difference was 49 mm (95% CI 14-84; p=0·0065), favouring the pooled-BENRA group. There were no fatal adverse events and benralizumab was well tolerated. Notably, hyperglycaemia and sinusitis or sinus infection adverse events were related to the prednisolone study drug only.
+INTERPRETATION
+: Benralizumab can be used as a treatment of acute eosinophilic exacerbations and achieves better outcomes than the current standard of care with prednisolone alone. These results offer a new way of treating eosinophilic endotypes of asthma and COPD exacerbations.
+FUNDING
+: AstraZeneca.

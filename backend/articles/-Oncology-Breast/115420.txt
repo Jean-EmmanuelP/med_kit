@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO-24-01441.
+
+=== Métadonnées ===
+Schouten AEM, Hiensch AE, Frederix GWJ, et al.
+Supervised Exercise for Patients With Metastatic Breast Cancer: A Cost-Utility Analysis Alongside the PREFERABLE-EFFECT Randomized Controlled Trial.
+J Clin Oncol. 2025 Jan 13:JCO2401441. doi: 10.1200/JCO-24-01441.
+                    (
+Original study
+)
+
+=== Abstract ===
+PURPOSE
+: To evaluate the cost utility of a 9-month supervised exercise program for patients with metastatic breast cancer (mBC), compared with control (usual care, supplemented with general activity advice and an activity tracker). Evidence on the cost-effectiveness of exercise for patients with mBC is essential for implementation in clinical practice and is currently lacking.
+METHODS
+: A cost-utility analysis was performed alongside the multinational PREFERABLE-EFFECT randomized controlled trial, conducted in 8 centers across Europe and Australia. Patients with mBC (N = 357) were randomly assigned to either a 9-month, twice-weekly, supervised exercise group (EG) or control group (CG). Costs of the exercise program were calculated through a bottom-up approach. Other health care resource use, productivity losses, and quality of life were collected using country-adapted, self-reported questionnaires. Analyses were conducted from a societal perspective with a time horizon of 9 months. Costs were collected and reported in 2021 Euros (€1 = $1.18 US dollars).
+RESULTS
+: Compared with the CG, EG resulted in a quality-adjusted life-year (QALY) gain of 0.013 (95% CI, -0.02 to 0.05) over a 9-month period. The mean costs of the exercise program were €1,696 per patient with one-on-one supervision (scenario 1) and €609 with one-on-four supervision (scenario 2). These costs were offset by savings in health care and productivity costs, resulting in mean total cost differences of -€163 (scenario 1) and -€1,249 (scenario 2) in favor of EG. The probability of supervised exercise being cost-effective was 65% in scenario 1 and 91% in scenario 2 at a willingness-to-pay threshold of €20,000 per QALY.
+CONCLUSION
+: Exercise for patients with mBC increases quality of life, decreases costs, and is likely to be cost-effective. Group-based supervision is expected to have even higher cost-savings. Our positive findings can inform reimbursement of supervised exercise interventions for patients with mBC.

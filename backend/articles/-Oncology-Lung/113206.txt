@@ -1,0 +1,20 @@
+=== Lien PubMed ===
+https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2311926.
+
+=== Métadonnées ===
+Cascone T, Awad MM, Spicer JD, et al.
+Perioperative Nivolumab in Resectable Lung Cancer.
+N Engl J Med. 2024 May 16;390(19):1756-1769. doi: 10.1056/NEJMoa2311926.
+                    (
+Original study
+)
+
+=== Abstract ===
+BACKGROUND
+: Standard treatment with neoadjuvant nivolumab plus chemotherapy significantly improves outcomes in patients with resectable non-small-cell lung cancer (NSCLC). Perioperative treatment (i.e., neoadjuvant therapy followed by surgery and adjuvant therapy) with nivolumab may further improve clinical outcomes.
+METHODS
+: In this phase 3, randomized, double-blind trial, we assigned adults with resectable stage IIA to IIIB NSCLC to receive neoadjuvant nivolumab plus chemotherapy or neoadjuvant chemotherapy plus placebo every 3 weeks for 4 cycles, followed by surgery and adjuvant nivolumab or placebo every 4 weeks for 1 year. The primary outcome was event-free survival according to blinded independent review. Secondary outcomes were pathological complete response and major pathological response according to blinded independent review, overall survival, and safety.
+RESULTS
+: At this prespecified interim analysis (median follow-up, 25.4 months), the percentage of patients with 18-month event-free survival was 70.2% in the nivolumab group and 50.0% in the chemotherapy group (hazard ratio for disease progression or recurrence, abandoned surgery, or death, 0.58; 97.36% confidence interval [CI], 0.42 to 0.81; P<0.001). A pathological complete response occurred in 25.3% of the patients in the nivolumab group and in 4.7% of those in the chemotherapy group (odds ratio, 6.64; 95% CI, 3.40 to 12.97); a major pathological response occurred in 35.4% and 12.1%, respectively (odds ratio, 4.01; 95% CI, 2.48 to 6.49). Grade 3 or 4 treatment-related adverse events occurred in 32.5% of the patients in the nivolumab group and in 25.2% of those in the chemotherapy group.
+CONCLUSIONS
+: Perioperative treatment with nivolumab resulted in significantly longer event-free survival than chemotherapy in patients with resectable NSCLC. No new safety signals were observed. (Funded by Bristol Myers Squibb; CheckMate 77T ClinicalTrials.gov number, NCT04025879.).
