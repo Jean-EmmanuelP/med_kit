@@ -1,7 +1,5 @@
 import { serve } from "https://deno.land/std@0.224.0/http/server.ts";
 
-console.log('Edge Function "send-notification" démarrée');
-
 serve(async (req) => {
   const body = await req.json();
 
@@ -17,7 +15,6 @@ serve(async (req) => {
   }
 
   const apiKey = Deno.env.get("SENDGRID_API_KEY");
-  console.log("Clé API SendGrid :", apiKey);
   if (!apiKey) {
     console.error("Clé API SendGrid manquante");
     return new Response(
@@ -54,7 +51,6 @@ serve(async (req) => {
                 discipline: article.discipline || "Non spécifié",
                 link: article.link
               })),
-              link: link,
             },
           },
         ],
