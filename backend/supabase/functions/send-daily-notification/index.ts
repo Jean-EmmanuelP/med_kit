@@ -219,7 +219,7 @@ function getArticleLimit(frequency: string, lastNotificationDate: string | null)
 
   switch (frequency) {
     case 'tous_les_jours':
-      return hoursSinceLastNotification >= 23 ? 1 : 0;
+      return hoursSinceLastNotification >= 16 ? 1 : 0;
 
     case 'tous_les_2_jours':
       return (daysSinceLastNotification >= 2) ? 1 : 0;
