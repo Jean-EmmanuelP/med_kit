@@ -115,8 +115,10 @@ The `pipeline.sh` script includes checks to ensure that `data.json` exists befor
     python3 -m venv .venv
     source .venv/bin/activate # Or the appropriate command for your OS
     pip install -r requirements.txt
-    ```
-2.  **Run the pipeline script** from the project's root directory:
+
+2. **Set the .env**
+
+3.  **Run the pipeline script** from the project's root directory:
     ```bash
     ./pipeline.sh
     ```
