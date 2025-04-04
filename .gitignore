@@ -1,3 +1,8 @@
 .env
 .venv
 __pycache__
+backend/scrape_evidencealerts/links
+backend/scrape_evidencealerts/data
+backend/scrape_evidencealerts/summaries
+backend/scrape_evidencealerts/.env
+backend/scrape_evidencealerts/.venv
