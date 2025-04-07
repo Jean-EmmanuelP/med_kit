@@ -3,68 +3,72 @@ import { error } from '@sveltejs/kit';
 /** @type {import('./$types').PageServerLoad} */
 export async function load({ locals }) {
   try {
-    // Récupérer les disciplines
     const { data: disciplinesData, error: disciplinesError } = await locals.supabase
       .from('disciplines')
       .select('id, name');
 
     if (disciplinesError) {
       console.error('Erreur lors de la récupération des disciplines:', disciplinesError);
-      throw error(500, 'Erreur serveur');
+      throw error(500, 'Erreur serveur lors de la récupération des disciplines.');
     }
 
-    const specialties = disciplinesData.map((d) => d.name);
-
-    // Récupérer les articles avec leurs disciplines
-    const { data: articlesData, error: articlesError } = await locals.supabase
-      .from('articles')
-      .select(`
-        id,
-        title,
-        content,
-        created_at,
-        published_at,
-        link,
-        grade,
-        journal,
-        article_disciplines (
-          discipline_id,
-          disciplines (name)
-        )
-      `)
-      .order('published_at', { ascending: false });
-
-    if (articlesError) {
-      console.error('Erreur lors de la récupération des articles:', articlesError);
-      throw error(500, 'Erreur serveur');
+    if (!disciplinesData || disciplinesData.length === 0) {
+      console.warn('Aucune discipline trouvée.');
+      return { articles: [], specialties: [] };
     }
 
-    // Grouper et limiter à 10 articles par discipline côté application
-    const articlesByDiscipline = {};
-    articlesData.forEach((article) => {
-      const disciplineNames = article.article_disciplines.map((ad) => ad.disciplines.name);
-      disciplineNames.forEach((disciplineName) => {
-        if (!articlesByDiscipline[disciplineName]) {
-          articlesByDiscipline[disciplineName] = [];
-        }
-        if (articlesByDiscipline[disciplineName].length < 3) {
-          articlesByDiscipline[disciplineName].push({
-            ...article,
-            disciplines: disciplineNames
-          });
-        }
-      });
+    const disciplines = disciplinesData;
+    const specialties = disciplines.map((d) => d.name);
+
+    const articlePromises = disciplines.map(discipline => {
+      return locals.supabase
+        .from('articles')
+        .select(`
+          id,
+          title,
+          content,
+          created_at,
+          published_at,
+          link,
+          grade,
+          journal,
+          article_disciplines!inner (
+            discipline_id,
+            disciplines (name)
+          )
+        `)
+        .eq('article_disciplines.discipline_id', discipline.id)
+        .order('created_at', { ascending: true })
+        .limit(3)
+        .then(({ data, error: articleError }) => {
+           if (articleError) {
+             console.error(`Erreur lors de la récupération des articles pour la discipline ${discipline.name} (ID: ${discipline.id}):`, articleError);
+             return [];
+           }
+           const processedArticles = (data || []).map(article => ({
+                ...article,
+                disciplines: article.article_disciplines.map(ad => ad.disciplines.name)
+           }));
+           return processedArticles;
+        });
     });
-
-    // Convertir en un tableau plat d'articles avec la limite
-    const limitedArticles = Object.values(articlesByDiscipline).flat();
+    const resultsPerDiscipline = await Promise.all(articlePromises);
+    const combinedArticles = resultsPerDiscipline.flat();
 
     return {
-      articles: limitedArticles,
-      specialties
+      articles: combinedArticles,
+      specialties: specialties
     };
+
   } catch (err) {
-    console.error('Erreur inattendue:', err);
-    throw error(500, 'Erreur serveur');
+    // Handle potential errors from Promise.all or the initial disciplines fetch
+    if (err.status && typeof err.status === 'number') {
+        // It's likely a SvelteKit error object, re-throw it
+        throw err;
+    } else {
+        // Otherwise, log and throw a generic 500 error
+        console.error('Erreur inattendue dans la fonction load:', err);
+        throw error(500, 'Erreur serveur inattendue.');
+    }
   }
 }

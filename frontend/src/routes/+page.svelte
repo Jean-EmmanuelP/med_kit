@@ -303,7 +303,7 @@
 					</p>
 				{:else}
 					<ul class="space-y-4">
-						{#each articles as article}
+						{#each articles.slice(0,3) as article}
 							<li
 								on:click={() => openImmersive(article)}
 								class="relative cursor-pointer rounded bg-gray-800 p-4 shadow transition-shadow hover:shadow-xl"
