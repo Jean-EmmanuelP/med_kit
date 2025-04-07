@@ -69,6 +69,8 @@ CATEGORY_MAP: Dict[str, str] = {
     "General Internal Medicine-Primary Care(US)": "Médecine Générale",
     "Hospital Doctor/Hospitalists": "Médecine Interne", # Often manage internal med cases inpatient
     "Internal Medicine (or see subspecialties below)": "Médecine Interne",
+    "Internal Medicine": "Médecine Interne",
+    "Internal Medicine - General": "Médecine Interne",
     "Pediatrics (General)": "Pédiatrie",
     "Pediatric Hospital Medicine": "Pédiatrie",
     "Pediatric Neonatology": "Pédiatrie",
