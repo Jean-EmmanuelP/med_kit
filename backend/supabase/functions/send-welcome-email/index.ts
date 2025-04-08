@@ -36,6 +36,10 @@ serve(async (req) => {
         },
       },
     ],
+    asm: {
+      group_id: 303981,
+      groups_to_display: [303981],
+    },
     from: {
       email: "contact@veillemedicale.fr",
       name: "Équipe Veille Médicale",

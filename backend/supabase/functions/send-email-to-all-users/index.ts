@@ -44,8 +44,9 @@ Deno.serve(async (req: Request) => {
       const { data: users, error } = await supabase
         .from("user_profiles")
         .select("email")
+        // .eq("email", "alexis.chatelain123@gmail.com")
         .range(from, from + USERS_BATCH_SIZE - 1);
-
+        
       if (error) {
         throw new Error(`Error fetching users: ${error.message}`);
       }
@@ -63,6 +64,10 @@ Deno.serve(async (req: Request) => {
         from: {
           email: "contact@veillemedicale.fr",
           name: "Veille Médicale",
+        },
+        asm : {
+          group_id: 303981,
+          groups_to_display: [303981],
         },
         template_id: template_id,
       };
