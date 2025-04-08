@@ -52,14 +52,11 @@ Deno.serve(async (req: Request) => {
       // Prepare SendGrid payload for this batch
       const sendgridPayload = {
         personalizations: users.map(user => ({
-          to: [{ email: user.email }],
-          dynamic_template_data: {
-            base_url: "https://veillemedicale.fr",
-          },
+          to: [{ email: user.email }]
         })),
         from: {
           email: "contact@veillemedicale.fr",
-          name: "Équipe Veille Médicale",
+          name: "Veille Médicale",
         },
         template_id: template_id,
       };

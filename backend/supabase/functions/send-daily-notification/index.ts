@@ -205,11 +205,11 @@ Deno.serve(async (req: Request) => {
                 dynamic_template_data: {
                     first_name: user.first_name,
                     articles: user.articles.map((article) => ({
-                    id: article.id,
-                    title: article.title,
-                    journal: article.journal || "Inconnu",
-                    discipline: article.discipline || "Non spécifié",
-                    link: article.link
+                      id: article.id,
+                      title: article.title,
+                      journal: article.journal || "Inconnu",
+                      discipline: article.discipline || "Non spécifié",
+                      link: article.link
                     })),
                 },
                 })),
