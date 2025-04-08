@@ -2,7 +2,7 @@ import "jsr:@supabase/functions-js/edge-runtime.d.ts";
 import { createClient } from "jsr:@supabase/supabase-js@2";
 
 const env = (key: string) => Deno.env.get(key);
-const USERS_BATCH_SIZE = 1000;
+const USERS_BATCH_SIZE = 250;
 
 export function getSupabaseClient() {
   const supabase = createClient(
@@ -29,11 +29,17 @@ Deno.serve(async (req: Request) => {
       );
     }
 
-    // Fetch users in batches
     let from = 0;
     let hasMore = true;
     let totalEmailsSent = 0;
 
+    console.log("Template ID:", template_id);
+    if (!template_id) {
+      return new Response(
+        JSON.stringify({ error: "Template ID manquant" }),
+        { status: 400, headers: { "Content-Type": "application/json" } }
+      );
+    }
     while (hasMore) {
       const { data: users, error } = await supabase
         .from("user_profiles")
@@ -60,6 +66,8 @@ Deno.serve(async (req: Request) => {
         },
         template_id: template_id,
       };
+      console.log("Envoi d'emails à", users.length, "utilisateurs");
+      console.log("Payload SendGrid:", JSON.stringify(sendgridPayload, null, 2));
 
       // Send emails for this batch
       const response = await fetch("https://api.sendgrid.com/v3/mail/send", {
@@ -70,6 +78,11 @@ Deno.serve(async (req: Request) => {
         },
         body: JSON.stringify(sendgridPayload),
       });
+
+      console.log("Response SendGrid:", response.status, await response.text());
+      // Check for errors in the response
+      if (response.status === 202)
+        console.log("Emails envoyés avec succès");
 
       if (!response.ok) {
         const errorText = await response.text();

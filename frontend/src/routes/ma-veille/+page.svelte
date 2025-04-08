@@ -42,6 +42,12 @@
 	let hasMore = $state(true);
 	let isLoading = $state(false);
 
+	let urlParams = new URLSearchParams(window.location.search);
+	let selectedSpecialty = urlParams.get('discipline');
+	if (selectedSpecialty && specialties.includes(selectedSpecialty)) {
+		selectedFilter = selectedSpecialty;
+	}
+
 
 	const today = new Date();
 	const formattedDate = `${today.getDate().toString().padStart(2, '0')}/${(today.getMonth() + 1)
