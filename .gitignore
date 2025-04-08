@@ -6,3 +6,5 @@ backend/scrape_evidencealerts/data
 backend/scrape_evidencealerts/summaries
 backend/scrape_evidencealerts/.env
 backend/scrape_evidencealerts/.venv
+frontend/src/routes/payment-status
+frontend/src/routes/checkout

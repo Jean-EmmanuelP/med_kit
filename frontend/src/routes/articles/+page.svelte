@@ -13,7 +13,7 @@
 	}
 
 	const { data } = $props();
-	const disciplines = data.disciplines;
+	const disciplines = data.disciplines.sort((a, b) => a.name.localeCompare(b.name));
 
 	let articles = $state<Article[]>([]);
 	let selectedDiscipline = $state(disciplines.length > 0 ? disciplines[0].name : null);

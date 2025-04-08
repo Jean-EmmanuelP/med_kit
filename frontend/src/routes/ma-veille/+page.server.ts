@@ -42,7 +42,7 @@ export async function load({ locals }) {
 		};
 	}
 
-	const userDisciplines = userProfile.disciplines || [];
+	let userDisciplines = userProfile.disciplines || [];
 	const notificationFrequency = userProfile.notification_frequency || 'tous_les_jours'; // Changed to 'tous_les_jours' to match your schema
 	console.log('User disciplines:', userDisciplines);
 	console.log('Notification frequency:', notificationFrequency);
@@ -194,6 +194,17 @@ export async function load({ locals }) {
 
 	console.log('Returning data to client');
 
+	userDisciplines = userDisciplines.sort((a, b) => {
+		const disciplineA = a.toLowerCase();
+		const disciplineB = b.toLowerCase();
+		if (disciplineA < disciplineB) {
+			return -1;
+		}
+		if (disciplineA > disciplineB) {
+			return 1;
+		}
+		return 0;
+	});
 	return {
 		recentArticles,
 		olderArticles,
