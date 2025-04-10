@@ -183,10 +183,12 @@
 			filteredRecentArticles = [];
 			isLoading = true;
 
+			console.log("Fetching articles for specialty:", selectedFilter);
 			fetch(`/api/get_articles_my_veille?specialty=${selectedFilter}&offset=0`)
 				.then((res) => res.json())
 				.then((data) => {
 					if (data && data.data) {
+						console.log("Fetched articles:", data.data);
 						articleOfTheDay = [data.data[0]];
 						const remainingArticles = data.data.slice(1);
 						filteredRecentArticles = remainingArticles;

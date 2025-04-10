@@ -111,6 +111,7 @@
 			.then((res) => res.json())
 			.then((data) => {
 				if (data && data.data) {
+					console.log('Fetched more articles:', data.data);
 					if (data.data.length === 0) {
 						hasMore = false;
 						return;
@@ -125,30 +126,65 @@
 	}
 
 	$effect(() => {
-		if (!selectedDiscipline) return;
-		
-		articles = [];
-		articleOfTheDay = [];
-		offset = 0;
-		hasMore = true;
-		isLoading = true;
-		
-		fetch(`/api/get_articles_my_veille?specialty=${selectedDiscipline}&offset=0`)
-			.then((res) => res.json())
-			.then((data) => {
-				if (data && data.data) {
-					articleOfTheDay = [data.data[0]];
-					articles = data.data.slice(1);
-					offset = data.data.length;
-				}
-			})
-			.catch((error) => {
-				console.error('Error fetching articles:', error);
-			})
-			.finally(() => {
-				isLoading = false;
-			});
-	});
+    const currentDiscipline = selectedDiscipline; // Capture the value
+    console.log('Effect triggered for discipline:', currentDiscipline);
+    if (!currentDiscipline) {
+         console.log('Effect skipped: No discipline selected');
+         // Optionally clear lists if needed when discipline becomes null
+         // articles = [];
+         // articleOfTheDay = [];
+         return;
+    }
+
+    articles = [];
+    articleOfTheDay = [];
+    offset = 0;
+    hasMore = true;
+    isLoading = true;
+
+    console.log('Fetching articles for discipline:', currentDiscipline);
+    fetch(`/api/get_articles_my_veille?specialty=${currentDiscipline}&offset=0`)
+        .then((res) => res.json())
+        .then((data) => {
+            console.log('API Response Raw:', data);
+            if (data && data.data) {
+                 console.log('API returned data.data:', data.data);
+                 if (data.data.length > 0) {
+                     articleOfTheDay = [data.data[0]];
+                     articles = data.data.slice(1);
+                     offset = data.data.length;
+                     console.log('Updated articleOfTheDay:', $state.snapshot(articleOfTheDay)); // Use snapshot for logging
+                     console.log('Updated articles:', $state.snapshot(articles)); // Use snapshot for logging
+                     console.log('Updated offset:', offset);
+                     hasMore = data.data.length >= 10; // Assuming 10 is the page size
+                 } else {
+                     console.log('API returned an empty data.data array.');
+                     articleOfTheDay = [];
+                     articles = [];
+                     offset = 0;
+                     hasMore = false;
+                 }
+             } else {
+                 console.log('API response did not contain data or data.data');
+                 articleOfTheDay = [];
+                 articles = [];
+                 offset = 0;
+                 hasMore = false;
+             }
+        })
+        .catch((error) => {
+            console.error('Error fetching articles:', error);
+             // Handle error state? Maybe set an error message variable?
+             articleOfTheDay = [];
+             articles = [];
+             offset = 0;
+             hasMore = false;
+        })
+        .finally(() => {
+            console.log('Fetch finished, setting isLoading to false.');
+            isLoading = false;
+        });
+ });
 </script>
 
 <div class="min-h-screen bg-black px-4 py-12 text-white">
@@ -203,7 +239,7 @@
 					<p class="mt-2 text-gray-400">
 						Article selectionné aujourd'hui pour {selectedDiscipline} :
 					</p>
-					{#each articleOfTheDay as article (article.id)}
+					{#each articleOfTheDay as article (article.article_id)}
 						{#if article}
 							<li
 								on:click={() => openImmersive(article)}
@@ -248,7 +284,7 @@
 				{#if articles.length > 0}
 					<h2 class="text-2xl font-bold text-teal-500">📖 Articles des jours précédents</h2>
 					<p class="mt-2 text-gray-400">Article pour {selectedDiscipline} :</p>
-					{#each articles as article (article.id)}
+					{#each articles as article (article.article_id)}
 						{#if article}
 							<li
 								on:click={() => openImmersive(article)}

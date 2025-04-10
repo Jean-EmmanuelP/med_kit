@@ -8,6 +8,6 @@ export async function GET({ url, locals: { supabase } }) {
         discipline: specialty,
         p_offset: offset,
     });
-
+    console.log(my_veille_articles);
     return json(my_veille_articles);
 } 
