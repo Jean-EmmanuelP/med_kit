@@ -1,0 +1,7 @@
+{
+  "article_id": 1951,
+  "title": "Le rôle de l'algorithme de stratification des risques des Recommandations Mondiales pour la Prévention et la Gestion des Chutes dans la prédiction des chutes : une analyse rétrospective de l'Osteoarthritis Initiative",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1093/ageing/afae187",
+  "content_preview": "## 📌 Contexte & Problématique\nLes chutes récurrentes sont fréquentes chez les personnes âgées et sont responsables d'une morbidité et d'une mortalité importantes. Cette étude vise à vérifier la sensibilité, la spécificité et la précision de l'algorithme de stratification des risques de chutes des Recommandations Mondiales pour la Prévention et la Gestion des Chutes (WGFPM).\n\n## 🧪 Méthodologie\nLes participants âgés de 40 à 80 ans ont été stratifiés en catégories de risque « faible », « intermédia...",
+  "gemini_raw_response": "{\n  \"Médecine Générale\": [\"Gériatrie de ville\", \"Prévention et dépistage\"],\n  \"Gériatrie\": [\"Chutes et troubles de la marche\", \"Évaluation gériatrique globale\"],\n  \"Rhumatologie\": [\"Arthrose\"]\n}"
+}

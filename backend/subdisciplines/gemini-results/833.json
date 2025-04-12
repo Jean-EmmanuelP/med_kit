@@ -1,0 +1,7 @@
+{
+  "article_id": 833,
+  "title": "Alertes informatisées pour optimiser l'antibiothérapie dans la pneumonie",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jama.2024.6248.",
+  "content_preview": "## 📌 Contexte & Problématique\nLa pneumonie est l'infection la plus fréquente nécessitant hospitalisation et cause majeure de surutilisation d'antibiotiques à spectre étendu, malgré le faible risque d'organismes multirésistants (OMR) chez de nombreux patients.\n\n## 🧪 Méthodologie\nEssai randomisé en grappes dans 59 hôpitaux américains comparant une intervention de gestion des antibiotiques via systèmes informatisés de prescription (SIP) (n=29 hôpitaux) au traitement standard (n=30). L'intervention ...",
+  "gemini_raw_response": "{\n  \"Pneumologie\": [\"Infections respiratoires\", \"Urgences respiratoires\"]\n}"
+}

@@ -1,0 +1,7 @@
+{
+  "article_id": 2284,
+  "title": "Nouvelle fibrillation auriculaire après chirurgie coronarienne et risque d'accident vasculaire cérébral : une étude de cohorte nationale",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1136/heartjnl-2024-324573",
+  "content_preview": "## 📌 Contexte & Problématique\nLa fibrillation auriculaire postopératoire (FAPO) survenant après un pontage aorto-coronarien (PAC) augmente le risque d'accident vasculaire cérébral ischémique (AVC). Les facteurs influençant ce risque restent mal définis. Cette étude vise à identifier ces facteurs, à comparer les scores CHA2DS2-VASc (insuffisance cardiaque congestive, hypertension, âge ≥75 ans, diabète, antécédent d'AVC/accident ischémique transitoire (AIT), maladie vasculaire, âge 65-74 ans, caté...",
+  "gemini_raw_response": "{\n  \"Cardiologie\": [\"Rythmologie\", \"Insuffisance cardiaque\", \"Maladies thromboemboliques veineuses\"],\n  \"Neurologie\": [\"Accidents vasculaires cérébraux (AVC)\"],\n  \"Chirurgie cardiaque\": [\"Chirurgie coronarienne\", \"Suivi post-opératoire spécialisé\"]\n}"
+}

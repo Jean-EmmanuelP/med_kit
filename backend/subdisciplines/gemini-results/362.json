@@ -1,0 +1,7 @@
+{
+  "article_id": 362,
+  "title": "Efficacité des inhibiteurs de PARP selon les gènes mutés individuels dans le cancer de prostate métastatique résistant à la castration",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO.23.02105.",
+  "content_preview": "## 📌 Contexte & Problématique\nAnalyse groupée évaluant l'efficacité des inhibiteurs de poly(ADP-ribose) polymérase (PARPi) selon chaque gène muté de réparation par recombinaison homologue (HRR) dans le cancer de prostate métastatique résistant à la castration (mCRPC).\n\n## 🧪 Méthodologie\nRegroupement des données individuelles de patients issus d'essais cliniques de PARPi dans le mCRPC avec statut mutationnel HRR connu. Calcul des rapports de risque (HR) pour la survie sans progression radiographi...",
+  "gemini_raw_response": "{\n  \"Oncologie\": [\"Cancers urologiques\", \"Essais cliniques et recherche en oncologie\", \"Thérapies ciblées et immunothérapie\"]\n}"
+}

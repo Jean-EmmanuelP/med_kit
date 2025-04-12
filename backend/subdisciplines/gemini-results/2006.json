@@ -1,0 +1,7 @@
+{
+  "article_id": 2006,
+  "title": "Dexrazoxane pour la prévention ou la réduction de la cardiotoxicité chez les adultes et les enfants atteints de cancer recevant des anthracyclines",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1002/14651858.CD014638.pub2",
+  "content_preview": "## 📌 Contexte & Problématique\nLes anthracyclines sont des agents chimiothérapeutiques efficaces, mais leur utilisation est limitée par une cardiotoxicité dose-dépendante. Le dexrazoxane est étudié comme agent cardioprotecteur pour prévenir ou réduire cette cardiotoxicité.\n\n## 🧪 Méthodologie\nRevue Cochrane comprenant des essais contrôlés randomisés (ECR) comparant le dexrazoxane à un placebo ou à l'absence de traitement supplémentaire chez des adultes et des enfants atteints de cancer recevant de...",
+  "gemini_raw_response": "{\n  \"Cardiologie\": [\"Cardio-oncologie\", \"Insuffisance cardiaque\"],\n  \"Hématologie\": [\"Suivi post-chimiothérapie et soins de support\"],\n  \"Oncologie\": [\"Oncologie pédiatrique\", \"Essais cliniques et recherche en oncologie\"],\n  \"Pediatrie\": [\"Onco-hématologie pédiatrique\"]\n}"
+}

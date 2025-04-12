@@ -1,0 +1,7 @@
+{
+  "article_id": 949,
+  "title": "Intelligence artificielle interprétable pour optimiser l'imatinib après résection des GIST localisées",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S1470-2045(24)00259-6.",
+  "content_preview": "## 📌 Contexte & Problématique\nLa durée optimale du traitement adjuvant par imatinib chez les patients atteints de tumeurs stromales gastro-intestinales (GIST) reste indéterminée et certains patients n'en tirent aucun bénéfice. Cette étude utilise l'intelligence artificielle interprétable pour identifier les groupes de patients nécessitant ce traitement et sa durée optimale.\n\n## 🧪 Méthodologie\nÉtude de cohorte observationnelle incluant 117 patients du Memorial Sloan Kettering Cancer Center (MSKCC...",
+  "gemini_raw_response": "{\n  \"Oncologie\": [\"Oncologie digestive\", \"Essais cliniques et recherche en oncologie\", \"Thérapies ciblées et immunothérapie\"]\n}"
+}

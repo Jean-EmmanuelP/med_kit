@@ -1,0 +1,7 @@
+{
+  "article_id": 2239,
+  "title": "Modalités conservatrices et chirurgicales dans la prise en charge des épanchements parapneumoniques et des empyèmes pédiatriques : revue systématique évolutive et méta-analyse en réseau",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.chest.2023.06.010",
+  "content_preview": "## 📌 Contexte & Problématique\nLe traitement optimal de la pneumonie communautaire infantile compliquée d'un empyème reste incertain.\n\n## 🧪 Méthodologie\nUne revue systématique évolutive d'essais contrôlés randomisés (ECR) a été menée. Les ECR éligibles incluaient des patients âgés de moins de 18 ans et comparaient deux des modalités de traitement suivantes : antibiotiques seuls, insertion d'un drain thoracique avec ou sans fibrinolytiques, chirurgie thoracoscopique vidéo-assistée (CTVA), et décor...",
+  "gemini_raw_response": "{\n  \"Pneumologie\": [\"Pneumologie pédiatrique\", \"Infections respiratoires\"],\n  \"Pédiatrie\": [\"Pneumopédiatrie\"],\n  \"Chirurgie digestive\": [],\n  \"Chirurgie thoracique\": [\"Chirurgie de la plèvre\", \"Chirurgie thoracique mini-invasive\"]\n}"
+}

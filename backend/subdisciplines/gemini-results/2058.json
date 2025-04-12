@@ -1,0 +1,7 @@
+{
+  "article_id": 2058,
+  "title": "Effet de l'aspirine en chirurgie vasculaire chez les patients issus d'un essai clinique randomisé (POISE-2)",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1002/bjs.10925",
+  "content_preview": "## 📌 Contexte & Problématique\nL'essai POISE-2 (PeriOperative Ischemic Evaluation 2) a montré que l'aspirine périopératoire ne réduisait pas les événements cardiovasculaires, mais augmentait les saignements majeurs. L'effet de l'aspirine périopératoire chez les patients subissant une chirurgie vasculaire reste incertain. Cette sous-étude vise à déterminer s'il existe un effet de sous-groupe de l'initiation ou de la poursuite de l'aspirine chez ces patients.\n\n## 🧪 Méthodologie\nPOISE-2 était un ess...",
+  "gemini_raw_response": "{\n  \"Médecine Générale\": [],\n  \"Cardiologie\": [\"Cardiologie interventionnelle\", \"Maladies thromboemboliques veineuses\", \"Prévention cardiovasculaire\"],\n  \"Chirurgie vasculaire\": [\"Chirurgie des artères périphériques\", \"Chirurgie endovasculaire\"]\n}"
+}

@@ -1,0 +1,7 @@
+{
+  "article_id": 482,
+  "title": "TAVI versus chirurgie chez les patients à faible risque avec sténose aortique tricuspide ou bicuspide",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1093/eurheartj/ehae331.",
+  "content_preview": "## 📌 Contexte & Problématique\nL'implantation valvulaire aortique par cathéter (TAVI) est établie pour les patients âgés avec sténose aortique (SA) sévère. Cette étude NOTION-2 compare TAVI et chirurgie chez des patients à faible risque ≤75 ans, incluant les SA bicuspides.\n\n## 🧪 Méthodologie\nEssai randomisé 1:1 incluant 370 patients (âge moyen 71,1 ans) avec SA symptomatique sévère, dont 100 avec SA bicuspide. Critère principal composite : mortalité toutes causes, AVC ou réhospitalisation à 12 mo...",
+  "gemini_raw_response": "{\n  \"Chirurgie cardiaque\": [\"Chirurgie valvulaire\", \"Chirurgie robotique / mini-invasive\"]\n}"
+}

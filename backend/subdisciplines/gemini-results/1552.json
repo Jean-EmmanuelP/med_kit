@@ -1,0 +1,7 @@
+{
+  "article_id": 1552,
+  "title": "Modèles de soins pour la prise en charge de la lombalgie non spécifique",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1002/14651858.CD015083.pub2",
+  "content_preview": "## 📌 Contexte & Problématique\nLes modèles de soins alternatifs visent à améliorer la qualité ou l'efficacité des soins, ou les deux, afin d'optimiser les résultats de santé des patients. Ils fournissent les mêmes soins de santé, mais modifient la façon, le moment, le lieu ou la personne qui dispense et coordonne les soins.\n\n## 🧪 Méthodologie\nUne revue systématique et méta-analyse d'essais contrôlés randomisés comparant des modèles de soins alternatifs aux soins habituels ou à d'autres modèles de...",
+  "gemini_raw_response": "{\n  \"Médecine Générale\": [\"Soins de premier recours\", \"Suivi des maladies chroniques\"],\n  \"Médecine physique et réadaptation\": [\"Douleurs chroniques\", \"Pathologies musculo-squelettiques chroniques\"],\n  \"Médecine de la douleur\": [\"Lombalgies et douleurs musculo-squelettiques\"]\n}"
+}

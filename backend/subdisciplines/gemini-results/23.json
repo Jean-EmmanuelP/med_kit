@@ -1,0 +1,7 @@
+{
+  "article_id": 23,
+  "title": "Durée optimale d'antibiothérapie dans les bactériémies : 7 jours vs 14 jours",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2404991.",
+  "content_preview": "## 📌 Contexte & Problématique\nLes infections sanguines entraînent une morbi-mortalité importante. Si l'antibiothérapie précoce est cruciale, sa durée optimale reste débattue.\n\n## 🧪 Méthodologie\nEssai multicentrique de non-infériorité comparant 7 vs 14 jours d'antibiothérapie chez des patients hospitalisés (dont 55% en USI) avec bactériémie. Exclusion des immunodéprimés sévères, infections à S. aureus et foyers nécessitant un traitement prolongé. Critère principal : mortalité à 90 jours (marge de...",
+  "gemini_raw_response": "{\n  \"Maladies infectieuses\": [\n    \"Antibiothérapie et antibiogrammes\",\n    \"Infections communautaires aiguës\",\n    \"Infections nosocomiales\"\n  ]\n}"
+}

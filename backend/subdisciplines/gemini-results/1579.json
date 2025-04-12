@@ -1,0 +1,7 @@
+{
+  "article_id": 1579,
+  "title": "Traitement préopératoire par statines chez les adultes subissant une chirurgie cardiaque",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1002/14651858.CD008493.pub5",
+  "content_preview": "## 📌 Contexte & Problématique\nMalgré les progrès significatifs dans les techniques chirurgicales et les soins périopératoires, les patients subissant une chirurgie cardiaque en raison d'une maladie cardiovasculaire sont plus susceptibles de développer des événements indésirables postopératoires. Les statines (inhibiteurs de la HMG-CoA réductase) sont connues pour leurs effets anti-inflammatoires et antioxydants et sont établies pour la prévention primaire et secondaire des maladies coronariennes...",
+  "gemini_raw_response": "{\n  \"Cardiologie\": [\"Cardiologie interventionnelle\", \"Prévention cardiovasculaire\", \"Cardiopathies ischémiques\"],\n  \"Chirurgie cardiaque\": [\"Chirurgie coronarienne\", \"Suivi post-opératoire spécialisé\"],\n  \"Chirurgie vasculaire\": []\n}"
+}

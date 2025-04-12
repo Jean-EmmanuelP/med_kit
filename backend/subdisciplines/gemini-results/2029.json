@@ -1,0 +1,7 @@
+{
+  "article_id": 2029,
+  "title": "Efficacité et sécurité d'une durée prolongée de thromboprophylaxie périopératoire avec de l'héparine de bas poids moléculaire sur la survie sans maladie après résection chirurgicale d'un cancer colorectal (PERIOP-01) : essai contrôlé randomisé multicentrique en ouvert",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1136/bmj-2022-071375",
+  "content_preview": "## 📌 Contexte & Problématique\nL'étude vise à déterminer l'efficacité et la sécurité d'une thromboprophylaxie périopératoire de durée prolongée avec de l'héparine de bas poids moléculaire sur la survie sans maladie chez les patients subissant une résection pour un cancer colorectal.\n\n## 🧪 Méthodologie\nIl s'agit d'un essai contrôlé randomisé multicentrique en ouvert, mené dans 12 hôpitaux du Québec et de l'Ontario, au Canada, entre octobre 2011 et décembre 2020. 614 adultes atteints d'un adénocarc...",
+  "gemini_raw_response": "{\n  \"Hépato-Gastroentérologie\": [\"Oncologie digestive\"],\n  \"Hématologie\": [\"Hémostase\", \"Coagulopathies\"],\n  \"Oncologie\": [\"Oncologie digestive\"],\n  \"Chirurgie digestive\": [\"Chirurgie colorectale\", \"Chirurgie des tumeurs digestives\"]\n}"
+}

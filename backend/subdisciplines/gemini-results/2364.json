@@ -1,0 +1,7 @@
+{
+  "article_id": 2364,
+  "title": "Communication sur les maladies graves dans un essai randomisé d'une équipe de télésanté palliative composée d'une infirmière et d'un travailleur social",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1111/jgs.19445",
+  "content_preview": "## 📌 Contexte & Problématique\nLa communication précoce sur les maladies graves (SIC) présente de nombreux avantages pour les patients atteints de maladies cardiopulmonaires. Cependant, impliquer les patients dans ce processus de communication complexe et itératif est difficile en raison du manque de temps des cliniciens, de la formation limitée de ces derniers à ces conversations et du manque de préparation des patients.\n\n## 🧪 Méthodologie\nUn essai clinique randomisé a été mené avec une équipe d...",
+  "gemini_raw_response": "{\n  \"Pneumologie\": [\"Bronchopneumopathie chronique obstructive\", \"Maladies pulmonaires interstitielles diffuses\"],\n  \"Cardiologie\": [\"Insuffisance cardiaque\"],\n  \"Médecine palliative\": [\"Soins palliatifs\"]\n}"
+}

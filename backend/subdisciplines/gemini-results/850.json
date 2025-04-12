@@ -1,0 +1,7 @@
+{
+  "article_id": 850,
+  "title": "Effet des inhibiteurs SGLT2 sur l'insuffisance cardiaque et la mortalité cardiovasculaire à travers le spectre cardiométabolique",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S2213-8587(24)00102-5.",
+  "content_preview": "## 📌 Contexte & Problématique\nÉvaluation de l'impact thérapeutique des inhibiteurs du co-transporteur sodium-glucose de type 2 (SGLT2) sur des critères cliniques spécifiques dans diverses populations atteintes de pathologies cardiométaboliques.\n\n## 🧪 Méthodologie\nRevue systématique et méta-analyse de 15 essais cliniques (N=100 952) évaluant les inhibiteurs SGLT2 chez des patients atteints d'insuffisance cardiaque, diabète de type 2, maladie rénale chronique et maladie cardiovasculaire athérosclé...",
+  "gemini_raw_response": "{\n  \"Néphrologie\": [\"Insuffisance rénale chronique\", \"Néphropathies diabétiques\"],\n  \"Cardiologie\": [\"Insuffisance cardiaque\"],\n  \"Endocrinologie\": [\"Diabetologie\"]\n}"
+}

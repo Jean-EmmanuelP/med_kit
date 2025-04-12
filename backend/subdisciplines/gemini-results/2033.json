@@ -1,0 +1,7 @@
+{
+  "article_id": 2033,
+  "title": "Omalizumab pour le traitement des allergies alimentaires multiples",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2312382",
+  "content_preview": "## 📌 Contexte & Problématique\nLes allergies alimentaires sont fréquentes et associées à une morbidité importante. Le seul traitement approuvé est l'immunothérapie orale pour l'allergie à l'arachide.\n\n## 🧪 Méthodologie\nUn essai a été mené pour évaluer l'efficacité et la sécurité de l'omalizumab, un anticorps monoclonal anti-IgE, en monothérapie chez des patients atteints d'allergies alimentaires multiples. Des personnes âgées de 1 à 55 ans, allergiques aux arachides et à au moins deux autres alim...",
+  "gemini_raw_response": "{\n  \"Médecine Générale\": [\"Santé de l’enfant et de l’adolescent\"],\n  \"Pédiatrie\": [\"Gastro-entérologie pédiatrique\", \"Pédiatrie générale\"],\n  \"Allergie et immunologie\": [\"Allergies alimentaires\", \"Immunothérapie spécifique\"]\n}"
+}

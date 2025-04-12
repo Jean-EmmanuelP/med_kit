@@ -1,0 +1,7 @@
+{
+  "article_id": 859,
+  "title": "Prédiction des risques d'insuffisance rénale et de mortalité dans la maladie rénale chronique modérée à sévère",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1136/bmj-2023-078063.",
+  "content_preview": "## 📌 Contexte & Problématique\nNécessité d'améliorer la prédiction du risque d'insuffisance rénale terminale et de mortalité chez les patients atteints de maladie rénale chronique (MRC) stade G3b-G4 (DFGe 15-44 mL/min/1,73 m²).\n\n## 🧪 Méthodologie\nÉtude de cohorte multinationale utilisant des données populationnelles du Canada (entraînement/test), du Danemark et de l'Écosse (validation). Développement d'un algorithme prédictif (KDpredict) comparé à l'équation de risque d'insuffisance rénale standa...",
+  "gemini_raw_response": "{\n  \"Néphrologie\": [\"Insuffisance rénale chronique\", \"Néphrologie clinique\"]\n}"
+}

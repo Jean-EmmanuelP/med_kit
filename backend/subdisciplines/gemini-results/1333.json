@@ -1,0 +1,7 @@
+{
+  "article_id": 1333,
+  "title": "Associations entre les antibiotiques IV prophylactiques et les résultats chez les patients atteints de lésions cérébrales aiguës sévères nécessitant une ventilation mécanique : revue systématique et méta-analyse",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1097/CCM.0000000000006654",
+  "content_preview": "## 📌 Contexte & Problématique\nL'étude évalue l'impact des antibiotiques IV prophylactiques sur la pneumonie associée à la ventilation (PAV) et d'autres résultats chez les patients gravement malades atteints de lésions cérébrales aiguës.\n\n## 🧪 Méthodologie\nUne revue systématique et une méta-analyse ont été réalisées à partir de recherches dans PubMed, Embase, CINAHL et d'autres bases de données. Les essais randomisés comparant les antibiotiques IV prophylactiques à un placebo ou à l'absence d'ant...",
+  "gemini_raw_response": "{\n  \"Neurologie\": [\"Accidents vasculaires cérébraux (AVC)\", \"Urgences neurologiques\"],\n  \"Pneumologie\": [\"Médecine intensive\"],\n  \"Infectiologie\": [\"Médecine intensive\"]\n}"
+}

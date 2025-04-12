@@ -1,0 +1,7 @@
+{
+  "article_id": 1844,
+  "title": "Base de preuves pour la durée optimale du traitement antibiotique des infections des voies respiratoires supérieures et inférieures : une revue ombrelle",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S1473-3099(24)00456-0",
+  "content_preview": "## 📌 Contexte & Problématique\nDe nombreux essais, revues et méta-analyses ont comparé les traitements antibiotiques courts et longs pour les infections des voies respiratoires, soutenant généralement des traitements plus courts. Cette revue ombrelle vise à évaluer la solidité de la base de preuves actuelle pour la durée optimale du traitement antibiotique.\n\n## 🧪 Méthodologie\nUne recherche a été effectuée dans Ovid MEDLINE, Embase et Clarivate Analytics Web of Science Core Collection le 1er mai 2...",
+  "gemini_raw_response": "{\n  \"Médecine Générale\": [\"Soins de premier recours\", \"Suivi des maladies chroniques\"],\n  \"Maladies infectieuses\": [\"Infections communautaires aiguës\", \"Antibiothérapie et antibiogrammes\"],\n  \"Pneumologie\": [\"Bronchopneumopathie chronique obstructive\", \"Infections respiratoires\"],\n  \"Pédiatrie\": []\n}"
+}

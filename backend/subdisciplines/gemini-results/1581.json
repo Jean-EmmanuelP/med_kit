@@ -1,0 +1,7 @@
+{
+  "article_id": 1581,
+  "title": "L'effet du sémaglutide sur la mortalité et les décès liés à la COVID-19 : une analyse de l'essai SELECT",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.jacc.2024.08.007",
+  "content_preview": "## 📌 Contexte & Problématique\nLes patients en surpoids ou obèses présentent un risque accru de décès de causes multiples, y compris de décès cardiovasculaires (CV). Peu de thérapies ont prouvé leur capacité à réduire ce risque.\n\n## 🧪 Méthodologie\nL'essai SELECT (Semaglutide Effects on Cardiovascular Outcomes in Patients With Overweight or Obesity) a randomisé 17 604 participants âgés de ≥45 ans avec un indice de masse corporelle (IMC) ≥27 kg/m2 atteints d'une maladie CV établie mais sans diabète...",
+  "gemini_raw_response": "{\n  \"Médecine Générale\": [\"Suivi des maladies chroniques\", \"Prévention et dépistage\"],\n  \"Endocrinologie-Diabétologie-Nutrition\": [\"Obésité\"],\n  \"Cardiologie\": [\"Cardiologie clinique\", \"Prévention cardiovasculaire\", \"Insuffisance cardiaque\"]\n}"
+}

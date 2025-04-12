@@ -1,0 +1,7 @@
+{
+  "article_id": 2,
+  "title": "Évolution des séquelles post-COVID au cours des différentes vagues virales",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2403211.",
+  "content_preview": "## 📌 Contexte & Problématique\nLes séquelles post-infectieuses par SARS-CoV-2 (PASC) peuvent toucher plusieurs systèmes. L'impact des changements viraux et de la vaccination sur le risque de PASC reste mal caractérisé.\n\n## 🧪 Méthodologie\nÉtude de cohorte rétrospective comparant 441 583 vétérans américains infectés par SARS-CoV-2 (mars 2020-janvier 2022) à 4 748 504 témoins non infectés, avec analyse de l'incidence des PASC sur un an selon les périodes pré-delta, delta et omicron.\n\n## 📊 Résultats ...",
+  "gemini_raw_response": "{\n  \"Maladies infectieuses\": [\"Épidémiologie et gestion des épidémies\", \"Vaccination et prophylaxie infectieuse\", \"Infections communautaires aiguës\"]\n}"
+}

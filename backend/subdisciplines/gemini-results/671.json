@@ -1,0 +1,7 @@
+{
+  "article_id": 671,
+  "title": "Modèle prédictif d'apprentissage automatique pour la thrombose liée aux DAVC chez l'enfant",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.thromres.2025.109276.",
+  "content_preview": "## 📌 Contexte & Problématique\nLes thromboses liées aux dispositifs d'accès veineux central (DAVC) représentent une complication importante chez l'enfant. L'identification précoce des patients à risque permettrait d'implémenter des mesures préventives adaptées, mais les outils prédictifs pédiatriques restent insuffisamment développés.\n\n## 🧪 Méthodologie\nÉtude combinant une analyse rétrospective (2018-2023) et prospective (2023-2024) de 1445 enfants cathétérisés à l'Hôpital Tongji. Quatre modèles ...",
+  "gemini_raw_response": "{\n  \"Pédiatrie\": [\"Onco-hématologie pédiatrique\", \"Pédiatrie générale\"]\n}"
+}

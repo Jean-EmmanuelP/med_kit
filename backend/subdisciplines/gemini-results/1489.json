@@ -1,0 +1,7 @@
+{
+  "article_id": 1489,
+  "title": "Divulgation des effets pléiotropiques lors de l'évaluation du risque génétique de la maladie d'Alzheimer : un essai randomisé",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.7326/M15-0187",
+  "content_preview": "## 📌 Contexte & Problématique\nL'utilisation croissante des tests génétiques soulève des questions concernant la divulgation des résultats secondaires, y compris les informations pléiotropiques.\n\n## 🧪 Méthodologie\nEssai clinique randomisé multicentrique visant à déterminer la sécurité et l'effet comportemental de la divulgation d'associations modestes entre le génotype de l'apolipoprotéine E (APOE) et le risque de maladie coronarienne (CAD) lors des évaluations du risque génétique de la maladie d...",
+  "gemini_raw_response": "{\n  \"Médecine Générale\": [\"Prévention et dépistage\", \"Santé mentale en soins primaires\"],\n  \"Santé Publique\": [\"Épidémiologie\", \"Communication et éducation à la santé\"],\n  \"Cardiologie\": [\"Prévention cardiovasculaire\"],\n  \"Génétique\": [\"Conseil génétique\"],\n  \"Gériatrie\": [\"Troubles cognitifs\"],\n  \"Neurologie\": [\"Troubles cognitifs et démences\"]\n}"
+}

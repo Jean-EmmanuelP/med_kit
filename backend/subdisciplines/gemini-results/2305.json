@@ -1,0 +1,7 @@
+{
+  "article_id": 2305,
+  "title": "Abélacimab versus Rivaroxaban chez les patients atteints de fibrillation auriculaire",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2406674",
+  "content_preview": "## 📌 Contexte & Problématique\nL'abélacimab est un anticorps monoclonal entièrement humain qui se lie à la forme inactive du facteur XI et bloque son activation. La sécurité de l'abélacimab par rapport à un anticoagulant oral direct chez les patients atteints de fibrillation auriculaire est inconnue.\n\n## 🧪 Méthodologie\nDes patients atteints de fibrillation auriculaire et présentant un risque modéré à élevé d'accident vasculaire cérébral (AVC) ont été randomisés selon un ratio de 1:1:1 pour recevo...",
+  "gemini_raw_response": "{\n  \"Médecine Générale\": [],\n  \"Cardiologie\": [\"Rythmologie\", \"Maladies thromboemboliques veineuses\"],\n  \"Hématologie\": [\"Hémostase\", \"Coagulopathies\"]\n}"
+}

@@ -1,0 +1,7 @@
+{
+  "article_id": 2026,
+  "title": "Événements thromboemboliques associés aux inhibiteurs de points de contrôle immunitaires chez les patients atteints de cancer : méta-analyse bayésienne en réseau",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.thromres.2024.109243",
+  "content_preview": "## 📌 Contexte & Problématique\nLes inhibiteurs de points de contrôle immunitaires (ICI) ont révolutionné le traitement du cancer, mais le risque d'événements thromboemboliques (ETE) associés reste incertain. Cette méta-analyse en réseau vise à évaluer l'incidence des ETE chez les patients cancéreux recevant différents schémas thérapeutiques.\n\n## 🧪 Méthodologie\nRecherche d'essais cliniques randomisés (ECR) entre janvier 2021 et décembre 2023, sans restriction du type de cancer. Extraction systémat...",
+  "gemini_raw_response": "{\n  \"Hématologie\": [\"Coagulopathies\", \"Hémostase\"],\n  \"Oncologie\": [\"Essais cliniques et recherche en oncologie\", \"Thérapies ciblées et immunothérapie\"]\n}"
+}

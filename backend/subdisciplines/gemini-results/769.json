@@ -1,0 +1,7 @@
+{
+  "article_id": 769,
+  "title": "Effets des approches de soins intégrés pour traiter la dépression et le diabète",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.2337/dc24-1334.",
+  "content_preview": "## 📌 Contexte & Problématique\nLa coexistence fréquente des symptômes dépressifs avec le diabète peut aggraver le contrôle glycémique et augmenter les risques de complications. Les approches de soins intégrés (SI) visent à améliorer simultanément ces deux conditions, mais leur efficacité restait à démontrer par méta-analyse.\n\n## 🧪 Méthodologie\nRevue systématique des essais contrôlés randomisés identifiés dans PubMed, PsycInfo, CINAHL et ProQuest, incluant des participants avec diabète et symptôme...",
+  "gemini_raw_response": "{\n  \"Endocrinologie-Diabétologie-Nutrition\": [\"Complications du diabète\", \"Diabète de type 2\", \"Éducation thérapeutique du patient diabétique\"],\n  \"Psychiatrie\": [\"Psychiatrie de liaison\"]\n}"
+}

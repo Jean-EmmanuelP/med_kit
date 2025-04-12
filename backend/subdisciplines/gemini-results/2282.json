@@ -1,0 +1,7 @@
+{
+  "article_id": 2282,
+  "title": "Interventions pour la prise en charge du Covid long (condition post-Covid) : revue systématique vivante",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1136/bmj-2024-081318",
+  "content_preview": "## 📌 Contexte & Problématique\nL'objectif est de comparer l'efficacité des interventions pour la prise en charge du Covid long.\n\n## 🧪 Méthodologie\nRevue systématique vivante incluant des essais randomisés chez des adultes de 18 ans et plus atteints de Covid long, comparant des interventions médicamenteuses ou non médicamenteuses, un placebo ou des soins habituels.  Les bases de données Medline, Embase, CINAHL, PsycInfo, Allied and Complementary Medicine Database et le registre central Cochrane de...",
+  "gemini_raw_response": "{\n  \"Médecine Générale\": [\"Suivi des maladies chroniques\", \"Santé mentale en soins primaires\", \"Téléconsultation et télésuivi\"],\n  \"Maladies infectieuses\": [],\n  \"Médecine physique et réadaptation\": [\"Rééducation neurologique\", \"Douleurs chroniques\"],\n  \"Psychiatrie\": [\"Troubles de l’humeur et de l’anxiété\"]\n}"
+}

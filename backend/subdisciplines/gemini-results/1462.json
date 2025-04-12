@@ -1,0 +1,7 @@
+{
+  "article_id": 1462,
+  "title": "Applications pour smartphone pour le triage des adultes présentant des lésions cutanées suspectes de mélanome",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1002/14651858.CD013192",
+  "content_preview": "## 📌 Contexte & Problématique\nLe mélanome, bien que représentant une faible proportion des cancers de la peau, est responsable de la majorité des décès liés à ce type de cancer. La détection et le traitement précoces sont cruciaux pour améliorer la survie. Les applications pour smartphone offrent un potentiel d'évaluation rapide du risque de malignité, permettant ainsi d'orienter les patients vers une consultation médicale pour une évaluation plus approfondie. Cependant, il existe un risque de m...",
+  "gemini_raw_response": "{\n  \"Médecine Générale\": [\"Prévention et dépistage\", \"Téléconsultation et télésuivi\"],\n  \"Dermatologie\": [\"Oncodermatologie\"],\n  \"Chirurgie plastique\": []\n}"
+}

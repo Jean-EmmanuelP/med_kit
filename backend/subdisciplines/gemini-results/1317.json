@@ -1,0 +1,7 @@
+{
+  "article_id": 1317,
+  "title": "Modèle basé sur des biomarqueurs pour la prédiction de l'accident vasculaire cérébral ischémique chez les patients atteints de fibrillation auriculaire",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.jacc.2024.11.052",
+  "content_preview": "## 📌 Contexte & Problématique\nChez les patients atteints de fibrillation auriculaire (FA), le risque d'accident vasculaire cérébral ischémique est un élément central des recommandations pour le traitement de prévention des accidents vasculaires cérébraux.\n\n## 🧪 Méthodologie\nUne étude a été menée sur 26 452 patients atteints de FA traités par anticoagulants oraux directs (AOD) ou warfarine. L'âge, les antécédents cliniques d'accident vasculaire cérébral (AVC) et les taux de peptide natriurétique ...",
+  "gemini_raw_response": "{\n  \"Médecine Générale\": [\"Prévention et dépistage\", \"Suivi des maladies chroniques\"],\n  \"Cardiologie\": [\"Rythmologie\", \"Maladies thromboemboliques veineuses\", \"Prévention cardiovasculaire\"]\n}"
+}

@@ -1,0 +1,7 @@
+{
+  "article_id": 2070,
+  "title": "Traitements pour l'alopécie areata : une méta-analyse en réseau",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1002/14651858.CD013719.pub2",
+  "content_preview": "## 📌 Contexte & Problématique\nL'alopécie areata est une maladie auto-immune entraînant une perte de cheveux non cicatricielle sur le cuir chevelu ou le corps. Il existe différents traitements, notamment des immunosuppresseurs, des stimulants de la croissance des cheveux et une immunothérapie de contact.\n\n## 🧪 Méthodologie\nUne revue systématique et méta-analyse a été effectuée, incluant des essais contrôlés randomisés (ECR) évaluant des immunosuppresseurs classiques, des produits biologiques, des...",
+  "gemini_raw_response": "{\n  \"Médecine Générale\": [],\n  \"Dermatologie\": [\"Pathologies unguéales et capillaires\", \"Dermatologie pédiatrique\"],\n  \"Pédiatrie\": [\"Pédiatrie générale\"]\n}"
+}

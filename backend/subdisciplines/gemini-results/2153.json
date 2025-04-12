@@ -1,0 +1,7 @@
+{
+  "article_id": 2153,
+  "title": "Dépistage du cancer de la prostate avec le PSA, un panel de kallikréines et l'IRM : l'essai randomisé ProScreen",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jama.2024.3841",
+  "content_preview": "## 📌 Contexte & Problématique\nLe dépistage du cancer de la prostate par l'antigène prostatique spécifique (PSA) a le potentiel de réduire la mortalité due à ce cancer, mais détecte fréquemment des cancers de la prostate qui ne sont pas cliniquement importants.\n\n## 🧪 Méthodologie\nL'essai ProScreen est un essai clinique mené à Helsinki et Tampere, en Finlande, qui a randomisé 61 193 hommes âgés de 50 à 63 ans, sans antécédents de cancer de la prostate, selon un ratio de 1:3 pour être invités ou no...",
+  "gemini_raw_response": "{\n  \"Médecine Générale\": [\"Prévention et dépistage\"],\n  \"Santé Publique\": [\"Épidémiologie\", \"Biostatistique et data science en santé\"],\n  \"Oncologie\": [\"Essais cliniques et recherche en oncologie\"],\n  \"Urologie\": [\"Cancer de la prostate\"]\n}"
+}

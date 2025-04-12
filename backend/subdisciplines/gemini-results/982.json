@@ -1,0 +1,7 @@
+{
+  "article_id": 982,
+  "title": "Traitement guidé par expression génique vs chimiothérapie empirique dans les cancers d'origine primitive inconnue",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S1470-2045(24)00313-9.",
+  "content_preview": "## 📌 Contexte & Problématique\nLes cancers d'origine primitive inconnue (COPI) sont généralement traités par chimiothérapie empirique. Des tests d'expression génique permettent d'identifier le tissu d'origine, mais leur bénéfice clinique reste à démontrer.\n\n## 🧪 Méthodologie\nEssai randomisé contrôlé (1:1) comparant un traitement spécifique guidé par un test d'expression de 90 gènes à une chimiothérapie empirique (taxane+platine ou gemcitabine+platine) chez 182 patients atteints de COPI non traité...",
+  "gemini_raw_response": "{\n  \"Oncologie\": [\"Essais cliniques et recherche en oncologie\", \"Thérapies ciblées et immunothérapie\", \"Oncogénétique\"]\n}"
+}

@@ -1,0 +1,7 @@
+{
+  "article_id": 2222,
+  "title": "Inhibiteurs du cotransporteur sodium-glucose de type 2 et principaux événements cardiovasculaires indésirables : une méta-analyse collaborative SMART-C",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1161/CIRCULATIONAHA.124.069568",
+  "content_preview": "## 📌 Contexte & Problématique\nLes inhibiteurs du cotransporteur sodium-glucose de type 2 (SGLT2i) améliorent de manière constante les résultats liés à l'insuffisance cardiaque et aux reins. Cependant, leurs effets sur les principaux événements cardiovasculaires indésirables (MACE) dans différentes populations de patients sont moins clairs.\n\n## 🧪 Méthodologie\nIl s'agit d'une méta-analyse collaborative au niveau des essais du Consortium d'essais cardiovasculaires et rénaux de méta-analyse SGLT2i, ...",
+  "gemini_raw_response": "{\n  \"Médecine Générale\": [\"Suivi des maladies chroniques\"],\n  \"Endocrinologie-Diabétologie-Nutrition\": [\"Complications du diabète\", \"Diabète de type 2\"],\n  \"Cardiologie\": [\"Insuffisance cardiaque\", \"Cardiologie clinique\", \"Prévention cardiovasculaire\"],\n  \"Néphrologie\": [\"Néphropathies diabétiques\", \"Insuffisance rénale chronique\"]\n}"
+}

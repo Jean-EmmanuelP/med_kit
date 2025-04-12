@@ -1,0 +1,7 @@
+{
+  "article_id": 1720,
+  "title": "Une dose unique préopératoire d'acide tranexamique réduit les pertes sanguines périopératoires : une méta-analyse",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1097/SLA.0000000000003793",
+  "content_preview": "## 📌 Contexte & Problématique\nL'acide tranexamique (TXA) est un antifibrinolytique synthétique utilisé dans diverses disciplines chirurgicales pour réduire les pertes sanguines, les transfusions sanguines, les ecchymoses et la formation d'hématomes. Cependant, il n'existe pas de standard universel concernant la dose et la voie d'administration les plus efficaces du TXA, ce qui limite son utilisation de routine dans de nombreux centres. Cette étude évalue les preuves actuelles de l'efficacité et ...",
+  "gemini_raw_response": "{\n  \"Gynécologie-obstétrique\": [\"Hémorragies de la délivrance\", \"Obstétrique chirurgicale\"],\n  \"Chirurgie cardiaque\": [\"Chirurgie robotique / mini-invasive\"],\n  \"Chirurgie digestive\": [],\n  \"Chirurgie ORL\": [],\n  \"Chirurgie orthopédique\": [\"Chirurgie de la hanche et du bassin\", \"Chirurgie du genou\"],\n  \"Chirurgie plastique\": [\"Chirurgie des brûlures\"]\n}"
+}

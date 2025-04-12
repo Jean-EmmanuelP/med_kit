@@ -1,0 +1,7 @@
+{
+  "article_id": 1363,
+  "title": "Intelligence artificielle pour le diagnostic de la dégénérescence maculaire liée à l'âge exsudative",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1002/14651858.CD015522.pub2",
+  "content_preview": "## 📌 Contexte & Problématique\nLa dégénérescence maculaire liée à l'âge (DMLA) est une maladie rétinienne caractérisée par des lésions de la macula. Environ 10 à 20 % des cas de DMLA non exsudative évoluent vers la forme exsudative, entraînant une détérioration rapide de la vision centrale. Le diagnostic précoce de la DMLA exsudative (DMLAe) est crucial. Les méthodes traditionnelles de diagnostic sont gourmandes en ressources. L'intelligence artificielle (IA) pourrait permettre un diagnostic et u...",
+  "gemini_raw_response": "{\n  \"Ophtalmologie\": [\"Rétine\"]\n}"
+}

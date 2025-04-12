@@ -1,0 +1,7 @@
+{
+  "article_id": 2022,
+  "title": "Ventilation non invasive pour la préoxygénation lors d'une intubation d'urgence",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2313680",
+  "content_preview": "## 📌 Contexte & Problématique\nChez les adultes gravement malades subissant une intubation trachéale, l'hypoxémie augmente le risque d'arrêt cardiaque et de décès. L'effet de la préoxygénation par ventilation non invasive, comparée à la préoxygénation par masque à oxygène, sur l'incidence de l'hypoxémie pendant l'intubation trachéale est incertain.\n\n## 🧪 Méthodologie\nEssai multicentrique randomisé mené dans 24 services d'urgence et unités de soins intensifs aux États-Unis. Des adultes gravement m...",
+  "gemini_raw_response": "{\n  \"Urgences\": [\"Urgences vitales\"],\n  \"Pneumologie\": [\"Urgences respiratoires\", \"Ventilation non invasive et oxygénothérapie\"],\n  \"Anesthésie - Réanimation\": [\"Réanimation médicale\", \"Urgences vitales\"]\n}"
+}

@@ -1,0 +1,7 @@
+{
+  "article_id": 13,
+  "title": "Perfusions prolongées d'antibiotiques β-lactamines dans le sepsis : impact sur la mortalité",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jama.2024.9803.",
+  "content_preview": "## 📌 Contexte & Problématique\nL'administration optimale des antibiotiques β-lactamines reste controversée chez les patients septiques. Cette méta-analyse évalue si les perfusions prolongées améliorent la survie par rapport aux perfusions intermittentes.\n\n## 🧪 Méthodologie\nRevue systématique de 18 essais randomisés (9108 adultes) comparant perfusions prolongées (continues ou étendues) versus intermittentes d'antibiotiques β-lactamines chez des patients avec sepsis ou choc septique. Analyse princi...",
+  "gemini_raw_response": "{\n  \"Maladies infectieuses\": [\n    \"Antibiothérapie et antibiogrammes\",\n    \"Infections nosocomiales\",\n    \"Infections communautaires aiguës\"\n  ]\n}"
+}

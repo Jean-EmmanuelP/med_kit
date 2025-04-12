@@ -1,0 +1,7 @@
+{
+  "article_id": 1868,
+  "title": "Validation de la performance des critères de classification du syndrome des antiphospholipides de l'American College of Rheumatology/European League Against Rheumatism 2023 dans une cohorte de syndrome des antiphospholipides",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.jtha.2024.02.019",
+  "content_preview": "## 📌 Contexte & Problématique\nLes critères de classification du syndrome des antiphospholipides (SAPL) de l'American College of Rheumatology (ACR)/European League Against Rheumatism (EULAR) 2023 ont été développés avec une spécificité plus élevée mais une sensibilité plus faible par rapport aux critères de classification révisés de Sydney 2006.\n\n## 🧪 Méthodologie\nIl s'agit d'une étude de cohorte monocentrique. Les critères d'inclusion étaient alignés sur les critères d'entrée des critères de 202...",
+  "gemini_raw_response": "{\n  \"Cardiologie\": [\"Valvulopathies\", \"Maladies thromboemboliques veineuses\"],\n  \"Hématologie\": [\"Coagulopathies\"],\n  \"Gynécologie-obstétrique\": [],\n  \"Rhumatologie\": [\"Rhumatismes inflammatoires chroniques\"],\n  \"Allergie et immunologie\": []\n}"
+}

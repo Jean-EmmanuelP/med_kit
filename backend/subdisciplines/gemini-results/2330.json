@@ -1,0 +1,7 @@
+{
+  "article_id": 2330,
+  "title": "Vaccination des adultes atteints de cancer : Recommandations de l'ASCO",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO.24.00032",
+  "content_preview": "## 📌 Contexte & Problématique\nCette étude vise à guider la vaccination des adultes atteints de tumeurs solides ou d'hémopathies malignes.\n\n## 🧪 Méthodologie\nUne revue systématique de la littérature a été effectuée, incluant des revues systématiques, des essais contrôlés randomisés (ECR) et des études non randomisées sur l'efficacité et la sécurité des vaccins utilisés chez les adultes atteints de cancer ou leurs contacts familiaux. PubMed et la Cochrane Library ont été consultés de janvier 2013 ...",
+  "gemini_raw_response": "{\n  \"Santé Publique\": [\"Prévention et promotion de la santé\", \"Vaccination et prophylaxie infectieuse\", \"Épidémiologie\"],\n  \"Hématologie\": [\"Greffe de cellules souches hématopoïétiques\", \"Thérapies innovantes (CAR-T cells, biothérapies)\"],\n  \"Maladies infectieuses\": [\"Vaccination et prophylaxie infectieuse\"],\n  \"Oncologie\": [\"Onco-hématologie\", \"Soins de support en oncologie\"]\n}"
+}

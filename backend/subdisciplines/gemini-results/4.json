@@ -1,0 +1,7 @@
+{
+  "article_id": 4,
+  "title": "Effet de la vaccination BCG contre l'infection à Mycobacterium tuberculosis chez les professionnels de santé brésiliens",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S1473-3099(23)00818-6.",
+  "content_preview": "## 📌 Contexte & Problématique\nL'efficacité du vaccin BCG contre la tuberculose pulmonaire chez l'adulte reste incertaine, particulièrement chez les professionnels de santé exposés à un risque élevé.\n\n## 🧪 Méthodologie\nEssai clinique randomisé (1:1) imbriqué dans l'étude BRACE, incluant 1985 professionnels de santé brésiliens. Groupe intervention : BCG-Danemark (souche danoise 1331); groupe contrôle : placebo salin. Évaluation par test QuantiFERON-TB Gold Plus (QFT) à l'inclusion et à 12 mois.\n\n#...",
+  "gemini_raw_response": "{\n  \"Maladies infectieuses\": [\n    \"Tuberculose et infections mycobactériennes\",\n    \"Vaccination et prophylaxie infectieuse\",\n    \"Épidémiologie et gestion des épidémies\"\n  ]\n}"
+}

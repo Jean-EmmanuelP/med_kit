@@ -1,0 +1,7 @@
+{
+  "article_id": 204,
+  "title": "Moustiques Aedes porteurs de Wolbachia pour prévenir la dengue",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1002/14651858.CD015636.pub2.",
+  "content_preview": "## 📌 Contexte & Problématique\nLa dengue menace 3,9 milliards de personnes mondialement. La bactérie Wolbachia, introduite chez les moustiques Aedes, pourrait réduire leur capacité à transmettre le virus de la dengue (DENV) en inhibant sa réplication, offrant une stratégie potentiellement auto-entretenue de prévention.\n\n## 🧪 Méthodologie\nRevue systématique des essais contrôlés randomisés évaluant l'efficacité des déploiements d'Aedes porteurs de Wolbachia. Recherche dans CENTRAL, MEDLINE, Embase ...",
+  "gemini_raw_response": "{\n  \"Maladies infectieuses\": [\"Maladies vectorielles (paludisme, dengue, chikungunya…)\", \"Épidémiologie et gestion des épidémies\", \"Vaccination et prophylaxie infectieuse\"]\n}"
+}

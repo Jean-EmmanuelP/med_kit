@@ -1,0 +1,7 @@
+{
+  "article_id": 1748,
+  "title": "Effet de deux types contrastés d'exercice physique sur la douleur chronique des muscles du cou",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1002/art.23256",
+  "content_preview": "## 📌 Contexte & Problématique\nLa prévalence de la douleur musculaire cervicale a augmenté de façon constante, en particulier la douleur provenant de la partie descendante du muscle trapèze, associée à des tâches de travail monotones telles que le travail sur ordinateur. L'exercice physique est généralement recommandé comme traitement, mais le type d'entraînement le plus efficace reste incertain.\n\n## 🧪 Méthodologie\nUn essai contrôlé randomisé a été mené auprès de 48 femmes employées souffrant de ...",
+  "gemini_raw_response": "{\n  \"Médecine Générale\": [],\n  \"Médecine du Travail\": [\"Troubles musculo-squelettiques liés au travail\"],\n  \"Médecine physique et réadaptation\": [\"Douleurs chroniques\", \"Pathologies musculo-squelettiques chroniques\"],\n  \"Rhumatologie\": [\"Douleurs musculo-squelettiques chroniques\"],\n  \"Chirurgie orthopédique\": []\n}"
+}

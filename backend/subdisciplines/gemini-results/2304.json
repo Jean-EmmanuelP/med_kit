@@ -1,0 +1,7 @@
+{
+  "article_id": 2304,
+  "title": "Risque de mortalité chez les personnes recevant des soins hospitaliers aigus pour usage d'hallucinogènes comparé à la population générale",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1503/cmaj.241191",
+  "content_preview": "## 📌 Contexte & Problématique\nBien que les essais cliniques impliquant une psychothérapie assistée par des psychédéliques n'aient pas observé d'augmentation à court terme du risque de décès, les données sur la mortalité associée à l'utilisation d'hallucinogènes en dehors des essais contrôlés sont limitées. Cette étude vise à déterminer si les personnes ayant consulté aux urgences ou ayant été hospitalisées pour usage d'hallucinogènes présentent un risque accru de décès toutes causes confondues p...",
+  "gemini_raw_response": "{\n  \"Urgences\": [\"Urgences psychiatriques\", \"Urgences vitales\"],\n  \"Santé Publique\": [\"Épidémiologie\", \"Biostatistique et data science en santé\"],\n  \"Médecine Interne\": [],\n  \"Pédiatrie\": []\n}"
+}

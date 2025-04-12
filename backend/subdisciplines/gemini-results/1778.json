@@ -1,0 +1,7 @@
+{
+  "article_id": 1778,
+  "title": "VISION : Méta-analyse de données individuelles de patients d'essais randomisés comparant la biopsie ciblée par imagerie par résonance magnétique à la biopsie standard guidée par échographie transrectale dans la détection du cancer de la prostate",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.eururo.2024.08.022",
+  "content_preview": "## 📌 Contexte & Problématique\nLes essais PRECISION et PRECISE ont comparé la biopsie ciblée par imagerie par résonance magnétique (IRM ± TB) à la biopsie standard guidée par échographie transrectale (TRUS) pour la détection du cancer de la prostate cliniquement significatif (csPCa). L'étude VISION est une méta-analyse de données individuelles de patients (IPDMA) planifiée comparant IRM ± TB à la biopsie guidée par TRUS pour le diagnostic du csPCa.\n\n## 🧪 Méthodologie\nUne recherche a été effectuée...",
+  "gemini_raw_response": "{\n  \"Médecine Générale\": [\"Prévention et dépistage\"],\n  \"Santé Publique\": [\"Épidémiologie\"],\n  \"Oncologie\": [\"Essais cliniques et recherche en oncologie\", \"Cancers urologiques\"],\n  \"Urologie\": [\"Cancer de la prostate\"]\n}"
+}

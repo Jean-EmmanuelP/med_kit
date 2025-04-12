@@ -1,0 +1,7 @@
+{
+  "article_id": 1035,
+  "title": "Développement et validation d'un nomogramme pour prédire la coagulopathie induite par le sepsis",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1055/a-2359-2563.",
+  "content_preview": "## 📌 Contexte & Problématique\nLa coagulopathie induite par le sepsis (CIS) est associée à un mauvais pronostic en soins intensifs (USI). Aucun outil n'existe pour prédire précocement sa survenue chez les patients septiques.\n\n## 🧪 Méthodologie\nÉtude mixte rétrospective et prospective incluant deux cohortes : développement (n=548, janvier-avril 2023) et validation externe (n=245, mai-novembre 2023). Création d'un nomogramme par régression logistique multivariée avec évaluation de la discrimination...",
+  "gemini_raw_response": "{\n  \"Anesthésie - Réanimation\": [\"Réanimation médicale\"]\n}"
+}
