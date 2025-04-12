@@ -274,7 +274,66 @@
 	}
 
     function openImmersive(event: CustomEvent<Article>) {
-		immersiveArticle = event.detail;
+        const clickedArticle = event.detail;
+        const articleIdToUpdate = getArticleId(clickedArticle);
+        const currentUser = $userProfileStore; // Get current user state
+
+        // --- Optimistic UI Update ---
+        // Find and update the article in the local state BEFORE showing the modal
+        // Update articleOfTheDay if it matches
+        if (articleOfTheDay && getArticleId(articleOfTheDay) === articleIdToUpdate) {
+            console.log(`Optimistically updating AotD ${articleIdToUpdate} to read=true`);
+            articleOfTheDay = { ...articleOfTheDay, is_read: true };
+        }
+        // Update the article in the main 'articles' list if it matches
+        const articleIndex = articles.findIndex(a => getArticleId(a) === articleIdToUpdate);
+        if (articleIndex > -1) {
+             console.log(`Optimistically updating list article ${articleIdToUpdate} at index ${articleIndex} to read=true`);
+             // Create a new object for the specific article to trigger reactivity
+             const updatedArticle = { ...articles[articleIndex], is_read: true };
+             // Create a new array to trigger reactivity for the list
+             articles = [
+                 ...articles.slice(0, articleIndex),
+                 updatedArticle,
+                 ...articles.slice(articleIndex + 1)
+             ];
+        }
+        // --- End Optimistic Update ---
+
+
+        // Set the article for the modal (use the potentially updated one if found, otherwise original)
+        immersiveArticle = (articleOfTheDay && getArticleId(articleOfTheDay) === articleIdToUpdate)
+                            ? articleOfTheDay
+                            : (articleIndex > -1 ? articles[articleIndex] : clickedArticle);
+
+        // --- Mark as read via API (fire and forget) ---
+        if (currentUser?.id && typeof articleIdToUpdate === 'number' && !isNaN(articleIdToUpdate)) {
+            console.log(`Modal opened for article ${articleIdToUpdate}. Firing API call to mark as read for user ${currentUser.id}...`);
+             fetch('/api/mark-article-read', {
+                 method: 'POST',
+                 headers: { 'Content-Type': 'application/json' },
+                 body: JSON.stringify({ articleId: articleIdToUpdate }),
+             })
+             .then(async (response) => {
+                 if (!response.ok) {
+                     const errorData = await response.json().catch(() => ({ message: 'Failed to parse error response' }));
+                     console.error(`Failed to mark article ${articleIdToUpdate} as read via API:`, response.status, errorData.message || response.statusText);
+                     // Optional: Revert optimistic update on error? (More complex)
+                 } else {
+                     console.log(`API confirmed article ${articleIdToUpdate} marked as read.`);
+                 }
+             })
+             .catch((error) => {
+                 console.error(`Network error marking article ${articleIdToUpdate} as read:`, error);
+                 // Optional: Revert optimistic update on error?
+             });
+        } else if (!currentUser?.id) {
+            console.log("Modal opened, but user not logged in. Skipping mark as read.");
+        } else {
+            console.warn("Modal opened, but article ID is not valid for API call:", articleIdToUpdate);
+        }
+
+        // Add class to body (do this last to avoid layout shift before modal renders)
 		document.body.classList.add('overflow-hidden');
 	}
 

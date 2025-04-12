@@ -1,16 +1,66 @@
 <!-- src/lib/components/articles/ArticleImmersiveModal.svelte -->
 <script lang="ts">
+	import userProfileStore from '$lib/stores/user';
 	import {
 		type Article,
 		extractTitleEmoji,
 		formatDate,
 		formatTitle,
+		getArticleId,
 		parseContent
 	} from '$lib/utils/articleUtils';
 	import { createEventDispatcher } from 'svelte';
 
 	const { article } = $props<{ article: Article | null }>();
 	const dispatch = createEventDispatcher<{ close: void }>();
+
+	// Use $derived for computed values based on the 'article' prop
+	const emoji = $derived(article ? extractTitleEmoji(article.content) : '📝');
+	const displayTitle = $derived(article ? formatTitle(article.title) : '');
+	const displayDate = $derived(article ? formatDate(article.published_at) : '');
+	const contentSections = $derived(article ? parseContent(article.content) : []);
+
+	// --- Effect to mark article as read when modal opens ---
+	$effect(() => {
+		const currentArticle = article; // Capture prop value
+		const currentUser = $userProfileStore; // Capture store value
+
+		if (currentArticle && currentUser) {
+			// Get the numeric article ID
+			const articleIdNumber = getArticleId(currentArticle);
+
+			// Ensure ID is a number before proceeding
+			if (typeof articleIdNumber === 'number' && !isNaN(articleIdNumber)) {
+				console.log(`Modal opened for article ${articleIdNumber}. Marking as read for user ${currentUser.id}...`);
+
+				// Call the API endpoint asynchronously - no need to wait for response usually
+				fetch('/api/mark-article-read', {
+					method: 'POST',
+					headers: {
+						'Content-Type': 'application/json',
+					},
+					body: JSON.stringify({ articleId: articleIdNumber }),
+				})
+				.then(async (response) => {
+					if (!response.ok) {
+						// Log error but don't necessarily block UI
+						const errorData = await response.json().catch(() => ({ message: 'Failed to parse error response' }));
+						console.error(`Failed to mark article ${articleIdNumber} as read:`, response.status, errorData.message || response.statusText);
+					} else {
+						console.log(`Article ${articleIdNumber} marked as read successfully.`);
+						// Optionally: Update local state immediately if needed for UI feedback
+						// (e.g., update a 'isRead' flag on the article object if passed back)
+					}
+				})
+				.catch((error) => {
+					// Handle network errors
+					console.error(`Network error marking article ${articleIdNumber} as read:`, error);
+				});
+			} else {
+				console.warn('Cannot mark article as read: Invalid article ID.', articleIdNumber);
+			}
+		}
+	});
 
 	function handleClose() {
 		dispatch('close');
@@ -21,13 +71,6 @@
 			handleClose();
 		}
 	}
-
-	// Use $derived for computed values based on the 'article' prop
-	const emoji = $derived(article ? extractTitleEmoji(article.content) : '📝');
-	const displayTitle = $derived(article ? formatTitle(article.title) : '');
-	const displayDate = $derived(article ? formatDate(article.published_at) : '');
-	const contentSections = $derived(article ? parseContent(article.content) : []);
-
 </script>
 
 {#if article}
