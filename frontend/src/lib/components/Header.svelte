@@ -89,6 +89,14 @@
 					{$i18n.header.myVeille}
 				</a>
 				<a
+					href="/favoris"
+					class="font-sans text-sm font-medium {lastScrollY > 0
+						? 'text-black hover:text-gray-700'
+						: 'text-white hover:text-gray-300'} transition-colors duration-200"
+				>
+					Favoris
+				</a>
+				<a
 					href="/qui-sommes-nous"
 					class="font-sans text-sm font-medium {lastScrollY > 0
 						? 'text-black hover:text-gray-700'
@@ -170,6 +178,13 @@
 							class="block px-6 py-3 text-base hover:bg-gray-100"
 						>
 							{$i18n.header.myVeille}
+						</a>
+						<a
+							href="/favoris"
+							onclick={closeMobileMenu}
+							class="block px-6 py-3 text-base hover:bg-gray-100"
+						>
+							Favoris
 						</a>
 						<a
 							href="/qui-sommes-nous"

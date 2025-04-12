@@ -1,6 +1,6 @@
 // +layout.ts
-import { createBrowserClient, createServerClient, isBrowser } from '@supabase/ssr';
 import { PUBLIC_SUPABASE_ANON_KEY, PUBLIC_SUPABASE_URL } from '$env/static/public';
+import { createBrowserClient, createServerClient, isBrowser } from '@supabase/ssr';
 import type { LayoutLoad } from './$types';
 
 export const load: LayoutLoad = async ({ data, depends, fetch }) => {
@@ -53,8 +53,8 @@ export const load: LayoutLoad = async ({ data, depends, fetch }) => {
   const session = data.session;
   const user = data.user;
 
-  console.log('Layout client session:', session);
-  console.log('Layout client user:', user);
+  // console.log('Layout client session:', session);
+  // console.log('Layout client user:', user);
 
   return { session, supabase, user };
 };

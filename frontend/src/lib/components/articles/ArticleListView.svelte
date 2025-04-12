@@ -1,6 +1,7 @@
 <!-- src/lib/components/articles/ArticleListView.svelte -->
 <script lang="ts">
 	import { goto } from '$app/navigation';
+	import ConfirmationModal from '$lib/components/ui/ConfirmationModal.svelte';
 	import * as Select from '$lib/components/ui/select';
 	import userProfileStore from '$lib/stores/user';
 	import type { Article } from '$lib/utils/articleUtils';
@@ -35,6 +36,7 @@
 		previousArticlesTitleTemplate = '📖 Articles précédents pour {filter} :',
 		loadMoreButtonText = "Charger plus d'articles",
 		allArticlesLoadedText = "Tous les articles ont été chargés",
+        emptyStateMessage = null as string | null,
         itemsPerPage = 10,
         subDisciplineSelectLabel = "Affiner par sous-spécialité",
         showAllSubDisciplinesOption = true,
@@ -55,6 +57,7 @@
 		previousArticlesTitleTemplate?: string;
 		loadMoreButtonText?: string;
 		allArticlesLoadedText?: string;
+        emptyStateMessage?: string | null;
         itemsPerPage?: number;
         subDisciplineSelectLabel?: string;
         showAllSubDisciplinesOption?: boolean;
@@ -76,6 +79,12 @@
 	let searchQuery = $state('');
     let fetchError = $state<string | null>(null);
     let showSignupPrompt = $state(false);
+    let showUnlikeConfirmModal = $state(false);
+    let articleToUnlike = $state<{
+        articleId: number | string;
+        currentlyLiked: boolean;
+        currentLikeCount: number;
+    } | null>(null);
 
 	// --- Derived State ---
 	const sortedFilters = $derived(
@@ -106,6 +115,7 @@
             : availableSubDisciplines
     );
     const isViewingSubDiscipline = $derived(selectedSubDiscipline !== null && selectedSubDiscipline !== allSubDisciplinesLabel);
+    const isLikedArticlesView = $derived(apiEndpoint === '/api/get-liked-articles');
 
 	// --- Core Logic ---
 
@@ -150,44 +160,109 @@
     // Create a debounced function for triggering the fetch
     const debouncedFetchArticles = debounce(fetchArticles, searchDebounceMs);
 
+    // Effect to trigger DEBOUNCED article fetch on filter/search/user changes
+	$effect(() => {
+        // Read dependencies
+        const _filter = selectedFilter;
+        const _subFilter = selectedSubDiscipline;
+        const _search = searchQuery;
+        const _userId = $userProfileStore?.id ?? null;
+        const hasDisciplineFilters = filters.length > 0;
+
+        // --- Determine if we should proceed ---
+        // Block if filters are needed but none selected
+        if (hasDisciplineFilters && !_filter) {
+            console.log("$effect: Blocking fetch - no filter selected.");
+             // Reset state if this is not the very first mount render
+             if (!isInitialLoading) { // Check isInitialLoading state *before* setting it
+                 articles = [];
+                 articleOfTheDay = null;
+                 hasMore = false;
+             }
+            return; // Don't proceed
+        }
+        // Block if it's the liked endpoint and userId isn't ready
+         if (apiEndpoint === '/api/get-liked-articles' && !_userId) {
+             console.log("$effect: Blocking fetch - waiting for userId for liked articles.");
+             // Reset state if this is not the very first mount render
+             if (!isInitialLoading) {
+                 articles = [];
+                 articleOfTheDay = null;
+                 hasMore = false;
+             }
+             return; // Don't proceed
+         }
+
+        // --- Proceed with fetch ---
+        console.log("$effect: Conditions met, setting isInitialLoading = true");
+        isInitialLoading = true;
+        articles = []; // Reset immediately
+        articleOfTheDay = null;
+        offset = 0;
+        hasMore = true;
+        fetchError = null;
+
+		console.log("$effect: Triggering debounced fetchArticles call");
+        debouncedFetchArticles(false);
+	});
+
     // Reusable fetch function
     function fetchArticles(isLoadMore = false) {
         const currentFilter = selectedFilter;
         const currentSubFilter = selectedSubDiscipline;
         const currentSearch = searchQuery;
         const currentOffset = isLoadMore ? offset : 0;
+        const hasDisciplineFilters = filters.length > 0;
+        const currentUserId = $userProfileStore?.id ?? null;
 
-        if (!currentFilter) {
-            if (!isLoadMore) { // Only reset fully if not loading more
-                articles = [];
-                articleOfTheDay = null;
-                hasMore = false;
-                isLoading = false; // Ensure loading stops
-                isInitialLoading = false; // Ensure initial loading stops
+        // --- GUARD CONDITIONS ---
+        // 1. If filters are required, but none is selected, exit (for initial load)
+        if (hasDisciplineFilters && !currentFilter && !isLoadMore) {
+            console.log("fetchArticles exit: Waiting for filter selection.");
+            // Don't reset loading here, let the effect handle it
+            return;
+        }
+        // 2. If this fetch requires a user ID (like for liked articles) but none is available, exit
+        // We know the liked articles endpoint needs it based on the apiEndpoint prop.
+        if (apiEndpoint === '/api/get-liked-articles' && !currentUserId) {
+            console.log("fetchArticles exit: Waiting for user ID for liked articles.");
+            // Reset state if necessary
+            if (!isLoadMore) {
+                 articles = [];
+                 articleOfTheDay = null;
+                 hasMore = false;
+                 isLoading = false;
+                 isInitialLoading = false; // No longer initially loading if user isn't ready
             }
             return;
         }
+        // --- END GUARDS ---
 
-        // If it's an initial fetch (not loadMore), isInitialLoading should already be true
-        // Mark general loading as true
+
+        // If it's an initial fetch, isInitialLoading should already be true
         isLoading = true;
-        if (!isLoadMore) {
-            fetchError = null; // Clear previous errors only on initial load
-        }
+        if (!isLoadMore) { fetchError = null; }
 
-		console.log(`Fetching articles for filter: ${currentFilter}, subFilter: ${currentSubFilter}, search: ${currentSearch}, offset: ${currentOffset}`);
+		console.log(`FETCHING articles -> Endpoint: ${apiEndpoint}, Filter: ${currentFilter}, SubFilter: ${currentSubFilter}, Search: ${currentSearch}, Offset: ${currentOffset}, UserID: ${currentUserId}`);
 
 		const url = new URL(apiEndpoint, window.location.origin);
-		url.searchParams.set(apiFilterParamName, currentFilter);
-        if (currentSubFilter && currentSubFilter !== allSubDisciplinesLabel) {
-             url.searchParams.set('subDiscipline', currentSubFilter);
+
+        // --- Construct URL ---
+        // Only add discipline/sub-discipline if filters are present
+        if (hasDisciplineFilters && currentFilter) {
+		    url.searchParams.set(apiFilterParamName, currentFilter);
+            if (currentSubFilter && currentSubFilter !== allSubDisciplinesLabel) {
+                 url.searchParams.set('subDiscipline', currentSubFilter);
+            }
         }
 		url.searchParams.set('offset', currentOffset.toString());
         if (enableSearch && currentSearch.trim()) {
             url.searchParams.set('search', currentSearch.trim());
         }
-		if (userId) { url.searchParams.set('userId', userId); }
+		// NOTE: userId is NOT added as a query param here,
+        // the API endpoint should get it from the session/locals
 
+		// --- Perform Fetch ---
 		fetch(url.toString())
 			.then(async (res) => {
                 if (!res.ok) {
@@ -244,33 +319,10 @@
             });
     }
 
-    // Effect to trigger DEBOUNCED article fetch on filter/search changes
-	$effect(() => {
-        // Read the reactive values to establish dependency
-        const currentFilter = selectedFilter;
-        const currentSubFilter = selectedSubDiscipline;
-        const currentSearch = searchQuery;
-
-        // Mark as initial loading *synchronously* when dependencies change
-        console.log("Filters changed, setting isInitialLoading = true");
-        isInitialLoading = true;
-        // Also reset previous articles immediately for better UX
-        articles = [];
-        articleOfTheDay = null;
-        offset = 0;
-        hasMore = true; // Assume there might be more until fetch confirms otherwise
-        fetchError = null; // Clear any previous error message
-
-        // Now call the debounced function
-		console.log("Triggering debounced fetchArticles call");
-        debouncedFetchArticles(false); // Call debounced function for initial fetch (isLoadMore = false)
-	});
-
     function loadMore() {
-        // Directly call fetchArticles with isLoadMore = true
-        if (!isLoading && hasMore && selectedFilter) {
-            fetchArticles(true);
-        }
+         if (!isLoading && hasMore && (filters.length === 0 || selectedFilter)) {
+             fetchArticles(true);
+         }
 	}
 
     function openImmersive(event: CustomEvent<Article>) {
@@ -364,6 +416,107 @@
             selectedSubDiscipline = value;
         }
     }
+
+    // --- Handle Like Toggle ---
+    function handleLikeToggle(event: CustomEvent<{
+		articleId: number | string;
+		currentlyLiked: boolean;
+		currentLikeCount: number;
+	}>) {
+		const { articleId, currentlyLiked, currentLikeCount } = event.detail;
+		const currentUser = $userProfileStore;
+
+		if (!currentUser) {
+			console.warn("User not logged in, cannot toggle like.");
+			return;
+		}
+
+		// --- SHOW MODAL INSTEAD OF window.confirm ---
+		if (isLikedArticlesView && currentlyLiked) {
+			// Store the details needed for confirmation/action
+			articleToUnlike = { articleId, currentlyLiked, currentLikeCount };
+			// Open the modal
+			showUnlikeConfirmModal = true;
+			// Stop here, wait for modal response
+			return;
+		}
+		// --- END MODAL TRIGGER ---
+
+		// --- Like action (if not unliking on /favoris) ---
+		const newStateIsLiked = !currentlyLiked;
+		const newLikeCount = currentlyLiked ? Math.max(0, currentLikeCount - 1) : currentLikeCount + 1;
+		performOptimisticLikeUpdate(articleId, newStateIsLiked, newLikeCount);
+		triggerLikeApiCall(articleId, currentlyLiked, currentLikeCount);
+	}
+
+	// --- Modal Event Handlers ---
+	function handleConfirmUnlike() {
+		if (!articleToUnlike) return; // Should not happen, but safety check
+
+		console.log("User confirmed unlike via modal for article:", articleToUnlike.articleId);
+
+		const { articleId, currentlyLiked, currentLikeCount } = articleToUnlike;
+		const newStateIsLiked = false; // We are confirming unlike
+		const newLikeCount = Math.max(0, currentLikeCount - 1);
+
+		performOptimisticLikeUpdate(articleId, newStateIsLiked, newLikeCount);
+		triggerLikeApiCall(articleId, currentlyLiked, currentLikeCount);
+
+		// Reset modal state
+		showUnlikeConfirmModal = false;
+		articleToUnlike = null;
+	}
+
+	function handleCancelUnlike() {
+		console.log("Unlike cancelled via modal.");
+		// Just close the modal and clear the state
+		showUnlikeConfirmModal = false;
+		articleToUnlike = null;
+	}
+
+	// --- Extracted Helper Functions ---
+	function performOptimisticLikeUpdate(articleId: number | string, newStateIsLiked: boolean, newLikeCount: number) {
+		console.log(`Optimistically setting like status to ${newStateIsLiked} and count to ${newLikeCount} for article ${articleId}`);
+		// Update articleOfTheDay
+		if (articleOfTheDay && getArticleId(articleOfTheDay) === articleId) {
+			articleOfTheDay = { ...articleOfTheDay, is_liked: newStateIsLiked, like_count: newLikeCount };
+		}
+		// Update articles list
+		const articleIndex = articles.findIndex(a => getArticleId(a) === articleId);
+		if (articleIndex > -1) {
+			const updatedArticle = { ...articles[articleIndex], is_liked: newStateIsLiked, like_count: newLikeCount };
+			articles = [...articles.slice(0, articleIndex), updatedArticle, ...articles.slice(articleIndex + 1)];
+		}
+	}
+
+	function triggerLikeApiCall(articleId: number | string, originalIsLiked: boolean, originalLikeCount: number) {
+		if (typeof articleId === 'number' && !isNaN(articleId)) {
+			fetch('/api/toggle-article-like', {
+				method: 'POST',
+				headers: { 'Content-Type': 'application/json' },
+				body: JSON.stringify({ articleId: articleId }),
+			})
+			.then(async (response) => {
+				const responseData = await response.json().catch(() => ({}));
+				if (!response.ok) {
+					console.error(`API error toggling like for article ${articleId}:`, response.status, responseData.message || response.statusText);
+					// Revert optimistic update on error
+					console.log("Reverting optimistic like update due to API error...");
+					performOptimisticLikeUpdate(articleId, originalIsLiked, originalLikeCount);
+				} else {
+					console.log(`API confirmed like status for ${articleId} is now: ${responseData.liked}`);
+				}
+			})
+			.catch((error) => {
+				console.error(`Network error toggling like for article ${articleId}:`, error);
+				// Revert optimistic update on error
+				console.log("Reverting optimistic like update due to network error...");
+				performOptimisticLikeUpdate(articleId, originalIsLiked, originalLikeCount);
+			});
+		} else {
+			console.warn("Cannot toggle like: Invalid article ID.", articleId);
+		}
+	}
 </script>
 
 <div class="min-h-screen bg-black px-4 py-8 md:py-12 text-white">
@@ -394,7 +547,7 @@
             <div class="flex flex-col md:flex-row flex-wrap gap-4">
                 {#if filters.length > 0}
                     <div class="relative w-full md:max-w-xs shrink-0">
-                        <Select.Root type="single" name="selectedFilter" bind:value={selectedFilter}>
+                        <Select.Root type="single" name="selectedFilter" value={selectedFilter ?? undefined} onValueChange={(detail) => selectedFilter = detail}>
                             <Select.Trigger
                                 class="w-full rounded-lg border border-gray-700 bg-gray-800 px-4 py-3 text-sm font-medium text-white shadow-sm transition-all duration-300 hover:bg-gray-700 focus:ring-2 focus:ring-teal-500 focus:outline-none"
                                 disabled={isLoading && isInitialLoading}
@@ -502,28 +655,42 @@
                 <p><strong>Erreur :</strong> {fetchError}</p>
                 <p class="mt-2 text-sm">Veuillez réessayer ou vérifier votre connexion.</p>
             </div>
+        {:else if !userId && isLikedArticlesView}
+            <div class="my-10 p-4 rounded-lg bg-gray-800/50 border border-gray-700 text-gray-400 text-center">
+                <p>Connectez-vous pour voir vos articles favoris.</p>
+                <button
+                    on:click={handleSignup}
+                    class="mt-4 rounded-lg bg-teal-600 px-5 py-2.5 text-sm font-semibold text-white transition-colors duration-200 hover:bg-teal-700"
+                >
+                    Se connecter
+                </button>
+            </div>
 		{:else if !articleOfTheDay && articles.length === 0}
             <div class="my-10 p-4 rounded-lg bg-gray-800/50 border border-gray-700 text-gray-400 text-center">
-                <p>
-                    {#if searchActive}
-                        Aucun article trouvé pour "{filterForTitle}"
-                        {#if isViewingSubDiscipline} dans "{selectedSubDiscipline}"{/if}
-                        correspondant à votre recherche "{searchQuery}".
-                    {:else}
-                        Aucun article trouvé pour "{filterForTitle}"
-                        {#if isViewingSubDiscipline} dans "{selectedSubDiscipline}"{/if}.
-                    {/if}
-                </p>
-                <p class="mt-2 text-sm">
-                    {#if searchActive}
-                        Essayez de modifier votre recherche ou les filtres.
-                    {:else}
-                         Revenez plus tard ou essayez un autre filtre.
-                    {/if}
-                </p>
+                {#if emptyStateMessage}
+                    <p>{@html emptyStateMessage}</p>
+                {:else}
+                    <p>
+                        {#if searchActive}
+                            Aucun article trouvé pour "{filterForTitle}"
+                            {#if isViewingSubDiscipline} dans "{selectedSubDiscipline}"{/if}
+                            correspondant à votre recherche "{searchQuery}".
+                        {:else}
+                            Aucun article trouvé pour "{filterForTitle}"
+                            {#if isViewingSubDiscipline} dans "{selectedSubDiscipline}"{/if}.
+                        {/if}
+                    </p>
+                    <p class="mt-2 text-sm">
+                        {#if searchActive}
+                            Essayez de modifier votre recherche ou les filtres.
+                        {:else}
+                             Revenez plus tard ou essayez un autre filtre.
+                        {/if}
+                    </p>
+                {/if}
             </div>
         {:else}
-			{#if !isViewingSubDiscipline && !searchActive}
+			{#if !isLikedArticlesView && !isViewingSubDiscipline && !searchActive}
                 <div class="mb-8">
                     {#if articleOfTheDay || articles.length > 0}
                         <h2 class="text-2xl font-bold text-teal-500">🔥 Article du jour</h2>
@@ -531,7 +698,7 @@
                     {/if}
                     {#if articleOfTheDay}
                         <ul class="space-y-4">
-                            <ArticleCard article={articleOfTheDay} on:open={openImmersive} />
+                            <ArticleCard article={articleOfTheDay} on:open={openImmersive} on:likeToggle={handleLikeToggle} />
                         </ul>
                     {:else if !isLoading}
                         <p class="text-gray-500 italic text-sm ml-1">Aucun article spécifique pour aujourd'hui.</p>
@@ -541,8 +708,23 @@
 
 			<div class="mb-6">
                 {#if articleOfTheDay || articles.length > 0}
-                    <h2 class="text-2xl font-bold text-teal-500">
-                        {#if searchActive}
+                    <h2 class="text-2xl font-bold text-white flex items-center gap-2">
+                        {#if isLikedArticlesView}
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 24 24"
+                                stroke-width="1.5"
+                                stroke="currentColor"
+                                class="w-6 h-6 fill-pink-500 text-pink-500"
+                            >
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+                            </svg>
+                            {#if selectedFilter}
+                                Favoris : {filterForTitle}
+                            {:else}
+                                Articles Favoris
+                            {/if}
+                        {:else if searchActive}
                             Résultats de recherche
                         {:else if isViewingSubDiscipline}
                             📖 Articles pour {selectedSubDiscipline}
@@ -550,23 +732,33 @@
                             📖 Articles précédents
                         {/if}
                     </h2>
-                     <p class="mt-2 mb-4 text-gray-400">
-                         {#if searchActive}
-                             Résultats pour "{searchQuery}" dans "{filterForTitle}"{#if isViewingSubDiscipline} - {selectedSubDiscipline}{/if} :
-                         {:else if isViewingSubDiscipline}
-                             Articles selectionnés pour {selectedSubDiscipline} ({filterForTitle}) :
-                          {:else}
-                             Articles précédemment selectionnés pour {filterForTitle} :
-                          {/if}
-                     </p>
+                    {#if !isLikedArticlesView || selectedFilter}
+                        <p class="mt-2 mb-4 text-gray-400">
+                            {#if isLikedArticlesView}
+                                {#if isViewingSubDiscipline}
+                                    Vos favoris pour {selectedSubDiscipline} ({filterForTitle}) :
+                                {:else if searchActive}
+                                     Résultats pour "{searchQuery}" dans vos favoris {#if selectedFilter}pour {filterForTitle}{/if} :
+                                {:else if selectedFilter}
+                                     Vos favoris pour {filterForTitle} :
+                                {/if}
+                            {:else if searchActive}
+                                Résultats pour "{searchQuery}" dans "{filterForTitle}"{#if isViewingSubDiscipline} - {selectedSubDiscipline}{/if} :
+                            {:else if isViewingSubDiscipline}
+                                Articles selectionnés pour {selectedSubDiscipline} ({filterForTitle}) :
+                            {:else}
+                                Articles précédemment selectionnés pour {filterForTitle} :
+                            {/if}
+                        </p>
+                    {/if}
                 {/if}
 
                 <ul class="space-y-4">
-                    {#if (isViewingSubDiscipline || searchActive) && articleOfTheDay}
-                        <ArticleCard article={articleOfTheDay} on:open={openImmersive} />
+                    {#if (isLikedArticlesView || isViewingSubDiscipline || searchActive) && articleOfTheDay}
+                        <ArticleCard article={articleOfTheDay} on:open={openImmersive} on:likeToggle={handleLikeToggle} />
                     {/if}
                     {#each articles as article (getArticleId(article))}
-                        <ArticleCard {article} on:open={openImmersive} />
+                        <ArticleCard {article} on:open={openImmersive} on:likeToggle={handleLikeToggle} />
                     {/each}
 				</ul>
 
@@ -609,6 +801,14 @@
 </div>
 
 <ArticleImmersiveModal article={immersiveArticle} on:close={closeImmersive} />
+
+<ConfirmationModal
+    isOpen={showUnlikeConfirmModal}
+    on:confirm={handleConfirmUnlike}
+    on:cancel={handleCancelUnlike}
+>
+    <p>Êtes-vous sûr de vouloir retirer cet article de vos favoris ?</p>
+</ConfirmationModal>
 
 <style>
 	button:focus-visible, input:focus-visible {

@@ -12,6 +12,8 @@ export interface Article {
 	// Add other potential fields if needed from your API response
 	article_id?: string | number; // Handle potential variations in ID naming
 	is_read?: boolean; // Track if the article has been read by the user
+	is_liked?: boolean; // Track if the article has been liked by the user
+	like_count?: number; // Track the number of likes for the article
 }
 
 export interface ContentSection {

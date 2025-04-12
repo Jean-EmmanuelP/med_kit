@@ -56,8 +56,8 @@ const supabase: Handle = async ({ event, resolve }) => {
       return { session: null, user: null };
     }
 
-    console.log('Session:', session);
-    console.log('User:', user);
+    // console.log('Session:', session);
+    // console.log('User:', user);
     return { session, user };
   };
 
