@@ -13,14 +13,18 @@
 
     // Use the filters loaded from the server
     const filtersForView = $derived(data.likedFilters || []);
+
+    // Define the special value for clarity
+    const ALL_CATEGORIES_VALUE = "__ALL__";
 </script>
 
 {#if currentUserId}
     <ArticleListView
         pageTitle="Mes Articles Favoris"
         filters={filtersForView}
-        initialFilterValue={null}
+        initialFilterValue={ALL_CATEGORIES_VALUE}
         filterSelectLabel="Filtrer par discipline"
+        showAllCategoriesOption={true}
         apiEndpoint="/api/get-liked-articles"
         userId={currentUserId}
         enableSearch={true}

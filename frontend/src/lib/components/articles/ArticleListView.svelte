@@ -10,6 +10,10 @@
 	import ArticleCard from './ArticleCard.svelte';
 	import ArticleImmersiveModal from './ArticleImmersiveModal.svelte';
 
+	// --- Constants ---
+    const ALL_CATEGORIES_VALUE = "__ALL__"; // Special value for "All"
+    const ALL_CATEGORIES_LABEL = "Toutes les catégories"; // Display label
+
 	// --- Component Props ---
 	interface FilterOption {
 		value: string;
@@ -23,7 +27,7 @@
 	const {
 		pageTitle = 'Articles',
 		filters = [] as FilterOption[],
-		initialFilterValue = null as string | null,
+		initialFilterValue = null,
 		filterSelectLabel = 'Filtrer par',
 		showSignupPromptProp = false,
         enableSearch = false,
@@ -40,7 +44,8 @@
         itemsPerPage = 10,
         subDisciplineSelectLabel = "Affiner par sous-spécialité",
         showAllSubDisciplinesOption = true,
-        allSubDisciplinesLabel = "Toutes les sous-spécialités"
+        allSubDisciplinesLabel = "Toutes les sous-spécialités",
+        showAllCategoriesOption = true
 	} = $props<{
 		pageTitle?: string;
 		filters?: FilterOption[];
@@ -62,10 +67,14 @@
         subDisciplineSelectLabel?: string;
         showAllSubDisciplinesOption?: boolean;
         allSubDisciplinesLabel?: string;
+        showAllCategoriesOption?: boolean;
 	}>();
 
+    // Update initial filter default logic slightly to handle empty filters AND showAll option
+    const defaultInitialFilter = filters.length > 0 ? (filters[0]?.value ?? null) : (showAllCategoriesOption ? ALL_CATEGORIES_VALUE : null);
+
 	// --- Internal State ---
-	let selectedFilter = $state<string | null>(initialFilterValue ?? filters[0]?.value ?? null);
+	let selectedFilter = $state<string | null>(initialFilterValue ?? defaultInitialFilter);
     let selectedSubDiscipline = $state<string | null>(null);
     let availableSubDisciplines = $state<SubDisciplineOption[]>([]);
     let isLoadingSubDisciplines = $state(false);
@@ -93,18 +102,21 @@
 		)
     );
 	const triggerContent = $derived(
-		filters.find((f: FilterOption) => f.value === selectedFilter)?.label ?? filterSelectLabel
-	);
+        selectedFilter === ALL_CATEGORIES_VALUE
+            ? ALL_CATEGORIES_LABEL
+            : (filters.find((f: FilterOption) => f.value === selectedFilter)?.label ?? filterSelectLabel)
+    );
 	const filterForTitle = $derived(
-		filters.find((f: FilterOption) => f.value === selectedFilter)?.label ?? 'la sélection'
-	);
-	const formattedArticleOfTheDayTitle = $derived(
-		articleOfTheDayTitleTemplate.replace('{filter}', filterForTitle)
-	);
-	const formattedPreviousArticlesTitle = $derived(
-		previousArticlesTitleTemplate.replace('{filter}', filterForTitle)
-	);
+        selectedFilter === ALL_CATEGORIES_VALUE
+            ? 'toutes les catégories'
+            : (filters.find((f: FilterOption) => f.value === selectedFilter)?.label ?? 'la sélection')
+    );
     const searchActive = $derived(enableSearch && searchQuery.trim().length > 0);
+    const showSubDisciplineFilter = $derived(
+        (availableSubDisciplines.length > 0 || isLoadingSubDisciplines) &&
+        selectedFilter !== ALL_CATEGORIES_VALUE &&
+        selectedFilter !== null
+    );
     const subDisciplineTriggerContent = $derived(
         selectedSubDiscipline === null ? subDisciplineSelectLabel :
         selectedSubDiscipline === allSubDisciplinesLabel ? allSubDisciplinesLabel : selectedSubDiscipline
@@ -124,11 +136,11 @@
         const currentMainFilter = selectedFilter;
         console.log('Main filter changed to:', currentMainFilter);
 
-        // Reset sub-discipline state
         selectedSubDiscipline = null;
         availableSubDisciplines = [];
-        if (!currentMainFilter) {
-             console.log('No main filter selected, skipping sub-discipline fetch.');
+        if (!currentMainFilter || currentMainFilter === ALL_CATEGORIES_VALUE) {
+             console.log('Skipping sub-discipline fetch (All or None selected).');
+             isLoadingSubDisciplines = false;
              return;
         }
 
@@ -162,41 +174,34 @@
 
     // Effect to trigger DEBOUNCED article fetch on filter/search/user changes
 	$effect(() => {
-        // Read dependencies
         const _filter = selectedFilter;
         const _subFilter = selectedSubDiscipline;
         const _search = searchQuery;
         const _userId = $userProfileStore?.id ?? null;
-        const hasDisciplineFilters = filters.length > 0;
 
-        // --- Determine if we should proceed ---
-        // Block if filters are needed but none selected
-        if (hasDisciplineFilters && !_filter) {
-            console.log("$effect: Blocking fetch - no filter selected.");
-             // Reset state if this is not the very first mount render
-             if (!isInitialLoading) { // Check isInitialLoading state *before* setting it
-                 articles = [];
-                 articleOfTheDay = null;
-                 hasMore = false;
-             }
-            return; // Don't proceed
+        if (apiEndpoint === '/api/get-liked-articles' && !_userId) {
+            console.log("$effect: Blocking fetch - waiting for userId for liked articles.");
+            if (!isInitialLoading) {
+                articles = [];
+                articleOfTheDay = null;
+                hasMore = false;
+            }
+            return;
         }
-        // Block if it's the liked endpoint and userId isn't ready
-         if (apiEndpoint === '/api/get-liked-articles' && !_userId) {
-             console.log("$effect: Blocking fetch - waiting for userId for liked articles.");
-             // Reset state if this is not the very first mount render
-             if (!isInitialLoading) {
-                 articles = [];
-                 articleOfTheDay = null;
-                 hasMore = false;
-             }
-             return; // Don't proceed
-         }
 
-        // --- Proceed with fetch ---
+        if (_filter === null) {
+            console.log("$effect: Blocking fetch - selectedFilter is null.");
+            if (!isInitialLoading) {
+                articles = [];
+                articleOfTheDay = null;
+                hasMore = false;
+            }
+            return;
+        }
+
         console.log("$effect: Conditions met, setting isInitialLoading = true");
         isInitialLoading = true;
-        articles = []; // Reset immediately
+        articles = [];
         articleOfTheDay = null;
         offset = 0;
         hasMore = true;
@@ -209,37 +214,35 @@
     // Reusable fetch function
     function fetchArticles(isLoadMore = false) {
         const currentFilter = selectedFilter;
-        const currentSubFilter = selectedSubDiscipline;
+        const currentSubFilter = (currentFilter !== ALL_CATEGORIES_VALUE) ? selectedSubDiscipline : null;
         const currentSearch = searchQuery;
         const currentOffset = isLoadMore ? offset : 0;
-        const hasDisciplineFilters = filters.length > 0;
         const currentUserId = $userProfileStore?.id ?? null;
 
-        // --- GUARD CONDITIONS ---
-        // 1. If filters are required, but none is selected, exit (for initial load)
-        if (hasDisciplineFilters && !currentFilter && !isLoadMore) {
-            console.log("fetchArticles exit: Waiting for filter selection.");
-            // Don't reset loading here, let the effect handle it
-            return;
-        }
-        // 2. If this fetch requires a user ID (like for liked articles) but none is available, exit
-        // We know the liked articles endpoint needs it based on the apiEndpoint prop.
         if (apiEndpoint === '/api/get-liked-articles' && !currentUserId) {
             console.log("fetchArticles exit: Waiting for user ID for liked articles.");
-            // Reset state if necessary
             if (!isLoadMore) {
                  articles = [];
                  articleOfTheDay = null;
                  hasMore = false;
                  isLoading = false;
-                 isInitialLoading = false; // No longer initially loading if user isn't ready
+                 isInitialLoading = false;
             }
             return;
         }
-        // --- END GUARDS ---
 
+        if (currentFilter === null) {
+            console.log("fetchArticles exit: selectedFilter is null.");
+            if (!isLoadMore) {
+                articles = [];
+                articleOfTheDay = null;
+                hasMore = false;
+                isLoading = false;
+                isInitialLoading = false;
+            }
+            return;
+        }
 
-        // If it's an initial fetch, isInitialLoading should already be true
         isLoading = true;
         if (!isLoadMore) { fetchError = null; }
 
@@ -247,22 +250,18 @@
 
 		const url = new URL(apiEndpoint, window.location.origin);
 
-        // --- Construct URL ---
-        // Only add discipline/sub-discipline if filters are present
-        if (hasDisciplineFilters && currentFilter) {
+        if (currentFilter && currentFilter !== ALL_CATEGORIES_VALUE) {
 		    url.searchParams.set(apiFilterParamName, currentFilter);
             if (currentSubFilter && currentSubFilter !== allSubDisciplinesLabel) {
                  url.searchParams.set('subDiscipline', currentSubFilter);
             }
         }
+
 		url.searchParams.set('offset', currentOffset.toString());
         if (enableSearch && currentSearch.trim()) {
             url.searchParams.set('search', currentSearch.trim());
         }
-		// NOTE: userId is NOT added as a query param here,
-        // the API endpoint should get it from the session/locals
 
-		// --- Perform Fetch ---
 		fetch(url.toString())
 			.then(async (res) => {
                 if (!res.ok) {
@@ -305,22 +304,21 @@
 			.catch((error) => {
                 console.error('Error fetching articles:', error);
                 fetchError = error.message || "Une erreur est survenue lors du chargement des articles.";
-                // Reset state on error
                 articles = [];
                 articleOfTheDay = null;
                 hasMore = false;
             })
 			.finally(() => {
                 console.log(`Fetch finished (Offset: ${currentOffset})`);
-                isLoading = false; // Stop general loading
+                isLoading = false;
                 if (!isLoadMore) {
-                    isInitialLoading = false; // Stop initial loading specifically
+                    isInitialLoading = false;
                 }
             });
     }
 
     function loadMore() {
-         if (!isLoading && hasMore && (filters.length === 0 || selectedFilter)) {
+         if (!isLoading && hasMore) {
              fetchArticles(true);
          }
 	}
@@ -545,7 +543,7 @@
 
 		<div class="mb-6 flex flex-col gap-4">
             <div class="flex flex-col md:flex-row flex-wrap gap-4">
-                {#if filters.length > 0}
+                {#if filters.length > 0 || showAllCategoriesOption}
                     <div class="relative w-full md:max-w-xs shrink-0">
                         <Select.Root type="single" name="selectedFilter" value={selectedFilter ?? undefined} onValueChange={(detail) => selectedFilter = detail}>
                             <Select.Trigger
@@ -561,6 +559,15 @@
                                     <Select.GroupHeading class="px-4 py-2 font-semibold text-gray-400 text-xs uppercase tracking-wider">
                                         {filterSelectLabel}
                                     </Select.GroupHeading>
+                                    {#if showAllCategoriesOption}
+                                        <Select.Item
+                                            value={ALL_CATEGORIES_VALUE}
+                                            label={ALL_CATEGORIES_LABEL}
+                                            class="cursor-pointer px-4 py-2 text-white transition-all duration-200 hover:bg-teal-600/80 hover:text-white data-[selected]:bg-teal-700"
+                                        >
+                                            {ALL_CATEGORIES_LABEL}
+                                        </Select.Item>
+                                    {/if}
                                     {#each sortedFilters as filter (filter.value)}
                                         <Select.Item
                                             value={filter.value}
@@ -576,7 +583,7 @@
                     </div>
                 {/if}
 
-                {#if (availableSubDisciplines.length > 0 || isLoadingSubDisciplines) && selectedFilter}
+                {#if showSubDisciplineFilter}
                     <div class="relative w-full md:max-w-xs shrink-0">
                         <Select.Root
                             type="single"
@@ -806,6 +813,7 @@
     isOpen={showUnlikeConfirmModal}
     on:confirm={handleConfirmUnlike}
     on:cancel={handleCancelUnlike}
+    slot="default"
 >
     <p>Êtes-vous sûr de vouloir retirer cet article de vos favoris ?</p>
 </ConfirmationModal>
