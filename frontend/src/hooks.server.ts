@@ -1,8 +1,8 @@
 // hooks.server.ts
+import { PUBLIC_SUPABASE_ANON_KEY, PUBLIC_SUPABASE_URL } from '$env/static/public';
 import { createServerClient } from '@supabase/ssr';
 import { redirect, type Handle } from '@sveltejs/kit';
 import { sequence } from '@sveltejs/kit/hooks';
-import { PUBLIC_SUPABASE_ANON_KEY, PUBLIC_SUPABASE_URL } from '$env/static/public';
 
 const supabase: Handle = async ({ event, resolve }) => {
   const isProduction = !event.url.hostname.includes('localhost');
@@ -12,11 +12,11 @@ const supabase: Handle = async ({ event, resolve }) => {
     cookies: {
       getAll: () => {
         const cookies = event.cookies.getAll();
-        console.log('Cookies getAll:', cookies);
+        // console.log('Cookies getAll:', cookies);
         return cookies;
       },
       setAll: (cookiesToSet) => {
-        console.log('Cookies to set:', cookiesToSet);
+        // console.log('Cookies to set:', cookiesToSet);
         cookiesToSet.forEach(({ name, value, options }) => {
           const cookieOptions = {
             ...options,

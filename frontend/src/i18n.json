@@ -122,6 +122,11 @@
         "photo": "https://media.licdn.com/dms/image/v2/D4E03AQFjVs8_IjoSkQ/profile-displayphoto-shrink_800_800/B4EZXFCkVsHMAc-/0/1742767540080?e=1748476800&v=beta&t=UWJN1tD-BHJnaY_68z0WJkHbACrRX1gK6dHWsu32xYY",
         "description": "Formé à l’école 42, je suis passionné par le développement web et logiciel. J’adore donner vie à des idées en créant des outils utiles et innovants, tout en explorant de nouvelles technologies. J’espère que Veille vous sera vraiment utile ! N’hésitez pas à nous écrire, on fera de notre mieux pour l’adapter à vos besoins💡😊"
       },
+      "alexis": {
+        "name": "👨‍💻 Alexis Chatelain - Développeur Fullstack",
+        "photo": "https://media.discordapp.net/attachments/499955908810375188/1287735266983022602/1678476774135.png?ex=67fb9dec&is=67fa4c6c&hm=59eb6a593d455e21ce41fd9bdebee8b249c10a7e4d86c51780c762a7180ff6bc&=&format=webp&quality=lossless&width=1600&height=1600",
+        "description": "Formé à l'école 42, spécialisé dans le domaine de l'IA et passionné par le développement de logiciels et le machine learning, j'adore mettre le code au service de projet vraiment utile et créer des solutions innovantes. J'espère apporter au travers de Veille, mon expertise au service du domaine médical 💡😊"
+      },
       "suggestion": "🎯 Veille évolue avec vous ! Partagez-nous vos suggestions pour en faire l’outil parfait pour votre quotidien : <a href=\"mailto:contact@veillemedicale.fr\">contact@veillemedicale.fr</a> 🚀"
     }
   }

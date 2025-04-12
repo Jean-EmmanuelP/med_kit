@@ -1,5 +1,4 @@
 <script>
-	import { page } from '$app/stores';
 	import { i18n } from '$lib/i18n';
 
 	// Définir les données statiques pour les co-fondateurs
@@ -13,6 +12,11 @@
 			name: $i18n.us.jeanemmanuel.name,
 			photo: $i18n.us.jeanemmanuel.photo,
 			description: $i18n.us.jeanemmanuel.description
+		},
+		{
+			name: $i18n.us.alexis.name,
+			photo: $i18n.us.alexis.photo,
+			description: $i18n.us.alexis.description
 		}
 	];
 

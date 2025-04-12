@@ -30,7 +30,7 @@
 	initialFilterValue={initialFilter}
 	filterSelectLabel="Spécialités"
 	showSignupPromptProp={false}
-	enableSearch={false}
+	enableSearch={true}
     {articleOfTheDayTitleTemplate}
     {previousArticlesTitleTemplate}
 />
