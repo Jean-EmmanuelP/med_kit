@@ -7,8 +7,11 @@
 	import type { Article } from '$lib/utils/articleUtils';
 	import { getArticleId } from '$lib/utils/articleUtils';
 	import { debounce } from '$lib/utils/debounce';
+	import { tick } from 'svelte';
+// Import tick
 	import ArticleCard from './ArticleCard.svelte';
 	import ArticleImmersiveModal from './ArticleImmersiveModal.svelte';
+
 
 	// --- Constants ---
     const ALL_CATEGORIES_VALUE = "__ALL__"; // Special value for "All"
@@ -35,7 +38,7 @@
         searchPlaceholder = "Rechercher par mots-clés...",
 		apiEndpoint = '/api/get_articles_my_veille',
 		apiFilterParamName = 'specialty',
-		userId = null as string | null,
+		userId = null as string | null, // Keep userId prop if needed elsewhere, but rely on store for actions
 		articleOfTheDayTitleTemplate = '🔥 Article du jour pour {filter} :',
 		previousArticlesTitleTemplate = '📖 Articles précédents pour {filter} :',
 		loadMoreButtonText = "Charger plus d'articles",
@@ -57,7 +60,7 @@
         searchPlaceholder?: string;
 		apiEndpoint?: string;
 		apiFilterParamName?: string;
-		userId?: string | null;
+		userId?: string | null; // Keep prop
 		articleOfTheDayTitleTemplate?: string;
 		previousArticlesTitleTemplate?: string;
 		loadMoreButtonText?: string;
@@ -129,23 +132,23 @@
     const isViewingSubDiscipline = $derived(selectedSubDiscipline !== null && selectedSubDiscipline !== allSubDisciplinesLabel);
     const isLikedArticlesView = $derived(apiEndpoint === '/api/get-liked-articles');
 
-	// --- Core Logic ---
+    // --- Core Logic ---
 
     // Effect to fetch SUB-DISCIPLINES when main filter changes
     $effect(() => {
         const currentMainFilter = selectedFilter;
-        console.log('Main filter changed to:', currentMainFilter);
+        // console.log('Main filter changed to:', currentMainFilter);
 
         selectedSubDiscipline = null;
         availableSubDisciplines = [];
         if (!currentMainFilter || currentMainFilter === ALL_CATEGORIES_VALUE) {
-             console.log('Skipping sub-discipline fetch (All or None selected).');
+            //  console.log('Skipping sub-discipline fetch (All or None selected).');
              isLoadingSubDisciplines = false;
              return;
         }
 
         isLoadingSubDisciplines = true;
-        console.log('Fetching sub-disciplines for:', currentMainFilter);
+        // console.log('Fetching sub-disciplines for:', currentMainFilter);
 
         fetch(`/api/get_sub_disciplines?disciplineName=${encodeURIComponent(currentMainFilter)}`)
             .then(async (res) => {
@@ -156,7 +159,7 @@
                 return res.json();
             })
             .then((data: SubDisciplineOption[]) => {
-                 console.log('Fetched sub-disciplines:', data);
+                //  console.log('Fetched sub-disciplines:', data);
                  availableSubDisciplines = data || [];
             })
             .catch(error => {
@@ -165,7 +168,7 @@
             })
             .finally(() => {
                 isLoadingSubDisciplines = false;
-                console.log('Finished fetching sub-disciplines.');
+                // console.log('Finished fetching sub-disciplines.');
             });
     });
 
@@ -177,11 +180,24 @@
         const _filter = selectedFilter;
         const _subFilter = selectedSubDiscipline;
         const _search = searchQuery;
-        const _userId = $userProfileStore?.id ?? null;
+        const _userId = $userProfileStore?.id ?? null; // Use store here
 
+        // Check if API needs user ID and if it's available
         if (apiEndpoint === '/api/get-liked-articles' && !_userId) {
-            console.log("$effect: Blocking fetch - waiting for userId for liked articles.");
-            if (!isInitialLoading) {
+            // console.log("$effect: Blocking fetch - waiting for userId for liked articles.");
+            if (!isInitialLoading) { // Only clear if not the very first load
+                articles = [];
+                articleOfTheDay = null;
+                hasMore = false;
+            }
+            // Keep isInitialLoading true until user ID is available or handled
+            return;
+        }
+
+        // Check if a filter is required and if it's selected
+        if (_filter === null && filters.length > 0) { // Only block if filters ARE available but none is selected
+            // console.log("$effect: Blocking fetch - selectedFilter is null but filters exist.");
+             if (!isInitialLoading) {
                 articles = [];
                 articleOfTheDay = null;
                 hasMore = false;
@@ -189,26 +205,16 @@
             return;
         }
 
-        if (_filter === null) {
-            console.log("$effect: Blocking fetch - selectedFilter is null.");
-            if (!isInitialLoading) {
-                articles = [];
-                articleOfTheDay = null;
-                hasMore = false;
-            }
-            return;
-        }
-
-        console.log("$effect: Conditions met, setting isInitialLoading = true");
-        isInitialLoading = true;
+        // console.log("$effect: Conditions met, resetting state and triggering fetch");
+        isInitialLoading = true; // Set to true before fetch starts
         articles = [];
         articleOfTheDay = null;
         offset = 0;
         hasMore = true;
         fetchError = null;
 
-		console.log("$effect: Triggering debounced fetchArticles call");
-        debouncedFetchArticles(false);
+		// console.log("$effect: Triggering debounced fetchArticles call");
+        debouncedFetchArticles(false); // Call fetch directly or debounced
 	});
 
     // Reusable fetch function
@@ -217,50 +223,61 @@
         const currentSubFilter = (currentFilter !== ALL_CATEGORIES_VALUE) ? selectedSubDiscipline : null;
         const currentSearch = searchQuery;
         const currentOffset = isLoadMore ? offset : 0;
-        const currentUserId = $userProfileStore?.id ?? null;
+        const currentUserId = $userProfileStore?.id ?? null; // Use store
 
+        // Re-check dependency on user ID
         if (apiEndpoint === '/api/get-liked-articles' && !currentUserId) {
-            console.log("fetchArticles exit: Waiting for user ID for liked articles.");
+            // console.log("fetchArticles exit: Waiting for user ID for liked articles.");
             if (!isLoadMore) {
                  articles = [];
                  articleOfTheDay = null;
                  hasMore = false;
                  isLoading = false;
-                 isInitialLoading = false;
+                 isInitialLoading = false; // Mark initial load as done (even though failed)
             }
             return;
         }
 
-        if (currentFilter === null) {
-            console.log("fetchArticles exit: selectedFilter is null.");
+        // Re-check filter requirement
+        if (currentFilter === null && filters.length > 0) {
+            // console.log("fetchArticles exit: selectedFilter is null but filters exist.");
             if (!isLoadMore) {
                 articles = [];
                 articleOfTheDay = null;
                 hasMore = false;
                 isLoading = false;
-                isInitialLoading = false;
+                isInitialLoading = false; // Mark initial load as done
             }
             return;
         }
 
-        isLoading = true;
-        if (!isLoadMore) { fetchError = null; }
 
-		console.log(`FETCHING articles -> Endpoint: ${apiEndpoint}, Filter: ${currentFilter}, SubFilter: ${currentSubFilter}, Search: ${currentSearch}, Offset: ${currentOffset}, UserID: ${currentUserId}`);
+        isLoading = true;
+        if (!isLoadMore) {
+            fetchError = null;
+            // isInitialLoading is already true here due to the $effect logic
+        } else {
+            // Don't reset initial loading flag when loading more
+        }
+
+		// console.log(`FETCHING articles -> Endpoint: ${apiEndpoint}, Filter: ${currentFilter}, SubFilter: ${currentSubFilter}, Search: ${currentSearch}, Offset: ${currentOffset}, UserID: ${currentUserId}`);
 
 		const url = new URL(apiEndpoint, window.location.origin);
 
+        // Append parameters
         if (currentFilter && currentFilter !== ALL_CATEGORIES_VALUE) {
 		    url.searchParams.set(apiFilterParamName, currentFilter);
             if (currentSubFilter && currentSubFilter !== allSubDisciplinesLabel) {
                  url.searchParams.set('subDiscipline', currentSubFilter);
             }
         }
-
 		url.searchParams.set('offset', currentOffset.toString());
+		url.searchParams.set('limit', itemsPerPage.toString()); // <<< ADD LIMIT
         if (enableSearch && currentSearch.trim()) {
             url.searchParams.set('search', currentSearch.trim());
         }
+        // Add user ID if needed by the endpoint (handled by RPC now mostly)
+        // if (userId) { url.searchParams.set('userId', userId); }
 
 		fetch(url.toString())
 			.then(async (res) => {
@@ -271,31 +288,28 @@
                 return res.json();
             })
 			.then((data) => {
-                console.log(`API Response (Offset: ${currentOffset}):`, data);
+                // console.log(`API Response (Offset: ${currentOffset}):`, data);
 				if (data && Array.isArray(data.data)) {
                     const fetchedArticles: Article[] = data.data;
 
                     if (isLoadMore) {
-                        if (fetchedArticles.length > 0) {
-                            articles = [...articles, ...fetchedArticles];
-                            offset += fetchedArticles.length;
-                            hasMore = fetchedArticles.length >= itemsPerPage;
-                        } else {
-                            hasMore = false;
-                        }
+                        articles = [...articles, ...fetchedArticles];
                     } else {
-                        if (fetchedArticles.length > 0) {
+                        // Split AotD only if NOT searching, NOT liked view, and NOT sub-discipline view
+                         if (!searchActive && !isLikedArticlesView && !isViewingSubDiscipline && fetchedArticles.length > 0) {
                             articleOfTheDay = fetchedArticles[0];
                             articles = fetchedArticles.slice(1);
-                            offset = fetchedArticles.length;
-                            hasMore = fetchedArticles.length >= itemsPerPage;
                         } else {
+                            // Otherwise, all fetched articles go into the main list
                             articleOfTheDay = null;
-                            articles = [];
-                            offset = 0;
-                            hasMore = false;
+                            articles = fetchedArticles;
                         }
                     }
+
+                    // Update offset and hasMore based on fetched count vs limit
+                    offset = currentOffset + fetchedArticles.length;
+                    hasMore = fetchedArticles.length >= itemsPerPage;
+
 				} else {
                     console.warn('API response format unexpected or data.data is not an array:', data);
 					throw new Error("Format de réponse invalide de l'API");
@@ -304,13 +318,17 @@
 			.catch((error) => {
                 console.error('Error fetching articles:', error);
                 fetchError = error.message || "Une erreur est survenue lors du chargement des articles.";
-                articles = [];
-                articleOfTheDay = null;
-                hasMore = false;
+                // Clear articles on error unless loading more
+                if (!isLoadMore) {
+                    articles = [];
+                    articleOfTheDay = null;
+                }
+                hasMore = false; // Stop loading more on error
             })
 			.finally(() => {
-                console.log(`Fetch finished (Offset: ${currentOffset})`);
+                // console.log(`Fetch finished (Offset: ${currentOffset})`);
                 isLoading = false;
+                // Set initial loading false only after the *first* fetch completes (success or error)
                 if (!isLoadMore) {
                     isInitialLoading = false;
                 }
@@ -328,62 +346,16 @@
         const articleIdToUpdate = getArticleId(clickedArticle);
         const currentUser = $userProfileStore; // Get current user state
 
-        // --- Optimistic UI Update ---
-        // Find and update the article in the local state BEFORE showing the modal
-        // Update articleOfTheDay if it matches
-        if (articleOfTheDay && getArticleId(articleOfTheDay) === articleIdToUpdate) {
-            console.log(`Optimistically updating AotD ${articleIdToUpdate} to read=true`);
-            articleOfTheDay = { ...articleOfTheDay, is_read: true };
-        }
-        // Update the article in the main 'articles' list if it matches
-        const articleIndex = articles.findIndex(a => getArticleId(a) === articleIdToUpdate);
-        if (articleIndex > -1) {
-             console.log(`Optimistically updating list article ${articleIdToUpdate} at index ${articleIndex} to read=true`);
-             // Create a new object for the specific article to trigger reactivity
-             const updatedArticle = { ...articles[articleIndex], is_read: true };
-             // Create a new array to trigger reactivity for the list
-             articles = [
-                 ...articles.slice(0, articleIndex),
-                 updatedArticle,
-                 ...articles.slice(articleIndex + 1)
-             ];
-        }
-        // --- End Optimistic Update ---
+        // Optimistically mark as read in UI *before* showing modal
+        markArticleAsReadUI(articleIdToUpdate);
 
+        // Set the article for the modal
+        immersiveArticle = getArticleFromState(articleIdToUpdate) ?? clickedArticle;
 
-        // Set the article for the modal (use the potentially updated one if found, otherwise original)
-        immersiveArticle = (articleOfTheDay && getArticleId(articleOfTheDay) === articleIdToUpdate)
-                            ? articleOfTheDay
-                            : (articleIndex > -1 ? articles[articleIndex] : clickedArticle);
+        // Call API to mark as read (fire and forget)
+        markArticleAsReadAPI(articleIdToUpdate, currentUser?.id);
 
-        // --- Mark as read via API (fire and forget) ---
-        if (currentUser?.id && typeof articleIdToUpdate === 'number' && !isNaN(articleIdToUpdate)) {
-            console.log(`Modal opened for article ${articleIdToUpdate}. Firing API call to mark as read for user ${currentUser.id}...`);
-             fetch('/api/mark-article-read', {
-                 method: 'POST',
-                 headers: { 'Content-Type': 'application/json' },
-                 body: JSON.stringify({ articleId: articleIdToUpdate }),
-             })
-             .then(async (response) => {
-                 if (!response.ok) {
-                     const errorData = await response.json().catch(() => ({ message: 'Failed to parse error response' }));
-                     console.error(`Failed to mark article ${articleIdToUpdate} as read via API:`, response.status, errorData.message || response.statusText);
-                     // Optional: Revert optimistic update on error? (More complex)
-                 } else {
-                     console.log(`API confirmed article ${articleIdToUpdate} marked as read.`);
-                 }
-             })
-             .catch((error) => {
-                 console.error(`Network error marking article ${articleIdToUpdate} as read:`, error);
-                 // Optional: Revert optimistic update on error?
-             });
-        } else if (!currentUser?.id) {
-            console.log("Modal opened, but user not logged in. Skipping mark as read.");
-        } else {
-            console.warn("Modal opened, but article ID is not valid for API call:", articleIdToUpdate);
-        }
-
-        // Add class to body (do this last to avoid layout shift before modal renders)
+        // Add class to body
 		document.body.classList.add('overflow-hidden');
 	}
 
@@ -391,6 +363,54 @@
 		immersiveArticle = null;
 		document.body.classList.remove('overflow-hidden');
 	}
+
+    // --- Separate UI update function ---
+    function markArticleAsReadUI(articleId: string | number) {
+        console.log(`Optimistic UI: Marking article ${articleId} as read.`);
+         if (articleOfTheDay && getArticleId(articleOfTheDay) === articleId) {
+            articleOfTheDay = { ...articleOfTheDay, is_read: true };
+        }
+        articles = articles.map(a =>
+            getArticleId(a) === articleId ? { ...a, is_read: true } : a
+        );
+    }
+
+    // --- Separate API call function ---
+    function markArticleAsReadAPI(articleId: string | number, userId: string | null | undefined) {
+         if (userId && typeof articleId === 'number' && !isNaN(articleId)) {
+            // console.log(`Calling API to mark article ${articleId} as read for user ${userId}...`);
+             fetch('/api/mark-article-read', { // Use the single mark-read endpoint
+                 method: 'POST',
+                 headers: { 'Content-Type': 'application/json' },
+                 body: JSON.stringify({ articleId: articleId }),
+             })
+             .then(async (response) => {
+                 if (!response.ok) {
+                     const errorData = await response.json().catch(() => ({ message: 'Failed to parse error response' }));
+                     console.error(`API failed to mark article ${articleId} as read:`, response.status, errorData.message || response.statusText);
+                     // Optionally revert UI? Might be complex if user navigates away.
+                 } else {
+                    //  console.log(`API confirmed article ${articleId} marked as read.`);
+                 }
+             })
+             .catch((error) => {
+                 console.error(`Network error marking article ${articleId} as read:`, error);
+             });
+        } else if (!userId) {
+            // console.log("User not logged in, skipping mark as read API call.");
+        } else {
+            console.warn("Cannot mark article as read via API: Invalid article ID.", articleId);
+        }
+    }
+
+     // Helper to get the current state of an article
+    function getArticleFromState(articleId: string | number): Article | null {
+        if (articleOfTheDay && getArticleId(articleOfTheDay) === articleId) {
+            return articleOfTheDay;
+        }
+        return articles.find(a => getArticleId(a) === articleId) || null;
+    }
+
 
     $effect(() => {
         if (showSignupPromptProp && !$userProfileStore) {
@@ -408,10 +428,10 @@
 	}
 
     function handleSubDisciplineChange(value: string | null) {
-        if (value === allSubDisciplinesLabel) {
-            selectedSubDiscipline = null;
-        } else {
-            selectedSubDiscipline = value;
+        const newValue = value === allSubDisciplinesLabel ? null : value;
+        if (selectedSubDiscipline !== newValue) {
+            selectedSubDiscipline = newValue;
+            // Fetch will be triggered by the $effect watching selectedSubDiscipline
         }
     }
 
@@ -426,39 +446,45 @@
 
 		if (!currentUser) {
 			console.warn("User not logged in, cannot toggle like.");
+            // Optionally redirect to login or show message
 			return;
 		}
 
-		// --- SHOW MODAL INSTEAD OF window.confirm ---
+        // If on the liked articles page and unliking, show confirmation
 		if (isLikedArticlesView && currentlyLiked) {
-			// Store the details needed for confirmation/action
 			articleToUnlike = { articleId, currentlyLiked, currentLikeCount };
-			// Open the modal
 			showUnlikeConfirmModal = true;
-			// Stop here, wait for modal response
-			return;
+			return; // Wait for modal confirmation
 		}
-		// --- END MODAL TRIGGER ---
 
-		// --- Like action (if not unliking on /favoris) ---
+		// Perform immediate toggle for liking or unliking on other pages
 		const newStateIsLiked = !currentlyLiked;
 		const newLikeCount = currentlyLiked ? Math.max(0, currentLikeCount - 1) : currentLikeCount + 1;
+
 		performOptimisticLikeUpdate(articleId, newStateIsLiked, newLikeCount);
-		triggerLikeApiCall(articleId, currentlyLiked, currentLikeCount);
+		triggerLikeApiCall(articleId, currentlyLiked, currentLikeCount); // Pass original state for potential revert
+
+        // If unliking on the Liked Articles page AFTER confirmation (or directly if not on that page)
+        // Remove the article visually ONLY IF it's the liked articles view
+        if (isLikedArticlesView && newStateIsLiked === false) {
+             console.log(`Optimistically removing unliked article ${articleId} from Liked Articles view.`);
+             removeArticleFromUI(articleId);
+        }
 	}
 
 	// --- Modal Event Handlers ---
 	function handleConfirmUnlike() {
-		if (!articleToUnlike) return; // Should not happen, but safety check
+		if (!articleToUnlike) return;
 
-		console.log("User confirmed unlike via modal for article:", articleToUnlike.articleId);
-
+		// console.log("User confirmed unlike via modal for article:", articleToUnlike.articleId);
 		const { articleId, currentlyLiked, currentLikeCount } = articleToUnlike;
-		const newStateIsLiked = false; // We are confirming unlike
-		const newLikeCount = Math.max(0, currentLikeCount - 1);
 
-		performOptimisticLikeUpdate(articleId, newStateIsLiked, newLikeCount);
+        // Mark as unliked and update count optimistically
+		performOptimisticLikeUpdate(articleId, false, Math.max(0, currentLikeCount - 1));
+        // Trigger the API call
 		triggerLikeApiCall(articleId, currentlyLiked, currentLikeCount);
+        // Remove from UI specifically for the liked articles view
+        removeArticleFromUI(articleId);
 
 		// Reset modal state
 		showUnlikeConfirmModal = false;
@@ -466,55 +492,150 @@
 	}
 
 	function handleCancelUnlike() {
-		console.log("Unlike cancelled via modal.");
-		// Just close the modal and clear the state
+		// console.log("Unlike cancelled via modal.");
 		showUnlikeConfirmModal = false;
 		articleToUnlike = null;
 	}
 
+    // --- Helper to remove article visually ---
+    function removeArticleFromUI(articleIdToRemove: number | string) {
+        if (articleOfTheDay && getArticleId(articleOfTheDay) === articleIdToRemove) {
+            articleOfTheDay = null;
+        }
+        articles = articles.filter(a => getArticleId(a) !== articleIdToRemove);
+    }
+
+
 	// --- Extracted Helper Functions ---
 	function performOptimisticLikeUpdate(articleId: number | string, newStateIsLiked: boolean, newLikeCount: number) {
-		console.log(`Optimistically setting like status to ${newStateIsLiked} and count to ${newLikeCount} for article ${articleId}`);
-		// Update articleOfTheDay
+		// console.log(`Optimistic Like Update: Setting liked=${newStateIsLiked}, count=${newLikeCount} for article ${articleId}`);
 		if (articleOfTheDay && getArticleId(articleOfTheDay) === articleId) {
 			articleOfTheDay = { ...articleOfTheDay, is_liked: newStateIsLiked, like_count: newLikeCount };
 		}
-		// Update articles list
-		const articleIndex = articles.findIndex(a => getArticleId(a) === articleId);
-		if (articleIndex > -1) {
-			const updatedArticle = { ...articles[articleIndex], is_liked: newStateIsLiked, like_count: newLikeCount };
-			articles = [...articles.slice(0, articleIndex), updatedArticle, ...articles.slice(articleIndex + 1)];
-		}
+		articles = articles.map(a =>
+			getArticleId(a) === articleId ? { ...a, is_liked: newStateIsLiked, like_count: newLikeCount } : a
+		);
 	}
 
+    // --- Trigger Like API Call (with revert logic passed in) ---
 	function triggerLikeApiCall(articleId: number | string, originalIsLiked: boolean, originalLikeCount: number) {
-		if (typeof articleId === 'number' && !isNaN(articleId)) {
-			fetch('/api/toggle-article-like', {
+		if (typeof articleId !== 'number' || isNaN(articleId)) {
+            console.warn("Cannot toggle like: Invalid article ID.", articleId);
+			return; // Exit if ID is invalid
+		}
+
+        // Define the revert function specific to this action
+        const revertLikeUpdate = () => {
+            console.log(`Reverting like status for article ${articleId} to liked=${originalIsLiked}, count=${originalLikeCount}`);
+            performOptimisticLikeUpdate(articleId, originalIsLiked, originalLikeCount);
+            // If unliking on liked view was reverted, potentially add item back (more complex UI logic)
+            if (isLikedArticlesView && !originalIsLiked) {
+                 console.warn("Reverting an unlike on /favoris. Re-fetching might be needed to add the item back correctly if it was removed.");
+                 // Consider re-fetching or more complex state management here if needed
+            }
+        };
+
+		fetch('/api/toggle-article-like', {
+			method: 'POST',
+			headers: { 'Content-Type': 'application/json' },
+			body: JSON.stringify({ articleId: articleId }),
+		})
+		.then(async (response) => {
+			const responseData = await response.json().catch(() => ({}));
+			if (!response.ok) {
+				console.error(`API error toggling like for article ${articleId}:`, response.status, responseData.message || response.statusText);
+                revertLikeUpdate(); // Revert on API error
+			} else {
+				// console.log(`API confirmed like status for ${articleId} is now: ${responseData.liked}`);
+                // Optional: Verify API state vs optimistic state
+                const currentOptimisticState = getArticleFromState(articleId);
+                if (currentOptimisticState && currentOptimisticState.is_liked !== responseData.liked) {
+                    console.warn(`Optimistic like state mismatch for ${articleId}. Reverting.`);
+                    revertLikeUpdate();
+                }
+			}
+		})
+		.catch((error) => {
+			console.error(`Network error toggling like for article ${articleId}:`, error);
+            revertLikeUpdate(); // Revert on network error
+		});
+	}
+
+	// --- CORRECTED: Handler for Toggling Read Status ---
+	async function handleToggleRead(event: CustomEvent<Article>) {
+		const articleToToggle = event.detail;
+		const articleId = getArticleId(articleToToggle);
+		const currentUser = $userProfileStore;
+
+		if (!currentUser?.id || typeof articleId !== 'number' || isNaN(articleId)) {
+			console.warn("Cannot toggle read: User not logged in or invalid article ID.", { userId: currentUser?.id, articleId });
+			return;
+		}
+
+		// console.log(`UI: handleToggleRead triggered for article ${articleId}`);
+
+		// --- Find original state for potential revert ---
+        const originalState = getArticleFromState(articleId);
+        if (!originalState) {
+             console.error(`Cannot find article ${articleId} in state to toggle read status.`);
+             return;
+        }
+        const originalIsRead = originalState.is_read ?? false;
+		const newReadState = !originalIsRead;
+
+		// --- 1. Optimistic UI Update (Update in place, never remove) ---
+		// console.log(`Optimistic UI: Setting article ${articleId} is_read to ${newReadState}`);
+		if (articleOfTheDay && getArticleId(articleOfTheDay) === articleId) {
+			articleOfTheDay = { ...articleOfTheDay, is_read: newReadState };
+		}
+		articles = articles.map(a =>
+			getArticleId(a) === articleId ? { ...a, is_read: newReadState } : a
+		);
+		await tick(); // Wait for DOM update
+
+		// --- 2. API Call ---
+		try {
+			// console.log(`API Call: Toggling read status for article ${articleId}`);
+			const response = await fetch('/api/toggle-article-read', {
 				method: 'POST',
 				headers: { 'Content-Type': 'application/json' },
 				body: JSON.stringify({ articleId: articleId }),
-			})
-			.then(async (response) => {
-				const responseData = await response.json().catch(() => ({}));
-				if (!response.ok) {
-					console.error(`API error toggling like for article ${articleId}:`, response.status, responseData.message || response.statusText);
-					// Revert optimistic update on error
-					console.log("Reverting optimistic like update due to API error...");
-					performOptimisticLikeUpdate(articleId, originalIsLiked, originalLikeCount);
-				} else {
-					console.log(`API confirmed like status for ${articleId} is now: ${responseData.liked}`);
-				}
-			})
-			.catch((error) => {
-				console.error(`Network error toggling like for article ${articleId}:`, error);
-				// Revert optimistic update on error
-				console.log("Reverting optimistic like update due to network error...");
-				performOptimisticLikeUpdate(articleId, originalIsLiked, originalLikeCount);
 			});
-		} else {
-			console.warn("Cannot toggle like: Invalid article ID.", articleId);
+			const responseData = await response.json().catch(() => ({}));
+
+			if (!response.ok) {
+				throw new Error(responseData.message || `API Error: ${response.status}`);
+			}
+			// console.log(`API Success: Article ${articleId} read status is now ${responseData.read}`);
+
+            // Optional: Verify API response matches optimistic state
+            if (responseData.read !== newReadState) {
+                console.warn(`Optimistic/API read state mismatch for ${articleId}. Reverting UI.`);
+                performReadRevert(originalState);
+            }
+
+		} catch (error: any) {
+			console.error(`Error toggling read status API for article ${articleId}:`, error);
+			// --- 3. Revert Optimistic UI on Error ---
+			console.log(`Reverting optimistic UI read status change for article ${articleId}`);
+			performReadRevert(originalState);
+            fetchError = `Erreur lors de la mise à jour du statut 'lu' pour l'article ${articleId}.`; // Show user-facing error
 		}
 	}
+
+	// --- Helper to Revert Read Status UI Change ---
+    function performReadRevert(originalArticleState: Article) {
+         const articleId = getArticleId(originalArticleState);
+         // console.log(`Reverting UI: Setting article ${articleId} is_read back to ${originalArticleState.is_read}`);
+          if (articleOfTheDay && getArticleId(articleOfTheDay) === articleId) {
+            articleOfTheDay = originalArticleState; // Restore original object
+        }
+        articles = articles.map(a =>
+            getArticleId(a) === articleId ? originalArticleState : a // Restore original object
+        );
+    }
+
+
 </script>
 
 <div class="min-h-screen bg-black px-4 py-8 md:py-12 text-white">
@@ -538,6 +659,14 @@
 				</button>
 			</div>
 		{/if}
+
+		{#if fetchError && !isLoading}
+             <div class="my-6 p-4 rounded-lg bg-red-900/30 border border-red-700 text-red-300 text-center" role="alert">
+                <p><strong>Erreur :</strong> {fetchError}</p>
+                <button on:click={() => fetchError = null} class="mt-2 text-xs underline hover:text-red-100">Ignorer</button>
+             </div>
+        {/if}
+
 
 		<h1 class="mb-4 text-3xl font-bold text-white">{pageTitle}</h1>
 
@@ -657,11 +786,11 @@
 			<div class="flex justify-center items-center py-20" aria-live="polite" aria-busy="true">
 				<div class="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-teal-500"></div>
 			</div>
-        {:else if fetchError}
-            <div class="my-10 p-4 rounded-lg bg-red-900/30 border border-red-700 text-red-300 text-center" role="alert">
-                <p><strong>Erreur :</strong> {fetchError}</p>
-                <p class="mt-2 text-sm">Veuillez réessayer ou vérifier votre connexion.</p>
-            </div>
+        {:else if fetchError && articles.length === 0 && !articleOfTheDay}
+             <div class="my-10 p-4 rounded-lg bg-red-900/30 border border-red-700 text-red-300 text-center" role="alert">
+                 <p><strong>Erreur lors du chargement initial :</strong> {fetchError}</p>
+                 <p class="mt-2 text-sm">Veuillez réessayer ou vérifier votre connexion.</p>
+             </div>
         {:else if !userId && isLikedArticlesView}
             <div class="my-10 p-4 rounded-lg bg-gray-800/50 border border-gray-700 text-gray-400 text-center">
                 <p>Connectez-vous pour voir vos articles favoris.</p>
@@ -697,40 +826,29 @@
                 {/if}
             </div>
         {:else}
-			{#if !isLikedArticlesView && !isViewingSubDiscipline && !searchActive}
+            <!-- Article of the Day Section (Conditional Display Logic) -->
+			{#if articleOfTheDay}
                 <div class="mb-8">
-                    {#if articleOfTheDay || articles.length > 0}
-                        <h2 class="text-2xl font-bold text-teal-500">🔥 Article du jour</h2>
-                        <p class="mt-2 mb-4 text-gray-400">Article selectionné aujourd'hui pour {filterForTitle} :</p>
-                    {/if}
-                    {#if articleOfTheDay}
-                        <ul class="space-y-4">
-                            <ArticleCard article={articleOfTheDay} on:open={openImmersive} on:likeToggle={handleLikeToggle} />
-                        </ul>
-                    {:else if !isLoading}
-                        <p class="text-gray-500 italic text-sm ml-1">Aucun article spécifique pour aujourd'hui.</p>
-                    {/if}
+                    <h2 class="text-2xl font-bold text-teal-500">🔥 Article du jour</h2>
+                    <p class="mt-2 mb-4 text-gray-400">Article selectionné aujourd'hui pour {filterForTitle} :</p>
+                    <ul class="space-y-4">
+                        <ArticleCard
+                            article={articleOfTheDay}
+                            on:open={openImmersive}
+                            on:likeToggle={handleLikeToggle}
+                            on:toggleRead={handleToggleRead}
+                        />
+                    </ul>
                 </div>
             {/if}
 
+            <!-- Main Article List Section -->
 			<div class="mb-6">
-                {#if articleOfTheDay || articles.length > 0}
+                {#if articles.length > 0}
                     <h2 class="text-2xl font-bold text-white flex items-center gap-2">
                         {#if isLikedArticlesView}
-                            <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 24 24"
-                                stroke-width="1.5"
-                                stroke="currentColor"
-                                class="w-6 h-6 fill-pink-500 text-pink-500"
-                            >
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
-                            </svg>
-                            {#if selectedFilter}
-                                Favoris : {filterForTitle}
-                            {:else}
-                                Articles Favoris
-                            {/if}
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 fill-pink-500 text-pink-500"> <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" /> </svg>
+                            Favoris {#if selectedFilter !== ALL_CATEGORIES_VALUE && selectedFilter}: {filterForTitle}{/if} {#if isViewingSubDiscipline} - {selectedSubDiscipline}{/if}
                         {:else if searchActive}
                             Résultats de recherche
                         {:else if isViewingSubDiscipline}
@@ -739,43 +857,44 @@
                             📖 Articles précédents
                         {/if}
                     </h2>
-                    {#if !isLikedArticlesView || selectedFilter}
-                        <p class="mt-2 mb-4 text-gray-400">
-                            {#if isLikedArticlesView}
-                                {#if isViewingSubDiscipline}
-                                    Vos favoris pour {selectedSubDiscipline} ({filterForTitle}) :
-                                {:else if searchActive}
-                                     Résultats pour "{searchQuery}" dans vos favoris {#if selectedFilter}pour {filterForTitle}{/if} :
-                                {:else if selectedFilter}
-                                     Vos favoris pour {filterForTitle} :
-                                {/if}
+                     <p class="mt-2 mb-4 text-gray-400">
+                        {#if isLikedArticlesView}
+                            {#if isViewingSubDiscipline}
+                                Vos favoris pour {selectedSubDiscipline} ({filterForTitle}) :
                             {:else if searchActive}
-                                Résultats pour "{searchQuery}" dans "{filterForTitle}"{#if isViewingSubDiscipline} - {selectedSubDiscipline}{/if} :
-                            {:else if isViewingSubDiscipline}
-                                Articles selectionnés pour {selectedSubDiscipline} ({filterForTitle}) :
+                                 Résultats pour "{searchQuery}" dans vos favoris {#if selectedFilter !== ALL_CATEGORIES_VALUE}pour {filterForTitle}{/if} :
+                            {:else if selectedFilter !== ALL_CATEGORIES_VALUE}
+                                 Vos favoris pour {filterForTitle} :
                             {:else}
-                                Articles précédemment selectionnés pour {filterForTitle} :
+                                 Tous vos articles favoris :
                             {/if}
-                        </p>
-                    {/if}
+                        {:else if searchActive}
+                            Résultats pour "{searchQuery}" dans "{filterForTitle}"{#if isViewingSubDiscipline} - {selectedSubDiscipline}{/if} :
+                        {:else if isViewingSubDiscipline}
+                            Articles selectionnés pour {selectedSubDiscipline} ({filterForTitle}) :
+                        {:else}
+                            Articles précédemment selectionnés pour {filterForTitle} :
+                        {/if}
+                    </p>
                 {/if}
 
                 <ul class="space-y-4">
-                    {#if (isLikedArticlesView || isViewingSubDiscipline || searchActive) && articleOfTheDay}
-                        <ArticleCard article={articleOfTheDay} on:open={openImmersive} on:likeToggle={handleLikeToggle} />
-                    {/if}
                     {#each articles as article (getArticleId(article))}
-                        <ArticleCard {article} on:open={openImmersive} on:likeToggle={handleLikeToggle} />
+                        <ArticleCard
+                            {article}
+                            on:open={openImmersive}
+                            on:likeToggle={handleLikeToggle}
+                            on:toggleRead={handleToggleRead}
+                        />
                     {/each}
 				</ul>
 
-                {#if !isLoading && !articleOfTheDay && articles.length === 0 && isViewingSubDiscipline}
-                     <p class="text-gray-500 italic text-sm ml-1">Aucun article trouvé pour cette sous-spécialité.</p>
-                {:else if !isLoading && articleOfTheDay && articles.length === 0 && !isViewingSubDiscipline}
-                    <p class="text-gray-500 italic text-sm ml-1">Aucun article précédent trouvé pour cette sélection.</p>
+                {#if !isLoading && articles.length === 0 && articleOfTheDay && !isViewingSubDiscipline}
+                    <p class="text-gray-500 italic text-sm ml-1 mt-4">Aucun article précédent trouvé pour cette sélection.</p>
 				{/if}
 			</div>
 
+            <!-- Load More / All Loaded Section -->
             {#if hasMore || isLoading}
                 <div class="mt-8 text-center">
                     {#if isLoading && !isInitialLoading}
@@ -792,7 +911,7 @@
                         </button>
                     {/if}
                 </div>
-            {:else if !isInitialLoading && (articles.length > 0 || articleOfTheDay)}
+            {:else if !isInitialLoading}
                 <div class="mt-8 text-center text-gray-500">
                     <span class="inline-flex items-center gap-2 rounded-full bg-gray-800 px-4 py-2 text-sm">
                         <svg class="h-5 w-5 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -813,38 +932,41 @@
     isOpen={showUnlikeConfirmModal}
     on:confirm={handleConfirmUnlike}
     on:cancel={handleCancelUnlike}
-    slot="default"
->
-    <p>Êtes-vous sûr de vouloir retirer cet article de vos favoris ?</p>
-</ConfirmationModal>
+    title="Confirmer le retrait"
+    message="Êtes-vous sûr de vouloir retirer cet article de vos favoris ?"
+    confirmText="Retirer"
+    cancelText="Annuler"
+/>
+
 
 <style>
 	button:focus-visible, input:focus-visible {
-		outline: 2px solid #14b8a6;
+		outline: 2px solid #14b8a6; /* Teal-500 */
         outline-offset: 2px;
 	}
     [data-radix-select-trigger]:focus-visible {
-        outline: 2px solid #14b8a6;
+        outline: 2px solid #14b8a6; /* Teal-500 */
         outline-offset: 2px;
     }
 
 	.scrollbar-thin {
 		scrollbar-width: thin;
-		scrollbar-color: #14b8a6 #1f2937;
+		scrollbar-color: #14b8a6 #1f2937; /* thumb track - Teal-500, Gray-800 */
 	}
 
 	.scrollbar-thin::-webkit-scrollbar {
 		width: 8px;
+		height: 8px;
 	}
 
 	.scrollbar-thin::-webkit-scrollbar-track {
-		background: #1f2937;
+		background: #1f2937; /* Gray-800 */
         border-radius: 10px;
 	}
 
 	.scrollbar-thin::-webkit-scrollbar-thumb {
-		background-color: #14b8a6;
+		background-color: #14b8a6; /* Teal-500 */
 		border-radius: 6px;
-		border: 2px solid #1f2937;
+		border: 2px solid #1f2937; /* Gray-800 */
 	}
 </style>
