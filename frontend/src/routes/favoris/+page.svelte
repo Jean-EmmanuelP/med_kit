@@ -20,7 +20,7 @@
 
 {#if currentUserId}
     <ArticleListView
-        pageTitle="Mes Articles Favoris"
+        pageTitle="Mes articles favoris"
         filters={filtersForView}
         initialFilterValue={ALL_CATEGORIES_VALUE}
         filterSelectLabel="Filtrer par discipline"
