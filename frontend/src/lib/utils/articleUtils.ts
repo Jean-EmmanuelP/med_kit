@@ -12,8 +12,11 @@ export interface Article {
 	// Add other potential fields if needed from your API response
 	article_id?: string | number; // Handle potential variations in ID naming
 	is_read?: boolean; // Track if the article has been read by the user
-	is_liked?: boolean; // Track if the article has been liked by the user
-	like_count?: number; // Track the number of likes for the article
+	is_liked?: boolean; // Track if the article has been liked by the user (heart icon)
+	like_count?: number; // Track the number of likes for the article (heart icon)
+	read_count?: number; // Track total reads for the article
+	is_thumbed_up?: boolean; // <<< NEW: Track if the article has been thumbed up by the user
+	thumbs_up_count?: number; // <<< NEW: Track the number of thumbs up for the article
 }
 
 export interface ContentSection {
@@ -65,16 +68,6 @@ export function extractTitleEmoji(content: string): string {
 				return parts[1] || '📝'; // Return the emoji after '#'
 			}
 		}
-		// Fallback check for H2 level if H1 not found (optional, based on your content structure)
-		// else if (
-		// 	line.trim().startsWith('## 📝') ||
-		// 	line.trim().startsWith('## 📌') // ... etc for H2
-		// ) {
-		// 	const parts = line.trim().split(' ');
-        //  if (parts.length > 0) {
-		// 	    return parts[0].replace(/^##\s*/, '') || '📝'; // Return the emoji at the start of H2
-        //  }
-		// }
 	}
 	return '📝'; // Default emoji
 }
@@ -145,5 +138,12 @@ export function parseContent(content: string): ContentSection[] {
 
 // Helper to get a consistent ID, handling both 'id' and 'article_id'
 export function getArticleId(article: Article): string | number {
-    return article.id ?? article.article_id ?? Date.now() + Math.random(); // Fallback needed if no id provided
+    // Prioritize 'id', then 'article_id', then generate fallback
+    const id = article.id ?? article.article_id;
+    if (id !== null && id !== undefined) {
+        return id;
+    }
+    // Fallback if no ID is present (should be rare)
+    console.warn("Article missing 'id' and 'article_id', generating fallback ID.");
+    return Date.now() + Math.random();
 }

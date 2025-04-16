@@ -436,41 +436,51 @@
     }
 
     // --- Handle Like Toggle ---
-    function handleLikeToggle(event: CustomEvent<{
-		articleId: number | string;
-		currentlyLiked: boolean;
-		currentLikeCount: number;
-	}>) {
+    function handleLikeToggle(event: CustomEvent<{ articleId: number | string; currentlyLiked: boolean; currentLikeCount: number; }>) {
 		const { articleId, currentlyLiked, currentLikeCount } = event.detail;
-		const currentUser = $userProfileStore;
-
-		if (!currentUser) {
-			console.warn("User not logged in, cannot toggle like.");
-            // Optionally redirect to login or show message
-			return;
-		}
-
-        // If on the liked articles page and unliking, show confirmation
-		if (isLikedArticlesView && currentlyLiked) {
-			articleToUnlike = { articleId, currentlyLiked, currentLikeCount };
-			showUnlikeConfirmModal = true;
-			return; // Wait for modal confirmation
-		}
-
-		// Perform immediate toggle for liking or unliking on other pages
-		const newStateIsLiked = !currentlyLiked;
-		const newLikeCount = currentlyLiked ? Math.max(0, currentLikeCount - 1) : currentLikeCount + 1;
-
-		performOptimisticLikeUpdate(articleId, newStateIsLiked, newLikeCount);
-		triggerLikeApiCall(articleId, currentlyLiked, currentLikeCount); // Pass original state for potential revert
-
-        // If unliking on the Liked Articles page AFTER confirmation (or directly if not on that page)
-        // Remove the article visually ONLY IF it's the liked articles view
-        if (isLikedArticlesView && newStateIsLiked === false) {
-             console.log(`Optimistically removing unliked article ${articleId} from Liked Articles view.`);
-             removeArticleFromUI(articleId);
-        }
+		const currentUser = $userProfileStore; if (!currentUser) { console.warn("User not logged in, cannot toggle like."); return; }
+		if (isLikedArticlesView && currentlyLiked) { articleToUnlike = { articleId, currentlyLiked, currentLikeCount }; showUnlikeConfirmModal = true; return; }
+		const newStateIsLiked = !currentlyLiked; const newLikeCount = currentlyLiked ? Math.max(0, currentLikeCount - 1) : currentLikeCount + 1;
+		performOptimisticLikeUpdate(articleId, newStateIsLiked, newLikeCount); triggerLikeApiCall(articleId, currentlyLiked, currentLikeCount);
+        if (isLikedArticlesView && newStateIsLiked === false) { removeArticleFromUI(articleId); }
 	}
+
+    // --- Handle Thumbs Up Toggle ---
+    function handleThumbsUpToggle(event: CustomEvent<{ articleId: number | string; currentlyThumbedUp: boolean; currentThumbsUpCount: number; }>) {
+        const { articleId, currentlyThumbedUp, currentThumbsUpCount } = event.detail;
+        const currentUser = $userProfileStore;
+        if (!currentUser) { console.warn("User not logged in, cannot toggle thumbs-up."); return; }
+        const newStateIsThumbedUp = !currentlyThumbedUp;
+        const newThumbsUpCount = currentlyThumbedUp ? Math.max(0, currentThumbsUpCount - 1) : currentThumbsUpCount + 1;
+        performOptimisticThumbsUpUpdate(articleId, newStateIsThumbedUp, newThumbsUpCount);
+        triggerThumbsUpApiCall(articleId, currentlyThumbedUp, currentThumbsUpCount);
+    }
+    function performOptimisticThumbsUpUpdate(articleId: number | string, newStateIsThumbedUp: boolean, newThumbsUpCount: number) {
+        // console.log(`Optimistic ThumbsUp Update: Setting thumbed_up=${newStateIsThumbedUp}, count=${newThumbsUpCount} for article ${articleId}`);
+        if (articleOfTheDay && getArticleId(articleOfTheDay) === articleId) {
+            articleOfTheDay = { ...articleOfTheDay, is_thumbed_up: newStateIsThumbedUp, thumbs_up_count: newThumbsUpCount };
+        }
+        articles = articles.map(a =>
+            getArticleId(a) === articleId ? { ...a, is_thumbed_up: newStateIsThumbedUp, thumbs_up_count: newThumbsUpCount } : a
+        );
+    }
+    function triggerThumbsUpApiCall(articleId: number | string, originalIsThumbedUp: boolean, originalThumbsUpCount: number) {
+        if (typeof articleId !== 'number' || isNaN(articleId)) { console.warn("Cannot toggle thumbs-up: Invalid article ID.", articleId); return; }
+        const revertThumbsUpUpdate = () => {
+            // console.log(`Reverting thumbs-up status for article ${articleId} to thumbed_up=${originalIsThumbedUp}, count=${originalThumbsUpCount}`);
+            performOptimisticThumbsUpUpdate(articleId, originalIsThumbedUp, originalThumbsUpCount);
+        };
+        fetch('/api/toggle-article-thumbs-up', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ articleId: articleId }), })
+        .then(async (response) => {
+            const responseData = await response.json().catch(() => ({}));
+            if (!response.ok) { console.error(`API error toggling thumbs-up for article ${articleId}:`, response.status, responseData.message || response.statusText); revertThumbsUpUpdate(); }
+            else {
+                const currentOptimisticState = getArticleFromState(articleId);
+                if (currentOptimisticState && currentOptimisticState.is_thumbed_up !== responseData.thumbed_up) { console.warn(`Optimistic thumbs-up state mismatch for ${articleId}. Reverting.`); revertThumbsUpUpdate(); }
+            }
+        })
+        .catch((error) => { console.error(`Network error toggling thumbs-up for article ${articleId}:`, error); revertThumbsUpUpdate(); });
+    }
 
 	// --- Modal Event Handlers ---
 	function handleConfirmUnlike() {
@@ -832,12 +842,7 @@
                     <h2 class="text-2xl font-bold text-teal-500">🔥 Article du jour</h2>
                     <p class="mt-2 mb-4 text-gray-400">Article selectionné aujourd'hui pour {filterForTitle} :</p>
                     <ul class="space-y-4">
-                        <ArticleCard
-                            article={articleOfTheDay}
-                            on:open={openImmersive}
-                            on:likeToggle={handleLikeToggle}
-                            on:toggleRead={handleToggleRead}
-                        />
+                        <ArticleCard article={articleOfTheDay} on:open={openImmersive} on:likeToggle={handleLikeToggle} on:toggleRead={handleToggleRead} on:thumbsUpToggle={handleThumbsUpToggle}/>
                     </ul>
                 </div>
             {/if}
@@ -880,12 +885,7 @@
 
                 <ul class="space-y-4">
                     {#each articles as article (getArticleId(article))}
-                        <ArticleCard
-                            {article}
-                            on:open={openImmersive}
-                            on:likeToggle={handleLikeToggle}
-                            on:toggleRead={handleToggleRead}
-                        />
+                        <ArticleCard {article} on:open={openImmersive} on:likeToggle={handleLikeToggle} on:toggleRead={handleToggleRead} on:thumbsUpToggle={handleThumbsUpToggle}/>
                     {/each}
 				</ul>
 

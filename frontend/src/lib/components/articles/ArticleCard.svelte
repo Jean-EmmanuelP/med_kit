@@ -12,29 +12,33 @@
 	const { article } = $props<{ article: Article }>();
 	const dispatch = createEventDispatcher<{
 		open: Article,
-		likeToggle: {
+		likeToggle: { // Heart icon (Saved/Favorite)
 			articleId: number | string;
 			currentlyLiked: boolean;
 			currentLikeCount: number;
 		},
-		toggleRead: Article // Use the toggleRead event
+		toggleRead: Article, // Eye icon
+		thumbsUpToggle: { // <<< NEW: Thumbs up icon
+			articleId: number | string;
+			currentlyThumbedUp: boolean;
+			currentThumbsUpCount: number;
+		}
 	}>();
 
 	const emoji = $derived(extractTitleEmoji(article.content));
 	const displayTitle = $derived(formatTitle(article.title));
 	const displayDate = $derived(formatDate(article.published_at));
 	const articleId = $derived(getArticleId(article));
-	// Keep like count available if needed later
-	// const displayLikeCount = $derived(article.like_count != null ? article.like_count.toLocaleString() : '0');
-	// --- NEW: Format read count ---
-	const displayLikeCount = $derived(article.like_count != null ? article.like_count.toLocaleString() : '0');
-	const displayReadCount = $derived(article.read_count != null ? article.read_count.toLocaleString() : '0');
+	// Format counts
+	const displayLikeCount = $derived(article.like_count != null ? article.like_count.toLocaleString() : '0'); // Heart count
+	const displayReadCount = $derived(article.read_count != null ? article.read_count.toLocaleString() : '0'); // Eye count
+	const displayThumbsUpCount = $derived(article.thumbs_up_count != null ? article.thumbs_up_count.toLocaleString() : '0'); // <<< NEW: Thumbs up count
 
 	function handleCardClick() {
 		dispatch('open', article);
 	}
 
-	function handleLikeClick() {
+	function handleLikeClick() { // Heart toggle
 		dispatch('likeToggle', {
 			articleId: articleId,
 			currentlyLiked: article.is_liked ?? false,
@@ -42,9 +46,18 @@
 		});
 	}
 
-	function handleToggleReadClick() {
+	function handleToggleReadClick() { // Eye toggle
 		console.log(`Toggle Read button clicked for article: ${articleId}, current state: ${article.is_read}`);
 		dispatch('toggleRead', article);
+	}
+
+	// <<< NEW: Handler for thumbs up toggle
+	function handleThumbsUpClick() {
+		dispatch('thumbsUpToggle', {
+			articleId: articleId,
+			currentlyThumbedUp: article.is_thumbed_up ?? false,
+			currentThumbsUpCount: article.thumbs_up_count ?? 0
+		});
 	}
 </script>
 
@@ -53,7 +66,7 @@
 	class="relative cursor-pointer list-none rounded-lg bg-gray-800 p-4 pb-8 shadow-md transition-all duration-200 hover:bg-gray-700 hover:shadow-xl"
 	data-article-id={articleId}
 >
-	<!-- Status Icons Container -->
+	<!-- Status Icons Container (Top Right) -->
 	<div class="absolute top-2 right-2 flex items-center space-x-2">
 		<!-- Read Status Eye Icon / Button -->
 		<button
@@ -78,7 +91,29 @@
 			{/if}
 		</button>
 
-		<!-- Like Button/Icon -->
+        <!-- <<< NEW: Thumbs Up Button/Icon >>> -->
+		<button
+			type="button"
+			aria-label={article.is_thumbed_up ? "Retirer le pouce levé" : "Mettre un pouce levé"}
+			title={article.is_thumbed_up ? "Retirer le pouce levé" : "Mettre un pouce levé"}
+			on:click|stopPropagation={handleThumbsUpClick}
+			class="focus:outline-none rounded-full p-0.5 transition-transform duration-100 ease-in-out hover:scale-110 active:scale-95 focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2 focus-visible:ring-offset-gray-800"
+		>
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                 class:w-5={true}
+                 class:h-5={true}
+                 class:fill-blue-500={article.is_thumbed_up}
+                 class:text-blue-500={article.is_thumbed_up}
+                 class:fill-gray-500={!article.is_thumbed_up}
+                 class:text-gray-500={!article.is_thumbed_up}
+                 class:hover:fill-blue-400={!article.is_thumbed_up}
+                 class:hover:text-blue-400={!article.is_thumbed_up}
+                 class="pointer-events-none">
+                <path d="M7.493 19.5c-.425 0-.82-.236-.975-.632A7.48 7.48 0 0 1 6 15.125c0-1.75.599-3.358 1.602-4.634.151-.192.373-.309.6-.397.473-.183.89-.514 1.212-.924a9.042 9.042 0 0 1 2.861-2.4c.723-.384 1.35-.956 1.653-1.715a4.498 4.498 0 0 0 .322-1.672V3a.75.75 0 0 1 .75-.75 2.25 2.25 0 0 1 2.25 2.25c0 1.152-.26 2.243-.723 3.218-.266.558.107 1.282.725 1.282h3.126c1.026 0 1.945.694 2.054 1.715.045.422.068.85.068 1.285a11.95 11.95 0 0 1-2.649 7.521c-.388.482-.987.729-1.605.729H14.23c-.483 0-.964-.078-1.423-.23l-3.114-1.04a4.501 4.501 0 0 0-1.423-.23h-.777ZM2.331 10.727a11.969 11.969 0 0 0-.831 4.398 12 12 0 0 0 .52 3.507C2.28 19.482 3.105 20 3.994 20H4.9c.445 0 .72-.498.523-.898a8.963 8.963 0 0 1-.924-3.977c0-1.708.476-3.305 1.302-4.666.245-.403-.028-.959-.5-.959H4.25c-.832 0-1.612.453-1.918 1.227Z" />
+            </svg>
+		</button>
+
+		<!-- Like (Heart) Button/Icon -->
 		<button
 			type="button"
 			aria-label={article.is_liked ? "Retirer des favoris" : "Ajouter aux favoris"}
@@ -106,7 +141,7 @@
 		</button>
 	</div>
 
-	<h3 class="text-left text-lg font-bold text-white pr-16">
+	<h3 class="text-left text-lg font-bold text-white pr-24"> <!-- Increased pr to avoid overlap -->
 		<span class="mr-2">{emoji}</span>{displayTitle}
 	</h3>
 	{#if article.grade}
@@ -125,7 +160,7 @@
 		<span>{displayDate}</span>
 	</div>
 
-	<!-- Read Count and Like Count Display (Side by Side) -->
+	<!-- Counts Display (Bottom Right) -->
 	<div class="absolute bottom-2 right-3 flex items-center space-x-3 text-xs text-gray-400">
 		{#if article.read_count != null}
 			<div class="flex items-center space-x-1" title="Nombre total de lectures">
@@ -135,6 +170,16 @@
 					<path fill-rule="evenodd" d="M1.323 11.447C2.811 6.976 7.028 3.75 12.001 3.75c4.97 0 9.185 3.223 10.675 7.69.12.362.12.752 0 1.113-1.487 4.471-5.705 7.697-10.677 7.697-4.97 0-9.186-3.223-10.675-7.69a1.762 1.762 0 0 1 0-1.113ZM17.25 12a5.25 5.25 0 1 1-10.5 0 5.25 5.25 0 0 1 10.5 0Z" clip-rule="evenodd" />
 				</svg>
 				<span>{displayReadCount}</span>
+			</div>
+		{/if}
+
+        <!-- <<< NEW: Thumbs Up Count Display >>> -->
+		{#if article.thumbs_up_count != null}
+			<div class="flex items-center space-x-1" title="Nombre total de pouces levés">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-3.5 h-3.5 text-blue-500">
+                    <path d="M7.493 19.5c-.425 0-.82-.236-.975-.632A7.48 7.48 0 0 1 6 15.125c0-1.75.599-3.358 1.602-4.634.151-.192.373-.309.6-.397.473-.183.89-.514 1.212-.924a9.042 9.042 0 0 1 2.861-2.4c.723-.384 1.35-.956 1.653-1.715a4.498 4.498 0 0 0 .322-1.672V3a.75.75 0 0 1 .75-.75 2.25 2.25 0 0 1 2.25 2.25c0 1.152-.26 2.243-.723 3.218-.266.558.107 1.282.725 1.282h3.126c1.026 0 1.945.694 2.054 1.715.045.422.068.85.068 1.285a11.95 11.95 0 0 1-2.649 7.521c-.388.482-.987.729-1.605.729H14.23c-.483 0-.964-.078-1.423-.23l-3.114-1.04a4.501 4.501 0 0 0-1.423-.23h-.777ZM2.331 10.727a11.969 11.969 0 0 0-.831 4.398 12 12 0 0 0 .52 3.507C2.28 19.482 3.105 20 3.994 20H4.9c.445 0 .72-.498.523-.898a8.963 8.963 0 0 1-.924-3.977c0-1.708.476-3.305 1.302-4.666.245-.403-.028-.959-.5-.959H4.25c-.832 0-1.612.453-1.918 1.227Z" />
+                </svg>
+				<span>{displayThumbsUpCount}</span>
 			</div>
 		{/if}
 
