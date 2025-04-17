@@ -84,7 +84,7 @@
         aria-labelledby="immersive-title"
 	>
 		<div
-			class="relative max-h-[90vh] w-full max-w-4xl overflow-y-auto rounded-2xl bg-gray-900 p-6 md:p-8 shadow-2xl scrollbar-thin scrollbar-thumb-teal-500 scrollbar-track-gray-800"
+			class="modal-content relative max-h-[90vh] w-full max-w-4xl overflow-y-auto rounded-2xl bg-gray-900 p-6 md:p-8 shadow-2xl scrollbar-thin scrollbar-thumb-teal-500 scrollbar-track-gray-800"
 		>
 			<button
 				class="absolute top-3 right-3 text-3xl text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-teal-500 rounded-full p-1 leading-none"
@@ -148,14 +148,14 @@
 						<span class="mr-2 text-xl">{section.emoji}</span>
 						{section.title}
 					</h3>
-					<ul class="ml-4 list-disc space-y-1.5 pl-4 text-gray-300 marker:text-teal-500">
+					<ul class="section-content ml-4 list-disc space-y-1.5 pl-4 text-gray-300 marker:text-teal-500">
 						{#each section.content as paragraph (paragraph)}
-							<li>{paragraph}</li>
+							<li class="selectable-text">{paragraph}</li>
 						{/each}
 					</ul>
 				</div>
 			{:else}
-                <p class="text-gray-400">{article.content || "Contenu non disponible."}</p>
+                <p class="selectable-text text-gray-400">{article.content || "Contenu non disponible."}</p>
             {/each}
 
 			{#if article.link}
@@ -173,9 +173,25 @@
 {/if}
 
 <style>
+	.modal-content h2,
+	.modal-content h3,
+	.modal-content p,
+	.modal-content li,
+	.modal-content span:not(.mr-2) {
+		user-select: text !important;
+		-webkit-user-select: text !important;
+		cursor: text;
+	}
+
+	.selectable-text {
+		user-select: text !important;
+		-webkit-user-select: text !important;
+		cursor: text;
+	}
+
 	.scrollbar-thin {
 		scrollbar-width: thin;
-		scrollbar-color: #14b8a6 #1f2937; /* thumb track */
+		scrollbar-color: #14b8a6 #1f2937;
 	}
 
 	.scrollbar-thin::-webkit-scrollbar {
@@ -193,4 +209,20 @@
 		border-radius: 6px;
 		border: 2px solid #1f2937;
 	}
+
+    /* Enable text selection */
+    .relative {
+        user-select: text;
+        -webkit-user-select: text;
+        -moz-user-select: text;
+        -ms-user-select: text;
+    }
+
+    /* Ensure list items are selectable */
+    li {
+        user-select: text;
+        -webkit-user-select: text;
+        -moz-user-select: text;
+        -ms-user-select: text;
+    }
 </style>

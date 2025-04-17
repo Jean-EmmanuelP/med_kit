@@ -46,7 +46,7 @@
 	initialFilterValue={initialFilter}
 	filterSelectLabel="Mes spécialités"
 	showSignupPromptProp={true}
-	enableSearch={false}
+	enableSearch={true}
 	userId={currentUserId}
 	savedArticleIds={savedIdsSet}
 	articleOfTheDayTitleTemplate={articleOfTheDayTitleTemplate}
