@@ -9,7 +9,7 @@
         "@supabase/ssr": "^0.5.2",
         "@supabase/supabase-js": "^2.49.1",
         "dotenv": "^16.4.7",
-        "lucide-svelte": "^0.479.0",
+        "lucide-svelte": "^0.488.0",
         "luxon": "^3.5.0",
         "nprogress": "^0.2.0",
         "stripe": "^18.0.0",
@@ -508,7 +508,7 @@
 
     "lodash.merge": ["lodash.merge@4.6.2", "", {}, "sha512-0KpjqXRVvrYyCsX1swR/XTK0va6VQkQM6MNo7PqW77ByjAhoARA8EfrP1N4+KlKj8YS0ZUCtRT/YUuhyYDujIQ=="],
 
-    "lucide-svelte": ["lucide-svelte@0.479.0", "", { "peerDependencies": { "svelte": "^3 || ^4 || ^5.0.0-next.42" } }, "sha512-epCj6WL86ykxg7oCQTmPEth5e11pwJUzIfG9ROUsWsTP+WPtb3qat+VmAjfx/r4TRW7memTFcbTPvMrZvKthqw=="],
+    "lucide-svelte": ["lucide-svelte@0.488.0", "", { "peerDependencies": { "svelte": "^3 || ^4 || ^5.0.0-next.42" } }, "sha512-omPkrOTn0bTZBqiC7fCDt2YGeR1iWGcEV814K8u0owUtFI57JwTTOfGnuiB8qdf3I4hBixiBXVigCQ1m0NIFwQ=="],
 
     "luxon": ["luxon@3.5.0", "", {}, "sha512-rh+Zjr6DNfUYR3bPwJEnuwDdqMbxZW7LOQfUN4B54+Cl+0o5zaU9RJ6bcidfDtC1cWCZXQ+nvX8bf6bAji37QQ=="],
 

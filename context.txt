@@ -2861,29 +2861,33 @@ frontend/src/lib/components/articles/ArticleCard.svelte
 	const { article } = $props<{ article: Article }>();
 	const dispatch = createEventDispatcher<{
 		open: Article,
-		likeToggle: {
+		likeToggle: { // Heart icon (Saved/Favorite)
 			articleId: number | string;
 			currentlyLiked: boolean;
 			currentLikeCount: number;
 		},
-		toggleRead: Article // Use the toggleRead event
+		toggleRead: Article, // Eye icon
+		thumbsUpToggle: { // <<< NEW: Thumbs up icon
+			articleId: number | string;
+			currentlyThumbedUp: boolean;
+			currentThumbsUpCount: number;
+		}
 	}>();
 
 	const emoji = $derived(extractTitleEmoji(article.content));
 	const displayTitle = $derived(formatTitle(article.title));
 	const displayDate = $derived(formatDate(article.published_at));
 	const articleId = $derived(getArticleId(article));
-	// Keep like count available if needed later
-	// const displayLikeCount = $derived(article.like_count != null ? article.like_count.toLocaleString() : '0');
-	// --- NEW: Format read count ---
-	const displayLikeCount = $derived(article.like_count != null ? article.like_count.toLocaleString() : '0');
-	const displayReadCount = $derived(article.read_count != null ? article.read_count.toLocaleString() : '0');
+	// Format counts
+	const displayLikeCount = $derived(article.like_count != null ? article.like_count.toLocaleString() : '0'); // Heart count
+	const displayReadCount = $derived(article.read_count != null ? article.read_count.toLocaleString() : '0'); // Eye count
+	const displayThumbsUpCount = $derived(article.thumbs_up_count != null ? article.thumbs_up_count.toLocaleString() : '0'); // <<< NEW: Thumbs up count
 
 	function handleCardClick() {
 		dispatch('open', article);
 	}
 
-	function handleLikeClick() {
+	function handleLikeClick() { // Heart toggle
 		dispatch('likeToggle', {
 			articleId: articleId,
 			currentlyLiked: article.is_liked ?? false,
@@ -2891,9 +2895,18 @@ frontend/src/lib/components/articles/ArticleCard.svelte
 		});
 	}
 
-	function handleToggleReadClick() {
+	function handleToggleReadClick() { // Eye toggle
 		console.log(`Toggle Read button clicked for article: ${articleId}, current state: ${article.is_read}`);
 		dispatch('toggleRead', article);
+	}
+
+	// <<< NEW: Handler for thumbs up toggle
+	function handleThumbsUpClick() {
+		dispatch('thumbsUpToggle', {
+			articleId: articleId,
+			currentlyThumbedUp: article.is_thumbed_up ?? false,
+			currentThumbsUpCount: article.thumbs_up_count ?? 0
+		});
 	}
 </script>
 
@@ -2902,7 +2915,7 @@ frontend/src/lib/components/articles/ArticleCard.svelte
 	class="relative cursor-pointer list-none rounded-lg bg-gray-800 p-4 pb-8 shadow-md transition-all duration-200 hover:bg-gray-700 hover:shadow-xl"
 	data-article-id={articleId}
 >
-	<!-- Status Icons Container -->
+	<!-- Status Icons Container (Top Right) -->
 	<div class="absolute top-2 right-2 flex items-center space-x-2">
 		<!-- Read Status Eye Icon / Button -->
 		<button
@@ -2927,7 +2940,29 @@ frontend/src/lib/components/articles/ArticleCard.svelte
 			{/if}
 		</button>
 
-		<!-- Like Button/Icon -->
+        <!-- <<< NEW: Thumbs Up Button/Icon >>> -->
+		<button
+			type="button"
+			aria-label={article.is_thumbed_up ? "Retirer le pouce levé" : "Mettre un pouce levé"}
+			title={article.is_thumbed_up ? "Retirer le pouce levé" : "Mettre un pouce levé"}
+			on:click|stopPropagation={handleThumbsUpClick}
+			class="focus:outline-none rounded-full p-0.5 transition-transform duration-100 ease-in-out hover:scale-110 active:scale-95 focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2 focus-visible:ring-offset-gray-800"
+		>
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                 class:w-5={true}
+                 class:h-5={true}
+                 class:fill-blue-500={article.is_thumbed_up}
+                 class:text-blue-500={article.is_thumbed_up}
+                 class:fill-gray-500={!article.is_thumbed_up}
+                 class:text-gray-500={!article.is_thumbed_up}
+                 class:hover:fill-blue-400={!article.is_thumbed_up}
+                 class:hover:text-blue-400={!article.is_thumbed_up}
+                 class="pointer-events-none">
+                <path d="M7.493 19.5c-.425 0-.82-.236-.975-.632A7.48 7.48 0 0 1 6 15.125c0-1.75.599-3.358 1.602-4.634.151-.192.373-.309.6-.397.473-.183.89-.514 1.212-.924a9.042 9.042 0 0 1 2.861-2.4c.723-.384 1.35-.956 1.653-1.715a4.498 4.498 0 0 0 .322-1.672V3a.75.75 0 0 1 .75-.75 2.25 2.25 0 0 1 2.25 2.25c0 1.152-.26 2.243-.723 3.218-.266.558.107 1.282.725 1.282h3.126c1.026 0 1.945.694 2.054 1.715.045.422.068.85.068 1.285a11.95 11.95 0 0 1-2.649 7.521c-.388.482-.987.729-1.605.729H14.23c-.483 0-.964-.078-1.423-.23l-3.114-1.04a4.501 4.501 0 0 0-1.423-.23h-.777ZM2.331 10.727a11.969 11.969 0 0 0-.831 4.398 12 12 0 0 0 .52 3.507C2.28 19.482 3.105 20 3.994 20H4.9c.445 0 .72-.498.523-.898a8.963 8.963 0 0 1-.924-3.977c0-1.708.476-3.305 1.302-4.666.245-.403-.028-.959-.5-.959H4.25c-.832 0-1.612.453-1.918 1.227Z" />
+            </svg>
+		</button>
+
+		<!-- Like (Heart) Button/Icon -->
 		<button
 			type="button"
 			aria-label={article.is_liked ? "Retirer des favoris" : "Ajouter aux favoris"}
@@ -2955,7 +2990,7 @@ frontend/src/lib/components/articles/ArticleCard.svelte
 		</button>
 	</div>
 
-	<h3 class="text-left text-lg font-bold text-white pr-16">
+	<h3 class="text-left text-lg font-bold text-white pr-24"> <!-- Increased pr to avoid overlap -->
 		<span class="mr-2">{emoji}</span>{displayTitle}
 	</h3>
 	{#if article.grade}
@@ -2974,7 +3009,7 @@ frontend/src/lib/components/articles/ArticleCard.svelte
 		<span>{displayDate}</span>
 	</div>
 
-	<!-- Read Count and Like Count Display (Side by Side) -->
+	<!-- Counts Display (Bottom Right) -->
 	<div class="absolute bottom-2 right-3 flex items-center space-x-3 text-xs text-gray-400">
 		{#if article.read_count != null}
 			<div class="flex items-center space-x-1" title="Nombre total de lectures">
@@ -2984,6 +3019,16 @@ frontend/src/lib/components/articles/ArticleCard.svelte
 					<path fill-rule="evenodd" d="M1.323 11.447C2.811 6.976 7.028 3.75 12.001 3.75c4.97 0 9.185 3.223 10.675 7.69.12.362.12.752 0 1.113-1.487 4.471-5.705 7.697-10.677 7.697-4.97 0-9.186-3.223-10.675-7.69a1.762 1.762 0 0 1 0-1.113ZM17.25 12a5.25 5.25 0 1 1-10.5 0 5.25 5.25 0 0 1 10.5 0Z" clip-rule="evenodd" />
 				</svg>
 				<span>{displayReadCount}</span>
+			</div>
+		{/if}
+
+        <!-- <<< NEW: Thumbs Up Count Display >>> -->
+		{#if article.thumbs_up_count != null}
+			<div class="flex items-center space-x-1" title="Nombre total de pouces levés">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-3.5 h-3.5 text-blue-500">
+                    <path d="M7.493 19.5c-.425 0-.82-.236-.975-.632A7.48 7.48 0 0 1 6 15.125c0-1.75.599-3.358 1.602-4.634.151-.192.373-.309.6-.397.473-.183.89-.514 1.212-.924a9.042 9.042 0 0 1 2.861-2.4c.723-.384 1.35-.956 1.653-1.715a4.498 4.498 0 0 0 .322-1.672V3a.75.75 0 0 1 .75-.75 2.25 2.25 0 0 1 2.25 2.25c0 1.152-.26 2.243-.723 3.218-.266.558.107 1.282.725 1.282h3.126c1.026 0 1.945.694 2.054 1.715.045.422.068.85.068 1.285a11.95 11.95 0 0 1-2.649 7.521c-.388.482-.987.729-1.605.729H14.23c-.483 0-.964-.078-1.423-.23l-3.114-1.04a4.501 4.501 0 0 0-1.423-.23h-.777ZM2.331 10.727a11.969 11.969 0 0 0-.831 4.398 12 12 0 0 0 .52 3.507C2.28 19.482 3.105 20 3.994 20H4.9c.445 0 .72-.498.523-.898a8.963 8.963 0 0 1-.924-3.977c0-1.708.476-3.305 1.302-4.666.245-.403-.028-.959-.5-.959H4.25c-.832 0-1.612.453-1.918 1.227Z" />
+                </svg>
+				<span>{displayThumbsUpCount}</span>
 			</div>
 		{/if}
 
@@ -3122,8 +3167,35 @@ frontend/src/lib/components/articles/ArticleImmersiveModal.svelte
                 {#if displayDate !== 'Non spécifiée' && displayDate !== 'Date invalide'}
 				    <span>Publié le : {displayDate}</span>
                 {/if}
+                <span class="text-gray-600">•</span>
+                <div class="flex items-center space-x-3">
+                    {#if article.read_count != null}
+                        <div class="flex items-center space-x-1" title="Nombre total de lectures">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4 text-teal-400">
+                                <path d="M12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" />
+                                <path fill-rule="evenodd" d="M1.323 11.447C2.811 6.976 7.028 3.75 12.001 3.75c4.97 0 9.185 3.223 10.675 7.69.12.362.12.752 0 1.113-1.487 4.471-5.705 7.697-10.677 7.697-4.97 0-9.186-3.223-10.675-7.69a1.762 1.762 0 0 1 0-1.113ZM17.25 12a5.25 5.25 0 1 1-10.5 0 5.25 5.25 0 0 1 10.5 0Z" clip-rule="evenodd" />
+                            </svg>
+                            <span>{article.read_count.toLocaleString()}</span>
+                        </div>
+                    {/if}
+                    {#if article.thumbs_up_count != null}
+                        <div class="flex items-center space-x-1" title="Nombre total de pouces levés">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-3.5 h-3.5 text-blue-500">
+                                <path d="M7.493 19.5c-.425 0-.82-.236-.975-.632A7.48 7.48 0 0 1 6 15.125c0-1.75.599-3.358 1.602-4.634.151-.192.373-.309.6-.397.473-.183.89-.514 1.212-.924a9.042 9.042 0 0 1 2.861-2.4c.723-.384 1.35-.956 1.653-1.715a4.498 4.498 0 0 0 .322-1.672V3a.75.75 0 0 1 .75-.75 2.25 2.25 0 0 1 2.25 2.25c0 1.152-.26 2.243-.723 3.218-.266.558.107 1.282.725 1.282h3.126c1.026 0 1.945.694 2.054 1.715.045.422.068.85.068 1.285a11.95 11.95 0 0 1-2.649 7.521c-.388.482-.987.729-1.605.729H14.23c-.483 0-.964-.078-1.423-.23l-3.114-1.04a4.501 4.501 0 0 0-1.423-.23h-.777ZM2.331 10.727a11.969 11.969 0 0 0-.831 4.398 12 12 0 0 0 .52 3.507C2.28 19.482 3.105 20 3.994 20H4.9c.445 0 .72-.498.523-.898a8.963 8.963 0 0 1-.924-3.977c0-1.708.476-3.305 1.302-4.666.245-.403-.028-.959-.5-.959H4.25c-.832 0-1.612.453-1.918 1.227Z" />
+                            </svg>
+                            <span>{article.thumbs_up_count.toLocaleString()}</span>
+                        </div>
+                    {/if}
+                    {#if article.like_count != null}
+                        <div class="flex items-center space-x-1" title="Nombre total de favoris">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-3.5 h-3.5 fill-pink-500 text-pink-500">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+                            </svg>
+                            <span>{article.like_count.toLocaleString()}</span>
+                        </div>
+                    {/if}
+                </div>
 			</div>
-
 
 			{#each contentSections as section (section.title)}
 				<div class="mb-6">
@@ -3620,41 +3692,51 @@ frontend/src/lib/components/articles/ArticleListView.svelte
     }
 
     // --- Handle Like Toggle ---
-    function handleLikeToggle(event: CustomEvent<{
-		articleId: number | string;
-		currentlyLiked: boolean;
-		currentLikeCount: number;
-	}>) {
+    function handleLikeToggle(event: CustomEvent<{ articleId: number | string; currentlyLiked: boolean; currentLikeCount: number; }>) {
 		const { articleId, currentlyLiked, currentLikeCount } = event.detail;
-		const currentUser = $userProfileStore;
-
-		if (!currentUser) {
-			console.warn("User not logged in, cannot toggle like.");
-            // Optionally redirect to login or show message
-			return;
-		}
-
-        // If on the liked articles page and unliking, show confirmation
-		if (isLikedArticlesView && currentlyLiked) {
-			articleToUnlike = { articleId, currentlyLiked, currentLikeCount };
-			showUnlikeConfirmModal = true;
-			return; // Wait for modal confirmation
-		}
-
-		// Perform immediate toggle for liking or unliking on other pages
-		const newStateIsLiked = !currentlyLiked;
-		const newLikeCount = currentlyLiked ? Math.max(0, currentLikeCount - 1) : currentLikeCount + 1;
-
-		performOptimisticLikeUpdate(articleId, newStateIsLiked, newLikeCount);
-		triggerLikeApiCall(articleId, currentlyLiked, currentLikeCount); // Pass original state for potential revert
-
-        // If unliking on the Liked Articles page AFTER confirmation (or directly if not on that page)
-        // Remove the article visually ONLY IF it's the liked articles view
-        if (isLikedArticlesView && newStateIsLiked === false) {
-             console.log(`Optimistically removing unliked article ${articleId} from Liked Articles view.`);
-             removeArticleFromUI(articleId);
-        }
+		const currentUser = $userProfileStore; if (!currentUser) { console.warn("User not logged in, cannot toggle like."); return; }
+		if (isLikedArticlesView && currentlyLiked) { articleToUnlike = { articleId, currentlyLiked, currentLikeCount }; showUnlikeConfirmModal = true; return; }
+		const newStateIsLiked = !currentlyLiked; const newLikeCount = currentlyLiked ? Math.max(0, currentLikeCount - 1) : currentLikeCount + 1;
+		performOptimisticLikeUpdate(articleId, newStateIsLiked, newLikeCount); triggerLikeApiCall(articleId, currentlyLiked, currentLikeCount);
+        if (isLikedArticlesView && newStateIsLiked === false) { removeArticleFromUI(articleId); }
 	}
+
+    // --- Handle Thumbs Up Toggle ---
+    function handleThumbsUpToggle(event: CustomEvent<{ articleId: number | string; currentlyThumbedUp: boolean; currentThumbsUpCount: number; }>) {
+        const { articleId, currentlyThumbedUp, currentThumbsUpCount } = event.detail;
+        const currentUser = $userProfileStore;
+        if (!currentUser) { console.warn("User not logged in, cannot toggle thumbs-up."); return; }
+        const newStateIsThumbedUp = !currentlyThumbedUp;
+        const newThumbsUpCount = currentlyThumbedUp ? Math.max(0, currentThumbsUpCount - 1) : currentThumbsUpCount + 1;
+        performOptimisticThumbsUpUpdate(articleId, newStateIsThumbedUp, newThumbsUpCount);
+        triggerThumbsUpApiCall(articleId, currentlyThumbedUp, currentThumbsUpCount);
+    }
+    function performOptimisticThumbsUpUpdate(articleId: number | string, newStateIsThumbedUp: boolean, newThumbsUpCount: number) {
+        // console.log(`Optimistic ThumbsUp Update: Setting thumbed_up=${newStateIsThumbedUp}, count=${newThumbsUpCount} for article ${articleId}`);
+        if (articleOfTheDay && getArticleId(articleOfTheDay) === articleId) {
+            articleOfTheDay = { ...articleOfTheDay, is_thumbed_up: newStateIsThumbedUp, thumbs_up_count: newThumbsUpCount };
+        }
+        articles = articles.map(a =>
+            getArticleId(a) === articleId ? { ...a, is_thumbed_up: newStateIsThumbedUp, thumbs_up_count: newThumbsUpCount } : a
+        );
+    }
+    function triggerThumbsUpApiCall(articleId: number | string, originalIsThumbedUp: boolean, originalThumbsUpCount: number) {
+        if (typeof articleId !== 'number' || isNaN(articleId)) { console.warn("Cannot toggle thumbs-up: Invalid article ID.", articleId); return; }
+        const revertThumbsUpUpdate = () => {
+            // console.log(`Reverting thumbs-up status for article ${articleId} to thumbed_up=${originalIsThumbedUp}, count=${originalThumbsUpCount}`);
+            performOptimisticThumbsUpUpdate(articleId, originalIsThumbedUp, originalThumbsUpCount);
+        };
+        fetch('/api/toggle-article-thumbs-up', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ articleId: articleId }), })
+        .then(async (response) => {
+            const responseData = await response.json().catch(() => ({}));
+            if (!response.ok) { console.error(`API error toggling thumbs-up for article ${articleId}:`, response.status, responseData.message || response.statusText); revertThumbsUpUpdate(); }
+            else {
+                const currentOptimisticState = getArticleFromState(articleId);
+                if (currentOptimisticState && currentOptimisticState.is_thumbed_up !== responseData.thumbed_up) { console.warn(`Optimistic thumbs-up state mismatch for ${articleId}. Reverting.`); revertThumbsUpUpdate(); }
+            }
+        })
+        .catch((error) => { console.error(`Network error toggling thumbs-up for article ${articleId}:`, error); revertThumbsUpUpdate(); });
+    }
 
 	// --- Modal Event Handlers ---
 	function handleConfirmUnlike() {
@@ -4016,12 +4098,7 @@ frontend/src/lib/components/articles/ArticleListView.svelte
                     <h2 class="text-2xl font-bold text-teal-500">🔥 Article du jour</h2>
                     <p class="mt-2 mb-4 text-gray-400">Article selectionné aujourd'hui pour {filterForTitle} :</p>
                     <ul class="space-y-4">
-                        <ArticleCard
-                            article={articleOfTheDay}
-                            on:open={openImmersive}
-                            on:likeToggle={handleLikeToggle}
-                            on:toggleRead={handleToggleRead}
-                        />
+                        <ArticleCard article={articleOfTheDay} on:open={openImmersive} on:likeToggle={handleLikeToggle} on:toggleRead={handleToggleRead} on:thumbsUpToggle={handleThumbsUpToggle}/>
                     </ul>
                 </div>
             {/if}
@@ -4064,12 +4141,7 @@ frontend/src/lib/components/articles/ArticleListView.svelte
 
                 <ul class="space-y-4">
                     {#each articles as article (getArticleId(article))}
-                        <ArticleCard
-                            {article}
-                            on:open={openImmersive}
-                            on:likeToggle={handleLikeToggle}
-                            on:toggleRead={handleToggleRead}
-                        />
+                        <ArticleCard {article} on:open={openImmersive} on:likeToggle={handleLikeToggle} on:toggleRead={handleToggleRead} on:thumbsUpToggle={handleThumbsUpToggle}/>
                     {/each}
 				</ul>
 
@@ -5019,8 +5091,11 @@ export interface Article {
 	// Add other potential fields if needed from your API response
 	article_id?: string | number; // Handle potential variations in ID naming
 	is_read?: boolean; // Track if the article has been read by the user
-	is_liked?: boolean; // Track if the article has been liked by the user
-	like_count?: number; // Track the number of likes for the article
+	is_liked?: boolean; // Track if the article has been liked by the user (heart icon)
+	like_count?: number; // Track the number of likes for the article (heart icon)
+	read_count?: number; // Track total reads for the article
+	is_thumbed_up?: boolean; // <<< NEW: Track if the article has been thumbed up by the user
+	thumbs_up_count?: number; // <<< NEW: Track the number of thumbs up for the article
 }
 
 export interface ContentSection {
@@ -5072,16 +5147,6 @@ export function extractTitleEmoji(content: string): string {
 				return parts[1] || '📝'; // Return the emoji after '#'
 			}
 		}
-		// Fallback check for H2 level if H1 not found (optional, based on your content structure)
-		// else if (
-		// 	line.trim().startsWith('## 📝') ||
-		// 	line.trim().startsWith('## 📌') // ... etc for H2
-		// ) {
-		// 	const parts = line.trim().split(' ');
-        //  if (parts.length > 0) {
-		// 	    return parts[0].replace(/^##\s*/, '') || '📝'; // Return the emoji at the start of H2
-        //  }
-		// }
 	}
 	return '📝'; // Default emoji
 }
@@ -5152,7 +5217,14 @@ export function parseContent(content: string): ContentSection[] {
 
 // Helper to get a consistent ID, handling both 'id' and 'article_id'
 export function getArticleId(article: Article): string | number {
-    return article.id ?? article.article_id ?? Date.now() + Math.random(); // Fallback needed if no id provided
+    // Prioritize 'id', then 'article_id', then generate fallback
+    const id = article.id ?? article.article_id;
+    if (id !== null && id !== undefined) {
+        return id;
+    }
+    // Fallback if no ID is present (should be rare)
+    console.warn("Article missing 'id' and 'article_id', generating fallback ID.");
+    return Date.now() + Math.random();
 }
 --- End of File ---
 
@@ -8502,6 +8574,79 @@ export const GET = async ({ url, locals: { supabase, safeGetSession } }) => {
 --- End of File ---
 
 --- File Path ---
+frontend/src/routes/api/toggle-article-thumbs-up/+server.ts
+
+// src/routes/api/toggle-article-thumbs-up/+server.ts
+import { error, json } from '@sveltejs/kit';
+
+export const POST = async ({ request, locals: { supabase, safeGetSession } }) => {
+	// 1. Check Authentication
+	const { user } = await safeGetSession();
+	if (!user) {
+		throw error(401, 'Unauthorized');
+	}
+
+	// 2. Get Article ID from request body
+	let articleId: number;
+	try {
+		const body = await request.json();
+		if (!body || typeof body.articleId !== 'number' || isNaN(body.articleId)) {
+			throw new Error('Missing or invalid articleId');
+		}
+		articleId = body.articleId;
+	} catch (e: any) {
+		throw error(400, `Bad Request: ${e.message || 'Invalid JSON'}`);
+	}
+
+	// 3. Attempt to DELETE the thumbs-up first
+	console.log(`User ${user.id} toggling thumbs-up for article ${articleId}. Attempting delete...`);
+	const { count: deleteCount, error: deleteError } = await supabase
+		.from('article_thumbs_up')
+		.delete({ count: 'exact' }) // Request the count of deleted rows
+		.eq('user_id', user.id)
+		.eq('article_id', articleId);
+
+	if (deleteError) {
+		console.error(`Database error deleting thumbs-up for user ${user.id}, article ${articleId}:`, deleteError);
+		throw error(500, `Database error: ${deleteError.message}`);
+	}
+
+	// 4. If DELETE affected 0 rows, it means it wasn't thumbed-up -> INSERT
+	if (deleteCount === 0) {
+		console.log(`Article ${articleId} was not thumbed-up. Attempting insert...`);
+		const { error: insertError } = await supabase
+            .from('article_thumbs_up')
+            .insert({
+                user_id: user.id,
+                article_id: articleId,
+                // thumbed_up_at defaults to now()
+            });
+
+		if (insertError) {
+			console.error(`Database error inserting thumbs-up for user ${user.id}, article ${articleId}:`, insertError);
+            // Handle potential race conditions or other errors (e.g., FK violation)
+            if (insertError.code === '23503') { throw error(404, 'Article not found'); }
+            if (insertError.code === '23505') { /* Unique violation - likely race condition, treat as success? */ console.warn("Race condition likely on thumbs-up insert"); }
+            else { throw error(500, `Database error: ${insertError.message}`); }
+		} else {
+            // Successfully inserted (thumbed-up)
+            return json({ success: true, thumbed_up: true, message: 'Article thumbed up' }, { status: 201 }); // 201 Created
+        }
+	}
+
+	// 5. If DELETE affected > 0 rows, it means it was un-thumbed-up
+    if (deleteCount && deleteCount > 0) {
+        console.log(`Article ${articleId} successfully un-thumbed-up.`);
+	    return json({ success: true, thumbed_up: false, message: 'Article thumbed down' }, { status: 200 }); // 200 OK (or 204 No Content if preferred)
+    }
+
+    // Fallback/safety net - should ideally not be reached if deleteCount is exact
+    console.warn(`Unexpected state after toggle for article ${articleId}, user ${user.id}. Delete count was ${deleteCount}`);
+    return json({ success: true, message: 'Thumbs-up status toggled (check state)' }, { status: 200 });
+};
+--- End of File ---
+
+--- File Path ---
 frontend/src/routes/api/get-liked-articles/+server.ts
 
 // src/routes/api/get-liked-articles/+server.ts
@@ -9403,6 +9548,17 @@ export default ts.config(
 	}
 );
 
+--- End of File ---
+
+--- File Path ---
+frontend/.env
+
+PUBLIC_SUPABASE_URL=https://etxelhjnqbrgwuitltyk.supabase.co/
+PUBLIC_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImV0eGVsaGpucWJyZ3d1aXRsdHlrIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDA2OTE5NzAsImV4cCI6MjA1NjI2Nzk3MH0.EvaK9bCSYaBVaVOIgakKTAVoM8UrDYg2HX7Z-iyWoD4
+STRIPE_SECRET_KEY=sk_test_51Q7KpgE2xMN98zLta7AHQXrI0zi9iLk58TMW4QYSSEZREQKr75bX8A5KyyJn2bkBYgTp25LASIOb6gpLuaGikRfv00ZW0yoNKf
+PUBLIC_STRIPE_KEY=pk_test_51Q7KpgE2xMN98zLtWyAGwBgmOGWJv0NqFD3NQfesdJFI6XGP8TQ6VA7SIAlWI96ILhvL4GQWNZbcSKWoAUyr8z50006vAHfTQC
+STRIPE_MONTHLY_PRICE_ID=price_1RBFmjE2xMN98zLtgSA1AE2o
+STRIPE_YEARLY_PRICE_ID=price_1RBFnPE2xMN98zLt6ghSWNwW
 --- End of File ---
 
 --- File Path ---
