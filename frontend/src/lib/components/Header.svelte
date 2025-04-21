@@ -113,6 +113,14 @@
 				>
 					Qui sommes-nous ?
 				</a>
+				<a
+					href="/comite"
+					class="font-sans text-sm font-medium {lastScrollY > 0
+						? 'text-black hover:text-gray-700'
+						: 'text-white hover:text-gray-300'} transition-colors duration-200"
+				>
+					Comité scientifique
+				</a>
 				<div class="account-menu relative">
 					<button
 						onclick={() => (showAccountMenu = !showAccountMenu)}
@@ -208,6 +216,13 @@
 							class="block px-6 py-3 text-base hover:bg-gray-100"
 						>
 							Qui sommes-nous ?
+						</a>
+						<a
+							href="/comite"
+							onclick={closeMobileMenu}
+							class="block px-6 py-3 text-base hover:bg-gray-100"
+						>
+							Comité scientifique
 						</a>
 						<a
 							href="/account"

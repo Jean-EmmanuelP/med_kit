@@ -4,7 +4,7 @@
 
     // Fonction pour gérer la déconnexion (si nécessaire)
     function handleLogout() {
-        // Logique de déconnexion (à implémenter selon votre système d’authentification)
+        // Logique de déconnexion (à implémenter selon votre système d'authentification)
         userProfileStore.set(null); // Simulé ici, remplacez par votre logique de déconnexion
     }
 </script>
@@ -24,17 +24,26 @@
                     <li>
                         <a href="/ma-veille" class="hover:underline">{$i18n.footer.myArticles}</a>
                     </li>
-                    <!-- <li>
-                        <a href="/ma-veille" class="hover:underline">{$i18n.footer.articles}</a>
-                    </li> -->
+                    <li>
+                        <a href="/comite" class="hover:underline">Comité scientifique</a>
+                    </li>
                     <li>
                         {#if $userProfileStore}
                             <a href="/account" class="hover:underline">{$i18n.footer.account}</a>
-                            <!-- Vous pouvez ajouter un lien/bouton de déconnexion ici si nécessaire -->
-                            <!-- <button on:click={handleLogout} class="hover:underline">Déconnexion</button> -->
                         {/if}
                     </li>
                 </ul>
+            </div>
+
+            <!-- Section Soutenez-nous -->
+            <div>
+                <h3 class="mb-4 text-lg font-semibold">Soutenez-nous</h3>
+                <a
+                    href="/donations"
+                    class="inline-block rounded-full border-2 border-white px-6 py-2 text-white transition-colors duration-200 hover:bg-white hover:text-blue-900"
+                >
+                    Faire un don
+                </a>
             </div>
 
             <!-- Bouton S'inscrire (si non connecté) -->
@@ -65,7 +74,7 @@
         <!-- Ligne de séparation -->
         <hr class="my-8 border-gray-600" />
 
-        <!-- Mention de droits d’auteur -->
+        <!-- Mention de droits d'auteur -->
         <div class="text-center text-sm text-gray-400">
             © {new Date().getFullYear()} Veille Médicale. Tous droits réservés.
         </div>

@@ -736,6 +736,22 @@ Je recommande 👌
                                 </button>
                             </form>
                         {/if}
+
+                        <!-- Lydia Payment Option -->
+                        <button type="button" disabled
+                            class="w-full rounded-lg border-2 p-4 text-left transition-colors border-gray-600 bg-gray-700 opacity-50 cursor-not-allowed">
+                            <div class="flex items-center justify-between">
+                                <div class="flex items-center gap-3">
+                                    <img 
+                                        src="https://cdn.newfinancer.com/wp-content/uploads/2022/09/lydia-logo-150x150.png" 
+                                        alt="Lydia" 
+                                        class="h-6 w-6 grayscale opacity-50"
+                                    />
+                                    <h3 class="font-semibold">Lydia</h3>
+                                </div>
+                                <span class="text-gray-400">Bientôt disponible</span>
+                            </div>
+                        </button>
                     </div>
                 {/if}
             </div>
