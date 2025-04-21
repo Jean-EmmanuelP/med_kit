@@ -4,6 +4,7 @@
     import { loadStripe, type PaymentRequest, type Stripe, type StripeElements, type StripeIbanElement, type StripePaymentElement, type StripePaymentRequest } from '@stripe/stripe-js';
     import { AlertCircle, Check, Copy } from 'lucide-svelte';
     import { onMount, tick } from 'svelte';
+    import FeedbackModal from '../../components/FeedbackModal.svelte';
 
     // --- Config ---
     const stripePublicKey = env.PUBLIC_STRIPE_KEY;
@@ -50,6 +51,8 @@ C'est un nouvel outil de veille scientifique qui t'envoie tous les articles esse
 Déjà +1000 soignants inscrits.
 Je recommande 👌
 👉 https://veillemedicale.fr`;
+
+    let isFeedbackModalOpen = $state(false);
 
     async function handleCopyShareText() {
         if (copyStatus === 'copied') return; // Don't do anything if already copied recently
@@ -619,6 +622,10 @@ Je recommande 👌
             ibanElement.mount('#iban-element');
         }
     }
+
+    function openFeedbackModal() {
+        isFeedbackModalOpen = true;
+    }
 </script>
 
 <svelte:head>
@@ -628,14 +635,14 @@ Je recommande 👌
 
 <main class="min-h-screen bg-black px-4 py-12 pt-20 text-white">
     <div class="mx-auto max-w-lg">
-        <h1 class="mb-4 text-center text-4xl font-bold tracking-tight">🧡 Soutenez-nous</h1>
-        <p class="mb-10 text-center text-xl text-gray-300">🙌 Vous aimez notre travail ? Aidez-nous à aller plus loin.</p>
-        <h2 class="mb-6 text-center text-2xl font-semibold">🤗 Comment contribuer ?</h2>
+        <h1 class="mb-4 text-center text-4xl font-bold tracking-tight">🧡 Contribuer à Veille Médicale</h1>
+        <p class="mb-10 text-center text-xl text-gray-300">Vous aimez notre travail ? Voici trois façons de nous aider à aller plus loin.</p>
 
         <div class="mb-8 space-y-6 rounded-lg bg-gray-800 p-6 shadow-lg md:p-8">
-            <!-- Amount Selection Section -->
+            <!-- Donation Section -->
             <div>
-                <p class="mb-4 text-lg font-medium">💰 Choisissez un montant (EUR)</p>
+                <h2 class="mb-4 text-lg font-medium">💝 Faire un don</h2>
+                <p class="mb-4 text-sm text-gray-400">Votre soutien financier aide directement les développeurs à améliorer l'outil. 100% des dons sont reversés à l'équipe technique.</p>
                 <div class="grid grid-cols-2 gap-3 sm:grid-cols-4">
                     {#each presetAmounts as amount}
                         <button type="button" on:click={() => selectAmount(amount)}
@@ -818,25 +825,25 @@ Je recommande 👌
                     </div>
                 {/if}
             </div>
+        </div>
 
-            <hr class="border-gray-700" />
-
+        <!-- Other Ways to Contribute -->
+        <div class="mt-8 space-y-6">
             <!-- Feedback Section -->
-            <div>
-                <p class="mb-4 text-lg font-medium">💌 Chaque retour = une vraie source d'idées</p>
-                <a
-                    href="mailto:contact@veillemedicale.fr"
+            <div class="rounded-lg bg-gray-800 p-6 shadow-lg md:p-8">
+                <h2 class="mb-4 text-lg font-medium">💌 Faire un retour</h2>
+                <p class="mb-4 text-sm text-gray-400">Votre avis compte ! Chaque retour est une source précieuse d'idées pour améliorer l'outil.</p>
+                <button
+                    on:click={openFeedbackModal}
                     class="inline-flex items-center gap-2 rounded-lg bg-blue-600 px-5 py-2.5 text-sm font-semibold text-white transition-colors duration-200 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:ring-offset-gray-800"
                 >
                     💌 Faire un retour
-                </a>
+                </button>
             </div>
 
-            <hr class="border-gray-700" />
-
             <!-- Share Section -->
-            <div>
-                <p class="mb-2 text-lg font-medium">📣 Partagez l'outil !</p>
+            <div class="rounded-lg bg-gray-800 p-6 shadow-lg md:p-8">
+                <h2 class="mb-4 text-lg font-medium">📣 Partager l'outil</h2>
                 <p class="mb-3 text-sm text-gray-400">Aidez vos collègues, internes, et amis soignants à rester à jour.</p>
                 <p class="mb-2 text-sm font-semibold">👉 Texte à copier-coller :</p>
                 <pre class="mb-3 whitespace-pre-wrap rounded-md bg-gray-700 p-3 font-mono text-xs text-gray-200">{shareText}</pre>
@@ -860,4 +867,6 @@ Je recommande 👌
             </div>
         </div>
     </div>
+
+    <FeedbackModal bind:isOpen={isFeedbackModalOpen} on:close={() => isFeedbackModalOpen = false} />
 </main>

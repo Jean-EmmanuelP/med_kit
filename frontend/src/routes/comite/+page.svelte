@@ -1,4 +1,6 @@
 <script lang="ts">
+	import { AlertTriangle, CheckCircle, Loader2 } from 'lucide-svelte';
+
 	// Define the referent data directly in the script
 	// Pre-sorted alphabetically by specialty for easier rendering
 	const referents = [
@@ -78,50 +80,73 @@
 
     // Helper to group referents by specialty for rendering headings correctly
     let currentSpecialty = '';
-    let showForm = false;
+    let showForm = $state(false);
     let showModal = false;
     let modalContent = '';
-    let formData = {
+
+    // Form Data State
+    let formData = $state({
         prenom: '',
         nom: '',
         statut: '',
         specialite: '',
         surSpecialite: '',
         centre: ''
-    };
+    });
 
-    function handleSubmit() {
-        const subject = "Candidature au comité scientifique";
-        const body = `Bonjour,
+    // Submission State
+    let submissionStatus: 'idle' | 'loading' | 'success' | 'error' = $state('idle');
+    let submissionMessage = $state('');
 
-Je souhaite rejoindre le comité scientifique de Veille Médicale.
+    function resetForm() {
+        formData = {
+            prenom: '',
+            nom: '',
+            statut: '',
+            specialite: '',
+            surSpecialite: '',
+            centre: ''
+        };
+        submissionStatus = 'idle';
+        submissionMessage = '';
+    }
 
-Informations :
-- Prénom : ${formData.prenom}
-- Nom : ${formData.nom}
-- Statut : ${formData.statut}
-- Spécialité : ${formData.specialite}
-- Sur-spécialité : ${formData.surSpecialite}
-- Centre d'exercice : ${formData.centre}
-
-Cordialement,
-${formData.prenom} ${formData.nom}`;
-
-        const mailtoLink = `mailto:contact@veillemedicale.fr?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-        
-        // Try to open mailto link
-        const mailtoWindow = window.open(mailtoLink, '_blank');
-        
-        // If mailto fails to open (window is null or closed), show modal
-        if (!mailtoWindow || mailtoWindow.closed) {
-            modalContent = `Adresse email : contact@veillemedicale.fr\n\nSujet : ${subject}\n\nMessage :\n${body}`;
-            showModal = true;
+    function toggleForm() {
+        showForm = !showForm;
+        // Reset form if hiding it after a submission attempt
+        if (!showForm) {
+            resetForm();
         }
     }
 
-    function closeModal() {
-        showModal = false;
-        modalContent = '';
+    async function handleSubmit() {
+        submissionStatus = 'loading';
+        submissionMessage = '';
+
+        try {
+            const response = await fetch('/api/committee-application', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(formData) // Send the reactive formData object
+            });
+
+            const result = await response.json().catch(() => ({})); // Attempt to parse JSON
+
+            if (!response.ok) {
+                 // Use message from API response if available
+                throw new Error(result.message || `Erreur ${response.status}: La requête a échoué.`);
+            }
+
+            submissionStatus = 'success';
+            submissionMessage = result.message || 'Candidature envoyée avec succès !';
+             // Optionally clear form fields here if you don't hide the whole form on success
+             // formData = { ... initial empty state ... };
+
+        } catch (err: any) {
+            console.error("Application submission error:", err);
+            submissionStatus = 'error';
+            submissionMessage = err.message || "Une erreur est survenue lors de l'envoi.";
+        }
     }
 
     // Function to get specialty-specific emoji
@@ -138,6 +163,13 @@ ${formData.prenom} ${formData.nom}`;
         };
         return emojiMap[specialty] || '⚕️';
     }
+
+    // Reset submission status if form is toggled off
+    $effect(() => {
+        if (!showForm && submissionStatus !== 'idle') {
+            resetForm();
+        }
+    });
 </script>
 
 <svelte:head>
@@ -176,7 +208,7 @@ ${formData.prenom} ${formData.nom}`;
             </ul>
             <div class="mt-6 text-center">
                 <button 
-                    on:click={() => showForm = !showForm}
+                    on:click={toggleForm}
                     class="bg-teal-500 hover:bg-teal-600 text-white font-semibold py-2 px-4 rounded-lg transition-colors"
                 >
                     {showForm ? 'Masquer le formulaire' : 'Rejoindre le comité'}
@@ -186,115 +218,110 @@ ${formData.prenom} ${formData.nom}`;
 
         {#if showForm}
             <!-- Section Formulaire -->
-            <section class="mb-16 rounded-lg bg-gray-800 p-6 shadow-lg">
+            <section class="mb-16 rounded-lg bg-gray-800 p-6 shadow-lg transition-all duration-300 ease-in-out">
                 <h2 class="mb-6 text-center text-2xl font-semibold text-white sm:text-3xl">
-                    ✍️ Formulaire d'inscription
+                    ✍️ Postuler au comité scientifique
                 </h2>
 
-                <form on:submit|preventDefault={handleSubmit} class="space-y-4">
-                    <div>
-                        <label for="prenom" class="block text-gray-300 mb-1">Prénom</label>
-                        <input
-                            type="text"
-                            id="prenom"
-                            bind:value={formData.prenom}
-                            class="w-full bg-gray-700 text-white rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-teal-500"
-                            required
-                        />
-                    </div>
-
-                    <div>
-                        <label for="nom" class="block text-gray-300 mb-1">Nom</label>
-                        <input
-                            type="text"
-                            id="nom"
-                            bind:value={formData.nom}
-                            class="w-full bg-gray-700 text-white rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-teal-500"
-                            required
-                        />
-                    </div>
-
-                    <div>
-                        <label for="statut" class="block text-gray-300 mb-1">Statut</label>
-                        <input
-                            type="text"
-                            id="statut"
-                            bind:value={formData.statut}
-                            placeholder="Interne, Docteur, Professeur…"
-                            class="w-full bg-gray-700 text-white rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-teal-500"
-                            required
-                        />
-                    </div>
-
-                    <div>
-                        <label for="specialite" class="block text-gray-300 mb-1">Spécialité</label>
-                        <input
-                            type="text"
-                            id="specialite"
-                            bind:value={formData.specialite}
-                            class="w-full bg-gray-700 text-white rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-teal-500"
-                            required
-                        />
-                    </div>
-
-                    <div>
-                        <label for="surSpecialite" class="block text-gray-300 mb-1">Sur-spécialité (optionnelle)</label>
-                        <input
-                            type="text"
-                            id="surSpecialite"
-                            bind:value={formData.surSpecialite}
-                            class="w-full bg-gray-700 text-white rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-teal-500"
-                        />
-                    </div>
-
-                    <div>
-                        <label for="centre" class="block text-gray-300 mb-1">Centre d'exercice</label>
-                        <input
-                            type="text"
-                            id="centre"
-                            bind:value={formData.centre}
-                            placeholder="CHU, hôpital, clinique, cabinet…"
-                            class="w-full bg-gray-700 text-white rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-teal-500"
-                            required
-                        />
-                    </div>
-
-                    <div class="bg-gray-700 p-4 rounded-lg mb-4">
-                        <p class="text-gray-300 mb-2">📝 Exemple :</p>
-                        <p class="text-gray-300 italic">
-                            Dr Xavier Montjou, Chirurgie orthopédique, Spécialiste en chirurgie de la main, AP-HP
-                        </p>
-                    </div>
-
-                    <button
-                        type="submit"
-                        class="w-full bg-teal-500 hover:bg-teal-600 text-white font-semibold py-2 px-4 rounded-lg transition-colors"
-                    >
-                        Envoyer ma candidature
-                    </button>
-                </form>
-            </section>
-        {/if}
-
-        <!-- Modal for email content -->
-        {#if showModal}
-            <div class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
-                <div class="bg-gray-800 p-6 rounded-lg max-w-2xl w-full mx-4">
-                    <h3 class="text-xl font-bold text-white mb-4">Email non envoyé</h3>
-                    <p class="text-gray-300 mb-4">Veuillez copier le contenu ci-dessous et l'envoyer manuellement :</p>
-                    <div class="bg-gray-700 p-4 rounded-lg mb-4">
-                        <pre class="text-gray-300 whitespace-pre-wrap">{modalContent}</pre>
-                    </div>
-                    <div class="flex justify-end">
-                        <button 
-                            on:click={closeModal}
-                            class="bg-teal-500 hover:bg-teal-600 text-white font-semibold py-2 px-4 rounded-lg transition-colors"
+                {#if submissionStatus === 'success'}
+                    <div class="flex flex-col items-center justify-center text-center py-8 px-4 bg-gray-700 rounded-lg">
+                        <CheckCircle class="h-12 w-12 text-green-400 mb-4" />
+                        <h3 class="text-xl font-semibold mb-2 text-white">Candidature Envoyée !</h3>
+                        <p class="text-gray-300 mb-6">{submissionMessage}</p>
+                        <button
+                            on:click={toggleForm}
+                            class="bg-gray-600 hover:bg-gray-500 text-white font-semibold py-2 px-4 rounded-lg transition-colors text-sm"
                         >
                             Fermer
                         </button>
                     </div>
-                </div>
-            </div>
+                {:else}
+                    <form on:submit|preventDefault={handleSubmit} class="space-y-4">
+                        <div>
+                            <label for="prenom" class="block text-gray-300 mb-1 text-sm">Prénom</label>
+                            <input
+                                type="text" id="prenom" bind:value={formData.prenom}
+                                class="w-full bg-gray-700 text-white rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-teal-500 border border-gray-600 text-sm"
+                                required disabled={submissionStatus === 'loading'}
+                            />
+                        </div>
+
+                        <div>
+                            <label for="nom" class="block text-gray-300 mb-1 text-sm">Nom</label>
+                            <input
+                                type="text" id="nom" bind:value={formData.nom}
+                                class="w-full bg-gray-700 text-white rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-teal-500 border border-gray-600 text-sm"
+                                required disabled={submissionStatus === 'loading'}
+                            />
+                        </div>
+
+                        <div>
+                            <label for="statut" class="block text-gray-300 mb-1 text-sm">Statut</label>
+                            <input
+                                type="text" id="statut" bind:value={formData.statut}
+                                placeholder="Interne, Docteur, Professeur…"
+                                class="w-full bg-gray-700 text-white rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-teal-500 border border-gray-600 text-sm"
+                                required disabled={submissionStatus === 'loading'}
+                            />
+                        </div>
+
+                        <div>
+                            <label for="specialite" class="block text-gray-300 mb-1 text-sm">Spécialité</label>
+                            <input
+                                type="text" id="specialite" bind:value={formData.specialite}
+                                class="w-full bg-gray-700 text-white rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-teal-500 border border-gray-600 text-sm"
+                                required disabled={submissionStatus === 'loading'}
+                            />
+                        </div>
+
+                        <div>
+                            <label for="surSpecialite" class="block text-gray-300 mb-1 text-sm">Sur-spécialité (optionnelle)</label>
+                            <input
+                                type="text" id="surSpecialite" bind:value={formData.surSpecialite}
+                                class="w-full bg-gray-700 text-white rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-teal-500 border border-gray-600 text-sm"
+                                disabled={submissionStatus === 'loading'}
+                            />
+                        </div>
+
+                        <div>
+                            <label for="centre" class="block text-gray-300 mb-1 text-sm">Centre d'exercice</label>
+                            <input
+                                type="text" id="centre" bind:value={formData.centre}
+                                placeholder="CHU, hôpital, clinique, cabinet…"
+                                class="w-full bg-gray-700 text-white rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-teal-500 border border-gray-600 text-sm"
+                                required disabled={submissionStatus === 'loading'}
+                            />
+                        </div>
+
+                        <div class="bg-gray-700/50 p-3 rounded-lg border border-gray-600">
+                            <p class="text-gray-400 text-xs mb-1">📝 Exemple :</p>
+                            <p class="text-gray-400 text-xs italic">
+                                Dr Xavier Montjou, Chirurgie orthopédique, Spécialiste en chirurgie de la main, AP-HP
+                            </p>
+                        </div>
+
+                        <div class="pt-2 space-y-3">
+                            {#if submissionStatus === 'error'}
+                                <p class="text-sm text-red-400 flex items-center gap-1.5 p-3 bg-red-900/30 border border-red-700 rounded-md" role="alert">
+                                    <AlertTriangle class="h-4 w-4 flex-shrink-0"/> {submissionMessage}
+                                </p>
+                            {/if}
+                            <button
+                                type="submit"
+                                class="w-full inline-flex items-center justify-center bg-teal-500 hover:bg-teal-600 text-white font-semibold py-2.5 px-4 rounded-lg transition-colors disabled:opacity-60 disabled:cursor-not-allowed"
+                                disabled={submissionStatus === 'loading'}
+                            >
+                                {#if submissionStatus === 'loading'}
+                                    <Loader2 class="mr-2 h-5 w-5 animate-spin" />
+                                    Envoi en cours...
+                                {:else}
+                                    Envoyer ma candidature
+                                {/if}
+                            </button>
+                        </div>
+                    </form>
+                {/if}
+            </section>
         {/if}
 
         <!-- Liste des Référents -->
@@ -329,4 +356,15 @@ ${formData.prenom} ${formData.nom}`;
     h1, h2, h3 {
         font-family: 'Montserrat', sans-serif; /* Example: Use Montserrat */
     }
+    /* Add subtle transition for form appearance */
+    section {
+         transition: opacity 0.3s ease-in-out, max-height 0.5s ease-in-out;
+         overflow: hidden;
+    }
+     /* You might need to adjust max-height based on form content */
+     section:not([style*="max-height: 0px"]) {
+        max-height: 1000px; /* Adjust if form is taller */
+     }
+     /* Style for when form is hidden (if using max-height transition) */
+     /* [data-hidden="true"] { max-height: 0px; opacity: 0; margin-bottom: 0; padding-top: 0; padding-bottom: 0; } */
 </style>

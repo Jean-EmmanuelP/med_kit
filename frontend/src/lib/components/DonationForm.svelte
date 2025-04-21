@@ -1,8 +1,7 @@
 <script lang="ts">
-	import { createEventDispatcher } from 'svelte';
 	import { i18n } from '$lib/i18n';
-    import { fade } from 'svelte/transition';
-    import { AlertCircle } from 'lucide-svelte';
+	import { AlertCircle } from 'lucide-svelte';
+	import { createEventDispatcher } from 'svelte';
 
     // --- Props & Events ---
     const dispatch = createEventDispatcher<{ amountChange: number }>();

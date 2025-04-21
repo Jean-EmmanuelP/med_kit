@@ -1,7 +1,7 @@
 import { env } from '$env/dynamic/private';
+import type { RequestEvent } from '@sveltejs/kit';
 import { error, json } from '@sveltejs/kit';
 import Stripe from 'stripe';
-import type { RequestEvent } from '@sveltejs/kit';
 
 const stripeSecretKey = env.STRIPE_SECRET_KEY || process.env.STRIPE_SECRET_KEY;
 
