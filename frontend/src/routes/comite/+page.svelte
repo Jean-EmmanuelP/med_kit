@@ -81,8 +81,8 @@
     // Helper to group referents by specialty for rendering headings correctly
     let currentSpecialty = '';
     let showForm = $state(false);
-    let showModal = false;
-    let modalContent = '';
+    let showModal = false; // This state is no longer used for submission
+    let modalContent = ''; // This state is no longer used for submission
 
     // Form Data State
     let formData = $state({
@@ -193,7 +193,6 @@
 			<h1 class="mb-4 text-4xl font-bold text-white sm:text-5xl">
                 🏥 Référents par spécialité
             </h1>
-            <!-- <p class="text-lg text-gray-400">(classés par ordre alphabétique de spécialité)</p> -->
 		</header>
 
         <!-- Section Missions -->
@@ -207,7 +206,7 @@
                 {/each}
             </ul>
             <div class="mt-6 text-center">
-                <button 
+                <button
                     on:click={toggleForm}
                     class="bg-teal-500 hover:bg-teal-600 text-white font-semibold py-2 px-4 rounded-lg transition-colors"
                 >
@@ -352,19 +351,4 @@
 </div>
 
 <style>
-    /* Add any page-specific styles here if needed */
-    h1, h2, h3 {
-        font-family: 'Montserrat', sans-serif; /* Example: Use Montserrat */
-    }
-    /* Add subtle transition for form appearance */
-    section {
-         transition: opacity 0.3s ease-in-out, max-height 0.5s ease-in-out;
-         overflow: hidden;
-    }
-     /* You might need to adjust max-height based on form content */
-     section:not([style*="max-height: 0px"]) {
-        max-height: 1000px; /* Adjust if form is taller */
-     }
-     /* Style for when form is hidden (if using max-height transition) */
-     /* [data-hidden="true"] { max-height: 0px; opacity: 0; margin-bottom: 0; padding-top: 0; padding-bottom: 0; } */
 </style>
