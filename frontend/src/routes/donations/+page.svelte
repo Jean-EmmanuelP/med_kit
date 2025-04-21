@@ -691,10 +691,24 @@ Je recommande 👌
                     </div>
                 {:else}
                     <div class="space-y-3">
-                        {#if canMakePrPayment && isMobile}
-                            <div id="payment-request-button-mount-point" class={!prButton ? 'h-[48px] bg-gray-700 animate-pulse rounded-lg' : ''}>
-                                <!-- PR Button will be mounted here by `mountPrButton` -->
-                            </div>
+                        {#if isMobile}
+                            {#if canMakePrPayment}
+                                <div id="payment-request-button-mount-point" class={!prButton ? 'h-[48px] bg-gray-700 animate-pulse rounded-lg' : ''}>
+                                    <!-- PR Button will be mounted here by `mountPrButton` -->
+                                </div>
+                            {:else if !isLoadingStripe}
+                                <div class="rounded-md border border-yellow-600 bg-yellow-900/30 p-3 text-sm text-yellow-300 flex gap-2 items-start" role="alert">
+                                    <AlertCircle aria-hidden="true" class="h-4 w-4 flex-shrink-0 mt-0.5" />
+                                    <div>
+                                        <span class="font-medium">Paiement rapide indisponible</span><br>
+                                        <span class="text-xs text-yellow-400/90">
+                                            Google Pay / Apple Pay n'est pas activé ou n'est pas compatible avec ce navigateur/appareil.
+                                            Raisons possibles : absence de carte enregistrée, navigation privée, ou certaines extensions (ex: bloqueurs de publicités).
+                                            Vous pouvez essayer un autre navigateur ou vérifier vos paramètres.
+                                        </span>
+                                    </div>
+                                </div>
+                            {/if}
                         {/if}
 
                         <!-- Card Payment Option -->
