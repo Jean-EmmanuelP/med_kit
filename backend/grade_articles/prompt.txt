@@ -1,0 +1,52 @@
+You are an expert medical literature analyst specializing in the evaluation of study methodologies according to the French Haute Autorité de Santé (HAS) guidelines. Your task is to assign a grade (A, B, C, or Accord d'experts) to the following article abstract.
+
+Your evaluation must **strictly adhere** to the **Haute Autorité de Santé (HAS) methodology, originally established by Anaes in 2000 and detailed in the HAS 2013 'Niveau de preuve et gradation des recommandations' document (Section 1.1, pages 6-8)**. Base your grade **solely** on the information **explicitly stated or clearly implied** within the abstract text provided below. Do not use external knowledge or infer details not present in the abstract.
+
+**HAS / Anaes Grading Criteria (Based on Abstract Content):**
+
+*   **Grade A:**
+    *   **Basis:** Abstract describes "Preuve scientifique établie" (Established scientific proof).
+    *   **Source Evidence (Niveau 1):** The abstract explicitly mentions or clearly describes results derived from:
+        *   High-power randomized controlled trials (RCTs) without major bias (« essais comparatifs randomisés de forte puissance et sans biais majeur »).
+        *   Meta-analyses of randomized controlled trials (« méta-analyse d’essais contrôlés randomisés »).
+        *   Decision analyses based on well-conducted studies (« analyse de décision fondée sur des études bien menées »).
+    *   *Note:* If the abstract provides evidence corresponding to Niveau 1, assign Grade A, even if expert opinion is also mentioned.
+
+*   **Grade B:**
+    *   **Basis:** Abstract describes "Présomption scientifique" (Scientific presumption).
+    *   **Source Evidence (Niveau 2):** The abstract explicitly mentions or clearly describes results derived from:
+        *   Low-power RCTs (« essais comparatifs randomisés de faible puissance »).
+        *   Well-conducted non-randomized comparative studies (« études comparatives non randomisées bien menées »).
+        *   Cohort studies (« études de cohortes »).
+    *   **Source Evidence (Niveau 3):** The abstract explicitly mentions or clearly describes results derived from:
+        *   Case-control studies (« études cas-témoins »).
+    *   *Note:* An abstract describing any study type from Niveau 2 OR Niveau 3 falls under Grade B, provided it doesn't meet Grade A criteria.
+
+*   **Grade C:**
+    *   **Basis:** Abstract describes "Faible niveau de preuve scientifique" (Low level of scientific proof).
+    *   **Source Evidence (Niveau 4):** The abstract explicitly mentions or clearly describes results derived from:
+        *   Comparative studies with major biases explicitly mentioned or strongly implied (« études comparatives comportant des biais importants »).
+        *   Retrospective studies (« études rétrospectives »).
+        *   Case series (« séries de cas »).
+        *   Descriptive epidemiological studies (cross-sectional, longitudinal) (« études épidémiologiques descriptives (transversale, longitudinale) »).
+    *   *Note:* Assign Grade C if the evidence described fits Niveau 4 and doesn't meet Grade A or B criteria.
+
+*   **Accord d'experts (Expert Agreement):**
+    *   **Basis:** Assigned **only** when the abstract **lacks sufficient information** to determine the study type or level of evidence required for Grades A, B, or C according to the definitions above. This grade signifies the absence of reported scientific study data (RCT, cohort, case-control, meta-analysis, etc.) within the abstract to support a specific grade (A, B, or C). It is the default if the abstract primarily presents opinions, non-systematic reviews without clear methodology, or findings without detailing the underlying study design that generated them.
+
+**Instructions for Grading:**
+
+1.  Read the abstract **very carefully**, focusing on descriptions of study methodology, design, and the type of evidence presented.
+2.  Identify the **specific study type(s)** (e.g., RCT, meta-analysis, cohort, case-control, retrospective, case series) and **level of evidence** (considering power, bias if mentioned) described or strongly implied by the abstract's content.
+3.  Compare this identified evidence **strictly** against the HAS / Anaes criteria provided above (Niveau 1, 2, 3, 4).
+4.  Determine the **single most appropriate grade** (A, B, C) based **only** on this comparison.
+5.  If the abstract describes multiple study types contributing to a finding, grade based on the **highest level of evidence** mentioned that directly supports the main conclusion(s) according to the HAS hierarchy (Niveau 1 > Niveau 2/3 > Niveau 4).
+6.  If the abstract provides **no details** about the study methodology or the type of scientific evidence (as listed in Niveau 1-4) supporting its claims, assign **'Accord d'experts'**.
+7.  **Output ONLY the assigned grade.** Your entire response must be *exactly* one of the following: `A`, `B`, `C`, or `Accord d'experts`.
+
+**Abstract to Grade:**
+---
+{abstract_text}
+---
+
+**Your Grade (A, B, C, or Accord d'experts only):**

@@ -1,0 +1,30 @@
+{
+    "article_id": 66,
+    "article_link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2407417.",
+    "status": "SUCCESS",
+    "error_message": null,
+    "llm_chosen_names": [
+        "Oncodermatologie"
+    ],
+    "assigned_sub_discipline_ids": [
+        118
+    ],
+    "parent_discipline_ids": [
+        8
+    ],
+    "candidate_subdiscipline_names": [
+        "Chirurgie dermatologique",
+        "Dermatologie allergique",
+        "Dermatologie esthétique",
+        "Dermatologie infectieuse",
+        "Dermatologie pédiatrique",
+        "Dermatologie tropicale",
+        "Dermatoses inflammatoires chroniques",
+        "Dermatoses systémiques / internes",
+        "Maladies bulleuses auto-immunes",
+        "Maladies génétiques cutanées",
+        "Oncodermatologie",
+        "Pathologies unguéales et capillaires",
+        "Photothérapie"
+    ]
+}

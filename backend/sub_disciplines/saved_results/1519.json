@@ -1,0 +1,38 @@
+{
+    "article_id": 1519,
+    "article_link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.jaci.2024.01.028",
+    "status": "SUCCESS",
+    "error_message": null,
+    "llm_chosen_names": [
+        "Dermatoses inflammatoires chroniques"
+    ],
+    "assigned_sub_discipline_ids": [
+        113
+    ],
+    "parent_discipline_ids": [
+        35,
+        8
+    ],
+    "candidate_subdiscipline_names": [
+        "Allergies alimentaires",
+        "Allergies médicamenteuses",
+        "Allergies respiratoires",
+        "Chirurgie dermatologique",
+        "Dermatologie allergique",
+        "Dermatologie esthétique",
+        "Dermatologie infectieuse",
+        "Dermatologie pédiatrique",
+        "Dermatologie tropicale",
+        "Dermatoses",
+        "Dermatoses inflammatoires chroniques",
+        "Dermatoses systémiques / internes",
+        "Immunodéficiences",
+        "Immunothérapie spécifique",
+        "Maladies bulleuses auto-immunes",
+        "Maladies génétiques cutanées",
+        "Oncodermatologie",
+        "Pathologies unguéales et capillaires",
+        "Photothérapie",
+        "Tests allergologiques"
+    ]
+}

@@ -1,0 +1,21 @@
+You are acting as an arbiter for a medical literature grading task based on the French Haute Autorité de Santé (HAS) methodology (Anaes 2000 / HAS 2013).
+
+Two previous analyses of the following abstract resulted in conflicting grades according to the HAS criteria (Grade A: Niveau 1 evidence; Grade B: Niveau 2/3 evidence; Grade C: Niveau 4 evidence; Accord d'experts: No specific study evidence mentioned).
+
+The conflicting grades were:
+- First Analysis Result: {grade1}
+- Second Analysis Result: {grade2}
+
+**Your Task:**
+
+1.  Carefully re-read the abstract provided below.
+2.  Strictly apply the HAS / Anaes grading criteria (focusing on study types like RCTs, meta-analyses, cohort, case-control, retrospective, etc., mentioned in the abstract).
+3.  Determine which of the two conflicting grades ({grade1} or {grade2}) is the **most accurate** representation of the evidence presented **within the abstract** according to the HAS/Anaes rules. If neither seems correct based on a careful re-read, choose the grade (A, B, C, or Accord d'experts) that *is* most accurate according to the rules.
+4.  **Output ONLY the single, final, most accurate grade.** Your entire response must be *exactly* one of the following: `A`, `B`, `C`, or `Accord d'experts`.
+
+**Abstract to Evaluate:**
+---
+{abstract_text}
+---
+
+**Your Final Grade Choice (A, B, C, or Accord d'experts only):**

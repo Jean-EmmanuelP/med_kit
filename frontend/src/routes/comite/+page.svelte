@@ -79,6 +79,8 @@
     // Helper to group referents by specialty for rendering headings correctly
     let currentSpecialty = '';
     let showForm = false;
+    let showModal = false;
+    let modalContent = '';
     let formData = {
         prenom: '',
         nom: '',
@@ -106,7 +108,20 @@ Cordialement,
 ${formData.prenom} ${formData.nom}`;
 
         const mailtoLink = `mailto:contact@veillemedicale.fr?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-        window.location.href = mailtoLink;
+        
+        // Try to open mailto link
+        const mailtoWindow = window.open(mailtoLink, '_blank');
+        
+        // If mailto fails to open (window is null or closed), show modal
+        if (!mailtoWindow || mailtoWindow.closed) {
+            modalContent = `Adresse email : contact@veillemedicale.fr\n\nSujet : ${subject}\n\nMessage :\n${body}`;
+            showModal = true;
+        }
+    }
+
+    function closeModal() {
+        showModal = false;
+        modalContent = '';
     }
 
     // Function to get specialty-specific emoji
@@ -259,6 +274,27 @@ ${formData.prenom} ${formData.nom}`;
                     </button>
                 </form>
             </section>
+        {/if}
+
+        <!-- Modal for email content -->
+        {#if showModal}
+            <div class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+                <div class="bg-gray-800 p-6 rounded-lg max-w-2xl w-full mx-4">
+                    <h3 class="text-xl font-bold text-white mb-4">Email non envoyé</h3>
+                    <p class="text-gray-300 mb-4">Veuillez copier le contenu ci-dessous et l'envoyer manuellement :</p>
+                    <div class="bg-gray-700 p-4 rounded-lg mb-4">
+                        <pre class="text-gray-300 whitespace-pre-wrap">{modalContent}</pre>
+                    </div>
+                    <div class="flex justify-end">
+                        <button 
+                            on:click={closeModal}
+                            class="bg-teal-500 hover:bg-teal-600 text-white font-semibold py-2 px-4 rounded-lg transition-colors"
+                        >
+                            Fermer
+                        </button>
+                    </div>
+                </div>
+            </div>
         {/if}
 
         <!-- Liste des Référents -->

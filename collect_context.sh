@@ -31,6 +31,7 @@ EXCLUDE_NAMES=(
     "out"
     "bun.lockb"
     "bun.lock"
+    ".DS_Store"
     # Add more patterns or names as needed
 )
 

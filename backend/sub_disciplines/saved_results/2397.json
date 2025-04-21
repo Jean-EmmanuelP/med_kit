@@ -1,0 +1,61 @@
+{
+    "article_id": 2397,
+    "article_link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.ijnurstu.2025.105034",
+    "status": "SUCCESS",
+    "error_message": null,
+    "llm_chosen_names": [
+        "Prévention et dépistage",
+        "Diabète de type 2",
+        "Soins de premier recours",
+        "Téléconsultation et télésuivi"
+    ],
+    "assigned_sub_discipline_ids": [
+        134,
+        255,
+        256,
+        267
+    ],
+    "parent_discipline_ids": [
+        6,
+        1
+    ],
+    "candidate_subdiscipline_names": [
+        "Addictologie en soins primaires",
+        "Allergies et intolérances alimentaires",
+        "Complications du diabète",
+        "Diabète de type 1",
+        "Diabète de type 2",
+        "Diabète gestationnel",
+        "Diabètes rares ou secondaires",
+        "Dénutrition et sarcopénie",
+        "Endocrinologie de l’adolescence et de la fertilité",
+        "Endocrinologie génétique et néoplasique",
+        "Gériatrie de ville",
+        "Insulinothérapie fonctionnelle",
+        "Microbiote",
+        "Médecine de la personne en situation de précarité",
+        "Métabolisme phosphocalcique / vitaminique",
+        "Nutrition artificielle",
+        "Nutrition du sport et performance",
+        "Obésité",
+        "Pathologies des parathyroïdes",
+        "Pathologies gonadiques",
+        "Pathologies hypophysaires",
+        "Pathologies surrénaliennes",
+        "Pathologies thyroïdiennes",
+        "Prévention et dépistage",
+        "Prévention nutritionnelle des maladies métaboliques",
+        "Santé de la femme",
+        "Santé de l’enfant et de l’adolescent",
+        "Santé mentale en soins primaires",
+        "Soins de premier recours",
+        "Suivi de grossesse physiologique",
+        "Suivi des maladies chroniques",
+        "Technologies du diabète",
+        "Troubles du comportement alimentaire",
+        "Téléconsultation et télésuivi",
+        "Urgences et soins non programmés",
+        "Vaccination",
+        "Éducation thérapeutique du patient diabétique"
+    ]
+}

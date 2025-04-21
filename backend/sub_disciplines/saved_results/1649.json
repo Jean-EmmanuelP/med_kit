@@ -1,0 +1,35 @@
+{
+    "article_id": 1649,
+    "article_link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1007/s12630-024-02760-y",
+    "status": "SUCCESS",
+    "error_message": null,
+    "llm_chosen_names": [
+        "Pédiatrie générale",
+        "Urgences pédiatriques"
+    ],
+    "assigned_sub_discipline_ids": [
+        362,
+        374
+    ],
+    "parent_discipline_ids": [
+        20
+    ],
+    "candidate_subdiscipline_names": [
+        "Cardiopédiatrie",
+        "Gastro-entérologie pédiatrique",
+        "Génétique et maladies rares",
+        "Maladies infectieuses pédiatriques",
+        "Neuropédiatrie",
+        "Néonatologie",
+        "Néphropédiatrie",
+        "Onco-hématologie pédiatrique",
+        "Pneumopédiatrie",
+        "Pédiatrie du développement et troubles neurodéveloppementaux",
+        "Pédiatrie endocrinienne",
+        "Pédiatrie générale",
+        "Pédiatrie sociale et protection de l’enfance",
+        "Rhumatologie pédiatrique",
+        "Réanimation néonatale et pédiatrique",
+        "Urgences pédiatriques"
+    ]
+}

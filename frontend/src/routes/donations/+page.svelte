@@ -1,10 +1,9 @@
 <script lang="ts">
     import { env } from '$env/dynamic/public';
-    import { loadStripe, type Stripe, type StripeElements, type StripePaymentElement, type StripeIbanElement, type StripePaymentRequest, type StripePaymentRequestButtonElement, type PaymentRequest } from '@stripe/stripe-js';
-    import { onMount, tick } from 'svelte';
     import { i18n } from '$lib/i18n';
-    import { fade } from 'svelte/transition';
-    import { Copy, Check, AlertCircle } from 'lucide-svelte';
+    import { loadStripe, type PaymentRequest, type Stripe, type StripeElements, type StripeIbanElement, type StripePaymentElement, type StripePaymentRequest } from '@stripe/stripe-js';
+    import { AlertCircle, Check, Copy } from 'lucide-svelte';
+    import { onMount, tick } from 'svelte';
 
     // --- Config ---
     const stripePublicKey = env.PUBLIC_STRIPE_KEY;
@@ -41,6 +40,7 @@
     let canMakePrPayment = $state(false); // Availability of Apple/Google Pay
     let sepaMandateAccepted = $state(false); // Checkbox for SEPA mandate
     let sepaAccountHolderName = $state(''); // SEPA Account Holder Name
+    let isMobile = $state(false); // Track if device is mobile
 
      // --- Share Text State ---
     let copyStatus = $state<'idle' | 'copied' | 'error'>('idle');
@@ -147,6 +147,14 @@ Je recommande 👌
              stripe = await loadStripe(stripePublicKey);
              if (!stripe) throw new Error("Stripe failed to load");
 
+             // Check if device is mobile
+             isMobile = window.innerWidth < 768;
+             
+             // Add resize listener to update mobile state
+             window.addEventListener('resize', () => {
+                 isMobile = window.innerWidth < 768;
+             });
+
              // Check PR Button availability (it will need a 'card' intent later if used)
              await initializePaymentRequestButton(getAmountInCents());
 
@@ -160,71 +168,95 @@ Je recommande 👌
 
      // --- Initialize Payment Request Button Logic ---
     async function initializePaymentRequestButton(amountCents: number) {
-        if (!stripe) return; // Need stripe
+        if (!stripe) {
+            console.error("Cannot initialize PR button: Stripe not loaded");
+            canMakePrPayment = false;
+            return;
+        }
 
         canMakePrPayment = false;
-        if (prButton) prButton.destroy();
+        if (prButton) {
+            try {
+                prButton.destroy();
+            } catch (err) {
+                console.warn("Error destroying previous PR button:", err);
+            }
+        }
 
-        paymentRequest = stripe.paymentRequest({
-            country: 'FR', currency: 'eur',
-            total: { label: 'Don Veille Médicale', amount: amountCents },
-            requestPayerName: true, requestPayerEmail: true, requestShipping: false,
-        });
-
-        const result = await paymentRequest.canMakePayment();
-        if (result) {
-            console.log("PR Button available:", result);
-            canMakePrPayment = true;
-            // We defer element creation and mounting until the button is actually needed/clicked
-            // or until a 'card' intent is ready.
-
-            // Handle paymentmethod event
-            paymentRequest.on('paymentmethod', async (ev) => {
-                 isProcessingPayment = true; // Show loading indicator
-                 errorMessage = '';
-
-                 // Ensure we have a *card* client secret for the current amount
-                 let secret = clientSecretCard;
-                 if (!secret) { // If not already fetched for card, fetch it now
-                     console.log("PR Button clicked, fetching 'card' intent...");
-                     secret = await createOrUpdatePI('card');
-                 }
-
-                 if (!secret || !stripe) {
-                     console.error("Cannot confirm PR payment: Stripe or Client Secret missing.");
-                     ev.complete('fail');
-                     errorMessage = "Erreur lors de la confirmation.";
-                     isProcessingPayment = false;
-                     return;
-                 }
-
-                 console.log("Confirming PR payment with secret:", secret);
-                 const { paymentIntent, error: confirmError } = await stripe.confirmPayment({
-                      clientSecret: secret, // Use the CARD secret
-                      confirmParams: { payment_method: ev.paymentMethod.id },
-                      redirect: 'if_required' // Handle 3DS
-                 });
-
-                  if (confirmError) {
-                      console.error("PR confirmation error:", confirmError);
-                      errorMessage = confirmError.message || "Erreur de paiement.";
-                      ev.complete('fail');
-                  } else if (paymentIntent?.status === 'succeeded') {
-                      ev.complete('success');
-                      window.location.href = `/donation-status?payment_intent=${paymentIntent.id}&payment_intent_client_secret=${secret}&redirect_status=succeeded`;
-                  } else if (paymentIntent?.status === 'processing') {
-                       ev.complete('success');
-                       window.location.href = `/donation-status?payment_intent=${paymentIntent.id}&payment_intent_client_secret=${secret}&redirect_status=processing`;
-                  } else {
-                      console.warn("PR Payment status unexpected:", paymentIntent?.status);
-                      errorMessage = "Statut de paiement inattendu.";
-                      ev.complete('fail');
-                  }
-                  isProcessingPayment = false;
+        try {
+            paymentRequest = stripe.paymentRequest({
+                country: 'FR', 
+                currency: 'eur',
+                total: { label: 'Don Veille Médicale', amount: amountCents },
+                requestPayerName: true, 
+                requestPayerEmail: true, 
+                requestShipping: false,
             });
 
-        } else {
-            console.log("PR Button not available.");
+            const result = await paymentRequest.canMakePayment();
+            console.log("PR Button availability check result:", result);
+            
+            if (result) {
+                console.log("PR Button available:", result);
+                canMakePrPayment = true;
+                
+                // Handle paymentmethod event
+                paymentRequest.on('paymentmethod', async (ev) => {
+                    isProcessingPayment = true;
+                    errorMessage = '';
+
+                    try {
+                        // Ensure we have a *card* client secret for the current amount
+                        let secret = clientSecretCard;
+                        if (!secret) {
+                            console.log("PR Button clicked, fetching 'card' intent...");
+                            secret = await createOrUpdatePI('card');
+                        }
+
+                        if (!secret || !stripe) {
+                            console.error("Cannot confirm PR payment: Stripe or Client Secret missing.");
+                            ev.complete('fail');
+                            errorMessage = "Erreur lors de la confirmation.";
+                            isProcessingPayment = false;
+                            return;
+                        }
+
+                        console.log("Confirming PR payment with secret:", secret);
+                        const { paymentIntent, error: confirmError } = await stripe.confirmPayment({
+                            clientSecret: secret,
+                            confirmParams: { payment_method: ev.paymentMethod.id },
+                            redirect: 'if_required'
+                        });
+
+                        if (confirmError) {
+                            console.error("PR confirmation error:", confirmError);
+                            errorMessage = confirmError.message || "Erreur de paiement.";
+                            ev.complete('fail');
+                        } else if (paymentIntent?.status === 'succeeded') {
+                            ev.complete('success');
+                            window.location.href = `/donation-status?payment_intent=${paymentIntent.id}&payment_intent_client_secret=${secret}&redirect_status=succeeded`;
+                        } else if (paymentIntent?.status === 'processing') {
+                            ev.complete('success');
+                            window.location.href = `/donation-status?payment_intent=${paymentIntent.id}&payment_intent_client_secret=${secret}&redirect_status=processing`;
+                        } else {
+                            console.warn("PR Payment status unexpected:", paymentIntent?.status);
+                            errorMessage = "Statut de paiement inattendu.";
+                            ev.complete('fail');
+                        }
+                    } catch (err) {
+                        console.error("Error in PR payment handler:", err);
+                        errorMessage = "Une erreur est survenue lors du paiement.";
+                        ev.complete('fail');
+                    } finally {
+                        isProcessingPayment = false;
+                    }
+                });
+            } else {
+                console.log("PR Button not available on this device/browser.");
+                canMakePrPayment = false;
+            }
+        } catch (err) {
+            console.error("Error initializing PR button:", err);
             canMakePrPayment = false;
         }
     }
@@ -328,36 +360,49 @@ Je recommande 👌
      // --- Mount Payment Request Button when it's actually needed ---
      async function mountPrButton() {
          if (!stripe || !elements || !paymentRequest || !canMakePrPayment || prButton) {
-            if (prButton) console.log("PR button already mounted or initializing");
-             return; // Only mount if available and not already mounted
-         }
-         // Ensure we have a card intent first
-         let secret = clientSecretCard;
-         if (!secret) {
-            secret = await createOrUpdatePI('card');
-         }
-         if (!secret) {
-            console.error("Cannot mount PR button without a card client secret.");
+            if (prButton) console.log("PR button already mounted");
+            if (!stripe) console.log("Cannot mount PR button: Stripe not loaded");
+            if (!elements) console.log("Cannot mount PR button: Elements not initialized");
+            if (!paymentRequest) console.log("Cannot mount PR button: PaymentRequest not initialized");
+            if (!canMakePrPayment) console.log("Cannot mount PR button: PR not available on this device");
             return;
          }
 
-         console.log("Mounting PR button.");
-         // Recreate elements instance if necessary (e.g., if PI was just created)
-         if (!elements) elements = stripe.elements({ clientSecret: secret });
+         try {
+            // Ensure we have a card intent first
+            let secret = clientSecretCard;
+            if (!secret) {
+                secret = await createOrUpdatePI('card');
+            }
+            if (!secret) {
+                console.error("Cannot mount PR button without a card client secret.");
+                return;
+            }
 
-         prButton = elements.create('paymentRequestButton', {
-             paymentRequest: paymentRequest!,
-             style: {
-                 paymentRequestButton: { type: 'donate', theme: 'dark', height: '48px' },
-             },
-         });
-         await tick();
-         const prMountEl = document.getElementById('payment-request-button-mount-point');
-         if (prMountEl) {
-            prButton.mount(prMountEl);
-         } else {
-            console.warn("PR button mount point not found.");
-         }
+            console.log("Mounting PR button with secret:", secret);
+            // Recreate elements instance if necessary
+            if (!elements) {
+                elements = stripe.elements({ clientSecret: secret });
+            }
+
+            prButton = elements.create('paymentRequestButton', {
+                paymentRequest: paymentRequest,
+                style: {
+                    paymentRequestButton: { type: 'donate', theme: 'dark', height: '48px' },
+                },
+            });
+
+            await tick();
+            const prMountEl = document.getElementById('payment-request-button-mount-point');
+            if (prMountEl) {
+                prButton.mount(prMountEl);
+                console.log("PR button mounted successfully");
+            } else {
+                console.warn("PR button mount point not found.");
+            }
+        } catch (err) {
+            console.error("Error mounting PR button:", err);
+        }
      }
      // Call mountPrButton when the PR button section should become active,
      // potentially after the initial `canMakePrPayment` check resolves true in onMount.
@@ -513,6 +558,10 @@ Je recommande 👌
             if (copyTimeoutId) {
                 clearTimeout(copyTimeoutId);
             }
+            // Remove resize listener on cleanup
+            window.removeEventListener('resize', () => {
+                isMobile = window.innerWidth < 768;
+            });
         };
     });
 
@@ -642,7 +691,7 @@ Je recommande 👌
                     </div>
                 {:else}
                     <div class="space-y-3">
-                        {#if canMakePrPayment}
+                        {#if canMakePrPayment && isMobile}
                             <div id="payment-request-button-mount-point" class={!prButton ? 'h-[48px] bg-gray-700 animate-pulse rounded-lg' : ''}>
                                 <!-- PR Button will be mounted here by `mountPrButton` -->
                             </div>

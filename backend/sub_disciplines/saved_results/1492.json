@@ -1,0 +1,36 @@
+{
+    "article_id": 1492,
+    "article_link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO.23.01447",
+    "status": "SUCCESS",
+    "error_message": null,
+    "llm_chosen_names": [
+        "Oncologie mammaire",
+        "Essais cliniques et recherche en oncologie",
+        "Soins de support en oncologie"
+    ],
+    "assigned_sub_discipline_ids": [
+        336,
+        347,
+        349
+    ],
+    "parent_discipline_ids": [
+        16
+    ],
+    "candidate_subdiscipline_names": [
+        "Cancers ORL",
+        "Cancers bronchiques",
+        "Cancers cutanés",
+        "Cancers urologiques",
+        "Essais cliniques et recherche en oncologie",
+        "Onco-hématologie",
+        "Oncogénétique",
+        "Oncologie digestive",
+        "Oncologie gynécologique",
+        "Oncologie gériatrique",
+        "Oncologie mammaire",
+        "Oncologie pédiatrique",
+        "Sarcomes et cancers rares",
+        "Soins de support en oncologie",
+        "Thérapies ciblées et immunothérapie"
+    ]
+}

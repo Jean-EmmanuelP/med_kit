@@ -1,0 +1,41 @@
+{
+    "article_id": 29,
+    "article_link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.jacc.2024.12.030.",
+    "status": "SUCCESS",
+    "error_message": null,
+    "llm_chosen_names": [
+        "Cardiopathies ischémiques",
+        "Rythmologie",
+        "Maladies thromboemboliques veineuses"
+    ],
+    "assigned_sub_discipline_ids": [
+        16,
+        22,
+        26
+    ],
+    "parent_discipline_ids": [
+        7
+    ],
+    "candidate_subdiscipline_names": [
+        "Cardio-oncologie",
+        "Cardiologie clinique",
+        "Cardiologie de la grossesse",
+        "Cardiologie du sport",
+        "Cardiologie interventionnelle",
+        "Cardiomyopathies",
+        "Cardiopathies congénitales",
+        "Cardiopathies ischémiques",
+        "Hypertension artérielle",
+        "Imagerie cardiaque",
+        "Insuffisance cardiaque",
+        "Maladies thromboemboliques veineuses",
+        "Pathologies aortiques et artérielles périphériques",
+        "Pathologies du péricarde",
+        "Pathologies infectieuses, inflammatoires",
+        "Prévention cardiovasculaire",
+        "Rythmologie",
+        "Soins intensifs cardiologiques",
+        "Troubles du sommeil - cardiologie",
+        "Valvulopathies"
+    ]
+}

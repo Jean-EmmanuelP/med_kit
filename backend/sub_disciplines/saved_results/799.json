@@ -1,0 +1,26 @@
+{
+    "article_id": 799,
+    "article_link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1212/WNL.0000000000209217.",
+    "status": "SUCCESS",
+    "error_message": null,
+    "llm_chosen_names": [],
+    "assigned_sub_discipline_ids": [],
+    "parent_discipline_ids": [
+        27
+    ],
+    "candidate_subdiscipline_names": [
+        "Chiari et syringomyélie",
+        "Chirurgie de l’épilepsie",
+        "Chirurgie des nerfs périphériques",
+        "Chirurgie fonctionnelle",
+        "Hydrocéphalie",
+        "Malformations vasculaires cérébrales",
+        "Méningiomes et neurinomes",
+        "Navigation assistée et neurochirurgie robotisée",
+        "Neurochirurgie en urgence",
+        "Neurochirurgie pédiatrique",
+        "Neurochirurgie rachidienne",
+        "Traumatismes crâniens",
+        "Tumeurs cérébrales"
+    ]
+}
