@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import { i18n } from '$lib/i18n';
 	import userProfileStore from '$lib/stores/user';
 	import { onMount } from 'svelte';
@@ -16,14 +16,15 @@
 		showMobileMenu = false;
 	}
 
-	function handleOutsideClick(event) {
-		if (showAccountMenu && !event.target.closest('.account-menu')) {
+	function handleOutsideClick(event: MouseEvent) {
+		const target = event.target as HTMLElement;
+		if (showAccountMenu && !target.closest('.account-menu')) {
 			showAccountMenu = false;
 		}
 		if (
 			showMobileMenu &&
-			!event.target.closest('.mobile-menu') &&
-			!event.target.closest('.burger-button')
+			!target.closest('.mobile-menu') &&
+			!target.closest('.burger-button')
 		) {
 			showMobileMenu = false;
 		}
@@ -72,6 +73,14 @@
 
 		<div class="hidden items-center space-x-6 md:flex">
 			{#if $userProfileStore}
+				<a
+					href="/donations"
+					class="font-sans text-sm font-medium {lastScrollY > 0
+						? 'text-black hover:text-gray-700'
+						: 'text-white hover:text-gray-300'} transition-colors duration-200"
+				>
+					{$i18n.header.donate} ❤️
+				</a>
 				<a
 					href="/articles"
 					class="font-sans text-sm font-medium {lastScrollY > 0
@@ -125,7 +134,7 @@
 						<div
 							class="animate-fade-in absolute right-0 z-10 mt-2 w-48 rounded-md bg-black py-1 shadow-lg"
 						>
-							<a href="/account" class="block px-4 py-2 text-sm text-black hover:bg-black/80">
+							<a href="/account" class="block px-4 py-2 text-sm text-white hover:bg-white/10">
 								{$i18n.header.settings}
 							</a>
 						</div>
@@ -165,6 +174,13 @@
 					class="mobile-menu animate-fade-in absolute top-full left-0 z-50 w-full bg-black shadow-lg"
 				>
 					{#if $userProfileStore}
+						<a
+							href="/donations"
+							onclick={closeMobileMenu}
+							class="block px-6 py-3 text-base hover:bg-gray-100"
+						>
+							{$i18n.header.donate} ❤️
+						</a>
 						<a
 							href="/articles"
 							onclick={closeMobileMenu}

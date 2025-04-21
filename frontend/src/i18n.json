@@ -4,21 +4,21 @@
       "title": "Veille",
       "subtitle": "L'outil de veille scientifique conçu pour les professionnels de santé",
       "description": "Veille notifie les médecins des dernières études pertinentes selon leurs disciplines et préférences. Recevez vos alertes personnalisées et restez à jour en 5 min par jour.",
-      "phrase1": "Trop d’études scientifiques, pas assez de temps pour les lire ?",
+      "phrase1": "Trop d'études scientifiques, pas assez de temps pour les lire ?",
       "phrase2": "Avec Veille, restez à la pointe de votre spécialité.",
       "hero": {
         "title": "Veille scientifique simple et efficace 🔍",
         "subtitle": "5 min/jour max via newsletter",
-        "signup": "S’inscrire",
+        "signup": "S'inscrire",
         "viewArticles": "🚀 Accéder à ma veille",
-        "signupForVeille": "S’inscrire afin d’obtenir ma veille"
+        "signupForVeille": "S'inscrire afin d'obtenir ma veille"
       },
       "arguments": {
         "cta": "3 min/jour pour rester à la pointe de votre spécialité",
         "list": [
           "Choisissez vos disciplines",
           "Paramétrez vos alertes",
-          "Recevez un résumé clair et concis des meilleures études récentes dans votre domaine, à votre rythme, avec un accès direct à l’article original."
+          "Recevez un résumé clair et concis des meilleures études récentes dans votre domaine, à votre rythme, avec un accès direct à l'article original."
         ]
       },
       "createAccount": "Créez votre compte en quelques secondes ⏩"
@@ -73,13 +73,13 @@
         "1 fois par mois"
       ],
       "notificationsPlaceholder": "Choisissez une fréquence",
-      "submitSignup": "S’inscrire",
+      "submitSignup": "S'inscrire",
       "submitLogin": "Se connecter",
       "loggingIn": "Connexion en cours...",
       "forgotPassword": "Mot de passe oublié",
       "successSignup": "Inscription réussie ! Un email de confirmation vous a été envoyé pour valider votre compte. Vérifiez vos spams si vous ne le voyez pas. 🎉",
       "successLogin": "Connexion réussie ! Redirection...",
-      "footer": "Recevez l’essentiel adapté à vos besoins 📩",
+      "footer": "Recevez l'essentiel adapté à vos besoins 📩",
       "alreadyHaveAccount": "Déjà un compte ? Se connecter",
       "needAccount": "Pas encore de compte ? S'inscrire"
     },
@@ -89,15 +89,22 @@
       "myVeille": "Ma veille",
       "account": "Compte",
       "login": "Se connecter",
-      "signup": "S’inscrire",
+      "signup": "S'inscrire",
       "settings": "Paramètres",
       "logout": "Déconnexion",
-      "searchPlaceholder": "Rechercher un article"
+      "searchPlaceholder": "Rechercher un article",
+      "donate": "Soutenir"
     },
     "articles": {
-      "title": "L’actualité 📖",
-      "feedbackPrompt": "Qu’avez-vous pensé de cet article ?",
-      "pubmedLink": "Lien PubMed"
+      "title": "L'actualité 📖",
+      "feedbackPrompt": "Qu'avez-vous pensé de cet article ?",
+      "pubmedLink": "Lien PubMed",
+      "myArticles": "Ma veille",
+      "articles": "L'actualité",
+      "account": "Compte",
+      "donate": "Faire un don",
+      "login": "Se connecter",
+      "signup": "S'inscrire"
     },
     "myArticles": {
       "title": "Mes favoris 📚"
@@ -105,29 +112,73 @@
     "footer": {
       "slogan": "Veille médicale : L'essentiel de la science pour les professionnels de santé 🩺",
       "myArticles": "Ma veille",
-      "articles": "L’actualité",
+      "articles": "L'actualité",
       "account": "Compte",
       "login": "Se connecter",
-      "signup": "S’inscrire"
+      "signup": "S'inscrire"
     },
     "us": {
       "title": "🏥 Qui sommes-nous ?",
       "baptiste": {
         "name": "🩺 Baptiste Mazas – Médecin & Co-Fondateur",
         "photo": "https://media.licdn.com/dms/image/v2/D4E03AQFHqu-gquZhQg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1728660013124?e=2147483647&v=beta&t=_OaYKhbvEALv-PN2iHDsOimTPlgZ4KIIC1RcqsqsAps",
-        "description": "Je suis médecin spécialisé en diabétologie, nutrition, prévention cardiovasculaire et médecine du sport à Paris (AP-HP). Avec Veille, je veux lutter contre la désinformation et rendre l’information médicale et scientifique accessible à tous. Cet outil est conçu pour répondre à nos problématiques, alors partagez-nous vos retours et suggestions, on est à l’écoute ! À très vite ! Baptiste 💡😊"
+        "description": "Je suis médecin spécialisé en diabétologie, nutrition, prévention cardiovasculaire et médecine du sport à Paris (AP-HP). Avec Veille, je veux lutter contre la désinformation et rendre l'information médicale et scientifique accessible à tous. Cet outil est conçu pour répondre à nos problématiques, alors partagez-nous vos retours et suggestions, on est à l'écoute ! À très vite ! Baptiste 💡😊"
       },
       "jeanemmanuel": {
         "name": "👨‍💻 Jean-Emmanuel Perramant – Développeur Full Stack & Co-Fondateur",
         "photo": "https://media.licdn.com/dms/image/v2/D4E03AQEskdlqvwB6gw/profile-displayphoto-shrink_800_800/B4EZXyGn8pHgAc-/0/1743523578891?e=1749686400&v=beta&t=f31Qvtw-X2cBAMUJCihUNJiBvXSZho4PsXhUO5JJxAA",
-        "description": "Formé à l’école 42, je suis passionné par le développement web et logiciel. J’adore donner vie à des idées en créant des outils utiles et innovants, tout en explorant de nouvelles technologies. J’espère que Veille vous sera vraiment utile ! N’hésitez pas à nous écrire, on fera de notre mieux pour l’adapter à vos besoins💡😊"
+        "description": "Formé à l'école 42, je suis passionné par le développement web et logiciel. J'adore donner vie à des idées en créant des outils utiles et innovants, tout en explorant de nouvelles technologies. J'espère que Veille vous sera vraiment utile ! N'hésitez pas à nous écrire, on fera de notre mieux pour l'adapter à vos besoins💡😊"
       },
       "alexis": {
         "name": "👨‍💻 Alexis Chatelain - Développeur Fullstack",
         "photo": "https://media.discordapp.net/attachments/499955908810375188/1287735266983022602/1678476774135.png?ex=67fb9dec&is=67fa4c6c&hm=59eb6a593d455e21ce41fd9bdebee8b249c10a7e4d86c51780c762a7180ff6bc&=&format=webp&quality=lossless&width=1600&height=1600",
         "description": "Formé à l'école 42, spécialisé dans le domaine de l'IA et passionné par le développement de logiciels et le machine learning, j'adore mettre le code au service de projet vraiment utile et créer des solutions innovantes. J'espère apporter au travers de Veille, mon expertise au service du domaine médical 💡😊"
       },
-      "suggestion": "🎯 Veille évolue avec vous ! Partagez-nous vos suggestions pour en faire l’outil parfait pour votre quotidien : <a href=\"mailto:contact@veillemedicale.fr\">contact@veillemedicale.fr</a> 🚀"
+      "suggestion": "🎯 Veille évolue avec vous ! Partagez-nous vos suggestions pour en faire l'outil parfait pour votre quotidien : <a href=\"mailto:contact@veillemedicale.fr\">contact@veillemedicale.fr</a> 🚀"
+    },
+    "donations": {
+        "pageTitle": "Soutenir Veille Médicale",
+        "metaDescription": "Faites un don pour soutenir le développement et la maintenance de Veille Médicale. Aidez-nous à fournir une veille scientifique de qualité aux professionnels de santé.",
+        "introText": "Votre soutien nous aide à maintenir et améliorer cet outil essentiel pour la communauté médicale. Chaque contribution compte !",
+        "chooseAmount": "Choisissez un montant (EUR)",
+        "customAmountLabel": "Montant personnalisé",
+        "customAmountPlaceholder": "Autre montant",
+        "paymentDetails": "Informations de paiement",
+        "validateButton": "OK",
+        "confirmCustomAmount": "Valider le montant personnalisé",
+        "donateButton": "Faire un don de",
+        "donateButtonFallback": "Faire un don",
+        "processing": "Traitement en cours",
+        "loadingStripe": "Chargement du module de paiement",
+        "loadingPayment": "Initialisation du paiement",
+        "redirecting": "Paiement réussi. Redirection...",
+        "securityNote": "Les paiements sont sécurisés par Stripe.",
+        "errors": {
+            "stripeKeyMissing": "Erreur de configuration : Clé Stripe manquante.",
+            "stripeLoadFailed": "Impossible de charger le module de paiement Stripe.",
+            "clientSecretMissing": "Erreur interne : Impossible de récupérer les informations de paiement.",
+            "confirmCustomAmount": "Veuillez valider le montant personnalisé.",
+            "intentCreationFailed": "Erreur lors de l'initialisation du paiement.",
+            "invalidAmount": "Veuillez entrer un montant valide (min 0.50 €).",
+            "selectAmount": "Veuillez sélectionner ou entrer un montant valide (min 0.50 €).",
+            "stripeNotReady": "Le système de paiement n'est pas prêt.",
+            "paymentElementNotReady": "Le formulaire de paiement n'est pas prêt.",
+            "paymentFailed": "Échec du paiement. Veuillez vérifier vos informations ou réessayer."
+        },
+        "status": {
+            "title": "Statut du Don",
+            "loadingTitle": "Vérification du paiement...",
+            "loadingText": "Veuillez patienter pendant que nous vérifions le statut de votre don.",
+            "successTitle": "Merci pour votre soutien !",
+            "successText": "Votre don a été traité avec succès. Nous apprécions énormément votre contribution à Veille Médicale.",
+            "processingTitle": "Paiement en cours de traitement",
+            "processingText": "Votre paiement est en cours de traitement. Nous vous informerons une fois terminé. Vous pouvez fermer cette page.",
+            "errorTitle": "Erreur de Paiement",
+            "errorGeneric": "Une erreur est survenue lors du traitement de votre paiement. Aucuns frais n'ont été appliqués.",
+            "errorMissingParams": "Paramètres de paiement manquants ou invalides.",
+            "backHomeButton": "Retour à l'accueil",
+            "retryButton": "Réessayer le don"
+        }
     }
   }
 }

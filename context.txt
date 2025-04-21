@@ -2383,6 +2383,388 @@ export {
 --- End of File ---
 
 --- File Path ---
+frontend/src/lib/components/DonationForm.svelte
+
+<script lang="ts">
+	import { env } from '$env/dynamic/public';
+	import { loadStripe, type Stripe, type StripeElements, type StripePaymentElement } from '@stripe/stripe-js';
+	import { onMount, tick } from 'svelte';
+	import { i18n } from '$lib/i18n';
+    import { fade } from 'svelte/transition';
+
+	const stripePublicKey = env.PUBLIC_STRIPE_KEY;
+
+	// --- Component State ---
+	let stripe: Stripe | null = null;
+	let elements: StripeElements | null = null;
+	let paymentElement: StripePaymentElement | null = null;
+	let isLoadingStripe = $state(true); // Loading Stripe library
+	let isProcessingPayment = $state(false); // Processing the actual donation
+	let errorMessage = $state('');
+	let successMessage = $state('');
+    let clientSecret = $state<string | null>(null);
+    let currentAmount = $state(10); // Default donation amount in EUR
+    let customAmountInput = $state('');
+    let isCustomAmountConfirmed = $state(false); // Track if the current amount is from confirmed custom input
+    const presetAmounts = [5, 10, 20, 50];
+
+	// --- Stripe Initialization ---
+	onMount(async () => {
+		if (!stripePublicKey) {
+			errorMessage = $i18n.donations.errors.stripeKeyMissing;
+			isLoadingStripe = false;
+			return;
+		}
+		try {
+			stripe = await loadStripe(stripePublicKey);
+			isLoadingStripe = false;
+            // Initial creation of Payment Intent with default amount
+            await createPaymentIntent(currentAmount * 100); // Convert EUR to cents
+		} catch (error: any) {
+			console.error("Stripe loading Error:", error);
+			errorMessage = error.message || $i18n.donations.errors.stripeLoadFailed;
+			isLoadingStripe = false;
+		}
+	});
+
+    // --- Create/Update Payment Intent ---
+    async function createPaymentIntent(amountInCents: number) {
+        if (!stripe || amountInCents <= 0) {
+            // console.warn("Stripe not loaded or invalid amount, skipping PI creation.");
+            return;
+        }
+
+        // Destroy existing elements if they exist to avoid conflicts
+        if (paymentElement) {
+            paymentElement.destroy();
+            paymentElement = null;
+            elements = null; // Reset elements object as well
+        }
+
+        isProcessingPayment = true; // Use this to show loading state for PI creation
+        errorMessage = '';
+        successMessage = '';
+
+        try {
+            const res = await fetch('/api/create-donation-intent', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ amount: amountInCents }) // Send amount in cents
+            });
+
+            if (!res.ok) {
+                const errorData = await res.json().catch(() => ({ message: `HTTP error ${res.status}` }));
+                throw new Error(errorData.message || `Failed to create payment intent (${res.status})`);
+            }
+
+            const { clientSecret: newClientSecret } = await res.json();
+
+            if (!newClientSecret) {
+                 throw new Error($i18n.donations.errors.clientSecretMissing);
+            }
+
+            clientSecret = newClientSecret; // Store the client secret
+
+            // Now initialize Elements with the new client secret
+            initializeStripeElements(clientSecret);
+
+        } catch (error: any) {
+            console.error("Payment Intent Creation/Update Error:", error);
+            errorMessage = error.message || $i18n.donations.errors.intentCreationFailed;
+            clientSecret = null; // Reset client secret on error
+            isProcessingPayment = false; // Stop loading on error
+        }
+        // isProcessingPayment will be set to false inside initializeStripeElements's 'ready' event
+    }
+
+    // --- Initialize Stripe Elements ---
+    async function initializeStripeElements(secret: string) {
+        if (!stripe || elements) { // Only initialize if Stripe is loaded and elements aren't already there
+             // console.log("Skipping element initialization (Stripe not loaded or elements exist)");
+             return;
+        }
+        // console.log("Initializing Stripe Elements with clientSecret:", secret);
+
+        const appearance = {
+            theme: 'night',
+            labels: 'floating',
+            variables: {
+                colorPrimary: '#ea580c', // orange-600
+                colorBackground: '#1f2937', // gray-800
+                colorText: '#e5e7eb', // gray-200
+                colorDanger: '#f87171', // red-400
+                fontFamily: 'Ideal Sans, system-ui, sans-serif',
+                spacingUnit: '4px',
+                borderRadius: '6px',
+            }
+        };
+        elements = stripe.elements({ clientSecret: secret, appearance, locale: "fr" });
+
+        paymentElement = elements.create('payment', {
+            layout: "tabs", // or "accordion"
+            fields: {
+                billingDetails: {
+                    address: {
+                        country: 'never', // Don't collect full address unless needed
+                    }
+                }
+            }
+        });
+        paymentElement.mount('#payment-element');
+
+        paymentElement.on('ready', () => {
+            console.log('Payment Element is ready.');
+            isProcessingPayment = false; // Payment element is ready, stop the loading state
+            // Ensure the payment element is visible now
+             const paymentElContainer = document.getElementById('payment-element');
+             if (paymentElContainer) paymentElContainer.style.display = 'block';
+        });
+
+        paymentElement.on('change', (event) => {
+            if (event.error) {
+                errorMessage = event.error.message;
+                successMessage = '';
+            } else {
+                errorMessage = '';
+            }
+        });
+
+        await tick(); // Ensure Svelte updates the DOM
+    }
+
+
+    // --- Handle Amount Selection ---
+    function selectAmount(amount: number) {
+        if (isProcessingPayment) return; // Prevent changes while processing
+        currentAmount = amount;
+        isCustomAmountConfirmed = false; // Reset custom confirmation flag
+        customAmountInput = ''; // Clear custom input when preset is clicked
+        createPaymentIntent(amount * 100);
+    }
+
+    // --- Handle Custom Amount Input ---
+    function handleCustomAmountChange(event: Event) {
+        if (isProcessingPayment) return; // Prevent changes while processing
+        const input = event.target as HTMLInputElement;
+        const value = input.value.replace(/,/g, '.'); // Allow comma as decimal separator
+        const numericValue = parseFloat(value);
+        isCustomAmountConfirmed = false; // Input changed, needs reconfirmation
+
+        if (value === '') {
+            // Maybe clear currentAmount or revert to last valid? For now, just update input.
+            errorMessage = '';
+        } else if (isNaN(numericValue) || numericValue < 0.5) { // Use Stripe minimum (e.g., 0.50 EUR)
+            errorMessage = $i18n.donations.errors.invalidAmount;
+            // Don't update currentAmount yet, wait for confirmation
+        } else {
+            errorMessage = '';
+            // DO NOT update PI here anymore
+        }
+        // Keep customAmountInput reflecting user's raw input for display
+        customAmountInput = input.value;
+    }
+
+    // --- NEW: Confirm Custom Amount ---
+    function confirmCustomAmount() {
+        if (isProcessingPayment) return;
+        const value = customAmountInput.replace(/,/g, '.');
+        const numericValue = parseFloat(value);
+
+        if (!isNaN(numericValue) && numericValue >= 0.50) { // Check valid minimum amount
+            currentAmount = numericValue;
+            isCustomAmountConfirmed = true;
+            createPaymentIntent(Math.round(numericValue * 100));
+        } else {
+            errorMessage = $i18n.donations.errors.invalidAmount;
+        }
+    }
+
+    // --- Handle Payment Submission ---
+    async function handleSubmit() {
+        if (!stripe || !elements || !paymentElement || isProcessingPayment || !clientSecret) {
+            if (!stripe || !elements) errorMessage = $i18n.donations.errors.stripeNotReady;
+            else if (!paymentElement) errorMessage = $i18n.donations.errors.paymentElementNotReady;
+            else if (!clientSecret) errorMessage = $i18n.donations.errors.intentCreationFailed; // Should have been caught earlier
+            else errorMessage = $i18n.donations.processing; // Already processing
+            return;
+        }
+        // Check if a custom amount was entered but not confirmed
+        if (customAmountInput !== '' && !isCustomAmountConfirmed) {
+            errorMessage = $i18n.donations.errors.confirmCustomAmount || "Veuillez valider le montant personnalisé."; // Add to i18n
+            return;
+        }
+        if (currentAmount < 0.50) { // Check minimum amount
+            errorMessage = $i18n.donations.errors.selectAmount;
+            return;
+        }
+
+        isProcessingPayment = true;
+        errorMessage = '';
+        successMessage = '';
+
+        const { error } = await stripe.confirmPayment({
+            elements,
+            confirmParams: {
+                // Use window.location.origin for dynamic return URL
+                return_url: `${window.location.origin}/donation-status`, // Create this status page
+                payment_method_data: {
+                    billing_details: {
+                        // Optionally prefill name/email if user is logged in
+                        // name: loggedInUserName,
+                        // email: loggedInUserEmail,
+                        address: {
+                            country: 'FR' // Provide the country code since we set 'never' in fields
+                        }
+                    }
+                }
+            },
+        });
+
+        if (error) {
+            console.error("Stripe confirmation error:", error);
+            errorMessage = error.message || $i18n.donations.errors.paymentFailed;
+            isProcessingPayment = false;
+        } else {
+            // Success will be handled by the redirect to return_url
+            successMessage = $i18n.donations.redirecting;
+            // Button remains disabled as redirection is expected
+        }
+    }
+
+</script>
+
+<div class="donation-form-container text-white">
+
+    {#if isLoadingStripe}
+        <div class="loading-indicator">{$i18n.donations.loadingStripe}...</div>
+    {:else}
+        <form id="donation-form" on:submit|preventDefault={handleSubmit}>
+            <!-- Amount Selection -->
+            <div class="mb-6">
+                <label class="mb-3 block text-lg font-semibold text-gray-200">{$i18n.donations.chooseAmount}</label>
+                <div class="grid grid-cols-2 gap-3 sm:grid-cols-4">
+                    {#each presetAmounts as amount}
+                        <button
+                            type="button"
+                            on:click={() => selectAmount(amount)}
+                            class="rounded-md border-2 px-4 py-3 text-center font-medium transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800"
+                            class:border-orange-500={currentAmount === amount && customAmountInput === ''}
+                            class:bg-orange-600={currentAmount === amount && customAmountInput === ''}
+                            class:text-white={currentAmount === amount && customAmountInput === ''}
+                            class:border-gray-600={!(currentAmount === amount && customAmountInput === '')}
+                            class:hover:border-orange-400={currentAmount !== amount || customAmountInput !== ''}
+                            class:hover:bg-gray-700={currentAmount !== amount || customAmountInput !== ''}
+                            class:text-gray-300={!(currentAmount === amount && customAmountInput === '')}
+                            disabled={isProcessingPayment}
+                        >
+                            {amount} €
+                        </button>
+                    {/each}
+                </div>
+                <div class="mt-4 flex items-center gap-2">
+                    <label for="custom-amount" class="sr-only">{$i18n.donations.customAmountLabel}</label>
+                    <div class="relative flex-grow">
+                        <span class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3 text-gray-400">€</span>
+                        <input
+                            type="text"
+                            id="custom-amount"
+                            inputmode="decimal"
+                            placeholder={$i18n.donations.customAmountPlaceholder}
+                            value={customAmountInput}
+                            on:input={handleCustomAmountChange}
+                            class="w-full rounded-md border-2 bg-gray-700 py-3 pl-8 pr-4 text-white placeholder-gray-400 transition-colors duration-200 focus:z-10 focus:border-orange-500 focus:ring-2 focus:ring-orange-500 focus:ring-offset-0"
+                            class:border-orange-500={customAmountInput !== '' && isCustomAmountConfirmed}
+                            class:border-gray-600={customAmountInput === ''}
+                            class:border-yellow-500={customAmountInput !== '' && !isCustomAmountConfirmed}
+                            disabled={isProcessingPayment}
+                        />
+                    </div>
+                    <button
+                        type="button"
+                        on:click={confirmCustomAmount}
+                        class="shrink-0 rounded-md border-2 bg-gray-600 px-4 py-3 font-medium text-white transition-colors hover:bg-gray-500 focus:z-10 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-0 disabled:cursor-not-allowed disabled:opacity-60"
+                        class:border-orange-500={customAmountInput !== '' && isCustomAmountConfirmed}
+                        class:border-gray-600={customAmountInput === ''}
+                        class:border-yellow-500={customAmountInput !== '' && !isCustomAmountConfirmed}
+                        disabled={isProcessingPayment || customAmountInput === '' || (customAmountInput !== '' && parseFloat(customAmountInput.replace(/,/g, '.')) < 0.50) || isCustomAmountConfirmed}
+                        title={$i18n.donations.confirmCustomAmount || 'Valider ce montant'}
+                    >
+                        {$i18n.donations.validateButton || 'OK'}
+                    </button>
+                </div>
+            </div>
+
+            {#if errorMessage}
+                 <div class="mb-4 rounded-md bg-red-900/50 p-3 text-center text-sm text-red-300" role="alert" transition:fade>
+                    {errorMessage}
+                 </div>
+            {/if}
+
+             {#if successMessage}
+                 <div class="mb-4 rounded-md bg-green-900/50 p-3 text-center text-sm text-green-300" role="status" transition:fade>
+                    {successMessage}
+                 </div>
+            {/if}
+
+
+            <!-- Payment Element -->
+            <div class="mb-6">
+                <label class="mb-3 block text-lg font-semibold text-gray-200">{$i18n.donations.paymentDetails}</label>
+                {#if isProcessingPayment && !paymentElement}
+                    <div class="loading-indicator">{$i18n.donations.loadingPayment}...</div>
+                {/if}
+                <div id="payment-element" class="payment-element-style" style:display={isProcessingPayment && !paymentElement ? 'none' : 'block'}>
+                    <!-- Stripe Payment Element will mount here -->
+                </div>
+            </div>
+
+            <!-- Submit Button -->
+            <button
+                type="submit"
+                disabled={isLoadingStripe || isProcessingPayment || !stripe || !elements || currentAmount < 0.50 || (customAmountInput !== '' && !isCustomAmountConfirmed)}
+                class="w-full rounded-lg bg-orange-600 px-6 py-3 text-lg font-semibold text-white shadow-md transition-all duration-300 hover:bg-orange-700 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2 focus:ring-offset-gray-800 disabled:cursor-not-allowed disabled:bg-gray-600 disabled:opacity-70"
+            >
+                {#if isProcessingPayment}
+                    <span class="flex items-center justify-center">
+                        <svg class="mr-2 h-5 w-5 animate-spin" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                            <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                            <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                        </svg>
+                        {$i18n.donations.processing}...
+                    </span>
+                {:else}
+                    {#if currentAmount >= 0.50}
+                        {$i18n.donations.donateButton} {currentAmount.toLocaleString('fr-FR', { style: 'currency', currency: 'EUR' })}
+                    {:else}
+                        {$i18n.donations.donateButtonFallback}
+                    {/if}
+                {/if}
+            </button>
+        </form>
+    {/if}
+
+</div>
+
+<style>
+    .loading-indicator {
+        text-align: center;
+        padding: 2rem 1rem;
+        color: #aaa;
+        background-color: #2a2a2a;
+        border-radius: 6px;
+        margin-bottom: 1.5rem;
+    }
+    .payment-element-style {
+        padding: 1rem;
+        border: 1px solid #4b5563; /* gray-600 */
+        border-radius: 6px;
+        background-color: #1f2937; /* gray-800 based on appearance */
+        min-height: 180px; /* Adjust as needed */
+    }
+</style>
+--- End of File ---
+
+--- File Path ---
 frontend/src/lib/components/CheckoutForm.svelte
 
 <!-- src/lib/components/CheckoutForm.svelte -->
@@ -3062,59 +3444,65 @@ frontend/src/lib/components/articles/ArticleImmersiveModal.svelte
 		formatDate,
 		formatTitle,
 		getArticleId,
-		parseContent
+		parseContent,
+        type ContentSection // Make sure ContentSection is exported or defined here
 	} from '$lib/utils/articleUtils';
-	import { createEventDispatcher } from 'svelte';
+	import { createEventDispatcher, tick } from 'svelte';
+    import { Copy, Check } from 'lucide-svelte'; // Import icons
 
 	const { article } = $props<{ article: Article | null }>();
 	const dispatch = createEventDispatcher<{ close: void }>();
+
+	// State for copy button feedback
+	let copyStatus = $state<'idle' | 'copied' | 'error'>('idle');
+	let copyTimeoutId: ReturnType<typeof setTimeout> | null = null;
 
 	// Use $derived for computed values based on the 'article' prop
 	const emoji = $derived(article ? extractTitleEmoji(article.content) : '📝');
 	const displayTitle = $derived(article ? formatTitle(article.title) : '');
 	const displayDate = $derived(article ? formatDate(article.published_at) : '');
 	const contentSections = $derived(article ? parseContent(article.content) : []);
+	const articleId = $derived(article ? getArticleId(article) : null);
 
-	// --- Effect to mark article as read when modal opens ---
+	// --- Effect to mark article as read ---
 	$effect(() => {
-		const currentArticle = article; // Capture prop value
-		const currentUser = $userProfileStore; // Capture store value
+		const currentArticle = article;
+		const currentUser = $userProfileStore;
 
-		if (currentArticle && currentUser) {
-			// Get the numeric article ID
-			const articleIdNumber = getArticleId(currentArticle);
+		if (currentArticle && currentUser && articleId) {
+			const articleIdNumber = typeof articleId === 'string' ? parseInt(articleId, 10) : articleId;
 
-			// Ensure ID is a number before proceeding
-			if (typeof articleIdNumber === 'number' && !isNaN(articleIdNumber)) {
+			if (!isNaN(articleIdNumber)) {
 				console.log(`Modal opened for article ${articleIdNumber}. Marking as read for user ${currentUser.id}...`);
-
-				// Call the API endpoint asynchronously - no need to wait for response usually
+				// Fire-and-forget API call
 				fetch('/api/mark-article-read', {
 					method: 'POST',
-					headers: {
-						'Content-Type': 'application/json',
-					},
+					headers: { 'Content-Type': 'application/json' },
 					body: JSON.stringify({ articleId: articleIdNumber }),
 				})
 				.then(async (response) => {
 					if (!response.ok) {
-						// Log error but don't necessarily block UI
 						const errorData = await response.json().catch(() => ({ message: 'Failed to parse error response' }));
 						console.error(`Failed to mark article ${articleIdNumber} as read:`, response.status, errorData.message || response.statusText);
 					} else {
 						console.log(`Article ${articleIdNumber} marked as read successfully.`);
-						// Optionally: Update local state immediately if needed for UI feedback
-						// (e.g., update a 'isRead' flag on the article object if passed back)
 					}
 				})
 				.catch((error) => {
-					// Handle network errors
 					console.error(`Network error marking article ${articleIdNumber} as read:`, error);
 				});
 			} else {
-				console.warn('Cannot mark article as read: Invalid article ID.', articleIdNumber);
+				console.warn('Cannot mark article as read: Invalid article ID.', articleId);
 			}
 		}
+
+        // Cleanup previous timeout if article changes or modal closes
+		return () => {
+			if (copyTimeoutId) {
+				clearTimeout(copyTimeoutId);
+                copyStatus = 'idle';
+			}
+		};
 	});
 
 	function handleClose() {
@@ -3126,6 +3514,65 @@ frontend/src/lib/components/articles/ArticleImmersiveModal.svelte
 			handleClose();
 		}
 	}
+
+    // --- Function to copy content ---
+    async function handleCopyContent() {
+        if (!article || copyStatus === 'copied') return; // Don't do anything if already copied recently
+
+        // 1. Assemble the text content
+        let textToCopy = '';
+        textToCopy += `${emoji} ${displayTitle}\n\n`; // Title
+
+        // Metadata
+        if (article.journal) textToCopy += `Journal: ${article.journal}\n`;
+        if (displayDate !== 'Non spécifiée' && displayDate !== 'Date invalide') textToCopy += `Publié le: ${displayDate}\n`;
+        if (article.grade) textToCopy += `Grade: ${article.grade}\n`;
+        textToCopy += `\n---\n\n`;
+
+        // Content Sections
+        contentSections.forEach(section => {
+            textToCopy += `${section.emoji} ${section.title}\n`;
+            section.content.forEach(paragraph => {
+                textToCopy += `- ${paragraph}\n`;
+            });
+            textToCopy += '\n';
+        });
+
+        // Fallback for non-sectioned content
+        if (contentSections.length === 0 && article.content) {
+             textToCopy += `${article.content}\n\n`;
+        }
+
+        // Original Link
+        if (article.link) {
+            textToCopy += `---\nLien original: ${article.link}\n`;
+        }
+
+        // 2. Use Clipboard API
+        try {
+            await navigator.clipboard.writeText(textToCopy.trim());
+            copyStatus = 'copied';
+            console.log('Article content copied to clipboard');
+
+            // Reset status after a delay
+            if (copyTimeoutId) clearTimeout(copyTimeoutId); // Clear previous timeout if any
+            copyTimeoutId = setTimeout(() => {
+                copyStatus = 'idle';
+                copyTimeoutId = null;
+            }, 2000); // Reset after 2 seconds
+
+        } catch (err) {
+            copyStatus = 'error';
+            console.error('Failed to copy article content:', err);
+            // Optionally show an error message to the user
+             if (copyTimeoutId) clearTimeout(copyTimeoutId);
+             copyTimeoutId = setTimeout(() => {
+                copyStatus = 'idle';
+                copyTimeoutId = null;
+            }, 3000); // Show error longer
+        }
+    }
+
 </script>
 
 {#if article}
@@ -3139,17 +3586,41 @@ frontend/src/lib/components/articles/ArticleImmersiveModal.svelte
         aria-labelledby="immersive-title"
 	>
 		<div
-			class="relative max-h-[90vh] w-full max-w-4xl overflow-y-auto rounded-2xl bg-gray-900 p-6 md:p-8 shadow-2xl scrollbar-thin scrollbar-thumb-teal-500 scrollbar-track-gray-800"
+			class="modal-content relative max-h-[90vh] w-full max-w-4xl overflow-y-auto rounded-2xl bg-gray-900 p-6 md:p-8 shadow-2xl scrollbar-thin scrollbar-thumb-teal-500 scrollbar-track-gray-800"
 		>
-			<button
-				class="absolute top-3 right-3 text-3xl text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-teal-500 rounded-full p-1 leading-none"
-				on:click={handleClose}
-                aria-label="Fermer la vue détaillée de l'article"
-			>
-				× <!-- Use HTML entity for '×' -->
-			</button>
+            <!-- Action Buttons Container -->
+            <div class="absolute top-3 right-3 flex items-center space-x-2">
+                <!-- Copy Button -->
+                <button
+                    type="button"
+                    class="text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-teal-500 rounded-full p-1.5 transition-colors duration-150"
+                    on:click={handleCopyContent}
+                    aria-label="Copier le contenu de l'article"
+                    title="Copier le contenu"
+                    disabled={copyStatus === 'copied'}
+                >
+                    {#if copyStatus === 'copied'}
+                        <Check class="w-5 h-5 text-green-500" />
+                    {:else if copyStatus === 'error'}
+                         <Copy class="w-5 h-5 text-red-500" /> <!-- Or an error icon -->
+                    {:else}
+                        <Copy class="w-5 h-5" />
+                    {/if}
+                </button>
 
-			<h2 id="immersive-title" class="mb-4 pr-8 text-2xl md:text-3xl font-bold text-white">
+                <!-- Close Button -->
+                <button
+                    type="button"
+                    class="text-3xl text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-teal-500 rounded-full p-1 leading-none"
+                    on:click={handleClose}
+                    aria-label="Fermer la vue détaillée de l'article"
+                >
+                    ×
+                </button>
+            </div>
+
+
+			<h2 id="immersive-title" class="mb-4 pr-16 text-2xl md:text-3xl font-bold text-white"> <!-- Increased pr for buttons -->
 				<span class="mr-2">{emoji}</span>{displayTitle}
 			</h2>
 
@@ -3167,34 +3638,37 @@ frontend/src/lib/components/articles/ArticleImmersiveModal.svelte
                 {#if displayDate !== 'Non spécifiée' && displayDate !== 'Date invalide'}
 				    <span>Publié le : {displayDate}</span>
                 {/if}
-                <span class="text-gray-600">•</span>
-                <div class="flex items-center space-x-3">
-                    {#if article.read_count != null}
-                        <div class="flex items-center space-x-1" title="Nombre total de lectures">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4 text-teal-400">
-                                <path d="M12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" />
-                                <path fill-rule="evenodd" d="M1.323 11.447C2.811 6.976 7.028 3.75 12.001 3.75c4.97 0 9.185 3.223 10.675 7.69.12.362.12.752 0 1.113-1.487 4.471-5.705 7.697-10.677 7.697-4.97 0-9.186-3.223-10.675-7.69a1.762 1.762 0 0 1 0-1.113ZM17.25 12a5.25 5.25 0 1 1-10.5 0 5.25 5.25 0 0 1 10.5 0Z" clip-rule="evenodd" />
-                            </svg>
-                            <span>{article.read_count.toLocaleString()}</span>
-                        </div>
-                    {/if}
-                    {#if article.thumbs_up_count != null}
-                        <div class="flex items-center space-x-1" title="Nombre total de pouces levés">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-3.5 h-3.5 text-blue-500">
-                                <path d="M7.493 19.5c-.425 0-.82-.236-.975-.632A7.48 7.48 0 0 1 6 15.125c0-1.75.599-3.358 1.602-4.634.151-.192.373-.309.6-.397.473-.183.89-.514 1.212-.924a9.042 9.042 0 0 1 2.861-2.4c.723-.384 1.35-.956 1.653-1.715a4.498 4.498 0 0 0 .322-1.672V3a.75.75 0 0 1 .75-.75 2.25 2.25 0 0 1 2.25 2.25c0 1.152-.26 2.243-.723 3.218-.266.558.107 1.282.725 1.282h3.126c1.026 0 1.945.694 2.054 1.715.045.422.068.85.068 1.285a11.95 11.95 0 0 1-2.649 7.521c-.388.482-.987.729-1.605.729H14.23c-.483 0-.964-.078-1.423-.23l-3.114-1.04a4.501 4.501 0 0 0-1.423-.23h-.777ZM2.331 10.727a11.969 11.969 0 0 0-.831 4.398 12 12 0 0 0 .52 3.507C2.28 19.482 3.105 20 3.994 20H4.9c.445 0 .72-.498.523-.898a8.963 8.963 0 0 1-.924-3.977c0-1.708.476-3.305 1.302-4.666.245-.403-.028-.959-.5-.959H4.25c-.832 0-1.612.453-1.918 1.227Z" />
-                            </svg>
-                            <span>{article.thumbs_up_count.toLocaleString()}</span>
-                        </div>
-                    {/if}
-                    {#if article.like_count != null}
-                        <div class="flex items-center space-x-1" title="Nombre total de favoris">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-3.5 h-3.5 fill-pink-500 text-pink-500">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
-                            </svg>
-                            <span>{article.like_count.toLocaleString()}</span>
-                        </div>
-                    {/if}
-                </div>
+                <!-- Metadata Icons -->
+                {#if article.read_count != null || article.thumbs_up_count != null || article.like_count != null}
+                    <span class="text-gray-600">•</span>
+                    <div class="flex items-center space-x-3">
+                        {#if article.read_count != null}
+                            <div class="flex items-center space-x-1" title="Nombre total de lectures">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4 text-teal-400">
+                                    <path d="M12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" />
+                                    <path fill-rule="evenodd" d="M1.323 11.447C2.811 6.976 7.028 3.75 12.001 3.75c4.97 0 9.185 3.223 10.675 7.69.12.362.12.752 0 1.113-1.487 4.471-5.705 7.697-10.677 7.697-4.97 0-9.186-3.223-10.675-7.69a1.762 1.762 0 0 1 0-1.113ZM17.25 12a5.25 5.25 0 1 1-10.5 0 5.25 5.25 0 0 1 10.5 0Z" clip-rule="evenodd" />
+                                </svg>
+                                <span>{article.read_count.toLocaleString()}</span>
+                            </div>
+                        {/if}
+                        {#if article.thumbs_up_count != null}
+                            <div class="flex items-center space-x-1" title="Nombre total de pouces levés">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-3.5 h-3.5 text-blue-500">
+                                    <path d="M7.493 19.5c-.425 0-.82-.236-.975-.632A7.48 7.48 0 0 1 6 15.125c0-1.75.599-3.358 1.602-4.634.151-.192.373-.309.6-.397.473-.183.89-.514 1.212-.924a9.042 9.042 0 0 1 2.861-2.4c.723-.384 1.35-.956 1.653-1.715a4.498 4.498 0 0 0 .322-1.672V3a.75.75 0 0 1 .75-.75 2.25 2.25 0 0 1 2.25 2.25c0 1.152-.26 2.243-.723 3.218-.266.558.107 1.282.725 1.282h3.126c1.026 0 1.945.694 2.054 1.715.045.422.068.85.068 1.285a11.95 11.95 0 0 1-2.649 7.521c-.388.482-.987.729-1.605.729H14.23c-.483 0-.964-.078-1.423-.23l-3.114-1.04a4.501 4.501 0 0 0-1.423-.23h-.777ZM2.331 10.727a11.969 11.969 0 0 0-.831 4.398 12 12 0 0 0 .52 3.507C2.28 19.482 3.105 20 3.994 20H4.9c.445 0 .72-.498.523-.898a8.963 8.963 0 0 1-.924-3.977c0-1.708.476-3.305 1.302-4.666.245-.403-.028-.959-.5-.959H4.25c-.832 0-1.612.453-1.918 1.227Z" />
+                                </svg>
+                                <span>{article.thumbs_up_count.toLocaleString()}</span>
+                            </div>
+                        {/if}
+                        {#if article.like_count != null}
+                            <div class="flex items-center space-x-1" title="Nombre total de favoris">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-3.5 h-3.5 fill-pink-500 text-pink-500">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+                                </svg>
+                                <span>{article.like_count.toLocaleString()}</span>
+                            </div>
+                        {/if}
+                    </div>
+                {/if}
 			</div>
 
 			{#each contentSections as section (section.title)}
@@ -3203,14 +3677,14 @@ frontend/src/lib/components/articles/ArticleImmersiveModal.svelte
 						<span class="mr-2 text-xl">{section.emoji}</span>
 						{section.title}
 					</h3>
-					<ul class="ml-4 list-disc space-y-1.5 pl-4 text-gray-300 marker:text-teal-500">
+					<ul class="section-content ml-4 list-disc space-y-1.5 pl-4 text-gray-300 marker:text-teal-500">
 						{#each section.content as paragraph (paragraph)}
-							<li>{paragraph}</li>
+							<li class="selectable-text">{paragraph}</li>
 						{/each}
 					</ul>
 				</div>
 			{:else}
-                <p class="text-gray-400">{article.content || "Contenu non disponible."}</p>
+                <p class="selectable-text text-gray-400">{article.content || "Contenu non disponible."}</p>
             {/each}
 
 			{#if article.link}
@@ -3228,6 +3702,25 @@ frontend/src/lib/components/articles/ArticleImmersiveModal.svelte
 {/if}
 
 <style>
+    /* Apply selection styles to specific elements */
+    .modal-content h2,
+    .modal-content h3,
+    .modal-content p,
+    .modal-content li,
+    .modal-content span:not(.mr-2):not(.text-gray-600), /* Avoid selecting separators */
+    .modal-content a
+    {
+        user-select: text !important;
+        -webkit-user-select: text !important;
+        cursor: text;
+    }
+    /* Or using the added class */
+     .selectable-text {
+        user-select: text !important;
+        -webkit-user-select: text !important;
+        cursor: text;
+    }
+
 	.scrollbar-thin {
 		scrollbar-width: thin;
 		scrollbar-color: #14b8a6 #1f2937; /* thumb track */
@@ -4309,7 +4802,7 @@ frontend/src/lib/components/Footer.svelte
 --- File Path ---
 frontend/src/lib/components/Header.svelte
 
-<script>
+<script lang="ts">
 	import { i18n } from '$lib/i18n';
 	import userProfileStore from '$lib/stores/user';
 	import { onMount } from 'svelte';
@@ -4327,14 +4820,15 @@ frontend/src/lib/components/Header.svelte
 		showMobileMenu = false;
 	}
 
-	function handleOutsideClick(event) {
-		if (showAccountMenu && !event.target.closest('.account-menu')) {
+	function handleOutsideClick(event: MouseEvent) {
+		const target = event.target as HTMLElement;
+		if (showAccountMenu && !target.closest('.account-menu')) {
 			showAccountMenu = false;
 		}
 		if (
 			showMobileMenu &&
-			!event.target.closest('.mobile-menu') &&
-			!event.target.closest('.burger-button')
+			!target.closest('.mobile-menu') &&
+			!target.closest('.burger-button')
 		) {
 			showMobileMenu = false;
 		}
@@ -4383,6 +4877,14 @@ frontend/src/lib/components/Header.svelte
 
 		<div class="hidden items-center space-x-6 md:flex">
 			{#if $userProfileStore}
+				<a
+					href="/donations"
+					class="font-sans text-sm font-medium {lastScrollY > 0
+						? 'text-black hover:text-gray-700'
+						: 'text-white hover:text-gray-300'} transition-colors duration-200"
+				>
+					{$i18n.header.donate} ❤️
+				</a>
 				<a
 					href="/articles"
 					class="font-sans text-sm font-medium {lastScrollY > 0
@@ -4436,7 +4938,7 @@ frontend/src/lib/components/Header.svelte
 						<div
 							class="animate-fade-in absolute right-0 z-10 mt-2 w-48 rounded-md bg-black py-1 shadow-lg"
 						>
-							<a href="/account" class="block px-4 py-2 text-sm text-black hover:bg-black/80">
+							<a href="/account" class="block px-4 py-2 text-sm text-white hover:bg-white/10">
 								{$i18n.header.settings}
 							</a>
 						</div>
@@ -4476,6 +4978,13 @@ frontend/src/lib/components/Header.svelte
 					class="mobile-menu animate-fade-in absolute top-full left-0 z-50 w-full bg-black shadow-lg"
 				>
 					{#if $userProfileStore}
+						<a
+							href="/donations"
+							onclick={closeMobileMenu}
+							class="block px-6 py-3 text-base hover:bg-gray-100"
+						>
+							{$i18n.header.donate} ❤️
+						</a>
 						<a
 							href="/articles"
 							onclick={closeMobileMenu}
@@ -5397,21 +5906,21 @@ frontend/src/i18n.json
       "title": "Veille",
       "subtitle": "L'outil de veille scientifique conçu pour les professionnels de santé",
       "description": "Veille notifie les médecins des dernières études pertinentes selon leurs disciplines et préférences. Recevez vos alertes personnalisées et restez à jour en 5 min par jour.",
-      "phrase1": "Trop d’études scientifiques, pas assez de temps pour les lire ?",
+      "phrase1": "Trop d'études scientifiques, pas assez de temps pour les lire ?",
       "phrase2": "Avec Veille, restez à la pointe de votre spécialité.",
       "hero": {
         "title": "Veille scientifique simple et efficace 🔍",
         "subtitle": "5 min/jour max via newsletter",
-        "signup": "S’inscrire",
+        "signup": "S'inscrire",
         "viewArticles": "🚀 Accéder à ma veille",
-        "signupForVeille": "S’inscrire afin d’obtenir ma veille"
+        "signupForVeille": "S'inscrire afin d'obtenir ma veille"
       },
       "arguments": {
         "cta": "3 min/jour pour rester à la pointe de votre spécialité",
         "list": [
           "Choisissez vos disciplines",
           "Paramétrez vos alertes",
-          "Recevez un résumé clair et concis des meilleures études récentes dans votre domaine, à votre rythme, avec un accès direct à l’article original."
+          "Recevez un résumé clair et concis des meilleures études récentes dans votre domaine, à votre rythme, avec un accès direct à l'article original."
         ]
       },
       "createAccount": "Créez votre compte en quelques secondes ⏩"
@@ -5466,13 +5975,13 @@ frontend/src/i18n.json
         "1 fois par mois"
       ],
       "notificationsPlaceholder": "Choisissez une fréquence",
-      "submitSignup": "S’inscrire",
+      "submitSignup": "S'inscrire",
       "submitLogin": "Se connecter",
       "loggingIn": "Connexion en cours...",
       "forgotPassword": "Mot de passe oublié",
       "successSignup": "Inscription réussie ! Un email de confirmation vous a été envoyé pour valider votre compte. Vérifiez vos spams si vous ne le voyez pas. 🎉",
       "successLogin": "Connexion réussie ! Redirection...",
-      "footer": "Recevez l’essentiel adapté à vos besoins 📩",
+      "footer": "Recevez l'essentiel adapté à vos besoins 📩",
       "alreadyHaveAccount": "Déjà un compte ? Se connecter",
       "needAccount": "Pas encore de compte ? S'inscrire"
     },
@@ -5482,15 +5991,22 @@ frontend/src/i18n.json
       "myVeille": "Ma veille",
       "account": "Compte",
       "login": "Se connecter",
-      "signup": "S’inscrire",
+      "signup": "S'inscrire",
       "settings": "Paramètres",
       "logout": "Déconnexion",
-      "searchPlaceholder": "Rechercher un article"
+      "searchPlaceholder": "Rechercher un article",
+      "donate": "Soutenir"
     },
     "articles": {
-      "title": "L’actualité 📖",
-      "feedbackPrompt": "Qu’avez-vous pensé de cet article ?",
-      "pubmedLink": "Lien PubMed"
+      "title": "L'actualité 📖",
+      "feedbackPrompt": "Qu'avez-vous pensé de cet article ?",
+      "pubmedLink": "Lien PubMed",
+      "myArticles": "Ma veille",
+      "articles": "L'actualité",
+      "account": "Compte",
+      "donate": "Faire un don",
+      "login": "Se connecter",
+      "signup": "S'inscrire"
     },
     "myArticles": {
       "title": "Mes favoris 📚"
@@ -5498,29 +6014,73 @@ frontend/src/i18n.json
     "footer": {
       "slogan": "Veille médicale : L'essentiel de la science pour les professionnels de santé 🩺",
       "myArticles": "Ma veille",
-      "articles": "L’actualité",
+      "articles": "L'actualité",
       "account": "Compte",
       "login": "Se connecter",
-      "signup": "S’inscrire"
+      "signup": "S'inscrire"
     },
     "us": {
       "title": "🏥 Qui sommes-nous ?",
       "baptiste": {
         "name": "🩺 Baptiste Mazas – Médecin & Co-Fondateur",
         "photo": "https://media.licdn.com/dms/image/v2/D4E03AQFHqu-gquZhQg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1728660013124?e=2147483647&v=beta&t=_OaYKhbvEALv-PN2iHDsOimTPlgZ4KIIC1RcqsqsAps",
-        "description": "Je suis médecin spécialisé en diabétologie, nutrition, prévention cardiovasculaire et médecine du sport à Paris (AP-HP). Avec Veille, je veux lutter contre la désinformation et rendre l’information médicale et scientifique accessible à tous. Cet outil est conçu pour répondre à nos problématiques, alors partagez-nous vos retours et suggestions, on est à l’écoute ! À très vite ! Baptiste 💡😊"
+        "description": "Je suis médecin spécialisé en diabétologie, nutrition, prévention cardiovasculaire et médecine du sport à Paris (AP-HP). Avec Veille, je veux lutter contre la désinformation et rendre l'information médicale et scientifique accessible à tous. Cet outil est conçu pour répondre à nos problématiques, alors partagez-nous vos retours et suggestions, on est à l'écoute ! À très vite ! Baptiste 💡😊"
       },
       "jeanemmanuel": {
         "name": "👨‍💻 Jean-Emmanuel Perramant – Développeur Full Stack & Co-Fondateur",
         "photo": "https://media.licdn.com/dms/image/v2/D4E03AQEskdlqvwB6gw/profile-displayphoto-shrink_800_800/B4EZXyGn8pHgAc-/0/1743523578891?e=1749686400&v=beta&t=f31Qvtw-X2cBAMUJCihUNJiBvXSZho4PsXhUO5JJxAA",
-        "description": "Formé à l’école 42, je suis passionné par le développement web et logiciel. J’adore donner vie à des idées en créant des outils utiles et innovants, tout en explorant de nouvelles technologies. J’espère que Veille vous sera vraiment utile ! N’hésitez pas à nous écrire, on fera de notre mieux pour l’adapter à vos besoins💡😊"
+        "description": "Formé à l'école 42, je suis passionné par le développement web et logiciel. J'adore donner vie à des idées en créant des outils utiles et innovants, tout en explorant de nouvelles technologies. J'espère que Veille vous sera vraiment utile ! N'hésitez pas à nous écrire, on fera de notre mieux pour l'adapter à vos besoins💡😊"
       },
       "alexis": {
         "name": "👨‍💻 Alexis Chatelain - Développeur Fullstack",
         "photo": "https://media.discordapp.net/attachments/499955908810375188/1287735266983022602/1678476774135.png?ex=67fb9dec&is=67fa4c6c&hm=59eb6a593d455e21ce41fd9bdebee8b249c10a7e4d86c51780c762a7180ff6bc&=&format=webp&quality=lossless&width=1600&height=1600",
         "description": "Formé à l'école 42, spécialisé dans le domaine de l'IA et passionné par le développement de logiciels et le machine learning, j'adore mettre le code au service de projet vraiment utile et créer des solutions innovantes. J'espère apporter au travers de Veille, mon expertise au service du domaine médical 💡😊"
       },
-      "suggestion": "🎯 Veille évolue avec vous ! Partagez-nous vos suggestions pour en faire l’outil parfait pour votre quotidien : <a href=\"mailto:contact@veillemedicale.fr\">contact@veillemedicale.fr</a> 🚀"
+      "suggestion": "🎯 Veille évolue avec vous ! Partagez-nous vos suggestions pour en faire l'outil parfait pour votre quotidien : <a href=\"mailto:contact@veillemedicale.fr\">contact@veillemedicale.fr</a> 🚀"
+    },
+    "donations": {
+        "pageTitle": "Soutenir Veille Médicale",
+        "metaDescription": "Faites un don pour soutenir le développement et la maintenance de Veille Médicale. Aidez-nous à fournir une veille scientifique de qualité aux professionnels de santé.",
+        "introText": "Votre soutien nous aide à maintenir et améliorer cet outil essentiel pour la communauté médicale. Chaque contribution compte !",
+        "chooseAmount": "Choisissez un montant (EUR)",
+        "customAmountLabel": "Montant personnalisé",
+        "customAmountPlaceholder": "Autre montant",
+        "paymentDetails": "Informations de paiement",
+        "validateButton": "OK",
+        "confirmCustomAmount": "Valider le montant personnalisé",
+        "donateButton": "Faire un don de",
+        "donateButtonFallback": "Faire un don",
+        "processing": "Traitement en cours",
+        "loadingStripe": "Chargement du module de paiement",
+        "loadingPayment": "Initialisation du paiement",
+        "redirecting": "Paiement réussi. Redirection...",
+        "securityNote": "Les paiements sont sécurisés par Stripe.",
+        "errors": {
+            "stripeKeyMissing": "Erreur de configuration : Clé Stripe manquante.",
+            "stripeLoadFailed": "Impossible de charger le module de paiement Stripe.",
+            "clientSecretMissing": "Erreur interne : Impossible de récupérer les informations de paiement.",
+            "confirmCustomAmount": "Veuillez valider le montant personnalisé.",
+            "intentCreationFailed": "Erreur lors de l'initialisation du paiement.",
+            "invalidAmount": "Veuillez entrer un montant valide (min 0.50 €).",
+            "selectAmount": "Veuillez sélectionner ou entrer un montant valide (min 0.50 €).",
+            "stripeNotReady": "Le système de paiement n'est pas prêt.",
+            "paymentElementNotReady": "Le formulaire de paiement n'est pas prêt.",
+            "paymentFailed": "Échec du paiement. Veuillez vérifier vos informations ou réessayer."
+        },
+        "status": {
+            "title": "Statut du Don",
+            "loadingTitle": "Vérification du paiement...",
+            "loadingText": "Veuillez patienter pendant que nous vérifions le statut de votre don.",
+            "successTitle": "Merci pour votre soutien !",
+            "successText": "Votre don a été traité avec succès. Nous apprécions énormément votre contribution à Veille Médicale.",
+            "processingTitle": "Paiement en cours de traitement",
+            "processingText": "Votre paiement est en cours de traitement. Nous vous informerons une fois terminé. Vous pouvez fermer cette page.",
+            "errorTitle": "Erreur de Paiement",
+            "errorGeneric": "Une erreur est survenue lors du traitement de votre paiement. Aucuns frais n'ont été appliqués.",
+            "errorMissingParams": "Paramètres de paiement manquants ou invalides.",
+            "backHomeButton": "Retour à l'accueil",
+            "retryButton": "Réessayer le don"
+        }
     }
   }
 }
@@ -5542,6 +6102,100 @@ frontend/src/app.html
 	</body>
 </html>
 
+--- End of File ---
+
+--- File Path ---
+frontend/src/routes/donation-status/+page.svelte
+
+--- File Path ---
+frontend/src/routes/donation-status/+page.svelte
+
+<script lang="ts">
+    import { page } from '$app/stores';
+    import { onMount } from 'svelte';
+    import { CheckCircle, XCircle, Loader } from 'lucide-svelte'; // Using lucide icons
+    import { i18n } from '$lib/i18n';
+
+    let status: 'loading' | 'success' | 'error' | 'processing' = $state('loading');
+    let errorMessage = $state('');
+    let paymentIntentId = $state<string | null>(null);
+    let donationAmount = $state<number | null>(null);
+
+    onMount(async () => {
+        const clientSecret = $page.url.searchParams.get('payment_intent_client_secret');
+        paymentIntentId = $page.url.searchParams.get('payment_intent');
+        const redirectStatus = $page.url.searchParams.get('redirect_status');
+
+        if (!clientSecret || !paymentIntentId) {
+            errorMessage = $i18n.donations.status.errorMissingParams;
+            status = 'error';
+            return;
+        }
+
+        // No need to fetch Stripe client-side here if just checking status
+        // Can add if needed for more details later
+
+        if (redirectStatus === 'succeeded') {
+            status = 'success';
+            // Optionally fetch amount from backend if needed, but for now just show success
+            // Try to get amount from local storage or pass via state if possible
+        } else if (redirectStatus === 'processing') {
+            status = 'processing';
+        } else {
+            status = 'error';
+            // Try to get a more specific error message if provided by Stripe
+            errorMessage = $page.url.searchParams.get('error_message') || $i18n.donations.status.errorGeneric;
+        }
+    });
+</script>
+
+<svelte:head>
+    <title>{$i18n.donations.status.title} - Veille Médicale</title>
+</svelte:head>
+
+<main class="flex min-h-screen flex-col items-center justify-center bg-black px-4 py-12 text-white">
+    <div class="w-full max-w-md rounded-lg bg-gray-800 p-8 text-center shadow-lg">
+        {#if status === 'loading'}
+            <Loader class="mx-auto mb-4 h-16 w-16 animate-spin text-orange-500" />
+            <h1 class="mb-2 text-2xl font-semibold">{$i18n.donations.status.loadingTitle}</h1>
+            <p class="text-gray-400">{$i18n.donations.status.loadingText}</p>
+        {:else if status === 'success'}
+            <CheckCircle class="mx-auto mb-4 h-16 w-16 text-green-500" />
+            <h1 class="mb-2 text-2xl font-semibold">{$i18n.donations.status.successTitle}</h1>
+            <p class="text-gray-300">
+                {$i18n.donations.status.successText}
+                {#if paymentIntentId}
+                    <span class="mt-2 block text-xs text-gray-500">ID: {paymentIntentId}</span>
+                {/if}
+            </p>
+            <a href="/" class="mt-6 inline-block rounded-lg bg-orange-600 px-6 py-2 font-medium text-white transition hover:bg-orange-700">
+                {$i18n.donations.status.backHomeButton}
+            </a>
+        {:else if status === 'processing'}
+             <Loader class="mx-auto mb-4 h-16 w-16 animate-spin text-orange-500" />
+             <h1 class="mb-2 text-2xl font-semibold">{$i18n.donations.status.processingTitle}</h1>
+             <p class="text-gray-300">{$i18n.donations.status.processingText}</p>
+             {#if paymentIntentId}
+                <span class="mt-2 block text-xs text-gray-500">ID: {paymentIntentId}</span>
+             {/if}
+             <a href="/" class="mt-6 inline-block rounded-lg bg-gray-600 px-6 py-2 font-medium text-white transition hover:bg-gray-700">
+                {$i18n.donations.status.backHomeButton}
+            </a>
+        {:else if status === 'error'}
+            <XCircle class="mx-auto mb-4 h-16 w-16 text-red-500" />
+            <h1 class="mb-2 text-2xl font-semibold">{$i18n.donations.status.errorTitle}</h1>
+            <p class="text-gray-300">
+                {errorMessage || $i18n.donations.status.errorGeneric}
+            </p>
+             {#if paymentIntentId}
+                <span class="mt-2 block text-xs text-gray-500">ID: {paymentIntentId}</span>
+             {/if}
+            <a href="/donations" class="mt-6 inline-block rounded-lg bg-orange-600 px-6 py-2 font-medium text-white transition hover:bg-orange-700">
+                {$i18n.donations.status.retryButton}
+            </a>
+        {/if}
+    </div>
+</main>
 --- End of File ---
 
 --- File Path ---
@@ -7353,7 +8007,7 @@ frontend/src/routes/ma-veille/+page.svelte
 	initialFilterValue={initialFilter}
 	filterSelectLabel="Mes spécialités"
 	showSignupPromptProp={true}
-	enableSearch={false}
+	enableSearch={true}
 	userId={currentUserId}
 	savedArticleIds={savedIdsSet}
 	articleOfTheDayTitleTemplate={articleOfTheDayTitleTemplate}
@@ -8647,6 +9301,85 @@ export const POST = async ({ request, locals: { supabase, safeGetSession } }) =>
 --- End of File ---
 
 --- File Path ---
+frontend/src/routes/api/create-donation-intent/+server.ts
+
+import { env } from '$env/dynamic/private';
+import { error, json } from '@sveltejs/kit';
+import Stripe from 'stripe';
+
+const stripeSecretKey = env.STRIPE_SECRET_KEY || process.env.STRIPE_SECRET_KEY;
+
+if (!stripeSecretKey) {
+    console.error("Stripe configuration error: Missing secret key in environment variables.");
+    // Avoid throwing here during module load, handle in POST
+}
+
+const stripe = new Stripe(stripeSecretKey, {
+    apiVersion: '2023-10-16', // Use your desired API version
+});
+
+export async function POST({ request }) {
+    // --- Check for missing config on request ---
+    if (!stripeSecretKey) {
+        console.error("Stripe configuration missing on request.");
+        throw error(500, "Server configuration error: Stripe details not set.");
+    }
+
+    try {
+        const { amount } = await request.json(); // Expect amount in cents
+
+        // --- Validate Amount ---
+        if (typeof amount !== 'number' || !Number.isInteger(amount) || amount <= 0) {
+            // Stripe minimum amount is typically around 50 cents (0.50 EUR)
+            if (amount < 50) {
+                 throw error(400, 'Le montant minimum de don est de 0.50 €.');
+            }
+            throw error(400, 'Montant invalide fourni.');
+        }
+
+        // --- Create the Payment Intent ---
+        console.log(`Creating PaymentIntent for amount: ${amount} cents`);
+        const paymentIntent = await stripe.paymentIntents.create({
+            amount: amount,
+            currency: 'eur',
+            description: 'Don ponctuel pour Veille Médicale', // Customize description
+            // Enable automatic capture and common payment methods
+            automatic_payment_methods: {
+                enabled: true,
+            },
+            // Optionally add metadata
+            metadata: {
+                donation_type: 'one-time',
+                // Add user ID if available from session
+                // user_id: userId || 'anonymous',
+            },
+        });
+
+        // --- Return the Client Secret ---
+        if (!paymentIntent.client_secret) {
+             throw new Error('Could not retrieve client secret from Payment Intent.');
+        }
+
+        console.log(`PaymentIntent created successfully: ${paymentIntent.id}`);
+        return json({
+            clientSecret: paymentIntent.client_secret
+        });
+
+    } catch (err) {
+        console.error("Stripe API Error:", err);
+        // Distinguish Stripe errors from other errors
+        if (err instanceof Stripe.errors.StripeError) {
+             throw error(err.statusCode || 500, `Stripe Error: ${err.message}`);
+        } else if (err.status === 400) { // Handle specific thrown errors like 'Invalid amount'
+             throw error(400, err.body?.message || 'Bad Request');
+        } else {
+             throw error(500, `Error creating payment intent: ${err.message || 'Unknown server error'}`);
+        }
+    }
+}
+--- End of File ---
+
+--- File Path ---
 frontend/src/routes/api/get-liked-articles/+server.ts
 
 // src/routes/api/get-liked-articles/+server.ts
@@ -9427,6 +10160,42 @@ export const load: LayoutLoad = async ({ data, depends, fetch }) => {
 --- End of File ---
 
 --- File Path ---
+frontend/src/routes/donations/+page.svelte
+
+<script lang="ts">
+    import DonationForm from '$lib/components/DonationForm.svelte';
+    import { i18n } from '$lib/i18n';
+
+    // Define props or logic specific to the donation page if needed
+    // For now, it just renders the form.
+</script>
+
+<svelte:head>
+    <title>{$i18n.donations.pageTitle} - Veille Médicale</title>
+    <meta name="description" content={$i18n.donations.metaDescription} />
+</svelte:head>
+
+<main class="min-h-screen bg-black px-4 py-12 pt-20 text-white">
+    <div class="mx-auto max-w-lg">
+        <h1 class="mb-6 text-center text-3xl font-bold tracking-tight">
+            {$i18n.donations.pageTitle}
+        </h1>
+        <p class="mb-8 text-center text-lg text-gray-300">
+            {$i18n.donations.introText}
+        </p>
+
+        <div class="rounded-lg bg-gray-800 p-6 shadow-lg md:p-8">
+            <DonationForm />
+        </div>
+
+        <p class="mt-8 text-center text-sm text-gray-500">
+            {$i18n.donations.securityNote}
+        </p>
+    </div>
+</main>
+--- End of File ---
+
+--- File Path ---
 frontend/src/routes/+page.server.ts
 
 import { error } from '@sveltejs/kit';
@@ -9613,7 +10382,7 @@ frontend/package.json
 		"@supabase/ssr": "^0.5.2",
 		"@supabase/supabase-js": "^2.49.1",
 		"dotenv": "^16.4.7",
-		"lucide-svelte": "^0.479.0",
+		"lucide-svelte": "^0.488.0",
 		"luxon": "^3.5.0",
 		"nprogress": "^0.2.0",
 		"stripe": "^18.0.0",
