@@ -6,8 +6,7 @@ import type { RequestEvent } from '@sveltejs/kit';
 const stripeSecretKey = env.STRIPE_SECRET_KEY || process.env.STRIPE_SECRET_KEY;
 
 if (!stripeSecretKey) {
-    console.error("Stripe configuration error: Missing secret key in environment variables.");
-    // Avoid throwing here during module load, handle in POST
+    console.error("Stripe configuration error: Missing secret key.");
 }
 
 const stripe = new Stripe(stripeSecretKey!, {
@@ -15,61 +14,60 @@ const stripe = new Stripe(stripeSecretKey!, {
 });
 
 export async function POST({ request, locals: { supabase, safeGetSession } }: RequestEvent) {
-    // --- Get User for Metadata ---
     const { user } = await safeGetSession();
-    // Allow anonymous donations, but log if user isn't logged in
-    if (!user) {
-        console.warn("Creating donation intent for anonymous user.");
-    }
-    // --- Check for missing config on request ---
     if (!stripeSecretKey) {
-        console.error("Stripe configuration missing on request.");
         throw error(500, "Server configuration error: Stripe details not set.");
     }
 
     try {
-        const { amount } = await request.json(); // Expect amount in cents
+        const { amount, paymentMethodType } = await request.json(); // Expect amount in cents AND paymentMethodType
 
         // --- Validate Amount ---
-        if (typeof amount !== 'number' || !Number.isInteger(amount) || amount <= 0) {
-            // Stripe minimum amount is typically around 50 cents (0.50 EUR)
-            if (amount < 50) {
-                 throw error(400, 'Le montant minimum de don est de 0.50 €.');
-            }
-            throw error(400, 'Montant invalide fourni.');
+        if (typeof amount !== 'number' || !Number.isInteger(amount) || amount < 50) { // Min 0.50 EUR
+             throw error(400, 'Montant invalide fourni (min 0.50 €).');
         }
 
-        // --- Create the Payment Intent ---
-        console.log(`Creating PaymentIntent for amount: ${amount} cents`);
-        const paymentIntent = await stripe.paymentIntents.create({
+        // --- Validate Payment Method Type ---
+        const allowedTypes = ['card', 'sepa_debit']; // Explicitly define allowed types for intent creation
+        if (!paymentMethodType || !allowedTypes.includes(paymentMethodType)) {
+            // Note: Apple/Google Pay will use the 'card' type intent.
+            // We only need specific types for methods requiring them, like SEPA.
+            // If the request is for wallets, the frontend should request 'card'.
+             console.warn(`Invalid or missing paymentMethodType requested: ${paymentMethodType}. Defaulting to 'card' for wallets or unspecified.`);
+             // We will let 'card' be the default if not 'sepa_debit' for simplicity now.
+             // More robust validation could reject unknown types.
+        }
+
+        const intentParams: Stripe.PaymentIntentCreateParams = {
             amount: amount,
             currency: 'eur',
-            description: 'Don ponctuel pour Veille Médicale', // Customize description
-            // Enable automatic capture and common payment methods
-            automatic_payment_methods: {
-                enabled: true,
-            },
-            // Optionally add metadata
+            description: `Don ponctuel (${paymentMethodType}) pour Veille Médicale`,
+            // --- Set payment_method_types based on request ---
+            payment_method_types: [paymentMethodType], // e.g., ['card'] or ['sepa_debit']
+             // If using SEPA, you might need setup_future_usage for mandates
+            ...(paymentMethodType === 'sepa_debit' && { setup_future_usage: 'off_session' }),
             metadata: {
-                // Add user ID if available
                 user_id: user?.id || null,
                 donation_type: 'one-time',
+                intended_method: paymentMethodType // Store intended method
             },
-        });
+        };
 
-        // --- Return the Client Secret ---
+        // --- Create the specific Payment Intent ---
+        console.log(`Creating PaymentIntent for amount: ${amount} cents, type: ${paymentMethodType}`);
+        const paymentIntent = await stripe.paymentIntents.create(intentParams);
+
         if (!paymentIntent.client_secret) {
              throw new Error('Could not retrieve client secret from Payment Intent.');
         }
 
-        console.log(`PaymentIntent created successfully: ${paymentIntent.id}`);
+        console.log(`PaymentIntent created successfully: ${paymentIntent.id} (Type: ${paymentMethodType})`);
         return json({
             clientSecret: paymentIntent.client_secret
         });
 
     } catch (err: unknown) {
         console.error("Stripe API Error:", err);
-        // Distinguish Stripe errors from other errors
         if (err instanceof Stripe.errors.StripeError) {
              throw error(err.statusCode || 500, `Stripe Error: ${err.message}`);
         } else if (err && typeof err === 'object' && 'status' in err && err.status === 400) {

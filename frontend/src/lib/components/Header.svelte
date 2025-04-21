@@ -79,7 +79,7 @@
 						? 'text-black hover:text-gray-700'
 						: 'text-white hover:text-gray-300'} transition-colors duration-200"
 				>
-					{$i18n.header.donate} ❤️
+					{$i18n.header.donate}
 				</a>
 				<a
 					href="/articles"
@@ -179,7 +179,7 @@
 							onclick={closeMobileMenu}
 							class="block px-6 py-3 text-base hover:bg-gray-100"
 						>
-							{$i18n.header.donate} ❤️
+							{$i18n.header.donate}
 						</a>
 						<a
 							href="/articles"
