@@ -47,6 +47,7 @@
 	filterSelectLabel="Mes spécialités"
 	showSignupPromptProp={true}
 	enableSearch={true}
+	subDisciplineFetchMode="user"
 	userId={currentUserId}
 	savedArticleIds={savedIdsSet}
 	articleOfTheDayTitleTemplate={articleOfTheDayTitleTemplate}

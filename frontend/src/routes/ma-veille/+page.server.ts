@@ -1,217 +1,70 @@
-// /ma-veille/+page.server.ts
-import { DateTime } from 'luxon';
+// /ma-veille/+page.server.ts (V4 - Simplified)
+import { redirect } from '@sveltejs/kit';
+import { error } from '@sveltejs/kit';
 
 export async function load({ locals }) {
-	console.log('=== Starting load function for /ma-veille ===');
+	console.log('=== Starting load function for /ma-veille (V4 - Simplified) ===');
 
 	const { session, user } = await locals.safeGetSession();
-	console.log('Session from safeGetSession:', session);
-	console.log('User from safeGetSession:', user);
 
 	if (!user || !session) {
-		console.log('No user or session found, returning empty data');
-		return {
-			recentArticles: [],
-			olderArticles: [],
-			userDisciplines: [],
-			savedArticleIds: [],
-			articleOfTheDay: [],
-			error: 'Utilisateur non connecté.'
-		};
+		console.log('No user or session found, redirecting to login');
+        throw redirect(303, '/login?redirect=/ma-veille');
 	}
 
-	console.log('Fetching user profile for user ID:', user.id);
-	const { data: userProfile, error: profileError } = await locals.supabase
-		.from('user_profiles')
-		.select('disciplines, notification_frequency')
-		.eq('id', user.id)
-		.single();
+	try {
+        // 1. Fetch distinct MAIN discipline names user is subscribed to
+        console.log(`Fetching distinct subscribed discipline names for user: ${user.id}`);
+        // Use RPC for potentially better performance on distinct join
+        const { data: disciplineNamesData, error: disciplineNamesError } = await locals.supabase
+            .rpc('get_user_subscribed_discipline_names', { p_user_id: user.id });
 
-	console.log('User profile data:', userProfile);
-	console.log('Profile error:', profileError);
+        if (disciplineNamesError) {
+            console.error('Error fetching user subscribed discipline names via RPC:', disciplineNamesError);
+            throw error(500, `Database error: ${disciplineNamesError.message}`);
+        }
 
-	if (profileError || !userProfile) {
-		console.error('Profile fetch failed:', profileError?.message);
-		return {
-			recentArticles: [],
-			olderArticles: [],
-			userDisciplines: [],
-			savedArticleIds: [],
-			articleOfTheDay: [],
-			error: profileError?.message || 'Profil utilisateur non trouvé.'
-		};
-	}
+        // RPC returns array of records like { name: '...' }, sort them
+        const userDisciplinesNames = (disciplineNamesData || [])
+            .map((d: { name: string }) => d.name)
+            .sort((a: string, b: string) => a.localeCompare(b, 'fr', { sensitivity: 'base' }));
 
-	let userDisciplines = userProfile.disciplines || [];
-	const notificationFrequency = userProfile.notification_frequency || 'tous_les_jours'; // Changed to 'tous_les_jours' to match your schema
-	console.log('User disciplines:', userDisciplines);
-	console.log('Notification frequency:', notificationFrequency);
+        console.log('User Main Disciplines for Filter:', userDisciplinesNames);
 
-	if (userDisciplines.length === 0) {
-		console.log('No disciplines found for user');
-		return {
-			recentArticles: [],
-			olderArticles: [],
-			userDisciplines: [],
-			savedArticleIds: [],
-			articleOfTheDay: [],
-			error: 'Aucune discipline choisie.'
-		};
-	}
+        if (userDisciplinesNames.length === 0) {
+             console.log('User has no subscriptions.');
+             // Return empty list, page will show empty state
+        }
 
-	// Fetch saved articles
-	console.log('Fetching saved articles for user ID:', user.id);
-	const { data: savedArticlesData, error: savedArticlesError } = await locals.supabase
-		.from('saved_articles')
-		.select('article_id')
-		.eq('user_id', user.id);
+        // 2. Fetch saved articles (same as before)
+        console.log('Fetching saved articles for user ID:', user.id);
+        const { data: savedArticlesData, error: savedArticlesError } = await locals.supabase
+            .from('saved_articles') // Adjust table name if different
+            .select('article_id')
+            .eq('user_id', user.id);
 
-	console.log('Saved articles data:', savedArticlesData);
-	console.log('Saved articles error:', savedArticlesError);
+        if (savedArticlesError) {
+            console.error('Error fetching saved articles:', savedArticlesError);
+            throw error(500, `Database error: ${savedArticlesError.message}`);
+        }
 
-	const savedArticleIds = savedArticlesData?.map((saved) => saved.article_id) || [];
-	console.log('Mapped saved article IDs:', savedArticleIds);
+        const savedArticleIds = savedArticlesData?.map((saved) => saved.article_id) || [];
+        console.log('Mapped saved article IDs:', savedArticleIds);
 
-	// Fetch articles sent today for each discipline
-	const today = DateTime.now().startOf('day').toISO();
-	console.log('Fetching articles sent today:', today);
-	const { data: sentArticlesData, error: sentArticlesError } = await locals.supabase
-		.from('user_sent_articles')
-		.select(
-			`
-      article_id,
-      sent_at,
-      discipline,
-      articles (
-        id,
-        title,
-        content,
-        published_at,
-        link,
-        grade,
-        journal,
-        article_disciplines(discipline_id, disciplines(name))
-      )
-    `
-		)
-		.eq('user_id', user.id)
-		.gte('sent_at', today)
-		.order('sent_at', { ascending: false });
+        // 3. Return the necessary data for the page
+        console.log('Returning data to /ma-veille page');
+        return {
+            // Pass the names for the filter dropdown
+            userDisciplines: userDisciplinesNames,
+            // Pass saved IDs for the ArticleListView component (if it uses them)
+            savedArticleIds,
+            // No need to pass initial subs or initial filter, ArticleListView handles it
+            error: null
+        };
 
-	console.log('Sent articles data:', sentArticlesData);
-	console.log('Sent articles error:', sentArticlesError);
-
-	let articleOfTheDay = [];
-	if (sentArticlesError || !sentArticlesData) {
-		console.error('Sent articles fetch failed:', sentArticlesError?.message);
-	} else {
-		// Group articles by discipline for "article du jour"
-		articleOfTheDay = userDisciplines
-			.map((discipline) => {
-				const articleForDiscipline =
-					sentArticlesData
-						.filter((sa) => sa.discipline === discipline)
-						.map((sa) => ({
-							...sa.articles,
-							disciplines: sa.articles.article_disciplines?.map((ad) => ad.disciplines.name) || [],
-							sent_at: sa.sent_at
-						}))[0] || null;
-				return articleForDiscipline;
-			})
-			.filter((a) => a !== null);
-	}
-
-	console.log('Articles of the day:', articleOfTheDay);
-
-	// Fetch recent and older articles (last 2 and rest, excluding today's sent articles)
-	const allSentArticleIds = sentArticlesData?.map((sa) => sa.article_id) || [];
-	const recentArticleIds = allSentArticleIds
-		.slice(-2)
-		.filter((id) => !articleOfTheDay.some((a) => a.id === id));
-	const olderArticleIds = allSentArticleIds
-		.slice(0, -2)
-		.filter((id) => !articleOfTheDay.some((a) => a.id === id));
-
-	console.log('Recent article IDs:', recentArticleIds);
-	console.log('Older article IDs:', olderArticleIds);
-
-	const { data: recentArticlesData, error: recentArticlesError } = await locals.supabase
-		.from('articles')
-		.select(
-			`
-      id,
-      title,
-      content,
-      published_at,
-      link,
-      grade,
-      journal,
-      article_disciplines(discipline_id, disciplines(name))
-    `
-		)
-		.in('id', recentArticleIds)
-		.order('published_at', { ascending: false });
-
-	console.log('Recent articles data:', recentArticlesData);
-	console.log('Recent articles error:', recentArticlesError);
-
-	const recentArticles =
-		recentArticlesData?.map((article) => ({
-			...article,
-			disciplines: article.article_disciplines?.map((ad) => ad.disciplines.name) || [],
-			journal: article.journal
-		})) || [];
-
-	let olderArticles = [];
-	if (olderArticleIds.length > 0) {
-		const { data: olderArticlesData, error: olderArticlesError } = await locals.supabase
-			.from('articles')
-			.select(
-				`
-        id,
-        title,
-        content,
-        published_at,
-        link,
-        grade,
-        journal,
-        article_disciplines(discipline_id, disciplines(name))
-      `
-			)
-			.in('id', olderArticleIds)
-			.order('published_at', { ascending: false });
-
-		console.log('Older articles data:', olderArticlesData);
-		console.log('Older articles error:', olderArticlesError);
-
-		olderArticles =
-			olderArticlesData?.map((article) => ({
-				...article,
-				disciplines: article.article_disciplines?.map((ad) => ad.disciplines.name) || [],
-				journal: article.journal
-			})) || [];
-	}
-
-	console.log('Returning data to client');
-
-	userDisciplines = userDisciplines.sort((a, b) => {
-		const disciplineA = a.toLowerCase();
-		const disciplineB = b.toLowerCase();
-		if (disciplineA < disciplineB) {
-			return -1;
-		}
-		if (disciplineA > disciplineB) {
-			return 1;
-		}
-		return 0;
-	});
-	return {
-		recentArticles,
-		olderArticles,
-		userDisciplines,
-		savedArticleIds,
-		articleOfTheDay,
-		notification_frequency: notificationFrequency,
-		error: null
-	};
+    } catch (err) {
+         console.error('Error in /ma-veille load function:', err);
+         if (err && typeof err === 'object' && 'status' in err) throw err;
+         throw error(500, 'Une erreur interne est survenue lors du chargement de votre veille.');
+    }
 }

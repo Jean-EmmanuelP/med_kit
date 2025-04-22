@@ -29,6 +29,7 @@
 	filters={filterOptions}
 	initialFilterValue={initialFilter}
 	filterSelectLabel="Spécialités"
+	subDisciplineFetchMode="public"
 	showSignupPromptProp={false}
 	enableSearch={true}
     {articleOfTheDayTitleTemplate}

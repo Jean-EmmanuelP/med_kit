@@ -38,7 +38,8 @@
         searchPlaceholder = "Rechercher par mots-clés...",
 		apiEndpoint = '/api/get_articles_my_veille',
 		apiFilterParamName = 'specialty',
-		userId = null as string | null, // Keep userId prop if needed elsewhere, but rely on store for actions
+		userId = null as string | null,
+        savedArticleIds = new Set<string | number>(),
 		articleOfTheDayTitleTemplate = '🔥 Article du jour pour {filter} :',
 		previousArticlesTitleTemplate = '📖 Articles précédents pour {filter} :',
 		loadMoreButtonText = "Charger plus d'articles",
@@ -48,7 +49,8 @@
         subDisciplineSelectLabel = "Affiner par sous-spécialité",
         showAllSubDisciplinesOption = true,
         allSubDisciplinesLabel = "Toutes les sous-spécialités",
-        showAllCategoriesOption = true
+        showAllCategoriesOption = true,
+        subDisciplineFetchMode = 'user' as 'user' | 'public'
 	} = $props<{
 		pageTitle?: string;
 		filters?: FilterOption[];
@@ -60,7 +62,8 @@
         searchPlaceholder?: string;
 		apiEndpoint?: string;
 		apiFilterParamName?: string;
-		userId?: string | null; // Keep prop
+		userId?: string | null;
+        savedArticleIds?: Set<string | number>;
 		articleOfTheDayTitleTemplate?: string;
 		previousArticlesTitleTemplate?: string;
 		loadMoreButtonText?: string;
@@ -71,6 +74,7 @@
         showAllSubDisciplinesOption?: boolean;
         allSubDisciplinesLabel?: string;
         showAllCategoriesOption?: boolean;
+        subDisciplineFetchMode?: 'user' | 'public';
 	}>();
 
     // Update initial filter default logic slightly to handle empty filters AND showAll option
@@ -137,38 +141,38 @@
     // Effect to fetch SUB-DISCIPLINES when main filter changes
     $effect(() => {
         const currentMainFilter = selectedFilter;
-        // console.log('Main filter changed to:', currentMainFilter);
+        selectedSubDiscipline = null; // Reset sub-selection
+        availableSubDisciplines = []; // Clear current subs
 
-        selectedSubDiscipline = null;
-        availableSubDisciplines = [];
         if (!currentMainFilter || currentMainFilter === ALL_CATEGORIES_VALUE) {
-            //  console.log('Skipping sub-discipline fetch (All or None selected).');
              isLoadingSubDisciplines = false;
              return;
         }
 
         isLoadingSubDisciplines = true;
-        // console.log('Fetching sub-disciplines for:', currentMainFilter);
+        console.log(`Fetching sub-disciplines for: ${currentMainFilter} (Mode: ${subDisciplineFetchMode})`);
 
-        fetch(`/api/get_sub_disciplines?disciplineName=${encodeURIComponent(currentMainFilter)}`)
+        // Construct URL with the mode parameter
+        const apiUrl = `/api/get_sub_disciplines?disciplineName=${encodeURIComponent(currentMainFilter)}&mode=${subDisciplineFetchMode}`;
+
+        fetch(apiUrl)
             .then(async (res) => {
                 if (!res.ok) {
-                    const errorText = await res.text();
-					throw new Error(`Erreur réseau ${res.status}: ${errorText || res.statusText}`);
+                    const errorText = await res.text().catch(() => `HTTP error ${res.status}`);
+					throw new Error(`Erreur réseau ${res.status}: ${errorText}`);
                 }
                 return res.json();
             })
             .then((data: SubDisciplineOption[]) => {
-                //  console.log('Fetched sub-disciplines:', data);
                  availableSubDisciplines = data || [];
             })
             .catch(error => {
                 console.error("Error fetching sub-disciplines:", error);
                 availableSubDisciplines = [];
+                fetchError = `Erreur chargement sous-spécialités.`; // More generic error
             })
             .finally(() => {
                 isLoadingSubDisciplines = false;
-                // console.log('Finished fetching sub-disciplines.');
             });
     });
 
