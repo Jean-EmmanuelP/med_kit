@@ -117,7 +117,7 @@ Je recommande 👌
             if (!data.clientSecret) throw new Error('Missing clientSecret from API');
 
             newClientSecret = data.clientSecret;
-            console.log(`Received clientSecret for ${type}:`, newClientSecret);
+            // console.log(`Received clientSecret for ${type}:`, newClientSecret);
 
             // Store the secret based on type
             if (type === 'card') clientSecretCard = newClientSecret;
@@ -224,7 +224,7 @@ Je recommande 👌
                             return;
                         }
 
-                        console.log("Confirming PR payment with secret:", secret);
+                        // console.log("Confirming PR payment with secret:", secret);
                         const { paymentIntent, error: confirmError } = await stripe.confirmPayment({
                             clientSecret: secret,
                             confirmParams: { payment_method: ev.paymentMethod.id },
@@ -277,7 +277,7 @@ Je recommande 👌
         }
 
         errorMessage = ''; // Clear errors when showing form
-        console.log(`Initializing ${type} element with secret: ${secret}`);
+        // console.log(`Initializing ${type} element with secret: ${secret}`);
         const appearance = { 
             theme: 'night' as const, 
             labels: 'floating' as const,
@@ -382,7 +382,7 @@ Je recommande 👌
                 return;
             }
 
-            console.log("Mounting PR button with secret:", secret);
+            // console.log("Mounting PR button with secret:", secret);
             // Recreate elements instance if necessary
             if (!elements) {
                 elements = stripe.elements({ clientSecret: secret });
@@ -486,7 +486,7 @@ Je recommande 👌
         isProcessingPayment = true;
         errorMessage = '';
 
-        console.log("Confirming Card/PaymentElement payment with secret:", clientSecretCard);
+        // console.log("Confirming Card/PaymentElement payment with secret:", clientSecretCard);
         
         // First submit the elements
         const { error: submitError } = await elements?.submit();
@@ -527,7 +527,7 @@ Je recommande 👌
         isProcessingPayment = true;
         errorMessage = '';
 
-        console.log("Confirming SEPA payment with secret:", clientSecretSepa);
+        // console.log("Confirming SEPA payment with secret:", clientSecretSepa);
         const { error } = await stripe.confirmSepaDebitPayment(clientSecretSepa, {
             payment_method: {
                 sepa_debit: ibanElement,

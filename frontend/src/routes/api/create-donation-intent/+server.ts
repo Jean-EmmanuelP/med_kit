@@ -38,7 +38,7 @@ export async function POST({ request, locals: { supabase, safeGetSession } }: Re
              // More robust validation could reject unknown types.
         }
 
-        const intentParams: Stripe.PaymentIntentCreateParams = {
+        const intentParams = {
             amount: amount,
             currency: 'eur',
             description: `Don ponctuel (${paymentMethodType}) pour Veille Médicale`,
