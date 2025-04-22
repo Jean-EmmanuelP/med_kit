@@ -27,6 +27,7 @@
         showAllCategoriesOption={true}
         apiEndpoint="/api/get-liked-articles"
         userId={currentUserId}
+        subDisciplineFetchMode="public"
         enableSearch={true}
         searchPlaceholder="Rechercher dans mes favoris..."
         showAllSubDisciplinesOption={true}
