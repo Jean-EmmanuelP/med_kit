@@ -19,7 +19,9 @@
 	let dateOfBirth = $state(data.userProfile?.date_of_birth || '');
 
     // Subscription state
+    console.log("Initial data.userSubscriptions:", data.userSubscriptions);
     let currentSubscriptions = $state(new Set<string>(data.userSubscriptions || []));
+    console.log("Initial currentSubscriptions:", Array.from(currentSubscriptions));
 
     // UI State
 	let isLoading = $state(false);
@@ -183,58 +185,81 @@
             specialty: specialty || null,
             notification_frequency: selectedNotificationFreq,
             date_of_birth: dateOfBirth || null,
-            // 'disciplines' field in user_profiles is no longer updated directly
         };
 
+        console.log("Current subscriptions before processing:", Array.from(currentSubscriptions));
         const subscriptionsPayload: { discipline_id: number; sub_discipline_id: number | null }[] = [];
+        
+        // First, handle main discipline subscriptions
         currentSubscriptions.forEach(key => {
-            const [type, idStr] = key.split(':');
-            const id = parseInt(idStr, 10);
-            if (!isNaN(id)) {
-                if (type === 'd') {
-                    // Check if ANY sub-discipline for this main discipline is also selected.
-                    // If so, we only need to insert the sub-discipline rows.
-                    // If not, we insert the main discipline row (sub_discipline_id: null).
-                    const discipline = allDisciplines.find(d => d.id === id);
-                    const hasAnySubSelected = discipline?.sub_disciplines.some(sub => currentSubscriptions.has(`s:${sub.id}`)) ?? false;
+            if (key.startsWith('d:')) {
+                const disciplineId = parseInt(key.split(':')[1], 10);
+                if (!isNaN(disciplineId)) {
+                    // Check if any sub-discipline for this main discipline is also selected
+                    const discipline = allDisciplines.find(d => d.id === disciplineId);
+                    const hasAnySubSelected = discipline?.sub_disciplines.some(sub => 
+                        currentSubscriptions.has(`s:${sub.id}`)
+                    ) ?? false;
+                    
+                    console.log(`Processing main discipline ${disciplineId}:`, {
+                        hasAnySubSelected,
+                        disciplineName: discipline?.name,
+                        subDisciplines: discipline?.sub_disciplines
+                    });
+                    
+                    // Only add the main discipline if no sub-disciplines are selected
                     if (!hasAnySubSelected) {
-                         subscriptionsPayload.push({ discipline_id: id, sub_discipline_id: null });
-                    }
-                } else if (type === 's') {
-                    let parentDisciplineId: number | null = null;
-                    for (const disc of allDisciplines) {
-                        if (disc.sub_disciplines.some(sub => sub.id === id)) {
-                            parentDisciplineId = disc.id;
-                            break;
-                        }
-                    }
-                    if (parentDisciplineId !== null) {
-                        subscriptionsPayload.push({ discipline_id: parentDisciplineId, sub_discipline_id: id });
-                    } else {
-                         console.warn(`Could not find parent discipline for sub_discipline_id: ${id}`);
+                        subscriptionsPayload.push({ 
+                            discipline_id: disciplineId, 
+                            sub_discipline_id: null 
+                        });
                     }
                 }
             }
         });
 
-        // Ensure distinct entries (e.g., if both main and sub were added programmatically somehow)
-        // Although the logic above should prevent duplicates if a sub is selected
-        const distinctSubscriptionsPayload = Array.from(new Map(subscriptionsPayload.map(item => [`${item.discipline_id}-${item.sub_discipline_id}`, item])).values());
+        // Then handle sub-discipline subscriptions
+        currentSubscriptions.forEach(key => {
+            if (key.startsWith('s:')) {
+                const subDisciplineId = parseInt(key.split(':')[1], 10);
+                if (!isNaN(subDisciplineId)) {
+                    // Find the parent discipline for this sub-discipline
+                    for (const discipline of allDisciplines) {
+                        const sub = discipline.sub_disciplines?.find(sub => sub.id === subDisciplineId);
+                        if (sub) {
+                            console.log(`Processing sub-discipline ${subDisciplineId}:`, {
+                                parentDisciplineId: discipline.id,
+                                parentDisciplineName: discipline.name,
+                                subDisciplineName: sub.name
+                            });
+                            subscriptionsPayload.push({ 
+                                discipline_id: discipline.id, 
+                                sub_discipline_id: subDisciplineId 
+                            });
+                            break;
+                        }
+                    }
+                }
+            }
+        });
+
+        console.log("Final subscriptions payload:", subscriptionsPayload);
 
         try {
-			const response = await fetch('/api/update-profile-and-subscriptions', {
+            const response = await fetch('/api/update-profile-and-subscriptions', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({
                     profile: profileUpdates,
-                    subscriptions: distinctSubscriptionsPayload // Send distinct list
+                    subscriptions: subscriptionsPayload
                 })
             });
             const result = await response.json();
             if (!response.ok) throw new Error(result.message || `HTTP Error ${response.status}`);
 
-            // Update local user profile store only with profile fields
-			userProfileStore.update(current => {
+            console.log("Update successful:", result);
+            // Update local user profile store
+            userProfileStore.update(current => {
                 if (current) {
                     return {
                         ...current,
@@ -244,20 +269,17 @@
                         specialty: profileUpdates.specialty,
                         notification_frequency: profileUpdates.notification_frequency,
                         date_of_birth: profileUpdates.date_of_birth,
-                        // Keep the old 'disciplines' array in the store for now if needed elsewhere,
-                        // but it's not directly synced with the new subscription model here.
-                        // You might want to update it based on `distinctSubscriptionsPayload` if necessary.
                     };
                 }
                 return null;
             });
             saveSuccess = true;
-		} catch (err: any) {
-			console.error('Error updating profile/subscriptions:', err);
-			saveError = err.message || 'Erreur lors de la mise à jour.';
-		} finally {
-			isLoading = false;
-		}
+        } catch (err: any) {
+            console.error('Error updating profile/subscriptions:', err);
+            saveError = err.message || 'Erreur lors de la mise à jour.';
+        } finally {
+            isLoading = false;
+        }
 	}
 
 	async function handleLogout() {
@@ -379,7 +401,10 @@
                                                 type="checkbox"
                                                 class="h-4 w-4 rounded border-gray-500 bg-gray-600 text-teal-500 focus:ring-teal-600 focus:ring-offset-gray-800 mr-3 shrink-0"
                                                 checked={currentSubscriptions.has(`d:${discipline.id}`)}
-                                                on:change={(e) => handleMainDisciplineChange(discipline.id, e.currentTarget.checked)}
+                                                on:change={(e) => {
+                                                    console.log("Main discipline change:", discipline.id, e.currentTarget.checked);
+                                                    handleMainDisciplineChange(discipline.id, e.currentTarget.checked);
+                                                }}
                                             />
                                             <span class="font-medium text-gray-100">{discipline.name}</span>
                                         </label>
@@ -397,7 +422,10 @@
                                                           type="checkbox"
                                                           class="h-4 w-4 rounded border-gray-500 bg-gray-600 text-teal-500 focus:ring-teal-600 focus:ring-offset-gray-800 mr-3 shrink-0"
                                                           checked={currentSubscriptions.has(`s:${sub.id}`)}
-                                                          on:change={(e) => handleSubDisciplineChange(sub.id, discipline.id, e.currentTarget.checked)}
+                                                          on:change={(e) => {
+                                                              console.log("Sub discipline change:", sub.id, discipline.id, e.currentTarget.checked);
+                                                              handleSubDisciplineChange(sub.id, discipline.id, e.currentTarget.checked);
+                                                          }}
                                                       />
                                                       <span class="text-sm text-gray-300 hover:text-gray-100">{sub.name}</span>
                                                   </label>
