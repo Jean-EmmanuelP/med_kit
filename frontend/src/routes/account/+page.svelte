@@ -236,18 +236,15 @@
                         </div>
                         <div>
                             <label for="status" class="mb-2 block text-sm font-medium text-gray-300">{$i18n.account.status}</label>
-                            <Select.Root name="status" bind:value={status}>
-                                <Select.Trigger class="flex h-11 w-full items-center justify-between rounded-lg border border-gray-700 bg-gray-700 px-4 py-3 text-sm text-white ring-offset-gray-800 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 [&>span]:line-clamp-1">
-                                    {triggerStatusContent}
-                                </Select.Trigger>
-                                <Select.Content class="z-10 max-h-60 overflow-y-auto rounded-lg border border-gray-600 bg-gray-700 text-white shadow-lg">
-                                    <Select.Group>
-                                        {#each statusOptions as option (option)}
-                                            <Select.Item value={option} label={option} class="cursor-pointer px-4 py-2 data-[highlighted]:bg-teal-700/50">{option}</Select.Item>
-                                        {/each}
-                                    </Select.Group>
-                                </Select.Content>
-                            </Select.Root>
+                            <select
+                                id="status"
+                                bind:value={status}
+                                class="mt-1 block w-full rounded-lg border border-gray-700 bg-gray-700 px-4 py-3 text-sm text-white transition-all duration-200 focus:border-teal-500 focus:ring focus:ring-teal-600/50"
+                            >
+                                {#each statusOptions as option}
+                                    <option value={option}>{option}</option>
+                                {/each}
+                            </select>
                         </div>
                         <div>
                             <label for="specialty" class="mb-2 block text-sm font-medium text-gray-300">{$i18n.account.specialty}</label>
