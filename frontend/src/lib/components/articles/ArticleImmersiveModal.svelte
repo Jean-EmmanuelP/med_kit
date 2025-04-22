@@ -188,7 +188,7 @@
 			</h2>
 
 			{#if article.grade}
-				<p class="mb-2 text-sm text-green-400">
+				<p class="mb-2 text-sm {article.grade == 'A' ? 'text-green-500' : article.grade == 'B' ? 'text-yellow-400' : article.grade == 'C' ? 'text-orange-400' : 'text-red-400'}">
 					Grade de recommandation : {article.grade}
 				</p>
 			{/if}
