@@ -39,22 +39,50 @@
 	const previousArticlesTitleTemplate = '📖 Articles précédents pour {filter} :';
 </script>
 
-<!-- Use the shared component, passing specific props for 'Ma Veille' -->
-<ArticleListView
-	pageTitle={$i18n.header.myVeille || 'Ma Veille'}
-	filters={filterOptions}
-	initialFilterValue={initialFilter}
-	filterSelectLabel="Mes spécialités"
-	showSignupPromptProp={true}
-	enableSearch={true}
-	subDisciplineFetchMode="user"
-	userId={currentUserId}
-	savedArticleIds={savedIdsSet}
-	articleOfTheDayTitleTemplate={articleOfTheDayTitleTemplate}
-	previousArticlesTitleTemplate={previousArticlesTitleTemplate}
-	showAllCategoriesOption={false}
-/>
+{#if userDisciplines.length === 0}
+	<div class="empty-state">
+		<p>Vous n'avez pas encore configuré les disciplines que vous souhaitez suivre.</p>
+		<p>Veuillez <a href="/account">configurer vos disciplines</a> pour commencer à recevoir des articles pertinents.</p>
+	</div>
+{:else}
+	<!-- Use the shared component, passing specific props for 'Ma Veille' -->
+	<ArticleListView
+		pageTitle={$i18n.header.myVeille || 'Ma Veille'}
+		filters={filterOptions}
+		initialFilterValue={initialFilter}
+		filterSelectLabel="Mes spécialités"
+		showSignupPromptProp={true}
+		enableSearch={true}
+		subDisciplineFetchMode="user"
+		userId={currentUserId}
+		savedArticleIds={savedIdsSet}
+		articleOfTheDayTitleTemplate={articleOfTheDayTitleTemplate}
+		previousArticlesTitleTemplate={previousArticlesTitleTemplate}
+		showAllCategoriesOption={false}
+	/>
+{/if}
 
 <style>
 	/* Page-specific styles */
+	.empty-state {
+		text-align: center;
+		padding: 2rem;
+		margin: 2rem auto;
+		max-width: 600px;
+		background-color: #374151; /* gray-700 to match other components */
+		border-radius: 8px;
+		color: #f3f4f6; /* gray-100 for text */
+		box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+	}
+
+	.empty-state p {
+		margin: 1rem 0;
+		font-size: 1.1rem;
+		color: inherit;
+	}
+
+	.empty-state a {
+		color: var(--color-primary, #0d9488); /* teal-600 */
+		text-decoration: underline;
+	}
 </style>
