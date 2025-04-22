@@ -67,7 +67,14 @@
 			title: 'Docteur Junior en urologie',
             affiliation: 'AP-HP',
 			focus: 'Spécialiste en uro-oncologie'
-		}
+        },
+		{
+			specialty: 'Rhumatologie',
+			name: 'Dr Félix Laborie',
+			title: 'Interne de Rhumatologie',
+            affiliation: 'AP-HP',
+			focus: null // No specific focus listed
+		},
 	].sort((a, b) => { // Ensure sorting is done definitively here
         const specialtyCompare = a.specialty.localeCompare(b.specialty, 'fr', { sensitivity: 'base' });
         if (specialtyCompare !== 0) {

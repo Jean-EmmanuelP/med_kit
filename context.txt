@@ -3108,7 +3108,7 @@ frontend/src/lib/components/articles/ArticleCard.svelte
 		<span class="mr-2">{emoji}</span>{displayTitle}
 	</h3>
 	{#if article.grade}
-		<p class="mt-1 text-sm text-green-400">Grade de recommandation : {article.grade}</p>
+		<p class="mt-1 text-sm {article.grade == 'A' ? 'text-green-500' : article.grade == 'B' ? 'text-yellow-400' : article.grade == 'C' ? 'text-orange-400' : 'text-red-400'}">Grade de recommandation : {article.grade}</p>
 	{/if}
 	<div class="mt-2 flex items-center text-sm text-gray-400">
 		{#if article.journal}
@@ -3357,7 +3357,7 @@ frontend/src/lib/components/articles/ArticleImmersiveModal.svelte
 			</h2>
 
 			{#if article.grade}
-				<p class="mb-2 text-sm text-green-400">
+				<p class="mb-2 text-sm {article.grade == 'A' ? 'text-green-500' : article.grade == 'B' ? 'text-yellow-400' : article.grade == 'C' ? 'text-orange-400' : 'text-red-400'}">
 					Grade de recommandation : {article.grade}
 				</p>
 			{/if}
@@ -3519,7 +3519,8 @@ frontend/src/lib/components/articles/ArticleListView.svelte
         searchPlaceholder = "Rechercher par mots-clés...",
 		apiEndpoint = '/api/get_articles_my_veille',
 		apiFilterParamName = 'specialty',
-		userId = null as string | null, // Keep userId prop if needed elsewhere, but rely on store for actions
+		userId = null as string | null,
+        savedArticleIds = new Set<string | number>(),
 		articleOfTheDayTitleTemplate = '🔥 Article du jour pour {filter} :',
 		previousArticlesTitleTemplate = '📖 Articles précédents pour {filter} :',
 		loadMoreButtonText = "Charger plus d'articles",
@@ -3529,7 +3530,8 @@ frontend/src/lib/components/articles/ArticleListView.svelte
         subDisciplineSelectLabel = "Affiner par sous-spécialité",
         showAllSubDisciplinesOption = true,
         allSubDisciplinesLabel = "Toutes les sous-spécialités",
-        showAllCategoriesOption = true
+        showAllCategoriesOption = true,
+        subDisciplineFetchMode = 'user' as 'user' | 'public'
 	} = $props<{
 		pageTitle?: string;
 		filters?: FilterOption[];
@@ -3541,7 +3543,8 @@ frontend/src/lib/components/articles/ArticleListView.svelte
         searchPlaceholder?: string;
 		apiEndpoint?: string;
 		apiFilterParamName?: string;
-		userId?: string | null; // Keep prop
+		userId?: string | null;
+        savedArticleIds?: Set<string | number>;
 		articleOfTheDayTitleTemplate?: string;
 		previousArticlesTitleTemplate?: string;
 		loadMoreButtonText?: string;
@@ -3552,6 +3555,7 @@ frontend/src/lib/components/articles/ArticleListView.svelte
         showAllSubDisciplinesOption?: boolean;
         allSubDisciplinesLabel?: string;
         showAllCategoriesOption?: boolean;
+        subDisciplineFetchMode?: 'user' | 'public';
 	}>();
 
     // Update initial filter default logic slightly to handle empty filters AND showAll option
@@ -3618,38 +3622,38 @@ frontend/src/lib/components/articles/ArticleListView.svelte
     // Effect to fetch SUB-DISCIPLINES when main filter changes
     $effect(() => {
         const currentMainFilter = selectedFilter;
-        // console.log('Main filter changed to:', currentMainFilter);
+        selectedSubDiscipline = null; // Reset sub-selection
+        availableSubDisciplines = []; // Clear current subs
 
-        selectedSubDiscipline = null;
-        availableSubDisciplines = [];
         if (!currentMainFilter || currentMainFilter === ALL_CATEGORIES_VALUE) {
-            //  console.log('Skipping sub-discipline fetch (All or None selected).');
              isLoadingSubDisciplines = false;
              return;
         }
 
         isLoadingSubDisciplines = true;
-        // console.log('Fetching sub-disciplines for:', currentMainFilter);
+        console.log(`Fetching sub-disciplines for: ${currentMainFilter} (Mode: ${subDisciplineFetchMode})`);
 
-        fetch(`/api/get_sub_disciplines?disciplineName=${encodeURIComponent(currentMainFilter)}`)
+        // Construct URL with the mode parameter
+        const apiUrl = `/api/get_sub_disciplines?disciplineName=${encodeURIComponent(currentMainFilter)}&mode=${subDisciplineFetchMode}`;
+
+        fetch(apiUrl)
             .then(async (res) => {
                 if (!res.ok) {
-                    const errorText = await res.text();
-					throw new Error(`Erreur réseau ${res.status}: ${errorText || res.statusText}`);
+                    const errorText = await res.text().catch(() => `HTTP error ${res.status}`);
+					throw new Error(`Erreur réseau ${res.status}: ${errorText}`);
                 }
                 return res.json();
             })
             .then((data: SubDisciplineOption[]) => {
-                //  console.log('Fetched sub-disciplines:', data);
                  availableSubDisciplines = data || [];
             })
             .catch(error => {
                 console.error("Error fetching sub-disciplines:", error);
                 availableSubDisciplines = [];
+                fetchError = `Erreur chargement sous-spécialités.`; // More generic error
             })
             .finally(() => {
                 isLoadingSubDisciplines = false;
-                // console.log('Finished fetching sub-disciplines.');
             });
     });
 
@@ -6555,6 +6559,7 @@ frontend/src/routes/articles/+page.svelte
 	filters={filterOptions}
 	initialFilterValue={initialFilter}
 	filterSelectLabel="Spécialités"
+	subDisciplineFetchMode="public"
 	showSignupPromptProp={false}
 	enableSearch={true}
     {articleOfTheDayTitleTemplate}
@@ -7794,6 +7799,7 @@ frontend/src/routes/favoris/+page.svelte
         showAllCategoriesOption={true}
         apiEndpoint="/api/get-liked-articles"
         userId={currentUserId}
+        subDisciplineFetchMode="public"
         enableSearch={true}
         searchPlaceholder="Rechercher dans mes favoris..."
         showAllSubDisciplinesOption={true}
@@ -7991,11 +7997,12 @@ export const load: PageServerLoad = async ({ locals }) => {
 --- File Path ---
 frontend/src/routes/comite/+page.svelte
 
+<!-- frontend/src/routes/comite/+page.svelte -->
 <script lang="ts">
-	import { AlertTriangle, CheckCircle, Loader2 } from 'lucide-svelte';
+	import { AlertTriangle, CheckCircle, Loader2, X } from 'lucide-svelte';
 
 	// Define the referent data directly in the script
-	// Pre-sorted alphabetically by specialty for easier rendering
+	// Ensure the initial array is sorted by specialty, then maybe by name for consistency
 	const referents = [
         {
             specialty: 'Chirurgie orthopédique',
@@ -8059,8 +8066,21 @@ frontend/src/routes/comite/+page.svelte
 			title: 'Docteur Junior en urologie',
             affiliation: 'AP-HP',
 			focus: 'Spécialiste en uro-oncologie'
-		}
-	];
+		{
+			specialty: 'Rhumatologie',
+			name: 'Dr Félix Laborie',
+			title: 'Interne de Rhumatologie',
+            affiliation: 'AP-HP',
+			focus: null // No specific focus listed
+		},
+	].sort((a, b) => { // Ensure sorting is done definitively here
+        const specialtyCompare = a.specialty.localeCompare(b.specialty, 'fr', { sensitivity: 'base' });
+        if (specialtyCompare !== 0) {
+            return specialtyCompare;
+        }
+        // Optional: Sort by name within the same specialty
+        return a.name.localeCompare(b.name, 'fr', { sensitivity: 'base' });
+    });
 
     // Define the missions
     const missions = [
@@ -8071,34 +8091,16 @@ frontend/src/routes/comite/+page.svelte
         "Rejoindre un réseau interdisciplinaire et engagé"
     ];
 
-    // Helper to group referents by specialty for rendering headings correctly
-    let currentSpecialty = '';
     let showForm = $state(false);
-    let showModal = false; // This state is no longer used for submission
-    let modalContent = ''; // This state is no longer used for submission
-
-    // Form Data State
     let formData = $state({
-        prenom: '',
-        nom: '',
-        statut: '',
-        specialite: '',
-        surSpecialite: '',
-        centre: ''
+        prenom: '', nom: '', statut: '', specialite: '', surSpecialite: '', centre: ''
     });
-
-    // Submission State
     let submissionStatus: 'idle' | 'loading' | 'success' | 'error' = $state('idle');
     let submissionMessage = $state('');
 
     function resetForm() {
         formData = {
-            prenom: '',
-            nom: '',
-            statut: '',
-            specialite: '',
-            surSpecialite: '',
-            centre: ''
+            prenom: '', nom: '', statut: '', specialite: '', surSpecialite: '', centre: ''
         };
         submissionStatus = 'idle';
         submissionMessage = '';
@@ -8106,63 +8108,42 @@ frontend/src/routes/comite/+page.svelte
 
     function toggleForm() {
         showForm = !showForm;
-        // Reset form if hiding it after a submission attempt
-        if (!showForm) {
-            resetForm();
-        }
+        if (!showForm) resetForm();
     }
 
     async function handleSubmit() {
         submissionStatus = 'loading';
         submissionMessage = '';
-
         try {
             const response = await fetch('/api/committee-application', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify(formData) // Send the reactive formData object
+                body: JSON.stringify(formData)
             });
-
-            const result = await response.json().catch(() => ({})); // Attempt to parse JSON
-
-            if (!response.ok) {
-                 // Use message from API response if available
-                throw new Error(result.message || `Erreur ${response.status}: La requête a échoué.`);
-            }
-
+            const result = await response.json().catch(() => ({}));
+            if (!response.ok) throw new Error(result.message || `Erreur ${response.status}`);
             submissionStatus = 'success';
-            submissionMessage = result.message || 'Candidature envoyée avec succès !';
-             // Optionally clear form fields here if you don't hide the whole form on success
-             // formData = { ... initial empty state ... };
-
+            submissionMessage = result.message || 'Candidature envoyée !';
         } catch (err: any) {
             console.error("Application submission error:", err);
             submissionStatus = 'error';
-            submissionMessage = err.message || "Une erreur est survenue lors de l'envoi.";
+            submissionMessage = err.message || "Une erreur est survenue.";
         }
     }
 
-    // Function to get specialty-specific emoji
     function getSpecialtyEmoji(specialty: string): string {
         const emojiMap: Record<string, string> = {
-            'Chirurgie orthopédique': '🦴',
-            'Chirurgie pédiatrique': '👶',
-            'Endocrinologie – Diabétologie – Nutrition': '⚖️',
-            'Hématologie': '🩸',
-            'Neurochirurgie': '🧠',
-            'Rhumatologie': '🦵',
-            'Urgences': '🚑',
-            'Urologie': '💧'
+            'Chirurgie orthopédique': '🦴', 'Chirurgie pédiatrique': '👶', 'Cardiologie': '❤️',
+            'Endocrinologie – Diabétologie – Nutrition': '⚖️', 'Hématologie': '🩸',
+            'Neurochirurgie': '🧠', 'Rhumatologie': '🦵', 'Urgences': '🚑', 'Urologie': '💧'
         };
         return emojiMap[specialty] || '⚕️';
     }
 
-    // Reset submission status if form is toggled off
     $effect(() => {
-        if (!showForm && submissionStatus !== 'idle') {
-            resetForm();
-        }
+        if (!showForm && submissionStatus !== 'idle') resetForm();
     });
+
 </script>
 
 <svelte:head>
@@ -8214,98 +8195,54 @@ frontend/src/routes/comite/+page.svelte
                 <h2 class="mb-6 text-center text-2xl font-semibold text-white sm:text-3xl">
                     ✍️ Postuler au comité scientifique
                 </h2>
-
                 {#if submissionStatus === 'success'}
                     <div class="flex flex-col items-center justify-center text-center py-8 px-4 bg-gray-700 rounded-lg">
                         <CheckCircle class="h-12 w-12 text-green-400 mb-4" />
                         <h3 class="text-xl font-semibold mb-2 text-white">Candidature Envoyée !</h3>
                         <p class="text-gray-300 mb-6">{submissionMessage}</p>
-                        <button
-                            on:click={toggleForm}
-                            class="bg-gray-600 hover:bg-gray-500 text-white font-semibold py-2 px-4 rounded-lg transition-colors text-sm"
-                        >
+                        <button on:click={toggleForm} class="bg-gray-600 hover:bg-gray-500 text-white font-semibold py-2 px-4 rounded-lg transition-colors text-sm">
                             Fermer
                         </button>
                     </div>
                 {:else}
                     <form on:submit|preventDefault={handleSubmit} class="space-y-4">
-                        <div>
+                         <div>
                             <label for="prenom" class="block text-gray-300 mb-1 text-sm">Prénom</label>
-                            <input
-                                type="text" id="prenom" bind:value={formData.prenom}
-                                class="w-full bg-gray-700 text-white rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-teal-500 border border-gray-600 text-sm"
-                                required disabled={submissionStatus === 'loading'}
-                            />
+                            <input type="text" id="prenom" bind:value={formData.prenom} class="w-full bg-gray-700 text-white rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-teal-500 border border-gray-600 text-sm" required disabled={submissionStatus === 'loading'} />
                         </div>
-
                         <div>
                             <label for="nom" class="block text-gray-300 mb-1 text-sm">Nom</label>
-                            <input
-                                type="text" id="nom" bind:value={formData.nom}
-                                class="w-full bg-gray-700 text-white rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-teal-500 border border-gray-600 text-sm"
-                                required disabled={submissionStatus === 'loading'}
-                            />
+                            <input type="text" id="nom" bind:value={formData.nom} class="w-full bg-gray-700 text-white rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-teal-500 border border-gray-600 text-sm" required disabled={submissionStatus === 'loading'} />
                         </div>
-
                         <div>
                             <label for="statut" class="block text-gray-300 mb-1 text-sm">Statut</label>
-                            <input
-                                type="text" id="statut" bind:value={formData.statut}
-                                placeholder="Interne, Docteur, Professeur…"
-                                class="w-full bg-gray-700 text-white rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-teal-500 border border-gray-600 text-sm"
-                                required disabled={submissionStatus === 'loading'}
-                            />
+                            <input type="text" id="statut" bind:value={formData.statut} placeholder="Interne, Docteur, Professeur…" class="w-full bg-gray-700 text-white rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-teal-500 border border-gray-600 text-sm" required disabled={submissionStatus === 'loading'} />
                         </div>
-
                         <div>
                             <label for="specialite" class="block text-gray-300 mb-1 text-sm">Spécialité</label>
-                            <input
-                                type="text" id="specialite" bind:value={formData.specialite}
-                                class="w-full bg-gray-700 text-white rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-teal-500 border border-gray-600 text-sm"
-                                required disabled={submissionStatus === 'loading'}
-                            />
+                            <input type="text" id="specialite" bind:value={formData.specialite} class="w-full bg-gray-700 text-white rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-teal-500 border border-gray-600 text-sm" required disabled={submissionStatus === 'loading'} />
                         </div>
-
                         <div>
                             <label for="surSpecialite" class="block text-gray-300 mb-1 text-sm">Sur-spécialité (optionnelle)</label>
-                            <input
-                                type="text" id="surSpecialite" bind:value={formData.surSpecialite}
-                                class="w-full bg-gray-700 text-white rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-teal-500 border border-gray-600 text-sm"
-                                disabled={submissionStatus === 'loading'}
-                            />
+                            <input type="text" id="surSpecialite" bind:value={formData.surSpecialite} class="w-full bg-gray-700 text-white rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-teal-500 border border-gray-600 text-sm" disabled={submissionStatus === 'loading'} />
                         </div>
-
                         <div>
                             <label for="centre" class="block text-gray-300 mb-1 text-sm">Centre d'exercice</label>
-                            <input
-                                type="text" id="centre" bind:value={formData.centre}
-                                placeholder="CHU, hôpital, clinique, cabinet…"
-                                class="w-full bg-gray-700 text-white rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-teal-500 border border-gray-600 text-sm"
-                                required disabled={submissionStatus === 'loading'}
-                            />
+                            <input type="text" id="centre" bind:value={formData.centre} placeholder="CHU, hôpital, clinique, cabinet…" class="w-full bg-gray-700 text-white rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-teal-500 border border-gray-600 text-sm" required disabled={submissionStatus === 'loading'} />
                         </div>
-
                         <div class="bg-gray-700/50 p-3 rounded-lg border border-gray-600">
                             <p class="text-gray-400 text-xs mb-1">📝 Exemple :</p>
-                            <p class="text-gray-400 text-xs italic">
-                                Dr Xavier Montjou, Chirurgie orthopédique, Spécialiste en chirurgie de la main, AP-HP
-                            </p>
+                            <p class="text-gray-400 text-xs italic">Dr Xavier Montjou, Chirurgie orthopédique, Spécialiste en chirurgie de la main, AP-HP</p>
                         </div>
-
                         <div class="pt-2 space-y-3">
                             {#if submissionStatus === 'error'}
                                 <p class="text-sm text-red-400 flex items-center gap-1.5 p-3 bg-red-900/30 border border-red-700 rounded-md" role="alert">
                                     <AlertTriangle class="h-4 w-4 flex-shrink-0"/> {submissionMessage}
                                 </p>
                             {/if}
-                            <button
-                                type="submit"
-                                class="w-full inline-flex items-center justify-center bg-teal-500 hover:bg-teal-600 text-white font-semibold py-2.5 px-4 rounded-lg transition-colors disabled:opacity-60 disabled:cursor-not-allowed"
-                                disabled={submissionStatus === 'loading'}
-                            >
+                            <button type="submit" class="w-full inline-flex items-center justify-center bg-teal-500 hover:bg-teal-600 text-white font-semibold py-2.5 px-4 rounded-lg transition-colors disabled:opacity-60 disabled:cursor-not-allowed" disabled={submissionStatus === 'loading'}>
                                 {#if submissionStatus === 'loading'}
-                                    <Loader2 class="mr-2 h-5 w-5 animate-spin" />
-                                    Envoi en cours...
+                                    <Loader2 class="mr-2 h-5 w-5 animate-spin" /> Envoi en cours...
                                 {:else}
                                     Envoyer ma candidature
                                 {/if}
@@ -8316,17 +8253,17 @@ frontend/src/routes/comite/+page.svelte
             </section>
         {/if}
 
-        <!-- Liste des Référents -->
+        <!-- Liste des Référents - Robust Loop with Index Check -->
         <section>
-            {#each referents as referent (referent.name)}
-                <!-- Afficher le titre de la spécialité seulement si elle change -->
-                {#if referent.specialty !== currentSpecialty}
-                    {@const _ = currentSpecialty = referent.specialty}
+            {#each referents as referent, index (referent.name)}
+                <!-- Show heading if it's the first item OR if specialty differs from the previous item -->
+                {#if index === 0 || referent.specialty !== referents[index - 1].specialty}
                     <h2 class="mt-10 mb-6 border-b border-gray-700 pb-2 text-2xl font-semibold text-teal-400 sm:text-3xl">
                         {getSpecialtyEmoji(referent.specialty)} {referent.specialty}
                     </h2>
                 {/if}
 
+                <!-- Referent Card -->
                 <div class="mb-6 rounded-lg bg-gray-800 p-5 shadow-md transition-shadow hover:shadow-lg">
                     <h3 class="text-xl font-bold text-white">{referent.name}</h3>
                     <p class="text-md text-gray-300">{referent.title}</p>
@@ -8339,11 +8276,11 @@ frontend/src/routes/comite/+page.svelte
                 </div>
             {/each}
         </section>
-
 	</div>
 </div>
 
 <style>
+/* Styles remain the same */
 </style>
 --- End of File ---
 
@@ -8408,6 +8345,7 @@ frontend/src/routes/ma-veille/+page.svelte
 	filterSelectLabel="Mes spécialités"
 	showSignupPromptProp={true}
 	enableSearch={true}
+	subDisciplineFetchMode="user"
 	userId={currentUserId}
 	savedArticleIds={savedIdsSet}
 	articleOfTheDayTitleTemplate={articleOfTheDayTitleTemplate}
@@ -8423,222 +8361,75 @@ frontend/src/routes/ma-veille/+page.svelte
 --- File Path ---
 frontend/src/routes/ma-veille/+page.server.ts
 
-// /ma-veille/+page.server.ts
-import { DateTime } from 'luxon';
+// /ma-veille/+page.server.ts (V4 - Simplified)
+import { redirect } from '@sveltejs/kit';
+import { error } from '@sveltejs/kit';
 
 export async function load({ locals }) {
-	console.log('=== Starting load function for /ma-veille ===');
+	console.log('=== Starting load function for /ma-veille (V4 - Simplified) ===');
 
 	const { session, user } = await locals.safeGetSession();
-	console.log('Session from safeGetSession:', session);
-	console.log('User from safeGetSession:', user);
 
 	if (!user || !session) {
-		console.log('No user or session found, returning empty data');
-		return {
-			recentArticles: [],
-			olderArticles: [],
-			userDisciplines: [],
-			savedArticleIds: [],
-			articleOfTheDay: [],
-			error: 'Utilisateur non connecté.'
-		};
+		console.log('No user or session found, redirecting to login');
+        throw redirect(303, '/login?redirect=/ma-veille');
 	}
 
-	console.log('Fetching user profile for user ID:', user.id);
-	const { data: userProfile, error: profileError } = await locals.supabase
-		.from('user_profiles')
-		.select('disciplines, notification_frequency')
-		.eq('id', user.id)
-		.single();
+	try {
+        // 1. Fetch distinct MAIN discipline names user is subscribed to
+        console.log(`Fetching distinct subscribed discipline names for user: ${user.id}`);
+        // Use RPC for potentially better performance on distinct join
+        const { data: disciplineNamesData, error: disciplineNamesError } = await locals.supabase
+            .rpc('get_user_subscribed_discipline_names', { p_user_id: user.id });
 
-	console.log('User profile data:', userProfile);
-	console.log('Profile error:', profileError);
+        if (disciplineNamesError) {
+            console.error('Error fetching user subscribed discipline names via RPC:', disciplineNamesError);
+            throw error(500, `Database error: ${disciplineNamesError.message}`);
+        }
 
-	if (profileError || !userProfile) {
-		console.error('Profile fetch failed:', profileError?.message);
-		return {
-			recentArticles: [],
-			olderArticles: [],
-			userDisciplines: [],
-			savedArticleIds: [],
-			articleOfTheDay: [],
-			error: profileError?.message || 'Profil utilisateur non trouvé.'
-		};
-	}
+        // RPC returns array of records like { name: '...' }, sort them
+        const userDisciplinesNames = (disciplineNamesData || [])
+            .map((d: { name: string }) => d.name)
+            .sort((a: string, b: string) => a.localeCompare(b, 'fr', { sensitivity: 'base' }));
 
-	let userDisciplines = userProfile.disciplines || [];
-	const notificationFrequency = userProfile.notification_frequency || 'tous_les_jours'; // Changed to 'tous_les_jours' to match your schema
-	console.log('User disciplines:', userDisciplines);
-	console.log('Notification frequency:', notificationFrequency);
+        console.log('User Main Disciplines for Filter:', userDisciplinesNames);
 
-	if (userDisciplines.length === 0) {
-		console.log('No disciplines found for user');
-		return {
-			recentArticles: [],
-			olderArticles: [],
-			userDisciplines: [],
-			savedArticleIds: [],
-			articleOfTheDay: [],
-			error: 'Aucune discipline choisie.'
-		};
-	}
+        if (userDisciplinesNames.length === 0) {
+             console.log('User has no subscriptions.');
+             // Return empty list, page will show empty state
+        }
 
-	// Fetch saved articles
-	console.log('Fetching saved articles for user ID:', user.id);
-	const { data: savedArticlesData, error: savedArticlesError } = await locals.supabase
-		.from('saved_articles')
-		.select('article_id')
-		.eq('user_id', user.id);
+        // 2. Fetch saved articles (same as before)
+        console.log('Fetching saved articles for user ID:', user.id);
+        const { data: savedArticlesData, error: savedArticlesError } = await locals.supabase
+            .from('saved_articles') // Adjust table name if different
+            .select('article_id')
+            .eq('user_id', user.id);
 
-	console.log('Saved articles data:', savedArticlesData);
-	console.log('Saved articles error:', savedArticlesError);
+        if (savedArticlesError) {
+            console.error('Error fetching saved articles:', savedArticlesError);
+            throw error(500, `Database error: ${savedArticlesError.message}`);
+        }
 
-	const savedArticleIds = savedArticlesData?.map((saved) => saved.article_id) || [];
-	console.log('Mapped saved article IDs:', savedArticleIds);
+        const savedArticleIds = savedArticlesData?.map((saved) => saved.article_id) || [];
+        console.log('Mapped saved article IDs:', savedArticleIds);
 
-	// Fetch articles sent today for each discipline
-	const today = DateTime.now().startOf('day').toISO();
-	console.log('Fetching articles sent today:', today);
-	const { data: sentArticlesData, error: sentArticlesError } = await locals.supabase
-		.from('user_sent_articles')
-		.select(
-			`
-      article_id,
-      sent_at,
-      discipline,
-      articles (
-        id,
-        title,
-        content,
-        published_at,
-        link,
-        grade,
-        journal,
-        article_disciplines(discipline_id, disciplines(name))
-      )
-    `
-		)
-		.eq('user_id', user.id)
-		.gte('sent_at', today)
-		.order('sent_at', { ascending: false });
+        // 3. Return the necessary data for the page
+        console.log('Returning data to /ma-veille page');
+        return {
+            // Pass the names for the filter dropdown
+            userDisciplines: userDisciplinesNames,
+            // Pass saved IDs for the ArticleListView component (if it uses them)
+            savedArticleIds,
+            // No need to pass initial subs or initial filter, ArticleListView handles it
+            error: null
+        };
 
-	console.log('Sent articles data:', sentArticlesData);
-	console.log('Sent articles error:', sentArticlesError);
-
-	let articleOfTheDay = [];
-	if (sentArticlesError || !sentArticlesData) {
-		console.error('Sent articles fetch failed:', sentArticlesError?.message);
-	} else {
-		// Group articles by discipline for "article du jour"
-		articleOfTheDay = userDisciplines
-			.map((discipline) => {
-				const articleForDiscipline =
-					sentArticlesData
-						.filter((sa) => sa.discipline === discipline)
-						.map((sa) => ({
-							...sa.articles,
-							disciplines: sa.articles.article_disciplines?.map((ad) => ad.disciplines.name) || [],
-							sent_at: sa.sent_at
-						}))[0] || null;
-				return articleForDiscipline;
-			})
-			.filter((a) => a !== null);
-	}
-
-	console.log('Articles of the day:', articleOfTheDay);
-
-	// Fetch recent and older articles (last 2 and rest, excluding today's sent articles)
-	const allSentArticleIds = sentArticlesData?.map((sa) => sa.article_id) || [];
-	const recentArticleIds = allSentArticleIds
-		.slice(-2)
-		.filter((id) => !articleOfTheDay.some((a) => a.id === id));
-	const olderArticleIds = allSentArticleIds
-		.slice(0, -2)
-		.filter((id) => !articleOfTheDay.some((a) => a.id === id));
-
-	console.log('Recent article IDs:', recentArticleIds);
-	console.log('Older article IDs:', olderArticleIds);
-
-	const { data: recentArticlesData, error: recentArticlesError } = await locals.supabase
-		.from('articles')
-		.select(
-			`
-      id,
-      title,
-      content,
-      published_at,
-      link,
-      grade,
-      journal,
-      article_disciplines(discipline_id, disciplines(name))
-    `
-		)
-		.in('id', recentArticleIds)
-		.order('published_at', { ascending: false });
-
-	console.log('Recent articles data:', recentArticlesData);
-	console.log('Recent articles error:', recentArticlesError);
-
-	const recentArticles =
-		recentArticlesData?.map((article) => ({
-			...article,
-			disciplines: article.article_disciplines?.map((ad) => ad.disciplines.name) || [],
-			journal: article.journal
-		})) || [];
-
-	let olderArticles = [];
-	if (olderArticleIds.length > 0) {
-		const { data: olderArticlesData, error: olderArticlesError } = await locals.supabase
-			.from('articles')
-			.select(
-				`
-        id,
-        title,
-        content,
-        published_at,
-        link,
-        grade,
-        journal,
-        article_disciplines(discipline_id, disciplines(name))
-      `
-			)
-			.in('id', olderArticleIds)
-			.order('published_at', { ascending: false });
-
-		console.log('Older articles data:', olderArticlesData);
-		console.log('Older articles error:', olderArticlesError);
-
-		olderArticles =
-			olderArticlesData?.map((article) => ({
-				...article,
-				disciplines: article.article_disciplines?.map((ad) => ad.disciplines.name) || [],
-				journal: article.journal
-			})) || [];
-	}
-
-	console.log('Returning data to client');
-
-	userDisciplines = userDisciplines.sort((a, b) => {
-		const disciplineA = a.toLowerCase();
-		const disciplineB = b.toLowerCase();
-		if (disciplineA < disciplineB) {
-			return -1;
-		}
-		if (disciplineA > disciplineB) {
-			return 1;
-		}
-		return 0;
-	});
-	return {
-		recentArticles,
-		olderArticles,
-		userDisciplines,
-		savedArticleIds,
-		articleOfTheDay,
-		notification_frequency: notificationFrequency,
-		error: null
-	};
+    } catch (err) {
+         console.error('Error in /ma-veille load function:', err);
+         if (err && typeof err === 'object' && 'status' in err) throw err;
+         throw error(500, 'Une erreur interne est survenue lors du chargement de votre veille.');
+    }
 }
 --- End of File ---
 
@@ -8753,174 +8544,294 @@ frontend/src/routes/+layout.svelte
 --- File Path ---
 frontend/src/routes/account/+page.server.js
 
-// account/+page.server.ts
+// /routes/account/+page.server.js
 import { redirect } from '@sveltejs/kit';
+import { error } from '@sveltejs/kit'; // Import error
 
 export async function load({ locals }) {
-  const { session, user } = await locals.safeGetSession();
+	const { session, user } = await locals.safeGetSession();
 
-  console.log('Session in account:', session);
-  console.log('User in account:', user);
+	// console.log('Session in account load:', session);
+	// console.log('User in account load:', user);
 
-  if (!session || !user) {
-    throw redirect(302, '/login');
-  }
+	if (!session || !user) {
+		console.log('No session/user in account load, redirecting');
+		throw redirect(302, '/login?redirect=/account');
+	}
 
-  // Fetch user profile
-  const { data: userProfile, error: profileError } = await locals.supabase
-    .from('user_profiles')
-    .select('id, first_name, last_name, notification_frequency, disciplines, date_of_birth, status, specialty')
-    .eq('id', user.id)
-    .single();
+	try {
+		// 1. Fetch user profile (excluding the old 'disciplines' column)
+		const { data: userProfile, error: profileError } = await locals.supabase
+			.from('user_profiles')
+			.select('id, first_name, last_name, email, notification_frequency, date_of_birth, status, specialty') // Removed 'disciplines'
+			.eq('id', user.id)
+			.single();
 
-  if (profileError || !userProfile) {
-    console.error('Error fetching user profile:', profileError);
-    return { error: profileError ? profileError.message : 'Profil non trouvé.' };
-  }
+		if (profileError) throw profileError; // Throw error to be caught below
+		if (!userProfile) throw error(404, 'Profil utilisateur non trouvé.');
 
-  // Fetch all disciplines
-  const { data: disciplinesList, error: disciplinesError } = await locals.supabase
-    .from('disciplines')
-    .select('name')
-    .order('name', { ascending: true });
+		// 2. Fetch all disciplines with their sub-disciplines
+		const { data: allDisciplinesData, error: disciplinesError } = await locals.supabase
+			.from('disciplines')
+			.select(`
+                id,
+                name,
+                sub_disciplines ( id, name )
+            `)
+			.order('name', { ascending: true }) // Order main disciplines
+			.order('name', { referencedTable: 'sub_disciplines', ascending: true }); // Order sub-disciplines
 
-  if (disciplinesError) {
-    console.error('Error fetching disciplines:', disciplinesError);
-    return { error: disciplinesError.message };
-  }
+		if (disciplinesError) throw disciplinesError;
 
-  return {
-    userPreferences: {
-      disciplines: userProfile.disciplines || [],
-      notificationFrequency: userProfile.notification_frequency || 'tous_les_jours',
-      date_of_birth: userProfile.date_of_birth,
-    },
-    disciplinesList: disciplinesList.map(d => d.name),
-    userProfile,
-    session,
-    user,
-  };
+		// Structure the data for the frontend
+		const allDisciplines = allDisciplinesData || [];
+
+		// 3. Fetch user's current subscriptions
+		const { data: userSubsData, error: subsError } = await locals.supabase
+			.from('user_subscriptions')
+			.select('discipline_id, sub_discipline_id')
+			.eq('user_id', user.id);
+
+		if (subsError) throw subsError;
+
+		// Convert subscriptions to a format easy for the frontend to check (e.g., Set of strings)
+		const userSubscriptions = new Set();
+		(userSubsData || []).forEach(sub => {
+			if (sub.sub_discipline_id) {
+				userSubscriptions.add(`s:${sub.sub_discipline_id}`); // Mark sub-disciplines with 's:'
+			} else {
+				userSubscriptions.add(`d:${sub.discipline_id}`); // Mark main disciplines with 'd:'
+			}
+		});
+
+		// 4. Get status options from i18n data (if possible server-side, else hardcode)
+        //    We'll hardcode them here for simplicity, assuming i18n is client-side focused
+        const statusOptions = [
+             "Pr", "Dr", "Interne", "Étudiant", "Médecine", "Professeur de médecine",
+             "Docteur en médecine", "Interne en médecine", "Etudiant en médecine",
+             "Diététicien(ne)-nutritionniste", "Infirmier(ère)", "Kinésithérapeute",
+             "Pharmaciens", "Professions dentaires", "Psychologue", "Sage-femme", "Autres"
+        ];
+        const notificationOptions = [
+            { value: 'tous_les_jours', label: 'Tous les jours' },
+            { value: 'tous_les_2_jours', label: 'Tous les 2 jours' },
+            { value: 'tous_les_3_jours', label: 'Tous les 3 jours' },
+            { value: '1_fois_par_semaine', label: '1 fois par semaine' },
+            { value: 'tous_les_15_jours', label: 'Tous les 15 jours' },
+            { value: '1_fois_par_mois', label: '1 fois par mois' }
+        ];
+
+		return {
+            userProfile,          // Basic profile data
+            allDisciplines,       // Full hierarchy for UI [{id, name, sub_disciplines: [{id, name}]}]
+            userSubscriptions: Array.from(userSubscriptions), // Pass the Set as an array for serialization ['d:1', 's:5', ...]
+            statusOptions,        // List of statuses for dropdown
+            notificationOptions,  // List of frequencies for dropdown
+			session, // Pass session if needed by layout/page
+			user,    // Pass user if needed by layout/page
+		};
+
+	} catch (err) {
+		console.error('Error loading account data:', err);
+		// Check if it's a Supabase error with a message
+		if (err && typeof err === 'object' && 'message' in err) {
+            throw error(500, `Erreur serveur: ${err.message}`);
+        }
+        // Check if it's a SvelteKit error object
+        if (err && typeof err === 'object' && 'status' in err) {
+             throw err; // Re-throw SvelteKit error
+        }
+		// Throw generic error otherwise
+		throw error(500, 'Erreur lors du chargement des données du compte.');
+	}
 }
+
+// No Actions needed here anymore, we will use an API route
+export const actions = undefined;
 --- End of File ---
 
 --- File Path ---
 frontend/src/routes/account/+page.svelte
 
-<script>
-	import { i18n } from '$lib/i18n';
-	import { goto } from '$app/navigation';
+<!-- /routes/account/+page.svelte -->
+<script lang="ts">
+	import { i18n } from '$lib/i18n'; // Assuming i18n setup is client-side friendly
 	import userProfileStore from '$lib/stores/user';
-	import { supabase } from '$lib/supabase';
+	import { supabase } from '$lib/supabase'; // Use the browser client for API calls
 	import { onMount } from 'svelte';
 	import * as Select from '$lib/components/ui/select/index.js';
+    import { AlertCircle, Check, ChevronDown, ChevronUp, Loader2 } from 'lucide-svelte'; // Import icons
 
-	// Récupération des props avec $props rune
-	const { data, form } = $props();
+	// Get props (data from load function)
+	let { data } = $props();
 
-	// Définir les variables réactives avec $state
-	let firstName = $state($userProfileStore?.first_name || '');
-	let lastName = $state($userProfileStore?.last_name || '');
-	let status = $state($userProfileStore?.status || '');
-	let specialty = $state($userProfileStore?.specialty || '');
-	let profilePicture = $state($userProfileStore?.profile_picture || null);
-	let selectedDisciplines = $state(data.userPreferences?.disciplines || []);
-	let selectedNotificationFreq = $state(
-		data.userPreferences?.notificationFrequency || 'tous_les_jours'
-	);
-	let dateOfBirth = $state(data.userPreferences?.date_of_birth || '');
+    // --- Reactive State ---
+    // Profile fields
+	let firstName = $state(data.userProfile?.first_name || '');
+	let lastName = $state(data.userProfile?.last_name || '');
+	let status = $state(data.userProfile?.status || '');
+	let specialty = $state(data.userProfile?.specialty || '');
+	let dateOfBirth = $state(data.userProfile?.date_of_birth || '');
+
+    // Subscription state
+    let currentSubscriptions = $state(new Set<string>(data.userSubscriptions || []));
+
+    // UI State
 	let isLoading = $state(false);
+    let saveSuccess = $state(false);
+    let saveError = $state('');
+    let openDisciplines = $state(new Set<number>()); // Store IDs of open disciplines
 
-	// Trier les disciplines par ordre alphabétique
-	const sortedDisciplines = $state(
-		data.disciplinesList.sort((a, b) => a.localeCompare(b, 'fr', { sensitivity: 'base' }))
-	);
+    // Data from load function
+    const allDisciplines = $derived(data.allDisciplines || []);
+    const statusOptions = $derived(data.statusOptions || []); // Use options from server
 
-	// Compute the display label for the selected disciplines
-	const triggerDisciplineContent = $derived(
-		selectedDisciplines.length > 0
-			? selectedDisciplines.slice(0, 2).join(', ') +
-					(selectedDisciplines.length > 2 ? ` +${selectedDisciplines.length - 2}` : '')
-			: 'Sélectionner des spécialités'
-	);
+    // Define the notification options
+    const notificationOptions = [
+        { value: 'tous_les_jours', label: 'Tous les jours' },
+        { value: 'tous_les_2_jours', label: 'Tous les 2 jours' },
+        { value: 'tous_les_3_jours', label: 'Tous les 3 jours' },
+        { value: '1_fois_par_semaine', label: 'Une fois par semaine' },
+        { value: 'tous_les_15_jours', label: 'Tous les 15 jours' },
+        { value: '1_fois_par_mois', label: 'Une fois par mois' }
+    ];
 
-	// Compute the display label for the selected notification frequency
-	const triggerNotificationContent = $derived(
-		$i18n.login.notificationOptions[notificationOptions.indexOf(selectedNotificationFreq)] ||
-			'Choisir une fréquence'
-	);
+    // Make sure the initial value exactly matches one of the enum values
+    let selectedNotificationFreq = $state(
+        notificationOptions.some(opt => opt.value === data.userProfile?.notification_frequency)
+            ? data.userProfile?.notification_frequency
+            : 'tous_les_jours'
+    );
 
-	// Compute the display label for the selected status
+    // Update the trigger content to always show the selected option's label
+    const triggerNotificationContent = $derived(
+        notificationOptions.find(o => o.value === selectedNotificationFreq)?.label || 'Choisir une fréquence'
+    );
+
+	// Compute display labels for dropdowns
 	const triggerStatusContent = $derived(
-		$i18n.login.statusOptions.includes(status) ? status : 'Choisissez un statut'
+		statusOptions.find(o => o === status) ?? 'Choisissez un statut'
 	);
 
-	// Populate userProfileStore with data from the server
-	onMount(() => {
-		if (data.userProfile) {
-			userProfileStore.set(data.userProfile);
-		}
-		firstName = $userProfileStore?.first_name || '';
-		lastName = $userProfileStore?.last_name || '';
-		status = $userProfileStore?.status || '';
-		specialty = $userProfileStore?.specialty || '';
-		profilePicture = $userProfileStore?.profile_picture || null;
-		selectedDisciplines = data.userPreferences?.disciplines || [];
-		selectedNotificationFreq = data.userPreferences?.notificationFrequency || 'tous_les_jours';
-		dateOfBirth = data.userPreferences?.date_of_birth || '';
-	});
+	// --- Effects ---
+	$effect(() => {
+        const profile = $userProfileStore;
+        if (profile) {
+             // Remove the lines that reset the inputs
+        }
+    });
 
-	const notificationOptions = [
-		'tous_les_jours',
-		'tous_les_2_jours',
-		'tous_les_3_jours',
-		'1_fois_par_semaine',
-		'tous_les_15_jours',
-		'1_fois_par_mois'
-	];
+    $effect(() => {
+        if (saveSuccess || saveError) {
+            const timer = setTimeout(() => {
+                saveSuccess = false;
+                saveError = '';
+            }, 4000);
+            return () => clearTimeout(timer);
+        }
+    });
 
-	function toggleDiscipline(discipline) {
-		if (selectedDisciplines.includes(discipline)) {
-			selectedDisciplines = selectedDisciplines.filter((d) => d !== discipline);
-		} else {
-			selectedDisciplines = [...selectedDisciplines, discipline];
-		}
-	}
+    // --- Functions ---
+    function toggleDisciplineSection(disciplineId: number) {
+        const newSet = new Set(openDisciplines);
+        if (newSet.has(disciplineId)) {
+            newSet.delete(disciplineId);
+        } else {
+            newSet.add(disciplineId);
+        }
+        openDisciplines = newSet;
+    }
+
+    function handleMainDisciplineChange(disciplineId: number, isChecked: boolean) {
+        const key = `d:${disciplineId}`;
+        const newSubs = new Set(currentSubscriptions);
+        if (isChecked) {
+            newSubs.add(key);
+        } else {
+            newSubs.delete(key);
+            const discipline = allDisciplines.find(d => d.id === disciplineId);
+            discipline?.sub_disciplines.forEach(sub => {
+                 newSubs.delete(`s:${sub.id}`);
+            });
+        }
+        currentSubscriptions = newSubs;
+    }
+
+    function handleSubDisciplineChange(subDisciplineId: number, disciplineId: number, isChecked: boolean) {
+        const key = `s:${subDisciplineId}`;
+        const mainKey = `d:${disciplineId}`;
+        const newSubs = new Set(currentSubscriptions);
+        if (isChecked) {
+            newSubs.add(key);
+        } else {
+            newSubs.delete(key);
+        }
+        currentSubscriptions = newSubs;
+    }
 
 	async function handleSubmit() {
 		if (isLoading) return;
 		isLoading = true;
+        saveSuccess = false;
+        saveError = '';
 
-		try {
-			const { error } = await supabase
-				.from('user_profiles')
-				.update({
-					first_name: firstName,
-					last_name: lastName,
-					status,
-					specialty,
-					disciplines: selectedDisciplines,
-					notification_frequency: selectedNotificationFreq,
-					date_of_birth: dateOfBirth || null
-				})
-				.eq('id', $userProfileStore.id);
+        const profileUpdates = {
+            first_name: firstName,
+            last_name: lastName,
+            status: status || null,
+            specialty: specialty || null,
+            notification_frequency: selectedNotificationFreq,
+            date_of_birth: dateOfBirth || null,
+            disciplines: Array.from(currentSubscriptions)
+                .filter(key => key.startsWith('d:')) // Only get main disciplines
+                .map(key => {
+                    const id = parseInt(key.split(':')[1], 10);
+                    return allDisciplines.find(d => d.id === id)?.name || '';
+                })
+                .filter(name => name !== '') // Remove any empty names
+        };
 
-			if (error) throw error;
+        const subscriptionsPayload: { discipline_id: number; sub_discipline_id: number | null }[] = [];
+        currentSubscriptions.forEach(key => {
+            const [type, idStr] = key.split(':');
+            const id = parseInt(idStr, 10);
+            if (!isNaN(id)) {
+                if (type === 'd') {
+                    subscriptionsPayload.push({ discipline_id: id, sub_discipline_id: null });
+                } else if (type === 's') {
+                    let parentDisciplineId: number | null = null;
+                    for (const disc of allDisciplines) {
+                        if (disc.sub_disciplines.some(sub => sub.id === id)) {
+                            parentDisciplineId = disc.id;
+                            break;
+                        }
+                    }
+                    if (parentDisciplineId !== null) {
+                        subscriptionsPayload.push({ discipline_id: parentDisciplineId, sub_discipline_id: id });
+                    } else {
+                         console.warn(`Could not find parent discipline for sub_discipline_id: ${id}`);
+                    }
+                }
+            }
+        });
 
-			userProfileStore.set({
-				...$userProfileStore,
-				first_name: firstName,
-				last_name: lastName,
-				status,
-				specialty,
-				disciplines: selectedDisciplines,
-				notification_frequency: selectedNotificationFreq,
-				date_of_birth: dateOfBirth
-			});
+        try {
+			const response = await fetch('/api/update-profile-and-subscriptions', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    profile: profileUpdates,
+                    subscriptions: subscriptionsPayload
+                })
+            });
+            const result = await response.json();
+            if (!response.ok) throw new Error(result.message || `HTTP Error ${response.status}`);
 
-			alert('Modifications enregistrées avec succès.');
-		} catch (error) {
-			console.error('Error updating profile:', error);
-			alert('Erreur lors de la mise à jour du profil.');
+			userProfileStore.update(current => current ? { ...current, ...profileUpdates } : null);
+            saveSuccess = true;
+		} catch (err: any) {
+			console.error('Error updating profile/subscriptions:', err);
+			saveError = err.message || 'Erreur lors de la mise à jour.';
 		} finally {
 			isLoading = false;
 		}
@@ -8928,241 +8839,191 @@ frontend/src/routes/account/+page.svelte
 
 	async function handleLogout() {
 		try {
-			const response = await fetch('/logout', {
-				method: 'POST',
-				headers: {
-					'Content-Type': 'application/json'
-				}
-			});
-
-			if (!response.ok) {
-				const { error } = await response.json();
-				console.error('Erreur lors de la déconnexion :', error);
-				return;
-			}
-
+			isLoading = true;
+            saveError = '';
+			const { error } = await supabase.auth.signOut();
+			if (error) throw error;
 			userProfileStore.set(null);
 			window.location.href = '/login';
-		} catch (error) {
-			console.error('Erreur inattendue lors de la déconnexion :', error);
+		} catch (error: any) {
+			console.error('Erreur lors de la déconnexion :', error);
+            saveError = `Erreur de déconnexion: ${error.message}`;
+            isLoading = false;
 		}
 	}
 </script>
 
-<div class="min-h-screen bg-black px-4 py-12 text-white">
-	<div class="mx-auto max-w-4xl">
-		<!-- En-tête -->
-		<h1 class="mb-8 text-4xl font-bold text-white">Mon compte</h1>
+<div class="min-h-screen bg-black px-4 py-12 text-white pt-20 md:pt-24">
+	<div class="mx-auto max-w-3xl">
+		<h1 class="mb-8 text-3xl md:text-4xl font-bold text-white">Mon compte</h1>
 
 		{#if data.error}
-			<p class="mb-6 text-red-500">{data.error}</p>
-		{:else}
-			<!-- Section pour modifier les informations personnelles -->
-			<div class="mb-12">
-				<h2 class="mb-6 text-2xl font-semibold text-white">Vos informations</h2>
-				<form on:submit|preventDefault={handleSubmit} class="space-y-8">
-					<!-- Nom et Prénom sur la même ligne pour web -->
-					<div class="flex flex-col space-y-6 sm:flex-row sm:space-y-0 sm:space-x-4">
-						<div class="w-full sm:w-1/2">
-							<label for="firstName" class="mb-2 block text-sm font-medium text-gray-300">
-								{$i18n.login.firstName}
-							</label>
-							<input
-								id="firstName"
-								type="text"
-								bind:value={firstName}
-								class="mt-1 w-full rounded-lg border border-gray-700 bg-gray-800 px-4 py-3 text-white transition-all duration-200 focus:border-teal-500 focus:ring focus:ring-teal-700"
-								required
-							/>
-						</div>
-						<div class="w-full sm:w-1/2">
-							<label for="lastName" class="mb-2 block text-sm font-medium text-gray-300">
-								{$i18n.login.lastName}
-							</label>
-							<input
-								id="lastName"
-								type="text"
-								bind:value={lastName}
-								class="mt-1 w-full rounded-lg border border-gray-700 bg-gray-800 px-4 py-3 text-white transition-all duration-200 focus:border-teal-500 focus:ring focus:ring-teal-700"
-								required
-							/>
-						</div>
-					</div>
+			<p class="mb-6 rounded border border-red-700 bg-red-900/30 p-4 text-red-300">{data.error}</p>
+		{:else if !data.userProfile}
+            <p class="mb-6 rounded border border-yellow-700 bg-yellow-900/30 p-4 text-yellow-300">Chargement du profil...</p>
+        {:else}
+			<!-- Form Section -->
+			<form on:submit|preventDefault={handleSubmit} class="space-y-8 rounded-lg bg-gray-800 p-6 md:p-8 shadow-lg">
 
-					<!-- Statut et Spécialité sur la même ligne pour web -->
-					<div class="flex flex-col space-y-6 sm:flex-row sm:space-y-0 sm:space-x-4">
-						<div class="w-full sm:w-1/2">
-							<label for="status" class="mb-2 block text-sm font-medium text-gray-300">
-								{$i18n.account.status}
-							</label>
-							<div class="relative w-full">
-								<Select.Root type="single" name="status" bind:value={status}>
-									<Select.Trigger
-										class="w-full rounded-lg border border-gray-700 bg-gray-800 px-4 py-3 text-sm font-medium text-white shadow-md transition-all duration-300 hover:bg-gray-700 focus:ring-2 focus:ring-teal-500 focus:outline-none"
-									>
-										{triggerStatusContent}
-									</Select.Trigger>
-									<Select.Content
-										class="scrollbar-thin scrollbar-thumb-teal-500 scrollbar-track-gray-800 max-h-60 overflow-y-auto rounded-lg border border-gray-700 bg-gray-900"
-									>
-										<Select.Group>
-											<Select.GroupHeading class="px-4 py-2 font-semibold text-gray-400"
-												>Statuts</Select.GroupHeading
-											>
-											{#each $i18n.login.statusOptions as option (option)}
-												<Select.Item
-													value={option}
-													label={option}
-													class="cursor-pointer px-4 py-2 text-white transition-all duration-200 hover:bg-teal-600 hover:text-white"
-												/>
-											{/each}
-										</Select.Group>
-									</Select.Content>
-								</Select.Root>
-							</div>
-						</div>
-						<div class="w-full sm:w-1/2">
-							<label for="specialty" class="mb-2 block text-sm font-medium text-gray-300">
-								{$i18n.account.specialty}
-							</label>
-							<input
-								id="specialty"
-								type="text"
-								bind:value={specialty}
-								class="mt-1 w-full rounded-lg border border-gray-700 bg-gray-800 px-4 py-3 text-white transition-all duration-200 focus:border-teal-500 focus:ring focus:ring-teal-700"
-								placeholder="Ex: Médecine Générale, Diabétologie"
-							/>
-						</div>
-					</div>
+				<!-- Vos Informations Section -->
+				<div>
+                    <h2 class="text-xl md:text-2xl font-semibold text-white border-b border-gray-700 pb-3 mb-6">Vos informations</h2>
+                    <div class="space-y-6">
+                        <div>
+                            <label for="firstName" class="mb-2 block text-sm font-medium text-gray-300">{$i18n.login.firstName}</label>
+                            <input
+                                id="firstName"
+                                type="text"
+                                bind:value={firstName}
+                                on:input={(e) => firstName = e.target.value || null}
+                                class="mt-1 block w-full rounded-lg border border-gray-700 bg-gray-700 px-4 py-3 text-white transition-all duration-200 focus:border-teal-500 focus:ring focus:ring-teal-600/50"
+                                required />
+                        </div>
+                        <div>
+                            <label for="lastName" class="mb-2 block text-sm font-medium text-gray-300">{$i18n.login.lastName}</label>
+                            <input
+                                id="lastName"
+                                type="text"
+                                bind:value={lastName}
+                                on:input={(e) => lastName = e.target.value || null}
+                                class="mt-1 block w-full rounded-lg border border-gray-700 bg-gray-700 px-4 py-3 text-white transition-all duration-200 focus:border-teal-500 focus:ring focus:ring-teal-600/50"
+                                required />
+                        </div>
+                        <div>
+                            <label for="status" class="mb-2 block text-sm font-medium text-gray-300">{$i18n.account.status}</label>
+                            <select
+                                id="status"
+                                bind:value={status}
+                                class="mt-1 block w-full rounded-lg border border-gray-700 bg-gray-700 px-4 py-3 text-sm text-white transition-all duration-200 focus:border-teal-500 focus:ring focus:ring-teal-600/50"
+                            >
+                                {#each statusOptions as option}
+                                    <option value={option}>{option}</option>
+                                {/each}
+                            </select>
+                        </div>
+                        <div>
+                            <label for="specialty" class="mb-2 block text-sm font-medium text-gray-300">{$i18n.account.specialty}</label>
+                            <input
+                                id="specialty"
+                                type="text"
+                                bind:value={specialty}
+                                on:input={(e) => specialty = e.target.value || null}
+                                class="mt-1 block w-full rounded-lg border border-gray-700 bg-gray-700 px-4 py-3 text-white transition-all duration-200 focus:border-teal-500 focus:ring focus:ring-teal-600/50"
+                                placeholder="Ex: Médecine Générale" />
+                        </div>
+                        <div>
+                            <label for="dateOfBirth" class="mb-2 block text-sm font-medium text-gray-300">{$i18n.login.dateOfBirth}</label>
+                            <input
+                                id="dateOfBirth"
+                                type="date"
+                                bind:value={dateOfBirth}
+                                on:input={(e) => dateOfBirth = e.target.value || null}
+                                class="mt-1 block w-full rounded-lg border border-gray-700 bg-gray-700 px-4 py-3 text-white transition-all duration-200 focus:border-teal-500 focus:ring focus:ring-teal-600/50" />
+                        </div>
+                    </div>
+                </div>
 
-					<!-- Date de naissance -->
-					<div>
-						<label for="dateOfBirth" class="mb-2 block text-sm font-medium text-gray-300">
-							{$i18n.login.dateOfBirth}
-						</label>
-						<input
-							id="dateOfBirth"
-							type="date"
-							bind:value={dateOfBirth}
-							class="mt-1 w-full rounded-lg border border-gray-700 bg-gray-800 px-4 py-3 text-white transition-all duration-200 focus:border-teal-500 focus:ring focus:ring-teal-700"
-						/>
-					</div>
+				<hr class="border-gray-700" />
 
-					<br />
+                <!-- Vos Préférences Section -->
+				<div>
+                    <h2 class="text-xl md:text-2xl font-semibold text-white border-b border-gray-700 pb-3 mb-6">Vos préférences de veille</h2>
 
-					<h2 class="mb-6 text-2xl font-semibold text-white">Vos préférences</h2>
+                    <!-- Notification Frequency -->
+                    <div class="mb-8">
+                        <label for="notificationFrequency" class="mb-2 block text-sm font-medium text-gray-300">Fréquence des notifications</label>
+                        <select
+                            id="notificationFrequency"
+                            bind:value={selectedNotificationFreq}
+                            class="mt-1 block w-full rounded-lg border border-gray-700 bg-gray-700 px-4 py-3 text-sm text-white transition-all duration-200 focus:border-teal-500 focus:ring focus:ring-teal-600/50"
+                        >
+                            {#each notificationOptions as option}
+                                <option value={option.value}>{option.label}</option>
+                            {/each}
+                        </select>
+                    </div>
 
-					<!-- Spécialités que je souhaite suivre -->
-					<div>
-						<label class="mb-2 block text-sm font-medium text-gray-300">
-							{$i18n.account.disciplinesToFollow}
-						</label>
-						<div class="relative w-full">
-							<Select.Root
-								type="multiple"
-								name="selectedDisciplines"
-								bind:value={selectedDisciplines}
-							>
-								<Select.Trigger
-									class="w-full rounded-lg border border-gray-700 bg-gray-800 px-4 py-3 text-sm font-medium text-white shadow-md transition-all duration-300 hover:bg-gray-700 focus:ring-2 focus:ring-teal-500 focus:outline-none"
-								>
-									{triggerDisciplineContent}
-								</Select.Trigger>
-								<Select.Content
-									class="scrollbar-thin scrollbar-thumb-teal-500 scrollbar-track-gray-800 max-h-60 overflow-y-auto rounded-lg border border-gray-700 bg-gray-900"
-								>
-									<Select.Group>
-										<Select.GroupHeading class="px-4 py-2 font-semibold text-gray-400"
-											>Spécialités</Select.GroupHeading
-										>
-										{#each sortedDisciplines as discipline (discipline)}
-											<Select.Item
-												value={discipline}
-												label={discipline}
-												class="cursor-pointer px-4 py-2 text-white transition-all duration-200 hover:bg-teal-600 hover:text-white"
-											/>
-										{/each}
-									</Select.Group>
-								</Select.Content>
-							</Select.Root>
-						</div>
-					</div>
+                    <!-- Discipline/Sub-discipline Subscriptions -->
+                    <div>
+                        <label class="mb-4 block text-sm font-medium text-gray-300">Spécialités et sous-spécialités suivies</label>
+                        <div class="space-y-4 max-h-96 overflow-y-auto pr-2 scrollbar-thin scrollbar-thumb-teal-600 scrollbar-track-gray-700 rounded-md border border-gray-600 p-4 bg-gray-700/50">
+                             {#each allDisciplines as discipline (discipline.id)}
+                                <div class="discipline-group">
+                                    <div class="flex items-center justify-between">
+                                        <label class="flex items-center cursor-pointer select-none py-1">
+                                            <input
+                                                type="checkbox"
+                                                class="h-4 w-4 rounded border-gray-500 bg-gray-600 text-teal-500 focus:ring-teal-600 focus:ring-offset-gray-800 mr-3"
+                                                checked={currentSubscriptions.has(`d:${discipline.id}`)}
+                                                on:change={(e) => handleMainDisciplineChange(discipline.id, e.currentTarget.checked)}
+                                            />
+                                            <span class="font-medium text-gray-100">{discipline.name}</span>
+                                        </label>
+                                        {#if discipline.sub_disciplines && discipline.sub_disciplines.length > 0}
+                                             <button type="button" on:click={() => toggleDisciplineSection(discipline.id)} class="text-gray-400 hover:text-gray-200 p-1 -mr-1 rounded focus:outline-none focus:ring-2 focus:ring-teal-500 focus:ring-offset-1 focus:ring-offset-gray-800">
+                                                 {#if openDisciplines.has(discipline.id)} <ChevronUp class="h-4 w-4" /> {:else} <ChevronDown class="h-4 w-4" /> {/if}
+                                             </button>
+                                        {/if}
+                                    </div>
+                                    {#if openDisciplines.has(discipline.id) && discipline.sub_disciplines && discipline.sub_disciplines.length > 0}
+                                        <div class="mt-2 pl-6 border-l border-gray-600 ml-2 space-y-1.5">
+                                             {#each discipline.sub_disciplines as sub (sub.id)}
+                                                  <label class="flex items-center cursor-pointer select-none py-0.5">
+                                                      <input
+                                                          type="checkbox"
+                                                          class="h-4 w-4 rounded border-gray-500 bg-gray-600 text-teal-500 focus:ring-teal-600 focus:ring-offset-gray-800 mr-3"
+                                                          checked={currentSubscriptions.has(`s:${sub.id}`)}
+                                                          on:change={(e) => handleSubDisciplineChange(sub.id, discipline.id, e.currentTarget.checked)}
+                                                      />
+                                                      <span class="text-sm text-gray-300 hover:text-gray-100">{sub.name}</span>
+                                                  </label>
+                                             {/each}
+                                        </div>
+                                    {/if}
+                                </div>
+                             {:else}
+                                <p class="text-gray-500 italic">Aucune discipline disponible.</p>
+                             {/each}
+                        </div>
+                    </div>
+                </div>
 
-					<!-- Fréquence des notifications -->
-					<div>
-						<label class="mb-2 block text-sm font-medium text-gray-300">
-							{$i18n.account.notificationFrequency}
-						</label>
-						<div class="relative w-full">
-							<Select.Root
-								type="single"
-								name="selectedNotificationFreq"
-								bind:value={selectedNotificationFreq}
-							>
-								<Select.Trigger
-									class="w-full rounded-lg border border-gray-700 bg-gray-800 px-4 py-3 text-sm font-medium text-white shadow-md transition-all duration-300 hover:bg-gray-700 focus:ring-2 focus:ring-teal-500 focus:outline-none"
-								>
-									{triggerNotificationContent}
-								</Select.Trigger>
-								<Select.Content
-									class="scrollbar-thin scrollbar-thumb-teal-500 scrollbar-track-gray-800 max-h-60 overflow-y-auto rounded-lg border border-gray-700 bg-gray-900"
-								>
-									<Select.Group>
-										<Select.GroupHeading class="px-4 py-2 font-semibold text-gray-400"
-											>Fréquences</Select.GroupHeading
-										>
-										{#each notificationOptions as option (option)}
-											<Select.Item
-												value={option}
-												label={$i18n.login.notificationOptions[notificationOptions.indexOf(option)]}
-												class="cursor-pointer px-4 py-2 text-white transition-all duration-200 hover:bg-teal-600 hover:text-white"
-											/>
-										{/each}
-									</Select.Group>
-								</Select.Content>
-							</Select.Root>
-						</div>
-					</div>
-
+				<!-- Save Button & Messages -->
+				<div class="pt-5">
+                     {#if saveSuccess}
+                        <div role="alert" class="mb-4 flex items-center gap-2 rounded-md bg-green-800/30 border border-green-600 p-3 text-sm text-green-300">
+                            <Check class="h-4 w-4 flex-shrink-0" />
+                            Profil et abonnements mis à jour avec succès !
+                        </div>
+                     {/if}
+                     {#if saveError}
+                         <div role="alert" class="mb-4 flex items-center gap-2 rounded-md bg-red-900/30 border border-red-700 p-3 text-sm text-red-300">
+                            <AlertCircle class="h-4 w-4 flex-shrink-0" />
+                            {saveError}
+                        </div>
+                     {/if}
 					<button
 						type="submit"
 						disabled={isLoading}
-						class="mt-6 flex w-full items-center justify-center rounded-lg bg-orange-600 px-8 py-3 text-white transition-all duration-300 hover:bg-orange-700 disabled:cursor-not-allowed disabled:bg-gray-600"
+						class="flex w-full items-center justify-center rounded-lg bg-orange-600 px-8 py-3 font-semibold text-white shadow-md transition-all duration-300 hover:bg-orange-700 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2 focus:ring-offset-gray-800 disabled:cursor-not-allowed disabled:opacity-60"
 					>
-						{#if isLoading}
-							<svg class="mr-2 h-5 w-5 animate-spin text-white" viewBox="0 0 24 24">
-								<circle
-									class="opacity-25"
-									cx="12"
-									cy="12"
-									r="10"
-									stroke="currentColor"
-									stroke-width="4"
-								/>
-								<path
-									class="opacity-75"
-									fill="currentColor"
-									d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
-								/>
-							</svg>
-							<span>{$i18n.account.saveChanges}</span>
-						{:else}
-							{$i18n.account.saveChanges}
-						{/if}
+						{#if isLoading} <Loader2 class="mr-2 h-5 w-5 animate-spin" /> <span>Enregistrement...</span>
+						{:else} Enregistrer les modifications {/if}
 					</button>
-				</form>
-			</div>
-		{/if}
+				</div>
+			</form>
 
-		<!-- Bouton de déconnexion en bas -->
-		{#if $userProfileStore}
-			<div class="mt-12 text-left">
-				<h2 class="mb-4 text-2xl font-bold text-white">Se déconnecter</h2>
+            <hr class="my-10 border-gray-700" />
+
+			<!-- Logout Section -->
+			<div class="text-left">
+				<h2 class="mb-4 text-xl md:text-2xl font-semibold text-white">Se déconnecter</h2>
 				<button
 					on:click={handleLogout}
-					class="rounded-lg bg-black px-6 py-3 text-white transition-colors duration-200 hover:bg-gray-800"
+                    disabled={isLoading}
+					class="rounded-lg bg-gray-600 px-6 py-2.5 text-sm font-medium text-white transition-colors duration-200 hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2 focus:ring-offset-gray-800 disabled:cursor-not-allowed disabled:opacity-60"
 				>
-					{$i18n.header.logout}
+					Déconnexion
 				</button>
 			</div>
 		{/if}
@@ -9170,57 +9031,102 @@ frontend/src/routes/account/+page.svelte
 </div>
 
 <style>
-	/* Fade-in animation for title */
-	@keyframes fade-in {
-		0% {
-			opacity: 0;
-			transform: translateY(10px);
-		}
-		100% {
-			opacity: 1;
-			transform: translateY(0);
-		}
-	}
-	.animate-fade-in {
-		animation: fade-in 1s ease-out;
-	}
-
-	/* Delayed fade-in for subtitle and other elements */
-	@keyframes fade-in-delayed {
-		0% {
-			opacity: 0;
-			transform: translateY(10px);
-		}
-		100% {
-			opacity: 1;
-			transform: translateY(0);
-		}
-	}
-	.animate-fade-in-delayed {
-		animation: fade-in-delayed 1.2s ease-out;
-	}
-
-	/* Custom scrollbar for the select dropdown */
+	/* Custom scrollbar for the select dropdown & discipline list */
 	.scrollbar-thin {
 		scrollbar-width: thin;
-		scrollbar-color: #14b8a6 #1f2937;
+		scrollbar-color: #0d9488 #374151; /* thumb(teal-600) track(gray-700) */
 	}
-
 	.scrollbar-thin::-webkit-scrollbar {
-		width: 8px;
+		width: 6px; height: 6px;
 	}
-
 	.scrollbar-thin::-webkit-scrollbar-track {
-		background: #1f2937;
+		background: #374151; /* gray-700 */ border-radius: 10px;
 	}
-
 	.scrollbar-thin::-webkit-scrollbar-thumb {
-		background-color: #14b8a6;
-		border-radius: 6px;
-		border: 2px solid #1f2937;
+		background-color: #0d9488; /* teal-600 */ border-radius: 6px; border: 1px solid #374151; /* gray-700 */
 	}
-</style>
+    .scrollbar-thin::-webkit-scrollbar-thumb:hover {
+		background-color: #0f766e; /* teal-700 */
+	}
 
+    /* Ensure date input text is visible */
+    input[type="date"] { color-scheme: dark; }
+    input[type="date"]::-webkit-calendar-picker-indicator { filter: invert(0.8); }
+
+    /* Ensure checkbox is visible in dark mode */
+    input[type="checkbox"] { color-scheme: dark; }
+
+     /* Restore original input/select styles */
+    label {
+         /* Keep the existing label style */
+         margin-bottom: 0.5rem; /* mb-2 */
+         display: block;
+         font-size: 0.875rem; /* text-sm */
+         font-weight: 500; /* font-medium */
+         color: #D1D5DB; /* text-gray-300 */
+    }
+     input[type="text"], input[type="date"],
+     /* Target the Select Trigger specifically for consistent height/padding */
+    :global([data-bits-select-trigger]) {
+        margin-top: 0.25rem; /* mt-1 */
+        display: block;
+        width: 100%;
+        border-radius: 0.5rem; /* rounded-lg */
+        border: 1px solid #4B5563; /* border-gray-700 */
+        background-color: #374151; /* bg-gray-700 */
+        padding: 0.75rem 1rem; /* px-4 py-3 */
+        color: #FFFFFF; /* text-white */
+        transition: all 0.2s ease-in-out; /* transition-all duration-200 */
+    }
+     input[type="text"]:focus, input[type="date"]:focus,
+    :global([data-bits-select-trigger][data-state="open"]),
+    :global([data-bits-select-trigger]:focus-visible) {
+        border-color: #14B8A6; /* focus:border-teal-500 */
+        outline: 2px solid transparent; /* Remove default outline */
+        outline-offset: 2px;
+        --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+        --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color); /* Simulating focus:ring */
+        box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+        --tw-ring-color: rgba(20, 184, 166, 0.5); /* focus:ring-teal-600/50 */
+    }
+    /* Specific height adjustment for Select Trigger */
+    :global([data-bits-select-trigger]) {
+        height: 3rem; /* Adjust to match input height including padding+border (approx h-12 equivalent) */
+        padding-top: 0; /* Reset bits-ui default padding */
+        padding-bottom: 0;
+        display: flex; /* Ensure flex alignment */
+        align-items: center;
+    }
+     /* Style the Select Content (Dropdown Panel) */
+    :global([data-bits-select-content]) {
+        z-index: 50; /* Ensure it's above other elements */
+        border-radius: 0.5rem; /* rounded-lg */
+        border: 1px solid #4B5563; /* border-gray-600 */
+        background-color: #374151; /* bg-gray-700 */
+        color: #FFFFFF; /* text-white */
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); /* shadow-lg */
+        max-height: 15rem; /* max-h-60 */
+        overflow-y: auto;
+    }
+    /* Style Select Items */
+    :global([data-bits-select-item]) {
+        cursor: pointer;
+        padding: 0.5rem 1rem; /* px-4 py-2 */
+    }
+    :global([data-bits-select-item][data-highlighted]) {
+         background-color: rgba(20, 184, 166, 0.5); /* data-[highlighted]:bg-teal-700/50 */
+         outline: none;
+    }
+
+    /* Revert the grid layout for profile fields */
+    form > div:first-child > div:not(.space-y-6) { /* Target direct children divs containing profile info */
+         display: block; /* Revert from grid */
+    }
+    form > div:first-child > div > div { /* Target the inner divs for each field */
+        margin-bottom: 1.5rem; /* Re-add vertical spacing (space-y-6 equivalent) */
+    }
+
+</style>
 --- End of File ---
 
 --- File Path ---
@@ -9455,41 +9361,231 @@ export const POST = async ({ request, locals: { supabase, safeGetSession } }) =>
 --- File Path ---
 frontend/src/routes/api/get_sub_disciplines/+server.js
 
-// src/routes/api/get_sub_disciplines/+server.ts
+// src/routes/api/get_sub_disciplines/+server.js
 import { error, json } from '@sveltejs/kit';
 
-export const GET = async ({ url, locals: { supabase } }) => {
-	const disciplineName = url.searchParams.get('disciplineName');
+export const GET = async ({ url, locals: { supabase, safeGetSession } }) => {
+	console.log('API: /api/get_sub_disciplines called');
 
-	if (!disciplineName) {
+    // 1. Get Query Parameters
+    const disciplineName = url.searchParams.get('disciplineName');
+    const mode = url.searchParams.get('mode') || 'user'; // Default to 'user' mode
+
+    if (!disciplineName) {
+		console.error('API Error: Missing disciplineName query parameter');
 		throw error(400, 'Missing required query parameter: disciplineName');
 	}
+    console.log(`API: Requested discipline name: ${disciplineName}, Mode: ${mode}`);
 
-    const getDisciplineId = await supabase
-        .from('disciplines')
-        .select('id')
-        .eq('name', disciplineName)
-        .single();
+    // 2. Authentication (Required ONLY for 'user' mode)
+    const { user } = await safeGetSession();
+    const userId = user?.id;
+     console.log(`API: User authenticated: ${userId ?? 'No'}`);
 
-    const disciplineId = getDisciplineId.data?.id;
-    if (!disciplineId) {
-        throw error(404, 'Discipline not found');
+    if (mode === 'user' && !userId) {
+         console.error('API Error: Unauthorized access to get_sub_disciplines in user mode');
+         // If user mode is explicitly requested but user isn't logged in, return error or empty?
+         // Returning empty might be safer for the component.
+         return json([]);
+         // throw error(401, 'Authentication required for user-specific sub-disciplines.');
     }
 
-	// Fetch sub_disciplines associated with the given discipline name
-	const { data: subDisciplines, error: dbError } = await supabase
-		.from('sub_disciplines')
-		.select('id, name') // Select id and name
-		.eq('discipline_id', disciplineId) // Filter by discipline_id
-		.order('name', { ascending: true }); // Order alphabetically by name
 
-	if (dbError) {
-		console.error('Error fetching sub-disciplines:', dbError);
-		throw error(500, 'Database error fetching sub-disciplines');
+	try {
+        // 3. Find the ID of the requested Discipline
+        const { data: disciplineData, error: disciplineError } = await supabase
+            .from('disciplines')
+            .select('id')
+            .eq('name', disciplineName)
+            .maybeSingle();
+
+        if (disciplineError) throw error(500, `Database error: ${disciplineError.message}`);
+        if (!disciplineData) {
+             console.warn(`API Warn: Discipline not found: ${disciplineName}`);
+             return json([]); // Return empty if the discipline name doesn't exist
+        }
+        const disciplineId = disciplineData.id;
+        console.log(`API: Found discipline ID: ${disciplineId}`);
+
+        // 4. Fetch sub-disciplines based on mode
+        let subDisciplinesToReturn = [];
+
+        if (mode === 'public' || !userId) {
+            // --- Public Mode OR User Not Logged In: Return ALL sub-disciplines ---
+            console.log(`API: Fetching ALL subs for discipline ${disciplineId} (Mode: ${mode}, User: ${userId ?? 'None'})`);
+            const { data: allSubsData, error: allSubsError } = await supabase
+                .from('sub_disciplines')
+                .select('id, name')
+                .eq('discipline_id', disciplineId)
+                .order('name', { ascending: true });
+
+            if (allSubsError) throw error(500, `DB error fetching all subs: ${allSubsError.message}`);
+            subDisciplinesToReturn = allSubsData || [];
+
+        } else {
+            // --- User Mode AND User Logged In: Apply subscription logic ---
+            console.log(`API: Fetching USER-SPECIFIC subs for user ${userId}, discipline ${disciplineId}`);
+            const { data: userSubs, error: subsError } = await supabase
+                .from('user_subscriptions')
+                .select('sub_discipline_id')
+                .eq('user_id', userId)
+                .eq('discipline_id', disciplineId);
+
+            if (subsError) throw error(500, `Database error: ${subsError.message}`);
+
+            if (!userSubs || userSubs.length === 0) {
+                console.warn(`API Warn: User ${userId} requested subs for discipline ${disciplineId} but has no subscriptions for it.`);
+                return json([]); // Return empty as they are not subscribed
+            }
+
+            const hasSpecificSubs = userSubs.some(sub => sub.sub_discipline_id !== null);
+            const subscribedToMain = userSubs.some(sub => sub.sub_discipline_id === null);
+
+            if (hasSpecificSubs) {
+                // Return ONLY specifically subscribed subs
+                const specificSubIds = userSubs.map(sub => sub.sub_discipline_id).filter(id => id !== null);
+                console.log(`API: User subscribed to specific subs. Fetching IDs: ${specificSubIds}`);
+                if (specificSubIds.length > 0) {
+                    const { data: specificSubsData, error: specificSubsError } = await supabase
+                        .from('sub_disciplines').select('id, name').in('id', specificSubIds).order('name');
+                    if (specificSubsError) throw error(500, `DB error fetching specific subs: ${specificSubsError.message}`);
+                    subDisciplinesToReturn = specificSubsData || [];
+                }
+            } else if (subscribedToMain) {
+                // Return ALL subs for the main discipline
+                console.log(`API: User subscribed to main ${disciplineName}. Fetching ALL subs.`);
+                 const { data: allSubsData, error: allSubsError } = await supabase
+                    .from('sub_disciplines').select('id, name').eq('discipline_id', disciplineId).order('name');
+                 if (allSubsError) throw error(500, `DB error fetching all subs: ${allSubsError.message}`);
+                 subDisciplinesToReturn = allSubsData || [];
+            }
+            // If neither condition met (shouldn't happen if userSubs has data), returns empty.
+        }
+
+        console.log(`API: Returning ${subDisciplinesToReturn.length} sub-disciplines for ${disciplineName} (Mode: ${mode})`);
+        return json(subDisciplinesToReturn);
+
+	} catch (err) {
+		 // Handle errors
+         console.error('API Error in /api/get_sub_disciplines:', err);
+         if (err && typeof err === 'object' && 'status' in err) throw err;
+         throw error(500, 'An internal server error occurred.');
+	}
+};
+--- End of File ---
+
+--- File Path ---
+frontend/src/routes/api/update-profile-and-subscriptions/+server.ts
+
+// src/routes/api/update-profile-and-subscriptions/+server.ts
+import { error, json } from '@sveltejs/kit';
+import type { RequestEvent } from './$types';
+
+export async function POST(event: RequestEvent) {
+	const { request, locals: { supabase, safeGetSession } } = event;
+
+	const { user } = await safeGetSession();
+	if (!user) {
+		throw error(401, 'Unauthorized');
 	}
 
-	return json(subDisciplines || []); // Return array or empty array
-};
+	let profileData;
+    let subscriptionsData: { discipline_id: number; sub_discipline_id: number | null }[];
+
+	try {
+		const body = await request.json();
+		if (!body || typeof body !== 'object') throw new Error('Invalid JSON body');
+
+		profileData = body.profile; // Expect profile updates under 'profile' key
+        subscriptionsData = body.subscriptions; // Expect subscriptions under 'subscriptions' key
+
+		// Basic validation
+		if (!profileData || typeof profileData !== 'object') throw new Error('Missing or invalid profile data');
+        if (!Array.isArray(subscriptionsData)) throw new Error('Invalid subscriptions data');
+        if (!profileData.first_name || !profileData.last_name) throw new Error('First name and last name are required');
+        // Add more validation as needed
+
+	} catch (e: any) {
+		console.error("Error parsing update request:", e);
+		throw error(400, `Bad Request: ${e.message}`);
+	}
+
+    console.log(`Updating profile for user: ${user.id}`, profileData);
+    console.log(`Updating subscriptions for user: ${user.id}`, subscriptionsData);
+
+
+	// --- Perform updates in a transaction ---
+    // Note: Supabase JS client doesn't directly support multi-statement transactions easily.
+    // We'll perform them sequentially and rely on the database/RLS for consistency.
+    // For true atomicity, you'd create a PostgreSQL function (RPC).
+
+    try {
+        // 1. Update User Profile
+        const { error: profileUpdateError } = await supabase
+            .from('user_profiles')
+            .update({
+                first_name: profileData.first_name,
+                last_name: profileData.last_name,
+                status: profileData.status || null,
+                specialty: profileData.specialty || null,
+                notification_frequency: profileData.notification_frequency,
+                date_of_birth: profileData.date_of_birth || null
+                // DO NOT update 'disciplines' here
+            })
+            .eq('id', user.id);
+
+        if (profileUpdateError) {
+            console.error("Error updating profile:", profileUpdateError);
+            throw error(500, `Profile update failed: ${profileUpdateError.message}`);
+        }
+        console.log("Profile updated successfully.");
+
+        // 2. Update Subscriptions (Delete old, Insert new)
+        // Delete existing subscriptions for the user
+        const { error: deleteError } = await supabase
+            .from('user_subscriptions')
+            .delete()
+            .eq('user_id', user.id);
+
+        if (deleteError) {
+            console.error("Error deleting old subscriptions:", deleteError);
+            throw error(500, `Subscription cleanup failed: ${deleteError.message}`);
+        }
+        console.log("Old subscriptions deleted.");
+
+        // Insert new subscriptions if any
+        if (subscriptionsData.length > 0) {
+             // Add user_id to each subscription object
+             const subsToInsert = subscriptionsData.map(sub => ({
+                 ...sub,
+                 user_id: user.id
+             }));
+
+            const { error: insertError } = await supabase
+                .from('user_subscriptions')
+                .insert(subsToInsert);
+
+            if (insertError) {
+                console.error("Error inserting new subscriptions:", insertError);
+                // Consider rolling back profile update manually if possible, or log inconsistency
+                throw error(500, `Subscription update failed: ${insertError.message}`);
+            }
+            console.log("New subscriptions inserted successfully.");
+        } else {
+            console.log("No new subscriptions to insert.");
+        }
+
+        return json({ success: true, message: 'Profil et abonnements mis à jour avec succès.' });
+
+    } catch (err) {
+         // Catch errors from the try block (thrown Supabase/SvelteKit errors)
+        console.error("Error during profile/subscription update:", err);
+        if (err && typeof err === 'object' && 'status' in err) {
+             throw err; // Re-throw SvelteKit error
+        }
+        throw error(500, 'An unexpected error occurred during the update.');
+    }
+}
 --- End of File ---
 
 --- File Path ---
@@ -10428,7 +10524,7 @@ frontend/src/routes/+page.svelte
 									{formatTitle(article.title)}
 								</h3>
 								{#if article.grade}
-									<p class="text-sm text-green-400">Grade de recommandation : {article.grade}</p>
+									<p class="mt-1 text-sm {article.grade == 'A' ? 'text-green-500' : article.grade == 'B' ? 'text-yellow-400' : article.grade == 'C' ? 'text-orange-400' : 'text-red-400'}">Grade de recommandation : {article.grade}</p>
 								{/if}
 								<div class="mt-2 flex items-center text-sm text-gray-400">
 									<span class="mr-1">{article.journal || 'Inconnu'}</span>
@@ -10522,7 +10618,7 @@ frontend/src/routes/+page.svelte
 					{formatTitle(immersiveArticle.title)}
 				</h2>
 				{#if immersiveArticle.grade}
-					<p class="mb-2 text-sm text-green-400">
+					<p class="mb-2 text-sm {immersiveArticle.grade == 'A' ? 'text-green-500' : immersiveArticle.grade == 'B' ? 'text-yellow-400' : immersiveArticle.grade == 'C' ? 'text-orange-400' : 'text-red-400'}">
 						Grade de recommandation : {immersiveArticle.grade}
 					</p>
 				{/if}
@@ -10963,76 +11059,105 @@ Je recommande 👌
     async function initializeAndMountElement(type: 'card' | 'sepa_debit') {
         const secret = type === 'card' ? clientSecretCard : clientSecretSepa;
         const mountId = type === 'card' ? '#card-element' : '#iban-element';
-        const existingElement = type === 'card' ? cardElement : ibanElement;
 
-        if (!stripe || !secret || existingElement) {
-            if (existingElement) console.log(`${type} element already initialized.`);
-            else console.log(`Cannot initialize ${type} element: Stripe or Client Secret missing.`);
-            return; // Don't re-initialize if already done, or if dependencies missing
+        // Destroy existing element of the *same type* FIRST
+        if (type === 'card' && cardElement) {
+            console.log("Destroying previous card element.");
+            try { cardElement.destroy(); } catch(e){ console.warn("Error destroying card element", e); }
+            cardElement = null;
+        }
+        if (type === 'sepa_debit' && ibanElement) {
+            console.log("Destroying previous iban element.");
+            try { ibanElement.destroy(); } catch(e){ console.warn("Error destroying iban element", e); }
+            ibanElement = null;
+        }
+        // Also reset the general elements instance as it's tied to a specific secret
+        elements = null;
+
+        // Check dependencies AFTER potential destruction
+        if (!stripe || !secret) {
+            console.log(`Cannot initialize ${type} element: Stripe or Client Secret missing.`);
+            errorMessage = `Erreur: Impossible d'initialiser le formulaire ${type}.`;
+            // Ensure form visibility is false if we can't init
+            if (type === 'card') showCardForm = false;
+            if (type === 'sepa_debit') showSepaForm = false;
+            return;
         }
 
-        errorMessage = ''; // Clear errors when showing form
-        // console.log(`Initializing ${type} element with secret: ${secret}`);
-        const appearance = { 
-            theme: 'night' as const, 
-            labels: 'floating' as const,
-            variables: {
-                colorPrimary: '#ea580c',
-                colorBackground: '#1f2937',
-                colorText: '#f3f4f6',
-                colorDanger: '#ef4444',
-                fontFamily: 'system-ui, sans-serif',
-                spacingUnit: '4px',
-                borderRadius: '8px'
-            }
-        };
-        elements = stripe.elements({ clientSecret: secret, appearance, locale: 'fr' });
+        errorMessage = ''; // Clear errors when attempting to show form
+        console.log(`Initializing ${type} element with secret: ${secret.substring(0, 15)}...`); // Log prefix only
 
-        if (type === 'card') {
-            if (cardElement) cardElement.destroy(); // Clean previous
-            cardElement = elements.create('payment', { layout: "tabs" });
-            await tick();
-            cardElement.mount(mountId);
-        } else { // sepa_debit
-            if (ibanElement) ibanElement.destroy(); // Clean previous
-            ibanElement = elements.create('iban', { 
-                supportedCountries: ['SEPA'],
-                style: {
-                    base: {
-                        fontSize: '16px',
-                        color: '#f3f4f6',
-                        backgroundColor: '#374151',
-                        padding: '12px',
-                        '::placeholder': {
-                            color: '#9ca3af'
-                        },
-                        ':-webkit-autofill': {
-                            color: '#f3f4f6'
-                        }
-                    },
-                    invalid: {
-                        color: '#ef4444',
-                        iconColor: '#ef4444'
-                    }
+        try {
+            const appearance = {
+                theme: 'night' as const,
+                labels: 'floating' as const,
+                variables: {
+                    colorPrimary: '#ea580c', // orange-600
+                    colorBackground: '#1f2937', // gray-800
+                    colorText: '#f3f4f6', // gray-100
+                    colorDanger: '#ef4444', // red-500
+                    fontFamily: 'system-ui, sans-serif',
+                    spacingUnit: '4px',
+                    borderRadius: '8px' // Corresponds to Tailwind's rounded-lg
                 }
-            });
-            await tick();
-            ibanElement.mount(mountId);
+            };
+            // Create a NEW elements instance with the specific secret for this type
+            elements = stripe.elements({ clientSecret: secret, appearance, locale: 'fr' });
+
+            if (type === 'card') {
+                cardElement = elements.create('payment', { layout: "tabs" });
+                await tick(); // Wait for Svelte DOM update
+                cardElement.mount(mountId); // Mount to the specific div
+                console.log(`Card element mounted to ${mountId}.`);
+
+            } else { // sepa_debit
+                ibanElement = elements.create('iban', {
+                    supportedCountries: ['SEPA'],
+                    // placeholderCountry: 'FR', // Optional: Sets placeholder format
+                    style: { // Optional: Styling if needed beyond Appearance API
+                         base: {
+                             backgroundColor: '#374151', // gray-700
+                             '::placeholder': {
+                                 color: '#9ca3af', // gray-400
+                             },
+                         }
+                    }
+                });
+                await tick(); // Wait for Svelte DOM update
+                ibanElement.mount(mountId); // Mount to the specific div
+                console.log(`IBAN element mounted to ${mountId}.`);
+            }
+             // Store the reference correctly
+            // This was missing, causing the destroy logic to fail on subsequent clicks
+            // No need to explicitly set here, cardElement/ibanElement are already assigned above
+
+        } catch (mountError: any) {
+            console.error(`Error creating/mounting ${type} element:`, mountError);
+            errorMessage = `Erreur lors de l'affichage du formulaire ${type}. (${mountError.message || ''})`;
+             // Ensure element refs are null on error
+             if (type === 'card') cardElement = null;
+             if (type === 'sepa_debit') ibanElement = null;
+             // Hide the form if mounting fails
+             if (type === 'card') showCardForm = false;
+             if (type === 'sepa_debit') showSepaForm = false;
         }
-        console.log(`${type} element mounted.`);
     }
 
     // --- UI Actions ---
     async function selectCardPayment() {
         if (isProcessingPayment || isLoadingPI) return;
         showSepaForm = false; // Hide other form
-        if (ibanElement) { ibanElement.destroy(); ibanElement = null; } // Cleanup SEPA if switching
+        if (ibanElement) { // Cleanup SEPA if switching
+            try { ibanElement.destroy(); } catch(e){ console.warn("Error destroying iban element", e); }
+            ibanElement = null;
+        }
 
         const secret = await createOrUpdatePI('card'); // Get/update 'card' intent
         if (secret) {
              activeClientSecret = secret;
              activePaymentMethodType = 'card';
-             showCardForm = true;
+             showCardForm = true; // Set visibility TRUE *before* mounting
+             await tick(); // Allow Svelte to render the container div if it wasn't visible
              await initializeAndMountElement('card'); // Mount the card element
         } else {
             showCardForm = false; // Don't show if PI creation failed
@@ -11042,13 +11167,17 @@ Je recommande 👌
     async function selectSepaPayment() {
         if (isProcessingPayment || isLoadingPI) return;
         showCardForm = false; // Hide other form
-        if (cardElement) { cardElement.destroy(); cardElement = null; } // Cleanup card if switching
+        if (cardElement) { // Cleanup card if switching
+            try { cardElement.destroy(); } catch(e){ console.warn("Error destroying card element", e); }
+            cardElement = null;
+        }
 
         const secret = await createOrUpdatePI('sepa_debit'); // Get/update 'sepa' intent
         if (secret) {
             activeClientSecret = secret;
             activePaymentMethodType = 'sepa_debit';
-            showSepaForm = true;
+            showSepaForm = true; // Set visibility TRUE *before* mounting
+            await tick(); // Allow Svelte to render the container div if it wasn't visible
             await initializeAndMountElement('sepa_debit'); // Mount the IBAN element
         } else {
             showSepaForm = false; // Don't show if PI creation failed

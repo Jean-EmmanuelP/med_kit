@@ -60,10 +60,9 @@
 
 	// --- Effects ---
 	$effect(() => {
-        const profile = $userProfileStore;
-        if (profile) {
-             // Remove the lines that reset the inputs
-        }
+        // This effect was removing user input on store changes, which is likely not desired.
+        // Removed the logic that reset the state variables here.
+        // The initial state is set correctly using $state(data.userProfile?.field || '')
     });
 
     $effect(() => {
@@ -75,6 +74,35 @@
             return () => clearTimeout(timer);
         }
     });
+
+     // --- Initialize open disciplines based on current subscriptions ---
+     $effect(() => {
+        const initialOpen = new Set<number>();
+        currentSubscriptions.forEach(key => {
+            if (key.startsWith('s:')) {
+                const subId = parseInt(key.split(':')[1], 10);
+                if (!isNaN(subId)) {
+                    for (const discipline of allDisciplines) {
+                        if (discipline.sub_disciplines?.some(sub => sub.id === subId)) {
+                            initialOpen.add(discipline.id);
+                            break; // Found the parent, move to next key
+                        }
+                    }
+                }
+            } else if (key.startsWith('d:')) {
+                const discId = parseInt(key.split(':')[1], 10);
+                if (!isNaN(discId)) {
+                     // Optionally auto-open if the main discipline is checked,
+                     // but the toggle logic handles opening when checked now.
+                }
+            }
+        });
+        // Only set openDisciplines on the initial load or if it hasn't been set yet
+        // to avoid overriding user interactions. Let's remove this auto-open based on
+        // current subs, as the new logic handles opening when a main is checked.
+        // openDisciplines = initialOpen;
+     });
+
 
     // --- Functions ---
     function toggleDisciplineSection(disciplineId: number) {
@@ -90,26 +118,54 @@
     function handleMainDisciplineChange(disciplineId: number, isChecked: boolean) {
         const key = `d:${disciplineId}`;
         const newSubs = new Set(currentSubscriptions);
+        const newOpen = new Set(openDisciplines); // Get current open state
+        const discipline = allDisciplines.find(d => d.id === disciplineId);
+
         if (isChecked) {
             newSubs.add(key);
+            // Select all sub-disciplines
+            discipline?.sub_disciplines.forEach(sub => {
+                 newSubs.add(`s:${sub.id}`);
+            });
+            // Expand the section
+            newOpen.add(disciplineId);
         } else {
             newSubs.delete(key);
-            const discipline = allDisciplines.find(d => d.id === disciplineId);
+            // Deselect all sub-disciplines
             discipline?.sub_disciplines.forEach(sub => {
                  newSubs.delete(`s:${sub.id}`);
             });
+            // Collapse the section
+            newOpen.delete(disciplineId);
         }
         currentSubscriptions = newSubs;
+        openDisciplines = newOpen; // Update open state
     }
 
     function handleSubDisciplineChange(subDisciplineId: number, disciplineId: number, isChecked: boolean) {
         const key = `s:${subDisciplineId}`;
         const mainKey = `d:${disciplineId}`;
         const newSubs = new Set(currentSubscriptions);
+
         if (isChecked) {
             newSubs.add(key);
+            // Automatically check the parent discipline if it's not already checked
+            if (!newSubs.has(mainKey)) {
+                newSubs.add(mainKey);
+            }
         } else {
             newSubs.delete(key);
+            // Optional: Uncheck parent ONLY if no other subs under it are checked
+            const discipline = allDisciplines.find(d => d.id === disciplineId);
+            const hasOtherCheckedSubs = discipline?.sub_disciplines.some(
+                sub => sub.id !== subDisciplineId && newSubs.has(`s:${sub.id}`)
+            ) ?? false;
+
+            if (!hasOtherCheckedSubs && newSubs.has(mainKey)) {
+                 // If you want to auto-uncheck parent when last sub is unchecked:
+                 // newSubs.delete(mainKey);
+                 // Keeping parent checked is usually less confusing, so we'll leave it checked for now.
+            }
         }
         currentSubscriptions = newSubs;
     }
@@ -127,13 +183,7 @@
             specialty: specialty || null,
             notification_frequency: selectedNotificationFreq,
             date_of_birth: dateOfBirth || null,
-            disciplines: Array.from(currentSubscriptions)
-                .filter(key => key.startsWith('d:')) // Only get main disciplines
-                .map(key => {
-                    const id = parseInt(key.split(':')[1], 10);
-                    return allDisciplines.find(d => d.id === id)?.name || '';
-                })
-                .filter(name => name !== '') // Remove any empty names
+            // 'disciplines' field in user_profiles is no longer updated directly
         };
 
         const subscriptionsPayload: { discipline_id: number; sub_discipline_id: number | null }[] = [];
@@ -142,7 +192,14 @@
             const id = parseInt(idStr, 10);
             if (!isNaN(id)) {
                 if (type === 'd') {
-                    subscriptionsPayload.push({ discipline_id: id, sub_discipline_id: null });
+                    // Check if ANY sub-discipline for this main discipline is also selected.
+                    // If so, we only need to insert the sub-discipline rows.
+                    // If not, we insert the main discipline row (sub_discipline_id: null).
+                    const discipline = allDisciplines.find(d => d.id === id);
+                    const hasAnySubSelected = discipline?.sub_disciplines.some(sub => currentSubscriptions.has(`s:${sub.id}`)) ?? false;
+                    if (!hasAnySubSelected) {
+                         subscriptionsPayload.push({ discipline_id: id, sub_discipline_id: null });
+                    }
                 } else if (type === 's') {
                     let parentDisciplineId: number | null = null;
                     for (const disc of allDisciplines) {
@@ -160,19 +217,40 @@
             }
         });
 
+        // Ensure distinct entries (e.g., if both main and sub were added programmatically somehow)
+        // Although the logic above should prevent duplicates if a sub is selected
+        const distinctSubscriptionsPayload = Array.from(new Map(subscriptionsPayload.map(item => [`${item.discipline_id}-${item.sub_discipline_id}`, item])).values());
+
         try {
 			const response = await fetch('/api/update-profile-and-subscriptions', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({
                     profile: profileUpdates,
-                    subscriptions: subscriptionsPayload
+                    subscriptions: distinctSubscriptionsPayload // Send distinct list
                 })
             });
             const result = await response.json();
             if (!response.ok) throw new Error(result.message || `HTTP Error ${response.status}`);
 
-			userProfileStore.update(current => current ? { ...current, ...profileUpdates } : null);
+            // Update local user profile store only with profile fields
+			userProfileStore.update(current => {
+                if (current) {
+                    return {
+                        ...current,
+                        first_name: profileUpdates.first_name,
+                        last_name: profileUpdates.last_name,
+                        status: profileUpdates.status,
+                        specialty: profileUpdates.specialty,
+                        notification_frequency: profileUpdates.notification_frequency,
+                        date_of_birth: profileUpdates.date_of_birth,
+                        // Keep the old 'disciplines' array in the store for now if needed elsewhere,
+                        // but it's not directly synced with the new subscription model here.
+                        // You might want to update it based on `distinctSubscriptionsPayload` if necessary.
+                    };
+                }
+                return null;
+            });
             saveSuccess = true;
 		} catch (err: any) {
 			console.error('Error updating profile/subscriptions:', err);
@@ -220,7 +298,7 @@
                                 id="firstName"
                                 type="text"
                                 bind:value={firstName}
-                                on:input={(e) => firstName = e.target.value || null}
+                                on:input={(e) => firstName = e.target.value || ''}
                                 class="mt-1 block w-full rounded-lg border border-gray-700 bg-gray-700 px-4 py-3 text-white transition-all duration-200 focus:border-teal-500 focus:ring focus:ring-teal-600/50"
                                 required />
                         </div>
@@ -230,7 +308,7 @@
                                 id="lastName"
                                 type="text"
                                 bind:value={lastName}
-                                on:input={(e) => lastName = e.target.value || null}
+                                on:input={(e) => lastName = e.target.value || ''}
                                 class="mt-1 block w-full rounded-lg border border-gray-700 bg-gray-700 px-4 py-3 text-white transition-all duration-200 focus:border-teal-500 focus:ring focus:ring-teal-600/50"
                                 required />
                         </div>
@@ -239,8 +317,9 @@
                             <select
                                 id="status"
                                 bind:value={status}
-                                class="mt-1 block w-full rounded-lg border border-gray-700 bg-gray-700 px-4 py-3 text-sm text-white transition-all duration-200 focus:border-teal-500 focus:ring focus:ring-teal-600/50"
+                                class="mt-1 block w-full rounded-lg border border-gray-700 bg-gray-700 px-4 py-3 text-sm text-white transition-all duration-200 focus:border-teal-500 focus:ring focus:ring-teal-600/50 appearance-none"
                             >
+                                <option value="">-- Choisir --</option> 
                                 {#each statusOptions as option}
                                     <option value={option}>{option}</option>
                                 {/each}
@@ -252,7 +331,7 @@
                                 id="specialty"
                                 type="text"
                                 bind:value={specialty}
-                                on:input={(e) => specialty = e.target.value || null}
+                                on:input={(e) => specialty = e.target.value || ''}
                                 class="mt-1 block w-full rounded-lg border border-gray-700 bg-gray-700 px-4 py-3 text-white transition-all duration-200 focus:border-teal-500 focus:ring focus:ring-teal-600/50"
                                 placeholder="Ex: Médecine Générale" />
                         </div>
@@ -262,7 +341,7 @@
                                 id="dateOfBirth"
                                 type="date"
                                 bind:value={dateOfBirth}
-                                on:input={(e) => dateOfBirth = e.target.value || null}
+                                on:input={(e) => dateOfBirth = e.target.value || ''}
                                 class="mt-1 block w-full rounded-lg border border-gray-700 bg-gray-700 px-4 py-3 text-white transition-all duration-200 focus:border-teal-500 focus:ring focus:ring-teal-600/50" />
                         </div>
                     </div>
@@ -280,7 +359,7 @@
                         <select
                             id="notificationFrequency"
                             bind:value={selectedNotificationFreq}
-                            class="mt-1 block w-full rounded-lg border border-gray-700 bg-gray-700 px-4 py-3 text-sm text-white transition-all duration-200 focus:border-teal-500 focus:ring focus:ring-teal-600/50"
+                            class="mt-1 block w-full rounded-lg border border-gray-700 bg-gray-700 px-4 py-3 text-sm text-white transition-all duration-200 focus:border-teal-500 focus:ring focus:ring-teal-600/50 appearance-none"
                         >
                             {#each notificationOptions as option}
                                 <option value={option.value}>{option.label}</option>
@@ -295,17 +374,17 @@
                              {#each allDisciplines as discipline (discipline.id)}
                                 <div class="discipline-group">
                                     <div class="flex items-center justify-between">
-                                        <label class="flex items-center cursor-pointer select-none py-1">
+                                        <label class="flex items-center cursor-pointer select-none py-1 flex-grow">
                                             <input
                                                 type="checkbox"
-                                                class="h-4 w-4 rounded border-gray-500 bg-gray-600 text-teal-500 focus:ring-teal-600 focus:ring-offset-gray-800 mr-3"
+                                                class="h-4 w-4 rounded border-gray-500 bg-gray-600 text-teal-500 focus:ring-teal-600 focus:ring-offset-gray-800 mr-3 shrink-0"
                                                 checked={currentSubscriptions.has(`d:${discipline.id}`)}
                                                 on:change={(e) => handleMainDisciplineChange(discipline.id, e.currentTarget.checked)}
                                             />
                                             <span class="font-medium text-gray-100">{discipline.name}</span>
                                         </label>
                                         {#if discipline.sub_disciplines && discipline.sub_disciplines.length > 0}
-                                             <button type="button" on:click={() => toggleDisciplineSection(discipline.id)} class="text-gray-400 hover:text-gray-200 p-1 -mr-1 rounded focus:outline-none focus:ring-2 focus:ring-teal-500 focus:ring-offset-1 focus:ring-offset-gray-800">
+                                             <button type="button" on:click={() => toggleDisciplineSection(discipline.id)} class="text-gray-400 hover:text-gray-200 p-1 -mr-1 rounded focus:outline-none focus:ring-2 focus:ring-teal-500 focus:ring-offset-1 focus:ring-offset-gray-800 shrink-0 ml-2">
                                                  {#if openDisciplines.has(discipline.id)} <ChevronUp class="h-4 w-4" /> {:else} <ChevronDown class="h-4 w-4" /> {/if}
                                              </button>
                                         {/if}
@@ -316,7 +395,7 @@
                                                   <label class="flex items-center cursor-pointer select-none py-0.5">
                                                       <input
                                                           type="checkbox"
-                                                          class="h-4 w-4 rounded border-gray-500 bg-gray-600 text-teal-500 focus:ring-teal-600 focus:ring-offset-gray-800 mr-3"
+                                                          class="h-4 w-4 rounded border-gray-500 bg-gray-600 text-teal-500 focus:ring-teal-600 focus:ring-offset-gray-800 mr-3 shrink-0"
                                                           checked={currentSubscriptions.has(`s:${sub.id}`)}
                                                           on:change={(e) => handleSubDisciplineChange(sub.id, discipline.id, e.currentTarget.checked)}
                                                       />
@@ -330,6 +409,7 @@
                                 <p class="text-gray-500 italic">Aucune discipline disponible.</p>
                              {/each}
                         </div>
+                         <p class="text-xs text-gray-400 mt-3">Cocher une spécialité sélectionne automatiquement toutes ses sous-spécialités.</p>
                     </div>
                 </div>
 
@@ -410,9 +490,7 @@
          font-weight: 500; /* font-medium */
          color: #D1D5DB; /* text-gray-300 */
     }
-     input[type="text"], input[type="date"],
-     /* Target the Select Trigger specifically for consistent height/padding */
-    :global([data-bits-select-trigger]) {
+     input[type="text"], input[type="date"], select {
         margin-top: 0.25rem; /* mt-1 */
         display: block;
         width: 100%;
@@ -422,10 +500,11 @@
         padding: 0.75rem 1rem; /* px-4 py-3 */
         color: #FFFFFF; /* text-white */
         transition: all 0.2s ease-in-out; /* transition-all duration-200 */
+        font-size: 0.875rem; /* text-sm */ /* Added to match Select component */
+        line-height: 1.25rem; /* Added to match Select component */
+        height: 3rem; /* Explicit height to match Select */
     }
-     input[type="text"]:focus, input[type="date"]:focus,
-    :global([data-bits-select-trigger][data-state="open"]),
-    :global([data-bits-select-trigger]:focus-visible) {
+     input[type="text"]:focus, input[type="date"]:focus, select:focus {
         border-color: #14B8A6; /* focus:border-teal-500 */
         outline: 2px solid transparent; /* Remove default outline */
         outline-offset: 2px;
@@ -434,36 +513,20 @@
         box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
         --tw-ring-color: rgba(20, 184, 166, 0.5); /* focus:ring-teal-600/50 */
     }
-    /* Specific height adjustment for Select Trigger */
-    :global([data-bits-select-trigger]) {
-        height: 3rem; /* Adjust to match input height including padding+border (approx h-12 equivalent) */
-        padding-top: 0; /* Reset bits-ui default padding */
-        padding-bottom: 0;
-        display: flex; /* Ensure flex alignment */
-        align-items: center;
-    }
-     /* Style the Select Content (Dropdown Panel) */
-    :global([data-bits-select-content]) {
-        z-index: 50; /* Ensure it's above other elements */
-        border-radius: 0.5rem; /* rounded-lg */
-        border: 1px solid #4B5563; /* border-gray-600 */
-        background-color: #374151; /* bg-gray-700 */
-        color: #FFFFFF; /* text-white */
-        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); /* shadow-lg */
-        max-height: 15rem; /* max-h-60 */
-        overflow-y: auto;
-    }
-    /* Style Select Items */
-    :global([data-bits-select-item]) {
-        cursor: pointer;
-        padding: 0.5rem 1rem; /* px-4 py-2 */
-    }
-    :global([data-bits-select-item][data-highlighted]) {
-         background-color: rgba(20, 184, 166, 0.5); /* data-[highlighted]:bg-teal-700/50 */
-         outline: none;
+
+    /* Style select arrow */
+    select {
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%236b7280' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M6 8l4 4 4-4'/%3e%3c/svg%3e");
+        background-position: right 0.5rem center;
+        background-repeat: no-repeat;
+        background-size: 1.5em 1.5em;
+        padding-right: 2.5rem;
+        -webkit-appearance: none;
+           -moz-appearance: none;
+                appearance: none;
     }
 
-    /* Revert the grid layout for profile fields */
+     /* Revert the grid layout for profile fields */
     form > div:first-child > div:not(.space-y-6) { /* Target direct children divs containing profile info */
          display: block; /* Revert from grid */
     }
