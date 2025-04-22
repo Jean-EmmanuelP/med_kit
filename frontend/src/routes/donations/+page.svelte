@@ -268,76 +268,105 @@ Je recommande 👌
     async function initializeAndMountElement(type: 'card' | 'sepa_debit') {
         const secret = type === 'card' ? clientSecretCard : clientSecretSepa;
         const mountId = type === 'card' ? '#card-element' : '#iban-element';
-        const existingElement = type === 'card' ? cardElement : ibanElement;
 
-        if (!stripe || !secret || existingElement) {
-            if (existingElement) console.log(`${type} element already initialized.`);
-            else console.log(`Cannot initialize ${type} element: Stripe or Client Secret missing.`);
-            return; // Don't re-initialize if already done, or if dependencies missing
+        // Destroy existing element of the *same type* FIRST
+        if (type === 'card' && cardElement) {
+            console.log("Destroying previous card element.");
+            try { cardElement.destroy(); } catch(e){ console.warn("Error destroying card element", e); }
+            cardElement = null;
+        }
+        if (type === 'sepa_debit' && ibanElement) {
+            console.log("Destroying previous iban element.");
+            try { ibanElement.destroy(); } catch(e){ console.warn("Error destroying iban element", e); }
+            ibanElement = null;
+        }
+        // Also reset the general elements instance as it's tied to a specific secret
+        elements = null;
+
+        // Check dependencies AFTER potential destruction
+        if (!stripe || !secret) {
+            console.log(`Cannot initialize ${type} element: Stripe or Client Secret missing.`);
+            errorMessage = `Erreur: Impossible d'initialiser le formulaire ${type}.`;
+            // Ensure form visibility is false if we can't init
+            if (type === 'card') showCardForm = false;
+            if (type === 'sepa_debit') showSepaForm = false;
+            return;
         }
 
-        errorMessage = ''; // Clear errors when showing form
-        // console.log(`Initializing ${type} element with secret: ${secret}`);
-        const appearance = { 
-            theme: 'night' as const, 
-            labels: 'floating' as const,
-            variables: {
-                colorPrimary: '#ea580c',
-                colorBackground: '#1f2937',
-                colorText: '#f3f4f6',
-                colorDanger: '#ef4444',
-                fontFamily: 'system-ui, sans-serif',
-                spacingUnit: '4px',
-                borderRadius: '8px'
-            }
-        };
-        elements = stripe.elements({ clientSecret: secret, appearance, locale: 'fr' });
+        errorMessage = ''; // Clear errors when attempting to show form
+        console.log(`Initializing ${type} element with secret: ${secret.substring(0, 15)}...`); // Log prefix only
 
-        if (type === 'card') {
-            if (cardElement) cardElement.destroy(); // Clean previous
-            cardElement = elements.create('payment', { layout: "tabs" });
-            await tick();
-            cardElement.mount(mountId);
-        } else { // sepa_debit
-            if (ibanElement) ibanElement.destroy(); // Clean previous
-            ibanElement = elements.create('iban', { 
-                supportedCountries: ['SEPA'],
-                style: {
-                    base: {
-                        fontSize: '16px',
-                        color: '#f3f4f6',
-                        backgroundColor: '#374151',
-                        padding: '12px',
-                        '::placeholder': {
-                            color: '#9ca3af'
-                        },
-                        ':-webkit-autofill': {
-                            color: '#f3f4f6'
-                        }
-                    },
-                    invalid: {
-                        color: '#ef4444',
-                        iconColor: '#ef4444'
-                    }
+        try {
+            const appearance = {
+                theme: 'night' as const,
+                labels: 'floating' as const,
+                variables: {
+                    colorPrimary: '#ea580c', // orange-600
+                    colorBackground: '#1f2937', // gray-800
+                    colorText: '#f3f4f6', // gray-100
+                    colorDanger: '#ef4444', // red-500
+                    fontFamily: 'system-ui, sans-serif',
+                    spacingUnit: '4px',
+                    borderRadius: '8px' // Corresponds to Tailwind's rounded-lg
                 }
-            });
-            await tick();
-            ibanElement.mount(mountId);
+            };
+            // Create a NEW elements instance with the specific secret for this type
+            elements = stripe.elements({ clientSecret: secret, appearance, locale: 'fr' });
+
+            if (type === 'card') {
+                cardElement = elements.create('payment', { layout: "tabs" });
+                await tick(); // Wait for Svelte DOM update
+                cardElement.mount(mountId); // Mount to the specific div
+                console.log(`Card element mounted to ${mountId}.`);
+
+            } else { // sepa_debit
+                ibanElement = elements.create('iban', {
+                    supportedCountries: ['SEPA'],
+                    // placeholderCountry: 'FR', // Optional: Sets placeholder format
+                    style: { // Optional: Styling if needed beyond Appearance API
+                         base: {
+                             backgroundColor: '#374151', // gray-700
+                             '::placeholder': {
+                                 color: '#9ca3af', // gray-400
+                             },
+                         }
+                    }
+                });
+                await tick(); // Wait for Svelte DOM update
+                ibanElement.mount(mountId); // Mount to the specific div
+                console.log(`IBAN element mounted to ${mountId}.`);
+            }
+             // Store the reference correctly
+            // This was missing, causing the destroy logic to fail on subsequent clicks
+            // No need to explicitly set here, cardElement/ibanElement are already assigned above
+
+        } catch (mountError: any) {
+            console.error(`Error creating/mounting ${type} element:`, mountError);
+            errorMessage = `Erreur lors de l'affichage du formulaire ${type}. (${mountError.message || ''})`;
+             // Ensure element refs are null on error
+             if (type === 'card') cardElement = null;
+             if (type === 'sepa_debit') ibanElement = null;
+             // Hide the form if mounting fails
+             if (type === 'card') showCardForm = false;
+             if (type === 'sepa_debit') showSepaForm = false;
         }
-        console.log(`${type} element mounted.`);
     }
 
     // --- UI Actions ---
     async function selectCardPayment() {
         if (isProcessingPayment || isLoadingPI) return;
         showSepaForm = false; // Hide other form
-        if (ibanElement) { ibanElement.destroy(); ibanElement = null; } // Cleanup SEPA if switching
+        if (ibanElement) { // Cleanup SEPA if switching
+            try { ibanElement.destroy(); } catch(e){ console.warn("Error destroying iban element", e); }
+            ibanElement = null;
+        }
 
         const secret = await createOrUpdatePI('card'); // Get/update 'card' intent
         if (secret) {
              activeClientSecret = secret;
              activePaymentMethodType = 'card';
-             showCardForm = true;
+             showCardForm = true; // Set visibility TRUE *before* mounting
+             await tick(); // Allow Svelte to render the container div if it wasn't visible
              await initializeAndMountElement('card'); // Mount the card element
         } else {
             showCardForm = false; // Don't show if PI creation failed
@@ -347,13 +376,17 @@ Je recommande 👌
     async function selectSepaPayment() {
         if (isProcessingPayment || isLoadingPI) return;
         showCardForm = false; // Hide other form
-        if (cardElement) { cardElement.destroy(); cardElement = null; } // Cleanup card if switching
+        if (cardElement) { // Cleanup card if switching
+            try { cardElement.destroy(); } catch(e){ console.warn("Error destroying card element", e); }
+            cardElement = null;
+        }
 
         const secret = await createOrUpdatePI('sepa_debit'); // Get/update 'sepa' intent
         if (secret) {
             activeClientSecret = secret;
             activePaymentMethodType = 'sepa_debit';
-            showSepaForm = true;
+            showSepaForm = true; // Set visibility TRUE *before* mounting
+            await tick(); // Allow Svelte to render the container div if it wasn't visible
             await initializeAndMountElement('sepa_debit'); // Mount the IBAN element
         } else {
             showSepaForm = false; // Don't show if PI creation failed

@@ -1,8 +1,9 @@
+<!-- frontend/src/routes/comite/+page.svelte -->
 <script lang="ts">
-	import { AlertTriangle, CheckCircle, Loader2 } from 'lucide-svelte';
+	import { AlertTriangle, CheckCircle, Loader2, X } from 'lucide-svelte';
 
 	// Define the referent data directly in the script
-	// Pre-sorted alphabetically by specialty for easier rendering
+	// Ensure the initial array is sorted by specialty, then maybe by name for consistency within a specialty
 	const referents = [
         {
             specialty: 'Chirurgie orthopédique',
@@ -66,8 +67,22 @@
 			title: 'Docteur Junior en urologie',
             affiliation: 'AP-HP',
 			focus: 'Spécialiste en uro-oncologie'
+		},
+		{
+			specialty: 'Cardiologie',
+			name: 'Dr Léo Azria',
+			title: 'Interne de cardiologie',
+            affiliation: 'AP-HP',
+			focus: null // No specific focus listed
 		}
-	];
+	].sort((a, b) => { // Ensure sorting is done definitively here
+        const specialtyCompare = a.specialty.localeCompare(b.specialty, 'fr', { sensitivity: 'base' });
+        if (specialtyCompare !== 0) {
+            return specialtyCompare;
+        }
+        // Optional: Sort by name within the same specialty
+        return a.name.localeCompare(b.name, 'fr', { sensitivity: 'base' });
+    });
 
     // Define the missions
     const missions = [
@@ -78,13 +93,7 @@
         "Rejoindre un réseau interdisciplinaire et engagé"
     ];
 
-    // Helper to group referents by specialty for rendering headings correctly
-    let currentSpecialty = '';
     let showForm = $state(false);
-    let showModal = false; // This state is no longer used for submission
-    let modalContent = ''; // This state is no longer used for submission
-
-    // Form Data State
     let formData = $state({
         prenom: '',
         nom: '',
@@ -93,19 +102,15 @@
         surSpecialite: '',
         centre: ''
     });
-
-    // Submission State
     let submissionStatus: 'idle' | 'loading' | 'success' | 'error' = $state('idle');
     let submissionMessage = $state('');
 
+    // Variable to track the *previous* specialty rendered in the loop
+    let previousSpecialty: string | null = null;
+
     function resetForm() {
         formData = {
-            prenom: '',
-            nom: '',
-            statut: '',
-            specialite: '',
-            surSpecialite: '',
-            centre: ''
+            prenom: '', nom: '', statut: '', specialite: '', surSpecialite: '', centre: ''
         };
         submissionStatus = 'idle';
         submissionMessage = '';
@@ -113,63 +118,42 @@
 
     function toggleForm() {
         showForm = !showForm;
-        // Reset form if hiding it after a submission attempt
-        if (!showForm) {
-            resetForm();
-        }
+        if (!showForm) resetForm();
     }
 
     async function handleSubmit() {
         submissionStatus = 'loading';
         submissionMessage = '';
-
         try {
             const response = await fetch('/api/committee-application', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify(formData) // Send the reactive formData object
+                body: JSON.stringify(formData)
             });
-
-            const result = await response.json().catch(() => ({})); // Attempt to parse JSON
-
-            if (!response.ok) {
-                 // Use message from API response if available
-                throw new Error(result.message || `Erreur ${response.status}: La requête a échoué.`);
-            }
-
+            const result = await response.json().catch(() => ({}));
+            if (!response.ok) throw new Error(result.message || `Erreur ${response.status}`);
             submissionStatus = 'success';
-            submissionMessage = result.message || 'Candidature envoyée avec succès !';
-             // Optionally clear form fields here if you don't hide the whole form on success
-             // formData = { ... initial empty state ... };
-
+            submissionMessage = result.message || 'Candidature envoyée !';
         } catch (err: any) {
             console.error("Application submission error:", err);
             submissionStatus = 'error';
-            submissionMessage = err.message || "Une erreur est survenue lors de l'envoi.";
+            submissionMessage = err.message || "Une erreur est survenue.";
         }
     }
 
-    // Function to get specialty-specific emoji
     function getSpecialtyEmoji(specialty: string): string {
         const emojiMap: Record<string, string> = {
-            'Chirurgie orthopédique': '🦴',
-            'Chirurgie pédiatrique': '👶',
-            'Endocrinologie – Diabétologie – Nutrition': '⚖️',
-            'Hématologie': '🩸',
-            'Neurochirurgie': '🧠',
-            'Rhumatologie': '🦵',
-            'Urgences': '🚑',
-            'Urologie': '💧'
+            'Chirurgie orthopédique': '🦴', 'Chirurgie pédiatrique': '👶', 'Cardiologie': '❤️',
+            'Endocrinologie – Diabétologie – Nutrition': '⚖️', 'Hématologie': '🩸',
+            'Neurochirurgie': '🧠', 'Rhumatologie': '🦵', 'Urgences': '🚑', 'Urologie': '💧'
         };
         return emojiMap[specialty] || '⚕️';
     }
 
-    // Reset submission status if form is toggled off
     $effect(() => {
-        if (!showForm && submissionStatus !== 'idle') {
-            resetForm();
-        }
+        if (!showForm && submissionStatus !== 'idle') resetForm();
     });
+
 </script>
 
 <svelte:head>
@@ -236,83 +220,43 @@
                     </div>
                 {:else}
                     <form on:submit|preventDefault={handleSubmit} class="space-y-4">
-                        <div>
+                         <div>
                             <label for="prenom" class="block text-gray-300 mb-1 text-sm">Prénom</label>
-                            <input
-                                type="text" id="prenom" bind:value={formData.prenom}
-                                class="w-full bg-gray-700 text-white rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-teal-500 border border-gray-600 text-sm"
-                                required disabled={submissionStatus === 'loading'}
-                            />
+                            <input type="text" id="prenom" bind:value={formData.prenom} class="w-full bg-gray-700 text-white rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-teal-500 border border-gray-600 text-sm" required disabled={submissionStatus === 'loading'} />
                         </div>
-
                         <div>
                             <label for="nom" class="block text-gray-300 mb-1 text-sm">Nom</label>
-                            <input
-                                type="text" id="nom" bind:value={formData.nom}
-                                class="w-full bg-gray-700 text-white rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-teal-500 border border-gray-600 text-sm"
-                                required disabled={submissionStatus === 'loading'}
-                            />
+                            <input type="text" id="nom" bind:value={formData.nom} class="w-full bg-gray-700 text-white rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-teal-500 border border-gray-600 text-sm" required disabled={submissionStatus === 'loading'} />
                         </div>
-
                         <div>
                             <label for="statut" class="block text-gray-300 mb-1 text-sm">Statut</label>
-                            <input
-                                type="text" id="statut" bind:value={formData.statut}
-                                placeholder="Interne, Docteur, Professeur…"
-                                class="w-full bg-gray-700 text-white rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-teal-500 border border-gray-600 text-sm"
-                                required disabled={submissionStatus === 'loading'}
-                            />
+                            <input type="text" id="statut" bind:value={formData.statut} placeholder="Interne, Docteur, Professeur…" class="w-full bg-gray-700 text-white rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-teal-500 border border-gray-600 text-sm" required disabled={submissionStatus === 'loading'} />
                         </div>
-
                         <div>
                             <label for="specialite" class="block text-gray-300 mb-1 text-sm">Spécialité</label>
-                            <input
-                                type="text" id="specialite" bind:value={formData.specialite}
-                                class="w-full bg-gray-700 text-white rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-teal-500 border border-gray-600 text-sm"
-                                required disabled={submissionStatus === 'loading'}
-                            />
+                            <input type="text" id="specialite" bind:value={formData.specialite} class="w-full bg-gray-700 text-white rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-teal-500 border border-gray-600 text-sm" required disabled={submissionStatus === 'loading'} />
                         </div>
-
                         <div>
                             <label for="surSpecialite" class="block text-gray-300 mb-1 text-sm">Sur-spécialité (optionnelle)</label>
-                            <input
-                                type="text" id="surSpecialite" bind:value={formData.surSpecialite}
-                                class="w-full bg-gray-700 text-white rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-teal-500 border border-gray-600 text-sm"
-                                disabled={submissionStatus === 'loading'}
-                            />
+                            <input type="text" id="surSpecialite" bind:value={formData.surSpecialite} class="w-full bg-gray-700 text-white rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-teal-500 border border-gray-600 text-sm" disabled={submissionStatus === 'loading'} />
                         </div>
-
                         <div>
                             <label for="centre" class="block text-gray-300 mb-1 text-sm">Centre d'exercice</label>
-                            <input
-                                type="text" id="centre" bind:value={formData.centre}
-                                placeholder="CHU, hôpital, clinique, cabinet…"
-                                class="w-full bg-gray-700 text-white rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-teal-500 border border-gray-600 text-sm"
-                                required disabled={submissionStatus === 'loading'}
-                            />
+                            <input type="text" id="centre" bind:value={formData.centre} placeholder="CHU, hôpital, clinique, cabinet…" class="w-full bg-gray-700 text-white rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-teal-500 border border-gray-600 text-sm" required disabled={submissionStatus === 'loading'} />
                         </div>
-
                         <div class="bg-gray-700/50 p-3 rounded-lg border border-gray-600">
                             <p class="text-gray-400 text-xs mb-1">📝 Exemple :</p>
-                            <p class="text-gray-400 text-xs italic">
-                                Dr Xavier Montjou, Chirurgie orthopédique, Spécialiste en chirurgie de la main, AP-HP
-                            </p>
+                            <p class="text-gray-400 text-xs italic">Dr Xavier Montjou, Chirurgie orthopédique, Spécialiste en chirurgie de la main, AP-HP</p>
                         </div>
-
                         <div class="pt-2 space-y-3">
                             {#if submissionStatus === 'error'}
                                 <p class="text-sm text-red-400 flex items-center gap-1.5 p-3 bg-red-900/30 border border-red-700 rounded-md" role="alert">
                                     <AlertTriangle class="h-4 w-4 flex-shrink-0"/> {submissionMessage}
                                 </p>
                             {/if}
-                            <button
-                                type="submit"
-                                class="w-full inline-flex items-center justify-center bg-teal-500 hover:bg-teal-600 text-white font-semibold py-2.5 px-4 rounded-lg transition-colors disabled:opacity-60 disabled:cursor-not-allowed"
-                                disabled={submissionStatus === 'loading'}
-                            >
+                            <button type="submit" class="w-full inline-flex items-center justify-center bg-teal-500 hover:bg-teal-600 text-white font-semibold py-2.5 px-4 rounded-lg transition-colors disabled:opacity-60 disabled:cursor-not-allowed" disabled={submissionStatus === 'loading'}>
                                 {#if submissionStatus === 'loading'}
-                                    <Loader2 class="mr-2 h-5 w-5 animate-spin" />
-                                    Envoi en cours...
+                                    <Loader2 class="mr-2 h-5 w-5 animate-spin" /> Envoi en cours...
                                 {:else}
                                     Envoyer ma candidature
                                 {/if}
@@ -323,12 +267,13 @@
             </section>
         {/if}
 
-        <!-- Liste des Référents -->
+        <!-- Liste des Référents - Corrected Loop -->
         <section>
             {#each referents as referent (referent.name)}
-                <!-- Afficher le titre de la spécialité seulement si elle change -->
-                {#if referent.specialty !== currentSpecialty}
-                    {@const _ = currentSpecialty = referent.specialty}
+                <!-- Check if specialty changed from the previous iteration -->
+                {@const showHeading = referent.specialty !== previousSpecialty}
+                {#if showHeading}
+                    {@const _ = previousSpecialty = referent.specialty} <!-- Update tracker -->
                     <h2 class="mt-10 mb-6 border-b border-gray-700 pb-2 text-2xl font-semibold text-teal-400 sm:text-3xl">
                         {getSpecialtyEmoji(referent.specialty)} {referent.specialty}
                     </h2>
@@ -346,9 +291,9 @@
                 </div>
             {/each}
         </section>
-
 	</div>
 </div>
 
 <style>
+/* Styles remain the same */
 </style>
