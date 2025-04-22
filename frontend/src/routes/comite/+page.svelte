@@ -3,7 +3,7 @@
 	import { AlertTriangle, CheckCircle, Loader2, X } from 'lucide-svelte';
 
 	// Define the referent data directly in the script
-	// Ensure the initial array is sorted by specialty, then maybe by name for consistency within a specialty
+	// Ensure the initial array is sorted by specialty, then maybe by name for consistency
 	const referents = [
         {
             specialty: 'Chirurgie orthopédique',
@@ -67,13 +67,6 @@
 			title: 'Docteur Junior en urologie',
             affiliation: 'AP-HP',
 			focus: 'Spécialiste en uro-oncologie'
-		},
-		{
-			specialty: 'Cardiologie',
-			name: 'Dr Léo Azria',
-			title: 'Interne de cardiologie',
-            affiliation: 'AP-HP',
-			focus: null // No specific focus listed
 		}
 	].sort((a, b) => { // Ensure sorting is done definitively here
         const specialtyCompare = a.specialty.localeCompare(b.specialty, 'fr', { sensitivity: 'base' });
@@ -95,18 +88,10 @@
 
     let showForm = $state(false);
     let formData = $state({
-        prenom: '',
-        nom: '',
-        statut: '',
-        specialite: '',
-        surSpecialite: '',
-        centre: ''
+        prenom: '', nom: '', statut: '', specialite: '', surSpecialite: '', centre: ''
     });
     let submissionStatus: 'idle' | 'loading' | 'success' | 'error' = $state('idle');
     let submissionMessage = $state('');
-
-    // Variable to track the *previous* specialty rendered in the loop
-    let previousSpecialty: string | null = null;
 
     function resetForm() {
         formData = {
@@ -205,16 +190,12 @@
                 <h2 class="mb-6 text-center text-2xl font-semibold text-white sm:text-3xl">
                     ✍️ Postuler au comité scientifique
                 </h2>
-
                 {#if submissionStatus === 'success'}
                     <div class="flex flex-col items-center justify-center text-center py-8 px-4 bg-gray-700 rounded-lg">
                         <CheckCircle class="h-12 w-12 text-green-400 mb-4" />
                         <h3 class="text-xl font-semibold mb-2 text-white">Candidature Envoyée !</h3>
                         <p class="text-gray-300 mb-6">{submissionMessage}</p>
-                        <button
-                            on:click={toggleForm}
-                            class="bg-gray-600 hover:bg-gray-500 text-white font-semibold py-2 px-4 rounded-lg transition-colors text-sm"
-                        >
+                        <button on:click={toggleForm} class="bg-gray-600 hover:bg-gray-500 text-white font-semibold py-2 px-4 rounded-lg transition-colors text-sm">
                             Fermer
                         </button>
                     </div>
@@ -267,18 +248,17 @@
             </section>
         {/if}
 
-        <!-- Liste des Référents - Corrected Loop -->
+        <!-- Liste des Référents - Robust Loop with Index Check -->
         <section>
-            {#each referents as referent (referent.name)}
-                <!-- Check if specialty changed from the previous iteration -->
-                {@const showHeading = referent.specialty !== previousSpecialty}
-                {#if showHeading}
-                    {@const _ = previousSpecialty = referent.specialty} <!-- Update tracker -->
+            {#each referents as referent, index (referent.name)}
+                <!-- Show heading if it's the first item OR if specialty differs from the previous item -->
+                {#if index === 0 || referent.specialty !== referents[index - 1].specialty}
                     <h2 class="mt-10 mb-6 border-b border-gray-700 pb-2 text-2xl font-semibold text-teal-400 sm:text-3xl">
                         {getSpecialtyEmoji(referent.specialty)} {referent.specialty}
                     </h2>
                 {/if}
 
+                <!-- Referent Card -->
                 <div class="mb-6 rounded-lg bg-gray-800 p-5 shadow-md transition-shadow hover:shadow-lg">
                     <h3 class="text-xl font-bold text-white">{referent.name}</h3>
                     <p class="text-md text-gray-300">{referent.title}</p>
