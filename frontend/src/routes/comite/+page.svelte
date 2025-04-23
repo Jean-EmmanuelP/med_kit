@@ -61,20 +61,27 @@
             affiliation: 'SAMU de Paris – SMUR Necker – Urgences adultes Paris Saint-Joseph, AP-HP',
 			focus: null // No specific focus listed
 		},
-		{
-			specialty: 'Urologie',
-			name: 'Dr Maxime Pattou',
-			title: 'Docteur Junior en urologie',
+        {
+            specialty: 'Cardiologie',
+            name: 'Léo Azria',
+            title: 'Interne de Cardiologie',
             affiliation: 'AP-HP',
-			focus: 'Spécialiste en uro-oncologie'
+            focus: null // No specific focus listed
         },
-		{
-			specialty: 'Rhumatologie',
-			name: 'Dr Félix Laborie',
-			title: 'Interne de Rhumatologie',
+        {
+            specialty: 'Urologie',
+            name: 'Dr Maxime Pattou',
+            title: 'Docteur Junior en urologie',
             affiliation: 'AP-HP',
-			focus: null // No specific focus listed
-		},
+            focus: 'Spécialiste en uro-oncologie'
+        },
+        {
+            specialty: 'Rhumatologie',
+            name: 'Dr Félix Laborie',
+            title: 'Interne de Rhumatologie',
+            affiliation: 'AP-HP',
+            focus: null // No specific focus listed
+        },
 	].sort((a, b) => { // Ensure sorting is done definitively here
         const specialtyCompare = a.specialty.localeCompare(b.specialty, 'fr', { sensitivity: 'base' });
         if (specialtyCompare !== 0) {
