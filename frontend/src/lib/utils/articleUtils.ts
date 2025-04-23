@@ -1,5 +1,15 @@
 // src/lib/utils/articleUtils.ts
 
+export interface FilterOption {
+	value: string;
+	label: string;
+}
+
+export interface SubDisciplineOption {
+	id: number;
+	name: string;
+}
+
 export interface Article {
 	id: string | number;
 	title: string;
@@ -17,6 +27,7 @@ export interface Article {
 	read_count?: number; // Track total reads for the article
 	is_thumbed_up?: boolean; // <<< NEW: Track if the article has been thumbed up by the user
 	thumbs_up_count?: number; // <<< NEW: Track the number of thumbs up for the article
+	added_at_out?: string; // <<< NEW: Track when the article was added to the system
 }
 
 export interface ContentSection {

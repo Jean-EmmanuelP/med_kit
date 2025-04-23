@@ -4,7 +4,7 @@
 	import ConfirmationModal from '$lib/components/ui/ConfirmationModal.svelte';
 	import * as Select from '$lib/components/ui/select';
 	import userProfileStore from '$lib/stores/user';
-	import type { Article } from '$lib/utils/articleUtils';
+	import type { Article, FilterOption, SubDisciplineOption } from '$lib/utils/articleUtils';
 	import { getArticleId } from '$lib/utils/articleUtils';
 	import { debounce } from '$lib/utils/debounce';
 	import { tick } from 'svelte';
@@ -167,6 +167,10 @@
             })
             .then((data: SubDisciplineOption[]) => {
                  availableSubDisciplines = data || [];
+                 // After receiving sub-disciplines, try to select the initial value if it exists
+                 if (initialSubFilterValue && data.some(sub => sub.name === initialSubFilterValue)) {
+                     selectedSubDiscipline = initialSubFilterValue;
+                 }
             })
             .catch(error => {
                 console.error("Error fetching sub-disciplines:", error);
@@ -226,64 +230,53 @@
     // Reusable fetch function
     function fetchArticles(isLoadMore = false) {
         const currentFilter = selectedFilter;
-        const currentSubFilter = (currentFilter !== ALL_CATEGORIES_VALUE) ? selectedSubDiscipline : null;
+        const currentSubFilter = (currentFilter !== ALL_CATEGORIES_VALUE && selectedFilter !== null) ? selectedSubDiscipline : null; // Ensure sub is null if ALL main selected
         const currentSearch = searchQuery;
         const currentOffset = isLoadMore ? offset : 0;
-        const currentUserId = $userProfileStore?.id ?? null; // Use store
+        const currentUserId = $userProfileStore?.id ?? null;
 
         // Re-check dependency on user ID
         if (apiEndpoint === '/api/get-liked-articles' && !currentUserId) {
-            // console.log("fetchArticles exit: Waiting for user ID for liked articles.");
             if (!isLoadMore) {
                  articles = [];
                  articleOfTheDay = null;
                  hasMore = false;
                  isLoading = false;
-                 isInitialLoading = false; // Mark initial load as done (even though failed)
+                 isInitialLoading = false;
             }
             return;
         }
 
         // Re-check filter requirement
         if (currentFilter === null && filters.length > 0) {
-            // console.log("fetchArticles exit: selectedFilter is null but filters exist.");
             if (!isLoadMore) {
                 articles = [];
                 articleOfTheDay = null;
                 hasMore = false;
                 isLoading = false;
-                isInitialLoading = false; // Mark initial load as done
+                isInitialLoading = false;
             }
             return;
         }
 
-
         isLoading = true;
-        if (!isLoadMore) {
-            fetchError = null;
-            // isInitialLoading is already true here due to the $effect logic
-        } else {
-            // Don't reset initial loading flag when loading more
-        }
+        if (!isLoadMore) { fetchError = null; }
 
-		// console.log(`FETCHING articles -> Endpoint: ${apiEndpoint}, Filter: ${currentFilter}, SubFilter: ${currentSubFilter}, Search: ${currentSearch}, Offset: ${currentOffset}, UserID: ${currentUserId}`);
+		console.log(`FETCHING articles -> Endpoint: ${apiEndpoint}, Filter: ${currentFilter}, SubFilter: ${currentSubFilter}, Search: ${currentSearch}, Offset: ${currentOffset}, UserID: ${currentUserId}, Mode: ${subDisciplineFetchMode}`);
 
 		const url = new URL(apiEndpoint, window.location.origin);
-
-        // Append parameters
+		url.searchParams.set('offset', currentOffset.toString());
+		url.searchParams.set('limit', itemsPerPage.toString());
         if (currentFilter && currentFilter !== ALL_CATEGORIES_VALUE) {
 		    url.searchParams.set(apiFilterParamName, currentFilter);
+             // Pass subDiscipline only if it's specifically selected (not the "All" label or null)
             if (currentSubFilter && currentSubFilter !== allSubDisciplinesLabel) {
                  url.searchParams.set('subDiscipline', currentSubFilter);
             }
         }
-		url.searchParams.set('offset', currentOffset.toString());
-		url.searchParams.set('limit', itemsPerPage.toString()); // <<< ADD LIMIT
         if (enableSearch && currentSearch.trim()) {
             url.searchParams.set('search', currentSearch.trim());
         }
-        // Add user ID if needed by the endpoint (handled by RPC now mostly)
-        // if (userId) { url.searchParams.set('userId', userId); }
 
 		fetch(url.toString())
 			.then(async (res) => {
@@ -294,25 +287,45 @@
                 return res.json();
             })
 			.then((data) => {
-                // console.log(`API Response (Offset: ${currentOffset}):`, data);
 				if (data && Array.isArray(data.data)) {
                     const fetchedArticles: Article[] = data.data;
+                    console.log("Fetched Articles:", fetchedArticles);
 
                     if (isLoadMore) {
                         articles = [...articles, ...fetchedArticles];
                     } else {
-                        // Split AotD only if NOT searching, NOT liked view, and NOT sub-discipline view
-                         if (!searchActive && !isLikedArticlesView && !isViewingSubDiscipline && fetchedArticles.length > 0) {
-                            articleOfTheDay = fetchedArticles[0];
-                            articles = fetchedArticles.slice(1);
-                        } else {
-                            // Otherwise, all fetched articles go into the main list
-                            articleOfTheDay = null;
-                            articles = fetchedArticles;
+                        // --- AotD Logic Modification ---
+                        let potentialAotd: Article | null = null;
+                        let remainingArticles = fetchedArticles;
+
+                        // Conditions for potentially having an AotD: not loading more, not searching, not liked view
+                        const isAotdContext = !searchActive && !isLikedArticlesView;
+
+                        if (isAotdContext && fetchedArticles.length > 0) {
+                             const firstArticle = fetchedArticles[0];
+                             // Check if the first article was added recently (e.g., within last 48 hours)
+                             if (firstArticle.added_at_out) {
+                                 const addedDate = new Date(firstArticle.added_at_out);
+                                 const now = new Date();
+                                 const timeDiffHours = (now.getTime() - addedDate.getTime()) / (1000 * 60 * 60);
+                                 // Adjust the threshold (e.g., 48 hours) as needed
+                                 if (timeDiffHours <= 48) {
+                                     console.log(`Article ${firstArticle.id} qualifies as AotD (added ${timeDiffHours.toFixed(1)} hours ago).`);
+                                     potentialAotd = firstArticle;
+                                     remainingArticles = fetchedArticles.slice(1);
+                                 } else {
+                                     console.log(`First article ${firstArticle.id} is too old (${timeDiffHours.toFixed(1)} hours) for AotD.`);
+                                 }
+                             } else {
+                                 console.warn(`First article ${firstArticle.id} missing 'added_at_out' timestamp for AotD check.`);
+                             }
                         }
+
+                        articleOfTheDay = potentialAotd;
+                        articles = remainingArticles;
+                        // --- End AotD Logic Modification ---
                     }
 
-                    // Update offset and hasMore based on fetched count vs limit
                     offset = currentOffset + fetchedArticles.length;
                     hasMore = fetchedArticles.length >= itemsPerPage;
 
@@ -324,17 +337,14 @@
 			.catch((error) => {
                 console.error('Error fetching articles:', error);
                 fetchError = error.message || "Une erreur est survenue lors du chargement des articles.";
-                // Clear articles on error unless loading more
                 if (!isLoadMore) {
                     articles = [];
                     articleOfTheDay = null;
                 }
-                hasMore = false; // Stop loading more on error
+                hasMore = false;
             })
 			.finally(() => {
-                // console.log(`Fetch finished (Offset: ${currentOffset})`);
                 isLoading = false;
-                // Set initial loading false only after the *first* fetch completes (success or error)
                 if (!isLoadMore) {
                     isInitialLoading = false;
                 }
@@ -817,7 +827,7 @@
                     Se connecter
                 </button>
             </div>
-		{:else if !articleOfTheDay && articles.length === 0}
+		{:else if !articleOfTheDay && articles.length === 0 && !isLoading}
             <div class="my-10 p-4 rounded-lg bg-gray-800/50 border border-gray-700 text-gray-400 text-center">
                 {#if emptyStateMessage}
                     <p>{@html emptyStateMessage}</p>
@@ -832,7 +842,13 @@
                             {#if isViewingSubDiscipline} dans "{selectedSubDiscipline}"{/if}.
                         {/if}
                     </p>
-                    <p class="mt-2 text-sm">
+                    <!-- Display specific message if viewing sub-discipline and no AotD found -->
+                    {#if isViewingSubDiscipline && !articleOfTheDay && !isLoading}
+                         <p class="mt-3 text-sm text-gray-500 italic">
+                              (Aucun article du jour spécifique à cette sous-spécialité n'a été ajouté récemment.)
+                         </p>
+                    {/if}
+                     <p class="mt-2 text-sm">
                         {#if searchActive}
                             Essayez de modifier votre recherche ou les filtres.
                         {:else}
@@ -842,62 +858,54 @@
                 {/if}
             </div>
         {:else}
-            <!-- Article of the Day Section (Conditional Display Logic) -->
+            <!-- Article of the Day Section -->
 			{#if articleOfTheDay}
                 <div class="mb-8">
-                    <h2 class="text-2xl font-bold text-teal-500">🔥 Article du jour</h2>
-                    <p class="mt-2 mb-4 text-gray-400">Article selectionné aujourd'hui pour {filterForTitle} :</p>
-                    <ul class="space-y-4">
+                    <!-- Display AotD title based on context -->
+                    <h2 class="text-2xl font-bold text-teal-500">
+                         🔥 Article du jour
+                         {#if selectedSubDiscipline && selectedSubDiscipline !== allSubDisciplinesLabel}
+                              pour {selectedSubDiscipline}
+                         {:else if selectedFilter && selectedFilter !== ALL_CATEGORIES_VALUE}
+                              pour {filterForTitle}
+                         {/if}
+                    </h2>
+                    <ul class="mt-4 space-y-4">
                         <ArticleCard article={articleOfTheDay} on:open={openImmersive} on:likeToggle={handleLikeToggle} on:toggleRead={handleToggleRead} on:thumbsUpToggle={handleThumbsUpToggle}/>
                     </ul>
                 </div>
+            <!-- Specific message when viewing sub-discipline but no AotD -->
+            {:else if isViewingSubDiscipline && !isLoading}
+                 <p class="mb-6 text-sm text-gray-500 italic">
+                    Aucun article du jour spécifique à "{selectedSubDiscipline}" n'a été ajouté récemment. Voici les articles précédents :
+                 </p>
             {/if}
 
             <!-- Main Article List Section -->
 			<div class="mb-6">
                 {#if articles.length > 0}
-                    <h2 class="text-2xl font-bold text-white flex items-center gap-2">
+                    <!-- Adjust Title Logic -->
+                     <h2 class="text-2xl font-bold text-white flex items-center gap-2">
                         {#if isLikedArticlesView}
+                            <!-- Favoris title logic -->
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 fill-pink-500 text-pink-500"> <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" /> </svg>
                             Favoris {#if selectedFilter !== ALL_CATEGORIES_VALUE && selectedFilter}: {filterForTitle}{/if} {#if isViewingSubDiscipline} - {selectedSubDiscipline}{/if}
                         {:else if searchActive}
                             Résultats de recherche
                         {:else if isViewingSubDiscipline}
                             📖 Articles pour {selectedSubDiscipline}
+                        {:else if articleOfTheDay}
+                             📖 Articles précédents <!-- Show this only if AotD was present -->
                         {:else}
-                            📖 Articles précédents
+                             📖 Articles pour {filterForTitle} <!-- Default list title -->
                         {/if}
                     </h2>
-                     <p class="mt-2 mb-4 text-gray-400">
-                        {#if isLikedArticlesView}
-                            {#if isViewingSubDiscipline}
-                                Vos favoris pour {selectedSubDiscipline} ({filterForTitle}) :
-                            {:else if searchActive}
-                                 Résultats pour "{searchQuery}" dans vos favoris {#if selectedFilter !== ALL_CATEGORIES_VALUE}pour {filterForTitle}{/if} :
-                            {:else if selectedFilter !== ALL_CATEGORIES_VALUE}
-                                 Vos favoris pour {filterForTitle} :
-                            {:else}
-                                 Tous vos articles favoris :
-                            {/if}
-                        {:else if searchActive}
-                            Résultats pour "{searchQuery}" dans "{filterForTitle}"{#if isViewingSubDiscipline} - {selectedSubDiscipline}{/if} :
-                        {:else if isViewingSubDiscipline}
-                            Articles selectionnés pour {selectedSubDiscipline} ({filterForTitle}) :
-                        {:else}
-                            Articles précédemment selectionnés pour {filterForTitle} :
-                        {/if}
-                    </p>
+                    <ul class="mt-4 space-y-4">
+                         {#each articles as article (getArticleId(article))}
+                            <ArticleCard {article} on:open={openImmersive} on:likeToggle={handleLikeToggle} on:toggleRead={handleToggleRead} on:thumbsUpToggle={handleThumbsUpToggle}/>
+                         {/each}
+                    </ul>
                 {/if}
-
-                <ul class="space-y-4">
-                    {#each articles as article (getArticleId(article))}
-                        <ArticleCard {article} on:open={openImmersive} on:likeToggle={handleLikeToggle} on:toggleRead={handleToggleRead} on:thumbsUpToggle={handleThumbsUpToggle}/>
-                    {/each}
-				</ul>
-
-                {#if !isLoading && articles.length === 0 && articleOfTheDay && !isViewingSubDiscipline}
-                    <p class="text-gray-500 italic text-sm ml-1 mt-4">Aucun article précédent trouvé pour cette sélection.</p>
-				{/if}
 			</div>
 
             <!-- Load More / All Loaded Section -->
