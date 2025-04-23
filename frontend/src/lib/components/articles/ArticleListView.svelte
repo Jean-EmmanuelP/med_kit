@@ -31,6 +31,7 @@
 		pageTitle = 'Articles',
 		filters = [] as FilterOption[],
 		initialFilterValue = null,
+		initialSubFilterValue = null,
 		filterSelectLabel = 'Filtrer par',
 		showSignupPromptProp = false,
         enableSearch = false,
@@ -55,6 +56,7 @@
 		pageTitle?: string;
 		filters?: FilterOption[];
 		initialFilterValue?: string | null;
+		initialSubFilterValue?: string | null;
 		filterSelectLabel?: string;
 		showSignupPromptProp?: boolean;
         enableSearch?: boolean;
@@ -82,7 +84,7 @@
 
 	// --- Internal State ---
 	let selectedFilter = $state<string | null>(initialFilterValue ?? defaultInitialFilter);
-    let selectedSubDiscipline = $state<string | null>(null);
+    let selectedSubDiscipline = $state<string | null>(initialSubFilterValue ?? null);
     let availableSubDisciplines = $state<SubDisciplineOption[]>([]);
     let isLoadingSubDisciplines = $state(false);
 	let articles = $state<Article[]>([]);

@@ -5,60 +5,77 @@
 	import { i18n } from '$lib/i18n';
 	import userProfileStore from '$lib/stores/user';
 
-	// Get data loaded by +page.server.ts
-	const { data } = $props();
-
-	// Determine initial filter value from URL or default to FIRST user discipline
-	let initialFilter: string | null = null;
-	const urlParamDiscipline = $page.url.searchParams.get('discipline');
-	const userDisciplines = data.userDisciplines || [];
-
-	if (urlParamDiscipline && userDisciplines.includes(urlParamDiscipline)) {
-		initialFilter = urlParamDiscipline;
-	} else if (userDisciplines.length > 0) {
-		initialFilter = userDisciplines[0]; // Default to first user discipline
+	// --- Type for the structure from server ---
+	interface SubDisciplineInfo { id: number; name: string; }
+	interface DisciplineStructure {
+		id: number;
+		name: string;
+		subscribed_sub_disciplines: SubDisciplineInfo[];
 	}
 
-	// Prepare filters for the Select dropdown (NO "All" option needed here)
+	// Get data loaded by +page.server.ts
+	const { data } = $props<{
+		data: {
+			initialMainFilterValue: string | null; // Provided by server
+			initialSubFilterValue: string | null;  // Provided by server
+			userSubscriptionStructure: DisciplineStructure[];
+			savedArticleIds: (string | number)[];
+			error: string | null;
+		}
+	}>();
+
+	const userStructure = data.userSubscriptionStructure || [];
+	const hasSubscriptions = userStructure.length > 0;
+
+	// Prepare filters for the *first* dropdown using the structure
 	const filterOptions = $derived(
-		userDisciplines.map((discipline: string) => ({
-			value: discipline,
-			label: discipline
-		})) || []
+		userStructure.map((discipline: DisciplineStructure) => ({
+			value: discipline.name,
+			label: discipline.name
+		}))
 	);
 
-	// Prepare savedArticleIds set
 	const savedIdsSet = $derived(new Set<string | number>(data.savedArticleIds || []));
-
-	// Get user ID for potential API use (e.g., for 'Favoris' filter)
-	// Use $userProfileStore here to access the reactive store value
 	const currentUserId = $derived($userProfileStore?.id ?? null);
-
-	// Define template strings with proper typing
 	const articleOfTheDayTitleTemplate = '🔥 Article du jour pour {filter} :';
 	const previousArticlesTitleTemplate = '📖 Articles précédents pour {filter} :';
+
+	// Pass the server-determined initial values directly
+	const initialMainFilterFromData = data.initialMainFilterValue;
+	const initialSubFilterFromData = data.initialSubFilterValue;
 </script>
 
-{#if userDisciplines.length === 0}
-	<div class="empty-state">
-		<p>Vous n'avez pas encore configuré les disciplines que vous souhaitez suivre.</p>
-		<p>Veuillez <a href="/account">configurer vos disciplines</a> pour commencer à recevoir des articles pertinents.</p>
+{#if !hasSubscriptions && !data.error}
+	<!-- Empty State (No Subscriptions) -->
+	<div class="flex min-h-[60vh] items-center justify-center text-center text-white p-6">
+		<div class="empty-state">
+			<p>Vous n'avez pas encore configuré les disciplines que vous souhaitez suivre.</p>
+			<p>Veuillez <a href="/account">configurer vos disciplines</a> pour commencer à recevoir des articles pertinents.</p>
+		</div>
+	</div>
+{:else if data.error}
+	<!-- Error State -->
+	<div class="flex min-h-[60vh] items-center justify-center text-center text-red-300 p-6">
+		<p>Une erreur est survenue lors du chargement de vos données. Veuillez réessayer plus tard.</p>
 	</div>
 {:else}
-	<!-- Use the shared component, passing specific props for 'Ma Veille' -->
+	<!-- Pass the CORRECT initial values from server data to ArticleListView -->
 	<ArticleListView
 		pageTitle={$i18n.header.myVeille || 'Ma Veille'}
 		filters={filterOptions}
-		initialFilterValue={initialFilter}
+		initialFilterValue={initialMainFilterFromData}
+		initialSubFilterValue={initialSubFilterFromData}
 		filterSelectLabel="Mes spécialités"
 		showSignupPromptProp={true}
 		enableSearch={true}
 		subDisciplineFetchMode="user"
 		userId={currentUserId}
 		savedArticleIds={savedIdsSet}
-		articleOfTheDayTitleTemplate={articleOfTheDayTitleTemplate}
-		previousArticlesTitleTemplate={previousArticlesTitleTemplate}
+		{articleOfTheDayTitleTemplate}
+		{previousArticlesTitleTemplate}
 		showAllCategoriesOption={false}
+		showAllSubDisciplinesOption={true}
+		allSubDisciplinesLabel="Toutes mes sous-spécialités"
 	/>
 {/if}
 
