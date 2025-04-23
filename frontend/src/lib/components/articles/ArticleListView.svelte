@@ -230,7 +230,8 @@
     // Reusable fetch function
     function fetchArticles(isLoadMore = false) {
         const currentFilter = selectedFilter;
-        const currentSubFilter = (currentFilter !== ALL_CATEGORIES_VALUE && selectedFilter !== null) ? selectedSubDiscipline : null; // Ensure sub is null if ALL main selected
+        // Ensure subFilter is null if main filter is "All" or null
+        const currentSubFilter = (currentFilter && currentFilter !== ALL_CATEGORIES_VALUE) ? selectedSubDiscipline : null;
         const currentSearch = searchQuery;
         const currentOffset = isLoadMore ? offset : 0;
         const currentUserId = $userProfileStore?.id ?? null;
@@ -262,14 +263,11 @@
         isLoading = true;
         if (!isLoadMore) { fetchError = null; }
 
-		console.log(`FETCHING articles -> Endpoint: ${apiEndpoint}, Filter: ${currentFilter}, SubFilter: ${currentSubFilter}, Search: ${currentSearch}, Offset: ${currentOffset}, UserID: ${currentUserId}, Mode: ${subDisciplineFetchMode}`);
-
 		const url = new URL(apiEndpoint, window.location.origin);
 		url.searchParams.set('offset', currentOffset.toString());
 		url.searchParams.set('limit', itemsPerPage.toString());
         if (currentFilter && currentFilter !== ALL_CATEGORIES_VALUE) {
 		    url.searchParams.set(apiFilterParamName, currentFilter);
-             // Pass subDiscipline only if it's specifically selected (not the "All" label or null)
             if (currentSubFilter && currentSubFilter !== allSubDisciplinesLabel) {
                  url.searchParams.set('subDiscipline', currentSubFilter);
             }
@@ -288,36 +286,40 @@
             })
 			.then((data) => {
 				if (data && Array.isArray(data.data)) {
-                    const fetchedArticles: Article[] = data.data;
-                    console.log("Fetched Articles:", fetchedArticles);
+                    // Map the data, ensuring the new boolean flags are included
+                    const fetchedArticles: Article[] = data.data.map((item: any) => ({
+                        ...item, // Spread existing fields
+                        id: item.article_id, // Make sure ID mapping is correct
+                        is_newest_for_main: item.is_newest_for_main, // Map the flag
+                        is_newest_for_sub: item.is_newest_for_sub     // Map the flag
+                    }));
+                    console.log("Fetched Articles with flags:", fetchedArticles);
 
                     if (isLoadMore) {
                         articles = [...articles, ...fetchedArticles];
                     } else {
-                        // --- AotD Logic Modification ---
+                        // --- NEW AotD Logic using Flags ---
                         let potentialAotd: Article | null = null;
                         let remainingArticles = fetchedArticles;
 
-                        // Conditions for potentially having an AotD: not loading more, not searching, not liked view
+                        // Conditions for having an AotD: not loading more, not searching, not liked view
                         const isAotdContext = !searchActive && !isLikedArticlesView;
+                        const viewingSub = currentSubFilter && currentSubFilter !== allSubDisciplinesLabel; // Check if viewing specific sub
 
                         if (isAotdContext && fetchedArticles.length > 0) {
                              const firstArticle = fetchedArticles[0];
-                             // Check if the first article was added recently (e.g., within last 48 hours)
-                             if (firstArticle.added_at_out) {
-                                 const addedDate = new Date(firstArticle.added_at_out);
-                                 const now = new Date();
-                                 const timeDiffHours = (now.getTime() - addedDate.getTime()) / (1000 * 60 * 60);
-                                 // Adjust the threshold (e.g., 48 hours) as needed
-                                 if (timeDiffHours <= 48) {
-                                     console.log(`Article ${firstArticle.id} qualifies as AotD (added ${timeDiffHours.toFixed(1)} hours ago).`);
-                                     potentialAotd = firstArticle;
-                                     remainingArticles = fetchedArticles.slice(1);
-                                 } else {
-                                     console.log(`First article ${firstArticle.id} is too old (${timeDiffHours.toFixed(1)} hours) for AotD.`);
-                                 }
+
+                             // Check the appropriate flag based on view context
+                             if (viewingSub && firstArticle.is_newest_for_sub) {
+                                 console.log(`Article ${firstArticle.id} qualifies as AotD for SUB "${currentSubFilter}" based on flag.`);
+                                 potentialAotd = firstArticle;
+                                 remainingArticles = fetchedArticles.slice(1);
+                             } else if (!viewingSub && firstArticle.is_newest_for_main) {
+                                 console.log(`Article ${firstArticle.id} qualifies as AotD for MAIN "${currentFilter}" based on flag.`);
+                                 potentialAotd = firstArticle;
+                                 remainingArticles = fetchedArticles.slice(1);
                              } else {
-                                 console.warn(`First article ${firstArticle.id} missing 'added_at_out' timestamp for AotD check.`);
+                                 console.log(`First article ${firstArticle.id} does not qualify as AotD for current view (Main: ${!viewingSub}, Sub: ${viewingSub}). Flags: Main=${firstArticle.is_newest_for_main}, Sub=${firstArticle.is_newest_for_sub}`);
                              }
                         }
 
@@ -845,7 +847,7 @@
                     <!-- Display specific message if viewing sub-discipline and no AotD found -->
                     {#if isViewingSubDiscipline && !articleOfTheDay && !isLoading}
                          <p class="mt-3 text-sm text-gray-500 italic">
-                              (Aucun article du jour spécifique à cette sous-spécialité n'a été ajouté récemment.)
+                              (Aucun article du jour spécifique à cette sous-spécialité n'a été ajouté aujourd'hui.)
                          </p>
                     {/if}
                      <p class="mt-2 text-sm">
@@ -861,10 +863,9 @@
             <!-- Article of the Day Section -->
 			{#if articleOfTheDay}
                 <div class="mb-8">
-                    <!-- Display AotD title based on context -->
                     <h2 class="text-2xl font-bold text-teal-500">
                          🔥 Article du jour
-                         {#if selectedSubDiscipline && selectedSubDiscipline !== allSubDisciplinesLabel}
+                         {#if isViewingSubDiscipline} <!-- Check if viewing a sub -->
                               pour {selectedSubDiscipline}
                          {:else if selectedFilter && selectedFilter !== ALL_CATEGORIES_VALUE}
                               pour {filterForTitle}
@@ -877,17 +878,15 @@
             <!-- Specific message when viewing sub-discipline but no AotD -->
             {:else if isViewingSubDiscipline && !isLoading}
                  <p class="mb-6 text-sm text-gray-500 italic">
-                    Aucun article du jour spécifique à "{selectedSubDiscipline}" n'a été ajouté récemment. Voici les articles précédents :
+                    Aucun article du jour spécifique à "{selectedSubDiscipline}" n'a été ajouté aujourd'hui. Voici les articles précédents :
                  </p>
             {/if}
 
             <!-- Main Article List Section -->
 			<div class="mb-6">
                 {#if articles.length > 0}
-                    <!-- Adjust Title Logic -->
-                     <h2 class="text-2xl font-bold text-white flex items-center gap-2">
+                    <h2 class="text-2xl font-bold text-white flex items-center gap-2">
                         {#if isLikedArticlesView}
-                            <!-- Favoris title logic -->
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 fill-pink-500 text-pink-500"> <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" /> </svg>
                             Favoris {#if selectedFilter !== ALL_CATEGORIES_VALUE && selectedFilter}: {filterForTitle}{/if} {#if isViewingSubDiscipline} - {selectedSubDiscipline}{/if}
                         {:else if searchActive}

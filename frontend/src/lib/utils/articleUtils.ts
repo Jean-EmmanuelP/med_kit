@@ -25,9 +25,11 @@ export interface Article {
 	is_liked?: boolean; // Track if the article has been liked by the user (heart icon)
 	like_count?: number; // Track the number of likes for the article (heart icon)
 	read_count?: number; // Track total reads for the article
-	is_thumbed_up?: boolean; // <<< NEW: Track if the article has been thumbed up by the user
-	thumbs_up_count?: number; // <<< NEW: Track the number of thumbs up for the article
-	added_at_out?: string; // <<< NEW: Track when the article was added to the system
+	is_thumbed_up?: boolean; // Track if the article has been thumbed up by the user
+	thumbs_up_count?: number; // Track the number of thumbs up for the article
+	added_at_out?: string; // Track when the article was added to the system
+	is_newest_for_main?: boolean; // Flag indicating if this is the newest article for the main discipline
+	is_newest_for_sub?: boolean; // Flag indicating if this is the newest article for the sub-discipline
 }
 
 export interface ContentSection {
