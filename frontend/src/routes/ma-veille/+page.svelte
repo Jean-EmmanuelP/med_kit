@@ -20,6 +20,7 @@
 			initialSubFilterValue: string | null;  // Provided by server
 			userSubscriptionStructure: DisciplineStructure[];
 			savedArticleIds: (string | number)[];
+			articleData: any;
 			error: string | null;
 		}
 	}>();
@@ -61,6 +62,8 @@
 {:else}
 	<!-- Pass the CORRECT initial values from server data to ArticleListView -->
 	<ArticleListView
+		articleId={data?.articleData?.id || 0}
+		articleTitle={data?.articleData?.title || ""}
 		pageTitle={$i18n.header.myVeille || 'Ma Veille'}
 		filters={filterOptions}
 		initialFilterValue={initialMainFilterFromData}

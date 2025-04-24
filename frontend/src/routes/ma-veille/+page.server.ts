@@ -17,16 +17,17 @@ export async function load({ locals, url }) { // Add 'url' to access query param
 		throw redirect(303, '/login?redirect=/ma-veille');
 	}
 
-	// --- Get URL Parameter ---
-	const urlSubDisciplineName = url.searchParams.get('discipline');
-    console.log(`URL discipline param: ${urlSubDisciplineName}`);
+	// --- Get URL Parameters ---
+	let urlSubDisciplineName = url.searchParams.get('discipline');
+	const urlId = urlSubDisciplineName.includes('?id=') ? urlSubDisciplineName?.split('?id=')[1] || null : 0;
+    urlSubDisciplineName = urlSubDisciplineName.includes('?') ? urlSubDisciplineName?.split('?')[0] || null : urlSubDisciplineName;
+    console.log(`URL parameters - discipline: ${urlSubDisciplineName}, id: ${urlId}`);
 
     let initialMainFilterValue: string | null = null;
     let initialSubFilterValue: string | null = null;
 
 	try {
         // --- Fetch User Subscription Structure (Needed for dropdown options AND default values) ---
-        // Using hypothetical RPC - adjust if needed
         const { data: userSubscriptionStructure, error: structureError } = await locals.supabase.rpc(
             'get_user_subscription_structure_with_subs',
             { p_user_id: user.id }
@@ -37,7 +38,6 @@ export async function load({ locals, url }) { // Add 'url' to access query param
         structuredData.sort((a, b) => a.name.localeCompare(b.name, 'fr', { sensitivity: 'base' }));
         // Sort sub-disciplines within each main discipline
         structuredData.forEach(d => d.subscribed_sub_disciplines?.sort((a, b) => a.name.localeCompare(b.name, 'fr', { sensitivity: 'base' })));
-
 
         // --- Determine Initial Dropdown States ---
         if (urlSubDisciplineName) {
@@ -78,6 +78,20 @@ export async function load({ locals, url }) { // Add 'url' to access query param
             }
         }
 
+        let articleData = null; // Initialize articleData to null
+        if (urlId != 0) {
+            const { data, error: articleError } = await locals.supabase
+                .from('articles')
+                .select(`title, id`)
+                .eq('id', urlId)
+                .single();
+            if (articleError) {
+                console.error(`DB Error fetching article: ${articleError.message}`);
+            } else {
+                articleData = data;
+            }
+        }
+
         // --- Set Default if Initial Values are Still Null ---
         if (initialMainFilterValue === null && structuredData.length > 0) {
              initialMainFilterValue = structuredData[0].name; // Default to first subscribed main discipline
@@ -99,6 +113,7 @@ export async function load({ locals, url }) { // Add 'url' to access query param
             initialSubFilterValue,  // Determined by server logic
             userSubscriptionStructure: structuredData, // For populating dropdown OPTIONS
             savedArticleIds,
+            articleData, // Return articleData, which will be null if not found
             error: null
         };
 

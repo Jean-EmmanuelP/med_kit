@@ -28,6 +28,8 @@
     }
 
 	const {
+        articleId = 0,
+        articleTitle = "",
 		pageTitle = 'Articles',
 		filters = [] as FilterOption[],
 		initialFilterValue = null,
@@ -53,6 +55,8 @@
         showAllCategoriesOption = true,
         subDisciplineFetchMode = 'user' as 'user' | 'public'
 	} = $props<{
+        articleId?: number;
+        articleTitle?: string;
 		pageTitle?: string;
 		filters?: FilterOption[];
 		initialFilterValue?: string | null;
@@ -82,6 +86,7 @@
     // Update initial filter default logic slightly to handle empty filters AND showAll option
     const defaultInitialFilter = filters.length > 0 ? (filters[0]?.value ?? null) : (showAllCategoriesOption ? ALL_CATEGORIES_VALUE : null);
 
+    console.log("les new props la", articleId, articleTitle)
 	// --- Internal State ---
 	let selectedFilter = $state<string | null>(initialFilterValue ?? defaultInitialFilter);
     let selectedSubDiscipline = $state<string | null>(initialSubFilterValue ?? null);
@@ -103,6 +108,7 @@
         currentlyLiked: boolean;
         currentLikeCount: number;
     } | null>(null);
+    let hasCheckedInitialSearch = $state(false);
 
 	// --- Derived State ---
 	const sortedFilters = $derived(
@@ -349,6 +355,13 @@
                 isLoading = false;
                 if (!isLoadMore) {
                     isInitialLoading = false;
+                    // Check if articleId matches articleOfTheDay.id after initial load, but only once
+                    if (!hasCheckedInitialSearch && articleId && articleTitle) {
+                        if (!articleOfTheDay || articleOfTheDay.id !== articleId) {
+                            searchQuery = articleTitle;
+                        }
+                        hasCheckedInitialSearch = true;
+                    }
                 }
             });
     }
@@ -449,6 +462,7 @@
         const newValue = value === allSubDisciplinesLabel ? null : value;
         if (selectedSubDiscipline !== newValue) {
             selectedSubDiscipline = newValue;
+            searchQuery = ''; // Reset search when sub-discipline changes
             // Fetch will be triggered by the $effect watching selectedSubDiscipline
         }
     }
@@ -702,7 +716,10 @@
             <div class="flex flex-col md:flex-row flex-wrap gap-4">
                 {#if filters.length > 0 || showAllCategoriesOption}
                     <div class="relative w-full md:max-w-xs shrink-0">
-                        <Select.Root type="single" name="selectedFilter" value={selectedFilter ?? undefined} onValueChange={(detail) => selectedFilter = detail}>
+                        <Select.Root type="single" name="selectedFilter" value={selectedFilter ?? undefined} onValueChange={(detail) => {
+                            selectedFilter = detail;
+                            searchQuery = ''; // Reset search when main filter changes
+                        }}>
                             <Select.Trigger
                                 class="w-full rounded-lg border border-gray-700 bg-gray-800 px-4 py-3 text-sm font-medium text-white shadow-sm transition-all duration-300 hover:bg-gray-700 focus:ring-2 focus:ring-teal-500 focus:outline-none"
                                 disabled={isLoading && isInitialLoading}
