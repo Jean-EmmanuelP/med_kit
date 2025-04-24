@@ -1,5 +1,5 @@
 // /ma-veille/+page.server.ts (V7 - Server Lookup for Initial State)
-import { redirect, error } from '@sveltejs/kit';
+import { error, redirect } from '@sveltejs/kit';
 
 // Define types locally for clarity (or import if shared)
 interface SubDisciplineInfo { id: number; name: string; }
@@ -19,8 +19,8 @@ export async function load({ locals, url }) { // Add 'url' to access query param
 
 	// --- Get URL Parameters ---
 	let urlSubDisciplineName = url.searchParams.get('discipline');
-	const urlId = urlSubDisciplineName.includes('?id=') ? urlSubDisciplineName?.split('?id=')[1] || null : 0;
-    urlSubDisciplineName = urlSubDisciplineName.includes('?') ? urlSubDisciplineName?.split('?')[0] || null : urlSubDisciplineName;
+	const urlId = urlSubDisciplineName?.includes('?id=') ? urlSubDisciplineName?.split('?id=')[1] || null : 0;
+    urlSubDisciplineName = urlSubDisciplineName?.includes('?') ? urlSubDisciplineName?.split('?')[0] || null : urlSubDisciplineName;
     console.log(`URL parameters - discipline: ${urlSubDisciplineName}, id: ${urlId}`);
 
     let initialMainFilterValue: string | null = null;

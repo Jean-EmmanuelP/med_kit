@@ -1,0 +1,7 @@
+{
+  "article_id": 2437,
+  "title": "L'utilisation de la neurostimulation électrique transcutanée (TENS) pour le traitement des douleurs dorsales au service des urgences : un essai contrôlé randomisé",
+  "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1111/acem.70013",
+  "content_preview": "## 📌 Contexte & Problématique\nLa lombalgie est l'une des plaintes les plus fréquentes au service des urgences. Les traitements pharmacologiques actuels étant souvent sous-optimaux, une approche multimodale incluant des modalités non pharmacologiques est prometteuse pour améliorer la gestion de la douleur.\n\n## 🧪 Méthodologie\nUn essai contrôlé randomisé, en aveugle pour les patients et les observateurs, a été mené auprès de patients adultes (≥18 ans) se présentant au service des urgences avec une ...",
+  "gemini_raw_response": "{\n  \"Urgences\": [\"Douleur aiguë\", \"Urgences traumatologiques\"],\n  \"Médecine de la douleur\": [\"Lombalgies et douleurs musculo-squelettiques\", \"Techniques interventionnelles (infiltrations, blocs, neurostimulation)\", \"Évaluation de la douleur et outils d’échelle\"]\n}"
+}
