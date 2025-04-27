@@ -870,6 +870,10 @@ Je recommande 👌
                                     <p class="mt-4 text-sm text-gray-400 text-center">
                                         Scannez ce QR code avec l'application Wero ou votre application bancaire pour effectuer votre don.
                                     </p>
+                                    <a href="https://share.weropay.eu/p/1/c/bQMWb" target="_blank" rel="noopener noreferrer" 
+                                        class="mt-2 text-sm text-green-400 hover:text-green-300 underline">
+                                        Ou cliquez ici pour payer avec Wero
+                                    </a>
                                 </div>
                             </div>
                         {/if}
