@@ -74,14 +74,6 @@
 		<div class="hidden items-center space-x-6 md:flex">
 			{#if $userProfileStore}
 				<a
-					href="/donations"
-					class="font-sans text-sm font-medium {lastScrollY > 0
-						? 'text-black hover:text-gray-700'
-						: 'text-white hover:text-gray-300'} transition-colors duration-200"
-				>
-					{$i18n.header.donate}
-				</a>
-				<a
 					href="/articles"
 					class="font-sans text-sm font-medium {lastScrollY > 0
 						? 'text-black hover:text-gray-700'
@@ -120,6 +112,14 @@
 						: 'text-white hover:text-gray-300'} transition-colors duration-200"
 				>
 					Comité scientifique
+				</a>
+				<a
+					href="/donations"
+					class="font-sans text-sm font-medium {lastScrollY > 0
+						? 'text-black hover:text-gray-700'
+						: 'text-white hover:text-gray-300'} transition-colors duration-200"
+				>
+					{$i18n.header.donate}
 				</a>
 				<div class="account-menu relative">
 					<button
@@ -183,13 +183,6 @@
 				>
 					{#if $userProfileStore}
 						<a
-							href="/donations"
-							onclick={closeMobileMenu}
-							class="block px-6 py-3 text-base hover:bg-gray-100"
-						>
-							{$i18n.header.donate}
-						</a>
-						<a
 							href="/articles"
 							onclick={closeMobileMenu}
 							class="block px-6 py-3 text-base hover:bg-gray-100"
@@ -223,6 +216,13 @@
 							class="block px-6 py-3 text-base hover:bg-gray-100"
 						>
 							Comité scientifique
+						</a>
+						<a
+							href="/donations"
+							onclick={closeMobileMenu}
+							class="block px-6 py-3 text-base hover:bg-gray-100"
+						>
+							{$i18n.header.donate}
 						</a>
 						<a
 							href="/account"

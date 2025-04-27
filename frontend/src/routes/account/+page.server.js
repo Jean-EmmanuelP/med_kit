@@ -1,6 +1,5 @@
 // /routes/account/+page.server.js
-import { redirect } from '@sveltejs/kit';
-import { error } from '@sveltejs/kit'; // Import error
+import { error, redirect } from '@sveltejs/kit';
 
 export async function load({ locals }) {
 	const { session, user } = await locals.safeGetSession();
@@ -17,7 +16,7 @@ export async function load({ locals }) {
 		// 1. Fetch user profile (excluding the old 'disciplines' column)
 		const { data: userProfile, error: profileError } = await locals.supabase
 			.from('user_profiles')
-			.select('id, first_name, last_name, email, notification_frequency, date_of_birth, status, specialty') // Removed 'disciplines'
+			.select('id, first_name, last_name, email, notification_frequency, date_of_birth, status, specialty, minimum_grade_notification') // Removed 'disciplines'
 			.eq('id', user.id)
 			.single();
 
@@ -74,6 +73,11 @@ export async function load({ locals }) {
             { value: 'tous_les_15_jours', label: 'Tous les 15 jours' },
             { value: '1_fois_par_mois', label: '1 fois par mois' }
         ];
+		const minimumGradeOptions = [
+			{ value: 'A', label: 'Recevoir les articles gradés A uniquement' },
+			{ value: 'B', label: 'Recevoir les articles gradés A et B' },
+			{ value: 'C', label: 'Recevoir les articles gradés A, B et C' },
+		];
 
 		return {
             userProfile,          // Basic profile data
@@ -81,6 +85,7 @@ export async function load({ locals }) {
             userSubscriptions: Array.from(userSubscriptions), // Pass the Set as an array for serialization ['d:1', 's:5', ...]
             statusOptions,        // List of statuses for dropdown
             notificationOptions,  // List of frequencies for dropdown
+			minimumGradeOptions,  // List of minimum grades for dropdown
 			session, // Pass session if needed by layout/page
 			user,    // Pass user if needed by layout/page
 		};

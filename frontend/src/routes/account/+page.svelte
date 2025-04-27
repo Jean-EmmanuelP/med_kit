@@ -2,10 +2,10 @@
 <script lang="ts">
 	import { i18n } from '$lib/i18n'; // Assuming i18n setup is client-side friendly
 	import userProfileStore from '$lib/stores/user';
-	import { supabase } from '$lib/supabase'; // Use the browser client for API calls
-	import { onMount } from 'svelte';
-	import * as Select from '$lib/components/ui/select/index.js';
-    import { AlertCircle, Check, ChevronDown, ChevronUp, Loader2 } from 'lucide-svelte'; // Import icons
+	import { supabase } from '$lib/supabase';
+// Use the browser client for API calls
+	import { AlertCircle, Check, ChevronDown, ChevronUp, Loader2 } from 'lucide-svelte';
+ // Import icons
 
 	// Get props (data from load function)
 	let { data } = $props();
@@ -17,11 +17,10 @@
 	let status = $state(data.userProfile?.status || '');
 	let specialty = $state(data.userProfile?.specialty || '');
 	let dateOfBirth = $state(data.userProfile?.date_of_birth || '');
+	let minimumGradeNotification = $state(data.userProfile?.minimum_grade_notification || 'C');
 
     // Subscription state
-    console.log("Initial data.userSubscriptions:", data.userSubscriptions);
     let currentSubscriptions = $state(new Set<string>(data.userSubscriptions || []));
-    console.log("Initial currentSubscriptions:", Array.from(currentSubscriptions));
 
     // UI State
 	let isLoading = $state(false);
@@ -32,16 +31,10 @@
     // Data from load function
     const allDisciplines = $derived(data.allDisciplines || []);
     const statusOptions = $derived(data.statusOptions || []); // Use options from server
+    const minimumGradeOptions = $derived(data.minimumGradeOptions || []);
 
     // Define the notification options
-    const notificationOptions = [
-        { value: 'tous_les_jours', label: 'Tous les jours' },
-        { value: 'tous_les_2_jours', label: 'Tous les 2 jours' },
-        { value: 'tous_les_3_jours', label: 'Tous les 3 jours' },
-        { value: '1_fois_par_semaine', label: 'Une fois par semaine' },
-        { value: 'tous_les_15_jours', label: 'Tous les 15 jours' },
-        { value: '1_fois_par_mois', label: 'Une fois par mois' }
-    ];
+    const notificationOptions = data.notificationOptions;
 
     // Make sure the initial value exactly matches one of the enum values
     let selectedNotificationFreq = $state(
@@ -59,13 +52,6 @@
 	const triggerStatusContent = $derived(
 		statusOptions.find(o => o === status) ?? 'Choisissez un statut'
 	);
-
-	// --- Effects ---
-	$effect(() => {
-        // This effect was removing user input on store changes, which is likely not desired.
-        // Removed the logic that reset the state variables here.
-        // The initial state is set correctly using $state(data.userProfile?.field || '')
-    });
 
     $effect(() => {
         if (saveSuccess || saveError) {
@@ -99,10 +85,6 @@
                 }
             }
         });
-        // Only set openDisciplines on the initial load or if it hasn't been set yet
-        // to avoid overriding user interactions. Let's remove this auto-open based on
-        // current subs, as the new logic handles opening when a main is checked.
-        // openDisciplines = initialOpen;
      });
 
 
@@ -185,6 +167,7 @@
             specialty: specialty || null,
             notification_frequency: selectedNotificationFreq,
             date_of_birth: dateOfBirth || null,
+            minimum_grade_notification: minimumGradeNotification,
         };
 
         console.log("Current subscriptions before processing:", Array.from(currentSubscriptions));
@@ -269,6 +252,7 @@
                         specialty: profileUpdates.specialty,
                         notification_frequency: profileUpdates.notification_frequency,
                         date_of_birth: profileUpdates.date_of_birth,
+                        minimum_grade_notification: profileUpdates.minimum_grade_notification,
                     };
                 }
                 return null;
@@ -384,6 +368,20 @@
                             class="mt-1 block w-full rounded-lg border border-gray-700 bg-gray-700 px-4 py-3 text-sm text-white transition-all duration-200 focus:border-teal-500 focus:ring focus:ring-teal-600/50 appearance-none"
                         >
                             {#each notificationOptions as option}
+                                <option value={option.value}>{option.label}</option>
+                            {/each}
+                        </select>
+                    </div>
+
+                    <!-- Minimum Grade Notification -->
+                    <div class="mb-8">
+                        <label for="minimumGradeNotification" class="mb-2 block text-sm font-medium text-gray-300">Niveau minimum des articles</label>
+                        <select
+                            id="minimumGradeNotification"
+                            bind:value={minimumGradeNotification}
+                            class="mt-1 block w-full rounded-lg border border-gray-700 bg-gray-700 px-4 py-3 text-sm text-white transition-all duration-200 focus:border-teal-500 focus:ring focus:ring-teal-600/50 appearance-none"
+                        >
+                            {#each minimumGradeOptions as option}
                                 <option value={option.value}>{option.label}</option>
                             {/each}
                         </select>
