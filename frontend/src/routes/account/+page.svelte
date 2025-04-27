@@ -87,6 +87,44 @@
         });
      });
 
+    // Add this in the <script> section after other variables
+    const gradeInfo = [
+      {
+        grade: 'A',
+        label: 'Preuve scientifique établie',
+        niveau: 'Niveau 1',
+        details: [
+          'essais comparatifs randomisés de forte puissance',
+          'méta-analyse d\'essais comparatifs randomisés',
+          'analyse de décision fondée sur des études bien menées.'
+        ]
+      },
+      {
+        grade: 'B',
+        label: 'Présomption scientifique',
+        niveau: 'Niveau 2',
+        details: [
+          'essais comparatifs randomisés de faible puissance',
+          'études comparatives non randomisées bien menées',
+          'études de cohortes.'
+        ]
+      },
+      {
+        grade: 'C',
+        label: 'Faible niveau de preuve scientifique',
+        niveau: 'Niveau 3 et 4',
+        details: [
+          'études cas-témoins',
+          'études comparatives comportant des biais importants',
+          'études rétrospectives',
+          'séries de cas',
+          'études épidémiologiques descriptives (transversale, longitudinale).'
+        ]
+      }
+    ];
+
+    // Add a boolean for the info panel
+    let showGradeInfo = $state(false);
 
     // --- Functions ---
     function toggleDisciplineSection(disciplineId: number) {
@@ -374,8 +412,13 @@
                     </div>
 
                     <!-- Minimum Grade Notification -->
-                    <div class="mb-8">
-                        <label for="minimumGradeNotification" class="mb-2 block text-sm font-medium text-gray-300">Niveau minimum des articles</label>
+                    <div class="mb-8 relative">
+                        <label for="minimumGradeNotification" class="mb-2 block text-sm font-medium text-gray-300 flex items-center gap-2">
+                            Grade de recommandation souhaité
+                            <span class="relative cursor-pointer" on:click={() => showGradeInfo = !showGradeInfo} tabindex="0">
+                                <span class="inline-flex items-center justify-center w-5 h-5 rounded-full bg-gray-600 text-white text-xs font-bold border border-gray-400 select-none">i</span>
+                            </span>
+                        </label>
                         <select
                             id="minimumGradeNotification"
                             bind:value={minimumGradeNotification}
@@ -385,6 +428,72 @@
                                 <option value={option.value}>{option.label}</option>
                             {/each}
                         </select>
+                        {#if showGradeInfo}
+                            <div class="mt-4 w-full overflow-x-auto">
+                                <div class="text-center font-bold text-base text-gray-100 mb-3">Niveaux de preuve scientifique</div>
+                                <table class="min-w-full text-xs text-left text-gray-200 border border-gray-700 bg-gray-900 rounded-lg">
+                                    <thead>
+                                        <tr class="bg-gray-800">
+                                            <th class="px-4 py-2 border-b border-gray-700 w-1/3 text-center">Grade des recommandations</th>
+                                            <th class="px-4 py-2 border-b border-gray-700 text-center">Niveau de preuve scientifique fourni par la littérature</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="align-top">
+                                            <td class="px-4 py-2 border-b border-gray-700 border-r border-gray-700" rowspan="1">
+                                                <span class="font-bold">A</span><br />
+                                                <span class="italic">Preuve scientifique établie</span>
+                                            </td>
+                                            <td class="px-4 py-2 border-b border-gray-700">
+                                                <span class="font-bold">Niveau 1</span><br />
+                                                <ul class="list-disc list-inside ml-4">
+                                                    <li>essais comparatifs randomisés de forte puissance ;</li>
+                                                    <li>méta-analyse d'essais comparatifs randomisés ;</li>
+                                                    <li>analyse de décision fondée sur des études bien menées.</li>
+                                                </ul>
+                                            </td>
+                                        </tr>
+                                        <tr class="align-top">
+                                            <td class="px-4 py-2 border-b border-gray-700 border-r border-gray-700" rowspan="1">
+                                                <span class="font-bold">B</span><br />
+                                                <span class="italic">Présomption scientifique</span>
+                                            </td>
+                                            <td class="px-4 py-2 border-b border-gray-700">
+                                                <span class="font-bold">Niveau 2</span><br />
+                                                <ul class="list-disc list-inside ml-4">
+                                                    <li>essais comparatifs randomisés de faible puissance ;</li>
+                                                    <li>études comparatives non randomisées bien menées ;</li>
+                                                    <li>études de cohortes.</li>
+                                                </ul>
+                                            </td>
+                                        </tr>
+                                        <tr class="align-top">
+                                            <td class="px-4 py-2 border-b border-gray-700 border-r border-gray-700" rowspan="2">
+                                                <span class="font-bold">C</span><br />
+                                                <span class="italic">Faible niveau de preuve scientifique</span>
+                                            </td>
+                                            <td class="px-4 py-2 border-b border-gray-700">
+                                                <span class="font-bold">Niveau 3</span><br />
+                                                <ul class="list-disc list-inside ml-4">
+                                                    <li>études cas-témoins.</li>
+                                                </ul>
+                                            </td>
+                                        </tr>
+                                        <tr class="align-top">
+                                            <td class="px-4 py-2 border-r-0">
+                                                <span class="font-bold">Niveau 4</span><br />
+                                                <ul class="list-disc list-inside ml-4">
+                                                    <li>études comparatives comportant des biais importants ;</li>
+                                                    <li>études rétrospectives ;</li>
+                                                    <li>séries de cas ;</li>
+                                                    <li>études épidémiologiques descriptives (transversale, longitudinale).</li>
+                                                </ul>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        {/if}
                     </div>
 
                     <!-- Discipline/Sub-discipline Subscriptions -->

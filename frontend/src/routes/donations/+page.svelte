@@ -54,6 +54,9 @@ Je recommande 👌
 
     let isFeedbackModalOpen = $state(false);
 
+    // --- Wero State ---
+    let showWeroQr = $state(false);
+
     async function handleCopyShareText() {
         if (copyStatus === 'copied') return; // Don't do anything if already copied recently
 
@@ -838,6 +841,37 @@ Je recommande 👌
                                     {/if}
                                 </button>
                             </form>
+                        {/if}
+
+                        <!-- Wero Payment Option -->
+                        <button type="button" on:click={() => showWeroQr = !showWeroQr}
+                            class="w-full rounded-lg border-2 p-4 text-left transition-colors"
+                            class:border-green-500={showWeroQr} class:bg-gray-600={showWeroQr}
+                            class:border-gray-600={!showWeroQr} class:bg-gray-700={!showWeroQr}
+                            class:hover:border-green-500={!showWeroQr} class:hover:bg-gray-600={!showWeroQr}
+                            disabled={isProcessingPayment}>
+                            <div class="flex items-center justify-between">
+                                <div class="flex items-center gap-3">
+                                    <img 
+                                        src="https://wero-wallet.eu/favicon.ico" 
+                                        alt="Wero" 
+                                        class="h-6 w-6"
+                                    />
+                                    <h3 class="font-semibold">Wero</h3>
+                                </div>
+                                <span class="text-gray-400">{showWeroQr ? '▲' : '▼'}</span>
+                            </div>
+                        </button>
+
+                        {#if showWeroQr}
+                            <div class="mt-4 space-y-4 rounded-lg border border-gray-700 p-4">
+                                <div class="flex flex-col items-center">
+                                    <img src="/image.png" alt="Wero QR Code" class="w-48 h-48 object-contain" />
+                                    <p class="mt-4 text-sm text-gray-400 text-center">
+                                        Scannez ce QR code avec l'application Wero ou votre application bancaire pour effectuer votre don.
+                                    </p>
+                                </div>
+                            </div>
                         {/if}
 
                         <!-- Lydia Payment Option -->
