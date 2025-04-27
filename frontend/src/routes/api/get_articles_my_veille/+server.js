@@ -7,6 +7,7 @@ export const GET = async ({ url, locals: { supabase, safeGetSession } }) => {
     const subDiscipline = url.searchParams.get('subDiscipline');
     const offset = parseInt(url.searchParams.get('offset') || '0');
     const search = url.searchParams.get('search');
+    const filterByUserSubs = url.searchParams.get('filterByUserSubs') === 'true';
     const { user } = await safeGetSession();
     const userId = user?.id ?? null;
 
@@ -16,7 +17,7 @@ export const GET = async ({ url, locals: { supabase, safeGetSession } }) => {
     // Sub-discipline only makes sense if a main discipline is selected
     const subDisciplineToRPC = disciplineNameToRPC ? (subDiscipline || null) : null; // <<< Nullify sub if discipline is null
 
-    console.log(`Calling RPC get_all_articles_sub_disciplines with: discipline=${disciplineNameToRPC}, sub_discipline=${subDisciplineToRPC}, offset=${offset}, search=${search || null}, user=${userId}`);
+    console.log(`Calling RPC get_all_articles_sub_disciplines with: discipline=${disciplineNameToRPC}, sub_discipline=${subDisciplineToRPC}, offset=${offset}, search=${search || null}, user=${userId}, filterByUserSubs=${filterByUserSubs}`);
 
     const { data: articlesData, error: rpcError } = await supabase.rpc(
         'get_all_articles_sub_disciplines',
@@ -25,7 +26,8 @@ export const GET = async ({ url, locals: { supabase, safeGetSession } }) => {
             p_sub_discipline_name: subDisciplineToRPC,
             p_offset: offset,
             p_search_term: search || null,
-            p_user_id: userId
+            p_user_id: userId,
+            p_filter_by_user_subs: filterByUserSubs
         }
     );
 

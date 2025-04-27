@@ -1,6 +1,5 @@
 <script lang="ts">
 	// Correctly import 'page', not '$page'
-	import { page } from '$app/stores';
 	import ArticleListView from '$lib/components/articles/ArticleListView.svelte';
 	import { i18n } from '$lib/i18n';
 	import userProfileStore from '$lib/stores/user';
@@ -79,6 +78,7 @@
 		showAllCategoriesOption={false}
 		showAllSubDisciplinesOption={true}
 		allSubDisciplinesLabel="Toutes mes sous-spécialités"
+		filterByUserSubs={true}
 	/>
 {/if}
 

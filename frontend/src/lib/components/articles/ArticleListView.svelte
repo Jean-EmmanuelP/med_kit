@@ -4,7 +4,7 @@
 	import ConfirmationModal from '$lib/components/ui/ConfirmationModal.svelte';
 	import * as Select from '$lib/components/ui/select';
 	import userProfileStore from '$lib/stores/user';
-	import type { Article, FilterOption, SubDisciplineOption } from '$lib/utils/articleUtils';
+	import type { Article } from '$lib/utils/articleUtils';
 	import { getArticleId } from '$lib/utils/articleUtils';
 	import { debounce } from '$lib/utils/debounce';
 	import { tick } from 'svelte';
@@ -53,7 +53,8 @@
         showAllSubDisciplinesOption = true,
         allSubDisciplinesLabel = "Toutes les sous-spécialités",
         showAllCategoriesOption = true,
-        subDisciplineFetchMode = 'user' as 'user' | 'public'
+        subDisciplineFetchMode = 'user' as 'user' | 'public',
+        filterByUserSubs = false
 	} = $props<{
         articleId?: number;
         articleTitle?: string;
@@ -81,6 +82,7 @@
         allSubDisciplinesLabel?: string;
         showAllCategoriesOption?: boolean;
         subDisciplineFetchMode?: 'user' | 'public';
+        filterByUserSubs?: boolean;
 	}>();
 
     // Update initial filter default logic slightly to handle empty filters AND showAll option
@@ -281,6 +283,7 @@
         if (enableSearch && currentSearch.trim()) {
             url.searchParams.set('search', currentSearch.trim());
         }
+        url.searchParams.set('filterByUserSubs', filterByUserSubs.toString());
 
 		fetch(url.toString())
 			.then(async (res) => {
@@ -296,42 +299,39 @@
                     const fetchedArticles: Article[] = data.data.map((item: any) => ({
                         ...item, // Spread existing fields
                         id: item.article_id, // Make sure ID mapping is correct
-                        is_newest_for_main: item.is_newest_for_main, // Map the flag
-                        is_newest_for_sub: item.is_newest_for_sub     // Map the flag
+                        is_article_of_the_day: item.is_article_of_the_day // Map the new flag
                     }));
                     console.log("Fetched Articles with flags:", fetchedArticles);
 
                     if (isLoadMore) {
                         articles = [...articles, ...fetchedArticles];
                     } else {
-                        // --- NEW AotD Logic using Flags ---
+                        // --- REVISED AotD Logic: Check flag on first item ---
                         let potentialAotd: Article | null = null;
-                        let remainingArticles = fetchedArticles;
+                        let remainingArticles = [...fetchedArticles]; // Start with all
 
                         // Conditions for having an AotD: not loading more, not searching, not liked view
-                        const isAotdContext = !searchActive && !isLikedArticlesView;
-                        const viewingSub = currentSubFilter && currentSubFilter !== allSubDisciplinesLabel; // Check if viewing specific sub
+                        const isAotdContext = !isLoadMore && !searchActive && !isLikedArticlesView;
 
                         if (isAotdContext && fetchedArticles.length > 0) {
-                             const firstArticle = fetchedArticles[0];
+                            const firstArticle = fetchedArticles[0];
+                            console.log("Checking AotD: First article ID:", firstArticle?.id, "Flag:", firstArticle?.is_article_of_the_day);
 
-                             // Check the appropriate flag based on view context
-                             if (viewingSub && firstArticle.is_newest_for_sub) {
-                                 console.log(`Article ${firstArticle.id} qualifies as AotD for SUB "${currentSubFilter}" based on flag.`);
-                                 potentialAotd = firstArticle;
-                                 remainingArticles = fetchedArticles.slice(1);
-                             } else if (!viewingSub && firstArticle.is_newest_for_main) {
-                                 console.log(`Article ${firstArticle.id} qualifies as AotD for MAIN "${currentFilter}" based on flag.`);
-                                 potentialAotd = firstArticle;
-                                 remainingArticles = fetchedArticles.slice(1);
-                             } else {
-                                 console.log(`First article ${firstArticle.id} does not qualify as AotD for current view (Main: ${!viewingSub}, Sub: ${viewingSub}). Flags: Main=${firstArticle.is_newest_for_main}, Sub=${firstArticle.is_newest_for_sub}`);
-                             }
+                            // Check the flag on the first article. The RPC's ORDER BY should place it first if applicable.
+                            if (firstArticle?.is_article_of_the_day === true) {
+                                console.log("Assigning AotD based on flag on first item.");
+                                potentialAotd = firstArticle;
+                                remainingArticles = fetchedArticles.slice(1); // Remove from main list
+                            } else {
+                                 console.log("First item is not flagged as AotD for this context.");
+                            }
+                        } else {
+                             console.log("Not an AotD context or no articles fetched.");
                         }
 
                         articleOfTheDay = potentialAotd;
                         articles = remainingArticles;
-                        // --- End AotD Logic Modification ---
+                        console.log("Final AotD state:", { AotD_ID: articleOfTheDay?.id, articlesCount: articles.length });
                     }
 
                     offset = currentOffset + fetchedArticles.length;
@@ -882,7 +882,7 @@
                 <div class="mb-8">
                     <h2 class="text-2xl font-bold text-teal-500">
                          🔥 Article du jour
-                         {#if isViewingSubDiscipline} <!-- Check if viewing a sub -->
+                         {#if isViewingSubDiscipline}
                               pour {selectedSubDiscipline}
                          {:else if selectedFilter && selectedFilter !== ALL_CATEGORIES_VALUE}
                               pour {filterForTitle}
@@ -911,9 +911,9 @@
                         {:else if isViewingSubDiscipline}
                             📖 Articles pour {selectedSubDiscipline}
                         {:else if articleOfTheDay}
-                             📖 Articles précédents <!-- Show this only if AotD was present -->
+                             📖 Articles précédents
                         {:else}
-                             📖 Articles pour {filterForTitle} <!-- Default list title -->
+                             📖 Articles pour {filterForTitle}
                         {/if}
                     </h2>
                     <ul class="mt-4 space-y-4">

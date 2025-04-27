@@ -28,8 +28,7 @@ export interface Article {
 	is_thumbed_up?: boolean; // Track if the article has been thumbed up by the user
 	thumbs_up_count?: number; // Track the number of thumbs up for the article
 	added_at_out?: string; // Track when the article was added to the system
-	is_newest_for_main?: boolean; // Flag indicating if this is the newest article for the main discipline
-	is_newest_for_sub?: boolean; // Flag indicating if this is the newest article for the sub-discipline
+	is_article_of_the_day?: boolean; // Flag indicating if this is the article of the day
 }
 
 export interface ContentSection {
