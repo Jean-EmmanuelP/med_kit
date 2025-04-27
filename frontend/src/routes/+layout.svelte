@@ -1,14 +1,15 @@
 <script lang="ts">
-	import '../app.css';
-	import Header from '$lib/components/Header.svelte';
-	import Footer from '$lib/components/Footer.svelte';
-	import userProfile from '$lib/stores/user';
 	import { invalidate } from '$app/navigation';
-	import { supabaseStore } from '$lib/stores/supabase';
-	import { onMount } from 'svelte';
-	import NProgress from 'nprogress';
 	import { navigating } from '$app/stores';
+	import FeedbackModalChecker from '$lib/components/FeedbackModalChecker.svelte';
+	import Footer from '$lib/components/Footer.svelte';
+	import Header from '$lib/components/Header.svelte';
+	import { supabaseStore } from '$lib/stores/supabase';
+	import userProfile from '$lib/stores/user';
+	import NProgress from 'nprogress';
 	import 'nprogress/nprogress.css';
+	import { onMount } from 'svelte';
+	import '../app.css';
 
 	NProgress.configure({ showSpinner: false });
 
@@ -84,6 +85,8 @@
 	</div>
 	<Footer />
 </div>
+
+<FeedbackModalChecker />
 
 <style>
 	.app {

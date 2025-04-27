@@ -5,7 +5,7 @@
 
 	const dispatch = createEventDispatcher();
 
-	let { isOpen } = $props<{ isOpen: boolean }>();
+	let { isOpen = $bindable() } = $props<{ isOpen: boolean }>();
 
 	// Form state - These will now hold the full French strings
 	let contentUseful: string | null = $state(null);
@@ -19,6 +19,18 @@
 	// Submission state
 	let submissionStatus: 'idle' | 'loading' | 'success' | 'error' = $state('idle');
 	let submissionMessage = $state('');
+
+	// Update feedback modal timestamp when opened
+	$effect(() => {
+		if (isOpen) {
+			fetch('/api/update-feedback-modal', {
+				method: 'POST',
+				headers: { 'Content-Type': 'application/json' }
+			}).catch(err => {
+				console.error('Failed to update feedback modal timestamp:', err);
+			});
+		}
+	});
 
 	function closeModal() {
 		isOpen = false;
@@ -46,6 +58,23 @@
 	}
 
 	async function handleSubmit() {
+		// Validate required fields
+		if (!contentUseful) {
+			submissionStatus = 'error';
+			submissionMessage = 'Veuillez indiquer si le contenu vous est utile.';
+			return;
+		}
+		if (!formatSuitable) {
+			submissionStatus = 'error';
+			submissionMessage = 'Veuillez indiquer si le format vous convient.';
+			return;
+		}
+		if (!willingToPay) {
+			submissionStatus = 'error';
+			submissionMessage = 'Veuillez indiquer si vous seriez prêt·e à payer.';
+			return;
+		}
+
 		submissionStatus = 'loading';
 		submissionMessage = '';
 
@@ -72,6 +101,14 @@
 			if (!response.ok) {
 				throw new Error(result.message || `Erreur ${response.status}: La requête a échoué.`);
 			}
+
+			// Update the feedback modal timestamp
+			await fetch('/api/update-feedback-modal', {
+				method: 'POST',
+				headers: { 'Content-Type': 'application/json' }
+			}).catch(err => {
+				console.error('Failed to update feedback modal timestamp:', err);
+			});
 
 			submissionStatus = 'success';
 			submissionMessage = result.message || 'Merci, votre retour a bien été envoyé !';
@@ -116,7 +153,7 @@
 
 {#if isOpen}
     <div
-        class="fixed inset-0 z-50 flex items-start justify-center bg-black bg-opacity-70 backdrop-blur-sm overflow-y-auto pt-10 pb-10"
+        class="fixed inset-0 z-50 flex items-start justify-center bg-black bg-opacity-70 backdrop-blur-sm overflow-y-auto pt-20 pb-10"
         on:click={handleBackdropClick}
         role="dialog"
         aria-modal="true"

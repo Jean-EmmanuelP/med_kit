@@ -10,6 +10,7 @@ export interface UserProfile {
     date_of_birth: string | null;
     status: string | null;
     specialty: string | null;
+    feedback_modal: string | null;
 }
 
 const userProfile = writable<UserProfile | null>(null);
