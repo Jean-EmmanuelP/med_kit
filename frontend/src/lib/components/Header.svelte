@@ -1,12 +1,52 @@
 <script lang="ts">
+	import MobileFeatureNoticeModal from '$lib/components/MobileFeatureNoticeModal.svelte';
+	import NewFeatureNotice from '$lib/components/NewFeatureNotice.svelte';
 	import { i18n } from '$lib/i18n';
 	import userProfileStore from '$lib/stores/user';
+	import { supabase } from '$lib/supabase';
 	import { onMount } from 'svelte';
 
-	let showAccountMenu = false;
-	let showMobileMenu = false;
-	let showHeader = true;
-	let lastScrollY = 0;
+	let showAccountMenu = $state(false);
+	let showMobileMenu = $state(false);
+	let showHeader = $state(true);
+	let lastScrollY = $state(0);
+
+	let showNotice = $state(false);
+	let showMobileNoticeModal = $state(false);
+	let isLoadingNoticeState = $state(false);
+
+	$effect(() => {
+		const currentUser = $userProfileStore;
+		console.log("Header $effect: User changed:", currentUser?.id);
+
+		if (currentUser?.id) {
+			isLoadingNoticeState = true;
+			console.log("Header: Fetching tooltip status for user", currentUser.id);
+			supabase
+				.from('user_profiles')
+				.select('has_seen_tooltip')
+				.eq('id', currentUser.id)
+				.maybeSingle()
+				.then(({ data, error }) => {
+					if (error) {
+						console.error("Header: Error fetching tooltip status:", error);
+						showNotice = false;
+					} else {
+						const seen = data?.has_seen_tooltip ?? false;
+						console.log("Header: Fetched tooltip status:", seen);
+						showNotice = !seen;
+					}
+				})
+				.finally(() => {
+					isLoadingNoticeState = false;
+					console.log("Header: Final showNotice state after fetch:", showNotice);
+				});
+		} else {
+			console.log("Header: User logged out, hiding notice.");
+			showNotice = false;
+			isLoadingNoticeState = false;
+		}
+	});
 
 	function toggleMobileMenu() {
 		showMobileMenu = !showMobileMenu;
@@ -52,6 +92,35 @@
 			document.removeEventListener('click', handleOutsideClick);
 		};
 	});
+
+	function openMobileNotice() {
+		if (showNotice) {
+			showMobileNoticeModal = true;
+		}
+	}
+
+	async function handleDismissNotice() {
+		const wasShowing = showNotice;
+		showNotice = false;
+		showMobileNoticeModal = false;
+
+		if (wasShowing && $userProfileStore?.id) {
+			console.log("Header: Calling API to dismiss notice...");
+			try {
+				const response = await fetch('/api/dismiss-feature-notice', { method: 'POST' });
+				if (!response.ok && response.status !== 204) {
+					console.error("Header: API Error dismissing notice:", response.status, await response.text());
+				} else {
+					console.log("Header: Notice dismissed successfully via API.");
+					userProfileStore.update(p => p ? { ...p, has_seen_tooltip: true } : null);
+				}
+			} catch (err) {
+				console.error("Header: Fetch error dismissing notice:", err);
+			}
+		} else {
+			console.log("Header: Dismiss called but notice wasn't showing or user logged out.");
+		}
+	}
 </script>
 
 <header
@@ -147,6 +216,7 @@
 							</a>
 						</div>
 					{/if}
+					<NewFeatureNotice isVisible={showNotice} on:dismiss={handleDismissNotice} />
 				</div>
 			{:else}
 				<a
@@ -161,21 +231,37 @@
 		</div>
 
 		<div class="md:hidden">
-			<button onclick={toggleMobileMenu} class="burger-button p-2">
-				<svg
-					class="h-6 w-6 {lastScrollY > 0 ? 'text-black' : 'text-white'}"
-					fill="none"
-					stroke="currentColor"
-					viewBox="0 0 24 24"
-				>
-					<path
-						stroke-linecap="round"
-						stroke-linejoin="round"
-						stroke-width="2"
-						d={showMobileMenu ? 'M6 18L18 6M6 6l12 12' : 'M4 6h16M4 12h16M4 18h16'}
-					/>
-				</svg>
-			</button>
+			<!-- Mobile Header Area - Ensure buttons are side by side -->
+			<div class="flex items-center gap-2">
+				<!-- Mobile Notice Trigger Button -->
+				{#if showNotice && $userProfileStore && !isLoadingNoticeState}
+					<button
+						type="button"
+						onclick={openMobileNotice}
+						class="notice-trigger-button flex h-10 w-10 items-center justify-center rounded-full p-2 text-teal-400 bg-gray-700/50 hover:bg-gray-600 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:ring-offset-1 focus:ring-offset-black animate-pulse"
+						aria-label="Afficher la notification de nouvelle fonctionnalité"
+						title="Nouveautés dans les paramètres !"
+					>
+						<span class="text-lg leading-none">💡</span>
+					</button>
+				{/if}
+				<!-- Burger Button -->
+				<button onclick={toggleMobileMenu} class="burger-button p-2">
+					<svg
+						class="h-6 w-6 {lastScrollY > 0 ? 'text-black' : 'text-white'}"
+						fill="none"
+						stroke="currentColor"
+						viewBox="0 0 24 24"
+					>
+						<path
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							stroke-width="2"
+							d={showMobileMenu ? 'M6 18L18 6M6 6l12 12' : 'M4 6h16M4 12h16M4 18h16'}
+						/>
+					</svg>
+				</button>
+			</div>
 
 			{#if showMobileMenu}
 				<div
@@ -245,6 +331,11 @@
 		</div>
 	</nav>
 </header>
+
+<MobileFeatureNoticeModal
+	isOpen={showMobileNoticeModal}
+	on:closeAndDismiss={handleDismissNotice}
+/>
 
 <style>
 	.animate-fade-in {
