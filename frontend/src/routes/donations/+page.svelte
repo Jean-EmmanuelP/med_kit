@@ -860,7 +860,7 @@ Je recommande 👌
                                         En fournissant votre IBAN et en confirmant ce paiement, vous autorisez Veille Médicale et Stripe, notre prestataire de services de paiement, à envoyer des instructions à votre banque pour débiter votre compte conformément à ces instructions. Vous avez droit à un remboursement de la part de votre banque selon les termes et conditions de votre convention avec votre banque. Une demande de remboursement doit être présentée dans les 8 semaines suivant la date à laquelle votre compte a été débité. Vos droits sont expliqués dans un relevé que vous pouvez obtenir auprès de votre banque.
                                     </label>
                                 </div>
-                                <button type="submit" disabled={!stripe || !ibanElement || !sepaMandateAccepted || !sepaAccountHolderName.trim() || isProcessingPayment}
+                                <button type="submit"
                                     class="w-full rounded-lg bg-indigo-600 px-6 py-3 text-lg font-semibold text-white shadow-md transition-all duration-300 hover:bg-indigo-700 disabled:cursor-not-allowed disabled:bg-gray-600 disabled:opacity-70">
                                     {#if isProcessingPayment && activePaymentMethodType === 'sepa_debit'}
                                         <span class="flex items-center justify-center">
