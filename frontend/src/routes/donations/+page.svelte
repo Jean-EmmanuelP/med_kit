@@ -57,6 +57,10 @@ Je recommande 👌
     // --- Wero State ---
     let showWeroQr = $state(false);
 
+    // --- Lydia State ---
+    let showLydia = $state(false);
+    let showLydiaQr = $state(false);
+
     async function handleCopyShareText() {
         if (copyStatus === 'copied') return; // Don't do anything if already copied recently
 
@@ -879,20 +883,39 @@ Je recommande 👌
                         {/if}
 
                         <!-- Lydia Payment Option -->
-                        <button type="button" disabled
-                            class="w-full rounded-lg border-2 p-4 text-left transition-colors border-gray-600 bg-gray-700 opacity-50 cursor-not-allowed">
+                        <button type="button" on:click={() => showLydiaQr = !showLydiaQr}
+                            class="w-full rounded-lg border-2 p-4 text-left transition-colors"
+                            class:border-indigo-500={showLydiaQr} class:bg-gray-600={showLydiaQr}
+                            class:border-gray-600={!showLydiaQr} class:bg-gray-700={!showLydiaQr}
+                            class:hover:border-indigo-500={!showLydiaQr} class:hover:bg-gray-600={!showLydiaQr}
+                            disabled={isProcessingPayment}>
                             <div class="flex items-center justify-between">
                                 <div class="flex items-center gap-3">
                                     <img 
                                         src="https://cdn.newfinancer.com/wp-content/uploads/2022/09/lydia-logo-150x150.png" 
                                         alt="Lydia" 
-                                        class="h-6 w-6 grayscale opacity-50"
+                                        class="h-6 w-6"
                                     />
                                     <h3 class="font-semibold">Lydia</h3>
                                 </div>
-                                <span class="text-gray-400">Bientôt disponible</span>
+                                <span class="text-gray-400">{showLydiaQr ? '▲' : '▼'}</span>
                             </div>
                         </button>
+
+                        {#if showLydiaQr}
+                            <div class="mt-4 space-y-4 rounded-lg border border-gray-700 p-4">
+                                <div class="flex flex-col items-center">
+                                    <img src="/qrCodeLydia.png" alt="Lydia QR Code" class="w-48 h-48 object-contain" />
+                                    <p class="mt-4 text-sm text-gray-400 text-center">
+                                        Scannez ce QR code avec l'application Lydia ou votre application bancaire pour effectuer votre don.
+                                    </p>
+                                    <a href="https://pots.lydia.me/collect/pots?id=54433-veillemedicale" target="_blank" rel="noopener noreferrer" 
+                                        class="mt-2 text-sm text-green-400 hover:text-green-300 underline">
+                                        Ou cliquez ici pour payer avec Lydia
+                                    </a>
+                                </div>
+                            </div>
+                        {/if}
                     </div>
                 {/if}
             </div>
