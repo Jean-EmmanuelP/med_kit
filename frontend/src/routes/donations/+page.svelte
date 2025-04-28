@@ -56,10 +56,16 @@ Je recommande 👌
 
     // --- Wero State ---
     let showWeroQr = $state(false);
+    let weroCopyStatus = $state<'idle' | 'copied' | 'error'>('idle');
+    let weroCopyTimeoutId: ReturnType<typeof setTimeout> | null = null;
+    const weroPhoneNumber = "+330615063420";
+    const weroPaymentLink = "https://share.weropay.eu/p/1/c/bQMWb";
 
     // --- Lydia State ---
     let showLydia = $state(false);
     let showLydiaQr = $state(false);
+
+    let isCardValid = false; // Track if the card details are valid
 
     async function handleCopyShareText() {
         if (copyStatus === 'copied') return; // Don't do anything if already copied recently
@@ -325,6 +331,11 @@ Je recommande 👌
                 await tick(); // Wait for Svelte DOM update
                 cardElement.mount(mountId); // Mount to the specific div
                 console.log(`Card element mounted to ${mountId}.`);
+
+                cardElement.on('change', (event) => {
+                    isCardValid = event.complete;
+                    console.log('Card details are valid:', isCardValid);
+                });
 
             } else { // sepa_debit
                 ibanElement = elements.create('iban', {
@@ -666,6 +677,22 @@ Je recommande 👌
     function openFeedbackModal() {
         isFeedbackModalOpen = true;
     }
+
+    // --- Function to copy Wero phone number ---
+    async function handleCopyWeroNumber() {
+        if (weroCopyStatus === 'copied') return;
+        try {
+            await navigator.clipboard.writeText(weroPhoneNumber);
+            weroCopyStatus = 'copied';
+            if (weroCopyTimeoutId) clearTimeout(weroCopyTimeoutId);
+            weroCopyTimeoutId = setTimeout(() => { weroCopyStatus = 'idle'; weroCopyTimeoutId = null; }, 2000);
+        } catch (err) {
+            console.error('Failed to copy Wero number:', err);
+            weroCopyStatus = 'error';
+            if (weroCopyTimeoutId) clearTimeout(weroCopyTimeoutId);
+            weroCopyTimeoutId = setTimeout(() => { weroCopyStatus = 'idle'; weroCopyTimeoutId = null; }, 3000);
+        }
+    }
 </script>
 
 <svelte:head>
@@ -779,7 +806,7 @@ Je recommande 👌
                                 <div id="card-element">
                                     {#if !cardElement}<p class="text-sm text-gray-400">Chargement du formulaire de carte...</p>{/if}
                                 </div>
-                                <button type="submit" disabled={!stripe || !cardElement || isProcessingPayment}
+                                <button type="submit"
                                     class="w-full rounded-lg bg-orange-600 px-6 py-3 text-lg font-semibold text-white shadow-md transition-all duration-300 hover:bg-orange-700 disabled:cursor-not-allowed disabled:bg-gray-600 disabled:opacity-70">
                                     {#if isProcessingPayment && activePaymentMethodType === 'card'}
                                         <span class="flex items-center justify-center">
@@ -847,7 +874,7 @@ Je recommande 👌
                             </form>
                         {/if}
 
-                        <!-- Wero Payment Option -->
+                        <!-- Wero Payment Option Button -->
                         <button type="button" on:click={() => showWeroQr = !showWeroQr}
                             class="w-full rounded-lg border-2 p-4 text-left transition-colors"
                             class:border-green-500={showWeroQr} class:bg-gray-600={showWeroQr}
@@ -856,9 +883,9 @@ Je recommande 👌
                             disabled={isProcessingPayment}>
                             <div class="flex items-center justify-between">
                                 <div class="flex items-center gap-3">
-                                    <img 
-                                        src="https://wero-wallet.eu/favicon.ico" 
-                                        alt="Wero" 
+                                    <img
+                                        src="https://wero-wallet.eu/favicon.ico"
+                                        alt="Wero"
                                         class="h-6 w-6"
                                     />
                                     <h3 class="font-semibold">Wero</h3>
@@ -867,17 +894,61 @@ Je recommande 👌
                             </div>
                         </button>
 
+                        <!-- Enhanced Wero Section (conditional display) -->
                         {#if showWeroQr}
-                            <div class="mt-4 space-y-4 rounded-lg border border-gray-700 p-4">
-                                <div class="flex flex-col items-center">
-                                    <img src="/image.png" alt="Wero QR Code" class="w-48 h-48 object-contain" />
-                                    <p class="mt-4 text-sm text-gray-400 text-center">
-                                        Scannez ce QR code avec l'application Wero ou votre application bancaire pour effectuer votre don.
-                                    </p>
-                                    <a href="https://share.weropay.eu/p/1/c/bQMWb" target="_blank" rel="noopener noreferrer" 
-                                        class="mt-2 text-sm text-green-400 hover:text-green-300 underline">
-                                        Ou cliquez ici pour payer avec Wero
-                                    </a>
+                            <div class="mt-4 space-y-4 rounded-lg border border-gray-700 p-4 bg-gray-700/30">
+                                <div class="flex flex-col items-center gap-4">
+                                    <!-- QR Code -->
+                                    <img src="/image.png" alt="Wero QR Code" class="w-48 h-48 object-contain rounded-md border border-gray-600" />
+
+                                    <!-- Instructions -->
+                                    <div class="text-center space-y-3">
+                                        <p class="text-sm text-gray-200">
+                                            <strong class="text-white block mb-1">Option 1: Scan QR Code</strong>
+                                            Utilisez votre application <strong class="text-white">Wero</strong> ou votre <strong class="text-white">application bancaire compatible</strong> pour scanner le qrcode ci-dessus.
+                                        </p>
+                                        <div class="border-t border-gray-600 pt-3 mt-3">
+                                            <p class="text-sm text-gray-400 mb-2">
+                                                <strong class="text-white block mb-1">Option 2 (si le scan échoue ou si demandé):</strong>
+                                                 Utilisez le numéro de téléphone suivant :
+                                            </p>
+                                            <!-- Phone number with copy button -->
+                                            <div class="relative inline-flex items-center justify-center gap-2 bg-gray-900/50 p-2 rounded-md border border-gray-600 max-w-xs mx-auto">
+                                                <span class="font-mono text-base text-teal-300 select-all" id="wero-number">{weroPhoneNumber}</span>
+                                                <button
+                                                    type="button"
+                                                    title="Copier le numéro"
+                                                    on:click={handleCopyWeroNumber}
+                                                    class="p-1 rounded-md text-gray-400 hover:text-white hover:bg-gray-600 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:ring-offset-1 focus:ring-offset-gray-800 disabled:opacity-50"
+                                                    disabled={weroCopyStatus === 'copied'}
+                                                >
+                                                    {#if weroCopyStatus === 'copied'}
+                                                        <Check class="h-4 w-4 text-green-400" />
+                                                    {:else if weroCopyStatus === 'error'}
+                                                        <Copy class="h-4 w-4 text-red-400" />
+                                                    {:else}
+                                                        <Copy class="h-4 w-4" />
+                                                    {/if}
+                                                </button>
+                                                 {#if weroCopyStatus === 'copied'}
+                                                    <span class="text-xs text-green-400 font-medium absolute -bottom-5 left-1/2 transform -translate-x-1/2 whitespace-nowrap bg-gray-900 px-1 rounded">Copié!</span>
+                                                 {/if}
+                                                 {#if weroCopyStatus === 'error'}
+                                                    <span class="text-xs text-red-400 font-medium absolute -bottom-5 left-1/2 transform -translate-x-1/2 whitespace-nowrap bg-gray-900 px-1 rounded">Erreur</span>
+                                                 {/if}
+                                            </div>
+                                        </div>
+                                        <div class="border-t border-gray-600 pt-3 mt-3">
+                                             <p class="text-sm text-gray-400">
+                                                <strong class="text-white block mb-1">Puis ouvrez ce Lien Direct</strong>
+                                                <a href={weroPaymentLink} target="_blank" rel="noopener noreferrer"
+                                                    class="text-teal-400 hover:text-teal-300 underline inline-flex items-center gap-1">
+                                                    Cliquez ici pour payer via Wero
+                                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-3 h-3"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" /></svg>
+                                                </a>
+                                            </p>
+                                         </div>
+                                    </div>
                                 </div>
                             </div>
                         {/if}
