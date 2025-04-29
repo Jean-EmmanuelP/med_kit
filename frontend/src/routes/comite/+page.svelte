@@ -77,11 +77,32 @@
         },
         {
             specialty: 'Rhumatologie',
-            name: 'Dr Félix Laborie',
+            name: 'Félix Laborie',
             title: 'Interne de Rhumatologie',
             affiliation: 'AP-HP',
             focus: null // No specific focus listed
         },
+        {
+            specialty: 'Chirurgie pédiatrique',
+            name: 'Maxence de Lanversin',
+            title: 'Interne en chirurgie pédiatrique',
+            affiliation: 'CHU de Poitiers',
+            focus: 'Chirurgie plastique pédiatrique '
+        },
+        {
+            specialty: 'Urologie',
+            name: 'Dr Alexandra Clerget',
+            title: 'Docteur en Urologie',
+            affiliation: 'Hopital Paris Saint Joseph (ESPIC)',
+            focus: 'Andrologie et médecine de la reproduction',
+        },
+        {
+            specialty: 'Oncologie',
+            name: 'Jean-Baptiste Demigné',
+            title: 'Interne en oncologie médicale',
+            affiliation: 'AP-HM Timone',
+            focus: null,
+        }
 	].sort((a, b) => { // Ensure sorting is done definitively here
         const specialtyCompare = a.specialty.localeCompare(b.specialty, 'fr', { sensitivity: 'base' });
         if (specialtyCompare !== 0) {
@@ -144,7 +165,7 @@
         const emojiMap: Record<string, string> = {
             'Chirurgie orthopédique': '🦴', 'Chirurgie pédiatrique': '👶', 'Cardiologie': '❤️',
             'Endocrinologie – Diabétologie – Nutrition': '⚖️', 'Hématologie': '🩸',
-            'Neurochirurgie': '🧠', 'Rhumatologie': '🦵', 'Urgences': '🚑', 'Urologie': '💧'
+            'Neurochirurgie': '🧠', 'Rhumatologie': '🦴', 'Urgences': '🚑', 'Urologie': '💧', 'Oncologie': '🎗️'
         };
         return emojiMap[specialty] || '⚕️';
     }
