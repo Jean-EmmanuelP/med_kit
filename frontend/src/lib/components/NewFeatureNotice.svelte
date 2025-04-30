@@ -1,4 +1,4 @@
-<!-- src/lib/components/NewFeatureNotice.svelte -->
+<!-- src/lib/components/SupportCommitteeNotice.svelte -->
 <script lang="ts">
 	import { cn } from '$lib/utils.js';
 	import { X } from 'lucide-svelte';
@@ -7,18 +7,18 @@
 	// Define the event this component can dispatch
 	const dispatch = createEventDispatcher<{ dismiss: void }>();
 
-	// Receive visibility state directly from the parent (Header.svelte)
+	// Receive visibility state directly from the parent
 	let { isVisible = false } = $props<{ isVisible: boolean }>();
 
 	// Function to handle the dismiss action
 	function dismiss() {
-		// Just signal the parent component to handle the logic (API call, state update)
+		// Signal the parent component to handle the logic (API call, state update)
 		dispatch('dismiss');
 	}
 
 	// CSS classes for the notice box
 	const wrapperClasses = $derived(cn(
-		"w-64 rounded-lg border border-gray-700 bg-gray-800 p-4 shadow-lg animate-fade-in text-white", // Ensure base text color
+		"w-72 rounded-lg border border-gray-700 bg-gray-800 p-4 shadow-lg animate-fade-in text-white", // Wider for new content
 		"absolute top-full right-0 z-20 mt-2" // Desktop positioning
 	));
 
@@ -45,16 +45,19 @@
 		</button>
 
 		<!-- Notice Content -->
-		<h4 class="mb-2 text-sm font-semibold text-white">🛠️ Nouveauté dans Paramètres !</h4>
+		<h4 class="mb-2 text-sm font-semibold text-white">💖 Contribuez à Veille Médicale !</h4>
 		<ul class="mb-3 list-none space-y-1 pl-0 text-xs text-gray-300">
-			<li>🎯 <strong class="font-medium text-teal-400">Sous-spécialités</strong> : affine tes domaines.</li>
-			<li>🔬 <strong class="font-medium text-teal-400">Niveau de preuve</strong> : choisis tes grades (A, B, C).</li>
+			<li>
+                🙏 <strong class="font-medium text-teal-400">Soutenez-nous</strong> : Aidez à maintenir le service via un
+                <a href="/donations" class="font-medium text-teal-500 hover:text-teal-400 hover:underline">don</a>.
+            </li>
+			<li>
+                🧑‍🔬 <strong class="font-medium text-teal-400">Comité Scientifique</strong> : Envie de participer ?
+                <a href="/comite" class="font-medium text-teal-500 hover:text-teal-400 hover:underline">Rejoignez-nous</a> !
+            </li>
 		</ul>
-		<a href="/account" class="mb-3 block text-xs font-medium text-teal-400 hover:text-teal-300 hover:underline">
-			👉 Clique ici pour personnaliser !
-		</a>
 		<p class="border-t border-gray-700 pt-2 text-xs text-gray-400">
-			➕ N'oublie pas de compléter ton profil ! (nom, statut, etc.)
+			Votre soutien et votre expertise sont précieux !
 		</p>
 	</div>
 {/if}

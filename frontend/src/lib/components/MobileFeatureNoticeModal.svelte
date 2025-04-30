@@ -1,4 +1,4 @@
-<!-- src/lib/components/MobileFeatureNoticeModal.svelte -->
+<!-- src/lib/components/MobileSupportCommitteeNoticeModal.svelte -->
 <script lang="ts">
 	import { X } from 'lucide-svelte';
 	import { createEventDispatcher } from 'svelte';
@@ -7,7 +7,7 @@
 	// Prop to control modal visibility
 	let { isOpen = false } = $props<{ isOpen: boolean }>();
 
-	// Event dispatcher to signal dismissal to the parent (Header.svelte)
+	// Event dispatcher to signal dismissal to the parent
 	const dispatch = createEventDispatcher<{ closeAndDismiss: void }>();
 
 	function closeAndDismiss() {
@@ -39,7 +39,7 @@
 		on:keydown={handleKeydown}
 		role="dialog"
 		aria-modal="true"
-		aria-labelledby="mobile-notice-title"
+		aria-labelledby="mobile-support-committee-notice-title"
 		transition:fly={{ y: 20, duration: 200 }}
 	>
 		<div class="relative w-full max-w-sm rounded-xl bg-gray-800 p-6 shadow-2xl text-white">
@@ -54,18 +54,21 @@
 			</button>
 
 			<!-- Notice Content -->
-			<h4 id="mobile-notice-title" class="mb-3 text-base font-semibold text-white pr-6">
-				🛠️ Nouveauté dans Paramètres !
+			<h4 id="mobile-support-committee-notice-title" class="mb-3 text-base font-semibold text-white pr-6">
+				💖 Contribuez à Veille Médicale !
 			</h4>
 			<ul class="mb-4 list-none space-y-1.5 pl-0 text-sm text-gray-300">
-				<li>🎯 <strong class="font-medium text-teal-400">Sous-spécialités</strong> : affine tes domaines.</li>
-				<li>🔬 <strong class="font-medium text-teal-400">Niveau de preuve</strong> : choisis tes grades (A, B, C).</li>
+                 <li>
+                    🙏 <strong class="font-medium text-teal-400">Soutenez-nous</strong> : Aidez à maintenir le service via un
+                    <a href="/donations" on:click={closeAndDismiss} class="font-medium text-teal-500 hover:text-teal-400 hover:underline">don</a>.
+                </li>
+                <li>
+                    🧑‍🔬 <strong class="font-medium text-teal-400">Comité Scientifique</strong> : Envie de participer ?
+                    <a href="/comite" on:click={closeAndDismiss} class="font-medium text-teal-500 hover:text-teal-400 hover:underline">Rejoignez-nous</a> !
+                </li>
 			</ul>
-			<a href="/account" on:click={closeAndDismiss} class="mb-4 block text-sm font-medium text-teal-400 hover:text-teal-300 hover:underline">
-				👉 Clique ici pour personnaliser !
-			</a>
 			<p class="border-t border-gray-700 pt-3 text-sm text-gray-400">
-				➕ N'oublie pas de compléter ton profil ! (nom, statut, etc.)
+				Votre soutien et votre expertise sont précieux !
 			</p>
 		</div>
 	</div>
