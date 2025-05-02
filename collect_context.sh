@@ -32,6 +32,8 @@ EXCLUDE_NAMES=(
     "bun.lockb"
     "bun.lock"
     ".DS_Store"
+    "*.json"
+    "*.txt"
     # Add more patterns or names as needed
 )
 

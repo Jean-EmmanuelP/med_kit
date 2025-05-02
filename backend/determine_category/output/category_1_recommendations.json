@@ -1,0 +1,513 @@
+[
+  {
+    "id": 178,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO.23.02746.",
+    "classified_category": 1,
+    "original_grade": "A",
+    "processed_at": "2025-04-30T13:29:59.034695+00:00"
+  },
+  {
+    "id": 181,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO.23.02744.",
+    "classified_category": 1,
+    "original_grade": "A",
+    "processed_at": "2025-04-30T13:30:05.016196+00:00"
+  },
+  {
+    "id": 246,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1053/j.gastro.2024.10.001.",
+    "classified_category": 1,
+    "original_grade": "C",
+    "processed_at": "2025-04-30T13:30:42.905795+00:00"
+  },
+  {
+    "id": 268,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.jtha.2024.02.011.",
+    "classified_category": 1,
+    "original_grade": "A",
+    "processed_at": "2025-04-30T13:30:59.494802+00:00"
+  },
+  {
+    "id": 449,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S1474-4422(23)00447-7.",
+    "classified_category": 1,
+    "original_grade": "C",
+    "processed_at": "2025-04-30T13:34:31.956135+00:00"
+  },
+  {
+    "id": 726,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamanetworkopen.2024.17431.",
+    "classified_category": 1,
+    "original_grade": "A",
+    "processed_at": "2025-04-30T13:38:43.291979+00:00"
+  },
+  {
+    "id": 768,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.2147/JPR.S451006.",
+    "classified_category": 1,
+    "original_grade": "C",
+    "processed_at": "2025-04-30T13:39:42.011105+00:00"
+  },
+  {
+    "id": 778,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1542/peds.2024-068752.",
+    "classified_category": 1,
+    "original_grade": "B",
+    "processed_at": "2025-04-30T13:39:55.990360+00:00"
+  },
+  {
+    "id": 784,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1136/ard-2024-226448.",
+    "classified_category": 1,
+    "original_grade": "B",
+    "processed_at": "2025-04-30T13:40:01.815020+00:00"
+  },
+  {
+    "id": 1002,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1136/ard-2024-225853.",
+    "classified_category": 1,
+    "original_grade": "A",
+    "processed_at": "2025-04-30T13:43:33.120518+00:00"
+  },
+  {
+    "id": 1004,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1136/ard-2024-225854.",
+    "classified_category": 1,
+    "original_grade": "A",
+    "processed_at": "2025-04-30T13:43:35.454966+00:00"
+  },
+  {
+    "id": 1005,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1136/ard-2024-225851.",
+    "classified_category": 1,
+    "original_grade": "C",
+    "processed_at": "2025-04-30T13:43:37.666368+00:00"
+  },
+  {
+    "id": 1011,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1136/ard-2024-226429.",
+    "classified_category": 1,
+    "original_grade": "A",
+    "processed_at": "2025-04-30T13:43:41.476008+00:00"
+  },
+  {
+    "id": 1016,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1136/ard-2024-226430.",
+    "classified_category": 1,
+    "original_grade": "C",
+    "processed_at": "2025-04-30T13:43:46.267142+00:00"
+  },
+  {
+    "id": 1018,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1136/ard-2023-225319.",
+    "classified_category": 1,
+    "original_grade": "A",
+    "processed_at": "2025-04-30T13:43:50.324016+00:00"
+  },
+  {
+    "id": 1020,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1136/ard-2024-226446.",
+    "classified_category": 1,
+    "original_grade": "C",
+    "processed_at": "2025-04-30T13:43:52.659083+00:00"
+  },
+  {
+    "id": 1052,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO.23.02596.",
+    "classified_category": 1,
+    "original_grade": "B",
+    "processed_at": "2025-04-30T13:44:35.420931+00:00"
+  },
+  {
+    "id": 1065,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO.24.00541.",
+    "classified_category": 1,
+    "original_grade": "A",
+    "processed_at": "2025-04-30T13:44:40.087748+00:00"
+  },
+  {
+    "id": 1154,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.2519/jospt.2024.0301.",
+    "classified_category": 1,
+    "original_grade": "C",
+    "processed_at": "2025-04-30T13:46:04.261110+00:00"
+  },
+  {
+    "id": 1315,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1053/j.gastro.2025.01.002",
+    "classified_category": 1,
+    "original_grade": "C",
+    "processed_at": "2025-04-30T13:48:45.359199+00:00"
+  },
+  {
+    "id": 1323,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1053/j.gastro.2025.02.002",
+    "classified_category": 1,
+    "original_grade": "C",
+    "processed_at": "2025-04-30T13:49:01.088156+00:00"
+  },
+  {
+    "id": 1353,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1053/j.gastro.2024.03.019",
+    "classified_category": 1,
+    "original_grade": "C",
+    "processed_at": "2025-04-30T13:50:31.925834+00:00"
+  },
+  {
+    "id": 1392,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.anai.2023.11.009",
+    "classified_category": 1,
+    "original_grade": "C",
+    "processed_at": "2025-04-30T13:52:45.745265+00:00"
+  },
+  {
+    "id": 1469,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.ajem.2024.11.093",
+    "classified_category": 1,
+    "original_grade": "C",
+    "processed_at": "2025-04-30T13:57:00.578911+00:00"
+  },
+  {
+    "id": 1505,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamasurg.2024.2044",
+    "classified_category": 1,
+    "original_grade": "C",
+    "processed_at": "2025-04-30T13:59:00.657644+00:00"
+  },
+  {
+    "id": 1511,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO.23.02750",
+    "classified_category": 1,
+    "original_grade": "B",
+    "processed_at": "2025-04-30T13:59:37.520845+00:00"
+  },
+  {
+    "id": 1562,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1213/ANE.0000000000007173",
+    "classified_category": 1,
+    "original_grade": "B",
+    "processed_at": "2025-04-30T14:02:34.594560+00:00"
+  },
+  {
+    "id": 1591,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1097/CCM.0000000000006551",
+    "classified_category": 1,
+    "original_grade": "B",
+    "processed_at": "2025-04-30T14:04:01.593090+00:00"
+  },
+  {
+    "id": 1605,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1136/bmj-2024-079830",
+    "classified_category": 1,
+    "original_grade": "A",
+    "processed_at": "2025-04-30T14:04:53.872122+00:00"
+  },
+  {
+    "id": 1621,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.2147/JPR.S480559",
+    "classified_category": 1,
+    "original_grade": "C",
+    "processed_at": "2025-04-30T14:05:50.834347+00:00"
+  },
+  {
+    "id": 1624,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1093/cid/ciaa1063",
+    "classified_category": 1,
+    "original_grade": "C",
+    "processed_at": "2025-04-30T14:05:58.822867+00:00"
+  },
+  {
+    "id": 1661,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.ajem.2024.12.054",
+    "classified_category": 1,
+    "original_grade": "C",
+    "processed_at": "2025-04-30T14:08:03.547594+00:00"
+  },
+  {
+    "id": 1665,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO.24.01160",
+    "classified_category": 1,
+    "original_grade": "B",
+    "processed_at": "2025-04-30T14:08:30.950708+00:00"
+  },
+  {
+    "id": 1677,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1161/CIR.0000000000001274",
+    "classified_category": 1,
+    "original_grade": "A",
+    "processed_at": "2025-04-30T14:08:57.202571+00:00"
+  },
+  {
+    "id": 1684,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.7326/ANNALS-24-00315",
+    "classified_category": 1,
+    "original_grade": "A",
+    "processed_at": "2025-04-30T14:09:35.342140+00:00"
+  },
+  {
+    "id": 1718,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jamasurg.2017.0904",
+    "classified_category": 1,
+    "original_grade": "A",
+    "processed_at": "2025-04-30T14:11:35.888470+00:00"
+  },
+  {
+    "id": 1729,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.ejca.2021.05.013",
+    "classified_category": 1,
+    "original_grade": "A",
+    "processed_at": "2025-04-30T14:12:03.167295+00:00"
+  },
+  {
+    "id": 1734,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO-24-02425",
+    "classified_category": 1,
+    "original_grade": "A",
+    "processed_at": "2025-04-30T14:12:33.522056+00:00"
+  },
+  {
+    "id": 1742,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1136/archdischild-2024-326917",
+    "classified_category": 1,
+    "original_grade": "A",
+    "processed_at": "2025-04-30T14:12:54.521789+00:00"
+  },
+  {
+    "id": 1751,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.ard.2025.01.024",
+    "classified_category": 1,
+    "original_grade": "B",
+    "processed_at": "2025-04-30T14:13:31.397650+00:00"
+  },
+  {
+    "id": 1780,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.7326/ANNALS-24-01052",
+    "classified_category": 1,
+    "original_grade": "C",
+    "processed_at": "2025-04-30T14:15:01.344751+00:00"
+  },
+  {
+    "id": 1849,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1097/CCM.0000000000006574",
+    "classified_category": 1,
+    "original_grade": "C",
+    "processed_at": "2025-04-30T14:18:58.630912+00:00"
+  },
+  {
+    "id": 1885,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.chest.2024.02.049",
+    "classified_category": 1,
+    "original_grade": "B",
+    "processed_at": "2025-04-30T14:20:59.028869+00:00"
+  },
+  {
+    "id": 1897,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO-24-02608",
+    "classified_category": 1,
+    "original_grade": "B",
+    "processed_at": "2025-04-30T14:21:50.264285+00:00"
+  },
+  {
+    "id": 1914,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO.22.02224",
+    "classified_category": 1,
+    "original_grade": "A",
+    "processed_at": "2025-04-30T14:22:45.805971+00:00"
+  },
+  {
+    "id": 1920,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1164/rccm.202310-1857ST",
+    "classified_category": 1,
+    "original_grade": "C",
+    "processed_at": "2025-04-30T14:22:59.569996+00:00"
+  },
+  {
+    "id": 1925,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1136/annrheumdis-2014-206844",
+    "classified_category": 1,
+    "original_grade": "C",
+    "processed_at": "2025-04-30T14:23:32.992504+00:00"
+  },
+  {
+    "id": 1949,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1503/cmaj.241173",
+    "classified_category": 1,
+    "original_grade": "A",
+    "processed_at": "2025-04-30T14:24:50.776345+00:00"
+  },
+  {
+    "id": 1952,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1161/STR.0000000000000475",
+    "classified_category": 1,
+    "original_grade": "C",
+    "processed_at": "2025-04-30T14:24:59.254609+00:00"
+  },
+  {
+    "id": 1970,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S1473-3099(24)00581-4",
+    "classified_category": 1,
+    "original_grade": "C",
+    "processed_at": "2025-04-30T14:25:59.466089+00:00"
+  },
+  {
+    "id": 1994,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1053/j.gastro.2024.11.008",
+    "classified_category": 1,
+    "original_grade": "C",
+    "processed_at": "2025-04-30T14:27:39.122379+00:00"
+  },
+  {
+    "id": 2005,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jama.2024.27154",
+    "classified_category": 1,
+    "original_grade": "C",
+    "processed_at": "2025-04-30T14:28:06.156603+00:00"
+  },
+  {
+    "id": 2032,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.jtcvs.2023.04.023",
+    "classified_category": 1,
+    "original_grade": "C",
+    "processed_at": "2025-04-30T14:29:49.252581+00:00"
+  },
+  {
+    "id": 2061,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1136/ard-2024-225981",
+    "classified_category": 1,
+    "original_grade": "B",
+    "processed_at": "2025-04-30T14:31:38.123246+00:00"
+  },
+  {
+    "id": 2078,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO-24-02755",
+    "classified_category": 1,
+    "original_grade": "C",
+    "processed_at": "2025-04-30T14:32:37.724017+00:00"
+  },
+  {
+    "id": 2081,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1161/CIR.0000000000001288",
+    "classified_category": 1,
+    "original_grade": "C",
+    "processed_at": "2025-04-30T14:32:45.186960+00:00"
+  },
+  {
+    "id": 2140,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO.23.02745",
+    "classified_category": 1,
+    "original_grade": "A",
+    "processed_at": "2025-04-30T14:35:57.036434+00:00"
+  },
+  {
+    "id": 2148,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.7326/M23-2788",
+    "classified_category": 1,
+    "original_grade": "A",
+    "processed_at": "2025-04-30T14:36:37.397793+00:00"
+  },
+  {
+    "id": 2155,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO.24.00662",
+    "classified_category": 1,
+    "original_grade": "C",
+    "processed_at": "2025-04-30T14:36:53.190605+00:00"
+  },
+  {
+    "id": 2158,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.7326/ANNALS-24-03095",
+    "classified_category": 1,
+    "original_grade": "A",
+    "processed_at": "2025-04-30T14:37:01.179565+00:00"
+  },
+  {
+    "id": 2169,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1136/gutjnl-2023-331550",
+    "classified_category": 1,
+    "original_grade": "B",
+    "processed_at": "2025-04-30T14:37:45.172303+00:00"
+  },
+  {
+    "id": 2179,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO.24.00542",
+    "classified_category": 1,
+    "original_grade": "A",
+    "processed_at": "2025-04-30T14:38:33.094794+00:00"
+  },
+  {
+    "id": 2188,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1542/peds.2024-068444",
+    "classified_category": 1,
+    "original_grade": "A",
+    "processed_at": "2025-04-30T14:38:53.738277+00:00"
+  },
+  {
+    "id": 2204,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.chest.2024.08.056",
+    "classified_category": 1,
+    "original_grade": "B",
+    "processed_at": "2025-04-30T14:39:48.049700+00:00"
+  },
+  {
+    "id": 2235,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO-24-02589",
+    "classified_category": 1,
+    "original_grade": "C",
+    "processed_at": "2025-04-30T14:41:46.629138+00:00"
+  },
+  {
+    "id": 2295,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO-24-02782",
+    "classified_category": 1,
+    "original_grade": "C",
+    "processed_at": "2025-04-30T14:45:03.117101+00:00"
+  },
+  {
+    "id": 2317,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1136/bmj-2024-082656",
+    "classified_category": 1,
+    "original_grade": "A",
+    "processed_at": "2025-04-30T14:46:35.771002+00:00"
+  },
+  {
+    "id": 2330,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO.24.00032",
+    "classified_category": 1,
+    "original_grade": "A",
+    "processed_at": "2025-04-30T14:47:09.191935+00:00"
+  },
+  {
+    "id": 2412,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1200/JCO-25-00099",
+    "classified_category": 1,
+    "original_grade": "A",
+    "processed_at": "2025-04-30T14:51:50.955837+00:00"
+  },
+  {
+    "id": 2430,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jama.2025.3650",
+    "classified_category": 1,
+    "original_grade": "B",
+    "processed_at": "2025-04-30T14:52:54.238614+00:00"
+  },
+  {
+    "id": 2442,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1111/dom.16352",
+    "classified_category": 1,
+    "original_grade": "A",
+    "processed_at": "2025-04-30T14:53:39.336165+00:00"
+  },
+  {
+    "id": 2479,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.chest.2024.08.037",
+    "classified_category": 1,
+    "original_grade": "A",
+    "processed_at": "2025-04-30T14:55:40.866340+00:00"
+  },
+  {
+    "id": 2494,
+    "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1503/cmaj.241456",
+    "classified_category": 1,
+    "original_grade": "A",
+    "processed_at": "2025-04-30T14:56:35.301531+00:00"
+  }
+]

@@ -32,6 +32,11 @@
     "login": {
       "title": "S'inscrire",
       "loginTitle": "Connexion",
+      "passwordConfirmLabel": "Confirmer le mot de passe",
+      "passwordConfirmPlaceholder": "Retapez votre mot de passe",
+      "passwordsDoNotMatch": "Les mots de passe ne correspondent pas.",
+      "showPassword": "Afficher",
+      "hidePassword": "Masquer",
       "firstName": "Prénom",
       "lastName": "Nom",
       "emailLabel": "Email",
@@ -182,6 +187,22 @@
             "backHomeButton": "Retour à l'accueil",
             "retryButton": "Réessayer le don"
         }
+    },
+    "signup": {
+      "emailLabel": "Email",
+      "emailPlaceholder": "votre.email@exemple.com",
+      "passwordLabel": "Mot de passe",
+      "passwordPlaceholder": "Choisissez un mot de passe fort",
+      "passwordConfirmLabel": "Confirmer le mot de passe",
+      "passwordConfirmPlaceholder": "Retapez votre mot de passe",
+      "passwordsDoNotMatch": "Les mots de passe ne correspondent pas.",
+      "showPassword": "Afficher le mot de passe",
+      "hidePassword": "Masquer",
+      "nextButton": "Suivant",
+      "signupButton": "S'inscrire",
+      "signingUp": "Inscription en cours...",
+      "missingEmailPassword": "Veuillez remplir l'email et le mot de passe.",
+      "missingDisciplines": "Veuillez sélectionner au moins une discipline."
     }
   }
 }
