@@ -117,7 +117,7 @@
 	<!--      NEW HERO SECTION    -->
 	<!-- ======================== -->
 	<section class="relative pt-28 pb-24 md:pt-28 md:pb-24 overflow-hidden bg-gradient-to-b from-gray-950 via-black to-black">
-        <div class="absolute inset-0 bg-[url('/grid.svg')] bg-center [mask-image:linear-gradient(180deg,white,rgba(255,255,255,0))] opacity-5"></div>
+        <div class="absolute inset-0 bg-center [mask-image:linear-gradient(180deg,white,rgba(255,255,255,0))] opacity-5"></div>
         <div class="container relative z-10 mx-auto max-w-5xl px-4 text-center">
 
             <!-- Main Headline -->
