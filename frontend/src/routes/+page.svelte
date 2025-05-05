@@ -249,7 +249,7 @@
                         <FileText class="h-6 w-6 text-teal-400" />
                     </div>
                     <h3 class="text-lg font-semibold text-white mb-1">1. Sélection des Sources</h3>
-                    <p class="text-sm text-gray-400">PubMed, Cochrane.</p>
+                    <p class="text-sm text-gray-400">Notre algorithme sélectionne les meilleures études issues de PubMed et Cochrane.</p>
                 </div>
 
                 <!-- Arrow for mobile -->
@@ -271,7 +271,7 @@
                         <Brain class="h-6 w-6 text-teal-400" />
                     </div>
                     <h3 class="text-lg font-semibold text-white mb-1">2. Analyse par IA</h3>
-                    <p class="text-sm text-gray-400">Tri, résumé initial et identification des points clés.</p>
+                    <p class="text-sm text-gray-400">Chaque article est synthétisé puis classé par spécialité médicale.</p>
                 </div>
 
                 <!-- Arrow for mobile -->
@@ -293,7 +293,7 @@
                         <Users class="h-6 w-6 text-teal-400" />
                     </div>
                     <h3 class="text-lg font-semibold text-white mb-1">3. Validation Médicale</h3>
-                    <p class="text-sm text-gray-400">Relecture et correction par nos experts.</p>
+                    <p class="text-sm text-gray-400">Relecture par des experts, et proposition de nouvelles publications.</p>
                 </div>
 
                 <!-- Arrow for mobile -->
@@ -315,7 +315,7 @@
                         <Mail class="h-6 w-6 text-teal-400" />
                     </div>
                     <h3 class="text-lg font-semibold text-white mb-1">4. Votre Veille Prête</h3>
-                    <p class="text-sm text-gray-400">Synthèse claire et concise, directement dans votre boîte mail.</p>
+                    <p class="text-sm text-gray-400">Des synthèses claires et concises, directement dans votre boîte mail.</p>
                 </div>
             </div>
         </div>
