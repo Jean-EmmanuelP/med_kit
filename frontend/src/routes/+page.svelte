@@ -1,509 +1,369 @@
+<!--- File Path: frontend/src/routes/+page.svelte --->
 <script lang="ts">
+	// --- IMPORTS ---
 	import { goto } from '$app/navigation';
+	import ArticleImmersiveModal from '$lib/components/articles/ArticleImmersiveModal.svelte';
 	import * as Select from '$lib/components/ui/select/index.js';
 	import userProfileStore from '$lib/stores/user';
 	import EmbaseSvg from '../lib/svg/EmbaseSvg.svelte';
+// Import modal
+	import type { Article } from '$lib/utils/articleUtils'; // Import Article type
+	// Import Lucide icons for features
+	import { Clock, FileText, Link, Zap } from 'lucide-svelte';
 
-	// Récupération des props avec $props rune
+	// --- PROPS & STATE ---
 	const { data } = $props();
 
-	// Définir les variables réactives avec $state
 	let articles = $state(data.articles || []);
 	let specialties = $state(data.specialties || []);
-	let searchQuery = $state('');
-	let selectedSpecialty = $state(data.specialties?.[0] || ''); // Fallback to empty string if undefined
-	let articleSection = $state(null);
-	let immersiveArticle = $state(null);
+	let selectedSpecialty = $state(data.specialties?.[0] || '');
+	let immersiveArticle = $state<Article | null>(null);
 	let isPlaying = $state(false);
-	let currentStep = $state(0); // Pour gérer l'affichage progressif des arguments
 
-	// Sort specialties alphabetically on initialization
+	// --- DERIVED & COMPUTED ---
 	specialties = specialties.sort((a, b) => a.localeCompare(b, 'fr', { sensitivity: 'base' }));
-
-	// Compute the display label for the selected specialty
 	const triggerContent = $derived(
 		specialties.find((s) => s === selectedSpecialty) ?? 'Choisissez une spécialité'
 	);
 
-	// Gestion du clic sur le bouton "Ma veille" ou "S'inscrire"
-	function handleVeilleClick(event) {
+	// --- UTILITY FUNCTIONS (unchanged from previous) ---
+	function handleVeilleClick(event: MouseEvent) {
 		event.preventDefault();
-		if (!$userProfileStore) {
-			goto('/signup');
-		} else {
-			goto('/ma-veille');
-		}
+		if (!$userProfileStore) { goto('/signup'); } else { goto('/ma-veille'); }
 	}
-
-	// Fonctions utilitaires pour le formatage
-	function formatTitle(title) {
+	function formatTitle(title: string | undefined): string {
 		if (!title) return '';
 		const words = title.toLowerCase().split(' ');
 		if (words.length === 0) return '';
 		words[0] = words[0].charAt(0).toUpperCase() + words[0].slice(1);
 		return words.join(' ');
 	}
-
-	function parseContent(content) {
+	interface ContentSection { emoji: string; title: string; content: string[]; }
+	function parseContent(content: string | undefined): ContentSection[] {
 		if (!content || typeof content !== 'string') return [];
-		const sections = [];
-		let currentSection = { emoji: '', title: '', content: [] };
+		const sections: ContentSection[] = [];
+		let currentSection: ContentSection = { emoji: '', title: '', content: [] };
 		const lines = content.split('\n');
 		let inSection = false;
-
 		for (const line of lines) {
-			if (
-				line.trim().startsWith('## 📝') ||
-				line.trim().startsWith('## 📌') ||
-				line.trim().startsWith('## 🧪') ||
-				line.trim().startsWith('## 📊') ||
-				line.trim().startsWith('## 🩺') ||
-				line.trim().startsWith('## 📖')
-			) {
-				if (inSection && (currentSection.title || currentSection.content.length > 0)) {
-					sections.push(currentSection);
-				}
+			if (line.trim().startsWith('## 📝') || line.trim().startsWith('## 📌') || line.trim().startsWith('## 🧪') || line.trim().startsWith('## 📊') || line.trim().startsWith('## 🩺') || line.trim().startsWith('## 📖')) {
+				if (inSection && (currentSection.title || currentSection.content.length > 0)) { sections.push(currentSection); }
 				inSection = true;
-				const [emoji, ...titleParts] = line
-					.trim()
-					.replace(/^##\s*/, '')
-					.split(' ');
-				currentSection = {
-					emoji: emoji || '📝',
-					title: titleParts.join(' ').trim(),
-					content: []
-				};
+				const parts = line.trim().replace(/^##\s*/, '').split(' ');
+				const emoji = parts[0] || '📝';
+				const titleParts = parts.slice(1);
+				currentSection = { emoji: emoji, title: titleParts.join(' ').trim(), content: [] };
 			} else if (line.trim() && inSection) {
-				currentSection.content.push(line.trim());
+                if (line.trim() !== '---' && line.trim() !== '***' && line.trim() !== '___') { currentSection.content.push(line.trim()); }
 			}
 		}
-		if (inSection && (currentSection.title || currentSection.content.length > 0)) {
-			sections.push(currentSection);
-		}
+		if (inSection && (currentSection.title || currentSection.content.length > 0)) { sections.push(currentSection); }
 		return sections;
 	}
-
-	function extractTitleEmoji(content) {
+	function extractTitleEmoji(content: string | undefined): string {
 		if (!content || typeof content !== 'string') return '📝';
 		const lines = content.split('\n');
 		for (const line of lines) {
-			if (
-				line.trim().startsWith('# 📝') ||
-				line.trim().startsWith('# 📌') ||
-				line.trim().startsWith('# 🧪') ||
-				line.trim().startsWith('# 📊') ||
-				line.trim().startsWith('# 🩺') ||
-				line.trim().startsWith('# 📖')
-			) {
-				const [emoji] = line.trim().split(' ').slice(1);
-				return emoji || '📝';
+            if (line.trim().startsWith('# 📝') || line.trim().startsWith('# 📌') || line.trim().startsWith('# 🧪') || line.trim().startsWith('# 📊') || line.trim().startsWith('# 🩺') || line.trim().startsWith('# 📖')) {
+				const parts = line.trim().split(' ');
+                if(parts.length > 1) { return parts[1] || '📝'; }
 			}
 		}
 		return '📝';
 	}
-
-	function formatDate(publishedAt) {
+	function formatDate(publishedAt: string | undefined): string {
 		if (!publishedAt) return 'Non spécifiée';
-		const date = new Date(publishedAt);
-		return `${date.getDate().toString().padStart(2, '0')}/${(date.getMonth() + 1).toString().padStart(2, '0')}/${date.getFullYear()}`;
+		try {
+			const date = new Date(publishedAt);
+			if (isNaN(date.getTime())) { return 'Date invalide'; }
+			return `${date.getDate().toString().padStart(2, '0')}/${(date.getMonth() + 1).toString().padStart(2, '0')}/${date.getFullYear()}`;
+		} catch (e) { console.error('Error formatting date:', publishedAt, e); return 'Date invalide'; }
+	}
+	function openImmersive(article: Article) { immersiveArticle = article; document.body.classList.add('overflow-hidden'); }
+	function closeImmersive() { immersiveArticle = null; document.body.classList.remove('overflow-hidden'); }
+	function toggleAudio() {
+		const audio = document.getElementById('myAudio') as HTMLAudioElement | null;
+		if (!audio) return;
+		if (isPlaying) { audio.pause(); } else { audio.play().catch(error => console.error("Audio playback error:", error)); }
+		isPlaying = !isPlaying;
 	}
 
-	function openImmersive(article) {
-		immersiveArticle = article;
-		document.body.classList.add('overflow-hidden');
-	}
-
-	function closeImmersive() {
-		immersiveArticle = null;
-		document.body.classList.remove('overflow-hidden');
-	}
-
-	// Filtrer les articles de manière réactive avec $effect
+	// --- EFFECTS (unchanged) ---
 	$effect(() => {
-		let filtered = data.articles || [];
-		if (searchQuery) {
-			filtered = filtered.filter((article) =>
-				article.title.toLowerCase().includes(searchQuery.toLowerCase())
-			);
-		}
+		let filtered: Article[] = data.articles || [];
+		// Keep filtering logic if needed for the bottom section
 		if (selectedSpecialty) {
-			filtered = filtered.filter((article) => article.disciplines.includes(selectedSpecialty));
+			filtered = filtered.filter((article) => article.disciplines?.includes(selectedSpecialty));
 		}
 		articles = filtered;
 	});
 
-	function toggleAudio() {
-		const audio = document.getElementById('myAudio');
-		if (isPlaying) {
-			audio.pause();
-		} else {
-			audio.play();
-		}
-		isPlaying = !isPlaying;
-	}
-
-	// Avancer automatiquement ou manuellement à l'étape suivante après 3 secondes
-	$effect(() => {
-		if (isPlaying && currentStep < 3) {
-			const timer = setTimeout(() => {
-				currentStep += 1;
-			}, 3000); // 3 secondes par argument
-			return () => clearTimeout(timer);
-		}
-	});
 </script>
 
-<main class="relative flex min-h-screen flex-col bg-black text-white">
-	<div class="relative flex-auto space-y-8 px-4 py-12 sm:mx-[10vw] sm:px-0 md:py-16">
-		<div
-			class="flex max-w-full flex-col items-center gap-8 text-center md:max-w-[70%] md:items-start md:text-left"
-		>
-			<!-- Title with Highlighted Keywords -->
-			<h1 class="font-sans text-2xl leading-tight font-bold text-gray-100 sm:text-3xl">
-				<span class="font-bold text-teal-500">L’outil de veille scientifique</span> <br /> conçu
-				pour les <span class="font-bold text-teal-500">professionnels de santé</span>
-			</h1>
+<svelte:head>
+	<title>Veille Médicale - Votre veille scientifique simplifiée</title>
+	<meta name="description" content="Restez à jour avec les dernières études de votre spécialité. Résumés clairs, accès direct aux articles. Conçu par et pour les professionnels de santé." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link
+		href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+		rel="stylesheet"
+	/>
+</svelte:head>
 
-			<!-- Core Message -->
-			<div class="flex flex-col space-y-4 text-center md:text-left">
-				<p class="font-sans text-lg leading-tight font-bold text-gray-100 sm:text-xl">
-					Trop d’<span class="font-bold text-teal-500">études scientifiques</span>, pas assez de temps pour les lire ?
-				</p>
-				<!-- Audio Button (Subtle and Professional) -->
-			<div class="my-6 mb-8 flex justify-center md:justify-start">
-				<audio id="myAudio" preload="auto">
-					<source src="/audio/welcome.m4a" type="audio/mp4" />
-					Votre navigateur ne supporte pas l'élément audio.
-				</audio>
-				<button
-					on:click={toggleAudio}
-					class="play-button group relative flex items-center gap-2 rounded-full bg-gradient-to-r to-blue-600 px-5 py-2 font-medium text-teal-600 text-white shadow-md transition-all duration-300 hover:shadow-lg"
-				>
-					<span class="text-lg transition-transform duration-300 group-hover:scale-110">
-						{isPlaying ? '⏸' : '▶'}
-					</span>
-					<span>{isPlaying ? 'Pause' : 'Découvrez Veille en 1 min'}</span>
-				</button>
-			</div>
-				<p class="text-lg font-medium text-gray-100 sm:text-xl">
-					Avec <span class="font-bold text-teal-500">Veille</span>, restez à la pointe de votre
-					<span class="font-bold text-teal-500">spécialité</span>.
-				</p>
-				<p class="text-base leading-relaxed text-gray-300 sm:text-lg">
-					Recevez un <span class="font-bold text-teal-500">résumé clair et concis</span> des
-					meilleures études récentes dans votre domaine, à votre rythme, avec un
-					<span class="font-bold text-teal-500">accès direct à l’article original</span>.
-				</p>
-			</div>
+<main class="relative flex min-h-screen flex-col bg-black text-white font-sans">
 
+	<!-- ======================== -->
+	<!--      NEW HERO SECTION    -->
+	<!-- ======================== -->
+	<section class="relative pt-28 pb-24 md:pt-40 md:pb-32 overflow-hidden bg-gradient-to-b from-gray-950 via-black to-black">
+        <div class="absolute inset-0 bg-[url('/grid.svg')] bg-center [mask-image:linear-gradient(180deg,white,rgba(255,255,255,0))] opacity-5"></div>
+        <div class="container relative z-10 mx-auto max-w-5xl px-4 text-center">
 
-			<!-- Arguments List -->
-			<!-- <ul class="space-y-3 text-center md:text-left">
-				<li
-					class="flex items-center justify-center gap-3 text-base text-gray-300 sm:text-lg md:justify-start"
-				>
-					<span class="text-xl text-teal-400">✔</span>
-					Choisissez vos disciplines
-				</li>
-				<li
-					class="flex items-center justify-center gap-3 text-base text-gray-300 sm:text-lg md:justify-start"
-				>
-					<span class="text-xl text-teal-400">✔</span>
-					Paramétrez vos alertes
-				</li>
-				<li
-					class="flex items-center justify-center gap-3 text-base text-gray-300 sm:text-lg md:justify-start"
-				>
-					<span class="text-xl text-teal-400">✔</span>
-					Résumés clairs et accès direct aux articles originaux
-				</li>
-			</ul> -->
+            <!-- Main Headline -->
+            <h1 class="text-4xl font-extrabold tracking-tight text-white sm:text-5xl md:text-6xl lg:text-7xl">
+                La <span class="text-teal-400">veille scientifique</span>, simplifiée.
+            </h1>
 
-			<!-- CTA Text -->
-			<!-- <p
-				class="flex items-center justify-center gap-3 text-base text-gray-300 sm:text-lg md:justify-start"
-			>
-				<span class="text-2xl text-red-400">📩</span>
-				3 min/jour pour rester à la pointe de votre spécialité
-			</p> -->
+            <!-- Sub-headline -->
+            <p class="mt-6 max-w-xl mx-auto text-lg leading-8 text-gray-300 sm:text-xl md:text-2xl">
+                Recevez les résumés essentiels des dernières études de <span class="font-semibold text-teal-400">votre spécialité</span>.
+            </p>
 
-			<!-- CTA Button (Sticky on Mobile) -->
-			<div class="sticky bottom-4 mt-6 flex w-full justify-center">
-				<a
-					href={$userProfileStore ? '/ma-veille' : '/signup'}
-					on:click={handleVeilleClick}
-					class="group flex w-[85%] items-center justify-center gap-2 rounded-full bg-orange-600 px-8 py-3 text-center text-base font-semibold text-white shadow-lg transition-all duration-300 hover:from-blue-600 hover:to-teal-600 hover:shadow-xl sm:w-[60%] md:w-auto md:px-12 md:py-4 md:text-lg"
-				>
-					<span>
-						{$userProfileStore ? 'Accéder à ma veille' : 'S’inscrire maintenant'}
-					</span>
-					<svg
-						class="h-5 w-5 translate-y-[2px] transition-transform duration-300 group-hover:translate-x-2"
-						fill="none"
-						stroke="currentColor"
-						viewBox="0 0 24 24"
-						xmlns="http://www.w3.org/2000/svg"
-					>
-						<path
-							stroke-linecap="round"
-							stroke-linejoin="round"
-							stroke-width="2"
-							d="M9 5l7 7m0 0l-7 7m7-7H3"
-						/>
-					</svg>
-				</a>
-			</div>
+            <!-- Core Problem -->
+             <p class="mt-8 text-base font-medium text-gray-400 sm:text-lg md:text-xl">
+                 Trop d’<span class="font-semibold text-white">études</span> ? Pas assez de <span class="font-semibold text-white">temps</span> ?
+             </p>
+
+             <!-- Audio Button -->
+            <div class="mt-10 mb-12 flex justify-center">
+                <audio id="myAudio" preload="auto">
+                    <source src="/audio/welcome.m4a" type="audio/mp4" />
+                    Votre navigateur ne supporte pas l'élément audio.
+                </audio>
+                <button
+                    on:click={toggleAudio}
+                    class="play-button group relative flex items-center gap-2.5 rounded-full bg-gradient-to-r from-blue-600 to-teal-600 px-6 py-2.5 text-sm font-semibold text-white shadow-lg transition-all duration-300 hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-teal-400 focus:ring-offset-2 focus:ring-offset-black"
+                    aria-label={isPlaying ? 'Mettre en pause la présentation audio' : 'Écouter la présentation audio'}
+                >
+                    <span class="text-xl transition-transform duration-300 group-hover:scale-110">
+                        {#if isPlaying}
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zM7 8a1 1 0 012 0v4a1 1 0 11-2 0V8zm5-1a1 1 0 00-1 1v4a1 1 0 102 0V8a1 1 0 00-1-1z" clip-rule="evenodd" /></svg>
+                        {:else}
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd" /></svg>
+                        {/if}
+                    </span>
+                    <span class="whitespace-nowrap">{isPlaying ? 'Lecture en cours...' : 'Découvrez Veille en 1 min'}</span>
+                </button>
+            </div>
+
+            <!-- Main CTA Button -->
+            <div class="mt-10">
+                <a
+                    href={$userProfileStore ? '/ma-veille' : '/signup'}
+                    on:click={handleVeilleClick}
+                    class="group inline-flex items-center justify-center gap-2 rounded-full bg-orange-600 px-8 py-3 text-base font-semibold text-white shadow-lg transition-all duration-300 hover:bg-orange-700 hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2 focus:ring-offset-black transform hover:scale-105"
+                >
+                    <span>{$userProfileStore ? 'Accéder à Ma Veille' : 'S’inscrire Gratuitement'}</span>
+                    <svg class="h-5 w-5 transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+                </a>
+            </div>
+
+        </div>
+	</section>
+
+    <!-- Feature Highlights Section -->
+    <section class="py-16 sm:py-20 bg-gray-900">
+        <div class="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 lg:gap-x-8">
+                <div class="flex flex-col items-center text-center">
+                    <div class="flex h-12 w-12 items-center justify-center rounded-lg bg-teal-500/10 border border-teal-500/30 mb-4">
+                        <Zap class="h-6 w-6 text-teal-400" />
+                    </div>
+                    <h3 class="text-lg font-semibold text-white">Restez à jour</h3>
+                    <p class="mt-1 text-sm text-gray-400">Recevez l'essentiel de votre veille.</p>
+                </div>
+                <div class="flex flex-col items-center text-center">
+                     <div class="flex h-12 w-12 items-center justify-center rounded-lg bg-teal-500/10 border border-teal-500/30 mb-4">
+                        <Clock class="h-6 w-6 text-teal-400" />
+                    </div>
+                    <h3 class="text-lg font-semibold text-white">Gagnez du temps</h3>
+                    <p class="mt-1 text-sm text-gray-400">Synthèses claires, lecture rapide.</p>
+                </div>
+                <div class="flex flex-col items-center text-center">
+                    <div class="flex h-12 w-12 items-center justify-center rounded-lg bg-teal-500/10 border border-teal-500/30 mb-4">
+                        <FileText class="h-6 w-6 text-teal-400" />
+                    </div>
+                    <h3 class="text-lg font-semibold text-white">Synthèses concises</h3>
+                    <p class="mt-1 text-sm text-gray-400">Points clés et recommandations.</p>
+                </div>
+                 <div class="flex flex-col items-center text-center">
+                    <div class="flex h-12 w-12 items-center justify-center rounded-lg bg-teal-500/10 border border-teal-500/30 mb-4">
+                        <Link class="h-6 w-6 text-teal-400" />
+                    </div>
+                    <h3 class="text-lg font-semibold text-white">Accès direct</h3>
+                    <p class="mt-1 text-sm text-gray-400">Lien vers l'article original inclus.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+	<!-- ======================== -->
+	<!--   END NEW HERO SECTION   -->
+	<!-- ======================== -->
+	<div class="bg-gray-900 py-16 sm:py-20">
+		<div class="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
+			<h2 class="text-center text-3xl font-bold tracking-tight text-white mb-12 sm:mb-16">Veille Médicale en chiffres</h2>
+			<dl class="grid grid-cols-1 gap-y-10 gap-x-6 text-center sm:grid-cols-3 lg:gap-x-8">
+				<div class="flex flex-col items-center">
+					<dt class="text-base leading-7 text-gray-400">Spécialités couvertes</dt>
+					<dd class="order-first text-4xl font-semibold tracking-tight text-teal-400 sm:text-5xl">+35</dd>
+					<p class="mt-1 text-xs text-gray-500">(et +300 sous-spécialités)</p>
+				</div>
+				<div class="flex flex-col items-center">
+					<dt class="text-base leading-7 text-gray-400">Professionnels inscrits</dt>
+					<dd class="order-first text-4xl font-semibold tracking-tight text-teal-400 sm:text-5xl">+1000</dd>
+				</div>
+				<div class="flex flex-col items-center">
+					<dt class="text-base leading-7 text-gray-400">Recherches hebdomadaires</dt>
+					<dd class="order-first text-4xl font-semibold tracking-tight text-teal-400 sm:text-5xl">+60 000</dd>
+				</div>
+			</dl>
 		</div>
 	</div>
 
 
-	<!-- Spécialités et Articles -->
-	<div class="relative flex flex-col gap-4 overflow-hidden px-6 py-8 sm:mx-[10vw] sm:px-0">
-		<div class="w-full py-12 text-white">
+	<!-- ==================================================== -->
+	<!-- Spécialités et Articles SECTION (Keep as is) -->
+	<!-- ==================================================== -->
+	<div class="relative flex flex-col gap-4 overflow-hidden px-4 py-12 sm:mx-[10vw] sm:px-0 md:py-16">
+		<div class="w-full text-white">
 			<div class="flex flex-col gap-6">
 				<h2 class="text-3xl font-bold">Découvrez certains de nos articles</h2>
-
-				<!-- Specialty Selection -->
-				<!-- <h2 class="mb-4 text-left text-2xl font-bold text-white">1. Choisissez votre spécialité</h2> -->
 				<div class="relative w-full max-w-sm">
 					<Select.Root type="single" name="selectedSpecialty" bind:value={selectedSpecialty}>
-						<Select.Trigger
-							class="w-full rounded-lg border-gray-700 bg-gray-800 px-4 py-3 text-sm font-medium text-white shadow-md transition-all duration-300 hover:bg-gray-700 focus:ring-2 focus:ring-teal-500 focus:outline-none"
-						>
+						<Select.Trigger class="w-full rounded-lg border border-gray-700 bg-gray-800 px-4 py-3 text-sm font-medium text-white shadow-md transition-all duration-300 hover:bg-gray-700 focus:border-teal-500 focus:ring-2 focus:ring-teal-500 focus:outline-none">
 							{triggerContent}
 						</Select.Trigger>
-						<Select.Content
-							class="scrollbar-thin scrollbar-thumb-teal-500 scrollbar-track-gray-800 max-h-60 overflow-y-auto rounded-lg border border-gray-700 bg-gray-900"
-						>
+						<Select.Content class="scrollbar-thin scrollbar-thumb-teal-500 scrollbar-track-gray-800 z-10 max-h-60 overflow-y-auto rounded-lg border border-gray-700 bg-gray-900 shadow-lg">
 							<Select.Group>
-								<Select.GroupHeading class="px-4 py-2 font-semibold text-gray-400"
-									>Spécialités</Select.GroupHeading
-								>
+								<Select.GroupHeading class="px-4 py-2 font-semibold text-gray-400">Spécialités</Select.GroupHeading>
 								{#each specialties as specialty (specialty)}
-									<Select.Item
-										value={specialty}
-										label={specialty}
-										class="cursor-pointer px-4 py-2 text-white transition-all duration-200 hover:bg-teal-600 hover:text-white"
-									/>
+									<Select.Item value={specialty} label={specialty} class="cursor-pointer px-4 py-2 text-white transition-all duration-200 hover:bg-teal-600/80 data-[highlighted]:bg-teal-600/80 data-[highlighted]:text-white data-[state=checked]:font-medium" />
 								{/each}
 							</Select.Group>
 						</Select.Content>
 					</Select.Root>
 				</div>
-
-				<!-- Selected Specialty Display -->
-				<!-- <h2 bind:this={articleSection} class="mb-4 text-left text-2xl font-bold text-white">
-					2. Explorez : {selectedSpecialty || 'Toutes'}
-				</h2> -->
-
-				<!-- Article List -->
 				{#if articles.length === 0}
-					<p class="text-gray-400">
-						Aucun article disponible pour {selectedSpecialty || 'toutes les spécialités'}.
-					</p>
+					<p class="mt-4 text-gray-400 italic">Aucun article disponible pour {selectedSpecialty || 'toutes les spécialités'}.</p>
 				{:else}
 					<ul class="space-y-4">
-						{#each articles.slice(0,3) as article}
-							<li
-								on:click={() => openImmersive(article)}
-								class="relative cursor-pointer rounded bg-gray-800 p-4 shadow transition-shadow hover:shadow-xl"
-							>
-								<h3 class="text-left text-lg font-bold text-white">
-									{extractTitleEmoji(article.content)}
+						{#each articles.slice(0,3) as article (article.id)}
+							<li role="button" tabindex="0" on:click={() => openImmersive(article)} on:keydown={(e) => e.key === 'Enter' && openImmersive(article)} class="relative cursor-pointer rounded-lg bg-gray-800 p-4 shadow-md transition-all duration-200 hover:bg-gray-700 hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-teal-500 focus:ring-offset-2 focus:ring-offset-black">
+								<h3 class="text-left text-lg font-bold text-white pr-5">
+									<span class="mr-1.5">{extractTitleEmoji(article.content)}</span>
 									{formatTitle(article.title)}
 								</h3>
 								{#if article.grade}
-									<p class="mt-1 text-sm {article.grade == 'A' ? 'text-green-500' : article.grade == 'B' ? 'text-yellow-400' : article.grade == 'C' ? 'text-orange-400' : 'text-red-400'}">Grade de recommandation : {article.grade}</p>
+									<p class="mt-1 text-sm {article.grade == 'A' ? 'text-green-400' : article.grade == 'B' ? 'text-yellow-400' : article.grade == 'C' ? 'text-orange-400' : 'text-red-400'}">
+                                        Grade : <span class="font-medium">{article.grade}</span>
+                                    </p>
 								{/if}
-								<div class="mt-2 flex items-center text-sm text-gray-400">
-									<span class="mr-1">{article.journal || 'Inconnu'}</span>
-								</div>
-								<h3 class="mt-2 text-xs text-gray-400">
-									Publié le {formatDate(article.published_at)}
-								</h3>
+								<div class="mt-2 flex items-center text-sm text-gray-400"><span class="mr-1">{article.journal || 'Journal inconnu'}</span></div>
+								<p class="mt-1 text-xs text-gray-500">Publié le {formatDate(article.published_at)}</p>
 							</li>
 						{/each}
 					</ul>
 				{/if}
-
 				{#if !$userProfileStore}
-					<!-- Call to Action avec flèche vers le bas -->
 					<div class="mt-8 flex justify-center">
-						<a
-							href="/signup"
-							class="flex flex-col items-center text-orange-600 transition-colors duration-200"
-						>
-							<span class="text-lg font-semibold">Voir plus</span>
-							<svg
-								class="mt-3 h-6 w-6 animate-bounce"
-								fill="none"
-								stroke="currentColor"
-								viewBox="0 0 24 24"
-								xmlns="http://www.w3.org/2000/svg"
-							>
-								<path
-									stroke-linecap="round"
-									stroke-linejoin="round"
-									stroke-width="2"
-									d="M19 14l-7 7m0 0l-7-7m7 7V3"
-								/>
-							</svg>
+						<a href="/signup" class="flex flex-col items-center text-orange-500 transition-colors duration-200 hover:text-orange-400 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2 focus:ring-offset-black rounded-md p-1">
+							<span class="text-lg font-semibold">Voir plus d'articles</span>
+							<svg class="mt-2 h-6 w-6 animate-bounce" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3" /></svg>
 						</a>
 					</div>
 				{/if}
 			</div>
 		</div>
-
-		<div
-			class="absolute right-0 bottom-0 left-0 h-2 bg-gradient-to-r from-blue-500 via-teal-500 to-transparent opacity-60"
-		></div>
 	</div>
-	<!-- Partenaires -->
-	<div class="relative flex flex-col gap-6 overflow-hidden px-6 py-8 sm:mx-[10vw] sm:px-0">
+	<!-- ==================================================== -->
+	<!-- END Spécialités/Articles                         -->
+	<!-- ==================================================== -->
+
+
+	<!-- ==================================================== -->
+	<!-- Partenaires SECTION (Keep as is)                  -->
+	<!-- ==================================================== -->
+	<div class="relative flex flex-col gap-6 overflow-hidden px-4 py-8 sm:mx-[10vw] sm:px-0 md:py-12">
 		<h2 class="mb-4 text-left text-2xl font-bold text-white">Nos partenaires</h2>
-		<div class="flex flex-wrap items-center justify-start gap-8">
-			<a
-				href="https://pubmed.ncbi.nlm.nih.gov/"
-				target="_blank"
-				class="flex flex-col items-center gap-2"
-			>
-				<img
-					src="https://cdn.ncbi.nlm.nih.gov/pubmed/277eb475-38df-4990-a0ee-0080b04e86fc/core/images/pubmed-logo-white.svg"
-					alt="PubMed"
-					class="h-10 w-auto"
-				/>
-			</a>
-			<a href="https://www.embase.com" target="_blank" class="flex items-center gap-2">
-				<EmbaseSvg />
-				<span class="text-lg font-medium text-white">Embase</span>
-			</a>
-			<a href="https://www.cochranelibrary.com" target="_blank" class="flex items-center gap-2">
-				<img
-					src="https://www.cochrane.org/sites/default/files/public/cochrane-57-old.png"
-					alt="Cochrane Library"
-					class="h-10 w-auto"
-				/>
-				<span class="text-lg font-medium text-white">Cochrane Library</span>
-			</a>
+		<div class="flex flex-wrap items-center justify-center gap-8 md:justify-start">
+			<a href="https://pubmed.ncbi.nlm.nih.gov/" target="_blank" rel="noopener noreferrer" class="flex flex-col items-center gap-2 opacity-80 transition-opacity hover:opacity-100"><img src="https://cdn.ncbi.nlm.nih.gov/pubmed/277eb475-38df-4990-a0ee-0080b04e86fc/core/images/pubmed-logo-white.svg" alt="PubMed" class="h-10 w-auto" loading="lazy" /></a>
+			<a href="https://www.embase.com" target="_blank" rel="noopener noreferrer" class="flex items-center gap-2 opacity-80 transition-opacity hover:opacity-100"><EmbaseSvg /></a>
+			<a href="https://www.cochranelibrary.com" target="_blank" rel="noopener noreferrer" class="flex items-center gap-2 opacity-80 transition-opacity hover:opacity-100"><img src="https://www.cochrane.org/sites/default/files/public/cochrane-57-old.png" alt="Cochrane Library" class="h-10 w-auto" loading="lazy" /></a>
 		</div>
 	</div>
+	<!-- ==================================================== -->
+	<!-- END Partenaires                                   -->
+	<!-- ==================================================== -->
 
-	<!-- Modal Immersif -->
-	{#if immersiveArticle}
-		<div
-			class="fixed inset-0 z-[200] flex items-center justify-center bg-black/30 backdrop-blur-sm"
-		>
-			<div
-				class="relative max-h-[90vh] w-full max-w-4xl overflow-y-auto rounded-2xl bg-gray-900 p-8 shadow-2xl"
-			>
-				<button
-					class="absolute top-4 right-4 text-3xl text-gray-400 hover:text-white focus:outline-none"
-					on:click={closeImmersive}
-				>
-					×
-				</button>
-				<h2 class="mb-4 text-3xl font-bold text-white">
-					{extractTitleEmoji(immersiveArticle.content)}
-					{formatTitle(immersiveArticle.title)}
-				</h2>
-				{#if immersiveArticle.grade}
-					<p class="mb-2 text-sm {immersiveArticle.grade == 'A' ? 'text-green-500' : immersiveArticle.grade == 'B' ? 'text-yellow-400' : immersiveArticle.grade == 'C' ? 'text-orange-400' : 'text-red-400'}">
-						Grade de recommandation : {immersiveArticle.grade}
-					</p>
-				{/if}
-				<div class="mt-2 flex flex-row items-center text-sm">
-					<span class="mr-1">{immersiveArticle.journal || 'Inconnu'}</span>
+
+	<!-- ==================================================== -->
+	<!-- STATS SECTION (Keep as is)                         -->
+	<!-- ==================================================== -->
+	<!-- <div class="bg-gray-900 py-16 sm:py-20">
+		<div class="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
+			<h2 class="text-center text-3xl font-bold tracking-tight text-white mb-12 sm:mb-16">Veille Médicale en chiffres</h2>
+			<dl class="grid grid-cols-1 gap-y-10 gap-x-6 text-center sm:grid-cols-3 lg:gap-x-8">
+				<div class="flex flex-col items-center">
+					<dt class="text-base leading-7 text-gray-400">Spécialités couvertes</dt>
+					<dd class="order-first text-4xl font-semibold tracking-tight text-teal-400 sm:text-5xl">+35</dd>
+					<p class="mt-1 text-xs text-gray-500">(et +300 sous-spécialités)</p>
 				</div>
-				<p class="mt-2 mb-4 text-sm text-gray-400">
-					Publié le : {formatDate(immersiveArticle.published_at)}
-				</p>
-				{#each parseContent(immersiveArticle.content) as section}
-					<div class="mb-6">
-						<h3 class="mb-2 flex items-center text-lg font-semibold text-white">
-							<span class="mr-2">{section.emoji}</span>
-							{section.title}
-						</h3>
-						<ul class="ml-4 list-disc space-y-2 text-gray-300">
-							{#each section.content as paragraph}
-								<li>{paragraph}</li>
-							{/each}
-						</ul>
-					</div>
-				{/each}
-				<a href={immersiveArticle.link} target="_blank" class="underline">Accédez à l'article original 🔎</a>
-				{#if !$userProfileStore}
-					<div class="mt-6 flex justify-center">
-						<button
-							on:click={() => goto('/login')}
-							class="rounded-full bg-orange-600 px-6 py-2 font-semibold text-white shadow-md transition-all duration-200"
-						>
-							Avez-vous aimé l'article ? Inscrivez-vous !
-						</button>
-					</div>
-				{/if}
-			</div>
+				<div class="flex flex-col items-center">
+					<dt class="text-base leading-7 text-gray-400">Professionnels inscrits</dt>
+					<dd class="order-first text-4xl font-semibold tracking-tight text-teal-400 sm:text-5xl">+1000</dd>
+				</div>
+				<div class="flex flex-col items-center">
+					<dt class="text-base leading-7 text-gray-400">Recherches hebdomadaires</dt>
+					<dd class="order-first text-4xl font-semibold tracking-tight text-teal-400 sm:text-5xl">+60 000</dd>
+				</div>
+			</dl>
 		</div>
-	{/if}
+	</div> -->
+	<!-- ==================================================== -->
+	<!-- END STATS SECTION                                  -->
+	<!-- ==================================================== -->
+
 </main>
 
+<!-- Modal Immersif (Keep outside main) -->
+{#if immersiveArticle}
+	<ArticleImmersiveModal article={immersiveArticle} on:close={closeImmersive} />
+{/if}
+
 <style>
-	/* Style général */
-	button:focus {
-		outline: none;
+	/* Reuse styles from previous version */
+	button:focus-visible, a:focus-visible {
+		outline: 2px solid #2dd4bf; /* Teal 400 */
+        outline-offset: 2px;
+        border-radius: 4px;
 	}
-	.animate-bounce {
-		animation: bounce 2s infinite;
-	}
+	.animate-bounce { animation: bounce 2s infinite; }
+	@keyframes bounce { 0%, 20%, 50%, 80%, 100% { transform: translateY(0); } 40% { transform: translateY(-10px); } 60% { transform: translateY(-5px); } }
+	.modal-enter-active { animation: fadeIn 0.3s ease-out; }
+	@keyframes fadeIn { 0% { opacity: 0; transform: scale(0.95); } 100% { opacity: 1; transform: scale(1); } }
+	.scrollbar-thin { scrollbar-width: thin; scrollbar-color: #14b8a6 #1f2937; }
+	.scrollbar-thin::-webkit-scrollbar { width: 8px; }
+	.scrollbar-thin::-webkit-scrollbar-track { background: #1f2937; border-radius: 4px;}
+	.scrollbar-thin::-webkit-scrollbar-thumb { background-color: #14b8a6; border-radius: 4px; border: 2px solid #1f2937;}
+	.scrollbar-thin::-webkit-scrollbar-thumb:hover { background-color: #0f766e;}
+    .play-button:hover span:first-child { transform: scale(1.15); }
 
-	@keyframes bounce {
-		0%,
-		20%,
-		50%,
-		80%,
-		100% {
-			transform: translateY(0);
-		}
-		40% {
-			transform: translateY(-10px);
-		}
-		60% {
-			transform: translateY(-5px);
-		}
-	}
-
-	/* Animation d'entrée pour le modal */
-	.modal-enter-active {
-		animation: fadeIn 0.3s ease-out;
-	}
-
-	@keyframes fadeIn {
-		0% {
-			opacity: 0;
-			transform: scale(0.95);
-		}
-		100% {
-			opacity: 1;
-			transform: scale(1);
-		}
-	}
-
-	/* Custom scrollbar for the select dropdown */
-	.scrollbar-thin {
-		scrollbar-width: thin;
-		scrollbar-color: #14b8a6 #1f2937;
-	}
-
-	.scrollbar-thin::-webkit-scrollbar {
-		width: 8px;
-	}
-
-	.scrollbar-thin::-webkit-scrollbar-track {
-		background: #1f2937;
-	}
-
-	.scrollbar-thin::-webkit-scrollbar-thumb {
-		background-color: #14b8a6;
-		border-radius: 6px;
-		border: 2px solid #1f2937;
-	}
+    /* Optional: Add subtle hover effect to feature icons */
+    .group:hover .feature-icon {
+        transform: translateY(-2px);
+    }
+    .feature-icon {
+        transition: transform 0.2s ease-in-out;
+    }
 </style>
