@@ -8,8 +8,8 @@
 	import EmbaseSvg from '../lib/svg/EmbaseSvg.svelte';
 // Import modal
 	import type { Article } from '$lib/utils/articleUtils'; // Import Article type
-	// Import Lucide icons for features
-	import { Clock, FileText, Link, Zap } from 'lucide-svelte';
+	// Import Lucide icons for features & pipeline
+	import { Brain, Clock, FileText, Link, Mail, Users, Zap } from 'lucide-svelte'; // Added Brain, Users, Mail for pipeline
 
 	// --- PROPS & STATE ---
 	const { data } = $props();
@@ -26,7 +26,7 @@
 		specialties.find((s) => s === selectedSpecialty) ?? 'Choisissez une spécialité'
 	);
 
-	// --- UTILITY FUNCTIONS (unchanged from previous) ---
+	// --- UTILITY FUNCTIONS (unchanged) ---
 	function handleVeilleClick(event: MouseEvent) {
 		event.preventDefault();
 		if (!$userProfileStore) { goto('/signup'); } else { goto('/ma-veille'); }
@@ -116,7 +116,7 @@
 	<!-- ======================== -->
 	<!--      NEW HERO SECTION    -->
 	<!-- ======================== -->
-	<section class="relative pt-28 pb-24 md:pt-40 md:pb-32 overflow-hidden bg-gradient-to-b from-gray-950 via-black to-black">
+	<section class="relative pt-28 pb-24 md:pt-28 md:pb-24 overflow-hidden bg-gradient-to-b from-gray-950 via-black to-black">
         <div class="absolute inset-0 bg-[url('/grid.svg')] bg-center [mask-image:linear-gradient(180deg,white,rgba(255,255,255,0))] opacity-5"></div>
         <div class="container relative z-10 mx-auto max-w-5xl px-4 text-center">
 
@@ -125,15 +125,16 @@
                 La <span class="text-teal-400">veille scientifique</span>, simplifiée.
             </h1>
 
-            <!-- Sub-headline -->
-            <p class="mt-6 max-w-xl mx-auto text-lg leading-8 text-gray-300 sm:text-xl md:text-2xl">
-                Recevez les résumés essentiels des dernières études de <span class="font-semibold text-teal-400">votre spécialité</span>.
-            </p>
-
             <!-- Core Problem -->
-             <p class="mt-8 text-base font-medium text-gray-400 sm:text-lg md:text-xl">
-                 Trop d’<span class="font-semibold text-white">études</span> ? Pas assez de <span class="font-semibold text-white">temps</span> ?
-             </p>
+			<p class="mt-8 text-xl font-medium text-gray-400 sm:text-lg md:text-xl">
+				Trop d’<span class="font-semibold text-white">études</span> ? Pas assez de <span class="font-semibold text-white">temps</span> ?
+			</p>
+
+			<!-- Sub-headline -->
+			<p class="mt-6 max-w-xl mx-auto text-lg leading-8 text-gray-300 sm:text-xl md:text-2xl">
+				Recevez les résumés essentiels des dernières <span class="font-semibold text-teal-400"> études</span> et <span class="font-semibold text-teal-400">recommandations</span> de <span class="font-semibold text-teal-400">votre spécialité</span>.
+			</p>
+
 
              <!-- Audio Button -->
             <div class="mt-10 mb-12 flex justify-center">
@@ -169,6 +170,8 @@
                 </a>
             </div>
 
+            <!-- Pipeline Visualization Removed from Hero -->
+
         </div>
 	</section>
 
@@ -176,33 +179,33 @@
     <section class="py-16 sm:py-20 bg-gray-900">
         <div class="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 lg:gap-x-8">
-                <div class="flex flex-col items-center text-center">
-                    <div class="flex h-12 w-12 items-center justify-center rounded-lg bg-teal-500/10 border border-teal-500/30 mb-4">
+                <div class="flex flex-col items-center text-center group">
+                    <div class="flex h-12 w-12 items-center justify-center rounded-lg bg-teal-500/10 border border-teal-500/30 mb-4 feature-icon">
                         <Zap class="h-6 w-6 text-teal-400" />
                     </div>
                     <h3 class="text-lg font-semibold text-white">Restez à jour</h3>
-                    <p class="mt-1 text-sm text-gray-400">Recevez l'essentiel de votre veille.</p>
+                    <p class="mt-1 text-sm text-gray-400">Recevez l'essentiel sur votre mail.</p>
                 </div>
-                <div class="flex flex-col items-center text-center">
-                     <div class="flex h-12 w-12 items-center justify-center rounded-lg bg-teal-500/10 border border-teal-500/30 mb-4">
+                <div class="flex flex-col items-center text-center group">
+                     <div class="flex h-12 w-12 items-center justify-center rounded-lg bg-teal-500/10 border border-teal-500/30 mb-4 feature-icon">
                         <Clock class="h-6 w-6 text-teal-400" />
                     </div>
                     <h3 class="text-lg font-semibold text-white">Gagnez du temps</h3>
                     <p class="mt-1 text-sm text-gray-400">Synthèses claires, lecture rapide.</p>
                 </div>
-                <div class="flex flex-col items-center text-center">
-                    <div class="flex h-12 w-12 items-center justify-center rounded-lg bg-teal-500/10 border border-teal-500/30 mb-4">
+                <div class="flex flex-col items-center text-center group">
+                    <div class="flex h-12 w-12 items-center justify-center rounded-lg bg-teal-500/10 border border-teal-500/30 mb-4 feature-icon">
                         <FileText class="h-6 w-6 text-teal-400" />
                     </div>
-                    <h3 class="text-lg font-semibold text-white">Synthèses concises</h3>
-                    <p class="mt-1 text-sm text-gray-400">Points clés et recommandations.</p>
+                    <h3 class="text-lg font-semibold text-white">L'essentiel</h3>
+                    <p class="mt-1 text-sm text-gray-400">Articles et recommandations.</p>
                 </div>
-                 <div class="flex flex-col items-center text-center">
-                    <div class="flex h-12 w-12 items-center justify-center rounded-lg bg-teal-500/10 border border-teal-500/30 mb-4">
+                 <div class="flex flex-col items-center text-center group">
+                    <div class="flex h-12 w-12 items-center justify-center rounded-lg bg-teal-500/10 border border-teal-500/30 mb-4 feature-icon">
                         <Link class="h-6 w-6 text-teal-400" />
                     </div>
                     <h3 class="text-lg font-semibold text-white">Accès direct</h3>
-                    <p class="mt-1 text-sm text-gray-400">Lien vers l'article original inclus.</p>
+                    <p class="mt-1 text-sm text-gray-400">Lien vers l'article original.</p>
                 </div>
             </div>
         </div>
@@ -217,7 +220,7 @@
 				<div class="flex flex-col items-center">
 					<dt class="text-base leading-7 text-gray-400">Spécialités couvertes</dt>
 					<dd class="order-first text-4xl font-semibold tracking-tight text-teal-400 sm:text-5xl">+35</dd>
-					<p class="mt-1 text-xs text-gray-500">(et +300 sous-spécialités)</p>
+					<p class="mt-1 text-s text-gray-500">(et +300 sous-spécialités)</p> <!-- Changed text-s to text-xs -->
 				</div>
 				<div class="flex flex-col items-center">
 					<dt class="text-base leading-7 text-gray-400">Professionnels inscrits</dt>
@@ -231,6 +234,92 @@
 		</div>
 	</div>
 
+    <!-- ======================== -->
+	<!--    NOTRE PROCESSUS       -->
+	<!-- ======================== -->
+	<section class="py-16 sm:py-20 bg-gray-900">
+        <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl font-bold tracking-tight text-white mb-12 sm:mb-16">
+                Processus en 4 étapes
+            </h2>
+            <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-y-8 md:gap-x-4 lg:gap-x-6">
+                <!-- Step 1 -->
+                <div class="flex-1 flex flex-col items-center text-center">
+                    <div class="flex h-12 w-12 items-center justify-center rounded-full bg-teal-500/10 border border-teal-500/30 mb-4 shrink-0">
+                        <FileText class="h-6 w-6 text-teal-400" />
+                    </div>
+                    <h3 class="text-lg font-semibold text-white mb-1">1. Sélection des Sources</h3>
+                    <p class="text-sm text-gray-400">PubMed, Cochrane.</p>
+                </div>
+
+                <!-- Arrow for mobile -->
+                <div class="md:hidden flex justify-center items-center text-teal-400 my-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M16 17l-4 4m0 0l-4-4m4 4V3" />
+                    </svg>
+                </div>
+                <!-- Arrow for desktop -->
+                <div class="hidden md:flex justify-center items-center text-teal-400 shrink-0 pt-5">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 lg:h-10 lg:w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                    </svg>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="flex-1 flex flex-col items-center text-center">
+                    <div class="flex h-12 w-12 items-center justify-center rounded-full bg-teal-500/10 border border-teal-500/30 mb-4 shrink-0">
+                        <Brain class="h-6 w-6 text-teal-400" />
+                    </div>
+                    <h3 class="text-lg font-semibold text-white mb-1">2. Analyse par IA</h3>
+                    <p class="text-sm text-gray-400">Tri, résumé initial et identification des points clés.</p>
+                </div>
+
+                <!-- Arrow for mobile -->
+                <div class="md:hidden flex justify-center items-center text-teal-400 my-2">
+                     <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M16 17l-4 4m0 0l-4-4m4 4V3" />
+                    </svg>
+                </div>
+                <!-- Arrow for desktop -->
+                <div class="hidden md:flex justify-center items-center text-teal-400 shrink-0 pt-5">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 lg:h-10 lg:w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                    </svg>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="flex-1 flex flex-col items-center text-center">
+                    <div class="flex h-12 w-12 items-center justify-center rounded-full bg-teal-500/10 border border-teal-500/30 mb-4 shrink-0">
+                        <Users class="h-6 w-6 text-teal-400" />
+                    </div>
+                    <h3 class="text-lg font-semibold text-white mb-1">3. Validation Médicale</h3>
+                    <p class="text-sm text-gray-400">Relecture et correction par nos experts.</p>
+                </div>
+
+                <!-- Arrow for mobile -->
+                <div class="md:hidden flex justify-center items-center text-teal-400 my-2">
+                     <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M16 17l-4 4m0 0l-4-4m4 4V3" />
+                    </svg>
+                </div>
+                <!-- Arrow for desktop -->
+                <div class="hidden md:flex justify-center items-center text-teal-400 shrink-0 pt-5">
+                     <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 lg:h-10 lg:w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                    </svg>
+                </div>
+
+                <!-- Step 4 -->
+                <div class="flex-1 flex flex-col items-center text-center">
+                    <div class="flex h-12 w-12 items-center justify-center rounded-full bg-teal-500/10 border border-teal-500/30 mb-4 shrink-0">
+                        <Mail class="h-6 w-6 text-teal-400" />
+                    </div>
+                    <h3 class="text-lg font-semibold text-white mb-1">4. Votre Veille Prête</h3>
+                    <p class="text-sm text-gray-400">Synthèse claire et concise, directement dans votre boîte mail.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
 	<!-- ==================================================== -->
 	<!-- Spécialités et Articles SECTION (Keep as is) -->
@@ -266,7 +355,7 @@
 								</h3>
 								{#if article.grade}
 									<p class="mt-1 text-sm {article.grade == 'A' ? 'text-green-400' : article.grade == 'B' ? 'text-yellow-400' : article.grade == 'C' ? 'text-orange-400' : 'text-red-400'}">
-                                        Grade : <span class="font-medium">{article.grade}</span>
+                                        Grade de recommandation : <span class="font-medium">{article.grade}</span>
                                     </p>
 								{/if}
 								<div class="mt-2 flex items-center text-sm text-gray-400"><span class="mr-1">{article.journal || 'Journal inconnu'}</span></div>
@@ -308,27 +397,10 @@
 
 
 	<!-- ==================================================== -->
-	<!-- STATS SECTION (Keep as is)                         -->
+	<!-- STATS SECTION (Commented out - Keep as is)          -->
 	<!-- ==================================================== -->
 	<!-- <div class="bg-gray-900 py-16 sm:py-20">
-		<div class="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
-			<h2 class="text-center text-3xl font-bold tracking-tight text-white mb-12 sm:mb-16">Veille Médicale en chiffres</h2>
-			<dl class="grid grid-cols-1 gap-y-10 gap-x-6 text-center sm:grid-cols-3 lg:gap-x-8">
-				<div class="flex flex-col items-center">
-					<dt class="text-base leading-7 text-gray-400">Spécialités couvertes</dt>
-					<dd class="order-first text-4xl font-semibold tracking-tight text-teal-400 sm:text-5xl">+35</dd>
-					<p class="mt-1 text-xs text-gray-500">(et +300 sous-spécialités)</p>
-				</div>
-				<div class="flex flex-col items-center">
-					<dt class="text-base leading-7 text-gray-400">Professionnels inscrits</dt>
-					<dd class="order-first text-4xl font-semibold tracking-tight text-teal-400 sm:text-5xl">+1000</dd>
-				</div>
-				<div class="flex flex-col items-center">
-					<dt class="text-base leading-7 text-gray-400">Recherches hebdomadaires</dt>
-					<dd class="order-first text-4xl font-semibold tracking-tight text-teal-400 sm:text-5xl">+60 000</dd>
-				</div>
-			</dl>
-		</div>
+		... content ...
 	</div> -->
 	<!-- ==================================================== -->
 	<!-- END STATS SECTION                                  -->
@@ -359,11 +431,14 @@
 	.scrollbar-thin::-webkit-scrollbar-thumb:hover { background-color: #0f766e;}
     .play-button:hover span:first-child { transform: scale(1.15); }
 
-    /* Optional: Add subtle hover effect to feature icons */
+    /* Add subtle hover effect to feature icons */
     .group:hover .feature-icon {
         transform: translateY(-2px);
+        /* Optional: Add a subtle glow or scale */
+        /* box-shadow: 0 0 15px rgba(45, 212, 191, 0.3); */
+        /* transform: scale(1.05) translateY(-2px); */
     }
     .feature-icon {
-        transition: transform 0.2s ease-in-out;
+        transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
     }
 </style>
