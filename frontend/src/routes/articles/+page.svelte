@@ -1,3 +1,4 @@
+<!-- /src/routes/articles -->
 <script lang="ts">
 	import ArticleListView from '$lib/components/articles/ArticleListView.svelte';
 
@@ -32,6 +33,4 @@
 	subDisciplineFetchMode="public"
 	showSignupPromptProp={false}
 	enableSearch={true}
-    {articleOfTheDayTitleTemplate}
-    {previousArticlesTitleTemplate}
 />

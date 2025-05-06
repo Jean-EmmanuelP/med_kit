@@ -1,3 +1,4 @@
+<!-- /src/routes/ma-veille -->
 <script lang="ts">
 	// Correctly import 'page', not '$page'
 	import ArticleListView from '$lib/components/articles/ArticleListView.svelte';
@@ -72,9 +73,6 @@
 		enableSearch={true}
 		subDisciplineFetchMode="user"
 		userId={currentUserId}
-		savedArticleIds={savedIdsSet}
-		{articleOfTheDayTitleTemplate}
-		{previousArticlesTitleTemplate}
 		showAllCategoriesOption={false}
 		showAllSubDisciplinesOption={true}
 		allSubDisciplinesLabel="Toutes mes sous-spécialités"

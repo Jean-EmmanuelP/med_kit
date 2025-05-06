@@ -2,30 +2,20 @@
 <script lang="ts">
 	import { goto } from '$app/navigation';
 	import ConfirmationModal from '$lib/components/ui/ConfirmationModal.svelte';
-	import * as Select from '$lib/components/ui/select';
 	import userProfileStore from '$lib/stores/user';
 	import type { Article } from '$lib/utils/articleUtils';
 	import { getArticleId } from '$lib/utils/articleUtils';
 	import { debounce } from '$lib/utils/debounce';
 	import { tick } from 'svelte';
-// Import tick
-	import ArticleCard from './ArticleCard.svelte';
 	import ArticleImmersiveModal from './ArticleImmersiveModal.svelte';
+	import ArticleListDisplay from './ArticleListDisplay.svelte';
+	import ArticleListHeader from './ArticleListHeader.svelte';
 
+    const ALL_CATEGORIES_VALUE = "__ALL__";
+    const ALL_CATEGORIES_LABEL = "Toutes les catégories";
 
-	// --- Constants ---
-    const ALL_CATEGORIES_VALUE = "__ALL__"; // Special value for "All"
-    const ALL_CATEGORIES_LABEL = "Toutes les catégories"; // Display label
-
-	// --- Component Props ---
-	interface FilterOption {
-		value: string;
-		label: string;
-	}
-    interface SubDisciplineOption {
-        id: number;
-        name: string;
-    }
+	interface FilterOption { value: string; label: string; }
+    interface SubDisciplineOption { id: number; name: string; }
 
 	const {
         articleId = 0,
@@ -41,10 +31,7 @@
         searchPlaceholder = "Rechercher par mots-clés...",
 		apiEndpoint = '/api/get_articles_my_veille',
 		apiFilterParamName = 'specialty',
-		userId = null as string | null,
-        savedArticleIds = new Set<string | number>(),
-		articleOfTheDayTitleTemplate = '🔥 Article du jour pour {filter} :', // Note: This prop is passed but not directly used for the dynamic AotD title in this component
-		previousArticlesTitleTemplate = '📖 Articles précédents pour {filter} :', // Note: This prop is passed but not directly used for the dynamic main list title in this component
+		userId: propUserId = null as string | null,
 		loadMoreButtonText = "Charger plus d'articles",
 		allArticlesLoadedText = "Tous les articles ont été chargés",
         emptyStateMessage = null as string | null,
@@ -70,9 +57,6 @@
 		apiEndpoint?: string;
 		apiFilterParamName?: string;
 		userId?: string | null;
-        savedArticleIds?: Set<string | number>;
-		articleOfTheDayTitleTemplate?: string;
-		previousArticlesTitleTemplate?: string;
 		loadMoreButtonText?: string;
 		allArticlesLoadedText?: string;
         emptyStateMessage?: string | null;
@@ -85,12 +69,10 @@
         filterByUserSubs?: boolean;
 	}>();
 
-    // Update initial filter default logic slightly to handle empty filters AND showAll option
     const defaultInitialFilter = filters.length > 0 ? (filters[0]?.value ?? null) : (showAllCategoriesOption ? ALL_CATEGORIES_VALUE : null);
 
-	// --- Internal State ---
 	let selectedFilter = $state<string | null>(initialFilterValue ?? defaultInitialFilter);
-    let selectedSubDiscipline = $state<string | null>(initialSubFilterValue ?? null);
+    let selectedSubDiscipline = $state<string | null>(null);
     let availableSubDisciplines = $state<SubDisciplineOption[]>([]);
     let isLoadingSubDisciplines = $state(false);
 	let articles = $state<Article[]>([]);
@@ -104,24 +86,9 @@
     let fetchError = $state<string | null>(null);
     let showSignupPrompt = $state(false);
     let showUnlikeConfirmModal = $state(false);
-    let articleToUnlike = $state<{
-        articleId: number | string;
-        currentlyLiked: boolean;
-        currentLikeCount: number;
-    } | null>(null);
+    let articleToUnlike = $state<{ articleId: number | string; currentlyLiked: boolean; currentLikeCount: number; } | null>(null);
     let hasCheckedInitialSearch = $state(false);
 
-	// --- Derived State ---
-	const sortedFilters = $derived(
-        [...filters].sort((a: FilterOption, b: FilterOption) =>
-			a.label.localeCompare(b.label, 'fr', { sensitivity: 'base' })
-		)
-    );
-	const triggerContent = $derived(
-        selectedFilter === ALL_CATEGORIES_VALUE
-            ? ALL_CATEGORIES_LABEL
-            : (filters.find((f: FilterOption) => f.value === selectedFilter)?.label ?? filterSelectLabel)
-    );
 	const filterForTitle = $derived(
         selectedFilter === ALL_CATEGORIES_VALUE
             ? 'toutes les catégories'
@@ -133,39 +100,19 @@
         selectedFilter !== ALL_CATEGORIES_VALUE &&
         selectedFilter !== null
     );
-    const subDisciplineTriggerContent = $derived(
-        selectedSubDiscipline === null ? subDisciplineSelectLabel :
-        selectedSubDiscipline === allSubDisciplinesLabel ? allSubDisciplinesLabel : selectedSubDiscipline
-    );
-    const subDisciplineOptions = $derived(
-        showAllSubDisciplinesOption
-            ? [{ id: -1, name: allSubDisciplinesLabel }, ...availableSubDisciplines]
-            : availableSubDisciplines
-    );
     const isViewingSubDiscipline = $derived(selectedSubDiscipline !== null && selectedSubDiscipline !== allSubDisciplinesLabel);
     const isLikedArticlesView = $derived(apiEndpoint === '/api/get-liked-articles');
+	const currentUserIdFromStore = $derived($userProfileStore?.id ?? null);
 
-    // Ensure ListTitleInfo is defined
-    interface ListTitleInfo {
-        text: string;
-        iconType: 'heart' | 'book' | null;
-    }
+    interface ListTitleInfo { text: string; iconType: 'heart' | 'book' | null; }
+    let mainArticleListTitleInfo: ListTitleInfo = $state({ text: '', iconType: null });
 
-    // Initialize the title info state
-    let mainArticleListTitleInfo: ListTitleInfo = { text: '', iconType: null };
-
-    // Use an effect to update the title info based on relevant state changes
     $effect(() => {
         if (articleOfTheDay) {
-            // Wait for articleOfTheDay to be processed
             if (isLikedArticlesView) {
                 let titleText = "Favoris";
-                if (selectedFilter !== ALL_CATEGORIES_VALUE && selectedFilter) {
-                    titleText += `: ${filterForTitle}`;
-                }
-                if (isViewingSubDiscipline) {
-                    titleText += ` - ${selectedSubDiscipline}`;
-                }
+                if (selectedFilter !== ALL_CATEGORIES_VALUE && selectedFilter) { titleText += `: ${filterForTitle}`; }
+                if (isViewingSubDiscipline) { titleText += ` - ${selectedSubDiscipline}`; }
                 mainArticleListTitleInfo = { text: titleText, iconType: 'heart' };
             } else if (searchActive) {
                 mainArticleListTitleInfo = { text: "Résultats de recherche", iconType: 'book' };
@@ -175,18 +122,25 @@
                 mainArticleListTitleInfo = { text: `Articles précédents`, iconType: 'book' };
             }
         } else {
-            // Default title when there's no article of the day
-            mainArticleListTitleInfo = { text: `Articles pour ${filterForTitle}`, iconType: 'book' };
+             if (isLikedArticlesView) {
+                 let titleText = "Favoris";
+                 if (selectedFilter !== ALL_CATEGORIES_VALUE && selectedFilter) { titleText += `: ${filterForTitle}`; }
+                 if (isViewingSubDiscipline) { titleText += ` - ${selectedSubDiscipline}`; }
+                 mainArticleListTitleInfo = { text: titleText, iconType: 'heart' };
+             } else if (searchActive) {
+                 mainArticleListTitleInfo = { text: "Résultats de recherche", iconType: 'book' };
+             } else if (isViewingSubDiscipline) {
+                 mainArticleListTitleInfo = { text: `Articles pour ${selectedSubDiscipline}`, iconType: 'book' };
+             } else {
+                 mainArticleListTitleInfo = { text: `Articles pour ${filterForTitle}`, iconType: 'book' };
+             }
         }
     });
 
-    // --- Core Logic ---
-
-    // Effect to fetch SUB-DISCIPLINES when main filter changes
     $effect(() => {
         const currentMainFilter = selectedFilter;
-        selectedSubDiscipline = null; // Reset sub-selection
-        availableSubDisciplines = []; // Clear current subs
+        selectedSubDiscipline = null;
+        availableSubDisciplines = [];
 
         if (!currentMainFilter || currentMainFilter === ALL_CATEGORIES_VALUE) {
              isLoadingSubDisciplines = false;
@@ -195,13 +149,10 @@
         isLoadingSubDisciplines = true;
         const apiUrl = `/api/get_sub_disciplines?disciplineName=${encodeURIComponent(currentMainFilter)}&mode=${subDisciplineFetchMode}`;
         fetch(apiUrl)
-            .then(async (res) => {
-                if (!res.ok) { const errorText = await res.text().catch(() => `HTTP error ${res.status}`); throw new Error(`Erreur réseau ${res.status}: ${errorText}`); }
-                return res.json();
-            })
+            .then(async (res) => { if (!res.ok) { const errorText = await res.text().catch(() => `HTTP error ${res.status}`); throw new Error(`Erreur réseau ${res.status}: ${errorText}`); } return res.json();})
             .then((data: SubDisciplineOption[]) => {
                  availableSubDisciplines = data || [];
-                 if (initialSubFilterValue && data.some(sub => sub.name === initialSubFilterValue)) {
+                 if (initialSubFilterValue && data.some(sub => sub.name === initialSubFilterValue) && selectedFilter === initialFilterValue) {
                      selectedSubDiscipline = initialSubFilterValue;
                  }
             })
@@ -213,15 +164,15 @@
 
 	$effect(() => {
         const _filter = selectedFilter;
-        const _subFilter = selectedSubDiscipline; // used implicitly by fetchArticles
-        const _search = searchQuery; // used implicitly by fetchArticles
-        const _userId = $userProfileStore?.id ?? null;
+        const _subFilter = selectedSubDiscipline;
+        const _search = searchQuery;
+        const _userId = currentUserIdFromStore;
 
         if (apiEndpoint === '/api/get-liked-articles' && !_userId) {
             if (!isInitialLoading) { articles = []; articleOfTheDay = null; hasMore = false; }
             return;
         }
-        if (_filter === null && filters.length > 0) {
+        if (_filter === null && filters.length > 0 && !showAllCategoriesOption) {
              if (!isInitialLoading) { articles = []; articleOfTheDay = null; hasMore = false;}
             return;
         }
@@ -229,29 +180,20 @@
         debouncedFetchArticles(false);
 	});
 
-    // [REFACTOR 3] Effect for handling initial search query based on props
     $effect(() => {
         if (!isInitialLoading && !hasCheckedInitialSearch && articleId && articleTitle) {
             const currentAotDId = articleOfTheDay ? getArticleId(articleOfTheDay) : null;
-            if (currentAotDId !== articleId) {
+            if (String(currentAotDId) !== String(articleId)) {
                 searchQuery = articleTitle;
             }
             hasCheckedInitialSearch = true;
         }
     });
 
-
-    // [REFACTOR 2] Helper function to process fetched articles for AotD
-    function processFetchedArticlesForAotD(
-        newlyFetchedArticles: Article[],
-        isSearchCurrentlyActive: boolean,
-        isLikedArticlesPage: boolean
-    ): { aotd: Article | null; regularArticles: Article[] } {
+    function processFetchedArticlesForAotD(newlyFetchedArticles: Article[], isSearchCurrentlyActive: boolean, isLikedArticlesPage: boolean): { aotd: Article | null; regularArticles: Article[] } {
         let potentialAotd: Article | null = null;
         let remainingArticles = [...newlyFetchedArticles];
-
         const isAotdContext = !isSearchCurrentlyActive && !isLikedArticlesPage;
-
         if (isAotdContext && newlyFetchedArticles.length > 0) {
             const firstArticle = newlyFetchedArticles[0];
             if (firstArticle?.is_article_of_the_day === true) {
@@ -267,13 +209,13 @@
         const currentSubFilter = (currentFilter && currentFilter !== ALL_CATEGORIES_VALUE) ? selectedSubDiscipline : null;
         const currentSearch = searchQuery;
         const currentOffset = isLoadMore ? offset : 0;
-        const currentUserId = $userProfileStore?.id ?? null;
+        const userIdForFetch = currentUserIdFromStore;
 
-        if (apiEndpoint === '/api/get-liked-articles' && !currentUserId) {
+        if (apiEndpoint === '/api/get-liked-articles' && !userIdForFetch) {
             if (!isLoadMore) { articles = []; articleOfTheDay = null; hasMore = false; isLoading = false; isInitialLoading = false; }
             return;
         }
-        if (currentFilter === null && filters.length > 0) {
+         if (currentFilter === null && filters.length > 0 && !showAllCategoriesOption) {
             if (!isLoadMore) { articles = []; articleOfTheDay = null; hasMore = false; isLoading = false; isInitialLoading = false; }
             return;
         }
@@ -293,15 +235,17 @@
         if (enableSearch && currentSearch.trim()) {
             url.searchParams.set('search', currentSearch.trim());
         }
-        url.searchParams.set('filterByUserSubs', filterByUserSubs.toString());
+        if (filterByUserSubs) {
+            url.searchParams.set('filterByUserSubs', filterByUserSubs.toString());
+        }
+        if (apiEndpoint === '/api/get-liked-articles' && userIdForFetch) {
+            url.searchParams.set('userId', userIdForFetch);
+        }
 
 		fetch(url.toString())
-			.then(async (res) => {
-                if (!res.ok) { const errorText = await res.text(); throw new Error(`Erreur réseau ${res.status}: ${errorText || res.statusText}`);}
-                return res.json();
-            })
+			.then(async (res) => {  if (!res.ok) { const errorText = await res.text(); throw new Error(`Erreur réseau ${res.status}: ${errorText || res.statusText}`);} return res.json(); })
 			.then((data) => {
-				if (data && Array.isArray(data.data)) {
+                if (data && Array.isArray(data.data)) {
                     const fetchedArticles: Article[] = data.data.map((item: any) => ({
                         ...item, id: item.article_id, is_article_of_the_day: item.is_article_of_the_day
                     }));
@@ -309,11 +253,10 @@
                     if (isLoadMore) {
                         articles = [...articles, ...fetchedArticles];
                     } else {
-                        // [REFACTOR 2 Call] Use the extracted AotD processing function
                         const { aotd, regularArticles } = processFetchedArticlesForAotD(
                             fetchedArticles,
-                            searchActive, // Pass derived state
-                            isLikedArticlesView // Pass derived state
+                            searchActive,
+                            isLikedArticlesView
                         );
                         articleOfTheDay = aotd;
                         articles = regularArticles;
@@ -324,34 +267,23 @@
                     console.warn('API response format unexpected:', data); throw new Error("Format de réponse invalide");
 				}
             })
-			.catch((error) => {
-                console.error('Error fetching articles:', error); fetchError = error.message || "Erreur chargement articles.";
-                if (!isLoadMore) { articles = []; articleOfTheDay = null; }
-                hasMore = false;
-            })
-			.finally(() => {
-                isLoading = false;
-                if (!isLoadMore) {
-                    isInitialLoading = false;
-                    // [REFACTOR 3 Removal] Initial search logic moved to its own $effect
-                }
-            });
+			.catch((error) => {  console.error('Error fetching articles:', error); fetchError = error.message || "Erreur chargement articles."; if (!isLoadMore) { articles = []; articleOfTheDay = null; } hasMore = false; })
+			.finally(() => { isLoading = false; if (!isLoadMore) { isInitialLoading = false; } });
     }
 
     function loadMore() { if (!isLoading && hasMore) { fetchArticles(true); } }
 
-    function openImmersive(event: CustomEvent<Article>) {
-        const clickedArticle = event.detail;
+    function openImmersive(clickedArticle: Article) {
         const articleIdToUpdate = getArticleId(clickedArticle);
         markArticleAsReadUI(articleIdToUpdate);
         immersiveArticle = getArticleFromState(articleIdToUpdate) ?? clickedArticle;
-        markArticleAsReadAPI(articleIdToUpdate, $userProfileStore?.id);
+        markArticleAsReadAPI(articleIdToUpdate, currentUserIdFromStore);
 		document.body.classList.add('overflow-hidden');
 	}
 	function closeImmersive() { immersiveArticle = null; document.body.classList.remove('overflow-hidden');}
     function markArticleAsReadUI(articleId: string | number) { performOptimisticArticleUpdate(articleId, { is_read: true }); }
-    function markArticleAsReadAPI(articleId: string | number, currentUserId: string | null | undefined) {
-         if (currentUserId && typeof articleId === 'number' && !isNaN(articleId)) {
+    function markArticleAsReadAPI(articleId: string | number, userIdToUse: string | null | undefined) {
+         if (userIdToUse && typeof articleId === 'number' && !isNaN(articleId)) {
              fetch('/api/mark-article-read', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ articleId: articleId }), })
              .then(async (response) => { if (!response.ok) { const errorData = await response.json().catch(() => ({})); console.error(`API fail mark read ${articleId}:`, response.status, errorData.message);}})
              .catch((error) => { console.error(`Network error mark read ${articleId}:`, error); });
@@ -363,16 +295,34 @@
     }
 
     $effect(() => {
-        if (showSignupPromptProp && !$userProfileStore) {
+        if (showSignupPromptProp && !currentUserIdFromStore) {
             const timer = setTimeout(() => { showSignupPrompt = true; }, 3000);
             return () => clearTimeout(timer);
         } else { showSignupPrompt = false; }
     });
 	function handleSignup() { goto('/signup'); }
-    function handleSubDisciplineChange(value: string | null) {
-        const newValue = value === allSubDisciplinesLabel ? null : value;
-        if (selectedSubDiscipline !== newValue) { selectedSubDiscipline = newValue; searchQuery = '';}
+
+    function onSubDisciplineChangedByHeader(_newValue: string | null) {
+        searchQuery = '';
     }
+
+    let initialFilterSetForSearchClear = false;
+    $effect(() => {
+        const currentFilterValue = selectedFilter;
+        if (initialFilterSetForSearchClear) {
+             searchQuery = '';
+        }
+        initialFilterSetForSearchClear = true;
+
+		// This is to re-apply the initialSubFilterValue if the main filter changes back to initialFilterValue
+        // and initialSubFilterValue was indeed set.
+		if (currentFilterValue === initialFilterValue && initialSubFilterValue && availableSubDisciplines.some(sub => sub.name === initialSubFilterValue)) {
+			if (selectedSubDiscipline !== initialSubFilterValue) {
+				selectedSubDiscipline = initialSubFilterValue;
+			}
+		}
+    });
+
     function performOptimisticArticleUpdate(
         articleIdToUpdate: number | string,
         updates: Partial<Pick<Article, 'is_liked' | 'like_count' | 'is_thumbed_up' | 'thumbs_up_count' | 'is_read'>>
@@ -381,17 +331,17 @@
         if (articleOfTheDay && getArticleId(articleOfTheDay) === articleIdToUpdate) articleOfTheDay = updateLogic(articleOfTheDay);
         articles = articles.map(updateLogic);
     }
-    function handleLikeToggle(event: CustomEvent<{ articleId: number | string; currentlyLiked: boolean; currentLikeCount: number; }>) {
-		const { articleId, currentlyLiked, currentLikeCount } = event.detail;
-		if (!$userProfileStore) return;
+    function handleLikeToggle(eventDetail: { articleId: number | string; currentlyLiked: boolean; currentLikeCount: number; }) {
+		const { articleId, currentlyLiked, currentLikeCount } = eventDetail;
+		if (!currentUserIdFromStore) return;
 		if (isLikedArticlesView && currentlyLiked) { articleToUnlike = { articleId, currentlyLiked, currentLikeCount }; showUnlikeConfirmModal = true; return; }
 		const newStateIsLiked = !currentlyLiked; const newLikeCount = currentlyLiked ? Math.max(0, currentLikeCount - 1) : currentLikeCount + 1;
 		performOptimisticLikeUpdate(articleId, newStateIsLiked, newLikeCount); triggerLikeApiCall(articleId, currentlyLiked, currentLikeCount);
         if (isLikedArticlesView && !newStateIsLiked) removeArticleFromUI(articleId);
 	}
-    function handleThumbsUpToggle(event: CustomEvent<{ articleId: number | string; currentlyThumbedUp: boolean; currentThumbsUpCount: number; }>) {
-        const { articleId, currentlyThumbedUp, currentThumbsUpCount } = event.detail;
-        if (!$userProfileStore) return;
+    function handleThumbsUpToggle(eventDetail: { articleId: number | string; currentlyThumbedUp: boolean; currentThumbsUpCount: number; }) {
+        const { articleId, currentlyThumbedUp, currentThumbsUpCount } = eventDetail;
+        if (!currentUserIdFromStore) return;
         const newStateIsThumbedUp = !currentlyThumbedUp; const newThumbsUpCount = currentlyThumbedUp ? Math.max(0, currentThumbsUpCount - 1) : currentThumbsUpCount + 1;
         performOptimisticThumbsUpUpdate(articleId, newStateIsThumbedUp, newThumbsUpCount);
         triggerThumbsUpApiCall(articleId, currentlyThumbedUp, currentThumbsUpCount);
@@ -428,9 +378,9 @@
 		.then(async (res) => { const data = await res.json().catch(() => ({})); if (!res.ok) { console.error(`API err like ${articleIdNum}:`, res.status, data.message); revert(); } else { const optimState = getArticleFromState(articleIdNum); if (optimState && optimState.is_liked !== data.liked) revert(); }})
 		.catch((err) => { console.error(`Net err like ${articleIdNum}:`, err); revert(); });
 	}
-	async function handleToggleRead(event: CustomEvent<Article>) {
-		const articleToToggle = event.detail; const articleId = getArticleId(articleToToggle);
-		if (!$userProfileStore?.id || typeof articleId !== 'number' || isNaN(articleId)) return;
+	async function handleToggleRead(articleToToggle: Article) {
+		const articleId = getArticleId(articleToToggle);
+		if (!currentUserIdFromStore || typeof articleId !== 'number' || isNaN(articleId)) return;
         const originalState = getArticleFromState(articleId); if (!originalState) return;
         const newReadState = !(originalState.is_read ?? false);
         performOptimisticArticleUpdate(articleId, { is_read: newReadState }); await tick();
@@ -461,124 +411,69 @@
 				</button>
 			</div>
 		{/if}
-		{#if fetchError && !isLoading}
+
+		{#if fetchError && !isLoading && (articles.length === 0 && !articleOfTheDay)}
              <div class="my-6 p-4 rounded-lg bg-red-900/30 border border-red-700 text-red-300 text-center" role="alert">
                 <p><strong>Erreur :</strong> {fetchError}</p>
                 <button on:click={() => fetchError = null} class="mt-2 text-xs underline hover:text-red-100">Ignorer</button>
              </div>
         {/if}
-		<h1 class="mb-4 text-3xl font-bold text-white">{pageTitle}</h1>
-		<div class="mb-6 flex flex-col gap-4">
-            <div class="flex flex-col md:flex-row flex-wrap gap-4">
-                {#if filters.length > 0 || showAllCategoriesOption}
-                    <div class="relative w-full md:max-w-xs shrink-0">
-                        <Select.Root type="single" name="selectedFilter" value={selectedFilter ?? undefined} onValueChange={(detail) => { selectedFilter = detail; searchQuery = ''; }}>
-                            <Select.Trigger class="w-full rounded-lg border border-gray-700 bg-gray-800 px-4 py-3 text-sm font-medium text-white shadow-sm hover:bg-gray-700 focus:ring-2 focus:ring-teal-500 focus:outline-none" disabled={isLoading && isInitialLoading}>{triggerContent}</Select.Trigger>
-                            <Select.Content class="scrollbar-thin scrollbar-thumb-teal-500 scrollbar-track-gray-800 z-20 max-h-60 overflow-y-auto rounded-lg border border-gray-700 bg-gray-900 shadow-lg">
-                                <Select.Group>
-                                    <Select.GroupHeading class="px-4 py-2 font-semibold text-gray-400 text-xs uppercase tracking-wider">{filterSelectLabel}</Select.GroupHeading>
-                                    {#if showAllCategoriesOption}
-                                        <Select.Item value={ALL_CATEGORIES_VALUE} label={ALL_CATEGORIES_LABEL} class="cursor-pointer px-4 py-2 text-white hover:bg-teal-600/80 data-[selected]:bg-teal-700">{ALL_CATEGORIES_LABEL}</Select.Item>
-                                    {/if}
-                                    {#each sortedFilters as filter (filter.value)}
-                                        <Select.Item value={filter.value} label={filter.label} class="cursor-pointer px-4 py-2 text-white hover:bg-teal-600/80 data-[selected]:bg-teal-700">{filter.label}</Select.Item>
-                                    {/each}
-                                </Select.Group>
-                            </Select.Content>
-                        </Select.Root>
-                    </div>
-                {/if}
-                {#if showSubDisciplineFilter}
-                    <div class="relative w-full md:max-w-xs shrink-0">
-                        <Select.Root type="single" name="selectedSubDiscipline" value={selectedSubDiscipline ?? allSubDisciplinesLabel} onValueChange={(detail) => handleSubDisciplineChange(detail)}>
-                            <Select.Trigger class="w-full rounded-lg border border-gray-700 bg-gray-800 px-4 py-3 text-sm font-medium text-white shadow-sm hover:bg-gray-700 focus:ring-2 focus:ring-teal-500 focus:outline-none" disabled={isLoadingSubDisciplines || (isLoading && isInitialLoading)}>
-                                {#if isLoadingSubDisciplines}
-                                    <span class="flex items-center gap-2 opacity-70"><svg class="animate-spin h-4 w-4 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"> <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle> <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path> </svg>Chargement...</span>
-                                {:else}{subDisciplineTriggerContent}{/if}
-                            </Select.Trigger>
-                            <Select.Content class="scrollbar-thin scrollbar-thumb-teal-500 scrollbar-track-gray-800 z-10 max-h-60 overflow-y-auto rounded-lg border border-gray-700 bg-gray-900 shadow-lg">
-                                <Select.Group>
-                                    <Select.GroupHeading class="px-4 py-2 font-semibold text-gray-400 text-xs uppercase tracking-wider">{subDisciplineSelectLabel}</Select.GroupHeading>
-                                    {#if showAllSubDisciplinesOption}
-                                        <Select.Item value={allSubDisciplinesLabel} label={allSubDisciplinesLabel} class="cursor-pointer px-4 py-2 text-white hover:bg-teal-600/80 data-[selected]:bg-teal-700">{allSubDisciplinesLabel}</Select.Item>
-                                    {/if}
-                                    {#each availableSubDisciplines as sub (sub.name)}
-                                        <Select.Item value={sub.name} label={sub.name} class="cursor-pointer px-4 py-2 text-white hover:bg-teal-600/80 data-[selected]:bg-teal-700">{sub.name}</Select.Item>
-                                    {/each}
-                                </Select.Group>
-                            </Select.Content>
-                        </Select.Root>
-                    </div>
-                {/if}
-            </div>
-            {#if enableSearch}
-                <div class="relative w-full">
-                    <input type="search" bind:value={searchQuery} placeholder={searchPlaceholder} class="w-full rounded-lg border border-gray-700 bg-gray-800 px-4 py-3 pl-10 text-sm font-medium text-white shadow-sm placeholder-gray-500 focus:ring-2 focus:ring-teal-500 focus:outline-none focus:border-teal-500" disabled={isLoading && isInitialLoading && !searchActive}/>
-                    <svg class="absolute left-3 top-1/2 transform -translate-y-1/2 h-5 w-5 text-gray-500 pointer-events-none" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" /></svg>
-                    {#if searchQuery}
-                        <button aria-label="Effacer la recherche" on:click={() => searchQuery = ''} class="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-500 hover:text-white focus:outline-none focus:ring-1 focus:ring-teal-500 rounded-full p-0.5">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-4 h-4"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" /></svg>
-                        </button>
-                    {/if}
-                </div>
-            {/if}
-		</div>
 
-		{#if isInitialLoading}
-			<div class="flex justify-center items-center py-20" aria-live="polite" aria-busy="true"><div class="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-teal-500"></div></div>
-        {:else if fetchError && articles.length === 0 && !articleOfTheDay}
-             <div class="my-10 p-4 rounded-lg bg-red-900/30 border border-red-700 text-red-300 text-center" role="alert"><p><strong>Erreur chargement initial :</strong> {fetchError}</p><p class="mt-2 text-sm">Veuillez réessayer.</p></div>
-        {:else if !userId && isLikedArticlesView}
-            <div class="my-10 p-4 rounded-lg bg-gray-800/50 border border-gray-700 text-gray-400 text-center"><p>Connectez-vous pour voir vos favoris.</p><button on:click={handleSignup} class="mt-4 rounded-lg bg-teal-600 px-5 py-2.5 text-sm font-semibold text-white hover:bg-teal-700">Se connecter</button></div>
-		{:else if !articleOfTheDay && articles.length === 0 && !isLoading}
-            <div class="my-10 p-4 rounded-lg bg-gray-800/50 border border-gray-700 text-gray-400 text-center">
-                {#if emptyStateMessage}<p>{@html emptyStateMessage}</p>
-                {:else}
-                    <p>{#if searchActive}Aucun article pour "{filterForTitle}"{#if isViewingSubDiscipline} dans "{selectedSubDiscipline}"{/if} avec "{searchQuery}".{:else}Aucun article pour "{filterForTitle}"{#if isViewingSubDiscipline} dans "{selectedSubDiscipline}"{/if}.{/if}</p>
-                    {#if isViewingSubDiscipline && !articleOfTheDay && !isLoading}<p class="mt-3 text-sm text-gray-500 italic">(Aucun article du jour spécifique à cette sous-spécialité.)</p>{/if}
-                    <p class="mt-2 text-sm">{#if searchActive}Essayez de modifier recherche/filtres.{:else}Revenez plus tard ou autre filtre.{/if}</p>
-                {/if}
-            </div>
-        {:else}
-			{#if articleOfTheDay}
-                <div class="mb-8">
-                    <h2 class="text-2xl font-bold text-teal-500">🔥 Article du jour {#if isViewingSubDiscipline}pour {selectedSubDiscipline}{:else if selectedFilter && selectedFilter !== ALL_CATEGORIES_VALUE}pour {filterForTitle}{/if}</h2>
-                    <ul class="mt-4 space-y-4"><ArticleCard article={articleOfTheDay} on:open={openImmersive} on:likeToggle={handleLikeToggle} on:toggleRead={handleToggleRead} on:thumbsUpToggle={handleThumbsUpToggle}/></ul>
-                </div>
-            {:else if isViewingSubDiscipline && !isLoading}
-                 <p class="mb-6 text-sm text-gray-500 italic">Aucun article du jour pour "{selectedSubDiscipline}". Voici les articles précédents :</p>
-            {/if}
-			<div class="mb-6">
-                {#if articles.length > 0}
-                    <!-- [REFACTOR 1 Use] Using the derived title info -->
-                    <h2 class="text-2xl font-bold text-white flex items-center gap-2">
-                        {#if mainArticleListTitleInfo.iconType == 'heart'}
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 fill-pink-500 text-pink-500"> <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" /> </svg>
-                        {:else if mainArticleListTitleInfo.iconType == 'book'}
-                            📖
-                        {/if}
-                        {mainArticleListTitleInfo.text}
-                    </h2>
-                    <ul class="mt-4 space-y-4">
-                         {#each articles as article (getArticleId(article))}
-                            <ArticleCard {article} on:open={openImmersive} on:likeToggle={handleLikeToggle} on:toggleRead={handleToggleRead} on:thumbsUpToggle={handleThumbsUpToggle}/>
-                         {/each}
-                    </ul>
-                {/if}
-			</div>
-            {#if hasMore || isLoading}
-                <div class="mt-8 text-center">
-                    {#if isLoading && !isInitialLoading}<div class="flex justify-center items-center py-4"><div class="animate-spin rounded-full h-8 w-8 border-t-2 border-b-2 border-teal-500"></div></div>
-                    {:else if hasMore}<button on:click={loadMore} disabled={isLoading} class="rounded-lg bg-teal-600 px-5 py-2.5 text-sm font-semibold text-white hover:bg-teal-700 disabled:opacity-50 disabled:cursor-not-allowed">{loadMoreButtonText}</button>{/if}
-                </div>
-            {:else if !isInitialLoading}
-                <div class="mt-8 text-center text-gray-500"><span class="inline-flex items-center gap-2 rounded-full bg-gray-800 px-4 py-2 text-sm"><svg class="h-5 w-5 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>{allArticlesLoadedText}</span></div>
-            {/if}
-		{/if}
+		<h1 class="mb-4 text-3xl font-bold text-white">{pageTitle}</h1>
+
+		<ArticleListHeader
+            {filters}
+            bind:selectedFilter
+            {filterSelectLabel}
+            {showAllCategoriesOption}
+            {ALL_CATEGORIES_VALUE}
+            {ALL_CATEGORIES_LABEL}
+            isContentLoading={isLoading && isInitialLoading}
+            {showSubDisciplineFilter}
+            {availableSubDisciplines}
+            bind:selectedSubDiscipline
+            {isLoadingSubDisciplines}
+            {subDisciplineSelectLabel}
+            {allSubDisciplinesLabel}
+            {showAllSubDisciplinesOption}
+            on:subdisciplinechanged={(e) => onSubDisciplineChangedByHeader(e.detail)}
+            {enableSearch}
+            bind:searchQuery
+            {searchPlaceholder}
+            isSearchDisabled={isLoading && isInitialLoading && !searchActive}
+        />
+
+        <ArticleListDisplay
+            {articleOfTheDay}
+            {articles}
+            {isInitialLoading}
+            fetchError={fetchError}
+            userId={currentUserIdFromStore}
+            {isLikedArticlesView}
+            {emptyStateMessage}
+            {filterForTitle}
+            {isViewingSubDiscipline}
+            {selectedSubDiscipline}
+            {searchActive}
+            {searchQuery}
+            isLoading={isLoading}
+            {hasMore}
+            {loadMoreButtonText}
+            {allArticlesLoadedText}
+            {mainArticleListTitleInfo}
+            {ALL_CATEGORIES_VALUE}
+            on:openArticle={(e) => openImmersive(e.detail)}
+            on:likeToggle={(e) => handleLikeToggle(e.detail)}
+            on:toggleRead={(e) => handleToggleRead(e.detail)}
+            on:thumbsUpToggle={(e) => handleThumbsUpToggle(e.detail)}
+            on:loadMore={loadMore}
+            on:handleSignup={handleSignup}
+        />
 	</div>
 </div>
 <ArticleImmersiveModal article={immersiveArticle} on:close={closeImmersive} />
 <ConfirmationModal isOpen={showUnlikeConfirmModal} on:confirm={handleConfirmUnlike} on:cancel={handleCancelUnlike} title="Confirmer le retrait" message="Retirer cet article de vos favoris ?" confirmText="Retirer" cancelText="Annuler"/>
+
 <style>
 	button:focus-visible, input:focus-visible, [data-radix-select-trigger]:focus-visible { outline: 2px solid #14b8a6; outline-offset: 2px; }
 	.scrollbar-thin { scrollbar-width: thin; scrollbar-color: #14b8a6 #1f2937; }
