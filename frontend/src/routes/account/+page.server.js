@@ -13,7 +13,6 @@ export async function load({ locals }) {
 		// 1. Fetch user profile (excluding the old 'minimum_grade_notification')
 		const { data: userProfile, error: profileError } = await locals.supabase
 			.from('user_profiles')
-			// REMOVED minimum_grade_notification from select
 			.select('id, first_name, last_name, email, notification_frequency, date_of_birth, status, specialty, has_seen_tooltip, feedback_modal')
 			.eq('id', user.id)
 			.single();
@@ -81,11 +80,10 @@ export async function load({ locals }) {
 		return {
             userProfile,
             allDisciplines,
-            userSubscriptions: Array.from(userSubscriptions), // Pass as array
-            userGradePreferences, // **** NEW: Pass selected grades ****
+            userSubscriptions: Array.from(userSubscriptions),
+            userGradePreferences,
             statusOptions,
             notificationOptions,
-            // REMOVED minimumGradeOptions
 			session,
 			user,
 		};

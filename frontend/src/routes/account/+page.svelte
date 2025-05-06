@@ -14,7 +14,6 @@
 	let status = $state(data.userProfile?.status || '');
 	let specialty = $state(data.userProfile?.specialty || '');
 	let dateOfBirth = $state(data.userProfile?.date_of_birth || '');
-    // REMOVED minimumGradeNotification = $state(...)
 
     // Subscription state
     let currentSubscriptions = $state(new Set<string>(data.userSubscriptions || []));
@@ -111,16 +110,7 @@
         if (isChecked) {
             newGrades.add(grade);
         } else {
-            // Prevent unchecking the last grade if desired (optional)
-            // if (newGrades.size > 1) {
-            //     newGrades.delete(grade);
-            // } else {
-            //     // Optionally show an error or prevent unchecking
-            //     console.warn("Cannot uncheck the last grade.");
-            //     // Re-check the box visually if using individual checked prop
-            //     // This part needs careful implementation if using bind:group
-            // }
-             newGrades.delete(grade); // Allow unchecking all for now
+            newGrades.delete(grade); // Allow unchecking all for now
         }
         selectedGrades = newGrades;
         console.log("Selected grades:", Array.from(selectedGrades));
