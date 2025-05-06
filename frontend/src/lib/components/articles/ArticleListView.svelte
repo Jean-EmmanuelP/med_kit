@@ -43,8 +43,8 @@
 		apiFilterParamName = 'specialty',
 		userId = null as string | null,
         savedArticleIds = new Set<string | number>(),
-		articleOfTheDayTitleTemplate = '🔥 Article du jour pour {filter} :',
-		previousArticlesTitleTemplate = '📖 Articles précédents pour {filter} :',
+		articleOfTheDayTitleTemplate = '🔥 Article du jour pour {filter} :', // Note: This prop is passed but not directly used for the dynamic AotD title in this component
+		previousArticlesTitleTemplate = '📖 Articles précédents pour {filter} :', // Note: This prop is passed but not directly used for the dynamic main list title in this component
 		loadMoreButtonText = "Charger plus d'articles",
 		allArticlesLoadedText = "Tous les articles ont été chargés",
         emptyStateMessage = null as string | null,
@@ -88,7 +88,6 @@
     // Update initial filter default logic slightly to handle empty filters AND showAll option
     const defaultInitialFilter = filters.length > 0 ? (filters[0]?.value ?? null) : (showAllCategoriesOption ? ALL_CATEGORIES_VALUE : null);
 
-    console.log("les new props la", articleId, articleTitle)
 	// --- Internal State ---
 	let selectedFilter = $state<string | null>(initialFilterValue ?? defaultInitialFilter);
     let selectedSubDiscipline = $state<string | null>(initialSubFilterValue ?? null);
@@ -146,6 +145,41 @@
     const isViewingSubDiscipline = $derived(selectedSubDiscipline !== null && selectedSubDiscipline !== allSubDisciplinesLabel);
     const isLikedArticlesView = $derived(apiEndpoint === '/api/get-liked-articles');
 
+    // Ensure ListTitleInfo is defined
+    interface ListTitleInfo {
+        text: string;
+        iconType: 'heart' | 'book' | null;
+    }
+
+    // Initialize the title info state
+    let mainArticleListTitleInfo: ListTitleInfo = { text: '', iconType: null };
+
+    // Use an effect to update the title info based on relevant state changes
+    $effect(() => {
+        if (articleOfTheDay) {
+            // Wait for articleOfTheDay to be processed
+            if (isLikedArticlesView) {
+                let titleText = "Favoris";
+                if (selectedFilter !== ALL_CATEGORIES_VALUE && selectedFilter) {
+                    titleText += `: ${filterForTitle}`;
+                }
+                if (isViewingSubDiscipline) {
+                    titleText += ` - ${selectedSubDiscipline}`;
+                }
+                mainArticleListTitleInfo = { text: titleText, iconType: 'heart' };
+            } else if (searchActive) {
+                mainArticleListTitleInfo = { text: "Résultats de recherche", iconType: 'book' };
+            } else if (isViewingSubDiscipline) {
+                mainArticleListTitleInfo = { text: `Articles pour ${selectedSubDiscipline}`, iconType: 'book' };
+            } else {
+                mainArticleListTitleInfo = { text: `Articles précédents`, iconType: 'book' };
+            }
+        } else {
+            // Default title when there's no article of the day
+            mainArticleListTitleInfo = { text: `Articles pour ${filterForTitle}`, iconType: 'book' };
+        }
+    });
+
     // --- Core Logic ---
 
     // Effect to fetch SUB-DISCIPLINES when main filter changes
@@ -158,113 +192,89 @@
              isLoadingSubDisciplines = false;
              return;
         }
-
         isLoadingSubDisciplines = true;
-        console.log(`Fetching sub-disciplines for: ${currentMainFilter} (Mode: ${subDisciplineFetchMode})`);
-
-        // Construct URL with the mode parameter
         const apiUrl = `/api/get_sub_disciplines?disciplineName=${encodeURIComponent(currentMainFilter)}&mode=${subDisciplineFetchMode}`;
-
         fetch(apiUrl)
             .then(async (res) => {
-                if (!res.ok) {
-                    const errorText = await res.text().catch(() => `HTTP error ${res.status}`);
-					throw new Error(`Erreur réseau ${res.status}: ${errorText}`);
-                }
+                if (!res.ok) { const errorText = await res.text().catch(() => `HTTP error ${res.status}`); throw new Error(`Erreur réseau ${res.status}: ${errorText}`); }
                 return res.json();
             })
             .then((data: SubDisciplineOption[]) => {
                  availableSubDisciplines = data || [];
-                 // After receiving sub-disciplines, try to select the initial value if it exists
                  if (initialSubFilterValue && data.some(sub => sub.name === initialSubFilterValue)) {
                      selectedSubDiscipline = initialSubFilterValue;
                  }
             })
-            .catch(error => {
-                console.error("Error fetching sub-disciplines:", error);
-                availableSubDisciplines = [];
-                fetchError = `Erreur chargement sous-spécialités.`; // More generic error
-            })
-            .finally(() => {
-                isLoadingSubDisciplines = false;
-            });
+            .catch(error => { console.error("Error fetching sub-disciplines:", error); availableSubDisciplines = []; fetchError = `Erreur chargement sous-spécialités.`; })
+            .finally(() => { isLoadingSubDisciplines = false; });
     });
 
-    // Create a debounced function for triggering the fetch
     const debouncedFetchArticles = debounce(fetchArticles, searchDebounceMs);
 
-    // Effect to trigger DEBOUNCED article fetch on filter/search/user changes
 	$effect(() => {
         const _filter = selectedFilter;
-        const _subFilter = selectedSubDiscipline;
-        const _search = searchQuery;
-        const _userId = $userProfileStore?.id ?? null; // Use store here
+        const _subFilter = selectedSubDiscipline; // used implicitly by fetchArticles
+        const _search = searchQuery; // used implicitly by fetchArticles
+        const _userId = $userProfileStore?.id ?? null;
 
-        // Check if API needs user ID and if it's available
         if (apiEndpoint === '/api/get-liked-articles' && !_userId) {
-            // console.log("$effect: Blocking fetch - waiting for userId for liked articles.");
-            if (!isInitialLoading) { // Only clear if not the very first load
-                articles = [];
-                articleOfTheDay = null;
-                hasMore = false;
-            }
-            // Keep isInitialLoading true until user ID is available or handled
+            if (!isInitialLoading) { articles = []; articleOfTheDay = null; hasMore = false; }
             return;
         }
-
-        // Check if a filter is required and if it's selected
-        if (_filter === null && filters.length > 0) { // Only block if filters ARE available but none is selected
-            // console.log("$effect: Blocking fetch - selectedFilter is null but filters exist.");
-             if (!isInitialLoading) {
-                articles = [];
-                articleOfTheDay = null;
-                hasMore = false;
-            }
+        if (_filter === null && filters.length > 0) {
+             if (!isInitialLoading) { articles = []; articleOfTheDay = null; hasMore = false;}
             return;
         }
-
-        // console.log("$effect: Conditions met, resetting state and triggering fetch");
-        isInitialLoading = true; // Set to true before fetch starts
-        articles = [];
-        articleOfTheDay = null;
-        offset = 0;
-        hasMore = true;
-        fetchError = null;
-
-		// console.log("$effect: Triggering debounced fetchArticles call");
-        debouncedFetchArticles(false); // Call fetch directly or debounced
+        isInitialLoading = true; articles = []; articleOfTheDay = null; offset = 0; hasMore = true; fetchError = null;
+        debouncedFetchArticles(false);
 	});
 
-    // Reusable fetch function
+    // [REFACTOR 3] Effect for handling initial search query based on props
+    $effect(() => {
+        if (!isInitialLoading && !hasCheckedInitialSearch && articleId && articleTitle) {
+            const currentAotDId = articleOfTheDay ? getArticleId(articleOfTheDay) : null;
+            if (currentAotDId !== articleId) {
+                searchQuery = articleTitle;
+            }
+            hasCheckedInitialSearch = true;
+        }
+    });
+
+
+    // [REFACTOR 2] Helper function to process fetched articles for AotD
+    function processFetchedArticlesForAotD(
+        newlyFetchedArticles: Article[],
+        isSearchCurrentlyActive: boolean,
+        isLikedArticlesPage: boolean
+    ): { aotd: Article | null; regularArticles: Article[] } {
+        let potentialAotd: Article | null = null;
+        let remainingArticles = [...newlyFetchedArticles];
+
+        const isAotdContext = !isSearchCurrentlyActive && !isLikedArticlesPage;
+
+        if (isAotdContext && newlyFetchedArticles.length > 0) {
+            const firstArticle = newlyFetchedArticles[0];
+            if (firstArticle?.is_article_of_the_day === true) {
+                potentialAotd = firstArticle;
+                remainingArticles = newlyFetchedArticles.slice(1);
+            }
+        }
+        return { aotd: potentialAotd, regularArticles: remainingArticles };
+    }
+
     function fetchArticles(isLoadMore = false) {
         const currentFilter = selectedFilter;
-        // Ensure subFilter is null if main filter is "All" or null
         const currentSubFilter = (currentFilter && currentFilter !== ALL_CATEGORIES_VALUE) ? selectedSubDiscipline : null;
         const currentSearch = searchQuery;
         const currentOffset = isLoadMore ? offset : 0;
         const currentUserId = $userProfileStore?.id ?? null;
 
-        // Re-check dependency on user ID
         if (apiEndpoint === '/api/get-liked-articles' && !currentUserId) {
-            if (!isLoadMore) {
-                 articles = [];
-                 articleOfTheDay = null;
-                 hasMore = false;
-                 isLoading = false;
-                 isInitialLoading = false;
-            }
+            if (!isLoadMore) { articles = []; articleOfTheDay = null; hasMore = false; isLoading = false; isInitialLoading = false; }
             return;
         }
-
-        // Re-check filter requirement
         if (currentFilter === null && filters.length > 0) {
-            if (!isLoadMore) {
-                articles = [];
-                articleOfTheDay = null;
-                hasMore = false;
-                isLoading = false;
-                isInitialLoading = false;
-            }
+            if (!isLoadMore) { articles = []; articleOfTheDay = null; hasMore = false; isLoading = false; isInitialLoading = false; }
             return;
         }
 
@@ -287,511 +297,213 @@
 
 		fetch(url.toString())
 			.then(async (res) => {
-                if (!res.ok) {
-                    const errorText = await res.text();
-					throw new Error(`Erreur réseau ${res.status}: ${errorText || res.statusText}`);
-                }
+                if (!res.ok) { const errorText = await res.text(); throw new Error(`Erreur réseau ${res.status}: ${errorText || res.statusText}`);}
                 return res.json();
             })
 			.then((data) => {
 				if (data && Array.isArray(data.data)) {
-                    // Map the data, ensuring the new boolean flags are included
                     const fetchedArticles: Article[] = data.data.map((item: any) => ({
-                        ...item, // Spread existing fields
-                        id: item.article_id, // Make sure ID mapping is correct
-                        is_article_of_the_day: item.is_article_of_the_day // Map the new flag
+                        ...item, id: item.article_id, is_article_of_the_day: item.is_article_of_the_day
                     }));
-                    console.log("Fetched Articles with flags:", fetchedArticles);
 
                     if (isLoadMore) {
                         articles = [...articles, ...fetchedArticles];
                     } else {
-                        // --- REVISED AotD Logic: Check flag on first item ---
-                        let potentialAotd: Article | null = null;
-                        let remainingArticles = [...fetchedArticles]; // Start with all
-
-                        // Conditions for having an AotD: not loading more, not searching, not liked view
-                        const isAotdContext = !isLoadMore && !searchActive && !isLikedArticlesView;
-
-                        if (isAotdContext && fetchedArticles.length > 0) {
-                            const firstArticle = fetchedArticles[0];
-                            console.log("Checking AotD: First article ID:", firstArticle?.id, "Flag:", firstArticle?.is_article_of_the_day);
-
-                            // Check the flag on the first article. The RPC's ORDER BY should place it first if applicable.
-                            if (firstArticle?.is_article_of_the_day === true) {
-                                console.log("Assigning AotD based on flag on first item.");
-                                potentialAotd = firstArticle;
-                                remainingArticles = fetchedArticles.slice(1); // Remove from main list
-                            } else {
-                                 console.log("First item is not flagged as AotD for this context.");
-                            }
-                        } else {
-                             console.log("Not an AotD context or no articles fetched.");
-                        }
-
-                        articleOfTheDay = potentialAotd;
-                        articles = remainingArticles;
-                        console.log("Final AotD state:", { AotD_ID: articleOfTheDay?.id, articlesCount: articles.length });
+                        // [REFACTOR 2 Call] Use the extracted AotD processing function
+                        const { aotd, regularArticles } = processFetchedArticlesForAotD(
+                            fetchedArticles,
+                            searchActive, // Pass derived state
+                            isLikedArticlesView // Pass derived state
+                        );
+                        articleOfTheDay = aotd;
+                        articles = regularArticles;
                     }
-
                     offset = currentOffset + fetchedArticles.length;
                     hasMore = fetchedArticles.length >= itemsPerPage;
-
 				} else {
-                    console.warn('API response format unexpected or data.data is not an array:', data);
-					throw new Error("Format de réponse invalide de l'API");
+                    console.warn('API response format unexpected:', data); throw new Error("Format de réponse invalide");
 				}
             })
 			.catch((error) => {
-                console.error('Error fetching articles:', error);
-                fetchError = error.message || "Une erreur est survenue lors du chargement des articles.";
-                if (!isLoadMore) {
-                    articles = [];
-                    articleOfTheDay = null;
-                }
+                console.error('Error fetching articles:', error); fetchError = error.message || "Erreur chargement articles.";
+                if (!isLoadMore) { articles = []; articleOfTheDay = null; }
                 hasMore = false;
             })
 			.finally(() => {
                 isLoading = false;
                 if (!isLoadMore) {
                     isInitialLoading = false;
-                    // Check if articleId matches articleOfTheDay.id after initial load, but only once
-                    if (!hasCheckedInitialSearch && articleId && articleTitle) {
-                        if (!articleOfTheDay || articleOfTheDay.id !== articleId) {
-                            searchQuery = articleTitle;
-                        }
-                        hasCheckedInitialSearch = true;
-                    }
+                    // [REFACTOR 3 Removal] Initial search logic moved to its own $effect
                 }
             });
     }
 
-    function loadMore() {
-         if (!isLoading && hasMore) {
-             fetchArticles(true);
-         }
-	}
+    function loadMore() { if (!isLoading && hasMore) { fetchArticles(true); } }
 
     function openImmersive(event: CustomEvent<Article>) {
         const clickedArticle = event.detail;
         const articleIdToUpdate = getArticleId(clickedArticle);
-        const currentUser = $userProfileStore; // Get current user state
-
-        // Optimistically mark as read in UI *before* showing modal
         markArticleAsReadUI(articleIdToUpdate);
-
-        // Set the article for the modal
         immersiveArticle = getArticleFromState(articleIdToUpdate) ?? clickedArticle;
-
-        // Call API to mark as read (fire and forget)
-        markArticleAsReadAPI(articleIdToUpdate, currentUser?.id);
-
-        // Add class to body
+        markArticleAsReadAPI(articleIdToUpdate, $userProfileStore?.id);
 		document.body.classList.add('overflow-hidden');
 	}
-
-	function closeImmersive() {
-		immersiveArticle = null;
-		document.body.classList.remove('overflow-hidden');
-	}
-
-    // --- Separate UI update function ---
-    function markArticleAsReadUI(articleId: string | number) {
-        console.log(`Optimistic UI: Marking article ${articleId} as read.`);
-         if (articleOfTheDay && getArticleId(articleOfTheDay) === articleId) {
-            articleOfTheDay = { ...articleOfTheDay, is_read: true };
-        }
-        articles = articles.map(a =>
-            getArticleId(a) === articleId ? { ...a, is_read: true } : a
-        );
-    }
-
-    // --- Separate API call function ---
-    function markArticleAsReadAPI(articleId: string | number, userId: string | null | undefined) {
-         if (userId && typeof articleId === 'number' && !isNaN(articleId)) {
-            // console.log(`Calling API to mark article ${articleId} as read for user ${userId}...`);
-             fetch('/api/mark-article-read', { // Use the single mark-read endpoint
-                 method: 'POST',
-                 headers: { 'Content-Type': 'application/json' },
-                 body: JSON.stringify({ articleId: articleId }),
-             })
-             .then(async (response) => {
-                 if (!response.ok) {
-                     const errorData = await response.json().catch(() => ({ message: 'Failed to parse error response' }));
-                     console.error(`API failed to mark article ${articleId} as read:`, response.status, errorData.message || response.statusText);
-                     // Optionally revert UI? Might be complex if user navigates away.
-                 } else {
-                    //  console.log(`API confirmed article ${articleId} marked as read.`);
-                 }
-             })
-             .catch((error) => {
-                 console.error(`Network error marking article ${articleId} as read:`, error);
-             });
-        } else if (!userId) {
-            // console.log("User not logged in, skipping mark as read API call.");
-        } else {
-            console.warn("Cannot mark article as read via API: Invalid article ID.", articleId);
+	function closeImmersive() { immersiveArticle = null; document.body.classList.remove('overflow-hidden');}
+    function markArticleAsReadUI(articleId: string | number) { performOptimisticArticleUpdate(articleId, { is_read: true }); }
+    function markArticleAsReadAPI(articleId: string | number, currentUserId: string | null | undefined) {
+         if (currentUserId && typeof articleId === 'number' && !isNaN(articleId)) {
+             fetch('/api/mark-article-read', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ articleId: articleId }), })
+             .then(async (response) => { if (!response.ok) { const errorData = await response.json().catch(() => ({})); console.error(`API fail mark read ${articleId}:`, response.status, errorData.message);}})
+             .catch((error) => { console.error(`Network error mark read ${articleId}:`, error); });
         }
     }
-
-     // Helper to get the current state of an article
     function getArticleFromState(articleId: string | number): Article | null {
-        if (articleOfTheDay && getArticleId(articleOfTheDay) === articleId) {
-            return articleOfTheDay;
-        }
+        if (articleOfTheDay && getArticleId(articleOfTheDay) === articleId) return articleOfTheDay;
         return articles.find(a => getArticleId(a) === articleId) || null;
     }
 
-
     $effect(() => {
         if (showSignupPromptProp && !$userProfileStore) {
-            const timer = setTimeout(() => {
-                showSignupPrompt = true;
-            }, 3000);
+            const timer = setTimeout(() => { showSignupPrompt = true; }, 3000);
             return () => clearTimeout(timer);
-        } else {
-            showSignupPrompt = false;
-        }
+        } else { showSignupPrompt = false; }
     });
-
-	function handleSignup() {
-		goto('/signup');
-	}
-
+	function handleSignup() { goto('/signup'); }
     function handleSubDisciplineChange(value: string | null) {
         const newValue = value === allSubDisciplinesLabel ? null : value;
-        if (selectedSubDiscipline !== newValue) {
-            selectedSubDiscipline = newValue;
-            searchQuery = ''; // Reset search when sub-discipline changes
-            // Fetch will be triggered by the $effect watching selectedSubDiscipline
-        }
+        if (selectedSubDiscipline !== newValue) { selectedSubDiscipline = newValue; searchQuery = '';}
     }
-
-    // --- Handle Like Toggle ---
+    function performOptimisticArticleUpdate(
+        articleIdToUpdate: number | string,
+        updates: Partial<Pick<Article, 'is_liked' | 'like_count' | 'is_thumbed_up' | 'thumbs_up_count' | 'is_read'>>
+    ) {
+        const updateLogic = (article: Article): Article => (getArticleId(article) === articleIdToUpdate) ? { ...article, ...updates } : article;
+        if (articleOfTheDay && getArticleId(articleOfTheDay) === articleIdToUpdate) articleOfTheDay = updateLogic(articleOfTheDay);
+        articles = articles.map(updateLogic);
+    }
     function handleLikeToggle(event: CustomEvent<{ articleId: number | string; currentlyLiked: boolean; currentLikeCount: number; }>) {
 		const { articleId, currentlyLiked, currentLikeCount } = event.detail;
-		const currentUser = $userProfileStore; if (!currentUser) { console.warn("User not logged in, cannot toggle like."); return; }
+		if (!$userProfileStore) return;
 		if (isLikedArticlesView && currentlyLiked) { articleToUnlike = { articleId, currentlyLiked, currentLikeCount }; showUnlikeConfirmModal = true; return; }
 		const newStateIsLiked = !currentlyLiked; const newLikeCount = currentlyLiked ? Math.max(0, currentLikeCount - 1) : currentLikeCount + 1;
 		performOptimisticLikeUpdate(articleId, newStateIsLiked, newLikeCount); triggerLikeApiCall(articleId, currentlyLiked, currentLikeCount);
-        if (isLikedArticlesView && newStateIsLiked === false) { removeArticleFromUI(articleId); }
+        if (isLikedArticlesView && !newStateIsLiked) removeArticleFromUI(articleId);
 	}
-
-    // --- Handle Thumbs Up Toggle ---
     function handleThumbsUpToggle(event: CustomEvent<{ articleId: number | string; currentlyThumbedUp: boolean; currentThumbsUpCount: number; }>) {
         const { articleId, currentlyThumbedUp, currentThumbsUpCount } = event.detail;
-        const currentUser = $userProfileStore;
-        if (!currentUser) { console.warn("User not logged in, cannot toggle thumbs-up."); return; }
-        const newStateIsThumbedUp = !currentlyThumbedUp;
-        const newThumbsUpCount = currentlyThumbedUp ? Math.max(0, currentThumbsUpCount - 1) : currentThumbsUpCount + 1;
+        if (!$userProfileStore) return;
+        const newStateIsThumbedUp = !currentlyThumbedUp; const newThumbsUpCount = currentlyThumbedUp ? Math.max(0, currentThumbsUpCount - 1) : currentThumbsUpCount + 1;
         performOptimisticThumbsUpUpdate(articleId, newStateIsThumbedUp, newThumbsUpCount);
         triggerThumbsUpApiCall(articleId, currentlyThumbedUp, currentThumbsUpCount);
     }
     function performOptimisticThumbsUpUpdate(articleId: number | string, newStateIsThumbedUp: boolean, newThumbsUpCount: number) {
-        // console.log(`Optimistic ThumbsUp Update: Setting thumbed_up=${newStateIsThumbedUp}, count=${newThumbsUpCount} for article ${articleId}`);
-        if (articleOfTheDay && getArticleId(articleOfTheDay) === articleId) {
-            articleOfTheDay = { ...articleOfTheDay, is_thumbed_up: newStateIsThumbedUp, thumbs_up_count: newThumbsUpCount };
-        }
-        articles = articles.map(a =>
-            getArticleId(a) === articleId ? { ...a, is_thumbed_up: newStateIsThumbedUp, thumbs_up_count: newThumbsUpCount } : a
-        );
+        performOptimisticArticleUpdate(articleId, { is_thumbed_up: newStateIsThumbedUp, thumbs_up_count: newThumbsUpCount });
     }
-    function triggerThumbsUpApiCall(articleId: number | string, originalIsThumbedUp: boolean, originalThumbsUpCount: number) {
-        if (typeof articleId !== 'number' || isNaN(articleId)) { console.warn("Cannot toggle thumbs-up: Invalid article ID.", articleId); return; }
-        const revertThumbsUpUpdate = () => {
-            // console.log(`Reverting thumbs-up status for article ${articleId} to thumbed_up=${originalIsThumbedUp}, count=${originalThumbsUpCount}`);
-            performOptimisticThumbsUpUpdate(articleId, originalIsThumbedUp, originalThumbsUpCount);
-        };
-        fetch('/api/toggle-article-thumbs-up', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ articleId: articleId }), })
-        .then(async (response) => {
-            const responseData = await response.json().catch(() => ({}));
-            if (!response.ok) { console.error(`API error toggling thumbs-up for article ${articleId}:`, response.status, responseData.message || response.statusText); revertThumbsUpUpdate(); }
-            else {
-                const currentOptimisticState = getArticleFromState(articleId);
-                if (currentOptimisticState && currentOptimisticState.is_thumbed_up !== responseData.thumbed_up) { console.warn(`Optimistic thumbs-up state mismatch for ${articleId}. Reverting.`); revertThumbsUpUpdate(); }
-            }
-        })
-        .catch((error) => { console.error(`Network error toggling thumbs-up for article ${articleId}:`, error); revertThumbsUpUpdate(); });
+    function triggerThumbsUpApiCall(articleIdNum: number | string, originalIsThumbedUp: boolean, originalThumbsUpCount: number) {
+        if (typeof articleIdNum !== 'number' || isNaN(articleIdNum)) return;
+        const revert = () => performOptimisticThumbsUpUpdate(articleIdNum, originalIsThumbedUp, originalThumbsUpCount);
+        fetch('/api/toggle-article-thumbs-up', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ articleId: articleIdNum }), })
+        .then(async (res) => { const data = await res.json().catch(() => ({})); if (!res.ok) { console.error(`API err thumbsup ${articleIdNum}:`, res.status, data.message); revert(); } else { const optimState = getArticleFromState(articleIdNum); if (optimState && optimState.is_thumbed_up !== data.thumbed_up) revert(); }})
+        .catch((err) => { console.error(`Net err thumbsup ${articleIdNum}:`, err); revert(); });
     }
-
-	// --- Modal Event Handlers ---
 	function handleConfirmUnlike() {
-		if (!articleToUnlike) return;
-
-		// console.log("User confirmed unlike via modal for article:", articleToUnlike.articleId);
-		const { articleId, currentlyLiked, currentLikeCount } = articleToUnlike;
-
-        // Mark as unliked and update count optimistically
+		if (!articleToUnlike) return; const { articleId, currentlyLiked, currentLikeCount } = articleToUnlike;
 		performOptimisticLikeUpdate(articleId, false, Math.max(0, currentLikeCount - 1));
-        // Trigger the API call
 		triggerLikeApiCall(articleId, currentlyLiked, currentLikeCount);
-        // Remove from UI specifically for the liked articles view
         removeArticleFromUI(articleId);
-
-		// Reset modal state
-		showUnlikeConfirmModal = false;
-		articleToUnlike = null;
+		showUnlikeConfirmModal = false; articleToUnlike = null;
 	}
-
-	function handleCancelUnlike() {
-		// console.log("Unlike cancelled via modal.");
-		showUnlikeConfirmModal = false;
-		articleToUnlike = null;
-	}
-
-    // --- Helper to remove article visually ---
+	function handleCancelUnlike() { showUnlikeConfirmModal = false; articleToUnlike = null; }
     function removeArticleFromUI(articleIdToRemove: number | string) {
-        if (articleOfTheDay && getArticleId(articleOfTheDay) === articleIdToRemove) {
-            articleOfTheDay = null;
-        }
+        if (articleOfTheDay && getArticleId(articleOfTheDay) === articleIdToRemove) articleOfTheDay = null;
         articles = articles.filter(a => getArticleId(a) !== articleIdToRemove);
     }
-
-
-	// --- Extracted Helper Functions ---
 	function performOptimisticLikeUpdate(articleId: number | string, newStateIsLiked: boolean, newLikeCount: number) {
-		// console.log(`Optimistic Like Update: Setting liked=${newStateIsLiked}, count=${newLikeCount} for article ${articleId}`);
-		if (articleOfTheDay && getArticleId(articleOfTheDay) === articleId) {
-			articleOfTheDay = { ...articleOfTheDay, is_liked: newStateIsLiked, like_count: newLikeCount };
-		}
-		articles = articles.map(a =>
-			getArticleId(a) === articleId ? { ...a, is_liked: newStateIsLiked, like_count: newLikeCount } : a
-		);
+        performOptimisticArticleUpdate(articleId, { is_liked: newStateIsLiked, like_count: newLikeCount });
 	}
-
-    // --- Trigger Like API Call (with revert logic passed in) ---
-	function triggerLikeApiCall(articleId: number | string, originalIsLiked: boolean, originalLikeCount: number) {
-		if (typeof articleId !== 'number' || isNaN(articleId)) {
-            console.warn("Cannot toggle like: Invalid article ID.", articleId);
-			return; // Exit if ID is invalid
-		}
-
-        // Define the revert function specific to this action
-        const revertLikeUpdate = () => {
-            console.log(`Reverting like status for article ${articleId} to liked=${originalIsLiked}, count=${originalLikeCount}`);
-            performOptimisticLikeUpdate(articleId, originalIsLiked, originalLikeCount);
-            // If unliking on liked view was reverted, potentially add item back (more complex UI logic)
-            if (isLikedArticlesView && !originalIsLiked) {
-                 console.warn("Reverting an unlike on /favoris. Re-fetching might be needed to add the item back correctly if it was removed.");
-                 // Consider re-fetching or more complex state management here if needed
-            }
-        };
-
-		fetch('/api/toggle-article-like', {
-			method: 'POST',
-			headers: { 'Content-Type': 'application/json' },
-			body: JSON.stringify({ articleId: articleId }),
-		})
-		.then(async (response) => {
-			const responseData = await response.json().catch(() => ({}));
-			if (!response.ok) {
-				console.error(`API error toggling like for article ${articleId}:`, response.status, responseData.message || response.statusText);
-                revertLikeUpdate(); // Revert on API error
-			} else {
-				// console.log(`API confirmed like status for ${articleId} is now: ${responseData.liked}`);
-                // Optional: Verify API state vs optimistic state
-                const currentOptimisticState = getArticleFromState(articleId);
-                if (currentOptimisticState && currentOptimisticState.is_liked !== responseData.liked) {
-                    console.warn(`Optimistic like state mismatch for ${articleId}. Reverting.`);
-                    revertLikeUpdate();
-                }
-			}
-		})
-		.catch((error) => {
-			console.error(`Network error toggling like for article ${articleId}:`, error);
-            revertLikeUpdate(); // Revert on network error
-		});
+	function triggerLikeApiCall(articleIdNum: number | string, originalIsLiked: boolean, originalLikeCount: number) {
+		if (typeof articleIdNum !== 'number' || isNaN(articleIdNum)) return;
+        const revert = () => { performOptimisticLikeUpdate(articleIdNum, originalIsLiked, originalLikeCount); if (isLikedArticlesView && !originalIsLiked) console.warn("Reverting unlike on /favoris. Re-fetch might be needed."); };
+		fetch('/api/toggle-article-like', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ articleId: articleIdNum }), })
+		.then(async (res) => { const data = await res.json().catch(() => ({})); if (!res.ok) { console.error(`API err like ${articleIdNum}:`, res.status, data.message); revert(); } else { const optimState = getArticleFromState(articleIdNum); if (optimState && optimState.is_liked !== data.liked) revert(); }})
+		.catch((err) => { console.error(`Net err like ${articleIdNum}:`, err); revert(); });
 	}
-
-	// --- CORRECTED: Handler for Toggling Read Status ---
 	async function handleToggleRead(event: CustomEvent<Article>) {
-		const articleToToggle = event.detail;
-		const articleId = getArticleId(articleToToggle);
-		const currentUser = $userProfileStore;
-
-		if (!currentUser?.id || typeof articleId !== 'number' || isNaN(articleId)) {
-			console.warn("Cannot toggle read: User not logged in or invalid article ID.", { userId: currentUser?.id, articleId });
-			return;
-		}
-
-		// console.log(`UI: handleToggleRead triggered for article ${articleId}`);
-
-		// --- Find original state for potential revert ---
-        const originalState = getArticleFromState(articleId);
-        if (!originalState) {
-             console.error(`Cannot find article ${articleId} in state to toggle read status.`);
-             return;
-        }
-        const originalIsRead = originalState.is_read ?? false;
-		const newReadState = !originalIsRead;
-
-		// --- 1. Optimistic UI Update (Update in place, never remove) ---
-		// console.log(`Optimistic UI: Setting article ${articleId} is_read to ${newReadState}`);
-		if (articleOfTheDay && getArticleId(articleOfTheDay) === articleId) {
-			articleOfTheDay = { ...articleOfTheDay, is_read: newReadState };
-		}
-		articles = articles.map(a =>
-			getArticleId(a) === articleId ? { ...a, is_read: newReadState } : a
-		);
-		await tick(); // Wait for DOM update
-
-		// --- 2. API Call ---
+		const articleToToggle = event.detail; const articleId = getArticleId(articleToToggle);
+		if (!$userProfileStore?.id || typeof articleId !== 'number' || isNaN(articleId)) return;
+        const originalState = getArticleFromState(articleId); if (!originalState) return;
+        const newReadState = !(originalState.is_read ?? false);
+        performOptimisticArticleUpdate(articleId, { is_read: newReadState }); await tick();
 		try {
-			// console.log(`API Call: Toggling read status for article ${articleId}`);
-			const response = await fetch('/api/toggle-article-read', {
-				method: 'POST',
-				headers: { 'Content-Type': 'application/json' },
-				body: JSON.stringify({ articleId: articleId }),
-			});
+			const response = await fetch('/api/toggle-article-read', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ articleId: articleId }), });
 			const responseData = await response.json().catch(() => ({}));
-
-			if (!response.ok) {
-				throw new Error(responseData.message || `API Error: ${response.status}`);
-			}
-			// console.log(`API Success: Article ${articleId} read status is now ${responseData.read}`);
-
-            // Optional: Verify API response matches optimistic state
-            if (responseData.read !== newReadState) {
-                console.warn(`Optimistic/API read state mismatch for ${articleId}. Reverting UI.`);
-                performReadRevert(originalState);
-            }
-
+			if (!response.ok) throw new Error(responseData.message || `API Error: ${response.status}`);
+            if (responseData.read !== newReadState) performReadRevert(originalState);
 		} catch (error: any) {
-			console.error(`Error toggling read status API for article ${articleId}:`, error);
-			// --- 3. Revert Optimistic UI on Error ---
-			console.log(`Reverting optimistic UI read status change for article ${articleId}`);
+			console.error(`Error toggle read API for ${articleId}:`, error);
 			performReadRevert(originalState);
-            fetchError = `Erreur lors de la mise à jour du statut 'lu' pour l'article ${articleId}.`; // Show user-facing error
+            fetchError = `Erreur MàJ statut 'lu' pour article ${getArticleId(originalState)}.`;
 		}
 	}
-
-	// --- Helper to Revert Read Status UI Change ---
     function performReadRevert(originalArticleState: Article) {
-         const articleId = getArticleId(originalArticleState);
-         // console.log(`Reverting UI: Setting article ${articleId} is_read back to ${originalArticleState.is_read}`);
-          if (articleOfTheDay && getArticleId(articleOfTheDay) === articleId) {
-            articleOfTheDay = originalArticleState; // Restore original object
-        }
-        articles = articles.map(a =>
-            getArticleId(a) === articleId ? originalArticleState : a // Restore original object
-        );
+         performOptimisticArticleUpdate(getArticleId(originalArticleState), { is_read: originalArticleState.is_read ?? false });
     }
-
-
 </script>
 
 <div class="min-h-screen bg-black px-4 py-8 md:py-12 text-white">
 	<div class="mx-auto max-w-4xl">
 		{#if showSignupPrompt}
-			<div
-				class="mb-6 flex flex-col sm:flex-row items-center justify-between gap-3 rounded-lg bg-teal-600/20 p-4 shadow-md transition-all duration-300 hover:bg-teal-600/30"
-			>
-				<p class="text-sm font-medium text-center sm:text-left">
-                    Débloquez tout le potentiel ! Inscrivez-vous pour sauvegarder vos articles favoris et personnaliser votre veille.
-                </p>
-				<button
-					on:click={handleSignup}
-					class="group flex shrink-0 inline-block items-center justify-center gap-2 rounded-full bg-teal-500 px-4 py-2 text-xs font-semibold text-white transition-all duration-200 hover:bg-teal-600 whitespace-nowrap"
-				>
+			<div class="mb-6 flex flex-col sm:flex-row items-center justify-between gap-3 rounded-lg bg-teal-600/20 p-4 shadow-md transition-all duration-300 hover:bg-teal-600/30">
+				<p class="text-sm font-medium text-center sm:text-left">Débloquez tout le potentiel ! Inscrivez-vous pour sauvegarder vos articles favoris et personnaliser votre veille.</p>
+				<button on:click={handleSignup} class="group flex shrink-0 inline-block items-center justify-center gap-2 rounded-full bg-teal-500 px-4 py-2 text-xs font-semibold text-white transition-all duration-200 hover:bg-teal-600 whitespace-nowrap">
 					<span>S'inscrire gratuitement</span>
-					<svg
-						class="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1"
-						fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
-					> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7m0 0l-7 7m7-7H3"/> </svg>
+					<svg class="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7m0 0l-7 7m7-7H3"/> </svg>
 				</button>
 			</div>
 		{/if}
-
 		{#if fetchError && !isLoading}
              <div class="my-6 p-4 rounded-lg bg-red-900/30 border border-red-700 text-red-300 text-center" role="alert">
                 <p><strong>Erreur :</strong> {fetchError}</p>
                 <button on:click={() => fetchError = null} class="mt-2 text-xs underline hover:text-red-100">Ignorer</button>
              </div>
         {/if}
-
-
 		<h1 class="mb-4 text-3xl font-bold text-white">{pageTitle}</h1>
-
 		<div class="mb-6 flex flex-col gap-4">
             <div class="flex flex-col md:flex-row flex-wrap gap-4">
                 {#if filters.length > 0 || showAllCategoriesOption}
                     <div class="relative w-full md:max-w-xs shrink-0">
-                        <Select.Root type="single" name="selectedFilter" value={selectedFilter ?? undefined} onValueChange={(detail) => {
-                            selectedFilter = detail;
-                            searchQuery = ''; // Reset search when main filter changes
-                        }}>
-                            <Select.Trigger
-                                class="w-full rounded-lg border border-gray-700 bg-gray-800 px-4 py-3 text-sm font-medium text-white shadow-sm transition-all duration-300 hover:bg-gray-700 focus:ring-2 focus:ring-teal-500 focus:outline-none"
-                                disabled={isLoading && isInitialLoading}
-                            >
-                                {triggerContent}
-                            </Select.Trigger>
-                            <Select.Content
-                                class="scrollbar-thin scrollbar-thumb-teal-500 scrollbar-track-gray-800 z-20 max-h-60 overflow-y-auto rounded-lg border border-gray-700 bg-gray-900 shadow-lg"
-                            >
+                        <Select.Root type="single" name="selectedFilter" value={selectedFilter ?? undefined} onValueChange={(detail) => { selectedFilter = detail; searchQuery = ''; }}>
+                            <Select.Trigger class="w-full rounded-lg border border-gray-700 bg-gray-800 px-4 py-3 text-sm font-medium text-white shadow-sm hover:bg-gray-700 focus:ring-2 focus:ring-teal-500 focus:outline-none" disabled={isLoading && isInitialLoading}>{triggerContent}</Select.Trigger>
+                            <Select.Content class="scrollbar-thin scrollbar-thumb-teal-500 scrollbar-track-gray-800 z-20 max-h-60 overflow-y-auto rounded-lg border border-gray-700 bg-gray-900 shadow-lg">
                                 <Select.Group>
-                                    <Select.GroupHeading class="px-4 py-2 font-semibold text-gray-400 text-xs uppercase tracking-wider">
-                                        {filterSelectLabel}
-                                    </Select.GroupHeading>
+                                    <Select.GroupHeading class="px-4 py-2 font-semibold text-gray-400 text-xs uppercase tracking-wider">{filterSelectLabel}</Select.GroupHeading>
                                     {#if showAllCategoriesOption}
-                                        <Select.Item
-                                            value={ALL_CATEGORIES_VALUE}
-                                            label={ALL_CATEGORIES_LABEL}
-                                            class="cursor-pointer px-4 py-2 text-white transition-all duration-200 hover:bg-teal-600/80 hover:text-white data-[selected]:bg-teal-700"
-                                        >
-                                            {ALL_CATEGORIES_LABEL}
-                                        </Select.Item>
+                                        <Select.Item value={ALL_CATEGORIES_VALUE} label={ALL_CATEGORIES_LABEL} class="cursor-pointer px-4 py-2 text-white hover:bg-teal-600/80 data-[selected]:bg-teal-700">{ALL_CATEGORIES_LABEL}</Select.Item>
                                     {/if}
                                     {#each sortedFilters as filter (filter.value)}
-                                        <Select.Item
-                                            value={filter.value}
-                                            label={filter.label}
-                                            class="cursor-pointer px-4 py-2 text-white transition-all duration-200 hover:bg-teal-600/80 hover:text-white data-[selected]:bg-teal-700"
-                                        >
-                                            {filter.label}
-                                        </Select.Item>
+                                        <Select.Item value={filter.value} label={filter.label} class="cursor-pointer px-4 py-2 text-white hover:bg-teal-600/80 data-[selected]:bg-teal-700">{filter.label}</Select.Item>
                                     {/each}
                                 </Select.Group>
                             </Select.Content>
                         </Select.Root>
                     </div>
                 {/if}
-
                 {#if showSubDisciplineFilter}
                     <div class="relative w-full md:max-w-xs shrink-0">
-                        <Select.Root
-                            type="single"
-                            name="selectedSubDiscipline"
-                            value={selectedSubDiscipline ?? allSubDisciplinesLabel}
-                            onValueChange={(detail) => handleSubDisciplineChange(detail)}
-                        >
-                            <Select.Trigger
-                                class="w-full rounded-lg border border-gray-700 bg-gray-800 px-4 py-3 text-sm font-medium text-white shadow-sm transition-all duration-300 hover:bg-gray-700 focus:ring-2 focus:ring-teal-500 focus:outline-none"
-                                disabled={isLoadingSubDisciplines || (isLoading && isInitialLoading)}
-                            >
+                        <Select.Root type="single" name="selectedSubDiscipline" value={selectedSubDiscipline ?? allSubDisciplinesLabel} onValueChange={(detail) => handleSubDisciplineChange(detail)}>
+                            <Select.Trigger class="w-full rounded-lg border border-gray-700 bg-gray-800 px-4 py-3 text-sm font-medium text-white shadow-sm hover:bg-gray-700 focus:ring-2 focus:ring-teal-500 focus:outline-none" disabled={isLoadingSubDisciplines || (isLoading && isInitialLoading)}>
                                 {#if isLoadingSubDisciplines}
-                                    <span class="flex items-center gap-2 opacity-70">
-                                        <svg class="animate-spin h-4 w-4 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"> <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle> <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path> </svg>
-                                        Chargement...
-                                    </span>
-                                {:else}
-                                    {subDisciplineTriggerContent}
-                                {/if}
+                                    <span class="flex items-center gap-2 opacity-70"><svg class="animate-spin h-4 w-4 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"> <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle> <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path> </svg>Chargement...</span>
+                                {:else}{subDisciplineTriggerContent}{/if}
                             </Select.Trigger>
                             <Select.Content class="scrollbar-thin scrollbar-thumb-teal-500 scrollbar-track-gray-800 z-10 max-h-60 overflow-y-auto rounded-lg border border-gray-700 bg-gray-900 shadow-lg">
                                 <Select.Group>
-                                    <Select.GroupHeading class="px-4 py-2 font-semibold text-gray-400 text-xs uppercase tracking-wider">
-                                        {subDisciplineSelectLabel}
-                                    </Select.GroupHeading>
+                                    <Select.GroupHeading class="px-4 py-2 font-semibold text-gray-400 text-xs uppercase tracking-wider">{subDisciplineSelectLabel}</Select.GroupHeading>
                                     {#if showAllSubDisciplinesOption}
-                                        <Select.Item value={allSubDisciplinesLabel} label={allSubDisciplinesLabel} class="cursor-pointer px-4 py-2 text-white transition-all duration-200 hover:bg-teal-600/80 hover:text-white data-[selected]:bg-teal-700">
-                                            {allSubDisciplinesLabel}
-                                        </Select.Item>
+                                        <Select.Item value={allSubDisciplinesLabel} label={allSubDisciplinesLabel} class="cursor-pointer px-4 py-2 text-white hover:bg-teal-600/80 data-[selected]:bg-teal-700">{allSubDisciplinesLabel}</Select.Item>
                                     {/if}
                                     {#each availableSubDisciplines as sub (sub.name)}
-                                        <Select.Item value={sub.name} label={sub.name} class="cursor-pointer px-4 py-2 text-white transition-all duration-200 hover:bg-teal-600/80 hover:text-white data-[selected]:bg-teal-700">
-                                            {sub.name}
-                                        </Select.Item>
+                                        <Select.Item value={sub.name} label={sub.name} class="cursor-pointer px-4 py-2 text-white hover:bg-teal-600/80 data-[selected]:bg-teal-700">{sub.name}</Select.Item>
                                     {/each}
                                 </Select.Group>
                             </Select.Content>
@@ -799,28 +511,13 @@
                     </div>
                 {/if}
             </div>
-
             {#if enableSearch}
                 <div class="relative w-full">
-                    <input
-                        type="search"
-                        bind:value={searchQuery}
-                        placeholder={searchPlaceholder}
-                        class="w-full rounded-lg border border-gray-700 bg-gray-800 px-4 py-3 pl-10 text-sm font-medium text-white shadow-sm transition-all duration-300 placeholder-gray-500 focus:ring-2 focus:ring-teal-500 focus:outline-none focus:border-teal-500"
-                        disabled={isLoading && isInitialLoading && !searchActive}
-                    />
-                    <svg class="absolute left-3 top-1/2 transform -translate-y-1/2 h-5 w-5 text-gray-500 pointer-events-none" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
-                    </svg>
+                    <input type="search" bind:value={searchQuery} placeholder={searchPlaceholder} class="w-full rounded-lg border border-gray-700 bg-gray-800 px-4 py-3 pl-10 text-sm font-medium text-white shadow-sm placeholder-gray-500 focus:ring-2 focus:ring-teal-500 focus:outline-none focus:border-teal-500" disabled={isLoading && isInitialLoading && !searchActive}/>
+                    <svg class="absolute left-3 top-1/2 transform -translate-y-1/2 h-5 w-5 text-gray-500 pointer-events-none" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" /></svg>
                     {#if searchQuery}
-                        <button
-                            aria-label="Effacer la recherche"
-                            on:click={() => searchQuery = ''}
-                            class="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-500 hover:text-white focus:outline-none focus:ring-1 focus:ring-teal-500 rounded-full p-0.5"
-                        >
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-4 h-4">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
-                            </svg>
+                        <button aria-label="Effacer la recherche" on:click={() => searchQuery = ''} class="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-500 hover:text-white focus:outline-none focus:ring-1 focus:ring-teal-500 rounded-full p-0.5">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-4 h-4"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" /></svg>
                         </button>
                     {/if}
                 </div>
@@ -828,93 +525,39 @@
 		</div>
 
 		{#if isInitialLoading}
-			<div class="flex justify-center items-center py-20" aria-live="polite" aria-busy="true">
-				<div class="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-teal-500"></div>
-			</div>
+			<div class="flex justify-center items-center py-20" aria-live="polite" aria-busy="true"><div class="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-teal-500"></div></div>
         {:else if fetchError && articles.length === 0 && !articleOfTheDay}
-             <div class="my-10 p-4 rounded-lg bg-red-900/30 border border-red-700 text-red-300 text-center" role="alert">
-                 <p><strong>Erreur lors du chargement initial :</strong> {fetchError}</p>
-                 <p class="mt-2 text-sm">Veuillez réessayer ou vérifier votre connexion.</p>
-             </div>
+             <div class="my-10 p-4 rounded-lg bg-red-900/30 border border-red-700 text-red-300 text-center" role="alert"><p><strong>Erreur chargement initial :</strong> {fetchError}</p><p class="mt-2 text-sm">Veuillez réessayer.</p></div>
         {:else if !userId && isLikedArticlesView}
-            <div class="my-10 p-4 rounded-lg bg-gray-800/50 border border-gray-700 text-gray-400 text-center">
-                <p>Connectez-vous pour voir vos articles favoris.</p>
-                <button
-                    on:click={handleSignup}
-                    class="mt-4 rounded-lg bg-teal-600 px-5 py-2.5 text-sm font-semibold text-white transition-colors duration-200 hover:bg-teal-700"
-                >
-                    Se connecter
-                </button>
-            </div>
+            <div class="my-10 p-4 rounded-lg bg-gray-800/50 border border-gray-700 text-gray-400 text-center"><p>Connectez-vous pour voir vos favoris.</p><button on:click={handleSignup} class="mt-4 rounded-lg bg-teal-600 px-5 py-2.5 text-sm font-semibold text-white hover:bg-teal-700">Se connecter</button></div>
 		{:else if !articleOfTheDay && articles.length === 0 && !isLoading}
             <div class="my-10 p-4 rounded-lg bg-gray-800/50 border border-gray-700 text-gray-400 text-center">
-                {#if emptyStateMessage}
-                    <p>{@html emptyStateMessage}</p>
+                {#if emptyStateMessage}<p>{@html emptyStateMessage}</p>
                 {:else}
-                    <p>
-                        {#if searchActive}
-                            Aucun article trouvé pour "{filterForTitle}"
-                            {#if isViewingSubDiscipline} dans "{selectedSubDiscipline}"{/if}
-                            correspondant à votre recherche "{searchQuery}".
-                        {:else}
-                            Aucun article trouvé pour "{filterForTitle}"
-                            {#if isViewingSubDiscipline} dans "{selectedSubDiscipline}"{/if}.
-                        {/if}
-                    </p>
-                    <!-- Display specific message if viewing sub-discipline and no AotD found -->
-                    {#if isViewingSubDiscipline && !articleOfTheDay && !isLoading}
-                         <p class="mt-3 text-sm text-gray-500 italic">
-                              (Aucun article du jour spécifique à cette sous-spécialité n'a été ajouté aujourd'hui.)
-                         </p>
-                    {/if}
-                     <p class="mt-2 text-sm">
-                        {#if searchActive}
-                            Essayez de modifier votre recherche ou les filtres.
-                        {:else}
-                             Revenez plus tard ou essayez un autre filtre.
-                        {/if}
-                    </p>
+                    <p>{#if searchActive}Aucun article pour "{filterForTitle}"{#if isViewingSubDiscipline} dans "{selectedSubDiscipline}"{/if} avec "{searchQuery}".{:else}Aucun article pour "{filterForTitle}"{#if isViewingSubDiscipline} dans "{selectedSubDiscipline}"{/if}.{/if}</p>
+                    {#if isViewingSubDiscipline && !articleOfTheDay && !isLoading}<p class="mt-3 text-sm text-gray-500 italic">(Aucun article du jour spécifique à cette sous-spécialité.)</p>{/if}
+                    <p class="mt-2 text-sm">{#if searchActive}Essayez de modifier recherche/filtres.{:else}Revenez plus tard ou autre filtre.{/if}</p>
                 {/if}
             </div>
         {:else}
-            <!-- Article of the Day Section -->
 			{#if articleOfTheDay}
                 <div class="mb-8">
-                    <h2 class="text-2xl font-bold text-teal-500">
-                         🔥 Article du jour
-                         {#if isViewingSubDiscipline}
-                              pour {selectedSubDiscipline}
-                         {:else if selectedFilter && selectedFilter !== ALL_CATEGORIES_VALUE}
-                              pour {filterForTitle}
-                         {/if}
-                    </h2>
-                    <ul class="mt-4 space-y-4">
-                        <ArticleCard article={articleOfTheDay} on:open={openImmersive} on:likeToggle={handleLikeToggle} on:toggleRead={handleToggleRead} on:thumbsUpToggle={handleThumbsUpToggle}/>
-                    </ul>
+                    <h2 class="text-2xl font-bold text-teal-500">🔥 Article du jour {#if isViewingSubDiscipline}pour {selectedSubDiscipline}{:else if selectedFilter && selectedFilter !== ALL_CATEGORIES_VALUE}pour {filterForTitle}{/if}</h2>
+                    <ul class="mt-4 space-y-4"><ArticleCard article={articleOfTheDay} on:open={openImmersive} on:likeToggle={handleLikeToggle} on:toggleRead={handleToggleRead} on:thumbsUpToggle={handleThumbsUpToggle}/></ul>
                 </div>
-            <!-- Specific message when viewing sub-discipline but no AotD -->
             {:else if isViewingSubDiscipline && !isLoading}
-                 <p class="mb-6 text-sm text-gray-500 italic">
-                    Aucun article du jour spécifique à "{selectedSubDiscipline}" n'a été ajouté aujourd'hui. Voici les articles précédents :
-                 </p>
+                 <p class="mb-6 text-sm text-gray-500 italic">Aucun article du jour pour "{selectedSubDiscipline}". Voici les articles précédents :</p>
             {/if}
-
-            <!-- Main Article List Section -->
 			<div class="mb-6">
                 {#if articles.length > 0}
+                    <!-- [REFACTOR 1 Use] Using the derived title info -->
                     <h2 class="text-2xl font-bold text-white flex items-center gap-2">
-                        {#if isLikedArticlesView}
+                        {#if mainArticleListTitleInfo.iconType == 'heart'}
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 fill-pink-500 text-pink-500"> <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" /> </svg>
-                            Favoris {#if selectedFilter !== ALL_CATEGORIES_VALUE && selectedFilter}: {filterForTitle}{/if} {#if isViewingSubDiscipline} - {selectedSubDiscipline}{/if}
-                        {:else if searchActive}
-                            Résultats de recherche
-                        {:else if isViewingSubDiscipline}
-                            📖 Articles pour {selectedSubDiscipline}
-                        {:else if articleOfTheDay}
-                             📖 Articles précédents
-                        {:else}
-                             📖 Articles pour {filterForTitle}
+                        {:else if mainArticleListTitleInfo.iconType == 'book'}
+                            📖
                         {/if}
+                        {mainArticleListTitleInfo.text}
                     </h2>
                     <ul class="mt-4 space-y-4">
                          {#each articles as article (getArticleId(article))}
@@ -923,80 +566,23 @@
                     </ul>
                 {/if}
 			</div>
-
-            <!-- Load More / All Loaded Section -->
             {#if hasMore || isLoading}
                 <div class="mt-8 text-center">
-                    {#if isLoading && !isInitialLoading}
-                         <div class="flex justify-center items-center py-4" aria-live="polite" aria-busy="true">
-                            <div class="animate-spin rounded-full h-8 w-8 border-t-2 border-b-2 border-teal-500"></div>
-                         </div>
-                    {:else if hasMore}
-                        <button
-                            on:click={loadMore}
-                            disabled={isLoading}
-                            class="rounded-lg bg-teal-600 px-5 py-2.5 text-sm font-semibold text-white transition-colors duration-200 hover:bg-teal-700 disabled:opacity-50 disabled:cursor-not-allowed"
-                        >
-                            {loadMoreButtonText}
-                        </button>
-                    {/if}
+                    {#if isLoading && !isInitialLoading}<div class="flex justify-center items-center py-4"><div class="animate-spin rounded-full h-8 w-8 border-t-2 border-b-2 border-teal-500"></div></div>
+                    {:else if hasMore}<button on:click={loadMore} disabled={isLoading} class="rounded-lg bg-teal-600 px-5 py-2.5 text-sm font-semibold text-white hover:bg-teal-700 disabled:opacity-50 disabled:cursor-not-allowed">{loadMoreButtonText}</button>{/if}
                 </div>
             {:else if !isInitialLoading}
-                <div class="mt-8 text-center text-gray-500">
-                    <span class="inline-flex items-center gap-2 rounded-full bg-gray-800 px-4 py-2 text-sm">
-                        <svg class="h-5 w-5 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
-                        </svg>
-                        {allArticlesLoadedText}
-                    </span>
-                </div>
+                <div class="mt-8 text-center text-gray-500"><span class="inline-flex items-center gap-2 rounded-full bg-gray-800 px-4 py-2 text-sm"><svg class="h-5 w-5 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>{allArticlesLoadedText}</span></div>
             {/if}
 		{/if}
-
 	</div>
 </div>
-
 <ArticleImmersiveModal article={immersiveArticle} on:close={closeImmersive} />
-
-<ConfirmationModal
-    isOpen={showUnlikeConfirmModal}
-    on:confirm={handleConfirmUnlike}
-    on:cancel={handleCancelUnlike}
-    title="Confirmer le retrait"
-    message="Êtes-vous sûr de vouloir retirer cet article de vos favoris ?"
-    confirmText="Retirer"
-    cancelText="Annuler"
-/>
-
-
+<ConfirmationModal isOpen={showUnlikeConfirmModal} on:confirm={handleConfirmUnlike} on:cancel={handleCancelUnlike} title="Confirmer le retrait" message="Retirer cet article de vos favoris ?" confirmText="Retirer" cancelText="Annuler"/>
 <style>
-	button:focus-visible, input:focus-visible {
-		outline: 2px solid #14b8a6; /* Teal-500 */
-        outline-offset: 2px;
-	}
-    [data-radix-select-trigger]:focus-visible {
-        outline: 2px solid #14b8a6; /* Teal-500 */
-        outline-offset: 2px;
-    }
-
-	.scrollbar-thin {
-		scrollbar-width: thin;
-		scrollbar-color: #14b8a6 #1f2937; /* thumb track - Teal-500, Gray-800 */
-	}
-
-	.scrollbar-thin::-webkit-scrollbar {
-		width: 8px;
-		height: 8px;
-	}
-
-	.scrollbar-thin::-webkit-scrollbar-track {
-		background: #1f2937; /* Gray-800 */
-        border-radius: 10px;
-	}
-
-	.scrollbar-thin::-webkit-scrollbar-thumb {
-		background-color: #14b8a6; /* Teal-500 */
-		border-radius: 6px;
-		border: 2px solid #1f2937; /* Gray-800 */
-	}
+	button:focus-visible, input:focus-visible, [data-radix-select-trigger]:focus-visible { outline: 2px solid #14b8a6; outline-offset: 2px; }
+	.scrollbar-thin { scrollbar-width: thin; scrollbar-color: #14b8a6 #1f2937; }
+	.scrollbar-thin::-webkit-scrollbar { width: 8px; height: 8px; }
+	.scrollbar-thin::-webkit-scrollbar-track { background: #1f2937; border-radius: 10px; }
+	.scrollbar-thin::-webkit-scrollbar-thumb { background-color: #14b8a6; border-radius: 6px; border: 2px solid #1f2937; }
 </style>
