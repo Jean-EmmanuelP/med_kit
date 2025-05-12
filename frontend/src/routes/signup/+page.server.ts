@@ -1,204 +1,109 @@
+// +page.server.ts (or your relevant server file name)
 import { PUBLIC_SUPABASE_ANON_KEY } from '$env/static/public';
-import type { Actions } from '@sveltejs/kit';
-import { fail, redirect } from '@sveltejs/kit';
+import { fail, redirect, type Actions } from '@sveltejs/kit';
 
 export const actions: Actions = {
     default: async ({ request, locals: { supabase } }) => {
-        console.log('Signup action started');
-
         const formData = await request.formData();
-        const first_name = formData.get('first_name')?.toString();
-        const last_name = formData.get('last_name')?.toString() || '';
+
+        // Get required fields from the simplified form
         const email = formData.get('email')?.toString();
         const password = formData.get('password')?.toString();
-        const disciplines = formData.getAll('disciplines[]') as string[];
-        const notification_frequency = formData
-            .get('notification_frequency')
-            ?.toString()
-            ?.toLowerCase();
+
+        // Get optional/derived fields (might be sent by form or derived here)
+        const first_name = formData.get('first_name')?.toString() || email?.split('@')[0] || '';
+        const last_name = formData.get('last_name')?.toString() || '';
         const date_of_birth = formData.get('date_of_birth')?.toString() || null;
 
-        // Validation
-        if (!first_name || !email || !password || !notification_frequency) {
-            console.log('Validation failed: Missing required fields');
-            return fail(400, { error: 'Tous les champs obligatoires doivent être remplis.' });
+        // --- Basic Validation ---
+        if (!email || !password) {
+            return fail(400, { error: 'Email et mot de passe sont requis.', email });
+        }
+        if (password.length < 6) {
+             return fail(400, { error: 'Le mot de passe doit contenir au moins 6 caractères.', email });
         }
 
-        if (!disciplines || disciplines.length === 0) {
-            console.log('Validation failed: No disciplines selected');
-            return fail(400, { error: 'Veuillez sélectionner au moins une discipline.' });
-        }
-
-        console.log('Attempting Supabase signUp');
+        // --- Supabase Auth ---
         const { data: signUpData, error: signUpError } = await supabase.auth.signUp({
             email,
             password,
+            // Add options if needed, e.g., for email confirmation redirect
+            // options: { emailRedirectTo: `${url.origin}/auth/callback` }
         });
 
         if (signUpError) {
-            console.error('SignUp error:', JSON.stringify(signUpError, null, 2));
-            return fail(400, { error: signUpError.message });
+             if (signUpError.message.includes('User already registered')) {
+                 return fail(400, { error: 'Cet email est déjà utilisé.', email });
+            }
+            console.error('Supabase SignUp Error:', signUpError); // Log unexpected errors
+            return fail(500, { error: "Erreur lors de l'inscription.", email });
         }
 
+        // Handle cases where user object might be missing (should be rare if no error)
+        // Or if email confirmation is required (session might be null initially)
         if (!signUpData.user) {
-            console.error('No user returned by signUp');
-            return fail(500, { error: 'Erreur lors de la création de l’utilisateur' });
+             console.error('SignUp successful but no user object returned.');
+             // If email confirmation is enabled, maybe redirect to a "check email" page or return success message
+             // For now, treat as an internal error if no user object AND no error was thrown
+             return fail(500, { error: 'Erreur interne lors de la création de l’utilisateur.', email });
         }
 
-        const { session } = signUpData;
-        if (!session) {
-            console.log('User signed up, awaiting email confirmation');
-            return fail(400, {
-                error: 'Inscription réussie. Veuillez vérifier votre email pour confirmer votre compte.',
-            });
-        }
-
-        console.log('Creating user profile');
+        // --- Create User Profile ---
         const newUserProfile = {
             id: signUpData.user.id,
             first_name,
             last_name,
             email,
-            disciplines,
-            notification_frequency,
+            disciplines: [], // Default value
+            notification_frequency: 'tous_les_jours', // Default value
             date_of_birth,
         };
 
-        const { data: profileData, error: profileError } = await supabase
+        const { error: profileError } = await supabase
             .from('user_profiles')
-            .insert(newUserProfile)
-            .select('*')
-            .single();
+            .insert(newUserProfile);
+            // No .select().single() needed if we don't use profileData afterwards
 
         if (profileError) {
-            console.error('Profile insertion error:', JSON.stringify(profileError, null, 2));
-            if (profileError.code === '23505') {
-                return fail(400, { error: 'Cet utilisateur existe déjà.' });
-            } else if (profileError.code === '23502') {
-                return fail(500, { error: 'Un champ requis est manquant ou invalide.' });
-            } else {
-                return fail(500, { error: profileError.message });
-            }
+            console.error('Supabase Profile Insert Error:', profileError);
+            // Consider potential cleanup (e.g., delete the auth user?) if profile fails
+            return fail(500, { error: 'Erreur lors de la sauvegarde du profil utilisateur.', email });
         }
 
-        // 1. Trigger send-welcome-email Edge Function
+        // --- Trigger Welcome Email (Optional) ---
         try {
-            console.log('Triggering send-welcome-email Edge Function');
-            const welcomeEdgeUrl =
+             const welcomeEdgeUrl =
                 'https://etxelhjnqbrgwuitltyk.supabase.co/functions/v1/send-welcome-email';
-            const welcomeResponse = await fetch(welcomeEdgeUrl, {
+             // Use await but don't block signup return if it fails, just log
+             fetch(welcomeEdgeUrl, { // Fire and forget (mostly)
                 method: 'POST',
                 headers: {
+                    // Ensure ANON_KEY has invoke permissions or use service_role key if needed
                     Authorization: `Bearer ${PUBLIC_SUPABASE_ANON_KEY}`,
                     'Content-Type': 'application/json',
                 },
                 body: JSON.stringify({
                     user_id: signUpData.user.id,
-                    email,
-                    first_name, // Required by the Edge Function, even if not used in the template
+                    email: email,
+                    first_name: first_name
                 }),
-            });
-
-            if (!welcomeResponse.ok) {
-                const errorText = await welcomeResponse.text();
-                console.error('Error triggering send-welcome-email:', errorText);
-            } else {
-                console.log('send-welcome-email triggered successfully');
-            }
-        } catch (e) {
-            console.error('Exception in send-welcome-email:', e);
-        }
-
-        // 2. Fetch one article per discipline for the user using database function
-        let selectedArticles: { id: number; title: string; journal: string; discipline: string }[] = [];
-        try {
-            // change this logic
-            console.log('Fetching articles using database function for disciplines:', disciplines);
-            const { data, error } = await supabase.rpc('fetch_articles_by_disciplines', {
-                p_user_id: signUpData.user.id,
-                p_disciplines: disciplines,
-            });
-
-            if (error) {
-                console.error('Error calling fetch_articles_by_disciplines:', JSON.stringify(error, null, 2));
-            } else if (data) {
-                // Parse the JSON array returned by the function
-                const articlesArray = Array.isArray(data) ? data : (data as any).fetch_articles_by_disciplines || [];
-                selectedArticles = articlesArray.map((article: any) => ({
-                    id: article.id,
-                    title: article.title,
-                    journal: article.journal,
-                    discipline: article.discipline,
-                }));
-                selectedArticles.forEach((article, index) => {
-                    console.log(`Selected article ${index + 1} for discipline ${article.discipline}:`, article);
-                });
-            } else {
-                console.log('No articles returned by fetch_articles_by_disciplines');
-            }
-        } catch (e) {
-            console.error('Exception in fetching articles:', e);
-        }
-
-        // 3. Trigger send-notification Edge Function and insert into user_sent_articles
-        if (selectedArticles.length > 0) {
-            // Insert into user_sent_articles for each selected article
-            for (const article of selectedArticles) {
-                const { error: sentArticleError } = await supabase
-                    .from('user_sent_articles')
-                    .insert({
-                        user_id: signUpData.user.id,
-                        article_id: article.id,
-                        sent_at: new Date().toISOString(),
-                        discipline: article.discipline, // Include discipline as per schema
-                    });
-
-                if (sentArticleError) {
-                    console.error(
-                        `Error inserting article ${article.id} into user_sent_articles:`,
-                        sentArticleError
-                    );
+            }).then(async response => {
+                if (!response.ok) {
+                    const errorText = await response.text();
+                    console.error('Error triggering send-welcome-email (async):', errorText);
                 } else {
-                    console.log(
-                        `Inserted article ${article.id} into user_sent_articles for discipline ${article.discipline}`
-                    );
+                    console.log('send-welcome-email triggered successfully (async)');
                 }
-            }
-
-            // Trigger send-notification Edge Function
-            try {
-                console.log('Triggering send-notification Edge Function with articles:', selectedArticles);
-                const notificationEdgeUrl =
-                    'https://etxelhjnqbrgwuitltyk.supabase.co/functions/v1/send-notification';
-                const notificationResponse = await fetch(notificationEdgeUrl, {
-                    method: 'POST',
-                    headers: {
-                        Authorization: `Bearer ${PUBLIC_SUPABASE_ANON_KEY}`,
-                        'Content-Type': 'application/json',
-                    },
-                    body: JSON.stringify({
-                        user_id: signUpData.user.id,
-                        email,
-                        first_name, // Required by the Edge Function, even if not used in the template
-                        articles: selectedArticles,
-                    }),
-                });
-
-                if (!notificationResponse.ok) {
-                    const errorText = await notificationResponse.text();
-                    console.error('Error triggering send-notification:', errorText);
-                } else {
-                    console.log('send-notification triggered successfully with articles:', selectedArticles);
-                }
-            } catch (e) {
-                console.error('Exception in send-notification:', e);
-            }
-        } else {
-            console.log('No articles selected, skipping send-notification');
+            }).catch(e => {
+                 console.error('Exception calling send-welcome-email (async):', e);
+            });
+        } catch (e) {
+             console.error('Error setting up welcome email fetch:', e); // Should be rare
         }
 
-        console.log('User signed up successfully:', JSON.stringify(profileData, null, 2));
-        console.log('Throwing redirect to /ma-veille');
-        throw redirect(302, '/ma-veille');
+        // --- Success ---
+        // Redirect to the user's dashboard or account page
+        // Use 303 See Other for POST -> GET redirect pattern
+        throw redirect(303, '/ma-veille');
     },
 };
