@@ -1,457 +1,377 @@
-<!-- src/lib/components/CheckoutForm.svelte -->
-<script>
-    import { env } from '$env/dynamic/public';
-    import { loadStripe } from '@stripe/stripe-js';
-    import { onMount, tick } from 'svelte';
+<script lang="ts">
+	import { env } from '$env/dynamic/public';
+	import { loadStripe, type StripeElements as StripeElementsType, type StripePaymentElement, type Stripe as StripeType } from '@stripe/stripe-js';
+	import { AlertCircle, CreditCard } from 'lucide-svelte';
+// Using CreditCard icon
+	import { onMount, tick } from 'svelte';
 
-    const stripePublicKey = env.PUBLIC_STRIPE_KEY;
+	const stripePublicKey = env.PUBLIC_STRIPE_KEY;
 
-    // --- Component State ---
-    let stripe = null;
-    let elements = null;
-    let paymentElement = null;
-    let isLoadingStripe = true; // Loading Stripe library itself
-    let isCreatingIntent = false;
-    let errorMessage = '';
-    let paymentProcessing = false;
-    let selectedPlan = null; // 'monthly' or 'yearly'
+	let stripe: StripeType | null = $state(null);
+	let elements: StripeElementsType | null = $state(null);
+	let paymentElement: StripePaymentElement | null = $state(null);
+	let clientSecret: string | null = $state(null);
 
-    // --- Plan Details (customize as needed) ---
-    const plans = {
-        monthly: {
-            id: 'monthly',
-            name: 'Mensuel',
-            price: 1.99, // Base price for display and calculation
-            priceString: '€1.99',
-            frequency: 'par mois',
-            priceIdEnvVar: 'STRIPE_MONTHLY_PRICE_ID' // Reference for backend lookup
-        },
-        yearly: {
-            id: 'yearly',
-            name: 'Annuel',
-            price: 19.99, // Actual yearly price
-            priceString: '€19.99',
-            frequency: 'par an',
-            originalMonthlyTotal: (1.99 * 12).toFixed(2), // Calculate for strikethrough
-            priceIdEnvVar: 'STRIPE_YEARLY_PRICE_ID' // Reference for backend lookup
-        },
-    };
+	let isLoadingStripe = $state(true);
+	let isCreatingIntent = $state(false);
+	let paymentProcessing = $state(false);
+	let errorMessage = $state('');
 
-    // --- Stripe Initialization ---
-    onMount(async () => {
-        if (!stripePublicKey) {
-            errorMessage = 'Stripe publishable key not set.';
-            isLoadingStripe = false;
-            return;
-        }
-        try {
-            stripe = await loadStripe(stripePublicKey);
-            isLoadingStripe = false;
-        } catch (error) {
-            console.error("Stripe loading Error:", error);
-            errorMessage = error.message || 'Failed to load Stripe.';
-            isLoadingStripe = false;
-        }
-    });
+	let selectedPlan = $state<'monthly' | 'yearly' | null>(null);
+	let hasAttemptedInitForCurrentPlan = $state(false);
 
-    // --- Select Plan Function ---
-    function selectPlan(planId) {
-        if (isCreatingIntent || paymentProcessing) return; // Don't change plan while processing
-        if (selectedPlan === planId) return; // Don't re-init if already selected
+	const plans = {
+		monthly: {
+			id: 'monthly' as const,
+			name: 'Mensuel',
+			priceString: '€1.99',
+			frequency: 'par mois',
+		},
+		yearly: {
+			id: 'yearly' as const,
+			name: 'Annuel',
+			priceString: '€19.99',
+			frequency: 'par an',
+			originalMonthlyTotal: (1.99 * 12).toFixed(2)
+		}
+	};
 
-        console.log("Selected plan:", planId);
-        selectedPlan = planId;
-        // Reset previous elements if plan changes
-        if (paymentElement) {
-            paymentElement.destroy();
-            paymentElement = null;
-            elements = null;
-        }
-        errorMessage = ''; // Clear previous errors specific to element creation
-        // Trigger element initialization via reactive statement below
-    }
+	onMount(async () => {
+		if (!stripePublicKey) {
+			errorMessage = 'Clé publique Stripe non configurée.';
+			isLoadingStripe = false;
+			return;
+		}
+		try {
+			stripe = await loadStripe(stripePublicKey);
+			isLoadingStripe = false;
+		} catch (error: any) {
+			console.error("Erreur chargement Stripe.js:", error);
+			errorMessage = error.message || 'Échec du chargement de Stripe.';
+			isLoadingStripe = false;
+		}
+	});
 
+	function selectPlanForPayment(planId: 'monthly' | 'yearly') {
+		if (paymentProcessing || isCreatingIntent) return;
+		if (selectedPlan === planId) return;
 
-    // --- Create Payment Intent/Subscription when Plan is Selected ---
-    async function initializeStripeElements() {
-        // Guard conditions
-        if (!stripe || !selectedPlan || isCreatingIntent || elements) {
-            if (!stripe) console.warn("Stripe not loaded yet");
-            if (!selectedPlan) console.warn("No plan selected");
-            if (isCreatingIntent) console.warn("Intent creation already in progress");
-            if (elements) console.warn("Elements already initialized for this plan");
-            return;
-        }
+		selectedPlan = planId;
+		errorMessage = '';
+		clientSecret = null;
+		if (paymentElement) {
+			try { paymentElement.destroy(); } catch(e) { /* ignore */ }
+			paymentElement = null;
+		}
+		elements = null;
+		hasAttemptedInitForCurrentPlan = false;
+	}
 
-        isCreatingIntent = true;
-        errorMessage = ''; // Clear previous errors
+	async function initializeStripeElements() {
+		if (!stripe || !selectedPlan || elements || clientSecret || isLoadingStripe || hasAttemptedInitForCurrentPlan) {
+			return;
+		}
 
-        console.log(`Initializing elements for plan: ${selectedPlan}`);
+		hasAttemptedInitForCurrentPlan = true;
+		isCreatingIntent = true;
+		errorMessage = '';
 
-        try {
-            const res = await fetch('/api/create-payment-intent', { // Or '/api/create-subscription'
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                // Send the *identifier* ('monthly' or 'yearly'), backend uses env vars
-                body: JSON.stringify({ plan: selectedPlan })
-            });
+		try {
+			const response = await fetch('/api/create-subscription', {
+				method: 'POST',
+				headers: { 'Content-Type': 'application/json' },
+				body: JSON.stringify({ planIdentifier: selectedPlan })
+			});
 
-            if (!res.ok) {
-                const errorData = await res.json().catch(() => ({ message: `HTTP error ${res.status}` }));
-                throw new Error(errorData.message || `Failed to create subscription (${res.status})`);
-            }
+			const result = await response.json();
 
-            const { clientSecret } = await res.json();
+            console.log("result", result);
+			if (!response.ok) {
+				throw new Error(result.error || `Échec de création de l'abonnement (${response.status})`);
+			}
+			if (!result.clientSecret || !result.subscriptionId) {
+				throw new Error('Client secret ou ID d\'abonnement manquant dans la réponse du serveur.');
+			}
 
-            if (!clientSecret) {
-                 throw new Error('Missing clientSecret from server response.');
-            }
+			clientSecret = result.clientSecret;
 
-            elements = stripe.elements({ clientSecret, appearance: { theme: 'night', labels: 'floating' }, locale: "fr" }); // Use night theme
-            paymentElement = elements.create('payment');
-            paymentElement.mount('#payment-element');
+			const appearance = {
+				theme: 'night' as const,
+				labels: 'floating' as const,
+				variables: {
+					colorPrimary: '#ea580c',        // Orange for active elements/focus
+                    colorBackground: '#2d3748',    // Darker gray (gray-800 from Tailwind) for element bg
+                    colorText: '#e2e8f0',          // Light gray (gray-200) for text
+                    colorDanger: '#e53e3e',        // Red (red-600) for errors
+                    fontFamily: 'inherit',
+                    spacingUnit: '4px',            // Default, fine
+                    borderRadius: '0.375rem',      // Tailwind's rounded-md
+                    colorTextPlaceholder: '#a0aec0' // Medium gray (gray-500) for placeholders
+				}
+			};
+			elements = stripe.elements({ clientSecret, appearance, locale: 'fr' });
+			paymentElement = elements.create('payment', {
+				layout: {
+					type: 'tabs',
+					defaultCollapsed: false,
+				}
+			});
 
-            // Add event listener for when the element is ready (optional, but good for UX)
-            paymentElement.on('ready', () => {
-                 console.log('Payment Element is ready.');
-                 isCreatingIntent = false; // Element is ready, stop the "creating intent" state
-            });
+			await tick();
+			const mountPoint = document.getElementById('card-element-placeholder');
+			if (mountPoint) {
+                mountPoint.innerHTML = '';
+				paymentElement.mount(mountPoint);
+			} else {
+				throw new Error("L'élément de montage pour le paiement (#card-element-placeholder) n'a pas été trouvé.");
+			}
+			
+			paymentElement.on('ready', () => {
+				isCreatingIntent = false;
+			});
 
-            // Add listener for validation errors within the element
-            paymentElement.on('change', (event) => {
-                if (event.error) {
-                    errorMessage = event.error.message;
-                } else {
-                    errorMessage = ''; // Clear error if corrected
-                }
-            });
+			paymentElement.on('change', (event) => {
+				if (event.error) {
+					errorMessage = event.error.message ?? "Erreur de validation des informations de paiement.";
+				} else {
+					errorMessage = '';
+				}
+			});
 
+		} catch (error: any) {
+			console.error("Erreur d'initialisation Stripe Elements:", error);
+			errorMessage = error.message || "Échec de l'initialisation du formulaire de paiement.";
+			isCreatingIntent = false;
+			clientSecret = null;
+			elements = null;
+			if (paymentElement) {
+				try { paymentElement.destroy(); } catch(e) { /* ignore */ }
+				paymentElement = null;
+			}
+		}
+	}
 
-            // Wait a tick ensures Svelte updates the DOM *before* we potentially stop loading
-            // However, the 'ready' event is more reliable for the element itself.
-            await tick();
+	$effect(() => {
+		if (selectedPlan && stripe && !isLoadingStripe && !elements && !clientSecret && !hasAttemptedInitForCurrentPlan) {
+			initializeStripeElements();
+		}
+	});
 
+	async function handleSubmit() {
+		if (!stripe || !elements || !clientSecret || paymentProcessing || isCreatingIntent || !paymentElement) {
+			if (isCreatingIntent) errorMessage = "Initialisation du paiement en cours...";
+			else if (!selectedPlan) errorMessage = "Veuillez sélectionner un plan.";
+			else if (!paymentElement) errorMessage = "Détails de paiement non chargés. Veuillez réessayer ou sélectionner un plan.";
+			else errorMessage = "Système de paiement non prêt.";
+			return;
+		}
 
-        } catch (error) {
-            console.error("Initialization Error:", error);
-            errorMessage = error.message || 'Failed to initialize payment details.';
-            elements = null; // Reset on error
-            paymentElement = null; // Reset on error
-            isCreatingIntent = false; // Stop loading on error
-        }
-        // Note: isCreatingIntent is set to false inside the 'ready' event handler for better UX
-    }
+		paymentProcessing = true;
+		errorMessage = '';
 
-    // --- Reactive Trigger for Initialization ---
-    // Run initializeStripeElements whenever selectedPlan changes (and meets conditions)
-    $: if (selectedPlan && stripe && !isLoadingStripe && !elements && !isCreatingIntent) {
-       initializeStripeElements();
-    }
+		const { error } = await stripe.confirmPayment({
+			elements,
+			confirmParams: {
+				return_url: `${window.location.origin}/payment-status`,
+			},
+		});
 
-
-    // --- Handle Payment Submission ---
-    async function handleSubmit() {
-        // Add checks for isCreatingIntent and paymentElement readiness
-        if (!stripe || !elements || paymentProcessing || isCreatingIntent || !paymentElement) {
-            if (isCreatingIntent) errorMessage = "Please wait, initializing payment details...";
-            else if (!paymentElement) errorMessage = "Please select a plan to load payment details.";
-            else errorMessage = "Payment system not ready.";
-            return;
-        }
-
-        paymentProcessing = true;
-        errorMessage = ''; // Clear previous errors before attempting submission
-
-        const { error } = await stripe.confirmPayment({
-            elements,
-            confirmParams: {
-                return_url: `${window.location.origin}/payment-status`,
-            },
-        });
-
-        if (error) {
-            // Errors like network issues, invalid card details *not caught by element validation*
-            console.error("Stripe confirmation error:", error);
-            errorMessage = error.message || 'An unexpected error occurred during payment.';
-            paymentProcessing = false; // Re-enable button only on explicit submission error
-        }
-        // If no error, redirection should happen. Button remains disabled.
-    }
-
+		if (error) {
+			console.error("Erreur de confirmation Stripe:", error);
+			errorMessage = error.message || 'Une erreur inattendue est survenue lors du paiement.';
+			paymentProcessing = false;
+		}
+	}
 </script>
 
 <div class="checkout-container">
-
-    {#if isLoadingStripe}
-        <p class="loading-text">Chargement ...</p>
-    {:else if !selectedPlan}
-        <h3 class="instruction-text">Choisissez votre plan:</h3>
+	{#if isLoadingStripe}
+		<div class="loading-text">Chargement de Stripe...</div>
+	{:else if !selectedPlan}
+	    <h3 class="instruction-text">Choisissez votre plan :</h3>
     {/if}
 
-    <!-- Plan Selection Boxes -->
-    <div class="plan-selection-cards" class:hidden={isLoadingStripe}>
-        <!-- Monthly Plan Card -->
-        <div
-            class="plan-card"
-            class:selected={selectedPlan === plans.monthly.id}
-            on:click={() => selectPlan(plans.monthly.id)}
-            role="button"
-            tabindex="0"
-            on:keydown={(e) => e.key === 'Enter' && selectPlan(plans.monthly.id)}
-        >
-            <h4>{plans.monthly.name}</h4>
-            <div class="price">{plans.monthly.priceString}</div>
-            <div class="frequency">{plans.monthly.frequency}</div>
-        </div>
+	<div class="plan-selection-cards">
+		<div
+			class="plan-card"
+			class:selected={selectedPlan === plans.monthly.id}
+			on:click={() => selectPlanForPayment(plans.monthly.id)}
+			role="button"
+			tabindex="0"
+			on:keydown={(e) => e.key === 'Enter' && selectPlanForPayment(plans.monthly.id)}
+		>
+			<h4>{plans.monthly.name}</h4>
+			<div class="price">{plans.monthly.priceString}</div>
+			<div class="frequency">{plans.monthly.frequency}</div>
+		</div>
 
-        <!-- Yearly Plan Card -->
-        <div
-            class="plan-card"
-            class:selected={selectedPlan === plans.yearly.id}
-            on:click={() => selectPlan(plans.yearly.id)}
-            role="button"
-            tabindex="0"
-            on:keydown={(e) => e.key === 'Enter' && selectPlan(plans.yearly.id)}
-        >
-            <span class="savings-badge">Économisez!</span>
-            <h4>{plans.yearly.name}</h4>
-            <div class="price">{plans.yearly.priceString}</div>
-            <div class="frequency">{plans.yearly.frequency}</div>
-            <div class="original-price">
-                <s>€{plans.yearly.originalMonthlyTotal}</s>
-                <!-- <span class="frequency"> (si payé mensuellement)</span> -->
-            </div>
-        </div>
-    </div>
+		<div
+			class="plan-card"
+			class:selected={selectedPlan === plans.yearly.id}
+			on:click={() => selectPlanForPayment(plans.yearly.id)}
+			role="button"
+			tabindex="0"
+			on:keydown={(e) => e.key === 'Enter' && selectPlanForPayment(plans.yearly.id)}
+		>
+			<span class="savings-badge">Économisez !</span>
+			<h4>{plans.yearly.name}</h4>
+			<div class="price">{plans.yearly.priceString}</div>
+			<div class="frequency">{plans.yearly.frequency}</div>
+			<div class="original-price">
+				<s>€{plans.yearly.originalMonthlyTotal}</s>
+			</div>
+		</div>
+	</div>
 
-    {#if errorMessage}
-        <div class="error-message" role="alert">{errorMessage}</div>
-    {/if}
+	{#if selectedPlan}
+		<div class="payment-details-box mt-8 rounded-lg bg-gray-800 p-6 shadow-lg md:p-8">
+			<div class="payment-method-header mb-5 flex items-center gap-2 border-b-2 border-orange-500 pb-3">
+				<CreditCard class="h-5 w-5 text-orange-500" />
+				<h3 class="font-semibold text-lg text-white">Paiement par Carte Bancaire</h3>
+			</div>
+            
+			<div id="card-element-container" class="rounded-md bg-gray-900 p-1 border border-gray-700">
+				<div id="card-element-placeholder" class="min-h-[180px] md:min-h-[200px]">
+					{#if isCreatingIntent}
+						<div class="flex items-center justify-center text-gray-400 italic h-full p-3">
+							Initialisation du formulaire de paiement...
+						</div>
+					{:else if !paymentElement && !errorMessage && hasAttemptedInitForCurrentPlan}
+						 <div class="flex items-center justify-center text-gray-500 italic h-full p-3">
+							Impossible de charger le formulaire. Vérifiez votre connexion et réessayez.
+						</div>
+					{:else if !paymentElement && !errorMessage && !hasAttemptedInitForCurrentPlan}
+						 <div class="flex items-center justify-center text-gray-500 italic h-full p-3">
+							Chargement du formulaire de carte...
+						</div>
+					{/if}
+				</div>
+			</div>
+            <p class="mt-4 text-xs text-gray-400">
+                En fournissant vos informations de carte bancaire, vous autorisez Veille Médicale à débiter votre carte pour les paiements futurs conformément à ses conditions.
+            </p>
+		</div>
+	{/if}
 
-    <!-- Payment Form Area -->
-    {#if selectedPlan}
-        <form id="payment-form" on:submit|preventDefault={handleSubmit} class:fade-in={paymentElement}>
+	{#if errorMessage && !isCreatingIntent}
+		<div class="error-message mt-6 flex items-center gap-2" role="alert">
+			<AlertCircle class="h-5 w-5 shrink-0 text-red-400" />
+			<span class="text-red-400">{errorMessage}</span>
+		</div>
+	{/if}
 
-            {#if isCreatingIntent}
-                <div class="loading-payment-element">Initialisation du paiement ...</div>
-            {/if}
-
-            <!-- Stripe Payment Element will be inserted here -->
-            <div id="payment-element" class:hidden={isCreatingIntent}></div>
-
-            <button
-                type="submit"
-                disabled={isLoadingStripe || isCreatingIntent || !stripe || !elements || paymentProcessing || !paymentElement}
-                class:processing={paymentProcessing}
-            >
-                {#if paymentProcessing}
-                    Traitement...
-                {:else if isCreatingIntent}
-                    Chargement...
-                {:else}
-                    S'abonner {selectedPlan == "monthly" ? "mensuellement" : 'annuellement'}
-                {/if}
-            </button>
-        </form>
-    {/if}
-
+	{#if selectedPlan}
+		<form id="payment-form" on:submit|preventDefault={handleSubmit} class="mt-8">
+			<button
+				type="submit"
+				disabled={paymentProcessing || isLoadingStripe || isCreatingIntent || !stripe || !elements || !paymentElement}
+				class:processing={paymentProcessing}
+				class="w-full rounded-lg bg-orange-600 px-6 py-3 text-base font-semibold text-white shadow-md transition-all duration-300 hover:bg-orange-700 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2 focus:ring-offset-gray-800 disabled:cursor-not-allowed disabled:opacity-60"
+			>
+				{#if paymentProcessing}
+					<span class="flex items-center justify-center">
+                        <svg class="mr-2 h-5 w-5 animate-spin" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"> <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle> <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path> </svg>
+                        Traitement...
+                    </span>
+				{:else if isLoadingStripe || isCreatingIntent}
+					Chargement...
+				{:else}
+					S'abonner {selectedPlan === "monthly" ? "mensuellement" : 'annuellement'}
+				{/if}
+			</button>
+		</form>
+	{/if}
 </div>
+
 <style>
-    /* Base styles */
-    :global(body) { /* Apply base dark background to body */
-       background-color: #121212; /* Dark background */
-       color: #e0e0e0; /* Light text */
-       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-       display: flex;
-       justify-content: center;
-       align-items: flex-start; /* Align to top */
-       min-height: 100vh;
-       padding-top: 2rem; /* Add some space at the top */
-       box-sizing: border-box;
-    }
-
-    .checkout-container {
-        background-color: #1e1e1e; /* Slightly lighter dark shade for the container */
-        padding: 2rem;
-        border-radius: 8px;
-        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
-        width: 100%;
-        max-width: 480px; /* Control max width */
-        margin: 0 auto; /* Center horizontally */
-        box-sizing: border-box;
-    }
-
+	.checkout-container {
+		background-color: #1e1e1e; /* gray-900 */
+		padding: 2rem;
+		border-radius: 0.5rem; /* rounded-lg */
+		box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); /* shadow-lg */
+		width: 100%;
+		max-width: 28rem; /* max-w-md */
+		margin: 2rem auto;
+        color: #d1d5db; /* gray-300 */
+        font-family: inherit; /* From global */
+	}
     .loading-text, .instruction-text {
-        text-align: center;
-        margin-bottom: 1.5rem;
-        color: #b0b0b0;
-    }
-
-    .instruction-text {
-        font-size: 1.2rem;
-        font-weight: 500;
-    }
-
-    /* Plan Selection Cards */
-    .plan-selection-cards {
-        display: flex;
-        gap: 1rem; /* Space between cards */
-        margin-bottom: 2rem;
-    }
-
-    .plan-card {
-        flex: 1; /* Each card takes equal space */
-        background-color: #2a2a2a; /* Card background */
-        border: 2px solid #444; /* Subtle border */
-        border-radius: 6px;
-        padding: 1.5rem 1rem;
-        text-align: center;
-        cursor: pointer;
-        transition: all 0.2s ease-in-out;
-        position: relative; /* For badge positioning */
-    }
-
-    .plan-card:hover {
-        background-color: #333;
-        border-color: #666;
-        transform: translateY(-3px); /* Slight lift on hover */
-    }
-
-    .plan-card.selected {
-        border-color: #ea580c; /* orange-600 */
-        background-color: #4d280a; /* Darker orange-ish background */
-        box-shadow: 0 0 15px rgba(234, 88, 12, 0.3); /* orange-600 shadow */
-    }
-
-    .plan-card h4 {
-        margin-top: 0;
-        margin-bottom: 0.5rem;
-        font-size: 1.1rem;
-        font-weight: 600;
-        color: #fff;
-    }
-
-    .plan-card .price {
-        font-size: 1.9rem;
-        font-weight: bold;
-        color: #ea580c; /* orange-600 */
-        margin-bottom: 0.2rem;
-        line-height: 1.1;
-    }
-
-    .plan-card .frequency {
-        font-size: 0.85rem;
-        color: #aaa;
-        margin-bottom: 0.8rem;
-    }
-
-    .plan-card .original-price {
-        font-size: 0.85rem;
-        color: #888;
-        margin-top: 0.5rem;
-    }
-     .plan-card .original-price .frequency {
-         display: inline; /* Keep on same line as strikethrough */
-         margin-bottom: 0;
-     }
-
-    .plan-card .savings-badge {
-        position: absolute;
-        top: -10px;
-        right: -10px;
-        background-color: #03dac6; /* Teal accent (contrasts well with orange) */
-        color: #121212; /* Dark text on light badge */
-        padding: 0.3em 0.7em;
-        border-radius: 4px;
-        font-size: 0.75rem;
-        font-weight: bold;
-        line-height: 1;
-    }
-
-
-    /* Form Styling */
-    #payment-form {
-       margin-top: 1.5rem;
-       opacity: 0; /* Start hidden for fade-in */
-       transition: opacity 0.5s ease-in-out;
-    }
-
-    #payment-form.fade-in {
-        opacity: 1;
-    }
-
-    .loading-payment-element {
-        text-align: center;
-        padding: 2rem 1rem;
-        color: #aaa;
-        background-color: #2a2a2a;
-        border-radius: 6px;
-        margin-bottom: 1.5rem;
-    }
-
-    #payment-element {
-        margin-bottom: 1.5rem;
-        /* Stripe's Appearance API (theme: night) will handle most styling */
-        /* Add min-height if it collapses weirdly during load */
-         min-height: 150px;
-         padding: 10px; /* Minimal padding for structure */
-         border: 1px solid #444; /* Match card border */
-         border-radius: 6px;
-         background-color: #2a2a2a; /* Match card background */
-    }
-    #payment-element.hidden {
-        display: none;
-    }
-
-    /* Error Message */
-    .error-message {
-        color: #cf6679; /* Material Design dark theme error color */
-        background-color: rgba(207, 102, 121, 0.1); /* Subtle error background */
-        border: 1px solid #cf6679;
-        padding: 0.8em 1em;
-        margin-top: 1rem;
-        margin-bottom: 1.5rem;
-        border-radius: 4px;
-        font-size: 0.9rem;
-    }
-
-    /* Button */
-    button {
-        /* Orange gradient: orange-500 (#f97316) to orange-700 (#c2410c) */
-        background: linear-gradient(to right, #f97316, #c2410c);
+		text-align: center;
+		margin-bottom: 1.5rem; /* mb-6 */
+		color: #9ca3af; /* gray-400 */
+		font-size: 1.25rem; /* text-xl */
+		font-weight: 500; /* font-medium */
+	}
+	.plan-selection-cards {
+		display: flex;
+		gap: 1rem; /* gap-4 */
+		margin-bottom: 1rem; /* mb-4 */
+	}
+	.plan-card {
+		flex: 1;
+		background-color: #374151; /* gray-700 */
+		border: 2px solid #4b5563; /* gray-600 */
+		border-radius: 0.5rem; /* rounded-lg */
+		padding: 1.5rem 1rem; /* p-6 px-4 */
+		text-align: center;
+		cursor: pointer;
+		transition: all 0.2s ease-in-out;
+		position: relative;
+	}
+	.plan-card:hover {
+		background-color: #4b5563; /* gray-600 */
+		border-color: #6b7280; /* gray-500 */
+		transform: translateY(-2px);
+	}
+	.plan-card.selected {
+		border-color: #f97316; /* orange-500 */
+		background-color: #c2410c; /* orange-700 (darker for selected) */
+		box-shadow: 0 0 15px rgba(249, 115, 22, 0.3); /* orange-500 shadow */
+		color: white;
+	}
+    .plan-card.selected .price, .plan-card.selected h4, .plan-card.selected .frequency, .plan-card.selected .original-price {
         color: white;
-        font-family: inherit;
-        font-size: 1rem;
-        font-weight: 600;
-        border: none;
-        padding: 12px 16px;
-        border-radius: 6px;
-        cursor: pointer;
-        transition: all 0.2s ease;
-        display: block;
-        width: 100%;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Add slight shadow for contrast */
     }
-    button:hover:not(:disabled) {
-        filter: brightness(1.1);
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+	.plan-card h4 { margin-top: 0; margin-bottom: 0.5rem; font-size: 1.125rem; /* text-lg */ font-weight: 600; /* font-semibold */ color: #f3f4f6; /* gray-100 */ }
+	.plan-card .price { font-size: 2.25rem; /* text-4xl */ font-weight: 700; /* font-bold */ color: #f97316; /* orange-500 */ margin-bottom: 0.25rem; line-height: 1.1; }
+	.plan-card .frequency { font-size: 0.875rem; /* text-sm */ color: #9ca3af; /* gray-400 */ margin-bottom: 0.5rem; }
+	.plan-card .original-price { font-size: 0.875rem; color: #6b7280; /* gray-500 */ margin-top: 0.25rem; }
+	.plan-card .savings-badge {
+		position: absolute; top: -0.625rem; /* -top-2.5 */ right: -0.625rem; /* -right-2.5 */
+		background-color: #14b8a6; /* teal-500 */
+		color: #111827; /* gray-900 */
+		padding: 0.25em 0.625em; /* px-2.5 py-1 */ border-radius: 0.25rem; /* rounded */
+		font-size: 0.75rem; /* text-xs */ font-weight: 700; line-height: 1;
+	}
+
+    .payment-details-box {
+        background-color: #374151; /* gray-700 */
     }
-    button:disabled {
-        opacity: 0.5;
-        cursor: not-allowed;
-        background: #555; /* Darker disabled state */
-        box-shadow: none;
-        text-shadow: none;
-    }
-    button.processing {
-        /* Optional: add specific styles for processing state */
-         opacity: 0.7;
+    .payment-method-header {
+        border-bottom-color: #f97316; /* orange-500 */
     }
 
-    /* Utility */
-    .hidden {
-        display: none;
-    }
+    /* Container for Stripe Element for better background control */
+    #card-element-container {
+		background-color: #1f2937; /* gray-800 or Stripe's 'night' theme default if it matches */
+        border-radius: 0.375rem; /* rounded-md */
+	}
+	#card-element-placeholder {
+        /* This div itself will be styled by Stripe Elements via appearance API.
+           We just need to provide a min-height for when it's empty or loading. */
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+	}
 
+	.error-message {
+		color: #fca5a5; /* red-300 */
+		background-color: rgba(239, 68, 68, 0.1); /* bg-red-500/10 */
+		border: 1px solid #ef4444; /* red-500 */
+		padding: 0.75rem 1rem; /* p-3 px-4 */
+		border-radius: 0.375rem; /* rounded-md */
+		font-size: 0.875rem; /* text-sm */
+	}
 </style>

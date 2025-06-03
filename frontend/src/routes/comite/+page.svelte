@@ -1,6 +1,6 @@
 <!-- frontend/src/routes/comite/+page.svelte -->
 <script lang="ts">
-	import { AlertTriangle, CheckCircle, Loader2, X } from 'lucide-svelte';
+	import { AlertTriangle, CheckCircle, Loader2 } from 'lucide-svelte';
 
 	// Define the referent data directly in the script
 	// Ensure the initial array is sorted by specialty, then maybe by name for consistency

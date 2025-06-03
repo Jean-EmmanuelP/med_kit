@@ -17,8 +17,6 @@ export const GET = async ({ url, locals: { supabase, safeGetSession } }) => {
     // Sub-discipline only makes sense if a main discipline is selected
     const subDisciplineToRPC = disciplineNameToRPC ? (subDiscipline || null) : null; // <<< Nullify sub if discipline is null
 
-    console.log(`Calling RPC get_all_articles_sub_disciplines with: discipline=${disciplineNameToRPC}, sub_discipline=${subDisciplineToRPC}, offset=${offset}, search=${search || null}, user=${userId}, filterByUserSubs=${filterByUserSubs}`);
-
     const { data: articlesData, error: rpcError } = await supabase.rpc(
         'get_all_articles_sub_disciplines',
         {

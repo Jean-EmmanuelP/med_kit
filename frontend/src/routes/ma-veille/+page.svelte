@@ -2,6 +2,7 @@
 <script lang="ts">
 	// Correctly import 'page', not '$page'
 	import ArticleListView from '$lib/components/articles/ArticleListView.svelte';
+	import SubscriptionRequired from '$lib/components/SubscriptionRequired.svelte';
 	import { i18n } from '$lib/i18n';
 	import userProfileStore from '$lib/stores/user';
 
@@ -49,7 +50,9 @@
 	const initialSubFilterFromData = data.initialSubFilterValue;
 </script>
 
-{#if !hasSubscriptions && !data.error}
+{#if !data.isSubscribed}
+	<SubscriptionRequired />
+{:else if !hasSubscriptions && !data.error}
 	<!-- Empty State (No Subscriptions) -->
 	<div class="flex min-h-[60vh] items-center justify-center text-center text-white p-6">
 		<div class="empty-state">

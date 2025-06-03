@@ -2,7 +2,6 @@
 import { error, json } from '@sveltejs/kit';
 
 export const GET = async ({ url, locals: { supabase, safeGetSession } }) => {
-	console.log('API: /api/get_sub_disciplines called');
 
     // 1. Get Query Parameters
     const disciplineName = url.searchParams.get('disciplineName');
@@ -12,12 +11,10 @@ export const GET = async ({ url, locals: { supabase, safeGetSession } }) => {
 		console.error('API Error: Missing disciplineName query parameter');
 		throw error(400, 'Missing required query parameter: disciplineName');
 	}
-    console.log(`API: Requested discipline name: ${disciplineName}, Mode: ${mode}`);
 
     // 2. Authentication (Required ONLY for 'user' mode)
     const { user } = await safeGetSession();
     const userId = user?.id;
-     console.log(`API: User authenticated: ${userId ?? 'No'}`);
 
     if (mode === 'user' && !userId) {
          console.error('API Error: Unauthorized access to get_sub_disciplines in user mode');
@@ -42,14 +39,12 @@ export const GET = async ({ url, locals: { supabase, safeGetSession } }) => {
              return json([]); // Return empty if the discipline name doesn't exist
         }
         const disciplineId = disciplineData.id;
-        console.log(`API: Found discipline ID: ${disciplineId}`);
 
         // 4. Fetch sub-disciplines based on mode
         let subDisciplinesToReturn = [];
 
         if (mode === 'public' || !userId) {
             // --- Public Mode OR User Not Logged In: Return ALL sub-disciplines ---
-            console.log(`API: Fetching ALL subs for discipline ${disciplineId} (Mode: ${mode}, User: ${userId ?? 'None'})`);
             const { data: allSubsData, error: allSubsError } = await supabase
                 .from('sub_disciplines')
                 .select('id, name')
@@ -61,7 +56,6 @@ export const GET = async ({ url, locals: { supabase, safeGetSession } }) => {
 
         } else {
             // --- User Mode AND User Logged In: Apply subscription logic ---
-            console.log(`API: Fetching USER-SPECIFIC subs for user ${userId}, discipline ${disciplineId}`);
             const { data: userSubs, error: subsError } = await supabase
                 .from('user_subscriptions')
                 .select('sub_discipline_id')
@@ -81,7 +75,6 @@ export const GET = async ({ url, locals: { supabase, safeGetSession } }) => {
             if (hasSpecificSubs) {
                 // Return ONLY specifically subscribed subs
                 const specificSubIds = userSubs.map(sub => sub.sub_discipline_id).filter(id => id !== null);
-                console.log(`API: User subscribed to specific subs. Fetching IDs: ${specificSubIds}`);
                 if (specificSubIds.length > 0) {
                     const { data: specificSubsData, error: specificSubsError } = await supabase
                         .from('sub_disciplines').select('id, name').in('id', specificSubIds).order('name');
@@ -90,7 +83,6 @@ export const GET = async ({ url, locals: { supabase, safeGetSession } }) => {
                 }
             } else if (subscribedToMain) {
                 // Return ALL subs for the main discipline
-                console.log(`API: User subscribed to main ${disciplineName}. Fetching ALL subs.`);
                  const { data: allSubsData, error: allSubsError } = await supabase
                     .from('sub_disciplines').select('id, name').eq('discipline_id', disciplineId).order('name');
                  if (allSubsError) throw error(500, `DB error fetching all subs: ${allSubsError.message}`);
@@ -99,11 +91,9 @@ export const GET = async ({ url, locals: { supabase, safeGetSession } }) => {
             // If neither condition met (shouldn't happen if userSubs has data), returns empty.
         }
 
-        console.log(`API: Returning ${subDisciplinesToReturn.length} sub-disciplines for ${disciplineName} (Mode: ${mode})`);
         return json(subDisciplinesToReturn);
 
 	} catch (err) {
-		 // Handle errors
          console.error('API Error in /api/get_sub_disciplines:', err);
          if (err && typeof err === 'object' && 'status' in err) throw err;
          throw error(500, 'An internal server error occurred.');
