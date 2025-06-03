@@ -16,6 +16,7 @@
 	// Get data loaded by +page.server.ts
 	const { data } = $props<{
 		data: {
+			isSubscribed: boolean;
 			initialMainFilterValue: string | null; // Provided by server
 			initialSubFilterValue: string | null;  // Provided by server
 			userSubscriptionStructure: DisciplineStructure[];
@@ -24,6 +25,8 @@
 			error: string | null;
 		}
 	}>();
+	console.log("data", data);
+	console.log("data.isSubscribed", data.isSubscribed);
 
 	const userStructure = data.userSubscriptionStructure || [];
 	const hasSubscriptions = userStructure.length > 0;

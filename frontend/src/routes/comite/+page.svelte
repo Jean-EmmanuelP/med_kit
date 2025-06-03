@@ -102,6 +102,20 @@
             title: 'Interne en oncologie médicale',
             affiliation: 'AP-HM Timone',
             focus: null,
+        },
+        {
+            specialty: 'Médecine interne',
+            name: 'Dr Romain Bollart',
+            title: 'Chef de clinique dans le service de médecine interne',
+            affiliation: 'CHU de Lariboisière, AP-HP',
+            focus: null,
+        },
+        {
+            specialty: 'Médecine vasculaire',
+            name: 'Dr Benjamin Pariente',
+            title: 'Chef de clinique dans le service d’Excellence en Hypertension Artérielle',
+            affiliation: 'Hôpital Européen Georges-Pompidou, AP-HP',
+            focus: 'Spécialiste en Hypertension Artérielle',
         }
 	].sort((a, b) => { // Ensure sorting is done definitively here
         const specialtyCompare = a.specialty.localeCompare(b.specialty, 'fr', { sensitivity: 'base' });

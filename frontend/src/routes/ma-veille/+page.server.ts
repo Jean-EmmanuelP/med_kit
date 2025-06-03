@@ -1,21 +1,47 @@
-// /ma-veille/+page.server.ts (V7 - Server Lookup for Initial State)
+import { checkUserSubscription } from '$lib/utils/subscriptionUtils';
 import { error, redirect } from '@sveltejs/kit';
 
-// Define types locally for clarity (or import if shared)
 interface SubDisciplineInfo { id: number; name: string; }
 interface DisciplineStructure {
     id: number;
     name: string;
-    subscribed_sub_disciplines: SubDisciplineInfo[]; // Assuming RPC returns this structure
+    subscribed_sub_disciplines: SubDisciplineInfo[];
 }
 
-export async function load({ locals, url }) { // Add 'url' to access query params
-	console.log('=== Starting load function for /ma-veille (V7 - Server Lookup) ===');
+export async function load({ locals, url }) {
 	const { session, user } = await locals.safeGetSession();
 
 	if (!user || !session) {
 		throw redirect(303, '/login?redirect=/ma-veille');
 	}
+    const { isActive, error: subError } = await checkUserSubscription(locals.supabase, user?.id);
+
+    if (subError) {
+        console.error('Subscription check failed:', subError);
+        return {
+            isSubscribed: false,
+            initialMainFilterValue: null,
+            initialSubFilterValue: null,
+            userSubscriptionStructure: [],
+            savedArticleIds: [],
+            articleData: null,
+            error: subError
+        };
+    }
+
+    if (false && !isActive) {
+        // TODO: change when subscription is implemented
+        console.log('User is not subscribed, preparing non-subscribed page data');
+        return {
+            isSubscribed: false,
+            initialMainFilterValue: null,
+            initialSubFilterValue: null,
+            userSubscriptionStructure: [],
+            savedArticleIds: [],
+            articleData: null,
+            error: 'Utilisateur non abonné.'
+        };
+    }
 
 	// --- Get URL Parameters ---
 	let urlSubDisciplineName = url.searchParams.get('discipline');
@@ -109,11 +135,12 @@ export async function load({ locals, url }) { // Add 'url' to access query param
         const savedArticleIds = savedArticlesData?.map((saved) => saved.article_id) || [];
 
         return {
-            initialMainFilterValue, // Determined by server logic
-            initialSubFilterValue,  // Determined by server logic
-            userSubscriptionStructure: structuredData, // For populating dropdown OPTIONS
+            isSubscribed: true,
+            initialMainFilterValue,
+            initialSubFilterValue,
+            userSubscriptionStructure: structuredData,
             savedArticleIds,
-            articleData, // Return articleData, which will be null if not found
+            articleData,
             error: null
         };
 

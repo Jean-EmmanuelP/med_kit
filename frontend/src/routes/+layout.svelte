@@ -50,10 +50,10 @@
 	});
 
 	onMount(() => {
-		console.log('User Profile on mount:', $userProfile);
+		// console.log('User Profile on mount:', $userProfile);
 
 		const { data: subscription } = supabase.auth.onAuthStateChange((event, newSession) => {
-			console.log('Auth state changed:', event, newSession);
+			// console.log('Auth state changed:', event, newSession);
 			if (event === 'SIGNED_OUT') {
 				userProfile.set(null);
 				invalidate('supabase:auth');

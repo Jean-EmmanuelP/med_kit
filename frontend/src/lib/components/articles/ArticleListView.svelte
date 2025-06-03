@@ -168,6 +168,7 @@
         const _search = searchQuery;
         const _userId = currentUserIdFromStore;
 
+        if (!_userId) { return; }
         if (apiEndpoint === '/api/get-liked-articles' && !_userId) {
             if (!isInitialLoading) { articles = []; articleOfTheDay = null; hasMore = false; }
             return;

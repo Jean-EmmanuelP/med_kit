@@ -17,11 +17,11 @@
 
 	$effect(() => {
 		const currentUser = $userProfileStore;
-		console.log("Header $effect: User changed:", currentUser?.id);
+		// console.log("Header $effect: User changed:", currentUser?.id);
 
 		if (currentUser?.id) {
 			isLoadingNoticeState = true;
-			console.log("Header: Fetching tooltip status for user", currentUser.id);
+			// console.log("Header: Fetching tooltip status for user", currentUser.id);
 			supabase
 				.from('user_profiles')
 				.select('has_seen_tooltip')
@@ -29,20 +29,20 @@
 				.maybeSingle()
 				.then(({ data, error }) => {
 					if (error) {
-						console.error("Header: Error fetching tooltip status:", error);
+						// console.error("Header: Error fetching tooltip status:", error);
 						showNotice = false;
 					} else {
 						const seen = data?.has_seen_tooltip ?? false;
-						console.log("Header: Fetched tooltip status:", seen);
+						// console.log("Header: Fetched tooltip status:", seen);
 						showNotice = !seen;
 					}
 				})
 				.finally(() => {
 					isLoadingNoticeState = false;
-					console.log("Header: Final showNotice state after fetch:", showNotice);
+					// console.log("Header: Final showNotice state after fetch:", showNotice);
 				});
 		} else {
-			console.log("Header: User logged out, hiding notice.");
+			// console.log("Header: User logged out, hiding notice.");
 			showNotice = false;
 			isLoadingNoticeState = false;
 		}
@@ -105,20 +105,20 @@
 		showMobileNoticeModal = false;
 
 		if (wasShowing && $userProfileStore?.id) {
-			console.log("Header: Calling API to dismiss notice...");
+			// console.log("Header: Calling API to dismiss notice...");
 			try {
 				const response = await fetch('/api/dismiss-feature-notice', { method: 'POST' });
 				if (!response.ok && response.status !== 204) {
-					console.error("Header: API Error dismissing notice:", response.status, await response.text());
+					// console.error("Header: API Error dismissing notice:", response.status, await response.text());
 				} else {
-					console.log("Header: Notice dismissed successfully via API.");
+					// console.log("Header: Notice dismissed successfully via API.");
 					userProfileStore.update(p => p ? { ...p, has_seen_tooltip: true } : null);
 				}
 			} catch (err) {
-				console.error("Header: Fetch error dismissing notice:", err);
+				// console.error("Header: Fetch error dismissing notice:", err);
 			}
 		} else {
-			console.log("Header: Dismiss called but notice wasn't showing or user logged out.");
+			// console.log("Header: Dismiss called but notice wasn't showing or user logged out.");
 		}
 	}
 </script>
