@@ -1,4 +1,5 @@
 // /routes/account/+page.server.js
+import { checkUserSubscription } from '$lib/utils/subscriptionUtils';
 import { error, redirect } from '@sveltejs/kit';
 
 export async function load({ locals }) {
@@ -7,6 +8,13 @@ export async function load({ locals }) {
 	if (!session || !user) {
 		console.log('No session/user in account load, redirecting');
 		throw redirect(302, '/login?redirect=/account');
+	}
+
+    const { activeSubscription, error: subError } = await checkUserSubscription(locals.supabase, user?.id, true);
+
+	if (subError) {
+		console.error('Error fetching subscription:', subError);
+		throw error(500, `Erreur serveur: ${subError.message}`);
 	}
 
 	try {
@@ -78,6 +86,7 @@ export async function load({ locals }) {
 		// REMOVED minimumGradeOptions
 
 		return {
+			activeSubscription,
             userProfile,
             allDisciplines,
             userSubscriptions: Array.from(userSubscriptions),

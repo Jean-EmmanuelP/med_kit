@@ -31,22 +31,24 @@ export interface SubscriptionStatusWithDetails extends SubscriptionStatus {
 export async function checkUserSubscription(
     supabase: SupabaseClient,
     userId: string | null | undefined,
+    returnDetails?: boolean
 ): Promise<SubscriptionStatusWithDetails>;
 
 export async function checkUserSubscription(
     supabase: SupabaseClient,
     userId: string | null | undefined,
+    returnDetails?: boolean
 ): Promise<SubscriptionStatus | SubscriptionStatusWithDetails> {
     if (!userId) {
         console.warn('[SubscriptionUtils] checkUserSubscription called with no userId.');
         const baseReturn: SubscriptionStatus = { isActive: false, error: 'User ID not provided.' };
-        return baseReturn;
+        return returnDetails ? { ...baseReturn, activeSubscription: null } : baseReturn;
     }
 
     if (!supabase) {
         console.error('[SubscriptionUtils] Supabase client not provided.');
         const baseReturn: SubscriptionStatus = { isActive: false, error: 'Supabase client is required.' };
-        return baseReturn;
+        return returnDetails ? { ...baseReturn, activeSubscription: null } : baseReturn;
     }
 
     try {
@@ -67,20 +69,23 @@ export async function checkUserSubscription(
         if (dbError) {
             console.error('[SubscriptionUtils] Error fetching subscription:', dbError);
             const baseReturn: SubscriptionStatus = { isActive: false, error: dbError.message };
-            return baseReturn;
+            return returnDetails ? { ...baseReturn, activeSubscription: null } : baseReturn;
         }
 
         if (data) {
             const baseReturn: SubscriptionStatus = { isActive: true, error: null };
-            return baseReturn;
+            return returnDetails ? { ...baseReturn, activeSubscription: data as ActiveSubscription } : baseReturn;
         } else {
             const baseReturn: SubscriptionStatus = { isActive: false, error: null };
-            return baseReturn;
+            return returnDetails ? { ...baseReturn, activeSubscription: null } : baseReturn;
         }
-    } catch (err: any) {
+    } catch (err: unknown) {
         console.error('[SubscriptionUtils] Unexpected error in checkUserSubscription:', err);
-        const baseReturn: SubscriptionStatus = { isActive: false, error: err.message || 'An unexpected error occurred.' };
-        return baseReturn;
+        const baseReturn: SubscriptionStatus = { 
+            isActive: false, 
+            error: err instanceof Error ? err.message : 'An unexpected error occurred.' 
+        };
+        return returnDetails ? { ...baseReturn, activeSubscription: null } : baseReturn;
     }
 }
 

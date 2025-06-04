@@ -1,5 +1,6 @@
 <!-- /routes/account/+page.svelte -->
 <script lang="ts">
+	import SubscriptionStatus from '$lib/components/SubscriptionStatus.svelte';
 	import { i18n } from '$lib/i18n';
 	import userProfileStore from '$lib/stores/user';
 	import { supabase } from '$lib/supabase';
@@ -14,6 +15,7 @@
 	let status = $state(data.userProfile?.status || '');
 	let specialty = $state(data.userProfile?.specialty || '');
 	let dateOfBirth = $state(data.userProfile?.date_of_birth || '');
+    let activeSubscription = $state(data.activeSubscription || null);
 
     // Subscription state
     let currentSubscriptions = $state(new Set<string>(data.userSubscriptions || []));
@@ -213,6 +215,7 @@
 
 <div class="min-h-screen bg-black px-4 py-12 text-white pt-20 md:pt-24">
 	<div class="mx-auto max-w-3xl">
+        <SubscriptionStatus subscription={activeSubscription} />
 		<h1 class="mb-8 text-3xl md:text-4xl font-bold text-white">Mon compte</h1>
 
 		{#if data.error}

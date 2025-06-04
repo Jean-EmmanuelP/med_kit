@@ -2,7 +2,6 @@
 	import { env } from '$env/dynamic/public';
 	import { loadStripe, type StripeElements as StripeElementsType, type StripePaymentElement, type Stripe as StripeType } from '@stripe/stripe-js';
 	import { AlertCircle, CreditCard } from 'lucide-svelte';
-// Using CreditCard icon
 	import { onMount, tick } from 'svelte';
 
 	const stripePublicKey = env.PUBLIC_STRIPE_KEY;
@@ -24,15 +23,15 @@
 		monthly: {
 			id: 'monthly' as const,
 			name: 'Mensuel',
-			priceString: '€1.99',
+			priceString: '€0.99',
 			frequency: 'par mois',
 		},
 		yearly: {
 			id: 'yearly' as const,
 			name: 'Annuel',
-			priceString: '€19.99',
+			priceString: '€9.99',
 			frequency: 'par an',
-			originalMonthlyTotal: (1.99 * 12).toFixed(2)
+			originalMonthlyTotal: (0.99 * 12).toFixed(2)
 		}
 	};
 
