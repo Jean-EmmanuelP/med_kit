@@ -178,4 +178,20 @@
 			</div>
 		</div>
 	</div>
+{:else}
+    <div class="mb-8 rounded-lg bg-gray-800 p-6 md:p-8 shadow-lg text-white">
+        <h2 class="text-xl md:text-2xl font-semibold text-white border-b border-gray-700 pb-3 mb-6 flex items-center">
+            <Info class="h-6 w-6 mr-3 text-blue-400 shrink-0" />
+            Abonnement
+        </h2>
+        <div class="space-y-4">
+            <p class="text-gray-300">
+                Vous n'avez pas encore d'abonnement actif.
+            </p>
+            <a href="/checkout" 
+               class="inline-flex items-center justify-center rounded-lg bg-blue-600 px-5 py-2.5 text-sm font-medium text-white transition-colors duration-200 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:ring-offset-gray-800">
+                S'abonner maintenant
+            </a>
+        </div>
+    </div>
 {/if}
