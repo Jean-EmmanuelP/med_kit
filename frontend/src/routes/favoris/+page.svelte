@@ -35,6 +35,7 @@
         allArticlesLoadedText="Tous vos articles favoris sont chargés"
         itemsPerPage={10}
         emptyStateMessage={noLikedArticlesMessage}
+        isSubscribed={data.isSubscribed}
     />
 {:else}
      <!-- Optional: Show message or loader while user store initializes -->

@@ -1,6 +1,7 @@
 <!-- src/lib/components/articles/ArticleListView.svelte -->
 <script lang="ts">
 	import { goto } from '$app/navigation';
+	import SubscriptionRequired from '$lib/components/SubscriptionRequired.svelte';
 	import ConfirmationModal from '$lib/components/ui/ConfirmationModal.svelte';
 	import userProfileStore from '$lib/stores/user';
 	import type { Article } from '$lib/utils/articleUtils';
@@ -41,7 +42,8 @@
         allSubDisciplinesLabel = "Toutes les sous-spécialités",
         showAllCategoriesOption = true,
         subDisciplineFetchMode = 'user' as 'user' | 'public',
-        filterByUserSubs = false
+        filterByUserSubs = false,
+        isSubscribed = false
 	} = $props<{
         articleId?: number;
         articleTitle?: string;
@@ -67,6 +69,7 @@
         showAllCategoriesOption?: boolean;
         subDisciplineFetchMode?: 'user' | 'public';
         filterByUserSubs?: boolean;
+        isSubscribed?: boolean;
 	}>();
 
     const defaultInitialFilter = filters.length > 0 ? (filters[0]?.value ?? null) : (showAllCategoriesOption ? ALL_CATEGORIES_VALUE : null);
@@ -86,6 +89,7 @@
     let fetchError = $state<string | null>(null);
     let showSignupPrompt = $state(false);
     let showUnlikeConfirmModal = $state(false);
+    let showSubscriptionRequired = $state(false);
     let articleToUnlike = $state<{ articleId: number | string; currentlyLiked: boolean; currentLikeCount: number; } | null>(null);
     let hasCheckedInitialSearch = $state(false);
 
@@ -275,6 +279,10 @@
     function loadMore() { if (!isLoading && hasMore) { fetchArticles(true); } }
 
     function openImmersive(clickedArticle: Article) {
+        if (!isSubscribed) {
+            showSubscriptionRequired = true;
+            return;
+        }
         const articleIdToUpdate = getArticleId(clickedArticle);
         markArticleAsReadUI(articleIdToUpdate);
         immersiveArticle = getArticleFromState(articleIdToUpdate) ?? clickedArticle;
@@ -463,6 +471,7 @@
             {allArticlesLoadedText}
             {mainArticleListTitleInfo}
             {ALL_CATEGORIES_VALUE}
+            {isSubscribed}
             on:openArticle={(e) => openImmersive(e.detail)}
             on:likeToggle={(e) => handleLikeToggle(e.detail)}
             on:toggleRead={(e) => handleToggleRead(e.detail)}
@@ -474,6 +483,9 @@
 </div>
 <ArticleImmersiveModal article={immersiveArticle} on:close={closeImmersive} />
 <ConfirmationModal isOpen={showUnlikeConfirmModal} on:confirm={handleConfirmUnlike} on:cancel={handleCancelUnlike} title="Confirmer le retrait" message="Retirer cet article de vos favoris ?" confirmText="Retirer" cancelText="Annuler"/>
+{#if showSubscriptionRequired}
+    <SubscriptionRequired on:close={() => showSubscriptionRequired = false} />
+{/if}
 
 <style>
 	button:focus-visible, input:focus-visible, [data-radix-select-trigger]:focus-visible { outline: 2px solid #14b8a6; outline-offset: 2px; }

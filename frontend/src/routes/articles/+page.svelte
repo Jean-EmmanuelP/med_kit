@@ -33,4 +33,5 @@
 	subDisciplineFetchMode="public"
 	showSignupPromptProp={false}
 	enableSearch={true}
+	isSubscribed={data.isSubscribed}
 />

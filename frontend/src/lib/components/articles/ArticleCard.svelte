@@ -9,7 +9,7 @@
 	} from '$lib/utils/articleUtils';
 	import { createEventDispatcher } from 'svelte';
 
-	const { article } = $props<{ article: Article }>();
+	const { article, isSubscribed = false } = $props<{ article: Article; isSubscribed?: boolean }>();
 	const dispatch = createEventDispatcher<{
 		open: Article,
 		likeToggle: { // Heart icon (Saved/Favorite)
@@ -63,7 +63,7 @@
 
 <li
 	on:click={handleCardClick}
-	class="relative cursor-pointer list-none rounded-lg bg-gray-800 p-4 pb-8 shadow-md transition-all duration-200 hover:bg-gray-700 hover:shadow-xl"
+	class="group relative rounded-lg border border-gray-700 bg-gray-800 p-4 transition-all duration-300 hover:border-teal-500/50 hover:bg-gray-700/50 {!isSubscribed ? 'cursor-pointer' : ''}"
 	data-article-id={articleId}
 >
 	<!-- Status Icons Container (Top Right) -->

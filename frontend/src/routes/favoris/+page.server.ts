@@ -1,4 +1,5 @@
 // src/routes/favoris/+page.server.ts
+import { checkUserSubscription } from '$lib/utils/subscriptionUtils';
 import { error, redirect } from '@sveltejs/kit';
 
 export const load = async ({ locals: { supabase, safeGetSession } }) => {
@@ -6,6 +7,12 @@ export const load = async ({ locals: { supabase, safeGetSession } }) => {
 
     if (!user) {
         throw redirect(303, '/login?redirect=/favoris');
+    }
+
+    let { isActive, error: subError } = await checkUserSubscription(supabase, user?.id);
+
+    if (subError) {
+        isActive = false;
     }
 
     // --- Fetch distinct disciplines for liked articles ---
@@ -43,7 +50,7 @@ export const load = async ({ locals: { supabase, safeGetSession } }) => {
     console.log("Liked Filters for User:", likedFilters);
 
     return {
-        // Pass the distinct list of disciplines where the user has liked articles
+        isSubscribed: isActive,
         likedFilters: likedFilters
     };
 };
