@@ -64,6 +64,7 @@ export async function checkUserSubscription(
             .lte('current_period_start', now)
             .gt('current_period_end', now)
             .order('current_period_end', { ascending: false })
+            .limit(1)
             .maybeSingle();
 
         if (dbError) {
