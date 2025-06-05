@@ -91,8 +91,6 @@
 	}
 
 	async function handleManageSubscription() {
-		// This will call a backend endpoint that creates a Stripe Customer Portal session
-		// and then redirects the user to Stripe's portal.
 		isLoading = true;
 		let localErrorMessage = '';
 		try {
