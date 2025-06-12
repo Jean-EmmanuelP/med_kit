@@ -92,6 +92,7 @@
     let showSubscriptionRequired = $state(false);
     let articleToUnlike = $state<{ articleId: number | string; currentlyLiked: boolean; currentLikeCount: number; } | null>(null);
     let hasInitialized = $state(false);
+    let initialSearchSet = $state(false);
 
 	const filterForTitle = $derived(
         selectedFilter === ALL_CATEGORIES_VALUE
@@ -143,7 +144,15 @@
 
     $effect(() => {
         const currentMainFilter = selectedFilter;
-        selectedSubDiscipline = null;
+        
+        // Don't reset subdiscipline if we're on the initial filter and have an initial subdiscipline value
+        const shouldKeepInitialSubdiscipline = currentMainFilter === initialFilterValue && 
+                                               initialSubFilterValue && 
+                                               selectedSubDiscipline === initialSubFilterValue;
+        
+        if (!shouldKeepInitialSubdiscipline) {
+            selectedSubDiscipline = null;
+        }
         availableSubDisciplines = [];
 
         if (!currentMainFilter || currentMainFilter === ALL_CATEGORIES_VALUE) {
@@ -156,7 +165,11 @@
             .then(async (res) => { if (!res.ok) { const errorText = await res.text().catch(() => `HTTP error ${res.status}`); throw new Error(`Erreur réseau ${res.status}: ${errorText}`); } return res.json();})
             .then((data: SubDisciplineOption[]) => {
                  availableSubDisciplines = data || [];
-                 if (initialSubFilterValue && data.some(sub => sub.name === initialSubFilterValue) && selectedFilter === initialFilterValue) {
+                 // Only set initial subdiscipline if it wasn't already set and it exists in the fetched data
+                 if (initialSubFilterValue && 
+                     data.some(sub => sub.name === initialSubFilterValue) && 
+                     selectedFilter === initialFilterValue &&
+                     selectedSubDiscipline !== initialSubFilterValue) {
                      selectedSubDiscipline = initialSubFilterValue;
                  }
             })
@@ -166,27 +179,39 @@
 
     const debouncedFetchArticles = debounce(fetchArticles, searchDebounceMs);
 
-    // Initialize search query with articleTitle if provided
+    // Initialize search query with articleTitle if provided - handle both SSR and client scenarios
     $effect(() => {
+        // Set initial search query immediately if we have articleTitle, regardless of user store
+        if (!initialSearchSet && articleId && articleTitle) {
+            searchQuery = articleTitle;
+            initialSearchSet = true;
+        }
+        
+        // Set initial subdiscipline if provided, to avoid second fetch
+        if (!hasInitialized && initialSubFilterValue && selectedFilter === initialFilterValue) {
+            selectedSubDiscipline = initialSubFilterValue;
+        }
+        
+        // Mark as initialized when user store is available
         if (!hasInitialized && currentUserIdFromStore) {
-            if (articleId && articleTitle) {
-                // If we have a specific article to search for, set the search query immediately
-                searchQuery = articleTitle;
-            }
             hasInitialized = true;
         }
     });
 
 	$effect(() => {
         // Skip if not initialized yet to avoid multiple calls
-        if (!hasInitialized) return;
+        if (!hasInitialized) {
+            return;
+        }
         
         const _filter = selectedFilter;
         const _subFilter = selectedSubDiscipline;
         const _search = searchQuery;
         const _userId = currentUserIdFromStore;
 
-        if (!_userId) { return; }
+        if (!_userId) { 
+            return; 
+        }
         if (apiEndpoint === '/api/get-liked-articles' && !_userId) {
             if (!isInitialLoading) { articles = []; articleOfTheDay = null; hasMore = false; }
             return;
@@ -214,7 +239,6 @@
     }
 
     function fetchArticles(isLoadMore = false) {
-        console.log("fetchArticles");
         const currentFilter = selectedFilter;
         const currentSubFilter = (currentFilter && currentFilter !== ALL_CATEGORIES_VALUE) ? selectedSubDiscipline : null;
         const currentSearch = searchQuery;
@@ -325,7 +349,7 @@
         const currentFilterValue = selectedFilter;
         
         // Only clear search if this isn't the initial load and we don't have a specific article to search for
-        if (initialFilterSetForSearchClear && !articleId) {
+        if (initialFilterSetForSearchClear && !articleId && !initialSearchSet) {
              searchQuery = '';
         }
         initialFilterSetForSearchClear = true;
