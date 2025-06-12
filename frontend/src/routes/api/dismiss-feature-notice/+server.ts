@@ -16,11 +16,11 @@ export const POST: RequestHandler = async ({ locals: { supabase, safeGetSession 
 	try {
 		const { error: updateError } = await supabase
 			.from('user_profiles')
-			.update({ has_seen_tooltip: true })
+			.update({ has_seen_tooltip: true, tooltip_time: new Date().toISOString() })
 			.eq('id', userId);
 
 		if (updateError) {
-			console.error(`API DB Error: Failed to update has_seen_tooltip for user ${userId}`, updateError);
+			console.error(`API DB Error: Failed to update has_seen_tooltip and tooltip_time for user ${userId}`, updateError);
 			throw error(500, 'Database error updating profile');
 		}
 
