@@ -74,7 +74,7 @@
 
     const defaultInitialFilter = filters.length > 0 ? (filters[0]?.value ?? null) : (showAllCategoriesOption ? ALL_CATEGORIES_VALUE : null);
 
-	let selectedFilter = $state<string | null>(initialFilterValue ?? defaultInitialFilter);
+	    let selectedFilter = $state<string | null>(initialFilterValue ?? defaultInitialFilter);
     let selectedSubDiscipline = $state<string | null>(null);
     let availableSubDisciplines = $state<SubDisciplineOption[]>([]);
     let isLoadingSubDisciplines = $state(false);
@@ -91,7 +91,7 @@
     let showUnlikeConfirmModal = $state(false);
     let showSubscriptionRequired = $state(false);
     let articleToUnlike = $state<{ articleId: number | string; currentlyLiked: boolean; currentLikeCount: number; } | null>(null);
-    let hasCheckedInitialSearch = $state(false);
+    let hasInitialized = $state(false);
 
 	const filterForTitle = $derived(
         selectedFilter === ALL_CATEGORIES_VALUE
@@ -166,7 +166,21 @@
 
     const debouncedFetchArticles = debounce(fetchArticles, searchDebounceMs);
 
+    // Initialize search query with articleTitle if provided
+    $effect(() => {
+        if (!hasInitialized && currentUserIdFromStore) {
+            if (articleId && articleTitle) {
+                // If we have a specific article to search for, set the search query immediately
+                searchQuery = articleTitle;
+            }
+            hasInitialized = true;
+        }
+    });
+
 	$effect(() => {
+        // Skip if not initialized yet to avoid multiple calls
+        if (!hasInitialized) return;
+        
         const _filter = selectedFilter;
         const _subFilter = selectedSubDiscipline;
         const _search = searchQuery;
@@ -185,16 +199,6 @@
         debouncedFetchArticles(false);
 	});
 
-    $effect(() => {
-        if (!isInitialLoading && !hasCheckedInitialSearch && articleId && articleTitle) {
-            const currentAotDId = articleOfTheDay ? getArticleId(articleOfTheDay) : null;
-            if (String(currentAotDId) !== String(articleId)) {
-                searchQuery = articleTitle;
-            }
-            hasCheckedInitialSearch = true;
-        }
-    });
-
     function processFetchedArticlesForAotD(newlyFetchedArticles: Article[], isSearchCurrentlyActive: boolean, isLikedArticlesPage: boolean): { aotd: Article | null; regularArticles: Article[] } {
         let potentialAotd: Article | null = null;
         let remainingArticles = [...newlyFetchedArticles];
@@ -210,6 +214,7 @@
     }
 
     function fetchArticles(isLoadMore = false) {
+        console.log("fetchArticles");
         const currentFilter = selectedFilter;
         const currentSubFilter = (currentFilter && currentFilter !== ALL_CATEGORIES_VALUE) ? selectedSubDiscipline : null;
         const currentSearch = searchQuery;
@@ -318,7 +323,9 @@
     let initialFilterSetForSearchClear = false;
     $effect(() => {
         const currentFilterValue = selectedFilter;
-        if (initialFilterSetForSearchClear) {
+        
+        // Only clear search if this isn't the initial load and we don't have a specific article to search for
+        if (initialFilterSetForSearchClear && !articleId) {
              searchQuery = '';
         }
         initialFilterSetForSearchClear = true;
