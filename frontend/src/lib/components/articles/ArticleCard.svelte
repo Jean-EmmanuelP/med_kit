@@ -25,7 +25,7 @@
 		}
 	}>();
 
-	const emoji = $derived(extractTitleEmoji(article.content));
+	const emoji = $derived(article.is_recommandation ? '🌟' : extractTitleEmoji(article.content));
 	const displayTitle = $derived(formatTitle(article.title));
 	const displayDate = $derived(formatDate(article.published_at));
 	const articleId = $derived(getArticleId(article));
@@ -63,7 +63,7 @@
 
 <li
 	on:click={handleCardClick}
-	class="group relative rounded-lg border border-gray-700 bg-gray-800 p-4 transition-all duration-300 hover:border-teal-500/50 hover:bg-gray-700/50 {!isSubscribed ? 'cursor-pointer' : ''}"
+	class="group relative rounded-lg border p-4 transition-all duration-300 {!isSubscribed ? 'cursor-pointer' : ''} {article.is_recommandation ? 'border-yellow-400/50 bg-yellow-50 hover:border-yellow-400 hover:bg-yellow-100/80' : 'border-gray-700 bg-gray-800 hover:border-teal-500/50 hover:bg-gray-700/50'}"
 	data-article-id={articleId}
 >
 	<!-- Status Icons Container (Top Right) -->
@@ -141,18 +141,20 @@
 		</button>
 	</div>
 
-	<h3 class="text-left text-lg font-bold text-white pr-24"> <!-- Increased pr to avoid overlap -->
+	<h3 class="text-left text-lg font-bold pr-24 {article.is_recommandation ? 'text-gray-900' : 'text-white'}"> <!-- Increased pr to avoid overlap -->
 		<span class="mr-2">{emoji}</span>{displayTitle}
 	</h3>
-	{#if article.grade}
+	{#if article.is_recommandation}
+		<p class="mt-1 text-sm font-semibold text-green-500">Recommandations scientifique</p>
+	{:else if article.grade}
 		<p class="mt-1 text-sm {article.grade == 'A' ? 'text-green-500' : article.grade == 'B' ? 'text-yellow-400' : article.grade == 'C' ? 'text-orange-400' : 'text-red-400'}">Grade de recommandation : {article.grade}</p>
 	{/if}
-	<div class="mt-2 flex items-center text-sm text-gray-400">
+	<div class="mt-2 flex items-center text-sm {article.is_recommandation ? 'text-gray-600' : 'text-gray-400'}">
 		{#if article.journal}
 			<span class="mr-1">{article.journal}</span>
 		{/if}
 	</div>
-	<div class="mt-2 flex items-center text-sm text-gray-400">
+	<div class="mt-2 flex items-center text-sm {article.is_recommandation ? 'text-gray-600' : 'text-gray-400'}">
 		<svg class="mr-1 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 			<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/>
 		</svg>
@@ -161,7 +163,7 @@
 	</div>
 
 	<!-- Counts Display (Bottom Right) -->
-	<div class="absolute bottom-2 right-3 flex items-center space-x-3 text-xs text-gray-400">
+	<div class="absolute bottom-2 right-3 flex items-center space-x-3 text-xs {article.is_recommandation ? 'text-gray-600' : 'text-gray-400'}">
 		{#if article.read_count != null}
 			<div class="flex items-center space-x-1" title="Nombre total de lectures">
 				<!-- Use the filled eye icon (teal color) -->

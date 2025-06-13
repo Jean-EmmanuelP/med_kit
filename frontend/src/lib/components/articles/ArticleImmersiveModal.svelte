@@ -2,16 +2,27 @@
 <script lang="ts">
 	import userProfileStore from '$lib/stores/user';
 	import {
-		type Article,
 		extractTitleEmoji,
 		formatDate,
 		formatTitle,
 		getArticleId,
 		parseContent,
-        type ContentSection // Make sure ContentSection is exported or defined here
+		type Article
 	} from '$lib/utils/articleUtils';
-	import { createEventDispatcher, tick } from 'svelte';
-    import { Copy, Check } from 'lucide-svelte'; // Import icons
+	import { Check, Copy } from 'lucide-svelte';
+	import { createEventDispatcher } from 'svelte';
+
+	// Function to process markdown formatting for recommendations
+	function processMarkdown(text: string): string {
+		console.log('Processing text:', text);
+		const result = text
+			.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+			.replace(/\*(.*?)\*/g, '<em>$1</em>');
+		console.log('Result:', result);
+		return result;
+	}
+
+
 
 	const { article } = $props<{ article: Article | null }>();
 	const dispatch = createEventDispatcher<{ close: void }>();
@@ -21,10 +32,17 @@
 	let copyTimeoutId: ReturnType<typeof setTimeout> | null = null;
 
 	// Use $derived for computed values based on the 'article' prop
-	const emoji = $derived(article ? extractTitleEmoji(article.content) : '📝');
+	const emoji = $derived(article ? (article.is_recommandation ? '🌟' : extractTitleEmoji(article.content)) : '📝');
 	const displayTitle = $derived(article ? formatTitle(article.title) : '');
 	const displayDate = $derived(article ? formatDate(article.published_at) : '');
-	const contentSections = $derived(article ? parseContent(article.content) : []);
+	const contentSections = $derived.by(() => {
+		if (!article) return [];
+		const sections = parseContent(article.content);
+		if (article.is_recommandation) {
+			console.log('Content sections for recommendation:', sections);
+		}
+		return sections;
+	});
 	const articleId = $derived(article ? getArticleId(article) : null);
 
 	// --- Effect to mark article as read ---
@@ -187,7 +205,9 @@
 				<span class="mr-2">{emoji}</span>{displayTitle}
 			</h2>
 
-			{#if article.grade}
+			{#if article.is_recommandation}
+				<p class="mb-2 text-base font-semibold text-green-500">Recommandations scientifique</p>
+			{:else if article.grade}
 				<p class="mb-2 text-sm {article.grade == 'A' ? 'text-green-500' : article.grade == 'B' ? 'text-yellow-400' : article.grade == 'C' ? 'text-orange-400' : 'text-red-400'}">
 					Grade de recommandation : {article.grade}
 				</p>
@@ -240,15 +260,35 @@
 						<span class="mr-2 text-xl">{section.emoji}</span>
 						{section.title}
 					</h3>
-					<ul class="section-content ml-4 list-disc space-y-1.5 pl-4 text-gray-300 marker:text-teal-500">
-						{#each section.content as paragraph (paragraph)}
-							<li class="selectable-text">{paragraph}</li>
-						{/each}
-					</ul>
+					{#if article.is_recommandation}
+						<!-- Recommendation format with nested bullets -->
+						<div class="ml-4 space-y-2 text-gray-300">
+							{#each section.content as paragraph, index (`${section.title}-${index}`)}
+								{#if paragraph.startsWith('__NESTED__')}
+									<div class="ml-6 flex items-start">
+										<span class="mr-2 text-gray-500">○</span>
+										<span class="selectable-text">{@html processMarkdown(paragraph.replace('__NESTED__', ''))}</span>
+									</div>
+								{:else}
+									<div class="flex items-start">
+										<span class="mr-2 text-teal-500">•</span>
+										<span class="selectable-text">{@html processMarkdown(paragraph)}</span>
+									</div>
+								{/if}
+							{/each}
+						</div>
+					{:else}
+						<!-- Regular article format -->
+						<ul class="section-content ml-4 list-disc space-y-1.5 pl-4 text-gray-300 marker:text-teal-500">
+							{#each section.content as paragraph, index (`${section.title}-${index}`)}
+								<li class="selectable-text">{paragraph}</li>
+							{/each}
+						</ul>
+					{/if}
 				</div>
 			{:else}
-                <p class="selectable-text text-gray-400">{article.content || "Contenu non disponible."}</p>
-            {/each}
+				<p class="selectable-text text-gray-400">{article.content || "Contenu non disponible."}</p>
+			{/each}
 
 			{#if article.link}
                 <div class="mt-6 border-t border-gray-700 pt-4">
@@ -304,4 +344,6 @@
 		border-radius: 6px;
 		border: 2px solid #1f2937;
 	}
+
+
 </style>

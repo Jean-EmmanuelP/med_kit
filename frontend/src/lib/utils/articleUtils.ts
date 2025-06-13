@@ -29,6 +29,7 @@ export interface Article {
 	thumbs_up_count?: number; // Track the number of thumbs up for the article
 	added_at_out?: string; // Track when the article was added to the system
 	is_article_of_the_day?: boolean; // Flag indicating if this is the article of the day
+	is_recommandation?: boolean; // Flag indicating if this is a recommendation article
 }
 
 export interface ContentSection {
@@ -73,7 +74,8 @@ export function extractTitleEmoji(content: string): string {
 			line.trim().startsWith('# 🧪') ||
 			line.trim().startsWith('# 📊') ||
 			line.trim().startsWith('# 🩺') ||
-			line.trim().startsWith('# 📖')
+			line.trim().startsWith('# 📖') ||
+			line.trim().startsWith('# 🌟')
 		) {
 			const parts = line.trim().split(' ');
 			if (parts.length > 1) {
@@ -88,23 +90,20 @@ export function parseContent(content: string): ContentSection[] {
 	if (!content || typeof content !== 'string') return [];
 
 	const sections: ContentSection[] = [];
-	// Initialize with default values, matching the original structure
 	let currentSection: ContentSection = { emoji: '', title: '', content: [] };
 	const lines = content.split('\n');
-	let inSection = false; // Use the flag as in the original
+	let inSection = false;
 
 	for (const line of lines) {
         const trimmedLine = line.trim();
 
-		// Explicit startsWith checks, identical to the original
-		if (
-			trimmedLine.startsWith('## 📝') ||
-			trimmedLine.startsWith('## 📌') ||
-			trimmedLine.startsWith('## 🧪') ||
-			trimmedLine.startsWith('## 📊') ||
-			trimmedLine.startsWith('## 🩺') ||
-			trimmedLine.startsWith('## 📖')
-		) {
+		// Check for standard markdown headers (## emoji title)
+		const markdownHeaderMatch = trimmedLine.match(/^##\s*(\p{Emoji})\s*(.+)$/u);
+		
+		// Check for recommendation format (emoji **title**)
+		const recoHeaderMatch = trimmedLine.match(/^(\p{Emoji})\s*\*\*(.+?)\*\*$/u);
+
+		if (markdownHeaderMatch || recoHeaderMatch) {
 			// If we were already tracking a section, push the completed one
 			if (inSection && (currentSection.title || currentSection.content.length > 0)) {
 				sections.push(currentSection);
@@ -113,25 +112,51 @@ export function parseContent(content: string): ContentSection[] {
             // Start a new section
 			inSection = true;
 
-            // Extract emoji and title using the original split(' ') method
-            // Remove the "##" prefix and any leading space first
-            const parts = trimmedLine.replace(/^##\s*/, '').split(' ');
-            const emoji = parts[0] || '📝'; // Default emoji if split fails unexpectedly
-            const titleParts = parts.slice(1); // Get the rest of the parts for the title
-
-			currentSection = {
-                emoji: emoji,
-                title: titleParts.join(' ').trim(), // Join remaining parts for title
-                content: []
-            };
+			if (markdownHeaderMatch) {
+				// Standard markdown format: ## 🎯 Title
+				currentSection = {
+					emoji: markdownHeaderMatch[1],
+					title: markdownHeaderMatch[2].trim(),
+					content: []
+				};
+			} else if (recoHeaderMatch) {
+				// Recommendation format: 🎯 **Title**
+				currentSection = {
+					emoji: recoHeaderMatch[1],
+					title: recoHeaderMatch[2].trim(),
+					content: []
+				};
+			}
 		} else if (trimmedLine && inSection) {
 			// If it's a non-empty line and we are inside a section, add to content
-            // Optional: Add the check for markdown lines again if needed
+            // Skip horizontal rules and process bullet points
             if (trimmedLine !== '---' && trimmedLine !== '***' && trimmedLine !== '___') {
-			    currentSection.content.push(trimmedLine);
+				// For recommendations, preserve the original line with indentation markers
+				// For regular articles, clean up the formatting
+				if (line.match(/^ {4}\*/) || trimmedLine.match(/^[•·○]/)) {
+					// This is a nested bullet point - mark it as such
+					const cleanLine = trimmedLine.replace(/^\*\s*/, '').replace(/^[•·○]\s*/, '');
+					// Keep bold formatting for recommendations, remove for regular articles
+					if (cleanLine.trim()) {
+						currentSection.content.push(`__NESTED__${cleanLine.trim()}`);
+					}
+				} else if (trimmedLine.startsWith('*')) {
+					// Main bullet point
+					const cleanLine = trimmedLine.replace(/^\*\s*/, '');
+					// Keep bold formatting for recommendations, remove for regular articles
+					if (cleanLine.trim()) {
+						currentSection.content.push(cleanLine.trim());
+					}
+				} else {
+					// Regular paragraph
+					const cleanLine = trimmedLine;
+					// Keep bold formatting for recommendations, remove for regular articles
+					if (cleanLine.trim()) {
+						currentSection.content.push(cleanLine.trim());
+					}
+				}
             }
 		}
-        // Lines before the first heading or empty lines outside sections are ignored, matching original behaviour
 	}
 
 	// Push the very last section after the loop finishes
@@ -141,7 +166,7 @@ export function parseContent(content: string): ContentSection[] {
 
     // Add the fallback just in case this logic *still* fails for some reason
     if (sections.length === 0 && content?.trim()) {
-        console.warn("parseContent (original logic) failed to find sections, returning raw content block.");
+        console.warn("parseContent failed to find sections, returning raw content block.");
         return [{ emoji: '📄', title: 'Contenu', content: content.split('\n').map(l => l.trim()).filter(Boolean) }];
     }
 
