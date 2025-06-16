@@ -145,7 +145,7 @@
 		<span class="mr-2">{emoji}</span>{displayTitle}
 	</h3>
 	{#if article.is_recommandation}
-		<p class="mt-1 text-sm font-semibold text-green-500">Recommandations scientifique</p>
+		<p class="mt-1 text-sm font-semibold text-green-500">Recommandation scientifique</p>
 	{:else if article.grade}
 		<p class="mt-1 text-sm {article.grade == 'A' ? 'text-green-500' : article.grade == 'B' ? 'text-yellow-400' : article.grade == 'C' ? 'text-orange-400' : 'text-red-400'}">Grade de recommandation : {article.grade}</p>
 	{/if}

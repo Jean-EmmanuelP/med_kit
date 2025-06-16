@@ -7,45 +7,28 @@
 		formatTitle,
 		getArticleId,
 		parseContent,
-		type Article
+		type Article,
+		type ContentSection
 	} from '$lib/utils/articleUtils';
 	import { Check, Copy } from 'lucide-svelte';
 	import { createEventDispatcher } from 'svelte';
 
-	// Function to process markdown formatting for recommendations
-	function processMarkdown(text: string): string {
-		console.log('Processing text:', text);
-		const result = text
-			.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
-			.replace(/\*(.*?)\*/g, '<em>$1</em>');
-		console.log('Result:', result);
-		return result;
-	}
-
-
-
 	const { article } = $props<{ article: Article | null }>();
 	const dispatch = createEventDispatcher<{ close: void }>();
 
-	// State for copy button feedback
 	let copyStatus = $state<'idle' | 'copied' | 'error'>('idle');
 	let copyTimeoutId: ReturnType<typeof setTimeout> | null = null;
 
-	// Use $derived for computed values based on the 'article' prop
-	const emoji = $derived(article ? (article.is_recommandation ? '🌟' : extractTitleEmoji(article.content)) : '📝');
+	const emoji = $derived(article ? extractTitleEmoji(article.content) : '📝');
 	const displayTitle = $derived(article ? formatTitle(article.title) : '');
 	const displayDate = $derived(article ? formatDate(article.published_at) : '');
 	const contentSections = $derived.by(() => {
 		if (!article) return [];
 		const sections = parseContent(article.content);
-		if (article.is_recommandation) {
-			console.log('Content sections for recommendation:', sections);
-		}
 		return sections;
 	});
 	const articleId = $derived(article ? getArticleId(article) : null);
 
-	// --- Effect to mark article as read ---
 	$effect(() => {
 		const currentArticle = article;
 		const currentUser = $userProfileStore;
@@ -54,8 +37,6 @@
 			const articleIdNumber = typeof articleId === 'string' ? parseInt(articleId, 10) : articleId;
 
 			if (!isNaN(articleIdNumber)) {
-				console.log(`Modal opened for article ${articleIdNumber}. Marking as read for user ${currentUser.id}...`);
-				// Fire-and-forget API call
 				fetch('/api/mark-article-read', {
 					method: 'POST',
 					headers: { 'Content-Type': 'application/json' },
@@ -64,20 +45,14 @@
 				.then(async (response) => {
 					if (!response.ok) {
 						const errorData = await response.json().catch(() => ({ message: 'Failed to parse error response' }));
-						console.error(`Failed to mark article ${articleIdNumber} as read:`, response.status, errorData.message || response.statusText);
-					} else {
-						console.log(`Article ${articleIdNumber} marked as read successfully.`);
 					}
 				})
 				.catch((error) => {
 					console.error(`Network error marking article ${articleIdNumber} as read:`, error);
 				});
-			} else {
-				console.warn('Cannot mark article as read: Invalid article ID.', articleId);
 			}
 		}
 
-        // Cleanup previous timeout if article changes or modal closes
 		return () => {
 			if (copyTimeoutId) {
 				clearTimeout(copyTimeoutId);
@@ -96,68 +71,80 @@
 		}
 	}
 
-    // --- Function to copy content ---
     async function handleCopyContent() {
-        if (!article || copyStatus === 'copied') return; // Don't do anything if already copied recently
+        if (!article || copyStatus === 'copied') return;
 
-        // 1. Assemble the text content
         let textToCopy = '';
-        textToCopy += `${emoji} ${displayTitle}\n\n`; // Title
+        textToCopy += `${emoji} ${displayTitle}\n\n`;
 
-        // Metadata
         if (article.journal) textToCopy += `Journal: ${article.journal}\n`;
         if (displayDate !== 'Non spécifiée' && displayDate !== 'Date invalide') textToCopy += `Publié le: ${displayDate}\n`;
         if (article.grade) textToCopy += `Grade: ${article.grade}\n`;
         textToCopy += `\n---\n\n`;
 
-        // Content Sections
         contentSections.forEach(section => {
             textToCopy += `${section.emoji} ${section.title}\n`;
+            
+            if (section.content && section.content.length > 0) {
             section.content.forEach(paragraph => {
-                textToCopy += `- ${paragraph}\n`;
-            });
+                    if (paragraph.startsWith('__EMOJI_BULLET__')) {
+                        const parts = paragraph.replace('__EMOJI_BULLET__', '').split('__');
+                        if (parts.length >= 2) {
+                            textToCopy += `${parts[0]} ${parts[1]}\n`;
+                        }
+                    } else if (paragraph.startsWith('**') && paragraph.includes(':**')) {
+                        textToCopy += `${paragraph}\n`;
+                    } else if (paragraph.startsWith('__NESTED__')) {
+                        textToCopy += `  ${paragraph.replace('__NESTED__', '')}\n`;
+                    } else {
+                        textToCopy += `${paragraph}\n`;
+                    }
+                });
+            }
+            
+            if (section.subsections && section.subsections.length > 0) {
+                section.subsections.forEach(subsection => {
+                    textToCopy += `\n${subsection.emoji} ${subsection.title}\n`;
+                    subsection.content.forEach(item => {
+                        textToCopy += `- ${item}\n`;
+                    });
+                });
+            }
+            
             textToCopy += '\n';
         });
 
-        // Fallback for non-sectioned content
         if (contentSections.length === 0 && article.content) {
              textToCopy += `${article.content}\n\n`;
         }
 
-        // Original Link
         if (article.link) {
             textToCopy += `---\nLien original: ${article.link}\n`;
         }
 
-        // 2. Use Clipboard API
         try {
             await navigator.clipboard.writeText(textToCopy.trim());
             copyStatus = 'copied';
-            console.log('Article content copied to clipboard');
 
-            // Reset status after a delay
-            if (copyTimeoutId) clearTimeout(copyTimeoutId); // Clear previous timeout if any
+            if (copyTimeoutId) clearTimeout(copyTimeoutId);
             copyTimeoutId = setTimeout(() => {
                 copyStatus = 'idle';
                 copyTimeoutId = null;
-            }, 2000); // Reset after 2 seconds
+            }, 2000);
 
         } catch (err) {
             copyStatus = 'error';
             console.error('Failed to copy article content:', err);
-            // Optionally show an error message to the user
-             if (copyTimeoutId) clearTimeout(copyTimeoutId);
-             copyTimeoutId = setTimeout(() => {
+            if (copyTimeoutId) clearTimeout(copyTimeoutId);
+            copyTimeoutId = setTimeout(() => {
                 copyStatus = 'idle';
                 copyTimeoutId = null;
-            }, 3000); // Show error longer
+            }, 3000);
         }
     }
-
 </script>
 
 {#if article}
-	<!-- svelte-ignore a11y-click-events-have-key-events a11y-no-static-element-interactions -->
 	<div
 		class="fixed inset-0 z-[200] flex items-center justify-center bg-black/70 backdrop-blur-sm"
 		on:click|self={handleClose}
@@ -169,9 +156,7 @@
 		<div
 			class="modal-content relative max-h-[90vh] w-full max-w-4xl overflow-y-auto rounded-2xl bg-gray-900 p-6 md:p-8 shadow-2xl scrollbar-thin scrollbar-thumb-teal-500 scrollbar-track-gray-800"
 		>
-            <!-- Action Buttons Container -->
             <div class="absolute top-3 right-3 flex items-center space-x-2">
-                <!-- Copy Button -->
                 <button
                     type="button"
                     class="text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-teal-500 rounded-full p-1.5 transition-colors duration-150"
@@ -183,13 +168,12 @@
                     {#if copyStatus === 'copied'}
                         <Check class="w-5 h-5 text-green-500" />
                     {:else if copyStatus === 'error'}
-                         <Copy class="w-5 h-5 text-red-500" /> <!-- Or an error icon -->
+                         <Copy class="w-5 h-5 text-red-500" />
                     {:else}
                         <Copy class="w-5 h-5" />
                     {/if}
                 </button>
 
-                <!-- Close Button -->
                 <button
                     type="button"
                     class="text-3xl text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-teal-500 rounded-full p-1 leading-none"
@@ -200,17 +184,20 @@
                 </button>
             </div>
 
-
-			<h2 id="immersive-title" class="mb-4 pr-16 text-2xl md:text-3xl font-bold text-white"> <!-- Increased pr for buttons -->
+			<h2 id="immersive-title" class="mb-4 pr-16 text-2xl md:text-3xl font-bold text-white">
 				<span class="mr-2">{emoji}</span>{displayTitle}
 			</h2>
 
-			{#if article.is_recommandation}
-				<p class="mb-2 text-base font-semibold text-green-500">Recommandations scientifique</p>
-			{:else if article.grade}
-				<p class="mb-2 text-sm {article.grade == 'A' ? 'text-green-500' : article.grade == 'B' ? 'text-yellow-400' : article.grade == 'C' ? 'text-orange-400' : 'text-red-400'}">
+			{#if article.grade}
+				{#if article.is_recommandation}
+					<p class="mb-2 text-sm text-green-500">
+					Recommandation scientifique
+				</p>
+				{:else}
+					<p class="mb-2 text-sm {article.grade == 'A' ? 'text-green-500' : article.grade == 'B' ? 'text-yellow-400' : article.grade == 'C' ? 'text-orange-400' : 'text-red-400'}">
 					Grade de recommandation : {article.grade}
 				</p>
+				{/if}
 			{/if}
 
 			<div class="mb-4 flex flex-wrap items-center gap-x-4 text-sm text-gray-400">
@@ -221,7 +208,6 @@
                 {#if displayDate !== 'Non spécifiée' && displayDate !== 'Date invalide'}
 				    <span>Publié le : {displayDate}</span>
                 {/if}
-                <!-- Metadata Icons -->
                 {#if article.read_count != null || article.thumbs_up_count != null || article.like_count != null}
                     <span class="text-gray-600">•</span>
                     <div class="flex items-center space-x-3">
@@ -260,29 +246,61 @@
 						<span class="mr-2 text-xl">{section.emoji}</span>
 						{section.title}
 					</h3>
-					{#if article.is_recommandation}
-						<!-- Recommendation format with nested bullets -->
-						<div class="ml-4 space-y-2 text-gray-300">
-							{#each section.content as paragraph, index (`${section.title}-${index}`)}
-								{#if paragraph.startsWith('__NESTED__')}
-									<div class="ml-6 flex items-start">
-										<span class="mr-2 text-gray-500">○</span>
-										<span class="selectable-text">{@html processMarkdown(paragraph.replace('__NESTED__', ''))}</span>
-									</div>
+					
+					{#if section.content && section.content.length > 0}
+						<div class="space-y-2">
+							{#each section.content as paragraph}
+								{#if paragraph.startsWith('__BULLET__')}
+									{@const cleanContent = paragraph.replace('__BULLET__', '')}
+									<p class="ml-6 text-gray-300 selectable-text before:content-['•'] before:mr-2 before:text-teal-400 before:inline-block before:translate-y-[-1px]">{@html cleanContent.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')}</p>
+								{:else if paragraph.startsWith('__NESTED__')}
+									{@const cleanContent = paragraph.replace('__NESTED__', '')}
+									<div class="ml-4 text-gray-400 selectable-text">{@html cleanContent.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')}</div>
 								{:else}
-									<div class="flex items-start">
-										<span class="mr-2 text-teal-500">•</span>
-										<span class="selectable-text">{@html processMarkdown(paragraph)}</span>
-									</div>
+									<p class="ml-6 text-gray-300 selectable-text before:content-['•'] before:mr-2 before:text-teal-400 before:inline-block before:translate-y-[-1px]">{@html paragraph.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')}</p>
 								{/if}
 							{/each}
 						</div>
-					{:else}
-						<!-- Regular article format -->
+					{/if}
+
+					{#snippet renderSubsections(subsections: ContentSection[] | undefined)}
+						{#if subsections && subsections.length > 0}
+							<div class="space-y-4 pt-4">
+								{#each subsections as subsection}
+									<div style="margin-left: {(subsection.level - 2) * 1}rem;">
+										<h4 class="mb-2 flex items-center text-md font-medium text-white">
+											<span class="mr-2">{subsection.emoji}</span>
+											{subsection.title}
+										</h4>
+										
+										{#if subsection.content && subsection.content.length > 0}
+											<div class="space-y-2">
+												{#each subsection.content as item}
+													{#if item.startsWith('__BULLET__')}
+														{@const cleanContent = item.replace('__BULLET__', '')}
+														<p class="ml-6 text-gray-300 selectable-text before:content-['•'] before:mr-2 before:text-teal-400 before:inline-block before:translate-y-[-1px]">{@html cleanContent.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')}</p>
+													{:else if item.startsWith('__NESTED__')}
+														{@const cleanContent = item.replace('__NESTED__', '')}
+														<div class="ml-4 text-gray-400 selectable-text">{@html cleanContent.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')}</div>
+													{:else}
+														<p class="ml-6 text-gray-300 selectable-text before:content-['•'] before:mr-2 before:text-teal-400 before:inline-block before:translate-y-[-1px]">{@html item.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')}</p>
+													{/if}
+												{/each}
+											</div>
+										{/if}
+										
+										{@render renderSubsections(subsection.subsections)}
+									</div>
+								{/each}
+							</div>
+						{/if}
+					{/snippet}
+					
+					{@render renderSubsections(section.subsections)}
+					
+					{#if (!section.subsections || section.subsections.length === 0) && (!section.content || section.content.length === 0)}
 						<ul class="section-content ml-4 list-disc space-y-1.5 pl-4 text-gray-300 marker:text-teal-500">
-							{#each section.content as paragraph, index (`${section.title}-${index}`)}
-								<li class="selectable-text">{paragraph}</li>
-							{/each}
+							<li class="selectable-text">Contenu de section non disponible</li>
 						</ul>
 					{/if}
 				</div>
@@ -305,20 +323,19 @@
 {/if}
 
 <style>
-    /* Apply selection styles to specific elements */
     .modal-content h2,
     .modal-content h3,
     .modal-content p,
     .modal-content li,
-    .modal-content span:not(.mr-2):not(.text-gray-600), /* Avoid selecting separators */
+    .modal-content span:not(.mr-2):not(.text-gray-600),
     .modal-content a
     {
         user-select: text !important;
         -webkit-user-select: text !important;
         cursor: text;
     }
-    /* Or using the added class */
-     .selectable-text {
+    
+    .selectable-text {
         user-select: text !important;
         -webkit-user-select: text !important;
         cursor: text;
@@ -326,7 +343,7 @@
 
 	.scrollbar-thin {
 		scrollbar-width: thin;
-		scrollbar-color: #14b8a6 #1f2937; /* thumb track */
+		scrollbar-color: #14b8a6 #1f2937;
 	}
 
 	.scrollbar-thin::-webkit-scrollbar {
@@ -344,6 +361,4 @@
 		border-radius: 6px;
 		border: 2px solid #1f2937;
 	}
-
-
 </style>

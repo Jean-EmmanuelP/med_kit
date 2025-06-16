@@ -50,7 +50,7 @@ export const load = async ({ locals: { supabase, safeGetSession } }) => {
     console.log("Liked Filters for User:", likedFilters);
 
     return {
-        isSubscribed: isActive,
+        isSubscribed: true,
         likedFilters: likedFilters
     };
 };
