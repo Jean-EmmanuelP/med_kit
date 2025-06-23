@@ -77,21 +77,21 @@ fi
 echo
 
 # --- New Step 4: Run Subdiscipline Script ---
-echo "[Step 4/4] Running Subdiscipline Script: ${SUBDISCIPLINE_SCRIPT}" # New step
+# echo "[Step 4/4] Running Subdiscipline Script: ${SUBDISCIPLINE_SCRIPT}" # New step
 
-# Assuming this script also depends on the summaries being generated.
-# If it depends on something else (e.g., only the data.json), adjust the condition.
-if [ -d "${SUMMARIES_DIR}" ]; then # Re-use the check, though technically redundant due to logic in Step 3 now
-    echo "[Step 4/4] Summaries directory confirmed. Executing ${SUBDISCIPLINE_SCRIPT}..."
-    # --- Execute the new script ---
-    # Does it need arguments? Assuming it might need the summaries directory like the exporter. Adjust if not.
-    python3 "${SUBDISCIPLINE_SCRIPT}"
-    echo "[Step 4/4] Subdiscipline Script finished."
-else
-    # This case should ideally not be reached because of the exit 0 in Step 3's else block
-    echo "[Step 4/4] Warning: Summaries directory ${SUMMARIES_DIR} not found. Skipping Subdiscipline Script."
-fi
-echo
+# # Assuming this script also depends on the summaries being generated.
+# # If it depends on something else (e.g., only the data.json), adjust the condition.
+# if [ -d "${SUMMARIES_DIR}" ]; then # Re-use the check, though technically redundant due to logic in Step 3 now
+#     echo "[Step 4/4] Summaries directory confirmed. Executing ${SUBDISCIPLINE_SCRIPT}..."
+#     # --- Execute the new script ---
+#     # Does it need arguments? Assuming it might need the summaries directory like the exporter. Adjust if not.
+#     python3 "${SUBDISCIPLINE_SCRIPT}"
+#     echo "[Step 4/4] Subdiscipline Script finished."
+# else
+#     # This case should ideally not be reached because of the exit 0 in Step 3's else block
+#     echo "[Step 4/4] Warning: Summaries directory ${SUMMARIES_DIR} not found. Skipping Subdiscipline Script."
+# fi
+# echo
 # --- End of New Step 4 ---
 
 

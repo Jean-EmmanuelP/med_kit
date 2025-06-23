@@ -23,7 +23,7 @@ supabase_url = os.environ.get("SUPABASE_URL")
 supabase_key = os.environ.get("SUPABASE_KEY")
 google_api_key = os.environ.get("GOOGLE_API_KEY")
 
-BATCH_SIZE = 650 # Increased batch size slightly for potentially faster processing
+BATCH_SIZE = 2000 # Increased batch size slightly for potentially faster processing
 TABLE_NAME = "articles" # Targeting the 'articles' table for updates
 PROMPT_FILE = "prompt.txt"
 ARBITRATION_PROMPT_FILE = "arbitration_prompt.txt"

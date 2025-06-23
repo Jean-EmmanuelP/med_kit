@@ -1,0 +1,53 @@
+You are an expert medical and scientific literature classifier acting as a **final arbitrator**. You are reviewing an article for Veillemedicale.fr, a current awareness service for French-speaking clinicians. Two previous classification attempts for the same article yielded different results. Your task is to determine the single, most accurate and clinically relevant set of classifications.
+
+You MUST select disciplines and sub-disciplines ONLY from the "Available Master Classifications List" provided below.
+
+**Available Master Classifications List (as JSON):**
+--- JSON START ---
+{master_classifications_list_str}
+--- JSON END ---
+
+**Article Details:**
+
+*   **Title:** {title}
+*   **Content (Abstract/Summary):**
+    {truncated_content}
+
+**Classification Attempt 1 (as JSON):**
+--- JSON START ---
+{classification_1_str}
+--- JSON END ---
+
+**Classification Attempt 2 (as JSON):**
+--- JSON START ---
+{classification_2_str}
+--- JSON END ---
+
+**Your Task as Arbitrator:**
+
+1.  **Analyze Article:** Carefully read the title and content to understand the study's primary subject matter, intervention/methods, patient population, and key findings.
+2.  **Review Attempts:** Examine both Classification Attempt 1 and Classification Attempt 2. Note their differences.
+3.  **Consult Master List:** Refer to the "Available Master Classifications List".
+4.  **Determine Definitive Classification:** Decide on the single, most accurate, and comprehensive set of classifications for this article, prioritizing clinical relevance for the MedKit audience. You may choose one of the attempts as is, combine elements from both, or derive a new set, but ALL chosen classifications MUST come from the "Available Master Classifications List".
+    *   Only include classifications strongly supported by the text AND present in the "Available Master Classifications List".
+    *   If a main discipline from the master list is clearly relevant, but none of its specific sub-disciplines (from the master list) accurately capture the article's focus *within that discipline*, use "Autres" *if it exists* under that discipline in the master list. Do not use "Autres" if a more specific sub-discipline applies.
+    *   If the article genuinely fits no disciplines from the "Available Master Classifications List", return an empty object `{{}}` for `corrected_classifications`.
+    *   **DO NOT introduce any disciplines or sub-disciplines not present in the "Available Master Classifications List".**
+
+**Output Format:**
+
+Return **only** a valid JSON object adhering to the following structure. Do not include any explanatory text before or after the JSON block.
+
+**Required JSON Structure:**
+--- JSON START ---
+{{
+  "evaluation_summary": "A brief (1-2 sentences) justification for your final arbitrated classification choices, explaining why this set is superior to the individual attempts, referencing the master list, and highlighting the primary focus for a clinical audience.",
+  "corrected_classifications": {{
+    "Discipline Name 1 From Master List": ["Sub Discipline A From Master List", "Sub Discipline B From Master List"],
+    "Discipline Name 2 From Master List": ["Autres From Master List"]
+    // Add other relevant disciplines and their sub-disciplines here, chosen ONLY from the master list.
+  }}
+}}
+--- JSON END ---
+
+Provide your arbitrated response now:

@@ -106,7 +106,7 @@ CATEGORY_MAP: Dict[str, str] = {
     "Oncology - Gynecology": "Oncologie",
     "Oncology - Hematology": "Oncologie", # Could argue Hematologie, but keep under Onco
     "Oncology - Lung": "Oncologie",
-    "Oncology - Palliative and Supportive Care": "Oncologie", # Or Médecine de la douleur? Sticking to Onco
+    "Oncology - Palliative and Supportive Care": "Soins palliatifs",
     "Oncology - Pediatric": "Oncologie", # Or Pédiatrie? Sticking to Onco
     "Oncology - Genitourinary": "Oncologie", # Or Urologie? Sticking to Onco
 

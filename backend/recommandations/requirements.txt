@@ -1,0 +1,8 @@
+python-dotenv
+selenium
+webdriver-manager
+beautifulsoup4
+google-generativeai
+requests
+google-cloud-aiplatform
+selenium-stealth
