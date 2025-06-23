@@ -1,7 +1,0 @@
-{
-  "article_id": 2264,
-  "title": "Distraction par la réalité virtuelle pour la douleur aiguë chez l'enfant",
-  "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1002/14651858.CD010686.pub2",
-  "content_preview": "## 📌 Contexte & Problématique\nL'efficacité de la distraction par la réalité virtuelle (RV) sur l'intensité de la douleur aiguë chez les enfants est incertaine. Cette revue vise à évaluer cette efficacité dans divers contextes de soins.\n\n## 🧪 Méthodologie\nRevue systématique et méta-analyse (lorsque possible) d'essais contrôlés randomisés (ECR) comparant la distraction par RV à l'absence de distraction, à une distraction non-RV ou à une autre distraction par RV chez des enfants (0-18 ans) souffran...",
-  "gemini_raw_response": "{\n  \"Médecine Générale\": [\"Santé de l’enfant et de l’adolescent\"],\n  \"Urgences\": [\"Douleur aiguë\", \"Urgences pédiatriques\"],\n  \"Oncologie\": [],\n  \"Médecine physique et réadaptation\": [],\n  \"Pédiatrie\": [\"Urgences pédiatriques\"],\n  \"Anesthésie - Réanimation\": [\"Analgésie\"],\n  \"Médecine de la douleur\": [\"Douleurs pédiatriques ou gériatriques\", \"Évaluation de la douleur et outils d’échelle\"],\n  \"Chirurgie plastique\": []\n}"
-}

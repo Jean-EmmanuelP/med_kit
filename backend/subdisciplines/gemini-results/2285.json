@@ -1,7 +1,0 @@
-{
-  "article_id": 2285,
-  "title": "Essai pragmatique du taux d'hospitalisation dans la maladie rénale chronique",
-  "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2311708",
-  "content_preview": "## 📌 Contexte & Problématique\nMalgré la disponibilité de thérapies efficaces pour les patients atteints de maladie rénale chronique, de diabète de type 2 et d'hypertension (la triade de dysfonction rénale), les résultats d'essais à grande échelle examinant la mise en œuvre d'une thérapie axée sur les directives pour réduire le risque de décès et de complications dans cette population sont manquants.\n\n## 🧪 Méthodologie\nIl s'agit d'un essai pragmatique, randomisé en grappes et en ouvert, où 11 182...",
-  "gemini_raw_response": "{\n  \"Médecine Générale\": [\"Suivi des maladies chroniques\", \"Soins de premier recours\"],\n  \"Endocrinologie-Diabétologie-Nutrition\": [\"Diabète de type 2\", \"Complications du diabète\"],\n  \"Cardiologie\": [\"Hypertension artérielle\", \"Prévention cardiovasculaire\"],\n  \"Néphrologie\": [\"Insuffisance rénale chronique\", \"Néphrologie clinique\"]\n}"
-}

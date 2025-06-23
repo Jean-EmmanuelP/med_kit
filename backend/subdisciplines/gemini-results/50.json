@@ -1,7 +1,0 @@
-{
-  "article_id": 50,
-  "title": "Antibiotiques oraux et risque de réactions cutanées médicamenteuses graves",
-  "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jama.2024.11437.",
-  "content_preview": "## 📌 Contexte & Problématique\nLes réactions cutanées médicamenteuses (RCM) graves sont des réactions d'hypersensibilité potentiellement mortelles. Bien que les antibiotiques soient des déclencheurs connus, aucune étude n'avait comparé les risques relatifs entre les différentes classes d'antibiotiques.\n\n## 🧪 Méthodologie\nÉtude cas-témoins nichée analysant des données administratives d'adultes ≥66 ans ayant reçu au moins un antibiotique oral entre 2002-2022 en Ontario. Les cas (n=21 758) présentai...",
-  "gemini_raw_response": "{\n  \"Dermatologie\": [\n    \"Dermatologie allergique\",\n    \"Dermatologie infectieuse\",\n    \"Dermatoses systémiques / internes\"\n  ]\n}"
-}

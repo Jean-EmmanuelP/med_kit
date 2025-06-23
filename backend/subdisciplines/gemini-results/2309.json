@@ -1,7 +1,0 @@
-{
-  "article_id": 2309,
-  "title": "Interventions pour le carcinome basocellulaire de la peau",
-  "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1002/14651858.CD003412.pub3",
-  "content_preview": "## 📌 Contexte & Problématique\nLe carcinome basocellulaire (CBC) est le cancer le plus fréquent chez les personnes à peau blanche, et son incidence mondiale est en augmentation. Bien que rarement mortel, le CBC est associé à une morbidité et des coûts importants. Le traitement de première intention est généralement l'excision chirurgicale, mais d'autres alternatives sont disponibles.\n\n## 🧪 Méthodologie\nRevue Cochrane incluant 52 essais contrôlés randomisés (ECR) portant sur des interventions pour...",
-  "gemini_raw_response": "{\n  \"Dermatologie\": [\"Oncodermatologie\", \"Chirurgie dermatologique\"],\n  \"Oncologie\": [\"Cancers cutanés\"],\n  \"Chirurgie plastique\": [\"Chirurgie de la face\", \"Chirurgie reconstructrice\"]\n}"
-}

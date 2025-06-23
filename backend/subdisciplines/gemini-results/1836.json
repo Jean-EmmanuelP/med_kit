@@ -1,7 +1,0 @@
-{
-  "article_id": 1836,
-  "title": "Antibiotiques oraux et risque de réactions indésirables cutanées graves aux médicaments",
-  "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1001/jama.2024.11437",
-  "content_preview": "## 📌 Contexte & Problématique\nLes réactions indésirables cutanées graves aux médicaments (cADRs) sont des réactions d'hypersensibilité médicamenteuse potentiellement mortelles impliquant la peau et les organes internes. Les antibiotiques sont une cause reconnue de ces réactions, mais aucune étude n'a comparé les risques relatifs entre les classes d'antibiotiques.\n\n## 🧪 Méthodologie\nÉtude cas-témoins nichée utilisant des ensembles de données administratives liés à la population chez les adultes â...",
-  "gemini_raw_response": "{\n  \"Médecine Générale\": [\"Urgences et soins non programmés\"],\n  \"Dermatologie\": [\"Dermatologie allergique\", \"Dermatologie infectieuse\"],\n  \"Gériatrie\": [\"Polymédication\"],\n  \"Maladies infectieuses\": [\"Antibiothérapie et antibiogrammes\", \"Antibiothérapie de recours (ATU, infections multirésistantes)\"]\n}"
-}

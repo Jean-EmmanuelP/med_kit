@@ -1,7 +1,0 @@
-{
-  "article_id": 2068,
-  "title": "Coloscopie assistée par intelligence artificielle pour la détection des polypes : revue systématique et méta-analyse",
-  "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.7326/ANNALS-24-00981",
-  "content_preview": "## 📌 Contexte & Problématique\nDes essais cliniques randomisés (ECR) comparant la coloscopie améliorée par un système de détection assistée par ordinateur (CADe) à la coloscopie conventionnelle suggèrent une augmentation du taux de détection des adénomes (TDA) et une diminution du taux de non-détection des adénomes (TNDA). Cependant, l'effet sur la détection des néoplasies colorectales avancées (NCA) est incertain.\n\n## 🧪 Méthodologie\nUne revue systématique a été menée pour comparer les performanc...",
-  "gemini_raw_response": "{\n  \"Santé Publique\": [\"Épidémiologie\"],\n  \"Hépato-Gastroentérologie\": [\"Endoscopie diagnostique et thérapeutique\", \"Oncologie digestive\"],\n  \"Oncologie\": [\"Oncologie digestive\"]\n}"
-}

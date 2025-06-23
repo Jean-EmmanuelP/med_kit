@@ -1,7 +1,0 @@
-{
-  "article_id": 2122,
-  "title": "Intelligence artificielle pour la détection du kératocône",
-  "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1002/14651858.CD014911.pub2",
-  "content_preview": "## 📌 Contexte & Problématique\nLe kératocône reste difficile à diagnostiquer, surtout à ses débuts. C'est une maladie progressive de la cornée qui commence jeune. Le diagnostic repose sur l'examen clinique et l'imagerie cornéenne, mais aux premiers stades, en l'absence de signes cliniques, il dépend de l'interprétation de l'imagerie cornéenne par des spécialistes. L'utilisation de l'intelligence artificielle (IA) pour analyser les images cornéennes et détecter les cas de kératocône pourrait aider...",
-  "gemini_raw_response": "{\n  \"Ophtalmologie\": [\"Cornée et surface oculaire\"]\n}"
-}

@@ -1,7 +1,0 @@
-{
-  "article_id": 2032,
-  "title": "Recommandations ACC/AHA 2022 pour le diagnostic et la prise en charge des maladies aortiques : Un rapport du Comité conjoint de l'American Heart Association/American College of Cardiology sur les recommandations de pratique clinique",
-  "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.jtcvs.2023.04.023",
-  "content_preview": "## 📌 Contexte & Problématique\nLes recommandations ACC/AHA 2022 pour le diagnostic et la prise en charge des maladies aortiques visent à guider les cliniciens dans le diagnostic, l'évaluation génétique et le dépistage familial, le traitement médical, le traitement endovasculaire et chirurgical, et la surveillance à long terme des patients atteints de maladies aortiques, quel que soit leur tableau clinique (asymptomatique, symptomatique stable et syndromes aortiques aigus).\n\n## 🧪 Méthodologie\nUne ...",
-  "gemini_raw_response": "{\n  \"Cardiologie\": [\"Pathologies aortiques et artérielles périphériques\", \"Cardiologie interventionnelle\", \"Cardiologie de la grossesse\"],\n  \"Chirurgie cardiaque\": [\"Chirurgie de l’aorte thoracique\", \"Chirurgie valvulaire\"],\n  \"Chirurgie thoracique\": [],\n  \"Chirurgie vasculaire\": [\"Chirurgie de l’aorte\", \"Chirurgie endovasculaire\"]\n}"
-}

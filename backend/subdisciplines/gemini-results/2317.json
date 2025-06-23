@@ -1,7 +1,0 @@
-{
-  "article_id": 2317,
-  "title": "Détection et diagnostic assistés par ordinateur des polypes chez les patients adultes subissant une coloscopie : une directive de pratique clinique évolutive",
-  "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1136/bmj-2024-082656",
-  "content_preview": "## 📌 Contexte & Problématique\nLe cancer colorectal (CCR) est une cause majeure de mortalité liée au cancer. La détection et le retrait des polypes lors de la coloscopie peuvent réduire le risque de cancer. Les systèmes de détection assistée par ordinateur (CADe) utilisent l'intelligence artificielle (IA) pour aider les endoscopistes à détecter les polypes potentiels. Malgré leur utilisation croissante, des recommandations équilibrées manquent.\n\n## 🧪 Méthodologie\nUne revue systématique évolutive ...",
-  "gemini_raw_response": "{\n  \"Médecine Générale\": [\"Prévention et dépistage\"],\n  \"Hépato-Gastroentérologie\": [\"Endoscopie diagnostique et thérapeutique\", \"Oncologie digestive\"]\n}"
-}

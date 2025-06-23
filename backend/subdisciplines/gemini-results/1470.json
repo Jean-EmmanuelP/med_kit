@@ -1,7 +1,0 @@
-{
-  "article_id": 1470,
-  "title": "Apixaban versus aspirine pour la prévention des accidents vasculaires cérébraux chez les personnes atteintes de fibrillation auriculaire infraclinique et ayant des antécédents d'accident vasculaire cérébral ou d'accident ischémique transitoire : analyse de sous-groupe de l'essai contrôlé randomisé ARTESiA",
-  "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/S1474-4422(24)00475-7",
-  "content_preview": "## 📌 Contexte & Problématique\nLes personnes atteintes de fibrillation auriculaire infraclinique présentent un risque accru d'accident vasculaire cérébral (AVC), bien que dans une moindre mesure que celles atteintes de fibrillation auriculaire clinique. L'essai ARTESiA a montré que l'apixaban, un anticoagulant oral direct, réduisait le risque d'AVC ou d'embolie systémique par rapport à l'aspirine chez ces patients, mais augmentait le risque de saignements majeurs. Cette analyse de sous-groupe vis...",
-  "gemini_raw_response": "{\n  \"Cardiologie\": [\"Rythmologie\", \"Maladies thromboemboliques veineuses\", \"Prévention cardiovasculaire\"],\n  \"Hématologie\": [\"Hémostase\", \"Coagulopathies\"],\n  \"Neurologie\": [\"Accidents vasculaires cérébraux (AVC)\"]\n}"
-}

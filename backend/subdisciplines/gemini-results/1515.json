@@ -1,7 +1,0 @@
-{
-  "article_id": 1515,
-  "title": "Injection locale de corticostéroïdes versus chirurgie pour le syndrome du canal carpien",
-  "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1002/14651858.CD015101",
-  "content_preview": "## 📌 Contexte & Problématique\nLe syndrome du canal carpien (SCC) est un syndrome clinique très courant qui se manifeste par des signes et des symptômes d'irritation du nerf médian au niveau du canal carpien du poignet. Les coûts directs et indirects du SCC sont considérables. L'injection locale de corticostéroïdes est utilisée comme traitement non chirurgical du SCC depuis de nombreuses années, mais son efficacité est toujours débattue.\n\n## 🧪 Méthodologie\nDes essais contrôlés randomisés (ECR) ou...",
-  "gemini_raw_response": "{\n  \"Neurologie\": [\"Neuropathies périphériques\"],\n  \"Neurochirurgie\": [\"Chirurgie des nerfs périphériques\"],\n  \"Chirurgie orthopédique\": [\"Chirurgie de la main et du poignet\"]\n}"
-}

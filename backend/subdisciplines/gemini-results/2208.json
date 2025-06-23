@@ -1,7 +1,0 @@
-{
-  "article_id": 2208,
-  "title": "L'étude RECOURSE : Résultats oncologiques à long terme associés aux procédures mini-invasives robotisées pour les cancers de l'endomètre, du col de l'utérus, colorectal, du poumon ou de la prostate : une revue systématique et méta-analyse",
-  "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1097/SLA.0000000000005698",
-  "content_preview": "## 📌 Contexte & Problématique\nLa chirurgie mini-invasive offre des avantages périopératoires et des résultats oncologiques similaires à ceux de la chirurgie ouverte. Des données récentes sur la chirurgie robotique ont remis en question les avantages à long terme.\n\n## 🧪 Méthodologie\nUne revue systématique et une méta-analyse des résultats du cancer en fonction de l'approche chirurgicale ont été menées conformément aux directives PRISMA (Preferred Reporting Items for Systematic Reviews and Meta-an...",
-  "gemini_raw_response": "{\n  \"Oncologie\": [\"Oncologie gynécologique\", \"Cancers urologiques\", \"Cancers bronchiques\"],\n  \"Chirurgie digestive\": [\"Chirurgie colorectale\", \"Coelioscopie et chirurgie mini-invasive\"],\n  \"Chirurgie thoracique\": [\"Chirurgie pulmonaire\", \"Chirurgie thoracique mini-invasive\"],\n  \"Urologie\": [\"Cancer de la prostate\", \"Chirurgie robotique et mini-invasive\"]\n}"
-}

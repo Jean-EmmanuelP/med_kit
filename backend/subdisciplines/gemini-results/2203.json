@@ -1,7 +1,0 @@
-{
-  "article_id": 2203,
-  "title": "Le score HET (anamnèse, électrocardiogramme et troponine) a une faible efficacité et une faible valeur prédictive négative dans une étude de cohorte multicentrique américaine",
-  "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.ajem.2024.12.012",
-  "content_preview": "## 📌 Contexte & Problématique\nLe score HET (anamnèse, électrocardiogramme et troponine) est une alternative simplifiée au score HEART pour la stratification du risque des patients se présentant au service des urgences avec une douleur thoracique. Cette étude évalue la sécurité et l'efficacité du score HET pour la mort cardiaque ou l'infarctus du myocarde (IM) à 30 jours.\n\n## 🧪 Méthodologie\nUne analyse secondaire de l'étude de cohorte multicentrique STOP-CP a été menée. Les composantes du score d...",
-  "gemini_raw_response": "{\n  \"Urgences\": [\"Urgences cardiologiques\"],\n  \"Cardiologie\": [\"Cardiologie clinique\", \"Imagerie cardiaque\", \"Cardiopathies ischémiques\"]\n}"
-}

@@ -1,7 +1,0 @@
-{
-  "article_id": 248,
-  "title": "Diagnostic optique des polypes colorectaux : IA autonome vs IA assistée par humain",
-  "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1053/j.gastro.2024.01.044.",
-  "content_preview": "## 📌 Contexte & Problématique\nLes systèmes de diagnostic optique basés sur l'intelligence artificielle (IA) permettent la prédiction pathologique des polypes colorectaux pendant les coloscopies, mais leur utilisation autonome n'est pas validée. Cette étude compare l'IA autonome au diagnostic humain assisté par IA (IA-H).\n\n## 🧪 Méthodologie\nEssai randomisé de non-infériorité comparant deux groupes : diagnostic optique autonome par IA des petits polypes versus diagnostic par endoscopistes après vi...",
-  "gemini_raw_response": "{\n  \"Hépato-Gastroentérologie\": [\"Endoscopie diagnostique et thérapeutique\", \"Oncologie digestive\"]\n}"
-}

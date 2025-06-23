@@ -1,7 +1,0 @@
-{
-  "article_id": 1991,
-  "title": "Un test de fonction des cellules immunitaires peut-il identifier les patients à risque d'infection ou de rejet ? Une méta-analyse",
-  "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1097/TP.0b013e3182466248",
-  "content_preview": "## 📌 Contexte & Problématique\nLe test de fonction cellulaire Cylex ImmuKnow (CICFA) est envisagé comme un outil possible pour identifier les infections et les rejets chez les receveurs de greffe. Cependant, la capacité prédictive du CICFA reste incertaine.\n\n## 🧪 Méthodologie\nUne méta-analyse a été réalisée pour évaluer l'efficacité du CICFA dans l'identification des risques d'infection et de rejet après transplantation. Les données de sensibilité, de spécificité et d'autres mesures de précision ...",
-  "gemini_raw_response": "{\n  \"Cardiologie\": [],\n  \"Néphrologie\": [\"Suivi du greffon rénal\", \"Transplantation rénale\"],\n  \"Chirurgie cardiaque\": [],\n  \"Chirurgie thoracique\": []\n}"
-}

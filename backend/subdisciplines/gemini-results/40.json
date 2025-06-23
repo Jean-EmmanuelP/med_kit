@@ -1,7 +1,0 @@
-{
-  "article_id": 40,
-  "title": "Plozasiran pour la gestion de la chylomicronémie persistante et du risque de pancréatite",
-  "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1056/NEJMoa2409368.",
-  "content_preview": "## 📌 Contexte & Problématique\nLa chylomicronémie persistante, trouble génétique associé au risque de pancréatite aiguë récurrente, peut être causée par le syndrome de chylomicronémie familiale (SCF) ou être multifactorielle. Le plozasiran, un ARN interférent, réduit la production d'apolipoprotéine C-III et les triglycérides circulants.\n\n## 🧪 Méthodologie\nEssai de phase 3 randomisé sur 75 patients atteints de chylomicronémie persistante recevant du plozasiran (25mg ou 50mg) ou un placebo par voie...",
-  "gemini_raw_response": "{\n  \"Cardiologie\": [\n    \"Cardiologie clinique\",\n    \"Prévention cardiovasculaire\"\n  ],\n  \"Gastro-entérologie\": [\n    \"Pancréatologie\"\n  ],\n  \"Endocrinologie\": [\n    \"Diabétologie\",\n    \"Lipidologie\"\n  ],\n  \"Hématologie\": [],\n  \"Néphrologie\": [],\n  \"Pneumologie\": [],\n  \"Neurologie\": [],\n  \"Dermatologie\": [],\n  \"Rhumatologie\": [],\n  \"Oncologie\": [],\n  \"Génétique médicale\": [\n    \"Maladies métaboliques héréditaires\"\n  ],\n  \"Médecine interne\": []\n}"
-}

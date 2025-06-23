@@ -1,7 +1,0 @@
-{
-  "article_id": 1928,
-  "title": "L'impact des algorithmes de soins de santé sur les disparités raciales et ethniques : une revue systématique",
-  "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.7326/M23-2960",
-  "content_preview": "## 📌 Contexte & Problématique\nIl existe une préoccupation croissante concernant l'impact potentiel des algorithmes de soins de santé sur les disparités raciales et ethniques.\n\n## 🧪 Méthodologie\nUne revue systématique a été menée en recherchant des études pertinentes publiées entre le 1er janvier 2011 et le 30 septembre 2023 dans plusieurs bases de données. Les études ont été sélectionnées selon des critères prédéfinis pour déterminer l'effet des algorithmes sur les disparités raciales et ethniqu...",
-  "gemini_raw_response": "{\n  \"Médecine Générale\": [],\n  \"Urgences\": [],\n  \"Santé Publique\": [\"Biostatistique et data science en santé\", \"Organisation des soins et systèmes de santé\", \"Éthique, droit et gouvernance en santé\"],\n  \"Médecine Interne\": [],\n  \"Cardiologie\": [],\n  \"Neurologie\": [],\n  \"Oncologie\": [],\n  \"Psychiatrie\": [],\n  \"Anesthésie - Réanimation\": []\n}"
-}

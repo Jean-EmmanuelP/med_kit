@@ -1,7 +1,0 @@
-{
-  "article_id": 2219,
-  "title": "Recherche des répondants à une prévention multidomaine de la démence chez les personnes âgées : analyse groupée des données individuelles des essais MAPT et preDIVA",
-  "link": "https://pubmed.ncbi.nlm.nih.gov/?term=10.1002/alz.14472",
-  "content_preview": "## 📌 Contexte & Problématique\nOn ignore dans quels sous-groupes de personnes âgées, le cas échéant, les interventions multidomaines sont efficaces pour réduire l'incidence à long terme de la démence.\n\n## 🧪 Méthodologie\nAnalyse groupée de données de suivi (jusqu'à 12 ans) de 5205 participants de plus de 70 ans issus des études MAPT (Multidomain Alzheimer Preventive Trial) et preDIVA (Prevention of Dementia by Intensive Vascular Care). Le critère principal était l'incidence de la démence toutes ca...",
-  "gemini_raw_response": "{\n  \"Médecine Générale\": [\"Gériatrie de ville\", \"Suivi des maladies chroniques\", \"Prévention et dépistage\"],\n  \"Santé Publique\": [\"Épidémiologie\", \"Biostatistique et data science en santé\"],\n  \"Gériatrie\": [\"Troubles cognitifs\"],\n  \"Neurologie\": [\"Troubles cognitifs et démences\"],\n  \"Psychiatrie\": []\n}"
-}
