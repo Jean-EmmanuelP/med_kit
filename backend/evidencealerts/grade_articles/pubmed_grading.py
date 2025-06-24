@@ -23,10 +23,10 @@ supabase_url = os.environ.get("SUPABASE_URL")
 supabase_key = os.environ.get("SUPABASE_KEY")
 google_api_key = os.environ.get("GOOGLE_API_KEY")
 
-BATCH_SIZE = 2000 # Increased batch size slightly for potentially faster processing
+BATCH_SIZE = 200 # Increased batch size slightly for potentially faster processing
 TABLE_NAME = "articles" # Targeting the 'articles' table for updates
-PROMPT_FILE = "prompt.txt"
-ARBITRATION_PROMPT_FILE = "arbitration_prompt.txt"
+PROMPT_FILE = "grade_articles/prompt.txt"
+ARBITRATION_PROMPT_FILE = "grade_articles/arbitration_prompt.txt"
 GEMINI_MODEL = "gemini-2.0-flash"
 # SAVE_DIR = "saved_grades" # Removed - no longer saving to files
 RETRY_DELAY_SECONDS = 20 # User-requested delay for rate limits
@@ -289,15 +289,8 @@ def update_article_grade_status(supabase_client: Client, article_id: int, valida
         if response.data is not None:
              logging.info(f"Successfully updated article {article_id} in Supabase.")
         else:
-             # Supabase update errors can sometimes be silent if not raised as exceptions,
-             # but checking response.data is a good practice.
-             # Note: response.error is often the primary way to check for errors
-             if response.error:
-                 logging.error(f"Supabase error updating article {article_id}: {response.error}")
-                 # Consider retrying the update itself if needed, but for now, log and move on
-             else:
-                  # This might happen if the ID wasn't found, which shouldn't happen if we queried correctly
-                  logging.warning(f"Supabase update for article {article_id} completed with no data returned (ID might not exist?).")
+             # This might happen if the ID wasn't found, which shouldn't happen if we queried correctly
+             logging.warning(f"Supabase update for article {article_id} completed with no data returned (ID might not exist?).")
 
 
     except Exception as e:
@@ -372,12 +365,9 @@ if __name__ == "__main__":
         if response.data:
             articles = response.data
             logging.info(f"Successfully fetched {len(articles)} new articles to process (graded_yet='FALSE').")
-        elif response.error:
-             logging.error(f"Supabase query error: {response.error}")
-             articles = [] # No articles to process if query failed
         else:
             articles = []
-            logging.info("No new unprocessed articles found matching the criteria (graded_yet='FALSE' with link).")
+            logging.info("No new unprocessed articles found matching the criteria (graded_yet='FALSE' with link). Script will finish.")
 
 
         for article in articles:

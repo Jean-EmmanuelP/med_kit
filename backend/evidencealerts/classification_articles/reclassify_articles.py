@@ -37,8 +37,8 @@ MAX_GEMINI_RETRIES = 6
 RETRY_DELAY_SECONDS = 10
 GEMINI_CONCURRENCY_LIMIT = 2
 
-PROMPT_FILENAME = "reclassification_prompt.txt"
-ARBITRATION_PROMPT_FILENAME = "arbitration_prompt.txt"
+PROMPT_FILENAME = "classification_articles/reclassification_prompt.txt"
+ARBITRATION_PROMPT_FILENAME = "classification_articles/arbitration_prompt.txt"
 
 PROCESS_CONCURRENCY = 1
 BATCH_SIZE = 1
@@ -574,7 +574,10 @@ async def main():
                                 logger.warning("Process concurrency limit reached, will pick up remaining IDs in next iteration if still pending.")
                                 break 
                     else:
-                        logger.debug("No pending articles found in this check.")
+                        logger.info("No pending articles found. Checking if all tasks are complete...")
+                        if not processing_tasks:
+                            logger.info("No articles to process and no active tasks. Exiting main loop.")
+                            break
                 else:
                      logger.debug("Process concurrency limit reached. Waiting for tasks to complete.")
             else:

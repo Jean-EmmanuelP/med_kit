@@ -7,3 +7,4 @@ python-dateutil
 supabase
 tqdm
 argparse
+beautifulsoup4
