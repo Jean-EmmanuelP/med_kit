@@ -31,9 +31,8 @@ async function main() {
     if (jsonFiles.length === 0) {
         console.error(`Error: No .json files found in the '${OUTPUT_DIR}' directory.`);
         // If no JSONs are found, all target links are considered 'not found'.
-        await fs.writeFile(ERROR_FILE, Array.from(targetLinks).join('\n'));
-        await fs.writeFile(SUCCESS_FILE, ''); // Create an empty success file
-        console.log(`Wrote all ${targetLinks.size} links to ${ERROR_FILE}.`);
+        await fs.writeFile(LINKS_FILE, Array.from(targetLinks).join('\n')); // Write back to links.txt for retry
+        console.log(`Wrote all ${targetLinks.size} links back to ${LINKS_FILE} for retry.`);
         return;
     }
 
@@ -67,12 +66,39 @@ async function main() {
     }
 
     // 4. Write the results to the output files
-    await fs.writeFile(SUCCESS_FILE, successfulLinks.join('\n'));
+    // Append successful links to existing successful.txt instead of overwriting
+    if (successfulLinks.length > 0) {
+      try {
+        // Check if successful.txt exists and read existing content
+        let existingSuccessful = '';
+        try {
+          existingSuccessful = await fs.readFile(SUCCESS_FILE, 'utf8');
+          if (existingSuccessful.trim()) {
+            existingSuccessful += '\n'; // Add newline if file has content
+          }
+        } catch (err) {
+          // File doesn't exist, which is fine
+          existingSuccessful = '';
+        }
+        
+        // Append new successful links
+        await fs.writeFile(SUCCESS_FILE, existingSuccessful + successfulLinks.join('\n'));
+        console.log(`✅ ${successfulLinks.length} successful links appended to ${SUCCESS_FILE}`);
+      } catch (err) {
+        console.error(`Error appending to ${SUCCESS_FILE}:`, err.message);
+      }
+    }
+
+    // Write error links back to links.txt for retry in next run
+    await fs.writeFile(LINKS_FILE, errorLinks.join('\n'));
+    
+    // Also write to error.txt for reference
     await fs.writeFile(ERROR_FILE, errorLinks.join('\n'));
 
     console.log('\n--- Verification Complete ---');
-    console.log(`✅ ${successfulLinks.length} successful links written to ${SUCCESS_FILE}`);
-    console.log(`❌ ${errorLinks.length} missing links written to ${ERROR_FILE}`);
+    console.log(`✅ ${successfulLinks.length} successful links appended to ${SUCCESS_FILE}`);
+    console.log(`🔄 ${errorLinks.length} error links written back to ${LINKS_FILE} for retry`);
+    console.log(`❌ ${errorLinks.length} error links also saved to ${ERROR_FILE} for reference`);
     console.log('---------------------------');
 
   } catch (error) {

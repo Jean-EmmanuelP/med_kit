@@ -95,6 +95,22 @@ def extract_content_with_stealth_driver(driver, article_urls):
             WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.TAG_NAME, "body")))
             time.sleep(random.uniform(2.0, 4.0))
 
+            # Check for captcha indicators
+            soup = BeautifulSoup(driver.page_source, 'html.parser')
+            page_text = soup.get_text().lower()
+            
+            # Common captcha indicators
+            captcha_indicators = [
+                'captcha', 'verify you are human', 'prove you are not a robot',
+                'security check', 'human verification', 'confirm you are human',
+                'i am not a robot', 'verify your identity', 'cloudflare',
+                'access denied', 'bot detection', 'suspicious activity'
+            ]
+            
+            if any(indicator in page_text for indicator in captcha_indicators):
+                print(f"      CAPTCHA or security check detected on {url}. Skipping this link.")
+                return None
+
             print("      Simulating user scrolling...")
             scroll_pause_time = random.uniform(0.6, 1.2)
             screen_height = driver.execute_script("return window.screen.height;")
@@ -109,15 +125,33 @@ def extract_content_with_stealth_driver(driver, article_urls):
                 for tag in article_body.select('nav, header, footer, script, style, [role="navigation"], [role="banner"], [role="contentinfo"]'):
                     tag.decompose()
                 body_text = article_body.get_text(separator='\n', strip=True)
+                
+                # Check if extracted content is meaningful (not just navigation/error content)
+                if len(body_text.strip()) < 100:
+                    print(f"      Content too short ({len(body_text)} chars), likely extraction failure. Skipping this link.")
+                    return None
+                
+                # Check for common error page indicators
+                error_indicators = [
+                    'page not found', '404 error', 'access denied', 'forbidden',
+                    'service unavailable', 'temporarily unavailable', 'maintenance mode'
+                ]
+                
+                if any(indicator in body_text.lower() for indicator in error_indicators):
+                    print(f"      Error page detected. Skipping this link.")
+                    return None
+                
                 all_content.append(f"\n\n--- START OF CONTENT FROM {url} ---\n\n")
                 all_content.append(body_text)
                 all_content.append(f"\n\n--- END OF CONTENT FROM {url} ---\n\n")
                 print("      Successfully extracted content.")
             else:
                  print("      Could not find main body content. Skipping this link.")
+                 return None
         
         except Exception as e:
             print(f"      An error occurred while opening {url}: {e}. Skipping this link.")
+            return None
             
     return "".join(all_content) if all_content else None
 
@@ -135,8 +169,15 @@ def summarize_with_gemini(article_content, gemini_prompt):
     for i, delay in enumerate(retry_delays + [0]):
         try:
             response = model.generate_content(full_prompt)
+            response_text = response.text.strip()
+            
+            # Check if the model detected error/captcha content
+            if any(keyword in response_text.lower() for keyword in ['captcha', 'error_page', 'extraction_error', 'no_medical_content']):
+                print("  Model detected captcha/error page or non-medical content. Skipping save.")
+                return None
+            
             print("  Successfully received summary from Gemini.")
-            return response.text
+            return response_text
         except Exception as e:
             print(f"  Error calling Gemini API: {e}")
             if i < len(retry_delays):

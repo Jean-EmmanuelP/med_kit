@@ -122,6 +122,12 @@ def main():
 
             if response.data:
                 logging.info(f"✅ Successfully updated article for link: {link}")
+                # Delete the processed file after successful update
+                try:
+                    os.remove(file_path)
+                    logging.info(f"🗑️ Deleted processed file: {filename}")
+                except Exception as delete_error:
+                    logging.warning(f"⚠️ Could not delete file {filename}: {delete_error}")
                 successful_updates += 1
             else:
                 logging.warning(f"⚠️ No article found with link: {link}. No update was performed.")

@@ -5,7 +5,7 @@ google-generativeai
 selenium
 webdriver-manager
 requests
-python-dateutil # Useful for potential date handling, though less critical here
+python-dateutil
 beautifulsoup4
-readability-lxml # <-- ADD THIS LINE
-lxml_html_clean # <-- ADD THIS LINE
+readability-lxml
+lxml_html_clean
