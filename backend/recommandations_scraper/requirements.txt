@@ -6,3 +6,4 @@ google-generativeai
 requests
 google-cloud-aiplatform
 selenium-stealth
+supabase

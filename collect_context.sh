@@ -34,6 +34,7 @@ EXCLUDE_NAMES=(
     ".DS_Store"
     "*.json"
     "*.txt"
+    "disciplines"
     # Add more patterns or names as needed
 )
 

@@ -21,7 +21,7 @@ This is the most complex edge function, handling the complete workflow for daily
 - Validates user subscription status
 
 ### 📊 Personalized Content Selection
-- Uses RPC function `get_ranked_articles_for_user_notification`
+- Uses RPC function `get_ranked_articles_for_user_notification`  ([../../../docs/rpc_backend/get_ranked_articles_for_user_notification.md](../../../docs/rpc_backend/get_ranked_articles_for_user_notification.md))
 - Retrieves articles based on user's discipline preferences
 - Applies intelligent ranking and filtering
 - Respects article limits per frequency setting
