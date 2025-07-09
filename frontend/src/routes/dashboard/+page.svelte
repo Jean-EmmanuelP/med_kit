@@ -294,8 +294,27 @@
 					<h1 class="text-2xl font-bold text-white">Dashboard - Gestion des Articles</h1>
 					<p class="text-gray-400 mt-1">Modifiez et gérez vos articles</p>
 				</div>
-				<div class="text-sm text-gray-400">
-					Connecté en tant que {$userProfileStore?.first_name} {$userProfileStore?.last_name}
+				<div class="flex items-center gap-4">
+					<!-- User Management Link - Only for super admins -->
+					{#if $userProfileStore?.has_all_power}
+						<a 
+							href="/dashboard/users" 
+							class="inline-flex items-center px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition-colors text-sm font-medium"
+						>
+							<svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197m13.5-9a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0z"/>
+							</svg>
+							Gérer les utilisateurs
+						</a>
+					{/if}
+					<div class="text-sm text-gray-400">
+						Connecté en tant que {$userProfileStore?.first_name} {$userProfileStore?.last_name}
+						{#if $userProfileStore?.has_all_power}
+							<span class="ml-1 text-red-400">(Super Admin)</span>
+						{:else if $userProfileStore?.is_admin}
+							<span class="ml-1 text-green-400">(Admin)</span>
+						{/if}
+					</div>
 				</div>
 			</div>
 		</div>

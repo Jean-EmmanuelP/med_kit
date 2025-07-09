@@ -20,12 +20,6 @@
 			photo: $i18n.us.jeanemmanuel.photo,
 			description: $i18n.us.jeanemmanuel.description,
 			linkedin: $i18n.us.jeanemmanuel.linkedin
-		},
-		{
-			name: $i18n.us.alexis.name,
-			photo: $i18n.us.alexis.photo,
-			description: $i18n.us.alexis.description,
-			linkedin: $i18n.us.alexis.linkedin
 		}
 	];
 

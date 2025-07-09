@@ -12,6 +12,7 @@ export interface UserProfile {
     specialty: string | null;
     feedback_modal: string | null;
     is_admin: boolean;
+    has_all_power?: boolean;
 }
 
 const userProfile = writable<UserProfile | null>(null);
