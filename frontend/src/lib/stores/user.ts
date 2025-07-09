@@ -11,6 +11,7 @@ export interface UserProfile {
     status: string | null;
     specialty: string | null;
     feedback_modal: string | null;
+    is_admin: boolean;
 }
 
 const userProfile = writable<UserProfile | null>(null);

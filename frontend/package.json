@@ -46,11 +46,12 @@
 		"@stripe/stripe-js": "^7.0.0",
 		"@supabase/ssr": "^0.5.2",
 		"@supabase/supabase-js": "^2.49.1",
+		"@types/nprogress": "^0.2.3",
 		"dotenv": "^16.4.7",
 		"lucide-svelte": "^0.488.0",
 		"luxon": "^3.5.0",
-		"nprogress": "^0.2.0",
 		"marked": "^12.0.2",
+		"nprogress": "^0.2.0",
 		"stripe": "^18.0.0",
 		"svelte-stripe": "^1.3.0"
 	}

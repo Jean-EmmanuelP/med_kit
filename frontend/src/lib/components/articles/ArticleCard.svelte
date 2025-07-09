@@ -1,5 +1,6 @@
 <!-- src/lib/components/articles/ArticleCard.svelte -->
 <script lang="ts">
+	import userProfileStore from '$lib/stores/user';
 	import {
 		type Article,
 		extractTitleEmoji,
@@ -9,7 +10,16 @@
 	} from '$lib/utils/articleUtils';
 	import { createEventDispatcher } from 'svelte';
 
-	const { article, isSubscribed = false } = $props<{ article: Article; isSubscribed?: boolean }>();
+	const {
+		article,
+		isSubscribed = false,
+		onEditClick = null
+	} = $props<{
+		article: Article;
+		isSubscribed?: boolean;
+		onEditClick?: ((article: Article) => void) | null;
+	}>();
+	
 	const dispatch = createEventDispatcher<{
 		open: Article,
 		likeToggle: { // Heart icon (Saved/Favorite)
@@ -18,7 +28,7 @@
 			currentLikeCount: number;
 		},
 		toggleRead: Article, // Eye icon
-		thumbsUpToggle: { // <<< NEW: Thumbs up icon
+		thumbsUpToggle: { // Thumbs up icon
 			articleId: number | string;
 			currentlyThumbedUp: boolean;
 			currentThumbsUpCount: number;
@@ -29,10 +39,14 @@
 	const displayTitle = $derived(formatTitle(article.title));
 	const displayDate = $derived(formatDate(article.published_at));
 	const articleId = $derived(getArticleId(article));
+	
 	// Format counts
-	const displayLikeCount = $derived(article.like_count != null ? article.like_count.toLocaleString() : '0'); // Heart count
-	const displayReadCount = $derived(article.read_count != null ? article.read_count.toLocaleString() : '0'); // Eye count
-	const displayThumbsUpCount = $derived(article.thumbs_up_count != null ? article.thumbs_up_count.toLocaleString() : '0'); // <<< NEW: Thumbs up count
+	const displayLikeCount = $derived(article.like_count != null ? article.like_count.toLocaleString() : '0');
+	const displayReadCount = $derived(article.read_count != null ? article.read_count.toLocaleString() : '0');
+	const displayThumbsUpCount = $derived(article.thumbs_up_count != null ? article.thumbs_up_count.toLocaleString() : '0');
+
+	// Check if user is admin
+	const isAdmin = $derived($userProfileStore?.is_admin ?? false);
 
 	function handleCardClick() {
 		dispatch('open', article);
@@ -51,7 +65,6 @@
 		dispatch('toggleRead', article);
 	}
 
-	// <<< NEW: Handler for thumbs up toggle
 	function handleThumbsUpClick() {
 		dispatch('thumbsUpToggle', {
 			articleId: articleId,
@@ -59,21 +72,53 @@
 			currentThumbsUpCount: article.thumbs_up_count ?? 0
 		});
 	}
+
+	// Handler for edit button
+	function handleEditClick() {
+		console.log('Edit button clicked for article:', articleId);
+		console.log('onEditClick function:', onEditClick);
+		if (onEditClick) {
+			onEditClick(article);
+		} else {
+			console.warn('onEditClick function not provided');
+		}
+	}
 </script>
 
 <li
-	on:click={handleCardClick}
+	onclick={handleCardClick}
 	class="group relative rounded-lg border p-4 transition-all duration-300 {!isSubscribed ? 'cursor-pointer' : ''} {article.is_recommandation ? 'border-yellow-400/50 bg-yellow-50 hover:border-yellow-400 hover:bg-yellow-100/80' : 'border-gray-700 bg-gray-800 hover:border-teal-500/50 hover:bg-gray-700/50'}"
 	data-article-id={articleId}
 >
 	<!-- Status Icons Container (Top Right) -->
 	<div class="absolute top-2 right-2 flex items-center space-x-2">
+		<!-- Edit Button (show if user is admin) -->
+		{#if isAdmin}
+			<button
+				type="button"
+				aria-label="Modifier l'article"
+				title="Modifier l'article"
+				onclick={(e) => {
+					e.stopPropagation();
+					handleEditClick();
+				}}
+				class="focus:outline-none rounded-full p-0.5 transition-colors duration-150 hover:bg-gray-600 focus-visible:ring-2 focus-visible:ring-yellow-500 focus-visible:ring-offset-2 focus-visible:ring-offset-gray-800"
+			>
+				<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 text-yellow-400 hover:text-yellow-300 pointer-events-none">
+					<path stroke-linecap="round" stroke-linejoin="round" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"/>
+				</svg>
+			</button>
+		{/if}
+
 		<!-- Read Status Eye Icon / Button -->
 		<button
 			type="button"
 			aria-label={article.is_read ? "Marquer comme non lu" : "Marquer comme lu"}
 			title={article.is_read ? "Marquer comme non lu" : "Marquer comme lu"}
-			on:click|stopPropagation={handleToggleReadClick}
+			onclick={(e) => {
+				e.stopPropagation();
+				handleToggleReadClick();
+			}}
 			class="focus:outline-none rounded-full p-0.5 transition-colors duration-150 hover:bg-gray-600 focus-visible:ring-2 focus-visible:ring-teal-500 focus-visible:ring-offset-2 focus-visible:ring-offset-gray-800"
 		>
 			{#if article.is_read}
@@ -91,24 +136,19 @@
 			{/if}
 		</button>
 
-        <!-- <<< NEW: Thumbs Up Button/Icon >>> -->
+        <!-- Thumbs Up Button/Icon -->
 		<button
 			type="button"
 			aria-label={article.is_thumbed_up ? "Retirer le pouce levé" : "Mettre un pouce levé"}
 			title={article.is_thumbed_up ? "Retirer le pouce levé" : "Mettre un pouce levé"}
-			on:click|stopPropagation={handleThumbsUpClick}
+			onclick={(e) => {
+				e.stopPropagation();
+				handleThumbsUpClick();
+			}}
 			class="focus:outline-none rounded-full p-0.5 transition-transform duration-100 ease-in-out hover:scale-110 active:scale-95 focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2 focus-visible:ring-offset-gray-800"
 		>
 			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
-                 class:w-5={true}
-                 class:h-5={true}
-                 class:fill-blue-500={article.is_thumbed_up}
-                 class:text-blue-500={article.is_thumbed_up}
-                 class:fill-gray-500={!article.is_thumbed_up}
-                 class:text-gray-500={!article.is_thumbed_up}
-                 class:hover:fill-blue-400={!article.is_thumbed_up}
-                 class:hover:text-blue-400={!article.is_thumbed_up}
-                 class="pointer-events-none">
+                 class="w-5 h-5 pointer-events-none {article.is_thumbed_up ? 'fill-blue-500 text-blue-500' : 'fill-gray-500 text-gray-500 hover:fill-blue-400 hover:text-blue-400'}">
                 <path d="M7.493 19.5c-.425 0-.82-.236-.975-.632A7.48 7.48 0 0 1 6 15.125c0-1.75.599-3.358 1.602-4.634.151-.192.373-.309.6-.397.473-.183.89-.514 1.212-.924a9.042 9.042 0 0 1 2.861-2.4c.723-.384 1.35-.956 1.653-1.715a4.498 4.498 0 0 0 .322-1.672V3a.75.75 0 0 1 .75-.75 2.25 2.25 0 0 1 2.25 2.25c0 1.152-.26 2.243-.723 3.218-.266.558.107 1.282.725 1.282h3.126c1.026 0 1.945.694 2.054 1.715.045.422.068.85.068 1.285a11.95 11.95 0 0 1-2.649 7.521c-.388.482-.987.729-1.605.729H14.23c-.483 0-.964-.078-1.423-.23l-3.114-1.04a4.501 4.501 0 0 0-1.423-.23h-.777ZM2.331 10.727a11.969 11.969 0 0 0-.831 4.398 12 12 0 0 0 .52 3.507C2.28 19.482 3.105 20 3.994 20H4.9c.445 0 .72-.498.523-.898a8.963 8.963 0 0 1-.924-3.977c0-1.708.476-3.305 1.302-4.666.245-.403-.028-.959-.5-.959H4.25c-.832 0-1.612.453-1.918 1.227Z" />
             </svg>
 		</button>
@@ -118,7 +158,10 @@
 			type="button"
 			aria-label={article.is_liked ? "Retirer des favoris" : "Ajouter aux favoris"}
 			title={article.is_liked ? "Retirer des favoris" : "Ajouter aux favoris"}
-			on:click|stopPropagation={handleLikeClick}
+			onclick={(e) => {
+				e.stopPropagation();
+				handleLikeClick();
+			}}
 			class="focus:outline-none rounded-full p-0.5 transition-transform duration-100 ease-in-out hover:scale-110 active:scale-95 focus-visible:ring-2 focus-visible:ring-pink-500 focus-visible:ring-offset-2 focus-visible:ring-offset-gray-800"
 		>
 			<!-- Single SVG for Heart -->
@@ -127,21 +170,14 @@
 				viewBox="0 0 24 24"
 				stroke-width="1.5"
 				stroke="currentColor"
-				class:w-5={true}
-				class:h-5={true}
-				class:fill-pink-500={article.is_liked}
-				class:text-pink-500={article.is_liked}
-				class:fill-none={!article.is_liked}
-				class:text-gray-500={!article.is_liked}
-				class:hover:text-pink-400={!article.is_liked}
-				class="pointer-events-none"
+				class="w-5 h-5 pointer-events-none {article.is_liked ? 'fill-pink-500 text-pink-500' : 'fill-none text-gray-500 hover:text-pink-400'}"
 			>
 				<path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
 			</svg>
 		</button>
 	</div>
 
-	<h3 class="text-left text-lg font-bold pr-24 {article.is_recommandation ? 'text-gray-900' : 'text-white'}"> <!-- Increased pr to avoid overlap -->
+	<h3 class="text-left text-lg font-bold pr-32 {article.is_recommandation ? 'text-gray-900' : 'text-white'}"> <!-- Increased pr to avoid overlap with edit button -->
 		<span class="mr-2">{emoji}</span>{displayTitle}
 	</h3>
 	{#if article.is_recommandation}
@@ -175,7 +211,7 @@
 			</div>
 		{/if}
 
-        <!-- <<< NEW: Thumbs Up Count Display >>> -->
+        <!-- Thumbs Up Count Display -->
 		{#if article.thumbs_up_count != null}
 			<div class="flex items-center space-x-1" title="Nombre total de pouces levés">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-3.5 h-3.5 text-blue-500">

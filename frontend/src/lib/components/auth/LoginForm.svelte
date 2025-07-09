@@ -34,6 +34,9 @@
 		placeholder={$i18n.login.passwordPlaceholder}
 		required
 	  />
+	  <div class="text-right mt-1">
+		<a href="/reset-password" class="text-xs text-blue-600 hover:underline">{$i18n.login.forgotPassword}</a>
+	  </div>
 	</div>
   
 	<button

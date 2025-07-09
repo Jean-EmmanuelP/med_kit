@@ -30,7 +30,8 @@
 		allArticlesLoadedText = "Tous les articles ont été chargés",
         mainArticleListTitleInfo = { text: 'Articles', iconType: 'book' } as ListTitleInfo,
         ALL_CATEGORIES_VALUE = "__ALL__", // From parent, for AOTD title logic
-        isSubscribed = false // New prop for subscription status
+        isSubscribed = false, // New prop for subscription status
+        onEditClick = null as ((article: Article) => void) | null
 	} = $props<{
 		articleOfTheDay?: Article | null;
 		articles?: Article[];
@@ -51,6 +52,7 @@
         mainArticleListTitleInfo?: ListTitleInfo;
         ALL_CATEGORIES_VALUE?: string;
         isSubscribed?: boolean;
+        onEditClick?: ((article: Article) => void) | null;
 	}>();
 
 	const dispatch = createEventDispatcher<{
@@ -94,7 +96,7 @@
 	<!-- This specific error message was for initial load errors that prevented any display -->
 	<div class="my-10 p-4 rounded-lg bg-red-900/30 border border-red-700 text-red-300 text-center" role="alert"><p><strong>Erreur chargement initial :</strong> {fetchError}</p><p class="mt-2 text-sm">Veuillez réessayer.</p></div>
 {:else if !userId && isLikedArticlesView}
-	<div class="my-10 p-4 rounded-lg bg-gray-800/50 border border-gray-700 text-gray-400 text-center"><p>Connectez-vous pour voir vos favoris.</p><button on:click={onHandleSignupClick} class="mt-4 rounded-lg bg-teal-600 px-5 py-2.5 text-sm font-semibold text-white hover:bg-teal-700">Se connecter</button></div>
+	<div class="my-10 p-4 rounded-lg bg-gray-800/50 border border-gray-700 text-gray-400 text-center"><p>Connectez-vous pour voir vos favoris.</p><button onclick={onHandleSignupClick} class="mt-4 rounded-lg bg-teal-600 px-5 py-2.5 text-sm font-semibold text-white hover:bg-teal-700">Se connecter</button></div>
 {:else if !articleOfTheDay && articles.length === 0 && !isLoading}
 	<div class="my-10 p-4 rounded-lg bg-gray-800/50 border border-gray-700 text-gray-400 text-center">
 		{#if emptyStateMessage}<p>{@html emptyStateMessage}</p>
@@ -109,7 +111,8 @@
 		<div class="mb-8">
             <!-- Simplified AOTD title. Parent `ArticleListView` could pass a more specific `aotdTitle` prop if complex logic is needed -->
 			<h2 class="text-2xl font-bold text-teal-500">🔥 Article du jour {#if isViewingSubDiscipline && selectedSubDiscipline}{selectedSubDiscipline}{:else if aotdTitleForFilter}{aotdTitleForFilter}{/if}</h2>
-			<ul class="mt-4 space-y-4"><ArticleCard article={articleOfTheDay} {isSubscribed} on:open={openImmersive} on:likeToggle={handleLikeToggle} on:toggleRead={handleToggleRead} on:thumbsUpToggle={handleThumbsUpToggle}/></ul>
+			<ul class="mt-4 space-y-4"><ArticleCard article={articleOfTheDay} {isSubscribed} {onEditClick} on:open={openImmersive} on:likeToggle={handleLikeToggle} on:toggleRead={handleToggleRead} on:thumbsUpToggle={handleThumbsUpToggle}/>
+			</ul>
 		</div>
 	{:else if isViewingSubDiscipline && !isLoading && articles.length > 0} <!-- Show this only if there are previous articles -->
 		 <p class="mb-6 text-sm text-gray-500 italic">Aucun article du jour pour "{selectedSubDiscipline}". Voici les articles précédents :</p>
@@ -127,7 +130,7 @@
 			</h2>
 			<ul class="mt-4 space-y-4">
 				 {#each articles as article (getArticleId(article))}
-					<ArticleCard {article} {isSubscribed} on:open={openImmersive} on:likeToggle={handleLikeToggle} on:toggleRead={handleToggleRead} on:thumbsUpToggle={handleThumbsUpToggle}/>
+					<ArticleCard {article} {isSubscribed} {onEditClick} on:open={openImmersive} on:likeToggle={handleLikeToggle} on:toggleRead={handleToggleRead} on:thumbsUpToggle={handleThumbsUpToggle}/>
 				 {/each}
 			</ul>
 		{/if}
@@ -136,7 +139,7 @@
 	{#if hasMore || isLoading}
 		<div class="mt-8 text-center">
 			{#if isLoading && !isInitialLoading}<div class="flex justify-center items-center py-4"><div class="animate-spin rounded-full h-8 w-8 border-t-2 border-b-2 border-teal-500"></div></div>
-			{:else if hasMore}<button on:click={onLoadMoreClick} disabled={isLoading} class="rounded-lg bg-teal-600 px-5 py-2.5 text-sm font-semibold text-white hover:bg-teal-700 disabled:opacity-50 disabled:cursor-not-allowed">{loadMoreButtonText}</button>{/if}
+			{:else if hasMore}<button onclick={onLoadMoreClick} disabled={isLoading} class="rounded-lg bg-teal-600 px-5 py-2.5 text-sm font-semibold text-white hover:bg-teal-700 disabled:opacity-50 disabled:cursor-not-allowed">{loadMoreButtonText}</button>{/if}
 		</div>
 	{:else if !isInitialLoading && (articles.length > 0 || articleOfTheDay)} <!-- Show "all loaded" only if some articles were ever loaded -->
 		<div class="mt-8 text-center text-gray-500"><span class="inline-flex items-center gap-2 rounded-full bg-gray-800 px-4 py-2 text-sm"><svg class="h-5 w-5 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>{allArticlesLoadedText}</span></div>

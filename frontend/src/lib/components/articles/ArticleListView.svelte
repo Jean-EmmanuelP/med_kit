@@ -43,7 +43,8 @@
         showAllCategoriesOption = true,
         subDisciplineFetchMode = 'user' as 'user' | 'public',
         filterByUserSubs = false,
-        isSubscribed = false
+        isSubscribed = false,
+        onEditClick = null as ((article: Article) => void) | null
 	} = $props<{
         articleId?: number;
         articleTitle?: string;
@@ -70,6 +71,7 @@
         subDisciplineFetchMode?: 'user' | 'public';
         filterByUserSubs?: boolean;
         isSubscribed?: boolean;
+        onEditClick?: ((article: Article) => void) | null;
 	}>();
 
     const defaultInitialFilter = filters.length > 0 ? (filters[0]?.value ?? null) : (showAllCategoriesOption ? ALL_CATEGORIES_VALUE : null);
@@ -503,6 +505,7 @@
             {mainArticleListTitleInfo}
             {ALL_CATEGORIES_VALUE}
             {isSubscribed}
+            {onEditClick}
             on:openArticle={(e) => openImmersive(e.detail)}
             on:likeToggle={(e) => handleLikeToggle(e.detail)}
             on:toggleRead={(e) => handleToggleRead(e.detail)}

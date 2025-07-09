@@ -386,6 +386,10 @@
 
             <hr class="my-10 border-gray-700" />
 
+            <div class="text-center mb-10">
+                <a href="/update-password" class="text-blue-400 hover:underline text-sm">Modifier mon mot de passe</a>
+            </div>
+
 			<!-- Logout Section (remains the same) -->
 			<div class="text-left">
 				<h2 class="mb-4 text-xl md:text-2xl font-semibold text-white">Se déconnecter</h2>
