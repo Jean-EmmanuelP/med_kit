@@ -286,90 +286,78 @@
 </script>
 
 <div class="min-h-screen bg-black text-white">
-	<!-- Dashboard Header -->
-	<div class="bg-gray-900 px-4 py-6">
+	<!-- Simplified Dashboard Header -->
+	<div class="bg-gray-900 px-4 py-8 border-b border-gray-800">
 		<div class="mx-auto max-w-4xl">
-			<div class="flex items-center justify-between">
+			<div class="flex items-center justify-between mb-4">
 				<div>
-					<h1 class="text-2xl font-bold text-white">Dashboard - Gestion des Articles</h1>
-					<p class="text-gray-400 mt-1">Modifiez et gérez vos articles</p>
+					<h1 class="text-xl font-bold text-white">Dashboard Admin</h1>
 				</div>
-				<div class="flex items-center gap-4">
+				<div class="flex items-center gap-3">
 					<!-- User Management Link - Only for super admins -->
 					{#if $userProfileStore?.has_all_power}
 						<a 
 							href="/dashboard/users" 
-							class="inline-flex items-center px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition-colors text-sm font-medium"
+							class="inline-flex items-center px-3 py-1.5 bg-blue-600 hover:bg-blue-700 text-white rounded-md transition-colors text-sm font-medium"
 						>
-							<svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+							<svg class="w-4 h-4 mr-1.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197m13.5-9a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0z"/>
 							</svg>
-							Gérer les utilisateurs
+							Utilisateurs
 						</a>
 					{/if}
-					<div class="text-sm text-gray-400">
-						Connecté en tant que {$userProfileStore?.first_name} {$userProfileStore?.last_name}
+					<div class="text-xs text-gray-400">
+						{$userProfileStore?.first_name}
 						{#if $userProfileStore?.has_all_power}
-							<span class="ml-1 text-red-400">(Super Admin)</span>
+							<span class="ml-1 text-red-400 font-medium">(Super Admin)</span>
 						{:else if $userProfileStore?.is_admin}
-							<span class="ml-1 text-green-400">(Admin)</span>
+							<span class="ml-1 text-green-400 font-medium">(Admin)</span>
 						{/if}
 					</div>
 				</div>
 			</div>
-		</div>
-	</div>
-
-	<!-- Edit Article by ID Section -->
-	<div class="bg-gray-800 px-4 py-6">
-		<div class="mx-auto max-w-4xl">
-			<div class="bg-gray-700 rounded-lg p-6">
-				<h2 class="text-lg font-semibold text-white mb-4">Modifier un article par ID</h2>
-				<div class="flex gap-4 items-end">
-					<div class="flex-1">
-						<label for="article-id" class="block text-sm font-medium text-gray-300 mb-2">
-							ID de l'article
-						</label>
-						<input
-							id="article-id"
-							type="text"
-							bind:value={searchArticleId}
-							placeholder="Entrez l'ID de l'article..."
-							class="w-full px-4 py-2 bg-gray-800 border border-gray-600 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent"
-							onkeydown={(e) => e.key === 'Enter' && searchAndEditArticle()}
-						/>
-						{#if searchError}
-							<p class="mt-2 text-sm text-red-400">{searchError}</p>
-						{/if}
-					</div>
-					<button
-						onclick={searchAndEditArticle}
-						disabled={isSearching || !searchArticleId.trim()}
-						class="px-6 py-2 bg-teal-600 text-white rounded-lg hover:bg-teal-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed flex items-center gap-2"
-					>
-						{#if isSearching}
-							<svg class="w-4 h-4 animate-spin" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/>
-							</svg>
-							Recherche...
-						{:else}
-							<svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-								<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"/>
-							</svg>
-							Modifier
-						{/if}
-					</button>
+			
+			<!-- Compact Article Search -->
+			<div class="flex gap-3 items-center">
+				<div class="flex-1">
+					<input
+						type="text"
+						bind:value={searchArticleId}
+						placeholder="Entrez l'ID de l'article à modifier..."
+						class="w-full px-3 py-2 text-sm bg-gray-800 border border-gray-700 rounded-md text-white placeholder-gray-400 focus:outline-none focus:ring-1 focus:ring-teal-500 focus:border-transparent"
+						onkeydown={(e) => e.key === 'Enter' && searchAndEditArticle()}
+					/>
+					{#if searchError}
+						<p class="mt-1 text-xs text-red-400">{searchError}</p>
+					{/if}
 				</div>
+				<button
+					onclick={searchAndEditArticle}
+					disabled={isSearching || !searchArticleId.trim()}
+					class="px-4 py-2 bg-teal-600 text-white rounded-md hover:bg-teal-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed flex items-center gap-1.5 text-sm"
+				>
+					{#if isSearching}
+						<svg class="w-4 h-4 animate-spin" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/>
+						</svg>
+						Recherche...
+					{:else}
+						<svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"/>
+						</svg>
+						Modifier
+					{/if}
+				</button>
 			</div>
 		</div>
 	</div>
 
 	<!-- Article List with Browse Functionality -->
-	<div class="px-4 py-8">
+	<div class="px-4 pb-6">
 		<div class="mx-auto max-w-4xl">
-			<div class="mb-6">
-				<h2 class="text-xl font-semibold text-white mb-2">Parcourir les articles</h2>
-				<p class="text-gray-400">Utilisez les filtres ci-dessous pour naviguer dans les articles. Pour modifier un article, utilisez la fonction de recherche par ID ci-dessus.</p>
+			<div class="mb-4 mt-6">
+				<h2 class="text-lg font-semibold text-white mb-1">Articles disponibles</h2>
+				<p class="text-sm text-gray-400">Parcourez et gérez vos articles ci-dessous</p>
 			</div>
 			
 			<!-- Use existing ArticleListView component -->
