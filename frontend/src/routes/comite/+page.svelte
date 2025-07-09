@@ -40,6 +40,27 @@
             affiliation: 'Hôpital Saint-Louis (AP-HP)',
 			focus: 'Spécialiste en myélome multiple, immunothérapie, CAR-T cells'
 		},
+        {
+            specialty: 'Médecine interne',
+            name: 'Dr Romain Bollart',
+            title: 'Chef de clinique dans le service de médecine interne',
+            affiliation: 'CHU de Lariboisière, AP-HP',
+            focus: null,
+        },
+        {
+            specialty: 'Médecine physique et réadaptation',
+            name: 'Maëva Dargazanli',
+            title: 'Interne en médecine physique et réadaptation',
+            affiliation: 'CHU Caen et périphéries',
+            focus: null
+        },
+        {
+            specialty: 'Médecine vasculaire',
+            name: 'Dr Benjamin Pariente',
+            title: 'Chef de clinique dans le service d\'Excellence en Hypertension Artérielle',
+            affiliation: 'Hôpital Européen Georges-Pompidou, AP-HP',
+            focus: 'Spécialiste en Hypertension Artérielle',
+        },
 		{
 			specialty: 'Neurochirurgie',
 			name: 'Dr Gonzague Defrance',
@@ -47,6 +68,13 @@
             affiliation: 'AP-HP',
 			focus: 'Spécialiste en chirurgie fonctionnelle'
 		},
+        {
+            specialty: 'Oncologie',
+            name: 'Jean-Baptiste Demigné',
+            title: 'Interne en oncologie médicale',
+            affiliation: 'AP-HM Timone',
+            focus: null,
+        },
 		{
 			specialty: 'Rhumatologie',
 			name: 'Dr Elisabetta Lanciano',
@@ -54,6 +82,13 @@
             affiliation: 'CH d\'Angoulême',
 			focus: null // No specific focus listed
 		},
+        {
+            specialty: 'Rhumatologie',
+            name: 'Félix Laborie',
+            title: 'Interne de Rhumatologie',
+            affiliation: 'AP-HP',
+            focus: null // No specific focus listed
+        },
 		{
 			specialty: 'Urgences',
 			name: 'Dr Benjamin Chevallier',
@@ -76,13 +111,6 @@
             focus: 'Spécialiste en uro-oncologie'
         },
         {
-            specialty: 'Rhumatologie',
-            name: 'Félix Laborie',
-            title: 'Interne de Rhumatologie',
-            affiliation: 'AP-HP',
-            focus: null // No specific focus listed
-        },
-        {
             specialty: 'Chirurgie pédiatrique',
             name: 'Maxence de Lanversin',
             title: 'Interne en chirurgie pédiatrique',
@@ -95,27 +123,6 @@
             title: 'Docteur en Urologie',
             affiliation: 'Hopital Paris Saint Joseph (ESPIC)',
             focus: 'Andrologie et médecine de la reproduction',
-        },
-        {
-            specialty: 'Oncologie',
-            name: 'Jean-Baptiste Demigné',
-            title: 'Interne en oncologie médicale',
-            affiliation: 'AP-HM Timone',
-            focus: null,
-        },
-        {
-            specialty: 'Médecine interne',
-            name: 'Dr Romain Bollart',
-            title: 'Chef de clinique dans le service de médecine interne',
-            affiliation: 'CHU de Lariboisière, AP-HP',
-            focus: null,
-        },
-        {
-            specialty: 'Médecine vasculaire',
-            name: 'Dr Benjamin Pariente',
-            title: 'Chef de clinique dans le service d’Excellence en Hypertension Artérielle',
-            affiliation: 'Hôpital Européen Georges-Pompidou, AP-HP',
-            focus: 'Spécialiste en Hypertension Artérielle',
         }
 	].sort((a, b) => { // Ensure sorting is done definitively here
         const specialtyCompare = a.specialty.localeCompare(b.specialty, 'fr', { sensitivity: 'base' });
@@ -179,7 +186,7 @@
         const emojiMap: Record<string, string> = {
             'Chirurgie orthopédique': '🦴', 'Chirurgie pédiatrique': '👶', 'Cardiologie': '❤️',
             'Endocrinologie – Diabétologie – Nutrition': '⚖️', 'Hématologie': '🩸',
-            'Neurochirurgie': '🧠', 'Rhumatologie': '🦴', 'Urgences': '🚑', 'Urologie': '💧', 'Oncologie': '🎗️'
+            'Médecine physique et réadaptation': '🏃', 'Neurochirurgie': '🧠', 'Rhumatologie': '🦴', 'Urgences': '🚑', 'Urologie': '💧', 'Oncologie': '🎗️'
         };
         return emojiMap[specialty] || '⚕️';
     }
@@ -197,7 +204,7 @@
 		content="Découvrez les médecins référents par spécialité du comité scientifique de Veille Médicale."
 	/>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
 	<link
 		href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
 		rel="stylesheet"
