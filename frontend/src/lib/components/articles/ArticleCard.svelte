@@ -92,8 +92,8 @@
 >
 	<!-- Status Icons Container (Top Right) -->
 	<div class="absolute top-2 right-2 flex items-center space-x-2">
-		<!-- Edit Button (show if user is admin) -->
-		{#if isAdmin}
+		<!-- Edit Button (show only if user is admin AND onEditClick function is provided) -->
+		{#if isAdmin && onEditClick}
 			<button
 				type="button"
 				aria-label="Modifier l'article"

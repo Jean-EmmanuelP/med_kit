@@ -371,14 +371,14 @@
 
 <!-- Edit Modal -->
 {#if showEditModal && editingArticle}
-	<div class="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-75">
-		<div class="w-full max-w-4xl max-h-[90vh] bg-gray-900 rounded-lg shadow-xl overflow-hidden">
+	<div class="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-75 p-4">
+		<div class="w-full max-w-[80vw] max-h-[90vh] bg-gray-900 rounded-lg shadow-xl overflow-hidden">
 			<!-- Modal Header -->
-			<div class="flex items-center justify-between bg-gray-800 px-6 py-4">
-				<h2 class="text-xl font-semibold text-white">Modifier l'article</h2>
+			<div class="flex items-center justify-between bg-gray-800 px-8 py-5">
+				<h2 class="text-2xl font-semibold text-white">Modifier l'article</h2>
 				<button
 					onclick={closeEditModal}
-					class="text-gray-400 hover:text-white transition-colors"
+					class="text-gray-400 hover:text-white transition-colors p-2 rounded-lg hover:bg-gray-700"
 				>
 					<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
@@ -387,172 +387,178 @@
 			</div>
 
 			<!-- Modal Content -->
-			<div class="p-6 overflow-y-auto max-h-[calc(90vh-140px)]">
+			<div class="p-8 overflow-y-auto max-h-[calc(90vh-180px)]">
 				{#if updateError}
-					<div class="mb-4 p-4 bg-red-900/30 border border-red-700 rounded-lg text-red-300">
+					<div class="mb-6 p-4 bg-red-900/30 border border-red-700 rounded-lg text-red-300">
 						<p><strong>Erreur :</strong> {updateError}</p>
 					</div>
 				{/if}
 
-				<div class="space-y-6">
-					<!-- Title Field -->
-					<div>
-						<label for="edit-title" class="block text-sm font-medium text-gray-300 mb-2">
-							Titre de l'article
-						</label>
-						<input
-							id="edit-title"
-							type="text"
-							bind:value={editTitle}
-							class="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent"
-							placeholder="Titre de l'article..."
-						/>
+				<div class="grid grid-cols-1 xl:grid-cols-2 gap-8">
+					<!-- Left Column: Article Content -->
+					<div class="space-y-6">
+						<!-- Title Field -->
+						<div>
+							<label for="edit-title" class="block text-lg font-medium text-gray-300 mb-3">
+								Titre de l'article
+							</label>
+							<input
+								id="edit-title"
+								type="text"
+								bind:value={editTitle}
+								class="w-full px-5 py-4 text-lg bg-gray-800 border border-gray-700 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent transition-colors"
+								placeholder="Titre de l'article..."
+							/>
+						</div>
+
+						<!-- Content Field -->
+						<div class="flex-1">
+							<label for="edit-content" class="block text-lg font-medium text-gray-300 mb-3">
+								Contenu de l'article
+							</label>
+							<textarea
+								id="edit-content"
+								bind:value={editContent}
+								rows="25"
+								class="w-full px-5 py-4 text-base bg-gray-800 border border-gray-700 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent resize-none font-mono leading-relaxed"
+								placeholder="Contenu de l'article..."
+							></textarea>
+						</div>
 					</div>
 
-					<!-- Content Field -->
-					<div>
-						<label for="edit-content" class="block text-sm font-medium text-gray-300 mb-2">
-							Contenu de l'article
-						</label>
-						<textarea
-							id="edit-content"
-							bind:value={editContent}
-							rows="20"
-							class="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent resize-none"
-							placeholder="Contenu de l'article..."
-						></textarea>
-					</div>
+					<!-- Right Column: Categories and Info -->
+					<div class="space-y-6">
+						<!-- Categories Management Section -->
+						<div class="bg-gray-800 rounded-lg p-6">
+							<div class="flex items-center justify-between mb-6">
+								<h3 class="text-xl font-medium text-white">Catégories de l'article</h3>
+								{#if isLoadingCategories}
+									<div class="flex items-center gap-2 text-gray-400">
+										<svg class="w-5 h-5 animate-spin" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+											<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/>
+										</svg>
+										<span class="text-sm">Chargement...</span>
+									</div>
+								{/if}
+							</div>
 
-					<!-- Categories Management Section -->
-					<div class="bg-gray-800 rounded-lg p-4">
-						<div class="flex items-center justify-between mb-4">
-							<h3 class="text-lg font-medium text-white">Catégories de l'article</h3>
-							{#if isLoadingCategories}
-								<div class="flex items-center gap-2 text-gray-400">
-									<svg class="w-4 h-4 animate-spin" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-										<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/>
-									</svg>
-									<span class="text-sm">Chargement...</span>
+							{#if categoryError}
+								<div class="mb-4 p-3 bg-red-900/30 border border-red-700 rounded text-red-300 text-sm">
+									{categoryError}
 								</div>
 							{/if}
-						</div>
 
-						{#if categoryError}
-							<div class="mb-4 p-3 bg-red-900/30 border border-red-700 rounded text-red-300 text-sm">
-								{categoryError}
-							</div>
-						{/if}
-
-						<div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
-							<!-- Disciplines Selection -->
-							<div>
-								<h4 class="text-sm font-medium text-gray-300 mb-3">Disciplines principales</h4>
-								<div class="max-h-48 overflow-y-auto space-y-2 border border-gray-700 rounded p-3 bg-gray-900">
-									{#each allAvailableDisciplines as discipline (discipline.id)}
-										<label class="flex items-center gap-2 hover:bg-gray-800 p-2 rounded cursor-pointer">
-											<input
-												type="checkbox"
-												checked={selectedDisciplineIds.includes(discipline.id)}
-												onchange={() => toggleDiscipline(discipline.id)}
-												class="w-4 h-4 text-teal-600 bg-gray-700 border-gray-600 rounded focus:ring-teal-500 focus:ring-2"
-											/>
-											<span class="text-sm text-gray-300">{discipline.name}</span>
-										</label>
-									{/each}
+							<div class="space-y-6">
+								<!-- Disciplines Selection -->
+								<div>
+									<h4 class="text-base font-medium text-gray-300 mb-4">Disciplines principales</h4>
+									<div class="max-h-56 overflow-y-auto space-y-2 border border-gray-700 rounded-lg p-4 bg-gray-900">
+										{#each allAvailableDisciplines as discipline (discipline.id)}
+											<label class="flex items-center gap-3 hover:bg-gray-800 p-3 rounded-lg cursor-pointer transition-colors">
+												<input
+													type="checkbox"
+													checked={selectedDisciplineIds.includes(discipline.id)}
+													onchange={() => toggleDiscipline(discipline.id)}
+													class="w-5 h-5 text-teal-600 bg-gray-700 border-gray-600 rounded focus:ring-teal-500 focus:ring-2"
+												/>
+												<span class="text-base text-gray-300">{discipline.name}</span>
+											</label>
+										{/each}
+									</div>
 								</div>
-							</div>
 
-							<!-- Sub-disciplines Selection -->
-							<div>
-								<h4 class="text-sm font-medium text-gray-300 mb-3">Sous-disciplines</h4>
-								<div class="max-h-48 overflow-y-auto space-y-3 border border-gray-700 rounded p-3 bg-gray-900">
-									{#each allAvailableDisciplines as discipline (discipline.id)}
-										{#if discipline.sub_disciplines && discipline.sub_disciplines.length > 0}
-											<div class="mb-3">
-												<div class="text-xs font-medium text-gray-400 mb-2">{discipline.name}</div>
-												<div class="space-y-1 pl-2">
-													{#each discipline.sub_disciplines as subDiscipline (subDiscipline.id)}
-														<label class="flex items-center gap-2 hover:bg-gray-800 p-1 rounded cursor-pointer">
-															<input
-																type="checkbox"
-																checked={selectedSubDisciplineIds.includes(subDiscipline.id)}
-																onchange={() => toggleSubDiscipline(subDiscipline.id)}
-																class="w-4 h-4 text-teal-600 bg-gray-700 border-gray-600 rounded focus:ring-teal-500 focus:ring-2"
-															/>
-															<span class="text-sm text-gray-300">{subDiscipline.name}</span>
-														</label>
-													{/each}
+								<!-- Sub-disciplines Selection -->
+								<div>
+									<h4 class="text-base font-medium text-gray-300 mb-4">Sous-disciplines</h4>
+									<div class="max-h-56 overflow-y-auto space-y-4 border border-gray-700 rounded-lg p-4 bg-gray-900">
+										{#each allAvailableDisciplines as discipline (discipline.id)}
+											{#if discipline.sub_disciplines && discipline.sub_disciplines.length > 0}
+												<div class="mb-4">
+													<div class="text-sm font-medium text-gray-400 mb-3 px-2">{discipline.name}</div>
+													<div class="space-y-2 pl-4 border-l-2 border-gray-700">
+														{#each discipline.sub_disciplines as subDiscipline (subDiscipline.id)}
+															<label class="flex items-center gap-3 hover:bg-gray-800 p-2 rounded cursor-pointer transition-colors">
+																<input
+																	type="checkbox"
+																	checked={selectedSubDisciplineIds.includes(subDiscipline.id)}
+																	onchange={() => toggleSubDiscipline(subDiscipline.id)}
+																	class="w-4 h-4 text-teal-600 bg-gray-700 border-gray-600 rounded focus:ring-teal-500 focus:ring-2"
+																/>
+																<span class="text-sm text-gray-300">{subDiscipline.name}</span>
+															</label>
+														{/each}
+													</div>
 												</div>
-											</div>
-										{/if}
-									{/each}
+											{/if}
+										{/each}
+									</div>
 								</div>
+							</div>
+
+							<!-- Current Categories Display -->
+							{#if currentArticleCategories.discipline_ids.length > 0 || currentArticleCategories.sub_discipline_ids.length > 0}
+								<div class="mt-6 p-4 bg-gray-700 rounded-lg">
+									<div class="text-sm font-medium text-gray-400 mb-3">Catégories actuelles de l'article :</div>
+									<div class="flex flex-wrap gap-2">
+										{#each currentArticleCategories.discipline_ids as disciplineId}
+											{@const discipline = allAvailableDisciplines.find(d => d.id === disciplineId)}
+											{#if discipline}
+												<span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-blue-900/50 text-blue-300 border border-blue-700">
+													{discipline.name}
+												</span>
+											{/if}
+										{/each}
+										{#each currentArticleCategories.sub_discipline_ids as subDisciplineId}
+											{@const subDiscipline = allAvailableDisciplines.flatMap(d => d.sub_disciplines || []).find(s => s.id === subDisciplineId)}
+											{#if subDiscipline}
+												<span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-green-900/50 text-green-300 border border-green-700">
+													{subDiscipline.name}
+												</span>
+											{/if}
+										{/each}
+									</div>
+								</div>
+							{/if}
+
+							<!-- Apply Categories Button -->
+							<div class="mt-6 flex justify-end">
+								<button
+									onclick={applyCategoryChanges}
+									disabled={isUpdatingCategories}
+									class="px-6 py-3 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed flex items-center gap-2 text-base font-medium"
+								>
+									{#if isUpdatingCategories}
+										<svg class="w-5 h-5 animate-spin" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+											<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/>
+										</svg>
+										Mise à jour...
+									{:else}
+										Appliquer les catégories
+									{/if}
+								</button>
 							</div>
 						</div>
 
-						<!-- Current Categories Display -->
-						{#if currentArticleCategories.discipline_ids.length > 0 || currentArticleCategories.sub_discipline_ids.length > 0}
-							<div class="mt-4 p-3 bg-gray-700 rounded">
-								<div class="text-xs font-medium text-gray-400 mb-2">Catégories actuelles de l'article :</div>
-								<div class="flex flex-wrap gap-2">
-									{#each currentArticleCategories.discipline_ids as disciplineId}
-										{@const discipline = allAvailableDisciplines.find(d => d.id === disciplineId)}
-										{#if discipline}
-											<span class="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-blue-900/50 text-blue-300 border border-blue-700">
-												{discipline.name}
-											</span>
-										{/if}
-									{/each}
-									{#each currentArticleCategories.sub_discipline_ids as subDisciplineId}
-										{@const subDiscipline = allAvailableDisciplines.flatMap(d => d.sub_disciplines || []).find(s => s.id === subDisciplineId)}
-										{#if subDiscipline}
-											<span class="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-green-900/50 text-green-300 border border-green-700">
-												{subDiscipline.name}
-											</span>
-										{/if}
-									{/each}
+						<!-- Article Info -->
+						<div class="bg-gray-800 rounded-lg p-6">
+							<h3 class="text-xl font-medium text-white mb-4">Informations de l'article</h3>
+							<div class="grid grid-cols-1 gap-4 text-base">
+								<div class="flex justify-between items-center py-2 border-b border-gray-700">
+									<span class="text-gray-400 font-medium">ID:</span>
+									<span class="text-white font-mono">{getArticleId(editingArticle)}</span>
 								</div>
-							</div>
-						{/if}
-
-						<!-- Apply Categories Button -->
-						<div class="mt-4 flex justify-end">
-							<button
-								onclick={applyCategoryChanges}
-								disabled={isUpdatingCategories}
-								class="px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed flex items-center gap-2"
-							>
-								{#if isUpdatingCategories}
-									<svg class="w-4 h-4 animate-spin" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-										<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/>
-									</svg>
-									Mise à jour...
-								{:else}
-									Appliquer les catégories
-								{/if}
-							</button>
-						</div>
-					</div>
-
-					<!-- Article Info -->
-					<div class="bg-gray-800 rounded-lg p-4">
-						<h3 class="text-lg font-medium text-white mb-2">Informations de l'article</h3>
-						<div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
-							<div>
-								<span class="text-gray-400">ID:</span>
-								<span class="text-white ml-2">{getArticleId(editingArticle)}</span>
-							</div>
-							<div>
-								<span class="text-gray-400">Journal:</span>
-								<span class="text-white ml-2">{editingArticle.journal || 'Non spécifié'}</span>
-							</div>
-							<div>
-								<span class="text-gray-400">Grade:</span>
-								<span class="text-white ml-2">{editingArticle.grade || 'Non spécifié'}</span>
-							</div>
-							<div>
-								<span class="text-gray-400">Publié le:</span>
-								<span class="text-white ml-2">{new Date(editingArticle.published_at).toLocaleDateString()}</span>
+								<div class="flex justify-between items-center py-2 border-b border-gray-700">
+									<span class="text-gray-400 font-medium">Journal:</span>
+									<span class="text-white">{editingArticle.journal || 'Non spécifié'}</span>
+								</div>
+								<div class="flex justify-between items-center py-2 border-b border-gray-700">
+									<span class="text-gray-400 font-medium">Grade:</span>
+									<span class="text-white">{editingArticle.grade || 'Non spécifié'}</span>
+								</div>
+								<div class="flex justify-between items-center py-2">
+									<span class="text-gray-400 font-medium">Publié le:</span>
+									<span class="text-white">{new Date(editingArticle.published_at).toLocaleDateString('fr-FR')}</span>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -560,10 +566,10 @@
 			</div>
 
 			<!-- Modal Footer -->
-			<div class="flex items-center justify-end gap-4 bg-gray-800 px-6 py-4">
+			<div class="flex items-center justify-end gap-4 bg-gray-800 px-8 py-6 border-t border-gray-700">
 				<button
 					onclick={closeEditModal}
-					class="px-4 py-2 text-gray-400 hover:text-white transition-colors"
+					class="px-6 py-3 text-gray-400 hover:text-white transition-colors text-base font-medium"
 					disabled={isUpdating}
 				>
 					Annuler
@@ -571,10 +577,10 @@
 				<button
 					onclick={saveArticleChanges}
 					disabled={isUpdating || !editTitle.trim() || !editContent.trim()}
-					class="px-6 py-2 bg-teal-600 text-white rounded-lg hover:bg-teal-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed flex items-center gap-2"
+					class="px-8 py-3 bg-teal-600 text-white rounded-lg hover:bg-teal-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed flex items-center gap-2 text-base font-medium"
 				>
 					{#if isUpdating}
-						<svg class="w-4 h-4 animate-spin" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+						<svg class="w-5 h-5 animate-spin" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 							<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/>
 						</svg>
 						Mise à jour...
