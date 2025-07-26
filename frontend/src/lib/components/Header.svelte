@@ -214,7 +214,13 @@
 							<a href="/account" class="block px-4 py-2 text-sm text-white hover:bg-white/10">
 								{$i18n.header.settings}
 							</a>
+							{#if $userProfileStore?.is_admin}
+								<a href="/dashboard" class="block px-4 py-2 text-sm text-white hover:bg-white/10">
+									{$i18n.header.dashboard}
+								</a>
+							{/if}
 						</div>
+
 					{/if}
 					<NewFeatureNotice isVisible={showNotice} on:dismiss={handleDismissNotice} />
 				</div>

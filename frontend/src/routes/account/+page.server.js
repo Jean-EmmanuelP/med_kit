@@ -58,6 +58,11 @@ export async function load({ locals }) {
 			}
 		});
 
+		// Debug logs for subscriptions
+		console.log('=== SERVER: USER SUBSCRIPTIONS ===');
+		console.log('userSubsData from DB:', userSubsData);
+		console.log('userSubscriptions Set:', Array.from(userSubscriptions));
+
         // **** NEW: Fetch user's selected grades ****
         const { data: userGradesData, error: gradesError } = await locals.supabase
             .from('user_grade_preferences')
@@ -66,6 +71,11 @@ export async function load({ locals }) {
 
         if (gradesError) throw gradesError;
         const userGradePreferences = (userGradesData || []).map(g => g.grade); // -> ['A', 'C'] etc.
+        
+        // Debug logs for grades
+        console.log('=== SERVER: USER GRADE PREFERENCES ===');
+        console.log('userGradesData from DB:', userGradesData);
+        console.log('userGradePreferences array:', userGradePreferences);
         // **** END NEW ****
 
 		// 4. Get status options (remains the same)

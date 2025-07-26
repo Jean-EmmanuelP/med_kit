@@ -1,0 +1,34 @@
+--- Source URL: https://pubmed.ncbi.nlm.nih.gov/?term=10.1097/AOG.0b013e318232a394 ---
+
+{
+  "recommandation": {
+    "titre": "💊 Recommandations sur la Prophylaxie de la Thromboembolie Veineuse en Chirurgie Gynécologique",
+    "contenu": [
+      {
+        "titre": "🎯 Synthèse Clinique",
+        "contenu": "La prophylaxie de la thromboembolie veineuse (TEV) est un aspect essentiel de la prise en charge en chirurgie gynécologique. La compression pneumatique intermittente (CPI) est considérée comme une prophylaxie suffisante pour la majorité des patientes subissant une chirurgie gynécologique bénigne. Cependant, pour les patientes à risque élevé de TEV, l'utilisation d'une prophylaxie combinée, associant des méthodes mécaniques et pharmacologiques, est recommandée."
+      },
+      {
+        "titre": "📊 Stratification du Risque de Thromboembolie Veineuse (TEV)",
+        "contenu": "Le risque de TEV est substantiellement élevé chez les patientes présentant au moins deux des facteurs de risque suivants :\n- Âge de 60 ans ou plus\n- Présence d'un diagnostic de cancer\n- Antécédents personnels de thromboembolie veineuse (TEV)"
+      },
+      {
+        "titre": "✅ Recommandations de Prophylaxie par Contexte Chirurgical",
+        "contenu": [
+          {
+            "titre": "🌸 Chirurgie Gynécologique Bénigne",
+            "contenu": "Pour la majorité des procédures chirurgicales gynécologiques bénignes, y compris les procédures laparoscopiques, la compression pneumatique intermittente (CPI) est une méthode de prophylaxie suffisante. L'incidence globale de la TEV clinique est rapportée entre 0% et 2% dans cette population, et moins de 1% avec l'utilisation de la CPI pour les procédures majeures. Aucune TEV n'a été identifiée dans les études prospectives concernant les procédures laparoscopiques bénignes. La qualité des preuves est cependant jugée faible dans ce domaine."
+          },
+          {
+            "titre": "🎗️ Chirurgie Gynécologique Oncologique",
+            "contenu": "En chirurgie gynécologique oncologique, l'incidence de la TEV (incluant les TEV « silencieuses ») varie de 0% à 14,8% avec prophylaxie et peut atteindre 34,6% sans prophylaxie. Les preuves de qualité acceptable ("fair quality") soutiennent que l'héparine non fractionnée (HNF) et la compression pneumatique intermittente (CPI) sont toutes deux supérieures à un placebo ou à l'absence d'intervention pour la prévention de la TEV. Pour les patientes à risque élevé (identifiées par les facteurs de risque susmentionnés), une prophylaxie combinée (mécanique et pharmacologique) est préconisée."
+          }
+        ]
+      },
+      {
+        "titre": "⚠️ Points de Vigilance et Limites des Preuves",
+        "contenu": "Bien que l'héparine non fractionnée (HNF) et la compression pneumatique intermittente (CPI) soient efficaces, les données actuelles sont insuffisantes pour déterminer si l'une est supérieure à l'autre pour la prévention de la TEV. La qualité globale des preuves est jugée faible pour la chirurgie gynécologique bénigne et juste pour la chirurgie gynécologique oncologique."
+      }
+    ]
+  }
+}

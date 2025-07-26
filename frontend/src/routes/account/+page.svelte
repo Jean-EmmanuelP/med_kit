@@ -19,7 +19,14 @@
 
     // Subscription state
     let currentSubscriptions = $state(new Set<string>(data.userSubscriptions || []));
-    let selectedGrades = $state(new Set<string>(data.userGradePreferences || ['A', 'B', 'C'])); // **** NEW: Initialize Set from server data, default to A,B,C if empty ****
+    let selectedGrades = $state(new Set<string>(data.userGradePreferences && data.userGradePreferences.length > 0 ? data.userGradePreferences : ['A', 'B', 'C'])); // Fix: Only default if no grades are saved
+
+    // Debug logs for data loading
+    console.log('=== ACCOUNT PAGE DATA LOADING ===');
+    console.log('data.userGradePreferences:', data.userGradePreferences);
+    console.log('data.userSubscriptions:', data.userSubscriptions);
+    console.log('Initial selectedGrades:', Array.from(selectedGrades));
+    console.log('Initial currentSubscriptions:', Array.from(currentSubscriptions));
 
     // UI State
 	let isLoading = $state(false);
@@ -27,6 +34,24 @@
     let saveError = $state('');
     let openDisciplines = $state(new Set<number>());
     let showGradeInfo = $state(false); // Keep grade info panel logic
+
+    // Auto-open discipline sections that have selected sub-disciplines
+    $effect(() => {
+        if (allDisciplines.length > 0 && currentSubscriptions.size > 0) {
+            const disciplinesToOpen = new Set<number>();
+            allDisciplines.forEach(discipline => {
+                // Check if this discipline has any selected sub-disciplines
+                const hasSelectedSubs = discipline.sub_disciplines?.some(sub => 
+                    currentSubscriptions.has(`s:${sub.id}`)
+                );
+                if (hasSelectedSubs) {
+                    disciplinesToOpen.add(discipline.id);
+                }
+            });
+            openDisciplines = disciplinesToOpen;
+            console.log('Auto-opened disciplines:', Array.from(disciplinesToOpen));
+        }
+    });
 
     // Data from load function
     const allDisciplines = $derived(data.allDisciplines || []);
@@ -166,6 +191,14 @@
         // **** NEW: Prepare grade preferences payload ****
         const gradePreferencesPayload = Array.from(selectedGrades);
         // **** END NEW ****
+
+        // Debug logs for submission
+        console.log('=== SUBMITTING DATA ===');
+        console.log('profileUpdates:', profileUpdates);
+        console.log('subscriptionsPayload:', subscriptionsPayload);
+        console.log('gradePreferencesPayload:', gradePreferencesPayload);
+        console.log('currentSubscriptions before submit:', Array.from(currentSubscriptions));
+        console.log('selectedGrades before submit:', Array.from(selectedGrades));
 
         try {
             // IMPORTANT: Update the API endpoint to accept gradePreferencesPayload

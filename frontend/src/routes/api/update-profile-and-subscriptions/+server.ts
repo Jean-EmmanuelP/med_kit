@@ -152,7 +152,7 @@ export async function POST({ request, locals }: RequestEvent) {
                 }
             });
 
-
+            console.log(`[API UpdateProfile] User ${userId}: Final subscription records to insert:`, subscriptionRecords);
             console.log(`[API UpdateProfile] User ${userId}: Inserting ${subscriptionRecords.length} new discipline subscriptions:`, subscriptionRecords);
             const { error: insertSubsError } = await supabase
                 .from('user_subscriptions')

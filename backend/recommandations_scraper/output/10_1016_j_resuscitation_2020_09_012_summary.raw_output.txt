@@ -1,0 +1,97 @@
+--- Source URL: https://pubmed.ncbi.nlm.nih.gov/?term=10.1016/j.resuscitation.2020.09.012 ---
+
+{
+  "recommandation": {
+    "titre": "💊 Recommandations Internationales 2020 pour le Support Vital Avancé (Adultes)",
+    "contenu": [
+      {
+        "titre": "🎯 Synthèse et Points Clés",
+        "contenu": "Ce consensus international 2020 fournit des mises à jour des recommandations de traitement pour le support vital avancé (SVA) chez l'adulte, basées sur des revues systématiques, des revues exploratoires et des mises à jour des preuves. L'objectif est d'intégrer les dernières données scientifiques pour optimiser la prise en charge de l'arrêt cardiaque et les soins post-réanimation, en mettant l'accent sur les stratégies de défibrillation, la gestion des voies respiratoires, l'administration de médicaments et le pronostic neurologique."
+      },
+      {
+        "titre": "⚡ Gestion de l'Arrêt Cardiaque",
+        "contenu": [
+          {
+            "titre": "Defibrillation",
+            "contenu": "- **Double Défibrillation Séquentielle (DDS):** Il est suggéré de ne pas utiliser systématiquement la DDS par rapport à la défibrillation standard pour les rythmes choquables, en raison de preuves de très faible certitude.\n- **Défibrillateur Externe Automatisé (DEA) vs Manuel:** Le mode semi-automatique est préféré pour sa facilité d'utilisation. Le mode manuel peut être utilisé par le personnel formé pour minimiser la pause pré-choc.\n- **Charge Anticipée du Défibrillateur:** Aucune recommandation spécifique n'est ajoutée en l'absence de preuves suffisantes, malgré une potentielle réduction du temps "mains-off"."
+          },
+          {
+            "titre": "🌬️ Voies Respiratoires et Ventilation",
+            "contenu": "- **Gestion des voies aériennes:** Il est suggéré d'utiliser la ventilation au masque à sac ou une stratégie avancée (sonde endotrachéale ou dispositif supraglottique) pendant la Réanimation Cardio-Pulmonaire (RCP).\n- **Confirmation du positionnement de la Sonde Trachéale:** La capnographie de forme d'onde est recommandée pour confirmer et surveiller en continu le positionnement, en complément de l'évaluation clinique. Des alternatives existent si non disponible.\n- **Dose d'Oxygène pendant la RCP:** Il est suggéré d'utiliser la concentration d'oxygène inspiré la plus élevée possible.\n- **Ventilation Automatique vs Manuelle:** Preuves insuffisantes pour recommander l'une sur l'autre."
+          },
+          {
+            "titre": "💊 Médicaments pendant la RCP",
+            "contenu": "- **Vasopresseurs (Épinéphrine):** L'administration d'épinéphrine est recommandée pendant la RCP. Pour les rythmes non choquables (Activité Électrique sans Pouls / Asystolie), l'administrer dès que possible. Pour les rythmes choquables (Fibrillation Ventriculaire / Tachycardie Ventriculaire sans Pouls), l'administrer après l'échec des tentatives de défibrillation initiales.\n- **Vasopressine:** Il est suggéré de ne pas l'administrer à la place ou en complément de l'épinéphrine.\n- **Antiarythmiques:** L'amiodarone ou la lidocaïne est suggérée pour la Fibrillation Ventriculaire (FV) / Tachycardie Ventriculaire sans Pouls (TVSP) réfractaire aux chocs. Il est suggéré de ne pas utiliser systématiquement le magnésium pour la FV/TVSP réfractaire aux chocs.\n- **Accès IV vs IO:** L'accès intraveineux (IV) est suggéré comme première tentative. Si non concluant ou non réalisable, l'accès intraosseux (IO) est suggéré. Les preuves suggèrent des résultats potentiellement pires avec l'IO, mais avec une faible certitude.\n- **Stéroïdes:** Pas de consensus pour l'Arrêt Cardiaque Intra-Hospitalier (ACIH). L'utilisation systématique est déconseillée pour l'Arrêt Cardiaque Extra-Hospitalier (ACEH).\n- **Agents Tampons (Bicarbonate de Sodium):** L'administration systématique n'est pas recommandée.\n- **Torsades de Pointes:** Le sulfate de magnésium IV est le traitement de choix pour les Torsades de Pointes (TdP) associées à un QT long acquis. Pour les TdP familiales, le magnésium IV, la stimulation et/ou les bêta-bloquants peuvent être utilisés (éviter l'isoprénaline)."
+          }
+        ]
+      },
+      {
+        "titre": "🧠 Soins Post-Réanimation et Pronostic",
+        "contenu": [
+          {
+            "titre": "Objectifs d'Oxygénation et de Ventilation après le Retour à une Circulation Spontanée (RACS)",
+            "contenu": "- **Oxygène:** Il est suggéré d'utiliser 100% d'oxygène inspiré jusqu'à ce que la saturation artérielle en oxygène puisse être mesurée de manière fiable. Il est recommandé d'éviter l'hypoxémie (forte recommandation) et il est suggéré d'éviter l'hyperoxémie (faible recommandation).\n- **Ventilation:** Preuves insuffisantes pour/contre une hypercapnie légère vs normocapnie. Il est suggéré de ne pas cibler systématiquement l'hypocapnie."
+          },
+          {
+            "titre": "Support Hémodynamique Post-Réanimation",
+            "contenu": "Il est suggéré d'envisager des objectifs hémodynamiques (ex: Pression Artérielle Moyenne > 65 mmHg) dans le cadre des soins post-réanimation. Les objectifs spécifiques doivent être individualisés."
+          },
+          {
+            "titre": "Antibiotiques Prophylactiques",
+            "contenu": "Il est suggéré de ne pas utiliser d'antibiotiques prophylactiques après le RACS, en raison de l'absence de bénéfice global et du risque de résistance."
+          },
+          {
+            "titre": "Prophylaxie et Traitement des Crises Post-Arrêt Cardiaque",
+            "contenu": "Il est suggéré de ne pas effectuer de prophylaxie des crises. Le traitement des crises est suggéré."
+          },
+          {
+            "titre": "Gestion de la Température Ciblée (GTC)",
+            "contenu": "- **Température cible:** Recommandation de maintenir une température constante entre 32°C et 36°C.\n- **Indication:** Recommandée pour l'ACEH avec rythme choquable et suggérée pour l'ACEH avec rythme non choquable et l'ACIH (tous rythmes).\n- **Durée:** La GTC devrait durer au moins 24 heures.\n- **Refroidissement pré-hospitalier:** Déconseillé l'utilisation routinière de liquides froids IV.\n- **Post-GTC:** Suggérée la prévention et le traitement de la fièvre chez les patients comateux persistants."
+          },
+          {
+            "titre": "Pronostic Neurologique (Patients Comateux)",
+            "contenou": [
+              {
+                "titre": "Principes Généraux",
+                "contenu": "La neuropronostication doit toujours être multimodale et ne jamais reposer sur un seul élément, en raison de l'insuffisance de spécificité d'un test unique pour éliminer les faux positifs."
+              },
+              {
+                "titre": "Examen Clinique",
+                "contenu": "Il est suggéré d'utiliser le réflexe pupillaire à la lumière (RPL), la pupillométrie quantitative, l'absence bilatérale du réflexe cornéen (à 72h ou plus après le RACS) et la présence de myoclonies ou d'état de mal myoclonique (dans les 7 jours post-RACS), en combinaison avec d'autres tests, pour prédire un mauvais pronostic neurologique."
+              },
+              {
+                "titre": "Tests Neurophysiologiques (EEG, PEES)",
+                "contenu": "Il est suggéré d'utiliser l'absence bilatérale de l'onde N20 des Potentiels Évoqués Somesthésiques (PEES) et la présence d'activité épileptiforme (crises, suppression-burst) à l'Électroencéphalogramme (EEG) en combinaison avec d'autres indices. Il est suggéré de ne pas utiliser l'absence de réactivité du fond EEG seule."
+              },
+              {
+                "titre": "Biomarqueurs Sanguins",
+                "contenu": "Il est suggéré d'utiliser l'Enolase Spécifique Neuronale (NSE) dans les 72h post-RACS en combinaison avec d'autres tests. L'utilisation des protéines S-100B, GFAP, tau et neurofilament léger est déconseillée en raison de preuves insuffisantes et de l'absence de seuils consensuels."
+              },
+              {
+                "titre": "Imagerie Cérébrale (TDM, IRM)",
+                "contenu": "Il est suggéré d'utiliser le rapport Substance Grise/Substance Blanche (SG/SB) sur la Tomodensitométrie (TDM) cérébrale, l'Imagerie par Résonance Magnétique (IRM) pondérée en diffusion et le Coefficient Apparent de Diffusion (CAD) sur l'IRM pour le pronostic neurologique, toujours en combinaison avec d'autres indices."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titre": "🚨 Situations Spécifiques d'Arrêt Cardiaque",
+        "contenu": [
+          {
+            "titre": "Arrêt Cardiaque lié à l'Embolie Pulmonaire (EP)",
+            "contenu": "Il est suggéré d'administrer des fibrinolytiques lorsque l'EP est suspectée ou connue comme la cause de l'arrêt cardiaque. L'embolectomie chirurgicale ou la thrombectomie mécanique percutanée peuvent aussi être envisagées si l'EP est connue."
+          },
+          {
+            "titre": "Arrêt Cardiaque chez la Femme Enceinte",
+            "contenu": "Il est suggéré d'envisager l'accouchement par césarienne perimortem au second semestre de la grossesse. Les interventions de réanimation habituelles et le traitement des causes sous-jacentes restent cruciaux."
+          },
+          {
+            "titre": "Toxicité aux Opioïdes",
+            "contenu": "L'utilisation de la naloxone est recommandée (IV, IM, SC, IO, intranasal) en cas d'arrêt respiratoire dû à une toxicité aux opioïdes. Aucune recommandation n'est faite sur la modification du SVA standard pour l'arrêt cardiaque induit par les opioïdes."
+          }
+        ]
+      }
+    ]
+  }
+}

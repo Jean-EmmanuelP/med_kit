@@ -186,7 +186,7 @@
         const emojiMap: Record<string, string> = {
             'Chirurgie orthopédique': '🦴', 'Chirurgie pédiatrique': '👶', 'Cardiologie': '❤️',
             'Endocrinologie – Diabétologie – Nutrition': '⚖️', 'Hématologie': '🩸',
-            'Médecine physique et réadaptation': '🏃', 'Neurochirurgie': '🧠', 'Rhumatologie': '🦴', 'Urgences': '🚑', 'Urologie': '💧', 'Oncologie': '🎗️'
+            'Médecine physique et réadaptation': '🦿', 'Neurochirurgie': '🧠', 'Rhumatologie': '🦴', 'Urgences': '🚑', 'Urologie': '💧', 'Oncologie': '🎗️'
         };
         return emojiMap[specialty] || '⚕️';
     }

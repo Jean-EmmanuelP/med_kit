@@ -18,6 +18,42 @@
 	interface FilterOption { value: string; label: string; }
     interface SubDisciplineOption { id: number; name: string; }
 
+	// Types for sent articles
+	interface SentArticle {
+		id: number;
+		article_id: number;
+		sent_at: string;
+		discipline: string;
+		sub_discipline: string | null;
+		is_article_of_the_day: boolean;
+		title: string;
+		content: string;
+		journal: string;
+		published_at: string;
+		grade: number | null;
+		link: string;
+		is_read: boolean;
+		read_at: string | null;
+		is_saved: boolean;
+	}
+
+	interface SentArticlesResponse {
+		success: boolean;
+		data: SentArticle[];
+		pagination: {
+			page: number;
+			pageSize: number;
+			totalPages: number;
+			totalCount: number;
+		};
+		statistics: {
+			totalArticles: number;
+			readArticles: number;
+			unreadArticles: number;
+			readPercentage: number;
+		};
+	}
+
 	const {
         articleId = 0,
         articleTitle = "",
@@ -44,7 +80,13 @@
         subDisciplineFetchMode = 'user' as 'user' | 'public',
         filterByUserSubs = false,
         isSubscribed = false,
-        onEditClick = null as ((article: Article) => void) | null
+        onEditClick = null as ((article: Article) => void) | null,
+        // Add progress data from parent
+        progressData = null as any,
+        // New prop for recommendations filter
+        showRecommendationsOnly = false,
+        // New prop to control recommendations toggle visibility
+        enableRecommendationsToggle = true
 	} = $props<{
         articleId?: number;
         articleTitle?: string;
@@ -72,9 +114,14 @@
         filterByUserSubs?: boolean;
         isSubscribed?: boolean;
         onEditClick?: ((article: Article) => void) | null;
+        // Add progress data from parent
+        progressData?: any;
+        showRecommendationsOnly?: boolean;
+        // New prop to control recommendations toggle visibility
+        enableRecommendationsToggle?: boolean;
 	}>();
 
-    const defaultInitialFilter = filters.length > 0 ? (filters[0]?.value ?? null) : (showAllCategoriesOption ? ALL_CATEGORIES_VALUE : null);
+    const defaultInitialFilter = filters.length > 0 ? (showAllCategoriesOption ? ALL_CATEGORIES_VALUE : (filters[0]?.value ?? null)) : (showAllCategoriesOption ? ALL_CATEGORIES_VALUE : null);
 
 	    let selectedFilter = $state<string | null>(initialFilterValue ?? defaultInitialFilter);
     let selectedSubDiscipline = $state<string | null>(null);
@@ -95,6 +142,9 @@
     let articleToUnlike = $state<{ articleId: number | string; currentlyLiked: boolean; currentLikeCount: number; } | null>(null);
     let hasInitialized = $state(false);
     let initialSearchSet = $state(false);
+    
+    // Recommendations filter state
+    let showRecommendationsFilter = $state(showRecommendationsOnly);
 
 	const filterForTitle = $derived(
         selectedFilter === ALL_CATEGORIES_VALUE
@@ -109,9 +159,10 @@
     );
     const isViewingSubDiscipline = $derived(selectedSubDiscipline !== null && selectedSubDiscipline !== allSubDisciplinesLabel);
     const isLikedArticlesView = $derived(apiEndpoint === '/api/get-liked-articles');
+    const isEmailArticlesView = $derived(false); // Removed email articles view state
 	const currentUserIdFromStore = $derived($userProfileStore?.id ?? null);
 
-    interface ListTitleInfo { text: string; iconType: 'heart' | 'book' | null; }
+    interface ListTitleInfo { text: string; iconType: 'heart' | 'book' | 'email' | null; }
     let mainArticleListTitleInfo: ListTitleInfo = $state({ text: '', iconType: null });
 
     $effect(() => {
@@ -121,6 +172,11 @@
                 if (selectedFilter !== ALL_CATEGORIES_VALUE && selectedFilter) { titleText += `: ${filterForTitle}`; }
                 if (isViewingSubDiscipline) { titleText += ` - ${selectedSubDiscipline}`; }
                 mainArticleListTitleInfo = { text: titleText, iconType: 'heart' };
+            } else if (isEmailArticlesView) {
+                let titleText = "Articles reçus par email";
+                if (selectedFilter !== ALL_CATEGORIES_VALUE && selectedFilter) { titleText += `: ${filterForTitle}`; }
+                if (isViewingSubDiscipline) { titleText += ` - ${selectedSubDiscipline}`; }
+                mainArticleListTitleInfo = { text: titleText, iconType: 'email' };
             } else if (searchActive) {
                 mainArticleListTitleInfo = { text: "Résultats de recherche", iconType: 'book' };
             } else if (isViewingSubDiscipline) {
@@ -134,6 +190,11 @@
                  if (selectedFilter !== ALL_CATEGORIES_VALUE && selectedFilter) { titleText += `: ${filterForTitle}`; }
                  if (isViewingSubDiscipline) { titleText += ` - ${selectedSubDiscipline}`; }
                  mainArticleListTitleInfo = { text: titleText, iconType: 'heart' };
+             } else if (isEmailArticlesView) {
+                 let titleText = "Articles reçus par email";
+                 if (selectedFilter !== ALL_CATEGORIES_VALUE && selectedFilter) { titleText += `: ${filterForTitle}`; }
+                 if (isViewingSubDiscipline) { titleText += ` - ${selectedSubDiscipline}`; }
+                 mainArticleListTitleInfo = { text: titleText, iconType: 'email' };
              } else if (searchActive) {
                  mainArticleListTitleInfo = { text: "Résultats de recherche", iconType: 'book' };
              } else if (isViewingSubDiscipline) {
@@ -210,6 +271,9 @@
         const _subFilter = selectedSubDiscipline;
         const _search = searchQuery;
         const _userId = currentUserIdFromStore;
+        const _showEmailArticles = false; // Removed email articles view state
+        const _emailReadFilter = 'all'; // Removed email articles read filter state
+        const _showRecommendations = showRecommendationsFilter;
 
         if (!_userId) { 
             return; 
@@ -225,6 +289,23 @@
         isInitialLoading = true; articles = []; articleOfTheDay = null; offset = 0; hasMore = true; fetchError = null;
         debouncedFetchArticles(false);
 	});
+
+    // Removed email articles view toggle function
+
+    // Toggle recommendations filter
+    function toggleRecommendationsFilter() {
+        showRecommendationsFilter = !showRecommendationsFilter;
+        // Reset and fetch articles
+        articles = [];
+        articleOfTheDay = null;
+        offset = 0;
+        hasMore = true;
+        fetchError = null;
+        isInitialLoading = true;
+        debouncedFetchArticles(false);
+    }
+
+    // Removed email articles filter changes function
 
     function processFetchedArticlesForAotD(newlyFetchedArticles: Article[], isSearchCurrentlyActive: boolean, isLikedArticlesPage: boolean): { aotd: Article | null; regularArticles: Article[] } {
         let potentialAotd: Article | null = null;
@@ -246,6 +327,7 @@
         const currentSearch = searchQuery;
         const currentOffset = isLoadMore ? offset : 0;
         const userIdForFetch = currentUserIdFromStore;
+        const currentPage = isLoadMore ? 1 : 1; // No email articles pagination
 
         if (apiEndpoint === '/api/get-liked-articles' && !userIdForFetch) {
             if (!isLoadMore) { articles = []; articleOfTheDay = null; hasMore = false; isLoading = false; isInitialLoading = false; }
@@ -259,6 +341,10 @@
         isLoading = true;
         if (!isLoadMore) { fetchError = null; }
 
+        // Handle email articles vs regular articles
+        // Removed email articles fetch logic
+
+        // Regular articles fetch logic
 		const url = new URL(apiEndpoint, window.location.origin);
 		url.searchParams.set('offset', currentOffset.toString());
 		url.searchParams.set('limit', itemsPerPage.toString());
@@ -276,6 +362,10 @@
         }
         if (apiEndpoint === '/api/get-liked-articles' && userIdForFetch) {
             url.searchParams.set('userId', userIdForFetch);
+        }
+        // Add recommendations filter
+        if (showRecommendationsFilter) {
+            url.searchParams.set('isRecommandation', 'true');
         }
 
 		fetch(url.toString())
@@ -447,7 +537,7 @@
 		{#if showSignupPrompt}
 			<div class="mb-6 flex flex-col sm:flex-row items-center justify-between gap-3 rounded-lg bg-teal-600/20 p-4 shadow-md transition-all duration-300 hover:bg-teal-600/30">
 				<p class="text-sm font-medium text-center sm:text-left">Débloquez tout le potentiel ! Inscrivez-vous pour sauvegarder vos articles favoris et personnaliser votre veille.</p>
-				<button on:click={handleSignup} class="group flex shrink-0 inline-block items-center justify-center gap-2 rounded-full bg-teal-500 px-4 py-2 text-xs font-semibold text-white transition-all duration-200 hover:bg-teal-600 whitespace-nowrap">
+				<button onclick={handleSignup} class="group flex shrink-0 inline-block items-center justify-center gap-2 rounded-full bg-teal-500 px-4 py-2 text-xs font-semibold text-white transition-all duration-200 hover:bg-teal-600 whitespace-nowrap">
 					<span>S'inscrire gratuitement</span>
 					<svg class="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7m0 0l-7 7m7-7H3"/> </svg>
 				</button>
@@ -457,11 +547,29 @@
 		{#if fetchError && !isLoading && (articles.length === 0 && !articleOfTheDay)}
              <div class="my-6 p-4 rounded-lg bg-red-900/30 border border-red-700 text-red-300 text-center" role="alert">
                 <p><strong>Erreur :</strong> {fetchError}</p>
-                <button on:click={() => fetchError = null} class="mt-2 text-xs underline hover:text-red-100">Ignorer</button>
+                <button onclick={() => fetchError = null} class="mt-2 text-xs underline hover:text-red-100">Ignorer</button>
              </div>
         {/if}
 
 		<h1 class="mb-4 text-3xl font-bold text-white">{pageTitle}</h1>
+
+		<!-- Toggles Section -->
+		<div class="mb-6 flex items-center justify-between">
+			<div class="flex items-center space-x-4">
+				<!-- Recommendations Toggle -->
+				{#if enableRecommendationsToggle}
+					<button
+						onclick={toggleRecommendationsFilter}
+						class="flex items-center space-x-2 px-4 py-2 rounded-lg transition-all duration-300 {showRecommendationsFilter ? 'bg-yellow-500 text-white' : 'bg-gray-700 text-gray-300 hover:bg-gray-600'}"
+					>
+						<span class="text-lg">🌟</span>
+						<span>
+							{showRecommendationsFilter ? 'Voir tous les articles' : 'Recommandations uniquement'}
+						</span>
+					</button>
+				{/if}
+			</div>
+		</div>
 
 		<ArticleListHeader
             {filters}

@@ -364,13 +364,15 @@
 			<ArticleListView
 				pageTitle="Articles disponibles"
 				filters={filterOptions}
-				initialFilterValue={initialFilter}
+				initialFilterValue={null}
 				filterSelectLabel="Spécialités"
 				subDisciplineFetchMode="public"
 				showSignupPromptProp={false}
 				enableSearch={true}
 				isSubscribed={data.isSubscribed}
 				onEditClick={openEditModal}
+				showAllCategoriesOption={true}
+				enableRecommendationsToggle={true}
 			/>
 		</div>
 	</div>

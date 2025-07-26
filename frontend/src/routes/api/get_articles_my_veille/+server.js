@@ -8,6 +8,7 @@ export const GET = async ({ url, locals: { supabase, safeGetSession } }) => {
     const offset = parseInt(url.searchParams.get('offset') || '0');
     const search = url.searchParams.get('search');
     const filterByUserSubs = url.searchParams.get('filterByUserSubs') === 'true';
+    const isRecommandation = url.searchParams.get('isRecommandation') === 'true';
     const { user } = await safeGetSession();
     const userId = user?.id ?? null;
 
@@ -25,7 +26,8 @@ export const GET = async ({ url, locals: { supabase, safeGetSession } }) => {
             p_offset: offset,
             p_search_term: search || null,
             p_user_id: userId,
-            p_filter_by_user_subs: filterByUserSubs
+            p_filter_by_user_subs: filterByUserSubs,
+            p_only_recommendations: isRecommandation
         }
     );
 

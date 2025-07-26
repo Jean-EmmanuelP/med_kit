@@ -20,22 +20,18 @@
 
 {#if currentUserId}
     <ArticleListView
-        pageTitle="Mes articles favoris"
-        filters={filtersForView}
-        initialFilterValue={ALL_CATEGORIES_VALUE}
-        filterSelectLabel="Filtrer par discipline"
-        showAllCategoriesOption={true}
+        pageTitle="Mes favoris"
+        filters={[]}
         apiEndpoint="/api/get-liked-articles"
-        userId={currentUserId}
-        subDisciplineFetchMode="public"
-        enableSearch={true}
-        searchPlaceholder="Rechercher dans mes favoris..."
-        showAllSubDisciplinesOption={true}
-        subDisciplineSelectLabel="Affiner par sous-spécialité"
-        allArticlesLoadedText="Tous vos articles favoris sont chargés"
-        itemsPerPage={10}
-        emptyStateMessage={noLikedArticlesMessage}
+        showAllCategoriesOption={true}
+        emptyStateMessage="Vous n'avez pas encore ajouté d'articles à vos favoris.<br>Parcourez les articles et cliquez sur le cœur pour les sauvegarder ici."
+        userId={data.userId}
+        itemsPerPage={15}
+        loadMoreButtonText="Charger plus de favoris"
+        allArticlesLoadedText="Tous vos favoris ont été chargés"
         isSubscribed={data.isSubscribed}
+        showRecommendationsOnly={false}
+        enableRecommendationsToggle={true}
     />
 {:else}
      <!-- Optional: Show message or loader while user store initializes -->

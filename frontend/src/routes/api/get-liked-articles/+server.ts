@@ -14,22 +14,24 @@ export const GET = async ({ url, locals: { supabase, safeGetSession } }) => {
     const search = url.searchParams.get('search');
     const specialty = url.searchParams.get('specialty');        // <<< NEW: Discipline filter
     const subDiscipline = url.searchParams.get('subDiscipline'); // <<< NEW: Sub-discipline filter
+    const isRecommandation = url.searchParams.get('isRecommandation') === 'true'; // <<< NEW: Recommendations filter
 
     // Treat empty specialty as NULL for the RPC call
     const disciplineNameToRPC = (!specialty || specialty === '__ALL__') ? null : specialty; // <<< Handle "All"
     const subDisciplineToRPC = disciplineNameToRPC ? (subDiscipline || null) : null; // <<< Nullify sub if discipline is null
 
     // --- Call the UPDATED RPC function ---
-    console.log(`Calling RPC get_liked_articles with: user=${userId}, discipline=${disciplineNameToRPC}, subDiscipline=${subDisciplineToRPC}, offset=${offset}, search=${search || null}`);
+    console.log(`Calling RPC get_liked_articles with: user=${userId}, discipline=${disciplineNameToRPC}, subDiscipline=${subDisciplineToRPC}, offset=${offset}, search=${search || null}, isRecommandation=${isRecommandation}`);
 
     const { data: articlesData, error: rpcError } = await supabase.rpc(
-        'get_liked_articles', // Still calling the same named RPC, but it's the *updated* version
+        'get_user_liked_articles', // Nom de la fonction RPC
         {
-            p_user_id: userId,
-            p_discipline_name: disciplineNameToRPC, // Pass null if "All"
-            p_sub_discipline_name: subDisciplineToRPC,
-            p_offset: offset,
-            p_search_term: search || null
+            p_user_id: userId, // UUID de l'utilisateur
+            p_discipline_name: disciplineNameToRPC, // Passer null si "All"
+            p_sub_discipline_name: subDisciplineToRPC, // Passer null si non spécifié
+            p_search_term: search || null, // Terme de recherche, null si vide
+            p_only_recommendations: isRecommandation, // Corrigé de p_is_recommandation à p_only_recommendations
+            p_offset: offset // Décalage pour la pagination
         }
     );
 

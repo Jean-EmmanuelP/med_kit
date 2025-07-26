@@ -28,10 +28,12 @@
 <ArticleListView
 	pageTitle="Tous les articles"
 	filters={filterOptions}
-	initialFilterValue={initialFilter}
+	initialFilterValue={null}
 	filterSelectLabel="Spécialités"
 	subDisciplineFetchMode="public"
 	showSignupPromptProp={false}
 	enableSearch={true}
 	isSubscribed={data.isSubscribed}
+	showAllCategoriesOption={true}
+	enableRecommendationsToggle={true}
 />
