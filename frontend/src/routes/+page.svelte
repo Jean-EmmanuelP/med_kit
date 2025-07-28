@@ -3,6 +3,8 @@
 	// --- IMPORTS ---
 	import { goto } from '$app/navigation';
 	import ArticleImmersiveModal from '$lib/components/articles/ArticleImmersiveModal.svelte';
+	import ArticleEditModal from '$lib/components/articles/ArticleEditModal.svelte';
+	import ArticleSearchById from '$lib/components/articles/ArticleSearchById.svelte';
 	import * as Select from '$lib/components/ui/select/index.js';
 	import userProfileStore from '$lib/stores/user';
 	import EmbaseSvg from '../lib/svg/EmbaseSvg.svelte';
@@ -20,11 +22,18 @@
 	let immersiveArticle = $state<Article | null>(null);
 	let isPlaying = $state(false);
 
+	// Edit modal state
+	let showEditModal = $state(false);
+	let editingArticle = $state<Article | null>(null);
+
 	// --- DERIVED & COMPUTED ---
 	specialties = specialties.sort((a, b) => a.localeCompare(b, 'fr', { sensitivity: 'base' }));
 	const triggerContent = $derived(
 		specialties.find((s) => s === selectedSpecialty) ?? 'Choisissez une spécialité'
 	);
+
+	// Check if user is admin
+	const isAdmin = $derived($userProfileStore?.is_admin ?? false);
 
 	// --- UTILITY FUNCTIONS (unchanged) ---
 	function handleVeilleClick(event: MouseEvent) {
@@ -88,6 +97,18 @@
 		isPlaying = !isPlaying;
 	}
 
+	// Function to handle edit article
+	function handleEditArticle(article: Article) {
+		editingArticle = article;
+		showEditModal = true;
+	}
+
+	// Function to close edit modal
+	function closeEditModal() {
+		showEditModal = false;
+		editingArticle = null;
+	}
+
 	// --- EFFECTS (unchanged) ---
 	$effect(() => {
 		let filtered: Article[] = data.articles || [];
@@ -111,11 +132,13 @@
 	/>
 </svelte:head>
 
-<main class="relative flex min-h-screen flex-col bg-black text-white font-sans">
+<main class="min-h-screen bg-black text-white">
+	<!-- Admin Search by ID Component -->
+	<!-- <ArticleSearchById onArticleFound={handleEditArticle} /> -->
 
-	<!-- ======================== -->
-	<!--      NEW HERO SECTION    -->
-	<!-- ======================== -->
+	<!-- ==================================================== -->
+	<!-- HERO SECTION (Keep as is)                           -->
+	<!-- ==================================================== -->
 	<section class="relative pt-28 pb-24 md:pt-28 md:pb-24 overflow-hidden bg-gradient-to-b from-gray-950 via-black to-black">
         <div class="absolute inset-0 bg-center [mask-image:linear-gradient(180deg,white,rgba(255,255,255,0))] opacity-5"></div>
         <div class="container relative z-10 mx-auto max-w-5xl px-4 text-center">
@@ -143,7 +166,7 @@
                     Votre navigateur ne supporte pas l'élément audio.
                 </audio>
                 <button
-                    on:click={toggleAudio}
+                    onclick={toggleAudio}
                     class="play-button group relative flex items-center gap-2.5 rounded-full bg-gradient-to-r from-blue-600 to-teal-600 px-6 py-2.5 text-sm font-semibold text-white shadow-lg transition-all duration-300 hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-teal-400 focus:ring-offset-2 focus:ring-offset-black"
                     aria-label={isPlaying ? 'Mettre en pause la présentation audio' : 'Écouter la présentation audio'}
                 >
@@ -162,7 +185,7 @@
             <div class="mt-10">
                 <a
                     href={$userProfileStore ? '/ma-veille' : '/signup'}
-                    on:click={handleVeilleClick}
+                    onclick={handleVeilleClick}
                     class="group inline-flex items-center justify-center gap-2 rounded-full bg-orange-600 px-8 py-3 text-base font-semibold text-white shadow-lg transition-all duration-300 hover:bg-orange-700 hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2 focus:ring-offset-black transform hover:scale-105"
                 >
                     <span>{$userProfileStore ? 'Accéder à Ma Veille' : 'S’inscrire Gratuitement'}</span>
@@ -348,7 +371,25 @@
 				{:else}
 					<ul class="space-y-4">
 						{#each articles.slice(0,3) as article (article.id)}
-							<li role="button" tabindex="0" on:click={() => openImmersive(article)} on:keydown={(e) => e.key === 'Enter' && openImmersive(article)} class="relative cursor-pointer rounded-lg bg-gray-800 p-4 shadow-md transition-all duration-200 hover:bg-gray-700 hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-teal-500 focus:ring-offset-2 focus:ring-offset-black">
+							<li role="button" tabindex="0" onclick={() => openImmersive(article)} onkeydown={(e) => e.key === 'Enter' && openImmersive(article)} class="relative cursor-pointer rounded-lg bg-gray-800 p-4 shadow-md transition-all duration-200 hover:bg-gray-700 hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-teal-500 focus:ring-offset-2 focus:ring-offset-black">
+								<!-- Edit Button for Admins -->
+								{#if isAdmin}
+									<button
+										type="button"
+										aria-label="Modifier l'article"
+										title="Modifier l'article"
+										onclick={(e) => {
+											e.stopPropagation();
+											handleEditArticle(article);
+										}}
+										class="absolute top-2 right-2 focus:outline-none rounded-full p-1 transition-colors duration-150 hover:bg-gray-600 focus-visible:ring-2 focus-visible:ring-yellow-500 focus-visible:ring-offset-2 focus-visible:ring-offset-gray-800 z-10"
+									>
+										<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 text-yellow-400 hover:text-yellow-300 pointer-events-none">
+											<path stroke-linecap="round" stroke-linejoin="round" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"/>
+										</svg>
+									</button>
+								{/if}
+								
 								<h3 class="text-left text-lg font-bold text-white pr-5">
 									<span class="mr-1.5">{extractTitleEmoji(article.content)}</span>
 									{formatTitle(article.title)}
@@ -412,6 +453,13 @@
 {#if immersiveArticle}
 	<ArticleImmersiveModal article={immersiveArticle} on:close={closeImmersive} />
 {/if}
+
+<!-- Modal d'édition d'articles -->
+<ArticleEditModal 
+	showModal={showEditModal} 
+	article={editingArticle} 
+	onClose={closeEditModal} 
+/>
 
 <style>
 	/* Reuse styles from previous version */

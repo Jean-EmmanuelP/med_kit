@@ -1,7 +1,9 @@
 <!-- src/routes/favoris/+page.svelte -->
 <script lang="ts">
     import ArticleListView from '$lib/components/articles/ArticleListView.svelte';
+    import ArticleEditModal from '$lib/components/articles/ArticleEditModal.svelte';
     import userProfileStore from '$lib/stores/user';
+    import type { Article } from '$lib/utils/articleUtils';
 
     // Get data from +page.server.ts
     const { data } = $props();
@@ -16,6 +18,25 @@
 
     // Define the special value for clarity
     const ALL_CATEGORIES_VALUE = "__ALL__";
+
+    // Edit modal state
+    let showEditModal = $state(false);
+    let editingArticle = $state<Article | null>(null);
+
+    // Check if user is admin
+    const isAdmin = $derived($userProfileStore?.is_admin ?? false);
+
+    // Function to handle edit article
+    function handleEditArticle(article: Article) {
+        editingArticle = article;
+        showEditModal = true;
+    }
+
+    // Function to close edit modal
+    function closeEditModal() {
+        showEditModal = false;
+        editingArticle = null;
+    }
 </script>
 
 {#if currentUserId}
@@ -32,6 +53,7 @@
         isSubscribed={data.isSubscribed}
         showRecommendationsOnly={false}
         enableRecommendationsToggle={true}
+        onEditClick={handleEditArticle}
     />
 {:else}
      <!-- Optional: Show message or loader while user store initializes -->
@@ -39,6 +61,13 @@
          <p>Chargement des favoris...</p>
      </div>
 {/if}
+
+<!-- Edit Article Modal -->
+<ArticleEditModal 
+    showModal={showEditModal} 
+    article={editingArticle} 
+    onClose={closeEditModal} 
+/>
 
 <style>
     /* Page-specific styles if needed */

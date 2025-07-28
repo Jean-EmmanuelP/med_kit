@@ -11,6 +11,7 @@
 	import ArticleImmersiveModal from './ArticleImmersiveModal.svelte';
 	import ArticleListDisplay from './ArticleListDisplay.svelte';
 	import ArticleListHeader from './ArticleListHeader.svelte';
+	import ArticleEditModal from './ArticleEditModal.svelte';
 
     const ALL_CATEGORIES_VALUE = "__ALL__";
     const ALL_CATEGORIES_LABEL = "Toutes les catégories";
@@ -145,6 +146,10 @@
     
     // Recommendations filter state
     let showRecommendationsFilter = $state(showRecommendationsOnly);
+
+    // Edit modal state
+    let showEditModal = $state(false);
+    let editingArticle = $state<Article | null>(null);
 
 	const filterForTitle = $derived(
         selectedFilter === ALL_CATEGORIES_VALUE
@@ -530,6 +535,18 @@
     function performReadRevert(originalArticleState: Article) {
          performOptimisticArticleUpdate(getArticleId(originalArticleState), { is_read: originalArticleState.is_read ?? false });
     }
+
+    // Function to handle edit article
+    function handleEditArticle(article: Article) {
+        editingArticle = article;
+        showEditModal = true;
+    }
+
+    // Function to close edit modal
+    function closeEditModal() {
+        showEditModal = false;
+        editingArticle = null;
+    }
 </script>
 
 <div class="min-h-screen bg-black px-4 py-8 md:py-12 text-white">
@@ -613,7 +630,7 @@
             {mainArticleListTitleInfo}
             {ALL_CATEGORIES_VALUE}
             {isSubscribed}
-            {onEditClick}
+            onEditClick={handleEditArticle}
             on:openArticle={(e) => openImmersive(e.detail)}
             on:likeToggle={(e) => handleLikeToggle(e.detail)}
             on:toggleRead={(e) => handleToggleRead(e.detail)}
@@ -624,6 +641,11 @@
 	</div>
 </div>
 <ArticleImmersiveModal article={immersiveArticle} on:close={closeImmersive} />
+<ArticleEditModal 
+    showModal={showEditModal} 
+    article={editingArticle} 
+    onClose={closeEditModal} 
+/>
 <ConfirmationModal isOpen={showUnlikeConfirmModal} on:confirm={handleConfirmUnlike} on:cancel={handleCancelUnlike} title="Confirmer le retrait" message="Retirer cet article de vos favoris ?" confirmText="Retirer" cancelText="Annuler"/>
 {#if showSubscriptionRequired}
     <SubscriptionRequired on:close={() => showSubscriptionRequired = false} />

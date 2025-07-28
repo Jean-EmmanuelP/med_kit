@@ -2,10 +2,12 @@
 <script lang="ts">
 	// Correctly import 'page', not '$page'
 	import ArticleListView from '$lib/components/articles/ArticleListView.svelte';
+	import ArticleEditModal from '$lib/components/articles/ArticleEditModal.svelte';
 	import { i18n } from '$lib/i18n';
 	import userProfileStore from '$lib/stores/user';
 	import { onMount } from 'svelte';
 	import { supabase } from '$lib/supabase';
+	import type { Article } from '$lib/utils/articleUtils';
 
 	// --- Type for the structure from server ---
 	interface SubDisciplineInfo { id: number; name: string; }
@@ -87,6 +89,25 @@
 	let progressError: string | null = $state(null);
 	let progressData: ProcessedProgressData | null = $state(null);
 	let showProgressModal = $state(false);
+
+	// Edit modal state
+	let showEditModal = $state(false);
+	let editingArticle = $state<Article | null>(null);
+
+	// Check if user is admin
+	const isAdmin = $derived($userProfileStore?.is_admin ?? false);
+
+	// Function to handle edit article
+	function handleEditArticle(article: Article) {
+		editingArticle = article;
+		showEditModal = true;
+	}
+
+	// Function to close edit modal
+	function closeEditModal() {
+		showEditModal = false;
+		editingArticle = null;
+	}
 
 	// Function to process raw RPC data into UI format
 	function processProgressData(rawData: ReadingProgressData): ProcessedProgressData {
@@ -326,25 +347,24 @@
 
 	<!-- ArticleListView with integrated email toggle -->
 	<ArticleListView
-		articleId={data?.articleData?.id || 0}
-		articleTitle={data?.articleData?.title || ""}
-		pageTitle={$i18n.header.myVeille || 'Ma Veille'}
+		pageTitle="Ma veille"
 		filters={filterOptions}
-		initialFilterValue={null}
+		initialFilterValue={initialMainFilterFromData}
 		initialSubFilterValue={initialSubFilterFromData}
-		filterSelectLabel="Mes spécialités"
-		showSignupPromptProp={true}
-		enableSearch={true}
+		filterSelectLabel="Spécialités"
 		subDisciplineFetchMode="user"
+		showSignupPromptProp={false}
+		enableSearch={true}
+		apiEndpoint="/api/get_articles_my_veille"
+		apiFilterParamName="specialty"
 		userId={currentUserId}
-		showAllCategoriesOption={true}
-		showAllSubDisciplinesOption={true}
-		allSubDisciplinesLabel="Toutes mes sous-spécialités"
-		filterByUserSubs={true}
+		itemsPerPage={15}
+		loadMoreButtonText="Charger plus d'articles"
+		allArticlesLoadedText="Tous les articles ont été chargés"
 		isSubscribed={data.isSubscribed}
-		progressData={progressData}
 		showRecommendationsOnly={false}
 		enableRecommendationsToggle={true}
+		onEditClick={handleEditArticle}
 	/>
 {/if}
 
@@ -607,6 +627,13 @@
 		</div>
 	</div>
 {/if}
+
+<!-- Edit Article Modal -->
+<ArticleEditModal 
+	showModal={showEditModal} 
+	article={editingArticle} 
+	onClose={closeEditModal} 
+/>
 
 <style>
 	/* Page-specific styles */
