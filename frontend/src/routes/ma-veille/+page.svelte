@@ -364,6 +364,7 @@
 		isSubscribed={data.isSubscribed}
 		showRecommendationsOnly={false}
 		enableRecommendationsToggle={true}
+		enableReadArticlesToggle={true}
 		onEditClick={handleEditArticle}
 	/>
 {/if}

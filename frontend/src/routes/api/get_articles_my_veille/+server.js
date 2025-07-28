@@ -9,6 +9,7 @@ export const GET = async ({ url, locals: { supabase, safeGetSession } }) => {
     const search = url.searchParams.get('search');
     const filterByUserSubs = url.searchParams.get('filterByUserSubs') === 'true';
     const isRecommandation = url.searchParams.get('isRecommandation') === 'true';
+    const onlyReadArticles = url.searchParams.get('p_only_read_articles') === 'true';
     const { user } = await safeGetSession();
     const userId = user?.id ?? null;
 
@@ -27,7 +28,8 @@ export const GET = async ({ url, locals: { supabase, safeGetSession } }) => {
             p_search_term: search || null,
             p_user_id: userId,
             p_filter_by_user_subs: filterByUserSubs,
-            p_only_recommendations: isRecommandation
+            p_only_recommendations: isRecommandation,
+            p_only_read_articles: onlyReadArticles
         }
     );
 

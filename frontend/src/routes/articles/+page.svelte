@@ -58,6 +58,7 @@
 	isSubscribed={data.isSubscribed}
 	showAllCategoriesOption={true}
 	enableRecommendationsToggle={true}
+	enableReadArticlesToggle={true}
 	onEditClick={handleEditArticle}
 />
 

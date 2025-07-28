@@ -87,7 +87,9 @@
         // New prop for recommendations filter
         showRecommendationsOnly = false,
         // New prop to control recommendations toggle visibility
-        enableRecommendationsToggle = true
+        enableRecommendationsToggle = true,
+        // New prop to control read articles toggle visibility
+        enableReadArticlesToggle = true
 	} = $props<{
         articleId?: number;
         articleTitle?: string;
@@ -120,6 +122,8 @@
         showRecommendationsOnly?: boolean;
         // New prop to control recommendations toggle visibility
         enableRecommendationsToggle?: boolean;
+        // New prop to control read articles toggle visibility
+        enableReadArticlesToggle?: boolean;
 	}>();
 
     const defaultInitialFilter = filters.length > 0 ? (showAllCategoriesOption ? ALL_CATEGORIES_VALUE : (filters[0]?.value ?? null)) : (showAllCategoriesOption ? ALL_CATEGORIES_VALUE : null);
@@ -146,6 +150,9 @@
     
     // Recommendations filter state
     let showRecommendationsFilter = $state(showRecommendationsOnly);
+
+    // Read articles filter state
+    let showReadArticlesFilter = $state(false);
 
     // Edit modal state
     let showEditModal = $state(false);
@@ -279,6 +286,7 @@
         const _showEmailArticles = false; // Removed email articles view state
         const _emailReadFilter = 'all'; // Removed email articles read filter state
         const _showRecommendations = showRecommendationsFilter;
+        const _showReadArticles = showReadArticlesFilter;
 
         if (!_userId) { 
             return; 
@@ -297,7 +305,7 @@
 
     // Removed email articles view toggle function
 
-    // Toggle recommendations filter
+    // Function to toggle recommendations filter
     function toggleRecommendationsFilter() {
         showRecommendationsFilter = !showRecommendationsFilter;
         // Reset and fetch articles
@@ -310,7 +318,18 @@
         debouncedFetchArticles(false);
     }
 
-    // Removed email articles filter changes function
+    // Function to toggle read articles filter
+    function toggleReadArticlesFilter() {
+        showReadArticlesFilter = !showReadArticlesFilter;
+        // Reset and fetch articles
+        articles = [];
+        articleOfTheDay = null;
+        offset = 0;
+        hasMore = true;
+        fetchError = null;
+        isInitialLoading = true;
+        debouncedFetchArticles(false);
+    }
 
     function processFetchedArticlesForAotD(newlyFetchedArticles: Article[], isSearchCurrentlyActive: boolean, isLikedArticlesPage: boolean): { aotd: Article | null; regularArticles: Article[] } {
         let potentialAotd: Article | null = null;
@@ -371,6 +390,10 @@
         // Add recommendations filter
         if (showRecommendationsFilter) {
             url.searchParams.set('isRecommandation', 'true');
+        }
+        // Add read articles filter
+        if (showReadArticlesFilter) {
+            url.searchParams.set('p_only_read_articles', 'true');
         }
 
 		fetch(url.toString())
@@ -582,6 +605,19 @@
 						<span class="text-lg">🌟</span>
 						<span>
 							{showRecommendationsFilter ? 'Voir tous les articles' : 'Recommandations uniquement'}
+						</span>
+					</button>
+				{/if}
+
+				<!-- Read Articles Toggle -->
+				{#if enableReadArticlesToggle}
+					<button
+						onclick={toggleReadArticlesFilter}
+						class="flex items-center space-x-2 px-4 py-2 rounded-lg transition-all duration-300 {showReadArticlesFilter ? 'bg-green-500 text-white' : 'bg-gray-700 text-gray-300 hover:bg-gray-600'}"
+					>
+						<span class="text-lg">📖</span>
+						<span>
+							{showReadArticlesFilter ? 'Voir tous les articles' : 'Articles lus uniquement'}
 						</span>
 					</button>
 				{/if}
