@@ -617,7 +617,7 @@
 					>
 						<span class="text-lg">📖</span>
 						<span>
-							{showReadArticlesFilter ? 'Voir tous les articles' : 'Articles lus uniquement'}
+							{showReadArticlesFilter ? 'Voir tous les articles' : 'Articles non lus uniquement'}
 						</span>
 					</button>
 				{/if}

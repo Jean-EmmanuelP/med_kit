@@ -2,136 +2,11 @@
 <script lang="ts">
 	import { AlertTriangle, CheckCircle, Loader2 } from 'lucide-svelte';
 
-	// Define the referent data directly in the script
-	// Ensure the initial array is sorted by specialty, then maybe by name for consistency
-	const referents = [
-        {
-            specialty: 'Chirurgie orthopédique',
-            name: 'Dr Félix Barbier',
-            title: 'Docteur Junior en chirurgie orthopédique',
-            affiliation: 'AP-HP',
-            focus: 'Spécialiste en chirurgie de la main'
-        },
-		{
-			specialty: 'Chirurgie pédiatrique',
-			name: 'Dr Camille Girardin',
-			title: 'Docteur Junior en chirurgie pédiatrique',
-            affiliation: 'CHU de Lille',
-			focus: 'Spécialiste en chirurgie ortho-pédiatrique'
-		},
-		{
-			specialty: 'Endocrinologie – Diabétologie – Nutrition',
-			name: 'Dr Baptiste Mazas',
-			title: 'Interne en Endocrinologie-Diabétologie-Nutrition',
-            affiliation: 'AP-HP',
-			focus: 'Diabétologie, Nutrition, Prévention Cardiovasculaire, Médecine du Sport'
-		},
-        {
-			specialty: 'Endocrinologie – Diabétologie – Nutrition',
-			name: 'Dr Flora Lambert',
-			title: 'Interne en Endocrinologie-Diabétologie-Nutrition',
-            affiliation: 'AP-HP',
-			focus: null // No specific focus listed
-		},
-        {
-			specialty: 'Hématologie',
-			name: 'Dr Alexis Talbot',
-			title: 'MCU-PH, service d\'Immuno-Hématologie',
-            affiliation: 'Hôpital Saint-Louis (AP-HP)',
-			focus: 'Spécialiste en myélome multiple, immunothérapie, CAR-T cells'
-		},
-        {
-            specialty: 'Médecine interne',
-            name: 'Dr Romain Bollart',
-            title: 'Chef de clinique dans le service de médecine interne',
-            affiliation: 'CHU de Lariboisière, AP-HP',
-            focus: null,
-        },
-        {
-            specialty: 'Médecine physique et réadaptation',
-            name: 'Maëva Dargazanli',
-            title: 'Interne en médecine physique et réadaptation',
-            affiliation: 'CHU Caen et périphéries',
-            focus: null
-        },
-        {
-            specialty: 'Médecine vasculaire',
-            name: 'Dr Benjamin Pariente',
-            title: 'Chef de clinique dans le service d\'Excellence en Hypertension Artérielle',
-            affiliation: 'Hôpital Européen Georges-Pompidou, AP-HP',
-            focus: 'Spécialiste en Hypertension Artérielle',
-        },
-		{
-			specialty: 'Neurochirurgie',
-			name: 'Dr Gonzague Defrance',
-			title: 'Docteur Junior en neurochirurgie',
-            affiliation: 'AP-HP',
-			focus: 'Spécialiste en chirurgie fonctionnelle'
-		},
-        {
-            specialty: 'Oncologie',
-            name: 'Jean-Baptiste Demigné',
-            title: 'Interne en oncologie médicale',
-            affiliation: 'AP-HM Timone',
-            focus: null,
-        },
-		{
-			specialty: 'Rhumatologie',
-			name: 'Dr Elisabetta Lanciano',
-			title: 'Rhumatologie',
-            affiliation: 'CH d\'Angoulême',
-			focus: null // No specific focus listed
-		},
-        {
-            specialty: 'Rhumatologie',
-            name: 'Félix Laborie',
-            title: 'Interne de Rhumatologie',
-            affiliation: 'AP-HP',
-            focus: null // No specific focus listed
-        },
-		{
-			specialty: 'Urgences',
-			name: 'Dr Benjamin Chevallier',
-			title: 'Médecine d\'urgence',
-            affiliation: 'SAMU de Paris – SMUR Necker – Urgences adultes Paris Saint-Joseph, AP-HP',
-			focus: null // No specific focus listed
-		},
-        {
-            specialty: 'Cardiologie',
-            name: 'Léo Azria',
-            title: 'Interne de Cardiologie',
-            affiliation: 'AP-HP',
-            focus: null // No specific focus listed
-        },
-        {
-            specialty: 'Urologie',
-            name: 'Dr Maxime Pattou',
-            title: 'Docteur Junior en urologie',
-            affiliation: 'AP-HP',
-            focus: 'Spécialiste en uro-oncologie'
-        },
-        {
-            specialty: 'Chirurgie pédiatrique',
-            name: 'Maxence de Lanversin',
-            title: 'Interne en chirurgie pédiatrique',
-            affiliation: 'CHU de Poitiers',
-            focus: 'Chirurgie plastique pédiatrique '
-        },
-        {
-            specialty: 'Urologie',
-            name: 'Dr Alexandra Clerget',
-            title: 'Docteur en Urologie',
-            affiliation: 'Hopital Paris Saint Joseph (ESPIC)',
-            focus: 'Andrologie et médecine de la reproduction',
-        }
-	].sort((a, b) => { // Ensure sorting is done definitively here
-        const specialtyCompare = a.specialty.localeCompare(b.specialty, 'fr', { sensitivity: 'base' });
-        if (specialtyCompare !== 0) {
-            return specialtyCompare;
-        }
-        // Optional: Sort by name within the same specialty
-        return a.name.localeCompare(b.name, 'fr', { sensitivity: 'base' });
-    });
+	// Get data loaded by +page.server.ts
+	const { data } = $props<{ data: { referents: any[] } }>();
+
+	// Use referents from database
+	const referents = $derived(data.referents || []);
 
     // Define the missions
     const missions = [
@@ -186,7 +61,8 @@
         const emojiMap: Record<string, string> = {
             'Chirurgie orthopédique': '🦴', 'Chirurgie pédiatrique': '👶', 'Cardiologie': '❤️',
             'Endocrinologie – Diabétologie – Nutrition': '⚖️', 'Hématologie': '🩸',
-            'Médecine physique et réadaptation': '🦿', 'Neurochirurgie': '🧠', 'Rhumatologie': '🦴', 'Urgences': '🚑', 'Urologie': '💧', 'Oncologie': '🎗️'
+            'Médecine physique et réadaptation': '🦿', 'Neurochirurgie': '🧠', 'Rhumatologie': '🦴', 'Urgences': '🚑', 'Urologie': '💧', 'Oncologie': '🎗️',
+            'Médecine interne': '⚕️', 'Médecine vasculaire': '⚕️'
         };
         return emojiMap[specialty] || '⚕️';
     }
@@ -310,7 +186,10 @@
                 <!-- Show heading if it's the first item OR if specialty differs from the previous item -->
                 {#if index === 0 || referent.specialty !== referents[index - 1].specialty}
                     <h2 class="mt-10 mb-6 border-b border-gray-700 pb-2 text-2xl font-semibold text-teal-400 sm:text-3xl">
-                        {getSpecialtyEmoji(referent.specialty)} {referent.specialty}
+                        {referent.emoji || getSpecialtyEmoji(referent.specialty)} {referent.specialty}
+                        <span class="text-sm text-gray-500 ml-2">
+                            ({referents.filter((r: any) => r.specialty === referent.specialty).length} référent{referents.filter((r: any) => r.specialty === referent.specialty).length > 1 ? 's' : ''})
+                        </span>
                     </h2>
                 {/if}
 
